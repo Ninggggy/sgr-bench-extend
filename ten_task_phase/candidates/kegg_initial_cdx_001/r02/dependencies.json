@@ -1,0 +1,19 @@
+{
+  "assessment": "A defensible bounded retrieval dependency remains for the detailed historic capivasertib classification. Metadata-only and gene-only formulations remain rejected.",
+  "edges": [
+    {"earlier_source":"Complete approval/classification evidence, d0023 and d0028 with d0010 exhaustive derivation","evidence_changes":"Drug identity, original approval date, and initial indication","later_operation":"Query/filter diagnostic approval records by those discovered drugs, indications, and effective dates."},
+    {"earlier_source":"FDA diagnostic index and original capivasertib indication","evidence_changes":"Selects the 2023 breast-cancer genomic claim rather than later PTEN protein-assay eligibility","later_operation":"Retrieve the historically applicable P170019/S048 record."},
+    {"earlier_source":"P170019/S048 record and its linked Summary of Safety and Effectiveness","evidence_changes":"Identifies the detailed source document attached to the selected supplement","later_operation":"Retrieve its SSED and locate the indication-specific Table 9, which supplies transcripts, complete substitutions, and additional classes absent from the inspected index/approval statement."}
+  ],
+  "api_bulk_audit": {
+    "valid_paths":["https://api.fda.gov/device/pma.json","https://www.accessdata.fda.gov/premarket/ftparea/pma.zip","https://open.fda.gov/apis/device/pma/download/"],
+    "schema_evidence":["d0030:pma_bulk_schema","d0030:openfda_fields","d0035:r02_official_bulk_documentation"],
+    "finding":"The actual published schemas expose approval statements and record identifiers, but no dedicated complete SSED/label-text field. Actual capivasertib approval-statement text is broad; actual quizartinib statement text already resolves its ITD distinction.",
+    "limitation":"Complete bulk bodies were not inspected. A missing dedicated field is not proof that no record statement or other legal collection can contain more detail. No universal no-shortcut claim is made.",
+    "current_cdx_table":"A legal bulk-accessible starting index. It does not supply the inspected historic capivasertib Table 9 definition. General quizartinib assay coverage must be interpreted with the drug-specific claim.",
+    "batching":"Once historical record identities are discovered, targeted batch retrieval of all their documents is valid and does not invalidate the earlier source-to-query dependency."
+  },
+  "fixed_download_distinction":"Offline reference programs compute over a prepared evidence bundle. That computation is not offered as proof of retrieval dependency. The bundle consists of task-specific documents discovered through historical record selection, rather than an established fixed global download containing all decision fields.",
+  "r02_dependency_effect":"Removing clinical prose cells does not remove transcript identifiers, the complete PTEN named set, or the detailed eligible class inventory. Those still require the historic detailed definition in the inspected source paths.",
+  "preserved_conclusions":"Quizartinib ITD versus TKD alone does not prove a dependency beyond PMA metadata. Whole-panel targets, current broad gene lists, and later protein-assay eligibility are insufficient substitutes."
+}

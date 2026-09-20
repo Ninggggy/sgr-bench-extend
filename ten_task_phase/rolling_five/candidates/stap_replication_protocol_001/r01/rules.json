@@ -1,0 +1,36 @@
+{
+  "columns": [
+    "PMID",
+    "PROCEDURE",
+    "MARKERS",
+    "FUNCTIONAL_EVIDENCE"
+  ],
+  "row_key": [
+    "PMID"
+  ],
+  "fields": {
+    "PMID": {
+      "type": "string"
+    },
+    "PROCEDURE": {
+      "type": "id_list",
+      "uppercase": true,
+      "aliases": {}
+    },
+    "MARKERS": {
+      "type": "string",
+      "uppercase": true,
+      "aliases": {
+        "rare positive": "RARE_POSITIVE",
+        "Rare positive": "RARE_POSITIVE",
+        "rare-positive": "RARE_POSITIVE",
+        "negative": "NEGATIVE"
+      }
+    },
+    "FUNCTIONAL_EVIDENCE": {
+      "type": "id_list",
+      "uppercase": true,
+      "aliases": {}
+    }
+  }
+}

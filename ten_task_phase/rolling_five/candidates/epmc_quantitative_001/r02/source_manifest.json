@@ -1,0 +1,28 @@
+{
+  "candidate_id": "epmc_quantitative_001",
+  "source_observation_date": "2026-09-12",
+  "run_current_date": "2026-09-09",
+  "run_current_date_is_evidence_cutoff": false,
+  "storage": {
+    "mode": "controller_preserved_registry",
+    "registry": "sources/registry.json",
+    "installation": "Copy the preserved downloaded_data registry and its response files into sources, retaining relative subdirectories if present. reference.py accepts any --source-dir containing that registry and resolves URL-associated saved paths without opaque evidence IDs.",
+    "raw_payloads_embedded_in_this_response": false,
+    "reason": "The input explicitly assigns copying the existing raw bundle to the controller. This delivery contains the reference, observed spans and complete issue membership inventory.",
+    "runtime_manifest": "reference.py writes resolved_source_manifest.json with actual resolved relative paths, byte lengths and SHA-256 hashes. No uncomputed hashes are asserted here."
+  },
+  "sources": [
+    {"id":"annual","url":"https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ISSN%3A0940-1334%20AND%20PUB_YEAR%3A2026&format=json&resultType=lite&pageSize=1000","method":"GET","parameters":{"query":"ISSN:0940-1334 AND PUB_YEAR:2026","format":"json","resultType":"lite","pageSize":1000,"cursorMark":"* (response-reported initial cursor)"},"fresh_requested_at":"2026-09-12T05:28:00.836204+00:00","fresh_received_at":"2026-09-12T05:28:06.129537+00:00","http_status":200,"fresh_bytes":299671,"hitCount":360,"returned_rows":360,"termination":"All hitCount records returned in the first page; no remaining page is needed.","derived_issue_records":47,"derived_issue_pmcids":24,"derived_candidate_notices":2},
+    {"id":"positive_notice","url":"https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953317/fullTextXML","method":"GET","parameters":{},"fresh_requested_at":"2026-09-12T05:28:10.996907+00:00","fresh_received_at":"2026-09-12T05:28:13.212114+00:00","http_status":200,"fresh_bytes":67427,"locators":["front/article-meta/article-id[@pub-id-type='pmcid']","body/p[@id='Par1']","body/p[@id='Par4']","body/table-wrap[@id='Tab1']/table/thead","front/article-meta/related-article[@related-article-type='corrected-article']"]},
+    {"id":"boundary_notice","url":"https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953309/fullTextXML","method":"GET","parameters":{},"fresh_requested_at":"2026-09-12T05:28:08.611591+00:00","fresh_received_at":"2026-09-12T05:28:10.995004+00:00","http_status":200,"fresh_bytes":10079,"locators":["body/p[@id='Par18']","body/p[@id='Par19']","body/p[@id='Par20']","body/p[@id='Par21']"]},
+    {"id":"original","url":"https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953261/fullTextXML","method":"GET","parameters":{},"fresh_requested_at":"2026-09-12T05:28:06.137807+00:00","fresh_received_at":"2026-09-12T05:28:08.609249+00:00","http_status":200,"fresh_bytes":157708,"locators":["front/article-meta/article-id","body/sec[@id='Sec2']/p[@id='Par9']","body/sec[@id='Sec2']/p[@id='Par12']","body/sec[@id='Sec13']/p[@id='Par32']"]}
+  ],
+  "preserved_prior_observations": {
+    "provenance": "User-supplied controller continuation and feasibility evidence; not represented as fresh constructor tool executions.",
+    "annual_and_issue": "360 annual records, 47 issue records, 24 populated issue PMCIDs.",
+    "full24_batch": "Actually recovered and covers both notices and original; no repeat fetch performed.",
+    "core_and_abstract": "Prior actual core/abstract observations did not expose the essential initial-cohort and completed-assessment/questionnaire inclusion scope.",
+    "failed_query": "Prior JOURNAL_VOLUME/ISSUE search returned zero; it was superseded by complete annual enumeration and local actual-field filtering."
+  },
+  "stability_policy": "Keep the complete raw annual response. reference.py exports all annual and issue records. For later live tests compare complete normalized annual membership fields, issue membership and all three required XML responses; a changed slice requires review before reusing this oracle. Do not backdate a new observation or claim a historical version from a current response."
+}

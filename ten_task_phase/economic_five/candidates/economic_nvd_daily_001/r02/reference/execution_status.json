@@ -1,0 +1,16 @@
+{
+  "actual_executed": [
+    "functions.exec: solveReference(sourceFiles, sourceManifest), full source reconstruction, twice; second includes 28 positive dictionary checks",
+    "SQLite: recursive configuration traversal; complete Match union; exact-UUID source JSON join; 228-row oracle comparison",
+    "functions.exec: checkStability(sourceFiles, sourceManifest)",
+    "SQLite: fresh wider-scope row comparison and independent revision-index UUID intersection"
+  ],
+  "not_executed": [
+    "Python reference program",
+    "Controller materialization and cross-language comparison",
+    "Existing scorer integration",
+    "Blind solver/attack or another model"
+  ],
+  "oracle_complete_for_observed_sources": true,
+  "evaluation_approved": false
+}

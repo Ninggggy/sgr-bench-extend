@@ -1,0 +1,19 @@
+{
+  "columns": [
+    "evidence",
+    "hardness_state",
+    "screen",
+    "n_results"
+  ],
+  "row_key": [
+    "evidence",
+    "hardness_state",
+    "screen"
+  ],
+  "fields": {
+    "n_results": {
+      "type": "integer",
+      "aliases": {}
+    }
+  }
+}

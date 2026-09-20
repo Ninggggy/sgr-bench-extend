@@ -1,0 +1,23 @@
+{
+  "candidate_id": "iana_dtls_001",
+  "revision": 4,
+  "observation_date": "2026-09-13",
+  "observation_timezone": "UTC",
+  "protocol_current_date": "2026-09-09",
+  "output_columns": [
+    "deprecated_value",
+    "published_replacement_value",
+    "review_date",
+    "reviewed_draft",
+    "proposed_permanent_value"
+  ],
+  "row_key": [
+    "deprecated_value"
+  ],
+  "content_validation_kind": "independent_pre_development_content_review passed on reference/latest conditions; integration checked locally",
+  "human_validation": "not_performed",
+  "difficulty": "untested",
+  "post_development_final_audit": "not_performed",
+  "substantive_revisions_used": 2,
+  "substantive_revisions_remaining": 0
+}

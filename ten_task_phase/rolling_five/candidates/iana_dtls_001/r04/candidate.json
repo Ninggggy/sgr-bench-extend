@@ -1,0 +1,73 @@
+{
+  "candidate_id": "iana_dtls_001",
+  "revision": 4,
+  "ecosystem": "IANA/IETF",
+  "domain": "DTLS extension registration proposal and published assignment reconciliation",
+  "status": "reference_ready",
+  "old_task_refs": [
+    "arxiv_001",
+    "nvd_001",
+    "reptile_001"
+  ],
+  "research_goal": "Check deprecated DTLS-only registration trails for implementation planning so an earlier allocation proposal is not mistaken for the published replacement assignment.",
+  "structural_upgrade": "A discovered registry identity and cited specification select the document family and its official History view; the dated proposal and reviewed revision are absent from registry plus published-RFC inputs. Independent pre-development content review supports this dependency; no difficulty result claimed.",
+  "public": {
+    "cg": {
+      "instruction": "Check the registration trail of deprecated extensions applicable only to Datagram Transport Layer Security (DTLS) so an implementation plan does not mistake an earlier proposal for the published assignment. Report each published replacement alongside the last qualifying allocation proposal, with its reviewed draft and date.\n\nFirst establish the complete protocol registration scope and identify the deprecated entries. Use their specification references to identify the corresponding document families and expressly stated replacements. Select each discovered family’s document-history view, distinguish allocation reviews from other events, and compare the last qualifying proposal with the published assignment.\n\nUse the public registration state observed on 13 September 2026 UTC. Cover every individually assigned numeric value in the 16-bit TLS ExtensionType space whose DTLS-only flag is Y and whose registered name marks it as deprecated. Keep numeric assignments distinct. Establish the replacement only where the cited specification expressly identifies it; do not infer replacement from similar names.\n\nFor each in-scope extension, identify the last substantive review in its specification's official document history before publication in which the operator responsible for the registry explicitly proposed an ExtensionType assignment for that extension. Include the operator's own allocation review, not a document shepherd's discussion (the shepherd coordinates publication), another reviewer's comments, or an administrative status change. Report the reviewed draft identifier and the calendar date recorded with that review. A planned assignment is not proof that the action took effect, and it does not establish which protocol revision existing implementations used.",
+      "output_format": "Return one pipe-separated row per in-scope deprecated assignment, sorted by decimal value, with this header:\ndeprecated_value|published_replacement_value|review_date|reviewed_draft|proposed_permanent_value\n\nThe last column means the value proposed for use with the published specification, not an assertion that it was permanently assigned. Use YYYY-MM-DD dates and fully versioned draft identifiers. If complete official history establishes that there is no qualifying review, use NONE in the three review fields. If required records or the replacement identity remain unresolved, return UNRESOLVED with a short explanation instead of a partial table.\n\nIf no assignments qualify, return only NONE on one line, without a header. Otherwise return the requested table or the specified UNRESOLVED response. Do not add Markdown fences or citations."
+    },
+    "go": {
+      "instruction": "Check the registration trail of deprecated extensions applicable only to Datagram Transport Layer Security (DTLS) so an implementation plan does not mistake an earlier proposal for the published assignment. Report each published replacement alongside the last qualifying allocation proposal, with its reviewed draft and date.\n\nUse the public registration state observed on 13 September 2026 UTC. Cover every individually assigned numeric value in the 16-bit TLS ExtensionType space whose DTLS-only flag is Y and whose registered name marks it as deprecated. Keep numeric assignments distinct. Establish the replacement only where the cited specification expressly identifies it; do not infer replacement from similar names.\n\nFor each in-scope extension, identify the last substantive review in its specification's official document history before publication in which the operator responsible for the registry explicitly proposed an ExtensionType assignment for that extension. Include the operator's own allocation review, not a document shepherd's discussion (the shepherd coordinates publication), another reviewer's comments, or an administrative status change. Report the reviewed draft identifier and the calendar date recorded with that review. A planned assignment is not proof that the action took effect, and it does not establish which protocol revision existing implementations used.",
+      "output_format": "Return one pipe-separated row per in-scope deprecated assignment, sorted by decimal value, with this header:\ndeprecated_value|published_replacement_value|review_date|reviewed_draft|proposed_permanent_value\n\nThe last column means the value proposed for use with the published specification, not an assertion that it was permanently assigned. Use YYYY-MM-DD dates and fully versioned draft identifiers. If complete official history establishes that there is no qualifying review, use NONE in the three review fields. If required records or the replacement identity remain unresolved, return UNRESOLVED with a short explanation instead of a partial table.\n\nIf no assignments qualify, return only NONE on one line, without a header. Otherwise return the requested table or the specified UNRESOLVED response. Do not add Markdown fences or citations."
+    }
+  },
+  "private": {
+    "source_version": "Public registration and official History observed 2026-09-13 UTC. Registry refreshed 2026-09-13T02:07:14.458273Z to 02:07:15.979748Z and byte-identical to prior full capture; History obtained 2026-09-13T01:52:34.843703Z to 01:52:36.826111Z. Published RFC texts reused from 2026-09-12. Protocol current_date remains 2026-09-09; no historical reconstruction of that date is claimed.",
+    "start_urls": [
+      "https://www.iana.org/assignments/tls-extensiontype-values",
+      "https://datatracker.ietf.org/"
+    ],
+    "candidate_scope": "Complete 16-bit TLS ExtensionType assignment space, 103 captured records including range rows. Include only individual numeric entries with DTLS-only exactly Y and registered name marking deprecated; actual subset53. History scope is the corresponding specification draft-family official document History, not all off-page correspondence.",
+    "predicates": [
+      "Use actual public observation 2026-09-13 UTC, distinct from protocol date2026-09-09.",
+      "Include individual numeric entries iff DTLS-only=Y and registered name marks deprecated; exclude ranges and retain distinct numeric identities.",
+      "Use cited specification to establish expressly identified replacement, never a name similarity inference.",
+      "Select latest pre-publication substantive registry-operator review that explicitly proposes an ExtensionType assignment for that extension, regardless of equality to deprecated value.",
+      "Exclude shepherd discussion, other reviewer comments and administrative status changes; keep complete History event inventory.",
+      "Use reviewed fully versioned draft identity and event calendar date. Planned assignment does not prove execution or legacy implementation protocol revision."
+    ],
+    "output_columns": [
+      "deprecated_value",
+      "published_replacement_value",
+      "review_date",
+      "reviewed_draft",
+      "proposed_permanent_value"
+    ],
+    "row_key": [
+      "deprecated_value"
+    ],
+    "sorting_rules": [
+      "One row per qualifying decimal numeric value, ascending; distinct values remain distinct."
+    ],
+    "missing_value_rules": [
+      "When complete official history establishes no qualifying review, use NONE in review_date, reviewed_draft and proposed_permanent_value.",
+      "Required records or replacement identity unresolved: return UNRESOLVED with a short explanation, not a partial table.",
+      "When no assignments qualify, return only NONE on one line without a header."
+    ],
+    "source_manifest_path": "source_manifest.json",
+    "state_graph_path": "state_graph.json",
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "passed",
+    "difficulty": "not_run",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "content_review/iana_reconciliation_content_review.md",
+      "content_review/iana_reconciliation_content_review.json",
+      "reference_report.md",
+      "execution_checks.json"
+    ]
+  }
+}

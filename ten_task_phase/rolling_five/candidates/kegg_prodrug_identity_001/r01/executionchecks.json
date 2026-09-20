@@ -1,0 +1,19 @@
+{
+  "status": "not_run",
+  "reference_executed": false,
+  "constructor_source_reading": "complete_for_supplied_observation",
+  "supplied_controller_preflight": "The input reports a prior deterministic parser/scorer integration check. That is not execution of the delivered reference.py or a final content audit.",
+  "expected_from_supplied_sources": {"member_count": 4, "loaded_drug_count": 4, "included_member_count": 2, "pair_count": 2, "field_count": 4},
+  "controller_command_from_r01": "python3 reference.py --source-dir ../sources --out-dir reference_output",
+  "controller_checks": [
+    "Require successful exit and executionchecks.json status passed.",
+    "Compare reference_output/oracle.psv with oracle.psv.",
+    "Inspect all member decisions and pair evidence, including generated source line anchors.",
+    "Do not score an unresolved reference or source-access failure as an empty answer."
+  ],
+  "solver_tests": "not_performed",
+  "independent_final_audit": "not_performed",
+  "human_review": "not_performed",
+  "preblind_full_source_recheck": "pending",
+  "postblind_full_source_recheck": "pending"
+}

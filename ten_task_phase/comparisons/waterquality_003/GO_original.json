@@ -1,0 +1,66 @@
+{
+  "task_id": "waterquality_003-g",
+  "domain": "WATER_QUALITY_PORTAL",
+  "autonomy_type": "ordered table",
+  "oracle_output_cardinality": 3,
+  "instruction": "I am compiling 2012–2018 water-quality reference data for the Brazos River mainstem downstream of Brazos Rv at Waco, TX. For each of the three specified HUCs that include Waco (12060202, 12070101, 12070104), I need to identify one TCEQ monitoring station suitable as a long-term reference for 2012–2018 along the Brazos River mainstem downstream of Brazos Rv at Waco, TX. Candidate stations must satisfy all of the following: be located within the corresponding HUC; have a monitoring-location type of River/Stream on the station detail page; have a station name that still corresponds to the Brazos River mainstem, not a tributary or other named waterbody; and have records covering 2012–2018 for all five characteristic groups—Inorganics, Major, Non-metals; Microbiological; Nutrient; Organics, Other; and Physical—meaning the station’s start year is no later than 2012 and its end year is no earlier than 2018. List the three results in upstream-to-downstream order, one per line, using the format: <HUC>|<MonitoringLocationIdentifier>|<earliest year when all five groups are jointly available>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Physical start year>.",
+  "start_url": "https://www.waterqualitydata.us/",
+  "output_format": "List the three results in upstream-to-downstream order, one per line, using the format: <HUC>|<MonitoringLocationIdentifier>|<earliest year when all five groups are jointly available>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Physical start year>.",
+  "oracle_answer": "12060202|TCEQMAIN-12037|2000|1991|2000|1991|1999|1991\n12070101|TCEQMAIN-12030|2006|1972|1972|1972|2006|1972\n12070104|TCEQMAIN-11848|1975|1974|1975|1974|1975|1974",
+  "metadata": {
+    "State-Gated Retrieval": [
+      "The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.",
+      "Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which the detail page must verify full 2012–2018 coverage and mainstem semantics.",
+      "For each HUC, retain only the qualifying station with the earliest common start year, and output the start-year fields required by the task."
+    ],
+    "dependency_type": "Data + Control",
+    "intra_chain": true,
+    "inter_chain": true,
+    "data_dependency": [
+      "the fixed downstream starting point below Waco and the three target HUC searches yield the Brazos mainstem candidate stations",
+      "detail pages yield true downstream position, mainstem-vs-tributary semantics, and five-group period-of-record coverage across 2012-2018",
+      "final rows are produced only after the three HUC-specific searches are carried out, matched by station ID, and ranked by the earliest year when all five groups are jointly available"
+    ],
+    "control_dependency": [
+      "the workflow must stay anchored downstream of Waco rather than reintroducing upstream stations such as TCEQMAIN-12044",
+      "name-based waterbody matches must be validated on the detail page by excluding tributaries such as LITTLE BRAZOS RIVER and confirming full-window coverage",
+      "station ranking must be determined after false positives from partial-window records are removed"
+    ],
+    "freeze": {
+      "historical_window": "Brazos River mainstem stations downstream of the Waco anchor evaluated within the fixed historical 2012-2018 window, using the HUC 12060202 / 12070101 / 12070104 split and five characteristic groups as largely stable reference information"
+    },
+    "answer_type": "multi-row ordered table"
+  },
+  "rubric": {
+    "inclusion_conditions": [
+      "The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.",
+      "Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which the detail page must verify full 2012–2018 coverage and mainstem semantics.",
+      "For each HUC, retain only the qualifying station with the earliest common start year, and output the start-year fields required by the task."
+    ],
+    "exclusion_conditions": [
+      "Exclude results that lose the downstream starting point below Waco and bring upstream stations back into the candidate set.",
+      "Exclude results that mistakenly treat tributaries such as LITTLE BRAZOS RIVER as the Brazos mainstem.",
+      "Exclude stations that have data near the query window but do not cover the entire 2012–2018 window."
+    ],
+    "normalization": {
+      "field_separator": "|",
+      "record_separator": "\n",
+      "header_row": "omit the header row; emit data rows only",
+      "schema": [
+        "HUC",
+        "MonitoringLocationIdentifier",
+        "common_start_year",
+        "Inorganics_start",
+        "Microbiological_start",
+        "Nutrient_start",
+        "Organics_Other_start",
+        "Physical_start"
+      ],
+      "HUC": "preserve the HUC exactly as emitted in the source result",
+      "MonitoringLocationIdentifier": "preserve the monitoring-location identifier exactly, for example `TCEQMAIN-12037`",
+      "common_start_year": "emit the maximum of the five per-group start years",
+      "selection_rule": "only keep mainstem river/stream sites whose five required groups all cover the target 2012-2018 window",
+      "sorting_or_selection": "upstream to downstream along the mainstem"
+    }
+  }
+}

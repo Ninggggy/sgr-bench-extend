@@ -1,0 +1,69 @@
+{
+  "at": "2026-09-08T12:32:35.551711+00:00",
+  "kind": "Implementation repair for an equivalence already declared before blind solves",
+  "issue": "NFKC converts micro sign U+00B5 to Greek mu U+03BC; initial code normalized predicted text but not the predeclared units dictionary keys. Four explicit alias checks reproduce then resolve the mismatch.",
+  "change": "Normalize both dictionary unit keys and prediction using the existing clean() function. No unit rule, oracle, public condition or tolerance change.",
+  "original_implementation": "history/score_initial.py and each run implementation/score.py",
+  "new_tests": "µg/L and μg/L at1000 ->1 mg/L; µS/cm and μS/cm ->1 microSiemens/cm",
+  "pre_repair_reproductions": [
+    {
+      "input": "1000 µg/L",
+      "field": "dissolved_oxygen_mg_L",
+      "old_normalized": "INVALID_UNIT:1000 μg/L",
+      "expected": "1"
+    },
+    {
+      "input": "1000 μg/L",
+      "field": "dissolved_oxygen_mg_L",
+      "old_normalized": "INVALID_UNIT:1000 μg/L",
+      "expected": "1"
+    },
+    {
+      "input": "1 µS/cm",
+      "field": "specific_conductance_uS_cm",
+      "old_normalized": "INVALID_UNIT:1 μS/cm",
+      "expected": "1"
+    },
+    {
+      "input": "1 μS/cm",
+      "field": "specific_conductance_uS_cm",
+      "old_normalized": "INVALID_UNIT:1 μS/cm",
+      "expected": "1"
+    }
+  ],
+  "run_checks": [
+    {
+      "run": "runs/r-cd7f6d8c7fa8",
+      "original_scores_retained": true,
+      "repaired_implementation_scores_equal": true
+    },
+    {
+      "run": "runs/r-9730550c5079",
+      "original_scores_retained": true,
+      "repaired_implementation_scores_equal": true
+    },
+    {
+      "run": "runs/r-aafc5ab55066",
+      "original_scores_retained": true,
+      "repaired_implementation_scores_equal": true
+    },
+    {
+      "run": "runs/r-d7ccc97e8a5c",
+      "original_scores_retained": true,
+      "repaired_implementation_scores_equal": true
+    },
+    {
+      "run": "runs/r-abacf42b313a",
+      "original_scores_retained": true,
+      "repaired_implementation_scores_equal": true
+    },
+    {
+      "run": "runs/r-2d131d24e520",
+      "original_scores_retained": true,
+      "repaired_implementation_scores_equal": true
+    }
+  ],
+  "substantive_candidate_revision": false,
+  "score_changes": false,
+  "future_replay": "Future runner scores with its own saved implementation/score.py. verify_run.py replays historical saved scorers."
+}

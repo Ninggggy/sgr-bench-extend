@@ -1,0 +1,19 @@
+{
+  "scope": {"records":25890,"nonempty_comments":15434,"empty_comments":10456,"raw_observations":28432,"duplicate_observations":2542,"crosslists":14793,"raw_files":"candidate_pool.json.raw_scope_files","full_csv":"d0112.csv","all_comments":"d0114.jsonl","actual_sql_aggregate":"d0268.csv"},
+  "partitions": [
+    {"rows":[1,1605],"count":1605,"review":"prefix_review.json","reviewer":"This session primary; reread all 155952 characters after worker146's incomplete dispositions","ordinary_negatives":1550,"explicit_exceptions":55},
+    {"rows":[1606,6215],"count":4610,"reviewer":"Inherited worker147/A","files":["d0143.response","d0144.response","d0145.response","d0147.response"],"ordinary_negatives":4531,"explicit_exclusions":34,"potential_flags":45},
+    {"rows":[6216,10825],"count":4610,"reviewer":"Inherited worker148/B","files":["d0148.response","d0149.response","d0150.response","d0152.response"],"ordinary_negatives":4516,"explicit_exclusions":45,"potential_flags":49},
+    {"rows":[10826,15434],"count":4609,"reviewer":"Inherited root81/C","files":["d0153.response","d0154.response","d0155.response"],"ordinary_negatives":4538,"explicit_exclusions":40,"potential_flags":18,"conservative_source_status_checks":13}
+  ],
+  "semantic_provenance":"A/B/C complete semantic reviews are reused, not claimed as personally repeated. This session read their flagged/boundary evidence, finalized the prefix and resolved every remaining plausible forward/identity/publisher flag using preserved histories and new bounded queries.",
+  "empty_comment_basis":{"evidence":"d0158.response","url":"https://info.arxiv.org/help/withdraw.html","inference":"Official withdrawal reasons are entered and displayed in Comments. Empty current Comments cannot name a successor in that notice. No API withdrawal flag or all-abstract review is claimed."},
+  "final_disposition_counts":{"included_direct_named_successor":21,"excluded_current_record_not_withdrawn":61,"named_publisher_relation_no_supported_catalogue_version":1,"excluded_reverse_or_parallel_relation":25,"excluded_reverse_relation":28,"excluded_no_direct_named_successor_in_reviewed_comment":15298,"excluded_no_named_current_withdrawal_notice":10456},
+  "reconstruction":"reference.py RAW_DIR ASSET_DIR --pool-out candidate_pool.full.jsonl reconstructs all 25890 rows and retains inherited CSV labels as historical data.",
+  "actual_checks":{"executed_with":"functions.exec JavaScript over preserved tool text; no Python execution","review_partition_counts":[1605,4610,4610,4609],"all_review_indices_disjoint_complete":true,"rows_recomputed_from_saved_histories":21,"all_selected_titles_and_timestamps_agree_with_version_specific_atom":true,"key_cutoff_minus_selected_seconds":{"2008.13265":1884853,"2012.03115":3399021},"python_programs":"Not executed; delivered for controller"},
+  "inherited_execution":"User/source map reports A/B coverage programs and two corrected omission programs passed at root; originals and original filename failure remain in d0136–142 and related inherited artifacts. Those are not runs of this final reference.py or independent_check.py.",
+  "semantic_vs_mechanical":"Index coverage and parser agreement do not prove semantic judgments. Judgment provenance is the manual review records plus explicit final dispositions.",
+  "python_execution":"Pending controller execution; no Python tool exists here.",
+  "unresolved_cases":[],
+  "stability":{"anchor":"2026-09-09","observed":"2026-09-10","latest_scope_update":"2026-09-01T16:13:17Z","submission_drift_observed":false,"limitation":"Current administrative metadata changes without a new listed submission cannot be excluded by submission timestamps alone."}
+}

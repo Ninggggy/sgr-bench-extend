@@ -1,0 +1,27 @@
+{
+  "public_keys": true,
+  "isolation": true,
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "model_evidence_sources": [
+    "run.json request",
+    "invocation.json argv",
+    "solver.config.toml",
+    "sessions turn_context"
+  ],
+  "verified_turn_contexts": 1,
+  "raw_tool_records": 78,
+  "tool_calls": {
+    "exec": 39
+  },
+  "completion_event": true,
+  "model_status": "partial",
+  "end_status": "completed",
+  "scored": true,
+  "stage_schema": true,
+  "exact_extraction": true,
+  "parse_status": "parse_failure",
+  "metrics": null,
+  "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+  "status": "passed"
+}

@@ -1,0 +1,60 @@
+{
+  "counts": {
+    "station_2000_2019_explicit_hucs": {
+      "entity": "site",
+      "source_header_total": 460,
+      "parsed_rows": 460,
+      "equal": true
+    },
+    "activity_2000_2019_trinity_zip": {
+      "entity": "activity",
+      "source_header_total": 22726,
+      "parsed_rows": 22726,
+      "equal": true
+    },
+    "narrow_2000_2019_trinity_panel_zip": {
+      "entity": "result",
+      "source_header_total": 113046,
+      "parsed_rows": 113046,
+      "equal": true
+    },
+    "wide_mainstem_2000_2019_panel_zip": {
+      "entity": "result",
+      "source_header_total": 5215,
+      "parsed_rows": 5215,
+      "equal": true
+    }
+  },
+  "distinct_activity_type_counts": {
+    "Sample-Routine": 18371,
+    "Unknown": 3299,
+    "Quality Control Sample-Field Replicate": 377,
+    "Not determined": 179,
+    "Sample-Composite Without Parents": 499,
+    "Quality Control Sample-Field Blank": 1
+  },
+  "activity_denominator": 22726,
+  "result_rows_by_status": {
+    "Historical": 2614,
+    "Accepted": 110149,
+    "Preliminary": 283
+  },
+  "result_denominator": 113046,
+  "HUC8s": [
+    "12030101",
+    "12030102",
+    "12030103",
+    "12030104",
+    "12030105",
+    "12030106",
+    "12030107",
+    "12030108",
+    "12030109",
+    "12030201",
+    "12030202",
+    "12030203"
+  ],
+  "legacy_endpoint_requires_eight_digit_HUC": "Original4-digit exploratory request returnedHTTP500; correct12HUC8 list verified against official_huc_hierarchy.response and explicit requests.",
+  "data_readability": "All body/ZIP sizes below50MB; model may use only17 derived mainstem IDs to retrieve5215 results. It is not required to process unrelated wells.",
+  "full_domain_enumeration": "Station no characteristic filter; total460 from header; all340 mainstem station/year and210interval decisions saved."
+}

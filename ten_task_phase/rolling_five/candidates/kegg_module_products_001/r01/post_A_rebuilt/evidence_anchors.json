@@ -1,0 +1,472 @@
+{
+  "source_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/sources_post_A",
+  "anchors": [
+    {
+      "id": "enzyme.txt:1",
+      "source_file": "enzyme.txt",
+      "lines": [
+        1
+      ],
+      "quote": "ENTRY       EC 4.1.1.39                 Enzyme",
+      "field": "ENTRY"
+    },
+    {
+      "id": "enzyme.txt:22,23",
+      "source_file": "enzyme.txt",
+      "lines": [
+        22,
+        23
+      ],
+      "quote": "ALL_REAC    R00024;\n            (other) R03140",
+      "field": "ALL_REAC"
+    },
+    {
+      "id": "module_links.tsv:1,2,3",
+      "source_file": "module_links.tsv",
+      "lines": [
+        1,
+        2,
+        3
+      ],
+      "quote": "ec:4.1.1.39\tmd:M00165\nec:4.1.1.39\tmd:M00532\nec:4.1.1.39\tmd:M00968",
+      "relation": "enzyme_to_module"
+    },
+    {
+      "id": "modules.txt:1",
+      "source_file": "modules.txt",
+      "lines": [
+        1
+      ],
+      "quote": "ENTRY       M00165            Pathway   Module",
+      "module_id": "M00165",
+      "field": "ENTRY"
+    },
+    {
+      "id": "modules.txt:655",
+      "source_file": "modules.txt",
+      "lines": [
+        655
+      ],
+      "quote": "REACTION    R01523  C00199 -> C01182",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:656",
+      "source_file": "modules.txt",
+      "lines": [
+        656
+      ],
+      "quote": "            R00024  C01182 + C00011 -> C00197",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:657",
+      "source_file": "modules.txt",
+      "lines": [
+        657
+      ],
+      "quote": "            R01512  C00197 -> C00236",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:658",
+      "source_file": "modules.txt",
+      "lines": [
+        658
+      ],
+      "quote": "            R01061,R01063  C00236 -> C00118",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:659",
+      "source_file": "modules.txt",
+      "lines": [
+        659
+      ],
+      "quote": "            R01015  C00118 -> C00111",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:660",
+      "source_file": "modules.txt",
+      "lines": [
+        660
+      ],
+      "quote": "            R01068  C00118 + C00111 -> C00354",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:661",
+      "source_file": "modules.txt",
+      "lines": [
+        661
+      ],
+      "quote": "            R00762  C00354 -> C00085",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:662",
+      "source_file": "modules.txt",
+      "lines": [
+        662
+      ],
+      "quote": "            R01067  C00085 + C00118 -> C00279 + C00231",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:663",
+      "source_file": "modules.txt",
+      "lines": [
+        663
+      ],
+      "quote": "            R01829  C00279 + C00111 -> C00447",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:664",
+      "source_file": "modules.txt",
+      "lines": [
+        664
+      ],
+      "quote": "            R01845  C00447 -> C05382",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:665",
+      "source_file": "modules.txt",
+      "lines": [
+        665
+      ],
+      "quote": "            R01641  C05382 + C00118 -> C00117 + C00231",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:666",
+      "source_file": "modules.txt",
+      "lines": [
+        666
+      ],
+      "quote": "            R01056  C00117 -> C00199",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:667",
+      "source_file": "modules.txt",
+      "lines": [
+        667
+      ],
+      "quote": "            R01529  C00231 -> C00199",
+      "module_id": "M00165",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:684",
+      "source_file": "modules.txt",
+      "lines": [
+        684
+      ],
+      "quote": "ENTRY       M00532            Pathway   Module",
+      "module_id": "M00532",
+      "field": "ENTRY"
+    },
+    {
+      "id": "modules.txt:852",
+      "source_file": "modules.txt",
+      "lines": [
+        852
+      ],
+      "quote": "REACTION    R03140  C01182 -> C00988 + C00197",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:853",
+      "source_file": "modules.txt",
+      "lines": [
+        853
+      ],
+      "quote": "            R01334  C00988 -> C00160",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:854",
+      "source_file": "modules.txt",
+      "lines": [
+        854
+      ],
+      "quote": "            R00475  C00160 + C00007 -> C00048 + C00027",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:855",
+      "source_file": "modules.txt",
+      "lines": [
+        855
+      ],
+      "quote": "            R00009  C00027 -> C00007",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:856",
+      "source_file": "modules.txt",
+      "lines": [
+        856
+      ],
+      "quote": "            R00372  C00048 + C00025 -> C00026 + C00037",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:857",
+      "source_file": "modules.txt",
+      "lines": [
+        857
+      ],
+      "quote": "            R00369  C00048 -> C00037",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:858",
+      "source_file": "modules.txt",
+      "lines": [
+        858
+      ],
+      "quote": "            R00945  C00037 -> C00065",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:859",
+      "source_file": "modules.txt",
+      "lines": [
+        859
+      ],
+      "quote": "            R00588  C00065 + C00048 -> C00168 + C00037",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:860",
+      "source_file": "modules.txt",
+      "lines": [
+        860
+      ],
+      "quote": "            R01388,R01392  C00168 -> C00258",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:861",
+      "source_file": "modules.txt",
+      "lines": [
+        861
+      ],
+      "quote": "            R01514  C00258 -> C00197",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:862",
+      "source_file": "modules.txt",
+      "lines": [
+        862
+      ],
+      "quote": "            R01221  C00037 -> C00014",
+      "module_id": "M00532",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:884",
+      "source_file": "modules.txt",
+      "lines": [
+        884
+      ],
+      "quote": "ENTRY       M00968            Pathway   Module",
+      "module_id": "M00968",
+      "field": "ENTRY"
+    },
+    {
+      "id": "modules.txt:1141",
+      "source_file": "modules.txt",
+      "lines": [
+        1141
+      ],
+      "quote": "REACTION    R01876  C00299 -> C00620",
+      "module_id": "M00968",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:1142",
+      "source_file": "modules.txt",
+      "lines": [
+        1142
+      ],
+      "quote": "            R02147  C00387 -> C00620",
+      "module_id": "M00968",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:1143",
+      "source_file": "modules.txt",
+      "lines": [
+        1143
+      ],
+      "quote": "            R11535,R13089  C00620 -> C01151",
+      "module_id": "M00968",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:1144",
+      "source_file": "modules.txt",
+      "lines": [
+        1144
+      ],
+      "quote": "            R10836  C00020 -> C01151",
+      "module_id": "M00968",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:1145",
+      "source_file": "modules.txt",
+      "lines": [
+        1145
+      ],
+      "quote": "            R10837  C00055 -> C01151",
+      "module_id": "M00968",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:1146",
+      "source_file": "modules.txt",
+      "lines": [
+        1146
+      ],
+      "quote": "            R10838  C00105 -> C01151",
+      "module_id": "M00968",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:1147",
+      "source_file": "modules.txt",
+      "lines": [
+        1147
+      ],
+      "quote": "            R10555  C01151 -> C01182",
+      "module_id": "M00968",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:1148",
+      "source_file": "modules.txt",
+      "lines": [
+        1148
+      ],
+      "quote": "            R03140  C01182 -> C00197",
+      "module_id": "M00968",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:1149",
+      "source_file": "modules.txt",
+      "lines": [
+        1149
+      ],
+      "quote": "            R13090  C01182 -> C22337",
+      "module_id": "M00968",
+      "field": "REACTION"
+    },
+    {
+      "id": "modules.txt:1150",
+      "source_file": "modules.txt",
+      "lines": [
+        1150
+      ],
+      "quote": "            R12696  C22337 -> C00111",
+      "module_id": "M00968",
+      "field": "REACTION"
+    },
+    {
+      "id": "reactions.txt:1",
+      "source_file": "reactions.txt",
+      "lines": [
+        1
+      ],
+      "quote": "ENTRY       R00024                      Reaction",
+      "reaction_id": "R00024",
+      "field": "ENTRY",
+      "role": "optional_context"
+    },
+    {
+      "id": "reactions.txt:4",
+      "source_file": "reactions.txt",
+      "lines": [
+        4
+      ],
+      "quote": "EQUATION    C01182 + C00011 + C00001 <=> 2 C00197",
+      "reaction_id": "R00024",
+      "field": "EQUATION",
+      "role": "optional_context"
+    },
+    {
+      "id": "reactions.txt:12",
+      "source_file": "reactions.txt",
+      "lines": [
+        12
+      ],
+      "quote": "MODULE      M00165  Reductive pentose phosphate cycle (Calvin cycle)",
+      "reaction_id": "R00024",
+      "field": "MODULE",
+      "role": "optional_context"
+    },
+    {
+      "id": "reactions.txt:29",
+      "source_file": "reactions.txt",
+      "lines": [
+        29
+      ],
+      "quote": "ENTRY       R03140                      Reaction",
+      "reaction_id": "R03140",
+      "field": "ENTRY",
+      "role": "optional_context"
+    },
+    {
+      "id": "reactions.txt:32",
+      "source_file": "reactions.txt",
+      "lines": [
+        32
+      ],
+      "quote": "EQUATION    C01182 + C00007 <=> C00197 + C00988",
+      "reaction_id": "R03140",
+      "field": "EQUATION",
+      "role": "optional_context"
+    },
+    {
+      "id": "reactions.txt:41,42",
+      "source_file": "reactions.txt",
+      "lines": [
+        41,
+        42
+      ],
+      "quote": "MODULE      M00532  Photorespiration\n            M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate",
+      "reaction_id": "R03140",
+      "field": "MODULE",
+      "role": "optional_context"
+    }
+  ]
+}

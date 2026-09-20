@@ -1,0 +1,252 @@
+{
+  "recorded_at": "2026-09-09T06:17:08.454334+00:00",
+  "findings": [
+    {
+      "label": "screening_new_CG_1",
+      "task": "new",
+      "phase": "screening",
+      "run": "runs/r-a55562d61d59",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "screening_old_CG_1",
+      "task": "old",
+      "phase": "screening",
+      "run": "runs/r-6c876269dbe4",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [
+        "Water Quality Portal states that its displayed characteristic-group date ranges may contain gap years. The screening therefore establishes coverage from reported start and end years, as requested, but not uninterrupted annual sampling."
+      ],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "screening_new_GO_1",
+      "task": "new",
+      "phase": "screening",
+      "run": "runs/r-8224e9cc365a",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "screening_old_GO_1",
+      "task": "old",
+      "phase": "screening",
+      "run": "runs/r-24202450d4ad",
+      "classification": "observed_exact_old004_answer_exposure",
+      "literal_gold_exposures": [
+        {
+          "file": "runs/r-24202450d4ad/sessions/rollout-2026-09-09T05-26-17-01a084a1-9688-7be1-befd-a89db8027fa5.jsonl",
+          "line": 50,
+          "matched_reference_rows": [
+            "12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982",
+            "12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969",
+            "12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969"
+          ],
+          "returned_text": "PKUAIWeb/SGR-BENCH · Datasets at Hugging Face (https://huggingface.co/datasets/PKUAIWeb/SGR-BENCH/viewer)\nciteturn4search1 [wordlim: 200] Crawled: last month; | SANDIAWQ_WQX-RG003|2004|2004,SANDIAWQ_WQX-RG008|2004|2004  | {\"State-Gated Retrieval\":[\"Select two target stations only from Rio Grande mainstem monitoring stations downstream of RIO GRANDE AT EMBUDO, NM, and require both to be past the specified outfall locations.\",\"The station detail page must explicitly indicate River/Stream, and records for Microbiological, Nutrient, Organic...  | {\"inclusion_conditions\":[\"Select two target stations only from Rio Grande mainstem monitoring stations downstream of RIO GRANDE AT EMBUDO, NM, and require both to be past the specified outfall locations.\",\"The station detail page must explicitly indicate River/Stream, and records for Microbiological, Nutrient, Organics...  | null ... | 12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982 12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969 12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969  | {\"State-Gated Retrieval\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window co...  | {\"inclusion_conditions\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window cov...  | null\n\nPKUAIWeb\n\n/\n\nSGR-BENCH\n\n\nDataset card Data Studio Files xet Community 2\n\nSplit (2)\n\ngoal · 50 rows\n\n[Select]\n\n[Input: Search this dataset]\n\nSQL\n\nConsole\n\ntask_id string lengths 9 21  | domain string lengths 3 29  | autonomy_type string classes 1 value  | oracle_output_cardinality int64 2 44  | instruction string lengths 323 2.73k  | start_url string lengths 32 78  | output_format string lengths 100 719  | oracle_answer string lengths 57 4.58k  | metadata string lengths 1.39k 2.02k  | rubric string lengths 1.19k 2.66k  | all_involved_urls string classes 2 values\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\narxiv_001-g  | ARXIV  | ordered table  | 4  | I am organizing the research trajectory of dataset distillation and dataset condensation on arXiv from 2019 to 2021, aiming to identify machine learning papers that discuss using a small set of synthetic training data to replace large-scale training sets. From the 2019–2021 arXiv records, retain only entries whose prim...  | https://arxiv.org/search/advanced  | Output a table sorted by v1 submitted in ascending order, with columns: arXiv ID, term family, cue location, v1 submitted, first next-year version, date of that version, primary category, publication-trail source, current publication clue. The scope is limited to these five substances. For each substance, examine three ...  | https://comptox.epa.gov/chemexpo/  | Output MISALIGNED records first; within the same group, sort by dated hits descending; if hits are equal, sort by current dominant category product count descending. Format: <DTXSID>|<materialHits>|<sourceHits>|<datedHits>|<earliest>|<latest>|<historySide>|<recommendedKind>|<recommendedGeneral>|<recommendedTerminal>|<r...  | DTXSID6020802|4|2|1|2018-10|2018-10|material|Article|Furniture and furnishings|Furniture and furnishings|general|15|Occupation|Raw materials|fireproof coatings|type|24|MISALIGNED,DTXSID8021484|3|1|1|2018-10|2018-10|material|Occupation|Laboratory supplies|Laboratory supplies|general|8|Occupation|Laboratory supplies|Labo...  | {\"State-Gated Retrieval\":[\"Work only on the five specified substances, and first compute materialHits, sourceHits, and datedHits from the keyword-set blocks.\",\"The historically recommended category must be derived independently from these historical signals; the current dominant category must be derived separately from...  | {\"inclusion_conditions\":[\"Work only on the five specified substances, and first compute materialHits, sourceHits, and datedHits from the keyword-set blocks.\",\"The historically recommended category must be derived independently from these historical signals; the current dominant category must be derived separately from ...  | null\nconsumerfinance_009-g  | CFPB_REPORTS  | ordered table  | 2  | I want to organize the annual household financial stability survey reports in CFPB Reports, whose latest version page links directly to the 2023 and 2022 editions. I am interested in topics that appeared in the 2022 edition but no longer appear in subsequent annual reports, excluding the topic specifically used to mark...  | https://www.consumerfinance.gov/data-research/research-reports/  | Output a single line per topic, sorted alphabetically by topic name: <topic>|<first-missing-year>|<pivot-report-or-NONE>|<pivot-date-or-NONE>|<direct-related-count>|<same-series-count>|<qualified-count>|<representative-report-or-NONE>|<publication-date-or-NONE>|<appendix-span-or-NONE>  | Saving|2023|Consumer Savings App Strategies and Savings Outcomes|2022-12-07|4|2|1|Emergency Savings and Financial Security: Insights from the Making Ends Meet Survey and Consumer Credit Panel|2022-03-23|A-D,Student loans|2023|Report of the CFPB Education Loan Ombudsman|2022-10-20|0|0|0|NONE|NONE|NONE  | {\"State-Gated Retrieval\":[\"First, identify the CFPB household financial well-being annual report series whose latest version links directly to the 2023 and 2022 editions.\",\"Using the 2022 edition as the baseline, retain only topics that appear in 2022 but are no longer retained in subsequent annual reports, and exclude...  | {\"inclusion_conditions\":[\"First, identify the CFPB household financial well-being annual report series whose latest version links directly to the 2023 and 2022 editions.\",\"Using the 2022 edition as the baseline, retain only topics that appear in 2022 but are no longer retained in subsequent annual reports, and exclude ...  | null\nconsumerfinance_010-g  | CFPB_REPORTS  | ordered table  | 2  | I want to clearly organize the two waves of the Debt Collection Rule issued by the CFPB in 2020, including their respective proposal sources, delayed-effective-date arrangements, final effective dates, and the accompanying quick-reference PDF information on the implementation page. Specifically, I need the following: t...  | https://www.consumerfinance.gov/rules-policy/final-rules/  | Output the two waves as a single-line string sorted by final-rule issue date from earliest to latest, identifying each wave by its final rule issue month (YYYY-MM): <wave>|<final-rule-date>|<proposal-chain>|<proposal-comment-closes>|<delay-proposal-applied>|<delay-proposal-comments-close>|<controlling-effective-date>|<...  | 2020-10|2020-10-30|2019-05-07 main|2019-09-18|YES|2021-05-19|2021-11-30|Executive summary of the October 2020 final rule|Coverage and Definitions,2020-12|2020-12-18|2019-05-07 main+2020-02-21 supplemental|2019-09-18+2020-08-04|YES|2021-05-19|2021-11-30|Executive summary of the December 2020 final rule|Validation Inform...  | {\"State-Gated Retrieval\":[\"The two 2020 Debt Collection Practices (Regulation F) final rules that share the same name must be processed separately, not merged into one.\",\"For each wave, independently confirm: the issue date, the corresponding proposal chain and public comment deadlines, whether the 2021 delayed-effecti...  | {\"inclusion_conditions\":[\"The two 2020 Debt Collection Practices (Regulation F) final rules that share the same name must be processed separately, not merged into one.\",\"For each wave, independently confirm: the issue date, the corresponding proposal chain and public comment deadlines, whether the 2021 delayed-effectiv...  | null\nconsumerfinance_014-g  | CFPB_COMPLAINT_DATABASE  | ordered table  | 4  | I am writing an internal crypto-complaint sensitivity waterfall memo and need to extract four characteristic months (Clusters) at different filtering stages from the CFPB complaint database, along with their core data. The underlying complaint cohort has clear boundaries: time is strictly limited to between 2020-01-01...  | https://www.consumerfinance.gov/data-research/consumer-complaints/  | Output four formatted strings with no spaces, strictly in the specific order: BaselinePeak, AfterDominantPublicResponse, AfterDominantPublicResponseAndIssue, AfterDominantPublicResponseIssueAndCompany. The field sequence for each row must be fixed as: <Cluster>|<Month>|<MonthComplaints>|<NewExclusionType>|<NewExclusion...  | BaselinePeak|2021-05|336|NONE|NONE|0|CA|58|Coinbase, Inc.|21|4341451|2021-05-01|Money was not available when promised|NONE,AfterDominantPublicResponse|2022-07|31|Company public response|NONE|321|CA|6|BANK OF AMERICA, NATIONAL ASSOCIATION|4|5735227|2022-07-05|Other transaction problem|NONE,AfterDominantPublicResponseAnd...  genome_001-g  | KEGG_BRITE  | ordered table  | 3  | From KEGG, identify immunosuppressants used for ulcerative colitis that have been approved in Japan by the end of June 2025 and carry clear cytochrome P450 (CYP) metabolism or inhibition evidence. For each qualifying drug, retain its Japanese therapeutic classification code, ATC code, corresponding target branch, and J...  | https://www.genome.jp/kegg/brite.html  | Output a single-line string sorted by Japan first approval date from earliest to latest, formatted as <DRUG_ID>|<JP_class>|<ATC>|<Target_branch>|<JP_date>; separate multiple entries with commas; if no qualifying items exist, output NONE.  | D09783|3999|L04AF01|JAK1/JAK2/JAK3/TYK2|2013/3/25,D11048|3999|L04AF03|JAK1|2020/1/23,D10931|2399|L04AE05|S1PR1/S1PR4/S1PR5|2025/6/24  | {\"State-Gated Retrieval\":[\"Within the scope of KEGG immunosuppressants for ulcerative colitis, retain only those approved in Japan by 2025-06-30 and carrying clear CYP-related metabolism information or CYP inhibition evidence.\",\"Each candidate drug must be re-verified against the corrected UC drug list for Japanese the...  | {\"inclusion_conditions\":[\"Within the scope of KEGG immunosuppressants for ulcerative colitis, retain only those approved in Japan by 2025-06-30 and carrying clear CYP-related metabolism information or CYP inhibition evidence.\",\"Each candidate drug must be re-verified against the corrected UC drug list for Japanese ther...  | null\ngenome_002-g  | KEGG_GENOME  | ordered table  | 2  | From the KEGG host–symbiont examples, identify animal endosymbiosis cases whose bacterial symbiont KEGG GENOME entry was already recorded by the end of 2005 and whose bacterial symbiont genome contains a clearly named extra replicon. Additionally, the names of these replicons must directly correspond to amino acid bios...  | https://www.genome.jp/kegg/genome/  | Output a single-line string in the format <group>|<symbiont>|<pathway>|<module>|<replicon>|<created_year>, sorted by pathway ID in ascending order, with entries separated by commas. If no qualifying items exist, output NONE. Use KEGG organism codes for species identifiers.  | api+buc|buc|00290|M00432|pLeu|2000,api+buc|buc|00400|M00023|pTrp|2000  | {\"State-Gated Retrieval\":[\"Retain only host–symbiont examples where the bacterial symbiont KEGG GENOME Created year is no later than 2005 and the genome carries a named extra replicon.\",\"The names of these replicons must directly correspond to amino acid biosynthesis modules on the host–symbiont joint pathway page.\",\"F...  | {\"inclusion_conditions\":[\"Retain only host–symbiont examples where the bacterial symbiont KEGG GENOME Created year is no later than 2005 and the genome carries a named extra replicon.\",\"The names of these replicons must directly correspond to amino acid biosynthesis modules on the host–symbiont joint pathway page.\",\"Fi...  | null\ngenome_003-g  | KEGG_GENOME  | ordered table  | 2  | I am preparing a handout for a primate evolution course and want a two-row comparison table for this vitamin C metabolism exception pattern. Output two rows with columns rank|clade_role|parent_clade|clade|anomaly_pathway|contrast_pathway|retained_upstream_module|vitamin_c_synthesis_module|vitamin_c_module_status|exampl...  | https://www.genome.jp/kegg/kegg2.html  | Output a two-row comparison table with columns rank|clade_role|parent_clade|clade|anomaly_pathway|contrast_pathway|retained_upstream_module|vitamin_c_synthesis_module|vitamin_c_module_status|example_org|cutoff_year.  | 1|EXCEPTION_CLADE|Primates|Haplorrhini|map00053|map00040|M00014|M00129|LOST|csyr|2022 2|RETAINED_SISTER_CLADE|Primates|Strepsirrhini|map00053|map00040|M00014|M00129|RETAINED|oga|2022  | {\"State-Gated Retrieval\":[\"Search only among primate genome entries established by the end of 2022, and isolate the anomalous lower-level clade that retains the upstream glucuronate module M00014 but lacks the animal-type vitamin C biosynthesis module M00129.\",\"That anomalous clade must be paired with a sister branch u...  | {\"inclusion_conditions\":[\"Search only among primate genome entries established by the end of 2022, and isolate the anomalous lower-level clade that retains the upstream glucuronate module M00014 but lacks the animal-type vitamin C biosynthesis module M00129.\",\"That anomalous clade must have a contrastable sister branch...  | null\ngenome_004-g  | KEGG_BRITE  | ordered table  | 8  | I am compiling an ordered table of systemic drugs approved for plaque psoriasis in Japan. Include only active ingredients that were approved in Japan by the end of 2024, are used for systemic treatment of plaque psoriasis, and target the IL-17/IL-23 signaling axis. Exclude topical drugs and systemic drugs acting throug...  | https://www.kegg.jp/brite/br08301  | Output multiple rows sorted by Japan first approval date from earliest to latest; for drugs approved on the same day, sort by DRUG_ID ascending. Each row format: <DRUG_ID>|<Name>|<ATC>|<Target_branch>|<PMDA_date>.  | D09967|Secukinumab|L04AC10|IL17A|2014/12/26 D10061|Brodalumab|L04AC12|IL17RA|2016/7/4 D10071|Ixekizumab|L04AC13|IL17A|2016/7/4 D10438|Guselkumab|L04AC16|IL23A|2018/3/23 D11052|Risankizumab|L04AC18|IL23A|2019/3/26 D10400|Tildrakizumab|L04AC17|IL23A|2020/6/29 D11550|Bimekizumab|L04AC21|IL17A/IL17F|2022/1/20 D11817|Deucra...  | {\"State-Gated Retrieval\":[\"Retain only active ingredients that were approved in Japan by 2024-12-31, are used for systemic treatment of plaque psoriasis, and genuinely act on the IL-17/IL-23 signaling axis.\",\"The candidate set must cover the ligand side, receptor side, and TYK2 kinase side, not only the interleukin lig...  | {\"inclusion_conditions\":[\"Retain only active ingredients that were approved in Japan by 2024-12-31, are used for systemic treatment of plaque psoriasis, and genuinely act on the IL-17/IL-23 signaling axis.\",\"The candidate set must cover the ligand side, receptor side, and TYK2 kinase side, not only the interleukin liga...  | null\nwateroffice_005-g  | WATER_OFFICE  | ordered table  | 3  | I am organizing historical daily-flow records for the Peace River reach from Dunvegan Bridge to Fifth Meridian and want a three-row diagnostic table for the furthest-downstream reusable mainstem station, the first downstream failing station after it, and the provisional terminal station that an initial screen would mis...  | https://wateroffice.ec.gc.ca/search/historical_e.html  | Output a three-row diagnostic table with columns rank|station_number|diagnosis_role|target_window_status|provisional_count|final_count.  | 1|07HA001|FINAL_STATION|PASS|5|2 2|07HD001|FIRST_BREAK_AFTER_FINAL|FLOW_GAP|5|2 3|07KA002|PROVISIONAL_STATION|FLOW_GAP|5|2  | {\"State-Gated Retrieval\":[\"Screen only among Peace River mainstem stations between Dunvegan Bridge and Fifth Meridian.\",\"A genuinely reusable station must satisfy the availability-page rule that both 1966 and 1967 appear in the Flow table and that every month from May through September is complete.\",\"The final output m...  | {\"inclusion_conditions\":[\"Screen only among Peace River mainstem stations between Dunvegan Bridge and Fifth Meridian.\",\"A genuinely reusable station must satisfy the availability-page rule that both 1966 and 1967 appear in the Flow table and that every month from May through September is complete.\",\"The final output mu...  | null\nwaterquality_001-g  | WATER_QUALITY_PORTAL  | ordered table  | 2  | I am compiling historical monitoring data for the middle Rio Grande and need to identify two monitoring locations suitable as sentinel sites for main-channel wastewater impacts. From the monitoring locations downstream of RIO GRANDE AT EMBUDO, NM that are confirmed to be on the Rio Grande mainstem, select two qualifyin...  | https://www.waterqualitydata.us/  | Output a single line in upstream-to-downstream order in the format <mainstem station ID>|<Microbiological start year>|<Physical start year>, with the two segments separated by a comma.  | SANDIAWQ_WQX-RG003|2004|2004,SANDIAWQ_WQX-RG008|2004|2004  | {\"State-Gated Retrieval\":[\"Select two target stations only from Rio Grande mainstem monitoring stations downstream of RIO GRANDE AT EMBUDO, NM, and require both to be past the specified outfall locations.\",\"The station detail page must explicitly indicate River/Stream, and records for Microbiological, Nutrient, Organic...  | {\"inclusion_conditions\":[\"Select two target stations only from Rio Grande mainstem monitoring stations downstream of RIO GRANDE AT EMBUDO, NM, and require both to be past the specified outfall locations.\",\"The station detail page must explicitly indicate River/Stream, and records for Microbiological, Nutrient, Organics...  | null\nwaterquality_002-g  | WATER_QUALITY_PORTAL  | ordered table  | 2  | I am analyzing trends in the lower Rio Grande from 2001 to 2010. From monitoring stations located below RIO GRANDE BELOW ANZALDUAS and still within HUC 13090002, select one representative station for Hidalgo County and one for Cameron County. Each station must satisfy all of the following conditions: located below RIO ...  | https://www.waterqualitydata.us/  | Output a single line with the Hidalgo segment first and the Cameron segment second, using the format <County>:<MonitoringLocationIdentifier>|<earliest year all four groups present>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Physical start year>, with the two segments separated by a...  | Hidalgo:TCEQMAIN-15808|1998|1998|1998|1998|1998,Cameron:TCEQMAIN-13177|1995|1981|1981|1995|1981  | {\"State-Gated Retrieval\":[\"Select one representative station for Hidalgo County and one for Cameron County only from monitoring stations located below RIO GRANDE BELOW ANZALDUAS and still within HUC 13090002.\",\"Candidate detail pages must show River/Stream as the monitoring location type, and records for all four chara...  | {\"inclusion_conditions\":[\"Select one representative station for Hidalgo County and one for Cameron County only from monitoring stations located below RIO GRANDE BELOW ANZALDUAS and still within HUC 13090002.\",\"Candidate detail pages must show River/Stream as the monitoring location type, and records for all four charac...  | null\nwaterquality_003-g  | WATER_QUALITY_PORTAL  | ordered table  | 3  | I am compiling 2012–2018 water-quality reference data for the Brazos River mainstem downstream of Brazos Rv at Waco, TX. For each of the three specified HUCs that include Waco (12060202, 12070101, 12070104), I need to identify one TCEQ monitoring station suitable as a long-term reference for 2012–2018 along the Brazos ...  | https://www.waterqualitydata.us/  | List the three results in upstream-to-downstream order, one per line, using the format: <HUC>|<MonitoringLocationIdentifier>|<earliest year when all five groups are jointly available>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Physical sta...  | 12060202|TCEQMAIN-12037|2000|1991|2000|1991|1999|1991 12070101|TCEQMAIN-12030|2006|1972|1972|1972|2006|1972 12070104|TCEQMAIN-11848|1975|1974|1975|1974|1975|1974  | {\"State-Gated Retrieval\":[\"The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.\",\"Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which th...  | {\"inclusion_conditions\":[\"The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.\",\"Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which the...  | null\nwaterquality_004-g  | WATER_QUALITY_PORTAL  | ordered table  | 3  | I am reviewing toxic-pollutant-related water quality monitoring data for the Trinity River mainstem from 1993 to 2001, with the reach near FM 85 as the upstream boundary and the reach near Interstate 10 as the downstream boundary. I need to select one TCEQ long-term reference station for each of the upper, middle, and ...  | https://www.waterqualitydata.us/  | Output three rows in order from upstream to downstream along the river, each row formatted as <HUC>|<MonitoringLocationIdentifier>|<earliest year with all six groups>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Organics, PCBs start year>|<P...  | 12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982 12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969 12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969  | {\"State-Gated Retrieval\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window co...  | {\"inclusion_conditions\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window cov...  | null\nwaterquality_005-g  | WATER_QUALITY_PORTAL  | ordered table  | 9  | I am organizing integrated water-quality records for the lower Neches River during 1978-1984 and want a table of the nine Characteristic Group start years for the nearest qualifying TCEQ reference station downstream of NECHES RIVER AT CR 4915 that still represents the inland Neches River mainstem. Output a 9-row table ...  | https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10598/  | Output a 9-row table with columns rank|MonitoringLocationIdentifier|HUC|County|characteristic_group|group_start_year|common_start_year.  | 1|TCEQMAIN-10580|12020003|Hardin County|Biological, Algae, Phytoplankton|1972|1977 2|TCEQMAIN-10580|12020003|Hardin County|Inorganics, Major, Non-metals|1971|1977 3|TCEQMAIN-10580|12020003|Hardin County|Inorganics, Minor, Metals|1974|1977 4|TCEQMAIN-10580|12020003|Hardin County|Microbiological|1972|1977 5|TCEQMAIN-1058...  | {\"State-Gated Retrieval\":[\"Search only among TCEQ monitoring stations downstream of NECHES RIVER AT CR 4915 that still represent the inland Neches River mainstem.\",\"A candidate station must cover 1978-1984 in all nine Characteristic Groups and, on the detail page, must still qualify as River/Stream, outside lake or res...  | {\"inclusion_conditions\":[\"Search only among TCEQ monitoring stations downstream of NECHES RIVER AT CR 4915 that still represent the inland Neches River mainstem.\",\"A candidate station must cover 1978-1984 in all nine Characteristic Groups and, on the detail page, must still qualify as River/Stream, outside lake or rese...  | null\nwonder_003-g  | CDC_WONDER  | ordered table  | 8  | For a public-health brief reviewing changes in U.S. home births in 2020, identify the months in which the home-birth rate among all mothers rose at least 25% compared with the same month in 2019."
+        }
+      ],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [
+        "Water Quality Portal states that its displayed date ranges may contain gap years; qualification therefore follows the task's specified start-year/end-year coverage test rather than asserting observations in every intervening year.",
+        "A public Hugging Face search result accidentally exposed a benchmark answer. It was not treated as evidence; every reported value was independently verified against the authoritative Water Quality Portal station records."
+      ],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_new_CG_1",
+      "task": "new",
+      "phase": "confirmation",
+      "run": "runs/r-0ee77dc62ed5",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_old_CG_1",
+      "task": "old",
+      "phase": "confirmation",
+      "run": "runs/r-b90e2f062f85",
+      "classification": "observed_exact_old004_answer_exposure",
+      "literal_gold_exposures": [
+        {
+          "file": "runs/r-b90e2f062f85/sessions/rollout-2026-09-09T05-37-20-01a084ab-b4e8-73b1-9603-ef53985017be.jsonl",
+          "line": 57,
+          "matched_reference_rows": [
+            "12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982",
+            "12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969",
+            "12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969"
+          ],
+          "returned_text": "PKUAIWeb/SGR-BENCH · Datasets at Hugging Face (https://huggingface.co/datasets/PKUAIWeb/SGR-BENCH/viewer)\nciteturn5search1 [wordlim: 200] Crawled: last month; | 12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982 12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969 12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969  | {\"State-Gated Retrieval\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window co...  | {\"inclusion_conditions\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window cov...  | null\nFor each of the three specified HUCs that include Waco (12060202, 12070101, 12070104), I need to identify one TCEQ monitoring station suitable as a long-term reference for 2012–2018 along the Brazos ...  | https://www.waterqualitydata.us/  | List the three results in upstream-to-downstream order, one per line, using the format: <HUC>|<MonitoringLocationIdentifier>|<earliest year when all five groups are jointly available>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Physical sta...  | 12060202|TCEQMAIN-12037|2000|1991|2000|1991|1999|1991 12070101|TCEQMAIN-12030|2006|1972|1972|1972|2006|1972 12070104|TCEQMAIN-11848|1975|1974|1975|1974|1975|1974  | {\"State-Gated Retrieval\":[\"The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.\",\"Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which th...  | {\"inclusion_conditions\":[\"The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.\",\"Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which the...  | null\nwaterquality_004-g  | WATER_QUALITY_PORTAL  | ordered table  | 3  | I am reviewing toxic-pollutant-related water quality monitoring data for the Trinity River mainstem from 1993 to 2001, with the reach near FM 85 as the upstream boundary and the reach near Interstate 10 as the downstream boundary. I need to select one TCEQ long-term reference station for each of the upper, middle, and ...  | https://www.waterqualitydata.us/  | Output three rows in order from upstream to downstream along the river, each row formatted as <HUC>|<MonitoringLocationIdentifier>|<earliest year with all six groups>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Organics, PCBs start year>|<P...  | 12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982 12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969 12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969  | {\"State-Gated Retrieval\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window co...  | {\"inclusion_conditions\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window cov...  | null"
+        }
+      ],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [
+        "Water Quality Portal states that its displayed category date ranges may contain gap years; selection follows the task's specified start-year/end-year coverage test rather than asserting observations in every intervening year.",
+        "A public search result exposed a matching benchmark-style answer during research. It was not treated as evidence; the values above were independently derived and verified from the original Water Quality Portal station records."
+      ],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_new_GO_1",
+      "task": "new",
+      "phase": "confirmation",
+      "run": "runs/r-69914a9877c8",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_old_GO_1",
+      "task": "old",
+      "phase": "confirmation",
+      "run": "runs/r-d04075b89074",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [
+        "The Water Quality Portal cautions that its displayed characteristic-group date ranges may contain gap years. Accordingly, “cover 1993–2001” was evaluated using the requested start-year/end-year bounds, not as proof of observations in every intervening year.",
+        "“Earliest year with all six groups” is calculated as the latest of the six reported start years for each station."
+      ],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_new_CG_2",
+      "task": "new",
+      "phase": "confirmation",
+      "run": "runs/r-92c02e2f6067",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_old_CG_2",
+      "task": "old",
+      "phase": "confirmation",
+      "run": "runs/r-4a02a31cb8e8",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [
+        "Water Quality Portal cautions that its displayed date ranges may contain gap years. Following the task's stated rule, coverage was determined solely from each category's first and last year, not uninterrupted annual sampling."
+      ],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_new_GO_2",
+      "task": "new",
+      "phase": "confirmation",
+      "run": "runs/r-4df368e8ea7e",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_old_GO_2",
+      "task": "old",
+      "phase": "confirmation",
+      "run": "runs/r-d936d9895abf",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [
+        "Water Quality Portal cautions that its displayed characteristic-group date ranges may contain gap years; “earliest year with all six groups” was therefore calculated as the latest of the six reported start years, consistent with the stated endpoint test.",
+        "The instruction does not define exact geographic breakpoints for “upper, middle, and lower.” The selected stations follow the three successive HUCs and use FM 85 and IH 10 as the stated reach boundaries."
+      ],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_new_CG_3",
+      "task": "new",
+      "phase": "confirmation",
+      "run": "runs/r-e5e848752431",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_old_CG_3",
+      "task": "old",
+      "phase": "confirmation",
+      "run": "runs/r-551a85fda485",
+      "classification": "observed_exact_old004_answer_exposure",
+      "literal_gold_exposures": [
+        {
+          "file": "runs/r-551a85fda485/sessions/rollout-2026-09-09T05-49-22-01a084b6-b876-7ef3-a336-5d7637ddf447.jsonl",
+          "line": 73,
+          "matched_reference_rows": [
+            "12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982",
+            "12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969",
+            "12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969"
+          ],
+          "returned_text": "PKUAIWeb/SGR-BENCH · Datasets at Hugging Face (https://huggingface.co/datasets/PKUAIWeb/SGR-BENCH/viewer)\nciteturn7search0 [wordlim: 200] Crawled: last month; | 12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982 12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969 12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969  | {\"State-Gated Retrieval\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window co...  | {\"inclusion_conditions\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window cov...  | null\nFor each of the three specified HUCs that include Waco (12060202, 12070101, 12070104), I need to identify one TCEQ monitoring station suitable as a long-term reference for 2012–2018 along the Brazos ...  | https://www.waterqualitydata.us/  | List the three results in upstream-to-downstream order, one per line, using the format: <HUC>|<MonitoringLocationIdentifier>|<earliest year when all five groups are jointly available>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Physical sta...  | 12060202|TCEQMAIN-12037|2000|1991|2000|1991|1999|1991 12070101|TCEQMAIN-12030|2006|1972|1972|1972|2006|1972 12070104|TCEQMAIN-11848|1975|1974|1975|1974|1975|1974  | {\"State-Gated Retrieval\":[\"The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.\",\"Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which th...  | {\"inclusion_conditions\":[\"The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.\",\"Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which the...  | null\nwaterquality_004-g  | WATER_QUALITY_PORTAL  | ordered table  | 3  | I am reviewing toxic-pollutant-related water quality monitoring data for the Trinity River mainstem from 1993 to 2001, with the reach near FM 85 as the upstream boundary and the reach near Interstate 10 as the downstream boundary. I need to select one TCEQ long-term reference station for each of the upper, middle, and ...  | https://www.waterqualitydata.us/  | Output three rows in order from upstream to downstream along the river, each row formatted as <HUC>|<MonitoringLocationIdentifier>|<earliest year with all six groups>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Organics, PCBs start year>|<P...  | 12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982 12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969 12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969  | {\"State-Gated Retrieval\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window co...  | {\"inclusion_conditions\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window cov...  | null"
+        }
+      ],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [
+        "The Portal cautions that its category date ranges may contain gap years; the requested endpoint test was therefore applied exactly as specified, without inferring uninterrupted annual sampling.",
+        "A public search result accidentally exposed a benchmark-style answer during research. It was not used as source evidence; the values above were checked against the original Water Quality Portal station records."
+      ],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_new_GO_3",
+      "task": "new",
+      "phase": "confirmation",
+      "run": "runs/r-426fcaec1732",
+      "classification": "no_matching_benchmark_response_detected",
+      "literal_gold_exposures": [],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    },
+    {
+      "label": "confirmation_old_GO_3",
+      "task": "old",
+      "phase": "confirmation",
+      "run": "runs/r-683967eda07e",
+      "classification": "observed_exact_old004_answer_exposure",
+      "literal_gold_exposures": [
+        {
+          "file": "runs/r-683967eda07e/sessions/rollout-2026-09-09T05-51-28-01a084b8-a40a-7a43-b172-dbad8644083a.jsonl",
+          "line": 77,
+          "matched_reference_rows": [
+            "12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982",
+            "12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969",
+            "12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969"
+          ],
+          "returned_text": "PKUAIWeb/SGR-BENCH · Datasets at Hugging Face (https://huggingface.co/datasets/PKUAIWeb/SGR-BENCH/viewer)\nciteturn7search0 [wordlim: 200] Crawled: last month; waterquality_004-g  | WATER_QUALITY_PORTAL  | ordered table  | 3  | I am reviewing toxic-pollutant-related water quality monitoring data for the Trinity River mainstem from 1993 to 2001, with the reach near FM 85 as the upstream boundary and the reach near Interstate 10 as the downstream boundary. ... | 12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982 12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969 12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969  | {\"State-Gated Retrieval\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window co...  | {\"inclusion_conditions\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window cov...  | null\nFor each of the three specified HUCs that include Waco (12060202, 12070101, 12070104), I need to identify one TCEQ monitoring station suitable as a long-term reference for 2012–2018 along the Brazos ...  | https://www.waterqualitydata.us/  | List the three results in upstream-to-downstream order, one per line, using the format: <HUC>|<MonitoringLocationIdentifier>|<earliest year when all five groups are jointly available>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Physical sta...  | 12060202|TCEQMAIN-12037|2000|1991|2000|1991|1999|1991 12070101|TCEQMAIN-12030|2006|1972|1972|1972|2006|1972 12070104|TCEQMAIN-11848|1975|1974|1975|1974|1975|1974  | {\"State-Gated Retrieval\":[\"The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.\",\"Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which th...  | {\"inclusion_conditions\":[\"The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.\",\"Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which the...  | null\nwaterquality_004-g  | WATER_QUALITY_PORTAL  | ordered table  | 3  | I am reviewing toxic-pollutant-related water quality monitoring data for the Trinity River mainstem from 1993 to 2001, with the reach near FM 85 as the upstream boundary and the reach near Interstate 10 as the downstream boundary. I need to select one TCEQ long-term reference station for each of the upper, middle, and ...  | https://www.waterqualitydata.us/  | Output three rows in order from upstream to downstream along the river, each row formatted as <HUC>|<MonitoringLocationIdentifier>|<earliest year with all six groups>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Organics, PCBs start year>|<P...  | 12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982 12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969 12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969  | {\"State-Gated Retrieval\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window co...  | {\"inclusion_conditions\":[\"Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.\",\"The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window cov...  | null"
+        }
+      ],
+      "explicit_benchmark_related_calls": [],
+      "solver_reported_limitations": [
+        "Water Quality Portal states that its characteristic-group date ranges may contain gap years; selection therefore follows the task’s explicit start-year/end-year coverage test rather than asserting uninterrupted annual sampling.",
+        "A public search result accidentally exposed a benchmark-style answer while checking the station combination. It was not used as evidence; the values were independently derived and verified from the original Water Quality Portal station records."
+      ],
+      "scope_note": "An absent literal match is not proof of zero contamination or no prior exposure. Scores retained; no replacement attempts."
+    }
+  ],
+  "counts": {
+    "no_matching_benchmark_response_detected": 12,
+    "observed_exact_old004_answer_exposure": 4
+  },
+  "interpretation": "Exact gold in a returned public benchmark snippet contaminates that attempt even if official values were verified afterward. Report full prescribed scores, never silently exclude or replace exposed runs. No clean ability inference from contaminated means."
+}

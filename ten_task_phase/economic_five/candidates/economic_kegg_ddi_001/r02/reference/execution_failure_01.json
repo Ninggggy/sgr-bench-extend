@@ -1,0 +1,288 @@
+{
+  "command": "python3 reference/solve_reference.py --root . --out reference/replay-01",
+  "exit_code": 1,
+  "error": "Unexpected DDI identity",
+  "offending_rows": [
+    {
+      "file_id": "d0055",
+      "line": 1,
+      "row": [
+        "dr:D02260",
+        "cpd:C01017",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0055",
+      "line": 2,
+      "row": [
+        "dr:D02260",
+        "cpd:C04931",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0055",
+      "line": 3,
+      "row": [
+        "dr:D02260",
+        "cpd:C06807",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0056",
+      "line": 1,
+      "row": [
+        "dr:D05374",
+        "cpd:C01017",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0056",
+      "line": 2,
+      "row": [
+        "dr:D05374",
+        "cpd:C04931",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0056",
+      "line": 3,
+      "row": [
+        "dr:D05374",
+        "cpd:C06807",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0057",
+      "line": 1,
+      "row": [
+        "dr:D05375",
+        "cpd:C01017",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0057",
+      "line": 2,
+      "row": [
+        "dr:D05375",
+        "cpd:C04931",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0057",
+      "line": 3,
+      "row": [
+        "dr:D05375",
+        "cpd:C06807",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0059",
+      "line": 1,
+      "row": [
+        "dr:D00825",
+        "cpd:C06807",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0062",
+      "line": 1,
+      "row": [
+        "dr:D00824",
+        "cpd:C06807",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0062",
+      "line": 2,
+      "row": [
+        "dr:D00824",
+        "cpd:C06921",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0062",
+      "line": 3,
+      "row": [
+        "dr:D00824",
+        "cpd:C07480",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0065",
+      "line": 1,
+      "row": [
+        "dr:D02567",
+        "cpd:C06807",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0095",
+      "line": 1,
+      "row": [
+        "dr:D03731",
+        "cpd:C06807",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0096",
+      "line": 1,
+      "row": [
+        "dr:D00785",
+        "cpd:C06807",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0098",
+      "line": 1,
+      "row": [
+        "dr:D02562",
+        "cpd:C00220",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0101",
+      "line": 1,
+      "row": [
+        "dr:D10191",
+        "cpd:C06807",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0117",
+      "line": 1,
+      "row": [
+        "dr:D00346",
+        "cpd:C00304",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0117",
+      "line": 2,
+      "row": [
+        "dr:D00346",
+        "cpd:C00483",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0117",
+      "line": 3,
+      "row": [
+        "dr:D00346",
+        "cpd:C07055",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0117",
+      "line": 4,
+      "row": [
+        "dr:D00346",
+        "cpd:C07506",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0117",
+      "line": 5,
+      "row": [
+        "dr:D00346",
+        "cpd:C07811",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0117",
+      "line": 6,
+      "row": [
+        "dr:D00346",
+        "cpd:C07814",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0117",
+      "line": 7,
+      "row": [
+        "dr:D00346",
+        "cpd:C07818",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0117",
+      "line": 8,
+      "row": [
+        "dr:D00346",
+        "cpd:C07849",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0117",
+      "line": 9,
+      "row": [
+        "dr:D00346",
+        "cpd:C07861",
+        "P",
+        "unclassified"
+      ]
+    },
+    {
+      "file_id": "d0117",
+      "line": 10,
+      "row": [
+        "dr:D00346",
+        "cpd:C12768",
+        "P",
+        "unclassified"
+      ]
+    }
+  ],
+  "source_data_unchanged": true
+}

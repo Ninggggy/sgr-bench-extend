@@ -1,0 +1,95 @@
+{
+  "group": {
+    "id": "DG00739",
+    "name": "Mycophenolic acid",
+    "type": "Chemical",
+    "member_evidence": {
+      "path": "../sources/DG00739.txt",
+      "record": "DG00739",
+      "record_lines": [
+        1,
+        9
+      ],
+      "field": "MEMBER",
+      "field_lines": [
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "other_direct_members": [],
+  "loaded_drug_ids": [
+    "D00752",
+    "D05094",
+    "D05095",
+    "D05096"
+  ],
+  "members": [
+    {
+      "id": "D00752",
+      "name": "Mycophenolate mofetil (JAN/USP)",
+      "formula": [
+        "C23H31NO7"
+      ],
+      "comment_present": true,
+      "record_evidence": {
+        "path": "../sources/D_members.txt",
+        "record": "D00752",
+        "record_lines": [
+          1,
+          171
+        ]
+      }
+    },
+    {
+      "id": "D05094",
+      "name": "Mycophenolate mofetil hydrochloride (USAN)",
+      "formula": [
+        "C23H31NO7. HCl"
+      ],
+      "comment_present": true,
+      "record_evidence": {
+        "path": "../sources/D_members.txt",
+        "record": "D05094",
+        "record_lines": [
+          173,
+          281
+        ]
+      }
+    },
+    {
+      "id": "D05095",
+      "name": "Mycophenolate sodium (USP)",
+      "formula": [
+        "C17H19O6. Na"
+      ],
+      "comment_present": true,
+      "record_evidence": {
+        "path": "../sources/D_members.txt",
+        "record": "D05095",
+        "record_lines": [
+          283,
+          399
+        ]
+      }
+    },
+    {
+      "id": "D05096",
+      "name": "Mycophenolic acid (USAN/INN)",
+      "formula": [
+        "C17H20O6"
+      ],
+      "comment_present": false,
+      "record_evidence": {
+        "path": "../sources/D_members.txt",
+        "record": "D05096",
+        "record_lines": [
+          401,
+          491
+        ]
+      }
+    }
+  ]
+}

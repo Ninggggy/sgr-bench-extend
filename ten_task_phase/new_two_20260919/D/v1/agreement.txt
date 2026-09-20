@@ -1,0 +1,1098 @@
+EUR-Lex - 22017A1214(01) - EN - EUR-Lex
+(function(w,d,u){w.readyQ=[];w.bindReadyQ=[];function p(x,y){if(x=="ready"){w.bindReadyQ.push(y);}else{w.readyQ.push(x);}};var a={ready:p,bind:p};w.$=w.jQuery=function(f){if(f===d||f===u){return a}else{p(f)}}})(window,document)
+var legislativeUrl = 'http://old.eur-lex.europa.eu/en/techleg/index.htm';
+        var eurovocUrl = 'http://eurovoc.europa.eu/drupal/';
+        var interStyleGuideUrl = 'http://publications.europa.eu/code/en/en-000100.htm';
+        var sessionExpired = false;
+        var pageUrl = '';
+        var queryString = 'uri=celex:22017A1214(01)';
+        var sessionTimeout = '900000';
+{
+            "utility": "cck",
+            "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html?locale=en#5.%20Cookies%20notice"
+        }
+document.addEventListener('DOMContentLoaded', function () {
+            (function(window, document, dataLayerName, id) {
+                window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+                function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString();f="; SameSite=Strict"}document.cookie=a+"="+b+d+f+"; path=/"}
+                var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+                var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+                tags.async=!0,tags.src="https://analytics.webanalytics.op.europa.eu/containers/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+                !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+            })(window, document, 'dataLayer','0b5594a8-b9c8-4cd6-aa25-5c578dcf91df');
+        }, { once: true });
+×
+Skip to main content
+Log in
+My EUR-Lex
+My EUR-Lex
+Sign in
+Register
+My recent searches (0)
+English
+English
+Select your language
+Official EU languages:
+bg
+български
+es
+Español
+cs
+Čeština
+da
+Dansk
+de
+Deutsch
+et
+Eesti keel
+el
+Ελληνικά
+en
+English
+fr
+Français
+ga
+Gaeilge
+hr
+Hrvatski
+it
+Italiano
+lv
+Latviešu valoda
+lt
+Lietuvių kalba
+hu
+Magyar
+mt
+Malti
+nl
+Nederlands
+pl
+Polski
+pt
+Português
+ro
+Română
+sk
+Slovenčina
+sl
+Slovenščina
+fi
+Suomi
+sv
+Svenska
+EUR-Lex
+Access to European Union law
+<a href="https://eur-lex.europa.eu/content/help/eurlex-content/experimental-features.html" target="_blank">More about the experimental features corner</a>
+Experimental features
+×
+Choose the experimental features you want to try
+Do you want to help improving EUR-Lex ? This is a list of experimental features that you can enable. These features are still under development; they are not fully tested, and might reduce EUR-Lex stability. Don't forget to give your feedback!
+Warning! Experimental feature conflicts detected.
+Replacement of CELEX identifiers by short titles - experimental feature. It replaces clickable CELEX identifiers of treaties and case-law by short titles.
+Visualisation of document relationships. It displays a dynamic graph with relations between the act and related documents. It is currently only available for legal acts.
+Deep linking. It enables links to other legal acts referred to within the documents. It is currently only available for documents smaller than 900 KB.
+Apply
+$(document).ready(function() {
+		var conflicts = {};
+		
+		initializeFloatingBox(conflicts,$(document).find('.exp-feature-child-checkbox'),"");
+
+		var expOriginalTooltip = $('#expFeatHelp').attr('aria-description');
+		expOriginalTooltip = expOriginalTooltip.replace(/(<([^>]+)>)/ig,'');
+		$('#expFeatHelp').attr('aria-description',expOriginalTooltip);
+	});
+EUR-Lex
+Access to European Union law
+This document is an excerpt from the EUR-Lex website
+var home_lang = en;
+    $(document).ready(function(){
+        svg4everybody({ polyfill: true });
+        ECL.autoInit();
+    });
+
+    $(document).ready(function(){
+        $(".ecl-site-header__language-link--active").removeClass("ecl-site-header__language-link--active");
+        $(home_lang).addClass("ecl-site-header__language-link--active");
+    });
+You are here
+EUROPA
+EUR-Lex home
+EUR-Lex - 22017A1214(01) - EN
+Help
+Print
+{
+                    "service": "share",
+                    "counter": false,
+                    "css": {
+                        "button": "myButton"
+                    },
+                    "link": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=oj:JOL_2017_331_R_0002"
+                }
+$(document).ready(function() {
+        $('.PageShare').each(function() { 
+            const target = this;
+            let observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (!mutation.addedNodes) return
+                    for (let i = 0; i < mutation.addedNodes.length; i++) {
+                        let node = mutation.addedNodes[i]
+                        if ($(node) != undefined && $(node).is("a") && $(node).hasClass("myButton") && $(node).find("i").length === 0) {
+                            $(node).prepend("<i class='fa fa-share-alt' aria-hidden='true'></i>")
+                            observer.disconnect();
+                        }
+                    }
+                })
+            })
+            observer.observe(target, {
+                subtree: true,
+                childList: true
+            });
+        });
+    });
+Menu
+EU law
+Treaties
+Treaties currently in force
+Founding Treaties
+Accession Treaties
+Other treaties and protocols
+Chronological overview
+Legal acts
+Consolidated texts
+International agreements
+Preparatory documents
+EFTA documents
+Lawmaking procedures
+Summaries of EU legislation
+Browse by EU institutions
+European Parliament
+European Council
+Council of the European Union
+European Commission
+Court of Justice of the European Union
+European Central Bank
+European Court of Auditors
+European Economic and Social Committee
+European Committee of the Regions
+Browse by EuroVoc
+EU case-law
+Case-law
+Reports of cases
+Directory of case-law
+Official Journal
+Access to the Official Journal
+Official Journal L series daily view
+Official Journal C series daily view
+Browse the Official Journal
+Legally binding printed editions
+Special edition
+National law and case-law
+National transposition
+National case-law
+JURE case-law
+Information
+Themes in focus
+EUR-Lex developments
+Statistics
+ELI register
+What is ELI?
+ELI background
+Why implement ELI?
+Countries implementing ELI
+Testimonials
+How to implement ELI
+Glossary
+EU budget online
+Quick search
+Use quotation marks to search for an "exact phrase". Append an asterisk (
+*
+) to a search term to find variations of it (transp
+*
+, 32019R
+*
+). Use a question mark (
+?
+) instead of a single character in your search term to find variations of it (ca
+?
+e finds case, cane, care).
+Search tips
+Need more search options? Use the
+Advanced search
+$(document).ready(function() {
+			var quickSearchFld = $('#QuickSearchField.autocompleteField');
+			typeaheadFld(quickSearchFld, "./../../../autocomplete.html", true, 'QuickSearch');
+		});
+		var quickSearchHelpAlt="Use quotation marks to search for an &quot;exact phrase&quot;. Append an asterisk (<abbr title='Asterisk'>*</abbr>) to a search term to find variations of it (transp<abbr title='Asterisk'>*</abbr>, 32019R<abbr title='Asterisk'>*</abbr>). Use a question mark (<abbr title='Question mark'>?</abbr>) instead of a single character in your search term to find variations of it (ca<abbr title='Question mark'>?</abbr>e finds case, cane, care).";
+		var quickSearchHelp="Use quotation marks to search for an &quot;exact phrase&quot;. Append an asterisk (<abbr title='Asterisk'>*</abbr>) to a search term to find variations of it (transp<abbr title='Asterisk'>*</abbr>, 32019R<abbr title='Asterisk'>*</abbr>). Use a question mark (<abbr title='Question mark'>?</abbr>) instead of a single character in your search term to find variations of it (ca<abbr title='Question mark'>?</abbr>e finds case, cane, care).";
+Document 22017A1214(01)
+Help
+Print
+{
+                    "service": "share",
+                    "counter": false,
+                    "css": {
+                        "button": "myButton"
+                    },
+                    "link": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=oj:JOL_2017_331_R_0002"
+                }
+$(document).ready(function() {
+        $('.PageShare').each(function() { 
+            const target = this;
+            let observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (!mutation.addedNodes) return
+                    for (let i = 0; i < mutation.addedNodes.length; i++) {
+                        let node = mutation.addedNodes[i]
+                        if ($(node) != undefined && $(node).is("a") && $(node).hasClass("myButton") && $(node).find("i").length === 0) {
+                            $(node).prepend("<i class='fa fa-share-alt' aria-hidden='true'></i>")
+                            observer.disconnect();
+                        }
+                    }
+                })
+            })
+            observer.observe(target, {
+                subtree: true,
+                childList: true
+            });
+        });
+    });
+Text
+Document information
+Document summary
+Permanent link
+$(document).ready(function () {
+        if (readCookie('bookmark') == 'trigger') {
+            deleteCookie('bookmark');
+
+        } else {
+        	// Permanent link (DISPLAYED FIST) should remove qid from query string, and bookmark link should be displayed in its place when page refreshes
+            $('#link-permanent-link').addClass("onlyJsInlineBlock");
+            $('#link-permanent-link').show();
+        }
+    });
+Download notice
+Save to My items
+Create an email alert
+Create an RSS alert
+Table of contents
+Hide table of contents
+​
+Agreement between the European Union and the Republic of Chile on trade in organic products
+Agreement between the European Union and the Republic of Chile on trade in organic products
+Agreement between the European Union and the Republic of Chile on trade in organic products
+OJ L 331, 14.12.2017, pp. 4–18
+		 (BG, ES, CS, DA, DE, ET, EL, EN, FR, HR, IT, LV, LT, HU, MT, NL, PL, PT, RO, SK, SL, FI, SV)
+Date of entry into force unknown (pending notification) or not yet in force.
+Expand all
+Collapse all
+Dates
+Date of document:
+27/04/2017;
+Date of signature
+Date of effect:
+Entry into force
+See Art 15
+Date of signature:
+27/04/2017;
+Brussels
+Date of end of validity:
+Not known;
+See Art. 15
+Miscellaneous information
+Author:
+Chile
+,
+European Union
+Form:
+International agreement
+Relationship between documents
+Treaty:
+Treaty on the Functioning of the European Union
+Legal basis:
+12016E207
+- P4L1
+12016E218
+- P6L2PTA)PTV)
+12016E218
+- P7
+Link
+Link
+Link
+
+Select all documents mentioning this document
+Instruments cited:
+12016E/TXT
+21994A1223(01)
+21994A1223(07)
+22002A1230(01)
+32008R1235
+Link
+Related document(s):
+32017D2307
+Relation
+Classifications
+EUROVOC descriptor:
+trade agreement
+originating product
+trade agreement (EU)
+organic farming
+eco-label
+Chile
+agricultural trade
+organic product
+labelling
+Subject matter:
+Commercial policy
+External relations
+Directory code:
+11.40.50.00
+External relations
+/
+Bilateral agreements with non-member countries
+/
+Central America and Latin America
+Languages, formats and link to OJ
+Language
+BG
+ES
+CS
+DA
+DE
+ET
+EL
+EN
+FR
+GA
+HR
+IT
+LV
+LT
+HU
+MT
+NL
+PL
+PT
+RO
+SK
+SL
+FI
+SV
+HTML
+EN
+Toggle Dropdown
+BG
+ES
+CS
+DA
+DE
+ET
+EL
+EN
+FR
+GA
+HR
+IT
+LV
+LT
+HU
+MT
+NL
+PL
+PT
+RO
+SK
+SL
+FI
+SV
+PDF
+EN
+Toggle Dropdown
+BG
+ES
+CS
+DA
+DE
+ET
+EL
+EN
+FR
+GA
+HR
+IT
+LV
+LT
+HU
+MT
+NL
+PL
+PT
+RO
+SK
+SL
+FI
+SV
+Official Journal
+EN
+Toggle Dropdown
+BG
+ES
+CS
+DA
+DE
+ET
+EL
+EN
+FR
+GA
+HR
+IT
+LV
+LT
+HU
+MT
+NL
+PL
+PT
+RO
+SK
+SL
+FI
+SV
+Multilingual display
+Language 1
+English (en)
+Bulgarian (bg)
+Spanish (es)
+Czech (cs)
+Danish (da)
+German (de)
+Estonian (et)
+Greek (el)
+English (en)
+French (fr)
+Croatian (hr)
+Italian (it)
+Latvian (lv)
+Lithuanian (lt)
+Hungarian (hu)
+Maltese (mt)
+Dutch (nl)
+Polish (pl)
+Portuguese (pt)
+Romanian (ro)
+Slovak (sk)
+Slovenian (sl)
+Finnish (fi)
+Swedish (sv)
+Language 2
+Please choose
+Bulgarian (bg)
+Spanish (es)
+Czech (cs)
+Danish (da)
+German (de)
+Estonian (et)
+Greek (el)
+English (en)
+French (fr)
+Croatian (hr)
+Italian (it)
+Latvian (lv)
+Lithuanian (lt)
+Hungarian (hu)
+Maltese (mt)
+Dutch (nl)
+Polish (pl)
+Portuguese (pt)
+Romanian (ro)
+Slovak (sk)
+Slovenian (sl)
+Finnish (fi)
+Swedish (sv)
+Language 3
+Please choose
+Bulgarian (bg)
+Spanish (es)
+Czech (cs)
+Danish (da)
+German (de)
+Estonian (et)
+Greek (el)
+English (en)
+French (fr)
+Croatian (hr)
+Italian (it)
+Latvian (lv)
+Lithuanian (lt)
+Hungarian (hu)
+Maltese (mt)
+Dutch (nl)
+Polish (pl)
+Portuguese (pt)
+Romanian (ro)
+Slovak (sk)
+Slovenian (sl)
+Finnish (fi)
+Swedish (sv)
+Display
+Text
+14.12.2017
+EN
+Official Journal of the European Union
+L 331/4
+AGREEMENT
+between the European Union and the Republic of Chile on trade in organic products
+THE EUROPEAN UNION, hereinafter referred to as ‘the Union’,
+of the one part, and
+THE REPUBLIC OF CHILE, hereinafter referred to as ‘Chile’,
+of the other part,
+hereinafter referred to collectively as ‘the Parties’,
+RECOGNISING their longstanding and strong trade partnership based on the common principles and values reflected in the Agreement establishing an association between the European Community and its Member States, of the one part, and the Republic of Chile, of the other part;
+RESOLVED to contribute to the development and expansion of their organic sectors by creating new export opportunities;
+DETERMINED to foster trade in organic products and convinced that this Agreement will facilitate trade of organically grown and produced products between the Parties;
+SEEKING to achieve a high level of respect for the principles of organic production, of guarantee of the control systems and of integrity of organic products;
+COMMITTED to enhancing regulatory cooperation on issues related to organic production;
+RECOGNISING the importance of reciprocity and transparency in international trade for the benefit of all stakeholders;
+BEARING in mind that the World Trade Organization (WTO) Agreement on Technical Barriers to Trade encourages WTO Members to give positive consideration to accepting as equivalent technical regulations of other Members, even if they differ from their own, provided that they are satisfied that those regulations adequately fulfil the objectives of their own regulations;
+NOTING that permanent confidence in the continued reliability of the other Party's assessment procedures and control system is an essential element of such an acceptance of equivalence;
+BUILDING on their respective rights and obligations under the Agreement establishing the WTO and other multilateral, regional and bilateral agreements and arrangements to which they are parties;
+HAVE AGREED AS FOLLOWS:
+Article 1
+Purpose
+The purpose of this Agreement is to foster trade in organically produced agricultural products and foodstuffs between the Union and Chile, in accordance with the principles of non-discrimination and reciprocity.
+Article 2
+Definitions
+For the purposes of this Agreement, the following definitions shall apply:
+(1)
+‘equivalence’ means the capability of different laws and regulations, as well as inspection and certification systems to meet the same objectives;
+(2)
+‘competent authority’ means an official agency that has jurisdiction over the laws and regulations listed in Annex III or IV and is responsible for the implementation of this Agreement;
+(3)
+‘control authority’ means an authority of a Member State of the Union on which the relevant authority has conferred, in whole or in part, its competence for inspection and certification in the field of organic production in accordance with the laws and regulations listed in Annex III;
+(4)
+‘control body’ means an independent private entity carrying out inspection and certification in the field of organic production in accordance with the laws and regulations listed in Annex III or IV.
+Article 3
+Recognition of equivalence
+1.   With respect to the products listed in Annex I, the Union recognises the laws and regulations of Chile listed in Annex IV as equivalent to its laws and regulations listed in Annex III.
+2.   With respect to the products listed in Annex II, Chile recognises the laws and regulations of the Union listed in Annex III as equivalent to its laws and regulations listed in Annex IV.
+3.   In the event of modification, revocation or replacement of, or addition to, the laws and regulations listed in Annex III or IV, the new rules shall be considered equivalent to the other Party's rules unless the other Party objects in accordance with the procedure set out in paragraph 4.
+4.   If a Party considers that the laws, regulations or administrative procedures and practices of the other Party no longer meet the requirements for equivalence, it shall issue a reasoned request to the other Party to amend the relevant law, regulation or administrative procedure or practice and provide an adequate timeframe, which shall not be less than three months, for ensuring equivalence. If, following the expiry of that period, the Party concerned still considers that the requirements for equivalence are not met, it may unilaterally suspend the recognition of equivalence of the laws and regulations listed in Annex III or IV as regards the relevant products listed in Annex I or II.
+5.   A decision to unilaterally suspend the recognition of equivalence of the laws and regulations listed in Annex III or IV as regards the relevant products listed in Annex I or II may also be taken, following the expiry of a notice period of three months, when one Party has not provided the information required under Article 6 or does not agree to a peer review under Article 7.
+6.   With respect to products not listed in Annex I or II, and in accordance with point (b) of Article 8(3), equivalence shall be examined at the request of one Party by the Joint Committee established pursuant to Article 8(1).
+Article 4
+Import and placing on the market
+1.   The Union shall accept the import into its territory, and the placing on the market as organic products, of the products listed in Annex I, provided that those products comply with the laws and regulations of Chile listed in Annex IV and are accompanied by a certificate of inspection, as provided for in Annex V of Commission Regulation (EC) No 1235/2008 of 8 December 2008 laying down detailed rules for implementation of Council Regulation (EC) No 834/2007 as regards the arrangements for imports of organic products from third countries, issued by a control body recognised by Chile and indicated to the Union in accordance with paragraph 3.
+2.   Chile shall accept the import into its territory, and the placing on the market as organic products, of the products listed in Annex II, provided that those products comply with the laws and regulations of the Union listed in Annex III and are accompanied by a certificate issued by a control authority or a control body of the Union in accordance with Resolution No 7880 of the National Directorate of the Agricultural and Livestock Service, of 29 November 2011, establishing the minimum content for the organic agriculture certificates, in the framework of Law 20.089.
+3.   Each Party recognises the control authorities or control bodies indicated by the other Party as responsible for performing the relevant controls as regards organic products covered by the recognition of equivalence as referred to in Article 3 and for issuing the certificate of inspection as referred to in paragraphs 1 and 2 of this Article with a view to their import into and placing on the market in the territory of the other Party.
+The importing Party, in cooperation with the other Party, shall assign code numbers to each relevant control authority and control body indicated by the other Party.
+Article 5
+Labelling
+1.   Products imported from one Party by the other Party in accordance with this Agreement shall meet the requirements on labelling set out in the laws and regulations of the other Party listed in Annexes III and IV. Those products may bear the Union's organic logo, the Chilean organic logo or both logos, as set out in the relevant laws and regulations, provided that they comply with the labelling requirements for the respective logo or for both logos.
+2.   The Parties undertake to avoid any misuse of the terms referring to organic production, including derivatives or diminutives such as ‘bio’ and ‘eco’, in relation to products that are covered by the recognition of equivalence referred to in Article 3.
+3.   The Parties undertake to protect the Union's organic logo and the Chilean organic logo set out in the relevant laws and regulations against any misuse or imitation. The Parties shall ensure that the Union's organic logo and the Chilean organic logo are used only for the labelling, advertising or commercial documents of products complying with the laws and regulations listed in Annexes III and IV.
+Article 6
+Exchange of information
+The Parties shall exchange all relevant information with respect to the implementation and application of this Agreement. In particular, by 31 March of the second year following the entry into force of this Agreement, and subsequently by 31 March of each year, each Party shall send to the other:
+—
+a report that contains information with respect to the types and quantities of organic products exported under this Agreement, covering the period from January to December of the previous year; and
+—
+a report on the monitoring and supervisory activities carried out by the competent authority, the results obtained and the corrective measures taken, covering the period from January to December of the previous year.
+At any time, each Party shall without delay inform the other Party of:
+—
+any update to the list of its competent authorities, control authorities and control bodies, including the relevant contact details (in particular the address and the internet address);
+—
+any changes or repeals it intends to make in respect of laws or regulations listed in Annexes III and IV, any proposals for new laws or regulations or any relevant changes to administrative procedures and practices related to organic products listed in Annexes I and II;
+—
+any changes or repeals it has adopted in respect of laws or regulations listed in Annexes III and IV, any new legislation or relevant changes to administrative procedures and practices related to organic products listed in Annexes I and II; and
+—
+any changes to the internet addresses set out in Annex V.
+Article 7
+Peer reviews
+1.   Following advance notice of at least three months, each Party shall permit officials or experts designated by the other Party to conduct peer reviews in its territory to verify that the relevant control authorities and control bodies are carrying out the controls required under this Agreement.
+2.   Each Party shall cooperate with and assist the other Party, to the extent permitted under the applicable law, in carrying out the peer reviews referred to in paragraph 1, which may include visits to offices of relevant control authorities and control bodies, processing facilities and certified operators.
+Article 8
+Joint Committee on Organic Products
+1.   The Parties hereby establish a Joint Committee on Organic Products (‘the Joint Committee’) composed of duly appointed representatives of the Union, on the one hand, and representatives of the Government of Chile, on the other hand.
+2.   Consultations shall be held in the Joint Committee to facilitate the implementation, and to further the purpose, of this Agreement.
+3.   The functions of the Joint Committee shall be to:
+(a)
+manage this Agreement, taking the decisions necessary for its implementation and its good functioning;
+(b)
+examine any request by one Party to update or extend to new products the list of products in Annex I or II and to adopt a decision to modify Annex I or II if equivalence is recognised by the other Party;
+(c)
+enhance cooperation on laws, regulations, standards and conformity-assessment procedures concerning organic production, to which end it shall discuss any other technical or regulatory issue related to organic production rules and control systems with a view to increasing convergence between laws, regulations and standards;
+(d)
+consider any other issue with respect to the implementation of this Agreement.
+4.   The Parties shall, in accordance with their respective laws and regulations, implement the decisions adopted by the Joint Committee under point (b) of paragraph 3 and inform each other thereof within three months of their adoption
+(
+1
+)
+.
+5.   The Joint Committee shall operate by consensus. It shall adopt its own rules of procedure. It may establish subcommittees and working groups to deal with specific issues.
+6.   The Joint Committee shall inform the Committee on Standards, Technical Regulations and Conformity Assessment established pursuant to Article 88 of the Agreement establishing an association between the European Community and its Member States, of the one part, and the Republic of Chile, of the other part, of its decisions and work.
+7.   The Joint Committee shall meet once a year, in the Union and Chile alternately, on a mutually agreed date. If both Parties agree, a meeting of the Joint Committee may be held by means of video- or teleconference.
+8.   The Joint Committee shall be co-chaired by the two Parties.
+Article 9
+Settlement of disputes
+Any dispute relating to the interpretation or application of this Agreement shall be resolved through consultations between the Parties within the Joint Committee. The Parties shall present to the Joint Committee the relevant information required for a thorough examination of the matter, with a view to resolving the dispute.
+Article 10
+Confidentiality
+Representatives, experts and other agents of the Parties shall be required, even after their duties have ceased, not to disclose any information obtained in the framework of this Agreement that is covered by the obligation of professional secrecy.
+Article 11
+Review
+1.   Where either Party seeks a review of this Agreement, it shall submit a reasoned request to the other Party.
+2.   The Parties may entrust the Joint Committee with the task of considering any such request and, if appropriate, putting forward recommendations, in particular with a view to opening negotiations on parts of this Agreement that cannot be changed in accordance with point (b) of Article 8(3).
+Article 12
+Implementation of the Agreement
+The Parties shall take all steps, whether general or specific, to ensure compliance with the obligations under this Agreement. They shall abstain from any measure that is liable to jeopardise the attainment of the purpose of this Agreement.
+Article 13
+Annexes
+The Annexes to this Agreement shall form an integral part thereof.
+Article 14
+Territorial scope
+This Agreement shall apply, on the one hand, to the territories to which the Treaty on the Functioning of the European Union is applied and under the conditions set out in that Treaty and, on the other hand, to the territory of Chile.
+Article 15
+Entry into force and duration
+This Agreement shall enter into force on the first day of the third month following the final notification of the completion of the necessary internal procedures by each Party.
+This Agreement is concluded for an initial period of three years. It shall be renewed indefinitely unless the Union or Chile notifies the other Party of its objection to such renewal before the initial period expires.
+Either Party may notify the other Party in writing of its intention to denounce this Agreement. The denunciation shall take effect three months after the notification.
+Article 16
+Authentic texts
+This Agreement is signed in duplicate in English and Spanish, each text being equally authentic.
+Done at Brussels on the twenty-seventh day of April in the year two thousand and seventeen.
+For the European union
+For the Republic of Chile
+(
+1
+)
+Chile shall implement the decisions of the Joint Committee through
+Acuerdos de Ejecución
+, in accordance with Article 54, numeral 1, fourth paragraph, of the Political Constitution of the Republic of Chile (
+Constitución Política de la República de Chile
+).
+ANNEX I
+Organic products from Chile for which the Union recognises equivalence
+Codes and description of the Harmonised System nomenclature
+Comments
+0409
+Natural honey
+06
+LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE
+The following codes of this chapter are included only if unprocessed
+0603
+Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared
+0603 90
+Other
+0604
+Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared
+0604 90
+Other
+07
+EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS
+08
+EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS
+09
+COFFEE, TEA, MATÉ* AND SPICES
+* Excluded
+10
+CEREALS
+11
+PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN
+12
+OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER
+The following codes of this chapter are excluded or limited:
+1211
+Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered
+Included only if unprocessed or processed for use as food
+1212 21
+Seaweeds and other algae
+Excluded
+1212 21
+Fit for human consumption
+Excluded
+1212 29
+Other
+Excluded
+13
+LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS
+The following codes of this chapter are excluded or limited:
+1301
+Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)
+Excluded
+1302
+Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products
+Included only if processed for use as food
+1302 11
+Opium
+Excluded
+1302 19
+Other
+Excluded
+14
+VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED
+15
+ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES
+The following codes of this chapter are excluded or limited:
+1501
+Pig fat (including lard) and poultry fat, other than that of heading 0209  or 1503
+Included only if processed for use as food
+1502
+Fats of bovine animals, sheep or goats, other than those of heading 1503
+Included only if processed for use as food
+1503
+Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared
+Included only if processed for use as food
+1505
+Wool grease and fatty substances derived therefrom (including lanolin)
+Excluded
+1506
+Other animal fats and oils and their fractions, whether or not refined, but not chemically modified
+Excluded
+1515 30
+Castor oil and its fractions
+Excluded
+1515 90
+Other
+For this subchapter, jojoba oil is excluded. Other products are included only if processed for use as food.
+1516 20
+Vegetable fats and oils and their fractions
+Included only if processed for use as food
+1518
+Animal or vegetable fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 1516 ; inedible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, not elsewhere specified or included
+Excluded
+1520
+Glycerol, crude; glycerol waters and glycerol lyes
+Excluded
+1521
+Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured
+Excluded except vegetable waxes if processed for use as food
+17
+SUGARS AND SUGAR CONFECTIONERY
+18
+COCOA AND COCOA PREPARATIONS
+19
+PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRY COOKS' PRODUCTS
+20
+PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS
+21
+MISCELLANEOUS EDIBLE PREPARATIONS
+22
+BEVERAGES, SPIRITS AND VINEGAR
+The following codes of this chapter are excluded or limited:
+2201
+Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow
+Excluded
+2202
+Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading 2009
+Excluded
+2208
+Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol.; spirits, liqueurs and other spirituous beverages
+Included only if processed from agricultural products, for use as food
+3301
+Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils
+Included only if used for food
+Conditions:
+Organic products listed in this Annex shall be unprocessed agricultural products produced in Chile and processed agricultural products for use as food that have been processed in Chile with organically grown ingredients that have been produced in Chile or that have been imported into Chile either from the Union or from a third country in the framework of a regime that is recognised as equivalent by the Union in accordance with the provisions of Article 33(2) of Council Regulation (EC) No 834/2007 of 28 June 2007 on organic production and labelling of organic products and repealing Regulation (EEC) No 2092/91.
+ANNEX II
+Organic products from the Union for which Chile recognises equivalence
+Codes and description of the Harmonised System nomenclature
+Comments
+01
+LIVE ANIMALS
+The products of hunting and fishing of wild animals shall not be considered as organic production.
+02
+MEAT AND EDIBLE MEAT OFFAL
+Meat and edible meat offal from hunting and fishing of wild animals is excluded.
+03
+FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES
+Fishing of wild animals is excluded.
+04
+DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED
+05
+PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED
+The following codes of this chapter are excluded:
+0501
+Human hair, unworked, whether or not washed or scoured; waste of human hair
+0502
+Pigs', hogs' or boars' bristles and hair; badger hair and other brush making hair; waste of such bristles or hair
+0502 10
+Pigs', hogs' or boars' bristles and hair and waste thereof
+0502 90
+Other
+0505
+Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers
+0506
+Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products
+0507
+Ivory, tortoiseshell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products
+0510
+Ambergris, castoreum, civet and musk; cantharides; bile, whether or not dried; glands and other animal products used in the preparation of pharmaceutical products, fresh, chilled, frozen or otherwise provisionally preserved
+0511 91
+Other
+0511 99
+Natural sponges of animal origin
+06
+LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE
+The following codes of this chapter are included only if unprocessed:
+0603
+Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared
+0603 90
+Other
+0604
+Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared
+0604 90
+Other
+07
+EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS
+08
+EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS
+09
+COFFEE, TEA, MATÉ* AND SPICES
+* Excluded
+10
+CEREALS
+11
+PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN
+12
+OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER
+The following codes of this chapter are excluded or limited:
+1211
+Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered
+Included only if unprocessed or processed for use as food or feed
+13
+LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS
+The following codes of this chapter are excluded or limited:
+1301
+Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)
+Excluded
+1302
+Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products
+Included only if processed for use as food or feed
+1302 11
+Opium
+Excluded
+1302 19
+Other
+Excluded
+14
+VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED
+15
+ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES
+The following codes of this chapter are excluded or limited:
+1501
+Pig fat (including lard) and poultry fat, other than that of heading 0209  or 1503
+Included only if processed for use as food or feed
+1502
+Fats of bovine animals, sheep or goats, other than those of heading 1503
+Included only if processed for use as food or feed
+1503
+Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared
+Included only if processed for use as food or feed
+1505
+Wool grease and fatty substances derived therefrom (including lanolin)
+Excluded
+1506
+Other animal fats and oils and their fractions, whether or not refined, but not chemically modified
+Excluded
+1515 30
+Castor oil and its fractions
+Excluded
+1515 90
+Other
+For this subchapter, jojoba oil is excluded. Other products are included only if processed for use as food or feed.
+1520
+Glycerol, crude; glycerol waters and glycerol lyes
+Included only if processed for use as food or feed.
+1521
+Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured
+Only vegetable waxes included if processed for use as food and feed
+16
+PREPARATIONS OF MEAT, OF FISH OR OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES
+17
+SUGARS AND SUGAR CONFECTIONERY
+18
+COCOA AND COCOA PREPARATIONS
+19
+PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRY COOKS' PRODUCTS
+20
+PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS
+21
+MISCELLANEOUS EDIBLE PREPARATIONS
+22
+BEVERAGES, SPIRITS AND VINEGAR
+The following codes of this chapter are excluded or limited:
+2201
+Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow
+Excluded
+2202
+Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading 2009
+Excluded
+2208
+Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol.; spirits, liqueurs and other spirituous beverages
+Included only if processed from agricultural products, for use as food
+23
+RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER
+The following code of this chapter is limited:
+2307
+Wine lees; argol
+Argol is excluded
+3301
+Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils
+Included only if used for food
+45
+CORK AND ARTICLES OF CORK
+Included only if unprocessed
+53
+OTHER VEGETABLE TEXTILE FIBRES; PAPER YARN AND WOVEN FABRICS OF PAPER YARN
+Included only if unprocessed
+Conditions:
+Organic products listed in this Annex shall be unprocessed and processed agricultural products that are produced or processed in the Union.
+ANNEX III
+Organic legislation applicable in the Union
+Council Regulation (EC) No 834/2007 of 28 June 2007 on organic production and labelling of organic products and repealing Regulation (EEC) No 2092/91, as last amended by Council Regulation (EC) No 517/2013.
+Commission Regulation (EC) No 889/2008 of 5 September 2008 laying down detailed rules for the implementation of Council Regulation (EC) No 834/2007 on organic production and labelling of organic products with regard to organic production, labelling and control, as last amended by Commission Implementing Regulation (EU) No 1358/2014.
+Commission Regulation (EC) No 1235/2008 of 8 December 2008 laying down detailed rules for implementation of Council Regulation (EC) No 834/2007 as regards the arrangements for imports of organic products from third countries, as amended by Commission Implementing Regulation (EU) 2015/931.
+ANNEX IV
+Organic legislation applicable in Chile
+Law 20.089, of 17 January 2006, that creates a National Certification System for Agricultural Organic Products.
+Decree n
+o
+03 of 29 January 2016, of the Ministry of Agriculture, that approves the Regulation of Law 20.089 that creates a National Certification System for Agricultural Organic Products.
+Decree n
+o
+02 of 22 January 2016, of the Ministry of Agriculture, that approves the Technical Rules of Law 20.089 that creates a National Certification System for Agricultural Organic Products.
+Resolution n
+o
+569 of the National Directorate of the Agricultural and Livestock Service, of 7 February 2007, establishing standards for registration of organic products' certification bodies.
+Resolution n
+o
+1110 of the National Directorate of the Agricultural and Livestock Service, of 4 March 2008, approving the official label for organic products and equivalents.
+Resolution n
+o
+7880 of the National Directorate of the Agricultural and Livestock Service, of 29 November 2011, establishing the minimum content for the organic agriculture certificates, in the framework of Law 20.089.
+ANNEX V
+Internet addresses where the laws and regulations listed in Annexes III and IV including any modification, revocation, replacement or addition, as well as consolidated versions, and any new legislation for products that have been listed in Annex I or II in accordance with point (b) of Article 8(3) can be consulted:
+Union:
+http://eur-lex.europa.eu
+Chile:
+http://www.sag.gob.cl/ambitos-de-accion/certificacion-de-productos-organicos-agricolas/132/normativas
+Top
+×
+Timeline legend
+Initial legal act
+Another version
+Selected version
+Selected version application period
+Hidden intermediate versions
+Version which is applicable today
+Future version
+All
+$(document).ready(function () {
+			popUpWidget("./../../../", "en", "800");
+			popUpWidgetAccessible("./../../../", "EN");
+		})
+$(document).ready(function() {
+				
+				if ("false" == "true") {
+					initConslegTimelineCustom();
+					initConsLegTable('To display the table of contents, zoom out or increase the size of your browser window.');
+				}
+				else if ("false" == "true") {
+					initConsLegTable('To display the table of contents, zoom out or increase the size of your browser window.');
+				}
+
+				if ("true" == "true") {
+					initToc("false");
+					
+					eliResolutionResolver("/legal-content/EN/ALL/");
+				}
+				
+				if ("false" == "true") {
+					var d3APIData = JSON.parse('');
+					initD3Visualisation(d3APIData);
+				}
+
+	            
+    	        if("false" == "true" && "" != null){
+				    var d3Data = JSON.parse('');
+            	    initTimeline(d3Data, "");
+            	}
+
+				setTimeout(function(){ loadDocState("ALL","PP"); }, 0);
+				$(document).trigger("enhance");
+			});
+Table of contents
+Hide table of contents
+This site is managed by the
+Publications Office of the European Union
+Need help?
+Help pages
+Contact
+Sitemap
+Follow us
+X
+Legal
+Legal notice
+Cookies policy
+Accessibility
+Privacy statement
+Information
+About EUR-Lex
+Newsletter
+Useful links
+Other services
+European Data
+EU tenders
+EU research results
+EU Whoiswho
+EU publications
+N-Lex
+EU Law Tracker
+Discover more on
+europa.eu
+Contact the EU
+Call us 00 800 6 7 8 9 10 11
+Use other telephone options
+Write to us via our contact form
+Meet us at one of the EU centres
+Social media
+Search for EU social media channels
+Legal
+Languages on our websites
+Privacy policy
+Legal notice
+Cookies
+EU institutions
+European Parliament
+European Council
+Council of the European Union
+European Commission
+Court of Justice of the European Union (CJEU)
+European Central Bank (ECB)
+European Court of Auditors
+European External Action Service (EEAS)
+European Economic and Social Committee
+European Committee of Regions (CoR)
+European Investment Bank
+European Ombudsman
+European Data Protection Supervisor (EDPS)
+European Data Protection Board
+European Personnel Selection Office
+Publications Office of the European Union
+Agencies
+Switch to mobile
+Switch to desktop
+$(document).ready(function () {
+        var switchToDesktop = "notSelected";
+        var deviceDetected = "desktop";
+        //enable switch to desktop view for mobile devices
+        if (deviceDetected == 'mobile' ){
+            if ((switchToDesktop == 'false' || switchToDesktop == 'notSelected') && window.innerWidth<992 ){
+                $("#switchToDesktop").removeClass("hide");
+            }else if (switchToDesktop == 'true'){
+                $("#switchToMobile").removeClass("hide");
+            }
+        }
+    });
+(function($,d){$.each(readyQ,function(i,f){$(f)});$.each(bindReadyQ,function(i,f){$(d).on("ready",f)})})(jQuery,document)

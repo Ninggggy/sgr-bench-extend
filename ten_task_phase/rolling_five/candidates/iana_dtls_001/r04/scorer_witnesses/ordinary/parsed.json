@@ -1,0 +1,18 @@
+{
+  "status": "parsed",
+  "rows": [
+    {
+      "line": 2,
+      "raw": "53|54|2021-03-26|draft-ietf-tls-dtls-connection-id-10|53",
+      "cells": [
+        "53",
+        "54",
+        "2021-03-26",
+        "draft-ietf-tls-dtls-connection-id-10",
+        "53"
+      ]
+    }
+  ],
+  "ignored_lines": [],
+  "issues": []
+}

@@ -1,0 +1,21 @@
+{
+  "at": "2026-09-13T03:03:57.961385+00:00",
+  "root_application_set_unchanged": true,
+  "negative_full_seven_rows_unchanged": true,
+  "positive_page2_witness_unchanged": true,
+  "exact_reclicked_targets": [
+    "123823",
+    "143856",
+    "131929",
+    "122634",
+    "122388",
+    "119691",
+    "119692",
+    "116999"
+  ],
+  "source_request_items": 11,
+  "prior_source_items": 48,
+  "cumulative_source_items": 59,
+  "full_positive_four_pages_refreshed": false,
+  "scope": "Answer-relevant membership reobserved; no permanence or origin-cache guarantee."
+}

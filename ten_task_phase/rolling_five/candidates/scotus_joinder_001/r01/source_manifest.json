@@ -1,0 +1,58 @@
+{
+  "path_base": "All capture paths are relative to --source-dir; annotation and rules paths are relative to reference.py.",
+  "observed_date": "2026-09-12",
+  "source_version": "Official Volume 600, Part 1 preliminary prints marked Page Proof Pending Publication; historical decisions issued 2023-06-27.",
+  "provenance": "Capture sizes and timestamps supplied by the controller. The constructor also reopened the official term table and the three PDFs to check decisive source passages.",
+  "text_provenance": "Controller-supplied complete text extractions paired with the captured PDFs. The reference validates this supplied pairing through capture sizes, document framing, table-link identity, and text identity/version anchors; it does not perform fresh PDF text extraction.",
+  "term": {
+    "path": "term22.html",
+    "url": "https://www.supremecourt.gov/opinions/slipopinion/22",
+    "final_url": "https://www.supremecourt.gov/opinions/slipopinion/22",
+    "status": 200,
+    "bytes": 99195,
+    "accessed_at": "2026-09-12T07:34:37.583385+00:00",
+    "dated_records": 58,
+    "release_date": "2023-06-27"
+  },
+  "documents": {
+    "moore": {
+      "path": "moore.pdf",
+      "text_path": "moore.txt",
+      "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r50_h3ci.pdf",
+      "final_url": "https://www.supremecourt.gov/opinions/22pdf/600us1r50_h3ci.pdf",
+      "status": 200,
+      "bytes": 499681,
+      "text_bytes": 154869,
+      "accessed_at": "2026-09-12T07:34:40.017479+00:00",
+      "pdf_pages": 67,
+      "first_printed_page": 1,
+      "last_printed_page": 65
+    },
+    "counterman": {
+      "path": "counterman.pdf",
+      "text_path": "counterman.txt",
+      "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r51_g3bi.pdf",
+      "final_url": "https://www.supremecourt.gov/opinions/22pdf/600us1r51_g3bi.pdf",
+      "status": 200,
+      "bytes": 420250,
+      "text_bytes": 128181,
+      "accessed_at": "2026-09-12T07:34:41.744698+00:00",
+      "pdf_pages": 58,
+      "first_printed_page": 66,
+      "last_printed_page": 121
+    },
+    "mallory": {
+      "path": "mallory.pdf",
+      "text_path": "mallory.txt",
+      "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf",
+      "final_url": "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf",
+      "status": 200,
+      "bytes": 559002,
+      "text_bytes": 135796,
+      "accessed_at": "2026-09-12T07:34:43.528614+00:00",
+      "pdf_pages": 61,
+      "first_printed_page": 122,
+      "last_printed_page": 180
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "candidate_id": "kegg_initial_cdx_001",
+  "historical_revision": 2,
+  "revision": 3,
+  "batch_revision": "polish01",
+  "status": "blocked",
+  "reason": "原题措辞和评分输出已修正，但本轮FDA关键历史文件返回HTTP 404的abuse-detection/excessive-requests拦截页；不换工具绕过。现有私有缓存不能替代盲解可达来源，因此本轮不测。",
+  "changes": [
+    "按任务、范围、判定条件分段；解释必要术语；CG/GO使用相同实质条件，仅CG增加步骤。",
+    "引用和限制放独立字段；删除与v2冲突的批量许可；历史输入不覆盖。"
+  ],
+  "evidence_paths": [
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/source_checks/pre/cdx_cap_ssed.response",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/source_checks/pre/cdx_cap_label.response"
+  ],
+  "historical_inputs": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_initial_cdx_001-r02-cg-v2-once",
+  "independent_human_review": "not_performed",
+  "formal_admission": false
+}

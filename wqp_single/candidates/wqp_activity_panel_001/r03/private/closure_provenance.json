@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-09-08T15:46:12.521427+00:00",
+  "author": "Controller",
+  "independent_precomparison_decision": "private/decision.json",
+  "final_controller_decision": "private/closure_decision.json",
+  "model_sessions_added_for_closure": 0,
+  "public_oracle_scoring_changes_after_final_solves": false,
+  "substantive_revisions_used": 2,
+  "model_sessions_started": 35
+}

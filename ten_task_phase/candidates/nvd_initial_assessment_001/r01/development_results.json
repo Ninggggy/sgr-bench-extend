@@ -1,0 +1,152 @@
+{
+  "kind": "development_screening_only",
+  "trials": [
+    {
+      "variant": "CG",
+      "run_id": "r-nvd-initial-r01-cg-dev-a",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 24,
+          "gold_fields": 24,
+          "pred_fields": 24,
+          "item_denominator": 48,
+          "correct_rows": 6,
+          "gold_rows": 6,
+          "pred_rows": 6,
+          "row_denominator": 12,
+          "correct_pairs": 15,
+          "pair_denominator": 15,
+          "shared_ids": 6
+        }
+      },
+      "run": {
+        "controller_label": "r-nvd-initial-r01-cg-dev-a",
+        "audit_assets": false,
+        "model": "gpt-5.6-sol",
+        "provider": "openai",
+        "effort": "medium",
+        "current_date": "2026-09-09",
+        "controller_timezone": "CST",
+        "started_at": "2026-09-09T16:53:02.272151+00:00",
+        "ended_at": "2026-09-09T17:01:05.667866+00:00",
+        "elapsed_seconds": 483.402,
+        "status": "completed",
+        "attempt_policy": "one invocation, no automatic retries",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "tools_config": "solver.config.toml",
+        "actual_model": "gpt-5.6-sol",
+        "actual_effort": "medium",
+        "usage": {
+          "input_tokens": 4364926,
+          "cached_input_tokens": 4119296,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 8342,
+          "reasoning_output_tokens": 3674
+        },
+        "exit_code": 0,
+        "candidate_id": "nvd_initial_assessment_001",
+        "revision": 1,
+        "protocol_version": "ten-task-v1",
+        "stage": "development",
+        "variant": "CG",
+        "trial": 1,
+        "run_id": "r-nvd-initial-r01-cg-dev-a",
+        "role": "blind",
+        "purpose": "development",
+        "attempt": 1,
+        "previous_run": null,
+        "controller_pid": 35849,
+        "container_name": "sgr-solve-83c301199bdc",
+        "allocated_at": "2026-09-09T16:53:01.492460+00:00",
+        "cli_version": "codex-cli 0.153.4",
+        "ending_reason": "exited",
+        "answer_ready": true,
+        "completed_event": true,
+        "errors": [],
+        "model_reported_status": "complete",
+        "verification_status": "passed"
+      }
+    },
+    {
+      "variant": "GO",
+      "run_id": "r-nvd-initial-r01-go-dev-a",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 24,
+          "gold_fields": 24,
+          "pred_fields": 24,
+          "item_denominator": 48,
+          "correct_rows": 6,
+          "gold_rows": 6,
+          "pred_rows": 6,
+          "row_denominator": 12,
+          "correct_pairs": 15,
+          "pair_denominator": 15,
+          "shared_ids": 6
+        }
+      },
+      "run": {
+        "controller_label": "r-nvd-initial-r01-go-dev-a",
+        "audit_assets": false,
+        "model": "gpt-5.6-sol",
+        "provider": "openai",
+        "effort": "medium",
+        "current_date": "2026-09-09",
+        "controller_timezone": "CST",
+        "started_at": "2026-09-09T17:01:06.869696+00:00",
+        "ended_at": "2026-09-09T17:22:31.153509+00:00",
+        "elapsed_seconds": 1284.301,
+        "status": "completed",
+        "attempt_policy": "one invocation, no automatic retries",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "tools_config": "solver.config.toml",
+        "actual_model": "gpt-5.6-sol",
+        "actual_effort": "medium",
+        "usage": {
+          "input_tokens": 6781529,
+          "cached_input_tokens": 6567040,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 18065,
+          "reasoning_output_tokens": 7626
+        },
+        "exit_code": 0,
+        "candidate_id": "nvd_initial_assessment_001",
+        "revision": 1,
+        "protocol_version": "ten-task-v1",
+        "stage": "development",
+        "variant": "GO",
+        "trial": 1,
+        "run_id": "r-nvd-initial-r01-go-dev-a",
+        "role": "blind",
+        "purpose": "development",
+        "attempt": 1,
+        "previous_run": null,
+        "controller_pid": 36569,
+        "container_name": "sgr-solve-26fb054968f1",
+        "allocated_at": "2026-09-09T17:01:06.229303+00:00",
+        "cli_version": "codex-cli 0.153.4",
+        "ending_reason": "exited",
+        "answer_ready": true,
+        "completed_event": true,
+        "errors": [],
+        "model_reported_status": "complete",
+        "verification_status": "passed"
+      }
+    }
+  ],
+  "decision": "Both CG and GO development A returned all six rows and all fields correctly (Item-F1=1 each). No substantive error supports continuing; no development B, shortcut attack or admission round scheduled. This is development rejection, not an admission-threshold result."
+}

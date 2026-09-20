@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-09-08T15:12:11.542719+00:00",
+  "kind": "Documentation correction after independent audit, not a substantive task revision",
+  "public_task_or_oracle_changed": false,
+  "source_records_or_scoring_changed": false,
+  "additional_model_attempts": 0,
+  "corrected": "State graph no longer implies original frontier is needed to enumerate original activity identities; records valid monotonicity pruning and redundant event removal. Strict adaptive retrieval claim is not accepted.",
+  "history": "private/history/state_graph_before_independent_source_audit.json",
+  "independent_audit": "private/content_audit.json",
+  "remaining_limits": [
+    "six development/shortcut answers all correct",
+    "old004 public selection not unique",
+    "recovered intermediate SQL disk/profile errors are not final reasoning failures",
+    "r01 raw download archive loss",
+    "UTC/monotonic duration mismatch",
+    "auditor did not byte-verify ZIP member extraction and did not receive every per-run response body"
+  ],
+  "adjudication_scope": "The already launched adjudication bundle includes original state graph and the complete source audit; this correction is a separately dated controller response, not a claim that the adjudicator saw it."
+}

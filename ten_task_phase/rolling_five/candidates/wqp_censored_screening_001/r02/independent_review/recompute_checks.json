@@ -1,0 +1,12 @@
+{
+  "source_rows": 137,
+  "limits_rows": 246,
+  "hardness_rows": 102,
+  "included": 101,
+  "groups": 12,
+  "oracle_exact_match": true,
+  "default_narrow_shared_multisets_equal": true,
+  "unique_result_ids": true,
+  "all_exact_activity_joins_unique": true,
+  "basis_note": "Exact WQX approved characteristic basis established by EPA SRS indexed official record E1640416."
+}

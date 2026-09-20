@@ -1,0 +1,1362 @@
+[
+  {
+    "file_id": "d0001",
+    "source": "candidate.json",
+    "bytes": 33587
+  },
+  {
+    "file_id": "d0002",
+    "source": "public/cg.json",
+    "bytes": 9311
+  },
+  {
+    "file_id": "d0003",
+    "source": "public/go.json",
+    "bytes": 8876
+  },
+  {
+    "file_id": "d0004",
+    "source": "private/candidate_universe.jsonl",
+    "bytes": 802915
+  },
+  {
+    "file_id": "d0005",
+    "source": "private/candidate_validation.txt",
+    "bytes": 276
+  },
+  {
+    "file_id": "d0006",
+    "source": "private/comparison/README.md",
+    "bytes": 426
+  },
+  {
+    "file_id": "d0007",
+    "source": "private/comparison/analysis_plan.json",
+    "bytes": 6579
+  },
+  {
+    "file_id": "d0008",
+    "source": "private/comparison/old_pair_review.md",
+    "bytes": 1679
+  },
+  {
+    "file_id": "d0009",
+    "source": "private/comparison/reference_verification.json",
+    "bytes": 9848
+  },
+  {
+    "file_id": "d0010",
+    "source": "private/comparison/waterquality_004-g.json",
+    "bytes": 5783
+  },
+  {
+    "file_id": "d0011",
+    "source": "private/comparison/waterquality_004.json",
+    "bytes": 5715
+  },
+  {
+    "file_id": "d0012",
+    "source": "private/comparison/waterquality_005-g.json",
+    "bytes": 5642
+  },
+  {
+    "file_id": "d0013",
+    "source": "private/comparison/waterquality_005.json",
+    "bytes": 6464
+  },
+  {
+    "file_id": "d0014",
+    "source": "private/comparison_parallelism_refinement.json",
+    "bytes": 766
+  },
+  {
+    "file_id": "d0015",
+    "source": "private/comparison_scope_clarification.json",
+    "bytes": 1555
+  },
+  {
+    "file_id": "d0016",
+    "source": "private/content_run_plan.json",
+    "bytes": 5840
+  },
+  {
+    "file_id": "d0017",
+    "source": "private/content_runs_report.md",
+    "bytes": 12041
+  },
+  {
+    "file_id": "d0018",
+    "source": "private/content_runs_review.json",
+    "bytes": 120893
+  },
+  {
+    "file_id": "d0019",
+    "source": "private/development_disposition.json",
+    "bytes": 847
+  },
+  {
+    "file_id": "d0020",
+    "source": "private/execution_speed_amendment.json",
+    "bytes": 1046
+  },
+  {
+    "file_id": "d0021",
+    "source": "private/field_evidence.jsonl",
+    "bytes": 106007
+  },
+  {
+    "file_id": "d0022",
+    "source": "private/first_solve_state_computation.json",
+    "bytes": 7835
+  },
+  {
+    "file_id": "d0023",
+    "source": "private/history/r02_content_runs_report.md",
+    "bytes": 6440
+  },
+  {
+    "file_id": "d0024",
+    "source": "private/history/r02_content_runs_review.json",
+    "bytes": 56019
+  },
+  {
+    "file_id": "d0025",
+    "source": "private/history/r02_development_disposition.json",
+    "bytes": 650
+  },
+  {
+    "file_id": "d0026",
+    "source": "private/history/r02_development_progress.json",
+    "bytes": 1610
+  },
+  {
+    "file_id": "d0027",
+    "source": "private/history/r02_possible_remaining_repair.json",
+    "bytes": 2256
+  },
+  {
+    "file_id": "d0028",
+    "source": "private/history/r02_quality_sensitivity_exploration.json",
+    "bytes": 7144
+  },
+  {
+    "file_id": "d0029",
+    "source": "private/history/r02_repair_report.md",
+    "bytes": 4246
+  },
+  {
+    "file_id": "d0030",
+    "source": "private/inclusion_ledger.jsonl",
+    "bytes": 247430
+  },
+  {
+    "file_id": "d0031",
+    "source": "private/observed_solver_capabilities.json",
+    "bytes": 1253
+  },
+  {
+    "file_id": "d0032",
+    "source": "private/pair_alignment.json",
+    "bytes": 16595
+  },
+  {
+    "file_id": "d0033",
+    "source": "private/pre_solve_checks.json",
+    "bytes": 760
+  },
+  {
+    "file_id": "d0034",
+    "source": "private/protocol/Dockerfile",
+    "bytes": 411
+  },
+  {
+    "file_id": "d0035",
+    "source": "private/protocol/SCORING.md",
+    "bytes": 1319
+  },
+  {
+    "file_id": "d0036",
+    "source": "private/protocol/archive_recovery_check.json",
+    "bytes": 367
+  },
+  {
+    "file_id": "d0037",
+    "source": "private/protocol/audit_run.py",
+    "bytes": 19556
+  },
+  {
+    "file_id": "d0038",
+    "source": "private/protocol/data_tools.py",
+    "bytes": 8252
+  },
+  {
+    "file_id": "d0039",
+    "source": "private/protocol/environment_report.md",
+    "bytes": 2538
+  },
+  {
+    "file_id": "d0040",
+    "source": "private/protocol/run.py",
+    "bytes": 19515
+  },
+  {
+    "file_id": "d0041",
+    "source": "private/protocol/score.py",
+    "bytes": 7093
+  },
+  {
+    "file_id": "d0042",
+    "source": "private/protocol/scoring_maintenance.json",
+    "bytes": 2424
+  },
+  {
+    "file_id": "d0043",
+    "source": "private/protocol/solver.config.toml",
+    "bytes": 408
+  },
+  {
+    "file_id": "d0044",
+    "source": "private/reference/completeness_checks.json",
+    "bytes": 587
+  },
+  {
+    "file_id": "d0045",
+    "source": "private/reference/counterfactuals.json",
+    "bytes": 14948
+  },
+  {
+    "file_id": "d0046",
+    "source": "private/reference/independent_answer.psv",
+    "bytes": 2188
+  },
+  {
+    "file_id": "d0047",
+    "source": "private/reference/independent_check.sql",
+    "bytes": 4443
+  },
+  {
+    "file_id": "d0048",
+    "source": "private/reference/independent_pcode_check.json",
+    "bytes": 483
+  },
+  {
+    "file_id": "d0049",
+    "source": "private/reference/independent_trial_decisions.jsonl",
+    "bytes": 74132
+  },
+  {
+    "file_id": "d0050",
+    "source": "private/reference/initial_state/activity_ledger.jsonl",
+    "bytes": 2170498
+  },
+  {
+    "file_id": "d0051",
+    "source": "private/reference/initial_state/counterfactuals.json",
+    "bytes": 71147
+  },
+  {
+    "file_id": "d0052",
+    "source": "private/reference/initial_state/field_evidence.jsonl",
+    "bytes": 203838
+  },
+  {
+    "file_id": "d0053",
+    "source": "private/reference/initial_state/independent_check.sql",
+    "bytes": 2709
+  },
+  {
+    "file_id": "d0054",
+    "source": "private/reference/initial_state/oracle.psv",
+    "bytes": 3653
+  },
+  {
+    "file_id": "d0055",
+    "source": "private/reference/initial_state/result_ledger.jsonl",
+    "bytes": 1824904
+  },
+  {
+    "file_id": "d0056",
+    "source": "private/reference/initial_state/selected_activities.json",
+    "bytes": 157758
+  },
+  {
+    "file_id": "d0057",
+    "source": "private/reference/initial_state/station_year_ledger.jsonl",
+    "bytes": 140636
+  },
+  {
+    "file_id": "d0058",
+    "source": "private/reference/initial_state/verification.json",
+    "bytes": 1632
+  },
+  {
+    "file_id": "d0059",
+    "source": "private/reference/initial_state/window_ledger.jsonl",
+    "bytes": 48322
+  },
+  {
+    "file_id": "d0060",
+    "source": "private/reference/oracle.psv",
+    "bytes": 2188
+  },
+  {
+    "file_id": "d0061",
+    "source": "private/reference/panel_reference.py",
+    "bytes": 15202
+  },
+  {
+    "file_id": "d0062",
+    "source": "private/reference/recompute_01.log",
+    "bytes": 2706
+  },
+  {
+    "file_id": "d0063",
+    "source": "private/reference/recompute_02.log",
+    "bytes": 2706
+  },
+  {
+    "file_id": "d0064",
+    "source": "private/reference/reference_report.md",
+    "bytes": 1505
+  },
+  {
+    "file_id": "d0065",
+    "source": "private/reference/scenario_ledger.jsonl",
+    "bytes": 942550
+  },
+  {
+    "file_id": "d0066",
+    "source": "private/reference/selected_activities.json",
+    "bytes": 104140
+  },
+  {
+    "file_id": "d0067",
+    "source": "private/reference/solve_reference.py",
+    "bytes": 10667
+  },
+  {
+    "file_id": "d0068",
+    "source": "private/reference/trial_window_ledger.jsonl",
+    "bytes": 2934533
+  },
+  {
+    "file_id": "d0069",
+    "source": "private/reference/verification.json",
+    "bytes": 1074
+  },
+  {
+    "file_id": "d0070",
+    "source": "private/repair_report.md",
+    "bytes": 5080
+  },
+  {
+    "file_id": "d0071",
+    "source": "private/rerun_plan.json",
+    "bytes": 448
+  },
+  {
+    "file_id": "d0072",
+    "source": "private/revision_intent.json",
+    "bytes": 851
+  },
+  {
+    "file_id": "d0073",
+    "source": "private/runtime_current_job.json",
+    "bytes": 936
+  },
+  {
+    "file_id": "d0074",
+    "source": "private/scheduler_handoff.json",
+    "bytes": 799
+  },
+  {
+    "file_id": "d0075",
+    "source": "private/scoring_rules.json",
+    "bytes": 2931
+  },
+  {
+    "file_id": "d0076",
+    "source": "private/source_definition_checks.json",
+    "bytes": 1802
+  },
+  {
+    "file_id": "d0077",
+    "source": "private/source_manifest.json",
+    "bytes": 16168
+  },
+  {
+    "file_id": "d0078",
+    "source": "private/sources/activity_2000_2019_trinity.headers",
+    "bytes": 686
+  },
+  {
+    "file_id": "d0079",
+    "source": "private/sources/activity_2000_2019_trinity.json",
+    "bytes": 13009
+  },
+  {
+    "file_id": "d0080",
+    "source": "private/sources/activity_2000_2019_trinity.response",
+    "bytes": 0
+  },
+  {
+    "file_id": "d0081",
+    "source": "private/sources/activity_2000_2019_trinity_zip.csv",
+    "bytes": 7444736
+  },
+  {
+    "file_id": "d0082",
+    "source": "private/sources/activity_2000_2019_trinity_zip.extracted.csv",
+    "bytes": 7444736
+  },
+  {
+    "file_id": "d0083",
+    "source": "private/sources/activity_2000_2019_trinity_zip.headers",
+    "bytes": 772
+  },
+  {
+    "file_id": "d0084",
+    "source": "private/sources/activity_2000_2019_trinity_zip.json",
+    "bytes": 13771
+  },
+  {
+    "file_id": "d0085",
+    "source": "private/sources/activity_2000_2019_trinity_zip.response",
+    "bytes": 611749
+  },
+  {
+    "file_id": "d0086",
+    "source": "private/sources/default_homepage.headers",
+    "bytes": 817
+  },
+  {
+    "file_id": "d0087",
+    "source": "private/sources/default_homepage.json",
+    "bytes": 12020
+  },
+  {
+    "file_id": "d0088",
+    "source": "private/sources/default_homepage.response",
+    "bytes": 77439
+  },
+  {
+    "file_id": "d0089",
+    "source": "private/sources/epa_definitions.headers",
+    "bytes": 1262
+  },
+  {
+    "file_id": "d0090",
+    "source": "private/sources/epa_definitions.json",
+    "bytes": 13421
+  },
+  {
+    "file_id": "d0091",
+    "source": "private/sources/epa_definitions.response",
+    "bytes": 63061
+  },
+  {
+    "file_id": "d0092",
+    "source": "private/sources/extraction_manifest.json",
+    "bytes": 962
+  },
+  {
+    "file_id": "d0093",
+    "source": "private/sources/huc_domain_values.headers",
+    "bytes": 509
+  },
+  {
+    "file_id": "d0094",
+    "source": "private/sources/huc_domain_values.json",
+    "bytes": 12132
+  },
+  {
+    "file_id": "d0095",
+    "source": "private/sources/huc_domain_values.response",
+    "bytes": 0
+  },
+  {
+    "file_id": "d0096",
+    "source": "private/sources/independent_pcode_mainstem_2000_2019_zip.extracted.csv",
+    "bytes": 2017932
+  },
+  {
+    "file_id": "d0097",
+    "source": "private/sources/independent_pcode_mainstem_2000_2019_zip.headers",
+    "bytes": 823
+  },
+  {
+    "file_id": "d0098",
+    "source": "private/sources/independent_pcode_mainstem_2000_2019_zip.json",
+    "bytes": 14905
+  },
+  {
+    "file_id": "d0099",
+    "source": "private/sources/independent_pcode_mainstem_2000_2019_zip.response",
+    "bytes": 74184
+  },
+  {
+    "file_id": "d0100",
+    "source": "private/sources/narrow_2000_2019_trinity_panel.csv",
+    "bytes": 37733351
+  },
+  {
+    "file_id": "d0101",
+    "source": "private/sources/narrow_2000_2019_trinity_panel.headers",
+    "bytes": 689
+  },
+  {
+    "file_id": "d0102",
+    "source": "private/sources/narrow_2000_2019_trinity_panel.json",
+    "bytes": 13513
+  },
+  {
+    "file_id": "d0103",
+    "source": "private/sources/narrow_2000_2019_trinity_panel.response",
+    "bytes": 0
+  },
+  {
+    "file_id": "d0104",
+    "source": "private/sources/narrow_2000_2019_trinity_panel_zip.extracted.csv",
+    "bytes": 37733351
+  },
+  {
+    "file_id": "d0105",
+    "source": "private/sources/narrow_2000_2019_trinity_panel_zip.headers",
+    "bytes": 831
+  },
+  {
+    "file_id": "d0106",
+    "source": "private/sources/narrow_2000_2019_trinity_panel_zip.json",
+    "bytes": 14277
+  },
+  {
+    "file_id": "d0107",
+    "source": "private/sources/narrow_2000_2019_trinity_panel_zip.response",
+    "bytes": 1461709
+  },
+  {
+    "file_id": "d0108",
+    "source": "private/sources/official_huc_hierarchy.headers",
+    "bytes": 335
+  },
+  {
+    "file_id": "d0109",
+    "source": "private/sources/official_huc_hierarchy.json",
+    "bytes": 12045
+  },
+  {
+    "file_id": "d0110",
+    "source": "private/sources/official_huc_hierarchy.response",
+    "bytes": 73857
+  },
+  {
+    "file_id": "d0111",
+    "source": "private/sources/services.headers",
+    "bytes": 666
+  },
+  {
+    "file_id": "d0112",
+    "source": "private/sources/services.json",
+    "bytes": 12124
+  },
+  {
+    "file_id": "d0113",
+    "source": "private/sources/services.response",
+    "bytes": 67817
+  },
+  {
+    "file_id": "d0114",
+    "source": "private/sources/station_2000_2019_explicit_hucs.headers",
+    "bytes": 730
+  },
+  {
+    "file_id": "d0115",
+    "source": "private/sources/station_2000_2019_explicit_hucs.json",
+    "bytes": 13748
+  },
+  {
+    "file_id": "d0116",
+    "source": "private/sources/station_2000_2019_explicit_hucs.response",
+    "bytes": 155748
+  },
+  {
+    "file_id": "d0117",
+    "source": "private/sources/station_2000_2019_trinity.headers",
+    "bytes": 685
+  },
+  {
+    "file_id": "d0118",
+    "source": "private/sources/station_2000_2019_trinity.json",
+    "bytes": 12995
+  },
+  {
+    "file_id": "d0119",
+    "source": "private/sources/station_2000_2019_trinity.response",
+    "bytes": 0
+  },
+  {
+    "file_id": "d0120",
+    "source": "private/sources/station_2000_2019_trinity_zip.headers",
+    "bytes": 692
+  },
+  {
+    "file_id": "d0121",
+    "source": "private/sources/station_2000_2019_trinity_zip.json",
+    "bytes": 13747
+  },
+  {
+    "file_id": "d0122",
+    "source": "private/sources/station_2000_2019_trinity_zip.response",
+    "bytes": 0
+  },
+  {
+    "file_id": "d0123",
+    "source": "private/sources/userguide.headers",
+    "bytes": 656
+  },
+  {
+    "file_id": "d0124",
+    "source": "private/sources/userguide.json",
+    "bytes": 12086
+  },
+  {
+    "file_id": "d0125",
+    "source": "private/sources/userguide.response",
+    "bytes": 157922
+  },
+  {
+    "file_id": "d0126",
+    "source": "private/sources/usgs_seasonal_coverage_rationale.headers",
+    "bytes": 660
+  },
+  {
+    "file_id": "d0127",
+    "source": "private/sources/usgs_seasonal_coverage_rationale.json",
+    "bytes": 16123
+  },
+  {
+    "file_id": "d0128",
+    "source": "private/sources/usgs_seasonal_coverage_rationale.response",
+    "bytes": 128782
+  },
+  {
+    "file_id": "d0129",
+    "source": "private/sources/wide_mainstem_2000_2019_panel_zip.extracted.csv",
+    "bytes": 2827982
+  },
+  {
+    "file_id": "d0130",
+    "source": "private/sources/wide_mainstem_2000_2019_panel_zip.headers",
+    "bytes": 823
+  },
+  {
+    "file_id": "d0131",
+    "source": "private/sources/wide_mainstem_2000_2019_panel_zip.json",
+    "bytes": 15130
+  },
+  {
+    "file_id": "d0132",
+    "source": "private/sources/wide_mainstem_2000_2019_panel_zip.response",
+    "bytes": 98616
+  },
+  {
+    "file_id": "d0133",
+    "source": "private/state_graph.json",
+    "bytes": 2934
+  },
+  {
+    "file_id": "d0134",
+    "source": "private/task_definition.json",
+    "bytes": 9798
+  },
+  {
+    "file_id": "d0135",
+    "source": "runs/r-29c1be074a07/public/input.json",
+    "bytes": 9343
+  },
+  {
+    "file_id": "d0136",
+    "source": "runs/r-29c1be074a07/public/prompt.md",
+    "bytes": 10773
+  },
+  {
+    "file_id": "d0137",
+    "source": "runs/r-29c1be074a07/run.json",
+    "bytes": 916
+  },
+  {
+    "file_id": "d0138",
+    "source": "runs/r-29c1be074a07/isolation.json",
+    "bytes": 1638
+  },
+  {
+    "file_id": "d0139",
+    "source": "runs/r-29c1be074a07/verification.json",
+    "bytes": 577
+  },
+  {
+    "file_id": "d0140",
+    "source": "runs/r-29c1be074a07/extraction.json",
+    "bytes": 139
+  },
+  {
+    "file_id": "d0141",
+    "source": "runs/r-29c1be074a07/answer.txt",
+    "bytes": 2187
+  },
+  {
+    "file_id": "d0142",
+    "source": "runs/r-29c1be074a07/solver_output/result.json",
+    "bytes": 4089
+  },
+  {
+    "file_id": "d0143",
+    "source": "runs/r-29c1be074a07/scoring/scores.json",
+    "bytes": 16921
+  },
+  {
+    "file_id": "d0144",
+    "source": "runs/r-29c1be074a07/scoring/field_differences.json",
+    "bytes": 63283
+  },
+  {
+    "file_id": "d0145",
+    "source": "runs/r-29c1be074a07/tool_events.jsonl",
+    "bytes": 119331
+  },
+  {
+    "file_id": "d0146",
+    "source": "runs/r-29c1be074a07/events.jsonl",
+    "bytes": 836377
+  },
+  {
+    "file_id": "d0147",
+    "source": "runs/r-29c1be074a07/invocation.json",
+    "bytes": 380
+  },
+  {
+    "file_id": "d0148",
+    "source": "runs/r-29c1be074a07/input_inventory.json",
+    "bytes": 639
+  },
+  {
+    "file_id": "d0149",
+    "source": "runs/r-29c1be074a07/data_recovery.json",
+    "bytes": 142
+  },
+  {
+    "file_id": "d0150",
+    "source": "runs/r-29c1be074a07/downloaded_data/tool_calls.jsonl",
+    "bytes": 690793
+  },
+  {
+    "file_id": "d0151",
+    "source": "runs/r-29c1be074a07/downloaded_data/registry.json",
+    "bytes": 60644
+  },
+  {
+    "file_id": "d0152",
+    "source": "runs/r-29c1be074a07/solver.config.toml",
+    "bytes": 408
+  },
+  {
+    "file_id": "d0153",
+    "source": "runs/r-29c1be074a07/implementation/run.py",
+    "bytes": 19186
+  },
+  {
+    "file_id": "d0154",
+    "source": "runs/r-29c1be074a07/implementation/data_tools.py",
+    "bytes": 8252
+  },
+  {
+    "file_id": "d0155",
+    "source": "runs/r-29c1be074a07/implementation/Dockerfile",
+    "bytes": 411
+  },
+  {
+    "file_id": "d0156",
+    "source": "runs/r-29c1be074a07/sessions/rollout-2026-09-08T13-29-50-01a08135-ecfa-73c0-aeec-03347d0bc954.jsonl",
+    "bytes": 1106732
+  },
+  {
+    "file_id": "d0157",
+    "source": "runs/r-66559195d6fa/public/input.json",
+    "bytes": 8908
+  },
+  {
+    "file_id": "d0158",
+    "source": "runs/r-66559195d6fa/public/prompt.md",
+    "bytes": 10465
+  },
+  {
+    "file_id": "d0159",
+    "source": "runs/r-66559195d6fa/run.json",
+    "bytes": 913
+  },
+  {
+    "file_id": "d0160",
+    "source": "runs/r-66559195d6fa/isolation.json",
+    "bytes": 1638
+  },
+  {
+    "file_id": "d0161",
+    "source": "runs/r-66559195d6fa/verification.json",
+    "bytes": 577
+  },
+  {
+    "file_id": "d0162",
+    "source": "runs/r-66559195d6fa/extraction.json",
+    "bytes": 139
+  },
+  {
+    "file_id": "d0163",
+    "source": "runs/r-66559195d6fa/answer.txt",
+    "bytes": 2187
+  },
+  {
+    "file_id": "d0164",
+    "source": "runs/r-66559195d6fa/solver_output/result.json",
+    "bytes": 5184
+  },
+  {
+    "file_id": "d0165",
+    "source": "runs/r-66559195d6fa/scoring/scores.json",
+    "bytes": 16921
+  },
+  {
+    "file_id": "d0166",
+    "source": "runs/r-66559195d6fa/scoring/field_differences.json",
+    "bytes": 63283
+  },
+  {
+    "file_id": "d0167",
+    "source": "runs/r-66559195d6fa/tool_events.jsonl",
+    "bytes": 185881
+  },
+  {
+    "file_id": "d0168",
+    "source": "runs/r-66559195d6fa/events.jsonl",
+    "bytes": 446142
+  },
+  {
+    "file_id": "d0169",
+    "source": "runs/r-66559195d6fa/invocation.json",
+    "bytes": 380
+  },
+  {
+    "file_id": "d0170",
+    "source": "runs/r-66559195d6fa/input_inventory.json",
+    "bytes": 639
+  },
+  {
+    "file_id": "d0171",
+    "source": "runs/r-66559195d6fa/data_recovery.json",
+    "bytes": 142
+  },
+  {
+    "file_id": "d0172",
+    "source": "runs/r-66559195d6fa/downloaded_data/tool_calls.jsonl",
+    "bytes": 338780
+  },
+  {
+    "file_id": "d0173",
+    "source": "runs/r-66559195d6fa/downloaded_data/registry.json",
+    "bytes": 44000
+  },
+  {
+    "file_id": "d0174",
+    "source": "runs/r-66559195d6fa/solver.config.toml",
+    "bytes": 408
+  },
+  {
+    "file_id": "d0175",
+    "source": "runs/r-66559195d6fa/implementation/run.py",
+    "bytes": 19515
+  },
+  {
+    "file_id": "d0176",
+    "source": "runs/r-66559195d6fa/implementation/data_tools.py",
+    "bytes": 8252
+  },
+  {
+    "file_id": "d0177",
+    "source": "runs/r-66559195d6fa/implementation/Dockerfile",
+    "bytes": 411
+  },
+  {
+    "file_id": "d0178",
+    "source": "runs/r-66559195d6fa/sessions/rollout-2026-09-08T14-46-35-01a0817c-325f-72a2-937b-eb35b7df23a1.jsonl",
+    "bytes": 756685
+  },
+  {
+    "file_id": "d0179",
+    "source": "runs/r-6e4ca9d3999e/public/input.json",
+    "bytes": 9343
+  },
+  {
+    "file_id": "d0180",
+    "source": "runs/r-6e4ca9d3999e/public/prompt.md",
+    "bytes": 10773
+  },
+  {
+    "file_id": "d0181",
+    "source": "runs/r-6e4ca9d3999e/run.json",
+    "bytes": 915
+  },
+  {
+    "file_id": "d0182",
+    "source": "runs/r-6e4ca9d3999e/isolation.json",
+    "bytes": 1638
+  },
+  {
+    "file_id": "d0183",
+    "source": "runs/r-6e4ca9d3999e/verification.json",
+    "bytes": 577
+  },
+  {
+    "file_id": "d0184",
+    "source": "runs/r-6e4ca9d3999e/extraction.json",
+    "bytes": 139
+  },
+  {
+    "file_id": "d0185",
+    "source": "runs/r-6e4ca9d3999e/answer.txt",
+    "bytes": 2187
+  },
+  {
+    "file_id": "d0186",
+    "source": "runs/r-6e4ca9d3999e/solver_output/result.json",
+    "bytes": 4120
+  },
+  {
+    "file_id": "d0187",
+    "source": "runs/r-6e4ca9d3999e/scoring/scores.json",
+    "bytes": 16921
+  },
+  {
+    "file_id": "d0188",
+    "source": "runs/r-6e4ca9d3999e/scoring/field_differences.json",
+    "bytes": 63283
+  },
+  {
+    "file_id": "d0189",
+    "source": "runs/r-6e4ca9d3999e/tool_events.jsonl",
+    "bytes": 124950
+  },
+  {
+    "file_id": "d0190",
+    "source": "runs/r-6e4ca9d3999e/events.jsonl",
+    "bytes": 730688
+  },
+  {
+    "file_id": "d0191",
+    "source": "runs/r-6e4ca9d3999e/invocation.json",
+    "bytes": 380
+  },
+  {
+    "file_id": "d0192",
+    "source": "runs/r-6e4ca9d3999e/input_inventory.json",
+    "bytes": 639
+  },
+  {
+    "file_id": "d0193",
+    "source": "runs/r-6e4ca9d3999e/data_recovery.json",
+    "bytes": 142
+  },
+  {
+    "file_id": "d0194",
+    "source": "runs/r-6e4ca9d3999e/downloaded_data/tool_calls.jsonl",
+    "bytes": 615059
+  },
+  {
+    "file_id": "d0195",
+    "source": "runs/r-6e4ca9d3999e/downloaded_data/registry.json",
+    "bytes": 46551
+  },
+  {
+    "file_id": "d0196",
+    "source": "runs/r-6e4ca9d3999e/solver.config.toml",
+    "bytes": 408
+  },
+  {
+    "file_id": "d0197",
+    "source": "runs/r-6e4ca9d3999e/implementation/run.py",
+    "bytes": 19186
+  },
+  {
+    "file_id": "d0198",
+    "source": "runs/r-6e4ca9d3999e/implementation/data_tools.py",
+    "bytes": 8252
+  },
+  {
+    "file_id": "d0199",
+    "source": "runs/r-6e4ca9d3999e/implementation/Dockerfile",
+    "bytes": 411
+  },
+  {
+    "file_id": "d0200",
+    "source": "runs/r-6e4ca9d3999e/sessions/rollout-2026-09-08T13-22-56-01a0812f-9d5a-7883-97db-0c3e7938bad4.jsonl",
+    "bytes": 996428
+  },
+  {
+    "file_id": "d0201",
+    "source": "runs/r-90f6785199ad/public/input.json",
+    "bytes": 8908
+  },
+  {
+    "file_id": "d0202",
+    "source": "runs/r-90f6785199ad/public/prompt.md",
+    "bytes": 10338
+  },
+  {
+    "file_id": "d0203",
+    "source": "runs/r-90f6785199ad/run.json",
+    "bytes": 915
+  },
+  {
+    "file_id": "d0204",
+    "source": "runs/r-90f6785199ad/isolation.json",
+    "bytes": 1638
+  },
+  {
+    "file_id": "d0205",
+    "source": "runs/r-90f6785199ad/verification.json",
+    "bytes": 562
+  },
+  {
+    "file_id": "d0206",
+    "source": "runs/r-90f6785199ad/extraction.json",
+    "bytes": 139
+  },
+  {
+    "file_id": "d0207",
+    "source": "runs/r-90f6785199ad/answer.txt",
+    "bytes": 2187
+  },
+  {
+    "file_id": "d0208",
+    "source": "runs/r-90f6785199ad/solver_output/result.json",
+    "bytes": 4460
+  },
+  {
+    "file_id": "d0209",
+    "source": "runs/r-90f6785199ad/scoring/scores.json",
+    "bytes": 16921
+  },
+  {
+    "file_id": "d0210",
+    "source": "runs/r-90f6785199ad/scoring/field_differences.json",
+    "bytes": 63283
+  },
+  {
+    "file_id": "d0211",
+    "source": "runs/r-90f6785199ad/tool_events.jsonl",
+    "bytes": 143284
+  },
+  {
+    "file_id": "d0212",
+    "source": "runs/r-90f6785199ad/events.jsonl",
+    "bytes": 937744
+  },
+  {
+    "file_id": "d0213",
+    "source": "runs/r-90f6785199ad/invocation.json",
+    "bytes": 380
+  },
+  {
+    "file_id": "d0214",
+    "source": "runs/r-90f6785199ad/input_inventory.json",
+    "bytes": 639
+  },
+  {
+    "file_id": "d0215",
+    "source": "runs/r-90f6785199ad/data_recovery.json",
+    "bytes": 142
+  },
+  {
+    "file_id": "d0216",
+    "source": "runs/r-90f6785199ad/downloaded_data/tool_calls.jsonl",
+    "bytes": 784295
+  },
+  {
+    "file_id": "d0217",
+    "source": "runs/r-90f6785199ad/downloaded_data/registry.json",
+    "bytes": 63402
+  },
+  {
+    "file_id": "d0218",
+    "source": "runs/r-90f6785199ad/solver.config.toml",
+    "bytes": 408
+  },
+  {
+    "file_id": "d0219",
+    "source": "runs/r-90f6785199ad/implementation/run.py",
+    "bytes": 19186
+  },
+  {
+    "file_id": "d0220",
+    "source": "runs/r-90f6785199ad/implementation/data_tools.py",
+    "bytes": 8252
+  },
+  {
+    "file_id": "d0221",
+    "source": "runs/r-90f6785199ad/implementation/Dockerfile",
+    "bytes": 411
+  },
+  {
+    "file_id": "d0222",
+    "source": "runs/r-90f6785199ad/sessions/rollout-2026-09-08T14-34-46-01a08171-6015-7bf3-ace2-3c1156659fb6.jsonl",
+    "bytes": 1202624
+  },
+  {
+    "file_id": "d0223",
+    "source": "runs/r-c56f5211721f/public/input.json",
+    "bytes": 8908
+  },
+  {
+    "file_id": "d0224",
+    "source": "runs/r-c56f5211721f/public/prompt.md",
+    "bytes": 10338
+  },
+  {
+    "file_id": "d0225",
+    "source": "runs/r-c56f5211721f/run.json",
+    "bytes": 915
+  },
+  {
+    "file_id": "d0226",
+    "source": "runs/r-c56f5211721f/isolation.json",
+    "bytes": 1638
+  },
+  {
+    "file_id": "d0227",
+    "source": "runs/r-c56f5211721f/verification.json",
+    "bytes": 562
+  },
+  {
+    "file_id": "d0228",
+    "source": "runs/r-c56f5211721f/extraction.json",
+    "bytes": 139
+  },
+  {
+    "file_id": "d0229",
+    "source": "runs/r-c56f5211721f/answer.txt",
+    "bytes": 2187
+  },
+  {
+    "file_id": "d0230",
+    "source": "runs/r-c56f5211721f/solver_output/result.json",
+    "bytes": 4465
+  },
+  {
+    "file_id": "d0231",
+    "source": "runs/r-c56f5211721f/scoring/scores.json",
+    "bytes": 16921
+  },
+  {
+    "file_id": "d0232",
+    "source": "runs/r-c56f5211721f/scoring/field_differences.json",
+    "bytes": 63283
+  },
+  {
+    "file_id": "d0233",
+    "source": "runs/r-c56f5211721f/tool_events.jsonl",
+    "bytes": 140740
+  },
+  {
+    "file_id": "d0234",
+    "source": "runs/r-c56f5211721f/events.jsonl",
+    "bytes": 564737
+  },
+  {
+    "file_id": "d0235",
+    "source": "runs/r-c56f5211721f/invocation.json",
+    "bytes": 380
+  },
+  {
+    "file_id": "d0236",
+    "source": "runs/r-c56f5211721f/input_inventory.json",
+    "bytes": 639
+  },
+  {
+    "file_id": "d0237",
+    "source": "runs/r-c56f5211721f/data_recovery.json",
+    "bytes": 142
+  },
+  {
+    "file_id": "d0238",
+    "source": "runs/r-c56f5211721f/downloaded_data/tool_calls.jsonl",
+    "bytes": 461182
+  },
+  {
+    "file_id": "d0239",
+    "source": "runs/r-c56f5211721f/downloaded_data/registry.json",
+    "bytes": 70351
+  },
+  {
+    "file_id": "d0240",
+    "source": "runs/r-c56f5211721f/solver.config.toml",
+    "bytes": 408
+  },
+  {
+    "file_id": "d0241",
+    "source": "runs/r-c56f5211721f/implementation/run.py",
+    "bytes": 19515
+  },
+  {
+    "file_id": "d0242",
+    "source": "runs/r-c56f5211721f/implementation/data_tools.py",
+    "bytes": 8252
+  },
+  {
+    "file_id": "d0243",
+    "source": "runs/r-c56f5211721f/implementation/Dockerfile",
+    "bytes": 411
+  },
+  {
+    "file_id": "d0244",
+    "source": "runs/r-c56f5211721f/sessions/rollout-2026-09-08T14-40-39-01a08176-c353-71c0-98fb-4eedbe5ff5fa.jsonl",
+    "bytes": 825253
+  },
+  {
+    "file_id": "d0245",
+    "source": "runs/r-e70dd272388a/public/input.json",
+    "bytes": 9343
+  },
+  {
+    "file_id": "d0246",
+    "source": "runs/r-e70dd272388a/public/prompt.md",
+    "bytes": 10900
+  },
+  {
+    "file_id": "d0247",
+    "source": "runs/r-e70dd272388a/run.json",
+    "bytes": 914
+  },
+  {
+    "file_id": "d0248",
+    "source": "runs/r-e70dd272388a/isolation.json",
+    "bytes": 1638
+  },
+  {
+    "file_id": "d0249",
+    "source": "runs/r-e70dd272388a/verification.json",
+    "bytes": 577
+  },
+  {
+    "file_id": "d0250",
+    "source": "runs/r-e70dd272388a/extraction.json",
+    "bytes": 139
+  },
+  {
+    "file_id": "d0251",
+    "source": "runs/r-e70dd272388a/answer.txt",
+    "bytes": 2187
+  },
+  {
+    "file_id": "d0252",
+    "source": "runs/r-e70dd272388a/solver_output/result.json",
+    "bytes": 5137
+  },
+  {
+    "file_id": "d0253",
+    "source": "runs/r-e70dd272388a/scoring/scores.json",
+    "bytes": 16921
+  },
+  {
+    "file_id": "d0254",
+    "source": "runs/r-e70dd272388a/scoring/field_differences.json",
+    "bytes": 63283
+  },
+  {
+    "file_id": "d0255",
+    "source": "runs/r-e70dd272388a/tool_events.jsonl",
+    "bytes": 151151
+  },
+  {
+    "file_id": "d0256",
+    "source": "runs/r-e70dd272388a/events.jsonl",
+    "bytes": 894366
+  },
+  {
+    "file_id": "d0257",
+    "source": "runs/r-e70dd272388a/invocation.json",
+    "bytes": 380
+  },
+  {
+    "file_id": "d0258",
+    "source": "runs/r-e70dd272388a/input_inventory.json",
+    "bytes": 639
+  },
+  {
+    "file_id": "d0259",
+    "source": "runs/r-e70dd272388a/data_recovery.json",
+    "bytes": 142
+  },
+  {
+    "file_id": "d0260",
+    "source": "runs/r-e70dd272388a/downloaded_data/tool_calls.jsonl",
+    "bytes": 749739
+  },
+  {
+    "file_id": "d0261",
+    "source": "runs/r-e70dd272388a/downloaded_data/registry.json",
+    "bytes": 47653
+  },
+  {
+    "file_id": "d0262",
+    "source": "runs/r-e70dd272388a/solver.config.toml",
+    "bytes": 408
+  },
+  {
+    "file_id": "d0263",
+    "source": "runs/r-e70dd272388a/implementation/run.py",
+    "bytes": 19515
+  },
+  {
+    "file_id": "d0264",
+    "source": "runs/r-e70dd272388a/implementation/data_tools.py",
+    "bytes": 8252
+  },
+  {
+    "file_id": "d0265",
+    "source": "runs/r-e70dd272388a/implementation/Dockerfile",
+    "bytes": 411
+  },
+  {
+    "file_id": "d0266",
+    "source": "runs/r-e70dd272388a/sessions/rollout-2026-09-08T14-46-38-01a0817c-3d62-7fb2-bc5d-e0233695036f.jsonl",
+    "bytes": 1172549
+  },
+  {
+    "file_id": "d0267",
+    "source": "runtime/SCORING.md",
+    "bytes": 1319
+  },
+  {
+    "file_id": "d0268",
+    "source": "runtime/score.py",
+    "bytes": 7093
+  },
+  {
+    "file_id": "d0269",
+    "source": "runtime/environment_report.md",
+    "bytes": 2538
+  },
+  {
+    "file_id": "d0270",
+    "source": "comparisons/analysis_plan.json",
+    "bytes": 7403
+  },
+  {
+    "file_id": "d0271",
+    "source": "comparisons/reference_verification.json",
+    "bytes": 9848
+  },
+  {
+    "file_id": "d0272",
+    "source": "comparisons/old_pair_review.md",
+    "bytes": 1679
+  }
+]

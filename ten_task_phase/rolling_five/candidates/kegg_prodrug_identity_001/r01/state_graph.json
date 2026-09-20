@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {"id": "group", "source": "../sources/DG00739.txt", "state": "Complete Chemical group record supplied"},
+    {"id": "members", "state": "Direct D universe extracted from the complete Member field"},
+    {"id": "drug_records", "source": "../sources/D_members.txt", "state": "Complete independent Drug records for the discovered IDs supplied"},
+    {"id": "own_annotations", "state": "Every member's own Comment evaluated after full parsing"},
+    {"id": "target_identity", "state": "Explicit target D identifiers verified against Drug ENTRY and NAME"},
+    {"id": "result", "state": "All qualifying ordered pairs deduplicated and sorted"}
+  ],
+  "edges": [
+    {"from": "group", "to": "members", "type": "data", "meaning": "Member determines the finite candidate universe"},
+    {"from": "members", "to": "drug_records", "type": "control", "meaning": "Discovered D identifiers determine the member requests or batch parameters"},
+    {"from": "drug_records", "to": "own_annotations", "type": "data", "meaning": "Member records expose the own relations and exclusion evidence absent from the group record"},
+    {"from": "own_annotations", "to": "target_identity", "type": "data", "meaning": "Explicit linked identifiers determine which drug identities require verification"},
+    {"from": "members", "to": "result", "type": "data", "meaning": "Only direct drug members may be source identifiers"},
+    {"from": "own_annotations", "to": "result", "type": "data", "meaning": "Own annotations determine inclusion and each active-form identifier"},
+    {"from": "target_identity", "to": "result", "type": "data", "meaning": "The output retains the verified D namespace"}
+  ],
+  "actual_dependency_witness": "The supplied account reports group discovery followed by the four-member REST batch. Download metadata places the group observation at 13:21:20 UTC and the member batch at 13:21:23 UTC on 2026-09-12. D05094 supplies a necessary own annotation absent from the group record.",
+  "target_identity_note": "All observed targets already have records in the member batch. Target membership is not an eligibility condition and no additional fetch is required for this observation.",
+  "optional_outside_minimal_graph": "C20380 details and complete global BRITE material are not required for these two-column D-to-D results."
+}

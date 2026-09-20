@@ -1,0 +1,2294 @@
+{
+  "updated_at": "2026-09-08T14:53:11.402139+00:00",
+  "purpose": "Four content blind solves and two separate blind shortcut attempts; no result here is a difficulty screening or confirmation run",
+  "prespecified_plan": "content_run_plan.json",
+  "actual_runs": [
+    {
+      "label": "r03_content_A_CG",
+      "variant": "cg",
+      "run": "runs/r-6e4ca9d3999e",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "downloads": [
+        {
+          "requested_at": "2026-09-08T13:23:22.533052+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&dataProfile=station",
+          "status": 200,
+          "error": null,
+          "file_id": "d0001",
+          "bytes": 155748,
+          "archive_members": null,
+          "full_csv_rows": 460
+        },
+        {
+          "requested_at": "2026-09-08T13:24:36.142762+00:00",
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&dataProfile=activity",
+          "status": 200,
+          "error": null,
+          "file_id": "d0003",
+          "bytes": 390579,
+          "archive_members": null,
+          "full_csv_rows": 1026
+        },
+        {
+          "requested_at": "2026-09-08T13:24:48.915859+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&pCode=00010;00095;00300;00400&dataProfile=resultPhysChem",
+          "status": 200,
+          "error": null,
+          "file_id": "d0004",
+          "bytes": 2017932,
+          "archive_members": null,
+          "full_csv_rows": 3782
+        }
+      ],
+      "tool_counts": {
+        "download": 3,
+        "query_csv": 16
+      },
+      "actual_model": "gpt-6-astra",
+      "effort": "high",
+      "current_date": "2026-09-08",
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 408.414,
+      "ending_reason": "exited",
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 672175,
+        "cached_input_tokens": 634240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7078,
+        "reasoning_output_tokens": 358
+      },
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 216,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 12,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "parse_status": "parsed",
+      "evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&dataProfile=station",
+          "locator": "Complete station CSV: 460 records; 17 satisfy the exact name-prefix and station-type filters, including tidal station USGS-08067252."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&dataProfile=activity",
+          "locator": "Complete activity CSV: 1,026 records with unique organization/activity keys. All downloaded results match activity station and date. Changing withdrawal IDs: nwistx.01.01401065, nwistx.01.01401515, nwistx.01.01500574, nwistx.01.01601150, nwistx.01.01900498."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&pCode=00010;00095;00300;00400&dataProfile=resultPhysChem",
+          "locator": "Complete result CSV: 3,782 records; filtering and same-activity panels produce 833 complete eligible activities. All 833 independent withdrawals tested; five change the global frontier. Seasonal counts and selected events for all 12 rows independently verified with SQL ranking."
+        }
+      ],
+      "limitations": [],
+      "raw_final_answer_path": "runs/r-6e4ca9d3999e/answer.txt",
+      "sql_calls": [
+        {
+          "started_at": "2026-09-08T13:24:23.389093+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0001"
+            },
+            "sql": "SELECT OrganizationIdentifier,MonitoringLocationIdentifier,MonitoringLocationName,MonitoringLocationTypeName,HUCEightDigitCode FROM s WHERE substr(MonitoringLocationName,1,11)='Trinity Rv ' AND MonitoringLocationTypeName IN ('Stream','Stream: Tidal stream') ORDER BY MonitoringLocationIdentifier",
+            "limit": 100
+          },
+          "result_file_id": "d0002",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:25:50.498989+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0004"
+            },
+            "sql": "SELECT USGSPCode,\"ResultMeasure/MeasureUnitCode\",ResultStatusIdentifier,ResultValueTypeName,ResultDetectionConditionText,MeasureQualifierCode,COUNT(*) n FROM r GROUP BY 1,2,3,4,5,6 ORDER BY 1,2,3",
+            "limit": 100
+          },
+          "result_file_id": "d0005",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:25:50.594004+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0003",
+              "r": "d0004"
+            },
+            "sql": "SELECT 'activity_type' issue,ActivityTypeCode detail,COUNT(*) n FROM a GROUP BY ActivityTypeCode UNION ALL SELECT 'unmatched_result', '',COUNT(*) FROM r LEFT JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier WHERE a.ActivityIdentifier IS NULL UNION ALL SELECT 'identity_mismatch','',COUNT(*) FROM r JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier WHERE r.MonitoringLocationIdentifier<>a.MonitoringLocationIdentifier OR r.ActivityStartDate<>a.ActivityStartDate UNION ALL SELECT 'duplicate_activity_keys','',COUNT(*) FROM (SELECT OrganizationIdentifier,ActivityIdentifier FROM a GROUP BY 1,2 HAVING COUNT(*)>1)",
+            "limit": 100
+          },
+          "result_file_id": "d0006",
+          "rows_returned_by_query": 7,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:05.020241+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0004"
+            },
+            "sql": "SELECT OrganizationIdentifier,ActivityIdentifier,MonitoringLocationIdentifier,ActivityStartDate,ActivityTypeCode,ActivityMediaName,USGSPCode,ResultMeasureValue,\"ResultMeasure/MeasureUnitCode\" FROM r WHERE ResultStatusIdentifier IN ('Accepted','Final') AND ResultValueTypeName='Actual' AND COALESCE(ResultDetectionConditionText,'')='' AND COALESCE(MeasureQualifierCode,'')=''",
+            "limit": 5000
+          },
+          "result_file_id": "d0007",
+          "rows_returned_by_query": 3540,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:05.122437+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0003"
+            },
+            "sql": "SELECT OrganizationIdentifier,ActivityIdentifier,MonitoringLocationIdentifier,ActivityStartDate,\"ActivityStartTime/Time\",ActivityTypeCode,ActivityMediaName,\"ActivityDepthHeightMeasure/MeasureValue\",\"ActivityDepthHeightMeasure/MeasureUnitCode\",ActivityRelativeDepthName,\"ActivityTopDepthHeightMeasure/MeasureValue\",\"ActivityTopDepthHeightMeasure/MeasureUnitCode\",\"ActivityBottomDepthHeightMeasure/MeasureValue\",\"ActivityBottomDepthHeightMeasure/MeasureUnitCode\",ActivityDepthAltitudeReferencePointText FROM a",
+            "limit": 2000
+          },
+          "result_file_id": "d0008",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:23.541995+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0008"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 500,
+            "limit": 500
+          },
+          "result_file_id": "d0009",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:23.555246+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0008"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 1000,
+            "limit": 500
+          },
+          "result_file_id": "d0010",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:23.564550+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0007"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 500,
+            "limit": 500
+          },
+          "result_file_id": "d0011",
+          "rows_returned_by_query": 3540,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:23.589465+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0007"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 1000,
+            "limit": 500
+          },
+          "result_file_id": "d0012",
+          "rows_returned_by_query": 3540,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:23.614636+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0007"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 1500,
+            "limit": 500
+          },
+          "result_file_id": "d0013",
+          "rows_returned_by_query": 3540,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:23.639902+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0007"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 2000,
+            "limit": 500
+          },
+          "result_file_id": "d0014",
+          "rows_returned_by_query": 3540,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:23.664638+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0007"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 3000,
+            "limit": 500
+          },
+          "result_file_id": "d0015",
+          "rows_returned_by_query": 3540,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:23.690784+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0007"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 2500,
+            "limit": 500
+          },
+          "result_file_id": "d0016",
+          "rows_returned_by_query": 3540,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:26:23.715948+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0007"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 3500,
+            "limit": 500
+          },
+          "result_file_id": "d0017",
+          "rows_returned_by_query": 3540,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:27:58.487423+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0003",
+              "r": "d0004"
+            },
+            "sql": "WITH usable AS (\n SELECT r.OrganizationIdentifier,r.ActivityIdentifier,a.MonitoringLocationIdentifier,a.ActivityStartDate,a.\"ActivityStartTime/Time\",r.USGSPCode,CAST(r.ResultMeasureValue AS REAL) v\n FROM r JOIN a ON a.OrganizationIdentifier=r.OrganizationIdentifier AND a.ActivityIdentifier=r.ActivityIdentifier AND a.MonitoringLocationIdentifier=r.MonitoringLocationIdentifier AND a.ActivityStartDate=r.ActivityStartDate\n WHERE a.ActivityTypeCode='Sample-Routine' AND a.ActivityMediaName='Water' AND r.ResultStatusIdentifier IN ('Accepted','Final') AND r.ResultValueTypeName='Actual' AND COALESCE(r.ResultDetectionConditionText,'')='' AND COALESCE(r.MeasureQualifierCode,'')=''\n AND ((r.USGSPCode='00010' AND r.\"ResultMeasure/MeasureUnitCode\"='deg C') OR (r.USGSPCode='00095' AND r.\"ResultMeasure/MeasureUnitCode\"='uS/cm @25C') OR (r.USGSPCode='00300' AND r.\"ResultMeasure/MeasureUnitCode\"='mg/l') OR (r.USGSPCode='00400' AND r.\"ResultMeasure/MeasureUnitCode\"='std units'))\n), parameters AS (\n SELECT OrganizationIdentifier,ActivityIdentifier,MonitoringLocationIdentifier,ActivityStartDate,\"ActivityStartTime/Time\",USGSPCode,MIN(v) v,COUNT(DISTINCT v) nv FROM usable GROUP BY 1,2,3,4,5,6\n) SELECT OrganizationIdentifier,ActivityIdentifier,MonitoringLocationIdentifier,ActivityStartDate,\"ActivityStartTime/Time\",CAST(substr(ActivityStartDate,1,4) AS INTEGER) year,1+CAST((CAST(substr(ActivityStartDate,6,2) AS INTEGER)-1)/3 AS INTEGER) quarter,\nMAX(CASE WHEN USGSPCode='00010' THEN v END) temperature,MAX(CASE WHEN USGSPCode='00095' THEN v END) conductance,MAX(CASE WHEN USGSPCode='00300' THEN v END) oxygen,MAX(CASE WHEN USGSPCode='00400' THEN v END) pH\nFROM parameters GROUP BY 1,2,3,4,5 HAVING COUNT(*)=4 AND MAX(nv)=1",
+            "limit": 1
+          },
+          "result_file_id": "d0018",
+          "rows_returned_by_query": 833,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:28:27.021873+00:00",
+          "arguments": {
+            "tables": {
+              "c": "d0018"
+            },
+            "sql": "WITH designs(withdrawn,start_year,end_year,q,stations) AS (VALUES ('nwistx.01.01401065',2013,2019,1,';USGS-08057410;USGS-08067000;'),('nwistx.01.01401065',2014,2015,1,';USGS-08057410;USGS-08067000;USGS-08067252;'),('nwistx.01.01401515',2013,2019,2,';USGS-08057410;USGS-08067000;'),('nwistx.01.01401515',2014,2015,2,';USGS-08057410;USGS-08067000;USGS-08067252;'),('nwistx.01.01500574',2013,2019,4,';USGS-08057410;USGS-08067000;'),('nwistx.01.01500574',2014,2015,4,';USGS-08057410;USGS-08067000;USGS-08067252;'),('nwistx.01.01601150',2002,2007,4,';USGS-08057410;USGS-08065350;'),('nwistx.01.01601150',2014,2014,4,';USGS-08057410;USGS-08065350;USGS-08067000;USGS-08067252;'),('nwistx.01.01900498',2002,2007,1,';USGS-08057410;USGS-08065350;'),('nwistx.01.01900498',2013,2018,1,';USGS-08057410;USGS-08067000;'),('nwistx.01.01900498',2014,2014,1,';USGS-08057410;USGS-08065350;USGS-08067000;USGS-08067252;'),('nwistx.01.01900498',2014,2015,1,';USGS-08057410;USGS-08067000;USGS-08067252;')), ranked AS (\nSELECT d.withdrawn,d.start_year,d.end_year,c.*,COUNT(*) OVER(PARTITION BY d.withdrawn,d.start_year,d.end_year) eligible_activity_count,ROW_NUMBER() OVER(PARTITION BY d.withdrawn,d.start_year,d.end_year ORDER BY CAST(c.oxygen AS REAL),c.ActivityStartDate,CASE WHEN COALESCE(c.\"ActivityStartTime/Time\",'')='' THEN 1 ELSE 0 END,c.\"ActivityStartTime/Time\",c.MonitoringLocationIdentifier COLLATE BINARY,c.ActivityIdentifier COLLATE BINARY) rn\nFROM designs d JOIN c ON CAST(c.year AS INTEGER) BETWEEN d.start_year AND d.end_year AND CAST(c.quarter AS INTEGER)=d.q AND instr(d.stations,';'||c.MonitoringLocationIdentifier||';')>0 AND c.ActivityIdentifier<>d.withdrawn\n) SELECT withdrawn,start_year,end_year,eligible_activity_count,ActivityIdentifier,ActivityStartDate,oxygen,temperature,conductance,pH FROM ranked WHERE rn=1 ORDER BY withdrawn COLLATE BINARY,start_year,end_year",
+            "limit": 100
+          },
+          "result_file_id": "d0019",
+          "rows_returned_by_query": 12,
+          "error": null
+        }
+      ],
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-6-astra",
+        "effort": "high",
+        "raw_tool_records": 44,
+        "tool_calls": {
+          "exec": 14,
+          "wait": 8
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      }
+    },
+    {
+      "label": "r03_content_B_CG",
+      "variant": "cg",
+      "run": "runs/r-29c1be074a07",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "downloads": [
+        {
+          "requested_at": "2026-09-08T13:30:27.984103+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "status": 200,
+          "error": null,
+          "file_id": "d0001",
+          "bytes": 18723,
+          "archive_members": [
+            {
+              "file_id": "d0002",
+              "name": "station.csv",
+              "bytes": 155748
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T13:31:34.741848+00:00",
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "status": 200,
+          "error": null,
+          "file_id": "d0005",
+          "bytes": 31864,
+          "archive_members": [
+            {
+              "file_id": "d0006",
+              "name": "activity.csv",
+              "bytes": 390579
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T13:32:03.778344+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010;00095;00300;00400",
+          "status": 200,
+          "error": null,
+          "file_id": "d0007",
+          "bytes": 60119,
+          "archive_members": [
+            {
+              "file_id": "d0008",
+              "name": "result.csv",
+              "bytes": 1898681
+            }
+          ],
+          "full_csv_rows": null
+        }
+      ],
+      "tool_counts": {
+        "download": 3,
+        "query_csv": 19
+      },
+      "actual_model": "gpt-6-astra",
+      "effort": "high",
+      "current_date": "2026-09-08",
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 618.083,
+      "ending_reason": "exited",
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 747340,
+        "cached_input_tokens": 664448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8201,
+        "reasoning_output_tokens": 1084
+      },
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 216,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 12,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "parse_status": "parsed",
+      "evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "locator": "station.csv: all 460 records inspected; exact name-prefix and location-type filters retain 17 stations, including USGS-08067252 (Stream: Tidal stream)."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "locator": "activity.csv: 1,026 distinct organization/activity keys; 941 Sample-Routine/Water activities. All retrieved result links agree on station, date, activity type, media and start time."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010;00095;00300;00400",
+          "locator": "result.csv: all 3,782 records inspected, yielding 833 complete eligible activities. Two independent frontier computations agree on all 833 withdrawals: five changing trials and 12 rows. Independent SQL ranking confirms every reported seasonal count and selected activity."
+        }
+      ],
+      "limitations": [],
+      "raw_final_answer_path": "runs/r-29c1be074a07/answer.txt",
+      "sql_calls": [
+        {
+          "started_at": "2026-09-08T13:31:20.273680+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0002"
+            },
+            "sql": "SELECT * FROM s WHERE substr(MonitoringLocationName,1,11) = 'Trinity Rv ' AND MonitoringLocationTypeName IN ('Stream','Stream: Tidal stream')",
+            "limit": 100
+          },
+          "result_file_id": "d0003",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:31:34.725474+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0003"
+            },
+            "sql": "SELECT MonitoringLocationIdentifier FROM s ORDER BY MonitoringLocationIdentifier",
+            "limit": 100
+          },
+          "result_file_id": "d0004",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:32:53.362246+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0006"
+            },
+            "sql": "SELECT * FROM a LIMIT 2"
+          },
+          "result_file_id": "d0009",
+          "rows_returned_by_query": 2,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:32:53.388118+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008"
+            },
+            "sql": "SELECT * FROM r LIMIT 2"
+          },
+          "result_file_id": "d0010",
+          "rows_returned_by_query": 2,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:06.811520+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006"
+            },
+            "sql": "SELECT USGSPCode, \"ResultMeasure/MeasureUnitCode\", ResultStatusIdentifier, ResultValueTypeName, ResultDetectionConditionText, MeasureQualifierCode, COUNT(*) n FROM r GROUP BY 1,2,3,4,5,6 ORDER BY 1,2,3",
+            "limit": 200
+          },
+          "result_file_id": "d0011",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:06.920805+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006"
+            },
+            "sql": "SELECT COUNT(*) n, SUM(CASE WHEN a.ActivityIdentifier IS NULL THEN 1 ELSE 0 END) missing_activity, SUM(CASE WHEN a.MonitoringLocationIdentifier <> r.MonitoringLocationIdentifier OR a.ActivityStartDate <> r.ActivityStartDate THEN 1 ELSE 0 END) mismatched_identity, SUM(CASE WHEN a.ActivityTypeCode <> r.ActivityTypeCode OR a.ActivityMediaName <> r.ActivityMediaName OR a.\"ActivityStartTime/Time\" <> r.\"ActivityStartTime/Time\" THEN 1 ELSE 0 END) mismatched_conditions FROM r LEFT JOIN a ON a.OrganizationIdentifier=r.OrganizationIdentifier AND a.ActivityIdentifier=r.ActivityIdentifier",
+            "limit": 200
+          },
+          "result_file_id": "d0012",
+          "rows_returned_by_query": 1,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:07.006283+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006"
+            },
+            "sql": "SELECT ActivityTypeCode,ActivityMediaName,COUNT(*) n, COUNT(DISTINCT OrganizationIdentifier || '|' || ActivityIdentifier) keys FROM a GROUP BY 1,2",
+            "limit": 200
+          },
+          "result_file_id": "d0013",
+          "rows_returned_by_query": 6,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:22.174485+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006"
+            },
+            "sql": "SELECT a.OrganizationIdentifier org,a.ActivityIdentifier id,a.MonitoringLocationIdentifier station,a.ActivityStartDate date,a.\"ActivityStartTime/Time\" time,a.ActivityTypeCode type,a.ActivityMediaName media,a.\"ActivityDepthHeightMeasure/MeasureValue\" depth,a.\"ActivityDepthHeightMeasure/MeasureUnitCode\" depth_unit,r.USGSPCode code,r.ResultMeasureValue value,r.\"ResultMeasure/MeasureUnitCode\" unit,r.ResultStatusIdentifier status,r.ResultValueTypeName value_type,r.ResultDetectionConditionText detection,r.MeasureQualifierCode qualifier\nFROM r JOIN a ON a.OrganizationIdentifier=r.OrganizationIdentifier AND a.ActivityIdentifier=r.ActivityIdentifier AND a.MonitoringLocationIdentifier=r.MonitoringLocationIdentifier AND a.ActivityStartDate=r.ActivityStartDate",
+            "limit": 4000
+          },
+          "result_file_id": "d0014",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:31.551522+00:00",
+          "arguments": {
+            "tables": {
+              "j": "d0014"
+            },
+            "sql": "SELECT * FROM j",
+            "offset": 500,
+            "limit": 500
+          },
+          "result_file_id": "d0015",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:31.607783+00:00",
+          "arguments": {
+            "tables": {
+              "j": "d0014"
+            },
+            "sql": "SELECT * FROM j",
+            "offset": 1000,
+            "limit": 500
+          },
+          "result_file_id": "d0016",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:31.649426+00:00",
+          "arguments": {
+            "tables": {
+              "j": "d0014"
+            },
+            "sql": "SELECT * FROM j",
+            "offset": 2500,
+            "limit": 500
+          },
+          "result_file_id": "d0017",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:31.688984+00:00",
+          "arguments": {
+            "tables": {
+              "j": "d0014"
+            },
+            "sql": "SELECT * FROM j",
+            "offset": 1500,
+            "limit": 500
+          },
+          "result_file_id": "d0018",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:31.728991+00:00",
+          "arguments": {
+            "tables": {
+              "j": "d0014"
+            },
+            "sql": "SELECT * FROM j",
+            "offset": 3000,
+            "limit": 500
+          },
+          "result_file_id": "d0019",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:31.767894+00:00",
+          "arguments": {
+            "tables": {
+              "j": "d0014"
+            },
+            "sql": "SELECT * FROM j",
+            "offset": 2000,
+            "limit": 500
+          },
+          "result_file_id": "d0020",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:33:31.808801+00:00",
+          "arguments": {
+            "tables": {
+              "j": "d0014"
+            },
+            "sql": "SELECT * FROM j",
+            "offset": 3500,
+            "limit": 500
+          },
+          "result_file_id": "d0021",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:34:47.729990+00:00",
+          "arguments": {
+            "tables": {
+              "j": "d0014"
+            },
+            "sql": "WITH usable AS (\nSELECT * FROM j WHERE type='Sample-Routine' AND media='Water' AND status IN ('Accepted','Final') AND value_type='Actual' AND detection='' AND qualifier=''\nAND ((code='00010' AND unit='deg C') OR (code='00095' AND unit='uS/cm @25C') OR (code='00300' AND unit='mg/l') OR (code='00400' AND unit='std units'))\n), per_parameter AS (\nSELECT org,id,station,date,time,depth,depth_unit,code,MIN(CAST(value AS REAL)) val,COUNT(DISTINCT CAST(value AS REAL)) distinct_values FROM usable GROUP BY org,id,station,date,time,depth,depth_unit,code\n)\nSELECT org,id,station,date,time,depth,depth_unit,CAST(substr(date,1,4) AS INTEGER) year,(CAST(substr(date,6,2) AS INTEGER)-1)/3+1 quarter,\nMAX(CASE WHEN code='00300' THEN val END) oxygen,MAX(CASE WHEN code='00010' THEN val END) temperature,MAX(CASE WHEN code='00095' THEN val END) conductance,MAX(CASE WHEN code='00400' THEN val END) ph\nFROM per_parameter GROUP BY org,id,station,date,time,depth,depth_unit HAVING COUNT(*)=4 AND MAX(distinct_values)=1",
+            "limit": 1
+          },
+          "result_file_id": "d0022",
+          "rows_returned_by_query": 833,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:35:15.241750+00:00",
+          "arguments": {
+            "tables": {
+              "p": "d0022"
+            },
+            "sql": "WITH RECURSIVE years(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM years WHERE y<2019),\nquarters AS (SELECT org,station,year,quarter,COUNT(*) n FROM p GROUP BY org,station,year,quarter),\nsupported AS (SELECT org,station,year FROM quarters GROUP BY org,station,year HAVING COUNT(*)=4),\ntrials AS (SELECT org,id,station,year,quarter FROM p UNION ALL SELECT 'USGS-TX','BASE','','',''),\ntrial_years AS (\nSELECT t.id trial,s.org,s.station,CAST(s.year AS INTEGER) year FROM trials t CROSS JOIN supported s\nWHERE NOT (t.org=s.org AND t.station=s.station AND t.year=s.year AND\nEXISTS (SELECT 1 FROM quarters q WHERE q.org=t.org AND q.station=t.station AND q.year=t.year AND q.quarter=t.quarter AND q.n=1))\n),\nmembers AS (\nSELECT trial,a.y start,b.y end,station FROM trial_years sy JOIN years a ON sy.year>=a.y JOIN years b ON sy.year<=b.y AND b.y>=a.y\nGROUP BY trial,a.y,b.y,station HAVING COUNT(*)=b.y-a.y+1\n),\ndesigns AS (\nSELECT trial,start,end,end-start+1 duration,COUNT(*) coverage,GROUP_CONCAT(station,';') cohort FROM (SELECT * FROM members ORDER BY trial,start,end,station)\nGROUP BY trial,start,end HAVING COUNT(*)>=2\n),\nfrontier AS (SELECT * FROM designs d WHERE NOT EXISTS (SELECT 1 FROM designs e WHERE e.trial=d.trial AND e.duration>=d.duration AND e.coverage>=d.coverage AND (e.duration>d.duration OR e.coverage>d.coverage))),\nchanged AS (\nSELECT t.id FROM trials t WHERE t.id<>'BASE' AND (\nEXISTS (SELECT 1 FROM frontier f WHERE f.trial=t.id AND NOT EXISTS (SELECT 1 FROM frontier b WHERE b.trial='BASE' AND b.start=f.start AND b.end=f.end AND b.cohort=f.cohort))\nOR EXISTS (SELECT 1 FROM frontier b WHERE b.trial='BASE' AND NOT EXISTS (SELECT 1 FROM frontier f WHERE f.trial=t.id AND f.start=b.start AND f.end=b.end AND f.cohort=b.cohort))\n))\nSELECT f.* FROM frontier f JOIN changed c ON c.id=f.trial ORDER BY trial,start,end",
+            "limit": 500
+          },
+          "result_file_id": null,
+          "rows_returned_by_query": null,
+          "error": "OperationalError: database or disk is full"
+        },
+        {
+          "started_at": "2026-09-08T13:35:43.807173+00:00",
+          "arguments": {
+            "tables": {
+              "p": "d0022"
+            },
+            "sql": "SELECT * FROM p WHERE id IN ('nwistx.01.01401065','nwistx.01.01601917','nwistx.01.01501624','nwistx.01.01401515','nwistx.01.01503036','nwistx.01.01502581','nwistx.01.01500574','nwistx.01.01900010','nwistx.01.01500130','nwistx.01.01601150','nwistx.01.00300032','nwistx.01.01900498','nwistx.01.00200965','nwistx.01.01401056') ORDER BY id",
+            "limit": 100
+          },
+          "result_file_id": "d0023",
+          "rows_returned_by_query": 14,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:33:32.001151+00:00",
+          "arguments": {
+            "tables": {
+              "p": "d0022"
+            },
+            "sql": "WITH designs(w,start,end,cohort,q) AS (VALUES ('nwistx.01.01401065','2013','2019','USGS-08057410;USGS-08067000','1'),('nwistx.01.01401065','2014','2015','USGS-08057410;USGS-08067000;USGS-08067252','1'),('nwistx.01.01401515','2013','2019','USGS-08057410;USGS-08067000','2'),('nwistx.01.01401515','2014','2015','USGS-08057410;USGS-08067000;USGS-08067252','2'),('nwistx.01.01500574','2013','2019','USGS-08057410;USGS-08067000','4'),('nwistx.01.01500574','2014','2015','USGS-08057410;USGS-08067000;USGS-08067252','4'),('nwistx.01.01601150','2002','2007','USGS-08057410;USGS-08065350','4'),('nwistx.01.01601150','2014','2014','USGS-08057410;USGS-08065350;USGS-08067000;USGS-08067252','4'),('nwistx.01.01900498','2002','2007','USGS-08057410;USGS-08065350','1'),('nwistx.01.01900498','2013','2018','USGS-08057410;USGS-08067000','1'),('nwistx.01.01900498','2014','2014','USGS-08057410;USGS-08065350;USGS-08067000;USGS-08067252','1'),('nwistx.01.01900498','2014','2015','USGS-08057410;USGS-08067000;USGS-08067252','1')),\nevents AS (\nSELECT d.*,p.*,COUNT(*) OVER (PARTITION BY w,start,end) n,\nROW_NUMBER() OVER (PARTITION BY w,start,end ORDER BY CAST(oxygen AS REAL),date,CASE WHEN time='' THEN 1 ELSE 0 END,time,station COLLATE BINARY,id COLLATE BINARY) rn\nFROM designs d JOIN p ON CAST(p.year AS INTEGER) BETWEEN CAST(d.start AS INTEGER) AND CAST(d.end AS INTEGER)\nAND p.quarter=d.q AND instr(';'||d.cohort||';',';'||p.station||';')>0 AND p.id<>d.w\n)\nSELECT w,start,end,n,id,date,oxygen,temperature,conductance,ph FROM events WHERE rn=1 ORDER BY w,CAST(start AS INTEGER),CAST(end AS INTEGER)",
+            "limit": 100
+          },
+          "result_file_id": "d0024",
+          "rows_returned_by_query": 12,
+          "error": null
+        }
+      ],
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-6-astra",
+        "effort": "high",
+        "raw_tool_records": 48,
+        "tool_calls": {
+          "exec": 15,
+          "wait": 9
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      }
+    },
+    {
+      "label": "r03_content_A_GO",
+      "variant": "go",
+      "run": "runs/r-90f6785199ad",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "downloads": [
+        {
+          "requested_at": "2026-09-08T14:35:20.210228+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "status": 200,
+          "error": null,
+          "file_id": "d0001",
+          "bytes": 18723,
+          "archive_members": [
+            {
+              "file_id": "d0002",
+              "name": "station.csv",
+              "bytes": 155748
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T14:35:46.574795+00:00",
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "status": 200,
+          "error": null,
+          "file_id": "d0005",
+          "bytes": 31864,
+          "archive_members": [
+            {
+              "file_id": "d0006",
+              "name": "activity.csv",
+              "bytes": 390579
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T14:35:48.952145+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010;00095;00300;00400&dataProfile=physchem",
+          "status": 400,
+          "error": "HTTP Error 400: Bad Request",
+          "file_id": "d0007",
+          "bytes": 0,
+          "archive_members": null,
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T14:35:55.094884+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010;00095;00300;00400&dataProfile=physChem",
+          "status": 400,
+          "error": "HTTP Error 400: Bad Request",
+          "file_id": "d0009",
+          "bytes": 0,
+          "archive_members": null,
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T14:36:03.849938+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010;00095;00300;00400",
+          "status": 200,
+          "error": null,
+          "file_id": "d0010",
+          "bytes": 60119,
+          "archive_members": [
+            {
+              "file_id": "d0011",
+              "name": "result.csv",
+              "bytes": 1898681
+            }
+          ],
+          "full_csv_rows": null
+        }
+      ],
+      "tool_counts": {
+        "download": 5,
+        "query_csv": 22
+      },
+      "actual_model": "gpt-6-astra",
+      "effort": "high",
+      "current_date": "2026-09-08",
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 347.826,
+      "ending_reason": "exited",
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 712881,
+        "cached_input_tokens": 658432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7869,
+        "reasoning_output_tokens": 539
+      },
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 216,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 12,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "parse_status": "parsed",
+      "evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "locator": "station.csv: 460 locations retrieved; 17 satisfy the exact name-prefix and location-type filters, including USGS-08067252 (Stream: Tidal stream)."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "locator": "activity.csv: all 1,026 records inspected; 941 Water/Sample-Routine activities. Organization/activity keys are unique; all result links agree on station and date. Withdrawal dates, local times and reported depth metadata retained."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010;00095;00300;00400",
+          "locator": "result.csv: all 3,782 results inspected using USGSPCode, value, unit, status, value type, detection condition and qualifier. Filtering yields 833 complete eligible activities. All 833 independent withdrawals evaluated; five change the frontier. Separate SQL calculations confirm all 12 frontier designs, seasonal counts and selected events."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "Legacy WQX2.2 notice and web-service documentation: Station, Activity and Result endpoints; organization, HUC, siteid, pCode and activity-date filters."
+        }
+      ],
+      "limitations": [],
+      "raw_final_answer_path": "runs/r-90f6785199ad/answer.txt",
+      "sql_calls": [
+        {
+          "started_at": "2026-09-08T14:35:28.530070+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0002"
+            },
+            "sql": "SELECT * FROM s WHERE substr(\"MonitoringLocationName\",1,11)='Trinity Rv ' AND \"MonitoringLocationTypeName\" IN ('Stream','Stream: Tidal stream')",
+            "limit": 100
+          },
+          "result_file_id": "d0003",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:35:46.562401+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0003"
+            },
+            "sql": "SELECT \"MonitoringLocationIdentifier\" FROM s ORDER BY \"MonitoringLocationIdentifier\"",
+            "limit": 100
+          },
+          "result_file_id": "d0004",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:35:55.068980+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0006"
+            },
+            "sql": "SELECT * FROM a LIMIT 2"
+          },
+          "result_file_id": "d0008",
+          "rows_returned_by_query": 2,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:14.316733+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0011"
+            },
+            "sql": "SELECT * FROM r LIMIT 1"
+          },
+          "result_file_id": "d0012",
+          "rows_returned_by_query": 1,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:14.475336+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0006"
+            },
+            "sql": "SELECT \"ActivityMediaName\",\"ActivityTypeCode\",count(*) n FROM a GROUP BY 1,2"
+          },
+          "result_file_id": "d0013",
+          "rows_returned_by_query": 6,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:29.691962+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0011"
+            },
+            "sql": "SELECT \"OrganizationIdentifier\" org,\"ActivityIdentifier\" id,\"MonitoringLocationIdentifier\" station,\"ActivityStartDate\" date,\"ActivityStartTime/Time\" time,\"ActivityTypeCode\" type,\"ActivityMediaName\" media,\"USGSPCode\" code,\"ResultMeasureValue\" value,\"ResultMeasure/MeasureUnitCode\" unit,\"ResultStatusIdentifier\" status,\"ResultValueTypeName\" valuetype,\"ResultDetectionConditionText\" detection,\"MeasureQualifierCode\" qualifier FROM t",
+            "limit": 5000
+          },
+          "result_file_id": "d0014",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:29.806653+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0006"
+            },
+            "sql": "SELECT \"OrganizationIdentifier\" org,\"ActivityIdentifier\" id,\"MonitoringLocationIdentifier\" station,\"ActivityStartDate\" date,\"ActivityStartTime/Time\" time,\"ActivityTypeCode\" type,\"ActivityMediaName\" media,\"ActivityDepthHeightMeasure/MeasureValue\" depth,\"ActivityDepthHeightMeasure/MeasureUnitCode\" depthunit FROM t",
+            "limit": 5000
+          },
+          "result_file_id": "d0015",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:37.407403+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0011"
+            },
+            "sql": "SELECT \"USGSPCode\",\"ResultMeasure/MeasureUnitCode\",\"ResultStatusIdentifier\",\"ResultValueTypeName\",\"ResultDetectionConditionText\",\"MeasureQualifierCode\",count(*) n FROM r GROUP BY 1,2,3,4,5,6",
+            "limit": 1000
+          },
+          "result_file_id": "d0016",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:47.229377+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0015"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 500,
+            "limit": 500
+          },
+          "result_file_id": "d0017",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:47.242991+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0015"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 1000,
+            "limit": 500
+          },
+          "result_file_id": "d0018",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:47.276790+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0014"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 500,
+            "limit": 500
+          },
+          "result_file_id": "d0019",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:47.314319+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0014"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 1000,
+            "limit": 500
+          },
+          "result_file_id": "d0020",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:47.351634+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0014"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 1500,
+            "limit": 500
+          },
+          "result_file_id": "d0021",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:47.388690+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0014"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 2000,
+            "limit": 500
+          },
+          "result_file_id": "d0022",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:47.425415+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0014"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 2500,
+            "limit": 500
+          },
+          "result_file_id": "d0023",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:47.463620+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0014"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 3000,
+            "limit": 500
+          },
+          "result_file_id": "d0024",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:36:47.501161+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0014"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 3500,
+            "limit": 500
+          },
+          "result_file_id": "d0025",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:38:15.466907+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0006",
+              "r": "d0011",
+              "s": "d0003"
+            },
+            "sql": "WITH usable AS (\nSELECT a.\"OrganizationIdentifier\" org, a.\"ActivityIdentifier\" id, a.\"MonitoringLocationIdentifier\" station,\na.\"ActivityStartDate\" date, a.\"ActivityStartTime/Time\" time,\na.\"ActivityDepthHeightMeasure/MeasureValue\" depth,a.\"ActivityDepthHeightMeasure/MeasureUnitCode\" depthunit,\nr.\"USGSPCode\" code,CAST(r.\"ResultMeasureValue\" AS REAL) value\nFROM a JOIN r ON a.\"OrganizationIdentifier\"=r.\"OrganizationIdentifier\" AND a.\"ActivityIdentifier\"=r.\"ActivityIdentifier\"\nAND a.\"MonitoringLocationIdentifier\"=r.\"MonitoringLocationIdentifier\" AND a.\"ActivityStartDate\"=r.\"ActivityStartDate\"\nJOIN s ON a.\"OrganizationIdentifier\"=s.\"OrganizationIdentifier\" AND a.\"MonitoringLocationIdentifier\"=s.\"MonitoringLocationIdentifier\"\nWHERE a.\"OrganizationIdentifier\"='USGS-TX' AND a.\"ActivityMediaName\"='Water' AND a.\"ActivityTypeCode\"='Sample-Routine'\nAND a.\"ActivityStartDate\" BETWEEN '2000-01-01' AND '2019-12-31'\nAND r.\"ResultStatusIdentifier\" IN ('Accepted','Final') AND r.\"ResultValueTypeName\"='Actual'\nAND trim(r.\"ResultDetectionConditionText\")='' AND trim(r.\"MeasureQualifierCode\")=''\nAND ((r.\"USGSPCode\"='00010' AND r.\"ResultMeasure/MeasureUnitCode\"='deg C') OR\n(r.\"USGSPCode\"='00095' AND r.\"ResultMeasure/MeasureUnitCode\"='uS/cm @25C') OR\n(r.\"USGSPCode\"='00300' AND r.\"ResultMeasure/MeasureUnitCode\"='mg/l') OR\n(r.\"USGSPCode\"='00400' AND r.\"ResultMeasure/MeasureUnitCode\"='std units'))\n), params AS (\nSELECT org,id,station,date,time,depth,depthunit,code,min(value) value,count(DISTINCT value) n\nFROM usable GROUP BY org,id,station,date,time,depth,depthunit,code\n)\nSELECT org,id,station,date,time,depth,depthunit,CAST(substr(date,1,4) AS INTEGER) year,\n(CAST(substr(date,6,2) AS INTEGER)-1)/3+1 quarter,\nmax(CASE WHEN code='00300' THEN value END) oxygen,\nmax(CASE WHEN code='00010' THEN value END) temperature,\nmax(CASE WHEN code='00095' THEN value END) conductance,\nmax(CASE WHEN code='00400' THEN value END) ph\nFROM params GROUP BY org,id,station,date,time,depth,depthunit HAVING count(*)=4 AND max(n)=1 ORDER BY id",
+            "limit": 1
+          },
+          "result_file_id": "d0026",
+          "rows_returned_by_query": 833,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:38:44.899410+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0026"
+            },
+            "sql": "WITH RECURSIVE\nyears(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM years WHERE y<2019),\nintervals AS (SELECT x.y start_year,z.y end_year,z.y-x.y+1 duration FROM years x CROSS JOIN years z WHERE z.y>=x.y),\ntrials AS (SELECT org,id,station,CAST(year AS INTEGER) year,CAST(quarter AS INTEGER) quarter FROM a UNION ALL SELECT 'USGS-TX','ORIGINAL','',0,0),\nq AS (SELECT org,station,CAST(year AS INTEGER) year,CAST(quarter AS INTEGER) quarter,count(*) n FROM a GROUP BY 1,2,3,4),\nys AS (SELECT t.id withdrawal,q.org,q.station,q.year FROM trials t CROSS JOIN q\nWHERE q.n-CASE WHEN t.org=q.org AND t.station=q.station AND t.year=q.year AND t.quarter=q.quarter THEN 1 ELSE 0 END>0\nGROUP BY t.id,q.org,q.station,q.year HAVING count(*)=4),\nmembers AS (SELECT ys.withdrawal,ys.org,ys.station,i.start_year,i.end_year,i.duration FROM ys JOIN intervals i ON ys.year BETWEEN i.start_year AND i.end_year\nGROUP BY ys.withdrawal,ys.org,ys.station,i.start_year,i.end_year,i.duration HAVING count(*)=i.duration),\nfeasible AS (SELECT withdrawal,start_year,end_year,duration,count(*) coverage,group_concat(station,';') cohort FROM\n(SELECT * FROM members ORDER BY withdrawal,start_year,end_year,org,station)\nGROUP BY withdrawal,start_year,end_year,duration HAVING count(*)>=2),\nfrontier AS (SELECT f.* FROM feasible f WHERE NOT EXISTS (\nSELECT 1 FROM feasible g WHERE g.withdrawal=f.withdrawal AND g.duration>=f.duration AND g.coverage>=f.coverage AND (g.duration>f.duration OR g.coverage>f.coverage))),\nsignatures AS (SELECT withdrawal,group_concat(start_year||':'||end_year||':'||cohort,'|') signature FROM (SELECT * FROM frontier ORDER BY withdrawal,start_year,end_year) GROUP BY withdrawal),\nchanged AS (SELECT t.id FROM trials t LEFT JOIN signatures s ON s.withdrawal=t.id WHERE t.id!='ORIGINAL' AND coalesce(s.signature,'')!=(SELECT signature FROM signatures WHERE withdrawal='ORIGINAL'))\nSELECT f.* FROM frontier f JOIN changed c ON f.withdrawal=c.id ORDER BY f.withdrawal,f.start_year,f.end_year",
+            "limit": 100
+          },
+          "result_file_id": null,
+          "rows_returned_by_query": null,
+          "error": "OperationalError: database or disk is full"
+        },
+        {
+          "started_at": "2026-09-08T14:38:55.096901+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0026"
+            },
+            "sql": "WITH q AS (SELECT station,year,quarter,count(*) n FROM a GROUP BY 1,2,3), ys AS (SELECT station,year FROM q GROUP BY 1,2 HAVING count(*)=4) SELECT a.id FROM a JOIN q ON a.station=q.station AND a.year=q.year AND a.quarter=q.quarter JOIN ys ON a.station=ys.station AND a.year=ys.year WHERE q.n=1 ORDER BY a.id",
+            "limit": 500
+          },
+          "result_file_id": "d0027",
+          "rows_returned_by_query": 51,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:39:04.818898+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0026",
+              "c": "d0027"
+            },
+            "sql": "WITH RECURSIVE\nyears(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM years WHERE y<2019),\nintervals AS (SELECT x.y start_year,z.y end_year,z.y-x.y+1 duration FROM years x CROSS JOIN years z WHERE z.y>=x.y),\ntrials AS (SELECT org,id,station,CAST(year AS INTEGER) year,CAST(quarter AS INTEGER) quarter FROM a WHERE id IN (SELECT id FROM c) UNION ALL SELECT 'USGS-TX','ORIGINAL','',0,0),\nq AS (SELECT org,station,CAST(year AS INTEGER) year,CAST(quarter AS INTEGER) quarter,count(*) n FROM a GROUP BY 1,2,3,4),\nys AS (SELECT t.id withdrawal,q.org,q.station,q.year FROM trials t CROSS JOIN q\nWHERE q.n-CASE WHEN t.org=q.org AND t.station=q.station AND t.year=q.year AND t.quarter=q.quarter THEN 1 ELSE 0 END>0\nGROUP BY t.id,q.org,q.station,q.year HAVING count(*)=4),\nmembers AS (SELECT ys.withdrawal,ys.org,ys.station,i.start_year,i.end_year,i.duration FROM ys JOIN intervals i ON ys.year BETWEEN i.start_year AND i.end_year\nGROUP BY ys.withdrawal,ys.org,ys.station,i.start_year,i.end_year,i.duration HAVING count(*)=i.duration),\nfeasible AS (SELECT withdrawal,start_year,end_year,duration,count(*) coverage,group_concat(station,';') cohort FROM\n(SELECT * FROM members ORDER BY withdrawal,start_year,end_year,org,station)\nGROUP BY withdrawal,start_year,end_year,duration HAVING count(*)>=2),\nfrontier AS (SELECT f.* FROM feasible f WHERE NOT EXISTS (\nSELECT 1 FROM feasible g WHERE g.withdrawal=f.withdrawal AND g.duration>=f.duration AND g.coverage>=f.coverage AND (g.duration>f.duration OR g.coverage>f.coverage))),\nsignatures AS (SELECT withdrawal,group_concat(start_year||':'||end_year||':'||cohort,'|') signature FROM (SELECT * FROM frontier ORDER BY withdrawal,start_year,end_year) GROUP BY withdrawal),\nchanged AS (SELECT t.id FROM trials t LEFT JOIN signatures s ON s.withdrawal=t.id WHERE t.id!='ORIGINAL' AND coalesce(s.signature,'')!=(SELECT signature FROM signatures WHERE withdrawal='ORIGINAL'))\nSELECT f.* FROM frontier f JOIN changed c ON f.withdrawal=c.id ORDER BY f.withdrawal,f.start_year,f.end_year",
+            "limit": 100
+          },
+          "result_file_id": "d0028",
+          "rows_returned_by_query": 12,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:39:23.452373+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0026",
+              "f": "d0028"
+            },
+            "sql": "WITH ranked AS (SELECT f.withdrawal,f.start_year,f.end_year,f.coverage,f.cohort,w.quarter,a.org,a.station,a.id,a.date,a.oxygen,a.temperature,a.conductance,a.ph,\ncount(*) OVER (PARTITION BY f.withdrawal,f.start_year,f.end_year) n,\nrow_number() OVER (PARTITION BY f.withdrawal,f.start_year,f.end_year ORDER BY CAST(a.oxygen AS REAL),a.date,CASE WHEN a.time='' THEN 1 ELSE 0 END,time(a.time),a.station COLLATE BINARY,a.id COLLATE BINARY) rank\nFROM f JOIN a w ON w.id=f.withdrawal\nJOIN a ON instr(';'||f.cohort||';',';'||a.station||';')>0 AND CAST(a.year AS INTEGER) BETWEEN CAST(f.start_year AS INTEGER) AND CAST(f.end_year AS INTEGER)\nAND a.quarter=w.quarter AND NOT (a.org=w.org AND a.id=w.id))\nSELECT withdrawal,CAST(start_year AS INTEGER),CAST(end_year AS INTEGER),CAST(n AS INTEGER),org,station,id,date,oxygen,temperature,conductance,ph FROM ranked WHERE rank=1 ORDER BY withdrawal,CAST(start_year AS INTEGER),CAST(end_year AS INTEGER)",
+            "limit": 100
+          },
+          "result_file_id": "d0029",
+          "rows_returned_by_query": 12,
+          "error": null
+        }
+      ],
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-6-astra",
+        "effort": "high",
+        "raw_tool_records": 38,
+        "tool_calls": {
+          "exec": 19
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      }
+    },
+    {
+      "label": "r03_content_B_GO",
+      "variant": "go",
+      "run": "runs/r-c56f5211721f",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "downloads": [
+        {
+          "requested_at": "2026-09-08T14:41:09.293026+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "status": 200,
+          "error": null,
+          "file_id": "d0001",
+          "bytes": 18723,
+          "archive_members": [
+            {
+              "file_id": "d0002",
+              "name": "station.csv",
+              "bytes": 155748
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T14:41:24.974610+00:00",
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "status": 200,
+          "error": null,
+          "file_id": "d0005",
+          "bytes": 31864,
+          "archive_members": [
+            {
+              "file_id": "d0006",
+              "name": "activity.csv",
+              "bytes": 390579
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T14:41:26.660128+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010%3B00095%3B00300%3B00400",
+          "status": 200,
+          "error": null,
+          "file_id": "d0007",
+          "bytes": 60119,
+          "archive_members": [
+            {
+              "file_id": "d0008",
+              "name": "result.csv",
+              "bytes": 1898681
+            }
+          ],
+          "full_csv_rows": null
+        }
+      ],
+      "tool_counts": {
+        "download": 3,
+        "query_csv": 21
+      },
+      "actual_model": "gpt-6-astra",
+      "effort": "high",
+      "current_date": "2026-09-08",
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 353.393,
+      "ending_reason": "exited",
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 751261,
+        "cached_input_tokens": 664320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8251,
+        "reasoning_output_tokens": 823
+      },
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 216,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 12,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "parse_status": "parsed",
+      "evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "Legacy WQX 2.2 notice; service endpoints and definitions of organization, huc, siteid, pCode, activityId, startDateLo and startDateHi."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "locator": "station.csv: 460 records; exact name-prefix and location-type filters retain 17 stations, including USGS-08067252 (Stream: Tidal stream)."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "locator": "activity.csv: 1,026 unique organization/activity keys; 941 Sample-Routine Water activities. ActivityStartDate, local start time, station and depth metadata inspected; all result-to-activity station/date links agree."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010%3B00095%3B00300%3B00400",
+          "locator": "result.csv: all 3,782 records inspected; eligibility, status, value-type, qualifier, detection, numeric and unit checks yield 833 complete activities. All 833 independent withdrawals evaluated; separate SQL calculation confirms the five changing withdrawals and all 12 event selections/counts."
+        }
+      ],
+      "limitations": [],
+      "raw_final_answer_path": "runs/r-c56f5211721f/answer.txt",
+      "sql_calls": [
+        {
+          "started_at": "2026-09-08T14:41:14.668300+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0002"
+            },
+            "sql": "SELECT * FROM s WHERE substr(\"MonitoringLocationName\",1,11)='Trinity Rv ' AND \"MonitoringLocationTypeName\" IN ('Stream','Stream: Tidal stream')",
+            "limit": 100
+          },
+          "result_file_id": "d0003",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:41:24.960225+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0003"
+            },
+            "sql": "SELECT \"MonitoringLocationIdentifier\" FROM s ORDER BY \"MonitoringLocationIdentifier\"",
+            "limit": 100
+          },
+          "result_file_id": "d0004",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:41:32.640293+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008"
+            },
+            "sql": "SELECT * FROM r LIMIT 2"
+          },
+          "result_file_id": "d0009",
+          "rows_returned_by_query": 2,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:41:32.718015+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0006"
+            },
+            "sql": "SELECT * FROM a LIMIT 2"
+          },
+          "result_file_id": "d0010",
+          "rows_returned_by_query": 2,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:41:46.228583+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006"
+            },
+            "sql": "SELECT a.\"ActivityTypeCode\",a.\"ActivityMediaName\",COUNT(*) n FROM a GROUP BY 1,2",
+            "limit": 100
+          },
+          "result_file_id": "d0011",
+          "rows_returned_by_query": 6,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:41:46.334897+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006"
+            },
+            "sql": "SELECT \"USGSPCode\", \"ResultMeasure/MeasureUnitCode\", \"ResultStatusIdentifier\", \"ResultValueTypeName\", \"ResultDetectionConditionText\", \"MeasureQualifierCode\", COUNT(*) n FROM r GROUP BY 1,2,3,4,5,6 ORDER BY 1,2,3",
+            "limit": 100
+          },
+          "result_file_id": "d0012",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:41:46.417865+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006"
+            },
+            "sql": "SELECT COUNT(*) result_rows, SUM(CASE WHEN a.\"ActivityIdentifier\" IS NULL THEN 1 ELSE 0 END) unmatched, SUM(CASE WHEN r.\"MonitoringLocationIdentifier\"<>a.\"MonitoringLocationIdentifier\" OR r.\"ActivityStartDate\"<>a.\"ActivityStartDate\" THEN 1 ELSE 0 END) inconsistent, SUM(CASE WHEN r.\"ActivityTypeCode\"<>a.\"ActivityTypeCode\" OR r.\"ActivityMediaName\"<>a.\"ActivityMediaName\" OR r.\"ActivityStartTime/Time\"<>a.\"ActivityStartTime/Time\" THEN 1 ELSE 0 END) metadata_mismatch FROM r LEFT JOIN a ON r.\"OrganizationIdentifier\"=a.\"OrganizationIdentifier\" AND r.\"ActivityIdentifier\"=a.\"ActivityIdentifier\"",
+            "limit": 100
+          },
+          "result_file_id": "d0013",
+          "rows_returned_by_query": 1,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:41:46.499102+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006"
+            },
+            "sql": "SELECT \"OrganizationIdentifier\",\"ActivityIdentifier\",COUNT(*) n FROM a GROUP BY 1,2 HAVING COUNT(*)>1",
+            "limit": 100
+          },
+          "result_file_id": "d0014",
+          "rows_returned_by_query": 0,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:42:06.851966+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006",
+              "s": "d0003"
+            },
+            "sql": "SELECT r.\"OrganizationIdentifier\" org,r.\"ActivityIdentifier\" id,r.\"MonitoringLocationIdentifier\" station,r.\"ActivityStartDate\" date,a.\"ActivityStartTime/Time\" time,a.\"ActivityDepthHeightMeasure/MeasureValue\" depth,a.\"ActivityDepthHeightMeasure/MeasureUnitCode\" depth_unit,a.\"ActivityRelativeDepthName\" relative_depth,r.\"USGSPCode\" code,r.\"ResultMeasureValue\" value,r.\"ResultMeasure/MeasureUnitCode\" unit\nFROM r JOIN a ON r.\"OrganizationIdentifier\"=a.\"OrganizationIdentifier\" AND r.\"ActivityIdentifier\"=a.\"ActivityIdentifier\"\nJOIN s ON a.\"OrganizationIdentifier\"=s.\"OrganizationIdentifier\" AND a.\"MonitoringLocationIdentifier\"=s.\"MonitoringLocationIdentifier\"\nWHERE a.\"ActivityMediaName\"='Water' AND a.\"ActivityTypeCode\"='Sample-Routine'\nAND r.\"MonitoringLocationIdentifier\"=a.\"MonitoringLocationIdentifier\" AND r.\"ActivityStartDate\"=a.\"ActivityStartDate\"\nAND a.\"ActivityStartDate\" BETWEEN '2000-01-01' AND '2019-12-31'\nAND r.\"ResultStatusIdentifier\" IN ('Accepted','Final') AND r.\"ResultValueTypeName\"='Actual'\nAND trim(coalesce(r.\"ResultDetectionConditionText\",''))='' AND trim(coalesce(r.\"MeasureQualifierCode\",''))=''\nORDER BY org,id,code",
+            "limit": 5000
+          },
+          "result_file_id": "d0015",
+          "rows_returned_by_query": 3370,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:42:15.669846+00:00",
+          "arguments": {
+            "tables": {
+              "u": "d0015"
+            },
+            "sql": "SELECT * FROM u",
+            "offset": 500,
+            "limit": 5000
+          },
+          "result_file_id": "d0016",
+          "rows_returned_by_query": 3370,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:42:23.775342+00:00",
+          "arguments": {
+            "tables": {
+              "u": "d0015"
+            },
+            "sql": "SELECT * FROM u",
+            "offset": 1000,
+            "limit": 500
+          },
+          "result_file_id": "d0017",
+          "rows_returned_by_query": 3370,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:42:23.803346+00:00",
+          "arguments": {
+            "tables": {
+              "u": "d0015"
+            },
+            "sql": "SELECT * FROM u",
+            "offset": 1500,
+            "limit": 500
+          },
+          "result_file_id": "d0018",
+          "rows_returned_by_query": 3370,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:42:23.829079+00:00",
+          "arguments": {
+            "tables": {
+              "u": "d0015"
+            },
+            "sql": "SELECT * FROM u",
+            "offset": 2000,
+            "limit": 500
+          },
+          "result_file_id": "d0019",
+          "rows_returned_by_query": 3370,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:42:23.854336+00:00",
+          "arguments": {
+            "tables": {
+              "u": "d0015"
+            },
+            "sql": "SELECT * FROM u",
+            "offset": 3000,
+            "limit": 500
+          },
+          "result_file_id": "d0020",
+          "rows_returned_by_query": 3370,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:42:23.878920+00:00",
+          "arguments": {
+            "tables": {
+              "u": "d0015"
+            },
+            "sql": "SELECT * FROM u",
+            "offset": 2500,
+            "limit": 500
+          },
+          "result_file_id": "d0021",
+          "rows_returned_by_query": 3370,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:43:36.589136+00:00",
+          "arguments": {
+            "tables": {
+              "u": "d0015"
+            },
+            "sql": "SELECT org,id,station,date,time,depth,depth_unit,relative_depth,\nCAST(substr(date,1,4) AS INTEGER) year, CAST((CAST(substr(date,6,2) AS INTEGER)-1)/3 AS INTEGER)+1 quarter,\nMAX(CASE WHEN code='00010' THEN value END) temperature,\nMAX(CASE WHEN code='00095' THEN value END) conductance,\nMAX(CASE WHEN code='00300' THEN value END) oxygen,\nMAX(CASE WHEN code='00400' THEN value END) ph\nFROM u GROUP BY org,id HAVING COUNT(DISTINCT code)=4\nAND COUNT(DISTINCT CASE WHEN code='00010' THEN CAST(value AS REAL) END)=1\nAND COUNT(DISTINCT CASE WHEN code='00095' THEN CAST(value AS REAL) END)=1\nAND COUNT(DISTINCT CASE WHEN code='00300' THEN CAST(value AS REAL) END)=1\nAND COUNT(DISTINCT CASE WHEN code='00400' THEN CAST(value AS REAL) END)=1",
+            "limit": 1
+          },
+          "result_file_id": "d0022",
+          "rows_returned_by_query": 833,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:44:03.332426+00:00",
+          "arguments": {
+            "tables": {
+              "c": "d0022"
+            },
+            "sql": "WITH RECURSIVE\nyears(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM years WHERE y<2019),\nintervals AS (SELECT a.y start_year,b.y end_year,b.y-a.y+1 duration FROM years a JOIN years b ON b.y>=a.y),\nq AS (SELECT org,station,CAST(year AS INTEGER) year,CAST(quarter AS INTEGER) quarter,COUNT(*) n FROM c GROUP BY 1,2,3,4),\ny AS (SELECT org,station,year FROM q GROUP BY 1,2,3 HAVING COUNT(*)=4),\ntrials AS (SELECT org worg,id wid,station wstation,CAST(year AS INTEGER) wyear,CAST(quarter AS INTEGER) wquarter FROM c UNION ALL SELECT 'USGS-TX','ORIGINAL','',0,0),\nsupported AS (SELECT t.*,y.org,y.station,y.year FROM trials t CROSS JOIN y\nWHERE NOT(t.worg=y.org AND t.wstation=y.station AND t.wyear=y.year AND (SELECT n FROM q WHERE q.org=y.org AND q.station=y.station AND q.year=y.year AND q.quarter=t.wquarter)=1)),\nmembers AS (SELECT worg,wid,i.start_year,i.end_year,i.duration,org,station FROM intervals i JOIN supported s ON s.year BETWEEN i.start_year AND i.end_year GROUP BY worg,wid,i.start_year,i.end_year,i.duration,org,station HAVING COUNT(*)=i.duration),\ndesigns AS (SELECT worg,wid,start_year,end_year,duration,COUNT(*) coverage,GROUP_CONCAT(station,';') cohort FROM (SELECT * FROM members ORDER BY worg,wid,start_year,end_year,org,station) GROUP BY worg,wid,start_year,end_year,duration HAVING COUNT(*)>=2),\nfrontier AS (SELECT * FROM designs d WHERE NOT EXISTS (SELECT 1 FROM designs x WHERE x.worg=d.worg AND x.wid=d.wid AND x.duration>=d.duration AND x.coverage>=d.coverage AND (x.duration>d.duration OR x.coverage>d.coverage)))\nSELECT * FROM frontier ORDER BY wid,start_year,end_year",
+            "limit": 1
+          },
+          "result_file_id": null,
+          "rows_returned_by_query": null,
+          "error": "OperationalError: database or disk is full"
+        },
+        {
+          "started_at": "2026-09-08T14:44:10.085360+00:00",
+          "arguments": {
+            "tables": {
+              "c": "d0022"
+            },
+            "sql": "WITH RECURSIVE\nyears(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM years WHERE y<2019),\nintervals AS (SELECT a.y start_year,b.y end_year,b.y-a.y+1 duration FROM years a JOIN years b ON b.y>=a.y),\nq AS (SELECT org,station,CAST(year AS INTEGER) year,CAST(quarter AS INTEGER) quarter,COUNT(*) n FROM c GROUP BY 1,2,3,4),\ny AS (SELECT org,station,year FROM q GROUP BY 1,2,3 HAVING COUNT(*)=4),\ntrials AS (SELECT org worg,id wid,station wstation,CAST(year AS INTEGER) wyear,CAST(quarter AS INTEGER) wquarter FROM c UNION ALL SELECT 'USGS-TX','ORIGINAL','',0,0),\nsupported AS (SELECT t.*,y.org,y.station,y.year FROM trials t CROSS JOIN y\nWHERE NOT(t.worg=y.org AND t.wstation=y.station AND t.wyear=y.year AND (SELECT n FROM q WHERE q.org=y.org AND q.station=y.station AND q.year=y.year AND q.quarter=t.wquarter)=1)),\nmembers AS (SELECT worg,wid,i.start_year,i.end_year,i.duration,org,station FROM intervals i JOIN supported s ON s.year BETWEEN i.start_year AND i.end_year GROUP BY worg,wid,i.start_year,i.end_year,i.duration,org,station HAVING COUNT(*)=i.duration),\ndesigns AS (SELECT worg,wid,start_year,end_year,duration,COUNT(*) coverage,GROUP_CONCAT(station,';') cohort FROM (SELECT * FROM members ORDER BY worg,wid,start_year,end_year,org,station) GROUP BY worg,wid,start_year,end_year,duration HAVING COUNT(*)>=2),\nfrontier AS (SELECT * FROM designs d WHERE NOT EXISTS (SELECT 1 FROM designs x WHERE x.worg=d.worg AND x.wid=d.wid AND x.duration>=d.duration AND x.coverage>=d.coverage AND (x.duration>d.duration OR x.coverage>d.coverage)))\nSELECT * FROM frontier ORDER BY wid,start_year,end_year",
+            "limit": 1
+          },
+          "result_file_id": null,
+          "rows_returned_by_query": null,
+          "error": "OperationalError: database or disk is full"
+        },
+        {
+          "started_at": "2026-09-08T14:44:21.989756+00:00",
+          "arguments": {
+            "tables": {
+              "c": "d0022"
+            },
+            "sql": "WITH q AS (SELECT org,station,year,quarter,COUNT(*) n FROM c GROUP BY 1,2,3,4),y AS (SELECT org,station,year FROM q GROUP BY 1,2,3 HAVING COUNT(*)=4) SELECT c.org,c.id,c.station,c.year,c.quarter FROM c JOIN q USING(org,station,year,quarter) JOIN y USING(org,station,year) WHERE q.n=1 ORDER BY c.id",
+            "limit": 500
+          },
+          "result_file_id": "d0023",
+          "rows_returned_by_query": 51,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:44:31.083584+00:00",
+          "arguments": {
+            "tables": {
+              "c": "d0022",
+              "critical": "d0023"
+            },
+            "sql": "WITH RECURSIVE\nyears(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM years WHERE y<2019),\nintervals AS (SELECT a.y start_year,b.y end_year,b.y-a.y+1 duration FROM years a JOIN years b ON b.y>=a.y),\nq AS (SELECT org,station,CAST(year AS INTEGER) year,CAST(quarter AS INTEGER) quarter,COUNT(*) n FROM c GROUP BY 1,2,3,4),\ny AS (SELECT org,station,year FROM q GROUP BY 1,2,3 HAVING COUNT(*)=4),\ntrials AS (SELECT org worg,id wid,station wstation,CAST(year AS INTEGER) wyear,CAST(quarter AS INTEGER) wquarter FROM critical UNION ALL SELECT 'USGS-TX','ORIGINAL','',0,0),\nsupported AS (SELECT t.*,y.org,y.station,y.year FROM trials t CROSS JOIN y\nWHERE NOT(t.worg=y.org AND t.wstation=y.station AND t.wyear=y.year AND (SELECT n FROM q WHERE q.org=y.org AND q.station=y.station AND q.year=y.year AND q.quarter=t.wquarter)=1)),\nmembers AS (SELECT worg,wid,i.start_year,i.end_year,i.duration,org,station FROM intervals i JOIN supported s ON s.year BETWEEN i.start_year AND i.end_year GROUP BY worg,wid,i.start_year,i.end_year,i.duration,org,station HAVING COUNT(*)=i.duration),\ndesigns AS (SELECT worg,wid,start_year,end_year,duration,COUNT(*) coverage,GROUP_CONCAT(station,';') cohort FROM (SELECT * FROM members ORDER BY worg,wid,start_year,end_year,org,station) GROUP BY worg,wid,start_year,end_year,duration HAVING COUNT(*)>=2),\nfrontier AS (SELECT * FROM designs d WHERE NOT EXISTS (SELECT 1 FROM designs x WHERE x.worg=d.worg AND x.wid=d.wid AND x.duration>=d.duration AND x.coverage>=d.coverage AND (x.duration>d.duration OR x.coverage>d.coverage)))\nSELECT * FROM frontier ORDER BY wid,start_year,end_year",
+            "limit": 500
+          },
+          "result_file_id": "d0024",
+          "rows_returned_by_query": 153,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:44:54.364148+00:00",
+          "arguments": {
+            "tables": {
+              "f": "d0024",
+              "c": "d0022"
+            },
+            "sql": "WITH original AS (SELECT * FROM f WHERE wid='ORIGINAL'),\nchanged AS (SELECT DISTINCT worg,wid FROM f a WHERE wid<>'ORIGINAL' AND\n(EXISTS (SELECT start_year,end_year,cohort FROM f b WHERE b.worg=a.worg AND b.wid=a.wid EXCEPT SELECT start_year,end_year,cohort FROM original)\nOR EXISTS(SELECT start_year,end_year,cohort FROM original EXCEPT SELECT start_year,end_year,cohort FROM f b WHERE b.worg=a.worg AND b.wid=a.wid))),\nevents AS (\nSELECT w.org worg,w.id wid,w.station wstation,w.date wdate,f.start_year,f.end_year,f.coverage,f.cohort,w.quarter,\nc.org,c.station,c.id,c.date,c.time,c.oxygen,c.temperature,c.conductance,c.ph,\nCOUNT(*) OVER (PARTITION BY w.org,w.id,f.start_year,f.end_year) eligible_count,\nROW_NUMBER() OVER(PARTITION BY w.org,w.id,f.start_year,f.end_year ORDER BY CAST(c.oxygen AS REAL),c.date,CASE WHEN c.time='' THEN 1 ELSE 0 END,c.time,c.station COLLATE BINARY,c.id COLLATE BINARY) ranking\nFROM f JOIN changed ch ON ch.worg=f.worg AND ch.wid=f.wid JOIN c w ON w.org=f.worg AND w.id=f.wid\nJOIN c ON instr(';'||f.cohort||';',';'||c.station||';')>0 AND CAST(c.year AS INTEGER) BETWEEN CAST(f.start_year AS INTEGER) AND CAST(f.end_year AS INTEGER) AND c.quarter=w.quarter AND NOT(c.org=w.org AND c.id=w.id))\nSELECT * FROM events WHERE ranking=1 ORDER BY wid,CAST(start_year AS INTEGER),CAST(end_year AS INTEGER)",
+            "limit": 100
+          },
+          "result_file_id": "d0025",
+          "rows_returned_by_query": 12,
+          "error": null
+        }
+      ],
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-6-astra",
+        "effort": "high",
+        "raw_tool_records": 40,
+        "tool_calls": {
+          "exec": 20
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      }
+    },
+    {
+      "label": "r03_shortcut_CG",
+      "variant": "cg",
+      "run": "runs/r-e70dd272388a",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "downloads": [
+        {
+          "requested_at": "2026-09-08T14:47:19.499101+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv",
+          "status": 200,
+          "error": null,
+          "file_id": "d0001",
+          "bytes": 155748,
+          "archive_members": null,
+          "full_csv_rows": 460
+        },
+        {
+          "requested_at": "2026-09-08T14:48:00.345171+00:00",
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv",
+          "status": 200,
+          "error": null,
+          "file_id": "d0004",
+          "bytes": 390579,
+          "archive_members": null,
+          "full_csv_rows": 1026
+        },
+        {
+          "requested_at": "2026-09-08T14:48:04.169299+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&pCode=00010%3B00095%3B00300%3B00400&dataProfile=physchem",
+          "status": 400,
+          "error": "HTTP Error 400: Bad Request",
+          "file_id": "d0005",
+          "bytes": 0,
+          "archive_members": null,
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T14:48:09.426565+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&pCode=00010%3B00095%3B00300%3B00400&dataProfile=physChem",
+          "status": 400,
+          "error": "HTTP Error 400: Bad Request",
+          "file_id": "d0006",
+          "bytes": 0,
+          "archive_members": null,
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T14:48:15.110580+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&pCode=00010%3B00095%3B00300%3B00400",
+          "status": 200,
+          "error": null,
+          "file_id": "d0007",
+          "bytes": 1898681,
+          "archive_members": null,
+          "full_csv_rows": 3782
+        }
+      ],
+      "tool_counts": {
+        "download": 5,
+        "query_csv": 16
+      },
+      "actual_model": "gpt-6-astra",
+      "effort": "high",
+      "current_date": "2026-09-08",
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 347.454,
+      "ending_reason": "exited",
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 625695,
+        "cached_input_tokens": 570240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6291,
+        "reasoning_output_tokens": 534
+      },
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 216,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 12,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "parse_status": "parsed",
+      "evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv",
+          "locator": "Complete station.csv: 460 rows, matching Total-Site-Count=460. Exact MonitoringLocationName prefix and MonitoringLocationTypeName filters retain 17 stations, including USGS-08067252."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv",
+          "locator": "Complete activity.csv: 1,026 distinct activities, matching response count; 941 are Sample-Routine/Water. Organization/activity joins have no missing records or station/date disagreements."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&pCode=00010%3B00095%3B00300%3B00400",
+          "locator": "Complete result.csv: 3,782 rows, matching Total-Result-Count=3782. Filtering produces 833 complete eligible activities. All 833 independent withdrawals were recomputed; five change the frontier, yielding the 12 reported seasonal selections."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "How to Generate Web Services Requests and Table 1: legacy Station, Activity and Result endpoints; organization, siteid, huc, pCode, date bounds and CSV parameters."
+        }
+      ],
+      "limitations": [
+        "Bounded exact-wording and output-field searches found no public benchmark answer exposure; this does not establish that none exists.",
+        "Authoritative documentation and complete public CSV exports supplied the answer. Explicit physchem/physChem profile requests returned HTTP 400; omitting the optional profile resolved retrieval. A public backup was identified but no archive or ZIP fallback was needed.",
+        "The original 17-station universe remained fixed, including tidal Wallisville; activity identities and reported depths were preserved, with blank depth unknown. All usable measurements already had compatible target units. No unresolved retrieval gaps or scope decisions remained."
+      ],
+      "raw_final_answer_path": "runs/r-e70dd272388a/answer.txt",
+      "sql_calls": [
+        {
+          "started_at": "2026-09-08T14:47:47.865544+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0001"
+            },
+            "sql": "SELECT OrganizationIdentifier,MonitoringLocationIdentifier,MonitoringLocationName,MonitoringLocationTypeName,HUCEightDigitCode FROM s WHERE substr(MonitoringLocationName,1,11)='Trinity Rv ' AND MonitoringLocationTypeName IN ('Stream','Stream: Tidal stream') ORDER BY MonitoringLocationIdentifier",
+            "limit": 100
+          },
+          "result_file_id": "d0002",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:48:00.330664+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0002"
+            },
+            "sql": "SELECT MonitoringLocationIdentifier FROM s",
+            "limit": 100
+          },
+          "result_file_id": "d0003",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:17.664479+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0007",
+              "a": "d0004"
+            },
+            "sql": "SELECT USGSPCode,\"ResultMeasure/MeasureUnitCode\",ResultStatusIdentifier,ResultValueTypeName,MeasureQualifierCode,ResultDetectionConditionText,count(*) n FROM r GROUP BY 1,2,3,4,5,6 ORDER BY 1,2,3",
+            "limit": 100
+          },
+          "result_file_id": "d0008",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:17.770641+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0007",
+              "a": "d0004"
+            },
+            "sql": "SELECT ActivityTypeCode,ActivityMediaName,count(*) n,count(DISTINCT ActivityIdentifier) ids FROM a GROUP BY 1,2",
+            "limit": 100
+          },
+          "result_file_id": "d0009",
+          "rows_returned_by_query": 6,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:17.852300+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0007",
+              "a": "d0004"
+            },
+            "sql": "SELECT count(*) n, sum(CASE WHEN a.ActivityIdentifier IS NULL THEN 1 ELSE 0 END) missing, sum(CASE WHEN r.MonitoringLocationIdentifier<>a.MonitoringLocationIdentifier OR r.ActivityStartDate<>a.ActivityStartDate THEN 1 ELSE 0 END) mismatch FROM r LEFT JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier",
+            "limit": 100
+          },
+          "result_file_id": "d0010",
+          "rows_returned_by_query": 1,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:31.346511+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0007"
+            },
+            "sql": "SELECT OrganizationIdentifier,ActivityIdentifier,MonitoringLocationIdentifier,ActivityStartDate,ActivityTypeCode,ActivityMediaName,USGSPCode,ResultMeasureValue,\"ResultMeasure/MeasureUnitCode\",ResultStatusIdentifier,ResultValueTypeName,ResultDetectionConditionText,MeasureQualifierCode FROM r",
+            "limit": 5000
+          },
+          "result_file_id": "d0011",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:31.430311+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0004"
+            },
+            "sql": "SELECT OrganizationIdentifier,ActivityIdentifier,MonitoringLocationIdentifier,ActivityStartDate,\"ActivityStartTime/Time\",ActivityTypeCode,ActivityMediaName,\"ActivityDepthHeightMeasure/MeasureValue\",\"ActivityDepthHeightMeasure/MeasureUnitCode\",\"ActivityTopDepthHeightMeasure/MeasureValue\",\"ActivityTopDepthHeightMeasure/MeasureUnitCode\",\"ActivityBottomDepthHeightMeasure/MeasureValue\",\"ActivityBottomDepthHeightMeasure/MeasureUnitCode\" FROM a",
+            "limit": 5000
+          },
+          "result_file_id": "d0012",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:44.640315+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0011"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 500,
+            "limit": 500
+          },
+          "result_file_id": "d0013",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:44.678141+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0011"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 1000,
+            "limit": 500
+          },
+          "result_file_id": "d0014",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:44.711605+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0011"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 1500,
+            "limit": 500
+          },
+          "result_file_id": "d0015",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:44.745135+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0011"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 2500,
+            "limit": 500
+          },
+          "result_file_id": "d0016",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:44.778125+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0011"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 2000,
+            "limit": 500
+          },
+          "result_file_id": "d0017",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:44.811116+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0011"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 3000,
+            "limit": 500
+          },
+          "result_file_id": "d0018",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:44.844510+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0011"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 3500,
+            "limit": 500
+          },
+          "result_file_id": "d0019",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:44.900665+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0012"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 500,
+            "limit": 500
+          },
+          "result_file_id": "d0020",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:44.911831+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0012"
+            },
+            "sql": "SELECT * FROM t",
+            "offset": 1000,
+            "limit": 500
+          },
+          "result_file_id": "d0021",
+          "rows_returned_by_query": 1026,
+          "error": null
+        }
+      ],
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-6-astra",
+        "effort": "high",
+        "raw_tool_records": 30,
+        "tool_calls": {
+          "exec": 13,
+          "wait": 2
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      }
+    },
+    {
+      "label": "r03_shortcut_GO",
+      "variant": "go",
+      "run": "runs/r-66559195d6fa",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "downloads": [
+        {
+          "requested_at": "2026-09-08T14:47:15.776420+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0001",
+          "bytes": 155748,
+          "archive_members": null,
+          "full_csv_rows": 460
+        },
+        {
+          "requested_at": "2026-09-08T14:47:59.291087+00:00",
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0003",
+          "bytes": 390579,
+          "archive_members": null,
+          "full_csv_rows": 1026
+        },
+        {
+          "requested_at": "2026-09-08T14:48:04.737797+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&pCode=00010;00095;00300;00400",
+          "status": 200,
+          "error": null,
+          "file_id": "d0004",
+          "bytes": 1898681,
+          "archive_members": null,
+          "full_csv_rows": 3782
+        }
+      ],
+      "tool_counts": {
+        "download": 3,
+        "query_csv": 13
+      },
+      "actual_model": "gpt-6-astra",
+      "effort": "high",
+      "current_date": "2026-09-08",
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 387.8,
+      "ending_reason": "exited",
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 741055,
+        "cached_input_tokens": 676992,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7983,
+        "reasoning_output_tokens": 1275
+      },
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 216,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 12,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "parse_status": "parsed",
+      "evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+          "locator": "Complete station.csv: 460 records; exact name-prefix and location-type filters retain 17 stations, including USGS-08067252 (Stream: Tidal stream)."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+          "locator": "Complete activity.csv: 1,026 records. Organization/activity keys are unique; all retrieved results link with matching station, date, media and activity type. Contains the five withdrawn activity identifiers reported in final_answer."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&pCode=00010;00095;00300;00400",
+          "locator": "Complete result.csv: 3,782 records. Applying eligibility, status, value-type, detection, qualifier, unit and distinct-value requirements yields 833 complete activities. Selected measurements are located by each reported selected ActivityIdentifier and USGSPCode."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "Legacy WQX2.2 notice; How to Generate Web Services Requests; Table 1 documents station/activity/result endpoints, HUC lists, date filters and parameter-code filters."
+        }
+      ],
+      "limitations": [
+        "Direct task-term and exact-wording searches found no public benchmark answer exposure or ready-made answer table; this does not prove none exists. Legacy-profile documentation and a backup listing were inspected. Official API CSV exports succeeded, so backup or bulk-archive retrieval was unnecessary.",
+        "All 833 complete activities across the fixed 17-station universe were tested independently against every 2000–2019 contiguous interval. Five withdrawals changed the frontier, producing 12 rows. Separate SQL calculations matched the frontier designs, seasonal counts and selected minima.",
+        "Results describe the requested legacy WQX2.2 state retrieved on 2026-09-08. No retrieval gaps or unresolved scope decisions remained; blank depths were preserved as unknown."
+      ],
+      "raw_final_answer_path": "runs/r-66559195d6fa/answer.txt",
+      "sql_calls": [
+        {
+          "started_at": "2026-09-08T14:47:47.013783+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0001"
+            },
+            "sql": "SELECT OrganizationIdentifier, MonitoringLocationIdentifier, MonitoringLocationName, MonitoringLocationTypeName, HUCEightDigitCode FROM s WHERE OrganizationIdentifier='USGS-TX' AND substr(MonitoringLocationName,1,11)='Trinity Rv ' AND MonitoringLocationTypeName IN ('Stream','Stream: Tidal stream') ORDER BY MonitoringLocationIdentifier",
+            "limit": 100
+          },
+          "result_file_id": "d0002",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:01.283005+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0004"
+            },
+            "sql": "SELECT USGSPCode, \"ResultMeasure/MeasureUnitCode\" AS unit, ResultStatusIdentifier, ResultValueTypeName, ResultDetectionConditionText, MeasureQualifierCode, count(*) AS n FROM r GROUP BY 1,2,3,4,5,6 ORDER BY 1,2,3",
+            "limit": 150
+          },
+          "result_file_id": "d0005",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:01.382361+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0004",
+              "a": "d0003"
+            },
+            "sql": "SELECT 'unmatched_or_mismatch' AS issue, count(*) AS n FROM r LEFT JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier WHERE a.ActivityIdentifier IS NULL OR r.MonitoringLocationIdentifier<>a.MonitoringLocationIdentifier OR r.ActivityStartDate<>a.ActivityStartDate OR r.ActivityTypeCode<>a.ActivityTypeCode OR r.ActivityMediaName<>a.ActivityMediaName UNION ALL SELECT 'duplicate_activity_key',count(*) FROM (SELECT OrganizationIdentifier,ActivityIdentifier,count(*) n FROM a GROUP BY 1,2 HAVING count(*)>1)",
+            "limit": 10
+          },
+          "result_file_id": "d0006",
+          "rows_returned_by_query": 2,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:23.849828+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0003",
+              "r": "d0004"
+            },
+            "sql": "SELECT a.OrganizationIdentifier AS org, a.ActivityIdentifier AS id, a.MonitoringLocationIdentifier AS station, a.ActivityStartDate AS date, a.\"ActivityStartTime/Time\" AS time, a.\"ActivityDepthHeightMeasure/MeasureValue\" AS depth, a.\"ActivityDepthHeightMeasure/MeasureUnitCode\" AS depth_unit, json_group_array(json_array(r.USGSPCode,r.ResultMeasureValue,r.\"ResultMeasure/MeasureUnitCode\")) AS results FROM a JOIN r ON a.OrganizationIdentifier=r.OrganizationIdentifier AND a.ActivityIdentifier=r.ActivityIdentifier AND a.MonitoringLocationIdentifier=r.MonitoringLocationIdentifier AND a.ActivityStartDate=r.ActivityStartDate WHERE a.OrganizationIdentifier='USGS-TX' AND a.ActivityMediaName='Water' AND a.ActivityTypeCode='Sample-Routine' AND a.ActivityStartDate BETWEEN '2000-01-01' AND '2019-12-31' AND r.ResultStatusIdentifier IN ('Accepted','Final') AND r.ResultValueTypeName='Actual' AND COALESCE(r.ResultDetectionConditionText,'')='' AND COALESCE(r.MeasureQualifierCode,'')='' GROUP BY a.OrganizationIdentifier,a.ActivityIdentifier ORDER BY a.ActivityIdentifier",
+            "limit": 1500
+          },
+          "result_file_id": "d0007",
+          "rows_returned_by_query": 860,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:23.968731+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0003"
+            },
+            "sql": "SELECT ActivityMediaName,ActivityTypeCode,count(*) n FROM a GROUP BY 1,2",
+            "limit": 20
+          },
+          "result_file_id": "d0008",
+          "rows_returned_by_query": 6,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:33.317053+00:00",
+          "arguments": {
+            "tables": {
+              "g": "d0007"
+            },
+            "sql": "SELECT * FROM g ORDER BY id",
+            "limit": 200,
+            "offset": 200
+          },
+          "result_file_id": "d0009",
+          "rows_returned_by_query": 860,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:33.329568+00:00",
+          "arguments": {
+            "tables": {
+              "g": "d0007"
+            },
+            "sql": "SELECT * FROM g ORDER BY id",
+            "limit": 200,
+            "offset": 0
+          },
+          "result_file_id": "d0010",
+          "rows_returned_by_query": 860,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:33.339142+00:00",
+          "arguments": {
+            "tables": {
+              "g": "d0007"
+            },
+            "sql": "SELECT * FROM g ORDER BY id",
+            "limit": 200,
+            "offset": 400
+          },
+          "result_file_id": "d0011",
+          "rows_returned_by_query": 860,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:33.348254+00:00",
+          "arguments": {
+            "tables": {
+              "g": "d0007"
+            },
+            "sql": "SELECT * FROM g ORDER BY id",
+            "limit": 200,
+            "offset": 600
+          },
+          "result_file_id": "d0012",
+          "rows_returned_by_query": 860,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:49:33.357685+00:00",
+          "arguments": {
+            "tables": {
+              "g": "d0007"
+            },
+            "sql": "SELECT * FROM g ORDER BY id",
+            "limit": 200,
+            "offset": 800
+          },
+          "result_file_id": "d0013",
+          "rows_returned_by_query": 860,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:51:30.792902+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0003",
+              "r": "d0004"
+            },
+            "sql": "WITH usable AS (\nSELECT r.OrganizationIdentifier org,r.ActivityIdentifier id,a.MonitoringLocationIdentifier station,a.ActivityStartDate date,a.\"ActivityStartTime/Time\" time,r.USGSPCode code,CAST(r.ResultMeasureValue AS REAL) value\nFROM r JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier AND r.MonitoringLocationIdentifier=a.MonitoringLocationIdentifier AND r.ActivityStartDate=a.ActivityStartDate\nWHERE a.ActivityMediaName='Water' AND a.ActivityTypeCode='Sample-Routine' AND r.ResultStatusIdentifier IN ('Accepted','Final') AND r.ResultValueTypeName='Actual' AND r.ResultDetectionConditionText='' AND r.MeasureQualifierCode='' AND ((r.USGSPCode='00010' AND r.\"ResultMeasure/MeasureUnitCode\"='deg C') OR (r.USGSPCode='00095' AND r.\"ResultMeasure/MeasureUnitCode\"='uS/cm @25C') OR (r.USGSPCode='00300' AND r.\"ResultMeasure/MeasureUnitCode\"='mg/l') OR (r.USGSPCode='00400' AND r.\"ResultMeasure/MeasureUnitCode\"='std units'))\n), p AS (SELECT org,id,station,date,time,code,MIN(value) value,COUNT(DISTINCT value) n FROM usable GROUP BY org,id,code)\nSELECT org,id,station,date,time,CAST(substr(date,1,4) AS INTEGER) year, (CAST(substr(date,6,2) AS INTEGER)+2)/3 quarter,\nMAX(CASE WHEN code='00300' THEN value END) oxygen,MAX(CASE WHEN code='00010' THEN value END) temperature,MAX(CASE WHEN code='00095' THEN value END) conductance,MAX(CASE WHEN code='00400' THEN value END) ph\nFROM p GROUP BY org,id HAVING count(*)=4 AND max(n)=1 ORDER BY id",
+            "limit": 1
+          },
+          "result_file_id": "d0014",
+          "rows_returned_by_query": 833,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:51:30.912621+00:00",
+          "arguments": {
+            "tables": {
+              "c": "d0014"
+            },
+            "sql": "WITH RECURSIVE yy(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM yy WHERE y<2019),\nintervals AS (SELECT a.y start,b.y end,b.y-a.y+1 duration FROM yy a JOIN yy b ON b.y>=a.y),\nq AS (SELECT station,year,quarter,COUNT(*) n FROM c GROUP BY station,year,quarter),\nsy AS (SELECT station,year FROM q GROUP BY station,year HAVING count(*)=4),\ntrials AS (SELECT 'ORIGINAL' id,'' station,0 year UNION ALL SELECT c.id,c.station,c.year FROM c JOIN q ON c.station=q.station AND c.year=q.year AND c.quarter=q.quarter JOIN sy ON c.station=sy.station AND c.year=sy.year WHERE q.n=1),\nmembers AS (SELECT t.id,i.start,i.end,i.duration,sy.station FROM trials t CROSS JOIN intervals i JOIN sy ON CAST(sy.year AS INTEGER) BETWEEN i.start AND i.end AND NOT(t.station=sy.station AND t.year=sy.year) GROUP BY t.id,i.start,i.end,sy.station HAVING count(*)=i.duration),\ndesigns AS (SELECT id,start,end,duration,count(*) coverage,group_concat(station,';') cohort FROM (SELECT * FROM members ORDER BY id,start,end,station) GROUP BY id,start,end HAVING count(*)>=2),\nfrontier AS (SELECT d.* FROM designs d WHERE NOT EXISTS(SELECT 1 FROM designs x WHERE x.id=d.id AND x.duration>=d.duration AND x.coverage>=d.coverage AND (x.duration>d.duration OR x.coverage>d.coverage))),\nchanged AS (SELECT DISTINCT t.id FROM trials t WHERE t.id<>'ORIGINAL' AND (\nEXISTS(SELECT start,end,cohort FROM frontier WHERE id=t.id EXCEPT SELECT start,end,cohort FROM frontier WHERE id='ORIGINAL') OR\nEXISTS(SELECT start,end,cohort FROM frontier WHERE id='ORIGINAL' EXCEPT SELECT start,end,cohort FROM frontier WHERE id=t.id)))\nSELECT f.* FROM frontier f JOIN changed ch ON ch.id=f.id ORDER BY f.id,f.start,f.end",
+            "limit": 100
+          },
+          "result_file_id": "d0015",
+          "rows_returned_by_query": 12,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T14:51:47.772936+00:00",
+          "arguments": {
+            "tables": {
+              "f": "d0015",
+              "c": "d0014"
+            },
+            "sql": "WITH ranked AS (\nSELECT f.id withdrawn,f.start,f.end,c.id selected,c.station,c.date,c.time,c.oxygen,c.temperature,c.conductance,c.ph,\ncount(*) OVER(PARTITION BY f.id,f.start,f.end) n,\nrow_number() OVER(PARTITION BY f.id,f.start,f.end ORDER BY CAST(c.oxygen AS REAL),c.date,CASE WHEN c.time='' THEN 1 ELSE 0 END,c.time,c.station COLLATE BINARY,c.id COLLATE BINARY) rn\nFROM f JOIN c w ON f.id=w.id JOIN c ON c.org=w.org AND c.id<>w.id AND CAST(c.year AS INTEGER) BETWEEN CAST(f.start AS INTEGER) AND CAST(f.end AS INTEGER) AND c.quarter=w.quarter AND instr(';'||f.cohort||';',';'||c.station||';')>0\n) SELECT withdrawn,start,end,selected,station,date,oxygen,temperature,conductance,ph,n FROM ranked WHERE rn=1 ORDER BY withdrawn,CAST(start AS INTEGER),CAST(end AS INTEGER)",
+            "limit": 100
+          },
+          "result_file_id": "d0016",
+          "rows_returned_by_query": 12,
+          "error": null
+        }
+      ],
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-6-astra",
+        "effort": "high",
+        "raw_tool_records": 30,
+        "tool_calls": {
+          "exec": 12,
+          "wait": 3
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      }
+    }
+  ],
+  "independence": "Each received only the public task/date/output format plus the appropriate stage prompt and solver result schema in a new isolated Docker/Codex context. Probe/config/history details remain per-run. No fork/resume or host bind mounts.",
+  "correctness_scope": "Scores measure exact declared output semantics against independently recomputed source gold; same-model agreement alone does not establish source truth.",
+  "status_fields": "Runtime completion event, exit status, self-reported status, answer parsing and metrics are separate. HTTP errors remain recorded; complete transport with HTTP500 is not valid source data."
+}

@@ -1,0 +1,367 @@
+{
+  "candidates": [
+    {
+      "name": "A CERT European Organization for Certification S.A.",
+      "chile_rows": [
+        {
+          "code": "CL-BIO-171",
+          "categories": {
+            "A": "x°",
+            "B": "x°",
+            "C": "x",
+            "D": "x°",
+            "E": "x",
+            "F": "—",
+            "G": "x°"
+          }
+        }
+      ],
+      "inclusion": "Has newly inserted Chile recognition"
+    },
+    {
+      "name": "ACT Organic Company Limited",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "Agricert – Certificação de Produtos Alimentares Lda",
+      "chile_rows": [
+        {
+          "code": "CL-BIO-172",
+          "categories": {
+            "A": "x°",
+            "B": "—",
+            "C": "—",
+            "D": "x°",
+            "E": "—",
+            "F": "—",
+            "G": "—"
+          }
+        }
+      ],
+      "inclusion": "Has newly inserted Chile recognition"
+    },
+    {
+      "name": "Balkan Biocert Macedonia DOOEL Skopje",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "Beijing Continental Hengtong Certification Co., Ltd",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "CERTIFICADORA BIOTROPICO S.A.S.",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "COMPANY OF ORGANIC AGRICULTURE IN PALESTINE",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "Ecovivendi d.o.o. Belgrade",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "ETKO EKOLOJİK TARIM KONTROL ORGANİZASYONU LİMİTED ŞİRKETİ",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "IBD Certificações Ltda",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "LACON QUALITY CERTIFICATION PRIVATE LIMITED",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "Metrocert S.C.",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "Oregon Tilth, Inc",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    },
+    {
+      "name": "Organizacion Internacional Agropecuaria S.A.",
+      "chile_rows": [
+        {
+          "code": "CL-BIO-110",
+          "categories": {
+            "A": "x°",
+            "B": "—",
+            "C": "—",
+            "D": "x°",
+            "E": "—",
+            "F": "—",
+            "G": "x°"
+          }
+        }
+      ],
+      "inclusion": "Has newly inserted Chile recognition"
+    },
+    {
+      "name": "Organska Kontrola d.o.o. Sarajevo",
+      "chile_rows": [],
+      "inclusion": "New entry has no Chile row"
+    }
+  ],
+  "country_equivalence_headings": [
+    "ARGENTINA",
+    "AUSTRALIA",
+    "CANADA",
+    "COSTA RICA",
+    "ISRAEL",
+    "INDIA",
+    "JAPAN",
+    "REPUBLIC OF KOREA",
+    "NEW ZEALAND",
+    "TUNISIA",
+    "UNITED STATES"
+  ],
+  "lot_decisions": [
+    {
+      "lot": "L1",
+      "tariff_scope": false,
+      "ingredient_origin_qualifies": true,
+      "agreement_covered": false,
+      "decisions": [
+        {
+          "code": "CL-BIO-171",
+          "cell": "x°",
+          "eligible": true,
+          "reason": "scope available"
+        },
+        {
+          "code": "CL-BIO-172",
+          "cell": "x°",
+          "eligible": true,
+          "reason": "scope available"
+        },
+        {
+          "code": "CL-BIO-110",
+          "cell": "x°",
+          "eligible": true,
+          "reason": "scope available"
+        }
+      ]
+    },
+    {
+      "lot": "L2",
+      "tariff_scope": true,
+      "ingredient_origin_qualifies": true,
+      "agreement_covered": true,
+      "decisions": [
+        {
+          "code": "CL-BIO-171",
+          "cell": "x°",
+          "eligible": false,
+          "reason": "equivalence exception"
+        },
+        {
+          "code": "CL-BIO-172",
+          "cell": "x°",
+          "eligible": false,
+          "reason": "equivalence exception"
+        },
+        {
+          "code": "CL-BIO-110",
+          "cell": "x°",
+          "eligible": false,
+          "reason": "equivalence exception"
+        }
+      ]
+    },
+    {
+      "lot": "L3",
+      "tariff_scope": false,
+      "ingredient_origin_qualifies": true,
+      "agreement_covered": false,
+      "decisions": [
+        {
+          "code": "CL-BIO-171",
+          "cell": "x°",
+          "eligible": true,
+          "reason": "scope available"
+        },
+        {
+          "code": "CL-BIO-172",
+          "cell": "—",
+          "eligible": false,
+          "reason": "category absent"
+        },
+        {
+          "code": "CL-BIO-110",
+          "cell": "x°",
+          "eligible": true,
+          "reason": "scope available"
+        }
+      ]
+    },
+    {
+      "lot": "L4",
+      "tariff_scope": false,
+      "ingredient_origin_qualifies": true,
+      "agreement_covered": false,
+      "decisions": [
+        {
+          "code": "CL-BIO-171",
+          "cell": "x°",
+          "eligible": true,
+          "reason": "scope available"
+        },
+        {
+          "code": "CL-BIO-172",
+          "cell": "—",
+          "eligible": false,
+          "reason": "category absent"
+        },
+        {
+          "code": "CL-BIO-110",
+          "cell": "x°",
+          "eligible": true,
+          "reason": "scope available"
+        }
+      ]
+    },
+    {
+      "lot": "L5",
+      "tariff_scope": true,
+      "ingredient_origin_qualifies": true,
+      "agreement_covered": true,
+      "decisions": [
+        {
+          "code": "CL-BIO-171",
+          "cell": "x°",
+          "eligible": false,
+          "reason": "equivalence exception"
+        },
+        {
+          "code": "CL-BIO-172",
+          "cell": "—",
+          "eligible": false,
+          "reason": "category absent"
+        },
+        {
+          "code": "CL-BIO-110",
+          "cell": "x°",
+          "eligible": false,
+          "reason": "equivalence exception"
+        }
+      ]
+    },
+    {
+      "lot": "L6",
+      "tariff_scope": true,
+      "ingredient_origin_qualifies": true,
+      "agreement_covered": true,
+      "decisions": [
+        {
+          "code": "CL-BIO-171",
+          "cell": "x°",
+          "eligible": false,
+          "reason": "equivalence exception"
+        },
+        {
+          "code": "CL-BIO-172",
+          "cell": "x°",
+          "eligible": false,
+          "reason": "equivalence exception"
+        },
+        {
+          "code": "CL-BIO-110",
+          "cell": "x°",
+          "eligible": false,
+          "reason": "equivalence exception"
+        }
+      ]
+    },
+    {
+      "lot": "L7",
+      "tariff_scope": true,
+      "ingredient_origin_qualifies": false,
+      "agreement_covered": false,
+      "decisions": [
+        {
+          "code": "CL-BIO-171",
+          "cell": "x°",
+          "eligible": true,
+          "reason": "scope available"
+        },
+        {
+          "code": "CL-BIO-172",
+          "cell": "x°",
+          "eligible": true,
+          "reason": "scope available"
+        },
+        {
+          "code": "CL-BIO-110",
+          "cell": "x°",
+          "eligible": true,
+          "reason": "scope available"
+        }
+      ]
+    },
+    {
+      "lot": "L8",
+      "tariff_scope": false,
+      "ingredient_origin_qualifies": true,
+      "agreement_covered": false,
+      "decisions": [
+        {
+          "code": "CL-BIO-171",
+          "cell": "x",
+          "eligible": true,
+          "reason": "scope available"
+        },
+        {
+          "code": "CL-BIO-172",
+          "cell": "—",
+          "eligible": false,
+          "reason": "category absent"
+        },
+        {
+          "code": "CL-BIO-110",
+          "cell": "—",
+          "eligible": false,
+          "reason": "category absent"
+        }
+      ]
+    },
+    {
+      "lot": "L9",
+      "tariff_scope": true,
+      "ingredient_origin_qualifies": true,
+      "agreement_covered": true,
+      "decisions": [
+        {
+          "code": "CL-BIO-171",
+          "cell": "—",
+          "eligible": false,
+          "reason": "category absent"
+        },
+        {
+          "code": "CL-BIO-172",
+          "cell": "—",
+          "eligible": false,
+          "reason": "category absent"
+        },
+        {
+          "code": "CL-BIO-110",
+          "cell": "—",
+          "eligible": false,
+          "reason": "category absent"
+        }
+      ]
+    }
+  ]
+}

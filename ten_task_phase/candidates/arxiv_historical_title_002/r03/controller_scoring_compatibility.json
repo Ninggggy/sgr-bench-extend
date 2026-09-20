@@ -1,0 +1,121 @@
+{
+  "at": "2026-09-10T10:42:42.691850+00:00",
+  "oracle_roundtrip_counts": {
+    "correct_fields": 126,
+    "gold_fields": 126,
+    "pred_fields": 126,
+    "item_denominator": 252,
+    "correct_rows": 21,
+    "gold_rows": 21,
+    "pred_rows": 21,
+    "row_denominator": 42,
+    "correct_pairs": 210,
+    "pair_denominator": 210,
+    "shared_ids": 21
+  },
+  "new_alias_checks": [
+    {
+      "field": "source_last_submission_utc",
+      "alias": "2022-02-04T02:01:30+00:00",
+      "target": "2022-02-04T02:01:30Z",
+      "matches": true
+    },
+    {
+      "field": "source_last_submission_utc",
+      "alias": "2022-02-04 02:01:30Z",
+      "target": "2022-02-04T02:01:30Z",
+      "matches": true
+    },
+    {
+      "field": "source_last_submission_utc",
+      "alias": "2022-02-04 02:01:30 UTC",
+      "target": "2022-02-04T02:01:30Z",
+      "matches": true
+    },
+    {
+      "field": "source_last_submission_utc",
+      "alias": "2022-02-04T02:01:30 UTC",
+      "target": "2022-02-04T02:01:30Z",
+      "matches": true
+    },
+    {
+      "field": "source_last_submission_utc",
+      "alias": "2021-09-29T10:58:20+00:00",
+      "target": "2021-09-29T10:58:20Z",
+      "matches": true
+    },
+    {
+      "field": "source_last_submission_utc",
+      "alias": "2021-09-29 10:58:20Z",
+      "target": "2021-09-29T10:58:20Z",
+      "matches": true
+    },
+    {
+      "field": "source_last_submission_utc",
+      "alias": "2021-09-29 10:58:20 UTC",
+      "target": "2021-09-29T10:58:20Z",
+      "matches": true
+    },
+    {
+      "field": "source_last_submission_utc",
+      "alias": "2021-09-29T10:58:20 UTC",
+      "target": "2021-09-29T10:58:20Z",
+      "matches": true
+    },
+    {
+      "field": "target_version",
+      "alias": "v14",
+      "target": "14",
+      "matches": true
+    },
+    {
+      "field": "target_submission_utc",
+      "alias": "2022-01-13T06:27:17+00:00",
+      "target": "2022-01-13T06:27:17Z",
+      "matches": true
+    },
+    {
+      "field": "target_submission_utc",
+      "alias": "2022-01-13 06:27:17Z",
+      "target": "2022-01-13T06:27:17Z",
+      "matches": true
+    },
+    {
+      "field": "target_submission_utc",
+      "alias": "2022-01-13 06:27:17 UTC",
+      "target": "2022-01-13T06:27:17Z",
+      "matches": true
+    },
+    {
+      "field": "target_submission_utc",
+      "alias": "2022-01-13T06:27:17 UTC",
+      "target": "2022-01-13T06:27:17Z",
+      "matches": true
+    },
+    {
+      "field": "target_submission_utc",
+      "alias": "2021-08-21T02:47:59+00:00",
+      "target": "2021-08-21T02:47:59Z",
+      "matches": true
+    },
+    {
+      "field": "target_submission_utc",
+      "alias": "2021-08-21 02:47:59Z",
+      "target": "2021-08-21T02:47:59Z",
+      "matches": true
+    },
+    {
+      "field": "target_submission_utc",
+      "alias": "2021-08-21 02:47:59 UTC",
+      "target": "2021-08-21T02:47:59Z",
+      "matches": true
+    },
+    {
+      "field": "target_submission_utc",
+      "alias": "2021-08-21T02:47:59 UTC",
+      "target": "2021-08-21T02:47:59Z",
+      "matches": true
+    }
+  ],
+  "public_equal_r02": true
+}

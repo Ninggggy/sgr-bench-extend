@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-17T04:12:40.941735+00:00",
+  "registered_trials": 4,
+  "completed_trials": 4,
+  "models_and_efforts_verified": 4,
+  "docker_private_read_probes_passed": 4,
+  "active_batch_containers": 0,
+  "all_12_draft_pairs_present": true,
+  "evidence_paths_exist": true,
+  "old_campaigns_and_history_not_overwritten": true,
+  "shared_scorer_not_modified": true,
+  "global_methodology_and_skills_not_modified": true,
+  "formal_admission_rounds": 0
+}

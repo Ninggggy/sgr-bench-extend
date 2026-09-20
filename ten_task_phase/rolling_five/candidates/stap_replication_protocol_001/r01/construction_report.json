@@ -1,0 +1,40 @@
+{
+  "candidate_id": "stap_replication_protocol_001",
+  "revision": 1,
+  "status": "reference_ready",
+  "standard_admitted": false,
+  "designated_admitted": false,
+  "reference_completeness": {
+    "constructor_reviewed_records": 49,
+    "included_studies": 3,
+    "excluded_records": 46,
+    "main_texts": 16,
+    "abstractless_records_reviewed": 7,
+    "schema_prepare_pair_rebuild_scorer_checks": "passed",
+    "independent_scientific_review": "not_yet_certified"
+  },
+  "sgr": {
+    "observed_mechanism": "original article PMID/source -> reverse citation/OA scope -> discovered PMCID main article evidence",
+    "complete_core_insufficient_witnesses": [
+      "Niwa ATP/FGF2, rare markers and failed stable lines",
+      "Aizawa explicitly unperformed functional assays"
+    ],
+    "universal_shortcut_resistance": "not_certified"
+  },
+  "difficulty": {
+    "status": "not_run",
+    "hypothesis": "Own-study attribution, transient-vs-chronic, markers-vs-function, negative-vs-unperformed boundaries may matter. Overall STAP failure and explicit conclusions may make task easy.",
+    "Sol_below_70_claimed": false
+  },
+  "human_validation": "not_performed",
+  "model_tests": 0,
+  "runtime_date": "2026-09-09",
+  "source_date_utc": "2026-09-13",
+  "ready_at_utc": "2026-09-13T06:38:38.933723+00:00",
+  "cost_path": "development_cost_summary.json",
+  "pending": [
+    "Independent A-preflight scientific/pair review",
+    "All authorized later development/attack/quality/formal stages, managed by controller",
+    "Actual human review"
+  ]
+}

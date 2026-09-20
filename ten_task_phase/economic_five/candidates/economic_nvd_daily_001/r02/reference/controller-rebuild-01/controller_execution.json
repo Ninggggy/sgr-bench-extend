@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/Users/ning/.local/bin/python3",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/candidates/economic_nvd_daily_001/r02/reference/solve_reference.py",
+    "--stage",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/candidates/economic_nvd_daily_001/r02",
+    "--out",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/candidates/economic_nvd_daily_001/r02/reference/controller-rebuild-01"
+  ],
+  "returncode": 0,
+  "stdout": "{\"cves\":64,\"ledger_rows\":622,\"occurrences\":622,\"oracle_rows\":228,\"unique_uuid\":381,\"unknown\":0}\n",
+  "stderr": "",
+  "checks": {
+    "candidate_universe.jsonl": true,
+    "reference/normalized_occurrences.jsonl": true,
+    "inclusion_ledger.jsonl": true,
+    "field_evidence.jsonl": true,
+    "reference/counterfactuals.json": true,
+    "reference/run_summary.json": true,
+    "reference/oracle.psv": true
+  },
+  "passed": true
+}

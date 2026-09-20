@@ -1,0 +1,21 @@
+# 当前配置入口
+
+[协议](protocol.md) · [配置](campaign.json) · [状态](state.json) · [盲测提示](blind.md) · [获取规则](retrieval_policy.md)
+
+历史目录不再作为新试次的配置来源，不修改历史成绩或按新规则重判。此目录继承同一轮用量，不是追加额度。当前仅配置同步，无新试次。
+
+执行用runtime/run.py，指定本目录campaign.json、session_ledger.jsonl和blind.md，使用public_web配置。输入/参考/评分/CG/GO试次必须先按项目登记；不能直接使用旧题重跑。审查提示为audit.md，模型固定Astra/medium。执行前使用runtime/check_current_repairs.py检查当前配置；该检查不调用模型或外部资源。
+
+后续已登记试次的命令格式（占位参数须替换成已登记的新版本文件；这不是启动指令）：
+
+```sh
+python3 construction_pipeline/ten_task_phase/runtime/run.py \
+  --campaign construction_pipeline/ten_task_phase/revised12_20260917/targeted_repairs_20260917/current_20260919/campaign.json \
+  --ledger construction_pipeline/ten_task_phase/revised12_20260917/targeted_repairs_20260917/current_20260919/session_ledger.jsonl \
+  --stage construction_pipeline/ten_task_phase/revised12_20260917/targeted_repairs_20260917/current_20260919/blind.md \
+  --public <registered-public.json> --gold <registered-oracle.psv> \
+  --rules <registered-rules.json> --job-metadata <registered-job.json> \
+  --out <new-run-directory> --role blind --purpose development
+```
+
+运行器自动按campaign选择public_web，无须从旧webonly目录复制配置；显式配置若不一致会报错。上述接口配置已离线检查，尚未进行在线试跑。盲测不需要浏览器插件，不将缺少插件作为待办或阻塞。

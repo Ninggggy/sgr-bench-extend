@@ -1,0 +1,38 @@
+[
+  {
+    "p": 1,
+    "text": "The discovery that somatic mammalian cells can be epigenetically reprogrammed to induced pluripotent stem cells (iPSCs) through the exogenous expression of the Oct4, Sox2, Klf4 and c-Myc (OSKM) has demonstrated a new way for cell-replacement therapy in regenerative medicine (Li et al., 2013; Nishimura and Takahashi, 2013; Takahashi and Yamanaka, 2013). This novel technology has opened new therapeutic opportunities to generate stem cells in any tissue for cell replacement therapy in a number of disorders (Yamanaka, 2012; Li et al., 2013; Nishimura and Takahashi, 2013; Takahashi and Yamanaka, 2013). Just last week, two papers published in Nature, describing a surprisingly simple method to turn mature cells into embryonic-like stem cells by culturing cells in a low pH medium (Obokata et al., 2014a, 2014b). This method by Obokata and colleagues is truly the simplest, cheapest, and fastest method ever achieved for reprogramming somatic cells into multipotent stem cells."
+  },
+  {
+    "p": 2,
+    "text": "Stem cells have the remarkable potential to develop into many different cell types, essentially without limit to replenish other cells as long as the person or animal is still alive. Thus, stem cell research holds the possible cure for many of the maladies that cripple, blind, and disable a significant portion of our population. Until recently, scientists primarily worked with two kinds of stem cells from animals and humans: non-embryonic “somatic” or “adult” stem cells and embryonic stem cells (ESCs)."
+  },
+  {
+    "p": 3,
+    "text": "Scientists have found adult stem cells in many tissues or organs playing roles in maintaining and repairing the tissue in which they are found. Typically, the number of “adult” stem cells in each tissue is very small, and once removed from the body, their capacity to divide is limited, making generation of large quantities of stem cells difficult. Currently, blood stem cells are the only type of adult stem cells that are used regularly for treatment; they have been used since the late 1960s in the procedure now commonly known as bone marrow transplant."
+  },
+  {
+    "p": 4,
+    "text": "ESCs are pluripotent stem cells derived from the inner cell mass of the blastocyst (Figure 1a). The scientists first discovered ways to isolate and culture ESCs from early mouse embryos in 1981, nearly 30 years ago (Evans and Kaufman, 1981). They developed a method in 1998 to derive stem cells from frozen human embryos that are no longer needed for in vitro fertilization (Thomson et al., 1998). ESCs are pluripotent. They are able to differentiate into all cell types of an individual. ESC has potentially unlimited capacity for self-renewal, thus if scientists can reliably direct the differentiation of ESCs into specific cell types, they may be able to use the resulting, differentiated cells to treat certain diseases in the future. Although ESCs are promising donor sources in cell transplantation therapies, they face an ethical issue regarding the destruction of human embryos."
+  },
+  {
+    "p": 5,
+    "text": "Technologies to generate pluripotent stem cells."
+  },
+  {
+    "p": 6,
+    "text": "To circumvent this limitation, an existing laboratory technique was revived for creating ablastula with the transfer of a donor nucleus to a denucleated egg (Gurdon, 1962; McGrath and Solter, 1983), laterally called somatic cell nuclear transfer (SCNT; Figure 1b). This technique is the basis for cloning animals (such as the famous Dolly the sheep) (Campbell et al., 1996) and in theory could be used to clone humans. One concern is that blastula creation in SCNT-based human stem cell research will lead to the reproductive cloning of humans. A second important concern is the need of appropriate source of eggs that are needed. Thus, the impetus for SCNT-based stem cell research has been decreased by the development and improvement of alternative methods of generating stem cells."
+  },
+  {
+    "p": 7,
+    "text": "Dr. Shinya Yamanaka, Nobel prize laureate, announced in June 2006 that he made a breakthrough by identifying conditions that would allow some specialized adult cells to be “reprogrammed” genetically to assume a stem cell-like state, called (iPSC; Figure 1c). They initially reprogrammed mouse skin cells into iPSCs by inserting just four functioning genes (OSKM) into the cells (Takahashi and Yamanaka, 2006). The development of iPSCs from individual skin cells has opened up a new world of research. This embryo-free technique has been proven to be a powerful way to generate cell lines from a patient's own tissues (Takahashi et al., 2007; Yamanaka, 2012). Furthermore, the iPSCs have been directed to make cardiomyocytes, several kinds of neurons, liver cells, hematopoietic stem cells, and so on, for possible cell replacement therapy (Robinton and Daley, 2012). Cell reprogramming technology provides a novel approach to derive iPSCs directly from a patient's somatic cells without embryo involvement. Thus, this novel approach overcomes ethical concerns."
+  },
+  {
+    "p": 8,
+    "text": "Although cell reprogramming is very attractive because of its potential for future cell replacement therapy, several potential challenges need to be overcome before any possible applications can be made. The retroviral system is still one of the most effective approaches by far to mediate the expression of OSKM for producing iPSCs from somatic cells. Unfortunately, most experiments with retrovirus involve integration into the host cell genome with an identified risk for insertional mutagenesis and oncogenic transformation (Sanes et al., 1986). To circumvent such risks, which are deemed incompatible with therapeutic prospects, significant progress has been made with no chromosome integration method or even virus-free reprogramming methods. Life technologies Corporation (USA) has developed a CytoTune® reprogramming vector based on Sendai virus. Unlike other vectors, this viral vector does not integrate into the host genome or alter the genetic information of the host cell (Fusaki et al., 2009; Seki et al., 2010; Ban et al., 2011). Virus-free methods such as direct mRNA, microRNA, or protein delivery have been developed to achieve conversion of adult cells into iPSCs."
+  },
+  {
+    "p": 9,
+    "text": "The novel approach developed by Obokata et al is surprisingly simple. When a dozen of cell types, including those from brain, skin, lung, and liver were exposed to stress, including low pH, about 20% of the cells that survived from stress reprogrammed to multipotent stem cells without introduction of any exogenous genes. Obokata called the phenomena stimulus-triggered acquisition of pluripotency (STAP; Figure 1d). This is an amazing technique that may allow creating cells with pluripotency from patients without destruction of an embryo or introduction of exogenous genes. If successful, it would open a new era in stem cell biology and research in tumorigenesis. However, scientists need to replicate this exciting result and fully understand the mechanism underlying STAP cells before their full potential is realized and applied in medicine."
+  }
+]

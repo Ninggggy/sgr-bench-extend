@@ -1,0 +1,170 @@
+{
+  "states": [
+    {
+      "id": "group_default",
+      "requests": [
+        "GET https://www.kegg.jp/entry/DG01659",
+        "GET https://www.kegg.jp/entry/DG01568"
+      ],
+      "sources": [
+        "d0088",
+        "d0089"
+      ],
+      "observed": "Member tables contain .mem1{display:none;} and nested leaf D links in the saved HTML. This is response/CSS inspection, not a claimed browser click or rendered screenshot.",
+      "locators": [
+        {
+          "id": "DG01659",
+          "api_count": 20,
+          "html_count": 20,
+          "equal": true,
+          "member_start_char": 5537,
+          "member_end_char": 11851,
+          "hidden_css": true
+        },
+        {
+          "id": "DG01568",
+          "api_count": 40,
+          "html_count": 40,
+          "equal": true,
+          "member_start_char": 5466,
+          "member_end_char": 18711,
+          "hidden_css": true
+        }
+      ]
+    },
+    {
+      "id": "complete_members",
+      "requests": [
+        "GET https://rest.kegg.jp/get/DG01659+DG01568"
+      ],
+      "sources": [
+        "d0041",
+        "d0190"
+      ],
+      "observed": "Two terminated flat-file records expose all 20 and 40 D leaves. Group/branch DG IDs are not ingredients."
+    },
+    {
+      "id": "set_interactions",
+      "requests": [
+        "https://rest.kegg.jp/ddi/D06367+D00326+D00823+D07704+D00822+D07705+D02362+D02260+D05374+D05375+D02360+D00825+D02787+D07984+D00824+D04105+D07913+D02567+D03649+D05491+D03731+D00785+D08469+D02562+D10829+D10158+D10191+D04681+D01097+D03733+D05033+D02580+D07337+D08349+D00505+D08625+D00826+D02579+D08085+D07338+D08453+D02564+D00346+D01501+D02002+D09773+D01888+D03239+D03409+D04092+D02561+D02559+D05039+D05040+D08392+D08393+D02560+D02563+D02581+D03248"
+      ],
+      "sources": [
+        "d0044",
+        "d0189"
+      ],
+      "observed": "Result-derived 60-entry request returns 1,072 directed rows. Exact joining yields 296 cross-group pairs, while 240 within-group pairs are excluded."
+    },
+    {
+      "id": "single_endpoint_check",
+      "request_template": "GET https://rest.kegg.jp/ddi/{ssri_id}",
+      "sources": [
+        "d0048",
+        "d0049",
+        "d0050",
+        "d0051",
+        "d0052",
+        "d0053",
+        "d0054",
+        "d0055",
+        "d0056",
+        "d0057",
+        "d0058",
+        "d0059",
+        "d0060",
+        "d0061",
+        "d0062",
+        "d0063",
+        "d0064",
+        "d0065",
+        "d0066",
+        "d0067"
+      ],
+      "observed": "All 20 requests succeeded, but their cross-group union has only 282 pairs; 14 positive set-query pairs are absent."
+    },
+    {
+      "id": "both_endpoint_check",
+      "request_template": "GET https://rest.kegg.jp/ddi/{mao_id}",
+      "sources": [
+        "d0095",
+        "d0096",
+        "d0097",
+        "d0098",
+        "d0099",
+        "d0100",
+        "d0101",
+        "d0102",
+        "d0103",
+        "d0104",
+        "d0105",
+        "d0106",
+        "d0107",
+        "d0108",
+        "d0109",
+        "d0110",
+        "d0111",
+        "d0112",
+        "d0113",
+        "d0114",
+        "d0115",
+        "d0116",
+        "d0117",
+        "d0118",
+        "d0119",
+        "d0120",
+        "d0121",
+        "d0122",
+        "d0123",
+        "d0124",
+        "d0125",
+        "d0126",
+        "d0127",
+        "d0128",
+        "d0129",
+        "d0130",
+        "d0131",
+        "d0132",
+        "d0133",
+        "d0134"
+      ],
+      "observed": "Union of all 60 endpoint responses matches all 296 batch pairs and classes; set differences both zero."
+    },
+    {
+      "id": "boundary_check",
+      "sources": [
+        "d0176",
+        "d0177",
+        "d0179",
+        "d0181"
+      ],
+      "observed": "Fresh small sets verify a one-sided gap, both CI,P values, distinct paroxetine identities and within-group P. Optional no-hit two-ID request d0181 returned 404 and is not treated as negative evidence."
+    }
+  ],
+  "edges": [
+    {
+      "from": "group_default",
+      "to": "complete_members",
+      "dependency": "Nested leaf identities must be obtained, whether via expansion, complete HTML parsing, or equivalent API."
+    },
+    {
+      "from": "complete_members",
+      "to": "set_interactions",
+      "dependency": "The exact leaf results supply all subsequent DDI identifiers; no hardcoded ingredient list is used by the reference program."
+    },
+    {
+      "from": "set_interactions",
+      "to": "single_endpoint_check",
+      "dependency": "A distinct request scope checks the result-derived coverage."
+    },
+    {
+      "from": "single_endpoint_check",
+      "to": "both_endpoint_check",
+      "dependency": "The observed 14-row discrepancy requires the other endpoints; a documented all-interactions description is not used to override raw observations."
+    },
+    {
+      "from": "both_endpoint_check",
+      "to": "boundary_check",
+      "dependency": "Specific discrepancies and class/identity boundaries choose fresh small requests."
+    }
+  ],
+  "interpretation": "Equivalent API and bulk solutions remain permitted. No fixed clicking path, JP filter, top-k, or historical replay prerequisite is imposed."
+}

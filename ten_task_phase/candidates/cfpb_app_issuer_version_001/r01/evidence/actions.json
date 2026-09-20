@@ -1,0 +1,14 @@
+{
+  "preservation": "Attributed, non-contiguous verbatim fragments from actual native-web responses. These are excerpts, not complete downloaded HTML or reconstructed snapshots. Full responses remain in the session rollout.",
+  "read_interval_utc": ["2026-09-10T03:55:16Z", "2026-09-10T04:00:20Z"],
+  "records": [
+    {"id":"a01","url":"https://www.consumerfinance.gov/enforcement/actions/novad-management-consulting-llc/","locations":"Heading and opening paragraph","quotes":{"title":"NOVAD Management Consulting, LLC","date":"June 18, 2024","description":"loan-servicing operation that serviced home equity conversion mortgages, or reverse mortgage loans"}},
+    {"id":"a02","url":"https://www.consumerfinance.gov/enforcement/actions/sutherland-global-services-inc/","locations":"Heading and opening paragraph","quotes":{"title":"Sutherland Global Services, Inc., Sutherland Mortgage Services, Inc., and Sutherland Government Solutions, Inc.","date":"June 18, 2024","description":"reverse mortgage loans"}},
+    {"id":"a03","url":"https://www.consumerfinance.gov/enforcement/actions/pennsylvania-higher-education-assistance-agency-pheaa-dba-american-education-services-or-aes/","locations":"Opening paragraph","quotes":{"title":"Pennsylvania Higher Education Assistance Agency (PHEAA)","date":"May 31, 2024","description":"a student loan servicer and guaranty agency"}},
+    {"id":"a04","url":"https://www.consumerfinance.gov/enforcement/actions/western-benefits-group-llc/","locations":"Heading and opening paragraph","quotes":{"title":"Western Benefits Group, LLC","date":"May 20, 2024","description":"a telemarketer and seller of student-loan debt-relief services"}},
+    {"id":"a05","url":"https://www.consumerfinance.gov/enforcement/actions/solo-funds/","locations":"Heading and opening paragraph","quotes":{"title":"SoLo Funds, Inc.","date":"May 17, 2024","description":"a fintech company that operates a nationwide website and mobile-application based peer-to-peer lending platform"}},
+    {"id":"a06","url":"https://www.consumerfinance.gov/enforcement/actions/chime-financial-inc/","locations":"Heading and opening paragraph","quotes":{"title":"Chime Financial, Inc.","date":"May 7, 2024","description":"a financial-technology company that designed and services consumer banking accounts"}},
+    {"id":"a07","url":"https://www.consumerfinance.gov/enforcement/actions/pennsylvania-higher-education-assistance-agency-and-national-collegiate-student-loan-trusts/","locations":"Heading and opening paragraph","quotes":{"title":"Pennsylvania Higher Education Assistance Agency, and National Collegiate Student Loan Trusts","date":"May 6, 2024","description":"PHEAA is a student loan servicer"}},
+    {"id":"a08","url":"https://www.consumerfinance.gov/enforcement/actions/bloomtech-inc-and-austen-allred/","locations":"Opening paragraph","quotes":{"title":"BloomTech, Inc.","date":"April 17, 2024","description":"a for-profit vocational school"}}
+  ]
+}

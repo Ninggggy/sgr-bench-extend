@@ -1,0 +1,29 @@
+{
+  "status": "deterministic_explicit",
+  "columns": ["ARXIV_ID", "VERSION", "THEOREM", "QUERY_MODEL", "GAP_FORM", "ITERATES"],
+  "row_key": ["ARXIV_ID"],
+  "fields": {
+    "ARXIV_ID": {"type": "string"},
+    "VERSION": {"type": "string"},
+    "THEOREM": {"type": "string", "aliases": {"Theorem 2.1 (1)": "Theorem 2.1(1)", "Theorem 2.1, part 1": "Theorem 2.1(1)"}},
+    "QUERY_MODEL": {"type": "string"},
+    "GAP_FORM": {"type": "string"},
+    "ITERATES": {"type": "string", "aliases": {"z_0..z_{N-1}": "z_0..z_(N-1)", "x_0..x_{T-1}": "x_0..x_(T-1)", "x_1..x_{T}": "x_1..x_T"}}
+  },
+  "output_definition": {
+    "rows": "Every distinct cited work; no claim-based exclusion",
+    "order": "First citation occurrence in the complete bullet after established identity deduplication",
+    "ties": "Retain all distinct works, including equal claims",
+    "query_categories": {
+      "SAMPLE_FUNCTION": "Declared sampled-loss model with same-sample finite differences",
+      "EXACT_FUNCTION": "Fixed-function values; random directions do not imply sampled-loss noise"
+    },
+    "gap_categories": {
+      "EXPECTED_UNIFORM_GAP": "Expectation of the paper's gap at a uniformly selected iterate in ITERATES",
+      "EXPECTED_MIN_GAP": "Expectation outside the minimum over the paper's gaps in ITERATES"
+    },
+    "iterate_range": "Inclusive endpoints in the source iterate variable; preserve the gap-to-iterate index shift",
+    "missing": "UNKNOWN in unresolved non-key cells; retain row; unresolved identities use CITE_n without inferred merging",
+    "NONE": "Never used"
+  }
+}

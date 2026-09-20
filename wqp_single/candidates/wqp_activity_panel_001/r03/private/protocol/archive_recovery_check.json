@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-09-08T12:52:12.521595+00:00",
+  "status": "passed",
+  "actual_tmpfs_read_only_container_recovery": true,
+  "original_file_content_equal": true,
+  "auth_used": false,
+  "model_session_started": false,
+  "tool_or_budget_change": false,
+  "old_run_archive_limitation": "Previous missing files cannot be restored; do not substitute refetches."
+}

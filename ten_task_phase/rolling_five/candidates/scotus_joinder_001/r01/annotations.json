@@ -1,0 +1,68 @@
+{
+  "annotation_method": "Source-supported reading of official attribution and author headings. Groups contain named joiners and scopes, not final numeric answers. Quotes are checked after the documented extraction normalization.",
+  "scope_convention": "ALL represents an unrestricted roster throughout the lead writing. Otherwise the units partition every substantive scope distinguished in the formal attribution; subdivisions inherit the enclosing scope. Syllabus divisions and separately authored writings are not units.",
+  "cases": [
+    {
+      "docket": "21-1271",
+      "source": "moore",
+      "table": {"r": 50, "name": "Moore v. Harper", "author_code": "R", "citation": "600 U.S. 1"},
+      "author": "Roberts",
+      "identity_title": "MOORE v. HARPER",
+      "units": ["ALL"],
+      "groups": [{"parts": ["ALL"], "joiners": ["Sotomayor", "Kagan", "Kavanaugh", "Barrett", "Jackson"]}],
+      "anchors": {
+        "formal": {"page": 6, "quote": "Roberts, C. J., delivered the opinion of the Court, in which Sotomayor, Kagan, Kavanaugh, Barrett, and Jackson, JJ., joined."},
+        "lead": {"page": 7, "quote": "Chief Justice Roberts delivered the opinion of the Court."},
+        "separate": {"page": 38, "quote": "Justice Kavanaugh, concurring."},
+        "confirmation": {"page": 38, "quote": "I join the Court's opinion in full."},
+        "next": {"page": 40, "quote": "Justice Thomas, with whom Justice Gorsuch joins, and with whom Justice Alito joins as to Part I, dissenting."}
+      },
+      "relations": [
+        {"owner": "Kavanaugh", "open": "separate", "statement": "confirmation", "close": "next", "effect": "confirm", "parts": ["ALL"]}
+      ]
+    },
+    {
+      "docket": "22-138",
+      "source": "counterman",
+      "table": {"r": 51, "name": "Counterman v. Colorado", "author_code": "EK", "citation": "600 U.S. 66"},
+      "author": "Kagan",
+      "identity_title": "COUNTERMAN v. COLORADO",
+      "units": ["ALL"],
+      "groups": [{"parts": ["ALL"], "joiners": ["Roberts", "Alito", "Kavanaugh", "Jackson"]}],
+      "anchors": {
+        "formal": {"page": 68, "quote": "Kagan, J., delivered the opinion of the Court, in which Roberts, C. J., and Alito, Kavanaugh, and Jackson, JJ., joined."},
+        "lead": {"page": 69, "quote": "Justice Kagan delivered the opinion of the Court."},
+        "separate": {"page": 83, "quote": "Justice Sotomayor, with whom Justice Gorsuch joins as to Parts I, II, III-A, and III-B, concurring in part and concurring in the judgment."},
+        "conclusion": {"page": 84, "quote": "I join the Court's conclusion that some subjective mens rea is required in true-threats cases."},
+        "next": {"page": 105, "quote": "Justice Thomas, dissenting."}
+      },
+      "relations": [
+        {"owner": "Sotomayor", "open": "separate", "statement": "separate", "close": "next", "effect": "separate_only", "excluded_from_lead": ["Sotomayor", "Gorsuch"], "reading": "Gorsuch joins specified parts of Sotomayor's separate opinion; these part labels do not refer to Kagan's writing."},
+        {"owner": "Sotomayor", "open": "separate", "statement": "conclusion", "close": "next", "effect": "conclusion_only", "excluded_from_lead": ["Sotomayor"], "reading": "Joining the Court's conclusion is not an express joinder in a part of the lead opinion."}
+      ]
+    },
+    {
+      "docket": "21-1168",
+      "source": "mallory",
+      "table": {"r": 52, "name": "Mallory v. Norfolk Southern R. Co", "author_code": "NG", "citation": "600 U.S. 122"},
+      "author": "Gorsuch",
+      "identity_title": "MALLORY v. NORFOLK SOUTHERN RAILWAY CO.",
+      "units": ["I", "II", "III-A", "III-B", "IV"],
+      "groups": [
+        {"parts": ["I", "III-B"], "joiners": ["Thomas", "Alito", "Sotomayor", "Jackson"]},
+        {"parts": ["II", "III-A", "IV"], "joiners": ["Thomas", "Sotomayor", "Jackson"]}
+      ],
+      "anchors": {
+        "formal": {"page": 123, "quote": "Gorsuch, J., announced the judgment of the Court, delivered the opinion of the Court with respect to Parts I and III-B, in which Thomas, Alito, Sotomayor, and Jackson, JJ., joined, and an opinion with respect to Parts II, III-A, and IV, in which Thomas, Sotomayor, and Jackson, JJ., joined."},
+        "lead": {"page": 125, "quote": "Justice Gorsuch announced the judgment of the Court and delivered the opinion of the Court with respect to Parts I and III-B, and an opinion with respect to Parts II, III-A, and IV, in which Justice Thomas, Justice Sotomayor, and Justice Jackson join."},
+        "separate": {"page": 147, "quote": "Justice Jackson, concurring."},
+        "alito": {"page": 150, "quote": "Justice Alito, concurring in part and concurring in the judgment."},
+        "confirmation": {"page": 163, "quote": "I join the Court's opinion as stated in Parts I and III-B"},
+        "next": {"page": 163, "quote": "Justice Barrett, with whom The Chief Justice, Justice Kagan, and Justice Kavanaugh join, dissenting."}
+      },
+      "relations": [
+        {"owner": "Alito", "open": "alito", "statement": "confirmation", "close": "next", "effect": "confirm", "parts": ["I", "III-B"], "reading": "The declaration belongs to Alito despite the next opinion's running header on the same page. It confirms joinder only in I and III-B."}
+      ]
+    }
+  ]
+}

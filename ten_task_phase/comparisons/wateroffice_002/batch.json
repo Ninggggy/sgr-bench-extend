@@ -1,0 +1,64 @@
+{
+  "campaign": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/campaign.json",
+  "ledger": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/session_ledger.jsonl",
+  "role": "blind",
+  "purpose": "comparison",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "jobs": [
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-2ce6c7d8cdc9",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/r-2ce6c7d8cdc9.job.json",
+      "label": "old-wateroffice_002-cg-1"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-8a12e57411f7",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/GO.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/r-8a12e57411f7.job.json",
+      "label": "old-wateroffice_002-go-1"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-7c1136ab22b6",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/r-7c1136ab22b6.job.json",
+      "label": "old-wateroffice_002-cg-2"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-2eca622e3268",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/GO.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/r-2eca622e3268.job.json",
+      "label": "old-wateroffice_002-go-2"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-f9400c7cb7cb",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/r-f9400c7cb7cb.job.json",
+      "label": "old-wateroffice_002-cg-3"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-9f6aeb170c80",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/GO.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/wateroffice_002/r-9f6aeb170c80.job.json",
+      "label": "old-wateroffice_002-go-3"
+    }
+  ]
+}

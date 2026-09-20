@@ -1,0 +1,19 @@
+{
+  "candidate_id":"europemc_republication_title_001",
+  "revision":"r01",
+  "time_anchor":"2026-09-09",
+  "observation_date":"2026-09-10",
+  "scope":"PLOS ONE records indexed as Published Erratum, notice publication June 2015",
+  "inventory_count":164,
+  "unique_notice_dois":164,
+  "republication_notices":18,
+  "qualifying_notices":3,
+  "answer_cells":12,
+  "eligibility":"Notice explicitly announces republication to correct the research article title",
+  "legal_access":"Official OA XML and supplementary archives; publicly readable bibliographic corroboration. Publisher permits mining. No restricted download accessed.",
+  "stability_evidence":["2015 dated correction notices label original and corrected article versions","Both first-page versions share the research DOI, checked by controller and reference assertions","Controller visually confirmed six positive pages","Old-title catalogue corroboration remains publicly readable; EPA reports last update 2026-01-23"],
+  "stability_limits":["No claim that index membership is immutable","Actual retrieval followed the information cutoff by one day","IRIS catalogue title does not determine its attachment version","Whole PLOS XML corpus not inspected for incidental historical references"],
+  "source116":"Recovered metadata164/XML164/PDF26; invocation still active/reconnecting in last supplied evidence; final completion/model verification unknown",
+  "construction_files_are_blind_materials":false,
+  "disposition":"ready_for_one_A_pair_only"
+}

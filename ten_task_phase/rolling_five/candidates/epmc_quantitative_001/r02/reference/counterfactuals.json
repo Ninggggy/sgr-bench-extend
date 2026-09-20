@@ -1,0 +1,19 @@
+{
+  "execution": "Actually computed in constructor JavaScript from freshly read, normalized source text; offline Python recomputation pending.",
+  "row_key": ["PMC12953261", "10.1007/s00406-025-01990-5"],
+  "cases": [
+    {"name":"initial_cohort_as_analysis","field":"analyzed_n","correct":581,"wrong":730,"delta":149,"source":"original Par12","changes_output":true},
+    {"name":"admissions_as_prior_help","field":"help_n","correct":271,"wrong":109,"delta":-162,"source":"positive_notice Par4","changes_output":true,"historical_replay":false},
+    {"name":"retain_superseded_group_count","field":"nondepressed_n","correct":491,"wrong":481,"delta":-10,"source":"positive_notice Par4","changes_output":true,"historical_replay":false},
+    {"name":"notice_only","source":"complete positive notice text, 19884 rendered characters","corrected_counts_visible":true,"initial_cohort_anchor_visible":false,"completed_baseline_assessment_inclusion_anchor_visible":false,"effect":"Cannot establish initial_n and the complete analysis_population field from this source alone."},
+    {"name":"actual_complete_issue_batch","provenance":"Controller-preserved actual 24-fulltext recovery supplied in continuation","all_required_sources_covered":true,"effect":"No oracle change; bypasses notice-to-original-specific request while retaining annual issue-membership/PMCID-to-fulltext dependency.","refetched_by_constructor":false}
+  ],
+  "independent_numeric_checks": {
+    "corrected_table_nondepressed":491,
+    "corrected_table_depressed":90,
+    "programmatic_table_sum":581,
+    "original_direct_analysis_total":581,
+    "table_sum_equals_direct_total":true,
+    "notice_group_count_equals_table_header":true
+  }
+}

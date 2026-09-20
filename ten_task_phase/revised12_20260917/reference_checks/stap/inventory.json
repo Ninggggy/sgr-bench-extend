@@ -1,0 +1,296 @@
+[
+  {
+    "pmid": "40503367",
+    "pmcid": "PMC12149799",
+    "included": false,
+    "reason": "Review of retinal pigment epithelium therapeutics; the abstract states that it reviews molecular processes and transplantation progress, with no own STAP induction experiment."
+  },
+  {
+    "pmid": "40217002",
+    "pmcid": "PMC12185309",
+    "included": false,
+    "reason": "Bibliometric study of retracted authors using Retraction Watch, Microsoft Academic Graph and Altmetric; its subjects are publishing careers, not acid-treated cells."
+  },
+  {
+    "pmid": "33433463",
+    "pmcid": "PMC8323703",
+    "included": false,
+    "reason": "Review of cell therapy for spinal cord injury; the abstract explicitly describes a review of relevant cell types, not an own transient-acid experiment."
+  },
+  {
+    "pmid": "32894201",
+    "pmcid": "PMC7487873",
+    "included": false,
+    "reason": "Perspective/review proposing double sperm cloning; its described reprogramming route is sperm injection into denucleated oocytes, not low-pH somatic-cell induction."
+  },
+  {
+    "pmid": "30705711",
+    "pmcid": "PMC6354101",
+    "included": false,
+    "reason": "Discusses adult pluripotency and recounts the original STAP study as a cited report; does not report its own transient-acid induction experiment."
+  },
+  {
+    "pmid": "29291747",
+    "pmcid": "PMC5749007",
+    "included": false,
+    "reason": "Review of the clinical/ethical limitations of stem-cell therapies, explicitly analyzing ethics and politics, not performing acid induction."
+  },
+  {
+    "pmid": "28428163",
+    "pmcid": "PMC5418527",
+    "included": false,
+    "reason": "Own data are tweets and public sentiment following the STAP scandal; not own cell experiments."
+  },
+  {
+    "pmid": "28246071",
+    "pmcid": "PMC5350454",
+    "included": false,
+    "reason": "Own data are Twitter and newspaper content about misconduct; not own cell experiments."
+  },
+  {
+    "pmid": "28123930",
+    "pmcid": "PMC5220388",
+    "included": false,
+    "reason": "Discussion of irreproducibility; paragraph 11 treats STAP failures as external published examples."
+  },
+  {
+    "pmid": "27302093",
+    "pmcid": "PMC4908587",
+    "included": false,
+    "reason": "Own chronic mildly acidic tumor-environment experiments, including pH 6.5 culture for seven days. Not transient low-pH STAP induction; OCT4 observations do not change this exclusion."
+  },
+  {
+    "pmid": "27292224",
+    "pmcid": "PMC4904271",
+    "included": true,
+    "reason": "Own experimental replication investigation using transient HCl and ATP treatments; included irrespective of the negative overall conclusion."
+  },
+  {
+    "pmid": "27385103",
+    "pmcid": "PMC4941052",
+    "included": false,
+    "reason": "RNA-seq chromosomal-aberration/allelic-bias method using gene-expression profiles; not own transient-acid reprogramming."
+  },
+  {
+    "pmid": "27610221",
+    "pmcid": "PMC4995676",
+    "included": true,
+    "reason": "Reports the supervised experiment performed by Obokata and the examination team; included as this publication's own experiment, distinct from the cited Niwa investigation."
+  },
+  {
+    "pmid": "26539021",
+    "pmcid": "PMC4630493",
+    "included": false,
+    "reason": "Letter about figures, image manipulation and scientific communication; STAP is among cited examples, not an experiment performed here."
+  },
+  {
+    "pmid": "26074753",
+    "pmcid": "PMC4444765",
+    "included": false,
+    "reason": "Survey of peer-review mechanisms in 82 scientific-communication channels; not cell induction."
+  },
+  {
+    "pmid": "26559758",
+    "pmcid": "PMC4641509",
+    "included": false,
+    "reason": "Commentary on improving peer review; paragraph 5 recounts post-publication STAP criticism and retraction."
+  },
+  {
+    "pmid": "26177855",
+    "pmcid": "PMC4567024",
+    "included": false,
+    "reason": "Proposes a chemotherapy strategy protecting normal cells; no own transient low-pH pluripotency study in its described research scope."
+  },
+  {
+    "pmid": "26064951",
+    "pmcid": "PMC4430655",
+    "included": false,
+    "reason": "Own metformin exposure of stromal cells and fibroblasts; drug effects on viability and IGF2, not acid-based STAP induction."
+  },
+  {
+    "pmid": "26594336",
+    "pmcid": "PMC4648225",
+    "included": false,
+    "reason": "Commentary on pressure to publish; no own cellular reprogramming experiment."
+  },
+  {
+    "pmid": "25472549",
+    "pmcid": "PMC4255744",
+    "included": false,
+    "reason": "Ontology and text-mining evaluation of biomedical protocols. Paragraph 78 invokes STAP as a cited reproducibility example, not a protocol the authors experimentally repeat."
+  },
+  {
+    "pmid": "25243705",
+    "pmcid": "PMC4231238",
+    "included": false,
+    "reason": "Retrospective computational reanalysis of STAP RNA-seq SNP allele frequencies; does not produce new acid-treated cells."
+  },
+  {
+    "pmid": "24974102",
+    "pmcid": "PMC4225048",
+    "included": false,
+    "reason": "Patient-centered ethical risk-benefit analysis of iPSC clinical research; no own low-pH induction experiment."
+  },
+  {
+    "pmid": "26417315",
+    "pmcid": "PMC4464452",
+    "included": false,
+    "reason": "HCV infection mechanisms and associated models; stem-like cells arise in the context of viral infection, not transient low-pH STAP experiments."
+  },
+  {
+    "pmid": "25447808",
+    "pmcid": "PMC4726664",
+    "included": false,
+    "reason": "Pathophysiology synthesis of ocular surface squamous neoplasia and UV/HIV/HPV mechanisms; not own STAP induction."
+  },
+  {
+    "pmid": "25763379",
+    "pmcid": "PMC4352683",
+    "included": false,
+    "reason": "Review of cardiac reprogramming strategies and clinical challenges; no own acid-treatment replication study."
+  },
+  {
+    "pmid": "25364739",
+    "pmcid": "PMC4207037",
+    "included": false,
+    "reason": "Conceptual discussion of stress and pluripotency. STAP evidence and failed attempts are explicitly attributed to other reports/labs."
+  },
+  {
+    "pmid": "24940477",
+    "pmcid": "PMC4041046",
+    "included": false,
+    "reason": "Explicit review of Muse cells and their reported isolation under severe stress; no own transient-acid STAP replication."
+  },
+  {
+    "pmid": "24860566",
+    "pmcid": "PMC4029000",
+    "included": false,
+    "reason": "Review of iPSC-derived cells for cancer immunotherapy; not own acid-induced somatic-cell pluripotency."
+  },
+  {
+    "pmid": "24852251",
+    "pmcid": "PMC4086070",
+    "included": false,
+    "reason": "StemCellNet network-analysis web-server and molecular-interaction resource; not own cell-reprogramming experiment."
+  },
+  {
+    "pmid": "24830454",
+    "pmcid": "PMC4102810",
+    "included": false,
+    "reason": "Own Xenopus oncogene and ion-channel experiments testing distant resting-voltage control of tumorigenesis; acidity is a tumor characteristic, not the induction being tested."
+  },
+  {
+    "pmid": "24759906",
+    "pmcid": "PMC3997360",
+    "included": false,
+    "reason": "Own qPCR observational analysis of blood samples from healthy/hypertensive people; measures transcriptional networks, not low-pH induction."
+  },
+  {
+    "pmid": "24628920",
+    "pmcid": "PMC3995523",
+    "included": false,
+    "reason": "Own characterization of vascular smooth-muscle cell lines with serum deprivation, adipogenic induction and Notch blockade; not low-pH STAP replication."
+  },
+  {
+    "pmid": "24671607",
+    "pmcid": "PMC4169589",
+    "included": false,
+    "reason": "Own rat depression model with ethanol/corticosterone exposure and neural-stem-cell treatment; no transient-acid pluripotency induction."
+  },
+  {
+    "pmid": "24649403",
+    "pmcid": "PMC3958738",
+    "included": false,
+    "reason": "Own study of growth factors/pathways maintaining established marmoset embryonic stem cells; not induction from acid-treated somatic cells."
+  },
+  {
+    "pmid": "25157428",
+    "pmcid": "PMC4097842",
+    "included": false,
+    "reason": "Explicit review of ethical issues in stem-cell research and therapy; no own STAP experiment."
+  },
+  {
+    "pmid": "24984077",
+    "pmcid": "PMC4080539",
+    "included": false,
+    "reason": "News report about reproducibility initiatives. Paragraph 3 reports other scientists' acid-bath failures; these are not this article's experiments."
+  },
+  {
+    "pmid": "25078608",
+    "pmcid": "PMC4117590",
+    "included": false,
+    "reason": "Own AICAR treatment and miRNA profiling in established J1 embryonic stem cells; the low-pH result is prior literature, not the intervention tested."
+  },
+  {
+    "pmid": "24895014",
+    "pmcid": "PMC4162847",
+    "included": false,
+    "reason": "Own kainic-acid neurotoxicity model examining mobilization/expansion of pre-existing VSELs. Kainic acid is a neurotoxin here, not a low-pH bath inducing STAP pluripotency."
+  },
+  {
+    "pmid": "25031174",
+    "pmcid": "PMC4207917",
+    "included": false,
+    "reason": "Perspective recounting the original CD45/acid experiment in paragraph 6 and calling for further studies; no own repetition."
+  },
+  {
+    "pmid": "24638034",
+    "pmcid": "PMC4042166",
+    "included": false,
+    "reason": "Own chemical-cocktail plus hypoxia conversion to neural progenitors, not transient low-pH pluripotency induction."
+  },
+  {
+    "pmid": "24832604",
+    "pmcid": "PMC4047905",
+    "included": false,
+    "reason": "Review/discussion of routes and mechanisms of induced pluripotency, reporting other studies; not own STAP induction."
+  },
+  {
+    "pmid": "25075303",
+    "pmcid": "PMC4032108",
+    "included": true,
+    "reason": "Own HCl treatment of CD45-sorted neonatal splenocytes and lung fibroblasts to replicate the early induction stage; functional pluripotency testing is not required for eligibility."
+  },
+  {
+    "pmid": "25002192",
+    "pmcid": "PMC4053948",
+    "included": false,
+    "reason": "Despite mixed research-article/Review metadata, the abstract and body discuss others' published reprogramming findings. The STAP paragraph is explicitly about another study."
+  },
+  {
+    "pmid": "25206856",
+    "pmcid": "PMC4146237",
+    "included": false,
+    "reason": "Commentary summarizing the original Nature claims and explicitly calling for replication; no own acid-bath experiment."
+  },
+  {
+    "pmid": "24782779",
+    "pmcid": "PMC3986550",
+    "included": false,
+    "reason": "Explicit review of molecular and cell therapies for muscle degeneration; no own STAP replication."
+  },
+  {
+    "pmid": "24736840",
+    "pmcid": "PMC4003273",
+    "included": false,
+    "reason": "Comment on Saccone and colleagues' muscle-plasticity study; pH reprogramming is cited as an external unconfirmed finding."
+  },
+  {
+    "pmid": "24686321",
+    "pmcid": "PMC4065176",
+    "included": false,
+    "reason": "Summarizes the authors' prior glioblastoma reprogramming with exogenous OCT4/KLF4. The experimental route is transcription factors, not low-pH STAP induction."
+  },
+  {
+    "pmid": "24724061",
+    "pmcid": "PMC3974965",
+    "included": false,
+    "reason": "Explicit review of disease modelling and iPSC therapy; no own acid induction."
+  },
+  {
+    "pmid": "24675390",
+    "pmcid": "PMC4012730",
+    "included": false,
+    "reason": "Own six-month low-dose arsenic stress causing cancer-stem-cell traits; not transient low-pH STAP induction."
+  }
+]

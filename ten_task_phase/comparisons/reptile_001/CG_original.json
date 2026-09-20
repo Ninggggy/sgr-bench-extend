@@ -1,0 +1,61 @@
+{
+  "task_id": "reptile_001",
+  "domain": "REPTILE_DATABASE",
+  "autonomy_type": "ordered table",
+  "oracle_output_cardinality": 8,
+  "instruction": "I am compiling a name concordance for early museum specimens of Indian snakes recorded in George A. Boulenger's 1890 work *The Fauna of British India, Including Ceylon and Burma*. Proceed as follows: first, using this specimen set as the scope, look up each corresponding current species page in the Reptile Database and retain only entries that simultaneously satisfy the following conditions: the species has since been reassigned to a different genus; the page still retains BMNH type specimen information; and the type locality still corresponds to India. For each qualifying entry, identify from the names listed on that page the oldest binomial that is closest to the present but has not yet been updated to the current genus name. Then, search again using this full old name and determine whether the search result points to only this single record. Finally, output the results as a single line sorted alphabetically by current accepted name, in the format <accepted name>|<old label>|<UNIQUE/AMBIG>|<BMNH status>; separate entries with semicolons. If no qualifying entries exist, output NONE.",
+  "start_url": "https://reptile-database.reptarium.cz/advanced_search",
+  "output_format": "Output the results as a single line sorted alphabetically by current accepted name, in the format <accepted name>|<old label>|<UNIQUE/AMBIG>|<BMNH status>; separate entries with semicolons. If no qualifying entries exist, output NONE.",
+  "oracle_answer": "Argyrophis oatesii|Typhlops oatesii|UNIQUE|SYNTYPES;Dendrelaphis grandoculis|Ahaetulla grandoculis|UNIQUE|LECTOTYPE;Fowlea sanctijohannis|Xenochrophis sanctijohannis|UNIQUE|HOLOTYPE;Gerrhopilus beddomii|Typhlops beddomii|UNIQUE|SYNTYPES;Hebius khasiensis|Amphiesma khasiense|UNIQUE|LECTOTYPE;Hebius parallelus|Amphiesma parallelum|AMBIG|LECTOTYPE;Indotyphlops jerdoni|Typhlops jerdoni|UNIQUE|SYNTYPES;Myriopholis blanfordii|Leptotyphlops blanfordi|AMBIG|SYNTYPES",
+  "metadata": {
+    "State-Gated Retrieval": [
+      "Candidates must come from the historical museum entries of Indian snakes in Boulenger 1890 *Fauna of British India*.",
+      "The current Reptile Database species page must simultaneously satisfy: the species has been reassigned to a different genus; the page still retains BMNH type specimen information; the type locality still corresponds to India.",
+      "On each qualifying page, select the oldest binomial that is closest to the present but has not yet been updated to the current genus name, then perform an exact back-search using this old name and label it UNIQUE or AMBIG."
+    ],
+    "dependency_type": "Data + Control",
+    "intra_chain": true,
+    "inter_chain": true,
+    "data_dependency": [
+      "the Boulenger 1890 historical sample and current accepted-species pages yield candidates that changed genus while retaining BMNH type data and India-compatible type locality",
+      "each accepted page yields the nearest pre-current-genus old label, the BMNH type status, and the historical/type-locality evidence anchoring the entity",
+      "final rows are produced only after the old-label exact back-search is evaluated for uniqueness without losing the original entity anchor"
+    ],
+    "control_dependency": [
+      "when an exact old-label back-search now hits multiple species, the original anchored entity must be kept and the uniqueness label must be set to AMBIG",
+      "once a candidate has passed the historical-cluster, genus-shift, BMNH, and India-locality gates, later old-label ambiguity can only rewrite the uniqueness field, not the entity itself",
+      "candidate anchoring must be preserved across the two-stage workflow so that old-label search noise does not redirect the accepted-species row"
+    ],
+    "freeze": {
+      "historical_window": "the George A. Boulenger 1890 British India sample, evaluated against current Reptile Database accepted pages, synonym labels, BMNH type data, and present type-locality text"
+    },
+    "answer_type": "multi-row ordered table"
+  },
+  "rubric": {
+    "inclusion_conditions": [
+      "Candidates must come from the historical museum entries of Indian snakes in Boulenger 1890 *Fauna of British India*.",
+      "The current Reptile Database species page must simultaneously satisfy: the species has been reassigned to a different genus; the page still retains BMNH type specimen information; the type locality still corresponds to India.",
+      "On each qualifying page, select the oldest binomial that is closest to the present but has not yet been updated to the current genus name, then perform an exact back-search using this old name and label it UNIQUE or AMBIG."
+    ],
+    "exclusion_conditions": [
+      "Exclude entries where the current accepted name has not undergone a genus change, or where the page no longer retains BMNH type specimen information.",
+      "Exclude entries whose type locality does not correspond to India.",
+      "Do not discard candidates whose exact old-name back-search is non-unique; such candidates should be retained and labeled AMBIG."
+    ],
+    "normalization": {
+      "field_separator": "|",
+      "record_separator": ";",
+      "schema": [
+        "accepted name",
+        "old label",
+        "UNIQUE/AMBIG",
+        "BMNH status"
+      ],
+      "accepted_name": "emit the current accepted binomial exactly as shown in the reconciled source",
+      "old_label": "preserve the historical label exactly as used on the legacy branch",
+      "UNIQUE/AMBIG": "emit `UNIQUE` or `AMBIG` in uppercase",
+      "BMNH_status": "normalize the type-status field to uppercase labels such as HOLOTYPE, LECTOTYPE, or SYNTYPES",
+      "sorting_or_selection": "accepted name alphabetical ascending"
+    }
+  }
+}

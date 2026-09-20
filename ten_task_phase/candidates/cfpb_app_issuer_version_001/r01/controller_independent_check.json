@@ -1,0 +1,6 @@
+{
+  "result": "matched",
+  "rows": 3,
+  "shared_oracle": "oracle.psv",
+  "shared_rules": "rules.json"
+}

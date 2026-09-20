@@ -1,0 +1,11 @@
+{
+  "decision": "do_not_admit_or_retest",
+  "content": "pass",
+  "sgr": "pass",
+  "semantic_alignment": "pass",
+  "substantive_errors_cg": "inconclusive",
+  "substantive_errors_go": "inconclusive",
+  "reason": "All wrong runs lacked successful indexed-pool retrieval; both ordinary B correct after legal successful route. No threshold retest scheduled.",
+  "actual_audit_run": "../../../runs/r-epmc-reuse-r01-audit-repair",
+  "reference_annotations_limit": "Independent checker confirms selected key facts; semantic negatives additionally assessed by source audit."
+}

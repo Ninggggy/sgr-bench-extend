@@ -1,0 +1,212 @@
+[
+  {
+    "name": "exact",
+    "input": "case | attribute_prepared | initial_prepared | any_prepared | final_prepared | result\nT1 | U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 U+0020 U+0061 U+0020 | U+0020 U+03C5 U+0020 | U+006B U+0020 | U+0061 U+0020 | TRUE\nT2 | U+0020 U+0061 U+0020 U+0301 U+0062 U+0020 U+0020 U+0063 U+0020 | U+0020 U+0061 | U+0020 U+0301 U+0062 | U+0063 U+0020 | TRUE\nT3 | U+0020 U+0066 U+006F U+006F U+0020 U+0020 U+0062 U+0061 U+0072 U+0020 | U+0020 U+0066 U+006F U+006F U+0020 | U+0020 | U+0020 U+0062 U+0061 U+0072 U+0020 | FALSE\nT4 | U+0020 U+0061 U+0020 U+0020 U+006B U+0020 U+0020 U+0062 U+0020 | U+0020 U+0061 U+0020 | U+006B U+0020 | U+0062 U+0020 | TRUE\nT5 | FAIL | U+0020 U+0061 | FAIL | U+0063 U+0020 | UNDEFINED\nT6 | U+0020 U+2136A U+0020 U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 | U+0020 U+2136A U+0020 | U+03C5 U+0020 | U+006B U+0020 | TRUE\n",
+    "expected": [
+      72,
+      72,
+      true,
+      true,
+      true,
+      false
+    ],
+    "actual": [
+      72,
+      72,
+      true,
+      true,
+      true,
+      false
+    ],
+    "passed": true
+  },
+  {
+    "name": "missing",
+    "input": "case | attribute_prepared | initial_prepared | any_prepared | final_prepared | result\nT1 | U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 U+0020 U+0061 U+0020 | U+0020 U+03C5 U+0020 | U+006B U+0020 | U+0061 U+0020 | TRUE\nT2 | U+0020 U+0061 U+0020 U+0301 U+0062 U+0020 U+0020 U+0063 U+0020 | U+0020 U+0061 | U+0020 U+0301 U+0062 | U+0063 U+0020 | TRUE\nT3 | U+0020 U+0066 U+006F U+006F U+0020 U+0020 U+0062 U+0061 U+0072 U+0020 | U+0020 U+0066 U+006F U+006F U+0020 | U+0020 | U+0020 U+0062 U+0061 U+0072 U+0020 | FALSE\nT4 | U+0020 U+0061 U+0020 U+0020 U+006B U+0020 U+0020 U+0062 U+0020 | U+0020 U+0061 U+0020 | U+006B U+0020 | U+0062 U+0020 | TRUE\nT5 | FAIL | U+0020 U+0061 | FAIL | U+0063 U+0020 | UNDEFINED",
+    "expected": [
+      60,
+      66,
+      false,
+      false,
+      true,
+      false
+    ],
+    "actual": [
+      60,
+      66,
+      false,
+      false,
+      true,
+      false
+    ],
+    "passed": true
+  },
+  {
+    "name": "duplicate",
+    "input": "case | attribute_prepared | initial_prepared | any_prepared | final_prepared | result\nT1 | U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 U+0020 U+0061 U+0020 | U+0020 U+03C5 U+0020 | U+006B U+0020 | U+0061 U+0020 | TRUE\nT2 | U+0020 U+0061 U+0020 U+0301 U+0062 U+0020 U+0020 U+0063 U+0020 | U+0020 U+0061 | U+0020 U+0301 U+0062 | U+0063 U+0020 | TRUE\nT3 | U+0020 U+0066 U+006F U+006F U+0020 U+0020 U+0062 U+0061 U+0072 U+0020 | U+0020 U+0066 U+006F U+006F U+0020 | U+0020 | U+0020 U+0062 U+0061 U+0072 U+0020 | FALSE\nT4 | U+0020 U+0061 U+0020 U+0020 U+006B U+0020 U+0020 U+0062 U+0020 | U+0020 U+0061 U+0020 | U+006B U+0020 | U+0062 U+0020 | TRUE\nT5 | FAIL | U+0020 U+0061 | FAIL | U+0063 U+0020 | UNDEFINED\nT6 | U+0020 U+2136A U+0020 U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 | U+0020 U+2136A U+0020 | U+03C5 U+0020 | U+006B U+0020 | TRUE\nT1 | U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 U+0020 U+0061 U+0020 | U+0020 U+03C5 U+0020 | U+006B U+0020 | U+0061 U+0020 | TRUE\n",
+    "expected": [
+      72,
+      78,
+      false,
+      false,
+      true,
+      false
+    ],
+    "actual": [
+      72,
+      78,
+      false,
+      false,
+      true,
+      false
+    ],
+    "passed": true
+  },
+  {
+    "name": "reverse",
+    "input": "case | attribute_prepared | initial_prepared | any_prepared | final_prepared | result\nT6 | U+0020 U+2136A U+0020 U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 | U+0020 U+2136A U+0020 | U+03C5 U+0020 | U+006B U+0020 | TRUE\nT5 | FAIL | U+0020 U+0061 | FAIL | U+0063 U+0020 | UNDEFINED\nT4 | U+0020 U+0061 U+0020 U+0020 U+006B U+0020 U+0020 U+0062 U+0020 | U+0020 U+0061 U+0020 | U+006B U+0020 | U+0062 U+0020 | TRUE\nT3 | U+0020 U+0066 U+006F U+006F U+0020 U+0020 U+0062 U+0061 U+0072 U+0020 | U+0020 U+0066 U+006F U+006F U+0020 | U+0020 | U+0020 U+0062 U+0061 U+0072 U+0020 | FALSE\nT2 | U+0020 U+0061 U+0020 U+0301 U+0062 U+0020 U+0020 U+0063 U+0020 | U+0020 U+0061 | U+0020 U+0301 U+0062 | U+0063 U+0020 | TRUE\nT1 | U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 U+0020 U+0061 U+0020 | U+0020 U+03C5 U+0020 | U+006B U+0020 | U+0061 U+0020 | TRUE",
+    "expected": [
+      72,
+      72,
+      true,
+      false,
+      true,
+      false
+    ],
+    "actual": [
+      72,
+      72,
+      true,
+      false,
+      true,
+      false
+    ],
+    "passed": true
+  },
+  {
+    "name": "prose",
+    "input": "case | attribute_prepared | initial_prepared | any_prepared | final_prepared | result\nT1 | U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 U+0020 U+0061 U+0020 | U+0020 U+03C5 U+0020 | U+006B U+0020 | U+0061 U+0020 | TRUE\nT2 | U+0020 U+0061 U+0020 U+0301 U+0062 U+0020 U+0020 U+0063 U+0020 | U+0020 U+0061 | U+0020 U+0301 U+0062 | U+0063 U+0020 | TRUE\nT3 | U+0020 U+0066 U+006F U+006F U+0020 U+0020 U+0062 U+0061 U+0072 U+0020 | U+0020 U+0066 U+006F U+006F U+0020 | U+0020 | U+0020 U+0062 U+0061 U+0072 U+0020 | FALSE\nT4 | U+0020 U+0061 U+0020 U+0020 U+006B U+0020 U+0020 U+0062 U+0020 | U+0020 U+0061 U+0020 | U+006B U+0020 | U+0062 U+0020 | TRUE\nT5 | FAIL | U+0020 U+0061 | FAIL | U+0063 U+0020 | UNDEFINED\nT6 | U+0020 U+2136A U+0020 U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 | U+0020 U+2136A U+0020 | U+03C5 U+0020 | U+006B U+0020 | TRUE\n```Explanation follows.\n",
+    "expected": [
+      72,
+      72,
+      true,
+      false,
+      true,
+      false
+    ],
+    "actual": [
+      72,
+      72,
+      true,
+      false,
+      true,
+      false
+    ],
+    "passed": true
+  },
+  {
+    "name": "empty",
+    "input": "",
+    "expected": [
+      0,
+      36,
+      false,
+      false,
+      false,
+      null
+    ],
+    "actual": [
+      0,
+      36,
+      false,
+      false,
+      false,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "name": "failed",
+    "input": "Access failed.",
+    "expected": [
+      0,
+      36,
+      false,
+      false,
+      false,
+      null
+    ],
+    "actual": [
+      0,
+      36,
+      false,
+      false,
+      false,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "name": "suffix",
+    "input": "case | attribute_prepared | initial_prepared | any_prepared | final_prepared | result\nT1 | U+0020 U+03C5JUNK U+0020 U+0020 U+006B U+0020 U+0020 U+0061 U+0020 | U+0020 U+03C5 U+0020 | U+006B U+0020 | U+0061 U+0020 | TRUE\nT2 | U+0020 U+0061 U+0020 U+0301 U+0062 U+0020 U+0020 U+0063 U+0020 | U+0020 U+0061 | U+0020 U+0301 U+0062 | U+0063 U+0020 | TRUE\nT3 | U+0020 U+0066 U+006F U+006F U+0020 U+0020 U+0062 U+0061 U+0072 U+0020 | U+0020 U+0066 U+006F U+006F U+0020 | U+0020 | U+0020 U+0062 U+0061 U+0072 U+0020 | FALSE\nT4 | U+0020 U+0061 U+0020 U+0020 U+006B U+0020 U+0020 U+0062 U+0020 | U+0020 U+0061 U+0020 | U+006B U+0020 | U+0062 U+0020 | TRUE\nT5 | FAIL | U+0020 U+0061 | FAIL | U+0063 U+0020 | UNDEFINED\nT6 | U+0020 U+2136A U+0020 U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 | U+0020 U+2136A U+0020 | U+03C5 U+0020 | U+006B U+0020 | TRUE\n",
+    "expected": [
+      70,
+      72,
+      false,
+      false,
+      true,
+      false
+    ],
+    "actual": [
+      70,
+      72,
+      false,
+      false,
+      true,
+      false
+    ],
+    "passed": true
+  },
+  {
+    "name": "blank_failure",
+    "input": "case | attribute_prepared | initial_prepared | any_prepared | final_prepared | result\nT1 | U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 U+0020 U+0061 U+0020 | U+0020 U+03C5 U+0020 | U+006B U+0020 | U+0061 U+0020 | TRUE\nT2 | U+0020 U+0061 U+0020 U+0301 U+0062 U+0020 U+0020 U+0063 U+0020 | U+0020 U+0061 | U+0020 U+0301 U+0062 | U+0063 U+0020 | TRUE\nT3 | U+0020 U+0066 U+006F U+006F U+0020 U+0020 U+0062 U+0061 U+0072 U+0020 | U+0020 U+0066 U+006F U+006F U+0020 | U+0020 | U+0020 U+0062 U+0061 U+0072 U+0020 | FALSE\nT4 | U+0020 U+0061 U+0020 U+0020 U+006B U+0020 U+0020 U+0062 U+0020 | U+0020 U+0061 U+0020 | U+006B U+0020 | U+0062 U+0020 | TRUE\nT5 |  | U+0020 U+0061 | FAIL | U+0063 U+0020 | UNDEFINED\nT6 | U+0020 U+2136A U+0020 U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 | U+0020 U+2136A U+0020 | U+03C5 U+0020 | U+006B U+0020 | TRUE\n",
+    "expected": [
+      70,
+      72,
+      false,
+      false,
+      true,
+      false
+    ],
+    "actual": [
+      70,
+      72,
+      false,
+      false,
+      true,
+      false
+    ],
+    "passed": true
+  },
+  {
+    "name": "aliases",
+    "input": "case | attribute_prepared | initial_prepared | any_prepared | final_prepared | result\nT1 | 0x0020 0x03C5 0x0020 0x0020 0x006B 0x0020 0x0020 0x0061 0x0020 | 0x0020 0x03C5 0x0020 | 0x006B 0x0020 | 0x0061 0x0020 | TRUE\nT2 | 0x0020 0x0061 0x0020 0x0301 0x0062 0x0020 0x0020 0x0063 0x0020 | 0x0020 0x0061 | 0x0020 0x0301 0x0062 | 0x0063 0x0020 | TRUE\nT3 | 0x0020 0x0066 0x006F 0x006F 0x0020 0x0020 0x0062 0x0061 0x0072 0x0020 | 0x0020 0x0066 0x006F 0x006F 0x0020 | 0x0020 | 0x0020 0x0062 0x0061 0x0072 0x0020 | FALSE\nT4 | 0x0020 0x0061 0x0020 0x0020 0x006B 0x0020 0x0020 0x0062 0x0020 | 0x0020 0x0061 0x0020 | 0x006B 0x0020 | 0x0062 0x0020 | TRUE\nT5 | FAILED | 0x0020 0x0061 | FAILED | 0x0063 0x0020 | UNDEFINED\nT6 | 0x0020 0x2136A 0x0020 0x0020 0x03C5 0x0020 0x0020 0x006B 0x0020 | 0x0020 0x2136A 0x0020 | 0x03C5 0x0020 | 0x006B 0x0020 | TRUE\n",
+    "expected": [
+      72,
+      72,
+      true,
+      true,
+      true,
+      false
+    ],
+    "actual": [
+      72,
+      72,
+      true,
+      true,
+      true,
+      false
+    ],
+    "passed": true
+  }
+]

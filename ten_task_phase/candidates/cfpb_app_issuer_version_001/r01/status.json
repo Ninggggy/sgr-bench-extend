@@ -1,0 +1,17 @@
+{
+  "candidate_id": "cfpb_app_issuer_version_001",
+  "revision": "r01",
+  "ecosystem": "CFPB",
+  "construction_family": "respondent_to_dated_account_issuer_agreement",
+  "created_at": "2026-09-10T04:13:42.579017+00:00",
+  "constructor_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-resume-cfpb-bank-complete",
+  "substantive_revisions_used": 0,
+  "status": "rejected_development",
+  "content_validated": false,
+  "admitted": false,
+  "reference_execution": "passed",
+  "independent_key_check": "passed",
+  "difficulty_status": "both_initial_variants_fully_correct",
+  "decision": "CG/GO A each15/15correctfields, Item-F1=1. All raw high scores preserved; no further tests of this version.",
+  "decision_at": "2026-09-10T04:23:27.371389+00:00"
+}

@@ -1,0 +1,2179 @@
+{
+  "scope": "formal JSONL task membership; no glob of historical per-task files",
+  "base_task_count": 50,
+  "variant_count": 100,
+  "domain_counts": {
+    "ARXIV": 4,
+    "CDC_WONDER": 2,
+    "CENSUS_GOV": 4,
+    "CFPB_COMPLAINT_DATABASE": 3,
+    "CFPB_REPORTS": 4,
+    "COMPTOX_CHEMEXPO": 4,
+    "EUROPEPMC_PMC": 5,
+    "KEGG_BRITE": 2,
+    "KEGG_GENOME": 2,
+    "NOAA_NCEI_CLIMATE_AT_A_GLANCE": 2,
+    "NVD": 3,
+    "REPTILE_DATABASE": 5,
+    "WATER_OFFICE": 5,
+    "WATER_QUALITY_PORTAL": 5
+  },
+  "ecosystem_counts": {
+    "ARXIV": 4,
+    "CDC_WONDER": 2,
+    "CENSUS_GOV": 4,
+    "CFPB": 7,
+    "COMPTOX_CHEMEXPO": 4,
+    "EUROPEPMC_PMC": 5,
+    "KEGG": 4,
+    "NOAA_NCEI_CLIMATE_AT_A_GLANCE": 2,
+    "NVD": 3,
+    "REPTILE_DATABASE": 5,
+    "WATER_OFFICE": 5,
+    "WATER_QUALITY_PORTAL": 5
+  },
+  "pair_check_failures": [
+    "genome_003",
+    "genome_004"
+  ],
+  "note": "Inventory contains private task metadata and must not be mounted into blind solver environments. Exact text checks do not establish semantic equivalence or source correctness.",
+  "tasks": [
+    {
+      "task_id": "arxiv_001",
+      "go_task_id": "arxiv_001-g",
+      "domain": "ARXIV",
+      "ecosystem": "ARXIV",
+      "start_url": "https://arxiv.org/search/advanced",
+      "autonomy_type": "ordered table",
+      "declared_rows": 4,
+      "output_columns": [
+        "arXiv ID",
+        "term family",
+        "cue location",
+        "v1 submitted",
+        "first next-year version",
+        "date of that version",
+        "primary category",
+        "publication-trail source",
+        "current publication clue"
+      ],
+      "column_count": 9,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Only include arXiv records where v1 submitted falls between 2019-01-01 and 2021-12-31.",
+        "The title or abstract must explicitly use a phrase from the \"dataset distillation\" or \"dataset condensation\" family, and the semantics must refer to replacing large-scale training sets with a small number of synthetic training data points.",
+        "The current primary category must be cs.LG. Do not include records that are only cross-listed into Machine Learning by other primary-category papers.",
+        "The paper must have a version update in the calendar year following its initial submission, and the current record must still clearly indicate a subsequent publication venue."
+      ],
+      "data_dependencies": [
+        "Root searches yield candidate arXiv IDs",
+        "Each candidate abstract page yields primary category, v1 date, first next-year version, cue location, and publication-trail source",
+        "Answer rows are produced only after deduplication and detail-page validation"
+      ],
+      "control_dependencies": [
+        "Records must be filtered by original submission year, with per-record validation that a next-calendar-year version exists",
+        "Cross-listed-only hits must be excluded, and the current primary category must be validated on abstract pages",
+        "Searches must cover both Title and Abstract because valid distillation hits can appear only in the abstract",
+        "Topic matches without a current publication trail still fail until the Comments, Journal reference, or Related DOI field is checked on the record page"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "arxiv_002",
+      "go_task_id": "arxiv_002-g",
+      "domain": "ARXIV",
+      "ecosystem": "ARXIV",
+      "start_url": "https://arxiv.org/search/advanced",
+      "autonomy_type": "ordered table",
+      "declared_rows": 10,
+      "output_columns": [
+        "arXiv ID",
+        "cue family",
+        "cue location",
+        "v1 submitted",
+        "first 2023 version",
+        "date of that version",
+        "primary category",
+        "publication clue"
+      ],
+      "column_count": 8,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Only include arXiv papers whose v1 was submitted in 2022.",
+        "The title or abstract must explicitly contain clues related to chain-of-thought or self-consistency.",
+        "The current primary category must be cs.CL; do not include records that are only cross-listed from other primary categories.",
+        "Must have had a version update in 2023, and the current comments field must clearly indicate subsequent publication information."
+      ],
+      "data_dependencies": [
+        "root searches yield candidate arXiv IDs",
+        "each candidate abstract page yields primary category, v1 date, first 2023 version, comments/publication clue",
+        "answer rows are produced only after deduplication and detail-page validation"
+      ],
+      "control_dependencies": [
+        "searches must cover both Title and Abstract fields because valid rows can appear only in the abstract",
+        "cross-listed hits whose primary category is not cs.CL must be excluded, and the primary category must be validated on the abstract page",
+        "topic-matched hits must be validated against a current Comments publication clue before they can be accepted",
+        "2023 candidates must be identified by original submission year and full version-history checks, rather than by latest-date proxies"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "arxiv_003",
+      "go_task_id": "arxiv_003-g",
+      "domain": "ARXIV",
+      "ecosystem": "ARXIV",
+      "start_url": "https://arxiv.org/search/advanced",
+      "autonomy_type": "ordered table",
+      "declared_rows": 5,
+      "output_columns": [
+        "arXiv ID",
+        "cue family",
+        "cue location",
+        "v1 submitted",
+        "first 2021 version",
+        "date of that version",
+        "primary category",
+        "publication-trail source",
+        "current publication clue"
+      ],
+      "column_count": 9,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Only include arXiv papers whose v1 submitted date falls in Q4 2020.",
+        "The title or abstract must explicitly contain vision- or image-domain Transformer-related expressions.",
+        "The current primary category must be cs.CV.",
+        "The paper must have had a version update in 2021, and the current record must clearly indicate a subsequent publication venue."
+      ],
+      "data_dependencies": [
+        "root searches yield candidate arXiv IDs",
+        "candidate abstract pages yield v1 submitted date, first 2021 version, primary category, cue location, and publication-trail source",
+        "answer rows depend on deduplication plus detail-page validation"
+      ],
+      "control_dependencies": [
+        "searches must cover both Title and Abstract because valid positives can appear only in the abstract",
+        "candidate eligibility must be determined by the original-submission date window rather than by arXiv-ID or announcement intuition",
+        "candidate filtering must use full Submission-history validation rather than most-recent-submission filtering",
+        "searches must use the broader semantic cue state rather than a ViT-only entry point, because ViT-only hits can be false positives",
+        "publication-trail false positives still require Comments / Journal reference / Related DOI validation before final inclusion"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "arxiv_004",
+      "go_task_id": "arxiv_004-g",
+      "domain": "ARXIV",
+      "ecosystem": "ARXIV",
+      "start_url": "https://arxiv.org/search/advanced",
+      "autonomy_type": "ordered table",
+      "declared_rows": 5,
+      "output_columns": [
+        "arXiv ID",
+        "defense family",
+        "threat/topic cue",
+        "cue location",
+        "v1 submitted",
+        "first 2021 version",
+        "date of that version",
+        "primary category",
+        "publication clue"
+      ],
+      "column_count": 9,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Only include arXiv papers whose v1 submission date falls between 2020-01-01 and 2020-06-30.",
+        "The title or abstract must explicitly focus on randomized smoothing, de-randomized smoothing, transformation-specific smoothing, smoothed classifiers, certified defenses against backdoor or poisoning attacks, or partition aggregation.",
+        "The current primary category must be cs.LG.",
+        "The paper must have had a version update in 2021, and the current record must clearly indicate formal publication or acceptance information."
+      ],
+      "data_dependencies": [
+        "root searches yield candidate arXiv IDs",
+        "candidate abstract pages yield v1 date, primary category, full Submission history, cue location, and current publication clue",
+        "final rows depend on deduplication plus detail-page validation"
+      ],
+      "control_dependencies": [
+        "candidate filtering must use the original-submission window together with full 2021 version-history validation, because valid rows can have later newest versions",
+        "cross-listed hits whose primary category is not the target category must be excluded, with category validation on detail pages",
+        "searches must cover the broader certified-defense family, including partition-aggregation and backdoor/poisoning variants, rather than smoothing-only entries",
+        "topic+venue hits must be confirmed by detail-history validation that a 2021 version actually exists"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "census_001",
+      "go_task_id": "census_001-g",
+      "domain": "CENSUS_GOV",
+      "ecosystem": "CENSUS_GOV",
+      "start_url": "https://www.census.gov/data.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 20,
+      "output_columns": [
+        "County",
+        "NoInternetHH",
+        "NoInternetRatePct",
+        "SeniorLivingAloneSharePct",
+        "NoVehicleRatePct",
+        "MedianIncome"
+      ],
+      "column_count": 6,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Use only North Carolina county data from the 2014-2018 American Community Survey 5-year estimates, and use the North Carolina statewide values from the same release as the comparison baseline.",
+        "Retain only counties with at least 4,000 households lacking internet access, and where the share of households without internet access, the share of households with a householder aged 65+ living alone, and the share of households without a vehicle are all higher than the statewide shares, and the median household income is lower than the statewide median.",
+        "Output the final results sorted alphabetically by county name, retaining the six required fields."
+      ],
+      "data_dependencies": [
+        "the 2014-2018 ACS 5-year product and North Carolina county geography yield the full county candidate set plus the statewide baseline row",
+        "the relevant ACS tables yield no-internet households, senior-living-alone share, no-vehicle share, and median household income for each county and the state baseline",
+        "final rows are produced only after the 5-year product/geography setup is fixed consistently and the full county filtering chain is executed from B28002 through the downstream filters"
+      ],
+      "control_dependencies": [
+        "the 2018 ACS 5-year Detailed Tables product must be used instead of the 2018 ACS 1-year product",
+        "county coverage must be established under one consistent product-and-geography setup rather than by piecemeal fixes within the current table",
+        "all downstream county comparisons must use the same 5-year statewide baseline and the same all-counties geography"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "census_002",
+      "go_task_id": "census_002-g",
+      "domain": "CENSUS_GOV",
+      "ecosystem": "CENSUS_GOV",
+      "start_url": "https://data.census.gov/advanced",
+      "autonomy_type": "ordered table",
+      "declared_rows": 5,
+      "output_columns": [
+        "County",
+        "RenterHH",
+        "LEPHH",
+        "LEPSharePct",
+        "NoInternetPct",
+        "NoVehiclePct",
+        "SevereRentBurdenPct",
+        "CrowdedRenterPct",
+        "MedianIncome",
+        "StressPath"
+      ],
+      "column_count": 10,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Use only the 2015-2019 American Community Survey 5-year estimates for New Mexico counties, and use the New Mexico statewide values from the same release as the comparison baseline.",
+        "Candidate counties must have at least 2,500 renter households and at least 500 limited-English-proficient households. Additionally, the LEP share, no-internet share, and no-vehicle share must all be higher than the statewide shares, and the median household income must be lower than the statewide median.",
+        "LEPHH must be computed by summing all four limited-English language groups from C16002. Finally, retain only counties where at least one of Severe Rent Burden or Crowded Renter is higher than the statewide value, and write StressPath according to the rule."
+      ],
+      "data_dependencies": [
+        "the 2015-2019 ACS 5-year county geography yields New Mexico county candidates and the statewide baseline row",
+        "C16002 and the downstream housing/income tables yield LEPHH, LEP share, no-internet share, no-vehicle share, severe rent burden, crowded-renter share, and median income for counties and the state baseline",
+        "final rows are produced only after the LEPHH numerator is computed from all four limited-English language groups and the downstream stress-path filters are applied"
+      ],
+      "control_dependencies": [
+        "the LEPHH numerator must be computed from all four limited-English language groups in C16002 rather than from Spanish-only counts",
+        "county eligibility and StressPath labels must be determined from the LEPHH measure and statewide LEP baseline defined under that full four-group calculation",
+        "the RENT / CROWD / BOTH classification must be determined by evaluating the same county set against both downstream housing-stress branches"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "census_003",
+      "go_task_id": "census_003-g",
+      "domain": "CENSUS_GOV",
+      "ecosystem": "CENSUS_GOV",
+      "start_url": "https://data.census.gov/advanced",
+      "autonomy_type": "ordered table",
+      "declared_rows": 4,
+      "output_columns": [
+        "County",
+        "SchoolAgePop",
+        "SchoolAgeLEP",
+        "LEPSharePct",
+        "NoInternetPct",
+        "NoVehiclePct",
+        "ChildBenefitSharePct",
+        "CrowdedRenterPct",
+        "MedianIncome",
+        "SupportPath"
+      ],
+      "column_count": 10,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Use only California county data from the 2013–2017 American Community Survey 5-year estimates, and use the California statewide value from the same release as the comparison baseline.",
+        "Retain only counties with a population aged 5–17 of at least 75,000, a SchoolAgeLEP of at least 2,000 with a share exceeding the statewide share, a no-internet share exceeding the statewide share, and a median household income below the statewide median.",
+        "SchoolAgeLEP must be the sum of the eight \"not well\" and \"not at all\" cells across the four major language groups in B16004. The final county must also have at least two of the three offline support signals (Mobility, Benefits, Crowd) exceeding the statewide share."
+      ],
+      "data_dependencies": [
+        "The 2013–2017 ACS 5-year county geography yields California county candidates and the statewide baseline row.",
+        "B16004 and the downstream access/income/support tables yield SchoolAgeLEP, no-internet share, no-vehicle share, child-benefit share, crowded-renter share, and median income for counties and the statewide baseline.",
+        "Final rows are produced only after the SchoolAgeLEP numerator is computed from all eight 1980-target language cells and the downstream support-path branches are applied."
+      ],
+      "control_dependencies": [
+        "The SchoolAgeLEP numerator must be computed from the full eight-cell language set in B16004 rather than from only two Spanish LEP cells.",
+        "County eligibility and SupportPath labels must be determined from the LEP numerator and candidate set defined under that full eight-cell calculation.",
+        "The BENEFITS / CROWD / MOBILITY path labels must be determined by applying all three downstream support branches to the same county set."
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "census_004",
+      "go_task_id": "census_004-g",
+      "domain": "CENSUS_GOV",
+      "ecosystem": "CENSUS_GOV",
+      "start_url": "https://www.census.gov/data.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 7,
+      "output_columns": [
+        "County",
+        "SeniorPop",
+        "AmbulatoryDifficulty65Plus",
+        "AmbDiffPct",
+        "SeniorLivingAloneSharePct",
+        "NoVehiclePct",
+        "RenterNoVehiclePct",
+        "MobileHomePct",
+        "MedianIncome",
+        "BarrierPath"
+      ],
+      "column_count": 10,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Use only Pennsylvania county-level data from the 2012-2016 American Community Survey 5-year estimates, and use Pennsylvania statewide values from the same release as the comparison baseline.",
+        "Retain only counties with a population aged 65 and over of at least 15,000, at least 4,000 people aged 65 and over with ambulatory difficulty and a share higher than the statewide share, and a median household income below the statewide median.",
+        "The 65+ ambulatory difficulty numerator must combine the four target cells from B18105 for ages 65-74 and 75+, male and female. The final county must also have at least two of the four barriers—Alone, No Vehicle, Renter No Vehicle, Mobile Home—higher than the statewide values."
+      ],
+      "data_dependencies": [
+        "ACS tables B01001 and B18105 yield county senior-population totals and the full 65+ ambulatory-difficulty numerator.",
+        "Statewide comparison tables yield Pennsylvania baselines plus county barrier metrics for living alone, no vehicle, renter no vehicle, mobile home, and median income.",
+        "Final rows are produced only after the county candidate set is defined from the full ambulatory-difficulty numerator and the downstream six-table filters are applied."
+      ],
+      "control_dependencies": [
+        "The ambulatory-difficulty numerator must include the full 65+ population across 65-74 and 75+ and male and female cells, rather than only the 75+ cells.",
+        "Downstream county eligibility and barrier labels must be determined from the county candidate set defined under that full ambulatory numerator.",
+        "The at-least-two-barriers test must compare every county metric against the same Pennsylvania statewide baselines from the same ACS release."
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "climategov_011",
+      "go_task_id": "climategov_011-g",
+      "domain": "NOAA_NCEI_CLIMATE_AT_A_GLANCE",
+      "ecosystem": "NOAA_NCEI_CLIMATE_AT_A_GLANCE",
+      "start_url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/national",
+      "autonomy_type": "ordered table",
+      "declared_rows": 3,
+      "output_columns": [
+        "texas_division_no",
+        "division_name",
+        "feb_1966_10mo_z_text",
+        "dec_1966_24mo_z_text",
+        "mar_1966_hdd_text",
+        "moisture_score"
+      ],
+      "column_count": 6,
+      "dependency_type": "Data",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Screen only within the four South Texas divisions defined on the Texas divisional page: South Central, Upper Coast, South, Lower Valley.",
+        "Retain divisions that simultaneously satisfy: 1966-02 10-month Palmer Z-Index anomaly >= -0.05; 1966-12 24-month anomaly >= -0.10; 1966-03 1-month Heating Degree Days Value < 200°Df.",
+        "Sort by sum of the two Z anomalies descending, then by 1966-03 HDD Value ascending, then by division number ascending."
+      ],
+      "data_dependencies": [
+        "The official Texas climate-division reference fixes the four South Texas division IDs and names that must be tracked across all later pages.",
+        "The 1966-02 10-month Palmer Z-Index anomaly page and the 1966-12 24-month Palmer Z-Index anomaly page jointly identify the four target South Texas divisions.",
+        "The 1966-03 1-month Heating Degree Days Value page supplies the last filter; final rows are produced only after intersecting the three divisional screens and then sorting by summed Z-anomaly score, HDD value, and division number."
+      ],
+      "control_dependencies": [],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "climategov_012",
+      "go_task_id": "climategov_012-g",
+      "domain": "NOAA_NCEI_CLIMATE_AT_A_GLANCE",
+      "ecosystem": "NOAA_NCEI_CLIMATE_AT_A_GLANCE",
+      "start_url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/national",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "texas_division_no",
+        "division_id_4digit",
+        "division_name",
+        "apr_1907_10mo_z_text",
+        "apr_1923_10mo_z_text",
+        "may_1915_2mo_hdd_text",
+        "oct_1922_5mo_hdd_text",
+        "rebound_score"
+      ],
+      "column_count": 8,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Retain only Texas divisions that satisfy all four historical conditions: the 10-month Palmer Z-Index anomaly ending April 1907 is no higher than -0.30; the 10-month anomaly ending April 1923 is no lower than -0.20; the 2-month HDD Value ending May 1915 is less than 50°Df; the 5-month HDD Value ending October 1922 is less than 20°Df.",
+        "Rebound score is defined as the April 1923 10-month anomaly minus the April 1907 10-month anomaly.",
+        "Sort by rebound score descending, then by October 1922 5-month HDD Value ascending, then by Texas division number ascending."
+      ],
+      "data_dependencies": [
+        "Texas divisional pages yield the 1907-04 and 1923-04 10-month Palmer Z-Index anomalies plus the 1915-05 2-month and 1922-10 5-month HDD values for each division.",
+        "The rebound score and the two shoulder-season HDD values are computed only after the same set of candidate divisions survives all four historical filters.",
+        "The final output is produced after sorting the surviving divisions by rebound score, then 1922-10 HDD value, then division number."
+      ],
+      "control_dependencies": [
+        "The workflow must cover the 1907, 1923, and 1915 pages as well as the 1922-10 5-month HDD page.",
+        "Both HDD pages must be read from Value rather than Anomaly.",
+        "The final rebound ranking must be determined after the 1922-10 5-month HDD page excludes 7 South Central and 8 Upper Coast, using ReboundScore as the ordering basis."
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "comptox_010",
+      "go_task_id": "comptox_010-g",
+      "domain": "COMPTOX_CHEMEXPO",
+      "ecosystem": "COMPTOX_CHEMEXPO",
+      "start_url": "https://comptox.epa.gov/chemexpo/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 5,
+      "output_columns": [
+        "DTXSID",
+        "hit_count",
+        "earliest",
+        "latest",
+        "consumer_kind",
+        "consumer_general_puc_id",
+        "consumer_terminal_puc_id",
+        "consumer_level",
+        "consumer_products",
+        "material_kind",
+        "material_general_puc_id",
+        "material_terminal_puc_id",
+        "material_level",
+        "material_products"
+      ],
+      "column_count": 14,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Screen only the five substances specified in the task, and each target substance page must explicitly contain the record “Arts and crafts/Office supplies - body paint - tattoo ink, detected, Europe.”",
+        "Check whether each of the five specified dated keywords appears, and record the earliest and latest year-month among the hits.",
+        "Then independently select one daily-consumer route and one production-material route, the former following Formulation → Article → Occupation and the latter following Occupation → Article → Formulation, and refine each route separately to its deepest level."
+      ],
+      "data_dependencies": [
+        "each chemical page yields the five dated historical keywords, the Europe body-paint/tattoo-ink qualifying record, and the earliest/latest dated-hit months",
+        "PUC category paths yield one consumer-side route chosen by Formulation -> Article -> Occupation and one source-side route chosen independently by Occupation -> Article -> Formulation",
+        "final rows are produced only after the consumer-side and source-side routes are selected and refined separately for each chemical"
+      ],
+      "control_dependencies": [
+        "the source-side route must be selected independently from the consumer-side route",
+        "for each chemical, the second route refinement must follow the production-material priority order rather than the daily-consumer route",
+        "family/type/general outputs must be determined only after both route selections are made independently"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "comptox_011",
+      "go_task_id": "comptox_011-g",
+      "domain": "COMPTOX_CHEMEXPO",
+      "ecosystem": "COMPTOX_CHEMEXPO",
+      "start_url": "https://comptox.epa.gov/chemexpo/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 6,
+      "output_columns": [
+        "DTXSID",
+        "contactHits",
+        "sourceHits",
+        "datedHits",
+        "earliest",
+        "latest",
+        "prioritySide",
+        "PUCkind",
+        "generalPUCID",
+        "terminalPUCID",
+        "level",
+        "Products",
+        "PUCDocuments",
+        "PUCCuratedChemicals"
+      ],
+      "column_count": 14,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Only consider the six specified substances, and first compute contactHits, sourceHits, and datedHits on the chemical page.",
+        "prioritySide must first be determined by these historical signals, and then a most representative current use category is selected along the corresponding direction.",
+        "The current route selection must follow the given kind priority and the same-level smaller PUC ID tie-break rule for further drill-down."
+      ],
+      "data_dependencies": [
+        "each chemical page yields contactHits, sourceHits, datedHits, and the earliest/latest dated-hit months from the historical keyword set",
+        "after the priority side is chosen, the corresponding current PUC category path yields the representative kind, PUC path, product counts, and curated-chemical counts",
+        "final rows are produced only after the historical hit scores determine the side first and the current route is then chosen with the side-specific priority and tie-break rules"
+      ],
+      "control_dependencies": [
+        "historical contact/source signal scores must take priority over current maximum-Products paths",
+        "the priority side must be determined from contactHits, sourceHits, and datedHits rather than from current visibility alone",
+        "PUC path tie-breaks are valid only after the correct side has been fixed and the route has been traced under that side's rules"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "comptox_012",
+      "go_task_id": "comptox_012-g",
+      "domain": "COMPTOX_CHEMEXPO",
+      "ecosystem": "COMPTOX_CHEMEXPO",
+      "start_url": "https://comptox.epa.gov/chemexpo/visualizations/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "generalPUCID",
+        "familyPUCID",
+        "typePUCID",
+        "side",
+        "share",
+        "CuratedChemicals"
+      ],
+      "column_count": 6,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "First, retain only Formulation categories with a total product count of 15,000 or more.",
+        "Within each candidate family, both an aerosol-side type and a child-side type must be found: the family itself must have no assumed attributes and a total product count of at least 3,000; both types must also have empty assumed attributes.",
+        "All final selections within a family and between the two sides must follow the specified tie-break rules: share, Product Count, Curated Chemicals, and PUC ID."
+      ],
+      "data_dependencies": [
+        "The Formulation summary yields the high-product candidate families whose total product count is at least 15,000",
+        "Within each family, lower-level type pages yield the aerosol and child candidates, their assumed/allowed attributes, product counts, shares, and curated-chemical counts",
+        "Final rows are produced only after a family survives both aerosol and child branches and the winning type is selected by the layered share/product/chemical/PUC tie-break rules"
+      ],
+      "control_dependencies": [
+        "Both the aerosol and child branches within the same family must be fully checked before that family can be retained",
+        "If one side is missing, the workflow must reject the family and continue to the next sibling family rather than stop at the first partial hit",
+        "The final winner can be selected only after both sides have been independently optimized within the family and then compared against each other"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "comptox_013",
+      "go_task_id": "comptox_013-g",
+      "domain": "COMPTOX_CHEMEXPO",
+      "ecosystem": "COMPTOX_CHEMEXPO",
+      "start_url": "https://comptox.epa.gov/chemexpo/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 5,
+      "output_columns": [
+        "DTXSID",
+        "materialHits",
+        "sourceHits",
+        "datedHits",
+        "earliest",
+        "latest",
+        "historySide",
+        "recommendedKind",
+        "recommendedGeneral",
+        "recommendedTerminal",
+        "recommendedLevel",
+        "recommendedProducts",
+        "currentKind",
+        "currentGeneral",
+        "currentTerminal",
+        "currentLevel",
+        "currentProducts",
+        "status"
+      ],
+      "column_count": 18,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Operate only on the five specified substances, and first compute materialHits, sourceHits, and datedHits from the keyword-set block.",
+        "The historically recommended category must be derived independently from these historical signals; the current dominant category must be derived separately from the current use path.",
+        "Finally, compare only whether the historically recommended category and the current dominant category align at the coarse side level, and mark ALIGNED or MISALIGNED accordingly."
+      ],
+      "data_dependencies": [
+        "each chemical page yields materialHits, sourceHits, datedHits, and the historical recommendation side implied by the keyword set",
+        "an independent current PUC category path yields the current dominant category, path labels, and classification counts for the same chemical",
+        "final rows are produced only after the historical recommendation and current dominant category are computed independently and then compared at the coarse side level"
+      ],
+      "control_dependencies": [
+        "the historical recommendation must be determined from the keyword-set evidence rather than from the current largest category",
+        "historical recommendation must be computed from the keyword-set evidence before alignment is judged",
+        "ALIGNED / MISALIGNED status is valid only after the historical and current category directions have been derived independently and then compared"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "consumerfinance_008",
+      "go_task_id": "consumerfinance_008-g",
+      "domain": "CFPB_REPORTS",
+      "ecosystem": "CFPB",
+      "start_url": "https://www.consumerfinance.gov/enforcement/actions/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 3,
+      "output_columns": [
+        "Product",
+        "Respondent",
+        "Docket",
+        "FilingDate",
+        "RedressUSD",
+        "RedressPage",
+        "PenaltyUSD",
+        "PenaltyPage"
+      ],
+      "column_count": 8,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Only consider administrative enforcement actions on the CFPB Enforcement actions page whose Initial filing date falls between 2022-01-01 and 2024-12-31.",
+        "For each of the three product categories (Deposits, Furnishing, Prepaid), search in the current default order from top to bottom for the first action that simultaneously satisfies: the page provides a Consent Order and a Press release; the Products label corresponds one-to-one with the target category; the action detail page explicitly states consumer redress > $5,000,000 and also states a civil money penalty.",
+        "Finally, extract the first-occurrence amounts and page numbers of consumer redress and civil money penalty from the correct Consent Order."
+      ],
+      "data_dependencies": [
+        "Enforcement-action list pages yield product-branch candidate actions in current default order.",
+        "Each action detail page and linked consent-order PDF yield product singularity, document-stack presence, redress/civil-money-penalty amounts, and first-occurrence pages.",
+        "Final rows are emitted only after identifying, for each product, the first action that survives detail-page and PDF validation."
+      ],
+      "control_dependencies": [
+        "List-level \"has Consent Order + Press release\" hits must be validated on the detail page for product singularity and money thresholds.",
+        "Prepaid candidates force document-level disambiguation among Consent Order, Stipulation, and terminating-order PDFs.",
+        "Per-product first-match selection must explicitly skip rejected candidates and validate downstream PDFs before it is finalized."
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "consumerfinance_009",
+      "go_task_id": "consumerfinance_009-g",
+      "domain": "CFPB_REPORTS",
+      "ecosystem": "CFPB",
+      "start_url": "https://www.consumerfinance.gov/data-research/research-reports/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "topic",
+        "first-missing-year",
+        "pivot-report-or-NONE",
+        "pivot-date-or-NONE",
+        "direct-related-count",
+        "same-series-count",
+        "qualified-count",
+        "representative-report-or-NONE",
+        "publication-date-or-NONE",
+        "appendix-span-or-NONE"
+      ],
+      "column_count": 10,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "First, locate the CFPB household financial well-being annual report series whose latest version links directly to 2023 and 2022.",
+        "Using the 2022 edition as the baseline, retain only topics that appear in 2022 but are no longer retained in subsequent annual reports, and exclude the topic specifically marked as \"belongs to the same survey series.\"",
+        "For each topic, find the earliest non-series pivot report from 2022 or earlier, then count its directly listed related resources, how many link back to the same survey series, how many qualify under the appendix rule, and the appendix span of the final qualifying report."
+      ],
+      "data_dependencies": [
+        "current CFPB Reports pages yield the 2024 -> 2023 -> 2022 annual-survey chain and the 2022 topic baseline",
+        "report detail pages and report-search results yield first-disappearance year, pivot report title/date, related-resource counts, and links back to the annual-survey series",
+        "final rows are produced only after separating the first jump target from later return-to-series counting"
+      ],
+      "control_dependencies": [
+        "requiring the pivot report itself to link back to the same survey series incorrectly rules out valid topic rows",
+        "title extraction must use the pivot detail page rather than search-result snippets",
+        "related-resource expansion must continue even when the pivot report itself does not link back to the same survey series"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "consumerfinance_010",
+      "go_task_id": "consumerfinance_010-g",
+      "domain": "CFPB_REPORTS",
+      "ecosystem": "CFPB",
+      "start_url": "https://www.consumerfinance.gov/rules-policy/final-rules/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "wave",
+        "final-rule-date",
+        "proposal-chain",
+        "proposal-comment-closes",
+        "delay-proposal-applied",
+        "delay-proposal-comments-close",
+        "controlling-effective-date",
+        "quick-reference-pdf",
+        "summary-heading"
+      ],
+      "column_count": 9,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Must process the two 2020 Debt Collection Practices (Regulation F) final rules separately, not merge them into one.",
+        "For each wave, separately confirm: issue date, corresponding proposal chain and public comment deadlines, whether the 2021 delayed-effective-date proposed rule covers it and its deadline, final effective date, corresponding implementation quick-reference PDF, and the first heading after the introduction in that PDF.",
+        "The detail page, proposal chain, and summary PDF for the October wave and the December wave must each be independently verified."
+      ],
+      "data_dependencies": [
+        "final-rules index pages and rule-development pages yield the two 2020 Regulation F final-rule waves and their proposal branches",
+        "each final-rule detail page, delayed-effective-date proposal page, and implementation quick-reference PDF yields the wave-specific dates, linked proposals, comment deadlines, and first summary heading",
+        "final rows are produced only after the October and December waves are traced separately end to end"
+      ],
+      "control_dependencies": [
+        "two same-title final rules force correction from name-based collapsing to issue-date branching",
+        "proposal-chain validation must be done per wave; otherwise the later December chain contaminates the October row",
+        "implementation PDFs must be matched back to the correct wave rather than accepting the latest quick-reference page"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "consumerfinance_011",
+      "go_task_id": "consumerfinance_011-g",
+      "domain": "CFPB_REPORTS",
+      "ecosystem": "CFPB",
+      "start_url": "https://www.consumerfinance.gov/enforcement/actions/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "Product",
+        "Respondent",
+        "Docket",
+        "InitialFilingDate",
+        "TerminationDate",
+        "TerminationAuthority",
+        "TermAuthorityPage",
+        "ReferencedParagraph",
+        "ConsentSectionHeading"
+      ],
+      "column_count": 9,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Consider only administrative enforcement actions with an Initial filing date in 2024, and search separately in the Credit Cards and Deposits categories.",
+        "Cases must have a status of Expired, Terminated, or Vacated, and the page must simultaneously provide a Consent Order, Stipulation, Order Terminating the Consent Order, and Press Release, and the Products field must correspond one-to-one with the target category.",
+        "Finally, for each category retain only the most recent qualifying case determined by Initial filing date, and compile the corresponding clause information linking the terminating order to the original Consent Order."
+      ],
+      "data_dependencies": [
+        "enforcement-action list pages yield 2024 candidate actions by product branch",
+        "each action detail page and linked Consent Order / Stipulation / Order Terminating the Consent Order / Press Release documents yield status, initial filing date, single-product validity, and clause references",
+        "final rows are selected only after per-product comparison on Initial filing date and document-stack validation"
+      ],
+      "control_dependencies": [
+        "\"latest\" must be determined by Initial filing date rather than termination date",
+        "product filters on the list page are insufficient until the action detail page confirms a single matching product",
+        "clause extraction in the terminating order must stay aligned with the original Consent Order rather than a superficially similar section"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "consumerfinance_012",
+      "go_task_id": "consumerfinance_012-g",
+      "domain": "CFPB_COMPLAINT_DATABASE",
+      "ecosystem": "CFPB",
+      "start_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "Cluster",
+        "Month",
+        "MonthComplaints",
+        "TopState",
+        "StateComplaints",
+        "TopCompany",
+        "CompanyComplaints",
+        "EarliestComplaintID",
+        "EarliestDate",
+        "Issue",
+        "SubIssue"
+      ],
+      "column_count": 11,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Only consider complaints within the current product bucket covering credit reporting and other personal consumer reports, from 2018-01-01 to 2021-12-31, tagged as Servicemember, with a public narrative, and where the text explicitly mentions medical bills or doctors.",
+        "The first cluster must be the peak month of the cohort; the second cluster must be the latest month in the cohort whose complaint count is still at least half of the peak.",
+        "For each cluster, recompute the top company within the corresponding month + state subset, then locate the earliest complaint received by that company in that state and month."
+      ],
+      "data_dependencies": [
+        "current complaint-form taxonomy yields the product bucket that contains credit reporting / other personal consumer reports",
+        "filtered complaint records yield month counts, month-state subsets, top companies, and earliest complaint details inside each chosen subset",
+        "final rows are produced only after peak month and latest-half-peak month are determined, and each downstream aggregate is computed inside its narrower month-state cohort"
+      ],
+      "control_dependencies": [
+        "the latest month must be defined as the latest month whose count is at least ceil(PeakCount / 2)",
+        "overall top-company counts cannot be projected into a month-state subset without recomputation",
+        "earliest complaint selection is only valid after the month, state, and company filters are all frozen"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "consumerfinance_013",
+      "go_task_id": "consumerfinance_013-g",
+      "domain": "CFPB_COMPLAINT_DATABASE",
+      "ecosystem": "CFPB",
+      "start_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "Cluster",
+        "Month",
+        "MonthComplaints",
+        "ExcludedTop2Companies",
+        "ExcludedTop2PeakMonthComplaints",
+        "TopState",
+        "StateComplaints",
+        "TopCompany",
+        "CompanyComplaints",
+        "EarliestComplaintID",
+        "EarliestDate",
+        "Issue",
+        "SubIssue"
+      ],
+      "column_count": 13,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Only consider Complaint Database records under the current product bucket for Virtual currency subcategory, with a received date between 2019-08-26 and 2022-08-26.",
+        "First determine the AllCompanies original peak month, then identify the top two companies by complaint count in that peak month.",
+        "These two companies must be removed entirely from the full three-year cohort, then recompute the residual peak month and all downstream fields based on the remaining cohort."
+      ],
+      "data_dependencies": [
+        "current complaint-form taxonomy yields the product bucket for Virtual currency",
+        "complaint records within the fixed three-year cohort yield the all-company peak month, per-month top companies, and residual-cohort recomputations after company removal",
+        "final rows are produced only after the top-2 companies from the original peak month are removed from the full cohort and downstream aggregates are computed on the resulting cohort"
+      ],
+      "control_dependencies": [
+        "peak-month top companies must be removed from the entire cohort, not only from the original peak month",
+        "residual peak detection must be computed from the rewritten cohort rather than by local patching of the original month",
+        "downstream state / company / earliest-complaint fields are valid only after the global company-removal step is locked"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "consumerfinance_014",
+      "go_task_id": "consumerfinance_014-g",
+      "domain": "CFPB_COMPLAINT_DATABASE",
+      "ecosystem": "CFPB",
+      "start_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 4,
+      "output_columns": [
+        "Cluster",
+        "Month",
+        "MonthComplaints",
+        "NewExclusionType",
+        "NewExclusionValue",
+        "NewExclusionCountInSourcePeak",
+        "TopState",
+        "StateComplaints",
+        "TopCompany",
+        "CompanyComplaints",
+        "EarliestComplaintID",
+        "EarliestDate",
+        "Issue",
+        "SubIssue"
+      ],
+      "column_count": 14,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Only consider Complaint Database records under the current product bucket's Virtual currency subcategory with a received date between 2020-01-01 and 2022-08-26.",
+        "Determine the peak months for the four stages BaselinePeak, AfterDominantPublicResponse, AfterDominantIssue, and AfterDominantCompany sequentially as required.",
+        "Each round's identified dominant Company public response, dominant Issue, and dominant Company must be written back and globally deleted from the corresponding upstream residual cohort before running the next round of statistics."
+      ],
+      "data_dependencies": [
+        "current complaint-form taxonomy yields the product bucket for Virtual currency",
+        "complaint records yield the baseline peak plus the dominant Company public response, dominant Issue, and dominant Company at successive residual-peak states",
+        "final rows are produced only after each dominant value is applied to the full upstream residual cohort and then used to determine the next peak"
+      ],
+      "control_dependencies": [
+        "dominant values found in a peak month cannot be deleted only inside that month; each must be propagated to the full upstream cohort",
+        "each new residual peak depends on the prior round's global rewrite, so local month-by-month deletion gives the wrong chain",
+        "downstream counts and exemplar complaints are valid only after the full three-stage waterfall is executed"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "europemc_001",
+      "go_task_id": "europemc_001-g",
+      "domain": "EUROPEPMC_PMC",
+      "ecosystem": "EUROPEPMC_PMC",
+      "start_url": "https://europepmc.org/advancesearch",
+      "autonomy_type": "ordered table",
+      "declared_rows": 21,
+      "output_columns": [
+        "variable",
+        "RF_rank_or_0",
+        "XGB_rank_or_0",
+        "F",
+        "C",
+        "N",
+        "X"
+      ],
+      "column_count": 7,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "First, locate the target paper: a 2020 open-access review whose title contains all of \"prognosis model\", \"mortality risk\", and \"COVID-19\", and whose main text discusses hospitalized patients in Wuhan.",
+        "Retain only two types of variables: admission variables that appear in both the Random Forest and XGBoost rankings; or variables that do not appear in both rankings but are additional items belonging to CURB-65 or NEWS.",
+        "For each variable, annotate it as required with RF rank, XGB rank, and whether it belongs to the final logistic regression, CURB-65, NEWS, and the comparison XGBoost model, then output in alphabetical order by variable name."
+      ],
+      "data_dependencies": [
+        "Europe PMC search results and the target open-access article yield the candidate Wuhan COVID mortality-risk review",
+        "article tables and discussion sections yield RF/XGBoost rankings, final logistic-regression inclusion, and comparator-variable memberships for CURB-65 / NEWS / external XGBoost",
+        "final rows are produced only after overlapping variables and comparator-only variables are merged into one normalized variable table"
+      ],
+      "control_dependencies": [
+        "comparator-only variables must be captured from the discussion definitions rather than from Table 2 + Table 3 alone",
+        "comparator membership must be read from the article's explicit scheme definitions rather than inferred from common clinical usage",
+        "variable normalization must wait until RF/XGBoost overlap and comparator-only additions are both complete"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "europemc_002",
+      "go_task_id": "europemc_002-g",
+      "domain": "EUROPEPMC_PMC",
+      "ecosystem": "EUROPEPMC_PMC",
+      "start_url": "https://europepmc.org/advancesearch",
+      "autonomy_type": "ordered table",
+      "declared_rows": 6,
+      "output_columns": [
+        "NCT",
+        "agent_2021",
+        "phase_2022",
+        "agent_2022",
+        "phase_2023",
+        "agent_2023"
+      ],
+      "column_count": 6,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Use only the Phase 1 studies from the 2021 Alzheimer's disease drug development pipeline article as the baseline.",
+        "Retention in 2022 and 2023 must be determined by exact match on the ClinicalTrials.gov NCT identifier, not by drug name alone.",
+        "Keep only studies that are found under the same NCT in both 2022 and 2023, and output them sorted by NCT in ascending order."
+      ],
+      "data_dependencies": [
+        "the 2021, 2022, and 2023 pipeline reviews yield the 2021 Phase 1 baseline cohort and the later-year lookup tables",
+        "article tables yield exact ClinicalTrials.gov NCT IDs, yearly phase labels, and yearly drug names for the same study",
+        "final rows are produced only after 2021 baseline studies are re-identified in both later reviews by exact NCT matching"
+      ],
+      "control_dependencies": [
+        "continuation must be matched by exact NCT rather than by drug name, because drug names drift across years",
+        "2022 and 2023 lookups must use the fixed 2021 Phase 1 NCT set as the starting cohort rather than later-year table membership alone",
+        "yearly phase/name fields are only valid after the same NCT is confirmed across all three reviews"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "europemc_003",
+      "go_task_id": "europemc_003-g",
+      "domain": "EUROPEPMC_PMC",
+      "ecosystem": "EUROPEPMC_PMC",
+      "start_url": "https://europepmc.org/advancesearch",
+      "autonomy_type": "ordered table",
+      "declared_rows": 8,
+      "output_columns": [
+        "INN",
+        "category_2023",
+        "prediction_label_2023",
+        "status_2024",
+        "indication_2024",
+        "region_2024"
+      ],
+      "column_count": 6,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "First, identify all candidate molecules in the 2023 Antibodies to Watch article that are predicted to submit first marketing applications in 2022-2023.",
+        "Then, check each of these molecules against the 2024 article and retain only those that have been first approved or have entered first regulatory review.",
+        "The 2024 status must distinguish A=first approval from R=first regulatory review, and include the 2024 indication and region."
+      ],
+      "data_dependencies": [
+        "the 2023 Antibodies to Watch article yields the forecast baseline of candidates expected to file in 2022-2023",
+        "the 2024 article tables yield first-approval outcomes, first-regulatory-review outcomes, indications, and regions for the same INNs",
+        "final rows are produced only after Table 1 approvals and Table 2 first-review candidates are merged back onto the 2023 forecast cohort"
+      ],
+      "control_dependencies": [
+        "both 2024 Table 1 and Table 2 must be read so that first-review-but-not-yet-approved candidates are retained",
+        "2024 status coding must distinguish approval from first regulatory review instead of collapsing both into a single positive match",
+        "region and indication fields are valid only after the 2023 forecast cohort is reconciled against both 2024 tables"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "europemc_004",
+      "go_task_id": "europemc_004-g",
+      "domain": "EUROPEPMC_PMC",
+      "ecosystem": "EUROPEPMC_PMC",
+      "start_url": "https://europepmc.org/advancesearch",
+      "autonomy_type": "ordered table",
+      "declared_rows": 9,
+      "output_columns": [
+        "INN",
+        "category_2022",
+        "phase_2022",
+        "prediction_label_2023",
+        "status_2024",
+        "phase_or_NA_2024",
+        "indication_or_NA_2024",
+        "region_or_NA_2024"
+      ],
+      "column_count": 8,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Start with the 2022 Antibodies to Watch candidates listed as \"expected to file soon\", but retain only those molecules that still remain as watchlist candidates in the 2023 article of the same series.",
+        "For these consecutively delayed candidates, determine their final status in the 2024 article: first approved, in first regulatory review, or completely absent from Tables 1-4.",
+        "Name matching must handle the Apamistamab naming drift; complete absence in 2024 must be explicitly encoded as D."
+      ],
+      "data_dependencies": [
+        "the 2022, 2023, and 2024 Antibodies to Watch articles yield the 2022 soon-to-file baseline, 2023 carry-over membership, and 2024 status tables",
+        "article tables and full-text naming context yield name normalizations, 2024 table presence/absence, and final status labels for each carried-over INN",
+        "final rows are produced only after 2022 candidates are filtered by 2023 carry-over status and then resolved against 2024 Tables 1-4 plus explicit absence"
+      ],
+      "control_dependencies": [
+        "2022 candidates must first be filtered by 2023 carry-over status before they are matched against the 2024 tables",
+        "Apamistamab naming drift forces explicit normalization before 2024 lookup",
+        "complete 2024 absence must be emitted as D rather than treated as a lookup failure"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "europemc_005",
+      "go_task_id": "europemc_005-g",
+      "domain": "EUROPEPMC_PMC",
+      "ecosystem": "EUROPEPMC_PMC",
+      "start_url": "https://europepmc.org/advancesearch",
+      "autonomy_type": "ordered table",
+      "declared_rows": 20,
+      "output_columns": [
+        "variable",
+        "category",
+        "B",
+        "W",
+        "Zh",
+        "Zo",
+        "WHOfield",
+        "WHOx",
+        "TopAUC",
+        "BestCal",
+        "Dyn",
+        "Conflict"
+      ],
+      "column_count": 12,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "First, in the 2024 WHO global individual patient data validation paper, identify the four prognostic models that were successfully externally validated in LMIC data, and trace back to the three corresponding original model papers.",
+        "For each predictor, retain the original wording from WHO Table 1, annotate its matching method (E/M) in the WHO baseline table, and indicate whether it comes from the TopAUC, BestCal, or Dyn model.",
+        "When encountering a predictor that was conceptually merged on the WHO side, trace back to the original Wang/Zhou papers to split it apart and then recalculate the relevant fields."
+      ],
+      "data_dependencies": [
+        "the 2024 WHO global validation paper yields the four externally validated models and the WHO-side predictor wording/mapping baseline",
+        "the three original model papers yield model-specific predictor wordings, dynamic-data flags, and conflicts hidden by WHO-side conceptual merging",
+        "final rows are produced only after WHO predictors are kept separate, traced back to the original papers, and then re-annotated for mapping and model provenance"
+      ],
+      "control_dependencies": [
+        "conceptually merged WHO predictors must be split back out when the original Wang/Zhou papers expose distinct variables",
+        "Table 2 mapping decisions are not valid until Table 1 wording and original-paper predictor sets are reconciled",
+        "TopAUC / BestCal / Dyn flags must be determined after the predictor split is applied correctly"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "genome_001",
+      "go_task_id": "genome_001-g",
+      "domain": "KEGG_BRITE",
+      "ecosystem": "KEGG",
+      "start_url": "https://www.genome.jp/kegg/brite.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 3,
+      "output_columns": [
+        "DRUG_ID",
+        "JP_class",
+        "ATC",
+        "Target_branch",
+        "JP_date"
+      ],
+      "column_count": 5,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Within the scope of KEGG immunosuppressants for ulcerative colitis, retain only entries approved in Japan by 2025-06-30 and that carry explicit CYP-related metabolism information or CYP inhibition indications.",
+        "Candidate drugs must be re-verified against the corrected UC drug list for Japanese therapeutic classification, ATC, target branch, CYP evidence, and Japan first approval date.",
+        "Finally, output sorted by Japan first approval date from earliest to latest."
+      ],
+      "data_dependencies": [
+        "KEGG disease H01466 and linked drug entries yield the ulcerative-colitis immunosuppressant candidate set",
+        "each candidate drug entry yields Japanese class, ATC, target branch, CYP metabolism/inhibition evidence, and Japan approval date",
+        "final rows are produced only after the full UC candidate set is determined and every candidate is checked against CYP evidence and PMDA timing"
+      ],
+      "control_dependencies": [
+        "the candidate set must include Japanese class 3999 UC drugs when the disease page exposes them rather than being limited to 2399 alone",
+        "target / CYP / PMDA validation must be applied across the full candidate set rather than only the old 2399 subset",
+        "entries without explicit CYP evidence may be dropped only after the full candidate set has been established"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "genome_002",
+      "go_task_id": "genome_002-g",
+      "domain": "KEGG_GENOME",
+      "ecosystem": "KEGG",
+      "start_url": "https://www.genome.jp/kegg/genome/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "group",
+        "symbiont",
+        "pathway",
+        "module",
+        "replicon",
+        "created_year"
+      ],
+      "column_count": 6,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Retain only those host-symbiont examples where the bacterial symbiont KEGG GENOME Created year is on or before 2005 and the genome carries named extra replicons.",
+        "The replicon names must directly correspond to amino acid synthesis modules on the host-symbiont joint pathway page.",
+        "Finally, output all qualifying pathway-module-replicon records from the surviving case, sorted by pathway ID in ascending order."
+      ],
+      "data_dependencies": [
+        "KEGG host-symbiont examples and symbiont genome pages yield the pre-2006 candidate pairs and named extra replicons",
+        "Joint pathway maps, module pages, and genome annotations yield the pathway-module-replicon links attributable to the symbiont side",
+        "Final rows are produced only after the surviving host-symbiont pair is validated against both replicon existence and module support on the joint pathway page"
+      ],
+      "control_dependencies": [
+        "Only branches satisfying the named-plasmid requirement may be retained, so the bmy+wbm branch must be excluded when the wbm genome page fails that requirement",
+        "Module retrieval must use the api+buc pathway state and the 00400 view, because that view is the one that actually exposes M00023",
+        "Module support is valid only after symbiont-side evidence for both M00023 and M00432 is validated in the selected pathway state"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "genome_003",
+      "go_task_id": "genome_003-g",
+      "domain": "KEGG_BRITE",
+      "ecosystem": "KEGG",
+      "start_url": "https://www.kegg.jp/brite/br08301",
+      "autonomy_type": "ordered table",
+      "declared_rows": 8,
+      "output_columns": [
+        "DRUG_ID",
+        "Name",
+        "ATC",
+        "Target_branch",
+        "PMDA_date"
+      ],
+      "column_count": 5,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Retain only the active ingredients that truly act on the IL-17/IL-23 signaling axis among systemic drugs for plaque psoriasis approved in Japan by 2024-12-31.",
+        "The candidate set must cover the ligand side, receptor side, and TYK2 kinase side, not just the interleukin ligand side.",
+        "Sort final entries by Japan first approval date in ascending order; if on the same day, sort by DRUG_ID in ascending order."
+      ],
+      "data_dependencies": [
+        "KEGG disease/drug entry points yield the Japan-approved systemic plaque-psoriasis drug cohort through 2024-12-31",
+        "each drug entry yields target branch, ATC, systemic-use validity, and Japan approval date for IL-17/IL-23-axis candidates",
+        "final rows are produced only after ligand-side, receptor-side, and kinase-side candidates are jointly reconciled and re-sorted by Japan approval date"
+      ],
+      "control_dependencies": [
+        "entry-point coverage must include receptor-side IL17RA and kinase-side TYK2 mechanisms when downstream drug pages expose them, rather than staying ligand-only",
+        "Ustekinumab must be removed only when target interpretation shows IL12 + IL23A rather than the IL-17/IL-23-axis criterion required here",
+        "systemic-use, Japanese 3999, and PMDA-date filtering must be applied after each expansion of the candidate set rather than attached to the earlier ligand-only state"
+      ],
+      "pair_exact_checks": {
+        "same_domain": false,
+        "same_declared_rows": false,
+        "same_oracle_text": false
+      }
+    },
+    {
+      "task_id": "genome_004",
+      "go_task_id": "genome_004-g",
+      "domain": "KEGG_GENOME",
+      "ecosystem": "KEGG",
+      "start_url": "https://www.genome.jp/kegg/kegg2.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "rank",
+        "clade_role",
+        "parent_clade",
+        "clade",
+        "anomaly_pathway",
+        "contrast_pathway",
+        "retained_upstream_module",
+        "vitamin_c_synthesis_module",
+        "vitamin_c_module_status",
+        "example_org",
+        "cutoff_year"
+      ],
+      "column_count": 11,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Search only among primate genome entries established by the end of 2022, and isolate the anomalous lower-level clade that retains the upstream glucuronate module M00014 but lacks the animal-type vitamin C biosynthesis module M00129.",
+        "That anomalous clade must be paired with a sister branch under the same higher-level split, and the sister branch must still retain M00129.",
+        "The final output must place the anomalous branch and the retained sister branch into a two-row comparison table, including the required pathway, module, and example-species fields."
+      ],
+      "data_dependencies": [
+        "the KEGG primate clade pages and genome entries yield candidate subclades and example species established through the cutoff year",
+        "the pathway and module views yield M00014 and M00129 presence/absence evidence for the exception clade and its sister branch",
+        "final rows are produced only after the exception clade and retained sister branch are jointly validated under the same parent split and paired with example organisms"
+      ],
+      "control_dependencies": [
+        "the exception clade remains provisional until both the sister-branch contrast and the example-species checks succeed",
+        "the comparison view must make retained M00014 and missing M00129 visible together",
+        "the two output rows are emitted together only after the exception clade and retained sister branch are fixed under the same parent split"
+      ],
+      "pair_exact_checks": {
+        "same_domain": false,
+        "same_declared_rows": false,
+        "same_oracle_text": false
+      }
+    },
+    {
+      "task_id": "nvd_001",
+      "go_task_id": "nvd_001-g",
+      "domain": "NVD",
+      "ecosystem": "NVD",
+      "start_url": "https://nvd.nist.gov/vuln/search#/nvd/home?resultType=records",
+      "autonomy_type": "ordered table",
+      "declared_rows": 3,
+      "output_columns": [
+        "CVE",
+        "lite_upper_version",
+        "lite_vs_lite+pro",
+        "analysis_event@date",
+        "snapcreek_to_awesomemotive@date"
+      ],
+      "column_count": 5,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Retain only Duplicator-related CVEs whose current product line belongs to awesomemotive:duplicator and that can be traced back to snapcreek:duplicator in the deprecated old vendor chain.",
+        "Each candidate CVE must simultaneously satisfy the following in its Change History: the Initial Analysis is not yet lite/lite+pro; the first change to lite or lite+pro occurs in a NIST analysis event on 2021-10-18; and a snapcreek -> awesomemotive vendor remap occurs on 2026-02-02.",
+        "The final output retains only CVE rows that satisfy all three conditions above."
+      ],
+      "data_dependencies": [
+        "NVD product/CPE search pages yield the current awesomemotive:duplicator family and the deprecated snapcreek:duplicator lineage",
+        "each target CVE detail page and Change History yield the Initial Analysis state, the first lite/lite+pro analysis event, and the 2026-02-02 vendor-remap event",
+        "final rows are produced only after candidate CVEs are intersected on both snapcreek -> awesomemotive migration and later introduction of lite/lite+pro in NIST analysis history"
+      ],
+      "control_dependencies": [
+        "the search must include the deprecated snapcreek lineage rather than only the current product state",
+        "vendor migration alone is insufficient until detail-level history confirms that lite/lite+pro was introduced after Initial Analysis",
+        "candidate CVEs must be filtered against the full change-history chronology, excluding any whose Initial Analysis already contained lite"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "nvd_002",
+      "go_task_id": "nvd_002-g",
+      "domain": "NVD",
+      "ecosystem": "NVD",
+      "start_url": "https://nvd.nist.gov/products/cpe/search",
+      "autonomy_type": "ordered table",
+      "declared_rows": 44,
+      "output_columns": [
+        "version_update",
+        "legacy_cpe",
+        "current_cpe",
+        "remap_time_nvd"
+      ],
+      "column_count": 4,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Retain only CPE 2.3 entries from the MySQL 5.1 branch for which the NVD Change History of all four vulnerabilities CVE-2010-3676, CVE-2010-3677, CVE-2010-3678, and CVE-2010-3680 clearly shows a mysql:mysql -> oracle:mysql vendor migration.",
+        "Every result must provide version_update, legacy_cpe, current_cpe, and remap_time_nvd.",
+        "Within the same version, entries without an update suffix come before entries with an update suffix, and output is sorted by numeric version in ascending order."
+      ],
+      "data_dependencies": [
+        "Current and deprecated MySQL 5.1 CPE search results yield candidate legacy/current CPE strings.",
+        "The four target CVE pages and their Change History entries yield vendor-migration evidence, exact version_update strings, and remap timestamps.",
+        "Final rows are produced only after taking the common mysql:mysql 5.1 -> oracle:mysql 5.1 migrations across all four CVEs and removing alias-only or 5.0 entries."
+      ],
+      "control_dependencies": [
+        "Legacy vendor mapping must be determined from Analysis Description plus Change History rather than from the current description/current CPE view.",
+        "Include-deprecated results cannot be accepted wholesale because alias-only remaps must be filtered out.",
+        "5.1-branch membership and sort order must be determined after the vendor-migration filter removes 5.0 and non-migration rows."
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "nvd_004",
+      "go_task_id": "nvd_004-g",
+      "domain": "NVD",
+      "ecosystem": "NVD",
+      "start_url": "https://nvd.nist.gov/products/cpe/search",
+      "autonomy_type": "ordered table",
+      "declared_rows": 9,
+      "output_columns": [
+        "milestone",
+        "legacy_cpe",
+        "current_cpe",
+        "required_cves",
+        "remap_time_nvd"
+      ],
+      "column_count": 5,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Retain only Apache Tomcat 9.0.0 milestone versions that appear in the current affected-product ranges for all four target CVEs: CVE-2016-5018, CVE-2016-6794, CVE-2016-6796, and CVE-2016-6797.",
+        "These versions must also have a CPE Deprecation Remap from mN to milestoneN visible in the NVD Change History.",
+        "Finally, output sorted by milestone number in ascending order, and the required_cves field must list these four specific CVEs."
+      ],
+      "data_dependencies": [
+        "the current milestoneN CPE search and detail pages yield the Tomcat milestone family and the legacy mN mapping anchors",
+        "the four target CVE pages and Change History entries yield the exact mN -> milestoneN deprecation remaps and the required-CVE intersection",
+        "final rows are produced only after taking the remaps common to all four target CVEs and sorting by numeric milestone"
+      ],
+      "control_dependencies": [
+        "the candidate milestone set must be determined from the four-target-CVE intersection rather than from all prerelease Tomcat CVEs",
+        "later remapped milestones such as M10+ must be excluded by applying the specified four-CVE boundary",
+        "only explicit NVD CPE Deprecation Remap events from mN to milestoneN count, so generic Tomcat prerelease visibility cannot be accepted as evidence"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "reptile_001",
+      "go_task_id": "reptile_001-g",
+      "domain": "REPTILE_DATABASE",
+      "ecosystem": "REPTILE_DATABASE",
+      "start_url": "https://reptile-database.reptarium.cz/advanced_search",
+      "autonomy_type": "ordered table",
+      "declared_rows": 8,
+      "output_columns": [
+        "accepted name",
+        "old label",
+        "UNIQUE/AMBIG",
+        "BMNH status"
+      ],
+      "column_count": 4,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Candidates must come from the historical museum entries of Indian snakes in Boulenger 1890 *Fauna of British India*.",
+        "The current Reptile Database species page must simultaneously satisfy: the species has been reassigned to a different genus; the page still retains BMNH type specimen information; the type locality still corresponds to India.",
+        "On each qualifying page, select the oldest binomial that is closest to the present but has not yet been updated to the current genus name, then perform an exact back-search using this old name and label it UNIQUE or AMBIG."
+      ],
+      "data_dependencies": [
+        "the Boulenger 1890 historical sample and current accepted-species pages yield candidates that changed genus while retaining BMNH type data and India-compatible type locality",
+        "each accepted page yields the nearest pre-current-genus old label, the BMNH type status, and the historical/type-locality evidence anchoring the entity",
+        "final rows are produced only after the old-label exact back-search is evaluated for uniqueness without losing the original entity anchor"
+      ],
+      "control_dependencies": [
+        "when an exact old-label back-search now hits multiple species, the original anchored entity must be kept and the uniqueness label must be set to AMBIG",
+        "once a candidate has passed the historical-cluster, genus-shift, BMNH, and India-locality gates, later old-label ambiguity can only rewrite the uniqueness field, not the entity itself",
+        "candidate anchoring must be preserved across the two-stage workflow so that old-label search noise does not redirect the accepted-species row"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "reptile_002",
+      "go_task_id": "reptile_002-g",
+      "domain": "REPTILE_DATABASE",
+      "ecosystem": "REPTILE_DATABASE",
+      "start_url": "https://reptile-database.reptarium.cz/advanced_search",
+      "autonomy_type": "ordered table",
+      "declared_rows": 3,
+      "output_columns": [
+        "accepted",
+        "Smith-era Riopa label",
+        "first type code",
+        "type status",
+        "region"
+      ],
+      "column_count": 5,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Retain only those accepted species that can be traced from the Smith 1937 old-name chain to a current Lygosoma record and for which the type accession, type status, and locality can be read on the current page.",
+        "For each accepted record, output the accepted name, the corresponding old label, the type accession, the type status, and the locality.",
+        "If the same exact old name is attached to multiple accepted species, retain them as separate chains."
+      ],
+      "data_dependencies": [
+        "the Smith 1937 old-name chain yields the three current Lygosoma accepted pages connected to Riopa bampfyldei / Lygosoma bampfyldei",
+        "each accepted page yields its own type accession, type status, and type locality needed to separate the homonymous old-name paths",
+        "final rows are produced only after the one-to-many old-name split is rebuilt and the three paths are re-anchored to their own type evidence"
+      ],
+      "control_dependencies": [
+        "same-specific-epithet matching cannot establish a one-to-one mapping when the same Smith 1937 old name appears on multiple accepted pages",
+        "once literal old-name reuse is exposed, the workflow must keep the original parallel three-chain state rather than collapsing to a one-to-one mapping",
+        "type accession and locality evidence must be read separately for each chain rather than patched onto the first stopping page"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "reptile_003",
+      "go_task_id": "reptile_003-g",
+      "domain": "REPTILE_DATABASE",
+      "ecosystem": "REPTILE_DATABASE",
+      "start_url": "https://reptile-database.reptarium.cz/advanced_search",
+      "autonomy_type": "ordered table",
+      "declared_rows": 10,
+      "output_columns": [
+        "accepted",
+        "1980 label",
+        "qualifier",
+        "type status",
+        "first type code"
+      ],
+      "column_count": 5,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Retain only those current Eutropis accepted species for which the synonym block contains, scanning top-down, a first synonym label that begins with Mabuya or Mabuia and has the year 1980.",
+        "Then, perform an exact name search using that 1980 old label, and output the accepted name, old label, back-search qualifier, type status, and type specimen.",
+        "If the subsequent back-search reveals additional matching entries, revisit the earlier results and include them in the final output."
+      ],
+      "data_dependencies": [
+        "current Eutropis detail pages yield the first 1980-tagged Mabuya/Mabuia synonym label for each accepted species",
+        "exact back-search on that 1980 old label yields the present accepted page, type status, and type specimen needed for the output row",
+        "final rows are produced only after the 1980-specific old-label anchor is rebuilt and the accepted-species set is expanded when back-search evidence reveals omitted entries"
+      ],
+      "control_dependencies": [
+        "the workflow must identify the first Mabuya/Mabuia label carrying the 1980 year rather than stopping at the first old label on the page",
+        "when old-label back-search reveals missing entries such as Eutropis dattaroyi, the accepted-species set must be expanded to include them rather than patched in place",
+        "accepted-page synonym parsing and back-search interpretation must stay coupled so that 1980 labels are not replaced by older but irrelevant names"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "reptile_004",
+      "go_task_id": "reptile_004-g",
+      "domain": "REPTILE_DATABASE",
+      "ecosystem": "REPTILE_DATABASE",
+      "start_url": "https://reptile-database.reptarium.cz/advanced_search",
+      "autonomy_type": "ordered table",
+      "declared_rows": 6,
+      "output_columns": [
+        "legacy label",
+        "accepted",
+        "bridge",
+        "type status",
+        "type code",
+        "country"
+      ],
+      "column_count": 6,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Each result must start from the old-label chain specified in the task and ultimately determine the accepted name, bridge status, type status, type accession, and locality from the current accepted page.",
+        "For the subtriedroides branch, continue along tenkatei to murrayi, output the final accepted name as Hemidactylus murrayi, and retain bridge=Hemidactylus tenkatei.",
+        "For branches such as haitianus and leightoni, read their own locality/type lines rather than borrowing header information from the wrong page."
+      ],
+      "data_dependencies": [
+        "The old-label chains from Hemidactylus angulatus and related names yield accepted pages, bridge names, and the type/locality lines for each path.",
+        "Comment, Types, and type-comment blocks yield the later evidence that tenkatei is further sunk into H. murrayi.",
+        "Final rows are produced only after each old-label path is re-anchored to its own locality/type line and the subtriedroides -> tenkatei -> murrayi bridge chain is completed."
+      ],
+      "control_dependencies": [
+        "Type data must be taken from the locality/type line belonging to the actual old-label branch rather than from the header block of the wrong accepted page.",
+        "Stopping at the intermediate tenkatei bridge is insufficient; the workflow must continue to the later murrayi evidence and rewrite both tenkatei and subtriedroides final accepted names.",
+        "Bridge labels remain useful, but final accepted names and type lines must be determined from the deeper synonym chain."
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "reptile_005",
+      "go_task_id": "reptile_005-g",
+      "domain": "REPTILE_DATABASE",
+      "ecosystem": "REPTILE_DATABASE",
+      "start_url": "https://reptile-database.reptarium.cz/advanced_search?genus=Naja&submit=Search",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "rank",
+        "name_role",
+        "name",
+        "status_or_evidence",
+        "specimen_role",
+        "specimen_code",
+        "supporting_note"
+      ],
+      "column_count": 7,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Within the current Naja list, identify the Sri Lanka contested-name branch: the name was recently reused as a distinct valid name, but the database now explicitly merges it back into the accepted name.",
+        "On the current Naja naja page, read the recent-use evidence, final synonym status, lectotype correction, restricted type locality, and the holotype information for the contested name itself.",
+        "The final output must organize the ACCEPTED_NAME side and the CONTESTED_NAME side into a two-row comparison table."
+      ],
+      "data_dependencies": [
+        "the current Naja species list and the Naja naja page yield the Sri Lanka contested-name branch, recent-use citations, and the accepted-name context",
+        "comment, Types, and type-comment blocks yield the final synonym treatment plus the valid and invalid lectotype assignments and the contested-name holotype",
+        "final rows are produced only after the accepted-name side and the contested-name side are reconciled on the current Naja naja page"
+      ],
+      "control_dependencies": [
+        "recent-use evidence for Naja polyocellata must be interpreted together with the current final synonym treatment shown on that page",
+        "lectotype status must be fixed from the combined Types and type-comment evidence rather than from a single provisional assignment",
+        "the accepted-name and contested-name rows are emitted together only after final status, type locality, and specimen roles are fixed"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "wateroffice_001",
+      "go_task_id": "wateroffice_001-g",
+      "domain": "WATER_OFFICE",
+      "ecosystem": "WATER_OFFICE",
+      "start_url": "https://wateroffice.ec.gc.ca/search/real_time_e.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": [
+        "rank",
+        "station_number",
+        "breakpoint_role",
+        "target_window_status",
+        "final_verdict"
+      ],
+      "column_count": 5,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Determine the last station still usable for the target historical-window comparison only within the Saint John River mainstem stations in the current monitoring network.",
+        "On the historical availability page, Flow Data Availability must be distinguished from Daily Water Level Data Availability, and completeness for March–April 1973 and March–April 2018 must be checked.",
+        "The final output must provide both breakpoint rows, LAST_USABLE and FIRST_DOWNSTREAM_FAIL, under the same validation rule."
+      ],
+      "data_dependencies": [
+        "the current Saint John River mainstem station sequence provides the downstream order in which the breakpoints must be checked",
+        "per-station historical availability pages yield Flow Data Availability, Daily Water Level Data Availability, and target-month completeness for 1973 and 2018",
+        "the final breakpoint rows are produced only after the availability-page checks identify the last usable station and the first downstream failure under the same rule"
+      ],
+      "control_dependencies": [
+        "the breakpoint pair must be determined from historical availability that distinguishes flow from level-only evidence",
+        "target-year/month completeness must be checked on the availability page rather than inferred from the station list",
+        "the second row is emitted only after the first downstream failing mainstem station is fixed under the same validation rule"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "wateroffice_002",
+      "go_task_id": "wateroffice_002-g",
+      "domain": "WATER_OFFICE",
+      "ecosystem": "WATER_OFFICE",
+      "start_url": "https://wateroffice.ec.gc.ca/search/historical_e.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 4,
+      "output_columns": [
+        "rank",
+        "station_number",
+        "target_window_status",
+        "final_verdict"
+      ],
+      "column_count": 4,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "First identify mainstem candidate stations on the Historical Results list that appear to cover 1948/1950 and carry a Flow label.",
+        "A station qualifies only if its availability page shows the target years in the Flow section and all of April-July marked C.",
+        "The final output must report target_window_status and final_verdict for each station in the same station set, ordered from downstream to upstream."
+      ],
+      "data_dependencies": [
+        "the Historical Results list yields four downstream-to-upstream mainstem candidates whose result rows span the target years and include Flow labels",
+        "each candidate's availability page yields whether the target years are in the Flow table and whether April-July is complete",
+        "the final ordered rows are produced only after all four stations are classified under the full Flow-table-and-Apr-Jul-C rule"
+      ],
+      "control_dependencies": [
+        "list-level year spans and coarse Flow tags must be confirmed by explicit target-month checks on the availability page",
+        "Hazelton, Smithers, and Houston candidate statuses must be fixed before the downstream-most KEEP row can be confirmed",
+        "row order and KEEP/REJECT labels must be emitted only after the full availability-page rule is applied to all four stations"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "wateroffice_003",
+      "go_task_id": "wateroffice_003-g",
+      "domain": "WATER_OFFICE",
+      "ecosystem": "WATER_OFFICE",
+      "start_url": "https://wateroffice.ec.gc.ca/search/historical_e.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 5,
+      "output_columns": [
+        "rank",
+        "station_number",
+        "station_name",
+        "1958_MayJul",
+        "1971_MayJul",
+        "final_verdict"
+      ],
+      "column_count": 6,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "All five candidate stations must be verified on the availability page to confirm that the target years are present in the Flow table and that May–July is entirely marked C.",
+        "Each station must output a PASS / LEVEL_ONLY / FLOW_GAP judgment for both target years, and then be marked KEEP or REJECT accordingly.",
+        "The result order must follow the river-path ordering specified in the task."
+      ],
+      "data_dependencies": [
+        "the river-path ordering yields five South Thompson / Thompson mainstem candidates",
+        "each station's availability page yields whether 1958 and 1971 are present in the Flow table and whether May-July is complete",
+        "final rows are produced only after every candidate is classified under the stricter target-year and target-month Flow rule"
+      ],
+      "control_dependencies": [
+        "overall year coverage on the results list must be confirmed by the availability page inside the Flow table",
+        "Monte Creek, Savona, and Kamloops must be rejected by LEVEL_ONLY / FLOW_GAP evidence before the KEEP rows are final",
+        "the river-order sequence remains fixed, but station statuses must be assigned only after the availability-page rule is applied to all five stations"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "wateroffice_004",
+      "go_task_id": "wateroffice_004-g",
+      "domain": "WATER_OFFICE",
+      "ecosystem": "WATER_OFFICE",
+      "start_url": "https://wateroffice.ec.gc.ca/search/historical_e.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 13,
+      "output_columns": [
+        "rank",
+        "station_number",
+        "station_name",
+        "1955_MayOct",
+        "1956_MayOct",
+        "final_verdict"
+      ],
+      "column_count": 6,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Every candidate Columbia River station must be checked on its availability page to confirm that the target years appear in the Flow table and that May–October is fully marked C.",
+        "For each station, provide the KEEP/REJECT basis for both 1955 and 1956, distinguishing LEVEL_ONLY and FLOW_GAP cases from stations that only appear eligible from their overall year span.",
+        "The final table must preserve the order and fields specified in the task."
+      ],
+      "data_dependencies": [
+        "the Columbia River candidate ordering yields fourteen stations spanning the target years",
+        "each availability page yields whether 1955 and 1956 are present in the Flow table and whether May-October is complete",
+        "final rows are produced only after every station is classified under the stricter Flow-table-and-May-Oct-C rule"
+      ],
+      "control_dependencies": [
+        "list-level year spans must be confirmed by the availability page inside the Flow table",
+        "LEVEL_ONLY and FLOW_GAP evidence must be applied to each station before the KEEP/REJECT table is finalized",
+        "station-by-station verdicts and rejection reasons must be determined only after the full availability-page rule replaces the initial year-span screen"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "wateroffice_005",
+      "go_task_id": "wateroffice_005-g",
+      "domain": "WATER_OFFICE",
+      "ecosystem": "WATER_OFFICE",
+      "start_url": "https://wateroffice.ec.gc.ca/search/historical_e.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 3,
+      "output_columns": [
+        "rank",
+        "station_number",
+        "diagnosis_role",
+        "target_window_status",
+        "provisional_count",
+        "final_count"
+      ],
+      "column_count": 6,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Screen only among Peace River mainstem stations between Dunvegan Bridge and Fifth Meridian.",
+        "A genuinely reusable station must satisfy the availability-page rule that both 1966 and 1967 appear in the Flow table and that every month from May through September is complete.",
+        "The final output must jointly report FINAL_STATION, FIRST_BREAK_AFTER_FINAL, and PROVISIONAL_STATION, while repeating provisional_count and final_count in every row."
+      ],
+      "data_dependencies": [
+        "the Peace River mainstem chain between Dunvegan Bridge and Fifth Meridian yields the initial station list and the downstream breakpoint positions that need revalidation",
+        "each availability page yields whether 1966 and 1967 are present in the Flow or Level tables and whether May-September is complete",
+        "final rows are produced only after the final station, the first downstream failure, and the provisional downstream winner are all fixed under the same availability-page validation rule"
+      ],
+      "control_dependencies": [
+        "station-level target-year Flow evidence must be validated by explicit May-September completeness checks on the availability page",
+        "the final downstream reusable station and the first downstream failure must be determined under the same validation rule rather than from the initial station screen",
+        "the provisional downstream winner is kept in the output only for reference after its FLOW_GAP status is confirmed on the availability page"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "waterquality_001",
+      "go_task_id": "waterquality_001-g",
+      "domain": "WATER_QUALITY_PORTAL",
+      "ecosystem": "WATER_QUALITY_PORTAL",
+      "start_url": "https://www.waterqualitydata.us/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": null,
+      "column_count": null,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Select two target stations only from Rio Grande mainstem monitoring stations downstream of RIO GRANDE AT EMBUDO, NM, and both must have passed the specified outfall locations.",
+        "The station detail page must explicitly show River/Stream, and records for the four characteristic groups Microbiological, Nutrient, Organics, Other, and Physical must fully cover 2015–2020, while the start years for both Microbiological and Physical must be earlier than 2010.",
+        "Output the two final stations in upstream-to-downstream order."
+      ],
+      "data_dependencies": [
+        "provider/list views yield the Rio Grande mainstem candidates downstream of the Bernalillo and Rio Rancho No. 2 discharge points",
+        "detail pages yield flow position, location type, characteristic-group period-of-record coverage for 2015-2020, and the Microbiological/Physical baseline years",
+        "final rows are produced only after the corrected downstream sentry stations are fixed and ordered from upstream to downstream"
+      ],
+      "control_dependencies": [
+        "provider-list stream tags are only provisional and must be confirmed on the detail page by both mainstem placement and location type",
+        "target-window presence is insufficient until full 2015-2020 coverage is confirmed on the detail page for all four groups",
+        "once RG002/RG007 fail the full detail-page checks, the workflow must continue downstream from the discharge-point starting position to RG003/RG008"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "waterquality_002",
+      "go_task_id": "waterquality_002-g",
+      "domain": "WATER_QUALITY_PORTAL",
+      "ecosystem": "WATER_QUALITY_PORTAL",
+      "start_url": "https://www.waterqualitydata.us/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 2,
+      "output_columns": null,
+      "column_count": null,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Select one representative station for Hidalgo County and one for Cameron County from monitoring stations located below RIO GRANDE BELOW ANZALDUAS and still within HUC 13090002.",
+        "Candidate detail pages must list the type as River/Stream, and records for all four characteristic groups (Microbiological, Nutrient, Organics, Other, Physical) must cover 2001–2010.",
+        "If multiple stations in the same county qualify, select the station with the earliest year in which all four groups are simultaneously present."
+      ],
+      "data_dependencies": [
+        "the fixed downstream starting point and county split yield Hidalgo and Cameron candidate mainstem stations within HUC 13090002",
+        "detail pages yield River/Stream validity, the four characteristic-group start years, and the earliest year when all four groups are simultaneously present for 2001-2010 coverage",
+        "final rows are produced only after the county-specific searches are rerun from the fixed downstream starting point and then ranked by common-start year"
+      ],
+      "control_dependencies": [
+        "the Hidalgo search must preserve the \"below TCEQMAIN-13664\" downstream starting point rather than returning to the anchor station itself",
+        "a station is only provisional until all four characteristic groups are confirmed for the same MonitoringLocationIdentifier and tidal/intake conflicts are excluded on the detail page",
+        "county winners are valid only after late-start and non-river candidates are removed and the common-start-year tie-break is recomputed"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "waterquality_003",
+      "go_task_id": "waterquality_003-g",
+      "domain": "WATER_QUALITY_PORTAL",
+      "ecosystem": "WATER_QUALITY_PORTAL",
+      "start_url": "https://www.waterqualitydata.us/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 3,
+      "output_columns": [
+        "HUC",
+        "MonitoringLocationIdentifier",
+        "common_start_year",
+        "Inorganics_start",
+        "Microbiological_start",
+        "Nutrient_start",
+        "Organics_Other_start",
+        "Physical_start"
+      ],
+      "column_count": 8,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "The search must stay anchored downstream of Waco and look for Brazos mainstem monitoring stations within the three HUCs specified in the task.",
+        "Each candidate station must be checked separately across the five characteristic groups and then matched back to the same station ID, after which the detail page must verify full 2012–2018 coverage and mainstem semantics.",
+        "For each HUC, retain only the qualifying station with the earliest common start year, and output the start-year fields required by the task."
+      ],
+      "data_dependencies": [
+        "the fixed downstream starting point below Waco and the three target HUC searches yield the Brazos mainstem candidate stations",
+        "detail pages yield true downstream position, mainstem-vs-tributary semantics, and five-group period-of-record coverage across 2012-2018",
+        "final rows are produced only after the three HUC-specific searches are carried out, matched by station ID, and ranked by the earliest year when all five groups are jointly available"
+      ],
+      "control_dependencies": [
+        "the workflow must stay anchored downstream of Waco rather than reintroducing upstream stations such as TCEQMAIN-12044",
+        "name-based waterbody matches must be validated on the detail page by excluding tributaries such as LITTLE BRAZOS RIVER and confirming full-window coverage",
+        "station ranking must be determined after false positives from partial-window records are removed"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "waterquality_004",
+      "go_task_id": "waterquality_004-g",
+      "domain": "WATER_QUALITY_PORTAL",
+      "ecosystem": "WATER_QUALITY_PORTAL",
+      "start_url": "https://www.waterqualitydata.us/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 3,
+      "output_columns": [
+        "HUC",
+        "MonitoringLocationIdentifier",
+        "common_start_year",
+        "Inorganics_start",
+        "Microbiological_start",
+        "Nutrient_start",
+        "Organics_Other_start",
+        "Organics_PCBs_start",
+        "Physical_start"
+      ],
+      "column_count": 9,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Screen only among candidate stations where Trinity River mainstem semantics hold, and require all six characteristic groups to cover 1993–2001.",
+        "The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full-window coverage and legacy toxics group completeness.",
+        "For each target segment, retain only the station that meets all group requirements and has the best common start year."
+      ],
+      "data_dependencies": [
+        "Trinity River mainstem candidate stations are generated from the target HUC searches and the six characteristic-group searches",
+        "detail pages yield River/Stream validity, 1993–2001 full-window coverage, and the group-specific start years needed for ranking",
+        "final rows are produced only after all six groups have been matched by station ID and detail-page validation removes partial-group and non-mainstem false positives"
+      ],
+      "control_dependencies": [
+        "each of the six characteristic groups must be evaluated separately and confirmed against the same station ID before a multi-select result can be retained",
+        "station names and River/Stream tags are insufficient until the detail page confirms Trinity mainstem semantics and 1993–2001 full-window coverage",
+        "candidate rejection and final ranking must be determined after applying the PCBs / Organics, Other gap checks"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "waterquality_005",
+      "go_task_id": "waterquality_005-g",
+      "domain": "WATER_QUALITY_PORTAL",
+      "ecosystem": "WATER_QUALITY_PORTAL",
+      "start_url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10598/",
+      "autonomy_type": "ordered table",
+      "declared_rows": 9,
+      "output_columns": [
+        "rank",
+        "MonitoringLocationIdentifier",
+        "HUC",
+        "County",
+        "characteristic_group",
+        "group_start_year",
+        "common_start_year"
+      ],
+      "column_count": 7,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Search only among TCEQ monitoring stations downstream of NECHES RIVER AT CR 4915 that still represent the inland Neches River mainstem.",
+        "A candidate station must cover 1978-1984 in all nine Characteristic Groups and, on the detail page, must still qualify as River/Stream, outside lake or reservoir waters, and outside the Sabine-Neches outlet boundary reach.",
+        "The final output must be centered on the single winning station and list group_start_year plus common_start_year row by row in the fixed nine-group order."
+      ],
+      "data_dependencies": [
+        "the fixed downstream starting point at NECHES RIVER AT CR 4915 yields candidate inland mainstem stations across successive downstream HUCs",
+        "detail pages yield River/Stream validity, inland-vs-boundary semantics, and nine-group period-of-record coverage across 1978-1984",
+        "final rows are produced only after one winning station survives the inland-mainstem checks and the requirement that all nine groups match the same station, after which its nine group start years are emitted in the required order"
+      ],
+      "control_dependencies": [
+        "the nearest downstream mainstem station remains provisional until all nine characteristic groups have been checked separately and matched back to the same station ID",
+        "the downstream search must continue to the next mainstem HUC when the first candidate fails the nine-group coverage requirement",
+        "location semantics remain valid only after detail-page exclusion of lake/reservoir and Sabine-Neches boundary stations"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "wonder_003",
+      "go_task_id": "wonder_003-g",
+      "domain": "CDC_WONDER",
+      "ecosystem": "CDC_WONDER",
+      "start_url": "https://wonder.cdc.gov/natality-expanded-current.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 8,
+      "output_columns": [
+        "month",
+        "all_2019",
+        "all_2020",
+        "all_rel",
+        "black_2020",
+        "black_rel",
+        "hispanic_2020",
+        "hispanic_rel"
+      ],
+      "column_count": 8,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "First, compare the home-birth rates for all mothers by calendar month between 2019 and 2020, retaining only months in 2020 where the rate increased by at least 25% relative to the same month in 2019.",
+        "The home-birth numerator must use the full home category, not Home intended alone.",
+        "For those months, add the 2020 home-birth rates for non-Hispanic Black and Hispanic mothers, along with their changes relative to the same month in 2019."
+      ],
+      "data_dependencies": [
+        "Monthly natality queries yield the 2019 vs 2020 home-birth rates for all mothers and the candidate month set.",
+        "Follow-up race/ethnicity queries yield the 2020 home-birth rates for non-Hispanic Black and Hispanic mothers, plus their same-month changes versus 2019.",
+        "Final rows are produced only after qualifying months are determined from rate growth, and the resulting month set is reused for both subgroup backfill chains."
+      ],
+      "control_dependencies": [
+        "Month selection must be based on relative rate increase rather than counts alone.",
+        "The home-birth numerator must use Residence or an equivalent full-home measure rather than Home intended alone before downstream subgroup queries run.",
+        "Subgroup columns must be generated from the resulting month set rather than appended to earlier rows."
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    },
+    {
+      "task_id": "wonder_004",
+      "go_task_id": "wonder_004-g",
+      "domain": "CDC_WONDER",
+      "ecosystem": "CDC_WONDER",
+      "start_url": "https://wonder.cdc.gov/lbd-current-expanded.html",
+      "autonomy_type": "ordered table",
+      "declared_rows": 3,
+      "output_columns": [
+        "group",
+        "infant_rate",
+        "neonatal_rate",
+        "postneonatal_rate",
+        "top_cause",
+        "cause_rate",
+        "us_rank"
+      ],
+      "column_count": 7,
+      "dependency_type": "Data + Control",
+      "intra_chain": true,
+      "inter_chain": true,
+      "state_requirements": [
+        "Retain only groups that are separately listed in the 2021 U.S. infant mortality statistics, have a full-year infant mortality rate above the U.S. overall rate, and have a clearly identifiable leading cause of death.",
+        "For each qualifying group, provide the infant rate, neonatal rate, postneonatal rate, top cause, cause rate, and the rank of that cause among all infant causes.",
+        "The leading cause must be determined by a group-level leading-cause query and verified for availability using notes/reliability markers."
+      ],
+      "data_dependencies": [
+        "infant-mortality queries yield group-level overall, neonatal, and postneonatal rates for reportable mother race/Hispanic-origin groups",
+        "leading-cause queries and reliability notes yield each eligible group's top cause, cause-specific rate, and U.S. rank",
+        "final rows are produced only after the eligible-group set is rebuilt using both overall-rate and cause-specific-identifiability criteria"
+      ],
+      "control_dependencies": [
+        "groups above the U.S. overall rate cannot be accepted until cause-specific reliability checks are run, which removes NHOPI",
+        "leading cause must be queried at the group level rather than inherited from an all-infants cause table",
+        "the cause-rate multiplier must be defined as per 100,000 live births before downstream ranking/output"
+      ],
+      "pair_exact_checks": {
+        "same_domain": true,
+        "same_declared_rows": true,
+        "same_oracle_text": true
+      }
+    }
+  ]
+}

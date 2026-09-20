@@ -1,0 +1,28 @@
+{
+  "started_at_utc": "2026-09-13T06:22:18.771000+00:00",
+  "started_source": "native turn_context timestamp provided by controller",
+  "reference_ready_at_utc": "2026-09-13T06:38:38.933723+00:00",
+  "ended_at_utc": "2026-09-13T06:38:38.933723+00:00",
+  "elapsed_seconds": 980.162723,
+  "work_order_limit_seconds": 1800,
+  "new_public_requests": 32,
+  "successful_new_requests": 32,
+  "new_response_bytes": 2516643,
+  "request_elapsed_seconds_sum": 60.37850825081114,
+  "network_wall_time_not_sum": "Some independent GETs ran four at a time; sum is not work wall time.",
+  "reused_opportunity_requests": 5,
+  "reused_opportunity_response_bytes": 489862,
+  "reused_cost_not_charged_as_new_requests": true,
+  "new_model_tests": 0,
+  "subagents_spawned": 0,
+  "tokens": null,
+  "money": null,
+  "token_note": "Unknown here; controller/native usage is authoritative.",
+  "ledger": "sources/request_index.jsonl",
+  "request_classes": {
+    "original_subscription_preview": 1,
+    "initial_complete_core": 1,
+    "new_needed_main_texts": 13,
+    "final_complete_core_and_16_needed_main_texts": 17
+  }
+}

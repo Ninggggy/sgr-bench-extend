@@ -1,0 +1,674 @@
+[
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "below_mdl",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "available",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "below_or_equal",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "6",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "available",
+      "crosses"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "below_mdl",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "available",
+      "crosses"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "available",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "available",
+      "crosses"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "crosses",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "available",
+      "crosses"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "4",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "below_mdl",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "withdrawn",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "unresolved_hardness",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "below_mdl",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "1",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "above"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "between_mdl_rl",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "above"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "available",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "above"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "above",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "above"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "1",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "between_mdl_rl",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "available",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "below_or_equal",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "13",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "crosses"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "between_mdl_rl",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "crosses"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "available",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "crosses"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "crosses",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "available",
+      "crosses"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "13",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "between_mdl_rl",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "withdrawn",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "unresolved_hardness",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "between_mdl_rl",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "3",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "not_reported",
+      "available",
+      "not_reported"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "not_reported",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "not_reported",
+      "available",
+      "not_reported"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "available",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "not_reported",
+      "available",
+      "not_reported"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "not_reported",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "not_reported",
+      "available",
+      "not_reported"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "available",
+      "above"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "point",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "available",
+      "above"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "available",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "available",
+      "above"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "above",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "available",
+      "above"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "14",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "point",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "available",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "below_or_equal",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "available",
+      "below_or_equal"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "24",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "point",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "withdrawn",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "unresolved_hardness",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "point",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "3",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "unresolved_u_limit",
+      "available",
+      "unresolved_limit"
+    ],
+    "field": "evidence",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "unresolved_u_limit",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "unresolved_u_limit",
+      "available",
+      "unresolved_limit"
+    ],
+    "field": "hardness_state",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "available",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "unresolved_u_limit",
+      "available",
+      "unresolved_limit"
+    ],
+    "field": "screen",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "unresolved_limit",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "unresolved_u_limit",
+      "available",
+      "unresolved_limit"
+    ],
+    "field": "n_results",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "17",
+    "correct": false,
+    "reason": "omitted_row"
+  }
+]

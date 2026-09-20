@@ -1,0 +1,1079 @@
+{
+  "updated_at": "2026-09-08T13:22:51.559080+00:00",
+  "purpose": "Four content blind solves and two separate blind shortcut attempts; no result here is a difficulty screening or confirmation run",
+  "prespecified_plan": "content_run_plan.json",
+  "actual_runs": [
+    {
+      "label": "r02_content_A_CG",
+      "variant": "cg",
+      "run": "runs/r-66b46047bdd4",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "downloads": [
+        {
+          "requested_at": "2026-09-08T12:53:53.215454+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&dataProfile=station",
+          "status": 500,
+          "error": "HTTP Error 500: Internal Server Error",
+          "file_id": "d0001",
+          "bytes": 0,
+          "archive_members": null,
+          "full_csv_rows": 0
+        },
+        {
+          "requested_at": "2026-09-08T12:54:43.066209+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0002",
+          "bytes": 1585,
+          "archive_members": [
+            {
+              "file_id": "d0003",
+              "name": "station.csv",
+              "bytes": 6033
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:55:17.670744+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS",
+          "status": 200,
+          "error": null,
+          "file_id": "d0004",
+          "bytes": 9825,
+          "archive_members": null,
+          "full_csv_rows": 26
+        },
+        {
+          "requested_at": "2026-09-08T12:55:54.312077+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030102&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0005",
+          "bytes": 7356,
+          "archive_members": [
+            {
+              "file_id": "d0006",
+              "name": "station.csv",
+              "bytes": 62766
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:56:05.458184+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030103&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0007",
+          "bytes": 3248,
+          "archive_members": [
+            {
+              "file_id": "d0008",
+              "name": "station.csv",
+              "bytes": 20765
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:56:11.154505+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030104&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0009",
+          "bytes": 1699,
+          "archive_members": [
+            {
+              "file_id": "d0010",
+              "name": "station.csv",
+              "bytes": 9445
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:56:13.653891+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030105&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0011",
+          "bytes": 1628,
+          "archive_members": [
+            {
+              "file_id": "d0012",
+              "name": "station.csv",
+              "bytes": 6687
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:56:18.824425+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030106&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0013",
+          "bytes": 2928,
+          "archive_members": [
+            {
+              "file_id": "d0014",
+              "name": "station.csv",
+              "bytes": 19827
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:56:24.084544+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030107&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0015",
+          "bytes": 917,
+          "archive_members": [
+            {
+              "file_id": "d0016",
+              "name": "station.csv",
+              "bytes": 2318
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:56:27.697171+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030109&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0017",
+          "bytes": 1569,
+          "archive_members": [
+            {
+              "file_id": "d0018",
+              "name": "station.csv",
+              "bytes": 5924
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:56:29.873121+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030108&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0019",
+          "bytes": 1294,
+          "archive_members": [
+            {
+              "file_id": "d0020",
+              "name": "station.csv",
+              "bytes": 5119
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:56:32.279291+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030201&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0021",
+          "bytes": 1134,
+          "archive_members": [
+            {
+              "file_id": "d0022",
+              "name": "station.csv",
+              "bytes": 2990
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:56:33.717720+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030202&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0023",
+          "bytes": 2710,
+          "archive_members": [
+            {
+              "file_id": "d0024",
+              "name": "station.csv",
+              "bytes": 15280
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:57:00.057571+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no&pCode=00010;00095;00300;00400",
+          "status": 200,
+          "error": null,
+          "file_id": "d0027",
+          "bytes": 60119,
+          "archive_members": [
+            {
+              "file_id": "d0028",
+              "name": "result.csv",
+              "bytes": 1898681
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T12:57:08.546132+00:00",
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "status": 200,
+          "error": null,
+          "file_id": "d0029",
+          "bytes": 31864,
+          "archive_members": [
+            {
+              "file_id": "d0030",
+              "name": "activity.csv",
+              "bytes": 390579
+            }
+          ],
+          "full_csv_rows": null
+        }
+      ],
+      "tool_counts": {
+        "download": 15,
+        "query_csv": 20
+      },
+      "actual_model": "gpt-6-astra",
+      "effort": "high",
+      "current_date": "2026-09-08",
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 877.327,
+      "ending_reason": "exited",
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 726415,
+        "cached_input_tokens": 675968,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9783,
+        "reasoning_output_tokens": 592
+      },
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 504,
+        "gold_fields": 504,
+        "pred_fields": 504,
+        "item_denominator": 1008,
+        "correct_rows": 36,
+        "gold_rows": 36,
+        "pred_rows": 36,
+        "row_denominator": 72,
+        "correct_pairs": 630,
+        "pair_denominator": 630,
+        "shared_ids": 36
+      },
+      "parse_status": "parsed",
+      "evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "Legacy WQX 2.2 notice; query definitions for organization, huc, startDateLo, startDateHi, siteid and pCode."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 15 records; zero locations satisfy the exact mainstem name/type filters."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030102&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 184 records; zero retained mainstem locations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030103&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 58 records; zero retained mainstem locations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030104&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 25 records; zero retained mainstem locations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030105&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 18 records; retained USGS-08056400, USGS-08057000, USGS-08057030, USGS-08057055, USGS-08057070, USGS-08057410, USGS-08057448, USGS-08057449, USGS-08062500 and USGS-08062700."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030106&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 54 records; zero retained mainstem locations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030107&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 4 records; zero retained mainstem locations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030108&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 13 records; zero retained mainstem locations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030109&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 15 records; zero retained mainstem locations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030201&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 6 records; retained USGS-08065000."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030202&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "station.csv: 42 records; retained USGS-08065350, USGS-08066000 and USGS-08066250."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS",
+          "locator": "station.csv: 26 records; retained USGS-08066500, USGS-08067000 and USGS-08067252. Wallisville is Stream: Tidal stream."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no",
+          "locator": "Complete activity.csv: 1,026 distinct organization/activity keys; 941 Water/Sample-Routine activities. All result links agree on location and start date. Reported depth metadata preserved."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&sorted=no&pCode=00010;00095;00300;00400",
+          "locator": "Complete result.csv: 3,782 results across 977 activities. Filtering yields 833 complete eligible panels. All 210 intervals evaluated: 53 feasible, three undominated. Independent SQL recomputation matches all 36 output rows."
+        }
+      ],
+      "limitations": [
+        "The initial combined-HUC station request returned HTTP 500. Separate requests successfully retrieved all 12 HUCs, resolving the retrieval failure.",
+        "The analysis uses the legacy WQX 2.2 records actually retrieved, not an assumed historical snapshot. That profile excludes USGS data added after March 11, 2024."
+      ],
+      "raw_final_answer_path": "runs/r-66b46047bdd4/answer.txt",
+      "sql_calls": [
+        {
+          "started_at": "2026-09-08T12:56:35.691375+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0004"
+            },
+            "sql": "SELECT OrganizationIdentifier,MonitoringLocationIdentifier,MonitoringLocationName,MonitoringLocationTypeName,HUCEightDigitCode FROM s WHERE substr(MonitoringLocationName,1,11)='Trinity Rv '",
+            "limit": 100
+          },
+          "result_file_id": "d0025",
+          "rows_returned_by_query": 3,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T12:56:51.189112+00:00",
+          "arguments": {
+            "tables": {
+              "s0": "d0003",
+              "s1": "d0006",
+              "s2": "d0008",
+              "s3": "d0010",
+              "s4": "d0012",
+              "s5": "d0014",
+              "s6": "d0016",
+              "s7": "d0020",
+              "s8": "d0018",
+              "s9": "d0022",
+              "s10": "d0024",
+              "s11": "d0004"
+            },
+            "sql": "WITH s AS (SELECT * FROM s0 UNION ALL SELECT * FROM s1 UNION ALL SELECT * FROM s2 UNION ALL SELECT * FROM s3 UNION ALL SELECT * FROM s4 UNION ALL SELECT * FROM s5 UNION ALL SELECT * FROM s6 UNION ALL SELECT * FROM s7 UNION ALL SELECT * FROM s8 UNION ALL SELECT * FROM s9 UNION ALL SELECT * FROM s10 UNION ALL SELECT * FROM s11) SELECT DISTINCT OrganizationIdentifier,MonitoringLocationIdentifier,MonitoringLocationName,MonitoringLocationTypeName,HUCEightDigitCode FROM s WHERE substr(MonitoringLocationName,1,11)='Trinity Rv ' AND MonitoringLocationTypeName IN ('Stream','Stream: Tidal stream') ORDER BY MonitoringLocationIdentifier",
+            "limit": 100
+          },
+          "result_file_id": "d0026",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T12:57:27.752805+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0028"
+            },
+            "sql": "SELECT * FROM t LIMIT 1",
+            "limit": 1
+          },
+          "result_file_id": "d0031",
+          "rows_returned_by_query": 1,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T12:57:27.841060+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0030"
+            },
+            "sql": "SELECT * FROM t LIMIT 1",
+            "limit": 1
+          },
+          "result_file_id": "d0032",
+          "rows_returned_by_query": 1,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T12:57:47.460482+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0028"
+            },
+            "sql": "SELECT USGSPCode, \"ResultMeasure/MeasureUnitCode\" AS unit, ResultStatusIdentifier, ResultValueTypeName, ResultDetectionConditionText, MeasureQualifierCode,COUNT(*) AS n FROM r GROUP BY 1,2,3,4,5,6 ORDER BY 1,2,3",
+            "limit": 200
+          },
+          "result_file_id": "d0033",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T12:57:47.602720+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0030",
+              "r": "d0028"
+            },
+            "sql": "SELECT 'duplicate_activity_keys' AS check_name, COUNT(*) AS n FROM (SELECT OrganizationIdentifier,ActivityIdentifier FROM a GROUP BY 1,2 HAVING COUNT(*)>1) UNION ALL SELECT 'unmatched_or_disagreeing_result_rows',COUNT(*) FROM r LEFT JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier WHERE a.ActivityIdentifier IS NULL OR a.MonitoringLocationIdentifier<>r.MonitoringLocationIdentifier OR a.ActivityStartDate<>r.ActivityStartDate UNION ALL SELECT 'media_or_type_mismatch',COUNT(*) FROM r JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier WHERE r.ActivityMediaName<>a.ActivityMediaName OR r.ActivityTypeCode<>a.ActivityTypeCode",
+            "limit": 100
+          },
+          "result_file_id": "d0034",
+          "rows_returned_by_query": 3,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:42.375941+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0030"
+            },
+            "sql": "SELECT OrganizationIdentifier,ActivityIdentifier,MonitoringLocationIdentifier,ActivityTypeCode,ActivityMediaName,ActivityStartDate,\"ActivityStartTime/Time\",\"ActivityDepthHeightMeasure/MeasureValue\",\"ActivityDepthHeightMeasure/MeasureUnitCode\",ActivityRelativeDepthName,\"ActivityTopDepthHeightMeasure/MeasureValue\",\"ActivityBottomDepthHeightMeasure/MeasureValue\" FROM a",
+            "limit": 2000
+          },
+          "result_file_id": "d0035",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:42.420724+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0028"
+            },
+            "sql": "SELECT OrganizationIdentifier,ActivityIdentifier,MonitoringLocationIdentifier,ActivityStartDate,USGSPCode,ResultMeasureValue,\"ResultMeasure/MeasureUnitCode\",ResultStatusIdentifier,ResultValueTypeName,ResultDetectionConditionText,MeasureQualifierCode FROM r",
+            "limit": 5000
+          },
+          "result_file_id": "d0036",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:49.933125+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0035"
+            },
+            "sql": "SELECT * FROM t",
+            "limit": 500,
+            "offset": 1000
+          },
+          "result_file_id": "d0037",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:49.944692+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0035"
+            },
+            "sql": "SELECT * FROM t",
+            "limit": 500,
+            "offset": 500
+          },
+          "result_file_id": "d0038",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:49.956221+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0036"
+            },
+            "sql": "SELECT * FROM t",
+            "limit": 500,
+            "offset": 500
+          },
+          "result_file_id": "d0039",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:49.988234+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0036"
+            },
+            "sql": "SELECT * FROM t",
+            "limit": 500,
+            "offset": 1000
+          },
+          "result_file_id": "d0040",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:50.019951+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0036"
+            },
+            "sql": "SELECT * FROM t",
+            "limit": 500,
+            "offset": 1500
+          },
+          "result_file_id": "d0041",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:50.051197+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0036"
+            },
+            "sql": "SELECT * FROM t",
+            "limit": 500,
+            "offset": 2000
+          },
+          "result_file_id": "d0042",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:50.082148+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0036"
+            },
+            "sql": "SELECT * FROM t",
+            "limit": 500,
+            "offset": 2500
+          },
+          "result_file_id": "d0043",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:50.113986+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0036"
+            },
+            "sql": "SELECT * FROM t",
+            "limit": 500,
+            "offset": 3500
+          },
+          "result_file_id": "d0044",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:00:50.144956+00:00",
+          "arguments": {
+            "tables": {
+              "t": "d0036"
+            },
+            "sql": "SELECT * FROM t",
+            "limit": 500,
+            "offset": 3000
+          },
+          "result_file_id": "d0045",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:02:27.363979+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0030",
+              "r": "d0028"
+            },
+            "sql": "WITH usable AS (\nSELECT r.OrganizationIdentifier,r.ActivityIdentifier,r.USGSPCode,CAST(r.ResultMeasureValue AS REAL) AS val\nFROM r JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier AND r.MonitoringLocationIdentifier=a.MonitoringLocationIdentifier AND r.ActivityStartDate=a.ActivityStartDate\nWHERE a.ActivityTypeCode='Sample-Routine' AND a.ActivityMediaName='Water'\nAND r.ResultStatusIdentifier IN ('Accepted','Final') AND r.ResultValueTypeName='Actual' AND r.ResultDetectionConditionText='' AND r.MeasureQualifierCode=''\nAND ((r.USGSPCode='00010' AND r.\"ResultMeasure/MeasureUnitCode\"='deg C') OR (r.USGSPCode='00095' AND r.\"ResultMeasure/MeasureUnitCode\"='uS/cm @25C') OR (r.USGSPCode='00300' AND r.\"ResultMeasure/MeasureUnitCode\"='mg/l') OR (r.USGSPCode='00400' AND r.\"ResultMeasure/MeasureUnitCode\"='std units'))\n), p AS (\nSELECT OrganizationIdentifier,ActivityIdentifier,USGSPCode,MIN(val) AS val,COUNT(DISTINCT val) AS n FROM usable GROUP BY 1,2,3\n), panels AS (\nSELECT OrganizationIdentifier,ActivityIdentifier,\nMAX(CASE WHEN USGSPCode='00010' THEN val END) AS temp,\nMAX(CASE WHEN USGSPCode='00095' THEN val END) AS conductance,\nMAX(CASE WHEN USGSPCode='00300' THEN val END) AS oxygen,\nMAX(CASE WHEN USGSPCode='00400' THEN val END) AS ph\nFROM p GROUP BY 1,2 HAVING COUNT(*)=4 AND MAX(n)=1\n)\nSELECT a.OrganizationIdentifier,a.ActivityIdentifier,a.MonitoringLocationIdentifier,a.ActivityStartDate,a.\"ActivityStartTime/Time\" AS clock,\nCAST(substr(a.ActivityStartDate,1,4) AS INTEGER) AS year,\n1+(CAST(substr(a.ActivityStartDate,6,2) AS INTEGER)-1)/3 AS quarter,\npanels.temp,panels.conductance,panels.oxygen,panels.ph\nFROM panels JOIN a ON panels.OrganizationIdentifier=a.OrganizationIdentifier AND panels.ActivityIdentifier=a.ActivityIdentifier",
+            "limit": 1
+          },
+          "result_file_id": "d0046",
+          "rows_returned_by_query": 833,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:02:57.000544+00:00",
+          "arguments": {
+            "tables": {
+              "p": "d0046",
+              "s": "d0026"
+            },
+            "sql": "WITH RECURSIVE years(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM years WHERE y<2019),\nsupport AS (SELECT OrganizationIdentifier,MonitoringLocationIdentifier,CAST(year AS INTEGER) AS y FROM p GROUP BY 1,2,3 HAVING COUNT(DISTINCT quarter)=4),\nwindows AS (SELECT x.y AS start_year,z.y AS end_year,z.y-x.y+1 AS duration FROM years x JOIN years z ON z.y>=x.y),\ncohorts AS (\nSELECT w.start_year,w.end_year,w.duration,s.OrganizationIdentifier,s.MonitoringLocationIdentifier\nFROM windows w JOIN support s ON s.y BETWEEN w.start_year AND w.end_year\nGROUP BY 1,2,3,4,5 HAVING COUNT(*)=w.duration\n),\nfeasible AS (SELECT start_year,end_year,duration,COUNT(*) AS coverage FROM cohorts GROUP BY 1,2,3 HAVING COUNT(*)>=2),\nfrontier AS (SELECT f.* FROM feasible f WHERE NOT EXISTS (SELECT 1 FROM feasible g WHERE g.duration>=f.duration AND g.coverage>=f.coverage AND (g.duration>f.duration OR g.coverage>f.coverage))),\nranked AS (\nSELECT f.start_year,f.end_year,f.coverage,p.*,s.HUCEightDigitCode,\nCOUNT(*) OVER (PARTITION BY f.start_year,f.end_year,p.OrganizationIdentifier,p.MonitoringLocationIdentifier,p.quarter) AS n,\nROW_NUMBER() OVER (PARTITION BY f.start_year,f.end_year,p.OrganizationIdentifier,p.MonitoringLocationIdentifier,p.quarter ORDER BY CAST(p.oxygen AS REAL),p.ActivityStartDate,CASE WHEN p.clock='' THEN 1 ELSE 0 END,p.clock,p.ActivityIdentifier COLLATE BINARY) AS rn\nFROM frontier f JOIN cohorts c ON f.start_year=c.start_year AND f.end_year=c.end_year\nJOIN p ON p.OrganizationIdentifier=c.OrganizationIdentifier AND p.MonitoringLocationIdentifier=c.MonitoringLocationIdentifier AND CAST(p.year AS INTEGER) BETWEEN f.start_year AND f.end_year\nJOIN s ON s.OrganizationIdentifier=p.OrganizationIdentifier AND s.MonitoringLocationIdentifier=p.MonitoringLocationIdentifier\n)\nSELECT start_year,end_year,coverage,OrganizationIdentifier,MonitoringLocationIdentifier,HUCEightDigitCode,'Q'||quarter,n,ActivityIdentifier,ActivityStartDate,printf('%.2f',CAST(oxygen AS REAL)),printf('%.2f',CAST(temp AS REAL)),printf('%.2f',CAST(conductance AS REAL)),printf('%.2f',CAST(ph AS REAL)) FROM ranked WHERE rn=1 ORDER BY start_year,end_year,MonitoringLocationIdentifier,CAST(quarter AS INTEGER)",
+            "limit": 100
+          },
+          "result_file_id": "d0047",
+          "rows_returned_by_query": 36,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:02:57.025159+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0030"
+            },
+            "sql": "SELECT ActivityTypeCode,ActivityMediaName,COUNT(*) AS n FROM a GROUP BY 1,2",
+            "limit": 100
+          },
+          "result_file_id": "d0048",
+          "rows_returned_by_query": 6,
+          "error": null
+        }
+      ],
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-6-astra",
+        "effort": "high",
+        "raw_tool_records": 42,
+        "tool_calls": {
+          "exec": 15,
+          "wait": 6
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      }
+    },
+    {
+      "label": "r02_content_B_CG",
+      "variant": "cg",
+      "run": "runs/r-e437c6a3f566",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "downloads": [
+        {
+          "requested_at": "2026-09-08T13:09:05.655833+00:00",
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "status": 200,
+          "error": null,
+          "file_id": "d0001",
+          "bytes": 18723,
+          "archive_members": [
+            {
+              "file_id": "d0002",
+              "name": "station.csv",
+              "bytes": 155748
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T13:09:45.619056+00:00",
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "status": 200,
+          "error": null,
+          "file_id": "d0005",
+          "bytes": 31864,
+          "archive_members": [
+            {
+              "file_id": "d0006",
+              "name": "activity.csv",
+              "bytes": 390579
+            }
+          ],
+          "full_csv_rows": null
+        },
+        {
+          "requested_at": "2026-09-08T13:09:49.531365+00:00",
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010%3B00095%3B00300%3B00400",
+          "status": 200,
+          "error": null,
+          "file_id": "d0007",
+          "bytes": 60119,
+          "archive_members": [
+            {
+              "file_id": "d0008",
+              "name": "result.csv",
+              "bytes": 1898681
+            }
+          ],
+          "full_csv_rows": null
+        }
+      ],
+      "tool_counts": {
+        "download": 3,
+        "query_csv": 18
+      },
+      "actual_model": "gpt-6-astra",
+      "effort": "high",
+      "current_date": "2026-09-08",
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 403.547,
+      "ending_reason": "exited",
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 456055,
+        "cached_input_tokens": 408064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7569,
+        "reasoning_output_tokens": 596
+      },
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 504,
+        "gold_fields": 504,
+        "pred_fields": 504,
+        "item_denominator": 1008,
+        "correct_rows": 36,
+        "gold_rows": 36,
+        "pred_rows": 36,
+        "row_denominator": 72,
+        "correct_pairs": 630,
+        "pair_denominator": 630,
+        "shared_ids": 36
+      },
+      "parse_status": "parsed",
+      "evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "locator": "station.zip/ station.csv: all 460 records inspected; 17 match the exact name-prefix and location-type rules. MonitoringLocationIdentifier and HUCEightDigitCode identify the retained stations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "locator": "activity.zip/activity.csv: 1,026 records, matching the response count; 941 Water/Sample-Routine activities. Organization/activity keys are unique; all retrieved results link with matching station and start date. Dates, local times, and depth metadata retained."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010%3B00095%3B00300%3B00400",
+          "locator": "result.zip/result.csv: all 3,782 records processed, matching the response count. Quality, numeric, unit, identity, and panel checks yield 833 complete eligible activities and 45 supported station-years. All 210 intervals evaluated; 53 feasible intervals yield the three reported frontier windows. Measurements verified against the selected ActivityIdentifier/USGSPCode records."
+        }
+      ],
+      "limitations": [],
+      "raw_final_answer_path": "runs/r-e437c6a3f566/answer.txt",
+      "sql_calls": [
+        {
+          "started_at": "2026-09-08T13:09:33.945254+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0002"
+            },
+            "sql": "SELECT * FROM s WHERE substr(\"MonitoringLocationName\",1,11) = 'Trinity Rv ' AND \"MonitoringLocationTypeName\" IN ('Stream','Stream: Tidal stream')",
+            "limit": 100
+          },
+          "result_file_id": "d0003",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:09:45.604147+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0003"
+            },
+            "sql": "SELECT MonitoringLocationIdentifier FROM s ORDER BY MonitoringLocationIdentifier",
+            "limit": 100
+          },
+          "result_file_id": "d0004",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:10:26.186902+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0006"
+            },
+            "sql": "SELECT * FROM a",
+            "limit": 2
+          },
+          "result_file_id": "d0009",
+          "rows_returned_by_query": 1026,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:10:26.234389+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008"
+            },
+            "sql": "SELECT * FROM r",
+            "limit": 2
+          },
+          "result_file_id": "d0010",
+          "rows_returned_by_query": 3782,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:10:43.813834+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008"
+            },
+            "sql": "SELECT USGSPCode, \"ResultMeasure/MeasureUnitCode\", ResultStatusIdentifier, ResultValueTypeName, ResultDetectionConditionText, MeasureQualifierCode, COUNT(*) AS n FROM r GROUP BY 1,2,3,4,5,6 ORDER BY 1,2,3",
+            "limit": 100
+          },
+          "result_file_id": "d0011",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:10:43.887087+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0006",
+              "r": "d0008"
+            },
+            "sql": "SELECT 'duplicate_activity_key' AS check_name, COUNT(*) AS n FROM (SELECT OrganizationIdentifier, ActivityIdentifier FROM a GROUP BY 1,2 HAVING COUNT(*)>1)\nUNION ALL SELECT 'unlinked_results', COUNT(*) FROM r LEFT JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier WHERE a.ActivityIdentifier IS NULL\nUNION ALL SELECT 'station_or_date_mismatch', COUNT(*) FROM r JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier WHERE r.MonitoringLocationIdentifier<>a.MonitoringLocationIdentifier OR r.ActivityStartDate<>a.ActivityStartDate\nUNION ALL SELECT 'type_or_media_mismatch', COUNT(*) FROM r JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier WHERE r.ActivityTypeCode<>a.ActivityTypeCode OR r.ActivityMediaName<>a.ActivityMediaName",
+            "limit": 100
+          },
+          "result_file_id": "d0012",
+          "rows_returned_by_query": 4,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:10:43.975492+00:00",
+          "arguments": {
+            "tables": {
+              "a": "d0006"
+            },
+            "sql": "SELECT ActivityMediaName, ActivityTypeCode, COUNT(*) n FROM a GROUP BY 1,2",
+            "limit": 100
+          },
+          "result_file_id": "d0013",
+          "rows_returned_by_query": 6,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:11:23.674660+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008"
+            },
+            "sql": "SELECT DISTINCT ResultMeasureValue FROM r WHERE ResultStatusIdentifier IN ('Accepted','Final') AND ResultValueTypeName='Actual' AND trim(coalesce(ResultDetectionConditionText,''))='' AND trim(coalesce(MeasureQualifierCode,''))=''",
+            "limit": 10000
+          },
+          "result_file_id": "d0014",
+          "rows_returned_by_query": 739,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:11:23.960831+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006",
+              "s": "d0003"
+            },
+            "sql": "WITH usable AS (\nSELECT r.OrganizationIdentifier, r.ActivityIdentifier, r.USGSPCode, CAST(r.ResultMeasureValue AS REAL) AS value\nFROM r JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier AND r.MonitoringLocationIdentifier=a.MonitoringLocationIdentifier AND r.ActivityStartDate=a.ActivityStartDate\nJOIN s ON a.OrganizationIdentifier=s.OrganizationIdentifier AND a.MonitoringLocationIdentifier=s.MonitoringLocationIdentifier\nWHERE a.ActivityMediaName='Water' AND a.ActivityTypeCode='Sample-Routine'\nAND a.ActivityStartDate BETWEEN '2000-01-01' AND '2019-12-31'\nAND r.ResultStatusIdentifier IN ('Accepted','Final') AND r.ResultValueTypeName='Actual'\nAND trim(coalesce(r.ResultDetectionConditionText,''))='' AND trim(coalesce(r.MeasureQualifierCode,''))=''\nAND ((r.USGSPCode='00010' AND r.\"ResultMeasure/MeasureUnitCode\"='deg C') OR\n(r.USGSPCode='00095' AND r.\"ResultMeasure/MeasureUnitCode\"='uS/cm @25C') OR\n(r.USGSPCode='00300' AND r.\"ResultMeasure/MeasureUnitCode\"='mg/l') OR\n(r.USGSPCode='00400' AND r.\"ResultMeasure/MeasureUnitCode\"='std units'))\n), per_code AS (\nSELECT OrganizationIdentifier, ActivityIdentifier, USGSPCode, MIN(value) value, COUNT(DISTINCT value) distinct_values, COUNT(*) result_count FROM usable GROUP BY 1,2,3\n), complete AS (\nSELECT OrganizationIdentifier, ActivityIdentifier,\nMAX(CASE WHEN USGSPCode='00010' THEN value END) temperature,\nMAX(CASE WHEN USGSPCode='00095' THEN value END) conductance,\nMAX(CASE WHEN USGSPCode='00300' THEN value END) oxygen,\nMAX(CASE WHEN USGSPCode='00400' THEN value END) ph\nFROM per_code GROUP BY 1,2 HAVING COUNT(*)=4 AND MAX(distinct_values)=1\n)\nSELECT c.*, a.MonitoringLocationIdentifier, s.HUCEightDigitCode, a.ActivityStartDate, a.\"ActivityStartTime/Time\" clock_time, a.\"ActivityStartTime/TimeZoneCode\" clock_zone,\na.ActivityRelativeDepthName,a.\"ActivityDepthHeightMeasure/MeasureValue\" depth,a.\"ActivityDepthHeightMeasure/MeasureUnitCode\" depth_unit,a.ActivityDepthAltitudeReferencePointText,\na.\"ActivityTopDepthHeightMeasure/MeasureValue\" top_depth,a.\"ActivityTopDepthHeightMeasure/MeasureUnitCode\" top_unit,\na.\"ActivityBottomDepthHeightMeasure/MeasureValue\" bottom_depth,a.\"ActivityBottomDepthHeightMeasure/MeasureUnitCode\" bottom_unit,\nCAST(substr(a.ActivityStartDate,1,4) AS INTEGER) year, ((CAST(substr(a.ActivityStartDate,6,2) AS INTEGER)-1)/3)+1 quarter\nFROM complete c JOIN a ON c.OrganizationIdentifier=a.OrganizationIdentifier AND c.ActivityIdentifier=a.ActivityIdentifier\nJOIN s ON a.OrganizationIdentifier=s.OrganizationIdentifier AND a.MonitoringLocationIdentifier=s.MonitoringLocationIdentifier\nORDER BY a.MonitoringLocationIdentifier,a.ActivityStartDate,a.\"ActivityStartTime/Time\",a.ActivityIdentifier",
+            "limit": 3
+          },
+          "result_file_id": "d0015",
+          "rows_returned_by_query": 833,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:11:37.045944+00:00",
+          "arguments": {
+            "tables": {
+              "v": "d0014"
+            },
+            "sql": "SELECT * FROM v",
+            "offset": 500,
+            "limit": 1000
+          },
+          "result_file_id": "d0016",
+          "rows_returned_by_query": 739,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:11:37.060817+00:00",
+          "arguments": {
+            "tables": {
+              "p": "d0015",
+              "s": "d0003"
+            },
+            "sql": "WITH supported AS (SELECT OrganizationIdentifier,MonitoringLocationIdentifier,year FROM p GROUP BY 1,2,3 HAVING COUNT(DISTINCT quarter)=4) SELECT s.MonitoringLocationIdentifier,s.HUCEightDigitCode,COUNT(y.year) supported_year_count,group_concat(y.year,',') supported_years FROM s LEFT JOIN (SELECT * FROM supported ORDER BY year) y ON s.OrganizationIdentifier=y.OrganizationIdentifier AND s.MonitoringLocationIdentifier=y.MonitoringLocationIdentifier GROUP BY 1,2 ORDER BY 1",
+            "limit": 100
+          },
+          "result_file_id": "d0017",
+          "rows_returned_by_query": 17,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:11:37.075010+00:00",
+          "arguments": {
+            "tables": {
+              "p": "d0015"
+            },
+            "sql": "SELECT OrganizationIdentifier,MonitoringLocationIdentifier,year FROM p GROUP BY 1,2,3 HAVING COUNT(DISTINCT quarter)=4 ORDER BY 2,3",
+            "limit": 1
+          },
+          "result_file_id": "d0018",
+          "rows_returned_by_query": 45,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:11:59.407604+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0003",
+              "sy": "d0018"
+            },
+            "sql": "WITH RECURSIVE years(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM years WHERE y<2019),\nintervals AS (SELECT a.y start_year,b.y end_year,b.y-a.y+1 duration FROM years a CROSS JOIN years b WHERE a.y<=b.y),\ncohorts AS (SELECT i.start_year,i.end_year,i.duration,s.OrganizationIdentifier,s.MonitoringLocationIdentifier FROM intervals i CROSS JOIN s WHERE (SELECT COUNT(*) FROM sy WHERE sy.OrganizationIdentifier=s.OrganizationIdentifier AND sy.MonitoringLocationIdentifier=s.MonitoringLocationIdentifier AND CAST(sy.year AS INTEGER) BETWEEN i.start_year AND i.end_year)=i.duration),\nfeasible AS (SELECT start_year,end_year,duration,COUNT(*) coverage FROM cohorts GROUP BY 1,2,3 HAVING COUNT(*)>=2),\nfrontier AS (SELECT * FROM feasible f WHERE NOT EXISTS (SELECT 1 FROM feasible g WHERE g.duration>=f.duration AND g.coverage>=f.coverage AND (g.duration>f.duration OR g.coverage>f.coverage))) SELECT f.*,group_concat(c.MonitoringLocationIdentifier,',') stations FROM frontier f JOIN cohorts c ON f.start_year=c.start_year AND f.end_year=c.end_year GROUP BY f.start_year,f.end_year ORDER BY f.start_year,f.end_year",
+            "limit": 100
+          },
+          "result_file_id": "d0019",
+          "rows_returned_by_query": 3,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:11:59.446470+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0003",
+              "sy": "d0018"
+            },
+            "sql": "WITH RECURSIVE years(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM years WHERE y<2019),\nintervals AS (SELECT a.y start_year,b.y end_year,b.y-a.y+1 duration FROM years a CROSS JOIN years b WHERE a.y<=b.y),\ncohorts AS (SELECT i.start_year,i.end_year,i.duration,s.OrganizationIdentifier,s.MonitoringLocationIdentifier FROM intervals i CROSS JOIN s WHERE (SELECT COUNT(*) FROM sy WHERE sy.OrganizationIdentifier=s.OrganizationIdentifier AND sy.MonitoringLocationIdentifier=s.MonitoringLocationIdentifier AND CAST(sy.year AS INTEGER) BETWEEN i.start_year AND i.end_year)=i.duration),\nfeasible AS (SELECT start_year,end_year,duration,COUNT(*) coverage FROM cohorts GROUP BY 1,2,3 HAVING COUNT(*)>=2),\nfrontier AS (SELECT * FROM feasible f WHERE NOT EXISTS (SELECT 1 FROM feasible g WHERE g.duration>=f.duration AND g.coverage>=f.coverage AND (g.duration>f.duration OR g.coverage>f.coverage))) SELECT duration,coverage,COUNT(*) interval_count FROM feasible GROUP BY 1,2 ORDER BY 1,2",
+            "limit": 100
+          },
+          "result_file_id": "d0020",
+          "rows_returned_by_query": 10,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:11:59.475506+00:00",
+          "arguments": {
+            "tables": {
+              "s": "d0003",
+              "sy": "d0018"
+            },
+            "sql": "WITH RECURSIVE years(y) AS (SELECT 2000 UNION ALL SELECT y+1 FROM years WHERE y<2019),\nintervals AS (SELECT a.y start_year,b.y end_year,b.y-a.y+1 duration FROM years a CROSS JOIN years b WHERE a.y<=b.y),\ncohorts AS (SELECT i.start_year,i.end_year,i.duration,s.OrganizationIdentifier,s.MonitoringLocationIdentifier FROM intervals i CROSS JOIN s WHERE (SELECT COUNT(*) FROM sy WHERE sy.OrganizationIdentifier=s.OrganizationIdentifier AND sy.MonitoringLocationIdentifier=s.MonitoringLocationIdentifier AND CAST(sy.year AS INTEGER) BETWEEN i.start_year AND i.end_year)=i.duration),\nfeasible AS (SELECT start_year,end_year,duration,COUNT(*) coverage FROM cohorts GROUP BY 1,2,3 HAVING COUNT(*)>=2),\nfrontier AS (SELECT * FROM feasible f WHERE NOT EXISTS (SELECT 1 FROM feasible g WHERE g.duration>=f.duration AND g.coverage>=f.coverage AND (g.duration>f.duration OR g.coverage>f.coverage))) SELECT c.*,f.coverage FROM frontier f JOIN cohorts c ON f.start_year=c.start_year AND f.end_year=c.end_year ORDER BY c.start_year,c.end_year,c.MonitoringLocationIdentifier",
+            "limit": 100
+          },
+          "result_file_id": "d0021",
+          "rows_returned_by_query": 9,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:12:22.415880+00:00",
+          "arguments": {
+            "tables": {
+              "f": "d0021",
+              "p": "d0015"
+            },
+            "sql": "WITH candidates AS (\nSELECT CAST(f.start_year AS INTEGER) start_year, CAST(f.end_year AS INTEGER) end_year, CAST(f.coverage AS INTEGER) cohort_station_count, p.*,\nCOUNT(*) OVER (PARTITION BY f.start_year,f.end_year,p.OrganizationIdentifier,p.MonitoringLocationIdentifier,p.quarter) eligible_activity_count,\nROW_NUMBER() OVER (PARTITION BY f.start_year,f.end_year,p.OrganizationIdentifier,p.MonitoringLocationIdentifier,p.quarter\nORDER BY CAST(p.oxygen AS REAL),p.ActivityStartDate,CASE WHEN trim(coalesce(p.clock_time,''))='' THEN 1 ELSE 0 END,p.clock_time,p.ActivityIdentifier COLLATE BINARY) event_rank\nFROM f JOIN p ON f.OrganizationIdentifier=p.OrganizationIdentifier AND f.MonitoringLocationIdentifier=p.MonitoringLocationIdentifier\nAND CAST(p.year AS INTEGER) BETWEEN CAST(f.start_year AS INTEGER) AND CAST(f.end_year AS INTEGER))\nSELECT start_year,end_year,cohort_station_count,OrganizationIdentifier,MonitoringLocationIdentifier,HUCEightDigitCode,'Q'||quarter quarter,eligible_activity_count,ActivityIdentifier,ActivityStartDate,oxygen,temperature,conductance,ph,clock_time,depth,depth_unit FROM candidates WHERE event_rank=1 ORDER BY start_year,end_year,MonitoringLocationIdentifier,quarter",
+            "limit": 100
+          },
+          "result_file_id": "d0022",
+          "rows_returned_by_query": 36,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:12:22.439680+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "a": "d0006"
+            },
+            "sql": "SELECT r.OrganizationIdentifier,r.ActivityIdentifier,r.USGSPCode,COUNT(*) usable_result_count,COUNT(DISTINCT CAST(r.ResultMeasureValue AS REAL)) distinct_values FROM r JOIN a ON r.OrganizationIdentifier=a.OrganizationIdentifier AND r.ActivityIdentifier=a.ActivityIdentifier WHERE a.ActivityMediaName='Water' AND a.ActivityTypeCode='Sample-Routine' AND r.ResultStatusIdentifier IN ('Accepted','Final') AND r.ResultValueTypeName='Actual' AND trim(coalesce(r.ResultDetectionConditionText,''))='' AND trim(coalesce(r.MeasureQualifierCode,''))='' GROUP BY 1,2,3 HAVING COUNT(*)>1",
+            "limit": 100
+          },
+          "result_file_id": "d0023",
+          "rows_returned_by_query": 0,
+          "error": null
+        },
+        {
+          "started_at": "2026-09-08T13:12:50.069070+00:00",
+          "arguments": {
+            "tables": {
+              "r": "d0008",
+              "e": "d0022"
+            },
+            "sql": "SELECT DISTINCT r.OrganizationIdentifier,r.ActivityIdentifier,r.USGSPCode,r.ResultMeasureValue,r.\"ResultMeasure/MeasureUnitCode\",r.ResultStatusIdentifier,r.ResultValueTypeName,r.ResultDetectionConditionText,r.MeasureQualifierCode FROM r JOIN e ON r.OrganizationIdentifier=e.OrganizationIdentifier AND r.ActivityIdentifier=e.ActivityIdentifier WHERE r.ResultStatusIdentifier IN ('Accepted','Final') AND r.ResultValueTypeName='Actual' AND trim(coalesce(r.ResultDetectionConditionText,''))='' AND trim(coalesce(r.MeasureQualifierCode,''))='' ORDER BY 2,3",
+            "limit": 500
+          },
+          "result_file_id": "d0024",
+          "rows_returned_by_query": 104,
+          "error": null
+        }
+      ],
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-6-astra",
+        "effort": "high",
+        "raw_tool_records": 28,
+        "tool_calls": {
+          "exec": 13,
+          "wait": 1
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      }
+    },
+    {
+      "label": "r02_content_A_GO",
+      "variant": "go",
+      "run": "runs/r-5bba238c6749",
+      "status": "not_started",
+      "metrics": null,
+      "downloads": [],
+      "tool_counts": {}
+    },
+    {
+      "label": "r02_content_B_GO",
+      "variant": "go",
+      "run": "runs/r-1d96205ed701",
+      "status": "not_started",
+      "metrics": null,
+      "downloads": [],
+      "tool_counts": {}
+    },
+    {
+      "label": "r02_shortcut_CG",
+      "variant": "cg",
+      "run": "runs/r-347b18baec10",
+      "status": "not_started",
+      "metrics": null,
+      "downloads": [],
+      "tool_counts": {}
+    },
+    {
+      "label": "r02_shortcut_GO",
+      "variant": "go",
+      "run": "runs/r-050c19cce47e",
+      "status": "not_started",
+      "metrics": null,
+      "downloads": [],
+      "tool_counts": {}
+    }
+  ],
+  "independence": "Each received only the public task/date/output format plus the appropriate stage prompt and solver result schema in a new isolated Docker/Codex context. Probe/config/history details remain per-run. No fork/resume or host bind mounts.",
+  "correctness_scope": "Scores measure exact declared output semantics against independently recomputed source gold; same-model agreement alone does not establish source truth.",
+  "status_fields": "Runtime completion event, exit status, self-reported status, answer parsing and metrics are separate. HTTP errors remain recorded; complete transport with HTTP500 is not valid source data."
+}

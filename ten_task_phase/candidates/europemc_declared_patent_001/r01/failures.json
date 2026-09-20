@@ -1,0 +1,47 @@
+{
+  "actual_visit_date": "2026-09-10",
+  "interpretation": "Failures are transport, rendering or configured-tool outcomes. They do not establish absent records, unlawful access, or universal API unavailability. Full native web responses are controller-preserved.",
+  "registered_download_failures": [
+    {"url":"https://www.ascenion.de/fileadmin/user_upload/Technology/Images/Technologies/TO_01-00890_Multiplexed_Targeted_Barcoding_Technology_for_NGS_Applications.pdf","actual_response":{"error":"ValueError: Only configured official-source HTTPS URLs are supported"}},
+    {"url":"https://ops.epo.org/3.2/rest-services/family/publication/docdb/WO.2017060316.A1/biblio","actual_response":{"error":"ValueError: Only configured official-source HTTPS URLs are supported"}},
+    {"url":"https://data.epo.org/publication-server/rest/v1.0/publication-dates/20180815/patents/EP3359683NWA1/document.html","actual_response":{"error":"ValueError: Only configured official-source HTTPS URLs are supported"}},
+    {"url":"https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20190002953","actual_response":{"error":"ValueError: Only configured official-source HTTPS URLs are supported"}},
+    {"url":"https://patentimages.storage.googleapis.com/5a/c9/ea/28001fbb244264/US20190002953A1.pdf","actual_response":{"error":"ValueError: Only configured official-source HTTPS URLs are supported"}}
+  ],
+  "web_failures": [
+    {"url":"https://register.epo.org/application?number=EP16775753&tab=family","response":"URL is not safe to open (non-retryable error)"},
+    {"url":"https://register.epo.org/application?number=EP16775753&tab=main","response":"URL is not safe to open (non-retryable error)"},
+    {"url":"https://patents.google.com/patent/US10870879B2/en","response":"URL is not safe to open (non-retryable error)","followup":"Grant history was examined through a distinct provider; the failed Google grant URL was not retried."},
+    {"url":"https://data.epo.org/publication-server/rest/v1.0/publication-dates/20180815/patents/EP3359683NWA1/document.html","response":"Internal Error; no usable record"},
+    {"url":"https://ops.epo.org/3.2/rest-services/family/publication/docdb/WO.2017060316.A1/biblio","response":"Internal Error; no usable record"},
+    {"source_link":"WO page Download PDF link","response":"Internal Error; no usable record"},
+    {"source_link":"WO page PatentScope link","response":"Internal Error; no usable record"},
+    {"source_link":"EP page EP Register link","response":"Internal Error; no usable record"},
+    {"url":"https://data.epo.org/linked-data/data/publication/EP/3359683/A1","response":"Internal Error; no usable record"},
+    {"url":"https://data.epo.org/data/publication/EP/3359683/A1/-","response":"Internal Error; no usable record"},
+    {"url":"https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20190002953","response":"Internal Error; no usable record"},
+    {"url":"https://publication-bdds.apps.epo.org/raw-data/products/public/product/8","response":"URL is not safe to open (non-retryable error)"},
+    {"url":"https://data.epo.org/publication-server/rest/v1.0/publication-dates/20180815/patents/EP3359683NWA1.xml","response":"URL is not safe to open (non-retryable error)"},
+    {"url":"https://worldwide.espacenet.com/publicationDetails/biblio?CC=WO&FT=D&KC=A1&NR=2017060316A1","response":"Failed to fetch: (403) Forbidden"},
+    {"url":"https://globaldossier.uspto.gov/result/application/US/15765742/1","response":"Failed to fetch: (403) Forbidden"}
+  ],
+  "rendering_limits": [
+    {"url":"https://data.epo.org/linked-data/documentation/api-overview","response":"You need to enable JavaScript to run this app."},
+    {"url":"https://data.epo.org/linked-data/documentation/data-coverage","response":"JavaScript shell; one-line response"},
+    {"url":"https://publication-bdds.apps.epo.org/raw-data/products/public/product/20","response":"You need to enable JavaScript to run this app."},
+    {"url":"https://data.uspto.gov/apis/patent-file-wrapper/application-data","response":"No rendered body; total lines 0"},
+    {"url":"https://data.uspto.gov/apis/bulk-data/search","response":"No rendered body; total lines 0"},
+    {"url":"https://patentcenter.uspto.gov/applications/15765742","response":"No rendered body; total lines 0"}
+  ],
+  "search_limits": [
+    {"queries":["EP3359683 restricted to epo.org","16775753 restricted to epo.org","WO2017060316 patent restricted to wipo.int","20190002953 restricted to uspto.gov"],"response":"Empty search results; not interpreted as absence of official records"},
+    {"finding":"Several unconstrained numeric searches returned unrelated records; none was promoted into evidence."}
+  ],
+  "registry_diagnostics": [
+    {"file_id":"registry","response":"ValueError: Unknown file_id; only files downloaded in this session are available"},
+    {"file_id":"d0030","response":"ValueError: Unknown file_id; only files downloaded in this session are available"},
+    {"attempt":"Parsing a nominal 200000-character read as complete JSON","response":"SyntaxError: Unterminated string in JSON at position 30000 (line 1 column 30001)","resolution":"Read all pages at the actual 30000-character limit, then parsed the complete response."}
+  ],
+  "inherited_failures": {"registered_bodies":["d0009.response","d0010.response"],"details":"d0021.response and d0022.response retain prior request failures and successful retries."},
+  "prohibited_retry": {"identifier":"EP4321629A4","attempted":false}
+}

@@ -1,0 +1,20 @@
+{
+  "status": "parsed",
+  "rows": [
+    {
+      "line": 2,
+      "raw": "PMC12953261|10.1007/s00406-025-01990-5|730|581|271|491|baseline;SCID-5;returned",
+      "cells": [
+        "PMC12953261",
+        "10.1007/s00406-025-01990-5",
+        "730",
+        "581",
+        "271",
+        "491",
+        "baseline;SCID-5;returned"
+      ]
+    }
+  ],
+  "ignored_lines": [],
+  "issues": []
+}

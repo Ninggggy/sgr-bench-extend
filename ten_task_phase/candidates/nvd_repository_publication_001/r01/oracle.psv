@@ -1,0 +1,7 @@
+cve|repository_advisory|repository_published|catalogue_published|delay_days
+CVE-2023-46247|GHSA-6m97-7527-mh74|2023-12-12|2023-12-13|1
+CVE-2023-47619|GHSA-mgj7-rfx8-vhpr|2023-10-29|2023-12-13|45
+CVE-2023-47620|GHSA-w4hv-vmv9-hgcr|2023-10-13|2023-12-13|61
+CVE-2023-47623|GHSA-w4hv-vmv9-hgcr|2023-10-13|2023-12-13|61
+CVE-2023-47624|GHSA-mgj7-rfx8-vhpr|2023-10-29|2023-12-13|45
+CVE-2023-48702|GHSA-rr9h-w522-cvmr|2023-12-06|2023-12-13|7

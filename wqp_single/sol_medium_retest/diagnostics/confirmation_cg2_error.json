@@ -1,0 +1,138 @@
+{
+  "label": "confirmation_new_CG_2",
+  "run": "runs/r-92c02e2f6067",
+  "raw_score": {
+    "Item-F1": 0.49537037037037035,
+    "Row-F1": 0.0,
+    "P.O.A.": 1.0
+  },
+  "computed_pre_transcription_score": {
+    "Item-F1": 0.6574074074074074,
+    "Row-F1": 0.0,
+    "P.O.A.": 1.0
+  },
+  "transcription_differences": [
+    {
+      "row_index": 7,
+      "field": "withdrawn_ActivityStartDate",
+      "computed": "2015-12-02",
+      "raw_final": "2015-12-02-02-2014"
+    },
+    {
+      "row_index": 7,
+      "field": "end_year",
+      "computed": "2014",
+      "raw_final": "4-122.0"
+    },
+    {
+      "row_index": 7,
+      "field": "cohort_station_count",
+      "computed": "4",
+      "raw_final": "USGS-08057410;USGS-08065350;USGS-08067000;USGS-08067252"
+    },
+    {
+      "row_index": 7,
+      "field": "cohort_station_ids",
+      "computed": "USGS-08057410;USGS-08065350;USGS-08067000;USGS-08067252",
+      "raw_final": "Q4"
+    },
+    {
+      "row_index": 7,
+      "field": "quarter",
+      "computed": "Q4",
+      "raw_final": "12"
+    },
+    {
+      "row_index": 7,
+      "field": "eligible_activity_count",
+      "computed": "12",
+      "raw_final": "USGS-TX"
+    },
+    {
+      "row_index": 7,
+      "field": "selected_OrganizationIdentifier",
+      "computed": "USGS-TX",
+      "raw_final": "USGS-08067252"
+    },
+    {
+      "row_index": 7,
+      "field": "selected_MonitoringLocationIdentifier",
+      "computed": "USGS-08067252",
+      "raw_final": "nwistx.01.0150101023"
+    },
+    {
+      "row_index": 7,
+      "field": "selected_ActivityIdentifier",
+      "computed": "nwistx.01.01501023",
+      "raw_final": "2014-12-121-12"
+    },
+    {
+      "row_index": 7,
+      "field": "selected_ActivityStartDate",
+      "computed": "2014-12-12",
+      "raw_final": "10.00"
+    },
+    {
+      "row_index": 7,
+      "field": "dissolved_oxygen_mg_L",
+      "computed": "10.00",
+      "raw_final": "16.30"
+    },
+    {
+      "row_index": 7,
+      "field": "temperature_deg_C",
+      "computed": "16.30",
+      "raw_final": "419.00"
+    },
+    {
+      "row_index": 7,
+      "field": "specific_conductance_uS_cm",
+      "computed": "419.00",
+      "raw_final": "8.00"
+    },
+    {
+      "row_index": 7,
+      "field": "pH",
+      "computed": "8.00",
+      "raw_final": null
+    },
+    {
+      "row_index": 8,
+      "field": "withdrawn_ActivityIdentifier",
+      "computed": "nwistx.01.01900498",
+      "raw_final": "nwistx.01.019004"
+    },
+    {
+      "row_index": 8,
+      "field": "withdrawn_ActivityStartDate",
+      "computed": "2019-02-13",
+      "raw_final": "2019--13-13"
+    },
+    {
+      "row_index": 9,
+      "field": "withdrawn_ActivityIdentifier",
+      "computed": "nwistx.01.01900498",
+      "raw_final": "nwistx.01_01900498"
+    },
+    {
+      "row_index": 9,
+      "field": "withdrawn_ActivityStartDate",
+      "computed": "2019-02-13",
+      "raw_final": "2019-02-13-13"
+    },
+    {
+      "row_index": 9,
+      "field": "selected_OrganizationIdentifier",
+      "computed": "USGS-TX",
+      "raw_final": "US-22USGS-TX"
+    }
+  ],
+  "numeric_order_fix_recovers_all_reference_fields": true,
+  "classification": [
+    "numeric sorting as TEXT",
+    "final-output transcription corrupts3row identity keys"
+  ],
+  "state_finding": "Archived computation already has the correct5changing withdrawals,12interval/cohort/quarter/count rows. Apparent final omissions/extra rows come from transcription of keys, not an additional state-selection failure.",
+  "score_policy": "Keep raw0.495370... score as prescribed. Computed0.657407... is a diagnostic, never substitute it in headline means. Even without transcription errors, no full row is correct because numeric sorting chooses wrong events.",
+  "scope": "No model retries, no changes to public input, oracle or grader."
+}

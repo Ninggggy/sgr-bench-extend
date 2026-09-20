@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-10T06:11:38.879695+00:00",
+  "failure": "Both batch controllers rejected an extra registered_at key in job metadata before run allocation.",
+  "correction": "Removed unrecognized metadata key; pair registration time remains in development_a.json and subplans. Original metadata/logs preserved. Same trial/run IDs; no solver has started or seen the question.",
+  "ledger_count": 120,
+  "new_model_sessions_consumed": 0,
+  "cost": "Actual controller work remains part of session81; no zero-cost claim or budget reset."
+}

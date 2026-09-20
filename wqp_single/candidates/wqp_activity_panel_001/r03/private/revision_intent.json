@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-09-08T13:17:12.782002+00:00",
+  "revision": 3,
+  "parent": 2,
+  "trigger": "Bothr02 CG runs504/504 fields correct; user-required return to construction",
+  "scope": "Same USGS-TX Trinity2000\u20132019 observations, activities and four-parameter panels. No second candidate.",
+  "remaining_substantive_revisions_after_this": 0,
+  "goal": "Complete source-based single-activity-withdrawal sensitivity analysis with global comparison windows recomputed and restored for every independent scenario.",
+  "research_status": "Hypothetical data-quality withdrawal sensitivity, not a claim actual source records are erroneous or have been removed.",
+  "preliminary_real_evidence": "833 original eligible activity trials;5 change the full frontier,12 resulting trial/interval entities; no hardcoded identifiers in task or reference."
+}

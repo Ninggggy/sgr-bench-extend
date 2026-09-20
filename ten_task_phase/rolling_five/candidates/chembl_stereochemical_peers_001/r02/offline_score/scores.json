@@ -1,0 +1,1107 @@
+{
+  "status": "deterministic_explicit",
+  "metrics": {
+    "Item-F1": 1.0,
+    "Row-F1": 1.0,
+    "P.O.A.": 1.0
+  },
+  "counts": {
+    "correct_fields": 32,
+    "gold_fields": 32,
+    "pred_fields": 32,
+    "item_denominator": 64,
+    "correct_rows": 16,
+    "gold_rows": 16,
+    "pred_rows": 16,
+    "row_denominator": 32,
+    "correct_pairs": 120,
+    "pair_denominator": 120,
+    "shared_ids": 16
+  },
+  "omitted_ids": [],
+  "extra_ids": [],
+  "duplicate_ids": [],
+  "order_pairs": [
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL1294"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL15088"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL387326"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL407725"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL460606"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL512340"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL576997"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL601807"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL1358565"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL1364159"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL170"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL15088"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL387326"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL407725"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL460606"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL512340"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL576997"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL601807"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL1358565"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL1364159"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1294"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL387326"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL407725"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL460606"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL512340"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL576997"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL601807"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL1358565"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL1364159"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL15088"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL407725"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL460606"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL512340"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL576997"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL601807"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL1358565"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL1364159"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL387326"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL460606"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL512340"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL576997"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL601807"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL1358565"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL1364159"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL407725"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL460606"
+      ],
+      "second": [
+        "CHEMBL512340"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL460606"
+      ],
+      "second": [
+        "CHEMBL576997"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL460606"
+      ],
+      "second": [
+        "CHEMBL601807"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL460606"
+      ],
+      "second": [
+        "CHEMBL1358565"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL460606"
+      ],
+      "second": [
+        "CHEMBL1364159"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL460606"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL460606"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL460606"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL460606"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL460606"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL512340"
+      ],
+      "second": [
+        "CHEMBL576997"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL512340"
+      ],
+      "second": [
+        "CHEMBL601807"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL512340"
+      ],
+      "second": [
+        "CHEMBL1358565"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL512340"
+      ],
+      "second": [
+        "CHEMBL1364159"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL512340"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL512340"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL512340"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL512340"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL512340"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL576997"
+      ],
+      "second": [
+        "CHEMBL601807"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL576997"
+      ],
+      "second": [
+        "CHEMBL1358565"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL576997"
+      ],
+      "second": [
+        "CHEMBL1364159"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL576997"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL576997"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL576997"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL576997"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL576997"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL601807"
+      ],
+      "second": [
+        "CHEMBL1358565"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL601807"
+      ],
+      "second": [
+        "CHEMBL1364159"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL601807"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL601807"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL601807"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL601807"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL601807"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1358565"
+      ],
+      "second": [
+        "CHEMBL1364159"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1358565"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1358565"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1358565"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1358565"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1358565"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1364159"
+      ],
+      "second": [
+        "CHEMBL1616938"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1364159"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1364159"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1364159"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1364159"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1616938"
+      ],
+      "second": [
+        "CHEMBL1741006"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1616938"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1616938"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1616938"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1741006"
+      ],
+      "second": [
+        "CHEMBL1878119"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1741006"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1741006"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1878119"
+      ],
+      "second": [
+        "CHEMBL2355467"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL1878119"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "CHEMBL2355467"
+      ],
+      "second": [
+        "CHEMBL4751379"
+      ],
+      "correct": true
+    }
+  ],
+  "poa_note": "first occurrence positions; no reordering"
+}

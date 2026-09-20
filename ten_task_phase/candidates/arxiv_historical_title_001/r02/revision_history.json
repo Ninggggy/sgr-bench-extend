@@ -1,0 +1,10 @@
+{
+  "revision": 2,
+  "substantive_revisions": 1,
+  "remaining_substantive_revisions": 1,
+  "at": "2026-09-09T12:16:50.337154+00:00",
+  "reason": "Preregistered source-based discrepancy audit; report only identifiers/version to avoid title copying penalties. All eight changed-title relationships included.",
+  "prior_plan": "../../../research/arxiv_scope_refinement_plan.json",
+  "prior_version": "../r01",
+  "blind_scores_before_revision": []
+}

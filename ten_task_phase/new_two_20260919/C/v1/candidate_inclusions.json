@@ -1,0 +1,77 @@
+{
+  "included": [
+    {
+      "xlen": 32,
+      "flen": 32,
+      "entry_FS": "Dirty",
+      "entry_VS": "Clean",
+      "included": true,
+      "reason": "Member of full four-width-pair by two-state Cartesian scope."
+    },
+    {
+      "xlen": 32,
+      "flen": 32,
+      "entry_FS": "Dirty",
+      "entry_VS": "Dirty",
+      "included": true,
+      "reason": "Member of full four-width-pair by two-state Cartesian scope."
+    },
+    {
+      "xlen": 32,
+      "flen": 64,
+      "entry_FS": "Dirty",
+      "entry_VS": "Clean",
+      "included": true,
+      "reason": "Member of full four-width-pair by two-state Cartesian scope."
+    },
+    {
+      "xlen": 32,
+      "flen": 64,
+      "entry_FS": "Dirty",
+      "entry_VS": "Dirty",
+      "included": true,
+      "reason": "Member of full four-width-pair by two-state Cartesian scope."
+    },
+    {
+      "xlen": 64,
+      "flen": 32,
+      "entry_FS": "Dirty",
+      "entry_VS": "Clean",
+      "included": true,
+      "reason": "Member of full four-width-pair by two-state Cartesian scope."
+    },
+    {
+      "xlen": 64,
+      "flen": 32,
+      "entry_FS": "Dirty",
+      "entry_VS": "Dirty",
+      "included": true,
+      "reason": "Member of full four-width-pair by two-state Cartesian scope."
+    },
+    {
+      "xlen": 64,
+      "flen": 64,
+      "entry_FS": "Dirty",
+      "entry_VS": "Clean",
+      "included": true,
+      "reason": "Member of full four-width-pair by two-state Cartesian scope."
+    },
+    {
+      "xlen": 64,
+      "flen": 64,
+      "entry_FS": "Dirty",
+      "entry_VS": "Dirty",
+      "included": true,
+      "reason": "Member of full four-width-pair by two-state Cartesian scope."
+    }
+  ],
+  "excluded_categories": {
+    "RV32E": "Explicitly absent compiler macro",
+    "task_initialization": "Decoder targets an interrupted previously running task",
+    "chip_extra_registers": "Chip properties select no-extension header",
+    "FS_Clean_Initial_Off": "Not in requested FS=Dirty scope",
+    "VS_Initial_Off": "Not requested VS states",
+    "hardware_alignment_faults": "Question explicitly analyzes static completed writes",
+    "other_releases": "Earliest stable release selected by stated capability additions"
+  }
+}

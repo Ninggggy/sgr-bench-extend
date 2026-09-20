@@ -1,0 +1,584 @@
+[
+  {
+    "case": "exact",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | NONE\n",
+    "expected": [
+      54,
+      54
+    ],
+    "actual": [
+      54,
+      54
+    ],
+    "passed": true
+  },
+  {
+    "case": "markdown",
+    "input": "| lot | agreement_covered | eligible_control_body_codes |\n| --- | --- | --- |\n| L1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172 |\n| L2 | YES | NONE |\n| L3 | NO | CL-BIO-110;CL-BIO-171 |\n| L4 | NO | CL-BIO-110;CL-BIO-171 |\n| L5 | YES | NONE |\n| L6 | YES | NONE |\n| L7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172 |\n| L8 | NO | CL-BIO-171 |\n| L9 | YES | NONE |\n",
+    "expected": [
+      54,
+      54
+    ],
+    "actual": [
+      54,
+      54
+    ],
+    "passed": true
+  },
+  {
+    "case": "missing",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171",
+    "expected": [
+      48,
+      51
+    ],
+    "actual": [
+      48,
+      51
+    ],
+    "passed": true
+  },
+  {
+    "case": "duplicate",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | NONE\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\n",
+    "expected": [
+      54,
+      57
+    ],
+    "actual": [
+      54,
+      57
+    ],
+    "passed": true
+  },
+  {
+    "case": "extra",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | NONE\nL10 | YES | NONE\n",
+    "expected": [
+      54,
+      57
+    ],
+    "actual": [
+      54,
+      57
+    ],
+    "passed": true
+  },
+  {
+    "case": "wrong_set",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-171\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | NONE\n",
+    "expected": [
+      52,
+      54
+    ],
+    "actual": [
+      52,
+      54
+    ],
+    "passed": true
+  },
+  {
+    "case": "blank_not_none",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | \nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | NONE\n",
+    "expected": [
+      52,
+      54
+    ],
+    "actual": [
+      52,
+      54
+    ],
+    "passed": true
+  },
+  {
+    "case": "set_aliases",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | {cl-bio-172, CL - BIO - 171 and CL-BIO-110}\nL2 | YES | \u2205\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | \u2205\nL6 | YES | \u2205\nL7 | NO | {cl-bio-172, CL - BIO - 171 and CL-BIO-110}\nL8 | NO | CL-BIO-171\nL9 | YES | \u2205\n",
+    "expected": [
+      54,
+      54
+    ],
+    "actual": [
+      54,
+      54
+    ],
+    "passed": true
+  },
+  {
+    "case": "duplicate_in_set",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | NONE\n",
+    "expected": [
+      54,
+      54
+    ],
+    "actual": [
+      54,
+      54
+    ],
+    "passed": true
+  },
+  {
+    "case": "invalid_suffix",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172XYZ\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | NONE\n",
+    "expected": [
+      52,
+      54
+    ],
+    "actual": [
+      52,
+      54
+    ],
+    "passed": true
+  },
+  {
+    "case": "exact70rejected",
+    "n": 7,
+    "d": 10,
+    "passed": true
+  },
+  {
+    "case": "dangling_and",
+    "input": "CL-BIO-171AND",
+    "expected": "invalid",
+    "passed": true
+  },
+  {
+    "case": "leading_and",
+    "input": "AND CL-BIO-171",
+    "expected": "invalid",
+    "passed": true
+  },
+  {
+    "case": "unbalanced",
+    "input": "{CL-BIO-171",
+    "expected": "invalid",
+    "passed": true
+  },
+  {
+    "case": "concatenated",
+    "input": "CL-BIO-171CL-BIO-110",
+    "expected": "invalid",
+    "passed": true
+  },
+  {
+    "case": "reversed",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL9 | YES | NONE\nL8 | NO | CL-BIO-171\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL6 | YES | NONE\nL5 | YES | NONE\nL4 | NO | CL-BIO-110;CL-BIO-171\nL3 | NO | CL-BIO-110;CL-BIO-171\nL2 | YES | NONE\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172",
+    "passed": true,
+    "parsed_status": "parsed",
+    "issues": [],
+    "ignored_lines": []
+  },
+  {
+    "case": "extra_prose",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | NONE\nExplanation follows.\n",
+    "passed": true,
+    "parsed_status": "parsed",
+    "issues": [],
+    "ignored_lines": [
+      {
+        "line": 11,
+        "text": "Explanation follows."
+      }
+    ]
+  },
+  {
+    "case": "empty",
+    "input": "",
+    "passed": true,
+    "parsed_status": "empty",
+    "issues": [],
+    "ignored_lines": []
+  },
+  {
+    "case": "failed",
+    "input": "Could not access sources.",
+    "passed": true,
+    "parsed_status": "parse_failure",
+    "issues": [],
+    "ignored_lines": [
+      {
+        "line": 1,
+        "text": "Could not access sources."
+      }
+    ]
+  },
+  {
+    "case": "dangling_and_actual",
+    "input": "CL-BIO-171AND",
+    "expected_invalid": true,
+    "actual": "!invalid:CL-BIO-171AND",
+    "passed": true
+  },
+  {
+    "case": "leading_and_actual",
+    "input": "AND CL-BIO-171",
+    "expected_invalid": true,
+    "actual": "!invalid:AND CL-BIO-171",
+    "passed": true
+  },
+  {
+    "case": "unbalanced_actual",
+    "input": "{CL-BIO-171",
+    "expected_invalid": true,
+    "actual": "!invalid:{CL-BIO-171",
+    "passed": true
+  },
+  {
+    "case": "concatenated_actual",
+    "input": "CL-BIO-171CL-BIO-110",
+    "expected_invalid": true,
+    "actual": "!invalid:CL-BIO-171CL-BIO-110",
+    "passed": true
+  },
+  {
+    "case": "reversed",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL9 | YES | NONE\nL8 | NO | CL-BIO-171\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL6 | YES | NONE\nL5 | YES | NONE\nL4 | NO | CL-BIO-110;CL-BIO-171\nL3 | NO | CL-BIO-110;CL-BIO-171\nL2 | YES | NONE\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172",
+    "expected": {
+      "semantic_table_correct": true,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": true,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 27,
+      "gold_fields": 27,
+      "pred_fields": 27,
+      "item_denominator": 54,
+      "correct_rows": 9,
+      "gold_rows": 9,
+      "pred_rows": 9,
+      "row_denominator": 18,
+      "correct_pairs": 0,
+      "pair_denominator": 36,
+      "shared_ids": 9
+    },
+    "passed": true
+  },
+  {
+    "case": "extra_prose",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | NONE\nExplanation follows.\n",
+    "expected": {
+      "semantic_table_correct": true,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": true,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 27,
+      "gold_fields": 27,
+      "pred_fields": 27,
+      "item_denominator": 54,
+      "correct_rows": 9,
+      "gold_rows": 9,
+      "pred_rows": 9,
+      "row_denominator": 18,
+      "correct_pairs": 36,
+      "pair_denominator": 36,
+      "shared_ids": 9
+    },
+    "passed": true
+  },
+  {
+    "case": "false_fence",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | NONE\n```Explanation follows.\n",
+    "expected": {
+      "semantic_table_correct": true,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": true,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 27,
+      "gold_fields": 27,
+      "pred_fields": 27,
+      "item_denominator": 54,
+      "correct_rows": 9,
+      "gold_rows": 9,
+      "pred_rows": 9,
+      "row_denominator": 18,
+      "correct_pairs": 36,
+      "pair_denominator": 36,
+      "shared_ids": 9
+    },
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "input": "",
+    "expected": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": false,
+      "strictly_below_70": null,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": false,
+      "strictly_below_70": null,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 0,
+      "gold_fields": 27,
+      "pred_fields": 0,
+      "item_denominator": 27,
+      "correct_rows": 0,
+      "gold_rows": 9,
+      "pred_rows": 0,
+      "row_denominator": 9,
+      "correct_pairs": 0,
+      "pair_denominator": 0,
+      "shared_ids": 0
+    },
+    "passed": true
+  },
+  {
+    "case": "failed",
+    "input": "Could not access sources.",
+    "expected": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": false,
+      "strictly_below_70": null,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": false,
+      "strictly_below_70": null,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 0,
+      "gold_fields": 27,
+      "pred_fields": 0,
+      "item_denominator": 27,
+      "correct_rows": 0,
+      "gold_rows": 9,
+      "pred_rows": 0,
+      "row_denominator": 9,
+      "correct_pairs": 0,
+      "pair_denominator": 0,
+      "shared_ids": 0
+    },
+    "passed": true
+  },
+  {
+    "case": "dangling_and_full",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171AND\nL9 | YES | NONE\n",
+    "expected": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 26,
+      "gold_fields": 27,
+      "pred_fields": 27,
+      "item_denominator": 54,
+      "correct_rows": 8,
+      "gold_rows": 9,
+      "pred_rows": 9,
+      "row_denominator": 18,
+      "correct_pairs": 36,
+      "pair_denominator": 36,
+      "shared_ids": 9
+    },
+    "passed": true
+  },
+  {
+    "case": "leading_and_full",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | AND CL-BIO-171\nL9 | YES | NONE\n",
+    "expected": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 26,
+      "gold_fields": 27,
+      "pred_fields": 27,
+      "item_denominator": 54,
+      "correct_rows": 8,
+      "gold_rows": 9,
+      "pred_rows": 9,
+      "row_denominator": 18,
+      "correct_pairs": 36,
+      "pair_denominator": 36,
+      "shared_ids": 9
+    },
+    "passed": true
+  },
+  {
+    "case": "unbalanced_full",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | {CL-BIO-171\nL9 | YES | NONE\n",
+    "expected": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 26,
+      "gold_fields": 27,
+      "pred_fields": 27,
+      "item_denominator": 54,
+      "correct_rows": 8,
+      "gold_rows": 9,
+      "pred_rows": 9,
+      "row_denominator": 18,
+      "correct_pairs": 36,
+      "pair_denominator": 36,
+      "shared_ids": 9
+    },
+    "passed": true
+  },
+  {
+    "case": "concatenated_full",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | NONE\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | NONE\nL6 | YES | NONE\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171CL-BIO-110\nL9 | YES | NONE\n",
+    "expected": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": false,
+      "whole_answer_correct": false,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 26,
+      "gold_fields": 27,
+      "pred_fields": 27,
+      "item_denominator": 54,
+      "correct_rows": 8,
+      "gold_rows": 9,
+      "pred_rows": 9,
+      "row_denominator": 18,
+      "correct_pairs": 36,
+      "pair_denominator": 36,
+      "shared_ids": 9
+    },
+    "passed": true
+  },
+  {
+    "case": "empty_wrapper_{   }",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | {   }\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | {   }\nL6 | YES | {   }\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | {   }\n",
+    "expected": {
+      "semantic_table_correct": true,
+      "whole_answer_correct": true,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": true,
+      "whole_answer_correct": true,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 27,
+      "gold_fields": 27,
+      "pred_fields": 27,
+      "item_denominator": 54,
+      "correct_rows": 9,
+      "gold_rows": 9,
+      "pred_rows": 9,
+      "row_denominator": 18,
+      "correct_pairs": 36,
+      "pair_denominator": 36,
+      "shared_ids": 9
+    },
+    "passed": true
+  },
+  {
+    "case": "empty_wrapper_[   ]",
+    "input": "lot | agreement_covered | eligible_control_body_codes\nL1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL2 | YES | [   ]\nL3 | NO | CL-BIO-110;CL-BIO-171\nL4 | NO | CL-BIO-110;CL-BIO-171\nL5 | YES | [   ]\nL6 | YES | [   ]\nL7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172\nL8 | NO | CL-BIO-171\nL9 | YES | [   ]\n",
+    "expected": {
+      "semantic_table_correct": true,
+      "whole_answer_correct": true,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "actual": {
+      "semantic_table_correct": true,
+      "whole_answer_correct": true,
+      "substantive_submission": true,
+      "strictly_below_70": false,
+      "qualified": false
+    },
+    "counts": {
+      "correct_fields": 27,
+      "gold_fields": 27,
+      "pred_fields": 27,
+      "item_denominator": 54,
+      "correct_rows": 9,
+      "gold_rows": 9,
+      "pred_rows": 9,
+      "row_denominator": 18,
+      "correct_pairs": 36,
+      "pair_denominator": 36,
+      "shared_ids": 9
+    },
+    "passed": true
+  }
+]

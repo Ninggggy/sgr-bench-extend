@@ -1,0 +1,50 @@
+{
+  "reviewed_at": "2026-09-19T14:50:00.211699+00:00",
+  "reviewer": "controller",
+  "faces": {
+    "CG": {
+      "item_fraction": "54/54",
+      "row_fraction": "18/18",
+      "whole_answer_correct": true,
+      "valid_for_acceptance": true,
+      "strictly_below_70": false,
+      "tool_calls": 10,
+      "content_errors": [],
+      "format_issues": [],
+      "acquisition_compliance": "Passed: only ordinary search/open/find and focused original-document text windows. No browser, API, bulk downloads or precomputed lot answers. Search results included irrelevant consolidated documents but operative Chile tables recovered from original2024amendment.",
+      "exposure": "Clean Docker, nohostmounts/history; probes all unreadable; only publicprompt/schema. No reference or otheranswer exposed.",
+      "access": "Initial English amendment open returned unusably short content. CG recovered official PDF via search/find. GO had one additional InternalError opening search13, but same call obtained complete official Spanish originalPDF with all three Chile rows. Agreement andcountry originaltext readable. Recovered route failures didnot confound scores.",
+      "elapsed_seconds": 141.27,
+      "usage": {
+        "input_tokens": 482155,
+        "cached_input_tokens": 397568,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3303,
+        "reasoning_output_tokens": 1925
+      }
+    },
+    "GO": {
+      "item_fraction": "54/54",
+      "row_fraction": "18/18",
+      "whole_answer_correct": true,
+      "valid_for_acceptance": true,
+      "strictly_below_70": false,
+      "tool_calls": 7,
+      "content_errors": [],
+      "format_issues": [],
+      "acquisition_compliance": "Passed: only ordinary search/open/find and focused original-document text windows. No browser, API, bulk downloads or precomputed lot answers. Search results included irrelevant consolidated documents but operative Chile tables recovered from original2024amendment.",
+      "exposure": "Clean Docker, nohostmounts/history; probes all unreadable; only publicprompt/schema. No reference or otheranswer exposed.",
+      "access": "Initial English amendment open returned unusably short content. CG recovered official PDF via search/find. GO had one additional InternalError opening search13, but same call obtained complete official Spanish originalPDF with all three Chile rows. Agreement andcountry originaltext readable. Recovered route failures didnot confound scores.",
+      "elapsed_seconds": 105.723,
+      "usage": {
+        "input_tokens": 330875,
+        "cached_input_tokens": 258560,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2735,
+        "reasoning_output_tokens": 1602
+      }
+    }
+  },
+  "outcome": "Neither face below70%. Retain both, no wording-only retest.",
+  "successful_path": "Both searched bounded amendment, recovered its original tables, followed agreement Annex I and country list, interpreted use/origin exceptions correctly. Few-document semantic dependency was not enough to cause low scores."
+}

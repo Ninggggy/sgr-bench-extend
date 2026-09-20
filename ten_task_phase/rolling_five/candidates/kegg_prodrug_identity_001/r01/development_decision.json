@@ -1,0 +1,56 @@
+{
+  "candidate_id": "kegg_prodrug_identity_001",
+  "revision": 1,
+  "at": "2026-09-12T13:39:37.626476+00:00",
+  "decision": "stop_development_a_full_scores",
+  "trials": [
+    {
+      "variant": "CG",
+      "run_path": "runs/kegg-prodrug-r01-cg-dev-a",
+      "counts": {
+        "correct_fields": 4,
+        "gold_fields": 4,
+        "pred_fields": 4,
+        "item_denominator": 8,
+        "correct_rows": 2,
+        "gold_rows": 2,
+        "pred_rows": 2,
+        "row_denominator": 4,
+        "correct_pairs": 1,
+        "pair_denominator": 1,
+        "shared_ids": 2
+      },
+      "exact_item_f1": "8/8",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verification_status": "passed"
+    },
+    {
+      "variant": "GO",
+      "run_path": "runs/kegg-prodrug-r01-go-dev-a",
+      "counts": {
+        "correct_fields": 4,
+        "gold_fields": 4,
+        "pred_fields": 4,
+        "item_denominator": 8,
+        "correct_rows": 2,
+        "gold_rows": 2,
+        "pred_rows": 2,
+        "row_denominator": 4,
+        "correct_pairs": 1,
+        "pair_denominator": 1,
+        "shared_ids": 2
+      },
+      "exact_item_f1": "8/8",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verification_status": "passed"
+    }
+  ],
+  "reason": "Both freshisolatedSol/mediumA returnedall4fields correctly; noB,attack,finalaudit orformal sampling. Userrevokedpriorinvalidsource stop, notdifficulty/admissionrequirements.",
+  "formal_means": null,
+  "human_review": "not_performed",
+  "independent_final_audit": "not_performed",
+  "admitted": false,
+  "post_A_stability": "passed: controller_post_A_stability.json"
+}

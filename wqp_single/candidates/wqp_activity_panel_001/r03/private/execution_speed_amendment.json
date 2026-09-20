@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-09-08T14:36:29.717034+00:00",
+  "reason": "User requested finishing verification and wrap-up as soon as possible. The original serial policy was a default; controller now uses at most2independent isolated model sessions concurrently to reduce wall clock.",
+  "maximum_concurrent_model_sessions": 2,
+  "before_any_screening_or_confirmation": true,
+  "model_tool_budget_trial_counts_changed": false,
+  "future_new_old_comparability": "All subsequent screening/confirmation tasks use the same bounded pool of2; record actual per-run timing and any access failures. Development serial/parallel timing differences are not hardness evidence.",
+  "dependent_stages": "Evidence audit after requiredcontent/shortcuts; adjudication afterevidenceaudit; final comparison afterfactualreview. No parallel dependencies.",
+  "accounting": "Lock the existing session ledger during session-number/budget allocation to avoid duplicate numbers or exceeding60 under concurrent starts. No hashes, new freeze mechanisms, or altered sandbox."
+}

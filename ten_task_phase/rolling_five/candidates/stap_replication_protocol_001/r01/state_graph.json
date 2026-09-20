@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "S0",
+      "state": "default literature search",
+      "evidence": "No complete scoped study set or method/function table"
+    },
+    {
+      "id": "S1",
+      "state": "original experimental article search",
+      "evidence": "PMID 24476887 MED versus retraction 24990753"
+    },
+    {
+      "id": "S2",
+      "state": "CITES:<discovered original>_MED AND OPEN_ACCESS:Y; full core results",
+      "evidence": "49 PMIDs/PMCIDs and abstracts; 7 lack abstracts"
+    },
+    {
+      "id": "S3",
+      "state": "discovered PMCID fullTextXML/main-article body",
+      "evidence": "own procedures, rare marker evidence, functional tests and explicit not-done statements"
+    },
+    {
+      "id": "S4",
+      "state": "evidence-grounded eligible study table",
+      "evidence": "3 eligible studies; 46 exclusions"
+    }
+  ],
+  "edges": [
+    {
+      "from": "S1",
+      "to": "S2",
+      "type": "control",
+      "field": "original experimental PMID/source determines reverse-citation query"
+    },
+    {
+      "from": "S2",
+      "to": "S3",
+      "type": "control",
+      "field": "discovered PMCID identities and unresolved eligibility/functional claims determine full-text retrieval"
+    },
+    {
+      "from": "S3",
+      "to": "S4",
+      "type": "data",
+      "field": "own-study evidence determines eligibility, procedure and marker/function classifications"
+    }
+  ],
+  "actual_witnesses": [
+    "Niwa abstract does not give ATP/FGF2, rare markers, or failed stable-line derivation; full core is insufficient for required fields.",
+    "Aizawa full text explicitly separates unperformed teratoma/line tests from negative chimera assay; nested peer reviews are separate.",
+    "Som chronic acid marker study excluded after its own methods clarify time-course meaning."
+  ],
+  "limitations": "API result-driven batch retrieval is a legitimate execution of this dependency. Unknown fixed-packet coverage is not a demonstrated bypass. Universal shortcut resistance and model difficulty not validated."
+}

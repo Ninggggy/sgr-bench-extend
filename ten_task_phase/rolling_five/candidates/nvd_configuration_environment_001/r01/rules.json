@@ -1,0 +1,23 @@
+{
+  "columns": [
+    "hardware_product",
+    "firmware_product",
+    "registered_releases"
+  ],
+  "row_key": [
+    "hardware_product",
+    "firmware_product"
+  ],
+  "fields": {
+    "hardware_product": {
+      "aliases": {}
+    },
+    "firmware_product": {
+      "aliases": {}
+    },
+    "registered_releases": {
+      "type": "id_list",
+      "aliases": {}
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": "not_performed_safety_refusal_observed_in_development",
+  "public_request_items": 0,
+  "reason": "GO raw ordinal17 explicitly rejects exact root CVE resource as non-retryable; no controller re-fetch or alternate route allowed. Existing pre-source snapshot retained; do not claim post stability.",
+  "evidence": "../../../runs/nvd-environment-r01-go-dev-a-repair1/tool_events.jsonl",
+  "recorded_at": "2026-09-13T09:58:50.250763+00:00"
+}

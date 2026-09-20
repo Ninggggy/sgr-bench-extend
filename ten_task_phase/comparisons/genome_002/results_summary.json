@@ -1,0 +1,574 @@
+{
+  "status": "six_preregistered_trials_complete",
+  "groups": {
+    "CG": [
+      {
+        "run_id": "r-aa1cc723e5c0",
+        "exact_item_f1": "0",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          },
+          "omitted_ids": [
+            [
+              "api+buc",
+              "buc",
+              "00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api+buc",
+              "buc",
+              "00400",
+              "M00023",
+              "pTrp"
+            ]
+          ],
+          "extra_ids": [
+            [
+              "api",
+              "buc",
+              "map00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api",
+              "buc",
+              "map00400",
+              "M00023",
+              "pTrp"
+            ]
+          ],
+          "duplicate_ids": [],
+          "order_pairs": [],
+          "poa_note": "fewer than two shared IDs => 0"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 211.348
+      },
+      {
+        "run_id": "r-2b2d18f3fd8e",
+        "exact_item_f1": "0",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 54,
+            "item_denominator": 66,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 9,
+            "row_denominator": 11,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          },
+          "omitted_ids": [
+            [
+              "api+buc",
+              "buc",
+              "00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api+buc",
+              "buc",
+              "00400",
+              "M00023",
+              "pTrp"
+            ]
+          ],
+          "extra_ids": [
+            [
+              "api buc",
+              "buc",
+              "map00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api buc",
+              "buc",
+              "map00400",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api buc",
+              "buc",
+              "map01100",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api buc",
+              "buc",
+              "map01100",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api buc",
+              "buc",
+              "map01110",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api buc",
+              "buc",
+              "map01110",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api buc",
+              "buc",
+              "map01210",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api buc",
+              "buc",
+              "map01230",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api buc",
+              "buc",
+              "map01230",
+              "M00432",
+              "pLeu"
+            ]
+          ],
+          "duplicate_ids": [],
+          "order_pairs": [],
+          "poa_note": "fewer than two shared IDs => 0"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 181.337
+      },
+      {
+        "run_id": "r-e630ddf80726",
+        "exact_item_f1": "0",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          },
+          "omitted_ids": [
+            [
+              "api+buc",
+              "buc",
+              "00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api+buc",
+              "buc",
+              "00400",
+              "M00023",
+              "pTrp"
+            ]
+          ],
+          "extra_ids": [
+            [
+              "api buc",
+              "buc",
+              "00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api buc",
+              "buc",
+              "00400",
+              "M00023",
+              "pTrp"
+            ]
+          ],
+          "duplicate_ids": [],
+          "order_pairs": [],
+          "poa_note": "fewer than two shared IDs => 0"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 201.466
+      }
+    ],
+    "GO": [
+      {
+        "run_id": "r-3bf6d4816a7d",
+        "exact_item_f1": "0",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          },
+          "omitted_ids": [
+            [
+              "api+buc",
+              "buc",
+              "00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api+buc",
+              "buc",
+              "00400",
+              "M00023",
+              "pTrp"
+            ]
+          ],
+          "extra_ids": [
+            [
+              "api",
+              "buc",
+              "00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api",
+              "buc",
+              "00400",
+              "M00023",
+              "pTrp"
+            ]
+          ],
+          "duplicate_ids": [],
+          "order_pairs": [],
+          "poa_note": "fewer than two shared IDs => 0"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 236.496
+      },
+      {
+        "run_id": "r-ff6c3bdb8b4f",
+        "exact_item_f1": "0",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 54,
+            "item_denominator": 66,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 9,
+            "row_denominator": 11,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          },
+          "omitted_ids": [
+            [
+              "api+buc",
+              "buc",
+              "00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api+buc",
+              "buc",
+              "00400",
+              "M00023",
+              "pTrp"
+            ]
+          ],
+          "extra_ids": [
+            [
+              "api",
+              "buc",
+              "map00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api",
+              "buc",
+              "map00400",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api",
+              "buc",
+              "map01100",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api",
+              "buc",
+              "map01100",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api",
+              "buc",
+              "map01110",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api",
+              "buc",
+              "map01110",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api",
+              "buc",
+              "map01210",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api",
+              "buc",
+              "map01230",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api",
+              "buc",
+              "map01230",
+              "M00432",
+              "pLeu"
+            ]
+          ],
+          "duplicate_ids": [],
+          "order_pairs": [],
+          "poa_note": "fewer than two shared IDs => 0"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 367.666
+      },
+      {
+        "run_id": "r-9462cbe8adbe",
+        "exact_item_f1": "0",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 54,
+            "item_denominator": 66,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 9,
+            "row_denominator": 11,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          },
+          "omitted_ids": [
+            [
+              "api+buc",
+              "buc",
+              "00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api+buc",
+              "buc",
+              "00400",
+              "M00023",
+              "pTrp"
+            ]
+          ],
+          "extra_ids": [
+            [
+              "api",
+              "buc",
+              "map00290",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api",
+              "buc",
+              "map00400",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api",
+              "buc",
+              "map01100",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api",
+              "buc",
+              "map01100",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api",
+              "buc",
+              "map01110",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api",
+              "buc",
+              "map01110",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api",
+              "buc",
+              "map01210",
+              "M00432",
+              "pLeu"
+            ],
+            [
+              "api",
+              "buc",
+              "map01230",
+              "M00023",
+              "pTrp"
+            ],
+            [
+              "api",
+              "buc",
+              "map01230",
+              "M00432",
+              "pLeu"
+            ]
+          ],
+          "duplicate_ids": [],
+          "order_pairs": [],
+          "poa_note": "fewer than two shared IDs => 0"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 186.412
+      }
+    ]
+  },
+  "exact_means": {
+    "CG": "0",
+    "GO": "0"
+  },
+  "public_answer_exposure": {
+    "status": "no_exposure_observed_in_final_evidence_and_targeted_trace_search",
+    "scope": "Not proof of no training-time exposure",
+    "runs": [
+      {
+        "run_id": "r-aa1cc723e5c0",
+        "targeted_exposure_matches": []
+      },
+      {
+        "run_id": "r-3bf6d4816a7d",
+        "targeted_exposure_matches": []
+      },
+      {
+        "run_id": "r-2b2d18f3fd8e",
+        "targeted_exposure_matches": []
+      },
+      {
+        "run_id": "r-ff6c3bdb8b4f",
+        "targeted_exposure_matches": []
+      },
+      {
+        "run_id": "r-e630ddf80726",
+        "targeted_exposure_matches": []
+      },
+      {
+        "run_id": "r-9462cbe8adbe",
+        "targeted_exposure_matches": []
+      }
+    ]
+  },
+  "semantic_ambiguity": {
+    "row_key_representation": "AllsixrawItemF1zero due composite rowkey mismatch. api+buc inoracle vsapi buc displayedgroup orapi hostcode; map00290 vs00290 also affectsrowalignment. Severalruns identifycorrectorganisms/modules/replicons/year but loseallfieldcredit.",
+    "scope": "Three runs list2specificbiosynthesis maps; threeinclude7additionaloverview/metabolicmap-modulepairs sourcedfrommodulepathwaylists. Publicwording saysallqualifyingpairs without explicit exclusion of overviewmaps; whetherallnineareeligible remainsa source/scopeambiguity, not silentlycorrectedoracle.",
+    "interpretation": "Thesezeroes do notdemonstrate biological or retrievalfailure. Original2-roworacleandrulesretained; nonewmodelretestor gold edit."
+  },
+  "interpretation": "Selected old comparator only; no effect on absolute new-candidate thresholds."
+}

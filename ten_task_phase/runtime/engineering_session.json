@@ -1,0 +1,40 @@
+{
+  "thread_id": "01a08582-843d-7d82-b70d-40747807b8e0",
+  "parent_session_id": "01a08580-d581-7a62-8298-a9d7bfc29b16",
+  "role": "engineering",
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "high",
+  "source": "/Users/ning/.codex/sessions/2026/09/09/rollout-2026-09-09T17-31-58-01a08582-843d-7d82-b70d-40747807b8e0.jsonl",
+  "turn_contexts": [
+    {
+      "timestamp": "2026-09-09T09:31:58.399Z",
+      "model": "gpt-6-astra",
+      "effort": "high"
+    },
+    {
+      "timestamp": "2026-09-09T09:32:01.991Z",
+      "model": "gpt-6-astra",
+      "effort": "high"
+    }
+  ],
+  "latest_usage": {
+    "total_token_usage": {
+      "input_tokens": 1073450,
+      "cached_input_tokens": 941952,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 14289,
+      "reasoning_output_tokens": 1639,
+      "total_tokens": 1087739
+    },
+    "last_token_usage": {
+      "input_tokens": 67883,
+      "cached_input_tokens": 67584,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1291,
+      "reasoning_output_tokens": 516,
+      "total_tokens": 69174
+    },
+    "model_context_window": 258400
+  },
+  "verification": "All recorded turn contexts match requested gpt-6-astra/high; exact final usage remains in original rollout."
+}

@@ -1,0 +1,22 @@
+{
+  "candidate_id": "stap_replication_protocol_001",
+  "historical_revision": 1,
+  "revision": 2,
+  "batch_revision": "polish01",
+  "status": "ready",
+  "reason": "完整49条索引记录与原记录一致，16篇纳排/答案关键全文逐字相同，离线原参考程序重算3行一致。语义注释复用，不冒称人类复审。",
+  "changes": [
+    "按任务、范围、判定条件分段；解释必要术语；CG/GO使用相同实质条件，仅CG增加步骤。",
+    "引用和限制放独立字段；删除与v2冲突的批量许可；历史输入不覆盖。"
+  ],
+  "evidence_paths": [
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/reference_checks/stap/scope_checks.json",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/source_checks/pre/stap_cohort.response",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/stap_replication_protocol_001/r01/eligibility_annotations.json"
+  ],
+  "historical_inputs": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/stap_replication_protocol_001-r01-cg-v2-once",
+  "independent_human_review": "not_performed",
+  "formal_admission": false,
+  "legal_path": "发现原始文章<=3请求；普通索引20条/页3页；最多49条身份摘要可在发现阶段筛选，原证据只需16篇全文；保留补充查询空间，总路径约22请求。原文逐篇取得，不全量导出全文。",
+  "sgr": "原始实验文献身份决定CITES/OA索引状态；候选及实验描述决定后续全文和文章版本选择。"
+}

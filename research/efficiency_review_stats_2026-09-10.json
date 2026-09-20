@@ -1,0 +1,2267 @@
+{
+  "sources": [
+    "ten_task_phase/run_accounting.json",
+    "ten_task_phase/session_ledger.jsonl",
+    "ten_task_phase/campaign.json",
+    "ten_task_phase/exports/admission_report.json"
+  ],
+  "read_policy": "Saved summaries and small run metadata; only targeted root trace metadata/usage snapshots and audit event types. No source bodies emitted, no experiment reruns.",
+  "classification": {
+    "unit": "one real model/controller work session, not one API request or one idea",
+    "reference_order_numbers": [
+      6,
+      18,
+      27,
+      30,
+      39,
+      48,
+      56,
+      95,
+      98,
+      120,
+      126,
+      129,
+      131,
+      133,
+      146,
+      147,
+      148,
+      150
+    ],
+    "note": "Mixed sessions classified by primary declared purpose/output. Audit107 also finalized a candidate; audit132 also revised scoring. Root performs substantive source work as well as coordination; its cost cannot be split reliably."
+  },
+  "whole_phase": {
+    "started_at": "2026-09-09T09:30:08+00:00",
+    "ended_at": "2026-09-10T12:07:42.755045+00:00",
+    "wall_hours": 26.626320845833334,
+    "sessions": 167,
+    "known_session_hours_sum": 47.13860299777778,
+    "elapsed_unknown": 2,
+    "usage_unknown": 2,
+    "usage_incomplete": 8,
+    "known_token_sums": {
+      "input_tokens": 451976349,
+      "cached_input_tokens": 424906368,
+      "output_tokens": 2548236,
+      "reasoning_output_tokens": 828447
+    },
+    "raw_purpose_counts": {
+      "controller": 3,
+      "engineering": 2,
+      "construction": 67,
+      "development": 32,
+      "comparison": 31,
+      "attack": 8,
+      "audit": 11,
+      "admission": 12,
+      "control": 1
+    },
+    "functional_categories": {
+      "admission": {
+        "sessions": 12,
+        "known_session_hours_sum": 1.5398819444444445,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 0,
+        "known_token_sums": {
+          "input_tokens": 26929642,
+          "cached_input_tokens": 24765184,
+          "output_tokens": 103798,
+          "reasoning_output_tokens": 50307
+        }
+      },
+      "attack": {
+        "sessions": 8,
+        "known_session_hours_sum": 0.951466111111111,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 0,
+        "known_token_sums": {
+          "input_tokens": 17525441,
+          "cached_input_tokens": 16138496,
+          "output_tokens": 70922,
+          "reasoning_output_tokens": 33878
+        }
+      },
+      "audit": {
+        "sessions": 11,
+        "known_session_hours_sum": 3.752938611111111,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 1,
+        "known_token_sums": {
+          "input_tokens": 25995789,
+          "cached_input_tokens": 24138240,
+          "output_tokens": 184969,
+          "reasoning_output_tokens": 38010
+        }
+      },
+      "comparison": {
+        "sessions": 31,
+        "known_session_hours_sum": 3.060042222222222,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 1,
+        "known_token_sums": {
+          "input_tokens": 33032826,
+          "cached_input_tokens": 30211200,
+          "output_tokens": 165350,
+          "reasoning_output_tokens": 88329
+        }
+      },
+      "controller": {
+        "sessions": 4,
+        "known_session_hours_sum": 15.96007022,
+        "elapsed_unknown": 0,
+        "usage_unknown": 2,
+        "usage_incomplete": 1,
+        "known_token_sums": {
+          "input_tokens": 140701963,
+          "cached_input_tokens": 135966336,
+          "output_tokens": 606494,
+          "reasoning_output_tokens": 287330
+        }
+      },
+      "development": {
+        "sessions": 32,
+        "known_session_hours_sum": 4.5849586111111105,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 2,
+        "known_token_sums": {
+          "input_tokens": 70953869,
+          "cached_input_tokens": 65666304,
+          "output_tokens": 239187,
+          "reasoning_output_tokens": 108850
+        }
+      },
+      "engineering": {
+        "sessions": 2,
+        "known_session_hours_sum": 0.0,
+        "elapsed_unknown": 2,
+        "usage_unknown": 0,
+        "usage_incomplete": 0,
+        "known_token_sums": {
+          "input_tokens": 2984156,
+          "cached_input_tokens": 2761472,
+          "output_tokens": 34086,
+          "reasoning_output_tokens": 4304
+        }
+      },
+      "reference_construction_revision": {
+        "sessions": 18,
+        "known_session_hours_sum": 5.7320325,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 2,
+        "known_token_sums": {
+          "input_tokens": 35535910,
+          "cached_input_tokens": 32937216,
+          "output_tokens": 370859,
+          "reasoning_output_tokens": 79903
+        }
+      },
+      "source_mechanism_exploration": {
+        "sessions": 49,
+        "known_session_hours_sum": 11.557212777777778,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 1,
+        "known_token_sums": {
+          "input_tokens": 98316753,
+          "cached_input_tokens": 92321920,
+          "output_tokens": 772571,
+          "reasoning_output_tokens": 137536
+        }
+      }
+    },
+    "model_effort_counts": {
+      "('gpt-6-astra', 'high')": 83,
+      "('gpt-5.6-sol', 'medium')": 83,
+      "('gpt-6-astra', 'medium')": 1
+    },
+    "concurrency": {
+      "known_max": 5,
+      "known_time_seconds_by_concurrency": {
+        "0": 38618.516208,
+        "1": 5913.15824,
+        "2": 10496.887294,
+        "3": 16409.570180000002,
+        "4": 24297.313597000004,
+        "5": 119.309526
+      },
+      "known_average": 1.8144268931087544,
+      "missing_intervals": []
+    }
+  },
+  "resume_81_to_167": {
+    "started_at": "2026-09-10T02:29:02.787000+00:00",
+    "ended_at": "2026-09-10T12:07:42.755045+00:00",
+    "wall_hours": 9.644435568055556,
+    "sessions": 87,
+    "known_session_hours_sum": 28.177255833333334,
+    "elapsed_unknown": 0,
+    "usage_unknown": 0,
+    "usage_incomplete": 1,
+    "known_token_sums": {
+      "input_tokens": 322745594,
+      "cached_input_tokens": 305192320,
+      "output_tokens": 1878293,
+      "reasoning_output_tokens": 588835
+    },
+    "raw_purpose_counts": {
+      "controller": 1,
+      "construction": 49,
+      "audit": 8,
+      "development": 18,
+      "attack": 4,
+      "control": 1,
+      "admission": 6
+    },
+    "functional_categories": {
+      "admission": {
+        "sessions": 6,
+        "known_session_hours_sum": 0.8293919444444445,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 0,
+        "known_token_sums": {
+          "input_tokens": 13674544,
+          "cached_input_tokens": 12549632,
+          "output_tokens": 53223,
+          "reasoning_output_tokens": 25846
+        }
+      },
+      "attack": {
+        "sessions": 4,
+        "known_session_hours_sum": 0.5372661111111111,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 0,
+        "known_token_sums": {
+          "input_tokens": 9684945,
+          "cached_input_tokens": 8879360,
+          "output_tokens": 40333,
+          "reasoning_output_tokens": 19007
+        }
+      },
+      "audit": {
+        "sessions": 8,
+        "known_session_hours_sum": 2.4688080555555554,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 0,
+        "known_token_sums": {
+          "input_tokens": 18700318,
+          "cached_input_tokens": 17493248,
+          "output_tokens": 150113,
+          "reasoning_output_tokens": 32175
+        }
+      },
+      "controller": {
+        "sessions": 2,
+        "known_session_hours_sum": 9.705550555555556,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 1,
+        "known_token_sums": {
+          "input_tokens": 140701963,
+          "cached_input_tokens": 135966336,
+          "output_tokens": 606494,
+          "reasoning_output_tokens": 287330
+        }
+      },
+      "development": {
+        "sessions": 18,
+        "known_session_hours_sum": 2.226775,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 0,
+        "known_token_sums": {
+          "input_tokens": 42078984,
+          "cached_input_tokens": 38809856,
+          "output_tokens": 144941,
+          "reasoning_output_tokens": 65722
+        }
+      },
+      "reference_construction_revision": {
+        "sessions": 11,
+        "known_session_hours_sum": 3.5930383333333333,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 0,
+        "known_token_sums": {
+          "input_tokens": 21934511,
+          "cached_input_tokens": 20306944,
+          "output_tokens": 265256,
+          "reasoning_output_tokens": 56163
+        }
+      },
+      "source_mechanism_exploration": {
+        "sessions": 38,
+        "known_session_hours_sum": 8.816425833333334,
+        "elapsed_unknown": 0,
+        "usage_unknown": 0,
+        "usage_incomplete": 0,
+        "known_token_sums": {
+          "input_tokens": 75970329,
+          "cached_input_tokens": 71186944,
+          "output_tokens": 617933,
+          "reasoning_output_tokens": 102592
+        }
+      }
+    },
+    "model_effort_counts": {
+      "('gpt-6-astra', 'high')": 58,
+      "('gpt-5.6-sol', 'medium')": 28,
+      "('gpt-6-astra', 'medium')": 1
+    },
+    "concurrency": {
+      "known_max": 5,
+      "known_time_seconds_by_concurrency": {
+        "0": 0.0,
+        "1": 2348.160889,
+        "2": 9068.006168999998,
+        "3": 12375.200061000003,
+        "4": 10809.2914,
+        "5": 119.309526
+      },
+      "known_average": 2.9217620969155473,
+      "missing_intervals": []
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/arxiv_historical_title_001/r01",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": "r02",
+      "path": "ten_task_phase/candidates/arxiv_historical_title_001/r02",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/arxiv_historical_title_002/r01",
+      "paired_package": false
+    },
+    {
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": "r02",
+      "path": "ten_task_phase/candidates/arxiv_historical_title_002/r02",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": "r03",
+      "path": "ten_task_phase/candidates/arxiv_historical_title_002/r03",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "cfpb_app_issuer_version_001",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/cfpb_app_issuer_version_001/r01",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "europemc_balf_provenance_001",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/europemc_balf_provenance_001/r01",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "europemc_declared_patent_001",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/europemc_declared_patent_001/r01",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "europemc_republication_title_001",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/europemc_republication_title_001/r01",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "europemc_reuse_deposit_001",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/europemc_reuse_deposit_001/r01",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "kegg_initial_cdx_001",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/kegg_initial_cdx_001/r01",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "kegg_initial_cdx_001",
+      "revision": "r02",
+      "path": "ten_task_phase/candidates/kegg_initial_cdx_001/r02",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "nvd_initial_assessment_001",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/nvd_initial_assessment_001/r01",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "nvd_repository_publication_001",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/nvd_repository_publication_001/r01",
+      "paired_package": true
+    },
+    {
+      "candidate_id": "reptile_type_referral_001",
+      "revision": "r01",
+      "path": "ten_task_phase/candidates/reptile_type_referral_001/r01",
+      "paired_package": true
+    }
+  ],
+  "trials": [
+    {
+      "session_number": 12,
+      "candidate_id": "reptile_type_referral_001",
+      "revision": 1,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-reptile-referral-r01-cg-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 9,
+        "gold_fields": 9,
+        "pred_fields": 9,
+        "item_denominator": 18,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 13,
+      "candidate_id": "reptile_type_referral_001",
+      "revision": 1,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-reptile-referral-r01-go-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 9,
+        "gold_fields": 9,
+        "pred_fields": 9,
+        "item_denominator": 18,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 33,
+      "candidate_id": "europemc_reuse_deposit_001",
+      "revision": 1,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-epmc-reuse-r01-cg-dev-a",
+      "status": "completed",
+      "Item-F1": 0.0,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 2,
+        "pred_fields": 2,
+        "item_denominator": 4,
+        "correct_rows": 0,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 34,
+      "candidate_id": "europemc_reuse_deposit_001",
+      "revision": 1,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-epmc-reuse-r01-go-dev-a",
+      "status": "completed",
+      "Item-F1": 0.0,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 2,
+        "pred_fields": 2,
+        "item_denominator": 4,
+        "correct_rows": 0,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 35,
+      "candidate_id": "europemc_reuse_deposit_001",
+      "revision": 1,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-epmc-reuse-r01-cg-dev-b",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 2,
+        "gold_fields": 2,
+        "pred_fields": 2,
+        "item_denominator": 4,
+        "correct_rows": 1,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 1
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 36,
+      "candidate_id": "europemc_reuse_deposit_001",
+      "revision": 1,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-epmc-reuse-r01-go-dev-b",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 2,
+        "gold_fields": 2,
+        "pred_fields": 2,
+        "item_denominator": 4,
+        "correct_rows": 1,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 1
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 37,
+      "candidate_id": "europemc_reuse_deposit_001",
+      "revision": 1,
+      "variant": "CG",
+      "stage": "attack",
+      "purpose": "attack",
+      "run_dir": "runs/r-epmc-reuse-r01-cg-attack",
+      "status": "completed",
+      "Item-F1": 0.0,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 2,
+        "pred_fields": 4,
+        "item_denominator": 6,
+        "correct_rows": 0,
+        "gold_rows": 1,
+        "pred_rows": 2,
+        "row_denominator": 3,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 38,
+      "candidate_id": "europemc_reuse_deposit_001",
+      "revision": 1,
+      "variant": "GO",
+      "stage": "attack",
+      "purpose": "attack",
+      "run_dir": "runs/r-epmc-reuse-r01-go-attack",
+      "status": "completed",
+      "Item-F1": 0.0,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 2,
+        "pred_fields": 2,
+        "item_denominator": 4,
+        "correct_rows": 0,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 42,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-title-r02-cg-dev-a",
+      "status": "stalled",
+      "Item-F1": null,
+      "counts": null,
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 44,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-title-r02-cg-dev-a-repair",
+      "status": "completed",
+      "Item-F1": 0.5454545454545454,
+      "counts": {
+        "correct_fields": 9,
+        "gold_fields": 24,
+        "pred_fields": 9,
+        "item_denominator": 33,
+        "correct_rows": 3,
+        "gold_rows": 8,
+        "pred_rows": 3,
+        "row_denominator": 11,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 47,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-title-r02-go-dev-a",
+      "status": "completed",
+      "Item-F1": 0.4,
+      "counts": {
+        "correct_fields": 6,
+        "gold_fields": 24,
+        "pred_fields": 6,
+        "item_denominator": 30,
+        "correct_rows": 2,
+        "gold_rows": 8,
+        "pred_rows": 2,
+        "row_denominator": 10,
+        "correct_pairs": 1,
+        "pair_denominator": 1,
+        "shared_ids": 2
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 51,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-title-r02-cg-dev-b",
+      "status": "completed",
+      "Item-F1": 0.8571428571428571,
+      "counts": {
+        "correct_fields": 18,
+        "gold_fields": 24,
+        "pred_fields": 18,
+        "item_denominator": 42,
+        "correct_rows": 6,
+        "gold_rows": 8,
+        "pred_rows": 6,
+        "row_denominator": 14,
+        "correct_pairs": 15,
+        "pair_denominator": 15,
+        "shared_ids": 6
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 53,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-title-r02-go-dev-b",
+      "status": "completed",
+      "Item-F1": 0.6666666666666666,
+      "counts": {
+        "correct_fields": 12,
+        "gold_fields": 24,
+        "pred_fields": 12,
+        "item_denominator": 36,
+        "correct_rows": 4,
+        "gold_rows": 8,
+        "pred_rows": 4,
+        "row_denominator": 12,
+        "correct_pairs": 6,
+        "pair_denominator": 6,
+        "shared_ids": 4
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 55,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "attack",
+      "purpose": "attack",
+      "run_dir": "runs/r-arxiv-title-r02-cg-attack",
+      "status": "completed",
+      "Item-F1": 0.9333333333333333,
+      "counts": {
+        "correct_fields": 21,
+        "gold_fields": 24,
+        "pred_fields": 21,
+        "item_denominator": 45,
+        "correct_rows": 7,
+        "gold_rows": 8,
+        "pred_rows": 7,
+        "row_denominator": 15,
+        "correct_pairs": 21,
+        "pair_denominator": 21,
+        "shared_ids": 7
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 58,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "GO",
+      "stage": "attack",
+      "purpose": "attack",
+      "run_dir": "runs/r-arxiv-title-r02-go-attack",
+      "status": "completed",
+      "Item-F1": 0.4,
+      "counts": {
+        "correct_fields": 6,
+        "gold_fields": 24,
+        "pred_fields": 6,
+        "item_denominator": 30,
+        "correct_rows": 2,
+        "gold_rows": 8,
+        "pred_rows": 2,
+        "row_denominator": 10,
+        "correct_pairs": 1,
+        "pair_denominator": 1,
+        "shared_ids": 2
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 59,
+      "candidate_id": "nvd_initial_assessment_001",
+      "revision": 1,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-nvd-initial-r01-cg-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 24,
+        "gold_fields": 24,
+        "pred_fields": 24,
+        "item_denominator": 48,
+        "correct_rows": 6,
+        "gold_rows": 6,
+        "pred_rows": 6,
+        "row_denominator": 12,
+        "correct_pairs": 15,
+        "pair_denominator": 15,
+        "shared_ids": 6
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 61,
+      "candidate_id": "nvd_initial_assessment_001",
+      "revision": 1,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-nvd-initial-r01-go-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 24,
+        "gold_fields": 24,
+        "pred_fields": 24,
+        "item_denominator": 48,
+        "correct_rows": 6,
+        "gold_rows": 6,
+        "pred_rows": 6,
+        "row_denominator": 12,
+        "correct_pairs": 15,
+        "pair_denominator": 15,
+        "shared_ids": 6
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 67,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-title-r02-cg-admission-1",
+      "status": "completed",
+      "Item-F1": 0.7692307692307693,
+      "counts": {
+        "correct_fields": 15,
+        "gold_fields": 24,
+        "pred_fields": 15,
+        "item_denominator": 39,
+        "correct_rows": 5,
+        "gold_rows": 8,
+        "pred_rows": 5,
+        "row_denominator": 13,
+        "correct_pairs": 10,
+        "pair_denominator": 10,
+        "shared_ids": 5
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 69,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "GO",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-title-r02-go-admission-1",
+      "status": "completed",
+      "Item-F1": 0.5454545454545454,
+      "counts": {
+        "correct_fields": 9,
+        "gold_fields": 24,
+        "pred_fields": 9,
+        "item_denominator": 33,
+        "correct_rows": 3,
+        "gold_rows": 8,
+        "pred_rows": 3,
+        "row_denominator": 11,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 70,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-title-r02-cg-admission-2",
+      "status": "completed",
+      "Item-F1": 0.2222222222222222,
+      "counts": {
+        "correct_fields": 3,
+        "gold_fields": 24,
+        "pred_fields": 3,
+        "item_denominator": 27,
+        "correct_rows": 1,
+        "gold_rows": 8,
+        "pred_rows": 1,
+        "row_denominator": 9,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 1
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 72,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "GO",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-title-r02-go-admission-2",
+      "status": "completed",
+      "Item-F1": 0.4,
+      "counts": {
+        "correct_fields": 6,
+        "gold_fields": 24,
+        "pred_fields": 6,
+        "item_denominator": 30,
+        "correct_rows": 2,
+        "gold_rows": 8,
+        "pred_rows": 2,
+        "row_denominator": 10,
+        "correct_pairs": 1,
+        "pair_denominator": 1,
+        "shared_ids": 2
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 74,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-title-r02-cg-admission-3",
+      "status": "completed",
+      "Item-F1": 0.4,
+      "counts": {
+        "correct_fields": 6,
+        "gold_fields": 24,
+        "pred_fields": 6,
+        "item_denominator": 30,
+        "correct_rows": 2,
+        "gold_rows": 8,
+        "pred_rows": 2,
+        "row_denominator": 10,
+        "correct_pairs": 1,
+        "pair_denominator": 1,
+        "shared_ids": 2
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 76,
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variant": "GO",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-title-r02-go-admission-3",
+      "status": "completed",
+      "Item-F1": 0.6666666666666666,
+      "counts": {
+        "correct_fields": 12,
+        "gold_fields": 24,
+        "pred_fields": 12,
+        "item_denominator": 36,
+        "correct_rows": 4,
+        "gold_rows": 8,
+        "pred_rows": 4,
+        "row_denominator": 12,
+        "correct_pairs": 6,
+        "pair_denominator": 6,
+        "shared_ids": 4
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 78,
+      "candidate_id": "europemc_balf_provenance_001",
+      "revision": 1,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-epmc-balf-r01-cg-dev-a",
+      "status": "runtime_error",
+      "Item-F1": null,
+      "counts": null,
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 99,
+      "candidate_id": "europemc_declared_patent_001",
+      "revision": 1,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-epmc-patent-r01-cg-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 15,
+        "gold_fields": 15,
+        "pred_fields": 15,
+        "item_denominator": 30,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 101,
+      "candidate_id": "cfpb_app_issuer_version_001",
+      "revision": 1,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-cfpb-issuer-r01-cg-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 15,
+        "gold_fields": 15,
+        "pred_fields": 15,
+        "item_denominator": 30,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 102,
+      "candidate_id": "cfpb_app_issuer_version_001",
+      "revision": 1,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-cfpb-issuer-r01-go-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 15,
+        "gold_fields": 15,
+        "pred_fields": 15,
+        "item_denominator": 30,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 103,
+      "candidate_id": "europemc_declared_patent_001",
+      "revision": 1,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-epmc-patent-r01-go-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 15,
+        "gold_fields": 15,
+        "pred_fields": 15,
+        "item_denominator": 30,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 110,
+      "candidate_id": "nvd_repository_publication_001",
+      "revision": 1,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-nvd-repopub-r01-cg-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 30,
+        "gold_fields": 30,
+        "pred_fields": 30,
+        "item_denominator": 60,
+        "correct_rows": 6,
+        "gold_rows": 6,
+        "pred_rows": 6,
+        "row_denominator": 12,
+        "correct_pairs": 15,
+        "pair_denominator": 15,
+        "shared_ids": 6
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 113,
+      "candidate_id": "nvd_repository_publication_001",
+      "revision": 1,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-nvd-repopub-r01-go-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 30,
+        "gold_fields": 30,
+        "pred_fields": 30,
+        "item_denominator": 60,
+        "correct_rows": 6,
+        "gold_rows": 6,
+        "pred_rows": 6,
+        "row_denominator": 12,
+        "correct_pairs": 15,
+        "pair_denominator": 15,
+        "shared_ids": 6
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 121,
+      "candidate_id": "europemc_republication_title_001",
+      "revision": 1,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-epmc-repubtitle-r01-cg-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 12,
+        "gold_fields": 12,
+        "pred_fields": 12,
+        "item_denominator": 24,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 122,
+      "candidate_id": "europemc_republication_title_001",
+      "revision": 1,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-epmc-repubtitle-r01-go-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 12,
+        "gold_fields": 12,
+        "pred_fields": 12,
+        "item_denominator": 24,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 135,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-histtitle002-r02-cg-dev-a",
+      "status": "completed",
+      "Item-F1": 0.9142857142857143,
+      "counts": {
+        "correct_fields": 96,
+        "gold_fields": 114,
+        "pred_fields": 96,
+        "item_denominator": 210,
+        "correct_rows": 16,
+        "gold_rows": 19,
+        "pred_rows": 16,
+        "row_denominator": 35,
+        "correct_pairs": 120,
+        "pair_denominator": 120,
+        "shared_ids": 16
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 136,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 2,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-histtitle002-r02-go-dev-a",
+      "status": "completed",
+      "Item-F1": 0.7333333333333333,
+      "counts": {
+        "correct_fields": 66,
+        "gold_fields": 114,
+        "pred_fields": 66,
+        "item_denominator": 180,
+        "correct_rows": 11,
+        "gold_rows": 19,
+        "pred_rows": 11,
+        "row_denominator": 30,
+        "correct_pairs": 55,
+        "pair_denominator": 55,
+        "shared_ids": 11
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 137,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-histtitle002-r02-cg-dev-b",
+      "status": "completed",
+      "Item-F1": 0.8484848484848485,
+      "counts": {
+        "correct_fields": 84,
+        "gold_fields": 114,
+        "pred_fields": 84,
+        "item_denominator": 198,
+        "correct_rows": 14,
+        "gold_rows": 19,
+        "pred_rows": 14,
+        "row_denominator": 33,
+        "correct_pairs": 91,
+        "pair_denominator": 91,
+        "shared_ids": 14
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 138,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 2,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-histtitle002-r02-go-dev-b",
+      "status": "completed",
+      "Item-F1": 0.7333333333333333,
+      "counts": {
+        "correct_fields": 66,
+        "gold_fields": 114,
+        "pred_fields": 66,
+        "item_denominator": 180,
+        "correct_rows": 11,
+        "gold_rows": 19,
+        "pred_rows": 11,
+        "row_denominator": 30,
+        "correct_pairs": 55,
+        "pair_denominator": 55,
+        "shared_ids": 11
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 139,
+      "candidate_id": "kegg_initial_cdx_001",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-kegg-cdx001-r02-cg-dev-a",
+      "status": "completed",
+      "Item-F1": 0.7916666666666666,
+      "counts": {
+        "correct_fields": 19,
+        "gold_fields": 20,
+        "pred_fields": 28,
+        "item_denominator": 48,
+        "correct_rows": 3,
+        "gold_rows": 4,
+        "pred_rows": 5,
+        "row_denominator": 9,
+        "correct_pairs": 6,
+        "pair_denominator": 6,
+        "shared_ids": 4
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 140,
+      "candidate_id": "kegg_initial_cdx_001",
+      "revision": 2,
+      "variant": "GO",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-kegg-cdx001-r02-go-dev-a",
+      "status": "completed",
+      "Item-F1": 1.0,
+      "counts": {
+        "correct_fields": 20,
+        "gold_fields": 20,
+        "pred_fields": 20,
+        "item_denominator": 40,
+        "correct_rows": 4,
+        "gold_rows": 4,
+        "pred_rows": 4,
+        "row_denominator": 8,
+        "correct_pairs": 6,
+        "pair_denominator": 6,
+        "shared_ids": 4
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 141,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 2,
+      "variant": "GO",
+      "stage": "attack",
+      "purpose": "attack",
+      "run_dir": "runs/r-arxiv-histtitle002-r02-go-attack",
+      "status": "completed",
+      "Item-F1": 0.0,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 114,
+        "pred_fields": 98,
+        "item_denominator": 212,
+        "correct_rows": 0,
+        "gold_rows": 19,
+        "pred_rows": 14,
+        "row_denominator": 33,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 143,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 2,
+      "variant": "CG",
+      "stage": "attack",
+      "purpose": "attack",
+      "run_dir": "runs/r-arxiv-histtitle002-r02-cg-attack",
+      "status": "completed",
+      "Item-F1": 0.7741935483870968,
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 114,
+        "pred_fields": 72,
+        "item_denominator": 186,
+        "correct_rows": 12,
+        "gold_rows": 19,
+        "pred_rows": 12,
+        "row_denominator": 31,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 154,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "go",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-go-dev-a",
+      "status": "completed",
+      "Item-F1": 0.7272727272727273,
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 126,
+        "pred_fields": 72,
+        "item_denominator": 198,
+        "correct_rows": 12,
+        "gold_rows": 21,
+        "pred_rows": 12,
+        "row_denominator": 33,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 155,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "cg",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-cg-dev-a",
+      "status": "completed",
+      "Item-F1": 0.7647058823529411,
+      "counts": {
+        "correct_fields": 78,
+        "gold_fields": 126,
+        "pred_fields": 78,
+        "item_denominator": 204,
+        "correct_rows": 13,
+        "gold_rows": 21,
+        "pred_rows": 13,
+        "row_denominator": 34,
+        "correct_pairs": 78,
+        "pair_denominator": 78,
+        "shared_ids": 13
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 156,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "cg",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-cg-dev-b",
+      "status": "completed",
+      "Item-F1": 0.5517241379310345,
+      "counts": {
+        "correct_fields": 48,
+        "gold_fields": 126,
+        "pred_fields": 48,
+        "item_denominator": 174,
+        "correct_rows": 8,
+        "gold_rows": 21,
+        "pred_rows": 8,
+        "row_denominator": 29,
+        "correct_pairs": 28,
+        "pair_denominator": 28,
+        "shared_ids": 8
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 157,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "go",
+      "stage": "development",
+      "purpose": "development",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-go-dev-b",
+      "status": "completed",
+      "Item-F1": 0.8,
+      "counts": {
+        "correct_fields": 84,
+        "gold_fields": 126,
+        "pred_fields": 84,
+        "item_denominator": 210,
+        "correct_rows": 14,
+        "gold_rows": 21,
+        "pred_rows": 14,
+        "row_denominator": 35,
+        "correct_pairs": 91,
+        "pair_denominator": 91,
+        "shared_ids": 14
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 158,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "cg",
+      "stage": "attack",
+      "purpose": "attack",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-cg-attack",
+      "status": "completed",
+      "Item-F1": 0.6,
+      "counts": {
+        "correct_fields": 54,
+        "gold_fields": 126,
+        "pred_fields": 54,
+        "item_denominator": 180,
+        "correct_rows": 9,
+        "gold_rows": 21,
+        "pred_rows": 9,
+        "row_denominator": 30,
+        "correct_pairs": 36,
+        "pair_denominator": 36,
+        "shared_ids": 9
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 160,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "go",
+      "stage": "attack",
+      "purpose": "attack",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-go-attack",
+      "status": "completed",
+      "Item-F1": 0.7647058823529411,
+      "counts": {
+        "correct_fields": 78,
+        "gold_fields": 126,
+        "pred_fields": 78,
+        "item_denominator": 204,
+        "correct_rows": 13,
+        "gold_rows": 21,
+        "pred_rows": 13,
+        "row_denominator": 34,
+        "correct_pairs": 78,
+        "pair_denominator": 78,
+        "shared_ids": 13
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 162,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "CG",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-cg-admission-2",
+      "status": "completed",
+      "Item-F1": 0.7272727272727273,
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 126,
+        "pred_fields": 72,
+        "item_denominator": 198,
+        "correct_rows": 12,
+        "gold_rows": 21,
+        "pred_rows": 12,
+        "row_denominator": 33,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 163,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "CG",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-cg-admission-3",
+      "status": "completed",
+      "Item-F1": 0.7272727272727273,
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 126,
+        "pred_fields": 72,
+        "item_denominator": 198,
+        "correct_rows": 12,
+        "gold_rows": 21,
+        "pred_rows": 12,
+        "row_denominator": 33,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 164,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "CG",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-cg-admission-1",
+      "status": "completed",
+      "Item-F1": 0.8333333333333334,
+      "counts": {
+        "correct_fields": 90,
+        "gold_fields": 126,
+        "pred_fields": 90,
+        "item_denominator": 216,
+        "correct_rows": 15,
+        "gold_rows": 21,
+        "pred_rows": 15,
+        "row_denominator": 36,
+        "correct_pairs": 105,
+        "pair_denominator": 105,
+        "shared_ids": 15
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 165,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "GO",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-go-admission-2",
+      "status": "completed",
+      "Item-F1": 0.7272727272727273,
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 126,
+        "pred_fields": 72,
+        "item_denominator": 198,
+        "correct_rows": 12,
+        "gold_rows": 21,
+        "pred_rows": 12,
+        "row_denominator": 33,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 166,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "GO",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-go-admission-1",
+      "status": "completed",
+      "Item-F1": 0.4444444444444444,
+      "counts": {
+        "correct_fields": 36,
+        "gold_fields": 126,
+        "pred_fields": 36,
+        "item_denominator": 162,
+        "correct_rows": 6,
+        "gold_rows": 21,
+        "pred_rows": 6,
+        "row_denominator": 27,
+        "correct_pairs": 15,
+        "pair_denominator": 15,
+        "shared_ids": 6
+      },
+      "verification_status": "passed"
+    },
+    {
+      "session_number": 167,
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variant": "GO",
+      "stage": "admission_retest",
+      "purpose": "admission",
+      "run_dir": "runs/r-arxiv-histtitle002-r03-go-admission-3",
+      "status": "completed",
+      "Item-F1": 0.5517241379310345,
+      "counts": {
+        "correct_fields": 48,
+        "gold_fields": 126,
+        "pred_fields": 48,
+        "item_denominator": 174,
+        "correct_rows": 8,
+        "gold_rows": 21,
+        "pred_rows": 8,
+        "row_denominator": 29,
+        "correct_pairs": 28,
+        "pair_denominator": 28,
+        "shared_ids": 8
+      },
+      "verification_status": "passed"
+    }
+  ],
+  "funnel": {
+    "candidate_base_directories": 11,
+    "candidate_revision_directories": 15,
+    "paired_revision_packages": 14,
+    "paired_base_packages": 11,
+    "blind_base_tasks": 11,
+    "blind_versions": 12,
+    "resume_new_blind_base_tasks": 6,
+    "untested_ideas": null,
+    "untested_ideas_note": "No uniform idea identifier; source-work-session counts are not unique candidate counts."
+  },
+  "case_session_costs": {
+    "arxiv001_direct": {
+      "session_numbers": [
+        20,
+        27,
+        39,
+        42,
+        44,
+        47,
+        51,
+        53,
+        55,
+        58,
+        60,
+        67,
+        69,
+        70,
+        72,
+        74,
+        76
+      ],
+      "sessions": 17,
+      "known_session_hours_sum": 3.5828436111111115,
+      "elapsed_unknown": 0,
+      "usage_unknown": 0,
+      "usage_incomplete": 2,
+      "known_token_sums": {
+        "input_tokens": 35670287,
+        "cached_input_tokens": 32817408,
+        "output_tokens": 169046,
+        "reasoning_output_tokens": 63693
+      },
+      "note": "Direct named sessions only; excludes unallocatable root/shared work and is not full marginal task cost."
+    },
+    "arxiv002_direct": {
+      "session_numbers": [
+        83,
+        129,
+        131,
+        133,
+        135,
+        136,
+        137,
+        138,
+        141,
+        143,
+        144,
+        146,
+        147,
+        148,
+        150,
+        154,
+        155,
+        156,
+        157,
+        158,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
+      ],
+      "sessions": 28,
+      "known_session_hours_sum": 5.405161388888889,
+      "elapsed_unknown": 0,
+      "usage_unknown": 0,
+      "usage_incomplete": 0,
+      "known_token_sums": {
+        "input_tokens": 74315669,
+        "cached_input_tokens": 68797056,
+        "output_tokens": 412819,
+        "reasoning_output_tokens": 135667
+      },
+      "note": "Direct named sessions only; excludes unallocatable root/shared work and is not full marginal task cost."
+    },
+    "kegg_cdx_direct": {
+      "session_numbers": [
+        126,
+        132,
+        139,
+        140
+      ],
+      "sessions": 4,
+      "known_session_hours_sum": 1.9149041666666666,
+      "elapsed_unknown": 0,
+      "usage_unknown": 0,
+      "usage_incomplete": 0,
+      "known_token_sums": {
+        "input_tokens": 5532211,
+        "cached_input_tokens": 4951808,
+        "output_tokens": 61862,
+        "reasoning_output_tokens": 18033
+      },
+      "note": "Direct named sessions only; excludes unallocatable root/shared work and is not full marginal task cost."
+    },
+    "patent_direct": {
+      "session_numbers": [
+        92,
+        95,
+        99,
+        103
+      ],
+      "sessions": 4,
+      "known_session_hours_sum": 0.7654258333333334,
+      "elapsed_unknown": 0,
+      "usage_unknown": 0,
+      "usage_incomplete": 0,
+      "known_token_sums": {
+        "input_tokens": 8773528,
+        "cached_input_tokens": 8174336,
+        "output_tokens": 47634,
+        "reasoning_output_tokens": 8885
+      },
+      "note": "Direct named sessions only; excludes unallocatable root/shared work and is not full marginal task cost."
+    },
+    "cfpb_direct": {
+      "session_numbers": [
+        96,
+        98,
+        101,
+        102
+      ],
+      "sessions": 4,
+      "known_session_hours_sum": 0.4334891666666667,
+      "elapsed_unknown": 0,
+      "usage_unknown": 0,
+      "usage_incomplete": 0,
+      "known_token_sums": {
+        "input_tokens": 3788820,
+        "cached_input_tokens": 3358336,
+        "output_tokens": 41896,
+        "reasoning_output_tokens": 10857
+      },
+      "note": "Direct named sessions only; excludes unallocatable root/shared work and is not full marginal task cost."
+    },
+    "nvd_dates_direct": {
+      "session_numbers": [
+        104,
+        107,
+        110,
+        113
+      ],
+      "sessions": 4,
+      "known_session_hours_sum": 0.5299458333333333,
+      "elapsed_unknown": 0,
+      "usage_unknown": 0,
+      "usage_incomplete": 0,
+      "known_token_sums": {
+        "input_tokens": 3566747,
+        "cached_input_tokens": 3154432,
+        "output_tokens": 51641,
+        "reasoning_output_tokens": 10800
+      },
+      "note": "Direct named sessions only; excludes unallocatable root/shared work and is not full marginal task cost."
+    },
+    "natcomms_repository": {
+      "session_numbers": [
+        124
+      ],
+      "sessions": 1,
+      "known_session_hours_sum": 0.6339466666666667,
+      "elapsed_unknown": 0,
+      "usage_unknown": 0,
+      "usage_incomplete": 0,
+      "known_token_sums": {
+        "input_tokens": 13190850,
+        "cached_input_tokens": 12832512,
+        "output_tokens": 42625,
+        "reasoning_output_tokens": 10294
+      },
+      "note": "Direct named sessions only; excludes unallocatable root/shared work and is not full marginal task cost."
+    },
+    "anolis_identity_and_followup": {
+      "session_numbers": [
+        142,
+        153
+      ],
+      "sessions": 2,
+      "known_session_hours_sum": 0.62564,
+      "elapsed_unknown": 0,
+      "usage_unknown": 0,
+      "usage_incomplete": 0,
+      "known_token_sums": {
+        "input_tokens": 10930609,
+        "cached_input_tokens": 10475648,
+        "output_tokens": 45404,
+        "reasoning_output_tokens": 14371
+      },
+      "note": "Direct named sessions only; excludes unallocatable root/shared work and is not full marginal task cost."
+    },
+    "pancreas": {
+      "session_numbers": [
+        152
+      ],
+      "sessions": 1,
+      "known_session_hours_sum": 0.8789702777777778,
+      "elapsed_unknown": 0,
+      "usage_unknown": 0,
+      "usage_incomplete": 0,
+      "known_token_sums": {
+        "input_tokens": 2133066,
+        "cached_input_tokens": 2016384,
+        "output_tokens": 22546,
+        "reasoning_output_tokens": 3830
+      },
+      "note": "Direct named sessions only; excludes unallocatable root/shared work and is not full marginal task cost."
+    }
+  },
+  "top_input_sessions": [
+    {
+      "session_number": 81,
+      "label": "controller_resume_2026-09-10_0229",
+      "purpose": "controller",
+      "elapsed_seconds": 34719.968,
+      "usage": {
+        "input_tokens": 139871365,
+        "cached_input_tokens": 135169536,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 601973,
+        "reasoning_output_tokens": 287120,
+        "total_tokens": 140473338
+      },
+      "usage_source": "actual turn cumulative-token delta"
+    },
+    {
+      "session_number": 124,
+      "label": "resume-natcomms-repository",
+      "purpose": "construction",
+      "elapsed_seconds": 2282.208,
+      "usage": {
+        "input_tokens": 13190850,
+        "cached_input_tokens": 12832512,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 42625,
+        "reasoning_output_tokens": 10294
+      },
+      "usage_source": "completed event"
+    },
+    {
+      "session_number": 142,
+      "label": "resume-anolis-neotype-identity",
+      "purpose": "construction",
+      "elapsed_seconds": 1864.116,
+      "usage": {
+        "input_tokens": 9884136,
+        "cached_input_tokens": 9568000,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 34616,
+        "reasoning_output_tokens": 12196
+      },
+      "usage_source": "completed event"
+    },
+    {
+      "session_number": 61,
+      "label": "r-nvd-initial-r01-go-dev-a",
+      "purpose": "development",
+      "elapsed_seconds": 1284.301,
+      "usage": {
+        "input_tokens": 6781529,
+        "cached_input_tokens": 6567040,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18065,
+        "reasoning_output_tokens": 7626
+      },
+      "usage_source": "completed event"
+    },
+    {
+      "session_number": 150,
+      "label": "resume-arxiv002-r03-consolidation",
+      "purpose": "construction",
+      "elapsed_seconds": 2021.139,
+      "usage": {
+        "input_tokens": 6058215,
+        "cached_input_tokens": 5748480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 56082,
+        "reasoning_output_tokens": 11055
+      },
+      "usage_source": "completed event"
+    },
+    {
+      "session_number": 135,
+      "label": "r-arxiv-histtitle002-r02-cg-dev-a",
+      "purpose": "development",
+      "elapsed_seconds": 967.64,
+      "usage": {
+        "input_tokens": 5878509,
+        "cached_input_tokens": 5534464,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16829,
+        "reasoning_output_tokens": 8526
+      },
+      "usage_source": "completed event"
+    },
+    {
+      "session_number": 57,
+      "label": "old-reptile_001-go-3",
+      "purpose": "comparison",
+      "elapsed_seconds": 1047.696,
+      "usage": {
+        "input_tokens": 5413122,
+        "cached_input_tokens": 5114880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 21847,
+        "reasoning_output_tokens": 11725
+      },
+      "usage_source": "completed event"
+    },
+    {
+      "session_number": 4,
+      "label": "chemexpo-explore-01",
+      "purpose": "construction",
+      "elapsed_seconds": 916.792,
+      "usage": {
+        "input_tokens": 4929102,
+        "cached_input_tokens": 4793088,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12660,
+        "reasoning_output_tokens": 3018
+      },
+      "usage_source": "completed event"
+    },
+    {
+      "session_number": 45,
+      "label": "r-b9ac95ab18e1-repair",
+      "purpose": "comparison",
+      "elapsed_seconds": 619.04,
+      "usage": {
+        "input_tokens": 4765047,
+        "cached_input_tokens": 4520576,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 13794,
+        "reasoning_output_tokens": 9081
+      },
+      "usage_source": "completed event"
+    },
+    {
+      "session_number": 154,
+      "label": "r-arxiv-histtitle002-r03-go-dev-a",
+      "purpose": "development",
+      "elapsed_seconds": 724.994,
+      "usage": {
+        "input_tokens": 4673172,
+        "cached_input_tokens": 4327424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 13806,
+        "reasoning_output_tokens": 6575
+      },
+      "usage_source": "completed event"
+    }
+  ],
+  "root_trace_metadata": {
+    "source": "/Users/ning/.codex/sessions/2026/09/10/rollout-2026-09-10T10-28-32-01a08925-3520-7553-927d-5eeacf9e18eb.jsonl",
+    "interval": [
+      "2026-09-10T02:29:02.787000+00:00",
+      "2026-09-10T12:07:42.755045+00:00"
+    ],
+    "counts": {
+      "custom_tool_call": 940,
+      "compactions": 15,
+      "function_call": 22
+    },
+    "quota_snapshots": [
+      {
+        "at": "2026-09-10T03:06:11.562Z",
+        "bucket": "codex",
+        "used_percent": 36,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T04:01:51.840Z",
+        "bucket": "codex",
+        "used_percent": 39,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T04:35:18.526Z",
+        "bucket": "codex",
+        "used_percent": 41,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T05:09:53.658Z",
+        "bucket": "codex",
+        "used_percent": 43,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T06:04:42.739Z",
+        "bucket": "codex",
+        "used_percent": 46,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T06:38:27.884Z",
+        "bucket": "codex",
+        "used_percent": 48,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T07:29:23.708Z",
+        "bucket": "codex",
+        "used_percent": 52,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T08:12:47.089Z",
+        "bucket": "codex",
+        "used_percent": 54,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T08:47:56.457Z",
+        "bucket": "codex",
+        "used_percent": 56,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T09:15:07.344Z",
+        "bucket": "codex",
+        "used_percent": 58,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T09:54:05.537Z",
+        "bucket": "codex",
+        "used_percent": 61,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T10:26:07.875Z",
+        "bucket": "codex",
+        "used_percent": 63,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      },
+      {
+        "at": "2026-09-10T11:09:33.320Z",
+        "bucket": "codex",
+        "used_percent": 65,
+        "window_minutes": 10080,
+        "resets_at": 1789441352
+      }
+    ],
+    "quota_attribution": "Account-wide, sparse snapshots; exact task delta and credit conversion unknown."
+  },
+  "audit161_event_metadata": {
+    "counts": {
+      "agent_message": 7,
+      "mcp_tool_call": 4796,
+      "mcp:read_text": 4796,
+      "error": 1
+    },
+    "events_bytes": 154516715,
+    "recovery": {
+      "recorded_at": "2026-09-10T11:44:21.151177+00:00",
+      "reason": "Audit /root tmpfs filled; sole malformed final JSONL record. Audit was completed and final six-file output independently saved in stdout events.",
+      "original_unmodified_path": "transcript_recovery/rollout-2026-09-10T11-26-05-01a08b11-5c69-7681-9042-76ae3c449b0d.jsonl.original",
+      "original_bytes": 113860608,
+      "derived_session_path": "sessions/rollout-2026-09-10T11-26-05-01a08b11-5c69-7681-9042-76ae3c449b0d.jsonl",
+      "preserved_complete_records": 3535,
+      "partial_record_bytes": 13466,
+      "recovery": "Only complete original JSONL records retained in derived parsing copy. Original full bytes including partial last record archived unchanged. No reconstructed or invented records; no model rerun. Full original stdout events.jsonl remains unchanged.",
+      "limitation": "Session transcript is incomplete from trailing write failure; not claimed as a complete session trace. All actual stdout tool events and completion are independently preserved."
+    }
+  },
+  "historical_wqp_separate_ledgers": {
+    "original": {
+      "updated_at": "2026-09-08T15:51:15.513358+00:00",
+      "sessions_started": 35,
+      "budget_sessions": 60,
+      "session_seconds_sum": 11683.627,
+      "campaign": {
+        "started_at": "2026-09-08T11:38:46.666263+00:00",
+        "deadline": "2026-09-09T11:38:46.666263+00:00",
+        "max_sessions": 60,
+        "max_seconds_per_session": 6000,
+        "stall_seconds": 3000,
+        "model": "gpt-6-astra",
+        "effort": "high",
+        "serial": false,
+        "candidate_id": "wqp_activity_panel_001",
+        "max_substantive_revisions": 2,
+        "maximum_concurrent_model_sessions": 4,
+        "speed_amendment": "2026-09-08T14:36:29.717034+00:00",
+        "ended_at": "2026-09-08T15:51:15.443416+00:00",
+        "outcome": "difficulty_objective_not_achieved",
+        "stop_reason": "Final permitted revision and fixed4screening/12confirmation completed; no harder evidence; two substantive revisions exhausted. Stop this candidate without extension."
+      },
+      "timing_note": "elapsed_seconds is the runner monotonic-clock duration. UTC timestamp duration is retained separately; large discrepancies may reflect host suspension/clock behavior and are not attributed to reasoning. Parallel session sums are not campaign wall time.",
+      "campaign_wall_seconds_so_far": 15148.777,
+      "campaign_closed": true
+    },
+    "original_known_usage_and_elapsed": {
+      "sessions": 35,
+      "known_session_hours_sum": 3.2454519444444445,
+      "elapsed_unknown": 0,
+      "usage_unknown": 1,
+      "usage_incomplete": 0,
+      "known_token_sums": {
+        "input_tokens": 24377765,
+        "cached_input_tokens": 21986048,
+        "output_tokens": 224157,
+        "reasoning_output_tokens": 26300
+      }
+    },
+    "sol_retest": {
+      "campaign": "campaign.json",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "actual_sessions": 16,
+      "maximum_sessions": 17,
+      "scheduled_regular_slots": 16,
+      "repair_retries_used": 0,
+      "status_counts": {
+        "completed": 16
+      },
+      "wall_seconds": 3781.228591,
+      "sum_model_run_seconds": 7363.059,
+      "remaining_wall_seconds": 82618.771409,
+      "reported_cli_usage_sum": {
+        "input_tokens": 10822213,
+        "cached_input_tokens": 9577984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112374,
+        "reasoning_output_tokens": 33509
+      },
+      "note": "CLI reported token totals include repeatedly supplied and cached context; not a count of distinct source text. Concurrent run seconds are not campaign wall time. All recorded model attempts count, including faults. No GPT-6 sessions included."
+    },
+    "note": "Separate historical work, not new construction during resume81. This inventory does not purport to cover every earlier project experiment."
+  },
+  "limits": [
+    "Missing elapsed and usage values remain unknown; known sums do not impute them as zero.",
+    "Cached input is a subset of input; reasoning output is a subset of output, never add twice.",
+    "Input minus cached input describes reported uncached input, not billed credits or weekly allowance.",
+    "Parallel session-hours sum is not wall-clock elapsed time.",
+    "Historical WQP campaigns are separate; only its user-designation control session159 is in this ledger.",
+    "This retrospective does not modify the stopped ledger, accounting snapshot, candidate states or evaluation protocol."
+  ]
+}

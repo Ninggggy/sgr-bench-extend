@@ -1,0 +1,103 @@
+{
+  "exact": {
+    "parse": "parsed",
+    "counts": {
+      "correct_fields": 12,
+      "gold_fields": 12,
+      "pred_fields": 12,
+      "item_denominator": 24,
+      "correct_rows": 3,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    },
+    "metrics": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    }
+  },
+  "NONE": {
+    "parse": "empty",
+    "counts": {
+      "correct_fields": 0,
+      "gold_fields": 12,
+      "pred_fields": 0,
+      "item_denominator": 12,
+      "correct_rows": 0,
+      "gold_rows": 3,
+      "pred_rows": 0,
+      "row_denominator": 3,
+      "correct_pairs": 0,
+      "pair_denominator": 0,
+      "shared_ids": 0
+    },
+    "metrics": {
+      "Item-F1": 0.0,
+      "Row-F1": 0.0,
+      "P.O.A.": 0
+    }
+  },
+  "blank": {
+    "parse": "empty",
+    "counts": {
+      "correct_fields": 0,
+      "gold_fields": 12,
+      "pred_fields": 0,
+      "item_denominator": 12,
+      "correct_rows": 0,
+      "gold_rows": 3,
+      "pred_rows": 0,
+      "row_denominator": 3,
+      "correct_pairs": 0,
+      "pair_denominator": 0,
+      "shared_ids": 0
+    },
+    "metrics": {
+      "Item-F1": 0.0,
+      "Row-F1": 0.0,
+      "P.O.A.": 0
+    }
+  },
+  "parse_failure": {
+    "parse": "parse_failure",
+    "counts": {
+      "correct_fields": 0,
+      "gold_fields": 12,
+      "pred_fields": 0,
+      "item_denominator": 12,
+      "correct_rows": 0,
+      "gold_rows": 3,
+      "pred_rows": 0,
+      "row_denominator": 3,
+      "correct_pairs": 0,
+      "pair_denominator": 0,
+      "shared_ids": 0
+    },
+    "metrics": null
+  },
+  "duplicate": {
+    "parse": "parsed",
+    "counts": {
+      "correct_fields": 12,
+      "gold_fields": 12,
+      "pred_fields": 16,
+      "item_denominator": 28,
+      "correct_rows": 3,
+      "gold_rows": 3,
+      "pred_rows": 4,
+      "row_denominator": 7,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    },
+    "metrics": {
+      "Item-F1": 0.8571428571428571,
+      "Row-F1": 0.8571428571428571,
+      "P.O.A.": 1.0
+    }
+  }
+}

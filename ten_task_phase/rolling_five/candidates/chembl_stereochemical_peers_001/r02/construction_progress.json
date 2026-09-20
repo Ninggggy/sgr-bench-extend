@@ -1,0 +1,11 @@
+{
+  "started_at_utc": "2026-09-13T03:21:29.006345+00:00",
+  "revision": 2,
+  "substantive_revisions_used": 1,
+  "maximum_substantive_revisions": 2,
+  "status": "reference_ready",
+  "parent_revision": "r01",
+  "authorized_scope": "Source-discovery repair and necessary neutral output integration only; no solver or framework work.",
+  "independent_predevelopment_source_review": "../source_discovery_open_review.json",
+  "completed_at_utc": "2026-09-13T03:25:26.019427+00:00"
+}

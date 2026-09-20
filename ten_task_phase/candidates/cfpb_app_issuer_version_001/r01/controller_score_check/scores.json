@@ -1,0 +1,60 @@
+{
+  "status": "deterministic_explicit",
+  "metrics": {
+    "Item-F1": 1.0,
+    "Row-F1": 1.0,
+    "P.O.A.": 1.0
+  },
+  "counts": {
+    "correct_fields": 15,
+    "gold_fields": 15,
+    "pred_fields": 15,
+    "item_denominator": 30,
+    "correct_rows": 3,
+    "gold_rows": 3,
+    "pred_rows": 3,
+    "row_denominator": 6,
+    "correct_pairs": 3,
+    "pair_denominator": 3,
+    "shared_ids": 3
+  },
+  "omitted_ids": [],
+  "extra_ids": [],
+  "duplicate_ids": [],
+  "order_pairs": [
+    {
+      "first": [
+        "Chime Financial, Inc.",
+        "4091"
+      ],
+      "second": [
+        "Chime Financial, Inc.",
+        "35444"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Chime Financial, Inc.",
+        "4091"
+      ],
+      "second": [
+        "SoLo Funds, Inc.",
+        "18408"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Chime Financial, Inc.",
+        "35444"
+      ],
+      "second": [
+        "SoLo Funds, Inc.",
+        "18408"
+      ],
+      "correct": true
+    }
+  ],
+  "poa_note": "first occurrence positions; no reordering"
+}

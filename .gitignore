@@ -1,0 +1,94 @@
+# Local and generated interpreter artifacts
+.DS_Store
+**/.DS_Store
+**/__pycache__/
+**/*.pyc
+**/*.log
+**/*.stderr
+**/runner.stderr
+**/*_stdout.txt
+**/cli_help.txt
+**/features.txt
+research/*.response
+
+# Raw downloads and raw source captures from construction/audit sessions
+**/downloaded_data/
+**/sources_raw/
+**/sources_raw
+**/sources/
+**/raw/
+**/*.response
+**/private/audit_bundle/
+**/private/adjudication_bundle/
+**/private/comparison/sources/
+**/private/reference/initial_state/
+
+# Raw session and event logs; keep structured results, scoring, and reports
+**/sessions/
+**/events.jsonl
+**/tool_events.jsonl
+**/tool_calls.jsonl
+
+# Historical execution material is excluded by default. A small, reviewed set
+# of representative failures is force-added with only its substantive files.
+**/runs/
+**/logs/
+**/stage_assets/
+**/audit_assets/
+**/audit_assets_flat/
+**/exploration/
+**/opportunities/
+wqp_single/runtime/capability_run_*/
+
+# Recovery inputs and copied recovery material
+**/inputs/resume*
+**/inputs/resumed-*
+**/inputs/*recovery*
+**/inputs/*_assets/
+**/inputs/
+**/transcript_recovery/
+**/controller_recovery/
+**/live_data_recovery/
+**/review_recovery_materials/
+**/recovered_evidence/
+**/*_recovery_raw/
+**/recovery_*
+**/*data_recovery*.json
+**/research/resume*/
+**/research/resume_*.json
+**/research/resume_*.jsonl
+**/research/resume_*.csv
+**/research/resume_*.txt
+**/research/resume_*.response
+**/research/*_assets/
+**/research/*_bulk/
+ten_task_phase/research/
+ten_task_phase/candidates/nvd_repository_publication_001/r01/d0010.txt
+
+# Candidate/accounting snapshots; keep the substantive candidate artifacts
+**/*snapshot*
+**/candidate_pool.json
+**/candidate_pool.full.jsonl
+**/candidate_universe.jsonl
+**/runs/**/stage_assets/**/candidate*.json
+**/runs/**/stage_assets/**/candidate*.jsonl
+
+# Repeated per-session control inputs and ledgers
+**/audit_input*.json
+**/audit_job*.json
+**/arbitration_input.json
+**/arbitration_job.json
+**/*_job.json
+**/*.job.json
+**/*.approval.json
+**/session_ledger.jsonl
+**/*_session_ledger.jsonl
+**/prior_unledgered_sessions.jsonl
+**/adjudication_input.json
+**/*_run_pointer.json
+**/runtime_current_job.json
+**/scheduler_handoff.json
+
+# Raw source-check responses are reproducible downloads; retain their indexes
+# and parsed JSON checks instead.
+**/source_checks/**/*.response

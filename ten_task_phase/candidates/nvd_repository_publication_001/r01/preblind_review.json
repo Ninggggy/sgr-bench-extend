@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-10T04:57:02.478439+00:00",
+  "reference_exit": 0,
+  "independent_exit": 0,
+  "oracle_exact_match": true,
+  "source_mapping_correction": "Copied programs use actual d0010.txt registry filename. Original constructor programs retained. Source files linked to immutable run evidence by ordinary filesystem symlink, no new content control mechanism.",
+  "status": "candidate_ready_for_A_not_final_audited_not_admitted"
+}

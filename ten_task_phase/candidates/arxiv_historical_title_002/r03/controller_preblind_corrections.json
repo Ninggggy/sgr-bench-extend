@@ -1,0 +1,24 @@
+{
+  "at": "2026-09-10T10:41:08.958717+00:00",
+  "original_constructor_artifacts": "construction_pipeline/ten_task_phase/runs/r-resume-arxiv002-r03-consolidation/stage_assets/arxiv_historical_title_002/r03",
+  "first_program_results": "../../../research/resume_arxiv002_r03_program_checks/checks.json",
+  "changes": [
+    {
+      "file": "publisher_evidence.json",
+      "correction": "One excluded historical record identifier cs/0312006 corrected to actual Atom q-bio/0312006; same title/identity exclusion and32-record search union. No selected answer affected."
+    },
+    {
+      "file": "independent_check.py",
+      "correction": "Saved CSV fields already decoded by XML parser; normalize Unicode/whitespace only when comparing them. Avoid a second HTML decode turning literal &noteId into legacy entity ¬eId in two nonselected comments. Raw XML decoding unchanged and all scope-equality assertions retained."
+    },
+    {
+      "file": "revision_history.json",
+      "correction": "Clarify constructor zero runs meant zero blind runs, not zero model cost. Actual construction session150 remains in originalledger."
+    }
+  ],
+  "public_changed": false,
+  "oracle_changed": false,
+  "semantic_revision_count": 2,
+  "additional_substantive_revision": false,
+  "program_rechecks": "Both exit0 and exact21-row oracle equality; controller_program_check.json"
+}

@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-13T02:13:40.675232+00:00",
+  "reference_recomputed_equal": true,
+  "schema_passed": true,
+  "files_passed": true,
+  "shared_public_conditions_equal": true,
+  "independent_content_review": "content_review/iana_reconciliation_content_review.json",
+  "not_independent_final_audit": true,
+  "source_refresh": "registry_refresh.json",
+  "actual_access_date": "2026-09-13 UTC",
+  "protocol_current_date_unchanged": "2026-09-09",
+  "substantive_revisions_used": 2,
+  "new_version_A_prescheduled": true
+}

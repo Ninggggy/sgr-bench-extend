@@ -1,0 +1,178 @@
+{
+  "checked_at": "2026-09-09T06:18:24.146591+00:00",
+  "status": "passed",
+  "checks": [
+    "Original GPT-6 campaign, ledger, plan, README and report byte-identical",
+    "All four public forms, two oracles/rules, stage and schema unchanged",
+    "16 distinct fresh model sessions match independent ledger; no repair retry used",
+    "Every run model verified in four sources; same tools/configuration, read isolation, public input, gold and rules",
+    "Per-run raw extraction and saved-score verification passed; downloaded data archived"
+  ],
+  "completed": [
+    {
+      "label": "screening_new_CG_1",
+      "run": "runs/r-a55562d61d59",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 14,
+      "elapsed_seconds": 569.122
+    },
+    {
+      "label": "screening_old_CG_1",
+      "run": "runs/r-6c876269dbe4",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 0,
+      "elapsed_seconds": 171.22
+    },
+    {
+      "label": "screening_new_GO_1",
+      "run": "runs/r-8224e9cc365a",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 16,
+      "elapsed_seconds": 619.713
+    },
+    {
+      "label": "screening_old_GO_1",
+      "run": "runs/r-24202450d4ad",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 0,
+      "elapsed_seconds": 110.773
+    },
+    {
+      "label": "confirmation_new_CG_1",
+      "run": "runs/r-0ee77dc62ed5",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 13,
+      "elapsed_seconds": 795.622
+    },
+    {
+      "label": "confirmation_old_CG_1",
+      "run": "runs/r-b90e2f062f85",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 0,
+      "elapsed_seconds": 130.931
+    },
+    {
+      "label": "confirmation_new_GO_1",
+      "run": "runs/r-69914a9877c8",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 15,
+      "elapsed_seconds": 614.384
+    },
+    {
+      "label": "confirmation_old_GO_1",
+      "run": "runs/r-d04075b89074",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 0,
+      "elapsed_seconds": 130.913
+    },
+    {
+      "label": "confirmation_new_CG_2",
+      "run": "runs/r-92c02e2f6067",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 16,
+      "elapsed_seconds": 412.881
+    },
+    {
+      "label": "confirmation_old_CG_2",
+      "run": "runs/r-4a02a31cb8e8",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 0,
+      "elapsed_seconds": 191.157
+    },
+    {
+      "label": "confirmation_new_GO_2",
+      "run": "runs/r-4df368e8ea7e",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 18,
+      "elapsed_seconds": 518.326
+    },
+    {
+      "label": "confirmation_old_GO_2",
+      "run": "runs/r-d936d9895abf",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 0,
+      "elapsed_seconds": 171.147
+    },
+    {
+      "label": "confirmation_new_CG_3",
+      "run": "runs/r-e5e848752431",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 17,
+      "elapsed_seconds": 1420.723
+    },
+    {
+      "label": "confirmation_old_CG_3",
+      "run": "runs/r-551a85fda485",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 0,
+      "elapsed_seconds": 211.376
+    },
+    {
+      "label": "confirmation_new_GO_3",
+      "run": "runs/r-426fcaec1732",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 21,
+      "elapsed_seconds": 1032.502
+    },
+    {
+      "label": "confirmation_old_GO_3",
+      "run": "runs/r-683967eda07e",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verified_turn_contexts": 1,
+      "scored": true,
+      "data_files": 0,
+      "elapsed_seconds": 262.269
+    }
+  ],
+  "model_sessions": 16,
+  "repair_retries": 0,
+  "wall_seconds": 3781.228591,
+  "sum_run_seconds": 7363.059,
+  "note": "Only artifact/configuration checks. Does not prove SGR compliance, uniqueness of old004 public selection, population difficulty or lack of prior benchmark exposure."
+}

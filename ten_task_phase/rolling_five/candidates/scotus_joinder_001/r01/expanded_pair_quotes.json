@@ -1,0 +1,230 @@
+[
+  {
+    "predicate": "goal",
+    "variant": "cg.json",
+    "quote": "Compare how many Justices expressly joined the lead written opinions in the Supreme Court's 27 June 2023 release batch. Report each qualifying case's smallest and largest formal joinder counts across the lead opinion's substantive parts.",
+    "passed": true
+  },
+  {
+    "predicate": "goal",
+    "variant": "go.json",
+    "quote": "Compare how many Justices expressly joined the lead written opinions in the Supreme Court's 27 June 2023 release batch. Report each qualifying case's smallest and largest formal joinder counts across the lead opinion's substantive parts.",
+    "passed": true
+  },
+  {
+    "predicate": "universe_date_category",
+    "variant": "cg.json",
+    "quote": "Include signed decisions listed with Date 6/27/23 in the official Opinions of the Court table for October Term 2022. Exclude unsigned per curiam decisions, orders, and in-chambers opinions.",
+    "passed": true
+  },
+  {
+    "predicate": "universe_date_category",
+    "variant": "go.json",
+    "quote": "Include signed decisions listed with Date 6/27/23 in the official Opinions of the Court table for October Term 2022. Exclude unsigned per curiam decisions, orders, and in-chambers opinions.",
+    "passed": true
+  },
+  {
+    "predicate": "version",
+    "variant": "cg.json",
+    "quote": "Use the official Volume 600, Part 1 preliminary prints observed on 12 September 2026, marked 'Page Proof Pending Publication'. This specifies the observed preliminary-print versions, not original release-day files or final bound prints.",
+    "passed": true
+  },
+  {
+    "predicate": "version",
+    "variant": "go.json",
+    "quote": "Use the official Volume 600, Part 1 preliminary prints observed on 12 September 2026, marked 'Page Proof Pending Publication'. This specifies the observed preliminary-print versions, not original release-day files or final bound prints.",
+    "passed": true
+  },
+  {
+    "predicate": "lead_extent",
+    "variant": "cg.json",
+    "quote": "The lead opinion is the named author's principal writing announcing the Court's decision. Include the entire writing, even where some parts are labeled only as that Justice's opinion.",
+    "passed": true
+  },
+  {
+    "predicate": "lead_extent",
+    "variant": "go.json",
+    "quote": "The lead opinion is the named author's principal writing announcing the Court's decision. Include the entire writing, even where some parts are labeled only as that Justice's opinion.",
+    "passed": true
+  },
+  {
+    "predicate": "units_and_coverage",
+    "variant": "cg.json",
+    "quote": "Compare the substantive part and subpart scopes distinguished by the formal joinder statements. Cover every such scope; an unrestricted joinder applies throughout the writing.",
+    "passed": true
+  },
+  {
+    "predicate": "units_and_coverage",
+    "variant": "go.json",
+    "quote": "Compare the substantive part and subpart scopes distinguished by the formal joinder statements. Cover every such scope; an unrestricted joinder applies throughout the writing.",
+    "passed": true
+  },
+  {
+    "predicate": "author_named_distinct",
+    "variant": "cg.json",
+    "quote": "For each scope, count the author and every other Justice expressly recorded as joining that scope, once each.",
+    "passed": true
+  },
+  {
+    "predicate": "author_named_distinct",
+    "variant": "go.json",
+    "quote": "For each scope, count the author and every other Justice expressly recorded as joining that scope, once each.",
+    "passed": true
+  },
+  {
+    "predicate": "scope_inheritance",
+    "variant": "cg.json",
+    "quote": "A joinder limited to a part extends to that part's subdivisions, unless expressly limited further.",
+    "passed": true
+  },
+  {
+    "predicate": "scope_inheritance",
+    "variant": "go.json",
+    "quote": "A joinder limited to a part extends to that part's subdivisions, unless expressly limited further.",
+    "passed": true
+  },
+  {
+    "predicate": "judgment_and_ownership",
+    "variant": "cg.json",
+    "quote": "Agreement with a judgment or conclusion does not establish joinder. A Justice's joinder in a separate opinion applies to that opinion alone.",
+    "passed": true
+  },
+  {
+    "predicate": "judgment_and_ownership",
+    "variant": "go.json",
+    "quote": "Agreement with a judgment or conclusion does not establish joinder. A Justice's joinder in a separate opinion applies to that opinion alone.",
+    "passed": true
+  },
+  {
+    "predicate": "evidence_vs_units",
+    "variant": "cg.json",
+    "quote": "The syllabus and separate opinions are not support units. Their formal attribution statements or express declarations may establish joinder in the lead opinion.",
+    "passed": true
+  },
+  {
+    "predicate": "evidence_vs_units",
+    "variant": "go.json",
+    "quote": "The syllabus and separate opinions are not support units. Their formal attribution statements or express declarations may establish joinder in the lead opinion.",
+    "passed": true
+  },
+  {
+    "predicate": "separate_writing_deduplication",
+    "variant": "cg.json",
+    "quote": "Writing a separate opinion neither removes an express lead-opinion joinder nor adds another count.",
+    "passed": true
+  },
+  {
+    "predicate": "separate_writing_deduplication",
+    "variant": "go.json",
+    "quote": "Writing a separate opinion neither removes an express lead-opinion joinder nor adds another count.",
+    "passed": true
+  },
+  {
+    "predicate": "no_binding_law_adjudication",
+    "variant": "cg.json",
+    "quote": "This measures formal joinder, without deciding which reasoning is binding law.",
+    "passed": true
+  },
+  {
+    "predicate": "no_binding_law_adjudication",
+    "variant": "go.json",
+    "quote": "This measures formal joinder, without deciding which reasoning is binding law.",
+    "passed": true
+  },
+  {
+    "predicate": "columns",
+    "variant": "cg.json",
+    "quote": "Return a pipe-separated table with exactly this header and column order:\ndocket|min_justices|max_justices",
+    "passed": true
+  },
+  {
+    "predicate": "columns",
+    "variant": "go.json",
+    "quote": "Return a pipe-separated table with exactly this header and column order:\ndocket|min_justices|max_justices",
+    "passed": true
+  },
+  {
+    "predicate": "identity_and_size",
+    "variant": "cg.json",
+    "quote": "Return one row per qualifying case. docket is the full docket string as listed in the term table, preserving its hyphen.",
+    "passed": true
+  },
+  {
+    "predicate": "identity_and_size",
+    "variant": "go.json",
+    "quote": "Return one row per qualifying case. docket is the full docket string as listed in the term table, preserving its hyphen.",
+    "passed": true
+  },
+  {
+    "predicate": "integer_extrema",
+    "variant": "cg.json",
+    "quote": "min_justices and max_justices are integers: respectively the smallest and largest distinct-Justice counts across the lead opinion's substantive part scopes, including its author.",
+    "passed": true
+  },
+  {
+    "predicate": "integer_extrema",
+    "variant": "go.json",
+    "quote": "min_justices and max_justices are integers: respectively the smallest and largest distinct-Justice counts across the lead opinion's substantive part scopes, including its author.",
+    "passed": true
+  },
+  {
+    "predicate": "no_count_threshold_and_ties",
+    "variant": "cg.json",
+    "quote": "Include every qualifying case regardless of its counts; retain all ties.",
+    "passed": true
+  },
+  {
+    "predicate": "no_count_threshold_and_ties",
+    "variant": "go.json",
+    "quote": "Include every qualifying case regardless of its counts; retain all ties.",
+    "passed": true
+  },
+  {
+    "predicate": "ordering",
+    "variant": "cg.json",
+    "quote": "Sort by numeric release sequence R ascending, then by docket in ascending lexicographic order if R is tied.",
+    "passed": true
+  },
+  {
+    "predicate": "ordering",
+    "variant": "go.json",
+    "quote": "Sort by numeric release sequence R ascending, then by docket in ascending lexicographic order if R is tied.",
+    "passed": true
+  },
+  {
+    "predicate": "minimal_output",
+    "variant": "cg.json",
+    "quote": "Do not add case names, citations, source notes, Markdown fences, or other columns.",
+    "passed": true
+  },
+  {
+    "predicate": "minimal_output",
+    "variant": "go.json",
+    "quote": "Do not add case names, citations, source notes, Markdown fences, or other columns.",
+    "passed": true
+  },
+  {
+    "predicate": "empty",
+    "variant": "cg.json",
+    "quote": "If no cases qualify, return only NONE, without a header.",
+    "passed": true
+  },
+  {
+    "predicate": "empty",
+    "variant": "go.json",
+    "quote": "If no cases qualify, return only NONE, without a header.",
+    "passed": true
+  },
+  {
+    "predicate": "missing",
+    "variant": "cg.json",
+    "quote": "If any qualifying case's identity, required text, or formal joinder scope remains missing or unresolved, stop and return only UNRESOLVED: followed by a brief explanation. Do not return a partial table, substitute zero, or infer missing counts from judgment votes.",
+    "passed": true
+  },
+  {
+    "predicate": "missing",
+    "variant": "go.json",
+    "quote": "If any qualifying case's identity, required text, or formal joinder scope remains missing or unresolved, stop and return only UNRESOLVED: followed by a brief explanation. Do not return a partial table, substitute zero, or infer missing counts from judgment votes.",
+    "passed": true
+  }
+]

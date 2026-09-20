@@ -1,0 +1,19 @@
+{
+  "candidate_id":"arxiv_historical_title_002",
+  "revision":3,
+  "definition":"Earlier source evidence must change a later retrieval query, filter or branch. Arithmetic over a fixed collection already containing every decision field is not itself a retrieval dependency.",
+  "official_access":{"annual_metadata":"Successful official Atom API pages d0007–d0024 supply the complete current annual inventory. They are explicitly permitted.","version_metadata":"The official API accepts versioned id_list values; d0065, d0103, d0130 and this session's successful d0257 demonstrate batching/version retrieval. No valid API is prohibited.","bulk_assessment":"Inherited API/bulk investigation is preserved in d0071 and related raw evidence. Current metadata inventory supplies current titles and comments, not all selected historical titles. Closed OAI/Kaggle/tool-access failures are not used as proof of logical dependency. No universal impossibility claim is made about every conceivable bulk source."},
+  "edges":[
+    {"from":"Full source notice","to":"Successor identifier or title/author search","evidence":["d0210.response","d0261.response","d0126.response","d0128.response","d0135.response"],"change":"The named work determines the later query and identity branch; the target is not fixed by the annual category query."},
+    {"from":"Source last listed submission plus target submission history","to":"Specific successor-version request","evidence":["d0210.response","d0052.response","d0254.response","d0257.response"],"change":"The 2022-02-04 source cutoff selects 2010.11327v14 and therefore changes the requested version from the current v15. Selection is direct; 2111.15041 is not substituted transitively."},
+    {"from":"Selected historical version","to":"Version-specific title retrieval","evidence":["d0034.response","d0037.response","d0064.response","d0066.response","d0065.response"],"change":"Both source cutoffs select 2109.03866v1. Its title contains a subtitle absent from the current v2 title, so the saved current-title field cannot answer these rows."}
+  ],
+  "additional_witnesses":[
+    {"source":"2005.12741","target":"1807.11926v1","evidence":["d0042.response","d0090.response","d0106.response","d0103.response"],"finding":"Selected v1 title differs from the current title."},
+    {"source":"2011.08470","target":"2102.10955v1","evidence":["d0056.response","d0099.response","d0110.response","d0103.response"],"finding":"Target v2 was submitted 17324 seconds after the source cutoff; latest-current-version substitution is incorrect."}
+  ],
+  "limits":"The delivered offline reference naturally computes from saved discoveries. That reproducibility package is not a claim that the discovery process consisted only of fixed downloads. The inherited SGR audit found structural dependency but explicitly did not establish admission or rule out every bulk shortcut.",
+  "prior_audit":"d0116.response and d0118.response",
+  "solver_runs_this_session":0,
+  "admission_claim":false
+}

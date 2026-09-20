@@ -1,0 +1,68 @@
+{
+  "observation_date": "2026-09-13",
+  "observation_timezone": "UTC",
+  "protocol_current_date": "2026-09-09",
+  "registry_updated": "2026-08-11",
+  "table_id": "tls-extensiontype-values-1",
+  "namespace": "http://www.iana.org/assignments",
+  "expected_records": 103,
+  "numeric_namespace": {
+    "minimum": 0,
+    "maximum": 65535,
+    "endpoints": "inclusive"
+  },
+  "source_directory": "sources",
+  "source_paths_relative_to": "--source-dir; defaults to this revision sources directory",
+  "sources": [
+    {
+      "id": "S1",
+      "file": "registry.xml",
+      "url": "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xml",
+      "final_url": "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xml",
+      "status": 200,
+      "bytes": 49922,
+      "accessed_at": "2026-09-13T02:07:15.979748+00:00",
+      "kind": "registry",
+      "request_started_at": "2026-09-13T02:07:14.458273+00:00",
+      "capture_provenance": "New authorized current XML GET; all103 record elements and full bytes unchanged"
+    },
+    {
+      "id": "S2",
+      "file": "rfc9146.txt",
+      "url": "https://www.rfc-editor.org/rfc/rfc9146.txt",
+      "final_url": "https://www.rfc-editor.org/rfc/rfc9146.txt",
+      "status": 200,
+      "bytes": 30186,
+      "accessed_at": "2026-09-12T06:32:12.662693+00:00",
+      "kind": "rfc",
+      "document_id": "RFC9146"
+    },
+    {
+      "id": "S3",
+      "file": "rfc9847.txt",
+      "url": "https://www.rfc-editor.org/rfc/rfc9847.txt",
+      "final_url": "https://www.rfc-editor.org/rfc/rfc9847.txt",
+      "status": 200,
+      "bytes": 33240,
+      "accessed_at": "2026-09-12T06:32:13.927524+00:00",
+      "kind": "rfc",
+      "document_id": "RFC9847"
+    },
+    {
+      "id": "S4",
+      "file": "history.html",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+      "final_url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+      "status": 200,
+      "bytes": 151447,
+      "accessed_at": "2026-09-13T01:52:36.826111+00:00",
+      "request_started_at": "2026-09-13T01:52:34.843703+00:00",
+      "kind": "document_history",
+      "document_family": "draft-ietf-tls-dtls-connection-id",
+      "capture_provenance": "Complete official History HTML captured in preceding bounded work unit on same UTC observation day; no extra GET in integration"
+    }
+  ],
+  "annotations": "annotations.json",
+  "full_scope_event_count": 170,
+  "source_refresh_check": "registry_refresh.json"
+}

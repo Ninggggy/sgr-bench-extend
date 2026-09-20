@@ -1,0 +1,3681 @@
+{
+  "compound": "CHEMBL12",
+  "raw_activity_count": 131,
+  "scope_count": 130,
+  "distinct_assays": 126,
+  "distinct_targets": 32,
+  "category_counts": {
+    "COMPLEX_GROUP": 28,
+    "DIRECT_COMPLEX": 42,
+    "UNCURATED_GABA_BZD": 26,
+    "HOMOLOGOUS_COMPLEX": 13,
+    "TSPO": 2,
+    "OTHER": 10,
+    "GABA_SUBUNIT": 9
+  },
+  "unchecked_registration_count": 30,
+  "engineered_ids": [
+    320291,
+    320292,
+    320293,
+    320294,
+    320295,
+    320296
+  ],
+  "conflicts": [
+    [
+      "604850",
+      "Homo sapiens alpha4/beta3/gamma2 -> Homo sapiens alpha1/beta3/gamma2"
+    ],
+    [
+      "1701379",
+      "Homo sapiens alpha1/beta2/gamma2 -> Homo sapiens alpha1/beta1/gamma2"
+    ],
+    [
+      "1876214",
+      "Rattus norvegicus alpha5/beta2/gamma2 -> Rattus norvegicus alpha1/beta2/gamma2"
+    ]
+  ],
+  "excluded_source_ids": [
+    7704649
+  ],
+  "activity_has_relationship_field": false,
+  "all_rows": [
+    {
+      "activity_id": 139849,
+      "assay_id": "CHEMBL650280",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1124689",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "H",
+      "description": "Displacing potential to [3H]diazepam binding to benzodiazepine receptor in Wistar rat cerebral cortex",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 217244,
+      "assay_id": "CHEMBL652733",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1125084",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flunitrazepam from GABA-A Benzodiazepine receptor of rat brain membranes",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 234638,
+      "assay_id": "CHEMBL647210",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1127014",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "H",
+      "description": "Binding affinity for Diazepam-Sensitive fraction of GABA-A benzodiazepine receptors",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 320285,
+      "assay_id": "CHEMBL822941",
+      "target_id": "CHEMBL2095167",
+      "document_id": "CHEMBL1127312",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for rat GABA-A receptor alpha-1-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 320286,
+      "assay_id": "CHEMBL823756",
+      "target_id": "CHEMBL2111343",
+      "document_id": "CHEMBL1127312",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for rat GABA-A receptor alpha-3-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 320288,
+      "assay_id": "CHEMBL818508",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1127312",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Binding affinity for rat GABA-A receptor alpha-5--beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha5",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 320291,
+      "assay_id": "CHEMBL822346",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1127312",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Binding affinity for mutant rat GABA-A receptor alpha-4-(his)-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha4",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": true,
+      "conflict": false
+    },
+    {
+      "activity_id": 320292,
+      "assay_id": "CHEMBL824044",
+      "target_id": "CHEMBL2111365",
+      "document_id": "CHEMBL1127312",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for mutant rat GABA-A receptor alpha-6-(his)-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha6",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha6",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": true,
+      "conflict": false
+    },
+    {
+      "activity_id": 320293,
+      "assay_id": "CHEMBL824046",
+      "target_id": "CHEMBL2111365",
+      "document_id": "CHEMBL1127312",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for mutant rat GABA-A receptor alpha-6-(his,thr)beta2gamma2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha6",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha6",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": true,
+      "conflict": false
+    },
+    {
+      "activity_id": 320294,
+      "assay_id": "CHEMBL824047",
+      "target_id": "CHEMBL2111365",
+      "document_id": "CHEMBL1127312",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for mutant rat GABA-A receptor alpha-6-(his,thr,gly)beta2gamma2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha6",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha6",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": true,
+      "conflict": false
+    },
+    {
+      "activity_id": 320295,
+      "assay_id": "CHEMBL824049",
+      "target_id": "CHEMBL2111365",
+      "document_id": "CHEMBL1127312",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for mutant rat GABA-A receptor alpha-6-(his,thr,gly,val)beta2gamma2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha6",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha6",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": true,
+      "conflict": false
+    },
+    {
+      "activity_id": 320296,
+      "assay_id": "CHEMBL680660",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1127312",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Binding affinity to rat chimeric GABA-A receptor C6, alpha1-alpha6 chimeric subunit co-expressed with beta-2 gamma2 subunits in HEK293 cells",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha1",
+        "alpha6",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": true,
+      "engineered": true,
+      "conflict": false
+    },
+    {
+      "activity_id": 351488,
+      "assay_id": "CHEMBL680658",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1129282",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Inhibition of [3H]flunitrazepam binding to GABA-A receptor of rat cortical membranes",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 351492,
+      "assay_id": "CHEMBL677024",
+      "target_id": "CHEMBL2095172",
+      "document_id": "CHEMBL1129282",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Displacement of [3H]Flunitrazepam from GABA-A receptor alpha-1-beta-2-gamma-2 subunits expressed in Sf9 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 351493,
+      "assay_id": "CHEMBL683022",
+      "target_id": "CHEMBL2111339",
+      "document_id": "CHEMBL1129282",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Displacement of [3H]flunitrazepam from GABA-A receptor alpha-3-beta-2-gamma-2 subunits expressed in Sf9 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 434675,
+      "assay_id": "CHEMBL650821",
+      "target_id": "CHEMBL2094107",
+      "document_id": "CHEMBL1132244",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro-151788 from GABA-A benzodiazepine receptor of bovine brain membranes",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "beta1",
+        "gamma2"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 442386,
+      "assay_id": "CHEMBL677847",
+      "target_id": "CHEMBL2095172",
+      "document_id": "CHEMBL1133060",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity evaluated by ability to displace [3H]Ro-151788 from recombinant human Gamma-aminobutyric acid A receptor alpha-1-beta-2-gamma-2 expressed in L(tk-)cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 442387,
+      "assay_id": "CHEMBL682708",
+      "target_id": "CHEMBL2094130",
+      "document_id": "CHEMBL1133060",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity evaluated by ability to displace [3H]-Ro-15-1788 from recombinant human Gamma-aminobutyric acid A receptor alpha-2-beta-3-gamma-2 expressed in L(tk-)cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 442388,
+      "assay_id": "CHEMBL680431",
+      "target_id": "CHEMBL2094120",
+      "document_id": "CHEMBL1133060",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity evaluated by ability to displace [3H]Ro-151788 from recombinant human Gamma-aminobutyric acid A receptor alpha-3-beta-3-gamma-2 expressed in L(tk-)cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 454337,
+      "assay_id": "CHEMBL653111",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1129075",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flunitrazepam at GABA-A benzodiazepine receptor in rat brain cortical membranes",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 457807,
+      "assay_id": "CHEMBL652562",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1122149",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "H",
+      "description": "In vitro inhibition of [3H]diazepam binding to benzodiazepine receptor in rat cerebral cortical membrane",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 466921,
+      "assay_id": "CHEMBL653129",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1123044",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "H",
+      "description": "In vitro binding affinity against benzodiazepine receptor using [3H]diazepam as radioligand",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 501148,
+      "assay_id": "CHEMBL650464",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1123687",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]-diazepam from GABA-A benzodiazepine receptor of rat cerebral cortex",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 534900,
+      "assay_id": "CHEMBL653110",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1129239",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]diazepam from rat cerebral cortex benzodiazepine receptor",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 551295,
+      "assay_id": "CHEMBL648647",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1134955",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "H",
+      "description": "Binding affinity to rat benzodiazepine receptor",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 599580,
+      "assay_id": "CHEMBL678329",
+      "target_id": "CHEMBL2094121",
+      "document_id": "CHEMBL1132940",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity for human recombinant gamma-aminobutyric-acid (GABA) A receptor alpha-1-beta-3-gamma-2",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 599581,
+      "assay_id": "CHEMBL681248",
+      "target_id": "CHEMBL2094130",
+      "document_id": "CHEMBL1132940",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity to human recombinant gamma-aminobutyric-acid (GABA) A receptor alpha-2-beta-3-gamma-2",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 599582,
+      "assay_id": "CHEMBL682251",
+      "target_id": "CHEMBL2094120",
+      "document_id": "CHEMBL1132940",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity for human recombinant gamma-aminobutyric-acid (GABA) A receptor alpha-3-beta-3-gamma-2",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 599583,
+      "assay_id": "CHEMBL681480",
+      "target_id": "CHEMBL2094122",
+      "document_id": "CHEMBL1132940",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity for human recombinant gamma-aminobutyric-acid (GABA) A receptor alpha-5-beta-3-gamma-2",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 604850,
+      "assay_id": "CHEMBL676826",
+      "target_id": "CHEMBL2094121",
+      "document_id": "CHEMBL1149126",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for human GABA-A receptor alpha-4-beta-3-gamma-2 subunits in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha4",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": true
+    },
+    {
+      "activity_id": 604851,
+      "assay_id": "CHEMBL681841",
+      "target_id": "CHEMBL2094130",
+      "document_id": "CHEMBL1149126",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for human GABA-A receptor alpha-2-beta-3-gamma-2 subunits in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 604852,
+      "assay_id": "CHEMBL678741",
+      "target_id": "CHEMBL2094120",
+      "document_id": "CHEMBL1149126",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for human GABA-A receptor alpha-3-beta-3-gamma-2 subunits in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 604853,
+      "assay_id": "CHEMBL678745",
+      "target_id": "CHEMBL2094122",
+      "document_id": "CHEMBL1149126",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for human GABA-A receptor alpha-5-beta-3-gamma-2 subunits in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 667542,
+      "assay_id": "CHEMBL680669",
+      "target_id": "CHEMBL2094122",
+      "document_id": "CHEMBL1148356",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity towards human alpha-5-beta-3-gamma-2 GABA-A receptor using [3H]Ro-151788 expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 667544,
+      "assay_id": "CHEMBL677034",
+      "target_id": "CHEMBL2094121",
+      "document_id": "CHEMBL1148356",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity towards human alpha-1-beta-3-gamma-2 GABA-A receptor using [3H]Ro-151788 expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 667546,
+      "assay_id": "CHEMBL682709",
+      "target_id": "CHEMBL2094130",
+      "document_id": "CHEMBL1148356",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity towards human gamma-aminobutyric-acid A receptor alpha-2-beta-3-gamma-2 using [3H]Ro-151788 expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 667548,
+      "assay_id": "CHEMBL680432",
+      "target_id": "CHEMBL2094120",
+      "document_id": "CHEMBL1148356",
+      "category": "HOMOLOGOUS_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "H",
+      "description": "Binding affinity towards human gamma-aminobutyric-acid A receptor alpha-3-beta-3-gamma-2 using [3H]Ro-151788 expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 701710,
+      "assay_id": "CHEMBL652451",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1129735",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flunitrazepam from GABA-A benzodiazepine receptor of rat cortical membranes",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 709826,
+      "assay_id": "CHEMBL651177",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1132447",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "H",
+      "description": "In vitro affinity against Benzodiazepine receptor binding to rat cortical membranes (using [3H]- flumazenil as radioligand).",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 755416,
+      "assay_id": "CHEMBL652196",
+      "target_id": "CHEMBL2094133",
+      "document_id": "CHEMBL1122670",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Binding affinity for umolar GABA-A central benzodiazepine receptor",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 792162,
+      "assay_id": "CHEMBL650681",
+      "target_id": "CHEMBL2094107",
+      "document_id": "CHEMBL1145105",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Inhibition of [3H]Ro-151788 binding to GABA-A central benzodiazepine receptor of bovine brain membranes",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "beta1",
+        "gamma2"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 792164,
+      "assay_id": "CHEMBL679468",
+      "target_id": "CHEMBL2095167",
+      "document_id": "CHEMBL1145105",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for recombinant rat GABA-A receptor alpha-1-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 792165,
+      "assay_id": "CHEMBL680297",
+      "target_id": "CHEMBL2111327",
+      "document_id": "CHEMBL1145105",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for recombinant rat GABA-A receptor alpha-2-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 792166,
+      "assay_id": "CHEMBL683018",
+      "target_id": "CHEMBL2111343",
+      "document_id": "CHEMBL1145105",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for recombinant rat GABA-A receptor alpha-3-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 792167,
+      "assay_id": "CHEMBL685342",
+      "target_id": "CHEMBL2111374",
+      "document_id": "CHEMBL1145105",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Binding affinity for recombinant rat GABA-A receptor alpha-5-beta-3-gamma-2 subunits expressed in HEK 293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 807849,
+      "assay_id": "CHEMBL650829",
+      "target_id": "CHEMBL2093872",
+      "document_id": "CHEMBL1135690",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "H",
+      "description": "Binding affinity towards Benzodiazepine receptor from bovine brain membrane using [3H]Ro-151788 as radioligand",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 807851,
+      "assay_id": "CHEMBL679467",
+      "target_id": "CHEMBL2095167",
+      "document_id": "CHEMBL1135690",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro-151788 from rat GABA-A receptor alpha-1-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 807852,
+      "assay_id": "CHEMBL678891",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1135690",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]-Ro-15-1788 from rat GABA-A receptor alpha-2-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha2",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 807853,
+      "assay_id": "CHEMBL680328",
+      "target_id": "CHEMBL2111343",
+      "document_id": "CHEMBL1135690",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro-151788 from rat GABA-A receptor alpha-3-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 807854,
+      "assay_id": "CHEMBL680332",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1135690",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]Ro-151788 from rat GABA-A receptor alpha-5-beta-3-gamma-2 subunits expressed in HEK293 cells",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 874022,
+      "assay_id": "CHEMBL650466",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1124125",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Inhibition of [3H]diazepam binding to GABA-A central benzodiazepine receptor of rat brain homogenate",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 874030,
+      "assay_id": "CHEMBL650466",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1124125",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Inhibition of [3H]diazepam binding to GABA-A central benzodiazepine receptor of rat brain homogenate",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 874034,
+      "assay_id": "CHEMBL650466",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1124125",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Inhibition of [3H]diazepam binding to GABA-A central benzodiazepine receptor of rat brain homogenate",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 927815,
+      "assay_id": "CHEMBL650465",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1124199",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Binding affinity against benzodiazepine (BZ) receptor by displacing [3H]diazepam in cerebral cortex of Wistar rats",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 997961,
+      "assay_id": "CHEMBL652657",
+      "target_id": "CHEMBL2094107",
+      "document_id": "CHEMBL1126078",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "In vitro inhibition of [3H]flunitrazepam binding to GABA-A benzodiazepine receptor of bovine cerebral cortical membranes at 10 uM",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "beta1",
+        "gamma2"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1039765,
+      "assay_id": "CHEMBL648135",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1127668",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]- flunitrazepam from rat GABA-A benzodiazepine receptor",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1039769,
+      "assay_id": "CHEMBL677790",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1127668",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]flunitrazepam from alpha-1-beta-2-gamma-2 GABA-A receptor subunits expressed in Sf9 cell membranes",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1145117,
+      "assay_id": "CHEMBL651178",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1132620",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "H",
+      "description": "Displacement of [3H]flunitrazepam from GABA-A benzodiazepine receptor of rat cortical membranes",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1161711,
+      "assay_id": "CHEMBL652450",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1129651",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Binding affinity against benzodiazepine receptor (BzR) in rat cortical membranes determined by competition experiments with radiolabeled [3H]flunitrazepam (Fnz)",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1412501,
+      "assay_id": "CHEMBL829006",
+      "target_id": "CHEMBL2094121",
+      "document_id": "CHEMBL1142695",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Inhibition of [3H]Ro-151788 binding to recombinant human gamma-aminobutyric-acid A receptor alpha-1-beta-3-gamma-2 subtype expressed in L (tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1412502,
+      "assay_id": "CHEMBL829005",
+      "target_id": "CHEMBL2094130",
+      "document_id": "CHEMBL1142695",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Inhibition of [3H]Ro-151788 binding to recombinant human gamma-aminobutyric acid A receptor alpha-2-beta-3-gamma-2 subtype expressed in L (tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1412503,
+      "assay_id": "CHEMBL830420",
+      "target_id": "CHEMBL2094120",
+      "document_id": "CHEMBL1142695",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Inhibition of [3H]Ro-151788 binding to recombinant human gamma-aminobutyric-acid A receptor alpha-3-beta-3-gamma-2 subtype expressed in L (tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1412504,
+      "assay_id": "CHEMBL830421",
+      "target_id": "CHEMBL2094122",
+      "document_id": "CHEMBL1142695",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Inhibition of [3H]Ro-151788 binding to recombinant human gamma-aminobutyric-acid A receptor alpha-5-beta-3-gamma-2 subtype expressed in L (tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1505239,
+      "assay_id": "CHEMBL839964",
+      "target_id": "CHEMBL2093872",
+      "document_id": "CHEMBL1144412",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "H",
+      "description": "Displacement of [3H]flumazenil from bovine benzodiazepine receptor GABA-A channel of brain membranes",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1605063,
+      "assay_id": "CHEMBL871684",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1141130",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Binding affinity for rat alpha-1 beta2/3 gamma2 GABA A / BzR receptor",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": true,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1605064,
+      "assay_id": "CHEMBL871685",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1141130",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Binding affinity for rat alpha2 beta2/3 gamma2 GABA-A/BzR receptor",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha2",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": true,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1605065,
+      "assay_id": "CHEMBL871686",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1141130",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Binding affinity for rat alpha-3 beta2/3 gamma2 GABA-A/BzR receptor",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": true,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1605066,
+      "assay_id": "CHEMBL884630",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1141130",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Binding affinity for rat alpha-5 beta2/3 gamma2 GABA-A/BzR receptor",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha5",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": true,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1667045,
+      "assay_id": "CHEMBL864002",
+      "target_id": "CHEMBL2094121",
+      "document_id": "CHEMBL1148587",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]-Ro15-1788 from human recombinant GABAA alpha1 in combination with beta-3-gamma-2 expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1667046,
+      "assay_id": "CHEMBL864003",
+      "target_id": "CHEMBL2094130",
+      "document_id": "CHEMBL1148587",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]-Ro15-1788 from human recombinant GABAA alpha2 in combination with beta3gamma2 expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1667047,
+      "assay_id": "CHEMBL864004",
+      "target_id": "CHEMBL2094120",
+      "document_id": "CHEMBL1148587",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro-151788 from human recombinant GABAA alpha3 in combination with beta3gamma2 expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1667048,
+      "assay_id": "CHEMBL864005",
+      "target_id": "CHEMBL2094122",
+      "document_id": "CHEMBL1148587",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro-151788 from human recombinant GABAA alpha5 in combination with beta3gamma2 expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1679889,
+      "assay_id": "CHEMBL853068",
+      "target_id": "CHEMBL2094121",
+      "document_id": "CHEMBL1149444",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro 15-1788 from recombinant human GABAA alpha-1 receptor plus beta3gamma2 expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1679890,
+      "assay_id": "CHEMBL853070",
+      "target_id": "CHEMBL2094130",
+      "document_id": "CHEMBL1149444",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H] Ro15-1788 from recombinant human GABAA alpha2 receptor plus beta-3-gamma-2 expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1689389,
+      "assay_id": "CHEMBL862013",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL1138158",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Binding affinity to Wistar rat benzodiazepine receptor",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1700854,
+      "assay_id": "CHEMBL859938",
+      "target_id": "CHEMBL2094107",
+      "document_id": "CHEMBL1146100",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flumazenil from GABA-A receptor in bovine brain membranes",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "beta1",
+        "gamma2"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1701379,
+      "assay_id": "CHEMBL861815",
+      "target_id": "CHEMBL2111392",
+      "document_id": "CHEMBL1146066",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Flumazenil from human GABA-Aalpha1 receptor plus beta-2-gamma-2 expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta1",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": true
+    },
+    {
+      "activity_id": 1701383,
+      "assay_id": "CHEMBL861816",
+      "target_id": "CHEMBL2111339",
+      "document_id": "CHEMBL1146066",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Flumazenil from human GABA-Aalpha3 receptor plus beta-2-gamma-2 expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1825718,
+      "assay_id": "CHEMBL917141",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1142972",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]flumazenil from benzodiazepine receptor in bovine brain membranes",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1844027,
+      "assay_id": "CHEMBL919087",
+      "target_id": "CHEMBL2094121",
+      "document_id": "CHEMBL1139460",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro 15-1788 from human recombinant GABAA alpha-1-beta-3-gamma-2 receptor expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1844028,
+      "assay_id": "CHEMBL919088",
+      "target_id": "CHEMBL2094130",
+      "document_id": "CHEMBL1139460",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro 15-1788 from human recombinant GABAA alpha-2-beta-3-gamma-2 receptor expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1844029,
+      "assay_id": "CHEMBL919089",
+      "target_id": "CHEMBL2094120",
+      "document_id": "CHEMBL1139460",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro 15-1788 from human recombinant GABAA alpha-3-beta-3-gamma-2 receptor expressed in L(tk-) cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1876204,
+      "assay_id": "CHEMBL904136",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1142927",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]flumazenil from bovine brain cortex GABAA/Bz receptor",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1876208,
+      "assay_id": "CHEMBL904137",
+      "target_id": "CHEMBL2095167",
+      "document_id": "CHEMBL1142927",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro15-1788 from rat recombinant GABA alpha-1-beta-2-gamma-2 receptor expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1876211,
+      "assay_id": "CHEMBL904138",
+      "target_id": "CHEMBL2111343",
+      "document_id": "CHEMBL1142927",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro15-1788 from rat recombinant GABA alpha-3-beta-2-gamma-2 receptor expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 1876214,
+      "assay_id": "CHEMBL904139",
+      "target_id": "CHEMBL2095167",
+      "document_id": "CHEMBL1142927",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]Ro-151788 from rat recombinant GABA alpha-5-beta-2-gamma-2 receptor expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha5",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": true
+    },
+    {
+      "activity_id": 1934383,
+      "assay_id": "CHEMBL892456",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1147192",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]flunitrazepam from benzodiazepine receptor in rat neuronal membranes at 10 uM",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 2145620,
+      "assay_id": "CHEMBL922345",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1144718",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]flumazenil from GABAA/BzR complex in bovine cerebral cortex membrane",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 2340070,
+      "assay_id": "CHEMBL961474",
+      "target_id": "CHEMBL4552",
+      "document_id": "CHEMBL1150372",
+      "category": "TSPO",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]PK11195 from PBR in rat kidney mitochondrial membrane",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 2381316,
+      "assay_id": "CHEMBL953128",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1140203",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of radiolabeled Diazepam from central-type benzodiazepine receptor",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 2445223,
+      "assay_id": "CHEMBL964792",
+      "target_id": "CHEMBL5738",
+      "document_id": "CHEMBL1157469",
+      "category": "OTHER",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Displacement of 1-anilinonaphthalene-8-sulphonic acid from rat recombinant L-FABP high binding affinity site expressed in Escherichia coli BL21 by competitive fluorescence displacement assay",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 2445250,
+      "assay_id": "CHEMBL964795",
+      "target_id": "CHEMBL5738",
+      "document_id": "CHEMBL1157469",
+      "category": "OTHER",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Displacement of 1-anilinonaphthalene-8-sulphonic acid from rat recombinant L-FABP low binding affinity site expressed in Escherichia coli BL21 by competitive fluorescence displacement assay",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 2633930,
+      "assay_id": "CHEMBL954623",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1136986",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]flumazenil from Benzodiazepine receptor in bovine cerebral cortex membrane",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 2633954,
+      "assay_id": "CHEMBL954625",
+      "target_id": "CHEMBL2095167",
+      "document_id": "CHEMBL1136986",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flumazenil from rat GABA-A alpha-1-beta-2-gamma-2 receptor expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 2633973,
+      "assay_id": "CHEMBL954626",
+      "target_id": "CHEMBL341",
+      "document_id": "CHEMBL1136986",
+      "category": "GABA_SUBUNIT",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flumazenil from rat GABA-A alpha-2-beta-2-gamma-2 receptor expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [
+        "alpha2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 2633991,
+      "assay_id": "CHEMBL954628",
+      "target_id": "CHEMBL2111374",
+      "document_id": "CHEMBL1136986",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flumazenil from rat GABA-A alpha-5-beta-3-gamma-2 receptor expressed in HEK293 cells",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha5",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 3560680,
+      "assay_id": "CHEMBL1286791",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1275347",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]Ro15-1788 from GABA(A) receptor benzodiazepine site in bovine brain membrane",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 7566922,
+      "assay_id": "CHEMBL1908135",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1908105",
+      "category": "OTHER",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Inhibition of ciramadol glucuronidation by human UGT enzymes from liver microsomes",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 7566929,
+      "assay_id": "CHEMBL1908140",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1908105",
+      "category": "OTHER",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Inhibition of morphine glucuronidation by human UGT enzymes from liver microsomes",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 7566938,
+      "assay_id": "CHEMBL1908137",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1908105",
+      "category": "OTHER",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Inhibition of codeine glucuronidation by human UGT enzymes from liver microsomes",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 7566951,
+      "assay_id": "CHEMBL1908130",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL1908105",
+      "category": "OTHER",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Inhibition of AZT glucuronidation by human UGT enzymes from liver microsomes",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 12481274,
+      "assay_id": "CHEMBL3053712",
+      "target_id": "CHEMBL4078",
+      "document_id": "CHEMBL3046476",
+      "category": "OTHER",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Inhibition of Electrophorus electricus (electric eel) acetylcholinesterase (AChE) assessed as inhibition of ATCh hydrolysis by Ellman method",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 12481284,
+      "assay_id": "CHEMBL3053711",
+      "target_id": "CHEMBL5763",
+      "document_id": "CHEMBL3046476",
+      "category": "OTHER",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Inhibition of Equus caballus (horse) serum butyrylcholinesterase (BChE) assessed as inhibition of BTCh hydrolysis by Ellman method",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 12481286,
+      "assay_id": "CHEMBL3053712",
+      "target_id": "CHEMBL4078",
+      "document_id": "CHEMBL3046476",
+      "category": "OTHER",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Inhibition of Electrophorus electricus (electric eel) acetylcholinesterase (AChE) assessed as inhibition of ATCh hydrolysis by Ellman method",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 12481292,
+      "assay_id": "CHEMBL3053711",
+      "target_id": "CHEMBL5763",
+      "document_id": "CHEMBL3046476",
+      "category": "OTHER",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Inhibition of Equus caballus (horse) serum butyrylcholinesterase (BChE) assessed as inhibition of BTCh hydrolysis by Ellman method",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 13340319,
+      "assay_id": "CHEMBL2395268",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL2390918",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]Flunitrazepam from central-type GABAA receptor flunitrazepam binding site in Wistar rat brain after 60 mins",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 13342043,
+      "assay_id": "CHEMBL2395705",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL2390830",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Binding affinity to central BZD receptor (unknown origin) by radioligand displacement assay",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 15148396,
+      "assay_id": "CHEMBL3395250",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL3393035",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]-flumazenil from benzodiazepine receptor in Sprague-Dawley rat brain cortical membranes incubated for 35 mins",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 17960731,
+      "assay_id": "CHEMBL3994318",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL3992560",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]Ro15-1788 from GABA-A receptor benzodiazepine site in bovine brain cerebral cortex membranes",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 17966213,
+      "assay_id": "CHEMBL3995198",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL3994587",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]RO15-1788 from benzodiazepine receptor in recombinant bovine brain membranes expressed in HEK293 cells after 1 hr",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 17966217,
+      "assay_id": "CHEMBL3995200",
+      "target_id": "CHEMBL343",
+      "document_id": "CHEMBL3994587",
+      "category": "GABA_SUBUNIT",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]RO15-1788 from recombinant rat GABAalpha1 receptor expressed in HEK293 cells after 1 hr",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [
+        "alpha1"
+      ],
+      "described_subunits": [
+        "alpha1"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 17966220,
+      "assay_id": "CHEMBL3995201",
+      "target_id": "CHEMBL341",
+      "document_id": "CHEMBL3994587",
+      "category": "GABA_SUBUNIT",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]RO15-1788 from recombinant rat GABAalpha2 receptor expressed in HEK293 cells after 1 hr",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [
+        "alpha2"
+      ],
+      "described_subunits": [
+        "alpha2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 17966222,
+      "assay_id": "CHEMBL3995202",
+      "target_id": "CHEMBL328",
+      "document_id": "CHEMBL3994587",
+      "category": "GABA_SUBUNIT",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]RO15-1788 from recombinant rat GABAalpha3 receptor expressed in HEK293 cells after 1 hr",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [
+        "alpha3"
+      ],
+      "described_subunits": [
+        "alpha3"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 17966225,
+      "assay_id": "CHEMBL3995203",
+      "target_id": "CHEMBL300",
+      "document_id": "CHEMBL3994587",
+      "category": "GABA_SUBUNIT",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]RO15-1788 from recombinant rat GABAalpha5 receptor expressed in HEK293 cells after 1 hr",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [
+        "alpha5"
+      ],
+      "described_subunits": [
+        "alpha5"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 18146381,
+      "assay_id": "CHEMBL4032366",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL4028894",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]Ro15-1788 from GABAA receptor in bovine cerebral cortex membranes after 90 mins by liquid scintillation counting method",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 19039186,
+      "assay_id": "CHEMBL4351503",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL4350959",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]Ro-15-1788 from human GABA alpha2/beta2/gamma2 receptor expressed in HEK cell membranes measured after 2 hrs by topcount method",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [
+        "alpha2",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 19259362,
+      "assay_id": "CHEMBL4403718",
+      "target_id": "CHEMBL1962",
+      "document_id": "CHEMBL4402545",
+      "category": "GABA_SUBUNIT",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Binding affinity to GABA-A alpha1 (unknown origin)",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [
+        "alpha1"
+      ],
+      "described_subunits": [
+        "alpha1"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 19259380,
+      "assay_id": "CHEMBL4403717",
+      "target_id": "CHEMBL4956",
+      "document_id": "CHEMBL4402545",
+      "category": "GABA_SUBUNIT",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Binding affinity to GABA-A alpha2 (unknown origin)",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [
+        "alpha2"
+      ],
+      "described_subunits": [
+        "alpha2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 19259408,
+      "assay_id": "CHEMBL4403719",
+      "target_id": "CHEMBL3026",
+      "document_id": "CHEMBL4402545",
+      "category": "GABA_SUBUNIT",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Binding affinity to GABA-A alpha3 (unknown origin)",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [
+        "alpha3"
+      ],
+      "described_subunits": [
+        "alpha3"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 19259426,
+      "assay_id": "CHEMBL4403720",
+      "target_id": "CHEMBL5112",
+      "document_id": "CHEMBL4402545",
+      "category": "GABA_SUBUNIT",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Binding affinity to GABA-A alpha5 (unknown origin)",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [
+        "alpha5"
+      ],
+      "described_subunits": [
+        "alpha5"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 24843214,
+      "assay_id": "CHEMBL5146040",
+      "target_id": "CHEMBL2095172",
+      "document_id": "CHEMBL5143601",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flunitrazepam from human recombinant alpha1beta2gamma2 GABAA receptor expressed in HEK cell membrane by competitive radioligand binding assay",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 24843235,
+      "assay_id": "CHEMBL5146041",
+      "target_id": "CHEMBL2111413",
+      "document_id": "CHEMBL5143601",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flunitrazepam from human recombinant alpha2beta2gamma2 GABAA receptor expressed in HEK cell membrane by competitive radioligand binding assay",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 24843256,
+      "assay_id": "CHEMBL5146042",
+      "target_id": "CHEMBL2111339",
+      "document_id": "CHEMBL5143601",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flunitrazepam from human recombinant alpha3beta2gamma2 GABAA receptor expressed in HEK cell membrane by competitive radioligand binding assay",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha3",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 24843277,
+      "assay_id": "CHEMBL5146043",
+      "target_id": "CHEMBL4523641",
+      "document_id": "CHEMBL5143601",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flunitrazepam from human recombinant alpha5beta2gamma2 GABAA receptor expressed in HEK cell membrane by competitive radioligand binding assay",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha5",
+        "beta2",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha5",
+        "beta2",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 24863110,
+      "assay_id": "CHEMBL5150956",
+      "target_id": "CHEMBL2419",
+      "document_id": "CHEMBL5149980",
+      "category": "TSPO",
+      "target_type": "SINGLE PROTEIN",
+      "assay_relationship": "D",
+      "description": "Binding affinity to bovine brain membrane BzR assessed as inhibition constant",
+      "registered_component_relationships": [
+        "SINGLE PROTEIN"
+      ],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 29082421,
+      "assay_id": "CHEMBL6080335",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL6078658",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]flumazenil from CBR at low affinity site extracted from cerebral cortex of CD-1 albino mouse incubated for 90 mins by liquid scintillation counter analysis",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 29082429,
+      "assay_id": "CHEMBL6080336",
+      "target_id": "CHEMBL612545",
+      "document_id": "CHEMBL6078658",
+      "category": "UNCURATED_GABA_BZD",
+      "target_type": "UNCHECKED",
+      "assay_relationship": "U",
+      "description": "Displacement of [3H]flumazenil from CBR at high affinity site extracted from cerebral cortex of CD-1 albino mouse incubated for 90 mins by liquid scintillation counter analysis",
+      "registered_component_relationships": [],
+      "registered_subunits": [],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 29082441,
+      "assay_id": "CHEMBL6080337",
+      "target_id": "CHEMBL2094121",
+      "document_id": "CHEMBL6078658",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flumazenil from human recombinant alpha1-beta3-gamma2 GABAA receptors expressed in mouse LTK- cells incubated for 1 hr by liquid scintillation counter analysis",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 29082452,
+      "assay_id": "CHEMBL6080338",
+      "target_id": "CHEMBL2094130",
+      "document_id": "CHEMBL6078658",
+      "category": "DIRECT_COMPLEX",
+      "target_type": "PROTEIN COMPLEX",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flumazenil from human recombinant alpha2-beta3-gamma2 GABAA receptors expressed in mouse LTK- cells incubated for 1 hr by liquid scintillation counter analysis",
+      "registered_component_relationships": [
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT",
+        "PROTEIN SUBUNIT"
+      ],
+      "registered_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "described_subunits": [
+        "alpha2",
+        "beta3",
+        "gamma2"
+      ],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    },
+    {
+      "activity_id": 29089169,
+      "assay_id": "CHEMBL6081993",
+      "target_id": "CHEMBL1907607",
+      "document_id": "CHEMBL6078707",
+      "category": "COMPLEX_GROUP",
+      "target_type": "PROTEIN COMPLEX GROUP",
+      "assay_relationship": "D",
+      "description": "Displacement of [3H]flunitrazepam from rat brain GABA-A receptor incubated for 10 mins by MicroBeta TriLux 1450 scintillation counter",
+      "registered_component_relationships": [
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER",
+        "GROUP MEMBER"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "alpha2",
+        "alpha3",
+        "alpha4",
+        "alpha5",
+        "alpha6",
+        "beta1",
+        "beta2",
+        "beta3",
+        "gamma1",
+        "gamma2",
+        "gamma3"
+      ],
+      "described_subunits": [],
+      "ambiguous_composition": false,
+      "engineered": false,
+      "conflict": false
+    }
+  ],
+  "full_source_json_equal_to_refresh": {
+    "01_activities.json": true,
+    "02_targets.json": true,
+    "03_assays.json": true
+  }
+}

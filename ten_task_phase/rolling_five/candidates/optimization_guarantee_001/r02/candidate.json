@@ -1,0 +1,80 @@
+{
+  "candidate_id": "optimization_guarantee_001",
+  "revision": 2,
+  "ecosystem": "arxiv",
+  "domain": "zeroth-order nonconvex constrained optimization",
+  "status": "rejected",
+  "old_task_refs": [
+    "oldarxiv_assumption_scope_001/1705.08366",
+    "WGAN v3 envelope citation",
+    "1810.00826 GNN scope"
+  ],
+  "research_goal": "Compare the function-query models and random Frank-Wolfe-gap quantities reported by the original main nonconvex statements for every distinct work cited in the complete survey ZO-SCG bullet.",
+  "structural_upgrade": "Citation discovery determines the original works to retrieve. This is one shallow evidence dependency, not an established difficulty improvement over the old version-comparison task.",
+  "public": {
+    "cg": {
+      "instruction": "Compare what the original papers report about function queries and random Frank–Wolfe gaps for the works cited in the ZO-SCG bullet of A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning, arXiv:2006.06224v2. Return a compact table of their stated claims; this is not an assessment of proof correctness or algorithm applicability.\n\n1. Read the complete ZO-SCG bullet in the constrained-optimization discussion, including its continuation up to the next bullet. Include every work cited there. Resolve the bibliography entries to original arXiv works and merge entries only when they represent the same work.\n2. Use official submission histories as observed on 12 September 2026. For each work, use the latest arXiv version posted no later than the survey v2 posting on 21 June 2020 at 06:40:13 UTC. Use older versions with a referenced title only to establish identity.\n3. Locate the first main-text theorem, in document order, that bounds the Frank–Wolfe gap for the work's own zeroth-order conditional-gradient method without requiring objective convexity. Use its nonconvex part where the theorem has separate parts. Read the statement together with its associated algorithm, query definitions and gap definition. Report the theorem locator, declared query model, operation on the random gaps and exact iterate range.\n\nUse the main statement and its associated algorithm to report these fields, even when proof passages differ. Preserve what is printed rather than repairing it. Exclude results for other algorithms or convex-only cases. Do not derive rates, validate proofs or decide whether an algorithm should be applied.\n\nA Frank–Wolfe gap is the paper's stationarity quantity for constrained optimization. Use the quantity that the paper denotes as its gap, without correcting its definition. Preserve the printed indices, including any shift between a gap index and its iterate. Do not exchange minimum and expectation or substitute a last-iterate gap.",
+      "output_format": "Return only a pipe-separated table with header ARXIV_ID|VERSION|THEOREM|QUERY_MODEL|GAP_FORM|ITERATES. Use one row per distinct work, ordered by its first citation occurrence in the complete bullet. Retain distinct works with identical claims; there is no winner or tie selection.\n\nARXIV_ID is the original identifier as a string, without an arXiv: prefix or version suffix. VERSION is v followed by the official version number. THEOREM is the numbered theorem locator, including a part number when needed, in the form Theorem n.m or Theorem n.m(p).\n\nQUERY_MODEL is SAMPLE_FUNCTION for sampled loss values with the same sample reused at the finite-difference query points, or EXACT_FUNCTION for values of a fixed function even when the gradient estimate uses random directions. Classify the declared model, not a noiseless special case of a sample model.\n\nGAP_FORM is EXPECTED_UNIFORM_GAP for the expectation of the paper's gap at an iterate selected uniformly from the reported range, or EXPECTED_MIN_GAP for the expectation of the minimum of the paper's gaps over that range. ITERATES gives that inclusive range in the paper's iterate variable, using notation such as w_2..w_(M-1).\n\nUse UNKNOWN for inaccessible, absent or ambiguous evidence in any non-key cell, and retain the row. If an arXiv identity is unresolved, use CITE_n as ARXIV_ID, where n is the survey reference number; do not infer a merge. Do not use NONE."
+    },
+    "go": {
+      "instruction": "Compare what the original papers report about function queries and random Frank–Wolfe gaps for the works cited in the ZO-SCG bullet of A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning, arXiv:2006.06224v2. Return a compact table of their stated claims; this is not an assessment of proof correctness or algorithm applicability.\n\nThe scope is the complete ZO-SCG bullet in the constrained-optimization discussion, including its continuation up to the next bullet. Include every work cited there. Bibliography entries that represent the same original arXiv work belong in a single row; merge entries only when that identity is established.\n\nUse official submission histories as observed on 12 September 2026. For each work, use the latest arXiv version posted no later than the survey v2 posting on 21 June 2020 at 06:40:13 UTC. Use older versions with a referenced title only to establish identity.\n\nThe relevant claim is the first main-text theorem, in document order, that bounds the Frank–Wolfe gap for the work's own zeroth-order conditional-gradient method without requiring objective convexity. Use its nonconvex part where the theorem has separate parts. The table should identify that theorem and describe its declared query model, operation on the random gaps and exact iterate range, using the statement, associated algorithm, query definitions and gap definition.\n\nUse the main statement and its associated algorithm to report these fields, even when proof passages differ. Preserve what is printed rather than repairing it. Exclude results for other algorithms or convex-only cases. Do not derive rates, validate proofs or decide whether an algorithm should be applied.\n\nA Frank–Wolfe gap is the paper's stationarity quantity for constrained optimization. Use the quantity that the paper denotes as its gap, without correcting its definition. Preserve the printed indices, including any shift between a gap index and its iterate. Do not exchange minimum and expectation or substitute a last-iterate gap.",
+      "output_format": "Return only a pipe-separated table with header ARXIV_ID|VERSION|THEOREM|QUERY_MODEL|GAP_FORM|ITERATES. Use one row per distinct work, ordered by its first citation occurrence in the complete bullet. Retain distinct works with identical claims; there is no winner or tie selection.\n\nARXIV_ID is the original identifier as a string, without an arXiv: prefix or version suffix. VERSION is v followed by the official version number. THEOREM is the numbered theorem locator, including a part number when needed, in the form Theorem n.m or Theorem n.m(p).\n\nQUERY_MODEL is SAMPLE_FUNCTION for sampled loss values with the same sample reused at the finite-difference query points, or EXACT_FUNCTION for values of a fixed function even when the gradient estimate uses random directions. Classify the declared model, not a noiseless special case of a sample model.\n\nGAP_FORM is EXPECTED_UNIFORM_GAP for the expectation of the paper's gap at an iterate selected uniformly from the reported range, or EXPECTED_MIN_GAP for the expectation of the minimum of the paper's gaps over that range. ITERATES gives that inclusive range in the paper's iterate variable, using notation such as w_2..w_(M-1).\n\nUse UNKNOWN for inaccessible, absent or ambiguous evidence in any non-key cell, and retain the row. If an arXiv identity is unresolved, use CITE_n as ARXIV_ID, where n is the survey reference number; do not infer a merge. Do not use NONE."
+    }
+  },
+  "private": {
+    "source_version": "Survey 2006.06224v2; latest original arXiv versions posted no later than 2020-06-21T06:40:13Z, from histories observed 2026-09-12. Evaluation configuration date remains 2026-09-09.",
+    "start_urls": [
+      "https://arxiv.org/pdf/2006.06224v2"
+    ],
+    "candidate_scope": "All distinct works represented by citations in the complete ZO-SCG bullet, including its continuation. Citation identities 41 and 44 merge into 1809.06474; 46 resolves to 1811.10828; 47 resolves to 1810.03233. Selected versions are respectively v2, v2, v3. No work is removed because of a source discrepancy.",
+    "predicates": [
+      "Complete-bullet citation universe",
+      "Deduplicate established work identities",
+      "Latest original arXiv version at the survey posting",
+      "Older title versions establish identity only",
+      "First main-text nonconvex Frank-Wolfe-gap theorem for the work's own zeroth-order method",
+      "Main statement and associated algorithm control reported fields",
+      "Exclude proof verification, repairs, rates and applicability judgments",
+      "Classify declared query model and same-sample reuse",
+      "Preserve expectation/minimum order and exact iterate endpoints",
+      "Retain all distinct works and missing-evidence rows"
+    ],
+    "output_columns": [
+      "ARXIV_ID",
+      "VERSION",
+      "THEOREM",
+      "QUERY_MODEL",
+      "GAP_FORM",
+      "ITERATES"
+    ],
+    "row_key": [
+      "ARXIV_ID"
+    ],
+    "sorting_rules": [
+      "First citation occurrence in the complete bullet after identity deduplication",
+      "Retain distinct works with equal reported claims; no winner or tie selection"
+    ],
+    "missing_value_rules": [
+      "UNKNOWN in unresolved non-key cells",
+      "CITE_n for unresolved citation identity; do not infer merging",
+      "NONE is not used"
+    ],
+    "source_manifest_path": "source_manifest.json",
+    "state_graph_path": "state_graph.json",
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "passed",
+    "difficulty": "screened",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "reference_report.md",
+      "design_rationale.md",
+      "language_review.md",
+      "pair_alignment.json",
+      "controller_pre_A_checks.json",
+      "development_decision.json"
+    ]
+  }
+}

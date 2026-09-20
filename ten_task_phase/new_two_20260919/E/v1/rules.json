@@ -1,0 +1,18 @@
+{
+  "columns": [
+    "case",
+    "attribute_prepared",
+    "initial_prepared",
+    "any_prepared",
+    "final_prepared",
+    "result"
+  ],
+  "row_key": [
+    "case"
+  ],
+  "fields": {},
+  "status": "deterministic_explicit",
+  "normalization": "Six equal-weight fields. Case labels and outcomes case-insensitive. Complete codepoint sequences accept U+ or 0x or bare hex tokens, whitespace or comma separators and balanced optional brackets; hex padding ignored, codepoint order and multiplicity preserved. Prepared failure aliases FAIL/FAILED/PREPARATION FAILED/PROHIBITED; successful empty aliases EMPTY/empty string/[]; blank and unknown are missing, never failure. Outcome true/yes, false/no, undefined/indeterminate. No suffix text discarded. Duplicate and extra rows retained, first duplicate only earns credit.",
+  "qualification": "Requires substantive answer, successful quality and trajectory/access/exposure review and exact 10n<7d. Empty/failed output cannot qualify.",
+  "whole_answer": "Exact semantic rows in required order, no duplicates or extras or extra prose; format assessed separately."
+}

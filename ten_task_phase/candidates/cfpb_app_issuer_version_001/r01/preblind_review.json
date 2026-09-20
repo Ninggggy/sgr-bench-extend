@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-10T04:13:15.879859+00:00",
+  "constructor_run": "construction_pipeline/ten_task_phase/runs/r-resume-cfpb-bank-complete",
+  "preserved_original": "construction_pipeline/ten_task_phase/runs/r-resume-cfpb-bank-complete/stage_assets",
+  "changes": [
+    "Named agency described generically while retaining unique scope; both variants changed identically before tests.",
+    "Inverted aliases to existing scorer accepted alias-to-canonical mapping; no scoring implementation change.",
+    "Corrected registered .txt evidence filenames in copied programs; preserved original programs."
+  ],
+  "status": "candidate_ready_for_A_not_audited_not_admitted",
+  "reference_exit": 0,
+  "independent_exit": 0,
+  "oracle_exact_match": true
+}

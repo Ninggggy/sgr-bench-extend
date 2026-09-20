@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-09-19T11:08:13.186161+00:00",
+  "registered_pairs": [
+    {
+      "candidate": "A",
+      "revision": "v1",
+      "assets_unchanged": true,
+      "both_faces_executed_and_reviewed": true
+    },
+    {
+      "candidate": "B",
+      "revision": "v2",
+      "assets_unchanged": true,
+      "both_faces_executed_and_reviewed": true
+    },
+    {
+      "candidate": "A",
+      "revision": "v2",
+      "assets_unchanged": true,
+      "both_faces_executed_and_reviewed": true
+    },
+    {
+      "candidate": "A",
+      "revision": "v3",
+      "assets_unchanged": true,
+      "both_faces_executed_and_reviewed": true
+    }
+  ],
+  "no_duplicate_allocations": true,
+  "blind_used": 8,
+  "review_used": 10,
+  "review_limit": 15,
+  "blind_limit": 12,
+  "A3_recomputation_matches_saved_derived": true,
+  "A3_authoritative_scorer_unchanged": true,
+  "A3_scorer_fixtures_passed": 23,
+  "A3_boundary_checks_passed": 162,
+  "unexecuted_registered_faces": 0,
+  "goal_completed": false,
+  "stop_reason": "A version limit reached with both A3 faces valid 100 percent"
+}

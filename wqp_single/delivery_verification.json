@@ -1,0 +1,429 @@
+{
+  "recorded_at": "2026-09-08T15:49:23.290225+00:00",
+  "status": "passed",
+  "sessions": 35,
+  "run_checks": [
+    {
+      "label": "environment_capability",
+      "run": "runtime/capability_run_01",
+      "status": "runtime_error",
+      "verification": "passed",
+      "recovery_successful": null,
+      "recovered_files": 0
+    },
+    {
+      "label": "environment_capability",
+      "run": "runtime/capability_run_02",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": null,
+      "recovered_files": 0
+    },
+    {
+      "label": "content_A_CG",
+      "run": "candidates/wqp_activity_panel_001/r01/runs/r-cd7f6d8c7fa8",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": null,
+      "recovered_files": 0
+    },
+    {
+      "label": "content_B_CG",
+      "run": "candidates/wqp_activity_panel_001/r01/runs/r-9730550c5079",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": null,
+      "recovered_files": 0
+    },
+    {
+      "label": "content_A_GO",
+      "run": "candidates/wqp_activity_panel_001/r01/runs/r-aafc5ab55066",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": null,
+      "recovered_files": 0
+    },
+    {
+      "label": "content_B_GO",
+      "run": "candidates/wqp_activity_panel_001/r01/runs/r-d7ccc97e8a5c",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": null,
+      "recovered_files": 0
+    },
+    {
+      "label": "shortcut_CG",
+      "run": "candidates/wqp_activity_panel_001/r01/runs/r-abacf42b313a",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": null,
+      "recovered_files": 0
+    },
+    {
+      "label": "shortcut_GO",
+      "run": "candidates/wqp_activity_panel_001/r01/runs/r-2d131d24e520",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": null,
+      "recovered_files": 0
+    },
+    {
+      "label": "audit_audit",
+      "run": "candidates/wqp_activity_panel_001/r01/runs/r-39acc6280eff",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": null,
+      "recovered_files": 0
+    },
+    {
+      "label": "r02_content_A_CG",
+      "run": "candidates/wqp_activity_panel_001/r02/runs/r-66b46047bdd4",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 50
+    },
+    {
+      "label": "r02_content_B_CG",
+      "run": "candidates/wqp_activity_panel_001/r02/runs/r-e437c6a3f566",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 26
+    },
+    {
+      "label": "r03_content_A_CG",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-6e4ca9d3999e",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 21
+    },
+    {
+      "label": "r03_content_B_CG",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-29c1be074a07",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 26
+    },
+    {
+      "label": "r03_content_A_GO",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-90f6785199ad",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 31
+    },
+    {
+      "label": "r03_content_B_GO",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-c56f5211721f",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 27
+    },
+    {
+      "label": "r03_shortcut_GO",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-66559195d6fa",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 18
+    },
+    {
+      "label": "r03_shortcut_CG",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-e70dd272388a",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 23
+    },
+    {
+      "label": "r03_audit_audit",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-a31a0a62e6b2",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 309
+    },
+    {
+      "label": "r03_audit_adjudication",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-d35c4e39fd28",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 310
+    },
+    {
+      "label": "screening_new_CG_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-420f595cac9b",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 23
+    },
+    {
+      "label": "screening_old_GO_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-a210a4717398",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 0
+    },
+    {
+      "label": "screening_old_CG_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-d1d328608132",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 0
+    },
+    {
+      "label": "screening_new_GO_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-615ba2d60939",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 21
+    },
+    {
+      "label": "confirmation_old_GO_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-49dbfde787c8",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 0
+    },
+    {
+      "label": "confirmation_old_CG_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-9be599419f0d",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 0
+    },
+    {
+      "label": "confirmation_new_GO_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-88735946063d",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 32
+    },
+    {
+      "label": "confirmation_new_CG_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-b4d1f1ae6326",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 21
+    },
+    {
+      "label": "confirmation_new_CG_2",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-b6760e99311c",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 20
+    },
+    {
+      "label": "confirmation_old_CG_2",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-07d3bc5f222b",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 0
+    },
+    {
+      "label": "confirmation_new_GO_2",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-ef389f552b30",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 21
+    },
+    {
+      "label": "confirmation_old_GO_2",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-5ca654b7b0d2",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 3
+    },
+    {
+      "label": "confirmation_new_CG_3",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-adce46725506",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 23
+    },
+    {
+      "label": "confirmation_old_CG_3",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-b1aea490162f",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 0
+    },
+    {
+      "label": "confirmation_new_GO_3",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-e746ee451099",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 36
+    },
+    {
+      "label": "confirmation_old_GO_3",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-68f5ebf91e8e",
+      "status": "completed",
+      "verification": "passed",
+      "recovery_successful": true,
+      "recovered_files": 0
+    }
+  ],
+  "comparison_checks": [
+    {
+      "label": "screening_new_CG_1",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "screening_old_CG_1",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "screening_new_GO_1",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "screening_old_GO_1",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_new_CG_1",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_old_CG_1",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_new_GO_1",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_old_GO_1",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_new_CG_2",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_old_CG_2",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_new_GO_2",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_old_GO_2",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_new_CG_3",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_old_CG_3",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_new_GO_3",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    },
+    {
+      "label": "confirmation_old_GO_3",
+      "public_semantics": true,
+      "controller_rules": true,
+      "controller_gold": true,
+      "shared_config": true,
+      "shared_data_tools": true
+    }
+  ],
+  "issues": [],
+  "known_credential_scan": {
+    "files_scanned": 3766,
+    "known_values_checked": 3,
+    "matching_paths": [],
+    "scope": "Exact current runtime token/key values only; no credential value printed or persisted. Not a general security audit."
+  },
+  "candidate_check": {
+    "exit_code": 0,
+    "output": "{\"candidate_id\": \"wqp_activity_panel_001\", \"status\": \"content_validated\", \"state_consistency\": \"passed\", \"relative_path_syntax\": \"passed\", \"referenced_files\": \"checked\", \"scope\": \"Declared state consistency only; not full JSON Schema, source truth, or difficulty verification\"}\n"
+  },
+  "limitations": "Existing checks cover declarations, references, recorded isolation/model/extraction/scoring and retained downloads. They do not replace source interpretation or establish hardness. Historical r01 download gaps remain disclosed."
+}

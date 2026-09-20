@@ -1,0 +1,6 @@
+[
+  {"id": "D00752", "decision": "include", "reason": "explicit_own_active_form", "active_ids": ["D05096"], "evidence_refs": ["E-GROUP", "E-MOFETIL", "E-ACTIVE"]},
+  {"id": "D05094", "decision": "include", "reason": "explicit_own_active_form", "active_ids": ["D05096"], "evidence_refs": ["E-GROUP", "E-HYDROCHLORIDE", "E-ACTIVE"]},
+  {"id": "D05095", "decision": "exclude", "reason": "Complete Comment describes prophylaxis and has no required active-form annotation", "active_ids": [], "evidence_refs": ["E-GROUP", "E-SODIUM"]},
+  {"id": "D05096", "decision": "exclude", "reason": "No Comment field in the complete terminated record", "active_ids": [], "evidence_refs": ["E-GROUP", "E-ACTIVE"]}
+]

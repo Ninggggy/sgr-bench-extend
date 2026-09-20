@@ -1,0 +1,1667 @@
+{
+  "1809.06474v1": [
+    {
+      "line": 0,
+      "page": "0",
+      "text": "arXiv:1809.06474v1 [math.OC] 17 Sep 2018"
+    },
+    {
+      "line": 1,
+      "page": "0",
+      "text": "Zeroth-order (Non)-Convex Stochastic Optimization"
+    },
+    {
+      "line": 2,
+      "page": "0",
+      "text": "via Conditional Gradient and Gradient Updates"
+    },
+    {
+      "line": 3,
+      "page": "0",
+      "text": "Krishnakumar Balasubramanian"
+    },
+    {
+      "line": 4,
+      "page": "0",
+      "text": "Department of Statistics"
+    },
+    {
+      "line": 5,
+      "page": "0",
+      "text": "University of California, Davis"
+    },
+    {
+      "line": 6,
+      "page": "0",
+      "text": "kbala@ucdavis.edu"
+    },
+    {
+      "line": 7,
+      "page": "0",
+      "text": "Saeed Ghadimi ∗"
+    },
+    {
+      "line": 8,
+      "page": "0",
+      "text": "Department of Operations Research and Financial Engineering"
+    },
+    {
+      "line": 9,
+      "page": "0",
+      "text": "Princeton University"
+    },
+    {
+      "line": 10,
+      "page": "0",
+      "text": "sghadimi@princeton.edu"
+    }
+  ],
+  "1809.06474v2": [
+    {
+      "line": 0,
+      "page": "0",
+      "text": "arXiv:1809.06474v2 [math.OC] 14 Jan 2019"
+    },
+    {
+      "line": 1,
+      "page": "0",
+      "text": "Zeroth-order Nonconvex Stochastic Optimization: Handling"
+    },
+    {
+      "line": 2,
+      "page": "0",
+      "text": "Constraints, High-Dimensionality and Saddle-Points∗"
+    },
+    {
+      "line": 3,
+      "page": "0",
+      "text": "Krishnakumar Balasubramanian†1 and Saeed Ghadimi‡2"
+    },
+    {
+      "line": 4,
+      "page": "0",
+      "text": "1Department of Statistics, University of California, Davis"
+    },
+    {
+      "line": 5,
+      "page": "0",
+      "text": "2Department of Operations Research and Financial Engineering, Princeton University"
+    },
+    {
+      "line": 6,
+      "page": "0",
+      "text": "Abstract"
+    },
+    {
+      "line": 7,
+      "page": "0",
+      "text": "In this paper, we propose and analyze zeroth-order stochastic approximation algorithms"
+    },
+    {
+      "line": 8,
+      "page": "0",
+      "text": "for nonconvex and convex optimization, with a focus on addressing constrained optimization,"
+    },
+    {
+      "line": 9,
+      "page": "0",
+      "text": "high-dimensional setting and saddle-point avoiding. To handle constrained optimization, we"
+    },
+    {
+      "line": 10,
+      "page": "0",
+      "text": "first propose generalizations of the conditional gradient algorithm achieving rates similar to"
+    },
+    {
+      "line": 172,
+      "page": "3",
+      "text": "an estimator F(x, ξ) of f(x) such that E[F(x, ξ)] = f(x), E[∇F(x, ξ)] = ∇f(x), E[k∇F(x, ξ) −"
+    },
+    {
+      "line": 179,
+      "page": "3-4",
+      "text": "4It should be noted that in the above assumption, we do not observe ∇F(x, ξ) and we just assume"
+    },
+    {
+      "line": 182,
+      "page": "4",
+      "text": "Assumption 2 Function F has Lipschitz continuous gradient with constant L, almost surely for"
+    },
+    {
+      "line": 193,
+      "page": "4",
+      "text": "based on the above zeroth-order information. Let u ∼ N(0, Id) be a standard Gaussian random vec\u0002tor. For some ν ∈ (0,∞) consider the smoothed function fν(x) = Eu [f(x + νu)]. Nesterov [NS17]"
+    },
+    {
+      "line": 221,
+      "page": "4",
+      "text": "Gν (x, ξ, u) = F(x + νu, ξ) − F(x, ξ)"
+    },
+    {
+      "line": 222,
+      "page": "4",
+      "text": "ν"
+    },
+    {
+      "line": 223,
+      "page": "4",
+      "text": "u, (1.4)"
+    },
+    {
+      "line": 231,
+      "page": "4",
+      "text": "Theorem 1.1 ( [NS17]) For a Gaussian random vector u ∼ N(0, Id) we have that"
+    },
+    {
+      "line": 271,
+      "page": "5",
+      "text": "Theorem 1.2 ( [Ste72, Ste81]) Let u ∼ N(0, Id), be a standard Gaussian random vector and let"
+    },
+    {
+      "line": 316,
+      "page": "5-6",
+      "text": "6Algorithm 1 Zeroth-order Stochastic Conditional Gradient Method"
+    },
+    {
+      "line": 323,
+      "page": "6",
+      "text": "ν according to (1.4) and take their average:"
+    },
+    {
+      "line": 330,
+      "page": "6",
+      "text": "F(zk−1 + νuk,j , ξk,j) − F(zk−1, ξk,j )"
+    },
+    {
+      "line": 331,
+      "page": "6",
+      "text": "ν"
+    },
+    {
+      "line": 332,
+      "page": "6",
+      "text": "uk,j . (2.1)"
+    },
+    {
+      "line": 333,
+      "page": "6",
+      "text": "2. Compute"
+    },
+    {
+      "line": 334,
+      "page": "6",
+      "text": "xk = argmin"
+    },
+    {
+      "line": 335,
+      "page": "6",
+      "text": "u∈X"
+    },
+    {
+      "line": 336,
+      "page": "6",
+      "text": "hG¯k"
+    },
+    {
+      "line": 337,
+      "page": "6",
+      "text": "ν"
+    },
+    {
+      "line": 338,
+      "page": "6",
+      "text": ", ui, (2.2)"
+    },
+    {
+      "line": 339,
+      "page": "6",
+      "text": "zk = (1 − αk)zk−1 + αkxk. (2.3)"
+    },
+    {
+      "line": 340,
+      "page": "6",
+      "text": "end for"
+    },
+    {
+      "line": 341,
+      "page": "6",
+      "text": "Output: Generate R according to PR(·) and output zR."
+    },
+    {
+      "line": 389,
+      "page": "7",
+      "text": "g"
+    },
+    {
+      "line": 390,
+      "page": "7",
+      "text": "k"
+    },
+    {
+      "line": 391,
+      "page": "7",
+      "text": "X ≡ gX"
+    },
+    {
+      "line": 392,
+      "page": "7",
+      "text": "(zk−1) := h∇f(zk−1), zk−1 − xˆki, where ˆxk = argmin"
+    },
+    {
+      "line": 393,
+      "page": "7",
+      "text": "u∈X"
+    },
+    {
+      "line": 394,
+      "page": "7",
+      "text": "h∇f(zk−1), ui, (2.5)"
+    },
+    {
+      "line": 407,
+      "page": "7",
+      "text": "Theorem 2.1 Let {zk}k≥0 be generated by Algorithm 1 and Assumptions 1, 2, and 3 hold."
+    },
+    {
+      "line": 408,
+      "page": "7",
+      "text": "1. Let f be nonconvex, bounded from below by f"
+    },
+    {
+      "line": 426,
+      "page": "7",
+      "text": "E[g"
+    },
+    {
+      "line": 427,
+      "page": "7",
+      "text": "R"
+    },
+    {
+      "line": 428,
+      "page": "7",
+      "text": "X"
+    },
+    {
+      "line": 429,
+      "page": "7",
+      "text": "] ≤"
+    },
+    {
+      "line": 438,
+      "page": "7",
+      "text": "where R is uniformly distributed over {1, . . . , N} and gk is defined in (2.5). Hence, the total"
+    },
+    {
+      "line": 1134,
+      "page": "13",
+      "text": "Algorithm 4 Zeroth-order Stochastic Gradient Method with Inexact Updates"
+    }
+  ],
+  "1810.03233v3": [
+    {
+      "line": 0,
+      "page": "0",
+      "text": "Towards Gradient Free and Projection Free Stochastic Optimization"
+    },
+    {
+      "line": 1,
+      "page": "0",
+      "text": "Anit Kumar Sahu Manzil Zaheer Soummya Kar"
+    },
+    {
+      "line": 2,
+      "page": "0",
+      "text": "Carnegie Mellon University Google AI Carnegie Mellon University"
+    },
+    {
+      "line": 3,
+      "page": "0",
+      "text": "Abstract"
+    },
+    {
+      "line": 4,
+      "page": "0",
+      "text": "This paper focuses on the problem of con\u0002strained stochastic optimization. A zeroth"
+    },
+    {
+      "line": 5,
+      "page": "0",
+      "text": "order Frank-Wolfe algorithm is proposed,"
+    },
+    {
+      "line": 6,
+      "page": "0",
+      "text": "which in addition to the projection-free na\u0002ture of the vanilla Frank-Wolfe algorithm"
+    },
+    {
+      "line": 7,
+      "page": "0",
+      "text": "makes it gradient free. Under convexity and"
+    },
+    {
+      "line": 8,
+      "page": "0",
+      "text": "smoothness assumption, we show that the"
+    },
+    {
+      "line": 9,
+      "page": "0",
+      "text": "proposed algorithm converges to the opti\u0002mal objective function at a rate O"
+    },
+    {
+      "line": 10,
+      "page": "0",
+      "text": ""
+    },
+    {
+      "line": 188,
+      "page": "2",
+      "text": "Ey∼P [F (x; y)] , (2)"
+    },
+    {
+      "line": 189,
+      "page": "2",
+      "text": "where C ∈ R"
+    },
+    {
+      "line": 190,
+      "page": "2",
+      "text": "d"
+    },
+    {
+      "line": 191,
+      "page": "2",
+      "text": "is a closed convex set, the loss functions"
+    },
+    {
+      "line": 192,
+      "page": "2",
+      "text": "and the expected loss functions, F (·; y) and f(·) re\u0002spectively are possibly non-convex. However, in the"
+    },
+    {
+      "line": 193,
+      "page": "2",
+      "text": "context of the optimization problem posed in (2), we"
+    },
+    {
+      "line": 194,
+      "page": "2",
+      "text": "assume that we have access to a stochastic zeroth or\u0002der oracle (SZO). On querying a SZO at the iterate"
+    },
+    {
+      "line": 195,
+      "page": "2",
+      "text": "xt, yields an unbiased estimate of the loss function"
+    },
+    {
+      "line": 196,
+      "page": "2",
+      "text": "f(·) in the form of F (xt; yt). Before proceeding to the"
+    },
+    {
+      "line": 265,
+      "page": "3",
+      "text": "Assumption A3. The expected function f(·) is con\u0002vex. Moreover, its gradient ∇f is L-Lipschitz contin\u0002uous over the set C, i.e., for all x, y ∈ C"
+    },
+    {
+      "line": 285,
+      "page": "3",
+      "text": "Assumption A5. The unbiased gradient estimates,"
+    },
+    {
+      "line": 286,
+      "page": "3",
+      "text": "∇F (x; y) of ∇f(x), i.e., Ey∼P [∇F (x; y)] = ∇f(x)"
+    },
+    {
+      "line": 287,
+      "page": "3",
+      "text": "satisfy"
+    },
+    {
+      "line": 288,
+      "page": "3",
+      "text": "E"
+    },
+    {
+      "line": 289,
+      "page": "3",
+      "text": "h"
+    },
+    {
+      "line": 290,
+      "page": "3",
+      "text": "k∇F (x, y) − ∇f(x)k"
+    },
+    {
+      "line": 291,
+      "page": "3",
+      "text": "2"
+    },
+    {
+      "line": 292,
+      "page": "3",
+      "text": "i"
+    },
+    {
+      "line": 293,
+      "page": "3",
+      "text": "≤ σ"
+    },
+    {
+      "line": 294,
+      "page": "3",
+      "text": "2"
+    },
+    {
+      "line": 295,
+      "page": "3",
+      "text": "(7)"
+    },
+    {
+      "line": 448,
+      "page": "4",
+      "text": "xt+1 = (1 − γt+1) xt + γt+1vt. (13)"
+    },
+    {
+      "line": 753,
+      "page": "5",
+      "text": "3.2.1 Main Results: Convex Case"
+    },
+    {
+      "line": 762,
+      "page": "5",
+      "text": "Theorem 3.4. Let Assumptions A1-A5 hold. Let the"
+    },
+    {
+      "line": 824,
+      "page": "5",
+      "text": "Dual Gap: We state the main results involving"
+    },
+    {
+      "line": 825,
+      "page": "5",
+      "text": "the different gradient approximation schemes for the"
+    },
+    {
+      "line": 826,
+      "page": "5",
+      "text": "dual gap, which provide a characterization of G (x) ="
+    },
+    {
+      "line": 827,
+      "page": "5",
+      "text": "maxv∈Ch∇F(x), x − vi."
+    },
+    {
+      "line": 828,
+      "page": "5",
+      "text": "Theorem 3.5. Let Assumptions A1-A5 hold. Let the"
+    },
+    {
+      "line": 978,
+      "page": "6",
+      "text": "3.2.2 Zeroth-Order Frank-Wolfe Non-Convex"
+    },
+    {
+      "line": 981,
+      "page": "6",
+      "text": "Algorithm 3 Stochastic Gradient Free Frank-Wolfe"
+    },
+    {
+      "line": 992,
+      "page": "6",
+      "text": "(t+8)2/3"
+    },
+    {
+      "line": 998,
+      "page": "6",
+      "text": "Output: xT ."
+    },
+    {
+      "line": 999,
+      "page": "6",
+      "text": "1: Initialize x0 ∈ C"
+    },
+    {
+      "line": 1000,
+      "page": "6",
+      "text": "2: for t = 0, 1, . . . , T − 1 do"
+    },
+    {
+      "line": 1001,
+      "page": "6",
+      "text": "3: Compute"
+    },
+    {
+      "line": 1002,
+      "page": "6",
+      "text": "Sample {zi,t}"
+    },
+    {
+      "line": 1003,
+      "page": "6",
+      "text": "m"
+    },
+    {
+      "line": 1004,
+      "page": "6",
+      "text": "i=1 ∼ N (0, Id), g(xt; y, zt) ="
+    },
+    {
+      "line": 1005,
+      "page": "6",
+      "text": "1"
+    },
+    {
+      "line": 1006,
+      "page": "6",
+      "text": "m"
+    },
+    {
+      "line": 1007,
+      "page": "6",
+      "text": "Pm"
+    },
+    {
+      "line": 1008,
+      "page": "6",
+      "text": "i=1"
+    },
+    {
+      "line": 1009,
+      "page": "6",
+      "text": "F (xt+ctzi,t;y)−F (xt;y)"
+    },
+    {
+      "line": 1010,
+      "page": "6",
+      "text": "ct"
+    },
+    {
+      "line": 1011,
+      "page": "6",
+      "text": "zi,t"
+    },
+    {
+      "line": 1012,
+      "page": "6",
+      "text": "4: Compute dt = (1 − ρt) dt−1 + ρtg (xt, y)"
+    },
+    {
+      "line": 1013,
+      "page": "6",
+      "text": "5: Compute vt = argmins∈Chs, dt)i,"
+    },
+    {
+      "line": 1014,
+      "page": "6",
+      "text": "6: Compute xt+1 = (1 − γ) xt + γvt."
+    },
+    {
+      "line": 1015,
+      "page": "6",
+      "text": "7: end for"
+    },
+    {
+      "line": 1016,
+      "page": "6",
+      "text": "We use the following assumption concerning the"
+    },
+    {
+      "line": 1017,
+      "page": "6",
+      "text": "smoothness of the non-convex loss function."
+    },
+    {
+      "line": 1018,
+      "page": "6",
+      "text": "Assumption A6. The gradients ∇f are L-Lipschitz"
+    },
+    {
+      "line": 1019,
+      "page": "6",
+      "text": "continuous over the set C, i.e., for all x, y ∈ C"
+    },
+    {
+      "line": 1020,
+      "page": "6",
+      "text": "k∇f(x) − ∇f(y)k ≤ Lkx − yk ."
+    },
+    {
+      "line": 1021,
+      "page": "6",
+      "text": "Theorem 3.6. Let Assumptions A4-A6 hold. Then,"
+    },
+    {
+      "line": 1022,
+      "page": "6",
+      "text": "we have the following dual gap for iterations t ="
+    },
+    {
+      "line": 1023,
+      "page": "6",
+      "text": "0, 1, · · · , T − 1 for the algorithm as described in (13)"
+    },
+    {
+      "line": 1024,
+      "page": "6",
+      "text": "E"
+    },
+    {
+      "line": 1025,
+      "page": "6",
+      "text": "\u0014"
+    },
+    {
+      "line": 1026,
+      "page": "6",
+      "text": "min"
+    },
+    {
+      "line": 1027,
+      "page": "6",
+      "text": "t=0,··· ,T −1"
+    },
+    {
+      "line": 1028,
+      "page": "6",
+      "text": "G (xt)"
+    },
+    {
+      "line": 1029,
+      "page": "6",
+      "text": "\u0015"
+    },
+    {
+      "line": 1030,
+      "page": "6",
+      "text": "≤"
+    },
+    {
+      "line": 3689,
+      "page": "19",
+      "text": "Lemma E.1. Let Assumptions A3-A6 hold. Given the recursion in (12), we have that k∇f(xt) − dtk"
+    },
+    {
+      "line": 3777,
+      "page": "20",
+      "text": "(t + 8)1/2"
+    }
+  ],
+  "1811.10828v2": [
+    {
+      "line": 0,
+      "page": "0",
+      "text": "A Frank-Wolfe Framework for Efficient and Effective"
+    },
+    {
+      "line": 1,
+      "page": "0",
+      "text": "Adversarial Attacks"
+    },
+    {
+      "line": 2,
+      "page": "0",
+      "text": "Jinghui Chen∗ and Dongruo Zhou† and Jinfeng Yi‡ and Quanquan Gu§"
+    },
+    {
+      "line": 3,
+      "page": "0",
+      "text": "Abstract"
+    },
+    {
+      "line": 4,
+      "page": "0",
+      "text": "Depending on how much information an adversary can access to, adversarial attacks can be"
+    },
+    {
+      "line": 5,
+      "page": "0",
+      "text": "classified as white-box attack and black-box attack. For white-box attack, optimization-based"
+    },
+    {
+      "line": 6,
+      "page": "0",
+      "text": "attack algorithms such as projected gradient descent (PGD) can achieve relatively high attack"
+    },
+    {
+      "line": 7,
+      "page": "0",
+      "text": "success rates within moderate iterates. However, they tend to generate adversarial examples"
+    },
+    {
+      "line": 8,
+      "page": "0",
+      "text": "near or upon the boundary of the perturbation set, resulting in large distortion. Furthermore,"
+    },
+    {
+      "line": 9,
+      "page": "0",
+      "text": "their corresponding black-box attack algorithms also suffer from high query complexities, thereby"
+    },
+    {
+      "line": 10,
+      "page": "0",
+      "text": "limiting their practical usefulness. In this paper, we focus on the problem of developing efficient"
+    },
+    {
+      "line": 162,
+      "page": "3",
+      "text": "To be more specific, let us define `(x, y) as the classification loss function of the targeted DNN with"
+    },
+    {
+      "line": 163,
+      "page": "3",
+      "text": "an input x ∈ R"
+    },
+    {
+      "line": 164,
+      "page": "3",
+      "text": "d and a corresponding label y. For targeted attacks, we aim to minimize `(x, ytar) to"
+    },
+    {
+      "line": 165,
+      "page": "3",
+      "text": "learn an adversarial example that will be misclassified to the target class ytar. In the rest of this"
+    },
+    {
+      "line": 166,
+      "page": "3",
+      "text": "paper, let f(x) = `(x, ytar) be the attack loss function for simplicity, and the corresponding targeted"
+    },
+    {
+      "line": 167,
+      "page": "3-4",
+      "text": "4attack problem2"
+    },
+    {
+      "line": 168,
+      "page": "4",
+      "text": "can be formulated as the following optimization problem:"
+    },
+    {
+      "line": 169,
+      "page": "4",
+      "text": "minx f(x)"
+    },
+    {
+      "line": 170,
+      "page": "4",
+      "text": "subject to kx − xorikp ≤ \u000f. (3.1)"
+    },
+    {
+      "line": 210,
+      "page": "5",
+      "text": "4: mt = β · mt−1 + (1 − β) · ∇f(xt)"
+    },
+    {
+      "line": 245,
+      "page": "5-6",
+      "text": "6Algorithm 2 Frank-Wolfe Black-box Attack Algorithm"
+    },
+    {
+      "line": 250,
+      "page": "6",
+      "text": "4: qt = GRAD EST(xt, b, δ) // Alg 3"
+    },
+    {
+      "line": 266,
+      "page": "6",
+      "text": "Algorithm 3 GRAD EST(x, b, δ)"
+    },
+    {
+      "line": 267,
+      "page": "6",
+      "text": "1: q = 0"
+    },
+    {
+      "line": 268,
+      "page": "6",
+      "text": "2: for i = 1, . . . , b do"
+    },
+    {
+      "line": 269,
+      "page": "6",
+      "text": "3: option I: Sample ui uniformly from the Euclidean unit sphere with kuik2 = 1"
+    },
+    {
+      "line": 270,
+      "page": "6",
+      "text": "q = q +"
+    },
+    {
+      "line": 271,
+      "page": "6",
+      "text": "d"
+    },
+    {
+      "line": 272,
+      "page": "6",
+      "text": "2δb"
+    },
+    {
+      "line": 273,
+      "page": "6",
+      "text": "f(x + δui) − f(x − δui)"
+    },
+    {
+      "line": 274,
+      "page": "6",
+      "text": "\u0001"
+    },
+    {
+      "line": 275,
+      "page": "6",
+      "text": "ui"
+    },
+    {
+      "line": 276,
+      "page": "6",
+      "text": "4: option II: Sample ui uniformly from the standard Gaussian distribution N(0, I)"
+    },
+    {
+      "line": 277,
+      "page": "6",
+      "text": "q = q +"
+    },
+    {
+      "line": 278,
+      "page": "6",
+      "text": "1"
+    },
+    {
+      "line": 279,
+      "page": "6",
+      "text": "2δb"
+    },
+    {
+      "line": 280,
+      "page": "6",
+      "text": "f(x + δui) − f(x − δui)"
+    },
+    {
+      "line": 281,
+      "page": "6",
+      "text": "\u0001"
+    },
+    {
+      "line": 282,
+      "page": "6",
+      "text": "ui"
+    },
+    {
+      "line": 283,
+      "page": "6",
+      "text": "5: end for"
+    },
+    {
+      "line": 284,
+      "page": "6",
+      "text": "6: return q"
+    },
+    {
+      "line": 294,
+      "page": "7",
+      "text": "g(xt) = max"
+    },
+    {
+      "line": 295,
+      "page": "7",
+      "text": "x∈X"
+    },
+    {
+      "line": 296,
+      "page": "7",
+      "text": "hx − xt, −∇f(xt)i."
+    },
+    {
+      "line": 336,
+      "page": "7-8",
+      "text": "8Theorem 4.4. Under Assumptions 4.1 and 4.2, let γt = γ ="
+    },
+    {
+      "line": 339,
+      "page": "8",
+      "text": "output of Algorithm 1 satisfies"
+    },
+    {
+      "line": 394,
+      "page": "8",
+      "text": "Now we are going to present the theorem, which characterizes the convergence rate of Algorithm"
+    },
+    {
+      "line": 395,
+      "page": "8",
+      "text": "2."
+    },
+    {
+      "line": 396,
+      "page": "8",
+      "text": "Theorem 4.8. Under Assumptions 4.1, 4.2 and 4.6, let γt = γ ="
+    },
+    {
+      "line": 397,
+      "page": "8",
+      "text": "p"
+    },
+    {
+      "line": 398,
+      "page": "8",
+      "text": "(f(x0) − f(x∗))/(CβLD2T),"
+    },
+    {
+      "line": 399,
+      "page": "8",
+      "text": "b = T d and δ ="
+    },
+    {
+      "line": 400,
+      "page": "8",
+      "text": "p"
+    },
+    {
+      "line": 401,
+      "page": "8",
+      "text": "1/(T d2), the output of Algorithm 2 satisfies"
+    },
+    {
+      "line": 402,
+      "page": "8",
+      "text": "E[geT ] ≤"
+    },
+    {
+      "line": 403,
+      "page": "8",
+      "text": "D"
+    },
+    {
+      "line": 404,
+      "page": "8",
+      "text": "√"
+    },
+    {
+      "line": 405,
+      "page": "8",
+      "text": "T"
+    },
+    {
+      "line": 406,
+      "page": "8",
+      "text": "\u0010"
+    },
+    {
+      "line": 407,
+      "page": "8",
+      "text": "2"
+    },
+    {
+      "line": 408,
+      "page": "8",
+      "text": "q"
+    },
+    {
+      "line": 409,
+      "page": "8",
+      "text": "CβL(f(x0) − f(x∗)) + Cβ(L + G + LD)"
+    },
+    {
+      "line": 410,
+      "page": "8",
+      "text": "\u0011"
+    },
+    {
+      "line": 411,
+      "page": "8",
+      "text": ","
+    },
+    {
+      "line": 412,
+      "page": "8",
+      "text": "where geT = min1≤k≤T g(xk), the expectation of geT is over the randomness of the gradient estimator,"
+    },
+    {
+      "line": 413,
+      "page": "8",
+      "text": "x"
+    },
+    {
+      "line": 414,
+      "page": "8",
+      "text": "∗"
+    },
+    {
+      "line": 415,
+      "page": "8",
+      "text": "is the optimal solution to (3.1) and Cβ = (3 − β)/(1 − β)."
+    }
+  ],
+  "2006.06224v2": [
+    {
+      "line": 437,
+      "page": "3-4",
+      "text": "• ZO-SCG [41], [44]: The point updating step (11) calls forv"
+    },
+    {
+      "line": 438,
+      "page": "4",
+      "text": "a linear minimization oracle [41], zt = arg minx∈X mT"
+    },
+    {
+      "line": 439,
+      "page": "4",
+      "text": "t x, and"
+    },
+    {
+      "line": 440,
+      "page": "4",
+      "text": "forms a feasible point update through the linear combination"
+    },
+    {
+      "line": 441,
+      "page": "4",
+      "text": "xt = (1 − ηt)xt−1 + ηtzt. Similar algorithms, known as ZO"
+    },
+    {
+      "line": 442,
+      "page": "4",
+      "text": "Frank-Wolfe, were also developed in [46], [47]."
+    },
+    {
+      "line": 443,
+      "page": "4",
+      "text": "• ZO-AdaMM [45]: Different from ZO-PSGD, ZO-SMD"
+    },
+    {
+      "line": 1210,
+      "page": "10",
+      "text": "Global Optimization, vol. 56, no. 3, pp. 1247–1293, 2013."
+    },
+    {
+      "line": 1211,
+      "page": "10",
+      "text": "[6] J. Larson, M. Menickelly, and S. M. Wild, “Derivative-free optimization"
+    },
+    {
+      "line": 1212,
+      "page": "10",
+      "text": "methods,” Acta Numerica, vol. 28, pp. 287–404, May 2019."
+    },
+    {
+      "line": 1213,
+      "page": "10",
+      "text": "[7] J. A. Nelder and R. Mead, “A simplex method for function minimization,”"
+    },
+    {
+      "line": 1214,
+      "page": "10",
+      "text": "The Computer Journal, vol. 7, no. 4, pp. 308–313, 1965."
+    },
+    {
+      "line": 1215,
+      "page": "10",
+      "text": "[8] E. Fermi and N. Metropolis, “Numerical solution of a minimum"
+    },
+    {
+      "line": 1216,
+      "page": "10",
+      "text": "problem,” Technical Report LA-1492, https:// hdl.handle.net/ 2027/mdp."
+    },
+    {
+      "line": 1217,
+      "page": "10",
+      "text": "39015086487645, 1952."
+    },
+    {
+      "line": 1218,
+      "page": "10",
+      "text": "[9] V. Torczon, “On the convergence of the multidirectional search algorithm,”"
+    },
+    {
+      "line": 1219,
+      "page": "10",
+      "text": "SIAM Journal on Optimization, vol. 1, no. 1, pp. 123–145, 1991."
+    },
+    {
+      "line": 1220,
+      "page": "10",
+      "text": "[10] D. M. Bortz and C. T. Kelley, “The simplex gradient and noisy"
+    },
+    {
+      "line": 1221,
+      "page": "10",
+      "text": "optimization problems,” in Computational Methods for Optimal Design"
+    },
+    {
+      "line": 1222,
+      "page": "10",
+      "text": "and Control, pp. 77–90. Springer, 1998."
+    },
+    {
+      "line": 1223,
+      "page": "10",
+      "text": "[11] A. R. Conn, N. I. Gould, and P. L. Toint, Trust region methods, vol. 1,"
+    },
+    {
+      "line": 1224,
+      "page": "10",
+      "text": "SIAM, 2000."
+    },
+    {
+      "line": 1225,
+      "page": "10",
+      "text": "[12] A. I. F. Vaz and L. N. Vicente, “PSwarm: a hybrid solver for linearly"
+    },
+    {
+      "line": 1226,
+      "page": "10",
+      "text": "constrained global derivative-free optimization,” Optimization Methods"
+    },
+    {
+      "line": 1227,
+      "page": "10",
+      "text": "& Software, vol. 24, no. 4-5, pp. 669–685, 2009."
+    },
+    {
+      "line": 1228,
+      "page": "10",
+      "text": "[13] D. E. Goldberg and J. H. Holland, “Genetic algorithms and machine"
+    },
+    {
+      "line": 1229,
+      "page": "10",
+      "text": "learning,” Machine Learning, vol. 3, no. 2-3, pp. 95–99, 1988."
+    },
+    {
+      "line": 1230,
+      "page": "10",
+      "text": "[14] B. Shahriari, K. Swersky, Z. Wang, R. P. Adams, and N. De Freitas,"
+    },
+    {
+      "line": 1231,
+      "page": "10",
+      "text": "“Taking the human out of the loop: A review of bayesian optimization,”"
+    },
+    {
+      "line": 1232,
+      "page": "10",
+      "text": "Proceedings of the IEEE, vol. 104, no. 1, pp. 148–175, 2016."
+    },
+    {
+      "line": 1233,
+      "page": "10",
+      "text": "[15] M. J. D. Powell, “A direct search optimization method that models the"
+    },
+    {
+      "line": 1234,
+      "page": "10",
+      "text": "objective and constraint functions by linear interpolation,” in Advances"
+    },
+    {
+      "line": 1235,
+      "page": "10",
+      "text": "in optimization and numerical analysis, pp. 51–67. Springer, 1994."
+    },
+    {
+      "line": 1236,
+      "page": "10",
+      "text": "[16] E. Jones, T. Oliphant, P. Peterson, et al., “SciPy: Open source scientific"
+    },
+    {
+      "line": 1237,
+      "page": "10",
+      "text": "tools for Python,” 2001."
+    },
+    {
+      "line": 1238,
+      "page": "10",
+      "text": "[17] J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and F.-F. Li, “Imagenet:"
+    },
+    {
+      "line": 1239,
+      "page": "10",
+      "text": "A large-scale hierarchical image database,” in IEEE CVPR, 2009, pp."
+    },
+    {
+      "line": 1240,
+      "page": "10",
+      "text": "248–255."
+    },
+    {
+      "line": 1241,
+      "page": "10",
+      "text": "[18] S. Ghadimi and G. Lan, “Stochastic first-and zeroth-order methods for"
+    },
+    {
+      "line": 1242,
+      "page": "10",
+      "text": "nonconvex stochastic programming,” SIAM Journal on Optimization, vol."
+    },
+    {
+      "line": 1243,
+      "page": "10",
+      "text": "23, no. 4, pp. 2341–2368, 2013."
+    },
+    {
+      "line": 1244,
+      "page": "10",
+      "text": "[19] Y. Nesterov and V. Spokoiny, “Random gradient-free minimization of"
+    },
+    {
+      "line": 1245,
+      "page": "10",
+      "text": "convex functions,” Foundations of Computational Mathematics, vol. 2,"
+    },
+    {
+      "line": 1246,
+      "page": "10",
+      "text": "no. 17, pp. 527–566, 2015."
+    },
+    {
+      "line": 1247,
+      "page": "10",
+      "text": "[20] A. D. Flaxman, A. T. Kalai, and H. B. McMahan, “Online convex"
+    },
+    {
+      "line": 1248,
+      "page": "10",
+      "text": "optimization in the bandit setting: Gradient descent without a gradient,”"
+    },
+    {
+      "line": 1249,
+      "page": "10",
+      "text": "in Proc. 16th Annual ACM-SIAM Symposium on Discrete algorithms,"
+    },
+    {
+      "line": 1250,
+      "page": "10",
+      "text": "2005, pp. 385–394."
+    },
+    {
+      "line": 1251,
+      "page": "10",
+      "text": "[21] J. C. Duchi, M. I. Jordan, M. J. Wainwright, and A. Wibisono, “Optimal"
+    },
+    {
+      "line": 1252,
+      "page": "10-11",
+      "text": "rates for zero-order convex optimization: The power of two functionxii"
+    },
+    {
+      "line": 1253,
+      "page": "11",
+      "text": "evaluations,” IEEE Trans. Inf. Theory, vol. 61, no. 5, pp. 2788–2806,"
+    },
+    {
+      "line": 1254,
+      "page": "11",
+      "text": "2015."
+    },
+    {
+      "line": 1255,
+      "page": "11",
+      "text": "[22] I. Goodfellow, J. Shlens, and C. Szegedy, “Explaining and harnessing"
+    },
+    {
+      "line": 1256,
+      "page": "11",
+      "text": "adversarial examples,” ICLR, 2015."
+    },
+    {
+      "line": 1257,
+      "page": "11",
+      "text": "[23] P.-Y. Chen, H. Zhang, Y. Sharma, J. Yi, and C.-J. Hsieh, “Zoo: Zeroth"
+    },
+    {
+      "line": 1258,
+      "page": "11",
+      "text": "order optimization based black-box attacks to deep neural networks"
+    },
+    {
+      "line": 1259,
+      "page": "11",
+      "text": "without training substitute models,” in Proc. 10th ACM Workshop on"
+    },
+    {
+      "line": 1260,
+      "page": "11",
+      "text": "Artificial Intelligence and Security, 2017, pp. 15–26."
+    },
+    {
+      "line": 1261,
+      "page": "11",
+      "text": "[24] A. Ilyas, K. Engstrom, A. Athalye, and J. Lin, “Black-box adversarial"
+    },
+    {
+      "line": 1262,
+      "page": "11",
+      "text": "attacks with limited queries and information,” in ICML, July 2018."
+    },
+    {
+      "line": 1263,
+      "page": "11",
+      "text": "[25] A. Dhurandhar, T. Pedapati, A. Balakrishnan, et al., “Model ag\u0002nostic contrastive explanations for structured data,” arXiv preprint"
+    },
+    {
+      "line": 1264,
+      "page": "11",
+      "text": "arXiv:1906.00117, 2019."
+    },
+    {
+      "line": 1265,
+      "page": "11",
+      "text": "[26] S. Liu, P. Ram, D. Vijaykeerthy, et al., “An ADMM based framework"
+    },
+    {
+      "line": 1266,
+      "page": "11",
+      "text": "for AutoML pipeline configuration,” AAAI, 2019."
+    },
+    {
+      "line": 1267,
+      "page": "11",
+      "text": "[27] S. Liu, J. Chen, P.-Y. Chen, and A. O. Hero, “Zeroth-order online"
+    },
+    {
+      "line": 1268,
+      "page": "11",
+      "text": "ADMM: Convergence analysis and applications,” in AISTATS, 2018,"
+    },
+    {
+      "line": 1269,
+      "page": "11",
+      "text": "vol. 84, pp. 288–297."
+    },
+    {
+      "line": 1270,
+      "page": "11",
+      "text": "[28] S.-M. Moosavi-Dezfooli, A. Fawzi, J. Uesato, and P. Frossard, “Robust\u0002ness via curvature regularization, and vice versa,” in IEEE CVPR, 2019,"
+    },
+    {
+      "line": 1271,
+      "page": "11",
+      "text": "pp. 9078–9086."
+    },
+    {
+      "line": 1272,
+      "page": "11",
+      "text": "[29] X. Song, W. Gao, Y. Yang, K. Choromanski, A. Pacchiano, and Y. Tang,"
+    },
+    {
+      "line": 1273,
+      "page": "11",
+      "text": "“Es-maml: Simple hessian-free meta learning,” in ICLR, 2020."
+    },
+    {
+      "line": 1274,
+      "page": "11",
+      "text": "[30] Y.-Y. Tsai, P.-Y. Chen, and T.-Y. Ho, “Transfer learning without knowing:"
+    },
+    {
+      "line": 1275,
+      "page": "11",
+      "text": "Reprogramming black-box machine learning models with scarce data"
+    },
+    {
+      "line": 1276,
+      "page": "11",
+      "text": "and limited resources,” ICML, 2020."
+    },
+    {
+      "line": 1277,
+      "page": "11",
+      "text": "[31] A. S. Berahas, L. Cao, K. Choromanski, and K. Scheinberg, “A theoretical"
+    },
+    {
+      "line": 1278,
+      "page": "11",
+      "text": "and empirical comparison of gradient approximations in derivative-free"
+    },
+    {
+      "line": 1279,
+      "page": "11",
+      "text": "optimization,” arXiv preprint arXiv:1905.01332, 2019."
+    },
+    {
+      "line": 1280,
+      "page": "11",
+      "text": "[32] S. Liu, B. Kailkhura, P.-Y. Chen, P. Ting, S. Chang, and L. Amini,"
+    },
+    {
+      "line": 1281,
+      "page": "11",
+      "text": "“Zeroth-order stochastic variance reduction for nonconvex optimization,”"
+    },
+    {
+      "line": 1282,
+      "page": "11",
+      "text": "NeurIPS, 2018."
+    },
+    {
+      "line": 1283,
+      "page": "11",
+      "text": "[33] J. C. Spall et al., “Multivariate stochastic approximation using a"
+    },
+    {
+      "line": 1284,
+      "page": "11",
+      "text": "simultaneous perturbation gradient approximation,” IEEE transactions"
+    },
+    {
+      "line": 1285,
+      "page": "11",
+      "text": "on automatic control, vol. 37, no. 3, pp. 332–341, 1992."
+    },
+    {
+      "line": 1286,
+      "page": "11",
+      "text": "[34] X. Lian, H. Zhang, C.-J. Hsieh, Y. Huang, and J. Liu, “A comprehensive"
+    },
+    {
+      "line": 1287,
+      "page": "11",
+      "text": "linear speedup analysis for asynchronous stochastic parallel optimization"
+    },
+    {
+      "line": 1288,
+      "page": "11",
+      "text": "from zeroth-order to first-order,” in NeurIPS, 2016, pp. 3054–3062."
+    },
+    {
+      "line": 1289,
+      "page": "11",
+      "text": "[35] O. Shamir, “An optimal algorithm for bandit and zero-order convex"
+    },
+    {
+      "line": 1290,
+      "page": "11",
+      "text": "optimization with two-point feedback,” JMLR, vol. 18, no. 52, pp. 1–11,"
+    },
+    {
+      "line": 1291,
+      "page": "11",
+      "text": "2017."
+    },
+    {
+      "line": 1292,
+      "page": "11",
+      "text": "[36] S. Liu, P.-Y. Chen, X. Chen, and M. Hong, “signSGD via zeroth-order"
+    },
+    {
+      "line": 1293,
+      "page": "11",
+      "text": "oracle,” in ICLR, 2019."
+    },
+    {
+      "line": 1294,
+      "page": "11",
+      "text": "[37] B. Gu, Z. Huo, and H. Huang, “Zeroth-order asynchronous dou\u0002bly stochastic algorithm with variance reduction,” arXiv preprint"
+    },
+    {
+      "line": 1295,
+      "page": "11",
+      "text": "arXiv:1612.01425, 2016."
+    },
+    {
+      "line": 1296,
+      "page": "11",
+      "text": "[38] L. Liu, M. Cheng, C.-J. Hsieh, and D. Tao, “Stochastic zeroth\u0002order optimization via variance reduction method,” arXiv preprint"
+    },
+    {
+      "line": 1297,
+      "page": "11",
+      "text": "arXiv:1805.11811, 2018."
+    },
+    {
+      "line": 1298,
+      "page": "11",
+      "text": "[39] K. Ji, Z. Wang, Y. Zhou, and Y. Liang, “Improved zeroth-order variance"
+    },
+    {
+      "line": 1299,
+      "page": "11",
+      "text": "reduced algorithms and analysis for nonconvex optimization,” in ICML,"
+    },
+    {
+      "line": 1300,
+      "page": "11",
+      "text": "2019, vol. 97, pp. 3100–3109."
+    },
+    {
+      "line": 1301,
+      "page": "11",
+      "text": "[40] H. Ye, Z. Huang, C. Fang, C. J. Li, and T. Zhang, “Hessian-aware zeroth\u0002order optimization for black-box adversarial attack,” arXiv preprint"
+    },
+    {
+      "line": 1302,
+      "page": "11",
+      "text": "arXiv:1812.11377, 2018."
+    },
+    {
+      "line": 1303,
+      "page": "11",
+      "text": "[41] K. Balasubramanian and S. Ghadimi, “Zeroth-order nonconvex stochastic"
+    },
+    {
+      "line": 1304,
+      "page": "11",
+      "text": "optimization: Handling constraints, high-dimensionality, and saddle\u0002points,” arXiv preprint arXiv:1809.06474, pp. 651–676, 2019."
+    },
+    {
+      "line": 1305,
+      "page": "11",
+      "text": "[42] M. Cheng, S. Singh, P.-Y. Chen, S. Liu, and C.-J. Hsieh, “Sign-OPT: A"
+    },
+    {
+      "line": 1306,
+      "page": "11",
+      "text": "query-efficient hard-label adversarial attack,” ICLR, 2020."
+    },
+    {
+      "line": 1307,
+      "page": "11",
+      "text": "[43] S. Ghadimi, G. Lan, and H. Zhang, “Mini-batch stochastic approximation"
+    },
+    {
+      "line": 1308,
+      "page": "11",
+      "text": "methods for nonconvex stochastic composite optimization,” Mathematical"
+    },
+    {
+      "line": 1309,
+      "page": "11",
+      "text": "Programming, vol. 155, no. 1-2, pp. 267–305, 2016."
+    },
+    {
+      "line": 1310,
+      "page": "11",
+      "text": "[44] K. Balasubramanian and S. Ghadimi, “Zeroth-order (non)-convex"
+    },
+    {
+      "line": 1311,
+      "page": "11",
+      "text": "stochastic optimization via conditional gradient and gradient updates,”"
+    },
+    {
+      "line": 1312,
+      "page": "11",
+      "text": "in NeurIPS, 2018, pp. 3455–3464."
+    },
+    {
+      "line": 1313,
+      "page": "11",
+      "text": "[45] X. Chen, S. Liu, K. Xu, X. Li, X. Lin, M. Hong, and D. Cox,"
+    },
+    {
+      "line": 1314,
+      "page": "11",
+      "text": "“ZO-AdaMM: Zeroth-order adaptive momentum method for black-box"
+    },
+    {
+      "line": 1315,
+      "page": "11",
+      "text": "optimization,” in NeurIPS, 2019, pp. 7202–7213."
+    },
+    {
+      "line": 1316,
+      "page": "11",
+      "text": "[46] J. Chen, J. Yi, and Q. Gu, “A Frank-Wolfe framework for efficient and"
+    },
+    {
+      "line": 1317,
+      "page": "11",
+      "text": "effective adversarial attacks,” in AAAI, 2020."
+    },
+    {
+      "line": 1318,
+      "page": "11",
+      "text": "[47] A. K. Sahu, M. Zaheer, and S. Kar, “Towards gradient free and projection"
+    },
+    {
+      "line": 1319,
+      "page": "11",
+      "text": "free stochastic optimization,” AISTATS, 2019."
+    },
+    {
+      "line": 1320,
+      "page": "11",
+      "text": "[48] X. Chen, S. Liu, R. Sun, and M. Hong, “On the convergence of a class"
+    },
+    {
+      "line": 1321,
+      "page": "11",
+      "text": "of adam-type algorithms for non-convex optimization,” in ICLR, 2019."
+    },
+    {
+      "line": 1322,
+      "page": "11",
+      "text": "[49] P. Zhao, S. Liu, P.-Y. Chen, N. Hoang, K. Xu, B. Kailkhura, and X. Lin,"
+    },
+    {
+      "line": 1323,
+      "page": "11",
+      "text": "“On the design of black-box adversarial examples by leveraging gradient\u0002free optimization and operator splitting method,” in ICCV, 2019."
+    },
+    {
+      "line": 1324,
+      "page": "11",
+      "text": "[50] X. Gao, B. Jiang, and S. Zhang, “On the information-adaptive variants of"
+    },
+    {
+      "line": 1325,
+      "page": "11",
+      "text": "the ADMM: an iteration complexity perspective,” Optimization Online,"
+    },
+    {
+      "line": 1326,
+      "page": "11",
+      "text": "vol. 12, 2014."
+    },
+    {
+      "line": 1327,
+      "page": "11",
+      "text": "[51] F. Huang, S. Gao, S. Chen, and H. Huang, “Zeroth-order stochastic"
+    }
+  ]
+}

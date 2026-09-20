@@ -1,0 +1,1702 @@
+[
+  {
+    "event_id": "history-967196",
+    "html_line": 1058,
+    "timestamp": "2024-01-26 04:33:13 -0800",
+    "date": "2024-01-26",
+    "revision": "13",
+    "actor": "Gunter Van de Velde",
+    "category": "other_event",
+    "action": "Request closed, assignment withdrawn: Jon Mitchell Last Call OPSDIR review"
+  },
+  {
+    "event_id": "history-967195",
+    "html_line": 1067,
+    "timestamp": "2024-01-26 04:33:13 -0800",
+    "date": "2024-01-26",
+    "revision": "13",
+    "actor": "Gunter Van de Velde",
+    "category": "other_event",
+    "action": "Closed request for Last Call review by OPSDIR with state 'Overtaken by Events': Cleaning up stale OPSDIR queue"
+  },
+  {
+    "event_id": "history-848980",
+    "html_line": 1076,
+    "timestamp": "2022-03-04 17:19:21 -0800",
+    "date": "2022-03-04",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "RFC Editor state changed to AUTH48-DONE from AUTH48"
+  },
+  {
+    "event_id": "history-820038",
+    "html_line": 1085,
+    "timestamp": "2021-08-05 14:26:33 -0700",
+    "date": "2021-08-05",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "RFC Editor state changed to AUTH48"
+  },
+  {
+    "event_id": "history-816261",
+    "html_line": 1094,
+    "timestamp": "2021-07-15 11:35:07 -0700",
+    "date": "2021-07-15",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "RFC Editor state changed to RFC-EDITOR from EDIT"
+  },
+  {
+    "event_id": "history-812744",
+    "html_line": 1103,
+    "timestamp": "2021-06-28 14:36:46 -0700",
+    "date": "2021-06-28",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "iana_administrative_state",
+    "action": "IANA Action state changed to RFC-Ed-Ack from Waiting on RFC Editor"
+  },
+  {
+    "event_id": "history-812502",
+    "html_line": 1112,
+    "timestamp": "2021-06-25 09:14:00 -0700",
+    "date": "2021-06-25",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "iana_administrative_state",
+    "action": "IANA Action state changed to Waiting on RFC Editor from In Progress"
+  },
+  {
+    "event_id": "history-812499",
+    "html_line": 1121,
+    "timestamp": "2021-06-25 08:36:18 -0700",
+    "date": "2021-06-25",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "iana_administrative_state",
+    "action": "IANA Action state changed to In Progress from Waiting on Authors"
+  },
+  {
+    "event_id": "history-812436",
+    "html_line": 1130,
+    "timestamp": "2021-06-24 15:31:18 -0700",
+    "date": "2021-06-24",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "iana_administrative_state",
+    "action": "IANA Action state changed to Waiting on Authors from In Progress"
+  },
+  {
+    "event_id": "history-812166",
+    "html_line": 1139,
+    "timestamp": "2021-06-22 16:16:47 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "RFC Editor state changed to EDIT"
+  },
+  {
+    "event_id": "history-812165",
+    "html_line": 1148,
+    "timestamp": "2021-06-22 16:16:47 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "IESG state changed to RFC Ed Queue from Approved-announcement sent"
+  },
+  {
+    "event_id": "history-812164",
+    "html_line": 1157,
+    "timestamp": "2021-06-22 16:16:46 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Announcement was received by RFC Editor"
+  },
+  {
+    "event_id": "history-812158",
+    "html_line": 1166,
+    "timestamp": "2021-06-22 15:43:49 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "iana_administrative_state",
+    "action": "IANA Action state changed to In Progress"
+  },
+  {
+    "event_id": "history-812146",
+    "html_line": 1175,
+    "timestamp": "2021-06-22 15:02:28 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Removed all action holders (IESG state changed)"
+  },
+  {
+    "event_id": "history-812145",
+    "html_line": 1184,
+    "timestamp": "2021-06-22 15:02:28 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "Cindy Morgan",
+    "category": "other_event",
+    "action": "IESG state changed to Approved-announcement sent from Approved-announcement to be sent"
+  },
+  {
+    "event_id": "history-812144",
+    "html_line": 1193,
+    "timestamp": "2021-06-22 15:02:27 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "Cindy Morgan",
+    "category": "other_event",
+    "action": "IESG has approved the document"
+  },
+  {
+    "event_id": "history-812143",
+    "html_line": 1202,
+    "timestamp": "2021-06-22 15:02:27 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "Cindy Morgan",
+    "category": "other_event",
+    "action": "Closed \"Approve\" ballot"
+  },
+  {
+    "event_id": "history-812142",
+    "html_line": 1211,
+    "timestamp": "2021-06-22 15:01:34 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "Cindy Morgan",
+    "category": "other_event",
+    "action": "Ballot approval text was generated"
+  },
+  {
+    "event_id": "history-812141",
+    "html_line": 1220,
+    "timestamp": "2021-06-22 14:42:12 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "IESG state changed to Approved-announcement to be sent from Approved-announcement to be sent::AD Followup"
+  },
+  {
+    "event_id": "history-812133",
+    "html_line": 1229,
+    "timestamp": "2021-06-22 14:22:11 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "Thomas Fossati",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-13.txt"
+  },
+  {
+    "event_id": "history-812132",
+    "html_line": 1238,
+    "timestamp": "2021-06-22 14:22:11 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-812131",
+    "html_line": 1247,
+    "timestamp": "2021-06-22 14:20:47 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Achim Kraus , Eric Rescorla , Hannes Tschofenig , Thomas Fossati"
+  },
+  {
+    "event_id": "history-812130",
+    "html_line": 1256,
+    "timestamp": "2021-06-22 14:20:47 -0700",
+    "date": "2021-06-22",
+    "revision": "13",
+    "actor": "Thomas Fossati",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-806432",
+    "html_line": 1265,
+    "timestamp": "2021-05-11 03:24:02 -0700",
+    "date": "2021-05-11",
+    "revision": "12",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Sub state has been changed to AD Followup from Revised ID Needed"
+  },
+  {
+    "event_id": "history-806431",
+    "html_line": 1274,
+    "timestamp": "2021-05-11 03:24:00 -0700",
+    "date": "2021-05-11",
+    "revision": "12",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-12.txt"
+  },
+  {
+    "event_id": "history-806430",
+    "html_line": 1283,
+    "timestamp": "2021-05-11 03:24:00 -0700",
+    "date": "2021-05-11",
+    "revision": "12",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-806429",
+    "html_line": 1292,
+    "timestamp": "2021-05-11 03:15:55 -0700",
+    "date": "2021-05-11",
+    "revision": "12",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Achim Kraus , Eric Rescorla , Hannes Tschofenig , Thomas Fossati"
+  },
+  {
+    "event_id": "history-806428",
+    "html_line": 1301,
+    "timestamp": "2021-05-11 03:15:52 -0700",
+    "date": "2021-05-11",
+    "revision": "12",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-804392",
+    "html_line": 1310,
+    "timestamp": "2021-04-22 08:36:55 -0700",
+    "date": "2021-04-22",
+    "revision": "11",
+    "actor": "Daniel Franke",
+    "category": "other_event",
+    "action": "Request for Last Call review by SECDIR Completed: Ready. Reviewer: Daniel Franke. Sent review to list."
+  },
+  {
+    "event_id": "history-804363",
+    "html_line": 1319,
+    "timestamp": "2021-04-22 07:18:52 -0700",
+    "date": "2021-04-22",
+    "revision": "11",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Changed action holders to Eric Rescorla, Hannes Tschofenig, Thomas Fossati, Achim Kraus (IESG state changed)"
+  },
+  {
+    "event_id": "history-804362",
+    "html_line": 1328,
+    "timestamp": "2021-04-22 07:18:51 -0700",
+    "date": "2021-04-22",
+    "revision": "11",
+    "actor": "Cindy Morgan",
+    "category": "other_event",
+    "action": "IESG state changed to Approved-announcement to be sent::Revised I-D Needed from IESG Evaluation"
+  },
+  {
+    "event_id": "history-804344",
+    "html_line": 1337,
+    "timestamp": "2021-04-22 06:03:45 -0700",
+    "date": "2021-04-22",
+    "revision": "11",
+    "actor": "Lars Eggert",
+    "category": "other_comment_with_iana_or_53",
+    "action": "[Ballot comment]\nAll comments below are about potential very minor issues that you may choose to\naddress in some way - or ignore - as you see fit. Some were flagged by\nautomated tools, so there will likely be some false positives. There is no need\nto let me know what you did with these suggestions. \n\nSection 3, paragraph 10, nit:\n> the record format defined in {{dtls-ciphertext} with the new MAC\n\nBroken kramdown reference?\n\nSection 1, paragraph 4, nit:\n- This document defines an extension to DTLS 1.2 to add a CID to the\n+ This document defines an extension to DTLS 1.2 to add a Connection ID (CID) to the\n+ ++++++++++ ++++++\n\nSection 3, paragraph 7, nit:\n- for example by having the length in question be a compile-time\n+ for example, by having the length in question be a compile-time\n+ +\n\nSection 3, paragraph 7, nit:\n- different length to other parties. Implementations that want to use\n- variable-length CIDs are responsible for constructing the CID in such\n+ different lengths to other parties. Implementations that want to use\n+ +\n+ variable-length CIDs are responsible for constructing the CIDs in such\n+ +\n\nSection 3, paragraph 12, nit:\n- datagram with the RFC 6347-defined record format the MAC calculation\n+ datagram with the RFC 6347-defined record format, the MAC calculation\n+ +\n\nSection 4, paragraph 6, nit:\n- * The true content type is inside the encryption envelope, as\n- - -\n+ * The real content type is inside the encryption envelope, as\n+ ++\n\nSection 6, paragraph 2, nit:\n- datagram unless the following three conditions are met:\n+ datagram, unless all of the following three conditions are met:\n+ + +++++++\n\nSection 10, paragraph 2, nit:\n- This document requests three actions by IANA.\n- ^^\n+ This document requests three actions from IANA.\n+ ^^^^\n\nSection 4, paragraph 17, nit:\n> cord. outer_type The outer content type of a DTLSCiphertext record carrying a \n> ^^^^^^^^^\nIf 'type' is a classification term, 'a' is not necessary. Use \"type of\". (The\nphrases 'kind of' and 'sort of' are informal if they mean 'to some extent'.)\n\nSection 4, paragraph 19, nit:\n> the CID value it will receive and use to identify the connection, so an implemen\n> ^^^^^^\nMake sure that 'use to' is correct. For habitual actions in the past or to mean\n'accustomed to', use \"used to\".\n\nSection 5, paragraph 6, nit:\n> Plaintext The length (in bytes) of the serialised DTLSInnerPlaintext (two-byte inte\n> ^^^^^^^^^^\nDo not mix variants of the same word ('serialise' and 'serialize') within a\nsingle text.\n\nSection 6, paragraph 2, nit:\n> that has a source address different than the one currently associated with the D\n> ^^^^\nDid you mean 'different \"from\"? 'Different than' is often considered colloquial\nstyle.\n\nSection 6, paragraph 2, nit:\n> ied in the received datagram, unless all of the following three conditions are met: \n> ^^^^^^^^^^\nConsider using \"all the\".\n\n\"Appendix A.\", paragraph 1, nit:\n> History RFC EDITOR: PLEASE REMOVE THE THIS SECTION draft-ietf-tls-dtls-connect\n> ^^^^^^^^\nMaybe you need to remove the second determiner so that only \"THE\" or \"THIS\" is\nleft.\n\n\"Appendix A.\", paragraph 29, nit:\n> 2 * Move to internal content types a la DTLS 1.3. draft-ietf-tls-dtls-conne\n> ^^^^\n'a la' is an imported foreign expression, which originally has a diacritic.\nConsider using \"à la\"\n\n\"Appendix B.\", paragraph 1, nit:\n> formation RFC EDITOR: PLEASE REMOVE THE THIS SECTION The discussion list for the\n> ^^^^^^^^\nMaybe you need to remove the second determiner so that only \"THE\" or \"THIS\" is\nleft.\n\n\"Appendix C.\", paragraph 1, nit:\n> Many people have contributed to this specification and we would like to thank the following\n> ^^^^^^^^^^^^^^^^^\nUse a comma before 'and' if it connects two independent clauses (unless they\nare closely connected and short).\n\nThese reference issues exist in the document:\n * No reference entries found for: \n [ChangeCipherSpec], [length], [length_of_padding],\n [DTLSCiphertext.length],\n [draft-rescorla-tls-dtls-connection-id-00],\n [cid_length], [DTLSPlaintext.length]\n * Uncited references: [RFC5246]\n * Obsolete reference to RFC5246, obsoleted by RFC8446\n\nThese URLs in the document did not return content:\n * https://www1.ietf.org/mailman/listinfo/tls\n * http://www.ietf.org/internet-drafts/draft-tschofenig-tls-dtls-rrc-01.txt\n * http://www.ietf.org/internet-drafts/draft-ietf-tls-dtls13-40.txt"
+  },
+  {
+    "event_id": "history-804343",
+    "html_line": 1346,
+    "timestamp": "2021-04-22 06:03:45 -0700",
+    "date": "2021-04-22",
+    "revision": "11",
+    "actor": "Lars Eggert",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Lars Eggert"
+  },
+  {
+    "event_id": "history-804337",
+    "html_line": 1355,
+    "timestamp": "2021-04-22 05:00:07 -0700",
+    "date": "2021-04-22",
+    "revision": "11",
+    "actor": "Zaheduzzaman Sarker",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Zaheduzzaman Sarker"
+  },
+  {
+    "event_id": "history-804247",
+    "html_line": 1364,
+    "timestamp": "2021-04-22 00:15:47 -0700",
+    "date": "2021-04-22",
+    "revision": "11",
+    "actor": "Murray Kucherawy",
+    "category": "other_event",
+    "action": "[Ballot comment]\nI concur with my colleagues that this was easy to understand. Nice work.\n\nI do get a little nervous these days at shepherd writeups that are over a year old."
+  },
+  {
+    "event_id": "history-804246",
+    "html_line": 1373,
+    "timestamp": "2021-04-22 00:15:47 -0700",
+    "date": "2021-04-22",
+    "revision": "11",
+    "actor": "Murray Kucherawy",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Murray Kucherawy"
+  },
+  {
+    "event_id": "history-804038",
+    "html_line": 1382,
+    "timestamp": "2021-04-20 19:45:58 -0700",
+    "date": "2021-04-20",
+    "revision": "11",
+    "actor": "Roman Danyliw",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Roman Danyliw"
+  },
+  {
+    "event_id": "history-804020",
+    "html_line": 1391,
+    "timestamp": "2021-04-20 16:42:27 -0700",
+    "date": "2021-04-20",
+    "revision": "11",
+    "actor": "Erik Kline",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, Yes, has been recorded for Erik Kline"
+  },
+  {
+    "event_id": "history-804004",
+    "html_line": 1400,
+    "timestamp": "2021-04-20 15:13:41 -0700",
+    "date": "2021-04-20",
+    "revision": "11",
+    "actor": "Warren Kumari",
+    "category": "other_event",
+    "action": "[Ballot comment]\nI opened this document with much trepidation -- I was expecting it to be horribly complex to read, and requiring much understanding of DTLS... but I was pleasantly surprised by just how readable / understandable it was.\n\nI did find \"Because each party sends the value in the \"connection_id\" extension it wants to receive as a CID in encrypted records, it is possible for an endpoint to use a globally constant length for such connection identifiers. \" to be confusing. I was trying to figure out what *the* globally constant length is; global implied to me that everyone would use it. Could this be reworded to something like \"for an endpoint to use a constant length for all such connection identifiers.\" or similar?"
+  },
+  {
+    "event_id": "history-804003",
+    "html_line": 1409,
+    "timestamp": "2021-04-20 15:13:41 -0700",
+    "date": "2021-04-20",
+    "revision": "11",
+    "actor": "Warren Kumari",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Warren Kumari"
+  },
+  {
+    "event_id": "history-803988",
+    "html_line": 1418,
+    "timestamp": "2021-04-20 14:09:05 -0700",
+    "date": "2021-04-20",
+    "revision": "11",
+    "actor": "John Scudder",
+    "category": "other_event",
+    "action": "[Ballot comment]\nI found this document heavy sledding but once I was through it, it all came together, with the exception of my #3, below. The “heavy sledding” part I think would be largely fixed by addressing my #1, below.\n\n1. Section 3:\n\nThis pseudocode is a little too pseudo for me:\n\n struct {\n opaque cid<0..2^8-1>;\n } ConnectionId;\n\nWhat does the content of the angle brackets mean? At first I took it to mean “this can take on a value from 0 to 255” [*] but parts of the spec that go on about variable lengths made me think that couldn’t be right. Eventually, by paging through RFC 5246, I found some explanations of what this stuff is supposed to mean; in §4.3 of that RFC I found out that \n\n Variable-length vectors are defined by specifying a subrange of legal\n lengths, inclusively, using the notation . When\n these are encoded, the actual length precedes the vector's contents\n in the byte stream. The length will be in the form of a number\n consuming as many bytes as required to hold the vector's specified\n maximum (ceiling) length.\n\nI assume this is what’s going on in DTLS as well. This cleared up my main source of confusion, which was regarding just how you were encoding these variable-length CIDs anyway. (And oh by the way, that definition doesn’t say what the units of length are. Bytes seems implied but isn’t explicit.)\n\nWhile I don’t expect you to supply these definitions again, it would be courteous to your readers to have a sentence or two explaining that pseudo-code conventions are found in RFC 5246, special extra credit for section references as well. And yes, I did notice \"This document assumes familiarity with DTLS 1.2 [RFC6347].” That’s well and good, but I don’t think “familiarity” is the same as “we have adopted the same notational conventions”. \n\n[*] By the way, why not just use “255” in the text instead of “2^8-1”? Eschew obfuscation!\n\n\n2. Section 3:\n\n If DTLS peers have negotiated the use of a non-zero-length CID for a\n given direction, then once encryption is enabled they MUST send with\n the record format defined in {{dtls-ciphertext} with the new MAC\n computation defined in Section 5 and the content type tls12_cid.\n Plaintext payloads never use the new record type and the CID content\n type.\n\nWhat’s “{{dtls-ciphertext}”? I’m guessing just a botched xref? \n\nAlso, the first sentence seems to have no object. (What MUST they send?)\n\n\n3. Section 6:\n\n * There is a strategy for ensuring that the new peer address is able\n to receive and process DTLS records. No such strategy is defined\n in this specification.\n\nThis is a little mind-boggling to me. I understand this to mean I can’t send the new address a DTLS record unless I’ve already ensured it can receive and process that record, right? This seems almost like a classic Catch-22. I feel like I must be missing something."
+  },
+  {
+    "event_id": "history-803987",
+    "html_line": 1427,
+    "timestamp": "2021-04-20 14:09:05 -0700",
+    "date": "2021-04-20",
+    "revision": "11",
+    "actor": "John Scudder",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for John Scudder"
+  },
+  {
+    "event_id": "history-803968",
+    "html_line": 1436,
+    "timestamp": "2021-04-20 12:46:43 -0700",
+    "date": "2021-04-20",
+    "revision": "11",
+    "actor": "Martin Duke",
+    "category": "other_event",
+    "action": "[Ballot comment]\nThanks for this document.\n\nSection 9.3.3 of quic-transport, which deals with basically the same security model, also requires the receiving endpoint to probe the original address, not just the new one, to address a somewhat more difficult attack. It would be good to at least RECOMMEND this behavior for DTLS applications, and/or (repeat/informatively reference) the logic there."
+  },
+  {
+    "event_id": "history-803967",
+    "html_line": 1445,
+    "timestamp": "2021-04-20 12:46:43 -0700",
+    "date": "2021-04-20",
+    "revision": "11",
+    "actor": "Martin Duke",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Martin Duke"
+  },
+  {
+    "event_id": "history-803932",
+    "html_line": 1454,
+    "timestamp": "2021-04-20 09:22:22 -0700",
+    "date": "2021-04-20",
+    "revision": "11",
+    "actor": "Francesca Palombini",
+    "category": "other_comment_with_iana_or_53",
+    "action": "[Ballot comment]\nThank you for the work on this document. I only have minor comments and nits below.\n\nFrancesca\n\n\n1. -----\n\n sending messages to the client. A zero-length CID value indicates\n that the client is prepared to send with a CID but does not wish the\n server to use one when sending.\n\n...\n\n to use when sending messages towards it. A zero-length value\n indicates that the server will send with the client's CID but does\n not wish the client to include a CID.\n\nFP: clarification question: I am not sure the following formulation is very clear to me: \"to send with a(/the client's) CID\". Could \"send with\" be rephrased to clarify? The previous paragraph uses \"using a CID value\", that would be better IMO.\n\n2. -----\n\n the record format defined in {{dtls-ciphertext} with the new MAC\n\nFP: nit - missing \"}\" in markdown.\n\n3. -----\n\n The following MAC algorithm applies to block ciphers that use the\n with Encrypt-then-MAC processing described in [RFC7366].\n\nFP: remove \"with\"\n\n4. -----\n\nSection 10.1\n\nFP: I believe you should specify 1. what allowed values are for this column (i.e. Y or N, and what they mean) and 2. what happens to the existing entries - namely that they all get \"N\" value.\n\n5. -----\n\nSection 10.2 \n\nFP: Just checking - why is 53 \"incompatible with this document\"?\n\n6. -----\n\n Value Extension Name TLS 1.3 DTLS Only Recommended Reference\n\nFP: nit- s/DTLS Only/DTLS-Only to be consistent with 10.1"
+  },
+  {
+    "event_id": "history-803931",
+    "html_line": 1463,
+    "timestamp": "2021-04-20 09:22:22 -0700",
+    "date": "2021-04-20",
+    "revision": "11",
+    "actor": "Francesca Palombini",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Francesca Palombini"
+  },
+  {
+    "event_id": "history-803785",
+    "html_line": 1472,
+    "timestamp": "2021-04-19 11:51:07 -0700",
+    "date": "2021-04-19",
+    "revision": "11",
+    "actor": "Alvaro Retana",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Alvaro Retana"
+  },
+  {
+    "event_id": "history-803748",
+    "html_line": 1481,
+    "timestamp": "2021-04-19 08:54:22 -0700",
+    "date": "2021-04-19",
+    "revision": "11",
+    "actor": "Martin Vigoureux",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Martin Vigoureux"
+  },
+  {
+    "event_id": "history-803700",
+    "html_line": 1490,
+    "timestamp": "2021-04-19 03:34:25 -0700",
+    "date": "2021-04-19",
+    "revision": "11",
+    "actor": "Robert Wilton",
+    "category": "other_event",
+    "action": "[Ballot comment]\nHi,\n\nI'm no DTLS expert, but I found the concepts/explanation in this document easy to follow.\n\nI was slightly confused by the requirement to encode the length in variable length CIDs, and had to read the relevant text a second time. As a suggestion, it might help if these two sentences were reworded the other way round:\n\nOLD:\nImplementations that want to use\n variable-length CIDs are responsible for constructing the CID in such\n a way that its length can be determined on reception. Note that\n there is no CID length information included in the record itself.\n\nNEW:\nSince the CID length information is not included in the record itself, implementations that want to use ... .\n\nOne minor question. In the contributors, I noted that Jana is listed as being associated with Google, but it might be worth checking if that is still accurate.\n\nRegards.\nRob"
+  },
+  {
+    "event_id": "history-803699",
+    "html_line": 1499,
+    "timestamp": "2021-04-19 03:34:25 -0700",
+    "date": "2021-04-19",
+    "revision": "11",
+    "actor": "Robert Wilton",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Robert Wilton"
+  },
+  {
+    "event_id": "history-803691",
+    "html_line": 1508,
+    "timestamp": "2021-04-19 00:47:41 -0700",
+    "date": "2021-04-19",
+    "revision": "11",
+    "actor": "Éric Vyncke",
+    "category": "other_event",
+    "action": "[Ballot comment]\nThank you for the work put into this document. This specification addresses the IPv4-mainly issue of NAT binding and is still required. I am also trusted the security ADs for section 5.\n\nPlease find below some non-blocking COMMENT points (but replies would be appreciated), and some nits.\n\nI hope that this helps to improve the document,\n\nRegards,\n\n-éric\n\n== COMMENTS ==\n\n-- Abstract --\nAs an important part of this document is the padding, should it be mentioned also in the abstract ?\n\n-- Section 3 --\nWhile I am not a DTLS expert, I find this section quite difficult to understand the reasoning behind the specification as little explanations are given about, e.g, what is the motivation of \"A zero-length value indicates that the server will send with the client's CID but does not wish the client to include a CID.\"\n\n-- Section 6 --\nI am puzzled by the text:\n \"There is a strategy for ensuring that the new peer address is able\n to receive and process DTLS records. No such strategy is defined\n in this specification.\"\nDoes this mean that there is no way to update the peer IP address ?\n\n== NITS ==\n\n-- Section 1 --\nPlease expand CID on first use outside of the abstract.\n\n-- Section 4 --\nSuggest to add a short paragraph as a preamble to figure 3. Currently, it looks like figure 3 belongs to the 'zeros' field description."
+  },
+  {
+    "event_id": "history-803690",
+    "html_line": 1517,
+    "timestamp": "2021-04-19 00:47:41 -0700",
+    "date": "2021-04-19",
+    "revision": "11",
+    "actor": "Éric Vyncke",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, No Objection, has been recorded for Éric Vyncke"
+  },
+  {
+    "event_id": "history-803525",
+    "html_line": 1526,
+    "timestamp": "2021-04-16 12:16:54 -0700",
+    "date": "2021-04-16",
+    "revision": "11",
+    "actor": "Amanda Baber",
+    "category": "iana_administrative_state",
+    "action": "IANA Review state changed to IANA OK - Actions Needed from Version Changed - Review Needed"
+  },
+  {
+    "event_id": "history-803217",
+    "html_line": 1535,
+    "timestamp": "2021-04-15 06:00:13 -0700",
+    "date": "2021-04-15",
+    "revision": "11",
+    "actor": "Amy Vezza",
+    "category": "other_event",
+    "action": "Placed on agenda for telechat - 2021-04-22"
+  },
+  {
+    "event_id": "history-803102",
+    "html_line": 1544,
+    "timestamp": "2021-04-14 16:33:45 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "Ballot has been issued"
+  },
+  {
+    "event_id": "history-803101",
+    "html_line": 1553,
+    "timestamp": "2021-04-14 16:33:45 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "[Ballot Position Update] New position, Yes, has been recorded for Benjamin Kaduk"
+  },
+  {
+    "event_id": "history-803100",
+    "html_line": 1562,
+    "timestamp": "2021-04-14 16:33:44 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "Created \"Approve\" ballot"
+  },
+  {
+    "event_id": "history-803099",
+    "html_line": 1571,
+    "timestamp": "2021-04-14 16:33:44 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Changed action holders to Benjamin Kaduk (IESG state changed)"
+  },
+  {
+    "event_id": "history-803098",
+    "html_line": 1580,
+    "timestamp": "2021-04-14 16:33:43 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "IESG state changed to IESG Evaluation from Waiting for Writeup::AD Followup"
+  },
+  {
+    "event_id": "history-803097",
+    "html_line": 1589,
+    "timestamp": "2021-04-14 16:33:42 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "Ballot writeup was changed"
+  },
+  {
+    "event_id": "history-803007",
+    "html_line": 1598,
+    "timestamp": "2021-04-14 08:16:23 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Sub state has been changed to AD Followup from Revised ID Needed"
+  },
+  {
+    "event_id": "history-803006",
+    "html_line": 1607,
+    "timestamp": "2021-04-14 08:16:23 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "(System)",
+    "category": "iana_administrative_state",
+    "action": "IANA Review state changed to Version Changed - Review Needed from IANA - Not OK"
+  },
+  {
+    "event_id": "history-803005",
+    "html_line": 1616,
+    "timestamp": "2021-04-14 08:16:22 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-11.txt"
+  },
+  {
+    "event_id": "history-803004",
+    "html_line": 1625,
+    "timestamp": "2021-04-14 08:16:21 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-803003",
+    "html_line": 1634,
+    "timestamp": "2021-04-14 08:16:11 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Achim Kraus , Eric Rescorla , Hannes Tschofenig , Thomas Fossati"
+  },
+  {
+    "event_id": "history-803002",
+    "html_line": 1643,
+    "timestamp": "2021-04-14 08:16:10 -0700",
+    "date": "2021-04-14",
+    "revision": "11",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-802912",
+    "html_line": 1652,
+    "timestamp": "2021-04-13 15:54:07 -0700",
+    "date": "2021-04-13",
+    "revision": "10",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Changed action holders to Eric Rescorla, Hannes Tschofenig, Thomas Fossati, Benjamin Kaduk, Achim Kraus (IESG state changed)"
+  },
+  {
+    "event_id": "history-802911",
+    "html_line": 1661,
+    "timestamp": "2021-04-13 15:54:06 -0700",
+    "date": "2021-04-13",
+    "revision": "10",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "IESG state changed to Waiting for Writeup::Revised I-D Needed from Waiting for Writeup"
+  },
+  {
+    "event_id": "history-801041",
+    "html_line": 1670,
+    "timestamp": "2021-03-30 00:36:53 -0700",
+    "date": "2021-03-30",
+    "revision": "10",
+    "actor": "Magnus Westerlund",
+    "category": "other_event",
+    "action": "Request closed, assignment withdrawn: Jana Iyengar Last Call TSVART review"
+  },
+  {
+    "event_id": "history-801040",
+    "html_line": 1679,
+    "timestamp": "2021-03-30 00:36:52 -0700",
+    "date": "2021-03-30",
+    "revision": "10",
+    "actor": "Magnus Westerlund",
+    "category": "other_event",
+    "action": "Closed request for Last Call review by TSVART with state 'Overtaken by Events'"
+  },
+  {
+    "event_id": "history-800778",
+    "html_line": 1688,
+    "timestamp": "2021-03-28 00:26:10 -0700",
+    "date": "2021-03-28",
+    "revision": "10",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "IESG state changed to Waiting for Writeup from In Last Call"
+  },
+  {
+    "event_id": "history-800703",
+    "html_line": 1697,
+    "timestamp": "2021-03-26 14:37:59 -0700",
+    "date": "2021-03-26",
+    "revision": "10",
+    "actor": "Sabrina Tanamal",
+    "category": "iana_administrative_state",
+    "action": "IANA Experts State changed to Expert Reviews OK from Reviews assigned"
+  },
+  {
+    "event_id": "history-800639",
+    "html_line": 1706,
+    "timestamp": "2021-03-26 09:24:20 -0700",
+    "date": "2021-03-26",
+    "revision": "10",
+    "actor": "Sabrina Tanamal",
+    "category": "iana_administrative_state",
+    "action": "IANA Experts State changed to Reviews assigned"
+  },
+  {
+    "event_id": "history-800656",
+    "html_line": 1715,
+    "timestamp": "2021-03-26 09:21:37 -0700",
+    "date": "2021-03-26",
+    "revision": "10",
+    "actor": "(System)",
+    "category": "iana_administrative_state",
+    "action": "IANA Review state changed to IANA - Not OK from IANA - Review Needed"
+  },
+  {
+    "event_id": "history-800636",
+    "html_line": 1724,
+    "timestamp": "2021-03-26 09:21:37 -0700",
+    "date": "2021-03-26",
+    "revision": "10",
+    "actor": "Sabrina Tanamal",
+    "category": "substantive_iana_review_candidate",
+    "action": "(Via drafts-lastcall@iana.org): IESG/Authors/WG Chairs:\n\nThe IANA Functions Operator has completed its review of draft-ietf-tls-dtls-connection-id-10. If any part of this review is inaccurate, please let us know. \n\nThe IANA Functions Operator has a question about one of the actions requested in the IANA Considerations section of this document.\n\nThe IANA Functions Operator understands that, upon approval of this document, there are three actions which we must complete.\n\nFirst, in the TLS ExtensionType Values registry on the Transport Layer Security (TLS) Extensions registry page located at:\n\nhttps://www.iana.org/assignments/tls-extensiontype-values/\n\na new column - \"DTLS Only?\" - will be added to the registry and [ RFC-to-be ] will be added as an additional reference for the registry.\n\nIANA Question --> What are the entries for DTLS Only? for the existing registrations in the current registry?\n\nSecond, also in the TLS ExtensionType Values registry on the Transport Layer Security (TLS) Extensions registry page located at:\n\nhttps://www.iana.org/assignments/tls-extensiontype-values/\n\nthe temporary registration for value 53 connection_id will be updated as follows:\n\nValue: 53\nExtension Name: connection_id\nTLS 1.3: CH, SH\nDTLS Only: Y\nRecommended: N\nReference: [ RFC-to-be ]\n\nSince the TLS 1.3 column has been updated, we're asking the TLS ExtensionType Value experts to review and approve. This review must be completed before the document's IANA state can be changed to \"IANA OK.\"\n\nThird, in the TLS ContentType registry on the Transport Layer Security (TLS) Parameters registry page located at:\n\nhttps://www.iana.org/assignments/tls-parameters/\n\nthe temporary registration for value 25 (tls12_cid) will be made permanent and the reference will be changed to [ RFC-to-be ].\n\nThe IANA Functions Operator understands that these are the only actions required to be completed upon approval of this document.\n\nNote: The actions requested in this document will not be completed until the document has been approved for publication as an RFC. This message is meant only to confirm the list of actions that will be performed. \n\nThank you,\n\nSabrina Tanamal\nSenior IANA Services Specialist"
+  },
+  {
+    "event_id": "history-799594",
+    "html_line": 1733,
+    "timestamp": "2021-03-19 03:09:41 -0700",
+    "date": "2021-03-19",
+    "revision": "10",
+    "actor": "Gunter Van de Velde",
+    "category": "other_event",
+    "action": "Request for Last Call review by OPSDIR is assigned to Jon Mitchell"
+  },
+  {
+    "event_id": "history-799593",
+    "html_line": 1742,
+    "timestamp": "2021-03-19 03:09:41 -0700",
+    "date": "2021-03-19",
+    "revision": "10",
+    "actor": "Gunter Van de Velde",
+    "category": "other_event",
+    "action": "Request for Last Call review by OPSDIR is assigned to Jon Mitchell"
+  },
+  {
+    "event_id": "history-799167",
+    "html_line": 1751,
+    "timestamp": "2021-03-15 08:28:59 -0700",
+    "date": "2021-03-15",
+    "revision": "10",
+    "actor": "Russ Housley",
+    "category": "other_event",
+    "action": "Request for Last Call review by GENART Completed: Ready. Reviewer: Russ Housley. Sent review to list."
+  },
+  {
+    "event_id": "history-798864",
+    "html_line": 1760,
+    "timestamp": "2021-03-12 10:09:29 -0800",
+    "date": "2021-03-12",
+    "revision": "10",
+    "actor": "Jean Mahoney",
+    "category": "other_event",
+    "action": "Request for Last Call review by GENART is assigned to Russ Housley"
+  },
+  {
+    "event_id": "history-798863",
+    "html_line": 1769,
+    "timestamp": "2021-03-12 10:09:29 -0800",
+    "date": "2021-03-12",
+    "revision": "10",
+    "actor": "Jean Mahoney",
+    "category": "other_event",
+    "action": "Request for Last Call review by GENART is assigned to Russ Housley"
+  },
+  {
+    "event_id": "history-798398",
+    "html_line": 1778,
+    "timestamp": "2021-03-11 05:10:01 -0800",
+    "date": "2021-03-11",
+    "revision": "10",
+    "actor": "Tero Kivinen",
+    "category": "other_event",
+    "action": "Request for Last Call review by SECDIR is assigned to Daniel Franke"
+  },
+  {
+    "event_id": "history-798397",
+    "html_line": 1787,
+    "timestamp": "2021-03-11 05:10:01 -0800",
+    "date": "2021-03-11",
+    "revision": "10",
+    "actor": "Tero Kivinen",
+    "category": "other_event",
+    "action": "Request for Last Call review by SECDIR is assigned to Daniel Franke"
+  },
+  {
+    "event_id": "history-797522",
+    "html_line": 1796,
+    "timestamp": "2021-03-09 02:43:16 -0800",
+    "date": "2021-03-09",
+    "revision": "10",
+    "actor": "Magnus Westerlund",
+    "category": "other_event",
+    "action": "Request for Last Call review by TSVART is assigned to Jana Iyengar"
+  },
+  {
+    "event_id": "history-797521",
+    "html_line": 1805,
+    "timestamp": "2021-03-09 02:43:15 -0800",
+    "date": "2021-03-09",
+    "revision": "10",
+    "actor": "Magnus Westerlund",
+    "category": "other_event",
+    "action": "Request for Last Call review by TSVART is assigned to Jana Iyengar"
+  },
+  {
+    "event_id": "history-796683",
+    "html_line": 1814,
+    "timestamp": "2021-03-08 03:19:26 -0800",
+    "date": "2021-03-08",
+    "revision": "10",
+    "actor": "Cindy Morgan",
+    "category": "iana_administrative_state",
+    "action": "IANA Review state changed to IANA - Review Needed"
+  },
+  {
+    "event_id": "history-796682",
+    "html_line": 1823,
+    "timestamp": "2021-03-08 03:19:26 -0800",
+    "date": "2021-03-08",
+    "revision": "10",
+    "actor": "Cindy Morgan",
+    "category": "other_event",
+    "action": "The following Last Call announcement was sent out (ends 2021-03-28):\n\nFrom: The IESG \nTo: IETF-Announce \nCC: Joseph Salowey , draft-ietf-tls-dtls-connection-id@ietf.org, joe@salowey.net, kaduk@mit.edu, tls-chairs@ietf.org, tls@ietf.org\nReply-To: last-call@ietf.org\nSender: \nSubject: Last Call: (Connection Identifiers for DTLS 1.2) to Proposed Standard\n\n\nThe IESG has received a request from the Transport Layer Security WG (tls) to\nconsider the following document: - 'Connection Identifiers for DTLS 1.2'\n as Proposed Standard\n\nThe IESG plans to make a decision in the next few weeks, and solicits final\ncomments on this action. Please send substantive comments to the\nlast-call@ietf.org mailing lists by 2021-03-28. Exceptionally, comments may\nbe sent to iesg@ietf.org instead. In either case, please retain the beginning\nof the Subject line to allow automated sorting.\n\nAbstract\n\n\n This document specifies the Connection ID (CID) construct for the\n Datagram Transport Layer Security (DTLS) protocol version 1.2.\n\n A CID is an identifier carried in the record layer header that gives\n the recipient additional information for selecting the appropriate\n security association. In \"classical\" DTLS, selecting a security\n association of an incoming DTLS record is accomplished with the help\n of the 5-tuple. If the source IP address and/or source port changes\n during the lifetime of an ongoing DTLS session then the receiver will\n be unable to locate the correct security context.\n\n\n\n\nThe file can be obtained via\nhttps://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/\n\n\n\nNo IPR declarations have been submitted directly on this I-D."
+  },
+  {
+    "event_id": "history-796681",
+    "html_line": 1832,
+    "timestamp": "2021-03-08 03:19:25 -0800",
+    "date": "2021-03-08",
+    "revision": "10",
+    "actor": "Cindy Morgan",
+    "category": "other_event",
+    "action": "IESG state changed to In Last Call from Last Call Requested"
+  },
+  {
+    "event_id": "history-796423",
+    "html_line": 1841,
+    "timestamp": "2021-03-07 16:57:22 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "Last call was requested"
+  },
+  {
+    "event_id": "history-796422",
+    "html_line": 1850,
+    "timestamp": "2021-03-07 16:57:21 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "Ballot approval text was generated"
+  },
+  {
+    "event_id": "history-796421",
+    "html_line": 1859,
+    "timestamp": "2021-03-07 16:57:21 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "Ballot writeup was generated"
+  },
+  {
+    "event_id": "history-796420",
+    "html_line": 1868,
+    "timestamp": "2021-03-07 16:57:20 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Changed action holders to Benjamin Kaduk (IESG state changed)"
+  },
+  {
+    "event_id": "history-796419",
+    "html_line": 1877,
+    "timestamp": "2021-03-07 16:57:20 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "IESG state changed to Last Call Requested from AD Evaluation::AD Followup"
+  },
+  {
+    "event_id": "history-796418",
+    "html_line": 1886,
+    "timestamp": "2021-03-07 16:57:19 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "Last call announcement was changed"
+  },
+  {
+    "event_id": "history-796417",
+    "html_line": 1895,
+    "timestamp": "2021-03-07 16:56:44 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "Last call announcement was generated"
+  },
+  {
+    "event_id": "history-796399",
+    "html_line": 1904,
+    "timestamp": "2021-03-07 15:28:38 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Sub state has been changed to AD Followup from Revised ID Needed"
+  },
+  {
+    "event_id": "history-796398",
+    "html_line": 1913,
+    "timestamp": "2021-03-07 15:28:38 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-10.txt"
+  },
+  {
+    "event_id": "history-796397",
+    "html_line": 1922,
+    "timestamp": "2021-03-07 15:28:37 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-796396",
+    "html_line": 1931,
+    "timestamp": "2021-03-07 15:27:59 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati , tls-chairs@ietf.org"
+  },
+  {
+    "event_id": "history-796395",
+    "html_line": 1940,
+    "timestamp": "2021-03-07 15:27:58 -0800",
+    "date": "2021-03-07",
+    "revision": "10",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-795284",
+    "html_line": 1949,
+    "timestamp": "2021-02-27 16:33:07 -0800",
+    "date": "2021-02-27",
+    "revision": "09",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "A few pull requests have landed, so let's publish them as an I-D (once the submissions block is lifted) and start the IETF LC."
+  },
+  {
+    "event_id": "history-795283",
+    "html_line": 1958,
+    "timestamp": "2021-02-27 16:33:07 -0800",
+    "date": "2021-02-27",
+    "revision": "09",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Changed action holders to Eric Rescorla, Hannes Tschofenig, Thomas Fossati (IESG state changed)"
+  },
+  {
+    "event_id": "history-795282",
+    "html_line": 1967,
+    "timestamp": "2021-02-27 16:33:06 -0800",
+    "date": "2021-02-27",
+    "revision": "09",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "IESG state changed to AD Evaluation::Revised I-D Needed from AD Evaluation::AD Followup"
+  },
+  {
+    "event_id": "history-787472",
+    "html_line": 1976,
+    "timestamp": "2021-01-17 23:45:06 -0800",
+    "date": "2021-01-17",
+    "revision": "09",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Sub state has been changed to AD Followup from Revised ID Needed"
+  },
+  {
+    "event_id": "history-787471",
+    "html_line": 1985,
+    "timestamp": "2021-01-17 23:45:05 -0800",
+    "date": "2021-01-17",
+    "revision": "09",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-09.txt"
+  },
+  {
+    "event_id": "history-787470",
+    "html_line": 1994,
+    "timestamp": "2021-01-17 23:45:05 -0800",
+    "date": "2021-01-17",
+    "revision": "09",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-787469",
+    "html_line": 2003,
+    "timestamp": "2021-01-17 23:44:13 -0800",
+    "date": "2021-01-17",
+    "revision": "09",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati"
+  },
+  {
+    "event_id": "history-787468",
+    "html_line": 2012,
+    "timestamp": "2021-01-17 23:44:12 -0800",
+    "date": "2021-01-17",
+    "revision": "09",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-785181",
+    "html_line": 2021,
+    "timestamp": "2020-12-29 15:46:18 -0800",
+    "date": "2020-12-29",
+    "revision": "08",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "Some good changes have landed in git at https://github.com/tlswg/dtls-conn-id but are not in the I-D repository yet."
+  },
+  {
+    "event_id": "history-785180",
+    "html_line": 2030,
+    "timestamp": "2020-12-29 15:46:17 -0800",
+    "date": "2020-12-29",
+    "revision": "08",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "IESG state changed to AD Evaluation::Revised I-D Needed from AD Evaluation::AD Followup"
+  },
+  {
+    "event_id": "history-779719",
+    "html_line": 2039,
+    "timestamp": "2020-11-16 23:15:08 -0800",
+    "date": "2020-11-16",
+    "revision": "08",
+    "actor": "Sean Turner",
+    "category": "other_event",
+    "action": "Added to session: IETF-109: tls Tue-1430"
+  },
+  {
+    "event_id": "history-776973",
+    "html_line": 2048,
+    "timestamp": "2020-11-02 12:22:23 -0800",
+    "date": "2020-11-02",
+    "revision": "08",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Sub state has been changed to AD Followup from Revised ID Needed"
+  },
+  {
+    "event_id": "history-776972",
+    "html_line": 2057,
+    "timestamp": "2020-11-02 12:22:22 -0800",
+    "date": "2020-11-02",
+    "revision": "08",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-08.txt"
+  },
+  {
+    "event_id": "history-776971",
+    "html_line": 2066,
+    "timestamp": "2020-11-02 12:22:22 -0800",
+    "date": "2020-11-02",
+    "revision": "08",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version accepted (logged-in submitter: Hannes Tschofenig)"
+  },
+  {
+    "event_id": "history-776970",
+    "html_line": 2075,
+    "timestamp": "2020-11-02 12:22:21 -0800",
+    "date": "2020-11-02",
+    "revision": "08",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-769659",
+    "html_line": 2084,
+    "timestamp": "2020-09-15 11:55:15 -0700",
+    "date": "2020-09-15",
+    "revision": "07",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "IESG state changed to AD Evaluation::Revised I-D Needed from AD Evaluation"
+  },
+  {
+    "event_id": "history-761841",
+    "html_line": 2093,
+    "timestamp": "2020-07-26 19:21:00 -0700",
+    "date": "2020-07-26",
+    "revision": "07",
+    "actor": "Benjamin Kaduk",
+    "category": "other_event",
+    "action": "IESG state changed to AD Evaluation from Publication Requested"
+  },
+  {
+    "event_id": "history-720243",
+    "html_line": 2102,
+    "timestamp": "2019-11-21 19:29:28 -0800",
+    "date": "2019-11-21",
+    "revision": "07",
+    "actor": "Joseph Salowey",
+    "category": "other_comment_with_iana_or_53",
+    "action": "As required by RFC 4858, this is the current template for the Document \nShepherd Write-Up.\n\nChanges are expected over time. This version is dated 24 February 2012.\n\n(1) What type of RFC is being requested (BCP, Proposed Standard,\nInternet Standard, Informational, Experimental, or Historic)? Why\nis this the proper type of RFC? Is this type of RFC indicated in the\ntitle page header?\n\nThe proposed Status of the document is Proposed Standard.\n\n(2) The IESG approval announcement includes a Document Announcement\nWrite-Up. Please provide such a Document Announcement Write-Up. Recent\nexamples can be found in the \"Action\" announcements for approved\ndocuments. The approval announcement contains the following sections:\n\nTechnical Summary\n\n This document specifies the Connection ID (CID) construct for the\n Datagram Transport Layer Security (DTLS) protocol version 1.2.\n\n A CID is an identifier carried in the record layer header that gives\n the recipient additional information for selecting the appropriate\n security association. In \"classical\" DTLS, selecting a security\n association of an incoming DTLS record is accomplished with the help\n of the 5-tuple. If the source IP address and/or source port changes\n during the lifetime of an ongoing DTLS session then the receiver will\n be unable to locate the correct security context.\n\nWorking Group Summary\n\n Was there anything in WG process that is worth noting? For \n example, was there controversy about particular points or \n were there decisions where the consensus was particularly \n rough?\n\nThe document is of interest to a subset of the working group \nparticipants. The participants are active and there is general \nworking group consensus behind the document. \n\nDocument Quality\n\nThe document has been reviewed by people implementing \n the protocol. There are multiple implementations of this \nextension.\n\nPersonnel\n\nThe Document Shepherd is Joseph Salowey and the responsible AD is Ben Kaduk\n\n(3) Briefly describe the review of this document that was performed by\nthe Document Shepherd. If this version of the document is not ready\nfor publication, please explain why the document is being forwarded to\nthe IESG.\n\nThe shepherd has reviewed the document and believes it is ready for publication. \nThe reference to the obsoleted TLS version is intentional. \nThe document needs to have a reference to RFC 6347 added to the abstract as it\nonly mentions the document by name. \n\n(4) Does the document Shepherd have any concerns about the depth or\nbreadth of the reviews that have been performed?\n\nNo\n\n(5) Do portions of the document need review from a particular or from\nbroader perspective, e.g., security, operational complexity, AAA, DNS,\nDHCP, XML, or internationalization? If so, describe the review that\ntook place.\n\nNo\n\n(6) Describe any specific concerns or issues that the Document Shepherd\nhas with this document that the Responsible Area Director and/or the\nIESG should be aware of? For example, perhaps he or she is uncomfortable\nwith certain parts of the document, or has concerns whether there really\nis a need for it. In any event, if the WG has discussed those issues and\nhas indicated that it still wishes to advance the document, detail those\nconcerns here.\n\nNo Specific Concerns\n\n(7) Has each author confirmed that any and all appropriate IPR\ndisclosures required for full conformance with the provisions of BCP 78\nand BCP 79 have already been filed. If not, explain why.\n\nThe authors have confirmed conformance with BCP 78 and BCP 79.\n\n(8) Has an IPR disclosure been filed that references this document?\nIf so, summarize any WG discussion and conclusion regarding the IPR\ndisclosures.\n\nNo declared IPR\n\n(9) How solid is the WG consensus behind this document? Does it \nrepresent the strong concurrence of a few individuals, with others\nbeing silent, or does the WG as a whole understand and agree with it? \n\nThe document has been worked on by a subset of the TLS community.\nThe document has had review from participants outside this \nsubset and there is general consensus behind this document. \n\n(10) Has anyone threatened an appeal or otherwise indicated extreme \ndiscontent? If so, please summarise the areas of conflict in separate\nemail messages to the Responsible Area Director. (It should be in a\nseparate email because this questionnaire is publicly available.) \n\nNA\n\n(11) Identify any ID nits the Document Shepherd has found in this\ndocument. (See https://www.ietf.org/tools/idnits/ and the Internet-Drafts\nChecklist). Boilerplate checks are not enough; this check needs to be\nthorough.\n\nNo Nits\n\n(12) Describe how the document meets any required formal review\ncriteria, such as the MIB Doctor, media type, and URI type reviews.\n\nNA\n\n(13) Have all references within this document been identified as\neither normative or informative?\n\nYes\n\n(14) Are there normative references to documents that are not ready for\nadvancement or are otherwise in an unclear state? If such normative\nreferences exist, what is the plan for their completion?\n\nNo\n\n(15) Are there downward normative references references (see RFC 3967)?\nIf so, list these downward references to support the Area Director in \nthe Last Call procedure. \n\nNo\n\n(16) Will publication of this document change the status of any\nexisting RFCs? Are those RFCs listed on the title page header, listed\nin the abstract, and discussed in the introduction? If the RFCs are not\nlisted in the Abstract and Introduction, explain why, and point to the\npart of the document where the relationship of this document to the\nother RFCs is discussed. If this information is not in the document,\nexplain why the WG considers it unnecessary.\n\nThis document updates RFC 6347 (DTLS 1.2). The abstract mentions DTLS 1.2\nbut does not include the RFC number reference. This can be easily fixed \nlater in the process\n\n(17) Describe the Document Shepherd's review of the IANA considerations\nsection, especially with regard to its consistency with the body of the\ndocument. Confirm that all protocol extensions that the document makes\nare associated with the appropriate reservations in IANA registries.\nConfirm that any referenced IANA registries have been clearly\nidentified. Confirm that newly created IANA registries include a\ndetailed specification of the initial contents for the registry, that\nallocations procedures for future registrations are defined, and a\nreasonable name for the new registry has been suggested (see RFC 8126).\n\nThe IANA considerations registers an entry for the extension and content \ntype associated with this document \n\n(18) List any new IANA registries that require Expert Review for future\nallocations. Provide any public guidance that the IESG would find\nuseful in selecting the IANA Experts for these new registries.\n\nNo new registries. \n\n(19) Describe reviews and automated checks performed by the Document\nShepherd to validate sections of the document written in a formal\nlanguage, such as XML code, BNF rules, MIB definitions, etc.\n\nNA"
+  },
+  {
+    "event_id": "history-720242",
+    "html_line": 2111,
+    "timestamp": "2019-11-21 19:29:27 -0800",
+    "date": "2019-11-21",
+    "revision": "07",
+    "actor": "Joseph Salowey",
+    "category": "other_event",
+    "action": "Responsible AD changed to Benjamin Kaduk"
+  },
+  {
+    "event_id": "history-720241",
+    "html_line": 2120,
+    "timestamp": "2019-11-21 19:29:26 -0800",
+    "date": "2019-11-21",
+    "revision": "07",
+    "actor": "Joseph Salowey",
+    "category": "other_event",
+    "action": "IETF WG state changed to Submitted to IESG for Publication from WG Consensus: Waiting for Write-Up"
+  },
+  {
+    "event_id": "history-720240",
+    "html_line": 2129,
+    "timestamp": "2019-11-21 19:29:25 -0800",
+    "date": "2019-11-21",
+    "revision": "07",
+    "actor": "Joseph Salowey",
+    "category": "other_event",
+    "action": "IESG state changed to Publication Requested from I-D Exists"
+  },
+  {
+    "event_id": "history-720239",
+    "html_line": 2138,
+    "timestamp": "2019-11-21 19:29:20 -0800",
+    "date": "2019-11-21",
+    "revision": "07",
+    "actor": "Joseph Salowey",
+    "category": "other_event",
+    "action": "IESG process started in state Publication Requested"
+  },
+  {
+    "event_id": "history-719920",
+    "html_line": 2147,
+    "timestamp": "2019-11-20 21:44:45 -0800",
+    "date": "2019-11-20",
+    "revision": "07",
+    "actor": "Joseph Salowey",
+    "category": "other_event",
+    "action": "Tag Doc Shepherd Follow-up Underway cleared."
+  },
+  {
+    "event_id": "history-719919",
+    "html_line": 2156,
+    "timestamp": "2019-11-20 21:44:42 -0800",
+    "date": "2019-11-20",
+    "revision": "07",
+    "actor": "Joseph Salowey",
+    "category": "other_event",
+    "action": "IETF WG state changed to WG Consensus: Waiting for Write-Up from Waiting for WG Chair Go-Ahead"
+  },
+  {
+    "event_id": "history-719779",
+    "html_line": 2165,
+    "timestamp": "2019-11-20 17:56:45 -0800",
+    "date": "2019-11-20",
+    "revision": "07",
+    "actor": "Joseph Salowey",
+    "category": "other_comment_with_iana_or_53",
+    "action": "As required by RFC 4858, this is the current template for the Document \nShepherd Write-Up.\n\nChanges are expected over time. This version is dated 24 February 2012.\n\n(1) What type of RFC is being requested (BCP, Proposed Standard,\nInternet Standard, Informational, Experimental, or Historic)? Why\nis this the proper type of RFC? Is this type of RFC indicated in the\ntitle page header?\n\nThe proposed Status of the document is Proposed Standard.\n\n(2) The IESG approval announcement includes a Document Announcement\nWrite-Up. Please provide such a Document Announcement Write-Up. Recent\nexamples can be found in the \"Action\" announcements for approved\ndocuments. The approval announcement contains the following sections:\n\nTechnical Summary\n\n This document specifies the Connection ID (CID) construct for the\n Datagram Transport Layer Security (DTLS) protocol version 1.2.\n\n A CID is an identifier carried in the record layer header that gives\n the recipient additional information for selecting the appropriate\n security association. In \"classical\" DTLS, selecting a security\n association of an incoming DTLS record is accomplished with the help\n of the 5-tuple. If the source IP address and/or source port changes\n during the lifetime of an ongoing DTLS session then the receiver will\n be unable to locate the correct security context.\n\nWorking Group Summary\n\n Was there anything in WG process that is worth noting? For \n example, was there controversy about particular points or \n were there decisions where the consensus was particularly \n rough?\n\nThe document is of interest to a subset of the working group \nparticipants. The participants are active and there is general \nworking group consensus behind the document. \n\nDocument Quality\n\nThe document has been reviewed by people implementing \n the protocol. There are multiple implementations of this \nextension.\n\nPersonnel\n\nThe Document Shepherd is Joseph Salowey and the responsible AD is Ben Kaduk\n\n(3) Briefly describe the review of this document that was performed by\nthe Document Shepherd. If this version of the document is not ready\nfor publication, please explain why the document is being forwarded to\nthe IESG.\n\nThe shepherd has reviewed the document and believes it is ready for publication. \nThe reference to the obsoleted TLS version is intentional. \nThe document needs to have a reference to RFC 6347 added to the abstract as it\nonly mentions the document by name. \n\n(4) Does the document Shepherd have any concerns about the depth or\nbreadth of the reviews that have been performed?\n\nNo\n\n(5) Do portions of the document need review from a particular or from\nbroader perspective, e.g., security, operational complexity, AAA, DNS,\nDHCP, XML, or internationalization? If so, describe the review that\ntook place.\n\nNo\n\n(6) Describe any specific concerns or issues that the Document Shepherd\nhas with this document that the Responsible Area Director and/or the\nIESG should be aware of? For example, perhaps he or she is uncomfortable\nwith certain parts of the document, or has concerns whether there really\nis a need for it. In any event, if the WG has discussed those issues and\nhas indicated that it still wishes to advance the document, detail those\nconcerns here.\n\nNo Specific Concerns\n\n(7) Has each author confirmed that any and all appropriate IPR\ndisclosures required for full conformance with the provisions of BCP 78\nand BCP 79 have already been filed. If not, explain why.\n\nThe authors have confirmed conformance with BCP 78 and BCP 79.\n\n(8) Has an IPR disclosure been filed that references this document?\nIf so, summarize any WG discussion and conclusion regarding the IPR\ndisclosures.\n\nNo declared IPR\n\n(9) How solid is the WG consensus behind this document? Does it \nrepresent the strong concurrence of a few individuals, with others\nbeing silent, or does the WG as a whole understand and agree with it? \n\nThe document has been worked on by a subset of the TLS community.\nThe document has had review from participants outside this \nsubset and there is general consensus behind this document. \n\n(10) Has anyone threatened an appeal or otherwise indicated extreme \ndiscontent? If so, please summarise the areas of conflict in separate\nemail messages to the Responsible Area Director. (It should be in a\nseparate email because this questionnaire is publicly available.) \n\nNA\n\n(11) Identify any ID nits the Document Shepherd has found in this\ndocument. (See https://www.ietf.org/tools/idnits/ and the Internet-Drafts\nChecklist). Boilerplate checks are not enough; this check needs to be\nthorough.\n\nNo Nits\n\n(12) Describe how the document meets any required formal review\ncriteria, such as the MIB Doctor, media type, and URI type reviews.\n\nNA\n\n(13) Have all references within this document been identified as\neither normative or informative?\n\nYes\n\n(14) Are there normative references to documents that are not ready for\nadvancement or are otherwise in an unclear state? If such normative\nreferences exist, what is the plan for their completion?\n\nNo\n\n(15) Are there downward normative references references (see RFC 3967)?\nIf so, list these downward references to support the Area Director in \nthe Last Call procedure. \n\nNo\n\n(16) Will publication of this document change the status of any\nexisting RFCs? Are those RFCs listed on the title page header, listed\nin the abstract, and discussed in the introduction? If the RFCs are not\nlisted in the Abstract and Introduction, explain why, and point to the\npart of the document where the relationship of this document to the\nother RFCs is discussed. If this information is not in the document,\nexplain why the WG considers it unnecessary.\n\nThis document updates RFC 6347 (DTLS 1.2). The abstract mentions DTLS 1.2\nbut does not include the RFC number reference. This can be easily fixed \nlater in the process\n\n(17) Describe the Document Shepherd's review of the IANA considerations\nsection, especially with regard to its consistency with the body of the\ndocument. Confirm that all protocol extensions that the document makes\nare associated with the appropriate reservations in IANA registries.\nConfirm that any referenced IANA registries have been clearly\nidentified. Confirm that newly created IANA registries include a\ndetailed specification of the initial contents for the registry, that\nallocations procedures for future registrations are defined, and a\nreasonable name for the new registry has been suggested (see RFC 8126).\n\nThe IANA considerations registers an entry for the extension and content \ntype associated with this document \n\n(18) List any new IANA registries that require Expert Review for future\nallocations. Provide any public guidance that the IESG would find\nuseful in selecting the IANA Experts for these new registries.\n\nNo new registries. \n\n(19) Describe reviews and automated checks performed by the Document\nShepherd to validate sections of the document written in a formal\nlanguage, such as XML code, BNF rules, MIB definitions, etc.\n\nNA"
+  },
+  {
+    "event_id": "history-719046",
+    "html_line": 2174,
+    "timestamp": "2019-11-19 00:33:31 -0800",
+    "date": "2019-11-19",
+    "revision": "07",
+    "actor": "Joseph Salowey",
+    "category": "other_event",
+    "action": "Tag Doc Shepherd Follow-up Underway set. Tag Revised I-D Needed - Issue raised by WGLC cleared."
+  },
+  {
+    "event_id": "history-715408",
+    "html_line": 2183,
+    "timestamp": "2019-11-04 08:13:38 -0800",
+    "date": "2019-11-04",
+    "revision": "07",
+    "actor": "Sean Turner",
+    "category": "other_event",
+    "action": "Changed document URLs from:\n\n[]\n\nto:\n\nrepository https://github.com/tlswg/dtls-conn-id"
+  },
+  {
+    "event_id": "history-711847",
+    "html_line": 2192,
+    "timestamp": "2019-10-21 01:04:38 -0700",
+    "date": "2019-10-21",
+    "revision": "07",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-07.txt"
+  },
+  {
+    "event_id": "history-711846",
+    "html_line": 2201,
+    "timestamp": "2019-10-21 01:04:37 -0700",
+    "date": "2019-10-21",
+    "revision": "07",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-711845",
+    "html_line": 2210,
+    "timestamp": "2019-10-21 01:04:16 -0700",
+    "date": "2019-10-21",
+    "revision": "07",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Hannes Tschofenig , Eric Rescorla , Thomas Fossati"
+  },
+  {
+    "event_id": "history-711844",
+    "html_line": 2219,
+    "timestamp": "2019-10-21 01:04:15 -0700",
+    "date": "2019-10-21",
+    "revision": "07",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-694437",
+    "html_line": 2228,
+    "timestamp": "2019-07-08 11:01:23 -0700",
+    "date": "2019-07-08",
+    "revision": "06",
+    "actor": "Thomas Fossati",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-06.txt"
+  },
+  {
+    "event_id": "history-694436",
+    "html_line": 2237,
+    "timestamp": "2019-07-08 11:01:21 -0700",
+    "date": "2019-07-08",
+    "revision": "06",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-694435",
+    "html_line": 2246,
+    "timestamp": "2019-07-08 11:01:08 -0700",
+    "date": "2019-07-08",
+    "revision": "06",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Hannes Tschofenig , Eric Rescorla , Thomas Fossati"
+  },
+  {
+    "event_id": "history-694434",
+    "html_line": 2255,
+    "timestamp": "2019-07-08 11:01:07 -0700",
+    "date": "2019-07-08",
+    "revision": "06",
+    "actor": "Thomas Fossati",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-689758",
+    "html_line": 2264,
+    "timestamp": "2019-06-13 22:24:21 -0700",
+    "date": "2019-06-13",
+    "revision": "05",
+    "actor": "Joseph Salowey",
+    "category": "other_comment_with_iana_or_53",
+    "action": "As required by RFC 4858, this is the current template for the Document \nShepherd Write-Up.\n\nChanges are expected over time. This version is dated 24 February 2012.\n\n(1) What type of RFC is being requested (BCP, Proposed Standard,\nInternet Standard, Informational, Experimental, or Historic)? Why\nis this the proper type of RFC? Is this type of RFC indicated in the\ntitle page header?\n\nThe proposed Status of the document is Proposed Standard.\n\n(2) The IESG approval announcement includes a Document Announcement\nWrite-Up. Please provide such a Document Announcement Write-Up. Recent\nexamples can be found in the \"Action\" announcements for approved\ndocuments. The approval announcement contains the following sections:\n\nTechnical Summary\n\n This document specifies the Connection ID (CID) construct for the\n Datagram Transport Layer Security (DTLS) protocol version 1.2.\n\n A CID is an identifier carried in the record layer header that gives\n the recipient additional information for selecting the appropriate\n security association. In \"classical\" DTLS, selecting a security\n association of an incoming DTLS record is accomplished with the help\n of the 5-tuple. If the source IP address and/or source port changes\n during the lifetime of an ongoing DTLS session then the receiver will\n be unable to locate the correct security context.\n\nWorking Group Summary\n\n Was there anything in WG process that is worth noting? For \n example, was there controversy about particular points or \n were there decisions where the consensus was particularly \n rough?\n\nThe document is of interest to a subset of the working group \nparticipants. The participants are active and there is general \nworking group consensus behind the document. \n\nDocument Quality\n\nThe document has been reviewed by people implementing \n the protocol\n\nPersonnel\n\nThe Document Shepherd is Joseph Salowey and the responsible AD is Ben Kaduk\n\n(3) Briefly describe the review of this document that was performed by\nthe Document Shepherd. If this version of the document is not ready\nfor publication, please explain why the document is being forwarded to\nthe IESG.\n\nThe shepherd has reviewed the document and believes it is ready for publication.\n\n(4) Does the document Shepherd have any concerns about the depth or\nbreadth of the reviews that have been performed?\n\nNo\n\n(5) Do portions of the document need review from a particular or from\nbroader perspective, e.g., security, operational complexity, AAA, DNS,\nDHCP, XML, or internationalization? If so, describe the review that\ntook place.\n\nNo\n\n(6) Describe any specific concerns or issues that the Document Shepherd\nhas with this document that the Responsible Area Director and/or the\nIESG should be aware of? For example, perhaps he or she is uncomfortable\nwith certain parts of the document, or has concerns whether there really\nis a need for it. In any event, if the WG has discussed those issues and\nhas indicated that it still wishes to advance the document, detail those\nconcerns here.\n\nNo Specific Concerns\n\n(7) Has each author confirmed that any and all appropriate IPR\ndisclosures required for full conformance with the provisions of BCP 78\nand BCP 79 have already been filed. If not, explain why.\n\nCheck in progress\n\n(8) Has an IPR disclosure been filed that references this document?\nIf so, summarize any WG discussion and conclusion regarding the IPR\ndisclosures.\n\nNo declared IPR\n\n(9) How solid is the WG consensus behind this document? Does it \nrepresent the strong concurrence of a few individuals, with others\nbeing silent, or does the WG as a whole understand and agree with it? \n\nThe document has been worked on by a subset of the TLS community,\nbut the document has had review from participants outside this \nsubset and there is general consensus behind this document. \n\n(10) Has anyone threatened an appeal or otherwise indicated extreme \ndiscontent? If so, please summarise the areas of conflict in separate\nemail messages to the Responsible Area Director. (It should be in a\nseparate email because this questionnaire is publicly available.) \n\nNA\n\n(11) Identify any ID nits the Document Shepherd has found in this\ndocument. (See https://www.ietf.org/tools/idnits/ and the Internet-Drafts\nChecklist). Boilerplate checks are not enough; this check needs to be\nthorough.\n\nNo Nits\n\n(12) Describe how the document meets any required formal review\ncriteria, such as the MIB Doctor, media type, and URI type reviews.\n\nNA\n\n(13) Have all references within this document been identified as\neither normative or informative?\n\nYes\n\n(14) Are there normative references to documents that are not ready for\nadvancement or are otherwise in an unclear state? If such normative\nreferences exist, what is the plan for their completion?\n\nNo\n\n(15) Are there downward normative references references (see RFC 3967)?\nIf so, list these downward references to support the Area Director in \nthe Last Call procedure. \n\nNo\n\n(16) Will publication of this document change the status of any\nexisting RFCs? Are those RFCs listed on the title page header, listed\nin the abstract, and discussed in the introduction? If the RFCs are not\nlisted in the Abstract and Introduction, explain why, and point to the\npart of the document where the relationship of this document to the\nother RFCs is discussed. If this information is not in the document,\nexplain why the WG considers it unnecessary.\n\nTBD\n\n(17) Describe the Document Shepherd's review of the IANA considerations\nsection, especially with regard to its consistency with the body of the\ndocument. Confirm that all protocol extensions that the document makes\nare associated with the appropriate reservations in IANA registries.\nConfirm that any referenced IANA registries have been clearly\nidentified. Confirm that newly created IANA registries include a\ndetailed specification of the initial contents for the registry, that\nallocations procedures for future registrations are defined, and a\nreasonable name for the new registry has been suggested (see RFC 8126).\n\nIn Porgress\n\n(18) List any new IANA registries that require Expert Review for future\nallocations. Provide any public guidance that the IESG would find\nuseful in selecting the IANA Experts for these new registries.\n\nNo new registries. \n\n(19) Describe reviews and automated checks performed by the Document\nShepherd to validate sections of the document written in a formal\nlanguage, such as XML code, BNF rules, MIB definitions, etc.\n\nNA"
+  },
+  {
+    "event_id": "history-664797",
+    "html_line": 2273,
+    "timestamp": "2019-05-06 04:58:01 -0700",
+    "date": "2019-05-06",
+    "revision": "05",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-05.txt"
+  },
+  {
+    "event_id": "history-664796",
+    "html_line": 2282,
+    "timestamp": "2019-05-06 04:58:00 -0700",
+    "date": "2019-05-06",
+    "revision": "05",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-664793",
+    "html_line": 2291,
+    "timestamp": "2019-05-06 04:57:23 -0700",
+    "date": "2019-05-06",
+    "revision": "05",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Hannes Tschofenig , Eric Rescorla , Thomas Fossati"
+  },
+  {
+    "event_id": "history-664792",
+    "html_line": 2300,
+    "timestamp": "2019-05-06 04:57:22 -0700",
+    "date": "2019-05-06",
+    "revision": "05",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-653789",
+    "html_line": 2309,
+    "timestamp": "2019-03-11 04:05:51 -0700",
+    "date": "2019-03-11",
+    "revision": "04",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-04.txt"
+  },
+  {
+    "event_id": "history-653788",
+    "html_line": 2318,
+    "timestamp": "2019-03-11 04:05:51 -0700",
+    "date": "2019-03-11",
+    "revision": "04",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-653787",
+    "html_line": 2327,
+    "timestamp": "2019-03-11 04:05:11 -0700",
+    "date": "2019-03-11",
+    "revision": "04",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Hannes Tschofenig , Eric Rescorla , Thomas Fossati"
+  },
+  {
+    "event_id": "history-653786",
+    "html_line": 2336,
+    "timestamp": "2019-03-11 04:05:10 -0700",
+    "date": "2019-03-11",
+    "revision": "04",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-650913",
+    "html_line": 2345,
+    "timestamp": "2019-02-27 12:43:44 -0800",
+    "date": "2019-02-27",
+    "revision": "03",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-03.txt"
+  },
+  {
+    "event_id": "history-650912",
+    "html_line": 2354,
+    "timestamp": "2019-02-27 12:43:43 -0800",
+    "date": "2019-02-27",
+    "revision": "03",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-650911",
+    "html_line": 2363,
+    "timestamp": "2019-02-27 12:40:12 -0800",
+    "date": "2019-02-27",
+    "revision": "03",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati , Tobias Gondrom , tls-chairs@ietf.org"
+  },
+  {
+    "event_id": "history-650910",
+    "html_line": 2372,
+    "timestamp": "2019-02-27 12:40:11 -0800",
+    "date": "2019-02-27",
+    "revision": "03",
+    "actor": "Hannes Tschofenig",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-640731",
+    "html_line": 2381,
+    "timestamp": "2018-12-10 21:18:28 -0800",
+    "date": "2018-12-10",
+    "revision": "02",
+    "actor": "Joseph Salowey",
+    "category": "other_event",
+    "action": "Tag Revised I-D Needed - Issue raised by WGLC set."
+  },
+  {
+    "event_id": "history-640730",
+    "html_line": 2390,
+    "timestamp": "2018-12-10 21:18:28 -0800",
+    "date": "2018-12-10",
+    "revision": "02",
+    "actor": "Joseph Salowey",
+    "category": "other_event",
+    "action": "IETF WG state changed to Waiting for WG Chair Go-Ahead from In WG Last Call"
+  },
+  {
+    "event_id": "history-636332",
+    "html_line": 2399,
+    "timestamp": "2018-11-06 23:40:51 -0800",
+    "date": "2018-11-06",
+    "revision": "02",
+    "actor": "Joseph Salowey",
+    "category": "other_event",
+    "action": "IETF WG state changed to In WG Last Call from WG Document"
+  },
+  {
+    "event_id": "history-635810",
+    "html_line": 2408,
+    "timestamp": "2018-11-05 23:16:21 -0800",
+    "date": "2018-11-05",
+    "revision": "02",
+    "actor": "Sean Turner",
+    "category": "other_event",
+    "action": "Notification list changed to Joseph Salowey <joe@salowey.net>"
+  },
+  {
+    "event_id": "history-635809",
+    "html_line": 2417,
+    "timestamp": "2018-11-05 23:16:21 -0800",
+    "date": "2018-11-05",
+    "revision": "02",
+    "actor": "Sean Turner",
+    "category": "other_event",
+    "action": "Document shepherd changed to Joseph A. Salowey"
+  },
+  {
+    "event_id": "history-635807",
+    "html_line": 2426,
+    "timestamp": "2018-11-05 23:16:06 -0800",
+    "date": "2018-11-05",
+    "revision": "02",
+    "actor": "Sean Turner",
+    "category": "other_event",
+    "action": "Changed consensus to Yes from Unknown"
+  },
+  {
+    "event_id": "history-635806",
+    "html_line": 2435,
+    "timestamp": "2018-11-05 23:16:05 -0800",
+    "date": "2018-11-05",
+    "revision": "02",
+    "actor": "Sean Turner",
+    "category": "other_event",
+    "action": "Intended Status changed to Proposed Standard from None"
+  },
+  {
+    "event_id": "history-633688",
+    "html_line": 2444,
+    "timestamp": "2018-10-31 12:49:11 -0700",
+    "date": "2018-10-31",
+    "revision": "02",
+    "actor": "Sean Turner",
+    "category": "other_event",
+    "action": "Added to session: IETF-103: tls Mon-1350"
+  },
+  {
+    "event_id": "history-632044",
+    "html_line": 2453,
+    "timestamp": "2018-10-22 13:47:16 -0700",
+    "date": "2018-10-22",
+    "revision": "02",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-02.txt"
+  },
+  {
+    "event_id": "history-632043",
+    "html_line": 2462,
+    "timestamp": "2018-10-22 13:47:16 -0700",
+    "date": "2018-10-22",
+    "revision": "02",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-632042",
+    "html_line": 2471,
+    "timestamp": "2018-10-22 13:46:45 -0700",
+    "date": "2018-10-22",
+    "revision": "02",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati , Tobias Gondrom"
+  },
+  {
+    "event_id": "history-632041",
+    "html_line": 2480,
+    "timestamp": "2018-10-22 13:46:43 -0700",
+    "date": "2018-10-22",
+    "revision": "02",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-613125",
+    "html_line": 2489,
+    "timestamp": "2018-07-02 07:07:53 -0700",
+    "date": "2018-07-02",
+    "revision": "01",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-01.txt"
+  },
+  {
+    "event_id": "history-613124",
+    "html_line": 2498,
+    "timestamp": "2018-07-02 07:07:53 -0700",
+    "date": "2018-07-02",
+    "revision": "01",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-613123",
+    "html_line": 2507,
+    "timestamp": "2018-07-02 07:07:30 -0700",
+    "date": "2018-07-02",
+    "revision": "01",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to previous authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati , Tobias Gondrom"
+  },
+  {
+    "event_id": "history-613122",
+    "html_line": 2516,
+    "timestamp": "2018-07-02 07:07:30 -0700",
+    "date": "2018-07-02",
+    "revision": "01",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-613121",
+    "html_line": 2525,
+    "timestamp": "2018-07-02 07:07:30 -0700",
+    "date": "2018-07-02",
+    "revision": "01",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  },
+  {
+    "event_id": "history-612356",
+    "html_line": 2534,
+    "timestamp": "2018-06-30 00:15:51 -0700",
+    "date": "2018-06-30",
+    "revision": "00",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "Document has expired"
+  },
+  {
+    "event_id": "history-580135",
+    "html_line": 2543,
+    "timestamp": "2018-01-04 10:46:44 -0800",
+    "date": "2018-01-04",
+    "revision": "00",
+    "actor": "Sean Turner",
+    "category": "other_event",
+    "action": "This document now replaces draft-rescorla-tls-dtls-connection-id instead of None"
+  },
+  {
+    "event_id": "history-579125",
+    "html_line": 2552,
+    "timestamp": "2017-12-27 08:35:40 -0800",
+    "date": "2017-12-27",
+    "revision": "00",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "New version available: draft-ietf-tls-dtls-connection-id-00.txt"
+  },
+  {
+    "event_id": "history-579124",
+    "html_line": 2561,
+    "timestamp": "2017-12-27 08:35:40 -0800",
+    "date": "2017-12-27",
+    "revision": "00",
+    "actor": "(System)",
+    "category": "other_event",
+    "action": "New version approved"
+  },
+  {
+    "event_id": "history-579123",
+    "html_line": 2570,
+    "timestamp": "2017-12-27 08:35:19 -0800",
+    "date": "2017-12-27",
+    "revision": "00",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "Request for posting confirmation emailed to submitter and authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati , Tobias Gondrom"
+  },
+  {
+    "event_id": "history-579122",
+    "html_line": 2579,
+    "timestamp": "2017-12-27 08:35:11 -0800",
+    "date": "2017-12-27",
+    "revision": "00",
+    "actor": "Eric Rescorla",
+    "category": "other_event",
+    "action": "Uploaded new revision"
+  }
+]

@@ -1,0 +1,9 @@
+Source: https://www.ascenion.de/fileadmin/user_upload/Technology/Images/Technologies/TO_01-00890_Multiplexed_Targeted_Barcoding_Technology_for_NGS_Applications.pdf
+Visited: 2026-09-10
+Attribution: Ascenion, Technology Offer TO 01-00890, page 1. Selected source excerpts; the full native web response is separately preserved. The following three excerpts come from Technology, Patent Situation, and Further Reading respectively.
+
+BART-seq
+
+WO2017060316A1 (“A novel method for the preparation of bar-coded primer sets”) has been nationalized in EP and US.
+
+https://doi.org/10.1186/s13059-019-1748-6

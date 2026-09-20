@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "oracle.psv": true,
+    "inventory.json": true,
+    "inclusionledger.json": true
+  },
+  "fresh_member_ids": [
+    "D05096",
+    "D00752",
+    "D05094",
+    "D05095"
+  ],
+  "source_manifest": "../sources_post_A/controller_downloads.json"
+}

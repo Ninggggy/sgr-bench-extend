@@ -1,0 +1,12 @@
+Source: https://link.springer.com/article/10.1186/s13059-019-1748-6
+Visited: 2026-09-10
+Attribution: Publisher version of record. Selected declaration excerpt and transcribed bibliographic fields; full native web response separately preserved.
+
+DOI
+10.1186/s13059-019-1748-6
+
+Published
+2019-08-06
+
+Competing interests
+FO, CS, CK, and MD are named on a patent application for the BART-Seq method

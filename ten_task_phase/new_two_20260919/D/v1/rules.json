@@ -1,0 +1,15 @@
+{
+  "columns": [
+    "lot",
+    "agreement_covered",
+    "eligible_control_body_codes"
+  ],
+  "row_key": [
+    "lot"
+  ],
+  "fields": {},
+  "status": "deterministic_explicit",
+  "normalization": "All three fields equal weight. Case/whitespace insensitive lot identifiers. YES/TRUE/covered and NO/FALSE/not covered synonyms. Recognition codes case and hyphen whitespace insensitive; order-independent complete set with semicolon, comma, slash or spaced AND separators within a single table cell; balanced optional braces/brackets. Repeated identical codes within a set collapse. NONE, empty set, N/A, empty balanced braces/brackets and \u2205 denote an empty set; blank is missing. Duplicate/extra rows retained and penalized; first duplicate only earns credit. Malformed or additional code text does not silently disappear.",
+  "qualification": "Exact 10n<7d plus substantive answer and independent valid trajectory/access/exposure review; empty/failed outputs cannot qualify.",
+  "whole_answer": "Exact semantic rows plus required order, no extras, duplicates or extra prose; format findings separate."
+}

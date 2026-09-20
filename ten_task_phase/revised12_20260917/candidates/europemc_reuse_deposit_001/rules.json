@@ -1,0 +1,20 @@
+{
+  "columns": [
+    "pmcid",
+    "new_geo_series"
+  ],
+  "row_key": [
+    "pmcid",
+    "new_geo_series"
+  ],
+  "fields": {
+    "pmcid": {
+      "type": "string",
+      "comparison": "exact"
+    },
+    "new_geo_series": {
+      "type": "string",
+      "comparison": "exact"
+    }
+  }
+}

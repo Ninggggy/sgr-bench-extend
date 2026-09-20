@@ -1,0 +1,112 @@
+[
+  {
+    "lot": "L1",
+    "description": "Unprocessed mate leaves grown and harvested in Chile",
+    "hs": "0903",
+    "category": "A",
+    "kind": "mate",
+    "processed": false,
+    "food": true,
+    "origins": [
+      "Chile"
+    ]
+  },
+  {
+    "lot": "L2",
+    "description": "Live grapevine planting material propagated in Chile",
+    "hs": "0602",
+    "category": "A",
+    "kind": "live_plants",
+    "processed": false,
+    "food": false,
+    "origins": [
+      "Chile"
+    ]
+  },
+  {
+    "lot": "L3",
+    "description": "Pure beeswax produced in Chile, not a formulated cosmetic",
+    "hs": "1521",
+    "category": "G",
+    "kind": "beeswax",
+    "processed": false,
+    "food": false,
+    "origins": [
+      "Chile"
+    ]
+  },
+  {
+    "lot": "L4",
+    "description": "Pure essential oil distilled in Chile from Chile-grown plants, intended solely for non-food use",
+    "hs": "3301",
+    "category": "G",
+    "kind": "essential_oil",
+    "processed": true,
+    "food": false,
+    "origins": [
+      "Chile"
+    ]
+  },
+  {
+    "lot": "L5",
+    "description": "Pure essential oil distilled in Chile from Chile-grown plants, intended for use as food",
+    "hs": "3301",
+    "category": "G",
+    "kind": "essential_oil",
+    "processed": true,
+    "food": true,
+    "origins": [
+      "Chile"
+    ]
+  },
+  {
+    "lot": "L6",
+    "description": "Jam processed in Chile using only Chilean fruit and organic sugar imported from France under the EU organic regime",
+    "hs": "2007",
+    "category": "D",
+    "kind": "jam",
+    "processed": true,
+    "food": true,
+    "origins": [
+      "Chile",
+      "France"
+    ]
+  },
+  {
+    "lot": "L7",
+    "description": "Jam processed in Chile using only Chilean fruit and organic sugar produced in and imported directly from Peru under an EU-recognised control-body regime",
+    "hs": "2007",
+    "category": "D",
+    "kind": "jam",
+    "processed": true,
+    "food": true,
+    "origins": [
+      "Chile",
+      "Peru"
+    ]
+  },
+  {
+    "lot": "L8",
+    "description": "Whole unprocessed farmed salmon raised in Chile; not caught wild",
+    "hs": "0302",
+    "category": "C",
+    "kind": "fish",
+    "processed": false,
+    "food": true,
+    "origins": [
+      "Chile"
+    ]
+  },
+  {
+    "lot": "L9",
+    "description": "Grape wine made in Chile exclusively from Chile-grown grapes",
+    "hs": "2204",
+    "category": "F",
+    "kind": "wine",
+    "processed": true,
+    "food": true,
+    "origins": [
+      "Chile"
+    ]
+  }
+]

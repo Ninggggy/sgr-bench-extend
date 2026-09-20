@@ -1,0 +1,76 @@
+{
+  "candidate_id": "scotus_joinder_001",
+  "revision": 1,
+  "ecosystem": "SCOTUS",
+  "domain": "US_SUPREME_COURT_OPINIONS",
+  "status": "rejected",
+  "old_task_refs": [
+    "arxiv_001",
+    "nvd_001",
+    "reptile_001"
+  ],
+  "research_goal": "Compare the breadth of express formal joinder across the substantive scopes of the lead written opinions in the Supreme Court's natural 27 June 2023 release batch, distinguishing judgment agreement and separate-opinion joinder.",
+  "structural_upgrade": "One complete-table discovery dependency followed by a discovered-document batch and source-anchored opinion-ownership/part-scope aggregation. A different structure from the supplied cross-domain comparisons; greater difficulty is not established.",
+  "public": {
+    "cg": {
+      "instruction": "Compare how many Justices expressly joined the lead written opinions in the Supreme Court's 27 June 2023 release batch. Report each qualifying case's smallest and largest formal joinder counts across the lead opinion's substantive parts.\n\nInclude signed decisions listed with Date 6/27/23 in the official Opinions of the Court table for October Term 2022. Exclude unsigned per curiam decisions, orders, and in-chambers opinions. Use the official Volume 600, Part 1 preliminary prints observed on 12 September 2026, marked 'Page Proof Pending Publication'. This specifies the observed preliminary-print versions, not original release-day files or final bound prints.\n\nThe lead opinion is the named author's principal writing announcing the Court's decision. Include the entire writing, even where some parts are labeled only as that Justice's opinion. Compare the substantive part and subpart scopes distinguished by the formal joinder statements. Cover every such scope; an unrestricted joinder applies throughout the writing.\n\nApply these counting rules:\n- For each scope, count the author and every other Justice expressly recorded as joining that scope, once each.\n- A joinder limited to a part extends to that part's subdivisions, unless expressly limited further.\n- Agreement with a judgment or conclusion does not establish joinder. A Justice's joinder in a separate opinion applies to that opinion alone.\n- The syllabus and separate opinions are not support units. Their formal attribution statements or express declarations may establish joinder in the lead opinion.\n- Writing a separate opinion neither removes an express lead-opinion joinder nor adds another count.\n\nThis measures formal joinder, without deciding which reasoning is binding law.\n\n1. Filter the complete term table by the specified date and decision category. Record each qualifying docket, its numeric release sequence R, and its opinion link.\n2. Follow the discovered opinion links. Confirm each document's identity and preliminary-print version.\n3. Identify the lead author and the named joinder groups. Map each group to its stated scope, checking opinion ownership wherever a separate writing discusses joinder. Verify that every substantive part scope is covered.\n4. Count distinct Justices in each scope, including the author, and report the smallest and largest counts using the shared output requirements.",
+      "output_format": "Return a pipe-separated table with exactly this header and column order:\ndocket|min_justices|max_justices\n\nReturn one row per qualifying case. docket is the full docket string as listed in the term table, preserving its hyphen. min_justices and max_justices are integers: respectively the smallest and largest distinct-Justice counts across the lead opinion's substantive part scopes, including its author. Include every qualifying case regardless of its counts; retain all ties. Sort by numeric release sequence R ascending, then by docket in ascending lexicographic order if R is tied. Do not add case names, citations, source notes, Markdown fences, or other columns.\n\nIf no cases qualify, return only NONE, without a header. If any qualifying case's identity, required text, or formal joinder scope remains missing or unresolved, stop and return only UNRESOLVED: followed by a brief explanation. Do not return a partial table, substitute zero, or infer missing counts from judgment votes."
+    },
+    "go": {
+      "instruction": "Compare how many Justices expressly joined the lead written opinions in the Supreme Court's 27 June 2023 release batch. Report each qualifying case's smallest and largest formal joinder counts across the lead opinion's substantive parts.\n\nInclude signed decisions listed with Date 6/27/23 in the official Opinions of the Court table for October Term 2022. Exclude unsigned per curiam decisions, orders, and in-chambers opinions. Use the official Volume 600, Part 1 preliminary prints observed on 12 September 2026, marked 'Page Proof Pending Publication'. This specifies the observed preliminary-print versions, not original release-day files or final bound prints.\n\nThe lead opinion is the named author's principal writing announcing the Court's decision. Include the entire writing, even where some parts are labeled only as that Justice's opinion. Compare the substantive part and subpart scopes distinguished by the formal joinder statements. Cover every such scope; an unrestricted joinder applies throughout the writing.\n\nApply these counting rules:\n- For each scope, count the author and every other Justice expressly recorded as joining that scope, once each.\n- A joinder limited to a part extends to that part's subdivisions, unless expressly limited further.\n- Agreement with a judgment or conclusion does not establish joinder. A Justice's joinder in a separate opinion applies to that opinion alone.\n- The syllabus and separate opinions are not support units. Their formal attribution statements or express declarations may establish joinder in the lead opinion.\n- Writing a separate opinion neither removes an express lead-opinion joinder nor adds another count.\n\nThis measures formal joinder, without deciding which reasoning is binding law.",
+      "output_format": "Return a pipe-separated table with exactly this header and column order:\ndocket|min_justices|max_justices\n\nReturn one row per qualifying case. docket is the full docket string as listed in the term table, preserving its hyphen. min_justices and max_justices are integers: respectively the smallest and largest distinct-Justice counts across the lead opinion's substantive part scopes, including its author. Include every qualifying case regardless of its counts; retain all ties. Sort by numeric release sequence R ascending, then by docket in ascending lexicographic order if R is tied. Do not add case names, citations, source notes, Markdown fences, or other columns.\n\nIf no cases qualify, return only NONE, without a header. If any qualifying case's identity, required text, or formal joinder scope remains missing or unresolved, stop and return only UNRESOLVED: followed by a brief explanation. Do not return a partial table, substitute zero, or infer missing counts from judgment votes."
+    }
+  },
+  "private": {
+    "source_version": "Official Volume 600, Part 1 preliminary prints observed 12 September 2026, marked Page Proof Pending Publication; decisions issued 27 June 2023, without claiming release-day bytes or final bound prints.",
+    "start_urls": [
+      "https://www.supremecourt.gov/opinions/slipopinion/22"
+    ],
+    "candidate_scope": "All signed decisions dated 6/27/23 in the official October Term 2022 Opinions of the Court table. Exclude unsigned per curiam decisions, orders and in-chambers opinions.",
+    "predicates": [
+      "Include the complete date/category universe; no count threshold or top-k filter.",
+      "Use the specified observed preliminary-print versions.",
+      "The lead opinion is the principal writing announcing the decision, including portions labeled only as its author's opinion.",
+      "Cover every substantive part/subpart scope distinguished by formal joinder; unrestricted joinder applies throughout and scoped joinder includes subdivisions unless further limited.",
+      "Count each expressly named lead joiner and the lead author once per applicable scope.",
+      "Judgment or conclusion agreement is not formal joinder; joinder in a separate opinion remains attached to that opinion.",
+      "Syllabus and separate opinions are evidence locations, not support units; express lead-joinder declarations there may be used.",
+      "A separate writing neither removes an express lead joinder nor duplicates a Justice's count.",
+      "Report each case's minimum and maximum scope counts without adjudicating binding-law doctrine."
+    ],
+    "output_columns": [
+      "docket",
+      "min_justices",
+      "max_justices"
+    ],
+    "row_key": [
+      "docket"
+    ],
+    "sorting_rules": [
+      "Numeric term-table release sequence R ascending; docket lexicographically ascending for tied R.",
+      "Retain all qualifying cases, including all count ties."
+    ],
+    "missing_value_rules": [
+      "Bare NONE only for an empty qualifying universe; never header plus NONE.",
+      "Unresolved qualifying identity, text or formal scope stops the table and produces UNRESOLVED: with a brief explanation.",
+      "No partial table, zero substitution or judgment-vote inference."
+    ],
+    "source_manifest_path": "source_manifest.json",
+    "state_graph_path": "state_graph.json",
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "not_run",
+    "difficulty": "screened",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "reference_report.md",
+      "design_rationale.md",
+      "pair_alignment.json",
+      "controller_integration_check.json",
+      "controller_pre_A_stability.json",
+      "development_decision.json"
+    ]
+  }
+}

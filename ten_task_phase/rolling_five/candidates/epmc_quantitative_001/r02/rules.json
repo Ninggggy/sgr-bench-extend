@@ -1,0 +1,111 @@
+{
+  "columns": [
+    "original_pmcid",
+    "original_doi",
+    "initial_n",
+    "analyzed_n",
+    "help_n",
+    "nondepressed_n",
+    "analysis_population"
+  ],
+  "row_key": [
+    "original_pmcid",
+    "original_doi"
+  ],
+  "sort": [
+    "original_doi",
+    "original_pmcid"
+  ],
+  "numeric_fields": [
+    "initial_n",
+    "analyzed_n",
+    "help_n",
+    "nondepressed_n"
+  ],
+  "numeric_comparison": "Decimal exact equality; no tolerance, rounding or percentage reconstruction",
+  "units": {
+    "initial_n": "people",
+    "analyzed_n": "people",
+    "help_n": "people",
+    "nondepressed_n": "people"
+  },
+  "unit_conversions": {},
+  "text_normalization": [
+    "Unicode NFKC",
+    "collapse whitespace",
+    "remove Markdown wrapper",
+    "apply only listed aliases"
+  ],
+  "aliases": {
+    "original_pmcid": {},
+    "original_doi": {},
+    "analysis_population": {
+      "baseline;SCID5;returned": "baseline;SCID-5;returned",
+      "baseline;SCID-5 diagnostic assessment;returned": "baseline;SCID-5;returned",
+      "baseline;Structured Clinical Interview for DSM-5 Disorders;returned": "baseline;SCID-5;returned",
+      "baseline; SCID-5; returned": "baseline;SCID-5;returned"
+    }
+  },
+  "alias_evidence": [
+    {
+      "aliases": [
+        "baseline;SCID5;returned",
+        "baseline;SCID-5 diagnostic assessment;returned",
+        "baseline; SCID-5; returned"
+      ],
+      "source": "original Par12",
+      "reason": "Assessment spelling/descriptor or delimiter whitespace only; same explicitly completed baseline SCID-5 assessment and returned assessment questionnaires."
+    },
+    {
+      "aliases": [
+        "baseline;Structured Clinical Interview for DSM-5 Disorders;returned"
+      ],
+      "source": "original Par18 together with Par12",
+      "reason": "Original observer-rating section supplies the assessment's expanded name; Par12 supplies its required completion and baseline context."
+    }
+  ],
+  "missing_tokens": {
+    "NA": "requested count not corrected by a qualifying notice",
+    "UNKNOWN": "applicable unresolved fact or component",
+    "NONE": "no qualifying studies"
+  },
+  "duplicates": "First row for a repeated composite entity participates; later duplicates remain in the prediction denominator and receive no credit.",
+  "extra_or_missing_fields": "Use the supplied generic scorer rules; do not forgive missing or extra fields.",
+  "poa": "Use first occurrences of shared composite keys; fewer than two shared keys gives zero. This one-row candidate cannot measure ordering discrimination.",
+  "container_policy": "Keep oracle and scorer assets private; controller explicitly supplies scorer configuration.",
+  "fields": {
+    "original_pmcid": {
+      "type": "string",
+      "aliases": {}
+    },
+    "original_doi": {
+      "type": "string",
+      "aliases": {}
+    },
+    "initial_n": {
+      "type": "integer",
+      "aliases": {}
+    },
+    "analyzed_n": {
+      "type": "integer",
+      "aliases": {}
+    },
+    "help_n": {
+      "type": "integer",
+      "aliases": {}
+    },
+    "nondepressed_n": {
+      "type": "integer",
+      "aliases": {}
+    },
+    "analysis_population": {
+      "type": "string",
+      "aliases": {
+        "baseline;SCID5;returned": "baseline;SCID-5;returned",
+        "baseline;SCID-5 diagnostic assessment;returned": "baseline;SCID-5;returned",
+        "baseline;Structured Clinical Interview for DSM-5 Disorders;returned": "baseline;SCID-5;returned",
+        "baseline; SCID-5; returned": "baseline;SCID-5;returned"
+      }
+    }
+  }
+}

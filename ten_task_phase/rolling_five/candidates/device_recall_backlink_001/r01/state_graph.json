@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "state": "Unique Recall Number resolves official detail",
+      "supplies": "finite cited 510(k) IDs plus source record ID"
+    },
+    {
+      "id": "registration",
+      "state": "Registration for each discovered application",
+      "supplies": "actual CDRH Recalls link"
+    },
+    {
+      "id": "view",
+      "state": "application-scoped recall view including all pages",
+      "supplies": "candidate backlink record links"
+    },
+    {
+      "id": "identity",
+      "state": "actual record-link targets",
+      "supplies": "exact source membership"
+    }
+  ],
+  "edges": [
+    {
+      "from": "root",
+      "to": "registration",
+      "dependency": "discovered 510(k) ID selects registration"
+    },
+    {
+      "from": "registration",
+      "to": "view",
+      "dependency": "actual registration recall link configures view"
+    },
+    {
+      "from": "view",
+      "to": "identity",
+      "dependency": "actual displayed links select target identities"
+    }
+  ],
+  "indispensable_field": "source-record membership of each registration-provided view; absent from source detail",
+  "fixed_material_limit": "Root detail actually covers forward set only; no fixed source covering both reverse states demonstrated. Other public exports are not forbidden and not exhaustively ruled out."
+}

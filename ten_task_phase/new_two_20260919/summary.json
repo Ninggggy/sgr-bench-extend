@@ -1,0 +1,484 @@
+{
+  "goal_completed": false,
+  "status": "uncompleted_A_version_budget_exhausted",
+  "stopped_at": "2026-09-19T11:08:36.942271+00:00",
+  "blind_used": 8,
+  "blind_limit": 12,
+  "review_used": 10,
+  "review_limit": 15,
+  "versions_used": {
+    "A": 3,
+    "B": 2
+  },
+  "version_limit": 3,
+  "versions": [
+    {
+      "candidate_id": "A",
+      "revision": "v1",
+      "faces": {
+        "CG": {
+          "item_f1_exact": "1",
+          "row_f1_exact": "1",
+          "whole_task_correct": true,
+          "valid": true,
+          "strictly_below_70": false,
+          "retrieval_review": {
+            "verdict": "passed",
+            "capability_score_eligible": true,
+            "access_confounded": false,
+            "format_confounded": false,
+            "answer_exposure_review": "passed",
+            "reviewed_by": "controller",
+            "reviewed_at": "2026-09-19T09:20:50.892994+00:00",
+            "content_errors": [],
+            "format_errors": [],
+            "access_issues": [
+              "One nonessential ICOMOS full-report PDF 206976 exceeded web size limit. Solver recovered through original readable addendum 206978 and obtained all decisive evidence. No answer cell depends on the failed source."
+            ],
+            "retrieval_compliance": {
+              "ordinary_search_and_page_reads": true,
+              "direct_data_api": false,
+              "bulk_or_split_bulk_fetch": false,
+              "private_answer_access": false,
+              "pagination_violation": false,
+              "notes": "Reviewed every exec tool input and resolved official source provenance in outputs. Search-result snippets included irrelevant indexed search pages with maxrows=200; none were opened by the solver. Separate official original PDFs, including the meeting decision compendium, are ordinary original documents, not bulk endpoint exports or a private merged answer."
+            },
+            "logical_web_requests": 27,
+            "web_tool_calls": 7,
+            "source_path": "Official search -> session document index -> original addendum 206978 -> search within Recommendations -> final decision 8623 and original IUCN single-property extract 208539.",
+            "success_path_analysis": "A short legitimate route found the original negative recommendation, final approval, added versus whole-property areas and due date. All seven fields are correct. No demonstrated substantive revision follows merely from this high score."
+          },
+          "elapsed_seconds": 102.957,
+          "usage": {
+            "input_tokens": 340022,
+            "cached_input_tokens": 266112,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1694,
+            "reasoning_output_tokens": 673
+          },
+          "run_dir": "construction_pipeline/ten_task_phase/new_two_20260919/runs/new-two-A-v1-CG",
+          "item_fraction_unreduced": {
+            "n": 14,
+            "d": 14
+          },
+          "exact_threshold_comparison": {
+            "left": 140,
+            "right": 98
+          },
+          "format_issues": []
+        },
+        "GO": {
+          "item_f1_exact": "1",
+          "row_f1_exact": "1",
+          "whole_task_correct": true,
+          "valid": true,
+          "strictly_below_70": false,
+          "retrieval_review": {
+            "verdict": "passed",
+            "capability_score_eligible": true,
+            "access_confounded": false,
+            "format_confounded": false,
+            "answer_exposure_review": "passed",
+            "reviewed_by": "controller",
+            "reviewed_at": "2026-09-19T09:20:50.894837+00:00",
+            "content_errors": [],
+            "format_errors": [],
+            "access_issues": [],
+            "retrieval_compliance": {
+              "ordinary_search_and_page_reads": true,
+              "direct_data_api": false,
+              "bulk_or_split_bulk_fetch": false,
+              "private_answer_access": false,
+              "pagination_violation": false,
+              "notes": "Reviewed every exec tool input and resolved official source provenance in outputs. Search-result snippets included irrelevant indexed search pages with maxrows=200; none were opened by the solver. Separate official original PDFs, including the meeting decision compendium, are ordinary original documents, not bulk endpoint exports or a private merged answer."
+            },
+            "logical_web_requests": 19,
+            "web_tool_calls": 8,
+            "source_path": "Official search -> original ICOMOS addendum 206978 -> negative recommendation search -> exclude Loire using decision 8632 -> approve Maloti using8623 -> IUCN original206982.",
+            "success_path_analysis": "A short legitimate route found the original negative recommendation, final approval, added versus whole-property areas and due date. All seven fields are correct. No demonstrated substantive revision follows merely from this high score."
+          },
+          "elapsed_seconds": 89.079,
+          "usage": {
+            "input_tokens": 387564,
+            "cached_input_tokens": 317312,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1614,
+            "reasoning_output_tokens": 619
+          },
+          "run_dir": "construction_pipeline/ten_task_phase/new_two_20260919/runs/new-two-A-v1-GO",
+          "item_fraction_unreduced": {
+            "n": 14,
+            "d": 14
+          },
+          "exact_threshold_comparison": {
+            "left": 140,
+            "right": 98
+          },
+          "format_issues": []
+        }
+      },
+      "quality": "passed_after_pretest_repairs",
+      "qualified": false
+    },
+    {
+      "candidate_id": "A",
+      "revision": "v2",
+      "faces": {
+        "CG": {
+          "valid": true,
+          "quality": "passed",
+          "item_fraction_unreduced": {
+            "n": 40,
+            "d": 40
+          },
+          "item_f1_exact": "1",
+          "row_f1_exact": "1",
+          "whole_task_correct": true,
+          "exact_threshold_comparison": {
+            "left": 400,
+            "right": 280
+          },
+          "strictly_below_70": false,
+          "qualified_face": false,
+          "retrieval_review": {
+            "verdict": "passed",
+            "capability_score_eligible": true,
+            "access_confounded": false,
+            "format_confounded": false,
+            "answer_exposure_review": "passed",
+            "reviewed_by": "controller",
+            "reviewed_at": "2026-09-19T09:40:36.633573+00:00",
+            "content_errors": [],
+            "access_issues": [],
+            "format_errors": [],
+            "retrieval_compliance": {
+              "ordinary_search_and_pages": true,
+              "data_api": false,
+              "bulk_or_split_bulk_fetch": false,
+              "pagination_violation": false,
+              "notes": "Two original production pages opened; the solver searched the already-open earlier page for27 candidate names. These are within-document find operations, not bulk fetching27 individual records or a dataset API. Exact cast grouping, recorded voice and named-role distinctions were correctly applied."
+            },
+            "web_tool_calls": 4,
+            "logical_web_requests": 36,
+            "source_path": "Ordinary search -> two IBDB original productions -> in-document candidate comparison -> targeted source rereads",
+            "success_path_analysis": "The complete original pages expose enough credit structure for a short legal join/classification route. All20 fields correct; no justified wording-only or workload-only retest."
+          },
+          "usage": {
+            "input_tokens": 153537,
+            "cached_input_tokens": 111744,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1644,
+            "reasoning_output_tokens": 760
+          },
+          "elapsed_seconds": 65.472
+        },
+        "GO": {
+          "valid": true,
+          "quality": "passed",
+          "item_fraction_unreduced": {
+            "n": 40,
+            "d": 40
+          },
+          "item_f1_exact": "1",
+          "row_f1_exact": "1",
+          "whole_task_correct": true,
+          "exact_threshold_comparison": {
+            "left": 400,
+            "right": 280
+          },
+          "strictly_below_70": false,
+          "qualified_face": false,
+          "retrieval_review": {
+            "verdict": "passed",
+            "capability_score_eligible": true,
+            "access_confounded": false,
+            "format_confounded": false,
+            "answer_exposure_review": "passed",
+            "reviewed_by": "controller",
+            "reviewed_at": "2026-09-19T09:42:34.191649+00:00",
+            "content_errors": [],
+            "access_issues": [],
+            "format_errors": [],
+            "retrieval_compliance": {
+              "ordinary_search_and_pages": true,
+              "data_api": false,
+              "bulk_or_split_bulk_fetch": false,
+              "pagination_violation": false,
+              "notes": "Search and in-document find read the two original IBDB production pages; name checks were performed within already identified original documents. No batch of person-record fetches, prejoined answer, private assets or alternate-face answer."
+            },
+            "web_tool_calls": 5,
+            "logical_web_requests": 34,
+            "source_path": "Official archive search -> relation and two original production records -> grouped searches and in-document finds -> role/category comparison",
+            "success_path_analysis": "All20 fields and membership decisions correct; the shallow two-document join is readily solved."
+          },
+          "usage": {
+            "input_tokens": 196056,
+            "cached_input_tokens": 139776,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2281,
+            "reasoning_output_tokens": 1072
+          },
+          "elapsed_seconds": 80.645
+        }
+      },
+      "quality": "passed_after_pretest_repairs",
+      "qualified": false
+    },
+    {
+      "candidate_id": "B",
+      "revision": "v1",
+      "faces": {},
+      "quality": "rejected_retrieval_dependency",
+      "qualified": false
+    },
+    {
+      "candidate_id": "B",
+      "revision": "v2",
+      "faces": {
+        "CG": {
+          "item_f1_exact": "11/12",
+          "row_f1_exact": "2/3",
+          "whole_task_correct": false,
+          "valid": false,
+          "strictly_below_70": false,
+          "retrieval_review": {
+            "verdict": "invalid_for_capability",
+            "capability_score_eligible": false,
+            "access_confounded": false,
+            "format_confounded": false,
+            "answer_exposure_review": "passed",
+            "interpretation_confounded": true,
+            "interpretation_scope": "shared B v2 question; both faces excluded, not only the disagreeing face",
+            "reviewed_by": "controller with Astra/medium content arbitration",
+            "content_errors": [
+              "One registered mismatch:7306 NO versusYES, but the alternate interpretation is defensible. Do not label as clean reasoning failure."
+            ],
+            "access_issues": [
+              "Nonessential RFC-info page and two legacy erratum redirects failed. Official catalog and originals recovered; every decisive source was obtained."
+            ],
+            "format_errors": [],
+            "retrieval_compliance": {
+              "ordinary_search_and_pages": true,
+              "data_api": false,
+              "bulk_or_split_bulk_fetch": false,
+              "pagination_violation": false,
+              "notes": "Reviewed all tool inputs and outputs. Normal RFC HTML originals and individual errata used. Author-maintained status index inCG supplies catalog metadata, not a premerged legacy answer. Redirect errors recovered through ordinary official search."
+            },
+            "web_tool_calls": 8,
+            "logical_web_requests": 29,
+            "arbitration": "runs/new-two-B-v2-review-2/stage_assets/review.md"
+          },
+          "elapsed_seconds": 132.915,
+          "usage": {
+            "input_tokens": 352894,
+            "cached_input_tokens": 278272,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 4148,
+            "reasoning_output_tokens": 2499
+          },
+          "run_dir": "construction_pipeline/ten_task_phase/new_two_20260919/runs/new-two-B-v2-CG",
+          "item_fraction_unreduced": {
+            "n": 22,
+            "d": 24
+          },
+          "exact_threshold_comparison": {
+            "left": 220,
+            "right": 168
+          },
+          "format_issues": []
+        },
+        "GO": {
+          "item_f1_exact": "1",
+          "row_f1_exact": "1",
+          "whole_task_correct": true,
+          "valid": false,
+          "strictly_below_70": false,
+          "retrieval_review": {
+            "verdict": "invalid_for_capability",
+            "capability_score_eligible": false,
+            "access_confounded": false,
+            "format_confounded": false,
+            "answer_exposure_review": "passed",
+            "interpretation_confounded": true,
+            "interpretation_scope": "shared B v2 question; both faces excluded, not only the disagreeing face",
+            "reviewed_by": "controller with Astra/medium content arbitration",
+            "content_errors": [],
+            "access_issues": [],
+            "format_errors": [],
+            "retrieval_compliance": {
+              "ordinary_search_and_pages": true,
+              "data_api": false,
+              "bulk_or_split_bulk_fetch": false,
+              "pagination_violation": false,
+              "notes": "Reviewed all tool inputs and outputs. Normal RFC HTML originals and individual errata used. Author-maintained status index inCG supplies catalog metadata, not a premerged legacy answer. Redirect errors recovered through ordinary official search."
+            },
+            "web_tool_calls": 7,
+            "logical_web_requests": 22,
+            "arbitration": "runs/new-two-B-v2-review-2/stage_assets/review.md"
+          },
+          "elapsed_seconds": 116.313,
+          "usage": {
+            "input_tokens": 332672,
+            "cached_input_tokens": 264832,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2952,
+            "reasoning_output_tokens": 1577
+          },
+          "run_dir": "construction_pipeline/ten_task_phase/new_two_20260919/runs/new-two-B-v2-GO",
+          "item_fraction_unreduced": {
+            "n": 24,
+            "d": 24
+          },
+          "exact_threshold_comparison": {
+            "left": 240,
+            "right": 168
+          },
+          "format_issues": []
+        }
+      },
+      "quality": "interpretation_confounded",
+      "qualified": false
+    },
+    {
+      "candidate_id": "A",
+      "revision": "v3",
+      "quality": "passed_preblind_audit_and_postblind_trajectory_review",
+      "faces": {
+        "CG": {
+          "valid": true,
+          "quality": "passed",
+          "item_fraction_unreduced": {
+            "n": 80,
+            "d": 80
+          },
+          "item_f1_exact": "80/80",
+          "row_f1_exact": "16/16",
+          "whole_task_correct": true,
+          "exact_threshold_comparison": {
+            "left": 800,
+            "right": 560
+          },
+          "strictly_below_70": false,
+          "qualified_face": false,
+          "offset_field_accuracy": {
+            "offsets_2024a": {
+              "correct": 8,
+              "gold": 8
+            },
+            "offsets_2024b": {
+              "correct": 8,
+              "gold": 8
+            }
+          },
+          "scoring": "authoritative_scoring/scores.json",
+          "retrieval_review": {
+            "verdict": "passed",
+            "capability_score_eligible": true,
+            "reviewed_by": "controller",
+            "reviewed_at": "2026-09-19T11:04:01.091967+00:00",
+            "content_errors": [],
+            "access_issues": [],
+            "format_errors": [],
+            "access_confounded": false,
+            "format_confounded": false,
+            "answer_exposure_review": "passed",
+            "retrieval_compliance": {
+              "ordinary_search_and_page_reads": true,
+              "direct_data_api": false,
+              "bulk_or_split_bulk_fetch": false,
+              "private_answer_access": false,
+              "pagination_violation": false,
+              "notes": "All tool inputs are ordinary web search/open/find. These are three original text files per source mirror, not a dataset endpoint or premerged inverse answer. Page rereads are localized sections of the same originals. No archive download, compiler, shell, private file, opposite-face result, or direct API is invoked. Unrelated archive/API links inside search results/source comments were not followed."
+            },
+            "web_tool_calls": 6,
+            "logical_web_requests": 23,
+            "source_path": "Search → pinned IANA country index and both europe files → targeted Portugal and EU/W-Eur page reads → exact inverse-local interval table.",
+            "success_path_analysis": "Every one of 40 fields is correct, including old/new March 1992 gap reversal, offset cancellation at old zone boundaries, winter offset, December gap and March/June 1993 gap/fold. The finite source rules support a short legal reasoning route. Counterexamples established necessary judgments but did not produce errors. No workload-only or wording-only retest is justified."
+          },
+          "usage": {
+            "input_tokens": 250956,
+            "cached_input_tokens": 189952,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 4495,
+            "reasoning_output_tokens": 3048
+          },
+          "elapsed_seconds": 136.065,
+          "run_dir": "runs/new-two-A-v3-CG"
+        },
+        "GO": {
+          "valid": true,
+          "quality": "passed",
+          "item_fraction_unreduced": {
+            "n": 80,
+            "d": 80
+          },
+          "item_f1_exact": "80/80",
+          "row_f1_exact": "16/16",
+          "whole_task_correct": true,
+          "exact_threshold_comparison": {
+            "left": 800,
+            "right": 560
+          },
+          "strictly_below_70": false,
+          "qualified_face": false,
+          "offset_field_accuracy": {
+            "offsets_2024a": {
+              "correct": 8,
+              "gold": 8
+            },
+            "offsets_2024b": {
+              "correct": 8,
+              "gold": 8
+            }
+          },
+          "scoring": "authoritative_scoring/scores.json",
+          "retrieval_review": {
+            "verdict": "passed",
+            "capability_score_eligible": true,
+            "reviewed_by": "controller",
+            "reviewed_at": "2026-09-19T11:04:01.091967+00:00",
+            "content_errors": [],
+            "access_issues": [],
+            "format_errors": [],
+            "access_confounded": false,
+            "format_confounded": false,
+            "answer_exposure_review": "passed",
+            "retrieval_compliance": {
+              "ordinary_search_and_page_reads": true,
+              "direct_data_api": false,
+              "bulk_or_split_bulk_fetch": false,
+              "private_answer_access": false,
+              "pagination_violation": false,
+              "notes": "All tool inputs are ordinary web search/open/find. These are three original text files per source mirror, not a dataset endpoint or premerged inverse answer. Page rereads are localized sections of the same originals. No archive download, compiler, shell, private file, opposite-face result, or direct API is invoked. Unrelated archive/API links inside search results/source comments were not followed."
+            },
+            "web_tool_calls": 9,
+            "logical_web_requests": 27,
+            "source_path": "Search → tagged raw GitHub country index and both europe files → Portugal and EU/W-Eur reads → additional date search → pinned IANA originals for confirmation → exact inverse-local interval table.",
+            "success_path_analysis": "Every one of 40 fields is correct, including old/new March 1992 gap reversal, offset cancellation at old zone boundaries, winter offset, December gap and March/June 1993 gap/fold. The finite source rules support a short legal reasoning route. Counterexamples established necessary judgments but did not produce errors. No workload-only or wording-only retest is justified."
+          },
+          "usage": {
+            "input_tokens": 470965,
+            "cached_input_tokens": 388480,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 5419,
+            "reasoning_output_tokens": 3731
+          },
+          "elapsed_seconds": 186.858,
+          "run_dir": "runs/new-two-A-v3-GO"
+        }
+      },
+      "qualified": false
+    }
+  ],
+  "interpretation": "Development-selected single paired evaluations, not unbiased final evaluation or historical three-trial means.",
+  "remaining_reviews": 5,
+  "previous_stop_reason": "Content-review budget exhausted; B v2 has confirmed ambiguity and every scored face is at or above70%; all registered pairs executed. No justified wording-only retest.",
+  "budget_amended_at": "2026-09-19T09:49:48.081053+00:00",
+  "last_screening_at": "2026-09-19T10:14:34.951703+00:00",
+  "screening_report": "exploration/resumed_screening.md",
+  "resumed_costs": "resumed_costs.json",
+  "remaining_blind": 4,
+  "unexecuted_registered_slots": 0,
+  "stop_reason": "A used all three substantive versions; A v3 CG and GO each valid 80/80. The conjunction of two qualified tasks is impossible within the authorized version limit. All registered pairs completed. B v3 remains unallocated; no claim of exhaustive infeasibility across every possible direction.",
+  "final_costs": "final_costs.json"
+}

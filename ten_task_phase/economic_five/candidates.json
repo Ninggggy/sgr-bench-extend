@@ -1,0 +1,169 @@
+[
+  {
+    "opportunity_id": "cpe",
+    "run_id": "cpe-feasibility-01",
+    "status": "stopped_inconclusive",
+    "reason": "No verified positive/boundary or universe; partial run, limiter omission separately corrected.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "kegg_module",
+    "run_id": "kegg-module-feasibility-02",
+    "status": "stopped_inconclusive",
+    "reason": "Bulk tables explain observed annotation difference; no decisive scientific gene evidence or sister-lineage rule.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "arxiv_validity",
+    "run_id": "arxiv-validity-feasibility-01",
+    "status": "stopped",
+    "reason": "Latest abstract already states key validity judgment; no nontrivial dependency.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "cfpb_orders",
+    "run_id": "cfpb-orders-feasibility-01",
+    "status": "stopped_inconclusive",
+    "reason": "Historical applicability and scope unresolved; novelty could not be verified.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "arxiv_terminal",
+    "run_id": "arxiv-terminal-feasibility-01",
+    "status": "stopped_inconclusive",
+    "reason": "Actual downstream withdrawal observed; scope unavailable and same-month fixed-material coverage unresolved.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "epmc_methods",
+    "run_id": "epmc-methods-feasibility-01",
+    "status": "blocked_safety",
+    "reason": "Provider flagged possible biological risk; no retry or score.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "census_geography",
+    "run_id": "lead-feasibility-01",
+    "status": "stopped_inconclusive",
+    "reason": "Fixed workbook covers identity fields; API returns Missing Key, not data. Geographic transition mechanism also overlaps earlier failed ACS direction; not counted as a novel qualified task.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "nvd_match_expansion",
+    "run_id": "nvd-match-feasibility-01",
+    "status": "stopped",
+    "reason": "Actual CVE→Match expansion adds identities, but short natural inventory fields are already in CVE. Checked product record is deprecated=false; no observed identity correction justifies further lookup. Do not add gratuitous UUIDs/rows.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "chemexpo_qualifier",
+    "run_id": "chemexpo-qualifier-feasibility-01",
+    "status": "stopped_inconclusive",
+    "reason": "Original structured record revision13 differs from obtained manufacturer revision18; cannot establish same-version qualifier omission.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "chemexpo_disclosure_versions",
+    "run_id": "chemexpo-versions-feasibility-01",
+    "status": "stopped_inconclusive",
+    "reason": "Follow-up based on actual newly observed version difference could not close product identity or fetch the named PDF for positive/boundary verification.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "arxiv_publication_availability",
+    "run_id": "arxiv-publication-feasibility-01",
+    "status": "stopped",
+    "reason": "Actual root DOI and publisher month resolve example without claimed conditional historical lookup.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "nvd_dictionary_coverage",
+    "run_id": "nvd-coverage-feasibility-01",
+    "review_run_id": "nvd-coverage-preconstruction-review-01",
+    "status": "stopped_inconclusive",
+    "reason": "Real positive/boundary exist; independent review actually retrieved complete fixed namespace Match and CVE data, so usage join needs no empty-result-dependent CVE query. Empty-field semantics and stable public historical grounding still incomplete; global snapshot requirement was too strong.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "nvd_daily_dictionary_coverage",
+    "run_id": "nvd-daily-coverage-feasibility-01",
+    "review_run_id": "nvd-daily-dependency-review-02",
+    "status": "stopped_development",
+    "reason": "Stop after development A: both variants have exact Item-F1 1 with complete rows, no extra/omitted/duplicate identities, and full required source coverage. No substantive error evidence warrants B, attacks, audit or formal retests.",
+    "constructed": true,
+    "admitted": false,
+    "dependency_review": "continue",
+    "builder_run_id": "nvd-daily-full-builder-01",
+    "stop_rule_correction": "version-requirement-review-01; actual full-answer stability required, historical replay not general prerequisite",
+    "candidate_id": "economic_nvd_daily_001",
+    "revision": "r02",
+    "reference_rows": 228,
+    "pair_path": "candidates/economic_nvd_daily_001/r02",
+    "previous_reason": "Dependency confirmed by independent review; builder actual live version check cannot retrieve specified historical zero-coverage response through registered blind tools. No full reference or pair.",
+    "development_scores": {
+      "CG": "1",
+      "GO": "1"
+    },
+    "decision_path": "candidates/economic_nvd_daily_001/r02/development_decision.json"
+  },
+  {
+    "opportunity_id": "kegg_fixed_anchor_ddi",
+    "run_id": "kegg-ddi-feasibility-01",
+    "status": "stopped",
+    "reason": "Actual fixed target group and fixed azathioprine all-DDI tables fully cover question by independent local join.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "arxiv_scientific_result_revision",
+    "run_id": "arxiv-result-revision-feasibility-01",
+    "status": "stopped_inconclusive",
+    "reason": "Actual abstract of math/0701428 directly states added assumption and affected theorem/lemma. No indispensable historical-body positive or invariant boundary verified.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "kegg_between_group_ddi",
+    "run_id": "kegg-ddi-class-feasibility-01",
+    "status": "stopped_development",
+    "reason": "CG perfect and GO all 296 identities/coverage correct with only two class-token losses; practical near-perfect solution via discovered full groups and one DDI batch. No value in B/attacks/formal retests under economical screening.",
+    "constructed": true,
+    "admitted": false,
+    "builder_run_id": "kegg-ddi-builder-02",
+    "stop_rule_correction": "version-requirement-review-01: historical replay not mandatory; actual time-bounded full-answer stability required",
+    "previous_builder_run_id": "kegg-ddi-builder-01",
+    "scope_parse": {
+      "SSRI": 20,
+      "MAO": 40
+    },
+    "candidate_id": "economic_kegg_ddi_001",
+    "revision": "r02",
+    "substantive_repairs": 1,
+    "reference_rows": 296,
+    "pair_path": "candidates/economic_kegg_ddi_001/r02",
+    "development_scores": {
+      "CG": "1",
+      "GO": "443/444"
+    }
+  },
+  {
+    "opportunity_id": "reptile_native_distribution",
+    "run_id": "reptile-distribution-feasibility-01",
+    "status": "stopped_inconclusive",
+    "reason": "List-to-record dependency and workbook omission confirmed; native semantics/geographic completeness and publicly accessible relevant version unresolved. Actual historical dump download rejected by registered source config; no bypass.",
+    "constructed": false,
+    "admitted": false
+  }
+]

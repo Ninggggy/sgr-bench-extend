@@ -1,0 +1,56 @@
+{
+  "candidate_id": "arxiv_historical_title_002",
+  "revision": 3,
+  "protocol_version": "ten-task-v1",
+  "registered_at": "2026-09-10T11:45:08.141161+00:00",
+  "rules_path": "../candidates/arxiv_historical_title_002/r03/rules.json",
+  "audit_paths": [
+    "../runs/r-resume-arxiv002-r03-audit"
+  ],
+  "purpose": "selection_screening_not_unbiased_evaluation",
+  "retry_policy": "Zero automatic replacements in this round. Infrastructure failure leaves the version inconclusive; no slot substitution, no extra sampling, no zero imputation. All six primary slots remain scheduled. Irrecoverable blocking or existing runtime/budget limits trigger user-requested stop with unfinished slots reported.",
+  "slots": [
+    {
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "r-arxiv-histtitle002-r03-cg-admission-1",
+      "run_dir": "../runs/r-arxiv-histtitle002-r03-cg-admission-1",
+      "label": "admission_arxiv_historical_title_002_r03_CG_1"
+    },
+    {
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "r-arxiv-histtitle002-r03-go-admission-1",
+      "run_dir": "../runs/r-arxiv-histtitle002-r03-go-admission-1",
+      "label": "admission_arxiv_historical_title_002_r03_GO_1"
+    },
+    {
+      "variant": "CG",
+      "trial": 2,
+      "run_id": "r-arxiv-histtitle002-r03-cg-admission-2",
+      "run_dir": "../runs/r-arxiv-histtitle002-r03-cg-admission-2",
+      "label": "admission_arxiv_historical_title_002_r03_CG_2"
+    },
+    {
+      "variant": "GO",
+      "trial": 2,
+      "run_id": "r-arxiv-histtitle002-r03-go-admission-2",
+      "run_dir": "../runs/r-arxiv-histtitle002-r03-go-admission-2",
+      "label": "admission_arxiv_historical_title_002_r03_GO_2"
+    },
+    {
+      "variant": "CG",
+      "trial": 3,
+      "run_id": "r-arxiv-histtitle002-r03-cg-admission-3",
+      "run_dir": "../runs/r-arxiv-histtitle002-r03-cg-admission-3",
+      "label": "admission_arxiv_historical_title_002_r03_CG_3"
+    },
+    {
+      "variant": "GO",
+      "trial": 3,
+      "run_id": "r-arxiv-histtitle002-r03-go-admission-3",
+      "run_dir": "../runs/r-arxiv-histtitle002-r03-go-admission-3",
+      "label": "admission_arxiv_historical_title_002_r03_GO_3"
+    }
+  ]
+}

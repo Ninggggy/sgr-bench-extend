@@ -1,0 +1,90 @@
+{
+  "candidate_id": "arxiv_assumption_scope_001",
+  "revision": 3,
+  "decision": "stop_full_scores",
+  "stage": "development_a",
+  "at": "2026-09-12T06:21:00.107395+00:00",
+  "trials": [
+    {
+      "variant": "CG",
+      "run_path": "runs/arxiv-r03-cg-dev-a",
+      "counts": {
+        "correct_fields": 12,
+        "gold_fields": 12,
+        "pred_fields": 12,
+        "item_denominator": 24,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "exact_item_f1": "1",
+      "verification_status": "passed",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/1705.08366",
+          "locator": "Submission history, lines 25\u201330: official versions v1, v2, and v3."
+        },
+        {
+          "url": "https://arxiv.org/html/1705.08366v1",
+          "locator": "\u00a71.3, lines 124\u2013127: ANY_T definition and rank t; Theorem 6, lines 216\u2013224: 2-general position and local triviality."
+        },
+        {
+          "url": "https://arxiv.org/html/1705.08366v2",
+          "locator": "\u00a71.3, lines 134\u2013137: matched-column definition and rank 2t; Theorem 8, lines 237\u2013245: 2-general position and local triviality."
+        },
+        {
+          "url": "https://arxiv.org/html/1705.08366v3",
+          "locator": "\u00a71.3, lines 136\u2013138: matched-column definition and rank 2t; appended Erratum/Definition 11, lines 288\u2013304; corrected Theorem 8, lines 331\u2013334: 2-very general position."
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "variant": "GO",
+      "run_path": "runs/arxiv-r03-go-dev-a",
+      "counts": {
+        "correct_fields": 12,
+        "gold_fields": 12,
+        "pred_fields": 12,
+        "item_denominator": 24,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "exact_item_f1": "1",
+      "verification_status": "passed",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/1705.08366",
+          "locator": "Submission history, lines 25\u201330: official versions v1, v2, and v3."
+        },
+        {
+          "url": "https://arxiv.org/html/1705.08366v1",
+          "locator": "\u00a71.3, line 125 (ANY_T and rank t); Theorem 6, lines 216\u2013224 (2-general position and local triviality)."
+        },
+        {
+          "url": "https://arxiv.org/html/1705.08366v2",
+          "locator": "\u00a71.3, lines 135\u2013136 (MATCHED_T and rank 2t); Theorem 8, lines 237\u2013245 (2-general position and local triviality)."
+        },
+        {
+          "url": "https://arxiv.org/html/1705.08366v3",
+          "locator": "\u00a71.3, lines 136\u2013137 (MATCHED_T and rank 2t); appended Erratum/Definition 11 and corrected Theorem 8, lines 288\u2013304 and 331\u2013334 (2-very general position)."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "reason": "Both independent verified Sol/medium runs fully correct; no decision error supports further B, attacks, audit or formal trials. Retain high scores; release all11 future reserved sessions. These are selection development scores, not formal means.",
+  "formal_means": null,
+  "admitted": false,
+  "human_review": "not_performed",
+  "independent_final_audit": "not_performed"
+}

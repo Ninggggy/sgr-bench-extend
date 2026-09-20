@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-09-09T05:26:14.143894+00:00",
+  "label": "screening_new_CG_1",
+  "run": "runs/r-a55562d61d59",
+  "proceed": true,
+  "model_four_sources_verified": true,
+  "read_isolation_passed": true,
+  "tool_evidence": {
+    "native_tool_records": 40,
+    "calls": {
+      "exec": 19,
+      "wait": 1
+    },
+    "official_download_and_full_sql": "Station460 / activity1026 / result3782 decisive source fields equal original reference; complete activities833"
+  },
+  "extraction": "exact final_answer field, parsed and scored with saved unchanged scorer",
+  "metrics": {
+    "Item-F1": 0.1,
+    "Row-F1": 0.1,
+    "P.O.A.": 1.0
+  },
+  "counts": {
+    "correct_fields": 54,
+    "gold_fields": 216,
+    "pred_fields": 864,
+    "item_denominator": 1080,
+    "correct_rows": 3,
+    "gold_rows": 12,
+    "pred_rows": 48,
+    "row_denominator": 60,
+    "correct_pairs": 3,
+    "pair_denominator": 3,
+    "shared_ids": 3
+  },
+  "score_interpretation": "Actual wrong answer, not environment failure. Query groups all partly supported stations together before requiring every year, rather than retaining each fully supported station separately. Produces incorrect original frontier and spurious withdrawal states. No retry or task changes.",
+  "source_change": "No difference in compared decisive fields across complete source scope",
+  "next": "Run remaining three screening slots, then fixed12confirmation after screening review. Scores cannot change schedule.",
+  "controller_note": "First review-writing command used a relative path against absolute run path and failed before writing; corrected path only. No model session failed, repeated, restarted or added."
+}

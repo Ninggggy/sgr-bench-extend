@@ -1,0 +1,80 @@
+{
+  "candidate_id": "chembl_stereochemical_peers_001",
+  "revision": 2,
+  "substantive_revisions_used": 1,
+  "maximum_substantive_revisions": 2,
+  "original_revision": "r01",
+  "status": "reference_ready",
+  "repair": "Use independently reviewed natural source-discovery description and neutral REGISTERED_ID output column; preserve every scientific predicate and original data row.",
+  "source_discovery_review": "../source_discovery_open_review.json",
+  "reviewed_public_drafts": [
+    "../source_discovery_open_evidence/cg.replacement_draft.json",
+    "../source_discovery_open_evidence/go.replacement_draft.json"
+  ],
+  "source_primary_observation": "../resumption_pretest_refresh/acquisition.json",
+  "source_observation_window_utc": [
+    "2026-09-13T03:15:28.584675+00:00",
+    "2026-09-13T03:15:37.493410+00:00"
+  ],
+  "reused_evidence": {
+    "original_sources": "../sources/",
+    "original_chemical_content_review": "../content_review.json",
+    "original_revision": "../r01/",
+    "new_source_discovery": "../source_discovery_open_evidence/request_ledger.json",
+    "current_core_acquisition": "../resumption_pretest_refresh/acquisition.json",
+    "policy": "Primary core roles use current controller observations; original complete connectivity/name/default/schema/repeat materials retain exact paths and metadata. No legacy execution-result folders copied."
+  },
+  "actual_changes": [
+    "cg.json and go.json copied exactly from independently reviewed drafts",
+    "candidate.public, private predicates/output columns/row key/sort rules updated consistently",
+    "rules.json neutral column/row-key; reference.py generated header changed only",
+    "source_manifest current core roles and stable original evidence paths",
+    "pair_alignment, language/reference/construction reports replaced with current claims",
+    "separate current source checks, reference recompute, schema, path and scorer checks written"
+  ],
+  "verification": {
+    "rows": 16,
+    "status_counts": {
+      "FULL": 8,
+      "PARTIAL": 7,
+      "UNSPECIFIED": 1
+    },
+    "all_original_data_rows_and_order_equal": true,
+    "reference_execution": "passed",
+    "independent_public_rule_recompute": "passed_constructor_separate_calculation",
+    "full_schema": "passed_existing_stage_results_validator",
+    "public_pair_and_draft_identity": "passed",
+    "ordinary_and_boundary_scorer_fixtures": 7,
+    "scorer_cli_self_comparison": "all_metrics_1_compatibility_only",
+    "prepare_check_files": "passed"
+  },
+  "limits": {
+    "difficulty": "unknown",
+    "solver_trials": 0,
+    "human_validation": "not_performed",
+    "postdevelopment_final_independent_audit": "not_performed",
+    "source_discovery_scope": "practical identifiability; no whole-Internet exclusivity proof",
+    "unknown_bulk_and_external_shortcuts": "not resolved or converted to blocking failure",
+    "future_source_stability": "not guaranteed"
+  },
+  "preservation": {
+    "r01_modified": false,
+    "old_reports_scores_sources_costs_modified": false,
+    "formal_method_modified": false,
+    "global_manifest_or_ledger_modified": false,
+    "existing_reference_failure_checks_preserved": true
+  },
+  "resource_accounting": {
+    "started_at_utc": "2026-09-13T03:21:29.006345+00:00",
+    "new_public_request_items": 0,
+    "controller_refresh_requests_reused": 4,
+    "prior_open_discovery_requests_reused": 4,
+    "solver_calls": 0,
+    "subagents": 0,
+    "dependencies_installed": 0,
+    "model_tokens_full_wall_clock": "Controller native trace authoritative; no estimates",
+    "completed_at_utc": "2026-09-13T03:25:26.019427+00:00",
+    "elapsed_since_r02_creation_seconds": 237.013082,
+    "dependency_probe_note": "Existing default and bundled runtimes lack jsonschema/Ajv; existing pipeline stage_results.validate used, no new validator or dependency."
+  }
+}

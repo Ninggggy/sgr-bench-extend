@@ -1,0 +1,52 @@
+{
+  "derivation": "Source-supported constructor annotations; executable extraction remains pending",
+  "items": [
+    {
+      "id": "E-GROUP",
+      "path": "../sources/DG00739.txt",
+      "record": "DG00739",
+      "fields": ["ENTRY", "NAME", "TYPE", "MEMBER"],
+      "facts": {"kind": "DGroup", "name": "Mycophenolic acid", "type": "Chemical", "direct_drug_members_in_source_order": ["D05096", "D00752", "D05094", "D05095"]},
+      "completeness_anchor": "/// after REMARK"
+    },
+    {
+      "id": "E-MOFETIL",
+      "path": "../sources/D_members.txt",
+      "record": "D00752",
+      "field": "COMMENT",
+      "quote": "Active form of prodrug: Mycophenolic acid [DR:D05096]",
+      "supports": ["D00752", "D05096"]
+    },
+    {
+      "id": "E-HYDROCHLORIDE",
+      "path": "../sources/D_members.txt",
+      "record": "D05094",
+      "field": "COMMENT",
+      "quote": "Active form of prodrug: Mycophenolic acid [DR:D05096]",
+      "identity_fields": {"ENTRY": "D05094 Drug", "NAME": "Mycophenolate mofetil hydrochloride (USAN);", "FORMULA": "C23H31NO7. HCl"},
+      "supports": ["D05094", "D05096"],
+      "identity_conclusion": "The hydrochloride has its own D entry; neither the common product name nor the shared active form merges it with D00752."
+    },
+    {
+      "id": "E-SODIUM",
+      "path": "../sources/D_members.txt",
+      "record": "D05095",
+      "field": "COMMENT",
+      "quote": "Prophylaxis of organ rejection in kidney transplant",
+      "boundary_field": "BRITE includes Prodrugs [br08324.html(DG00739)]",
+      "completeness_anchor": "Complete ENTRY through its ///",
+      "conclusion": "The complete own Comment does not contain the required relation; the group-level link does not supply it."
+    },
+    {
+      "id": "E-ACTIVE",
+      "path": "../sources/D_members.txt",
+      "record": "D05096",
+      "identity_fields": {"ENTRY": "D05096 Drug", "NAME": "Mycophenolic acid (USAN/INN)"},
+      "comment_present": false,
+      "completeness_anchor": "Complete ENTRY through the final ///",
+      "boundary_field": "BRITE includes Prodrugs links despite the absence of a Comment field",
+      "conclusion": "Verifies the linked active-form drug identity and excludes this member as a source of the queried own annotation."
+    }
+  ],
+  "exclusion_semantics": "Exclusions concern the explicit documented relation only; they do not assert biological non-prodrug status."
+}

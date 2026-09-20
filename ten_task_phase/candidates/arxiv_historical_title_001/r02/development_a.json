@@ -1,0 +1,30 @@
+{
+  "campaign": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/campaign.json",
+  "ledger": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/session_ledger.jsonl",
+  "role": "blind",
+  "purpose": "development",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "registered_at": "2026-09-09T12:16:50.337154+00:00",
+  "note": "Both ordinary initial development A slots before any arXiv score; not admission.",
+  "jobs": [
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-title-r02-cg-dev-a",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_001/r02/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_001/r02/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_001/r02/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_001/r02/r-arxiv-title-r02-cg-dev-a.job.json",
+      "label": "r-arxiv-title-r02-cg-dev-a"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-title-r02-go-dev-a",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_001/r02/GO.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_001/r02/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_001/r02/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_001/r02/r-arxiv-title-r02-go-dev-a.job.json",
+      "label": "r-arxiv-title-r02-go-dev-a"
+    }
+  ]
+}

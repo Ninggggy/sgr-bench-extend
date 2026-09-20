@@ -1,0 +1,23 @@
+{
+  "candidate_id": "europemc_republication_title_001",
+  "revision": "r01",
+  "ecosystem": "Europe PMC",
+  "construction_family": "historical_article_title_version",
+  "created_at": "2026-09-10T05:41:19.950969+00:00",
+  "constructor_session": 81,
+  "source_exploration_session": 116,
+  "status": "rejected_development",
+  "content_validated": false,
+  "admitted": false,
+  "substantive_revisions_used": 0,
+  "family_note": "One additional historical-title candidate; accepted arxiv_historical_title_001/r02 retained. Do not split either scope or construct further title-family candidates.",
+  "constructor_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-resume-plos-title-completion",
+  "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-resume-epmc-republication-titles",
+  "reference_execution": "passed",
+  "independent_key_check": "passed",
+  "source_model_verification": "both construction sessions passed four sources",
+  "registered_at": "2026-09-10T06:10:47.933599+00:00",
+  "difficulty_status": "both_initial_variants_fully_correct",
+  "decision": "CG/GO A each12/12correctfields, Item-F1=1; preserve full scores; no B, attacks, or admissions for this version.",
+  "decision_at": "2026-09-10T06:24:44.899931+00:00"
+}

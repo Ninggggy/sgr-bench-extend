@@ -1,0 +1,34 @@
+{
+  "admission_status": "rejected",
+  "observed_dependency": true,
+  "defensible_against_all_valid_bulk_paths": false,
+  "nodes": [
+    {"id":"A","operation":"Enumerate exact Chelodina species and filter authority years before 1900","sources":["d0006.response","d0035.response"]},
+    {"id":"B","operation":"Retrieve and inspect every qualifying seed Types account","sources":["d0020.response","d0038.response","d0039.response","d0040.response","d0041.response"]},
+    {"id":"C","operation":"Extract the unique outside-genus accession-book identification","source":"d0040.response","discovered_value":"Emydura macquarii"},
+    {"id":"D","operation":"Retrieve referred accepted record and establish its current genus","source":"d0044.response","discovered_value":"Emydura"},
+    {"id":"E","operation":"Use discovered exact genus in a later search/filter, then apply year < 1900","sources":["d0047.response","d0006.response"]},
+    {"id":"F","operation":"Retrieve selected target records and extract their own holotypes","sources":["d0044.response","d0045.response","d0046.response"]}
+  ],
+  "edges": [
+    {"from":"A","to":"B","changed_request":"Seed accepted names determine species-page URLs"},
+    {"from":"B","to":"C","changed_branch":"Only the accession-book referral satisfying all explicit conditions qualifies"},
+    {"from":"C","to":"D","changed_request":"Referred binomial changes accepted-record retrieval to a species outside the seed genus"},
+    {"from":"D","to":"E","changed_filter":"Later exact genus becomes Emydura"},
+    {"from":"E","to":"F","changed_request":"Selected target names determine later species-page URLs"}
+  ],
+  "actual_back_searches": [
+    {"input_from":"d0020.response Types","request_response":"d0036.response","outcome":"Two accepted records, oblonga and rugosa, but both already occur in the seed pool; this branch is insufficient"},
+    {"input_from":"d0040.response Types","request_response":"d0043.response","outcome":"Former-number search redirects to expansa, not the referred Emydura record; textual identity evidence changes the subsequent record lookup"}
+  ],
+  "shortcut_audit": [
+    {"path":"Current taxa CSV","validated":true,"effect":"Collapses accepted-name, genus, year and rank enumeration. Does not contain the accession referral or holotype identifiers. It is allowed."},
+    {"path":"June 2026 checklist","validated":true,"effect":"Independent complete membership/year source. type_species is not a specimen field. It is allowed."},
+    {"path":"2023 synonym workbook","validated":true,"effect":"Already exposes oblonga's multiple mappings, eliminating a claimed discovery dependency for that branch. It lacks specimen Types. It is allowed."},
+    {"path":"Five predetermined pre-1900 Chelodina pages plus current CSV","validated":true,"effect":"Supply the referral and target membership, but not all target holotype identifiers. Later target-page retrieval is observed."},
+    {"path":"Official full historical dump plus current checklist","validated":false,"effect":"Could contain the referral and all required holotype identifiers in fixed bulk files. Actual archive coverage must be inspected; its age alone does not defeat this bypass."},
+    {"path":"New frontend or other official API","validated":false,"effect":"Frontend and old API landing failures do not establish absence of another complete export."}
+  ],
+  "rejection_basis": "The cross-genus retrieval trace is real, but necessity is not defensible until advertised full bulk content is checked. Tool access failures are not converted into restrictions on valid solver paths.",
+  "content_validated": false
+}

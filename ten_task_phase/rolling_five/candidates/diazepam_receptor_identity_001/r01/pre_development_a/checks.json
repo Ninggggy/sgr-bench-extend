@@ -1,0 +1,24 @@
+{
+  "activities": {
+    "rows": 131,
+    "complete": true,
+    "same_id_set": true,
+    "all_fields_equal": true
+  },
+  "assays": {
+    "rows": 126,
+    "complete": true,
+    "same_id_set": true,
+    "all_fields_equal": true
+  },
+  "targets": {
+    "rows": 32,
+    "complete": true,
+    "same_id_set": true,
+    "all_fields_equal": true
+  },
+  "release": "ChEMBL_37",
+  "curated_rows": 130,
+  "observed_at": "2026-09-13T05:45:25.578008+00:00",
+  "limitations": "Complete queried answer-related records compared at observed times; no permanent replay/future stability guarantee. No model tests or response retries."
+}

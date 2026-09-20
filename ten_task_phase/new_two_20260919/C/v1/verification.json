@@ -1,0 +1,165 @@
+{
+  "passed": [
+    {
+      "name": "exact",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 256 | 140 | 8 | [136,140) | NONE | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\n",
+      "expected": [
+        128,
+        128
+      ],
+      "actual": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "markdown",
+      "fixture": "| configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes |\n|---|---|---|---|---|---|---|---|\n| RV32F32 | Clean | 256 | 140 | 8 | [136,140) | NONE | NONE |\n| RV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE |\n| RV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE |\n| RV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE |\n| RV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152) |\n| RV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696) |\n| RV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE |\n| RV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE |",
+      "expected": [
+        128,
+        128
+      ],
+      "actual": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "duplicate row counted",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 256 | 140 | 8 | [136,140) | NONE | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\nRV32F32 | Clean | 256 | 140 | 8 | [136,140) | NONE | NONE\n",
+      "expected": [
+        128,
+        136
+      ],
+      "actual": [
+        128,
+        136
+      ]
+    },
+    {
+      "name": "missing row counted",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 256 | 140 | 8 | [136,140) | NONE | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE",
+      "expected": [
+        112,
+        120
+      ],
+      "actual": [
+        112,
+        120
+      ]
+    },
+    {
+      "name": "wrong composite key loses whole row",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Unknown | 256 | 140 | 8 | [136,140) | NONE | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\n",
+      "expected": [
+        112,
+        128
+      ],
+      "actual": [
+        112,
+        128
+      ]
+    },
+    {
+      "name": "one field wrong",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 256 | 140 | 8 | [136,144) | NONE | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\n",
+      "expected": [
+        126,
+        128
+      ],
+      "actual": [
+        126,
+        128
+      ]
+    },
+    {
+      "name": "alias and whitespace",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 256 | 140 | 8 | [136,140) | NONE | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | ra:[ 148, 152 )\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | ra:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\n",
+      "expected": [
+        128,
+        128
+      ],
+      "actual": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "hex integer",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 0x100 | 140 | 8 | [136,140) | NONE | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\n",
+      "expected": [
+        128,
+        128
+      ],
+      "actual": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "uppercase hex interval",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 256 | 140 | 8 | [0X88,0X8C) | NONE | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\n",
+      "expected": [
+        128,
+        128
+      ],
+      "actual": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "uppercase register",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 256 | 140 | 8 | [136,140) | NONE | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | RA:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | RA:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\n",
+      "expected": [
+        128,
+        128
+      ],
+      "actual": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "wrong-field nullable synonym",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 256 | 140 | 8 | [136,140) | no overwrite | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\n",
+      "expected": [
+        126,
+        128
+      ],
+      "actual": [
+        126,
+        128
+      ]
+    },
+    {
+      "name": "malformed interval",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 256 | 140 | 8 | [136,140)junk | NONE | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\n",
+      "expected": [
+        126,
+        128
+      ],
+      "actual": [
+        126,
+        128
+      ]
+    },
+    "malformed non-substantive",
+    {
+      "name": "blank not NONE",
+      "fixture": "configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes\nRV32F32 | Clean | 256 | 140 | 8 | [136,140) |  | NONE\nRV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE\nRV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE\nRV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE\nRV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)\nRV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)\nRV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE\nRV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE\n",
+      "expected": [
+        126,
+        128
+      ],
+      "actual": [
+        126,
+        128
+      ]
+    },
+    "exact strict threshold",
+    "empty nonqualifying",
+    "independent manual algebra versus source-specific extractor plus manual semantic checks all eight cases"
+  ],
+  "number": 17
+}

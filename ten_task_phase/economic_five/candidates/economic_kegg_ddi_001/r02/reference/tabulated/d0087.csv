@@ -1,0 +1,72 @@
+drug1,drug2,class,mechanism
+dr:D05491,dr:D00109,P,unclassified
+dr:D05491,dr:D00126,P,unclassified
+dr:D05491,dr:D00132,P,unclassified
+dr:D05491,dr:D00228,P,Target: SLC6A4
+dr:D05491,dr:D00255,P,unclassified
+dr:D05491,dr:D00320,P,unclassified
+dr:D05491,dr:D00415,P,unclassified
+dr:D05491,dr:D00451,P,unclassified
+dr:D05491,dr:D00563,P,unclassified
+dr:D05491,dr:D00601,P,unclassified
+dr:D05491,dr:D00603,P,unclassified
+dr:D05491,dr:D00674,P,unclassified
+dr:D05491,dr:D00675,P,unclassified
+dr:D05491,dr:D00676,P,unclassified
+dr:D05491,dr:D00677,P,unclassified
+dr:D05491,dr:D00678,P,unclassified
+dr:D05491,dr:D00769,P,unclassified
+dr:D05491,dr:D00785,CI,unclassified
+dr:D05491,dr:D00801,P,unclassified
+dr:D05491,dr:D00809,P,Target: SLC6A4
+dr:D05491,dr:D00811,P,Target: SLC6A4
+dr:D05491,dr:D00815,P,Target: SLC6A4
+dr:D05491,dr:D00818,P,unclassified
+dr:D05491,dr:D00820,P,Target: SLC6A4
+dr:D05491,dr:D00821,P,Target: SLC6A4
+dr:D05491,dr:D00824,P,Target: SLC6A4
+dr:D05491,dr:D00848,P,unclassified
+dr:D05491,dr:D00904,P,unclassified
+dr:D05491,dr:D00947,P,unclassified
+dr:D05491,dr:D00966,P,unclassified
+dr:D05491,dr:D00969,P,unclassified
+dr:D05491,dr:D01028,P,unclassified
+dr:D05491,dr:D01179,P,Target: SLC6A4
+dr:D05491,dr:D01280,P,unclassified
+dr:D05491,dr:D01296,P,unclassified
+dr:D05491,dr:D01355,P,unclassified
+dr:D05491,dr:D01383,P,unclassified
+dr:D05491,dr:D01399,P,unclassified
+dr:D05491,dr:D01973,P,unclassified
+dr:D05491,dr:D01992,P,unclassified
+dr:D05491,dr:D02102,P,unclassified
+dr:D05491,dr:D02234,P,unclassified
+dr:D05491,dr:D02235,P,unclassified
+dr:D05491,dr:D02260,P,Target: SLC6A4
+dr:D05491,dr:D02562,CI,unclassified
+dr:D05491,dr:D02567,P,Target: SLC6A4
+dr:D05491,dr:D03855,P,unclassified
+dr:D05491,dr:D03960,P,unclassified
+dr:D05491,dr:D04148,P,Target: SLC6A4
+dr:D05491,dr:D04340,P,unclassified
+dr:D05491,dr:D04747,P,unclassified
+dr:D05491,dr:D07082,P,unclassified
+dr:D05491,dr:D07086,P,unclassified
+dr:D05491,dr:D07505,P,unclassified
+dr:D05491,dr:D08493,P,unclassified
+dr:D05491,dr:D09546,P,unclassified
+dr:D05491,dr:D09686,P,unclassified
+dr:D05491,dr:D09815,P,unclassified
+dr:D05491,dr:D09999,P,unclassified
+dr:D05491,dr:D10014,P,unclassified
+dr:D05491,dr:D10185,P,Target: SLC6A4
+dr:D05491,dr:D10191,CI,unclassified
+dr:D05491,dr:D10298,P,unclassified
+dr:D05491,dr:D10424,P,unclassified
+dr:D05491,dr:D10512,P,unclassified
+dr:D05491,dr:D10513,P,unclassified
+dr:D05491,dr:D10527,P,unclassified
+dr:D05491,dr:D10537,P,unclassified
+dr:D05491,dr:D10569,P,unclassified
+dr:D05491,dr:D10793,P,unclassified
+dr:D05491,dr:D11804,P,unclassified

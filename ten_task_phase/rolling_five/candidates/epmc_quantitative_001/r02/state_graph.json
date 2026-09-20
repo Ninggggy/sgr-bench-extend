@@ -1,0 +1,38 @@
+{
+  "candidate_id": "epmc_quantitative_001",
+  "observation_date": "2026-09-12",
+  "nodes": [
+    {"id":"A","state":"Complete annual lite search response","evidence":"360 returned records and hitCount=360; cursor starts at *; pageSize=1000","visibility":"Titles, types, identifiers and indexed volume/issue; no indispensable analysis inclusion text"},
+    {"id":"I","state":"Locally selected complete issue","evidence":"47 records with journalVolume=276 and issue=2; 24 populated PMCIDs"},
+    {"id":"C","state":"Candidate notice metadata","evidence":"PMC12953309 and PMC12953317; every issue record screened"},
+    {"id":"N1","state":"PMC12953317 full text","evidence":"Par4 corrects participant counts; Par1 gives original DOI; corrected-article link gives PMC12953261; Tab1 gives group labels and sizes"},
+    {"id":"N0","state":"PMC12953309 full text","evidence":"Par20 corrects Raffaella Ferri to Raffaele Ferri; remaining body contains only identity/update and publisher statements"},
+    {"id":"J","state":"Original identity resolved","evidence":"Notice DOI 10.1007/s00406-025-01990-5 joins annual MED:40063259/PMC12953261 and agrees with notice corrected-article PMCID"},
+    {"id":"O","state":"PMC12953261 full text","evidence":"Par9 baseline cross-section; Par12 initial and analyzed totals and inclusion requirements; Par32 SCID-5 group meaning and prior help"},
+    {"id":"B","state":"Previously completed batch of all 24 discovered issue PMCIDs","evidence":"Controller-preserved actual recovery includes N1, N0 and O; not refetched in this construction"},
+    {"id":"X","state":"Exclusion decision","evidence":"Author-only notice excluded; original study need not be retrieved"},
+    {"id":"R","state":"Normalized study row","evidence":"Identity and corrected counts joined to indispensable original population scope"}
+  ],
+  "edges": [
+    {"from":"A","to":"I","kind":"data","fields":["journalVolume","issue","id","source","pmcid","doi","title","pubType"]},
+    {"from":"I","to":"C","kind":"control","rule":"Actual title and type values determine candidate notice set"},
+    {"from":"C","to":"N1","kind":"control","rule":"Returned PMCID determines /PMC12953317/fullTextXML"},
+    {"from":"C","to":"N0","kind":"control","rule":"Returned PMCID determines /PMC12953309/fullTextXML"},
+    {"from":"N1","to":"J","kind":"data","fields":["Par1 original DOI","corrected-article linked PMCID"]},
+    {"from":"A","to":"J","kind":"data","fields":["doi","pmcid","id","source"]},
+    {"from":"J","to":"O","kind":"control","rule":"Resolved original PMCID determines required original XML endpoint; this particular edge can be bypassed by B"},
+    {"from":"N0","to":"X","kind":"control","rule":"Author-only content closes this branch without original data retrieval"},
+    {"from":"I","to":"B","kind":"control","rule":"The 24 returned, populated PMCIDs determine the actual batch retrieval operands"},
+    {"from":"B","to":"N1","kind":"data","fields":["saved notice XML"]},
+    {"from":"B","to":"N0","kind":"data","fields":["saved boundary XML"]},
+    {"from":"B","to":"O","kind":"data","fields":["saved original XML"]},
+    {"from":"N1","to":"R","kind":"data","fields":["revised counts","original identity","corrected table group labels"]},
+    {"from":"O","to":"R","kind":"data","fields":["initial_n","analyzed_n","analysis inclusion requirements","diagnostic group meaning","independent count checks"]}
+  ],
+  "witness": "In the preserved actual batch sequence, the annual response was obtained first, its issue fields yielded 47 records and 24 PMCIDs, and only those returned identifiers formed the subsequent full-text URLs. The batch included indispensable original population evidence absent from the annual metadata.",
+  "constructor_retrieval_note": "This constructor refetched only the annual response and the three already-discovered indispensable XMLs, as instructed. Their parallel refetch is verification of known operands, not a newly demonstrated discovery sequence.",
+  "mechanism_verdict": "Qualified observed identity-dependent retrieval under the supplied interpretation.",
+  "notice_specific_edge": "Bypassable: the actual same-issue batch already contains the original.",
+  "fixed_material_counterexample": "Once recovered, the batch is sufficient fixed material. Its acquisition was response-dependent; it was not a source list independently supplied in the public task.",
+  "limitations": ["No universal shortcut exclusion.", "No historical-version reconstruction.", "No difficulty conclusion from graph depth or batch size."]
+}

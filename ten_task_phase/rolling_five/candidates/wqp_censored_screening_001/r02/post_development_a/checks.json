@@ -1,0 +1,6 @@
+{
+  "status": "not_executed_after_observed_safety_refusal",
+  "public_request_items": 0,
+  "source_stability": "unverified_after_A",
+  "reason": "CG web Result cadmium resultPhysChem resource explicitly nonretryable; no controller post-source requests issued. Await local access adjudication; raw full scores retained."
+}

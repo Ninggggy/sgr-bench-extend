@@ -1,0 +1,117 @@
+{
+  "source_versions": [
+    "2024a",
+    "2024b"
+  ],
+  "local_range": [
+    "1992-01-01T00:00:00",
+    "1994-01-01T00:00:00"
+  ],
+  "candidates": [
+    {
+      "zone": "Europe/Lisbon",
+      "included": false,
+      "interval_count": 0,
+      "checked_local_cells": 8,
+      "reason": "all local cells have equal inverse offset sets"
+    },
+    {
+      "zone": "Atlantic/Madeira",
+      "included": false,
+      "interval_count": 0,
+      "checked_local_cells": 9,
+      "reason": "all local cells have equal inverse offset sets"
+    },
+    {
+      "zone": "Atlantic/Azores",
+      "included": true,
+      "interval_count": 8,
+      "checked_local_cells": 15,
+      "reason": "inverse offset sets differ"
+    }
+  ],
+  "rows": [
+    {
+      "zone": "Atlantic/Azores",
+      "start": "1992-03-29T00:00:00",
+      "end": "1992-03-29T01:00:00",
+      "old_offsets_seconds": [
+        -3600
+      ],
+      "new_offsets_seconds": []
+    },
+    {
+      "zone": "Atlantic/Azores",
+      "start": "1992-03-29T01:00:00",
+      "end": "1992-03-29T02:00:00",
+      "old_offsets_seconds": [],
+      "new_offsets_seconds": [
+        0
+      ]
+    },
+    {
+      "zone": "Atlantic/Azores",
+      "start": "1992-09-27T00:00:00",
+      "end": "1992-09-27T01:00:00",
+      "old_offsets_seconds": [
+        0
+      ],
+      "new_offsets_seconds": [
+        -3600,
+        0
+      ]
+    },
+    {
+      "zone": "Atlantic/Azores",
+      "start": "1992-09-27T01:00:00",
+      "end": "1992-12-27T01:00:00",
+      "old_offsets_seconds": [
+        0
+      ],
+      "new_offsets_seconds": [
+        -3600
+      ]
+    },
+    {
+      "zone": "Atlantic/Azores",
+      "start": "1992-12-27T01:00:00",
+      "end": "1992-12-27T02:00:00",
+      "old_offsets_seconds": [
+        0
+      ],
+      "new_offsets_seconds": []
+    },
+    {
+      "zone": "Atlantic/Azores",
+      "start": "1993-03-28T01:00:00",
+      "end": "1993-03-28T02:00:00",
+      "old_offsets_seconds": [
+        0
+      ],
+      "new_offsets_seconds": []
+    },
+    {
+      "zone": "Atlantic/Azores",
+      "start": "1993-03-28T02:00:00",
+      "end": "1993-06-17T01:00:00",
+      "old_offsets_seconds": [
+        0
+      ],
+      "new_offsets_seconds": [
+        3600
+      ]
+    },
+    {
+      "zone": "Atlantic/Azores",
+      "start": "1993-06-17T01:00:00",
+      "end": "1993-06-17T02:00:00",
+      "old_offsets_seconds": [
+        0
+      ],
+      "new_offsets_seconds": [
+        0,
+        3600
+      ]
+    }
+  ]
+}

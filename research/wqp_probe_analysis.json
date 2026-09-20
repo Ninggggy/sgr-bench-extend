@@ -1,0 +1,122 @@
+{
+  "scope": "Returned CSVs for TCEQMAIN-10580, calendar 1978, current endpoint/profile",
+  "is_task_oracle": false,
+  "activity_rows": 18,
+  "result_rows": 290,
+  "distinct_activity_keys": 18,
+  "distinct_result_activity_keys": 14,
+  "result_keys_absent_from_activity_response": [],
+  "activity_keys_without_results_in_response": [
+    [
+      "TCEQMAIN",
+      "TCEQMAIN-10580",
+      "TCEQMAIN-42840"
+    ],
+    [
+      "TCEQMAIN",
+      "TCEQMAIN-10580",
+      "TCEQMAIN-42845"
+    ],
+    [
+      "TCEQMAIN",
+      "TCEQMAIN-10580",
+      "TCEQMAIN-42851"
+    ],
+    [
+      "TCEQMAIN",
+      "TCEQMAIN-10580",
+      "TCEQMAIN-42855"
+    ]
+  ],
+  "raw_media_counts": {
+    "Other": 290
+  },
+  "result_characteristics": {
+    "Alkalinity, total": 17,
+    "Ammonia": 9,
+    "Carbon": 12,
+    "Chloride": 12,
+    "Chlorophyll": 9,
+    "Chromium": 1,
+    "Copper": 1,
+    "Depth, Secchi disk depth": 4,
+    "Fecal Coliform": 8,
+    "Flow": 12,
+    "Iron": 6,
+    "Lead": 1,
+    "Manganese": 2,
+    "Nickel": 1,
+    "Nitrate": 3,
+    "Nitrite": 5,
+    "Nitrogen": 13,
+    "Oil and Grease": 1,
+    "Orthophosphate": 29,
+    "Oxygen": 12,
+    "Pheophytin a": 7,
+    "Phosphorus": 12,
+    "Salinity": 3,
+    "Specific conductance": 18,
+    "Sulfate": 11,
+    "Temperature, sample": 22,
+    "Total dissolved solids": 12,
+    "Total suspended solids": 11,
+    "Total volatile solids": 8,
+    "Turbidity": 10,
+    "Zinc": 2,
+    "pH": 16
+  },
+  "presence_only_diagnostic": {
+    "panel": [
+      "Oxygen",
+      "Specific conductance",
+      "Temperature, sample",
+      "pH"
+    ],
+    "panel_present_somewhere_in_station_response": true,
+    "complete_result_activity_count": 11,
+    "incomplete_result_activities": [
+      {
+        "key": [
+          "TCEQMAIN",
+          "TCEQMAIN-10580",
+          "TCEQMAIN-42843"
+        ],
+        "missing": [
+          "Oxygen",
+          "Specific conductance",
+          "Temperature, sample",
+          "pH"
+        ]
+      },
+      {
+        "key": [
+          "TCEQMAIN",
+          "TCEQMAIN-10580",
+          "TCEQMAIN-42847"
+        ],
+        "missing": [
+          "Oxygen",
+          "Specific conductance",
+          "Temperature, sample",
+          "pH"
+        ]
+      },
+      {
+        "key": [
+          "TCEQMAIN",
+          "TCEQMAIN-10580",
+          "TCEQMAIN-42848"
+        ],
+        "missing": [
+          "pH"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Counts describe returned records; source completeness and endpoint profile still need verification.",
+    "Characteristic-name presence does not validate units, qualifiers, fractions, depth or sample comparability.",
+    "ActivityMediaName is reported as supplied; do not reinterpret Other as Water.",
+    "No candidate station comparison, new CG/GO, reference answer, or model difficulty test has been completed."
+  ]
+}

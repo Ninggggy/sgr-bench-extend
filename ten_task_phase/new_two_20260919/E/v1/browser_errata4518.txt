@@ -1,0 +1,212 @@
+- navigation:
+  - link "RFC Errata":
+    - /url: /search/
+  - list:
+    - link "About":
+      - /url: https://www.rfc-editor.org/series/rfc-errata/
+    - link "Login":
+      - /url: /oidc/authenticate/
+- main:
+  - heading "Errata" [level=1]
+  - generic: RFC Number
+  - spinbutton "RFC Number": "4518"
+  - generic: Errata ID
+  - spinbutton "Errata ID"
+  - generic: Status
+  - combobox "Status":
+    - option "All/Any" [selected]
+    - option "Verified+Reported"
+    - option "Verified"
+    - option "Reported"
+    - option "Held for Document Update"
+    - option "Rejected"
+  - generic: Area Acronym
+  - combobox "Area Acronym":
+    - option "All/Any" [selected]
+    - option "app"
+    - option "art"
+    - option "gen"
+    - option "int"
+    - option "ops"
+    - option "rai"
+    - option "rtg"
+    - option "sec"
+    - option "tsv"
+    - option "wit"
+  - generic: Type
+  - combobox "Type":
+    - option "All/Any" [selected]
+    - option "Editorial"
+    - option "Technical"
+  - generic: WG Acronym
+  - textbox "WG Acronym"
+  - generic: Submitter Name
+  - textbox "Submitter Name"
+  - generic: Stream
+  - combobox "Stream":
+    - option "All/Any" [selected]
+    - option "IAB"
+    - option "INDEPENDENT"
+    - option "IRTF"
+    - option "Legacy"
+    - option "Editorial"
+  - generic: Date Submitted
+  - textbox "Date Submitted":
+    - /placeholder: YYYY-MM-DD, YYYY-MM, or YYYY
+  - generic: Presentation
+  - combobox "Presentation":
+    - option "Table"
+    - option "Full Records" [selected]
+  - button "Submit"
+  - heading "Verified (5)" [level=2]
+  - heading "RFC 4518 inline-errata" [level=3]:
+    - link "RFC 4518":
+      - /url: https://www.rfc-editor.org/info/rfc4518
+    - link "inline-errata":
+      - /url: https://www.rfc-editor.org/rfc/inline-errata/rfc4518.html
+  - paragraph:
+    - strong: "Source of RFC:"
+    - text: ldapbis (app)
+  - 'heading "Errata-ID: 860" [level=4]':
+    - text: "Errata-ID:"
+    - link "860":
+      - /url: /eid860/
+  - term: "Status:"
+  - definition:
+    - generic: Verified
+  - term: "Type:"
+  - definition:
+    - generic: Technical
+  - term: "Reported By:"
+  - definition: Stephane PERBELLINI
+  - term: "Date Reported:"
+  - definition: 2007-02-23
+  - term: "Verified by:"
+  - definition: Kurt Zeilenga
+  - term: "Date Verified:"
+  - definition: 2007-02-23
+  - paragraph: "Section 2.2 says:"
+  - code: COMBINING GRAPHEME JOINER (U+034F) and VARIATION SELECTORs (U+180B-180D, FF00-FE0F) code points are also mapped to nothing.
+  - paragraph: "It should say:"
+  - code: COMBINING GRAPHEME JOINER (U+034F) and VARIATION SELECTORs (U+180B-180D, FE00-FE0F) code points are also
+  - paragraph: "Notes:"
+  - code: FF00-FE0F should be FE00-FE0F from pending
+  - 'heading "Errata-ID: 1757" [level=4]':
+    - text: "Errata-ID:"
+    - link "1757":
+      - /url: /eid1757/
+  - term: "Status:"
+  - definition:
+    - generic: Verified
+  - term: "Type:"
+  - definition:
+    - generic: Technical
+  - term: "Reported By:"
+  - definition: Steven Legg
+  - term: "Date Reported:"
+  - definition: 2009-04-05
+  - term: "Verified by:"
+  - definition: Alexey Melnikov
+  - term: "Date Verified:"
+  - definition: 2010-05-20
+  - paragraph: "Section 2.6.1 says:"
+  - code: "Otherwise, the following steps are taken:"
+  - paragraph: "It should say:"
+  - code: "Otherwise, the following steps are taken: - Any inner (non-empty) sequence of space characters is replaced with exactly two SPACE characters;"
+  - 'heading "Errata-ID: 1758" [level=4]':
+    - text: "Errata-ID:"
+    - link "1758":
+      - /url: /eid1758/
+  - term: "Status:"
+  - definition:
+    - generic: Verified
+  - term: "Type:"
+  - definition:
+    - generic: Technical
+  - term: "Reported By:"
+  - definition: Steven Legg
+  - term: "Date Reported:"
+  - definition: 2009-04-05
+  - term: "Verified by:"
+  - definition: Alexey Melnikov
+  - term: "Date Verified:"
+  - definition: 2010-05-20
+  - paragraph: "Section 2.6.1 says:"
+  - code: As an any or final substring, the same input would result in "foo<SPACE>bar<SPACE>".
+  - paragraph: "It should say:"
+  - code: As an any or final substring, the same input would result in "foo<SPACE><SPACE>bar<SPACE>".
+  - 'heading "Errata-ID: 7213" [level=4]':
+    - text: "Errata-ID:"
+    - link "7213":
+      - /url: /eid7213/
+  - term: "Status:"
+  - definition:
+    - generic: Verified
+  - term: "Type:"
+  - definition:
+    - generic: Editorial
+  - term: "Reported By:"
+  - definition: Ivan Panchenko
+  - term: "Date Reported:"
+  - definition: 2022-10-31
+  - term: "Verified by:"
+  - definition: RFC Editor
+  - term: "Date Verified:"
+  - definition: 2022-11-15
+  - paragraph: "Section 2.6.1 says:"
+  - code: "\"foo<SPACE>bar<SPACE><SPACE>\", result in the output"
+  - paragraph: "It should say:"
+  - code: "\"foo<SPACE>bar<SPACE><SPACE>\" result in the output"
+  - paragraph: "Notes:"
+  - code: Unnecessary comma.
+  - 'heading "Errata-ID: 9048" [level=4]':
+    - text: "Errata-ID:"
+    - link "9048":
+      - /url: /eid9048/
+  - term: "Status:"
+  - definition:
+    - generic: Verified
+  - term: "Type:"
+  - definition:
+    - generic: Editorial
+  - term: "Reported By:"
+  - definition: Peng Yuan
+  - term: "Date Reported:"
+  - definition: 2026-07-28
+  - term: "Verified by:"
+  - definition: Madison Church
+  - term: "Date Verified:"
+  - definition: 2026-08-03
+  - paragraph: "Section Appendix B. says:"
+  - code: In particular, the statements should be taken to mean that if an assertion value and attribute value match without any consideration to insignificant characters, then that assertion value should also match any attribute value that differs only by inclusion nor removal of insignificant characters.
+  - paragraph: "It should say:"
+  - code: In particular, the statements should be taken to mean that if an assertion value and attribute value match without any consideration to insignificant characters, then that assertion value should also match any attribute value that differs only by inclusion or removal of insignificant characters.
+  - paragraph: "Notes:"
+  - code: r/nor/or
+  - link "Report New Erratum":
+    - /url: /new/entry-instructions/
+- contentinfo:
+  - text: rfc-editor.org is maintained by the
+  - link "Internet Engineering Task Force":
+    - /url: https://www.ietf.org/
+  - img "IETF"
+  - heading "Useful links" [level=5]
+  - list:
+    - link "IETF.org":
+      - /url: https://www.ietf.org
+    - link "IRTF.org":
+      - /url: https://www.irtf.org
+    - link "IAB.org":
+      - /url: https://www.iab.org
+    - link "Datatracker":
+      - /url: https://datatracker.ietf.org
+    - link "Author Resources":
+      - /url: https://authors.ietf.org
+  - heading "Contact Us" [level=5]
+  - list:
+    - link "RFC Editor":
+      - /url: https://www.rfc-editor.org/about/contact/
+    - link "rfc-dist Info Page":
+      - /url: http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+    - link "rfc-interest Info Page":
+      - /url: http://mailman.rfc-editor.org/mailman/listinfo/rfc-interest

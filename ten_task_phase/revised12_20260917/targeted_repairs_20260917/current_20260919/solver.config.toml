@@ -1,0 +1,13 @@
+model = "gpt-5.6-sol"
+model_provider = "openai"
+model_reasoning_effort = "medium"
+web_search = "live"
+approval_policy = "never"
+sandbox_mode = "read-only"
+[features]
+shell_tool = false
+unified_exec = false
+shell_snapshot = false
+apps = false
+multi_agent = false
+multi_agent_v2 = false

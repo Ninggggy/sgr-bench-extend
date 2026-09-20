@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-09-08T13:22:51.651498+00:00",
+  "before_r03_blind_solves": true,
+  "oracle_selfcheck_all1": "program test only",
+  "full_scenario_interval_key": true,
+  "wrong_withdrawal_identity_does_not_share_entity": true,
+  "cohort_set_equivalence_order_separator_repeats": true,
+  "missing_cohort_member_is_real_content_error": true,
+  "duplicate_rows_not_extra_credit": true,
+  "field_216_source_evidence": true,
+  "all833_trials_independent_SQL_equal": true,
+  "no_answer_cardinality_in_public": true,
+  "same_public_semantics_cg_go": true,
+  "numerical_precision_and_units": "unchanged from previously checked rules",
+  "sentinel_not_triggered": "All actual withdrawal trials retain at least one feasible interval; no zero-rows fabricated."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "dated_records": 58,
+  "selected_records": 3,
+  "verified_cases": 3,
+  "verified_named_groups": 4,
+  "unresolved": [],
+  "oracle_read": false,
+  "pdf_validation": "Supplied capture sizes and PDF framing; semantic identity/version from linked paired text.",
+  "fresh_pdf_text_extraction": false
+}

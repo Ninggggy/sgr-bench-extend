@@ -1,0 +1,55 @@
+{
+  "updated_at": "2026-09-11T20:40:30.884135+00:00",
+  "status": "stopped_development",
+  "decision": "Stop after development A: both variants have exact Item-F1 1 with complete rows, no extra/omitted/duplicate identities, and full required source coverage. No substantive error evidence warrants B, attacks, audit or formal retests.",
+  "development_A": {
+    "CG": {
+      "run_id": "nvd-daily-r02-cg-dev-a",
+      "Item-F1_exact": "1",
+      "counts": {
+        "correct_fields": 684,
+        "gold_fields": 684,
+        "pred_fields": 684,
+        "item_denominator": 1368,
+        "correct_rows": 228,
+        "gold_rows": 228,
+        "pred_rows": 228,
+        "row_denominator": 456,
+        "correct_pairs": 25878,
+        "pair_denominator": 25878,
+        "shared_ids": 228
+      },
+      "verification": "passed",
+      "limitations": []
+    },
+    "GO": {
+      "run_id": "nvd-daily-r02-go-dev-a",
+      "Item-F1_exact": "1",
+      "counts": {
+        "correct_fields": 684,
+        "gold_fields": 684,
+        "pred_fields": 684,
+        "item_denominator": 1368,
+        "correct_rows": 228,
+        "gold_rows": 228,
+        "pred_rows": 228,
+        "row_denominator": 456,
+        "correct_pairs": 25878,
+        "pair_denominator": 25878,
+        "shared_ids": 228
+      },
+      "verification": "passed",
+      "limitations": []
+    }
+  },
+  "source_comparison": "source_stability_observed.json",
+  "infrastructure_observation": "development_infrastructure_observation.json",
+  "standard_admission": false,
+  "designated_admission": false,
+  "formal_trials": 0,
+  "CG_mean": null,
+  "GO_mean": null,
+  "independent_final_quality_audit": "not_performed",
+  "human_validation": "not_performed",
+  "revision_policy": "Retain r01 and tested r02. Do not reopen merely by changing day, expanding rows/conditions or rewriting to chase low scores."
+}

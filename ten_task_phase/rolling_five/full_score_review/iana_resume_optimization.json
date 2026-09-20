@@ -1,0 +1,253 @@
+{
+  "candidate_id": "iana_dtls_001",
+  "base_revision": 3,
+  "started_utc": "2026-09-13T01:37:22+00:00",
+  "ended_utc": "2026-09-13T01:43:55.601601+00:00",
+  "actual_wall_seconds": 393.601601,
+  "maximum_wall_seconds": 1200,
+  "source_access_period_utc": [
+    "2026-09-13T01:37:22Z",
+    "2026-09-13T01:38:44Z"
+  ],
+  "prior_followup_preserved": true,
+  "new_opportunity": "此前未检查的官方文档 History 事件视图及其中明确的 IANA 审查记录。",
+  "request_budget": 8,
+  "requests": [
+    {
+      "n": 1,
+      "operation": "click previously observed History link65",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+      "result": "success",
+      "locator": "initial rendering L114-175,506-517",
+      "new_fact": "Event view exists;2021-04-20 reviewer explicitly asks why53 is incompatible.",
+      "observed_access_utc_interval": [
+        "2026-09-13T01:37:22Z",
+        "2026-09-13T01:38:44Z"
+      ],
+      "exact_individual_access_utc": "unknown"
+    },
+    {
+      "n": 2,
+      "operation": "find early allocation",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+      "result": "no exact phrase match",
+      "limitation": "Does not prove allocation event absent; current rendering differs from first.",
+      "observed_access_utc_interval": [
+        "2026-09-13T01:37:22Z",
+        "2026-09-13T01:38:44Z"
+      ],
+      "exact_individual_access_utc": "unknown"
+    },
+    {
+      "n": 3,
+      "operation": "search",
+      "query": "site:mailarchive.ietf.org \"draft-ietf-tls-dtls-connection-id\" \"53\" \"Francesca\"",
+      "result": "empty",
+      "observed_access_utc_interval": [
+        "2026-09-13T01:37:22Z",
+        "2026-09-13T01:38:44Z"
+      ],
+      "exact_individual_access_utc": "unknown"
+    },
+    {
+      "n": 4,
+      "operation": "search",
+      "query": "site:mailarchive.ietf.org \"dtls-connection-id\" \"early allocation\"",
+      "result": "empty",
+      "observed_access_utc_interval": [
+        "2026-09-13T01:37:22Z",
+        "2026-09-13T01:38:44Z"
+      ],
+      "exact_individual_access_utc": "unknown"
+    },
+    {
+      "n": 5,
+      "operation": "open existing History result at line630",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+      "result": "success",
+      "locator": "current rendering L480-927",
+      "new_fact": "Earlier dated events and shepherd reviews available; no allocation53 mapping established from them.",
+      "observed_access_utc_interval": [
+        "2026-09-13T01:37:22Z",
+        "2026-09-13T01:38:44Z"
+      ],
+      "exact_individual_access_utc": "unknown"
+    },
+    {
+      "n": 6,
+      "operation": "find IANA Review",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+      "result": "success",
+      "locator": "current rendering L369-414,468",
+      "new_fact": "2021-03-26 IANA review explicitly namesdraft-10 and proposes updating temporary53; execution conditional onRFC approval.",
+      "observed_access_utc_interval": [
+        "2026-09-13T01:37:22Z",
+        "2026-09-13T01:38:44Z"
+      ],
+      "exact_individual_access_utc": "unknown"
+    },
+    {
+      "n": 7,
+      "operation": "click discovered draft-10 link80",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/10/",
+      "result": "success",
+      "locator": "L149-159,273-277,430-516",
+      "new_fact": "Actualdraft-10 hasTBD1 enum and final-styleMAC/AEAD structure.",
+      "observed_access_utc_interval": [
+        "2026-09-13T01:37:22Z",
+        "2026-09-13T01:38:44Z"
+      ],
+      "exact_individual_access_utc": "unknown"
+    },
+    {
+      "n": 8,
+      "operation": "click discovered draft-11 link76",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/11/",
+      "result": "success but batched output onlytitle/metadata",
+      "limitation": "Complete11 IANA or formula paragraphs not obtained.",
+      "observed_access_utc_interval": [
+        "2026-09-13T01:37:22Z",
+        "2026-09-13T01:38:44Z"
+      ],
+      "exact_individual_access_utc": "unknown"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+      "locator": "request6 L391-408",
+      "quote": "the temporary registration for value 53 connection_id will be updated",
+      "reading": "A2021-03-26 IANA Functions Operator review ofdraft-10 proposed permanent use53 withRFC-to-be reference."
+    },
+    {
+      "id": "E2",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+      "locator": "request6 L413-414",
+      "quote": null,
+      "reading": "The same review explicitly limits its text to planned actions after publication approval; it does not certify execution."
+    },
+    {
+      "id": "E3",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/10/",
+      "locator": "request7 L273-277,457-516",
+      "quote": "connection_id(TBD1)",
+      "reading": "Version10 uses final-style authentication input, but its extension enum remains a placeholder. This cannot establish that actual early53 deployments followed10."
+    },
+    {
+      "id": "E4",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+      "locator": "request6 L292-324",
+      "quote": null,
+      "reading": "A separate April20 ballot comment asks why53 is incompatible; this is a question by another reviewer, not anIANA allocation proposal or answer."
+    }
+  ],
+  "original_identity_goal": {
+    "status": "not_closed",
+    "known": "IANA 对 draft-10 的行政提案明确写出计划使用53。",
+    "unknown": "早期实际分配所对应的协议版本集合/转换边界及线上定义。",
+    "counterexample": "draft-10 已有最终式认证输入；审查提案仍写53，并不证明该版本就是早期53设备的规范。",
+    "single_revision_required": false
+  },
+  "reconciliation_goal_assessment": {
+    "single_observed_event": "日期、受审draft、计划编号和条件性执行地位明确。",
+    "full_new_task": "not_yet_reference_ready",
+    "why": "尚未对完整新版范围执行历史事件纳排及语义核验，也未得到完整draft-11正文。单个见证不等于完整gold。",
+    "same_natural_need": "可作为DTLS实现规划内的实质修订，核对历史登记提案与最终登记；不同于原成熟度输出，也不是互操作证明。",
+    "difficulty": "unknown；短事件可能依旧易解，未测试。"
+  },
+  "dependency": {
+    "W": "IANA注册表及IETF Datatracker规范记录生态；定稿需保留精确来源口径。",
+    "prior_discovery": "deprecated数值身份及引用发现规范族，草稿没有预给该族、revision或审查日期。",
+    "site_operation": "选择该族History视图，区分实质IANA提案与状态变动/其他评论，使用事件受审版本核对原文。",
+    "necessary_evidence": "历史计划编号和受审版本不在当前注册表及默认RFC/family状态页中。",
+    "scope_of_claim": "具体记录/视图状态，有一项依赖即可；发现后的History批量取得并不自动取消依赖。",
+    "counterexample_check": "没有证实结果无关固定来源覆盖全部计划与最终字段；不是穷尽抗捷径审计。"
+  },
+  "proposal": {
+    "status": "conditional_draft_not_final",
+    "natural_goal": "避免DTLS实现计划把早期IANA提案当成实际生效登记。",
+    "old_conditions_retained": [
+      "2026-09-12观察状态",
+      "完整16位注册表枚举",
+      "DTLS-Only恰为Y",
+      "数值身份",
+      "官方IANA/IETF来源",
+      "明确缺失规则"
+    ],
+    "conditions_changed": [
+      "输出收窄至deprecated子集以核对登记，不保留原四行成熟度输出",
+      "由所引规范明确建立替代关系",
+      "选择发布前最后一条明确拟沿用旧编号的实质IANA提案",
+      "区分提案和实际执行，不推定协议线上语义"
+    ],
+    "minimum_output": [
+      "deprecated_value",
+      "published_replacement_value",
+      "review_date",
+      "reviewed_draft",
+      "proposed_permanent_value"
+    ],
+    "why_minimal": "两个实际数值身份与审查日期、受审版本、计划数值足以说明登记提案和最终分配的差别；不需要MAC公式。",
+    "CG": "Check the registration trail behind deprecated DTLS-only extensions so an implementation plan does not mistake an earlier allocation proposal for the published assignment.\n\nFirst enumerate the registry scope. Follow each entry's cited specification to establish its replacement and document family. Select that family's official History view and identify the qualifying IANA review. Verify its reviewed revision, date and proposed value, then compare it with the published specification.\n\nUse the public registration state observed on 12 September 2026. The scope is every individual numeric entry in the complete TLS ExtensionType Values registry whose DTLS-Only flag is Y and whose registry name marks the allocation as deprecated. Keep numeric allocations distinct. For each entry, use its cited specification to establish any expressly identified replacement allocation. Do not infer replacement from similar names.\n\nCompare that published allocation with the latest substantive, pre-publication IANA Functions Operator review of the specification that expressly proposed retaining the deprecated numeric value. A review is a proposal, not proof that the planned assignment took effect. Status-change notices and other reviewers' comments are not IANA allocation proposals. Use the reviewed draft revision recorded with the review; do not assign an implementation or an on-wire protocol definition to that value solely because the review mentioned it. Do not compare arbitrary draft formulas.\n\nReturn one pipe-separated row per in-scope deprecated allocation, sorted by its decimal value, with columns:\ndeprecated_value|published_replacement_value|review_date|reviewed_draft|proposed_permanent_value\n\nUse YYYY-MM-DD dates and fully versioned draft identifiers. If complete official records establish that no qualifying review exists, put NONE in the three review fields. If required records or replacement identity remain unresolved, return UNRESOLVED with a short explanation instead of a partial table.",
+    "GO": "Check the registration trail behind deprecated DTLS-only extensions so an implementation plan does not mistake an earlier allocation proposal for the published assignment. Report the published replacement alongside the last qualifying IANA proposal, including the reviewed draft and review date.\n\nUse the public registration state observed on 12 September 2026. The scope is every individual numeric entry in the complete TLS ExtensionType Values registry whose DTLS-Only flag is Y and whose registry name marks the allocation as deprecated. Keep numeric allocations distinct. For each entry, use its cited specification to establish any expressly identified replacement allocation. Do not infer replacement from similar names.\n\nCompare that published allocation with the latest substantive, pre-publication IANA Functions Operator review of the specification that expressly proposed retaining the deprecated numeric value. A review is a proposal, not proof that the planned assignment took effect. Status-change notices and other reviewers' comments are not IANA allocation proposals. Use the reviewed draft revision recorded with the review; do not assign an implementation or an on-wire protocol definition to that value solely because the review mentioned it. Do not compare arbitrary draft formulas.\n\nReturn one pipe-separated row per in-scope deprecated allocation, sorted by its decimal value, with columns:\ndeprecated_value|published_replacement_value|review_date|reviewed_draft|proposed_permanent_value\n\nUse YYYY-MM-DD dates and fully versioned draft identifiers. If complete official records establish that no qualifying review exists, put NONE in the three review fields. If required records or replacement identity remain unresolved, return UNRESOLVED with a short explanation instead of a partial table.",
+    "not_ready_conditions": [
+      "完整History及新版集合的全部合格提案纳排",
+      "核实latest substantive review规则及状态/评论边界",
+      "任何r04测试前完成新参考、配对和评分接口检查"
+    ],
+    "evidence_does_not_authorize": [
+      "把draft-08标为53实际规范",
+      "把计划写成已执行",
+      "声称所有旧设备使用某受审版本",
+      "声明难度或收录通过"
+    ]
+  },
+  "reference_change_scope": {
+    "reuse": [
+      "IANA枚举/数值身份/xref解析",
+      "已观察103条完整范围",
+      "文档身份和版本检查",
+      "来源及证据索引"
+    ],
+    "change": [
+      "独立deprecated子集纳排",
+      "历史日期/作者/类型/受审版本/计划数值提取及排除台账",
+      "来源支持的替代关系annotation",
+      "五列新oracle和同义CG/GO格式",
+      "实际修订时同步private空结果残留"
+    ],
+    "program_vs_model": "程序负责日期、ID、计数和PSV；模型/领域审查负责提案与执行、明确替代关系及最后实质审查规则。",
+    "executable_reference_ready": false,
+    "missing_to_execute": "完整History输入及完整新版范围的事件annotation；本单未产出新gold。"
+  },
+  "decision": {
+    "status": "conditional_reconciliation_design_delivered_no_r04",
+    "spend_remaining_revision_now": false,
+    "reason": "新行政证据和视图依赖见证支持可审查方案；完整新版参考/语义完整性和难度仍未核验，原互操作身份缺口未解除。",
+    "next_minimum_evidence": "完整可配对History与事件范围核验；只有保留互操作主张时仍需实际早期分配关系原件。"
+  },
+  "revision_budget": {
+    "used_before": 1,
+    "used_after": 1,
+    "remaining": 1,
+    "r04_created": false
+  },
+  "accounting": {
+    "web_tool_calls": 7,
+    "web_request_items": 8,
+    "unique_opened_url_targets": 3,
+    "search_queries": 2,
+    "actual_underlying_http_requests": "unknown",
+    "old8requests_repeated": false,
+    "newtests": 0,
+    "newagents": 0,
+    "candidate_or_oracle_changes": 0,
+    "input_tokens": "unknown",
+    "cached_input_tokens": "unknown",
+    "output_tokens": "unknown",
+    "money": "unknown",
+    "clock_calls": 4,
+    "local_exec_calls_including_reportwrite_and_validation": 3
+  }
+}

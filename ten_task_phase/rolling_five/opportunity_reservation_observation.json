@@ -1,0 +1,32 @@
+{
+  "at": "2026-09-13T02:20:33.068353+00:00",
+  "observed_completed_development_runs": 14,
+  "observed_statistics": {
+    "elapsed_seconds": {
+      "median": 98.0255,
+      "max": 151.094
+    },
+    "input_tokens": {
+      "median": 390661.0,
+      "max": 1292832
+    },
+    "cached_input_tokens": {
+      "median": 319872.0,
+      "max": 1153024
+    },
+    "output_tokens": {
+      "median": 2122.5,
+      "max": 3024
+    }
+  },
+  "planned_work_per_opportunity": {
+    "exploration_already_allocated": 1,
+    "construction": 1,
+    "development": 4,
+    "attacks": 2,
+    "final_audit": 1,
+    "formal": 6
+  },
+  "known_shared_quota_used_percent": 19,
+  "limits": "Statistics are workload proxies, not promises or conversion to quota. Construction/attacks/formal may differ; all actual attempts retained. Each worker900sec work order, global6000/stall3000/concurrency4 retained."
+}

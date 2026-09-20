@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Users/ning/.local/bin/python3",
+    "reference/verify_controller.py",
+    "--stage",
+    ".",
+    "--run",
+    "reference/controller-rebuild-01"
+  ],
+  "cwd": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/candidates/economic_nvd_daily_001/r02",
+  "started_at": "2026-09-11T19:19:30.907833+00:00",
+  "ended_at": "2026-09-11T19:19:31.010480+00:00",
+  "exit_code": 0,
+  "stdout": "{\n  \"command\": [\n    \"/Users/ning/.local/bin/python3\",\n    \"/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/candidates/economic_nvd_daily_001/r02/reference/solve_reference.py\",\n    \"--stage\",\n    \"/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/candidates/economic_nvd_daily_001/r02\",\n    \"--out\",\n    \"/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/candidates/economic_nvd_daily_001/r02/reference/controller-rebuild-01\"\n  ],\n  \"returncode\": 0,\n  \"stdout\": \"{\\\"cves\\\":64,\\\"ledger_rows\\\":622,\\\"occurrences\\\":622,\\\"oracle_rows\\\":228,\\\"unique_uuid\\\":381,\\\"unknown\\\":0}\\n\",\n  \"stderr\": \"\",\n  \"checks\": {\n    \"candidate_universe.jsonl\": true,\n    \"reference/normalized_occurrences.jsonl\": true,\n    \"inclusion_ledger.jsonl\": true,\n    \"field_evidence.jsonl\": true,\n    \"reference/counterfactuals.json\": true,\n    \"reference/run_summary.json\": true,\n    \"reference/oracle.psv\": true\n  },\n  \"passed\": true\n}\n",
+  "stderr": ""
+}

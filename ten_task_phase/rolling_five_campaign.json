@@ -1,0 +1,637 @@
+{
+  "max_seconds_per_session": 6000,
+  "stall_seconds": 3000,
+  "maximum_concurrent_model_sessions": 4,
+  "max_substantive_revisions": 2,
+  "current_date": "2026-09-09",
+  "construction_model": "gpt-6-astra",
+  "construction_effort": "medium",
+  "solver_model": "gpt-5.6-sol",
+  "solver_effort": "medium",
+  "protocol_version": "ten-task-v2-bounded-retrieval",
+  "repair_retries_allowed": 1,
+  "retry_policy": "Only one replacement attempt per prescheduled slot after verified infrastructure failure; never retry model mistakes, partial answers or parse failures; retain all attempts/cost. Explicit controller classification required before replacement.",
+  "admission": {
+    "metric": "Item-F1",
+    "trials_per_variant": 3,
+    "cg_mean_strictly_below": "7/10",
+    "go_mean_strictly_below": "7/10",
+    "arithmetic": "exact fractions from scoring counts",
+    "one_round_per_candidate_protocol_version": true,
+    "scores_are_selection_scores": true
+  },
+  "protocol_assets": {
+    "registered_at": "2026-09-13T11:37:58.460039+00:00",
+    "solver_config_path": "protocol/ten-task-v1/solver.config.toml",
+    "scorer_path": "protocol/ten-task-v1/score.py",
+    "data_tools_path": "protocol/ten-task-v1/data_tools.py",
+    "image_id": "sha256:7e6f86e9ecb36ec74f6dc42254c16bc9b0f31f22cea6f96be8f872599f0404b6",
+    "retrieval_policy_path": "protocol/ten-task-v2-bounded-retrieval/retrieval_policy.md"
+  },
+  "campaign_id": "rolling_five_2026-09-12",
+  "started_at": "2026-09-12T04:45:36.999Z",
+  "deadline": "2026-09-13T16:26:15.871+00:00",
+  "max_sessions": null,
+  "target_base_tasks": 5,
+  "session_ledger": "rolling_five_session_ledger.jsonl",
+  "reserved_pending_sessions": 0,
+  "excluded": [
+    "original_50",
+    "all_previous_candidates_and_stopped_directions_without_material_new_evidence"
+  ],
+  "authorization": "User explicitly removed inherited100-session cap; retain all ledger history, original deadline and all other runtime and validation limits.",
+  "start_evidence": "Actual host task_started event, not file creation or goal registration",
+  "inherited_budget": {
+    "source": "economic_five_campaign.json",
+    "original_limit": 100,
+    "already_charged": 38,
+    "remaining_at_start": 62,
+    "deadline_preserved": true
+  },
+  "reservation_note": "D2 full experimental-provenance gap persists after actual targeted publisher check; release only14 unstarted future stages, retain all costs.",
+  "source_scope_note": "Rechecked actual formal Method:12 ecosystems describes current release coverage, not constraint on new source curation. Current user new-round scope does not restrict original12. Earlier async scope question was an overstrong inferred blocker; disclosed correction and proceed with reversible IANA construction, no existing protocol changes. User can still steer scope.",
+  "stop_reason": null,
+  "status": "active",
+  "target_complete": false,
+  "budget_changes": [
+    {
+      "at": "2026-09-12T12:57:48.897596+00:00",
+      "previous_max_sessions": 62,
+      "max_sessions": null,
+      "authorization": "用户明确：取消继承的100次会话总上限，改以实际可用额度为边界，保留其他运行和验证限制。",
+      "previous_status": "stopped_resource_boundary",
+      "previous_stop_reason": "Insufficient remaining inherited budget to start an unevidenced opportunity and complete all required stages:14 remain; probe1+builder1+development4+attacks2+independent final audit1+formal6=15. No viable evidence-ready candidate remains."
+    }
+  ],
+  "budget_boundary": "actual_available_account_quota_and_existing_deadline",
+  "reservation_estimate": {
+    "observed_at": "2026-09-13T06:03:31.977163+00:00",
+    "candidate_count": 1,
+    "stages": {
+      "reference_and_pair_builder": 1,
+      "pre_A_independent_content_review": 1,
+      "development_sol": 4,
+      "shortcut_attack_sol": 2,
+      "final_independent_quality_error_audit": 1,
+      "formal_sol": 6,
+      "contingent_access_audits": 2
+    },
+    "baseline_pending_work_orders": 15,
+    "contingent_access_work_orders": 2,
+    "observed_median_proxy": {
+      "input_tokens": 14484056.0,
+      "cached_input_tokens": 13324032.0,
+      "output_tokens": 76266.0
+    },
+    "observed_high_proxy": {
+      "input_tokens": 31374132,
+      "cached_input_tokens": 29685120,
+      "output_tokens": 137069
+    },
+    "contingent_access_proxy": {
+      "input_tokens": 4357854,
+      "cached_input_tokens": 4184832,
+      "output_tokens": 22034
+    },
+    "sample_run_ids": {
+      "solver": [
+        "iana-r04-go-dev-a",
+        "iana-r04-cg-dev-a",
+        "device-backlink-r01-cg-dev-a",
+        "device-backlink-r01-go-dev-a",
+        "chembl-stereo-r02-go-dev-a",
+        "chembl-stereo-r02-cg-dev-a",
+        "diazepam-r01-cg-dev-a",
+        "diazepam-r01-go-dev-a"
+      ],
+      "audit": [
+        "native-device-backlink-content-audit-01a098b2-e8d1-7141-9cc0-df915a5c5558",
+        "native-chembl-open-discovery-review-01a098c0-93f8-79d1-9be6-a5e979fd3503",
+        "native-chembl-development-access-review-01a098d3-66dc-7400-9e8b-1db2386dc906",
+        "native-device-development-access-review-01a098db-effa-7043-87cc-e967a0ecf320",
+        "native-diazepam-pre-a-01a09944-dca3-7540-9fae-4e6fee168578",
+        "native-diazepam-A-access-01a09953-43b4-7150-a17d-3936aa6b8668"
+      ],
+      "builder": "native-diazepam-r01-builder-01a09938-1b3f-7d90-b507-17db36385768"
+    },
+    "summed_baseline_seconds_median_proxy": 3349.5469999999996,
+    "summed_baseline_seconds_high_proxy": 4927.66,
+    "actual_pending_candidate_count": 0,
+    "limitations": "Illustrative rolling reserve estimate, not newly authorized total cap or allocated candidate. Formal/attacks and hard candidates unobserved: solver A costs proxy only, may exceed range. Native full construction has one current-source example, not upper bound. Known input includes cache; no quota conversion. Summed work duration is not parallel wall time. Probe/coordination, new scientific repairs and infrastructure recovery add actual cost separately. Re-estimate on evidence-ready candidate before launch; never count failed trials toward new candidate."
+  },
+  "runtime_recovery": {
+    "at": "2026-09-12T13:23:49.919896+00:00",
+    "services": [
+      "site_limiter.py --port18763",
+      "site_limiter.py --port18764"
+    ],
+    "reason": "Existing mandatory timing services absent caused configured downloader connection refusal. Restored unchanged intervals/endpoints, no protocolmodification.",
+    "controller_sessions": [
+      51199,
+      28330
+    ]
+  },
+  "scope_override": {
+    "at": "2026-09-12T17:58:36.703233+00:00",
+    "instruction": "User explicitly cancels blocked restriction and resumes ChEMBL stereochemistry construction plus IANA DTLS optimization. No unrelated exploration. First complete these construction/evidence work orders; no new blind/attack/formal run launched by this resumption."
+  },
+  "reservation_changes": [
+    {
+      "at": "2026-09-12T17:50:31.628358+00:00",
+      "previous_reserved_pending_sessions": 15,
+      "reserved_pending_sessions": 0,
+      "reason": "User-requested bounded review complete; no candidate selected or subsequent testing authorized. Release pending allocation, preserve all historical usage/limits."
+    },
+    {
+      "at": "2026-09-12T17:58:36.703233+00:00",
+      "previous_reserved_pending_sessions": 0,
+      "reserved_pending_sessions": 30,
+      "reason": "Explicit two-direction resumption; complete stage-based contingent costs retained, no historical A credits."
+    },
+    {
+      "at": "2026-09-12T18:05:16.550740+00:00",
+      "previous_reserved_pending_sessions": 30,
+      "reserved_pending_sessions": 14,
+      "reason": "ChEMBLreplacement allocated; IANAboundedfollowup completed and14future construction/validation slots released because relation remainsunclosed, not credited to othercandidates."
+    },
+    {
+      "at": "2026-09-12T18:32:06.828557+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 0,
+      "reason": "ChEMBLbuilder terminal and allowed infrastructure replacement exhausted; release unstarted downstream stages, no failed attempts credited to future candidates."
+    },
+    {
+      "at": "2026-09-13T01:35:50.727392+00:00",
+      "previous_reserved_pending_sessions": 0,
+      "reserved_pending_sessions": 15,
+      "reason": "Authorized recovery1 + development4 + attacks2 + independent audit1 + formal6 + possible genuine repair1. Prior failures remain charged."
+    },
+    {
+      "at": "2026-09-13T01:37:57.712586+00:00",
+      "previous_reserved_pending_sessions": 15,
+      "reserved_pending_sessions": 14,
+      "reason": "Additional construction recovery allocated and charged; full downstream reserve retained. Separate IANA evidence work charged, no speculative full construction started."
+    },
+    {
+      "at": "2026-09-13T02:02:52.662107+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 14,
+      "reason": "Release ChEMBL unstarted verification because source-disclosure requirement not repaired. Independently reserve evidenced IANA revised task: construction1+development4+attacks2+final audit1+formal6. No historic trial credits."
+    },
+    {
+      "at": "2026-09-13T02:06:47.467979+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 13,
+      "reason": "IANA r04 constructor allocated; complete development4/attack2/final audit1/formal6 reserved. No revision margin after r04 substantive revision2."
+    },
+    {
+      "at": "2026-09-13T02:14:36.301409+00:00",
+      "previous_reserved_pending_sessions": 13,
+      "reserved_pending_sessions": 11,
+      "reason": "Two registered fresh IANA r04 development-A slots allocated. Reserve B2, attacks2, final audit1, formal6; previous r03 trials never offset r04."
+    },
+    {
+      "at": "2026-09-13T02:20:33.068353+00:00",
+      "previous_reserved_pending_sessions": 11,
+      "reserved_pending_sessions": 28,
+      "reason": "Release IANA unused B2/attack2/audit1/formal6 after both fresh A full scores. Two bounded opportunities allocated; independently reserve for each builder1+development4+attacks2+final audit1+formal6=14, no failed trials offset new candidates."
+    },
+    {
+      "at": "2026-09-13T02:25:34.012738+00:00",
+      "previous_reserved_pending_sessions": 28,
+      "reserved_pending_sessions": 14,
+      "reason": "Trial history opportunity stopped on actual missing historical evidence; release its unstarted14-stage path, retain all exploration cost. Device opportunity retains independent14-stage reserve."
+    },
+    {
+      "at": "2026-09-13T02:49:45.663624+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 14,
+      "reason": "Allocate finite backlink constructor, retain independent pre-A content review1 plus development4/attacks2/final audit1/formal6. Former complete-historical-inventory direction stopped, its trials never existed; all exploratory/source-followup costs retained."
+    },
+    {
+      "at": "2026-09-13T03:02:27.850579+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 13,
+      "reason": "Independent pre-A content audit allocated; retain complete dev4/attack2/final audit1/formal6."
+    },
+    {
+      "at": "2026-09-13T03:05:03.493640+00:00",
+      "previous_reserved_pending_sessions": 13,
+      "reserved_pending_sessions": 11,
+      "reason": "Fresh device backlink CG/GO development-A slots allocated; B2/attack2/final audit1/formal6 remain reserved."
+    },
+    {
+      "at": "2026-09-13T03:07:15.196734+00:00",
+      "previous_reserved_pending_sessions": 11,
+      "reserved_pending_sessions": 14,
+      "reason": "Release unused device B2/attack2/audit1/formal6 after full A. New bounded CCDS opportunity charged separately; retain full potential construction1/dev4/attack2/final audit1/formal6, no failed trials credited."
+    },
+    {
+      "at": "2026-09-13T03:08:54.383644+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 29,
+      "reason": "ChEMBL existing complete reference has one specific new open-search evidence repair work order allocated. Reserve potential integration1/pre-A review1/dev4/attack2/final audit1/formal6=15 in addition to CCDS14; earlier failures retained, no trial credits."
+    },
+    {
+      "at": "2026-09-13T03:09:11.497146+00:00",
+      "previous_reserved_pending_sessions": 29,
+      "reserved_pending_sessions": 15,
+      "reason": "CCDS opportunity stopped with fixed material counterexample; release14unstarted stages, retain costs. ChEMBL specific source-discovery repair only pending path."
+    },
+    {
+      "at": "2026-09-13T03:11:02.917097+00:00",
+      "previous_reserved_pending_sessions": 15,
+      "reserved_pending_sessions": 29,
+      "reason": "Hydrologic bounded opportunity allocated with separate full potential construction1/dev4/attack2/final audit1/formal6 reserve14; ChEMBL15 retained. Actual quota last22percent used; cost estimates remain proxies, no 100-session cap."
+    },
+    {
+      "at": "2026-09-13T03:12:54.351293+00:00",
+      "previous_reserved_pending_sessions": 29,
+      "reserved_pending_sessions": 28,
+      "reason": "ChEMBL independent pre-A wording review allocated from15; remaining integration1/dev4/attacks2/final audit1/formal6=14; hydrologic14 still pending final saved stop."
+    },
+    {
+      "at": "2026-09-13T03:14:43.577670+00:00",
+      "previous_reserved_pending_sessions": 28,
+      "reserved_pending_sessions": 14,
+      "reason": "Hydrologic actual navigation source inaccessible; stop and release14unstarted stages, retain4requests and native model cost. ChEMBL integration/full validation reserve14 remains."
+    },
+    {
+      "at": "2026-09-13T03:17:43.917784+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 28,
+      "reason": "One type-strain opportunity allocated. Separate full potential14-stage path reserved; ChEMBL integration/verification14retained. No old failed trials reused."
+    },
+    {
+      "at": "2026-09-13T03:18:44.270715+00:00",
+      "previous_reserved_pending_sessions": 28,
+      "reserved_pending_sessions": 27,
+      "reason": "ChEMBL r02 integration constructor allocated after independent wording review pass; full dev4/attack2/final audit1/formal6=13 remains, plus type-strain14."
+    },
+    {
+      "at": "2026-09-13T03:22:19.056153+00:00",
+      "previous_reserved_pending_sessions": 27,
+      "reserved_pending_sessions": 13,
+      "reason": "Type-strain opportunity stops on actual unresolved identity/source scope; release14unstarted stages, keep9requests and full native work. ChEMBL full dev4/attack2/audit1/formal6 reserve13 remains."
+    },
+    {
+      "at": "2026-09-13T03:26:22.901474+00:00",
+      "previous_reserved_pending_sessions": 13,
+      "reserved_pending_sessions": 27,
+      "reason": "One bounded assay variant identity opportunity allocated; reserve independent full14-stage path plus ChEMBL13."
+    },
+    {
+      "at": "2026-09-13T03:27:39.533866+00:00",
+      "previous_reserved_pending_sessions": 27,
+      "reserved_pending_sessions": 25,
+      "reason": "Two first ChEMBL r02 development-A slots allocated; B2/attack2/final audit1/formal6=11remain, plus assay-variant potential14."
+    },
+    {
+      "at": "2026-09-13T03:36:06.946669+00:00",
+      "previous_reserved_pending_sessions": 25,
+      "reserved_pending_sessions": 0,
+      "reason": "Release ChEMBL unused B2/attack2/final audit1/formal6 after both raw A full scores; separately charged actual access audit, no resampling. Assay variant opportunity stopped; release its14unstarted stages. All prior costs retained."
+    },
+    {
+      "at": "2026-09-13T03:39:05.445956+00:00",
+      "previous_reserved_pending_sessions": 0,
+      "reserved_pending_sessions": 14,
+      "reason": "One bounded peptide specificity opportunity allocated; reserve whole potential construction1/dev4/attack2/final audit1/formal6 path14. ChEMBL failures and completed tests retained, no credits or resampling."
+    },
+    {
+      "at": "2026-09-13T03:45:07.411800+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 0,
+      "reason": "Peptide opportunity stops on dedicated source access; release14unstarted stages, preserve6requests and native cost."
+    },
+    {
+      "at": "2026-09-13T03:45:07.411800+00:00",
+      "previous_reserved_pending_sessions": 0,
+      "reserved_pending_sessions": 14,
+      "reason": "Single CPE identity migration new-evidence work order allocated; fresh complete14stage potential path reserved, no old trials or source failures credited."
+    },
+    {
+      "at": "2026-09-13T03:51:10.689539+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 0,
+      "reason": "Original CPE identifier-migration direction stopped with complete-package counterexample; no candidate or trials."
+    },
+    {
+      "at": "2026-09-13T03:51:10.689539+00:00",
+      "previous_reserved_pending_sessions": 0,
+      "reserved_pending_sessions": 14,
+      "reason": "New observed2.4to2.4.0 boundary motivates bounded two-CPE vulnerability-index impact need. Old2requests retained; full potential14-stage path independently reserved, no trials reused."
+    },
+    {
+      "at": "2026-09-13T03:57:39.045849+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 0,
+      "reason": "CPE index-impact bounded same-path recovery failed; release14unstarted validation stages, preserve all4related public attempts and three native work turns. No candidate ready for full construction; no new global cap or budget exhaustion claim."
+    },
+    {
+      "at": "2026-09-13T04:10:10.646770+00:00",
+      "previous_reserved_pending_sessions": 0,
+      "reserved_pending_sessions": 14,
+      "reason": "Resume authorized construction from saved assay boundary evidence; all previous costs retained. Earthquake probe ended before downstream construction; missed launch reservation recorded retrospectively, not backdated."
+    },
+    {
+      "at": "2026-09-13T04:11:48.234342+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 28,
+      "reason": "Independent bounded GWAS trait-scope opportunity allocated; retain full contingent14-stage path per opportunity, no previous failed trial credits."
+    },
+    {
+      "at": "2026-09-13T04:55:22.518850+00:00",
+      "previous_reserved_pending_sessions": 28,
+      "reserved_pending_sessions": 14,
+      "reason": "GWAS opportunity terminal on unavailable originals; release its unstarted14 stages, preserve6 requests and overrun cost. Assay worker instructed to save and stop after observed overrun; no extra collection authorized."
+    },
+    {
+      "at": "2026-09-13T04:55:50.313870+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 0,
+      "reason": "Assay annotation work terminal; release unstarted14 stages, retain all3 requests and full model/time cost. Goal remains active0/5, neither resource exhausted nor globally blocked."
+    },
+    {
+      "at": "2026-09-13T04:58:25.478053+00:00",
+      "previous_reserved_pending_sessions": 0,
+      "reserved_pending_sessions": 14,
+      "reason": "Official split-remediation mechanism evidence motivates one independent bounded opportunity; full contingent builder1/dev4/attack2/audit1/formal6 reserved. Controller2search requests included."
+    },
+    {
+      "at": "2026-09-13T05:02:02.740776+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 28,
+      "reason": "Independent nutrient analytical-fraction identity opportunity allocated, not old oxygen/Pareto task split; full contingent14 stages additional, no historical trial credit."
+    },
+    {
+      "at": "2026-09-13T05:02:28.718350+00:00",
+      "previous_reserved_pending_sessions": 28,
+      "reserved_pending_sessions": 14,
+      "reason": "PDB identity opportunity terminal on unresolved reference scope/fields; release unstarted14-stage path and retain8 source items plus model cost. Nutrient-fraction14 remains."
+    },
+    {
+      "at": "2026-09-13T05:06:27.126965+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 28,
+      "reason": "New cross-study comparability need uses real saved interval/context boundaries; old packet was document-limited. Allocate bounded evidence worker and independent full14-stage potential path, no old scores credited."
+    },
+    {
+      "at": "2026-09-13T05:06:54.978075+00:00",
+      "previous_reserved_pending_sessions": 28,
+      "reserved_pending_sessions": 14,
+      "reason": "WQP fraction opportunity terminal; release unstarted14-stage path, keep all cost. Cross-study compound evidence14 remains."
+    },
+    {
+      "at": "2026-09-13T05:09:54.093369+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 28,
+      "reason": "One bounded receptor-complex scope opportunity allocated; independent complete14-stage potential path reserved, no old failed trials credited."
+    },
+    {
+      "at": "2026-09-13T05:10:59.567311+00:00",
+      "previous_reserved_pending_sessions": 28,
+      "reserved_pending_sessions": 14,
+      "reason": "Cross-study candidate stopped with actual complete packet minimum-answer counterexample; release unstarted14 stages, retain all cost. Receptor scope14 remains."
+    },
+    {
+      "at": "2026-09-13T05:16:37.870989+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 15,
+      "reason": "Observed receptor complex/group, homolog/direct, explicit mutation and component conflicts support construction candidate. Add independent pre-A content review1 to full constructor+13remaining validation path before allocation; no Sol runs started."
+    },
+    {
+      "at": "2026-09-13T05:23:43.840699+00:00",
+      "previous_reserved_pending_sessions": 15,
+      "reserved_pending_sessions": 14,
+      "reason": "Allocate diazepam r01 full constructor as separately charged native work turn. Remaining pre-A review1/dev4/attack2/final audit1/formal6 reserved; no prior candidate trials credited."
+    },
+    {
+      "at": "2026-09-13T05:37:25.048734+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 13,
+      "reason": "Independent pre-A content/reference reviewer allocated; overlaps constructor source/semantic check, final pass only after final constructor version. Remaining dev4/attack2/final audit1/formal6 reserved."
+    },
+    {
+      "at": "2026-09-13T05:46:54.175750+00:00",
+      "previous_reserved_pending_sessions": 13,
+      "reserved_pending_sessions": 11,
+      "reason": "Preregister and allocate first fresh diazepam r01 CG/GO A slots after independent content pass and complete pretest source/version match; retain B2/attack2/final audit1/formal6."
+    },
+    {
+      "at": "2026-09-13T05:53:30.139845+00:00",
+      "previous_reserved_pending_sessions": 11,
+      "reserved_pending_sessions": 0,
+      "reason": "Both diazepam first A raw outputs22/22 full; stop B/attack/formal and release11 unstarted stages. Allocate one separate bounded access-validity audit from actual quota; all A/audit costs retained, no credit to future candidates."
+    },
+    {
+      "at": "2026-09-13T06:21:23.023328+00:00",
+      "previous_reserved_pending_sessions": 0,
+      "reserved_pending_sessions": 17,
+      "reason": "STAP independent preinvestment review supports bounded reference construction: builder1 + pre-A independent review1 + Sol development4/attack2/formal6 + final quality/error audit1 =15 baseline, plus2 contingent access audits. All old/probe/preinvestment costs already charged, none credited."
+    },
+    {
+      "at": "2026-09-13T06:22:53.243852+00:00",
+      "previous_reserved_pending_sessions": 17,
+      "reserved_pending_sessions": 16,
+      "reason": "New Astra/high STAP constructor allocated and registered; remaining pre-A1 + development4 + attacks2 + final audit1 + formal6 =14 plus2 contingent access audits."
+    },
+    {
+      "at": "2026-09-13T06:35:57.106544+00:00",
+      "previous_reserved_pending_sessions": 16,
+      "reserved_pending_sessions": 15,
+      "reason": "Independent pre-A audit1 allocated as registered Astra/high work. Remaining development4 + attacks2 + final audit1 + formal6 =13 baseline, plus2 contingent access audits. Builder still active, no Sol tests."
+    },
+    {
+      "at": "2026-09-13T06:48:27.118257+00:00",
+      "previous_reserved_pending_sessions": 15,
+      "reserved_pending_sessions": 13,
+      "reason": "STAP CG/GO first development-A2 registered and allocated. Remaining B2 + attacks2 + final audit1 + formal6 + contingent access audits2 =13; no old trial credit."
+    },
+    {
+      "at": "2026-09-13T06:55:24.037283+00:00",
+      "previous_reserved_pending_sessions": 13,
+      "reserved_pending_sessions": 12,
+      "reason": "STAP A access/error review allocated separately while GO finishes. Remaining B2/attack2/final1/formal6 plus contingent formal access1 =12, no new tests beyond registered A."
+    },
+    {
+      "at": "2026-09-13T06:58:18.443570+00:00",
+      "previous_reserved_pending_sessions": 12,
+      "reserved_pending_sessions": 0,
+      "reason": "STAP CG A raw full and observed access-compliant, GO raw11/12 with access review ongoing: no supported dual-face ability errors, stop further B/attack/formal sampling. Release12 unstarted future stages including formal access contingency. Current independently allocated access review remains charged; no failed/old trials credited."
+    },
+    {
+      "at": "2026-09-13T07:51:46.815831+00:00",
+      "previous_reserved_pending_sessions": 0,
+      "reserved_pending_sessions": 14,
+      "reason": "CFTR interrupted pre-evidence work resumed as bounded opportunity; full prospective builder1/development4/attack2/final audit1/formal6 reserved, no past trial credits. Necessary content review costs additional if candidate becomes viable."
+    },
+    {
+      "at": "2026-09-13T07:54:49.974636+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 28,
+      "reason": "CFTR future14 released; reserve separate full14 downstream stages for each of two bounded independent opportunities: trial history and GEO sample identity. No failed run credits."
+    },
+    {
+      "at": "2026-09-13T07:57:19.718691+00:00",
+      "previous_reserved_pending_sessions": 28,
+      "reserved_pending_sessions": 14,
+      "reason": "Both clinical history and GEO bounded opportunities stop; release their28 contingent stages. Independently reserve14 full downstream stages for new structural-interface opportunity, no historic trial credits."
+    },
+    {
+      "at": "2026-09-13T07:58:38.021512+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 28,
+      "reason": "Independent staged regulatory effective-scope evidence work started; reserve its14 downstream stages in addition to structural-interface14, neither candidate yet constructed."
+    },
+    {
+      "at": "2026-09-13T08:01:32.180482+00:00",
+      "previous_reserved_pending_sessions": 28,
+      "reserved_pending_sessions": 42,
+      "reason": "Weather observation-regime bounded opportunity started independently; add14 full prospective validation stages while two prior opportunities close, no prior trial credits."
+    },
+    {
+      "at": "2026-09-13T08:03:42.114293+00:00",
+      "previous_reserved_pending_sessions": 42,
+      "reserved_pending_sessions": 28,
+      "reason": "Structural and regulatory opportunities completed as fixed-material stops; release their28. Reserve14 for independently author-selected evidence opportunity plus weather14. All past costs remain charged."
+    },
+    {
+      "at": "2026-09-13T08:08:09.024301+00:00",
+      "previous_reserved_pending_sessions": 28,
+      "reserved_pending_sessions": 14,
+      "reason": "Weather stop and prior evidence-index selection release future stages; reserve independent14 full downstream stages for new actual Reactome source lead. No failed work credited."
+    },
+    {
+      "at": "2026-09-13T08:09:53.432617+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 0,
+      "reason": "All current bounded opportunities terminal; release unstarted downstream reserve without crediting failed work. Goal remains active and quota/deadline remain available. Reserve full stages again only for the next concrete opportunity."
+    },
+    {
+      "at": "2026-09-13T08:13:09.935776+00:00",
+      "previous_reserved_pending_sessions": 0,
+      "reserved_pending_sessions": 14,
+      "reason": "New actual public production page resolves narrow prior urllib403 gap; same Reactome lineage resumes in one bounded exploration/reference work order,14 downstream full stages reserved. Prior403 and all costs retained."
+    },
+    {
+      "at": "2026-09-13T08:38:54.217388+00:00",
+      "previous_reserved_pending_sessions": 14,
+      "reserved_pending_sessions": 14,
+      "reason": "Reactome completed stop and released14; independently reserve14 complete downstream stages for primary-evidenced FUS condition-comparability work, no historical cost credits."
+    }
+  ],
+  "scope_history": [
+    {
+      "at": "2026-09-12T17:35:54.233304+00:00",
+      "instruction": "Latest user: bounded parallel review of seven full-score A candidates; at most2 reviewable redesign proposals, no tests or unrelated exploration; stop after review. Current failed builder replacement deferred.",
+      "review_report": "rolling_five/full_score_review/report.md",
+      "completed_at": "2026-09-12T17:50:31.628358+00:00"
+    },
+    {
+      "at": "2026-09-13T02:11:12.156122+00:00",
+      "clarification": "Seven-full-score review and its no-new-tests work order are complete. The continued original five-task goal authorizes the registered development/attack/audit/formal workflow for genuinely revised reference-ready candidates; never repeat full-score historical versions. Prior controller wording extending review-only testing pause indefinitely is not a new user restriction. No test starts until current r04 integration checks pass."
+    }
+  ],
+  "current_direction_status": "No active candidate or worker;0/5; native five-task goal active, original quota/deadline retained.",
+  "candidate_specific_exceptions": [
+    {
+      "at": "2026-09-13T01:35:50.727392+00:00",
+      "candidate_id": "chembl_stereochemical_peers_001",
+      "additional_construction_recoveries": 1,
+      "delivery": "native Astra/high incremental file writes",
+      "authorization": "去除受阻，恢复造题; response to pending explicit additional recovery proposal",
+      "global_retry_policy_unchanged": true
+    }
+  ],
+  "reservation_cost_observations": [
+    {
+      "at": "2026-09-13T04:13:10.534151+00:00",
+      "source": "run_accounting.json completed development runs",
+      "observed": {
+        "elapsed_seconds": {
+          "n": 20,
+          "median": 85.651,
+          "max": 178.274
+        },
+        "input_tokens": {
+          "n": 20,
+          "median": 350697.5,
+          "max": 1292832
+        },
+        "cached_input_tokens": {
+          "n": 20,
+          "median": 285248.0,
+          "max": 1153024
+        },
+        "output_tokens": {
+          "n": 20,
+          "median": 2001.0,
+          "max": 4150
+        }
+      },
+      "limitations": "Formal and attacks remain unobserved and are not asserted equal to development. Full stage counts retained; no token-to-shared-quota conversion. Medians are observations, not a new time or token cap."
+    }
+  ],
+  "current_direction": "D2 source attribution gap closed as stopped evidence work",
+  "reservation_estimate_history": [
+    {
+      "observed_at": "2026-09-12T13:02:51.941445+00:00",
+      "candidate_count": 1,
+      "stages": {
+        "builder": 1,
+        "development": 4,
+        "attacks": 2,
+        "independent_final_audit": 1,
+        "formal": 6
+      },
+      "observed_median_proxy": {
+        "input_tokens": 3356292.5,
+        "cached_input_tokens": 2587584,
+        "output_tokens": 46163
+      },
+      "observed_high_proxy": {
+        "input_tokens": 9779490,
+        "cached_input_tokens": 8595712,
+        "output_tokens": 78762
+      },
+      "optional_genuine_revision_proxy": {
+        "input_tokens": 752563,
+        "cached_input_tokens": 688256,
+        "output_tokens": 40949
+      },
+      "limitations": "Formal and attack costs currently proxied by development; actual costs may exceed observed high. Cached input subset of input. No justified token-to-week-quota conversion. Shared quota observed1% used; recheck before costly stages; preserve complete remaining workload, do not launch when actual capacity cannot plausibly finish."
+    }
+  ],
+  "nonblind_effort_change": {
+    "effective_at": "2026-09-13T08:24:45.322230+00:00",
+    "previous_effort": "high",
+    "effort": "medium",
+    "authorization": "用户明确要求：除了盲解是5.6之外的任务的gpt6改成medium强度；后续构造、修订、独立审计及协调统一Astra/medium；Sol/medium保留。"
+  },
+  "latest_quota_observation": {
+    "observed_at": "2026-09-13T10:54:53.456567+00:00",
+    "codex_used_percent": 48,
+    "codex_remaining_percent": 52,
+    "available_reset_credits": 2,
+    "reset_consumed": false,
+    "source": "mcp__codex_app__get_usage_limits",
+    "note": "Shared account limit, no token-to-quota conversion."
+  },
+  "protocol_changes": [
+    {
+      "at": "2026-09-13T11:37:58.460039+00:00",
+      "previous_protocol_version": "ten-task-v1",
+      "previous_protocol_assets": {
+        "registered_at": "2026-09-09T10:18:50.460615+00:00",
+        "solver_config_path": "protocol/ten-task-v1/solver.config.toml",
+        "scorer_path": "protocol/ten-task-v1/score.py",
+        "data_tools_path": "protocol/ten-task-v1/data_tools.py",
+        "image_id": "sha256:7e6f86e9ecb36ec74f6dc42254c16bc9b0f31f22cea6f96be8f872599f0404b6"
+      },
+      "protocol_version": "ten-task-v2-bounded-retrieval",
+      "authorization": "用户明确禁止完整批量导出，允许搜索/正常分页/单项证据/证据驱动查询，统一限制分页并发并保留本地计算。",
+      "historical_results": "Retained unchanged; no pooling, automatic retests or budget reset."
+    }
+  ]
+}

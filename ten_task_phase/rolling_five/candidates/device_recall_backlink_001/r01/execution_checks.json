@@ -1,0 +1,241 @@
+{
+  "checked_at_utc": "2026-09-13T02:57:20.593465+00:00",
+  "scope": "Offline constructor verification; no model test or independent human/content review",
+  "complete_candidate_schema": {
+    "status": "passed",
+    "validator": "runtime/stage_results.validate; every keyword in the existing candidate.schema.json supported",
+    "schema_copy": "candidate.schema.json"
+  },
+  "public_pair": {
+    "exact_two_keys": true,
+    "same_output_format": true,
+    "candidate_pair_equal": true,
+    "alignment_quotes_present": true,
+    "no_discovered_ids_or_website_or_brand": true
+  },
+  "source_provenance": [
+    {
+      "id": "turn53view0",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn54view0",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn54view1",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn55view0",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn55view1",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn57view0",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn57view1",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn57view2",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn58view0",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn59view0",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn59view1",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn59view2",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn59view3",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn59view4",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn59view5",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn59view6",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn60view0",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn60view1",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn60view2",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn52view0",
+      "raw_segment_equal": true
+    },
+    {
+      "id": "turn52view1",
+      "raw_segment_equal": true
+    }
+  ],
+  "reference": {
+    "status": "passed",
+    "all_applications_from_source": true,
+    "rows": 2,
+    "view_rows": 41,
+    "exact_targets_for_absent": true,
+    "positive_exact_witness": true,
+    "no_hardcoded_final_mapping": "Reference joins source IDs, discovered registrations, actual view links and resolved target IDs."
+  },
+  "refresh": {
+    "root_required_identity_equal": true,
+    "K050369_recheck_returned_rows": 10,
+    "K081137_recheck_returned_rows": 0,
+    "K081137_latest_full_table_verified": false,
+    "limitation": "K081137 title-only response is not a full refresh; earlier complete repeated view is reference. K050369 only first page rechecked. Future evaluation needs relevant current-source verification.",
+    "prior_complete_seven_row_view_equal": true,
+    "prior_complete_source_ref": "turn52view1"
+  },
+  "scorer_compatibility": {
+    "entry_point": "construction_pipeline/ten_task_phase/runtime/score.py",
+    "purpose": "Ordinary and boundary label handling and two-row order only; deliberately altered gold fixtures are not model measurements",
+    "fixtures": {
+      "ordinary_both_correct": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 4,
+          "gold_fields": 4,
+          "pred_fields": 4,
+          "item_denominator": 8,
+          "correct_rows": 2,
+          "gold_rows": 2,
+          "pred_rows": 2,
+          "row_denominator": 4,
+          "correct_pairs": 1,
+          "pair_denominator": 1,
+          "shared_ids": 2
+        }
+      },
+      "absent_wrongly_inferred_present": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.75,
+          "Row-F1": 0.5,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 3,
+          "gold_fields": 4,
+          "pred_fields": 4,
+          "item_denominator": 8,
+          "correct_rows": 1,
+          "gold_rows": 2,
+          "pred_rows": 2,
+          "row_denominator": 4,
+          "correct_pairs": 1,
+          "pair_denominator": 1,
+          "shared_ids": 2
+        }
+      },
+      "positive_wrongly_absent": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.75,
+          "Row-F1": 0.5,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 3,
+          "gold_fields": 4,
+          "pred_fields": 4,
+          "item_denominator": 8,
+          "correct_rows": 1,
+          "gold_rows": 2,
+          "pred_rows": 2,
+          "row_denominator": 4,
+          "correct_pairs": 1,
+          "pair_denominator": 1,
+          "shared_ids": 2
+        }
+      },
+      "drop_boundary_row": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.6666666666666666,
+          "Row-F1": 0.6666666666666666,
+          "P.O.A.": 0
+        },
+        "counts": {
+          "correct_fields": 2,
+          "gold_fields": 4,
+          "pred_fields": 2,
+          "item_denominator": 6,
+          "correct_rows": 1,
+          "gold_rows": 2,
+          "pred_rows": 1,
+          "row_denominator": 3,
+          "correct_pairs": 0,
+          "pair_denominator": 0,
+          "shared_ids": 1
+        }
+      },
+      "reverse_order": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 0.0
+        },
+        "counts": {
+          "correct_fields": 4,
+          "gold_fields": 4,
+          "pred_fields": 4,
+          "item_denominator": 8,
+          "correct_rows": 2,
+          "gold_rows": 2,
+          "pred_rows": 2,
+          "row_denominator": 4,
+          "correct_pairs": 0,
+          "pair_denominator": 1,
+          "shared_ids": 2
+        }
+      }
+    },
+    "UNRESOLVED": "Readable output token is allowed. Actual source/infrastructure failure invalidates capability interpretation and must be handled before scoring; this scorer alone cannot diagnose tool failures."
+  },
+  "prepare_validation": {
+    "status": "passed",
+    "exit_code": 0,
+    "stdout": "{\"candidate_id\": \"device_recall_backlink_001\", \"status\": \"reference_ready\", \"state_consistency\": \"passed\", \"relative_path_syntax\": \"passed\", \"referenced_files\": \"checked\", \"scope\": \"Declared state consistency only; not full JSON Schema, source truth, or difficulty verification\"}\n",
+    "stderr": ""
+  },
+  "model_tests": 0,
+  "human_validation": "not_performed",
+  "difficulty": "untested"
+}

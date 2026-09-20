@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "implementation_status": "design_only_not_consumed_by_prepare",
+  "path_base": "construction_pipeline",
+  "notes": [
+    "阶段顺序由控制程序及前置结果决定，不能按文件编号排序。",
+    "工作单只留在控制端；盲角色仅接收三个公开字段。",
+    "expected_asset_paths是成功阶段需交付的设计要求；inconclusive阶段可明确报告缺失，不伪造文件。",
+    "输出路径相对阶段工作目录；控制端校验并复制资产后更新候选引用。",
+    "注册表不提供实际读取隔离、结果真实性检查或自动升级状态。"
+  ],
+  "stages": [
+    {
+      "stage": "00_controller",
+      "prompt": "prompts/00_controller.md",
+      "include_common_prompt": true,
+      "visibility": "assigned_private_assets",
+      "input_asset_roles": [
+        "campaign_config",
+        "old_task_inventory",
+        "prior_stage_results"
+      ],
+      "expected_asset_paths": [
+        "campaign_progress.json",
+        "work_order.json"
+      ],
+      "final_reply_schema": "schemas/stage_result.schema.json",
+      "artifact_schemas": {},
+      "reply_status_is_candidate_acceptance": false
+    },
+    {
+      "stage": "01_site_explorer",
+      "prompt": "prompts/01_site_explorer.md",
+      "include_common_prompt": true,
+      "visibility": "assigned_private_assets",
+      "input_asset_roles": [
+        "ecosystem",
+        "old_task_refs",
+        "exploration_limits"
+      ],
+      "expected_asset_paths": [
+        "site_profile.json",
+        "opportunities.json"
+      ],
+      "final_reply_schema": "schemas/stage_result.schema.json",
+      "artifact_schemas": {},
+      "reply_status_is_candidate_acceptance": false
+    },
+    {
+      "stage": "02_candidate_designer",
+      "prompt": "prompts/02_candidate_designer.md",
+      "include_common_prompt": true,
+      "visibility": "assigned_private_assets",
+      "input_asset_roles": [
+        "site_profile",
+        "observed_opportunity",
+        "old_task_refs"
+      ],
+      "expected_asset_paths": [
+        "candidate.json",
+        "state_graph.json",
+        "design_rationale.md"
+      ],
+      "final_reply_schema": "schemas/stage_result.schema.json",
+      "artifact_schemas": {
+        "candidate.json": "schemas/candidate.schema.json"
+      },
+      "reply_status_is_candidate_acceptance": false
+    },
+    {
+      "stage": "03_reference_builder",
+      "prompt": "prompts/03_reference_builder.md",
+      "include_common_prompt": true,
+      "visibility": "assigned_private_assets",
+      "input_asset_roles": [
+        "candidate",
+        "state_graph",
+        "source_materials"
+      ],
+      "expected_asset_paths": [
+        "source_manifest.json",
+        "candidate_universe.jsonl",
+        "inclusion_ledger.jsonl",
+        "field_evidence.jsonl",
+        "reference/solve_reference.py",
+        "reference/oracle.psv",
+        "reference/counterfactuals.json",
+        "reference_report.md"
+      ],
+      "final_reply_schema": "schemas/stage_result.schema.json",
+      "artifact_schemas": {},
+      "reply_status_is_candidate_acceptance": false
+    },
+    {
+      "stage": "07_pair_writer",
+      "prompt": "prompts/07_pair_writer.md",
+      "include_common_prompt": true,
+      "visibility": "assigned_private_assets",
+      "input_asset_roles": [
+        "candidate",
+        "reference_assets"
+      ],
+      "expected_asset_paths": [
+        "cg.json",
+        "go.json",
+        "pair_alignment.json"
+      ],
+      "final_reply_schema": "schemas/stage_result.schema.json",
+      "artifact_schemas": {},
+      "reply_status_is_candidate_acceptance": false
+    },
+    {
+      "stage": "04_blind_solver",
+      "prompt": "prompts/04_blind_solver.md",
+      "include_common_prompt": false,
+      "visibility": "public_task_only",
+      "input_asset_roles": [
+        "public_task"
+      ],
+      "expected_asset_paths": [],
+      "final_reply_schema": "schemas/solver_result.schema.json",
+      "artifact_schemas": {},
+      "reply_status_is_candidate_acceptance": false
+    },
+    {
+      "stage": "05_shortcut_attacker",
+      "prompt": "prompts/05_shortcut_attacker.md",
+      "include_common_prompt": false,
+      "visibility": "public_task_only",
+      "input_asset_roles": [
+        "public_task"
+      ],
+      "expected_asset_paths": [],
+      "final_reply_schema": "schemas/solver_result.schema.json",
+      "artifact_schemas": {},
+      "reply_status_is_candidate_acceptance": false
+    },
+    {
+      "stage": "06_evidence_auditor",
+      "prompt": "prompts/06_evidence_auditor.md",
+      "include_common_prompt": true,
+      "visibility": "assigned_private_assets",
+      "input_asset_roles": [
+        "candidate",
+        "reference_assets",
+        "pair_alignment",
+        "blind_attempts",
+        "shortcut_attempts",
+        "deterministic_scores"
+      ],
+      "expected_asset_paths": [
+        "content_audit.json",
+        "audit_report.md"
+      ],
+      "final_reply_schema": "schemas/stage_result.schema.json",
+      "artifact_schemas": {},
+      "reply_status_is_candidate_acceptance": false
+    },
+    {
+      "stage": "08_adjudicator",
+      "prompt": "prompts/08_adjudicator.md",
+      "include_common_prompt": true,
+      "visibility": "assigned_private_assets",
+      "input_asset_roles": [
+        "candidate",
+        "content_audit",
+        "supporting_reports",
+        "remaining_budget"
+      ],
+      "expected_asset_paths": [
+        "decision.json"
+      ],
+      "final_reply_schema": "schemas/stage_result.schema.json",
+      "artifact_schemas": {
+        "decision.json": "schemas/decision.schema.json"
+      },
+      "reply_status_is_candidate_acceptance": false
+    },
+    {
+      "stage": "09_repair",
+      "prompt": "prompts/09_repair.md",
+      "include_common_prompt": true,
+      "visibility": "assigned_private_assets",
+      "input_asset_roles": [
+        "candidate",
+        "decision",
+        "affected_assets"
+      ],
+      "expected_asset_paths": [
+        "candidate.json",
+        "revision_notes.md"
+      ],
+      "final_reply_schema": "schemas/stage_result.schema.json",
+      "artifact_schemas": {
+        "candidate.json": "schemas/candidate.schema.json"
+      },
+      "reply_status_is_candidate_acceptance": false
+    },
+    {
+      "stage": "10_confirmation_solver",
+      "prompt": "prompts/10_confirmation_solver.md",
+      "include_common_prompt": false,
+      "visibility": "public_task_only",
+      "input_asset_roles": [
+        "public_task"
+      ],
+      "expected_asset_paths": [],
+      "final_reply_schema": "schemas/solver_result.schema.json",
+      "artifact_schemas": {},
+      "reply_status_is_candidate_acceptance": false
+    }
+  ]
+}

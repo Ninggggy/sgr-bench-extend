@@ -1,0 +1,143 @@
+{
+  "status": "completed",
+  "summary": "建议：ready_for_difficulty_test，仅指最终新题已具备事实评分条件，可进入已约定的固定新旧诊断实验。严格 SGR 检索结构升级不成立；四次内容运行和两次捷径运行均完整正确，未暴露目标难度，不能宣布难题构造成功。本次是可见 oracle 的独立非盲审计，不是盲解、人类专家评估或专家投票。revision 3 已用尽实质修订额度。\n\n审计方法与范围：先读取 private/sources/epa_definitions.response、userguide.response、services.response，独立解释高风险字段，再阅读作者程序与 oracle。我在完整原始 CSV 或清单指定的解压 CSV 上新写 SQLite 查询，检查范围、复合键、质量字段和原始数值；随后用独立 JavaScript 枚举区间、逐次撤回和事件选择。没有运行作者参考程序来代替独立复算。完整分页读取并检查了六次运行的 session、events、tool_events、下载调用及 registry，核对公开输入、实际计算代码、结果提取、逐字段评分和隔离配置。未独立验证 ZIP 成员与解压文件的二进制等同性；该项依据 sources/extraction_manifest.json 的记录，并辅以独立导出之间的内容核对。本副本未提供各运行全部下载响应体，因此没有声称逐字节重放六次下载。r01 原下载归档缺失仍是历史限制，未用本次材料补造。\n\n官方语义的独立解释：OrganizationIdentifier 提供身份上下文；ActivityIdentifier 在组织内标识一次独立采样或测量动作，同站同日不等于同一活动。Result 是属于活动的测量结果，不能把结果行数当采样数。ActivityStartDate 决定采样日及季度，ActivityIdentifier 中的年份片段不具有这个语义。ResultStatusIdentifier 表示 QA/QC 接受状态，ResultValueTypeName 表示结果形成方式；检出条件、限定码和单位是分别检查的字段。PrecisionValue 是测量间一致性的描述，不是要求输出几位小数。深度空白是未知，不代表表层。季度齐全、共同区间、Pareto 支配及撤回是题目明定的分析规则，不是官方自动提供的水质结论。官方还说明 UI 与服务采用相同筛选参数；使用 API 本身不是绕过。[WQP 用户指南](https://www.waterqualitydata.us/portal_userguide/)，[WQP 服务指南](https://www.waterqualitydata.us/webservices_documentation/)。\n\n六要求逐项结论：\n\n1. 领域专属性：通过。活动与结果粒度、组织内身份、00010/00095/00300/00400 参数码、质量状态和同活动伴随指标均依赖 WQP 语义。00301 饱和度不能替代 00300 浓度。原始记录实际含 Historical、Preliminary、Estimated、非例行活动及检出未定量结果，不能只按指标名称聚合。定位：public/cg.json 第2—4步；private/sources/userguide.response 表9、表10；narrow_2000_2019_trinity_panel_zip.extracted.csv 的 ResultIdentifier=NWIS-115862841，组织/活动=USGS-TX/nwistx.01.01804288，00300 值和单位为空、检出条件为 Detected Not Quantified，不能算0。\n\n2. 长尾来源：通过，但不据此认证难度。答案使用具体历史采样活动、源结果键和数据质量字段，来源是真实官方历史导出，而非现成摘要。两次攻击的有限精确措辞及字段搜索未发现答案表；这只说明本轮未证实答案暴露。定位：private/source_manifest.json；runs/r-e70dd272388a/sessions/rollout-2026-09-08T14-46-38-01a0817c-3d62-7fb2-bc5d-e0233695036f.jsonl 第13、18行；runs/r-66559195d6fa/sessions/rollout-2026-09-08T14-46-35-01a0817c-325f-72a2-937b-eb35b7df23a1.jsonl 第13、18行。\n\n3. 唯一可验证：当前归档切片通过。独立查询得到460个唯一组织/站点键，全部有窗口内活动；17站满足精确名称前缀与类型条件，443站被确定排除。12个 HUC8 与官方 Trinity 层级相符。Activity 导出有22,726行和22,726个组织/活动键；区域结果有113,046行，均能连接到活动，未发现站点或日期错配。17站共有1,026个活动、5,215条相关结果；其中941个例行水活动，最终833个完整合格活动。按四个参数码独立导出的3,782条记录，与广域 narrow 导出的对应记录在组织、活动、结果键、参数码、原值、单位、状态、值类型、检出条件和限定码上双向 EXCEPT 均为0。主干5,215条结果的复合结果键均唯一，合格活动/参数没有重复值组或冲突值组。定位：private/sources/station_2000_2019_explicit_hucs.response 及 headers；activity_2000_2019_trinity_zip.extracted.csv；narrow_2000_2019_trinity_panel_zip.extracted.csv；independent_pcode_mainstem_2000_2019_zip.extracted.csv。\n\n我独立核对了全部340个站年季度计数、210个原始区间的完整成员集合及支配关系、833次撤回的完整前沿；另逐项核对51个支持变化情景保存的10,710个区间判定，全部一致。782次撤回不改变年度支持，46次改变支持但不改变前沿，5次改变前沿。纳排账本未发现影响答案的 unknown；非干流站的 supported_years=null 属于已确定范围排除后的不适用，不能解释为查询失败或未知合格性。定位：private/inclusion_ledger.jsonl；private/reference/initial_state/station_year_ledger.jsonl、window_ledger.jsonl；private/reference/scenario_ledger.jsonl、trial_window_ledger.jsonl。\n\n4. 真值稳定：归档切片条件通过，未来服务状态 unknown。题面明确 legacy WQX2.2 和2000-01-01至2019-12-31闭区间，但历史采样日期不意味着数据库永不修订；Accepted 也不是永久不变保证。当前多个导出与六次实际答案相符，足以支持本轮参考值，不能把它描述成永久冻结快照。采样日、HTTP 获取时间、页面抓取时间及运行 current_date 已分别处理。未来若有实质源数据漂移，必须按协议报告源版本问题，不计为模型推理失败。定位：public/cg.json 第1步；private/source_manifest.json；private/sources/userguide.response 的 USGS 数据解释及 legacy profile 提示。\n\n5. 防捷径：严格 SGR 意义不通过；没有证实绕过题目计算语义。攻击者实际使用完整公开导出并正确执行撤回、重新求前沿和条件事件选择。最短已观察成功路径包括3次下载加13次 SQL 调用及本地 JavaScript：Station 得到460站，筛出17站，随后 Activity 和四参数 Result 导出得到1,026活动与3,782结果。更强的结构反证是归档中的区域 Station、Activity、Result 请求都能仅从公开题面的 HUC、组织、日期和指标构造；成功响应在工具容量内，因此可预取后完全本地求解，不需要由撤回结果决定后续网络参数。API 在这里实现相同公开筛选状态，但确实消除了所称核心自适应检索链。定位：private/sources/activity_2000_2019_trinity_zip.json、narrow_2000_2019_trinity_panel_zip.json、station_2000_2019_explicit_hucs.json；runs/r-66559195d6fa/downloaded_data/tool_calls.jsonl 第1—16行。3次下载不是全局最优路径的下界。\n\n6. 逻辑依赖：答案层面的数据与计算依赖通过；作为必要检索 control 链不通过。撤回会真实改变年度支持、完整成员集合和全球前沿；只检查原先最低氧事件会漏掉两次关键撤回，只重新检查原前沿会漏掉重新出现的区间，丢弃同 duration/coverage 的并列设计也会漏行。这些反事实已独立复算。与此同时，单位转换、冲突消解和空前沿 sentinel 在当前切片没有实际触发，不应计为已观察到的难度贡献。定位：private/reference/counterfactuals.json；private/reference/solve_reference.py 的事件选择及反事实代码；private/state_graph.json。\n\n决定性计算与原始键：原始前沿为2013—2019、2站（08057410、08067000）；2014、4站（08057410、08065350、08067000、08067252）；2014—2015、3站（08057410、08067000、08067252），此处站号均带 USGS- 前缀。Crockett 2014年的季度计数为1/1/3/1，撤回 nwistx.01.01401065、nwistx.01.01401515 或 nwistx.01.01500574 均使4站设计消失，各输出2行。它们在 activity.csv 的CSV记录号分别为14740、21000、12977，实际采样日期为2014-03-11、2014-05-20、2014-10-30。Liberty 的 nwistx.01.01601150 实际日期为2015-12-02，记录11336；该年季度计数3/3/2/1，撤回后前沿为2002—2007的2站设计和2014的4站设计。nwistx.01.01900498 日期2019-02-13，记录287；该年季度计数1/3/2/3，撤回后保留2002—2007和2013—2018两个6年/2站设计，并保留2014及2014—2015设计。\n\n12行独立结果逐字段及顺序与 private/reference/oracle.psv 一致，计数顺序为37、27、61、31、39、17、21、12、24、34、11、27。所有四项输出指标均来自各行选中活动自己的真实值；检查了5个撤回活动和9个不同选中活动的56条关键参数记录。例如结果 NWIS-103467792（narrow CSV记录60450）给出 nwistx.01.01601917 的氧8.4；同活动记录60448、60449、60452分别给出温度16.3、电导400、pH7.7。NWIS-100854065（记录49990）给出 nwistx.01.01502581 的氧4.3，同活动温度25.3、电导276、pH7.1。实际可用值全部已处于目标单位，小数最多一位，故两位输出没有半舍入边界问题。存在氧浓度并列，例如2015-05-30的 nwistx.01.01502581 与2015-06-10的 nwistx.01.01502988，按更早日期唯一选前者。其余决定性并列也由日期解决；后续本地时间、站点、活动键排序规则明确，但未因此增加本切片难度。\n\nCG/GO：逐段去掉CG步骤标题、规范化排版后，九段必要条件均完整出现在GO中，output_format 完全相同。全部六份实际 public/input.json 与对应公开版本一致，仅增加 current_date。没有发现GO省略撤回范围、非累计恢复、完整 cohort 身份、全球支配、并列、季度或最终条件事件集合。评分行键为撤回组织/活动加起止年；cohort_station_ids 单独按成员集合评分。六份 solver_output/result.json 的 final_answer、answer.txt 均与独立结果相等，提取没有变换。各运行216字段、12行、66个排序对全部正确，Item-F1、Row-F1、P.O.A.均为1；无需依赖作者汇总分数判断正确性。定位：public/cg.json、public/go.json；private/scoring_rules.json；private/protocol/score.py；各 runs/*/extraction.json、scoring/field_differences.json。\n\n状态与参考图：s0 证据是 GET https://www.waterqualitydata.us/ 无查询参数得到的正常首页HTML，含空日期/HUC输入、默认数据源选择及下载表单，不含目标站点记录、833活动集合或最终答案。加入组织、12HUC、日期及导出类型才取得具体证据。该证据只证明服务器初始响应，不证明浏览器渲染、持久化客户端状态或点击可见性；private/state_graph.json 已明确这个范围。\n\n对图中11条边分别判断：original_station_universe→original_activity_panels 在按站点下载路径中可控制参数，但区域预取可消除网络先后；original_activity_panels→original_year_support、original_year_support→original_all_interval_frontier 均是有效本地计算依赖；original_all_interval_frontier→independent_withdrawal_identity 不是必要前置关系，撤回身份集合由原始完整活动直接决定，原前沿仅为比较基线或合法剪枝依据；independent_withdrawal_identity→post_withdrawal_year_support、post_withdrawal_year_support→post_withdrawal_all_interval_frontier、post_withdrawal_all_interval_frontier→full_design_set_change_test 都是有效计算依赖；full_design_set_change_test→post_trial_interval_cohort_and_withdrawn_season 是输出资格控制，区间与季度本身可提前计算；post_trial_interval_cohort_and_withdrawn_season→remaining_cohort_event_minimum 是真实条件选择依赖；remaining_cohort_event_minimum→same_activity_companion_measurements 是按选中身份取值，伴随值早已可同时下载；same_activity_companion_measurements→scenario_specific_sorted_output 是组装与排序依赖。没有一条后半程边被证明是不可避免的网络检索边。\n\n独立简化证明：一次删除只有在该站年原本完整且该季度仅有一个合格活动时才改变年度支持，故833次可先解析排除782次。若删除不触及任何原前沿设计的成员及年份，原前沿保持，其他区间覆盖数只可能下降，不能新近支配它们；本切片51次支持变化中只有5次触及原前沿，恰好是全部改变答案的撤回，并只产生3种不同后续支持状态。这个简化不允许只重看原前沿区间：剩余关键情景仍必须重新比较全部区间。另外，改变前沿的撤回必然破坏一个站年；任何后续可行区间若包含该年，其cohort已不含该站，若保留该站则区间不含该年。因此最后事件池再次显式删除该活动在这些情景中没有额外效果。独立核对12行均如此，不应把这一冗余操作当作新的难度门槛。\n\n反事实复核：只取原始所选最低值会漏 nwistx.01.01601150 和 nwistx.01.01900498；只重看原区间会漏2002—2007及2013—2018；等长等覆盖并列删除会漏后者情景的一行。累计关键撤回使后两个情景得到错误前沿。保留撤回后的全部干流/全时段而忽略区间cohort，Q1/Q2/Q4错误计数分别为227/241/143，并选到不同活动，与保存的反事实一致。initial_state 中年度指标替代季度齐全、填补年份缺口的前沿亦独立相符；放宽活动类型或接受Historical/Preliminary在本切片未改变原始前沿，不能笼统声称这些条件都改变前沿。其全时段事件复用和独立伴随最小值反事实分别有197、83个变化字段，与保存结果一致。\n\n运行与隔离：内容A-CG=r-6e4ca9d3999e，B-CG=r-29c1be074a07，A-GO=r-90f6785199ad，B-GO=r-c56f5211721f；攻击CG=r-e70dd272388a，GO=r-66559195d6fa。六次均记录 gpt-6-astra/high、6000秒上限、3000秒停滞阈值、相同配置及MCP实现，原生functions.exec的JavaScript/store/load实际可用。Docker记录显示无宿主挂载/套接字、只读根、独立tmpfs home/work；调用前清单只有公开输入、提示、schema及工具文件，audit_assets=false，私有路径探针不可读。runner代码只向盲运行复制公开材料及最小认证/配置，MCP只读登记文件并拒绝路径读取、ATTACH及扩展；session未发现私有文件读取调用，最终SQL的VALUES来自此前可追踪的本地计算。这比新目录或新对话更有力，支持所记录运行的读取隔离；不是对镜像全部字节、模型预训练记忆或任意潜在通道的绝对证明。\n\n失败路径没有被抹去：B-CG下载调用日志第20行、A-GO第24行、B-GO第20和21行出现 database or disk is full，随后采用已有本地计算或较小SQL完成；A-GO及CG攻击的 physchem/physChem 请求返回400，省略错误可选profile后取得完整结果。均非最终任务失败。B-CG的UTC起止差3896.471秒，与elapsed_seconds=618.083不一致；代码分别采用壁钟与monotonic，应保留为计时限制，不能用该耗时作难度证据。本次审计新增的四个旧站详情直接HTTP请求均遭TLS主机名证书校验失败；未绕过校验，也未把失败解释为无记录，旧站网页核查另使用web返回的官方页面，不能称其为本次成功取得的实时HTTP快照。\n\n难度与历史时序：四次内容成功加两次攻击成功是未暴露难度的证据，不是难度筛选或确认数据，也不是总体成功概率估计。r02两次CG成功触发最终修订，未执行的GO/攻击保持not_started。private/comparison_scope_clarification.json 记录于2026-09-08T13:31:26.144012Z，明确在r-6e4ca9d3999e首个最终版本开发分数之后、筛选/确认之前，不能称为r01原始预案或r03开发前预注册。r01 tmpfs归档失败仍无法恢复。不能用更多行、图更长、某条失败SQL或模型意见一致来认证困难。\n\n旧对照与下一阶段：waterquality_004在新分数前已选定，保持原CG/GO和三行oracle不变。三个站10924、10897、10892的27个参考字段可核对，六组起年最大值分别为1983、1993、1976；官方表说明年份包络可能含空缺年。公开题面没有精确upper/middle/lower分界，也没有私有rubric中的best-common-start选站规则。具体替代候选TCEQMAIN-10894是Trinity主干River/Stream，HUC12030203，六组起年为1968/1972/1972/1974/1976/1968，结束年均覆盖2001，不能凭现有公开规则确定排除。[10894官方站点页](https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10894/)。因此三行值正确不等于旧题公共答案唯一；定位：private/comparison/waterquality_004.json、waterquality_004-g.json、reference_verification.json、old_pair_review.md。该问题限制固定配对的能力解释，不使新题已复算的答案失效。\n\n可以按 comparisons/analysis_plan.json 继续原定4次筛选和12次全新确认，以相同模型、工具、预算及既定聚合，记录原oracle相对分数和旧题语义限制。不得静默修补旧题、换对照、追加分数驱动重测或通过格式处罚制造失败；遇到影响评分的新增源/oracle/语义不确定性，应停止相关能力评分而保留失败记录。即使执行完这16次，默认仍是固定单对的小样本诊断，不能自动得到confirmed_harder。当前无比较成绩可供审计；严格SGR与困难任务构造的接受结论均不能成立。本结果由控制端保存，artifacts为空，不声称我创建了content_audit.json或audit_report.md。",
+  "artifacts": [],
+  "evidence_refs": [
+    "public/cg.json",
+    "public/go.json",
+    "private/sources/epa_definitions.response",
+    "private/sources/userguide.response",
+    "private/sources/services.response",
+    "private/sources/official_huc_hierarchy.response",
+    "private/source_manifest.json",
+    "private/sources/extraction_manifest.json",
+    "private/sources/station_2000_2019_explicit_hucs.response",
+    "private/sources/station_2000_2019_explicit_hucs.headers",
+    "private/sources/activity_2000_2019_trinity_zip.extracted.csv",
+    "private/sources/narrow_2000_2019_trinity_panel_zip.extracted.csv",
+    "private/sources/independent_pcode_mainstem_2000_2019_zip.extracted.csv",
+    "private/sources/wide_mainstem_2000_2019_panel_zip.extracted.csv",
+    "private/sources/default_homepage.response",
+    "private/inclusion_ledger.jsonl",
+    "private/reference/initial_state/activity_ledger.jsonl",
+    "private/reference/initial_state/station_year_ledger.jsonl",
+    "private/reference/initial_state/window_ledger.jsonl",
+    "private/reference/initial_state/counterfactuals.json",
+    "private/reference/scenario_ledger.jsonl",
+    "private/reference/trial_window_ledger.jsonl",
+    "private/reference/oracle.psv",
+    "private/reference/panel_reference.py",
+    "private/reference/solve_reference.py",
+    "private/reference/counterfactuals.json",
+    "private/state_graph.json",
+    "private/scoring_rules.json",
+    "private/protocol/score.py",
+    "private/protocol/run.py",
+    "private/protocol/data_tools.py",
+    "private/protocol/Dockerfile",
+    "private/protocol/archive_recovery_check.json",
+    "private/comparison_scope_clarification.json",
+    "private/history/r02_development_disposition.json",
+    "private/development_disposition.json",
+    "runs/r-6e4ca9d3999e/sessions/rollout-2026-09-08T13-22-56-01a0812f-9d5a-7883-97db-0c3e7938bad4.jsonl",
+    "runs/r-29c1be074a07/sessions/rollout-2026-09-08T13-29-50-01a08135-ecfa-73c0-aeec-03347d0bc954.jsonl",
+    "runs/r-90f6785199ad/sessions/rollout-2026-09-08T14-34-46-01a08171-6015-7bf3-ace2-3c1156659fb6.jsonl",
+    "runs/r-c56f5211721f/sessions/rollout-2026-09-08T14-40-39-01a08176-c353-71c0-98fb-4eedbe5ff5fa.jsonl",
+    "runs/r-e70dd272388a/sessions/rollout-2026-09-08T14-46-38-01a0817c-3d62-7fb2-bc5d-e0233695036f.jsonl",
+    "runs/r-66559195d6fa/sessions/rollout-2026-09-08T14-46-35-01a0817c-325f-72a2-937b-eb35b7df23a1.jsonl",
+    "private/comparison/waterquality_004.json",
+    "private/comparison/waterquality_004-g.json",
+    "private/comparison/reference_verification.json",
+    "private/comparison/old_pair_review.md",
+    "comparisons/analysis_plan.json"
+  ],
+  "issues": [
+    {
+      "kind": "shortcut_effective",
+      "description": "影响严格SGR升级主张及public/cg.json第1—8步的检索必要性。原始区域Station、Activity和Result成功请求均可从题面直接构造，响应容量允许合法完整预取；两次攻击又实际在少量公开导出后正确完成全部计算。核心后半程网络依赖被消除，但题目的撤回、cohort和前沿语义没有被跳过。修复：将结构定性为下载后的数据与计算依赖，拒绝严格SGR升级认证；保持最终题目和合法工具不变，按已约定协议仅作诊断测量。",
+      "evidence_refs": [
+        "private/sources/station_2000_2019_explicit_hucs.json",
+        "private/sources/activity_2000_2019_trinity_zip.json",
+        "private/sources/narrow_2000_2019_trinity_panel_zip.json",
+        "private/state_graph.json",
+        "runs/r-66559195d6fa/downloaded_data/tool_calls.jsonl",
+        "runs/r-e70dd272388a/downloaded_data/tool_calls.jsonl"
+      ]
+    },
+    {
+      "kind": "logical_dependency_overclaim",
+      "description": "影响private/state_graph.json中original_all_interval_frontier→independent_withdrawal_identity及末端事件删除的难度解释。撤回身份可由完整活动集合直接确定，原前沿只用于比较或剪枝。独立证明与复算显示833次撤回可先缩至51个支持变化，再缩至5个触及原前沿的关键撤回；它们只产生3种不同后续支持状态。改变前沿的撤回已通过站年失效自动被排除在后续cohort/区间事件池之外，最终再次删除活动没有额外效果。修复：将图改述为带分支的计算关系，明确必要条件、可证明剪枝和冗余分支，不把节点数当难度或检索下界。",
+      "evidence_refs": [
+        "private/state_graph.json",
+        "private/reference/scenario_ledger.jsonl",
+        "private/reference/initial_state/station_year_ledger.jsonl",
+        "private/reference/solve_reference.py",
+        "private/reference/counterfactuals.json"
+      ]
+    },
+    {
+      "kind": "unsupported_hardness",
+      "description": "影响难题构造目标，不影响当前新题事实正确性。四次内容答案与两次攻击答案均有12个正确实体、216个正确字段及66个正确排序对；本次独立原始数据复算也逐项相等。现有开发证据没有暴露GPT-6无法可靠完整求解的困难，尚无新旧筛选或确认成绩。修复：保留全部成功及历史触发记录，明确修订额度为0；只执行既定固定诊断，不宣布构造成功或confirmed_harder，不追加分数驱动尝试。",
+      "evidence_refs": [
+        "private/development_disposition.json",
+        "private/history/r02_development_disposition.json",
+        "runs/r-6e4ca9d3999e/scoring/field_differences.json",
+        "runs/r-29c1be074a07/scoring/field_differences.json",
+        "runs/r-90f6785199ad/scoring/field_differences.json",
+        "runs/r-c56f5211721f/scoring/field_differences.json",
+        "runs/r-e70dd272388a/scoring/field_differences.json",
+        "runs/r-66559195d6fa/scoring/field_differences.json",
+        "comparisons/analysis_plan.json"
+      ]
+    },
+    {
+      "kind": "question_ambiguity",
+      "description": "影响旧对照waterquality_004的三站集合、河段分配及由此解释的新旧能力差。公开CG/GO未给出精确upper/middle/lower边界，亦未给出私有rubric中的best-common-start选站规则。TCEQMAIN-10894具有主干River/Stream身份且六组年份包络覆盖1993—2001，是不能由现有明确条件排除的具体候选。三行oracle字段正确仍不足以证明集合唯一。修复：保持旧题和oracle原样，仅报告相对既定oracle的诊断分数并显著标注语义限制；不得将合理替代选站直接解释为能力失败，也不得静默补入选站规则。",
+      "evidence_refs": [
+        "private/comparison/waterquality_004.json",
+        "private/comparison/waterquality_004-g.json",
+        "private/comparison/reference_verification.json",
+        "private/comparison/old_pair_review.md",
+        "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10894/"
+      ]
+    },
+    {
+      "kind": "runtime_environment",
+      "description": "影响部分中间查询的失败归因。B-CG下载工具日志第20行、A-GO第24行、B-GO第20—21行保存了database or disk is full；A-GO和CG攻击各有两次错误physchem/physChem profile请求返回400。运行随后通过本地重算、较小SQL或省略错误可选profile完成，最终答案正确。修复：在汇总中保留这些资源或请求错误及恢复路径，不把它们计为最终推理失败；后续固定实验继续分别报告端到端状态和可评估状态，保持预算与工具一致。",
+      "evidence_refs": [
+        "runs/r-29c1be074a07/downloaded_data/tool_calls.jsonl",
+        "runs/r-90f6785199ad/downloaded_data/tool_calls.jsonl",
+        "runs/r-c56f5211721f/downloaded_data/tool_calls.jsonl",
+        "runs/r-e70dd272388a/downloaded_data/tool_calls.jsonl",
+        "private/protocol/data_tools.py"
+      ]
+    },
+    {
+      "kind": "runtime_timing_inconsistency",
+      "description": "影响r-29c1be074a07耗时字段及速度比较。run.json的started_at=13:29:44.729388Z、ended_at=14:34:41.200588Z，相差3896.471秒，而elapsed_seconds为618.083。runner分别使用UTC壁钟与monotonic，材料不足以确定差异原因；不影响已核验答案，且两种时长均未超过6000秒。修复：保留原记录，明确时钟口径和未解释差异，避免用该耗时推断认知难度；后续记录可诊断的双时钟数据。",
+      "evidence_refs": [
+        "runs/r-29c1be074a07/run.json",
+        "runs/r-29c1be074a07/implementation/run.py",
+        "private/protocol/run.py",
+        "comparisons/analysis_plan.json"
+      ]
+    },
+    {
+      "kind": "evidence_scope_limit",
+      "description": "影响默认浏览器状态、逐字节来源重放及历史独立性证据的认证范围。default_homepage只记录正常无参数HTML，没有浏览器渲染或持久化客户端状态；本副本省略各运行完整下载响应体，ZIP解压等同性仅有清单记录；r01丢失的tmpfs下载仍不可恢复。六次r03的输入清单、无挂载隔离、实际配置和完整调用链支持其记录范围内的读取隔离，但不构成任意潜在通道的绝对证明。修复：报告保持这些限定，控制端保留现有原始材料；不要以补抓文件冒充历史响应，也不要把HTML证据扩大为已验证UI状态。",
+      "evidence_refs": [
+        "private/sources/default_homepage.response",
+        "private/state_graph.json",
+        "private/sources/extraction_manifest.json",
+        "private/protocol/archive_recovery_check.json",
+        "runs/r-6e4ca9d3999e/input_inventory.json",
+        "runs/r-6e4ca9d3999e/isolation.json",
+        "runs/r-66559195d6fa/input_inventory.json",
+        "runs/r-66559195d6fa/isolation.json",
+        "private/protocol/Dockerfile",
+        "private/protocol/data_tools.py"
+      ]
+    }
+  ],
+  "next_action": "由控制端保存本JSON及summary为审计产物。保持revision 3、旧004、公开条件、oracle、工具和预算不变，继续既定4次筛选及12次全新确认的固定诊断；显式保留旧题唯一性、来源版本和环境限制。严格SGR升级不通过，难题构造目标目前未达成；不得将审计完成或诊断就绪表述为构造成功。"
+}

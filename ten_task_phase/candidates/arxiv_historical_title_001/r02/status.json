@@ -1,0 +1,14 @@
+{
+  "candidate_id": "arxiv_historical_title_001",
+  "revision": 2,
+  "content_validated": true,
+  "status": "content_validated",
+  "difficulty_status": "screened_both_three_trial_means_strictly_below_0.70",
+  "construction_model": "gpt-6-astra",
+  "construction_effort": "high",
+  "source_checks": "reference and independent actual execution passed for r01; r02 projection recheck pending; substantive audit pending",
+  "audit_run": "r-arxiv-title-r02-audit",
+  "admitted": true,
+  "admission_registered_at": "2026-09-09T17:12:59.810528+00:00",
+  "admission_recorded_at": "2026-09-09T17:41:59.884168+00:00"
+}

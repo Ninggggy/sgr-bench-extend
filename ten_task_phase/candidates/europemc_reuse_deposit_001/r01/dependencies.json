@@ -1,0 +1,18 @@
+{
+  "assessment": "Defensible source-dependent retrieval against investigated API/bulk alternatives; final admission audit pending.",
+  "edges": [
+    {"from":"Natural 2019 atlas description","evidence":"d0031","value":"Seed DOI and primary article identity","changes":"Select the primary article data-availability page for retrieval."},
+    {"from":"Seed data availability","evidence":"d0230","value":"GSE138852","changes":"Set ACCESSION_ID in the later-article search; apply the public FIRST_PDATE and OPEN_ACCESS filters.","retrieval":"d0001"},
+    {"from":"Complete indexed results","evidence":"d0001","value":"Returned article identifiers","changes":"Select article fullTextXML requests and, when needed, primary OA alternatives and linked supplements.","retrieval":"d0011–d0019; d0231; supplements listed by d0235"}
+  ],
+  "not_counted_as_retrieval": ["Parsing downloaded XML", "Applying semantic provenance annotations", "Extracting a GEO identifier from a saved paragraph", "Intersecting eligibility conditions", "Sorting answer rows"],
+  "bulk_challenges": [
+    {"path":"Core search export / PMCLiteMetadata","evidence":["d0001","d0006","d0024"],"result":"Metadata lacks full methods and deposit provenance; cannot resolve Tau versus positive study."},
+    {"path":"Accession mapping bulk","evidence":["d0006"],"result":"Can identify accession mentions, not whether matrices were reanalyzed or experimental data newly generated."},
+    {"path":"OA full-text shards","evidence":["d0022"],"result":"Available and legal. The ten relevant shard selections depend on discovered IDs; no fixed few pre-specified complete corpus download was identified. Shard count alone is not the dependency argument."},
+    {"path":"Seed-topic broad query","evidence":["d0224","d0225","d0228"],"result":"4057 hits; complete accession intersection has 9 of 10, missing PMC7994447. Broad first page is not represented as a complete download."},
+    {"path":"Complete accession-selected export","evidence":["d0001"],"result":"Valid optimization after accession discovery; does not eliminate the seed-to-query dependency."}
+  ],
+  "actual_fixed_few_downloads_with_all_decision_fields_found": [],
+  "uncertainty":"Other uninvestigated corpus distributions could change the bulk assessment. No API is prohibited by either public variant."
+}

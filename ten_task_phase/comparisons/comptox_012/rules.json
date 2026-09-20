@@ -1,0 +1,33 @@
+{
+  "status": "deterministic_explicit",
+  "columns": [
+    "generalPUCID",
+    "familyPUCID",
+    "typePUCID",
+    "side",
+    "share",
+    "CuratedChemicals"
+  ],
+  "row_key": [
+    "generalPUCID",
+    "familyPUCID",
+    "typePUCID",
+    "side"
+  ],
+  "record_separator": ",",
+  "fields": {
+    "generalPUCID": {
+      "type": "integer"
+    },
+    "familyPUCID": {
+      "type": "integer"
+    },
+    "typePUCID": {
+      "type": "integer"
+    },
+    "CuratedChemicals": {
+      "type": "integer"
+    }
+  },
+  "source": "Unmodified original task rubric; no gold correction or missing-field completion."
+}

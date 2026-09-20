@@ -1,0 +1,83 @@
+{
+  "review_type": "independent_pre_A_content_reference_review",
+  "candidate_id": "wqp_censored_screening_001",
+  "revision": "r01",
+  "decision": "block",
+  "blocking_count": 1,
+  "summary": "Independent raw-data computation reproduces all 101 dissolved results, all 14 aggregate rows and every sample classification. One answer-identifiability issue remains: the three 200.7(W) hardness results are assigned basis_unverified by an author method whitelist without completing the source-supported reporting-basis decision.",
+  "blocking_findings": [
+    {
+      "id": "B1",
+      "requirement": "Answer Uniqueness and Verifiability",
+      "affected_source": "evidence/d0004.response, activities ending 20120806, 20121002, 20121204",
+      "affected_oracle_rows": [
+        "below_mdl|basis_unverified|unresolved_hardness|1",
+        "between_mdl_rl|basis_unverified|unresolved_hardness|2"
+      ],
+      "evidence": "All three results report CharacteristicName=Hardness, Ca, Mg, ResultValueTypeName=Calculated, mg/L, USEPA 200.7(W), and an explicit MethodDescriptionText URL ending /4690/. The author reference treats any method other than 2340B as basis_unverified. The supplied method documentation substantiates 2340B but does not establish whether the standardized characteristic itself fixes the CaCO3 basis or what the three cited method records establish.",
+      "why_public_not_unique": "The public instruction requires a verifiable CaCO3-equivalent basis without defining verification as a closed metadata rule. Conventional interpretation of the reported hardness characteristic and strict explicit-method confirmation are not yet distinguished by authoritative evidence. Lack of acquired confirmation is not evidence that no basis is publicly verifiable.",
+      "independent_request": "Exact returned NEMI 4690 URL failed twice with ordinary 400 Timeout fetching (turn105view0 then parent-authorized same-URL recovery turn106view0). No alternate route. Neither failure may become the sample classification.",
+      "minimal_evidence_repair": [
+        "Obtain authoritative definition of the reported WQX characteristic/reporting basis, or the exact reported method documentation, and adjudicate these three rows from it; update oracle only if that evidence changes the classification.",
+        "If the intended need is an audit of documented reporting sufficiency, define an evidence boundary equally in CG and GO: confirmation must come from submitted result metadata or the cited analytical/calculation method, with unsupported reporting convention distinguished from physical absence. Do not name 2340B as the accepted whitelist or insert the three answer cases. This still requires source evidence sufficient to apply that rule, not an access-failure-as-unknown shortcut."
+      ],
+      "not_claimed": "No assertion that these hardness values are wrong, non-CaCO3, fundamentally unverifiable, or scientifically unusable."
+    }
+  ],
+  "passed_findings": {
+    "complete_scope": "137 untruncated source results, confirmed by response headers; 101 dissolved, 36 total/total-recoverable excluded. Default and narrow shared-field multisets match. All selected result IDs are unique; no use of row order as identity.",
+    "joins": "246 named limit records; independent key uses organization/result ID. Every dissolved result has exactly one organization/activity hardness row with matching date. 102 total hardness results do not inflate the 101-result scope.",
+    "units": "All numerical dissolved cadmium and limit values are ug/L; numerical hardness values mg/L. Withdrawn result units are blank, correctly preserved rather than interpreted as zeros.",
+    "DL": "Current and deprecated official qualifier CSVs define DL relative to Method Detection Limit. Returned Method Detection Level is the MDL evidence; default Lower Reporting Limit is not an interchangeable bound.",
+    "U": "Both official code dictionaries explicitly specify adjusted CRQL. The 17 U rows return only LRL. Under the public instruction against substituting named limits, unresolved_u_limit is supported; no missing-CRQL numerical value invented.",
+    "J_R": "Both dictionaries retain J-R as an entire code and describe below reporting level, greater than MDL. The 30 such records support the open analytical interval (MDL,LRL) under the explicit question rule; no J-plus-R rejection inference and no confidence-interval assertion.",
+    "withdrawals": "Seven same-activity hardness records explicitly say recalled, QC, Not Reported with deleted values. Activity-wide warnings alone do not withdraw other results; no neighbouring hardness substituted. Two dissolved cadmium Not Reported results correctly take precedence.",
+    "formula_status": "Saved current EPA table web_15 lines47-49 states 2016 freshwater chronic criterion vacated and refers to 2001. Saved 2001 text supports exp(.7409 lnH-4.719)*(1.101672-.041838 lnH); recomputed examples near0.15/0.25/0.40 ug/L at50/100/200.",
+    "low_hardness": "H=2.3 is explicitly reported, positive and not result-withdrawn. Public text expressly requests nominal equation arithmetic at recorded hardness and disclaims ecological protection, duration and legal claims. The numerical above comparison can be reproduced; this review does not validate ecological extrapolation to2.3 or import an unsupported hardness floor. Do not rebrand the output as recommended protective concentrations valid over every hardness.",
+    "interval_comparison": "Unrounded threshold used. Upper bound <= threshold yields below_or_equal; an open lower bound equal to threshold is wholly above. Precedence not_reported, unsupported limit, unavailable hardness is equal in both prompts.",
+    "CG_GO": "All necessary scientific conditions and output format are equal. CG only adds retrieval guidance; no target URL/domain appears in either prompt. Full station identifier identifies the natural monitoring object but does not expose limit types or sample classifications.",
+    "old_identity_gap": "Unlike old wqp_fraction_identity, actual fraction, Water medium in default profile, analytical method, unique ResultIdentifier and named limit records now exist. The old inability to identify any ordinary comparable measurements is materially resolved. B1 isolates the remaining three reporting-basis decisions; it is not a rename of the whole old unknown cohort.",
+    "scoring": "Existing columns/key support exact aggregate grading. Author mechanical scorer checks cover omission, duplicate, wrong count and reversed order and are honestly labelled same-author; reviewed without repeating them. Independent aggregate and per-result comparisons pass. Key fields count under existing metric; no new scorer or success claim introduced."
+  },
+  "six_requirements": {
+    "domain_specificity": "pass",
+    "long_tail_source_grounding": "pass",
+    "answer_uniqueness_verifiability": "block B1",
+    "ground_truth_stability": "Source timestamps/version anchor present; evaluation-window pre/post observations remain pending, not fabricated.",
+    "shortcut_resistance": "No acquired ready-made answer table or single-profile full answer. Station ID narrows the natural object but leaves result/limit and qualifier decisions. Empirical resistance is untested.",
+    "logical_dependency": "Observed DL/J-R/U qualifiers determine needed named-limit evidence absent from default profile; narrowResult exposes exact identities and full limit view supplies bounds. A legal batched narrow+limits+hardness path remains permitted; extra sequential fetching is not mandated or treated as difficulty."
+  },
+  "source_access": {
+    "network_requests": 2,
+    "url": "https://www.nemi.gov/methods/method_summary/4690/",
+    "reference": [
+      "turn105view0",
+      "turn106view0"
+    ],
+    "outcome": "Failed to fetch: (400) Timeout fetching",
+    "classification": "ordinary_fetch_failure",
+    "safety_or_configuration_refusals": 0,
+    "retry_count": 1,
+    "source_file": "necessary_method_lookup.json",
+    "previous_refusals": "No NVD/crates resources accessed; saved Standard Methods HTTP403 not retried.",
+    "retry_authorization": "Parent explicitly authorized one same-URL ordinary-network recovery; same failure, no alternative path."
+  },
+  "review_limits": {
+    "human_review": "not_done",
+    "final_admission_audit": "not_done",
+    "blind_or_attack_runs": 0,
+    "source_stability_before_after_evaluation": "pending",
+    "author_reference_imported_by_independent_program": false,
+    "author_files_modified": false
+  },
+  "provenance": {
+    "model": "gpt-6-astra",
+    "effort": "medium",
+    "agent": "/root/assay_interference_scope",
+    "start_utc": "2026-09-13T10:38:15Z",
+    "completed_utc": "2026-09-13T10:43:25.522248+00:00",
+    "budget_seconds": 900,
+    "actual_tokens_and_cost": "Use parent trace; unavailable in local tool output, not estimated or zeroed.",
+    "thread_cumulative_limits": "6000 seconds / no-progress 3000 preserved; not reset."
+  }
+}

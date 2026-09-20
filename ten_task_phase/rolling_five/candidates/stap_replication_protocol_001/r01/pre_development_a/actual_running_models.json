@@ -1,0 +1,29 @@
+{
+  "observed_at": "2026-09-13T06:49:50.291013+00:00",
+  "runs": {
+    "cg": {
+      "container": "sgr-solve-0e6e628ad0a4",
+      "exit_code": 0,
+      "actual_contexts": [
+        {
+          "turn_id": "01a09987-10df-7f50-8430-ddf1cfea55f7",
+          "model": "gpt-5.6-sol",
+          "effort": "medium"
+        }
+      ],
+      "error": null
+    },
+    "go": {
+      "container": "sgr-solve-aea9cd5971de",
+      "exit_code": 0,
+      "actual_contexts": [
+        {
+          "turn_id": "01a09987-11fe-76b1-8def-6d83d92bcaf8",
+          "model": "gpt-5.6-sol",
+          "effort": "medium"
+        }
+      ],
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,23 @@
+Source: https://patents.google.com/patent/EP3359683A1/en
+Visited: 2026-09-10
+Attribution: Selected bibliographic fields transcribed from the actual web response. Link markup and legal-status labels omitted. Full native response separately preserved. Publication table is complete as displayed.
+
+Publication number
+EP3359683A1
+Authority
+EP
+Application number
+EP16775753.3A
+Publication date
+2018-08-15
+
+## Publications (1)
+Publication Number | Publication Date
+EP3359683A1 | 2018-08-15
+
+# Family
+## ID=54266422
+## Country Status (3)
+US (1) | US10870879B2
+EP (1) | EP3359683A1
+WO (1) | WO2017060316A1

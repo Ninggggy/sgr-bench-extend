@@ -1,0 +1,486 @@
+{
+  "checks": [
+    {
+      "check": "public file keys",
+      "passed": true
+    },
+    {
+      "check": "identical public output contract",
+      "passed": true
+    },
+    {
+      "check": "CG only appends procedure",
+      "passed": true
+    },
+    {
+      "check": "identity/cg",
+      "passed": true
+    },
+    {
+      "check": "identity/go",
+      "passed": true
+    },
+    {
+      "check": "snapshot/cg",
+      "passed": true
+    },
+    {
+      "check": "snapshot/go",
+      "passed": true
+    },
+    {
+      "check": "universe_and_identity_order/cg",
+      "passed": true
+    },
+    {
+      "check": "universe_and_identity_order/go",
+      "passed": true
+    },
+    {
+      "check": "conclusion/cg",
+      "passed": true
+    },
+    {
+      "check": "conclusion/go",
+      "passed": true
+    },
+    {
+      "check": "main_scope_and_threshold/cg",
+      "passed": true
+    },
+    {
+      "check": "main_scope_and_threshold/go",
+      "passed": true
+    },
+    {
+      "check": "domain_definition_and_exclusions/cg",
+      "passed": true
+    },
+    {
+      "check": "domain_definition_and_exclusions/go",
+      "passed": true
+    },
+    {
+      "check": "matrix_fields/cg",
+      "passed": true
+    },
+    {
+      "check": "matrix_fields/go",
+      "passed": true
+    },
+    {
+      "check": "operative_precedence/cg",
+      "passed": true
+    },
+    {
+      "check": "operative_precedence/go",
+      "passed": true
+    },
+    {
+      "check": "entailment_and_no_backfill/cg",
+      "passed": true
+    },
+    {
+      "check": "entailment_and_no_backfill/go",
+      "passed": true
+    },
+    {
+      "check": "author_statements_only/cg",
+      "passed": true
+    },
+    {
+      "check": "author_statements_only/go",
+      "passed": true
+    },
+    {
+      "check": "column_order/cg",
+      "passed": true
+    },
+    {
+      "check": "column_order/go",
+      "passed": true
+    },
+    {
+      "check": "rows_sort_ties/cg",
+      "passed": true
+    },
+    {
+      "check": "rows_sort_ties/go",
+      "passed": true
+    },
+    {
+      "check": "version_syntax/cg",
+      "passed": true
+    },
+    {
+      "check": "version_syntax/go",
+      "passed": true
+    },
+    {
+      "check": "selection_codes/cg",
+      "passed": true
+    },
+    {
+      "check": "selection_codes/go",
+      "passed": true
+    },
+    {
+      "check": "rank_and_name_syntax/cg",
+      "passed": true
+    },
+    {
+      "check": "rank_and_name_syntax/go",
+      "passed": true
+    },
+    {
+      "check": "NONE/cg",
+      "passed": true
+    },
+    {
+      "check": "NONE/go",
+      "passed": true
+    },
+    {
+      "check": "missing/cg",
+      "passed": true
+    },
+    {
+      "check": "missing/go",
+      "passed": true
+    },
+    {
+      "check": "nonempty source history.html",
+      "passed": true
+    },
+    {
+      "check": "nonempty source v1.txt",
+      "passed": true
+    },
+    {
+      "check": "nonempty source v2.txt",
+      "passed": true
+    },
+    {
+      "check": "nonempty source v3.html",
+      "passed": true
+    },
+    {
+      "check": "nonempty source v3.txt",
+      "passed": true
+    },
+    {
+      "check": "official identity agrees with annotation",
+      "passed": true
+    },
+    {
+      "check": "identity descriptor Ziv Ran",
+      "passed": true
+    },
+    {
+      "check": "identity descriptor Bogomolov",
+      "passed": true
+    },
+    {
+      "check": "identity descriptor unobstructedness",
+      "passed": true
+    },
+    {
+      "check": "identity descriptor log-symplectic",
+      "passed": true
+    },
+    {
+      "check": "official history heading",
+      "passed": true
+    },
+    {
+      "check": "submission timestamps parsed",
+      "passed": true
+    },
+    {
+      "check": "every history version has a parsed timestamp",
+      "passed": true
+    },
+    {
+      "check": "unique official versions",
+      "passed": true
+    },
+    {
+      "check": "initial submission year",
+      "passed": true
+    },
+    {
+      "check": "complete consecutive official history",
+      "passed": true
+    },
+    {
+      "check": "official version and timestamp order agree",
+      "passed": true
+    },
+    {
+      "check": "unique semantic annotations",
+      "passed": true
+    },
+    {
+      "check": "annotations cover exactly the selected history",
+      "passed": true
+    },
+    {
+      "check": "declared row count from history",
+      "passed": true
+    },
+    {
+      "check": "v1 PDF version identity",
+      "passed": true
+    },
+    {
+      "check": "v1 section 1.3",
+      "passed": true
+    },
+    {
+      "check": "v1 unique column-selection rule",
+      "passed": true
+    },
+    {
+      "check": "v1 submodule rank",
+      "passed": true
+    },
+    {
+      "check": "v1 main theorem",
+      "passed": true
+    },
+    {
+      "check": "v1 main scope",
+      "passed": true
+    },
+    {
+      "check": "v1 dimension threshold",
+      "passed": true
+    },
+    {
+      "check": "v1 public dimension threshold",
+      "passed": true
+    },
+    {
+      "check": "v1 holomorphic category",
+      "passed": true
+    },
+    {
+      "check": "v1 divisor definition source",
+      "passed": true
+    },
+    {
+      "check": "v1 divisor definition",
+      "passed": true
+    },
+    {
+      "check": "v1 version-specific divisor wording",
+      "passed": true
+    },
+    {
+      "check": "v1 explicit reduced wording",
+      "passed": true
+    },
+    {
+      "check": "v1 selected conclusion",
+      "passed": true
+    },
+    {
+      "check": "v1 basic named assumption",
+      "passed": true
+    },
+    {
+      "check": "v1 correction annotation",
+      "passed": true
+    },
+    {
+      "check": "v1 no unhandled appended correction",
+      "passed": true
+    },
+    {
+      "check": "v1 parsed fields agree with semantic annotation",
+      "passed": true
+    },
+    {
+      "check": "v2 PDF version identity",
+      "passed": true
+    },
+    {
+      "check": "v2 section 1.3",
+      "passed": true
+    },
+    {
+      "check": "v2 unique column-selection rule",
+      "passed": true
+    },
+    {
+      "check": "v2 submodule rank",
+      "passed": true
+    },
+    {
+      "check": "v2 main theorem",
+      "passed": true
+    },
+    {
+      "check": "v2 main scope",
+      "passed": true
+    },
+    {
+      "check": "v2 dimension threshold",
+      "passed": true
+    },
+    {
+      "check": "v2 public dimension threshold",
+      "passed": true
+    },
+    {
+      "check": "v2 holomorphic category",
+      "passed": true
+    },
+    {
+      "check": "v2 divisor definition source",
+      "passed": true
+    },
+    {
+      "check": "v2 divisor definition",
+      "passed": true
+    },
+    {
+      "check": "v2 version-specific divisor wording",
+      "passed": true
+    },
+    {
+      "check": "v2 explicit reduced wording",
+      "passed": true
+    },
+    {
+      "check": "v2 selected conclusion",
+      "passed": true
+    },
+    {
+      "check": "v2 basic named assumption",
+      "passed": true
+    },
+    {
+      "check": "v2 correction annotation",
+      "passed": true
+    },
+    {
+      "check": "v2 no unhandled appended correction",
+      "passed": true
+    },
+    {
+      "check": "v2 parsed fields agree with semantic annotation",
+      "passed": true
+    },
+    {
+      "check": "v3 PDF version identity",
+      "passed": true
+    },
+    {
+      "check": "v3 section 1.3",
+      "passed": true
+    },
+    {
+      "check": "v3 unique column-selection rule",
+      "passed": true
+    },
+    {
+      "check": "v3 submodule rank",
+      "passed": true
+    },
+    {
+      "check": "v3 main theorem",
+      "passed": true
+    },
+    {
+      "check": "v3 main scope",
+      "passed": true
+    },
+    {
+      "check": "v3 dimension threshold",
+      "passed": true
+    },
+    {
+      "check": "v3 public dimension threshold",
+      "passed": true
+    },
+    {
+      "check": "v3 holomorphic category",
+      "passed": true
+    },
+    {
+      "check": "v3 divisor definition source",
+      "passed": true
+    },
+    {
+      "check": "v3 divisor definition",
+      "passed": true
+    },
+    {
+      "check": "v3 version-specific divisor wording",
+      "passed": true
+    },
+    {
+      "check": "v3 explicit reduced wording",
+      "passed": true
+    },
+    {
+      "check": "v3 selected conclusion",
+      "passed": true
+    },
+    {
+      "check": "v3 basic named assumption",
+      "passed": true
+    },
+    {
+      "check": "v3 correction annotation",
+      "passed": true
+    },
+    {
+      "check": "v3 correction targets main theorem",
+      "passed": true
+    },
+    {
+      "check": "v3 corrected requirement",
+      "passed": true
+    },
+    {
+      "check": "v3 stronger definition",
+      "passed": true
+    },
+    {
+      "check": "v3 stronger includes basic",
+      "passed": true
+    },
+    {
+      "check": "v3 HTML definition cross-check",
+      "passed": true
+    },
+    {
+      "check": "v3 parsed fields agree with semantic annotation",
+      "passed": true
+    },
+    {
+      "check": "reference and scorer column agreement",
+      "passed": true
+    },
+    {
+      "check": "reference and scorer key agreement",
+      "passed": true
+    },
+    {
+      "check": "complete non-placeholder oracle",
+      "passed": true
+    },
+    {
+      "check": "reproduced oracle equals supplied proposal",
+      "passed": true
+    }
+  ],
+  "human_review": "not_performed",
+  "independent_audit": "not_performed",
+  "reference_executed": true,
+  "scores": null,
+  "solver_tests": "not_performed",
+  "status": "passed"
+}

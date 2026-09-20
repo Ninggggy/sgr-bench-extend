@@ -1,0 +1,1733 @@
+- link "Skip to main content":
+  - /url: "#MainContent"
+- banner:
+  - link "European Union flag":
+    - /url: https://european-union.europa.eu/index_en
+    - generic "European Union":
+      - img "European Union flag"
+  - link "Log in My EUR-Lex":
+    - /url: "#"
+    - img "Log in"
+    - text: My EUR-Lex
+  - text:   
+  - button "Change language, current language is English":
+    - text: English
+  - link "EUR-Lex":
+    - /url: ./../../../homepage.html?lang=en
+  - generic: Access to European Union law
+  - link "<a href=\"https://eur-lex.europa.eu/content/help/eurlex-content/experimental-features.html\" target=\"_blank\">More about the experimental features corner</a>":
+    - /url: "#"
+    - generic: <a href="https://eur-lex.europa.eu/content/help/eurlex-content/experimental-features.html" target="_blank">More about the experimental features corner</a>
+  - generic "Experimental features":
+    - text: Experimental features 
+    - checkbox "Experimental features"
+  - generic: 
+- generic: You are here
+- list:
+  - link "EUROPA":
+    - /url: https://europa.eu/european-union/index_en
+  - link " EUR-Lex home":
+    - /url: ./../../../homepage.html
+    - generic: 
+    - text: EUR-Lex home
+  - generic: 
+  - text: EUR-Lex - 22017A1214(01) - EN
+- list:
+  - link "Help":
+    - /url: ./../../../content/help.html
+    - text: Help
+  - button "Print":
+    - generic: 
+    - text: Print
+- button "Open Navigation Menu":
+  - generic: 
+  - text: Menu
+- text:    
+- generic: 
+- generic: Quick search
+- textbox "Quick search":
+  - /placeholder: QUICK SEARCH
+- button "Search":
+  - generic: 
+- generic: 
+- text: Use quotation marks to search for an "exact phrase". Append an asterisk (*) to a search term to find variations of it (transp*, 32019R*). Use a question mark (?) instead of a single character in your search term to find variations of it (ca?e finds case, cane, care).
+- button "Close":
+  - generic: 
+- link "Search tips":
+  - /url: "#"
+  - generic: 
+  - text: Search tips
+- text: Need more search options? Use the
+- link "Advanced search":
+  - /url: ./../../../advanced-search-form.html
+- text: 
+- paragraph: Document 22017A1214(01)
+- generic: 
+- navigation:
+  - list:
+    - link "Text":
+      - /url: ./../../../legal-content/EN/TXT/?uri=celex:22017A1214(01)
+    - link "Document information":
+      - /url: ./../../../legal-content/EN/ALL/?uri=celex:22017A1214(01)
+    - link "Document summary":
+      - /url: ./../../../legal-content/EN/LSU/?uri=celex:22017A1214(01)
+  - list:
+    - link "Permanent link":
+      - /url: javascript:;
+      - generic: 
+      - text: Permanent link
+    - link "Download notice":
+      - /url: ./../../../download-notice.html?legalContentId=cellar:6536088d-e098-11e7-9749-01aa75ed71a1&noticeType=branch&callingUrl=%2Flegal-content%2FEN%2FALL%2F%3Furi%3Dcelex%253A22017A1214%252801%2529&lng=EN
+      - generic: 
+      - text: Download notice
+    - link "Save to My items":
+      - /url: ./../../../error/authentication-required.html?callingUrl=%2Flegal-content%2FEN%2FALL%2F%3Furi%3Dcelex%253A22017A1214%252801%2529&towardUrl=%2Fprotected%2Fsave-document.html%3FlegalContentId%3Dcellar%3A6536088d-e098-11e7-9749-01aa75ed71a1%26callingUrl%3D%252Flegal-content%252FEN%252FALL%252F%253Furi%253Dcelex%25253A22017A1214%25252801%252529
+      - generic: 
+      - text: Save to My items
+    - link "Create an email alert":
+      - /url: ./../../../error/authentication-required.html?callingUrl=%2Fhomepage.html&towardUrl=%2Fprotected%2Fsave-email-alert%2Fnotice-to-email.html%3FlegalContentId%3Dcellar%3A6536088d-e098-11e7-9749-01aa75ed71a1%26callingUrl%3D%252Flegal-content%252FEN%252FALL%252F%253Furi%253Dcelex%25253A22017A1214%25252801%252529%26isAddNoticeRSS%3Dtrue%26celex%3D22017A1214%2801%29
+      - generic: 
+      - text: Create an email alert
+    - link "Create an RSS alert":
+      - /url: ./../../../error/authentication-required.html?callingUrl=%2Fhomepage.html&towardUrl=%2Fprotected%2Fsave-rss%2Fnotice-to-rss.html%3FlegalContentId%3Dcellar%3A6536088d-e098-11e7-9749-01aa75ed71a1%26callingUrl%3D%252Flegal-content%252FEN%252FALL%252F%253Furi%253Dcelex%25253A22017A1214%25252801%252529%26isAddNoticeRSS%3Dtrue%26celex%3D22017A1214%2801%29
+      - generic: 
+      - text: Create an RSS alert
+  - button "Table of contents":
+    - generic: 
+    - text: Table of contents
+  - text: 
+- tablist:
+  - paragraph: Agreement between the European Union and the Republic of Chile on trade in organic products
+  - paragraph:
+    - emphasis: OJ L 331, 14.12.2017, pp. 4–18 (BG, ES, CS, DA, DE, ET, EL, EN, FR, HR, IT, LV, LT, HU, MT, NL, PL, PT, RO, SK, SL, FI, SV)
+  - paragraph:
+    - img "Legal status of the document"
+    - text: Date of entry into force unknown (pending notification) or not yet in force.
+  - term
+  - term:
+    - button "Expand all":
+      - generic: 
+      - text: Expand all
+    - button "Collapse all":
+      - generic: 
+      - text: Collapse all
+  - tab "Dates":
+    - paragraph:
+      - button "Dates" [expanded]:
+        - generic: 
+        - text: Dates
+  - tabpanel "Dates":
+    - term: "Date of document:"
+    - definition: 27/04/2017; Date of signature
+    - term: "Date of effect:"
+    - definition: Entry into force See Art 15
+    - term: "Date of signature:"
+    - definition: 27/04/2017; Brussels
+    - term: "Date of end of validity:"
+    - definition: Not known; See Art. 15
+  - tab "Miscellaneous information":
+    - paragraph:
+      - button "Miscellaneous information" [expanded]:
+        - generic: 
+        - text: Miscellaneous information
+  - tabpanel "Miscellaneous information":
+    - term: "Author:"
+    - definition: Chile, European Union
+    - term: "Form:"
+    - definition: International agreement
+  - tab "Relationship between documents":
+    - paragraph:
+      - button "Relationship between documents" [expanded]:
+        - generic: 
+        - text: Relationship between documents
+  - tabpanel "Relationship between documents":
+    - term: "Treaty:"
+    - definition: Treaty on the Functioning of the European Union
+    - term: "Legal basis:"
+    - definition:
+      - list:
+        - link "12016E207":
+          - /url: ./../../../legal-content/EN/AUTO/?uri=CELEX:12016E207
+        - text: "- P4L1"
+        - link "12016E218":
+          - /url: ./../../../legal-content/EN/AUTO/?uri=CELEX:12016E218
+        - text: "- P6L2PTA)PTV)"
+        - link "12016E218":
+          - /url: ./../../../legal-content/EN/AUTO/?uri=CELEX:12016E218
+        - text: "- P7"
+    - term:
+      - generic: Link
+    - definition
+    - term:
+      - generic: Link
+    - definition
+    - term:
+      - generic: Link
+    - definition:
+      - link "Select all documents mentioning this document":
+        - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&DB_MENTIONING=22017A1214(01)&lang=en
+        - generic: 
+        - text: Select all documents mentioning this document
+    - term: "Instruments cited:"
+    - definition:
+      - list:
+        - link "12016E/TXT":
+          - /url: ./../../../legal-content/EN/AUTO/?uri=CELEX:12016E/TXT
+        - link "21994A1223(01)":
+          - /url: ./../../../legal-content/EN/AUTO/?uri=CELEX:21994A1223(01)
+        - link "21994A1223(07)":
+          - /url: ./../../../legal-content/EN/AUTO/?uri=CELEX:21994A1223(07)
+        - link "22002A1230(01)":
+          - /url: ./../../../legal-content/EN/AUTO/?uri=CELEX:22002A1230(01)
+        - link "32008R1235":
+          - /url: ./../../../legal-content/EN/AUTO/?uri=CELEX:32008R1235
+    - term:
+      - generic: Link
+    - definition
+    - term: "Related document(s):"
+    - definition:
+      - list:
+        - link "32017D2307":
+          - /url: ./../../../legal-content/EN/AUTO/?uri=CELEX:32017D2307
+        - text: Relation
+  - tab "Classifications":
+    - paragraph:
+      - button "Classifications" [expanded]:
+        - generic: 
+        - text: Classifications
+  - tabpanel "Classifications":
+    - term: "EUROVOC descriptor:"
+    - definition:
+      - list:
+        - link "trade agreement":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&DC_CODED=1567&lang=en
+        - link "originating product":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&DC_CODED=2771&lang=en
+        - link "trade agreement (EU)":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&DC_CODED=5403&lang=en
+        - link "organic farming":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&DC_CODED=568&lang=en
+        - link "eco-label":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&DC_CODED=5696&lang=en
+        - link "Chile":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&DC_CODED=5965&lang=en
+        - link "agricultural trade":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&DC_CODED=613&lang=en
+        - link "organic product":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&DC_CODED=6790&lang=en
+        - link "labelling":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&DC_CODED=893&lang=en
+    - term: "Subject matter:"
+    - definition:
+      - list:
+        - link "Commercial policy":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&CT_1_CODED=PCOM&lang=en
+        - link "External relations":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&CT_1_CODED=EXT&lang=en
+    - term: "Directory code:"
+    - definition:
+      - list:
+        - text: 11.40.50.00
+        - link "External relations":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&CC_1_CODED=11&lang=en
+        - text: /
+        - link "Bilateral agreements with non-member countries":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&CC_2_CODED=1140&lang=en
+        - text: /
+        - link "Central America and Latin America":
+          - /url: ./../../../search.html?type=advanced&DTS_DOM=ALL&DTS_SUBDOM=ALL_ALL&SUBDOM_INIT=ALL_ALL&CC_3_CODED=114050&lang=en
+  - tab "Languages, formats and link to OJ":
+    - paragraph:
+      - button "Languages, formats and link to OJ" [expanded]:
+        - generic: 
+        - text: Languages, formats and link to OJ
+  - tabpanel "Languages, formats and link to OJ":
+    - generic: Language
+    - list:
+      - link "BG":
+        - /url: ./../../../legal-content/BG/ALL/?uri=CELEX:22017A1214(01)
+        - generic: BG
+      - link "ES":
+        - /url: ./../../../legal-content/ES/ALL/?uri=CELEX:22017A1214(01)
+        - generic: ES
+      - link "CS":
+        - /url: ./../../../legal-content/CS/ALL/?uri=CELEX:22017A1214(01)
+        - generic: CS
+      - link "DA":
+        - /url: ./../../../legal-content/DA/ALL/?uri=CELEX:22017A1214(01)
+        - generic: DA
+      - link "DE":
+        - /url: ./../../../legal-content/DE/ALL/?uri=CELEX:22017A1214(01)
+        - generic: DE
+      - link "ET":
+        - /url: ./../../../legal-content/ET/ALL/?uri=CELEX:22017A1214(01)
+        - generic: ET
+      - link "EL":
+        - /url: ./../../../legal-content/EL/ALL/?uri=CELEX:22017A1214(01)
+        - generic: EL
+      - link "EN":
+        - /url: ./../../../legal-content/EN/ALL/?uri=CELEX:22017A1214(01)
+        - generic: EN
+      - link "FR":
+        - /url: ./../../../legal-content/FR/ALL/?uri=CELEX:22017A1214(01)
+        - generic: FR
+      - link "GA":
+        - /url: ./../../../legal-content/GA/ALL/?uri=CELEX:22017A1214(01)
+        - generic: GA
+      - link "HR":
+        - /url: ./../../../legal-content/HR/ALL/?uri=CELEX:22017A1214(01)
+        - generic: HR
+      - link "IT":
+        - /url: ./../../../legal-content/IT/ALL/?uri=CELEX:22017A1214(01)
+        - generic: IT
+      - link "LV":
+        - /url: ./../../../legal-content/LV/ALL/?uri=CELEX:22017A1214(01)
+        - generic: LV
+      - link "LT":
+        - /url: ./../../../legal-content/LT/ALL/?uri=CELEX:22017A1214(01)
+        - generic: LT
+      - link "HU":
+        - /url: ./../../../legal-content/HU/ALL/?uri=CELEX:22017A1214(01)
+        - generic: HU
+      - link "MT":
+        - /url: ./../../../legal-content/MT/ALL/?uri=CELEX:22017A1214(01)
+        - generic: MT
+      - link "NL":
+        - /url: ./../../../legal-content/NL/ALL/?uri=CELEX:22017A1214(01)
+        - generic: NL
+      - link "PL":
+        - /url: ./../../../legal-content/PL/ALL/?uri=CELEX:22017A1214(01)
+        - generic: PL
+      - link "PT":
+        - /url: ./../../../legal-content/PT/ALL/?uri=CELEX:22017A1214(01)
+        - generic: PT
+      - link "RO":
+        - /url: ./../../../legal-content/RO/ALL/?uri=CELEX:22017A1214(01)
+        - generic: RO
+      - link "SK":
+        - /url: ./../../../legal-content/SK/ALL/?uri=CELEX:22017A1214(01)
+        - generic: SK
+      - link "SL":
+        - /url: ./../../../legal-content/SL/ALL/?uri=CELEX:22017A1214(01)
+        - generic: SL
+      - link "FI":
+        - /url: ./../../../legal-content/FI/ALL/?uri=CELEX:22017A1214(01)
+        - generic: FI
+      - link "SV":
+        - /url: ./../../../legal-content/SV/ALL/?uri=CELEX:22017A1214(01)
+        - generic: SV
+    - generic: HTML
+    - text: 
+    - list:
+      - link "HTML български":
+        - /url: ./../../../legal-content/BG/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Español":
+        - /url: ./../../../legal-content/ES/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Čeština":
+        - /url: ./../../../legal-content/CS/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Dansk":
+        - /url: ./../../../legal-content/DA/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Deutsch":
+        - /url: ./../../../legal-content/DE/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Eesti keel":
+        - /url: ./../../../legal-content/ET/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Ελληνικά":
+        - /url: ./../../../legal-content/EL/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML English":
+        - /url: ./../../../legal-content/EN/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Français":
+        - /url: ./../../../legal-content/FR/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "Not available in this language":
+        - /url: ./../../../legal-content/GA/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Hrvatski":
+        - /url: ./../../../legal-content/HR/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Italiano":
+        - /url: ./../../../legal-content/IT/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Latviešu valoda":
+        - /url: ./../../../legal-content/LV/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Lietuvių kalba":
+        - /url: ./../../../legal-content/LT/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Magyar":
+        - /url: ./../../../legal-content/HU/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Malti":
+        - /url: ./../../../legal-content/MT/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Nederlands":
+        - /url: ./../../../legal-content/NL/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Polski":
+        - /url: ./../../../legal-content/PL/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Português":
+        - /url: ./../../../legal-content/PT/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Română":
+        - /url: ./../../../legal-content/RO/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Slovenčina":
+        - /url: ./../../../legal-content/SK/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Slovenščina":
+        - /url: ./../../../legal-content/SL/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Suomi":
+        - /url: ./../../../legal-content/FI/TXT/HTML/?uri=CELEX:22017A1214(01)
+      - link "HTML Svenska":
+        - /url: ./../../../legal-content/SV/TXT/HTML/?uri=CELEX:22017A1214(01)
+    - generic: PDF
+    - text: 
+    - list:
+      - link "PDF български":
+        - /url: ./../../../legal-content/BG/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Español":
+        - /url: ./../../../legal-content/ES/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Čeština":
+        - /url: ./../../../legal-content/CS/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Dansk":
+        - /url: ./../../../legal-content/DA/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Deutsch":
+        - /url: ./../../../legal-content/DE/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Eesti keel":
+        - /url: ./../../../legal-content/ET/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Ελληνικά":
+        - /url: ./../../../legal-content/EL/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF English":
+        - /url: ./../../../legal-content/EN/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Français":
+        - /url: ./../../../legal-content/FR/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "Not available in this language":
+        - /url: ./../../../legal-content/GA/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Hrvatski":
+        - /url: ./../../../legal-content/HR/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Italiano":
+        - /url: ./../../../legal-content/IT/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Latviešu valoda":
+        - /url: ./../../../legal-content/LV/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Lietuvių kalba":
+        - /url: ./../../../legal-content/LT/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Magyar":
+        - /url: ./../../../legal-content/HU/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Malti":
+        - /url: ./../../../legal-content/MT/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Nederlands":
+        - /url: ./../../../legal-content/NL/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Polski":
+        - /url: ./../../../legal-content/PL/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Português":
+        - /url: ./../../../legal-content/PT/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Română":
+        - /url: ./../../../legal-content/RO/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Slovenčina":
+        - /url: ./../../../legal-content/SK/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Slovenščina":
+        - /url: ./../../../legal-content/SL/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Suomi":
+        - /url: ./../../../legal-content/FI/TXT/PDF/?uri=CELEX:22017A1214(01)
+      - link "PDF Svenska":
+        - /url: ./../../../legal-content/SV/TXT/PDF/?uri=CELEX:22017A1214(01)
+    - generic: Official Journal
+    - text: 
+    - list:
+      - link "OJ български":
+        - /url: ./../../../legal-content/BG/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Español":
+        - /url: ./../../../legal-content/ES/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Čeština":
+        - /url: ./../../../legal-content/CS/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Dansk":
+        - /url: ./../../../legal-content/DA/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Deutsch":
+        - /url: ./../../../legal-content/DE/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Eesti keel":
+        - /url: ./../../../legal-content/ET/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Ελληνικά":
+        - /url: ./../../../legal-content/EL/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ English":
+        - /url: ./../../../legal-content/EN/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Français":
+        - /url: ./../../../legal-content/FR/TXT/?uri=OJ:L:2017:331:TOC
+      - link "Not available in this language":
+        - /url: ./../../../legal-content/GA/TXT/?uri=
+      - link "OJ Hrvatski":
+        - /url: ./../../../legal-content/HR/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Italiano":
+        - /url: ./../../../legal-content/IT/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Latviešu valoda":
+        - /url: ./../../../legal-content/LV/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Lietuvių kalba":
+        - /url: ./../../../legal-content/LT/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Magyar":
+        - /url: ./../../../legal-content/HU/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Malti":
+        - /url: ./../../../legal-content/MT/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Nederlands":
+        - /url: ./../../../legal-content/NL/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Polski":
+        - /url: ./../../../legal-content/PL/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Português":
+        - /url: ./../../../legal-content/PT/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Română":
+        - /url: ./../../../legal-content/RO/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Slovenčina":
+        - /url: ./../../../legal-content/SK/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Slovenščina":
+        - /url: ./../../../legal-content/SL/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Suomi":
+        - /url: ./../../../legal-content/FI/TXT/?uri=OJ:L:2017:331:TOC
+      - link "OJ Svenska":
+        - /url: ./../../../legal-content/SV/TXT/?uri=OJ:L:2017:331:TOC
+  - tab "Multilingual display":
+    - paragraph:
+      - button "Multilingual display" [expanded]:
+        - generic: 
+        - text: Multilingual display
+  - tabpanel "Multilingual display":
+    - generic: Language 1
+    - combobox "Choose language":
+      - option "English (en)"
+      - option "Bulgarian (bg)"
+      - option "Spanish (es)"
+      - option "Czech (cs)"
+      - option "Danish (da)"
+      - option "German (de)"
+      - option "Estonian (et)"
+      - option "Greek (el)"
+      - option "English (en)" [selected]
+      - option "French (fr)"
+      - option "Croatian (hr)"
+      - option "Italian (it)"
+      - option "Latvian (lv)"
+      - option "Lithuanian (lt)"
+      - option "Hungarian (hu)"
+      - option "Maltese (mt)"
+      - option "Dutch (nl)"
+      - option "Polish (pl)"
+      - option "Portuguese (pt)"
+      - option "Romanian (ro)"
+      - option "Slovak (sk)"
+      - option "Slovenian (sl)"
+      - option "Finnish (fi)"
+      - option "Swedish (sv)"
+    - generic: Language 2
+    - combobox "Choose language":
+      - option "Please choose" [selected]
+      - option "Bulgarian (bg)"
+      - option "Spanish (es)"
+      - option "Czech (cs)"
+      - option "Danish (da)"
+      - option "German (de)"
+      - option "Estonian (et)"
+      - option "Greek (el)"
+      - option "English (en)"
+      - option "French (fr)"
+      - option "Croatian (hr)"
+      - option "Italian (it)"
+      - option "Latvian (lv)"
+      - option "Lithuanian (lt)"
+      - option "Hungarian (hu)"
+      - option "Maltese (mt)"
+      - option "Dutch (nl)"
+      - option "Polish (pl)"
+      - option "Portuguese (pt)"
+      - option "Romanian (ro)"
+      - option "Slovak (sk)"
+      - option "Slovenian (sl)"
+      - option "Finnish (fi)"
+      - option "Swedish (sv)"
+    - generic: Language 3
+    - combobox "Choose language":
+      - option "Please choose" [selected]
+      - option "Bulgarian (bg)"
+      - option "Spanish (es)"
+      - option "Czech (cs)"
+      - option "Danish (da)"
+      - option "German (de)"
+      - option "Estonian (et)"
+      - option "Greek (el)"
+      - option "English (en)"
+      - option "French (fr)"
+      - option "Croatian (hr)"
+      - option "Italian (it)"
+      - option "Latvian (lv)"
+      - option "Lithuanian (lt)"
+      - option "Hungarian (hu)"
+      - option "Maltese (mt)"
+      - option "Dutch (nl)"
+      - option "Polish (pl)"
+      - option "Portuguese (pt)"
+      - option "Romanian (ro)"
+      - option "Slovak (sk)"
+      - option "Slovenian (sl)"
+      - option "Finnish (fi)"
+      - option "Swedish (sv)"
+    - button "Display"
+  - tab "Text":
+    - paragraph:
+      - button "Text" [expanded]:
+        - generic: 
+        - text: Text
+  - tabpanel "Text":
+    - table:
+      - rowgroup:
+        - row "14.12.2017 EN Official Journal of the European Union L 331/4":
+          - cell "14.12.2017":
+            - paragraph: 14.12.2017
+          - cell "EN":
+            - paragraph: EN
+          - cell "Official Journal of the European Union":
+            - paragraph: Official Journal of the European Union
+          - cell "L 331/4":
+            - paragraph: L 331/4
+    - separator
+    - paragraph: AGREEMENT
+    - paragraph: between the European Union and the Republic of Chile on trade in organic products
+    - paragraph: THE EUROPEAN UNION, hereinafter referred to as ‘the Union’,
+    - paragraph: of the one part, and
+    - paragraph: THE REPUBLIC OF CHILE, hereinafter referred to as ‘Chile’,
+    - paragraph: of the other part,
+    - paragraph: hereinafter referred to collectively as ‘the Parties’,
+    - paragraph: RECOGNISING their longstanding and strong trade partnership based on the common principles and values reflected in the Agreement establishing an association between the European Community and its Member States, of the one part, and the Republic of Chile, of the other part;
+    - paragraph: RESOLVED to contribute to the development and expansion of their organic sectors by creating new export opportunities;
+    - paragraph: DETERMINED to foster trade in organic products and convinced that this Agreement will facilitate trade of organically grown and produced products between the Parties;
+    - paragraph: SEEKING to achieve a high level of respect for the principles of organic production, of guarantee of the control systems and of integrity of organic products;
+    - paragraph: COMMITTED to enhancing regulatory cooperation on issues related to organic production;
+    - paragraph: RECOGNISING the importance of reciprocity and transparency in international trade for the benefit of all stakeholders;
+    - paragraph: BEARING in mind that the World Trade Organization (WTO) Agreement on Technical Barriers to Trade encourages WTO Members to give positive consideration to accepting as equivalent technical regulations of other Members, even if they differ from their own, provided that they are satisfied that those regulations adequately fulfil the objectives of their own regulations;
+    - paragraph: NOTING that permanent confidence in the continued reliability of the other Party's assessment procedures and control system is an essential element of such an acceptance of equivalence;
+    - paragraph: BUILDING on their respective rights and obligations under the Agreement establishing the WTO and other multilateral, regional and bilateral agreements and arrangements to which they are parties;
+    - paragraph: "HAVE AGREED AS FOLLOWS:"
+    - paragraph: Article 1
+    - paragraph: Purpose
+    - paragraph: The purpose of this Agreement is to foster trade in organically produced agricultural products and foodstuffs between the Union and Chile, in accordance with the principles of non-discrimination and reciprocity.
+    - paragraph: Article 2
+    - paragraph: Definitions
+    - paragraph: "For the purposes of this Agreement, the following definitions shall apply:"
+    - table:
+      - rowgroup:
+        - row "(1) ‘equivalence’ means the capability of different laws and regulations, as well as inspection and certification systems to meet the same objectives;":
+          - cell "(1)":
+            - paragraph: (1)
+          - cell "‘equivalence’ means the capability of different laws and regulations, as well as inspection and certification systems to meet the same objectives;":
+            - paragraph: ‘equivalence’ means the capability of different laws and regulations, as well as inspection and certification systems to meet the same objectives;
+    - table:
+      - rowgroup:
+        - row "(2) ‘competent authority’ means an official agency that has jurisdiction over the laws and regulations listed in Annex III or IV and is responsible for the implementation of this Agreement;":
+          - cell "(2)":
+            - paragraph: (2)
+          - cell "‘competent authority’ means an official agency that has jurisdiction over the laws and regulations listed in Annex III or IV and is responsible for the implementation of this Agreement;":
+            - paragraph: ‘competent authority’ means an official agency that has jurisdiction over the laws and regulations listed in Annex III or IV and is responsible for the implementation of this Agreement;
+    - table:
+      - rowgroup:
+        - row "(3) ‘control authority’ means an authority of a Member State of the Union on which the relevant authority has conferred, in whole or in part, its competence for inspection and certification in the field of organic production in accordance with the laws and regulations listed in Annex III;":
+          - cell "(3)":
+            - paragraph: (3)
+          - cell "‘control authority’ means an authority of a Member State of the Union on which the relevant authority has conferred, in whole or in part, its competence for inspection and certification in the field of organic production in accordance with the laws and regulations listed in Annex III;":
+            - paragraph: ‘control authority’ means an authority of a Member State of the Union on which the relevant authority has conferred, in whole or in part, its competence for inspection and certification in the field of organic production in accordance with the laws and regulations listed in Annex III;
+    - table:
+      - rowgroup:
+        - row "(4) ‘control body’ means an independent private entity carrying out inspection and certification in the field of organic production in accordance with the laws and regulations listed in Annex III or IV.":
+          - cell "(4)":
+            - paragraph: (4)
+          - cell "‘control body’ means an independent private entity carrying out inspection and certification in the field of organic production in accordance with the laws and regulations listed in Annex III or IV.":
+            - paragraph: ‘control body’ means an independent private entity carrying out inspection and certification in the field of organic production in accordance with the laws and regulations listed in Annex III or IV.
+    - paragraph: Article 3
+    - paragraph: Recognition of equivalence
+    - paragraph: 1. With respect to the products listed in Annex I, the Union recognises the laws and regulations of Chile listed in Annex IV as equivalent to its laws and regulations listed in Annex III.
+    - paragraph: 2. With respect to the products listed in Annex II, Chile recognises the laws and regulations of the Union listed in Annex III as equivalent to its laws and regulations listed in Annex IV.
+    - paragraph: 3. In the event of modification, revocation or replacement of, or addition to, the laws and regulations listed in Annex III or IV, the new rules shall be considered equivalent to the other Party's rules unless the other Party objects in accordance with the procedure set out in paragraph 4.
+    - paragraph: 4. If a Party considers that the laws, regulations or administrative procedures and practices of the other Party no longer meet the requirements for equivalence, it shall issue a reasoned request to the other Party to amend the relevant law, regulation or administrative procedure or practice and provide an adequate timeframe, which shall not be less than three months, for ensuring equivalence. If, following the expiry of that period, the Party concerned still considers that the requirements for equivalence are not met, it may unilaterally suspend the recognition of equivalence of the laws and regulations listed in Annex III or IV as regards the relevant products listed in Annex I or II.
+    - paragraph: 5. A decision to unilaterally suspend the recognition of equivalence of the laws and regulations listed in Annex III or IV as regards the relevant products listed in Annex I or II may also be taken, following the expiry of a notice period of three months, when one Party has not provided the information required under Article 6 or does not agree to a peer review under Article 7.
+    - paragraph: 6. With respect to products not listed in Annex I or II, and in accordance with point (b) of Article 8(3), equivalence shall be examined at the request of one Party by the Joint Committee established pursuant to Article 8(1).
+    - paragraph: Article 4
+    - paragraph: Import and placing on the market
+    - paragraph: 1. The Union shall accept the import into its territory, and the placing on the market as organic products, of the products listed in Annex I, provided that those products comply with the laws and regulations of Chile listed in Annex IV and are accompanied by a certificate of inspection, as provided for in Annex V of Commission Regulation (EC) No 1235/2008 of 8 December 2008 laying down detailed rules for implementation of Council Regulation (EC) No 834/2007 as regards the arrangements for imports of organic products from third countries, issued by a control body recognised by Chile and indicated to the Union in accordance with paragraph 3.
+    - paragraph: 2. Chile shall accept the import into its territory, and the placing on the market as organic products, of the products listed in Annex II, provided that those products comply with the laws and regulations of the Union listed in Annex III and are accompanied by a certificate issued by a control authority or a control body of the Union in accordance with Resolution No 7880 of the National Directorate of the Agricultural and Livestock Service, of 29 November 2011, establishing the minimum content for the organic agriculture certificates, in the framework of Law 20.089.
+    - paragraph: 3. Each Party recognises the control authorities or control bodies indicated by the other Party as responsible for performing the relevant controls as regards organic products covered by the recognition of equivalence as referred to in Article 3 and for issuing the certificate of inspection as referred to in paragraphs 1 and 2 of this Article with a view to their import into and placing on the market in the territory of the other Party.
+    - paragraph: The importing Party, in cooperation with the other Party, shall assign code numbers to each relevant control authority and control body indicated by the other Party.
+    - paragraph: Article 5
+    - paragraph: Labelling
+    - paragraph: 1. Products imported from one Party by the other Party in accordance with this Agreement shall meet the requirements on labelling set out in the laws and regulations of the other Party listed in Annexes III and IV. Those products may bear the Union's organic logo, the Chilean organic logo or both logos, as set out in the relevant laws and regulations, provided that they comply with the labelling requirements for the respective logo or for both logos.
+    - paragraph: 2. The Parties undertake to avoid any misuse of the terms referring to organic production, including derivatives or diminutives such as ‘bio’ and ‘eco’, in relation to products that are covered by the recognition of equivalence referred to in Article 3.
+    - paragraph: 3. The Parties undertake to protect the Union's organic logo and the Chilean organic logo set out in the relevant laws and regulations against any misuse or imitation. The Parties shall ensure that the Union's organic logo and the Chilean organic logo are used only for the labelling, advertising or commercial documents of products complying with the laws and regulations listed in Annexes III and IV.
+    - paragraph: Article 6
+    - paragraph: Exchange of information
+    - paragraph: "The Parties shall exchange all relevant information with respect to the implementation and application of this Agreement. In particular, by 31 March of the second year following the entry into force of this Agreement, and subsequently by 31 March of each year, each Party shall send to the other:"
+    - table:
+      - rowgroup:
+        - row "— a report that contains information with respect to the types and quantities of organic products exported under this Agreement, covering the period from January to December of the previous year; and":
+          - cell "—":
+            - paragraph: —
+          - cell "a report that contains information with respect to the types and quantities of organic products exported under this Agreement, covering the period from January to December of the previous year; and":
+            - paragraph: a report that contains information with respect to the types and quantities of organic products exported under this Agreement, covering the period from January to December of the previous year; and
+    - table:
+      - rowgroup:
+        - row "— a report on the monitoring and supervisory activities carried out by the competent authority, the results obtained and the corrective measures taken, covering the period from January to December of the previous year.":
+          - cell "—":
+            - paragraph: —
+          - cell "a report on the monitoring and supervisory activities carried out by the competent authority, the results obtained and the corrective measures taken, covering the period from January to December of the previous year.":
+            - paragraph: a report on the monitoring and supervisory activities carried out by the competent authority, the results obtained and the corrective measures taken, covering the period from January to December of the previous year.
+    - paragraph: "At any time, each Party shall without delay inform the other Party of:"
+    - table:
+      - rowgroup:
+        - row "— any update to the list of its competent authorities, control authorities and control bodies, including the relevant contact details (in particular the address and the internet address);":
+          - cell "—":
+            - paragraph: —
+          - cell "any update to the list of its competent authorities, control authorities and control bodies, including the relevant contact details (in particular the address and the internet address);":
+            - paragraph: any update to the list of its competent authorities, control authorities and control bodies, including the relevant contact details (in particular the address and the internet address);
+    - table:
+      - rowgroup:
+        - row "— any changes or repeals it intends to make in respect of laws or regulations listed in Annexes III and IV, any proposals for new laws or regulations or any relevant changes to administrative procedures and practices related to organic products listed in Annexes I and II;":
+          - cell "—":
+            - paragraph: —
+          - cell "any changes or repeals it intends to make in respect of laws or regulations listed in Annexes III and IV, any proposals for new laws or regulations or any relevant changes to administrative procedures and practices related to organic products listed in Annexes I and II;":
+            - paragraph: any changes or repeals it intends to make in respect of laws or regulations listed in Annexes III and IV, any proposals for new laws or regulations or any relevant changes to administrative procedures and practices related to organic products listed in Annexes I and II;
+    - table:
+      - rowgroup:
+        - row "— any changes or repeals it has adopted in respect of laws or regulations listed in Annexes III and IV, any new legislation or relevant changes to administrative procedures and practices related to organic products listed in Annexes I and II; and":
+          - cell "—":
+            - paragraph: —
+          - cell "any changes or repeals it has adopted in respect of laws or regulations listed in Annexes III and IV, any new legislation or relevant changes to administrative procedures and practices related to organic products listed in Annexes I and II; and":
+            - paragraph: any changes or repeals it has adopted in respect of laws or regulations listed in Annexes III and IV, any new legislation or relevant changes to administrative procedures and practices related to organic products listed in Annexes I and II; and
+    - table:
+      - rowgroup:
+        - row "— any changes to the internet addresses set out in Annex V.":
+          - cell "—":
+            - paragraph: —
+          - cell "any changes to the internet addresses set out in Annex V.":
+            - paragraph: any changes to the internet addresses set out in Annex V.
+    - paragraph: Article 7
+    - paragraph: Peer reviews
+    - paragraph: 1. Following advance notice of at least three months, each Party shall permit officials or experts designated by the other Party to conduct peer reviews in its territory to verify that the relevant control authorities and control bodies are carrying out the controls required under this Agreement.
+    - paragraph: 2. Each Party shall cooperate with and assist the other Party, to the extent permitted under the applicable law, in carrying out the peer reviews referred to in paragraph 1, which may include visits to offices of relevant control authorities and control bodies, processing facilities and certified operators.
+    - paragraph: Article 8
+    - paragraph: Joint Committee on Organic Products
+    - paragraph: 1. The Parties hereby establish a Joint Committee on Organic Products (‘the Joint Committee’) composed of duly appointed representatives of the Union, on the one hand, and representatives of the Government of Chile, on the other hand.
+    - paragraph: 2. Consultations shall be held in the Joint Committee to facilitate the implementation, and to further the purpose, of this Agreement.
+    - paragraph: "3. The functions of the Joint Committee shall be to:"
+    - table:
+      - rowgroup:
+        - row "(a) manage this Agreement, taking the decisions necessary for its implementation and its good functioning;":
+          - cell "(a)":
+            - paragraph: (a)
+          - cell "manage this Agreement, taking the decisions necessary for its implementation and its good functioning;":
+            - paragraph: manage this Agreement, taking the decisions necessary for its implementation and its good functioning;
+    - table:
+      - rowgroup:
+        - row "(b) examine any request by one Party to update or extend to new products the list of products in Annex I or II and to adopt a decision to modify Annex I or II if equivalence is recognised by the other Party;":
+          - cell "(b)":
+            - paragraph: (b)
+          - cell "examine any request by one Party to update or extend to new products the list of products in Annex I or II and to adopt a decision to modify Annex I or II if equivalence is recognised by the other Party;":
+            - paragraph: examine any request by one Party to update or extend to new products the list of products in Annex I or II and to adopt a decision to modify Annex I or II if equivalence is recognised by the other Party;
+    - table:
+      - rowgroup:
+        - row "(c) enhance cooperation on laws, regulations, standards and conformity-assessment procedures concerning organic production, to which end it shall discuss any other technical or regulatory issue related to organic production rules and control systems with a view to increasing convergence between laws, regulations and standards;":
+          - cell "(c)":
+            - paragraph: (c)
+          - cell "enhance cooperation on laws, regulations, standards and conformity-assessment procedures concerning organic production, to which end it shall discuss any other technical or regulatory issue related to organic production rules and control systems with a view to increasing convergence between laws, regulations and standards;":
+            - paragraph: enhance cooperation on laws, regulations, standards and conformity-assessment procedures concerning organic production, to which end it shall discuss any other technical or regulatory issue related to organic production rules and control systems with a view to increasing convergence between laws, regulations and standards;
+    - table:
+      - rowgroup:
+        - row "(d) consider any other issue with respect to the implementation of this Agreement.":
+          - cell "(d)":
+            - paragraph: (d)
+          - cell "consider any other issue with respect to the implementation of this Agreement.":
+            - paragraph: consider any other issue with respect to the implementation of this Agreement.
+    - paragraph:
+      - text: 4. The Parties shall, in accordance with their respective laws and regulations, implement the decisions adopted by the Joint Committee under point (b) of paragraph 3 and inform each other thereof within three months of their adoption
+      - link "(1)":
+        - /url: "#ntr1-L_2017331EN.01000401-E0001"
+      - text: .
+    - paragraph: 5. The Joint Committee shall operate by consensus. It shall adopt its own rules of procedure. It may establish subcommittees and working groups to deal with specific issues.
+    - paragraph: 6. The Joint Committee shall inform the Committee on Standards, Technical Regulations and Conformity Assessment established pursuant to Article 88 of the Agreement establishing an association between the European Community and its Member States, of the one part, and the Republic of Chile, of the other part, of its decisions and work.
+    - paragraph: 7. The Joint Committee shall meet once a year, in the Union and Chile alternately, on a mutually agreed date. If both Parties agree, a meeting of the Joint Committee may be held by means of video- or teleconference.
+    - paragraph: 8. The Joint Committee shall be co-chaired by the two Parties.
+    - paragraph: Article 9
+    - paragraph: Settlement of disputes
+    - paragraph: Any dispute relating to the interpretation or application of this Agreement shall be resolved through consultations between the Parties within the Joint Committee. The Parties shall present to the Joint Committee the relevant information required for a thorough examination of the matter, with a view to resolving the dispute.
+    - paragraph: Article 10
+    - paragraph: Confidentiality
+    - paragraph: Representatives, experts and other agents of the Parties shall be required, even after their duties have ceased, not to disclose any information obtained in the framework of this Agreement that is covered by the obligation of professional secrecy.
+    - paragraph: Article 11
+    - paragraph: Review
+    - paragraph: 1. Where either Party seeks a review of this Agreement, it shall submit a reasoned request to the other Party.
+    - paragraph: 2. The Parties may entrust the Joint Committee with the task of considering any such request and, if appropriate, putting forward recommendations, in particular with a view to opening negotiations on parts of this Agreement that cannot be changed in accordance with point (b) of Article 8(3).
+    - paragraph: Article 12
+    - paragraph: Implementation of the Agreement
+    - paragraph: The Parties shall take all steps, whether general or specific, to ensure compliance with the obligations under this Agreement. They shall abstain from any measure that is liable to jeopardise the attainment of the purpose of this Agreement.
+    - paragraph: Article 13
+    - paragraph: Annexes
+    - paragraph: The Annexes to this Agreement shall form an integral part thereof.
+    - paragraph: Article 14
+    - paragraph: Territorial scope
+    - paragraph: This Agreement shall apply, on the one hand, to the territories to which the Treaty on the Functioning of the European Union is applied and under the conditions set out in that Treaty and, on the other hand, to the territory of Chile.
+    - paragraph: Article 15
+    - paragraph: Entry into force and duration
+    - paragraph: This Agreement shall enter into force on the first day of the third month following the final notification of the completion of the necessary internal procedures by each Party.
+    - paragraph: This Agreement is concluded for an initial period of three years. It shall be renewed indefinitely unless the Union or Chile notifies the other Party of its objection to such renewal before the initial period expires.
+    - paragraph: Either Party may notify the other Party in writing of its intention to denounce this Agreement. The denunciation shall take effect three months after the notification.
+    - paragraph: Article 16
+    - paragraph: Authentic texts
+    - paragraph: This Agreement is signed in duplicate in English and Spanish, each text being equally authentic.
+    - paragraph: Done at Brussels on the twenty-seventh day of April in the year two thousand and seventeen.
+    - paragraph: For the European union
+    - paragraph
+    - figure:
+      - img "Image 1"
+    - paragraph
+    - paragraph: For the Republic of Chile
+    - paragraph
+    - figure:
+      - img "Image 2"
+    - paragraph
+    - separator
+    - paragraph:
+      - link "(1)":
+        - /url: "#ntc1-L_2017331EN.01000401-E0001"
+      - text: Chile shall implement the decisions of the Joint Committee through Acuerdos de Ejecución, in accordance with Article 54, numeral 1, fourth paragraph, of the Political Constitution of the Republic of Chile (Constitución Política de la República de Chile).
+    - separator
+    - paragraph: ANNEX I
+    - paragraph: Organic products from Chile for which the Union recognises equivalence
+    - table:
+      - rowgroup:
+        - row "Codes and description of the Harmonised System nomenclature Comments":
+          - cell "Codes and description of the Harmonised System nomenclature":
+            - paragraph: Codes and description of the Harmonised System nomenclature
+          - cell "Comments":
+            - paragraph: Comments
+        - row "0409 Natural honey":
+          - cell "0409":
+            - paragraph: "0409"
+          - cell "Natural honey":
+            - paragraph: Natural honey
+          - cell:
+            - paragraph
+        - row "06 LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE":
+          - cell "06":
+            - paragraph: "06"
+          - cell "LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE":
+            - paragraph: LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are included only if unprocessed":
+          - cell "The following codes of this chapter are included only if unprocessed":
+            - paragraph: The following codes of this chapter are included only if unprocessed
+          - cell:
+            - paragraph
+        - row "0603 Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared":
+          - cell "0603":
+            - paragraph: "0603"
+          - cell "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared":
+            - paragraph: Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared
+          - cell:
+            - paragraph
+        - row "0603 90 Other":
+          - cell "0603 90":
+            - paragraph: 0603 90
+          - cell "Other":
+            - paragraph: Other
+          - cell:
+            - paragraph
+        - row "0604 Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared":
+          - cell "0604":
+            - paragraph: "0604"
+          - cell "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared":
+            - paragraph: Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared
+          - cell:
+            - paragraph
+        - row "0604 90 Other":
+          - cell "0604 90":
+            - paragraph: 0604 90
+          - cell "Other":
+            - paragraph: Other
+          - cell:
+            - paragraph
+        - row "07 EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS":
+          - cell "07":
+            - paragraph: "07"
+          - cell "EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS":
+            - paragraph: EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS
+          - cell:
+            - paragraph
+        - row "08 EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS":
+          - cell "08":
+            - paragraph: "08"
+          - cell "EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS":
+            - paragraph: EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS
+          - cell:
+            - paragraph
+        - row "09 COFFEE, TEA, MATÉ* AND SPICES * Excluded":
+          - cell "09":
+            - paragraph: "09"
+          - cell "COFFEE, TEA, MATÉ* AND SPICES":
+            - paragraph: COFFEE, TEA, MATÉ* AND SPICES
+          - cell "* Excluded":
+            - paragraph: "* Excluded"
+        - row "10 CEREALS":
+          - cell "10":
+            - paragraph: "10"
+          - cell "CEREALS":
+            - paragraph: CEREALS
+          - cell:
+            - paragraph
+        - row "11 PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN":
+          - cell "11":
+            - paragraph: "11"
+          - cell "PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN":
+            - paragraph: PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN
+          - cell:
+            - paragraph
+        - row "12 OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER":
+          - cell "12":
+            - paragraph: "12"
+          - cell "OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER":
+            - paragraph: OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are excluded or limited:":
+          - cell "The following codes of this chapter are excluded or limited:":
+            - paragraph: "The following codes of this chapter are excluded or limited:"
+          - cell:
+            - paragraph
+        - row "1211 Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered Included only if unprocessed or processed for use as food":
+          - cell "1211":
+            - paragraph: "1211"
+          - cell "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered":
+            - paragraph: Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered
+          - cell "Included only if unprocessed or processed for use as food":
+            - paragraph: Included only if unprocessed or processed for use as food
+        - row "1212 21 Seaweeds and other algae Excluded":
+          - cell "1212 21":
+            - paragraph: 1212 21
+          - cell "Seaweeds and other algae":
+            - paragraph: Seaweeds and other algae
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1212 21 Fit for human consumption Excluded":
+          - cell "1212 21":
+            - paragraph: 1212 21
+          - cell "Fit for human consumption":
+            - paragraph: Fit for human consumption
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1212 29 Other Excluded":
+          - cell "1212 29":
+            - paragraph: 1212 29
+          - cell "Other":
+            - paragraph: Other
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "13 LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS":
+          - cell "13":
+            - paragraph: "13"
+          - cell "LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS":
+            - paragraph: LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are excluded or limited:":
+          - cell "The following codes of this chapter are excluded or limited:":
+            - paragraph: "The following codes of this chapter are excluded or limited:"
+          - cell:
+            - paragraph
+        - row "1301 Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams) Excluded":
+          - cell "1301":
+            - paragraph: "1301"
+          - cell "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)":
+            - paragraph: Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1302 Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products Included only if processed for use as food":
+          - cell "1302":
+            - paragraph: "1302"
+          - cell "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products":
+            - paragraph: Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products
+          - cell "Included only if processed for use as food":
+            - paragraph: Included only if processed for use as food
+        - row "1302 11 Opium Excluded":
+          - cell "1302 11":
+            - paragraph: 1302 11
+          - cell "Opium":
+            - paragraph: Opium
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1302 19 Other Excluded":
+          - cell "1302 19":
+            - paragraph: 1302 19
+          - cell "Other":
+            - paragraph: Other
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "14 VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED":
+          - cell "14":
+            - paragraph: "14"
+          - cell "VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED":
+            - paragraph: VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED
+          - cell:
+            - paragraph
+        - row "15 ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES":
+          - cell "15":
+            - paragraph: "15"
+          - cell "ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES":
+            - paragraph: ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are excluded or limited:":
+          - cell "The following codes of this chapter are excluded or limited:":
+            - paragraph: "The following codes of this chapter are excluded or limited:"
+          - cell:
+            - paragraph
+        - row "1501 Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503 Included only if processed for use as food":
+          - cell "1501":
+            - paragraph: "1501"
+          - cell "Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503":
+            - paragraph: Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503
+          - cell "Included only if processed for use as food":
+            - paragraph: Included only if processed for use as food
+        - row "1502 Fats of bovine animals, sheep or goats, other than those of heading 1503 Included only if processed for use as food":
+          - cell "1502":
+            - paragraph: "1502"
+          - cell "Fats of bovine animals, sheep or goats, other than those of heading 1503":
+            - paragraph: Fats of bovine animals, sheep or goats, other than those of heading 1503
+          - cell "Included only if processed for use as food":
+            - paragraph: Included only if processed for use as food
+        - row "1503 Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared Included only if processed for use as food":
+          - cell "1503":
+            - paragraph: "1503"
+          - cell "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared":
+            - paragraph: Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared
+          - cell "Included only if processed for use as food":
+            - paragraph: Included only if processed for use as food
+        - row "1505 Wool grease and fatty substances derived therefrom (including lanolin) Excluded":
+          - cell "1505":
+            - paragraph: "1505"
+          - cell "Wool grease and fatty substances derived therefrom (including lanolin)":
+            - paragraph: Wool grease and fatty substances derived therefrom (including lanolin)
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1506 Other animal fats and oils and their fractions, whether or not refined, but not chemically modified Excluded":
+          - cell "1506":
+            - paragraph: "1506"
+          - cell "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified":
+            - paragraph: Other animal fats and oils and their fractions, whether or not refined, but not chemically modified
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1515 30 Castor oil and its fractions Excluded":
+          - cell "1515 30":
+            - paragraph: 1515 30
+          - cell "Castor oil and its fractions":
+            - paragraph: Castor oil and its fractions
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1515 90 Other For this subchapter, jojoba oil is excluded. Other products are included only if processed for use as food.":
+          - cell "1515 90":
+            - paragraph: 1515 90
+          - cell "Other":
+            - paragraph: Other
+          - cell "For this subchapter, jojoba oil is excluded. Other products are included only if processed for use as food.":
+            - paragraph: For this subchapter, jojoba oil is excluded. Other products are included only if processed for use as food.
+        - row "1516 20 Vegetable fats and oils and their fractions Included only if processed for use as food":
+          - cell "1516 20":
+            - paragraph: 1516 20
+          - cell "Vegetable fats and oils and their fractions":
+            - paragraph: Vegetable fats and oils and their fractions
+          - cell "Included only if processed for use as food":
+            - paragraph: Included only if processed for use as food
+        - row "1518 Animal or vegetable fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 1516 ; inedible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, not elsewhere specified or included Excluded":
+          - cell "1518":
+            - paragraph: "1518"
+          - cell "Animal or vegetable fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 1516 ; inedible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, not elsewhere specified or included":
+            - paragraph: Animal or vegetable fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 1516 ; inedible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, not elsewhere specified or included
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1520 Glycerol, crude; glycerol waters and glycerol lyes Excluded":
+          - cell "1520":
+            - paragraph: "1520"
+          - cell "Glycerol, crude; glycerol waters and glycerol lyes":
+            - paragraph: Glycerol, crude; glycerol waters and glycerol lyes
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1521 Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured Excluded except vegetable waxes if processed for use as food":
+          - cell "1521":
+            - paragraph: "1521"
+          - cell "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured":
+            - paragraph: Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured
+          - cell "Excluded except vegetable waxes if processed for use as food":
+            - paragraph: Excluded except vegetable waxes if processed for use as food
+        - row "17 SUGARS AND SUGAR CONFECTIONERY":
+          - cell "17":
+            - paragraph: "17"
+          - cell "SUGARS AND SUGAR CONFECTIONERY":
+            - paragraph: SUGARS AND SUGAR CONFECTIONERY
+          - cell:
+            - paragraph
+        - row "18 COCOA AND COCOA PREPARATIONS":
+          - cell "18":
+            - paragraph: "18"
+          - cell "COCOA AND COCOA PREPARATIONS":
+            - paragraph: COCOA AND COCOA PREPARATIONS
+          - cell:
+            - paragraph
+        - row "19 PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRY COOKS' PRODUCTS":
+          - cell "19":
+            - paragraph: "19"
+          - cell "PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRY COOKS' PRODUCTS":
+            - paragraph: PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRY COOKS' PRODUCTS
+          - cell:
+            - paragraph
+        - row "20 PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS":
+          - cell "20":
+            - paragraph: "20"
+          - cell "PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS":
+            - paragraph: PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS
+          - cell:
+            - paragraph
+        - row "21 MISCELLANEOUS EDIBLE PREPARATIONS":
+          - cell "21":
+            - paragraph: "21"
+          - cell "MISCELLANEOUS EDIBLE PREPARATIONS":
+            - paragraph: MISCELLANEOUS EDIBLE PREPARATIONS
+          - cell:
+            - paragraph
+        - row "22 BEVERAGES, SPIRITS AND VINEGAR":
+          - cell "22":
+            - paragraph: "22"
+          - cell "BEVERAGES, SPIRITS AND VINEGAR":
+            - paragraph: BEVERAGES, SPIRITS AND VINEGAR
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are excluded or limited:":
+          - cell "The following codes of this chapter are excluded or limited:":
+            - paragraph: "The following codes of this chapter are excluded or limited:"
+          - cell:
+            - paragraph
+        - row "2201 Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow Excluded":
+          - cell "2201":
+            - paragraph: "2201"
+          - cell "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow":
+            - paragraph: Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "2202 Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading 2009 Excluded":
+          - cell "2202":
+            - paragraph: "2202"
+          - cell "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading 2009":
+            - paragraph: Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading 2009
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "2208 Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol.; spirits, liqueurs and other spirituous beverages Included only if processed from agricultural products, for use as food":
+          - cell "2208":
+            - paragraph: "2208"
+          - cell "Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol.; spirits, liqueurs and other spirituous beverages":
+            - paragraph: Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol.; spirits, liqueurs and other spirituous beverages
+          - cell "Included only if processed from agricultural products, for use as food":
+            - paragraph: Included only if processed from agricultural products, for use as food
+        - row "3301 Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils Included only if used for food":
+          - cell "3301":
+            - paragraph: "3301"
+          - cell "Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils":
+            - paragraph: Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils
+          - cell "Included only if used for food":
+            - paragraph: Included only if used for food
+    - paragraph: "Conditions:"
+    - paragraph: Organic products listed in this Annex shall be unprocessed agricultural products produced in Chile and processed agricultural products for use as food that have been processed in Chile with organically grown ingredients that have been produced in Chile or that have been imported into Chile either from the Union or from a third country in the framework of a regime that is recognised as equivalent by the Union in accordance with the provisions of Article 33(2) of Council Regulation (EC) No 834/2007 of 28 June 2007 on organic production and labelling of organic products and repealing Regulation (EEC) No 2092/91.
+    - separator
+    - paragraph: ANNEX II
+    - paragraph: Organic products from the Union for which Chile recognises equivalence
+    - table:
+      - rowgroup:
+        - row "Codes and description of the Harmonised System nomenclature Comments":
+          - cell "Codes and description of the Harmonised System nomenclature":
+            - paragraph: Codes and description of the Harmonised System nomenclature
+          - cell "Comments":
+            - paragraph: Comments
+        - row "01 LIVE ANIMALS The products of hunting and fishing of wild animals shall not be considered as organic production.":
+          - cell "01":
+            - paragraph: "01"
+          - cell "LIVE ANIMALS":
+            - paragraph: LIVE ANIMALS
+          - cell "The products of hunting and fishing of wild animals shall not be considered as organic production.":
+            - paragraph: The products of hunting and fishing of wild animals shall not be considered as organic production.
+        - row "02 MEAT AND EDIBLE MEAT OFFAL Meat and edible meat offal from hunting and fishing of wild animals is excluded.":
+          - cell "02":
+            - paragraph: "02"
+          - cell "MEAT AND EDIBLE MEAT OFFAL":
+            - paragraph: MEAT AND EDIBLE MEAT OFFAL
+          - cell "Meat and edible meat offal from hunting and fishing of wild animals is excluded.":
+            - paragraph: Meat and edible meat offal from hunting and fishing of wild animals is excluded.
+        - row "03 FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES Fishing of wild animals is excluded.":
+          - cell "03":
+            - paragraph: "03"
+          - cell "FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES":
+            - paragraph: FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES
+          - cell "Fishing of wild animals is excluded.":
+            - paragraph: Fishing of wild animals is excluded.
+        - row "04 DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED":
+          - cell "04":
+            - paragraph: "04"
+          - cell "DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED":
+            - paragraph: DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED
+          - cell:
+            - paragraph
+        - row "05 PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED":
+          - cell "05":
+            - paragraph: "05"
+          - cell "PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED":
+            - paragraph: PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are excluded:":
+          - cell "The following codes of this chapter are excluded:":
+            - paragraph: "The following codes of this chapter are excluded:"
+          - cell:
+            - paragraph
+        - row "0501 Human hair, unworked, whether or not washed or scoured; waste of human hair":
+          - cell "0501":
+            - paragraph: "0501"
+          - cell "Human hair, unworked, whether or not washed or scoured; waste of human hair":
+            - paragraph: Human hair, unworked, whether or not washed or scoured; waste of human hair
+          - cell:
+            - paragraph
+        - row "0502 Pigs', hogs' or boars' bristles and hair; badger hair and other brush making hair; waste of such bristles or hair":
+          - cell "0502":
+            - paragraph: "0502"
+          - cell "Pigs', hogs' or boars' bristles and hair; badger hair and other brush making hair; waste of such bristles or hair":
+            - paragraph: Pigs', hogs' or boars' bristles and hair; badger hair and other brush making hair; waste of such bristles or hair
+          - cell:
+            - paragraph
+        - row "0502 10 Pigs', hogs' or boars' bristles and hair and waste thereof":
+          - cell "0502 10":
+            - paragraph: 0502 10
+          - cell "Pigs', hogs' or boars' bristles and hair and waste thereof":
+            - paragraph: Pigs', hogs' or boars' bristles and hair and waste thereof
+          - cell:
+            - paragraph
+        - row "0502 90 Other":
+          - cell "0502 90":
+            - paragraph: 0502 90
+          - cell "Other":
+            - paragraph: Other
+          - cell:
+            - paragraph
+        - row "0505 Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers":
+          - cell "0505":
+            - paragraph: "0505"
+          - cell "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers":
+            - paragraph: Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers
+          - cell:
+            - paragraph
+        - row "0506 Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products":
+          - cell "0506":
+            - paragraph: "0506"
+          - cell "Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products":
+            - paragraph: Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products
+          - cell:
+            - paragraph
+        - row "0507 Ivory, tortoiseshell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products":
+          - cell "0507":
+            - paragraph: "0507"
+          - cell "Ivory, tortoiseshell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products":
+            - paragraph: Ivory, tortoiseshell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products
+          - cell:
+            - paragraph
+        - row "0510 Ambergris, castoreum, civet and musk; cantharides; bile, whether or not dried; glands and other animal products used in the preparation of pharmaceutical products, fresh, chilled, frozen or otherwise provisionally preserved":
+          - cell "0510":
+            - paragraph: "0510"
+          - cell "Ambergris, castoreum, civet and musk; cantharides; bile, whether or not dried; glands and other animal products used in the preparation of pharmaceutical products, fresh, chilled, frozen or otherwise provisionally preserved":
+            - paragraph: Ambergris, castoreum, civet and musk; cantharides; bile, whether or not dried; glands and other animal products used in the preparation of pharmaceutical products, fresh, chilled, frozen or otherwise provisionally preserved
+          - cell:
+            - paragraph
+        - row "0511 91 Other":
+          - cell "0511 91":
+            - paragraph: 0511 91
+          - cell "Other":
+            - paragraph: Other
+          - cell:
+            - paragraph
+        - row "0511 99 Natural sponges of animal origin":
+          - cell "0511 99":
+            - paragraph: 0511 99
+          - cell "Natural sponges of animal origin":
+            - paragraph: Natural sponges of animal origin
+          - cell:
+            - paragraph
+        - row "06 LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE":
+          - cell "06":
+            - paragraph: "06"
+          - cell "LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE":
+            - paragraph: LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are included only if unprocessed:":
+          - cell "The following codes of this chapter are included only if unprocessed:":
+            - paragraph: "The following codes of this chapter are included only if unprocessed:"
+          - cell:
+            - paragraph
+        - row "0603 Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared":
+          - cell "0603":
+            - paragraph: "0603"
+          - cell "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared":
+            - paragraph: Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared
+          - cell:
+            - paragraph
+        - row "0603 90 Other":
+          - cell "0603 90":
+            - paragraph: 0603 90
+          - cell "Other":
+            - paragraph: Other
+          - cell:
+            - paragraph
+        - row "0604 Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared":
+          - cell "0604":
+            - paragraph: "0604"
+          - cell "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared":
+            - paragraph: Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared
+          - cell:
+            - paragraph
+        - row "0604 90 Other":
+          - cell "0604 90":
+            - paragraph: 0604 90
+          - cell "Other":
+            - paragraph: Other
+          - cell:
+            - paragraph
+        - row "07 EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS":
+          - cell "07":
+            - paragraph: "07"
+          - cell "EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS":
+            - paragraph: EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS
+          - cell:
+            - paragraph
+        - row "08 EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS":
+          - cell "08":
+            - paragraph: "08"
+          - cell "EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS":
+            - paragraph: EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS
+          - cell:
+            - paragraph
+        - row "09 COFFEE, TEA, MATÉ* AND SPICES * Excluded":
+          - cell "09":
+            - paragraph: "09"
+          - cell "COFFEE, TEA, MATÉ* AND SPICES":
+            - paragraph: COFFEE, TEA, MATÉ* AND SPICES
+          - cell "* Excluded":
+            - paragraph: "* Excluded"
+        - row "10 CEREALS":
+          - cell "10":
+            - paragraph: "10"
+          - cell "CEREALS":
+            - paragraph: CEREALS
+          - cell:
+            - paragraph
+        - row "11 PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN":
+          - cell "11":
+            - paragraph: "11"
+          - cell "PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN":
+            - paragraph: PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN
+          - cell:
+            - paragraph
+        - row "12 OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER":
+          - cell "12":
+            - paragraph: "12"
+          - cell "OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER":
+            - paragraph: OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are excluded or limited:":
+          - cell "The following codes of this chapter are excluded or limited:":
+            - paragraph: "The following codes of this chapter are excluded or limited:"
+          - cell:
+            - paragraph
+        - row "1211 Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered Included only if unprocessed or processed for use as food or feed":
+          - cell "1211":
+            - paragraph: "1211"
+          - cell "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered":
+            - paragraph: Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered
+          - cell "Included only if unprocessed or processed for use as food or feed":
+            - paragraph: Included only if unprocessed or processed for use as food or feed
+        - row "13 LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS":
+          - cell "13":
+            - paragraph: "13"
+          - cell "LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS":
+            - paragraph: LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are excluded or limited:":
+          - cell "The following codes of this chapter are excluded or limited:":
+            - paragraph: "The following codes of this chapter are excluded or limited:"
+          - cell:
+            - paragraph
+        - row "1301 Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams) Excluded":
+          - cell "1301":
+            - paragraph: "1301"
+          - cell "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)":
+            - paragraph: Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1302 Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products Included only if processed for use as food or feed":
+          - cell "1302":
+            - paragraph: "1302"
+          - cell "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products":
+            - paragraph: Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products
+          - cell "Included only if processed for use as food or feed":
+            - paragraph: Included only if processed for use as food or feed
+        - row "1302 11 Opium Excluded":
+          - cell "1302 11":
+            - paragraph: 1302 11
+          - cell "Opium":
+            - paragraph: Opium
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1302 19 Other Excluded":
+          - cell "1302 19":
+            - paragraph: 1302 19
+          - cell "Other":
+            - paragraph: Other
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "14 VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED":
+          - cell "14":
+            - paragraph: "14"
+          - cell "VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED":
+            - paragraph: VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED
+          - cell:
+            - paragraph
+        - row "15 ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES":
+          - cell "15":
+            - paragraph: "15"
+          - cell "ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES":
+            - paragraph: ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are excluded or limited:":
+          - cell "The following codes of this chapter are excluded or limited:":
+            - paragraph: "The following codes of this chapter are excluded or limited:"
+          - cell:
+            - paragraph
+        - row "1501 Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503 Included only if processed for use as food or feed":
+          - cell "1501":
+            - paragraph: "1501"
+          - cell "Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503":
+            - paragraph: Pig fat (including lard) and poultry fat, other than that of heading 0209 or 1503
+          - cell "Included only if processed for use as food or feed":
+            - paragraph: Included only if processed for use as food or feed
+        - row "1502 Fats of bovine animals, sheep or goats, other than those of heading 1503 Included only if processed for use as food or feed":
+          - cell "1502":
+            - paragraph: "1502"
+          - cell "Fats of bovine animals, sheep or goats, other than those of heading 1503":
+            - paragraph: Fats of bovine animals, sheep or goats, other than those of heading 1503
+          - cell "Included only if processed for use as food or feed":
+            - paragraph: Included only if processed for use as food or feed
+        - row "1503 Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared Included only if processed for use as food or feed":
+          - cell "1503":
+            - paragraph: "1503"
+          - cell "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared":
+            - paragraph: Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared
+          - cell "Included only if processed for use as food or feed":
+            - paragraph: Included only if processed for use as food or feed
+        - row "1505 Wool grease and fatty substances derived therefrom (including lanolin) Excluded":
+          - cell "1505":
+            - paragraph: "1505"
+          - cell "Wool grease and fatty substances derived therefrom (including lanolin)":
+            - paragraph: Wool grease and fatty substances derived therefrom (including lanolin)
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1506 Other animal fats and oils and their fractions, whether or not refined, but not chemically modified Excluded":
+          - cell "1506":
+            - paragraph: "1506"
+          - cell "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified":
+            - paragraph: Other animal fats and oils and their fractions, whether or not refined, but not chemically modified
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1515 30 Castor oil and its fractions Excluded":
+          - cell "1515 30":
+            - paragraph: 1515 30
+          - cell "Castor oil and its fractions":
+            - paragraph: Castor oil and its fractions
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "1515 90 Other For this subchapter, jojoba oil is excluded. Other products are included only if processed for use as food or feed.":
+          - cell "1515 90":
+            - paragraph: 1515 90
+          - cell "Other":
+            - paragraph: Other
+          - cell "For this subchapter, jojoba oil is excluded. Other products are included only if processed for use as food or feed.":
+            - paragraph: For this subchapter, jojoba oil is excluded. Other products are included only if processed for use as food or feed.
+        - row "1520 Glycerol, crude; glycerol waters and glycerol lyes Included only if processed for use as food or feed.":
+          - cell "1520":
+            - paragraph: "1520"
+          - cell "Glycerol, crude; glycerol waters and glycerol lyes":
+            - paragraph: Glycerol, crude; glycerol waters and glycerol lyes
+          - cell "Included only if processed for use as food or feed.":
+            - paragraph: Included only if processed for use as food or feed.
+        - row "1521 Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured Only vegetable waxes included if processed for use as food and feed":
+          - cell "1521":
+            - paragraph: "1521"
+          - cell "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured":
+            - paragraph: Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured
+          - cell "Only vegetable waxes included if processed for use as food and feed":
+            - paragraph: Only vegetable waxes included if processed for use as food and feed
+        - row "16 PREPARATIONS OF MEAT, OF FISH OR OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES":
+          - cell "16":
+            - paragraph: "16"
+          - cell "PREPARATIONS OF MEAT, OF FISH OR OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES":
+            - paragraph: PREPARATIONS OF MEAT, OF FISH OR OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES
+          - cell:
+            - paragraph
+        - row "17 SUGARS AND SUGAR CONFECTIONERY":
+          - cell "17":
+            - paragraph: "17"
+          - cell "SUGARS AND SUGAR CONFECTIONERY":
+            - paragraph: SUGARS AND SUGAR CONFECTIONERY
+          - cell:
+            - paragraph
+        - row "18 COCOA AND COCOA PREPARATIONS":
+          - cell "18":
+            - paragraph: "18"
+          - cell "COCOA AND COCOA PREPARATIONS":
+            - paragraph: COCOA AND COCOA PREPARATIONS
+          - cell:
+            - paragraph
+        - row "19 PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRY COOKS' PRODUCTS":
+          - cell "19":
+            - paragraph: "19"
+          - cell "PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRY COOKS' PRODUCTS":
+            - paragraph: PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRY COOKS' PRODUCTS
+          - cell:
+            - paragraph
+        - row "20 PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS":
+          - cell "20":
+            - paragraph: "20"
+          - cell "PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS":
+            - paragraph: PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS
+          - cell:
+            - paragraph
+        - row "21 MISCELLANEOUS EDIBLE PREPARATIONS":
+          - cell "21":
+            - paragraph: "21"
+          - cell "MISCELLANEOUS EDIBLE PREPARATIONS":
+            - paragraph: MISCELLANEOUS EDIBLE PREPARATIONS
+          - cell:
+            - paragraph
+        - row "22 BEVERAGES, SPIRITS AND VINEGAR":
+          - cell "22":
+            - paragraph: "22"
+          - cell "BEVERAGES, SPIRITS AND VINEGAR":
+            - paragraph: BEVERAGES, SPIRITS AND VINEGAR
+          - cell:
+            - paragraph
+        - row "The following codes of this chapter are excluded or limited:":
+          - cell "The following codes of this chapter are excluded or limited:":
+            - paragraph: "The following codes of this chapter are excluded or limited:"
+          - cell:
+            - paragraph
+        - row "2201 Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow Excluded":
+          - cell "2201":
+            - paragraph: "2201"
+          - cell "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow":
+            - paragraph: Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "2202 Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading 2009 Excluded":
+          - cell "2202":
+            - paragraph: "2202"
+          - cell "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading 2009":
+            - paragraph: Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading 2009
+          - cell "Excluded":
+            - paragraph: Excluded
+        - row "2208 Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol.; spirits, liqueurs and other spirituous beverages Included only if processed from agricultural products, for use as food":
+          - cell "2208":
+            - paragraph: "2208"
+          - cell "Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol.; spirits, liqueurs and other spirituous beverages":
+            - paragraph: Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol.; spirits, liqueurs and other spirituous beverages
+          - cell "Included only if processed from agricultural products, for use as food":
+            - paragraph: Included only if processed from agricultural products, for use as food
+        - row "23 RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER":
+          - cell "23":
+            - paragraph: "23"
+          - cell "RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER":
+            - paragraph: RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER
+          - cell:
+            - paragraph
+        - row "The following code of this chapter is limited:":
+          - cell "The following code of this chapter is limited:":
+            - paragraph: "The following code of this chapter is limited:"
+          - cell:
+            - paragraph
+        - row "2307 Wine lees; argol Argol is excluded":
+          - cell "2307":
+            - paragraph: "2307"
+          - cell "Wine lees; argol":
+            - paragraph: Wine lees; argol
+          - cell "Argol is excluded":
+            - paragraph: Argol is excluded
+        - row "3301 Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils Included only if used for food":
+          - cell "3301":
+            - paragraph: "3301"
+          - cell "Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils":
+            - paragraph: Essential oils (terpeneless or not), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils
+          - cell "Included only if used for food":
+            - paragraph: Included only if used for food
+        - row "45 CORK AND ARTICLES OF CORK Included only if unprocessed":
+          - cell "45":
+            - paragraph: "45"
+          - cell "CORK AND ARTICLES OF CORK":
+            - paragraph: CORK AND ARTICLES OF CORK
+          - cell "Included only if unprocessed":
+            - paragraph: Included only if unprocessed
+        - row "53 OTHER VEGETABLE TEXTILE FIBRES; PAPER YARN AND WOVEN FABRICS OF PAPER YARN Included only if unprocessed":
+          - cell "53":
+            - paragraph: "53"
+          - cell "OTHER VEGETABLE TEXTILE FIBRES; PAPER YARN AND WOVEN FABRICS OF PAPER YARN":
+            - paragraph: OTHER VEGETABLE TEXTILE FIBRES; PAPER YARN AND WOVEN FABRICS OF PAPER YARN
+          - cell "Included only if unprocessed":
+            - paragraph: Included only if unprocessed
+    - paragraph: "Conditions:"
+    - paragraph: Organic products listed in this Annex shall be unprocessed and processed agricultural products that are produced or processed in the Union.
+    - separator
+    - paragraph: ANNEX III
+    - paragraph: Organic legislation applicable in the Union
+    - paragraph: Council Regulation (EC) No 834/2007 of 28 June 2007 on organic production and labelling of organic products and repealing Regulation (EEC) No 2092/91, as last amended by Council Regulation (EC) No 517/2013.
+    - paragraph: Commission Regulation (EC) No 889/2008 of 5 September 2008 laying down detailed rules for the implementation of Council Regulation (EC) No 834/2007 on organic production and labelling of organic products with regard to organic production, labelling and control, as last amended by Commission Implementing Regulation (EU) No 1358/2014.
+    - paragraph: Commission Regulation (EC) No 1235/2008 of 8 December 2008 laying down detailed rules for implementation of Council Regulation (EC) No 834/2007 as regards the arrangements for imports of organic products from third countries, as amended by Commission Implementing Regulation (EU) 2015/931.
+    - separator
+    - paragraph: ANNEX IV
+    - paragraph: Organic legislation applicable in Chile
+    - paragraph: Law 20.089, of 17 January 2006, that creates a National Certification System for Agricultural Organic Products.
+    - paragraph: Decree no 03 of 29 January 2016, of the Ministry of Agriculture, that approves the Regulation of Law 20.089 that creates a National Certification System for Agricultural Organic Products.
+    - paragraph: Decree no 02 of 22 January 2016, of the Ministry of Agriculture, that approves the Technical Rules of Law 20.089 that creates a National Certification System for Agricultural Organic Products.
+    - paragraph: Resolution no 569 of the National Directorate of the Agricultural and Livestock Service, of 7 February 2007, establishing standards for registration of organic products' certification bodies.
+    - paragraph: Resolution no 1110 of the National Directorate of the Agricultural and Livestock Service, of 4 March 2008, approving the official label for organic products and equivalents.
+    - paragraph: Resolution no 7880 of the National Directorate of the Agricultural and Livestock Service, of 29 November 2011, establishing the minimum content for the organic agriculture certificates, in the framework of Law 20.089.
+    - separator
+    - paragraph: ANNEX V
+    - paragraph: "Internet addresses where the laws and regulations listed in Annexes III and IV including any modification, revocation, replacement or addition, as well as consolidated versions, and any new legislation for products that have been listed in Annex I or II in accordance with point (b) of Article 8(3) can be consulted:"
+    - table:
+      - rowgroup:
+        - 'row "Union: http://eur-lex.europa.eu"':
+          - cell "Union:":
+            - paragraph: "Union:"
+          - cell "http://eur-lex.europa.eu":
+            - paragraph: http://eur-lex.europa.eu
+        - 'row "Chile: http://www.sag.gob.cl/ambitos-de-accion/certificacion-de-productos-organicos-agricolas/132/normativas"':
+          - cell "Chile:":
+            - paragraph: "Chile:"
+          - cell "http://www.sag.gob.cl/ambitos-de-accion/certificacion-de-productos-organicos-agricolas/132/normativas":
+            - paragraph: http://www.sag.gob.cl/ambitos-de-accion/certificacion-de-productos-organicos-agricolas/132/normativas
+    - separator
+    - link "Top":
+      - /url: "#document1"
+- text:  
+- contentinfo:
+  - link "Back to EUR-Lex homepage":
+    - /url: ./../../../homepage.html
+    - generic "Back to EUR-Lex homepage":
+      - img "Back to EUR-Lex homepage"
+  - text: This site is managed by the
+  - link "Publications Office of the European Union":
+    - /url: http://op.europa.eu/en/home
+  - heading "Need help?" [level=2]
+  - list:
+    - link "Help pages":
+      - /url: ./../../../content/help.html
+    - link "Contact":
+      - /url: ./../../../contact.html
+    - link "Sitemap":
+      - /url: ./../../../content/site-map/site-map.html
+  - heading "Legal" [level=2]
+  - list:
+    - link "Legal notice":
+      - /url: ./../../../content/legal-notice/legal-notice.html
+    - link "Cookies policy":
+      - /url: ./../../../content/legal-notice/legal-notice.html#5.%20Cookies%20notice
+    - link "Accessibility":
+      - /url: ./../../../content/legal-notice/legal-notice.html#4.%20Accessibility%20statement
+    - link "Privacy statement":
+      - /url: ./../../../content/legal-notice/legal-notice.html#3.%20protection
+  - heading "Information" [level=2]
+  - list:
+    - link "About EUR-Lex":
+      - /url: ./../../../content/welcome/about.html
+    - link "Newsletter":
+      - /url: ./../../../newsletter/newsletterLatest.html
+    - link "Useful links":
+      - /url: ./../../../content/links/links.html
+  - heading "Other services" [level=2]
+  - list:
+    - link "European Data":
+      - /url: https://data.europa.eu/euodp/en/data/
+    - link "EU tenders":
+      - /url: https://ted.europa.eu/TED/main/HomePage.do
+    - link "EU research results":
+      - /url: http://cordis.europa.eu/en/
+    - link "EU Whoiswho":
+      - /url: http://op.europa.eu/en/web/who-is-who
+    - link "EU publications":
+      - /url: http://op.europa.eu/en/web/general-publications/publications
+  - list:
+    - link "N-Lex":
+      - /url: http://n-lex.europa.eu/n-lex/index?lang=en
+    - link:
+      - /url: http://op.europa.eu/en/web/eu-law-in-force
+    - link "EU Law Tracker":
+      - /url: http://law-tracker.europa.eu/homepage?lang=en
+  - link "European Union":
+    - /url: https://european-union.europa.eu/
+    - generic "European Union":
+      - img "European Union logo"
+  - text: Discover more on
+  - link "europa.eu":
+    - /url: https://europa.eu
+  - heading "Contact the EU" [level=2]
+  - list:
+    - link "Call us 00 800 6 7 8 9 10 11":
+      - /url: tel:0080067891011
+    - link "Use other telephone options":
+      - /url: https://european-union.europa.eu/contact-eu/call-us_en
+    - link "Write to us via our contact form":
+      - /url: https://european-union.europa.eu/contact-eu/write-us_en
+    - link "Meet us at one of the EU centres":
+      - /url: https://european-union.europa.eu/contact-eu/meet-us_en
+  - heading "Social media" [level=2]
+  - list:
+    - link "Search for EU social media channels":
+      - /url: https://european-union.europa.eu/contact-eu/social-media-channels_en#/search
+  - heading "Legal" [level=2]
+  - list:
+    - link "Languages on our websites":
+      - /url: https://european-union.europa.eu/languages-our-websites_en
+    - link "Privacy policy":
+      - /url: https://european-union.europa.eu/privacy-policy_en
+    - link "Legal notice":
+      - /url: https://european-union.europa.eu/legal-notice_en
+    - link "Cookies":
+      - /url: https://european-union.europa.eu/cookies_en
+  - heading "EU institutions" [level=2]
+  - list:
+    - link "European Parliament":
+      - /url: https://www.europarl.europa.eu/portal/
+    - link "European Council":
+      - /url: https://www.consilium.europa.eu/en/european-council/
+    - link "Council of the European Union":
+      - /url: https://www.consilium.europa.eu/en/home/
+    - link "European Commission":
+      - /url: https://commission.europa.eu/index_en
+    - link "Court of Justice of the European Union (CJEU)":
+      - /url: https://curia.europa.eu/jcms/jcms/j_6/en/
+    - link "European Central Bank (ECB)":
+      - /url: https://www.ecb.europa.eu/home/html/index.en.html
+    - link "European Court of Auditors":
+      - /url: https://www.eca.europa.eu/en
+    - link "European External Action Service (EEAS)":
+      - /url: https://eeas.europa.eu/headquarters/headquarters-homepage_en
+    - link "European Economic and Social Committee":
+      - /url: https://www.eesc.europa.eu/?i=portal.en.home
+    - link "European Committee of Regions (CoR)":
+      - /url: https://cor.europa.eu/en/
+    - link "European Investment Bank":
+      - /url: https://www.eib.org/en/index.htm
+    - link "European Ombudsman":
+      - /url: https://www.ombudsman.europa.eu/en/home
+    - link "European Data Protection Supervisor (EDPS)":
+      - /url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en
+    - link "European Data Protection Board":
+      - /url: https://edpb.europa.eu/edpb_en
+    - link "European Personnel Selection Office":
+      - /url: https://epso.europa.eu/en
+    - link "Publications Office of the European Union":
+      - /url: https://op.europa.eu/en/home
+    - link "Agencies":
+      - /url: https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_en?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU
+  - text: 
+  - list:  

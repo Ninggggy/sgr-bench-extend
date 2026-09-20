@@ -1,0 +1,7 @@
+{
+  "registered_at": "2026-09-13T06:42:00.792005+00:00",
+  "purpose": "Pre-A full source observation; model tests require independent pre-A approval and a separate development preregistration. Shared observation may bracket both parallel variants.",
+  "request_count": 17,
+  "retries": 0,
+  "comparison": "Full core by MED/PMID and all16 supporting maintext original bytes; failures or change halt automatic test readiness."
+}

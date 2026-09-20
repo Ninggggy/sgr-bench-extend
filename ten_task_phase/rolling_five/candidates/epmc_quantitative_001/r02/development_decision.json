@@ -1,0 +1,103 @@
+{
+  "candidate_id": "epmc_quantitative_001",
+  "revision": 2,
+  "decision": "stop_full_scores",
+  "stage": "development_a",
+  "at": "2026-09-12T06:21:00.105438+00:00",
+  "trials": [
+    {
+      "variant": "CG",
+      "run_path": "runs/epmc-r02-cg-dev-a",
+      "counts": {
+        "correct_fields": 7,
+        "gold_fields": 7,
+        "pred_fields": 7,
+        "item_denominator": 14,
+        "correct_rows": 1,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 1
+      },
+      "exact_item_f1": "1",
+      "verification_status": "passed",
+      "evidence": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40601005/",
+          "locator": "Record title, publication type \u201cPublished Erratum,\u201d issue citation 2026 Mar;276(2):913\u2013917, and \u201cErratum for\u201d linkage to DOI 10.1007/s00406-025-01990-5."
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s00406-025-02058-0",
+          "locator": "Correction notice, lines 57\u201365: links the original DOI, corrects prior professional psychiatric/psychological help to n=271, and corrects the relevant n to 491; corrected Table 1 describes depressed and non-depressed groups."
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s00406-025-01990-5",
+          "locator": "Methods and design, lines 96\u2013102: analysis uses cross-sectional inclusion/baseline data; 581 of initially 730 participants including 18 dropouts were analyzed after completing SCID-5 at baseline and returning assessment questionnaires; 491 were classified as non-depressed."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953261/",
+          "locator": "Original-study full-text record establishing original PMCID PMC12953261 and DOI 10.1007/s00406-025-01990-5."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40397183/",
+          "locator": "The other issue candidate is a Published Erratum at 276(2):919 linked to DOI 10.1007/s00406-025-02015-x."
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s00406-025-02026-8",
+          "locator": "Correction text, lines 57\u201365: confined to correcting author Raffaele Ferri\u2019s name, so it does not meet the participant-count or analysis-population condition."
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "variant": "GO",
+      "run_path": "runs/epmc-r02-go-dev-a",
+      "counts": {
+        "correct_fields": 7,
+        "gold_fields": 7,
+        "pred_fields": 7,
+        "item_denominator": 14,
+        "correct_rows": 1,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 1
+      },
+      "exact_item_f1": "1",
+      "verification_status": "passed",
+      "evidence": [
+        {
+          "url": "https://link.springer.com/journal/406/volumes-and-issues/276-2",
+          "locator": "Lines 59\u201363 establish issue 2; lines 469\u2013483 list both candidate corrections."
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s00406-025-02058-0",
+          "locator": "Lines 57\u201365 identify the original DOI and correct help-seeking to 271 and the non-depressed/outpatient count to 491."
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s00406-025-01990-5",
+          "locator": "Lines 98\u2013102 report baseline cross-sectional data, initial N=730 including 18 dropouts, analyzed N=581, required completed SCID-5 and returned questionnaires, and SCID-5-defined non-depressed N=491; lines 159\u2013162 report corrected cohort counts."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40063259/",
+          "locator": "Identifiers section: PMCID PMC12953261 and DOI 10.1007/s00406-025-01990-5."
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s00406-025-02026-8",
+          "locator": "Lines 57\u201365 show the other candidate notice only corrected an author's name, so it was excluded."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "reason": "Both independent verified Sol/medium runs fully correct; no decision error supports further B, attacks, audit or formal trials. Retain high scores; release all11 future reserved sessions. These are selection development scores, not formal means.",
+  "formal_means": null,
+  "admitted": false,
+  "human_review": "not_performed",
+  "independent_final_audit": "not_performed",
+  "post_A_stability": "post_A_rebuild/execution_report.json: full360 annual records,47 issue records,2 notices plus original, oracle unchanged; test-period comparison passed"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "kind": "local_integration_not_solver_test",
+  "full_candidate_schema": {
+    "tool": "runtime.stage_results.validate",
+    "schema": "construction_pipeline/schemas/candidate.schema.json",
+    "passed": true
+  },
+  "prepare_validate_candidate_check_files": true,
+  "public_exact_two_fields": true,
+  "public_candidate_projection_equal": true,
+  "cg_go_output_equal": true,
+  "shared_conditions_equal": true,
+  "private_rules_metadata_columns_and_keys_equal": true,
+  "observation_date_both_faces": "2026-09-13 UTC",
+  "protocol_current_date": "2026-09-09",
+  "private_public_rules_empty_none_consistent": true,
+  "website_and_answer_identifiers_not_in_public_instructions": true,
+  "original_reviewed_oracle_equal": true,
+  "independent_reference_recomputed": true,
+  "reference_does_not_read_supplied_oracle": true,
+  "history_copy_equal": true,
+  "registry103_current_records_equal": true,
+  "annotation_event_bijection": true,
+  "scorer_preflight": "controller_scorer_preflight.json",
+  "full_reference_score": {
+    "status": "deterministic_explicit",
+    "metrics": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 0
+    },
+    "counts": {
+      "correct_fields": 5,
+      "gold_fields": 5,
+      "pred_fields": 5,
+      "item_denominator": 10,
+      "correct_rows": 1,
+      "gold_rows": 1,
+      "pred_rows": 1,
+      "row_denominator": 2,
+      "correct_pairs": 0,
+      "pair_denominator": 0,
+      "shared_ids": 1
+    },
+    "omitted_ids": [],
+    "extra_ids": [],
+    "duplicate_ids": [],
+    "order_pairs": [],
+    "poa_note": "fewer than two shared IDs => 0"
+  },
+  "one_row_poa_note": "Generic scorer reports0 when no pair exists; not a task ordering error.",
+  "all_json_parse_and_reference_compile": true,
+  "solver_model_tests": 0,
+  "post_development_final_audit": "not_performed",
+  "human_validation": "not_performed",
+  "difficulty": "untested"
+}

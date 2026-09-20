@@ -1,0 +1,22 @@
+{
+  "at": "2026-09-09T10:36:32.475400+00:00",
+  "candidate_id": "reptile_type_referral_001",
+  "revision": 1,
+  "stage": "development_pair_a",
+  "CG": {
+    "run_id": "r-reptile-referral-r01-cg-dev-a",
+    "Item-F1": 1.0,
+    "model": "gpt-5.6-sol",
+    "effort": "medium"
+  },
+  "GO": {
+    "run_id": "r-reptile-referral-r01-go-dev-a",
+    "Item-F1": 1.0,
+    "model": "gpt-5.6-sol",
+    "effort": "medium"
+  },
+  "decision": "reject_development",
+  "substantive_errors_observed": false,
+  "admission_means": null,
+  "reason": "Both complete correct in initial screening; no B/attacks/admission retest scheduled. Strict SGR bulk concern also unresolved."
+}

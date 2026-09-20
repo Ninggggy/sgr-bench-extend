@@ -1,0 +1,27 @@
+{
+  "candidate_id": "epmc_quantitative_001",
+  "revision": 2,
+  "registered_at": "2026-09-12T06:11:20.182619+00:00",
+  "stage": "development_a",
+  "not_formal_admission": true,
+  "slots": [
+    {
+      "candidate_id": "epmc_quantitative_001",
+      "revision": 2,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "epmc-r02-cg-dev-a"
+    },
+    {
+      "candidate_id": "epmc_quantitative_001",
+      "revision": 2,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "epmc-r02-go-dev-a"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "source_verified_identity_aliases": 600,
+  "integer_representation_aliases": 131,
+  "permitted_variation": "Scientific/common species names, spelled/Greek subunit labels, optional subunit hyphens, slash/compact notation, ASCII/Unicode arrow. No subunit number changes or arrow reversal.",
+  "row_key_credit": "ITEM remains a scored field under the unchanged registered scorer.",
+  "fixed_item_field_fraction": "8/22 for observed 11-row answer; a format-only answer with correct fixed keys and wrong findings does not receive biological credit for the latter."
+}

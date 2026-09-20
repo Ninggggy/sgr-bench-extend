@@ -1,0 +1,1381 @@
+{
+  "reviewer": "current authorized Astra/high agent; not an independent final audit",
+  "scope": "all 170 events in captured official draft-family History, complete full-comment HTML bodies",
+  "selection_rule": "Latest pre-publication substantive registry-operator review with an explicit proposed ExtensionType assignment for the in-scope extension; do not select by whether its number agrees with the old number.",
+  "allocation_mappings": {
+    "53": {
+      "source_file": "rfc9146.txt",
+      "source_lines": [
+        573,
+        580
+      ],
+      "draft_family": "draft-ietf-tls-dtls-connection-id",
+      "family_identity_evidence": "history.html title and RFC9146 tab links; prior iana_followup_evidence.json official RFC metadata",
+      "publication_month": "2022-03",
+      "publication_evidence": "rfc9146.txt header; every candidate is earlier than this month, so exact publication day cannot alter selection",
+      "semantics": "RFC9146 explicitly deprecates early53 in favor of connection_id54; no inference from name similarity."
+    }
+  },
+  "event_decisions": [
+    {
+      "event_id": "history-967196",
+      "html_line": 1058,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-967195",
+      "html_line": 1067,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-848980",
+      "html_line": 1076,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-820038",
+      "html_line": 1085,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-816261",
+      "html_line": 1094,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812744",
+      "html_line": 1103,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-812502",
+      "html_line": 1112,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-812499",
+      "html_line": 1121,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-812436",
+      "html_line": 1130,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-812166",
+      "html_line": 1139,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812165",
+      "html_line": 1148,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812164",
+      "html_line": 1157,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812158",
+      "html_line": 1166,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-812146",
+      "html_line": 1175,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812145",
+      "html_line": 1184,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812144",
+      "html_line": 1193,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812143",
+      "html_line": 1202,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812142",
+      "html_line": 1211,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812141",
+      "html_line": 1220,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812133",
+      "html_line": 1229,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812132",
+      "html_line": 1238,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812131",
+      "html_line": 1247,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-812130",
+      "html_line": 1256,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-806432",
+      "html_line": 1265,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-806431",
+      "html_line": 1274,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-806430",
+      "html_line": 1283,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-806429",
+      "html_line": 1292,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-806428",
+      "html_line": 1301,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804392",
+      "html_line": 1310,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804363",
+      "html_line": 1319,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804362",
+      "html_line": 1328,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804344",
+      "html_line": 1337,
+      "category": "other_comment_with_iana_or_53",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "Lars Eggert 的 ballot 语法修改，by IANA 改 from IANA；不是登记提案。"
+    },
+    {
+      "event_id": "history-804343",
+      "html_line": 1346,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804337",
+      "html_line": 1355,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804247",
+      "html_line": 1364,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804246",
+      "html_line": 1373,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804038",
+      "html_line": 1382,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804020",
+      "html_line": 1391,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804004",
+      "html_line": 1400,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-804003",
+      "html_line": 1409,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803988",
+      "html_line": 1418,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803987",
+      "html_line": 1427,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803968",
+      "html_line": 1436,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803967",
+      "html_line": 1445,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803932",
+      "html_line": 1454,
+      "category": "other_comment_with_iana_or_53",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "Francesca Palombini 的 ballot 问为何 53 不兼容；问题未给出回答，不是 IANA 提案。"
+    },
+    {
+      "event_id": "history-803931",
+      "html_line": 1463,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803785",
+      "html_line": 1472,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803748",
+      "html_line": 1481,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803700",
+      "html_line": 1490,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803699",
+      "html_line": 1499,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803691",
+      "html_line": 1508,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803690",
+      "html_line": 1517,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803525",
+      "html_line": 1526,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-803217",
+      "html_line": 1535,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803102",
+      "html_line": 1544,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803101",
+      "html_line": 1553,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803100",
+      "html_line": 1562,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803099",
+      "html_line": 1571,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803098",
+      "html_line": 1580,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803097",
+      "html_line": 1589,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803007",
+      "html_line": 1598,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803006",
+      "html_line": 1607,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-803005",
+      "html_line": 1616,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803004",
+      "html_line": 1625,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803003",
+      "html_line": 1634,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-803002",
+      "html_line": 1643,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-802912",
+      "html_line": 1652,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-802911",
+      "html_line": 1661,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-801041",
+      "html_line": 1670,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-801040",
+      "html_line": 1679,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-800778",
+      "html_line": 1688,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-800703",
+      "html_line": 1697,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-800639",
+      "html_line": 1706,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-800656",
+      "html_line": 1715,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-800636",
+      "html_line": 1724,
+      "category": "substantive_iana_review_candidate",
+      "include": true,
+      "deprecated_value": "53",
+      "reason": "IANA Functions Operator 自述完成 draft-10 审查；以 RFC-to-be 引用更新临时 connection_id 53；明确这是批准出版后才执行的计划。"
+    },
+    {
+      "event_id": "history-799594",
+      "html_line": 1733,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-799593",
+      "html_line": 1742,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-799167",
+      "html_line": 1751,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-798864",
+      "html_line": 1760,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-798863",
+      "html_line": 1769,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-798398",
+      "html_line": 1778,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-798397",
+      "html_line": 1787,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-797522",
+      "html_line": 1796,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-797521",
+      "html_line": 1805,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796683",
+      "html_line": 1814,
+      "category": "iana_administrative_state",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "仅 IANA Review/Experts/Action 状态变动，无具体提议的 ExtensionType 数值；状态不是提案正文。"
+    },
+    {
+      "event_id": "history-796682",
+      "html_line": 1823,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796681",
+      "html_line": 1832,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796423",
+      "html_line": 1841,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796422",
+      "html_line": 1850,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796421",
+      "html_line": 1859,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796420",
+      "html_line": 1868,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796419",
+      "html_line": 1877,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796418",
+      "html_line": 1886,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796417",
+      "html_line": 1895,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796399",
+      "html_line": 1904,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796398",
+      "html_line": 1913,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796397",
+      "html_line": 1922,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796396",
+      "html_line": 1931,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-796395",
+      "html_line": 1940,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-795284",
+      "html_line": 1949,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-795283",
+      "html_line": 1958,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-795282",
+      "html_line": 1967,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-787472",
+      "html_line": 1976,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-787471",
+      "html_line": 1985,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-787470",
+      "html_line": 1994,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-787469",
+      "html_line": 2003,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-787468",
+      "html_line": 2012,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-785181",
+      "html_line": 2021,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-785180",
+      "html_line": 2030,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-779719",
+      "html_line": 2039,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-776973",
+      "html_line": 2048,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-776972",
+      "html_line": 2057,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-776971",
+      "html_line": 2066,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-776970",
+      "html_line": 2075,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-769659",
+      "html_line": 2084,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-761841",
+      "html_line": 2093,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-720243",
+      "html_line": 2102,
+      "category": "other_comment_with_iana_or_53",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "Joseph Salowey 的文档 shepherd 写作，概述 IANA 考虑，不是 IANA Functions Operator 的审查。"
+    },
+    {
+      "event_id": "history-720242",
+      "html_line": 2111,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-720241",
+      "html_line": 2120,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-720240",
+      "html_line": 2129,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-720239",
+      "html_line": 2138,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-719920",
+      "html_line": 2147,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-719919",
+      "html_line": 2156,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-719779",
+      "html_line": 2165,
+      "category": "other_comment_with_iana_or_53",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "Joseph Salowey 的文档 shepherd 写作；角色及正文不满足主管方实质登记提案。"
+    },
+    {
+      "event_id": "history-719046",
+      "html_line": 2174,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-715408",
+      "html_line": 2183,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-711847",
+      "html_line": 2192,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-711846",
+      "html_line": 2201,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-711845",
+      "html_line": 2210,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-711844",
+      "html_line": 2219,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-694437",
+      "html_line": 2228,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-694436",
+      "html_line": 2237,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-694435",
+      "html_line": 2246,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-694434",
+      "html_line": 2255,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-689758",
+      "html_line": 2264,
+      "category": "other_comment_with_iana_or_53",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "较早的文档 shepherd 写作，IANA 考虑仍 In Progress；不满足主管方提案。"
+    },
+    {
+      "event_id": "history-664797",
+      "html_line": 2273,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-664796",
+      "html_line": 2282,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-664793",
+      "html_line": 2291,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-664792",
+      "html_line": 2300,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-653789",
+      "html_line": 2309,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-653788",
+      "html_line": 2318,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-653787",
+      "html_line": 2327,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-653786",
+      "html_line": 2336,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-650913",
+      "html_line": 2345,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-650912",
+      "html_line": 2354,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-650911",
+      "html_line": 2363,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-650910",
+      "html_line": 2372,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-640731",
+      "html_line": 2381,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-640730",
+      "html_line": 2390,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-636332",
+      "html_line": 2399,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-635810",
+      "html_line": 2408,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-635809",
+      "html_line": 2417,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-635807",
+      "html_line": 2426,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-635806",
+      "html_line": 2435,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-633688",
+      "html_line": 2444,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-632044",
+      "html_line": 2453,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-632043",
+      "html_line": 2462,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-632042",
+      "html_line": 2471,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-632041",
+      "html_line": 2480,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-613125",
+      "html_line": 2489,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-613124",
+      "html_line": 2498,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-613123",
+      "html_line": 2507,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-613122",
+      "html_line": 2516,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-613121",
+      "html_line": 2525,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-612356",
+      "html_line": 2534,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-580135",
+      "html_line": 2543,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-579125",
+      "html_line": 2552,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-579124",
+      "html_line": 2561,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-579123",
+      "html_line": 2570,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    },
+    {
+      "event_id": "history-579122",
+      "html_line": 2579,
+      "category": "other_event",
+      "include": false,
+      "deprecated_value": "53",
+      "reason": "普通版本上传、流程记录、非登记主管方的审查/评议；不含该主管方具体登记提案。全事件索引已逐项复核，长评议原文保存在 events.json。"
+    }
+  ]
+}

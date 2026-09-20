@@ -1,0 +1,93 @@
+[
+  {
+    "pred_index": 0,
+    "id": [
+      "PMC12953261",
+      "10.1007/s00406-025-01990-5"
+    ],
+    "field": "original_pmcid",
+    "pred_raw": "PMC12953261",
+    "pred_normalized": "PMC12953261",
+    "gold": "PMC12953261",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "PMC12953261",
+      "10.1007/s00406-025-01990-5"
+    ],
+    "field": "original_doi",
+    "pred_raw": "10.1007/s00406-025-01990-5",
+    "pred_normalized": "10.1007/s00406-025-01990-5",
+    "gold": "10.1007/s00406-025-01990-5",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "PMC12953261",
+      "10.1007/s00406-025-01990-5"
+    ],
+    "field": "initial_n",
+    "pred_raw": "730",
+    "pred_normalized": "730",
+    "gold": "730",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "PMC12953261",
+      "10.1007/s00406-025-01990-5"
+    ],
+    "field": "analyzed_n",
+    "pred_raw": "581",
+    "pred_normalized": "581",
+    "gold": "581",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "PMC12953261",
+      "10.1007/s00406-025-01990-5"
+    ],
+    "field": "help_n",
+    "pred_raw": "271",
+    "pred_normalized": "271",
+    "gold": "271",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "PMC12953261",
+      "10.1007/s00406-025-01990-5"
+    ],
+    "field": "nondepressed_n",
+    "pred_raw": "491",
+    "pred_normalized": "491",
+    "gold": "491",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "PMC12953261",
+      "10.1007/s00406-025-01990-5"
+    ],
+    "field": "analysis_population",
+    "pred_raw": "baseline;SCID-5;returned",
+    "pred_normalized": "baseline;SCID-5;returned",
+    "gold": "baseline;SCID-5;returned",
+    "correct": true,
+    "reason": "match"
+  }
+]

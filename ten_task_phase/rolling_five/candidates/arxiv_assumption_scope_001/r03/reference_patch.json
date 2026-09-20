@@ -1,0 +1,23 @@
+{
+  "target": "reference.py",
+  "base_revision": 2,
+  "revision": 3,
+  "application": "For each substitution, require exactly one literal occurrence of old in the current text, then replace it once with new. Do not use regular-expression replacement. Abort on any count other than one.",
+  "substitutions": [
+    {
+      "expected_matches": 1,
+      "old": "Validate the archived corpus and reproduce r02. Standard library only.",
+      "new": "Validate the archived corpus and reproduce r03. Standard library only."
+    },
+    {
+      "expected_matches": 1,
+      "old": "        hit(r'reduced divisor.{0,100}normal crossings', text[:6000], v + ' divisor definition')",
+      "new": "        divisor_info = ann['scope']['divisor_definitions'][v]\n        require(divisor_info['source'] == source, v + ' divisor definition source')\n        divisor_definition = hit(\n            r'(?:is said to be|is) log\\s*-?\\s*symplectic if\\b.{0,1000}?\\bis a (?P<divisor>(?:reduced )?divisor with \\(local\\) normal crossings)\\b',\n            text[:6000], v + ' divisor definition')\n        divisor_wording = divisor_definition.group('divisor')\n        require(divisor_wording == norm(divisor_info['quote']), v + ' version-specific divisor wording')\n        # Lexical presence in this definition only; no inference about geometry.\n        require(('reduced' in divisor_wording.split()) == divisor_info['reduced_explicit_in_definition'], v + ' explicit reduced wording')"
+    },
+    {
+      "expected_matches": 1,
+      "old": "            {'key': v + '/scope', 'source': source, 'anchor': 'p1; ' + a['main_anchor'], 'dimension_minimum': int(dimension.group(1)), 'meaning': ann['scope']['meaning']}",
+      "new": "            {'key': v + '/scope', 'source': source, 'anchor': 'p1; ' + a['main_anchor'], 'dimension_minimum': int(dimension.group(1)), 'meaning': ann['scope']['meaning'], 'divisor_definition_anchor': divisor_info['anchor'], 'divisor_wording': divisor_wording, 'matched_text': divisor_definition.group(0), 'reduced_explicit_in_definition': divisor_info['reduced_explicit_in_definition'], 'interpretation_boundary': ann['scope']['interpretation_boundary']}"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "all_six_complete_and_correct": true,
+  "runs": [
+    {
+      "label": "r03_content_A_CG",
+      "run": "runs/r-6e4ca9d3999e",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "tools": {
+        "download": 3,
+        "query_csv": 16
+      },
+      "downloads": 3,
+      "limitations": []
+    },
+    {
+      "label": "r03_content_B_CG",
+      "run": "runs/r-29c1be074a07",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "tools": {
+        "download": 3,
+        "query_csv": 19
+      },
+      "downloads": 3,
+      "limitations": []
+    },
+    {
+      "label": "r03_content_A_GO",
+      "run": "runs/r-90f6785199ad",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "tools": {
+        "download": 5,
+        "query_csv": 22
+      },
+      "downloads": 5,
+      "limitations": []
+    },
+    {
+      "label": "r03_content_B_GO",
+      "run": "runs/r-c56f5211721f",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "tools": {
+        "download": 3,
+        "query_csv": 21
+      },
+      "downloads": 3,
+      "limitations": []
+    },
+    {
+      "label": "r03_shortcut_CG",
+      "run": "runs/r-e70dd272388a",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "tools": {
+        "download": 5,
+        "query_csv": 16
+      },
+      "downloads": 5,
+      "limitations": [
+        "Bounded exact-wording and output-field searches found no public benchmark answer exposure; this does not establish that none exists.",
+        "Authoritative documentation and complete public CSV exports supplied the answer. Explicit physchem/physChem profile requests returned HTTP 400; omitting the optional profile resolved retrieval. A public backup was identified but no archive or ZIP fallback was needed.",
+        "The original 17-station universe remained fixed, including tidal Wallisville; activity identities and reported depths were preserved, with blank depth unknown. All usable measurements already had compatible target units. No unresolved retrieval gaps or scope decisions remained."
+      ]
+    },
+    {
+      "label": "r03_shortcut_GO",
+      "run": "runs/r-66559195d6fa",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "tools": {
+        "download": 3,
+        "query_csv": 13
+      },
+      "downloads": 3,
+      "limitations": [
+        "Direct task-term and exact-wording searches found no public benchmark answer exposure or ready-made answer table; this does not prove none exists. Legacy-profile documentation and a backup listing were inspected. Official API CSV exports succeeded, so backup or bulk-archive retrieval was unnecessary.",
+        "All 833 complete activities across the fixed 17-station universe were tested independently against every 2000–2019 contiguous interval. Five withdrawals changed the frontier, producing 12 rows. Separate SQL calculations matched the frontier designs, seasonal counts and selected minima.",
+        "Results describe the requested legacy WQX2.2 state retrieved on 2026-09-08. No retrieval gaps or unresolved scope decisions remained; blank depths were preserved as unknown."
+      ]
+    }
+  ],
+  "interpretation": "No substantive difficulty exposed on either form. Legal bulk+SQL/JavaScript paths perform the required computations; no unavoidable adaptive network dependency. This is development, not confirmation."
+}

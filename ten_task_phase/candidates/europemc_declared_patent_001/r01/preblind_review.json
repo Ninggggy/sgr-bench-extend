@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-10T04:07:54.827962+00:00",
+  "constructor_run": "construction_pipeline/ten_task_phase/runs/r-resume-bart-family",
+  "reference_exit": 0,
+  "independent_exit": 0,
+  "oracle_exact_match": true,
+  "rows": 3,
+  "semantic_alignment": "GO exact substantive prefix of CG; identical output format",
+  "source_limit": "Family and WO/EP bibliographic displays secondary; primary explicit transfer bridge and US publication facsimile checked, later independent audit required.",
+  "format_correction": "Before any blind result, row key uses paper DOI and jurisdiction, which are unique in this pool, so application formatting cannot zero every field. Equivalent ordinary ID serializations accepted. Scorer implementation unchanged.",
+  "status": "candidate_ready_for_A_not_audited_not_admitted",
+  "source_mapping_correction": "Corrected inherited audit/lead filenames d0021-d0023 from assumed .response to actual registry .txt; original constructor artifacts retained."
+}

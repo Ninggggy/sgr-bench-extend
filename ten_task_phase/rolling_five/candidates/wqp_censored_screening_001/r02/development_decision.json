@@ -1,0 +1,69 @@
+{
+  "candidate_id": "wqp_censored_screening_001",
+  "revision": 2,
+  "decided_at": "2026-09-13T11:05:42.905623+00:00",
+  "status": "stopped_raw_full_scores_access_noncompliant",
+  "admitted": false,
+  "runs": {
+    "CG": {
+      "run_dir": "construction_pipeline/ten_task_phase/rolling_five/runs/wqp-censor-r02-cg-dev-a",
+      "counts": {
+        "correct_fields": 48,
+        "gold_fields": 48,
+        "pred_fields": 48,
+        "item_denominator": 96,
+        "correct_rows": 12,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "raw_item_f1": "96/96",
+      "access": "noncompliant",
+      "elapsed_seconds": 226.949,
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": "passed",
+      "compliant_counterfactual": null
+    },
+    "GO": {
+      "run_dir": "construction_pipeline/ten_task_phase/rolling_five/runs/wqp-censor-r02-go-dev-a",
+      "counts": {
+        "correct_fields": 48,
+        "gold_fields": 48,
+        "pred_fields": 48,
+        "item_denominator": 96,
+        "correct_rows": 12,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "raw_item_f1": "96/96",
+      "access": "noncompliant",
+      "elapsed_seconds": 196.262,
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": "passed",
+      "compliant_counterfactual": null
+    }
+  },
+  "reason": "Both development A outputs completely match the reference without substantive research errors or transcription losses; both accessed rejected resources afterward. Preserve raw scores and access violations separately. No valid compliant counterfactual established; no zero score, resampling or revision to chase lower scores.",
+  "development_B": false,
+  "shortcut_attacks": false,
+  "formal_retests": false,
+  "formal_means": {
+    "CG": null,
+    "GO": null
+  },
+  "independent_access_review": "independent_review/development_A_access_review.json",
+  "source_stability_after_A": "not_observed_after_refusal",
+  "human_validation": "not_performed",
+  "substantive_revisions_used": 1,
+  "lesson": "Actual fullPhysChem profile includes hardness MethodSpeciationName=as CaCO3, avoiding the method/SRS basis lookup used during construction. Complete APIs are legitimate evidence routes; do not ban them. This route and the exact qualifier/limit SQL produced full outputs, though the observed runs violated refusal handling. Lower priority for equivalent censoring/quality-code aggregation mechanisms.",
+  "reopen_condition": "Material new source evidence resolving a documented substantive problem; never repeat this full-score version or retry its rejected resources."
+}

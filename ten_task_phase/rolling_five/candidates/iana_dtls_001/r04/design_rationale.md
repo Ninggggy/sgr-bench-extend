@@ -1,0 +1,7 @@
+# Natural registration reconciliation
+
+The implementation-planning need is to distinguish an earlier allocation proposal from the published assignment for deprecated DTLS-only entries. The five output fields preserve old and replacement numeric identity and identify the last substantive proposal's date, reviewed revision and planned value. Protocol formulas and early devices' actual revision mappings are outside this task.
+
+The actual scope discovers a specification family and selects its official document History view. That view exposes a proposal absent from the current registry and final RFC text. The complete History can be fetched in one batch after family discovery. No extra retrieval depth, draft11 text or permanent replay is required. Ordinary citation following alone is not used as proof of SGR. The independent content review supports the concrete History dependency; direct-search shortcuts and difficulty have not been empirically measured.
+
+The public wording names the natural 16-bit TLS ExtensionType domain and authoritative registry-review role without revealing a website or the discovered family, date, draft or value. CG adds procedural guidance; GO gives the same result conditions. The operator role excludes a shepherd's discussion, other reviewers' comments and state transitions. The last proposal is selected without prefiltering for equality to the deprecated value.

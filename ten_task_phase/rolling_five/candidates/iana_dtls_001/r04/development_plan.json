@@ -1,0 +1,27 @@
+{
+  "candidate_id": "iana_dtls_001",
+  "revision": 4,
+  "stage": "development_a",
+  "registered_at": "2026-09-13T02:13:40.675232+00:00",
+  "trials": [
+    {
+      "candidate_id": "iana_dtls_001",
+      "revision": 4,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "iana-r04-cg-dev-a"
+    },
+    {
+      "candidate_id": "iana_dtls_001",
+      "revision": 4,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "iana-r04-go-dev-a"
+    }
+  ],
+  "scope": "Fresh revised-version A only; r03 full scores retained and not resampled."
+}

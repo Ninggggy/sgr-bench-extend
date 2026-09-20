@@ -1,0 +1,24 @@
+{
+  "candidate_id": "reptile_type_referral_001",
+  "revision": 1,
+  "source_run_id": "r-reptile-explore-01",
+  "status": "inconclusive_bulk_shortcut_audit",
+  "content_validated": false,
+  "reference_and_independent_computations": "passed, equal to provisional oracle",
+  "sgr": "actual referral trace exists; valid full-dump bypass unresolved",
+  "initial_screening": "not_started",
+  "admission": "not_eligible",
+  "counted": false,
+  "human_validation": "not_performed",
+  "development_status": "rejected_after_pair_a",
+  "admission_status": "not_tested_not_admitted",
+  "reason": "CG and GO ordinary initial screening each scored1.0; no substantive solver error in either. Bulk SGR audit remains unresolved. No B/attack/admission round is warranted for this version.",
+  "development_run_ids": [
+    "r-reptile-referral-r01-cg-dev-a",
+    "r-reptile-referral-r01-go-dev-a"
+  ],
+  "development_item_f1": {
+    "CG": 1.0,
+    "GO": 1.0
+  }
+}

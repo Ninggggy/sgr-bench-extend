@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-09-08T13:31:26.144012+00:00",
+  "timing": "Recorded after the first final-revision development score file existed; no screening or confirmation score exists. An attempted pre-score assertion failed and did not write the plan. Do not describe this clarification as prespecified before r03 development.",
+  "existing_development_score_files": [
+    "runs/r-6e4ca9d3999e/scoring/scores.json"
+  ],
+  "provenance": "Latest user correction requires final fixed-version new/old confirmation and separate factual correctness versus difficulty.",
+  "factual_readiness": "Source completeness, unique declared answer, CG/GO conditions and scoring validity must hold. Concrete unresolved factual or semantic errors block dependent scoring comparisons.",
+  "structural_and_difficulty_limits": "A legal bulk implementation or correct development answer alone does not make the defined factual task unanswerable. Strict SGR retrieval-necessity failure and insufficient exposed difficulty are separate findings; either can prevent successful hard-candidate acceptance.",
+  "final_measurement": "After the final permitted version is fixed and factually reviewable, carry out the unchanged4screening +12fresh confirmation as a diagnostic fixed-pair comparison. No repair or score-driven retesting; fatal content uncertainty is reported as explicit unexecuted work.",
+  "unchanged": "Same original old004, public inputs, gold, model,tools,budgets,trial counts,metrics,aggregation and inconclusive ceiling. No relaxation of difficulty acceptance."
+}

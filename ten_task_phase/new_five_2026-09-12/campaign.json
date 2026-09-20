@@ -1,0 +1,59 @@
+{
+  "max_seconds_per_session": 6000,
+  "stall_seconds": 3000,
+  "maximum_concurrent_model_sessions": 4,
+  "max_substantive_revisions": 2,
+  "current_date": "2026-09-09",
+  "construction_model": "gpt-6-astra",
+  "construction_effort": "high",
+  "solver_model": "gpt-5.6-sol",
+  "solver_effort": "medium",
+  "protocol_version": "ten-task-v1",
+  "repair_retries_allowed": 1,
+  "retry_policy": "Only one replacement attempt per prescheduled slot after verified infrastructure failure; never retry model mistakes, partial answers or parse failures; retain all attempts/cost. Explicit controller classification required before replacement.",
+  "admission": {
+    "metric": "Item-F1",
+    "trials_per_variant": 3,
+    "cg_mean_strictly_below": "7/10",
+    "go_mean_strictly_below": "7/10",
+    "arithmetic": "exact fractions from scoring counts",
+    "one_round_per_candidate_protocol_version": true,
+    "scores_are_selection_scores": true
+  },
+  "protocol_assets": {
+    "registered_at": "2026-09-09T10:18:50.460615+00:00",
+    "solver_config_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/protocol/ten-task-v1/solver.config.toml",
+    "scorer_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/protocol/ten-task-v1/score.py",
+    "data_tools_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/protocol/ten-task-v1/data_tools.py",
+    "image_id": "sha256:7e6f86e9ecb36ec74f6dc42254c16bc9b0f31f22cea6f96be8f872599f0404b6"
+  },
+  "campaign_id": "new_five_2026-09-12",
+  "started_at": "2026-09-12T12:39:05.072Z",
+  "deadline": "2026-09-13T16:26:15.871+00:00",
+  "max_sessions": null,
+  "target_base_tasks": 5,
+  "session_ledger": "session_ledger.jsonl",
+  "reserved_pending_sessions": 0,
+  "excluded": [
+    "original_50",
+    "all_previous_candidates_and_stopped_directions_without_material_new_evidence"
+  ],
+  "start_evidence": "Actual host task_started event, not file creation or goal registration",
+  "source_scope_note": "Rechecked actual formal Method:12 ecosystems describes current release coverage, not constraint on new source curation. Current user new-round scope does not restrict original12. Earlier async scope question was an overstrong inferred blocker; disclosed correction and proceed with reversible IANA construction, no existing protocol changes. User can still steer scope.",
+  "stop_reason": null,
+  "status": "ready",
+  "target_complete": false,
+  "budget_amendments": [
+    {
+      "at": "2026-09-12T12:52:07.214382+00:00",
+      "authority": "用户明确授权：取消继承的100次会话总上限，改以实际可用额度为边界，保留其他运行和验证限制",
+      "previous_max_sessions": 9,
+      "previous_status": "stopped_inherited_project_budget",
+      "previous_stop_reason": "Remaining8 cannot support13 mandatory validation sessions even after completed construction.",
+      "max_sessions": null,
+      "historical_cost_preserved": true
+    }
+  ],
+  "resource_boundary": "actual_available_account_quota_and_existing_deadline",
+  "resource_reservation_note": "Controller observes actual account quota, token usage and elapsed time before each candidate launch; reserves estimated unfinished construction/audits/development/attacks and six formal trials. No token-to-quota conversion is assumed. No reset redemption authorized."
+}

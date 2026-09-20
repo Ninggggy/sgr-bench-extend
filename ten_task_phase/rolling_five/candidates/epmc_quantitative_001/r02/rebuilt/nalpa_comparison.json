@@ -1,0 +1,30 @@
+{
+  "notice_keys_by_type": [
+    [
+      "MED",
+      "40397183"
+    ],
+    [
+      "MED",
+      "40601005"
+    ]
+  ],
+  "notice_keys_by_title": [
+    [
+      "MED",
+      "40397183"
+    ],
+    [
+      "MED",
+      "40601005"
+    ]
+  ],
+  "sets_equal": true,
+  "included_notice_keys": [
+    "PMC12953317"
+  ],
+  "excluded_notice_keys": [
+    "PMC12953309"
+  ],
+  "unknown_notice_keys": []
+}

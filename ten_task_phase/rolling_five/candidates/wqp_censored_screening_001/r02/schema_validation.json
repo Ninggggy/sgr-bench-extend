@@ -1,0 +1,11 @@
+{
+  "full_json_schema": "passed",
+  "validator": "jsonschema Draft202012Validator",
+  "schema": "construction_pipeline/schemas/candidate.schema.json",
+  "prepare": {
+    "state_consistency": "passed",
+    "relative_path_syntax": "passed",
+    "referenced_files": "checked"
+  },
+  "independent_review": "pending"
+}

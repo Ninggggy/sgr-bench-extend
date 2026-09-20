@@ -1,0 +1,43 @@
+{
+  "columns": [
+    "deprecated_value",
+    "published_replacement_value",
+    "review_date",
+    "reviewed_draft",
+    "proposed_permanent_value"
+  ],
+  "row_key": [
+    "deprecated_value"
+  ],
+  "fields": {
+    "deprecated_value": {
+      "type": "integer",
+      "aliases": {}
+    },
+    "published_replacement_value": {
+      "type": "integer",
+      "aliases": {}
+    },
+    "review_date": {
+      "type": "string",
+      "aliases": {}
+    },
+    "reviewed_draft": {
+      "type": "string",
+      "aliases": {}
+    },
+    "proposed_permanent_value": {
+      "type": "integer",
+      "aliases": {}
+    }
+  },
+  "delimiter": "|",
+  "header": true,
+  "sorting_rules": [
+    "deprecated_value ascending as an integer"
+  ],
+  "missing_value": "NONE",
+  "empty_result": "single line NONE without a header",
+  "unresolved_result": "UNRESOLVED with a short explanation; not a partial table and not evidence of empty scope",
+  "normalization": "Use existing deterministic scorer normalization; dates and fully versioned identifiers must retain exact meaning. NONE is not a wildcard."
+}

@@ -1,0 +1,39 @@
+{
+  "annotation_status": "Source-supported semantic annotations; r03 executable validation pending",
+  "paper_id": "1705.08366",
+  "snapshot_date": "2026-09-12",
+  "identity_terms": ["Ziv Ran", "Bogomolov", "unobstructedness", "log-symplectic"],
+  "sources": {
+    "history.html": {"url": "https://arxiv.org/abs/1705.08366", "anchor": "Submission history", "kind": "official HTML"},
+    "v1.txt": {"url": "https://arxiv.org/pdf/1705.08366v1", "kind": "controller pdftotext -layout output"},
+    "v2.txt": {"url": "https://arxiv.org/pdf/1705.08366v2", "kind": "controller pdftotext -layout output"},
+    "v3.txt": {"url": "https://arxiv.org/pdf/1705.08366v3", "kind": "controller pdftotext -layout output"},
+    "v3.html": {"url": "https://arxiv.org/html/1705.08366v3", "kind": "official full HTML cross-check"}
+  },
+  "scope": {
+    "anchors": "Each version p1 definition of log-symplectic and its main theorem; version-specific divisor wording recorded below",
+    "meaning": "Holomorphic Poisson pair; compact Kählerian X; dimension 2n >= 4; log-symplectic under that version's own definition for its degeneracy divisor with local normal crossings; deformations of the pair induce locally trivial deformations of that divisor.",
+    "divisor_definitions": {
+      "v1": {"source": "v1.txt", "anchor": "p1 opening paragraph, definition of log-symplectic", "quote": "divisor with (local) normal crossings", "reduced_explicit_in_definition": false},
+      "v2": {"source": "v2.txt", "anchor": "p1 opening paragraph, definition of log-symplectic", "quote": "reduced divisor with (local) normal crossings", "reduced_explicit_in_definition": true},
+      "v3": {"source": "v3.txt", "anchor": "p1 opening paragraph, definition of log-symplectic", "quote": "reduced divisor with (local) normal crossings", "reduced_explicit_in_definition": true, "crosscheck": "v3.html#opening paragraph, definition of log-symplectic"}
+    },
+    "interpretation_boundary": "The reduced flags describe the presence of the word in the cited definition. Its omission in v1 neither asserts that non-reduced divisors are allowed nor proves equivalence with later definitions. The task records the author's stated requirements under each version's own definition."
+  },
+  "versions": [
+    {"version": "v1", "source": "v1.txt", "relative_anchor": "p5 section 1.3", "main_anchor": "p8 Theorem 6", "correction_anchor": null, "column_selection": "ANY_T", "free_cofree_rank": "t", "operative_assumption": "2-general position"},
+    {"version": "v2", "source": "v2.txt", "relative_anchor": "p5 section 1.3", "main_anchor": "p9 Theorem 8", "correction_anchor": null, "column_selection": "MATCHED_T", "free_cofree_rank": "2t", "operative_assumption": "2-general position"},
+    {"version": "v3", "source": "v3.txt", "relative_anchor": "p5 section 1.3", "main_anchor": "p9 Theorem 8", "correction_anchor": "p12 Definition 11; p13 Theorem 8 corrected", "column_selection": "MATCHED_T", "free_cofree_rank": "2t", "operative_assumption": "2-very general position"}
+  ],
+  "named_condition_relation": {
+    "source": "v3.html",
+    "anchor": "Definition 11",
+    "meaning": "The definition expressly includes t-general position and adds rational independence of the standard basis vectors modulo the specified divisor-component column submodule, for every index set of size at most t. Thus 2-very general position includes 2-general position.",
+    "scoring_consequence": "Accept the stronger name alone and explicitly listed conjunction aliases. Do not accept the weaker name alone for the corrected statement."
+  },
+  "extraction_boundary": {
+    "source": "v3.html",
+    "anchor": "equation (13)",
+    "meaning": "HTML preserves non-membership where PDF text can resemble an inequality. This equation is not needed for the requested output or rank extraction. The reference records symbol presence without interpreting the proof."
+  }
+}

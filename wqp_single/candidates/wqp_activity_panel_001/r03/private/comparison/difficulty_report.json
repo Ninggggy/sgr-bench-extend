@@ -1,0 +1,1393 @@
+{
+  "updated_at": "2026-09-08T15:46:11.968526+00:00",
+  "analysis_plan": "analysis_plan.json",
+  "candidate_id": "wqp_activity_panel_001",
+  "revision": 3,
+  "primary_old_task": "waterquality_004",
+  "scope": "One prespecified task pair only; no other old tasks or old50 scores reused",
+  "content_decision": "ready_for_difficulty_test",
+  "old_reference_status": "limited: public tasks do not define exact upper/middle/lower boundaries or best-common-start ranking required by private metadata; correct old field values do not establish a unique public answer",
+  "runs": {
+    "screening": [
+      {
+        "label": "screening_new_CG_1",
+        "comparison_task": "new",
+        "variant": "cg",
+        "replicate": 1,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-420f595cac9b",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 332.603,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit",
+        "counts": {
+          "correct_fields": 216,
+          "gold_fields": 216,
+          "pred_fields": 216,
+          "item_denominator": 432,
+          "correct_rows": 12,
+          "gold_rows": 12,
+          "pred_rows": 12,
+          "row_denominator": 24,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "parse_status": "parsed",
+        "limitations": [],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete station.csv: 460 records; exact name-prefix and location-type filters retain 17 stations, including tidal USGS-08067252."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete activity.csv: 1,026 distinct organization/activity keys; 941 Water/Sample-Routine activities. Station and date agree for every linked result. Withdrawn activity identifiers locate the five changing trials."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&pCode=00010;00095;00300;00400",
+            "locator": "Complete result.csv: 3,782 records. Required eligibility, status, value-type, qualifier, numeric, unit and panel checks yield 833 complete activities. All independent withdrawals were computed; separate SQL calculations confirmed the 12 frontier rows and every seasonal count and selected event. Selected ActivityIdentifier plus USGSPCode locates each reported measurement."
+          }
+        ]
+      },
+      {
+        "label": "screening_old_CG_1",
+        "comparison_task": "old",
+        "variant": "cg",
+        "replicate": 1,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-d1d328608132",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 146.05,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+        "counts": {
+          "correct_fields": 27,
+          "gold_fields": 27,
+          "pred_fields": 27,
+          "item_denominator": 54,
+          "correct_rows": 3,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 3,
+          "pair_denominator": 3,
+          "shared_ids": 3
+        },
+        "parse_status": "parsed",
+        "limitations": [
+          "Earliest year means the maximum of the six category start years. Portal ranges may contain gap years; they do not establish annual sampling in every category.",
+          "Upper, middle, and lower segment boundaries were not precisely defined. The selection uses FM 85, US 59, and IH 10 across the three reported HUCs; the criteria do not uniquely determine three stations.",
+          "Candidate screening was not exhaustive: the provider directory exceeded the tool's content limit, and station pages 10895, 10896, 10898, 10916, 10918, 10919, 10922, and 10923 timed out. All three selected records were successfully inspected.",
+          "Search results incidentally exposed a benchmark-dataset snippet containing similar task wording and a row count, but no answer values. That dataset was not opened or used as evidence."
+        ],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+            "locator": "Lines 28–29 and 63–70: Trinity River at FM 85, River/Stream, HUC and coordinates. Lines 46–54: six category ranges; their common interval begins in 1983 and ends in 2001."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+            "locator": "Lines 28–29 and 62–69: Trinity River at US 59, River/Stream, HUC and coordinates. Lines 46–53: six category ranges; their common interval begins in 1993 and ends in 2017."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+            "locator": "Lines 28–29 and 63–70: Trinity River at IH 10, River/Stream, HUC and coordinates. Lines 46–54: six category ranges; their common interval begins in 1976 and ends in 2011."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10921/",
+            "locator": "Lines 45–53: excluded because Organics, PCBs ends in 1985."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-13690/",
+            "locator": "Lines 45–51: excluded because Microbiological starts in 2010 and Organics, PCBs is absent."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10893/",
+            "locator": "Lines 44–47: Devers Pump station lacks both requested organic categories and its listed records end before 1993."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-18360/",
+            "locator": "Detailed Metadata: River/Stream station named OLD RIVER AT FM 1409; excluded by the mainstem-name requirement."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10894/",
+            "locator": "Lines 46–54 and 65–70: US 90 is another qualifying lower-reach station; IH 10 was selected to represent the downstream boundary."
+          }
+        ]
+      },
+      {
+        "label": "screening_new_GO_1",
+        "comparison_task": "new",
+        "variant": "go",
+        "replicate": 1,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-615ba2d60939",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 347.705,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit",
+        "counts": {
+          "correct_fields": 216,
+          "gold_fields": 216,
+          "pred_fields": 216,
+          "item_denominator": 432,
+          "correct_rows": 12,
+          "gold_rows": 12,
+          "pred_rows": 12,
+          "row_denominator": 24,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "parse_status": "parsed",
+        "limitations": [],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete station.csv: 460 records; 17 match the exact name-prefix and station-type criteria, including tidal station USGS-08067252."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete activity.csv: 1,026 activities, including 941 Sample-Routine/Water activities. Organization/activity keys are unique; all retrieved results match activity station and date. Withdrawal records: nwistx.01.01401065, nwistx.01.01401515, nwistx.01.01500574, nwistx.01.01601150, nwistx.01.01900498."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&pCode=00010;00095;00300;00400",
+            "locator": "Complete result.csv: 3,782 results. Required filters yield 833 complete eligible activities. All 833 independent withdrawals were tested against all 210 intervals; five change the frontier. Separate JavaScript and SQL calculations agree on all 12 reported designs, counts, selected activities and measurements."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/webservices_documentation/",
+            "locator": "WQX 2.2 notice and web-service parameter table: legacy interface scope; Station, Activity and Result endpoints; organization, siteid, huc, pCode and activity-date filters."
+          }
+        ]
+      },
+      {
+        "label": "screening_old_GO_1",
+        "comparison_task": "old",
+        "variant": "go",
+        "replicate": 1,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-a210a4717398",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 135.949,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+        "counts": {
+          "correct_fields": 27,
+          "gold_fields": 27,
+          "pred_fields": 27,
+          "item_denominator": 54,
+          "correct_rows": 3,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 3,
+          "pair_denominator": 3,
+          "shared_ids": 3
+        },
+        "parse_status": "parsed",
+        "limitations": [
+          "Earliest common year is the maximum of the six group start years. The portal warns that date ranges may contain gap years; continuous annual sampling was not established.",
+          "Internal segment boundaries were unspecified; FM 85, US 59 and IH 10 were selected as upper, middle and lower reference locations.",
+          "Alternative-station pages 10920 and 10923 timed out; their records were recovered through indexed source text. Further inspection of alternative station 10898 failed. All three selected records were successfully inspected.",
+          "Search results accidentally surfaced a public benchmark listing containing the task and format metadata. No reference answer was viewed or used."
+        ],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+            "locator": "FM 85 station: Detailed Metadata, lines 63–70, confirms identifier, mainstem name, River/Stream type and HUC. Characteristic-group ranges, lines 46–54: 1982–2022; 1983–2022; 1982–2022; 1983–2022; 1983–2001; 1982–2022, in requested order."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+            "locator": "US 59 station: Detailed Metadata, lines 62–69, confirms identifier, mainstem name, River/Stream type and HUC. Characteristic-group ranges, lines 46–53: 1969–2025; 1972–2025; 1972–2025; 1993–2025; 1974–2017; 1969–2025, in requested order."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+            "locator": "IH 10 station: Detailed Metadata, lines 63–70, confirms identifier, mainstem name, River/Stream type and HUC. Characteristic-group ranges, lines 46–54: 1969–2026; 1971–2025; 1972–2025; 1974–2026; 1976–2011; 1969–2026, in requested order."
+          }
+        ]
+      }
+    ],
+    "confirmation": [
+      {
+        "label": "confirmation_new_CG_1",
+        "comparison_task": "new",
+        "variant": "cg",
+        "replicate": 1,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-b4d1f1ae6326",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 337.378,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit",
+        "counts": {
+          "correct_fields": 216,
+          "gold_fields": 216,
+          "pred_fields": 216,
+          "item_denominator": 432,
+          "correct_rows": 12,
+          "gold_rows": 12,
+          "pred_rows": 12,
+          "row_denominator": 24,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "parse_status": "parsed",
+        "limitations": [
+          "An initial SQL cross-check exceeded temporary database storage; a smaller equivalent query completed and matched the independently computed results. No retrieval gaps or unresolved discrepancies remain."
+        ],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete station.csv: 460 records; exact name-prefix and location-type filters retain 17 mainstem stations, including USGS-08067252 (Stream: Tidal stream)."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete activity.csv: 1,026 unique organization/activity keys; 941 Water/Sample-Routine activities. All retrieved result keys match activity station/date metadata. Withdrawal dates are taken from ActivityStartDate."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&pCode=00010;00095;00300;00400",
+            "locator": "Complete result.csv: 3,782 records. Required eligibility, status, value-type, qualifier, numeric, unit and panel checks yield 833 complete activities. All 833 independent withdrawals tested; five change the frontier. SQL cross-check reproduces all 12 designs, seasonal counts and selected events."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/webservices_documentation/",
+            "locator": "Legacy WQX2.2 notice; endpoint definitions and Table 1 parameters for organization, HUC, site, parameter code and inclusive activity-date limits."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_old_CG_1",
+        "comparison_task": "old",
+        "variant": "cg",
+        "replicate": 1,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-9be599419f0d",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 161.199,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+        "counts": {
+          "correct_fields": 27,
+          "gold_fields": 27,
+          "pred_fields": 27,
+          "item_denominator": 54,
+          "correct_rows": 3,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 3,
+          "pair_denominator": 3,
+          "shared_ids": 3
+        },
+        "parse_status": "parsed",
+        "limitations": [
+          "Upper, middle, and lower were interpreted as relative positions within the requested corridor, selecting FM 85, US 59, and IH 10. Formal segment boundaries and a tie-break rule were not supplied; this selection is not uniquely determined by the category test.",
+          "Earliest year means the maximum of the six category start years. Published ranges may contain gaps and do not establish sampling in every intervening year.",
+          "The full provider directory exceeded the browser size limit. Records for TCEQMAIN-10918, -10919, -10922, -10923, -10895, and -10898 could not be retrieved, so candidate screening was not exhaustive. All three selected records were inspected successfully.",
+          "Search results accidentally surfaced a public benchmark dataset snippet containing the task wording. It was not opened or used as evidence; no answer rows were exposed."
+        ],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+            "locator": "Detailed Metadata confirms Trinity River at FM 85, River/Stream, and HUC 12030105. Characteristic-group table, lines 46–54: requested ranges are 1982–2022, 1983–2022, 1982–2022, 1983–2022, 1983–2001, 1982–2022."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+            "locator": "Detailed Metadata confirms Trinity River at US 59, River/Stream, and HUC 12030202. Characteristic-group table, lines 46–53: requested ranges are 1969–2025, 1972–2025, 1972–2025, 1993–2025, 1974–2017, 1969–2025."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+            "locator": "Detailed Metadata confirms Trinity River at IH 10, River/Stream, and HUC 12030203. Characteristic-group table, lines 46–54: requested ranges are 1969–2026, 1971–2025, 1972–2025, 1974–2026, 1976–2011, 1969–2026."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10921/",
+            "locator": "Screened out: Trinity River downstream of SH 31 has PCB records ending in 1985."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10920/",
+            "locator": "Screened out: microbiological records end in 1988, Organics, Other starts in 1999, and PCB records cover only 1985."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10896/",
+            "locator": "Screened out: Trinity River upstream of FM 787 has no Organics, PCBs category listed."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10893/",
+            "locator": "Screened out: Devers Pump records end before 1993 and lack both requested organic categories."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10894/",
+            "locator": "US 90 also passes the six-category range test; IH 10 was selected as the downstream boundary reference."
+          },
+          {
+            "url": "https://tpwd.texas.gov/publications/pwdpubs/pwd_rp_t3200_1047/10_e_tx_trinity.phtml",
+            "locator": "River descriptions place US 59 below Livingston Dam and upstream of Liberty and IH 10; lines 346–357 distinguish the Old/Lost River system from the Trinity mainstem."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_new_GO_1",
+        "comparison_task": "new",
+        "variant": "go",
+        "replicate": 1,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-88735946063d",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 443.178,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit",
+        "counts": {
+          "correct_fields": 216,
+          "gold_fields": 216,
+          "pred_fields": 216,
+          "item_denominator": 432,
+          "correct_rows": 12,
+          "gold_rows": 12,
+          "pred_rows": 12,
+          "row_denominator": 24,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "parse_status": "parsed",
+        "limitations": [],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+            "locator": "station.csv: 460 records; 17 satisfy the exact name-prefix and location-type filters, including USGS-08067252, Stream: Tidal stream."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+            "locator": "activity.csv: 1,026 unique organization/activity keys; 941 Sample-Routine Water activities. All retrieved results match activity station and date. ActivityStartDate and local start time determine quarters and event ordering."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010%3B00095%3B00300%3B00400",
+            "locator": "result.csv: 3,782 records, yielding 833 complete eligible activities and 45 supported station-years. All 833 independent withdrawals checked; two frontier computations agree on five changing withdrawals. SQL independently confirms all 12 seasonal counts and selected events."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_old_GO_1",
+        "comparison_task": "old",
+        "variant": "go",
+        "replicate": 1,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-49dbfde787c8",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 90.636,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+        "counts": {
+          "correct_fields": 27,
+          "gold_fields": 27,
+          "pred_fields": 27,
+          "item_denominator": 54,
+          "correct_rows": 3,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 3,
+          "pair_denominator": 3,
+          "shared_ids": 3
+        },
+        "parse_status": "parsed",
+        "limitations": [
+          "Earliest year with all six groups means the maximum of their reported start years. WQP warns that these ranges may contain gap years; continuous annual sampling is not established.",
+          "Upper, middle, and lower were interpreted geographically, selecting FM 85, US 59, and IH 10. The task does not define internal segment boundaries or a unique selection rule.",
+          "The organization-wide WQP directory exceeded the tool's response-size limit; individual selected station records were successfully inspected.",
+          "An initial search accidentally returned a public benchmark-dataset snippet repeating the task. No answer rows were exposed or used, and that result was not opened."
+        ],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+            "locator": "Characteristic-group periods, lines 46–54; station metadata, lines 63–70. Trinity River at FM 85, River/Stream; all six ranges extend through at least 2001."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+            "locator": "Characteristic-group periods, lines 46–53; station metadata, lines 62–69. Trinity River at US 59, River/Stream; all six ranges extend through at least 2017."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+            "locator": "Characteristic-group periods, lines 46–54; station metadata, lines 63–70. Trinity River at IH 10, River/Stream; all six ranges extend through at least 2011."
+          },
+          {
+            "url": "https://www.tceq.texas.gov/assets/public/waterquality/swqm/assess/04twqi/assessments/02_0802_fact.pdf",
+            "locator": "Segment 0802 description and monitoring-sites table identify station 10897 at US 59 south of Goodrich, below Lake Livingston."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_new_CG_2",
+        "comparison_task": "new",
+        "variant": "cg",
+        "replicate": 2,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-b6760e99311c",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 297.239,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit",
+        "counts": {
+          "correct_fields": 216,
+          "gold_fields": 216,
+          "pred_fields": 216,
+          "item_denominator": 432,
+          "correct_rows": 12,
+          "gold_rows": 12,
+          "pred_rows": 12,
+          "row_denominator": 24,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "parse_status": "parsed",
+        "limitations": [],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete station CSV: 460 records; 17 satisfy the exact name-prefix and location-type filters, including tidal station USGS-08067252."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete activity CSV: 1,026 unique organization/activity keys; 941 Sample-Routine Water activities. All 3,782 retrieved result records match activity station, date, media and type."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&pCode=00010;00095;00300;00400",
+            "locator": "Complete four-parameter CSV: 3,782 results; filtering yields 833 complete eligible activities and 45 supported station-years. All 833 withdrawals tested: five change the frontier, yielding these 12 independently verified interval/event rows."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/webservices_documentation/",
+            "locator": "Legacy WQX 2.2 notice and web-service documentation for Station, Activity and Result endpoints, organization/activity identifiers, HUC filters, parameter codes and activity-date bounds."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_old_CG_2",
+        "comparison_task": "old",
+        "variant": "cg",
+        "replicate": 2,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-07d3bc5f222b",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 135.836,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+        "counts": {
+          "correct_fields": 27,
+          "gold_fields": 27,
+          "pred_fields": 27,
+          "item_denominator": 54,
+          "correct_rows": 3,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 3,
+          "pair_denominator": 3,
+          "shared_ids": 3
+        },
+        "parse_status": "parsed",
+        "limitations": [
+          "Earliest year is the maximum of the six category start years. Published ranges may contain gap years; annual completeness was not inferred.",
+          "Upper, middle, and lower segment boundaries are not explicitly defined. Selected FM 85, US 59, and IH 10 as representatives; the criteria are not unique because US 90 also qualifies.",
+          "The full TCEQMAIN directory exceeded the tool's content-size limit; candidate screening used indexed directory excerpts and individual station records. Initial station-page timeouts were resolved by retries.",
+          "An unsolicited search result exposed a benchmark dataset listing containing the task text. It was not opened or used as evidence; no reference-answer rows were observed."
+        ],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+            "locator": "Detailed Metadata confirms Trinity River at FM 85, River/Stream, and HUC 12030105. Characteristic-group table, lines 46–54: requested ranges are 1982–2022, 1983–2022, 1982–2022, 1983–2022, 1983–2001, 1982–2022."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+            "locator": "Detailed Metadata confirms Trinity River at US 59, River/Stream, and HUC 12030202. Characteristic-group table, lines 46–53: requested ranges are 1969–2025, 1972–2025, 1972–2025, 1993–2025, 1974–2017, 1969–2025."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+            "locator": "Detailed Metadata confirms Trinity River at IH 10, River/Stream, and HUC 12030203. Characteristic-group table, lines 46–54: requested ranges are 1969–2026, 1971–2025, 1972–2025, 1974–2026, 1976–2011, 1969–2026."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10921/",
+            "locator": "Screened out: Organics, PCBs ends in 1985."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10919/",
+            "locator": "Screened out: Organics, PCBs ends in 1985."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10918/",
+            "locator": "Screened out: Microbiological ends in 1987; Organics, Other begins in 2017."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10896/",
+            "locator": "Screened out: characteristic-group table has no Organics, PCBs category."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10916/",
+            "locator": "Screened out by location type: reservoir, despite Trinity River in the name."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-17880/",
+            "locator": "Screened out by name: LOST RIVER UPSTR WIGGINS BAYOU is River/Stream but not the Trinity mainstem."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10894/",
+            "locator": "US 90 is another qualifying lower-river candidate; all six category ranges span 1993–2001."
+          },
+          {
+            "url": "https://tpwd.texas.gov/publications/pwdpubs/pwd_rp_t3200_1047/10_e_tx_trinity.phtml",
+            "locator": "Ordered mainstem reach descriptions place US 59 below Livingston Dam and upstream of Liberty/US 90 and IH 10; lines 354–363 distinguish the Old–Lost River distributary system."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_new_GO_2",
+        "comparison_task": "new",
+        "variant": "go",
+        "replicate": 2,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-ef389f552b30",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 297.938,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit",
+        "counts": {
+          "correct_fields": 216,
+          "gold_fields": 216,
+          "pred_fields": 216,
+          "item_denominator": 432,
+          "correct_rows": 12,
+          "gold_rows": 12,
+          "pred_rows": 12,
+          "row_denominator": 24,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "parse_status": "parsed",
+        "limitations": [],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete station CSV: 460 records; 17 meet the exact name-prefix and location-type filters, including USGS-08067252 (Stream: Tidal stream)."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete activity CSV: 1,026 records. Organization/activity keys linked without station or date mismatches. Frontier-changing activity IDs: nwistx.01.01401065, nwistx.01.01401515, nwistx.01.01500574, nwistx.01.01601150, nwistx.01.01900498."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&pCode=00010;00095;00300;00400",
+            "locator": "Complete result CSV: 3,782 records, yielding 833 complete eligible activities. All 833 independent withdrawals recomputed; five change the frontier. Selected-event records are located by the reported organization/activity keys and USGSPCode. Separate SQL checks confirmed all 12 activity counts and minimum selections."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/webservices_documentation/",
+            "locator": "Legacy WQX 2.2 notice; service endpoints and Table 1 definitions for organization, siteid, huc, pCode, and activity-date bounds."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_old_GO_2",
+        "comparison_task": "old",
+        "variant": "go",
+        "replicate": 2,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-5ca654b7b0d2",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 90.554,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+        "counts": {
+          "correct_fields": 27,
+          "gold_fields": 27,
+          "pred_fields": 27,
+          "item_denominator": 54,
+          "correct_rows": 3,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 3,
+          "pair_denominator": 3,
+          "shared_ids": 3
+        },
+        "parse_status": "parsed",
+        "limitations": [
+          "WQP warns that date ranges may contain gap years. Earliest common year is calculated as the latest of the six start years, following the requested range-overlap criterion.",
+          "Upper, middle, and lower are interpreted geographically within the stated reach; no formal segment boundaries or unique-selection rule were supplied."
+        ],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+            "locator": "Detailed Metadata: TRINITY RIVER AT FM 85; River/Stream; HUC 12030105. Characteristic-group periods, in requested order: 1982–2022; 1983–2022; 1982–2022; 1983–2022; 1983–2001; 1982–2022."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+            "locator": "Detailed Metadata: TRINITY RIVER AT US 59; River/Stream; HUC 12030202. Characteristic-group periods, in requested order: 1969–2025; 1972–2025; 1972–2025; 1993–2025; 1974–2017; 1969–2025."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+            "locator": "Detailed Metadata: TRINITY RIVER AT IH 10; River/Stream; HUC 12030203. Characteristic-group periods, in requested order: 1969–2026; 1971–2025; 1972–2025; 1974–2026; 1976–2011; 1969–2026."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_new_CG_3",
+        "comparison_task": "new",
+        "variant": "cg",
+        "replicate": 3,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-adce46725506",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 307.121,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit",
+        "counts": {
+          "correct_fields": 216,
+          "gold_fields": 216,
+          "pred_fields": 216,
+          "item_denominator": 432,
+          "correct_rows": 12,
+          "gold_rows": 12,
+          "pred_rows": 12,
+          "row_denominator": 24,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "parse_status": "parsed",
+        "limitations": [],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete station.csv: 460 records; 17 match the exact name-prefix and location-type rules, including USGS-08067252 (Stream: Tidal stream)."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+            "locator": "Complete activity.csv: 1,026 unique organization/activity keys; 941 Water/Sample-Routine activities. All retrieved result keys link with matching MonitoringLocationIdentifier and ActivityStartDate."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&pCode=00010;00095;00300;00400",
+            "locator": "Complete result.csv: 3,782 records. Eligibility and result-quality rules yield 833 complete activities and 45 supported station-years. All 833 independent withdrawals tested; five change the frontier. Separate SQL calculations confirm all reported frontier cohorts, seasonal counts and selected events."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/webservices_documentation/",
+            "locator": "WQX 2.2 notice and web-service request documentation: legacy profile scope, Station/Activity/Result endpoints, semicolon-separated HUCs and parameter codes, and activity-date bounds."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_old_CG_3",
+        "comparison_task": "old",
+        "variant": "cg",
+        "replicate": 3,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-b1aea490162f",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "partial",
+        "elapsed_seconds": 156.047,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+        "counts": {
+          "correct_fields": 27,
+          "gold_fields": 27,
+          "pred_fields": 27,
+          "item_denominator": 54,
+          "correct_rows": 3,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 3,
+          "pair_denominator": 3,
+          "shared_ids": 3
+        },
+        "parse_status": "parsed",
+        "limitations": [
+          "All three reported stations pass the requested tests. However, the segment boundaries and selection tie-breaker are unspecified, and TCEQMAIN-10894 also qualifies. The rows select FM 85, US 59, and IH 10 as upper, middle, and lower representatives; uniqueness is not established.",
+          "Candidate screening remains incomplete: records for TCEQMAIN-10918 and TCEQMAIN-10919 repeatedly failed to load, and searches did not recover their category tables.",
+          "Earliest common year means the maximum of the six category start years. The portal warns that date ranges may contain gap years; continuous annual sampling was not verified.",
+          "Search results accidentally exposed a public benchmark-dataset listing containing task text. It was not opened or used as evidence."
+        ],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+            "locator": "Detailed Metadata identifies Trinity River at FM 85, River/Stream, HUC 12030105. Characteristic-group table, lines 46–54: six requested ranges are 1982–2022, 1983–2022, 1982–2022, 1983–2022, 1983–2001, 1982–2022."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+            "locator": "Detailed Metadata identifies Trinity River at US 59, River/Stream, HUC 12030202. Characteristic-group table, lines 46–53: six requested ranges are 1969–2025, 1972–2025, 1972–2025, 1993–2025, 1974–2017, 1969–2025."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+            "locator": "Detailed Metadata identifies Trinity River at IH 10, River/Stream, HUC 12030203. Characteristic-group table, lines 46–54: six requested ranges are 1969–2026, 1971–2025, 1972–2025, 1974–2026, 1976–2011, 1969–2026."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10894/",
+            "locator": "Trinity River at US 90: River/Stream in HUC 12030203; lines 46–54 show that this additional lower-reach candidate also passes all six date-range conditions."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10921/",
+            "locator": "Characteristic-group table: excluded because Organics, PCBs ends in 1985."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-13690/",
+            "locator": "Characteristic-group table: excluded because Microbiological starts in 2010 and Organics, PCBs is absent."
+          },
+          {
+            "url": "https://tpwd.texas.gov/publications/pwdpubs/pwd_rp_t3200_1047/10_e_tx_trinity.phtml",
+            "locator": "River itinerary, lines 279–357, places US 59 upstream of US 90 and Interstate 10; distinguishes the Old River–Lost River distributary system."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_new_GO_3",
+        "comparison_task": "new",
+        "variant": "go",
+        "replicate": 3,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-e746ee451099",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 342.854,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit",
+        "counts": {
+          "correct_fields": 216,
+          "gold_fields": 216,
+          "pred_fields": 216,
+          "item_denominator": 432,
+          "correct_rows": 12,
+          "gold_rows": 12,
+          "pred_rows": 12,
+          "row_denominator": 24,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "parse_status": "parsed",
+        "limitations": [],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+            "locator": "station.csv: 460 records, matching Total-Site-Count; 17 satisfy the exact name-prefix and station-type filters, including USGS-08067252 (Stream: Tidal stream)."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+            "locator": "activity.csv: 1,026 distinct organization/activity keys, matching Total-Activity-Count; 941 Water/Sample-Routine activities. All result links agree on station and date. Withdrawn identifiers and selected identifiers locate the reported activity metadata."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010%3B00095%3B00300%3B00400",
+            "locator": "result.csv: 3,782 records, matching Total-Result-Count. Quality, unit and completeness filters yield 833 complete eligible activities with no conflicting usable parameter values. Exhaustive independent withdrawals yield five changing trials and 12 rows; separate SQL calculations verify every frontier, seasonal count and selected event."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/webservices_documentation/",
+            "locator": "Legacy WQX 2.2 notice; request documentation for Station, Activity and Result endpoints, organization/site/HUC filters, inclusive activity-date bounds, parameter codes and ZIP CSV downloads."
+          }
+        ]
+      },
+      {
+        "label": "confirmation_old_GO_3",
+        "comparison_task": "old",
+        "variant": "go",
+        "replicate": 3,
+        "run": "candidates/wqp_activity_panel_001/r03/runs/r-68f5ebf91e8e",
+        "status": "completed",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1
+        },
+        "ending_reason": "exited",
+        "completed_event": true,
+        "model_reported_status": "complete",
+        "elapsed_seconds": 80.618,
+        "actual_model": "gpt-6-astra",
+        "effort": "high",
+        "current_date": "2026-09-08",
+        "maximum_seconds": 6000,
+        "stall_seconds": 3000,
+        "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+        "counts": {
+          "correct_fields": 27,
+          "gold_fields": 27,
+          "pred_fields": 27,
+          "item_denominator": 54,
+          "correct_rows": 3,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 3,
+          "pair_denominator": 3,
+          "shared_ids": 3
+        },
+        "parse_status": "parsed",
+        "limitations": [
+          "Earliest year means the maximum of the six reported start years. The portal warns that ranges may contain gap years; continuous annual sampling is not established.",
+          "Upper, middle and lower are interpreted as relative positions within the requested corridor, not formally specified segment boundaries.",
+          "Exploratory requests for stations 10918, 10919 and 10896 failed; all three selected station records were successfully inspected.",
+          "Search results incidentally displayed a benchmark dataset snippet repeating the task. No answer was exposed, and the dataset was neither opened nor used as evidence."
+        ],
+        "reported_evidence": [
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+            "locator": "Lines 46–54: six group ranges, all ending in 2001 or later; lines 65–70: FM 85 mainstem name, identifier, River/Stream type, HUC and coordinates."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+            "locator": "Lines 46–53: six group ranges, all ending in 2017 or later; lines 64–69: US 59 mainstem name, identifier, River/Stream type, HUC and coordinates."
+          },
+          {
+            "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+            "locator": "Lines 46–54: six group ranges, all ending in 2011 or later; lines 65–70: IH 10 mainstem name, identifier, River/Stream type, HUC and coordinates."
+          },
+          {
+            "url": "https://tpwd.texas.gov/publications/pwdpubs/pwd_rp_t3200_1047/10_e_tx_trinity.phtml",
+            "locator": "Lines 279–357: downstream progression from Livingston Reservoir through US 59, SH 105 and Liberty to IH 10; distinguishes the Trinity mainstem from Old/Lost River channels."
+          }
+        ]
+      }
+    ]
+  },
+  "summaries": {
+    "screening": {
+      "status": "observed_pilot",
+      "cells": {
+        "new_cg": {
+          "scheduled": 1,
+          "started": 1,
+          "completed_events": 1,
+          "scorable": 1,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "values": {
+            "Item-F1": [
+              1.0
+            ],
+            "Row-F1": [
+              1.0
+            ],
+            "P.O.A.": [
+              1.0
+            ],
+            "whole_task_exact": [
+              1
+            ]
+          }
+        },
+        "new_go": {
+          "scheduled": 1,
+          "started": 1,
+          "completed_events": 1,
+          "scorable": 1,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "values": {
+            "Item-F1": [
+              1.0
+            ],
+            "Row-F1": [
+              1.0
+            ],
+            "P.O.A.": [
+              1.0
+            ],
+            "whole_task_exact": [
+              1
+            ]
+          }
+        },
+        "old_cg": {
+          "scheduled": 1,
+          "started": 1,
+          "completed_events": 1,
+          "scorable": 1,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "values": {
+            "Item-F1": [
+              1.0
+            ],
+            "Row-F1": [
+              1.0
+            ],
+            "P.O.A.": [
+              1.0
+            ],
+            "whole_task_exact": [
+              1
+            ]
+          }
+        },
+        "old_go": {
+          "scheduled": 1,
+          "started": 1,
+          "completed_events": 1,
+          "scorable": 1,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "values": {
+            "Item-F1": [
+              1.0
+            ],
+            "Row-F1": [
+              1.0
+            ],
+            "P.O.A.": [
+              1.0
+            ],
+            "whole_task_exact": [
+              1
+            ]
+          }
+        }
+      },
+      "equal_weight_variant_means": {
+        "new": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1.0
+        },
+        "old": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1.0
+        }
+      },
+      "delta": {
+        "Item-F1": 0.0,
+        "Row-F1": 0.0,
+        "P.O.A.": 0.0,
+        "whole_task_exact": 0.0
+      },
+      "bootstrap": {
+        "method": "20000 independent within-task/variant resamples; fixed pair; no artificial replicate pairing",
+        "seed": 20260908,
+        "intervals": {
+          "Item-F1": {
+            "lower": 0.0,
+            "upper": 0.0
+          },
+          "Row-F1": {
+            "lower": 0.0,
+            "upper": 0.0
+          },
+          "P.O.A.": {
+            "lower": 0.0,
+            "upper": 0.0
+          },
+          "whole_task_exact": {
+            "lower": 0.0,
+            "upper": 0.0
+          }
+        },
+        "scope": "Descriptive fixed-pair run variation only. One pair cannot identify task-population variation. Three repetitions per variant do not establish precise harder probability; zero-width empirical intervals are not certainty."
+      }
+    },
+    "confirmation": {
+      "status": "observed_pilot",
+      "cells": {
+        "new_cg": {
+          "scheduled": 3,
+          "started": 3,
+          "completed_events": 3,
+          "scorable": 3,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "values": {
+            "Item-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "new_go": {
+          "scheduled": 3,
+          "started": 3,
+          "completed_events": 3,
+          "scorable": 3,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "values": {
+            "Item-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "old_cg": {
+          "scheduled": 3,
+          "started": 3,
+          "completed_events": 3,
+          "scorable": 3,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "values": {
+            "Item-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "old_go": {
+          "scheduled": 3,
+          "started": 3,
+          "completed_events": 3,
+          "scorable": 3,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "values": {
+            "Item-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      "equal_weight_variant_means": {
+        "new": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1.0
+        },
+        "old": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1.0
+        }
+      },
+      "delta": {
+        "Item-F1": 0.0,
+        "Row-F1": 0.0,
+        "P.O.A.": 0.0,
+        "whole_task_exact": 0.0
+      },
+      "bootstrap": {
+        "method": "20000 independent within-task/variant resamples; fixed pair; no artificial replicate pairing",
+        "seed": 20260908,
+        "intervals": {
+          "Item-F1": {
+            "lower": 0.0,
+            "upper": 0.0
+          },
+          "Row-F1": {
+            "lower": 0.0,
+            "upper": 0.0
+          },
+          "P.O.A.": {
+            "lower": 0.0,
+            "upper": 0.0
+          },
+          "whole_task_exact": {
+            "lower": 0.0,
+            "upper": 0.0
+          }
+        },
+        "scope": "Descriptive fixed-pair run variation only. One pair cannot identify task-population variation. Three repetitions per variant do not establish precise harder probability; zero-width empirical intervals are not certainty."
+      }
+    }
+  },
+  "difficulty_verdict": "inconclusive",
+  "reason": "预定12次确认已执行。未取得支持新题更难的证据；默认三次/题面的结论仍为inconclusive，难题构造目标未完成。原oracle可评分性不等于旧题公共选站答案唯一。",
+  "objective_status": "not_achieved",
+  "observation": "All12confirmation outputs match their original oracles completely; new and old each6/6, CG and GO each3/3; mean differences are0.",
+  "public_exposure_findings": {
+    "recorded_at": "2026-09-08T15:44:06.626756+00:00",
+    "reviewer": "Controller, not an additional blind model or human expert",
+    "inspected_completed_comparison_runs": 16,
+    "benchmark_snippet_runs": [
+      "screening_old_CG_1",
+      "screening_old_GO_1",
+      "confirmation_old_CG_1",
+      "confirmation_old_GO_1",
+      "confirmation_old_CG_2",
+      "confirmation_old_CG_3",
+      "confirmation_old_GO_3"
+    ],
+    "old_runs_with_snippets": 7,
+    "old_runs_total": 8,
+    "new_runs_with_detected_snippets": 0,
+    "new_runs_total": 8,
+    "finding": "Controller inspected all matching returned blocks and subsequent native tool calls. Seven old-task runs encountered public Hugging Face SGR-BENCH task/form metadata snippets. They contain wording, task identity, output format or the already-public three-row requirement; no reference station rows or gold values were observed in those blocks. The inspected calls did not open the benchmark search results or a benchmark URL; selected values were sourced from official station pages.",
+    "limits": "This verifies recorded text/actions only. It is not proof of zero latent training/memory exposure or of no unrecognized channel. Public exposure and old selection ambiguity limit general ability claims.",
+    "score_change": false,
+    "replacement_runs": 0,
+    "evidence": "public_exposure_review.json"
+  }
+}

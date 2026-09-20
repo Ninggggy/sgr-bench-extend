@@ -1,0 +1,640 @@
+[
+  {
+    "r": 58,
+    "date": "2023-06-30",
+    "docket": "21-476",
+    "name": "303 Creative LLC v. Elenis",
+    "author_code": "NG",
+    "citation": "600 U.S. 570",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/600us1r58_7khn.pdf"
+    ]
+  },
+  {
+    "r": 57,
+    "date": "2023-06-30",
+    "docket": "22-535",
+    "name": "Department of Education v. Brown",
+    "author_code": "A",
+    "citation": "600 U.S. 551",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/600us1r57_o7kq.pdf"
+    ]
+  },
+  {
+    "r": 56,
+    "date": "2023-06-30",
+    "docket": "22-506",
+    "name": "Biden v. Nebraska",
+    "author_code": "R",
+    "citation": "600 U.S. 477",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/600us1r56_1o13.pdf"
+    ]
+  },
+  {
+    "r": 55,
+    "date": "2023-06-29",
+    "docket": "22-174",
+    "name": "Groff v. DeJoy",
+    "author_code": "A",
+    "citation": "600 U.S. 447",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/600us1r55_3dq4.pdf"
+    ]
+  },
+  {
+    "r": 54,
+    "date": "2023-06-29",
+    "docket": "21-1043",
+    "name": "Abitron Austria GmbH v. Hetronic Int'l, Inc.",
+    "author_code": "A",
+    "citation": "600 U.S. 412",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/600us1r54_g3bi.pdf"
+    ]
+  },
+  {
+    "r": 53,
+    "date": "2023-06-29",
+    "docket": "20-1199",
+    "name": "Students for Fair Admissions, Inc. v. President and Fellows of Harvard College",
+    "author_code": "R",
+    "citation": "600 U.S. 181",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/600us1r53_4g15.pdf"
+    ]
+  },
+  {
+    "r": 52,
+    "date": "2023-06-27",
+    "docket": "21-1168",
+    "name": "Mallory v. Norfolk Southern R. Co",
+    "author_code": "NG",
+    "citation": "600 U.S. 122",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf"
+    ]
+  },
+  {
+    "r": 51,
+    "date": "2023-06-27",
+    "docket": "22-138",
+    "name": "Counterman v. Colorado",
+    "author_code": "EK",
+    "citation": "600 U.S. 66",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/600us1r51_g3bi.pdf"
+    ]
+  },
+  {
+    "r": 50,
+    "date": "2023-06-27",
+    "docket": "21-1271",
+    "name": "Moore v. Harper",
+    "author_code": "R",
+    "citation": "600 U.S. 1",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/600us1r50_h3ci.pdf"
+    ]
+  },
+  {
+    "r": 49,
+    "date": "2023-06-23",
+    "docket": "22-179",
+    "name": "United States v. Hansen",
+    "author_code": "AB",
+    "citation": "599 U.S. 762",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r49_jgkn.pdf"
+    ]
+  },
+  {
+    "r": 48,
+    "date": "2023-06-23",
+    "docket": "22-105",
+    "name": "Coinbase, Inc. v. Bielski",
+    "author_code": "BK",
+    "citation": "599 U.S. 736",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r48_986b.pdf"
+    ]
+  },
+  {
+    "r": 47,
+    "date": "2023-06-23",
+    "docket": "22-58",
+    "name": "United States v. Texas",
+    "author_code": "BK",
+    "citation": "599 U.S. 670",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r47_8m58.pdf"
+    ]
+  },
+  {
+    "r": 46,
+    "date": "2023-06-23",
+    "docket": "22-196",
+    "name": "Samia v. United States",
+    "author_code": "T",
+    "citation": "599 U.S. 635",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r46_dc8f.pdf"
+    ]
+  },
+  {
+    "r": 45,
+    "date": "2023-06-22",
+    "docket": "22-23",
+    "name": "Pugin v. Garland",
+    "author_code": "BK",
+    "citation": "599 U.S. 600",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r45_6537.pdf"
+    ]
+  },
+  {
+    "r": 44,
+    "date": "2023-06-22",
+    "docket": "21-1484",
+    "name": "Arizona v. Navajo Nation",
+    "author_code": "BK",
+    "citation": "599 U.S. 555",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r44_54l8.pdf"
+    ]
+  },
+  {
+    "r": 43,
+    "date": "2023-06-22",
+    "docket": "22-381",
+    "name": "Yegiazaryan v. Smagin",
+    "author_code": "SS",
+    "citation": "599 U.S. 533",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r43_jhek.pdf"
+    ]
+  },
+  {
+    "r": 42,
+    "date": "2023-06-22",
+    "docket": "21-857",
+    "name": "Jones v. Hendrix",
+    "author_code": "T",
+    "citation": "599 U.S. 465",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r42_2b35.pdf"
+    ]
+  },
+  {
+    "r": 41,
+    "date": "2023-06-16",
+    "docket": "22-49",
+    "name": "Lora v. United States",
+    "author_code": "KJ",
+    "citation": "599 U.S. 453",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r41_2bo2.pdf"
+    ]
+  },
+  {
+    "r": 40,
+    "date": "2023-06-16",
+    "docket": "21-1052",
+    "name": "United States ex rel. Polansky v. Executive Health Resources, Inc.",
+    "author_code": "EK",
+    "citation": "599 U.S. 419",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r40_q8l1.pdf"
+    ]
+  },
+  {
+    "r": 39,
+    "date": "2023-06-15",
+    "docket": "22-227",
+    "name": "Lac du Flambeau Band of Lake Superior Chippewa Indians v. Coughlin",
+    "author_code": "KJ",
+    "citation": "599 U.S. 382",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r39_3204.pdf"
+    ]
+  },
+  {
+    "r": 38,
+    "date": "2023-06-15",
+    "docket": "21-376",
+    "name": "Haaland v. Brackeen",
+    "author_code": "AB",
+    "citation": "599 U.S. 255",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r38_khmp.pdf"
+    ]
+  },
+  {
+    "r": 37,
+    "date": "2023-06-15",
+    "docket": "21-1576",
+    "name": "Smith v. United States",
+    "author_code": "A",
+    "citation": "599 U.S. 236",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r37_8m59.pdf"
+    ]
+  },
+  {
+    "r": 36,
+    "date": "2023-06-08",
+    "docket": "21-806",
+    "name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+    "author_code": "KJ",
+    "citation": "599 U.S. 166",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r36_feah.pdf"
+    ]
+  },
+  {
+    "r": 35,
+    "date": "2023-06-08",
+    "docket": "22-148",
+    "name": "Jack Daniel's Properties, Inc. v. VIP Products LLC",
+    "author_code": "EK",
+    "citation": "599 U.S. 140",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r35_3f14.pdf"
+    ]
+  },
+  {
+    "r": 34,
+    "date": "2023-06-08",
+    "docket": "22-10",
+    "name": "Dubin v. United States",
+    "author_code": "SS",
+    "citation": "599 U.S. 110",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r34_p86b.pdf"
+    ]
+  },
+  {
+    "r": 33,
+    "date": "2023-06-08",
+    "docket": "21-1086",
+    "name": "Allen v. Milligan",
+    "author_code": "R",
+    "citation": "599 U.S. 1",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/599us1r33_dc8f.pdf"
+    ]
+  },
+  {
+    "r": 32,
+    "date": "2023-06-01",
+    "docket": "21-1449",
+    "name": "Glacier Northwest, Inc. v. Teamsters",
+    "author_code": "AB",
+    "citation": "598 U.S. 771",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r32_ca7d.pdf"
+    ]
+  },
+  {
+    "r": 31,
+    "date": "2023-06-01",
+    "docket": "22-200",
+    "name": "Slack Technologies, LLC v. Pirani",
+    "author_code": "NG",
+    "citation": "598 U.S. 759",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r31_5h26.pdf"
+    ]
+  },
+  {
+    "r": 30,
+    "date": "2023-06-01",
+    "docket": "21-1326",
+    "name": "United States ex rel. Schutte v. Supervalu Inc.",
+    "author_code": "T",
+    "citation": "598 U.S. 739",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r30_g2bh.pdf"
+    ]
+  },
+  {
+    "r": 29,
+    "date": "2023-05-25",
+    "docket": "22-210",
+    "name": "Dupree v. Younger",
+    "author_code": "AB",
+    "citation": "598 U.S. 729",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r29_k5fm.pdf"
+    ]
+  },
+  {
+    "r": 28,
+    "date": "2023-05-25",
+    "docket": "21-454",
+    "name": "Sackett v. EPA",
+    "author_code": "A",
+    "citation": "598 U.S. 651",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r28_hgcj.pdf"
+    ]
+  },
+  {
+    "r": 27,
+    "date": "2023-05-25",
+    "docket": "22-166",
+    "name": "Tyler v. Hennepin County",
+    "author_code": "R",
+    "citation": "598 U.S. 631",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r27_aplc.pdf"
+    ]
+  },
+  {
+    "r": 26,
+    "date": "2023-05-22",
+    "docket": "22-714",
+    "name": "Calcutt v. FDIC",
+    "author_code": "PC",
+    "citation": "598 U.S. 623",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r26_feag.pdf"
+    ]
+  },
+  {
+    "r": 25,
+    "date": "2023-05-18",
+    "docket": "21-1333",
+    "name": "Gonzalez v. Google LLC",
+    "author_code": "PC",
+    "citation": "598 U.S. 617",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r25_i32j.pdf"
+    ]
+  },
+  {
+    "r": 24,
+    "date": "2023-05-18",
+    "docket": "21-757",
+    "name": "Amgen Inc. v. Sanofi",
+    "author_code": "NG",
+    "citation": "598 U.S. 594",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r24_m6hn.pdf"
+    ]
+  },
+  {
+    "r": 23,
+    "date": "2023-05-18",
+    "docket": "21-869",
+    "name": "Andy Warhol Foundation for Visual Arts, Inc. v. Goldsmith",
+    "author_code": "SS",
+    "citation": "598 U.S. 508",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r23_c0n2.pdf"
+    ]
+  },
+  {
+    "r": 22,
+    "date": "2023-05-18",
+    "docket": "21-1496",
+    "name": "Twitter, Inc. v. Taamneh",
+    "author_code": "T",
+    "citation": "598 U.S. 471",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r22_hejm.pdf"
+    ]
+  },
+  {
+    "r": 21,
+    "date": "2023-05-18",
+    "docket": "21-1454",
+    "name": "Ohio Adjutant General's Dept. v. FLRA",
+    "author_code": "T",
+    "citation": "598 U.S. 449",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r21_5425.pdf"
+    ]
+  },
+  {
+    "r": 20,
+    "date": "2023-05-18",
+    "docket": "21-1599",
+    "name": "Polselli v. IRS",
+    "author_code": "R",
+    "citation": "598 U.S. 432",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r20_b07d.pdf"
+    ]
+  },
+  {
+    "r": 19,
+    "date": "2023-05-11",
+    "docket": "21-1436",
+    "name": "Santos-Zacaria v. Garland",
+    "author_code": "KJ",
+    "citation": "598 U.S. 411",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r19_dc8f.pdf"
+    ]
+  },
+  {
+    "r": 18,
+    "date": "2023-05-11",
+    "docket": "21-468",
+    "name": "National Pork Producers Council v. Ross",
+    "author_code": "NG",
+    "citation": "598 U.S. 356",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r18_g2bh.pdf"
+    ]
+  },
+  {
+    "r": 17,
+    "date": "2023-05-11",
+    "docket": "22-96",
+    "name": "Financial Oversight and Management Bd. for P. R. v. Centro De Periodismo Investigativo, Inc.",
+    "author_code": "EK",
+    "citation": "598 U.S. 339",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r17_c0nd.pdf"
+    ]
+  },
+  {
+    "r": 16,
+    "date": "2023-05-11",
+    "docket": "21-1158",
+    "name": "Percoco v. United States",
+    "author_code": "A",
+    "citation": "598 U.S. 319",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r16_4gdj.pdf"
+    ]
+  },
+  {
+    "r": 15,
+    "date": "2023-05-11",
+    "docket": "21-1170",
+    "name": "Ciminelli v. United States",
+    "author_code": "T",
+    "citation": "598 U.S. 306",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us2r15_d1o2.pdf"
+    ]
+  },
+  {
+    "r": 14,
+    "date": "2023-04-19",
+    "docket": "21-1270",
+    "name": "MOAC Mall Holdings LLC v. Transform Holdco LLC",
+    "author_code": "KJ",
+    "citation": "598 U.S. 288",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r14_3e04.pdf"
+    ]
+  },
+  {
+    "r": 13,
+    "date": "2023-04-19",
+    "docket": "21-1450",
+    "name": "Turkiye Halk Bankasi A.S. v. United States",
+    "author_code": "BK",
+    "citation": "598 U.S. 264",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r13_3e04.pdf"
+    ]
+  },
+  {
+    "r": 12,
+    "date": "2023-04-19",
+    "docket": "21-442",
+    "name": "Reed v. Goertz",
+    "author_code": "BK",
+    "citation": "598 U.S. 230",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r12_l5gm.pdf"
+    ]
+  },
+  {
+    "r": 11,
+    "date": "2023-04-18",
+    "docket": "156, Orig.",
+    "name": "New York v. New Jersey",
+    "author_code": "BK",
+    "citation": "598 U.S. 218",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r11_ca7d.pdf"
+    ]
+  },
+  {
+    "r": 10,
+    "date": "2023-04-14",
+    "docket": "21-86",
+    "name": "Axon Enterprise, Inc. v. FTC",
+    "author_code": "EK",
+    "citation": "598 U.S. 175",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r10_febh.pdf"
+    ]
+  },
+  {
+    "r": 9,
+    "date": "2023-03-28",
+    "docket": "21-1164",
+    "name": "Wilkins v. United States",
+    "author_code": "SS",
+    "citation": "598 U.S. 152",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r9_8mjp.pdf"
+    ]
+  },
+  {
+    "r": 8,
+    "date": "2023-03-21",
+    "docket": "21-887",
+    "name": "Luna Perez v. Sturgis Public Schools",
+    "author_code": "NG",
+    "citation": "598 U.S. 142",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r8_limq.pdf"
+    ]
+  },
+  {
+    "r": 7,
+    "date": "2023-02-28",
+    "docket": "145, Orig.",
+    "name": "Delaware v. Pennsylvania",
+    "author_code": "KJ",
+    "citation": "598 U.S. 115",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r7_3dq4.pdf"
+    ]
+  },
+  {
+    "r": 6,
+    "date": "2023-02-28",
+    "docket": "21-1195",
+    "name": "Bittner v. United States",
+    "author_code": "NG",
+    "citation": "598 U.S. 85",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r6_0813.pdf"
+    ]
+  },
+  {
+    "r": 5,
+    "date": "2023-02-22",
+    "docket": "21-908",
+    "name": "Bartenwerfer v. Buckley",
+    "author_code": "AB",
+    "citation": "598 U.S. 69",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r5_1b72.pdf"
+    ]
+  },
+  {
+    "r": 4,
+    "date": "2023-02-22",
+    "docket": "21-984",
+    "name": "Helix Energy Solutions Group, Inc. v. Hewitt",
+    "author_code": "EK",
+    "citation": "598 U.S. 39",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r4_1a7d.pdf"
+    ]
+  },
+  {
+    "r": 3,
+    "date": "2023-02-22",
+    "docket": "21-846",
+    "name": "Cruz v. Arizona",
+    "author_code": "SS",
+    "citation": "598 U.S. 17",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r3_j4ek.pdf"
+    ]
+  },
+  {
+    "r": 2,
+    "date": "2023-01-23",
+    "docket": "21-1397",
+    "name": "In re Grand Jury",
+    "author_code": "PC",
+    "citation": "598 U.S. 15",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r2_d18e.pdf"
+    ]
+  },
+  {
+    "r": 1,
+    "date": "2023-01-23",
+    "docket": "21-432",
+    "name": "Arellano v. McDonough",
+    "author_code": "AB",
+    "citation": "598 U.S. 1",
+    "pdf_urls": [
+      "https://www.supremecourt.gov/opinions/22pdf/598us1r1_3e04.pdf"
+    ]
+  }
+]

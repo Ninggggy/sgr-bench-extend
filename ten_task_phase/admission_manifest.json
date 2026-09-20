@@ -1,0 +1,48 @@
+{
+  "campaign_path": "campaign.json",
+  "plan_path": "comparisons/analysis_plan.json",
+  "ledger_path": "session_ledger.jsonl",
+  "candidates": [
+    {
+      "candidate_path": "candidates/arxiv_historical_title_001/r02/candidate.json",
+      "family": "direct_replacement_timestamp_conditioned_historical_metadata"
+    },
+    {
+      "candidate_path": "../wqp_single/candidates/wqp_activity_panel_001/r03/candidate.json",
+      "family": "activity_withdrawal_pareto_panel",
+      "user_designated_exception": {
+        "candidate_id": "wqp_activity_panel_001",
+        "revision": 3,
+        "authorized_at": "2026-09-10T11:00:23.735397+00:00",
+        "authorized_by": "user",
+        "instruction": "把 wqp_activity_panel_001 r03 也划归到合格题目吧",
+        "basis": "user_designated_exception",
+        "note": "计入10题阶段目标并导出CG/GO；保留历史严格SGR未通过、难度不可判定及全部原始评分，不宣称通过ten-task-v1六次收录复测。其他候选规则不变。",
+        "historical_evidence_paths": [
+          "../wqp_single/candidates/wqp_activity_panel_001/r03/private/closure_decision.json",
+          "../wqp_single/sol_medium_retest/report.md",
+          "../wqp_single/sol_medium_retest/summary.json"
+        ]
+      }
+    },
+    {
+      "candidate_path": "candidates/arxiv_historical_title_002/r03/candidate.json",
+      "family": "direct_replacement_timestamp_conditioned_historical_metadata",
+      "user_designated_exception": {
+        "candidate_id": "arxiv_historical_title_002",
+        "revision": 3,
+        "authorized_at": "2026-09-10T12:00:17.453Z",
+        "authorized_by": "user",
+        "instruction": "这题也收录进去吧，然后收尾停止就可以了",
+        "basis": "user_designated_exception",
+        "note": "用户在获知 CG 正式均值 151/198（76.2626%）未通过严格70%门槛后指定收录。保留质量审计通过及标准难度失败；六次正式复测仍完整保留，不冒称双70%通过。仅适用r03；其他候选规则不变。",
+        "historical_evidence_paths": [
+          "research/arxiv002_r03_user_admission_decision.json",
+          "candidates/arxiv_historical_title_002/r03/test_results.json",
+          "candidates/arxiv_historical_title_002/r03/final_audit_controller_review.json",
+          "runs/r-resume-arxiv002-r03-audit/stage_assets/audit.json"
+        ]
+      }
+    }
+  ]
+}

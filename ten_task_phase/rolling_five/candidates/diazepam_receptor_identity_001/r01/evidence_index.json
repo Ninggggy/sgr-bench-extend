@@ -1,0 +1,18 @@
+{
+  "record_level_evidence": "inventory.json",
+  "all_query_rows_and_membership": "candidate_universe.jsonl",
+  "semantic_decisions": "constructor_annotations.json",
+  "all_request_metadata": [
+    "sources/opportunity_request_index.jsonl",
+    "sources/request_index.jsonl"
+  ],
+  "source_manifest": "source_manifest.json",
+  "source_version_discovery": "sources/reused_discovery_conclusion.json",
+  "rebuild_program": "reference.py",
+  "initial_derivation": "scope_checks.json",
+  "full_refresh_derivation": "rebuilt/scope_checks.json",
+  "control_scope_check": "controller_preflight.json",
+  "model_tests": 0,
+  "human_review": "not_performed",
+  "compound_identity_scope": "sources/raw/10_exact_diazepam_identity.json"
+}

@@ -1,0 +1,25 @@
+{
+  "actual_session_date":"2026-09-10",
+  "inherited_inputs":{"d0001":"Prior sources profile, not the original catalogue response","d0002":"Prior complete eight-action pool profile","d0003":"Prior exploration profile","d0004":"Root-supplied actual NIC web records","d0005":"Root-supplied actual 2021 Bangor CRA PDF web response and SoLo read metadata"},
+  "prior_run_distinction":"The d0001.response through d0005.response names mentioned inside the prior profile referred to that prior run's failed HTTP downloads. Do not confuse them with the current registered input records bearing reused IDs. Prior successful web reads lived in the prior actual rollout, not those 403 files.",
+  "registered_attempts":[
+    {"url":"https://api.fdic.gov/banks/institutions?format=csv&limit=10000&fields=NAME,CERT","result":"ValueError: Only configured official-source HTTPS URLs are supported","file_id":null,"qualification":"Requested limit would not cover the observed 27833-record population even if successful."},
+    {"url":"https://raw.githubusercontent.com/cfpb/crawl-cfgov/main/www.consumerfinance.gov/enforcement/actions/index.html","result":"ValueError: Only configured official-source HTTPS URLs are supported","file_id":null},
+    {"url":"https://solofunds.com/bsb-deposit-account-agreement-and-account-disclosures/","result":"ValueError: Only configured official-source HTTPS URLs are supported","file_id":null},
+    {"url":"https://www.consumerfinance.gov/enforcement/actions/?page=2","file_id":"d0007","filename":"d0007.response","requested_at":"2026-09-10T03:55:49.336704+00:00","received_at":"2026-09-10T03:55:49.606845+00:00","status":403,"bytes":410,"content_type":"text/html","result":"HTTP Error 403: Forbidden","body_title":"Access Denied"},
+    {"url":"https://www.chime.com/policies/bancorp/deposit-account-agreement/","result":"ValueError: Only configured official-source HTTPS URLs are supported","file_id":null},
+    {"url":"https://www.chime.com/policies/stride/deposit-account-agreement/","result":"ValueError: Only configured official-source HTTPS URLs are supported","file_id":null},
+    {"url":"https://www.fdic.gov/banker-resource-center/fdic-examinations-scheduled-first-quarter-2025-all-regions","result":"ValueError: Only configured official-source HTTPS URLs are supported","file_id":null}
+  ],
+  "native_web_failures":[
+    {"url":"https://raw.githubusercontent.com/cfpb/crawl-cfgov/main/www.consumerfinance.gov/enforcement/actions/chime-financial-inc/index.html","result":"Internal Error; no source body obtained"},
+    {"url":"https://raw.githubusercontent.com/cfpb/crawl-cfgov/main/www.consumerfinance.gov/enforcement/actions/solo-funds/index.html","result":"Internal Error; no source body obtained"},
+    {"url":"https://api.fdic.gov/banks/docs/institutions_definitions.csv","result":"Internal Error; no source body obtained"},
+    {"url":"https://api.fdic.gov/banks/docs/fields.yaml","result":"Non-retryable safe-open error; not retried"},
+    {"url":"https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Bangor%20Savings%20Bank%22&fields=NAME,CERT,ACTIVE,DATEUPDT&format=json","result":"Non-retryable safe-open error; not retried"},
+    {"url":"https://www.fdic.gov/banker-resource-center/fdic-examinations-scheduled-first-quarter-2025-all-regions","result":"Direct open Internal Error; separate official search response succeeded"},
+    {"source":"FDIC API documentation","action":"Click Institution API Definitions and Full OpenAPI specification links","result":"Internal Error; no specification body obtained"}
+  ],
+  "prohibited_retries_performed":false,
+  "note":"The prior failed CFPB date filter and the root's unsafe Bangor NIC URL were not retried. Tool host restrictions are not evidence that lawful public APIs are unavailable. No complete FDIC bulk download is claimed."
+}

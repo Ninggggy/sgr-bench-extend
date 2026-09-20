@@ -1,0 +1,57 @@
+[
+  {
+    "path": "candidate.json",
+    "bytes": 17857,
+    "mtime_utc": "2026-09-13T06:33:34.329453+00:00"
+  },
+  {
+    "path": "cg.json",
+    "bytes": 5776,
+    "mtime_utc": "2026-09-13T06:33:34.328552+00:00"
+  },
+  {
+    "path": "go.json",
+    "bytes": 5405,
+    "mtime_utc": "2026-09-13T06:33:34.328743+00:00"
+  },
+  {
+    "path": "rules.json",
+    "bytes": 645,
+    "mtime_utc": "2026-09-13T06:33:34.329594+00:00"
+  },
+  {
+    "path": "reference.py",
+    "bytes": 4837,
+    "mtime_utc": "2026-09-13T06:31:54.251404+00:00"
+  },
+  {
+    "path": "oracle.psv",
+    "bytes": 457,
+    "mtime_utc": "2026-09-13T06:33:34.330155+00:00"
+  },
+  {
+    "path": "eligibility_annotations.json",
+    "bytes": 180745,
+    "mtime_utc": "2026-09-13T06:30:50.900695+00:00"
+  },
+  {
+    "path": "study_annotations.json",
+    "bytes": 48768,
+    "mtime_utc": "2026-09-13T06:30:50.904231+00:00"
+  },
+  {
+    "path": "inventory.json",
+    "bytes": 11300,
+    "mtime_utc": "2026-09-13T06:33:34.330782+00:00"
+  },
+  {
+    "path": "construction_report.json",
+    "bytes": 1542,
+    "mtime_utc": "2026-09-13T06:38:38.935718+00:00"
+  },
+  {
+    "path": "source_stability.json",
+    "bytes": 2876,
+    "mtime_utc": "2026-09-13T06:37:27.393464+00:00"
+  }
+]

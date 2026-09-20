@@ -1,0 +1,12 @@
+{
+  "CG":"CG.json",
+  "GO":"GO.json",
+  "shared_oracle":"oracle.psv",
+  "shared_rules":"rules.json",
+  "checked_in_session":{"public_keys_only_instruction_output_format":true,"GO_instruction_is_exact_prefix_of_CG_instruction":true,"identical_output_format":true},
+  "shared_conditions":["PLOS ONE indexed Published Erratum notices","June 2015 notice publication, not research publication or republication","Explicit republication for article-title correction","Exclude ordinary title corrections and republications for other stated reasons","Source records available by 9 September 2026","Research DOI and notice-stated republication date","Complete originally published and republished titles","Preserve original erroneous spelling","Current metadata cannot replace original-title evidence","Bare DOI, ISO date, plain complete titles, ordinary hyphens, no added final period","Capitalization differences accepted","Sort by article DOI"],
+  "CG_addition":"Search and verification guidance only; APIs, bulk downloads and equivalent public paths explicitly allowed",
+  "no_answer_hints":"No answer record IDs, author names, expected row count or target retrieval website in either public file. PLOS ONE identifies the journal scope.",
+  "rules_review":"Existing columns, row_key and fields retained. Only title uppercase normalization is configured; no ungrounded aliases added.",
+  "limits":"Scorer implementation was not executed or modified; this checks supplied rules and prompt semantics. No new hidden conditions."
+}

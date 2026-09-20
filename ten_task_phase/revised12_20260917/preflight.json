@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-09-17T04:05:35.203146+00:00",
+  "ready": [
+    "europemc_reuse_deposit_001",
+    "stap_replication_protocol_001"
+  ],
+  "blocked": 10,
+  "paired_and_scoring_checks": "offline_checks.json",
+  "stap_fulltexts_unchanged": 16,
+  "stap_complete_cohort_unchanged": 49,
+  "epmc_fulltexts_byte_equal": 9,
+  "epmc_complete_cohort": 10,
+  "epmc_reference_recomputed": true,
+  "human_expert_review": "not_performed",
+  "independent_model_audit": "not_run; this is authorized single-trial diagnosis, not formal admission",
+  "shared_scorer_modified": false
+}

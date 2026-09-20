@@ -1,0 +1,53 @@
+{
+  "execution": "offline Python source reconstruction",
+  "cases": [
+    {
+      "row_key": [
+        "PMC12953261",
+        "10.1007/s00406-025-01990-5"
+      ],
+      "field": "analyzed_n",
+      "correct": 581,
+      "wrong": 730,
+      "delta": 149,
+      "interpretation": "Mistake initial cohort for analyzed subset",
+      "historical_replay": false
+    },
+    {
+      "row_key": [
+        "PMC12953261",
+        "10.1007/s00406-025-01990-5"
+      ],
+      "field": "help_n",
+      "correct": 271,
+      "wrong": 109,
+      "delta": -162,
+      "interpretation": "Substitute quoted admissions value for prior help",
+      "historical_replay": false
+    },
+    {
+      "row_key": [
+        "PMC12953261",
+        "10.1007/s00406-025-01990-5"
+      ],
+      "field": "nondepressed_n",
+      "correct": 491,
+      "wrong": 481,
+      "delta": -10,
+      "interpretation": "Retain notice-quoted superseded group count",
+      "historical_replay": false
+    },
+    {
+      "row_key": [
+        "PMC12953261",
+        "10.1007/s00406-025-01990-5"
+      ],
+      "path": "notice_only",
+      "has_initial_cohort_anchor": false,
+      "has_completed_assessment_inclusion_anchor": false,
+      "has_questionnaire_return_inclusion_anchor": false,
+      "claim": "Notice supplies corrected counts but does not establish all required population fields."
+    }
+  ],
+  "conflicts": []
+}

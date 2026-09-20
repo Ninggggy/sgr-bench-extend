@@ -1,0 +1,441 @@
+{
+  "reference_executed": true,
+  "oracle_equal": true,
+  "reference_execution_checks": {
+    "status": "completed",
+    "source_parse": "passed",
+    "flat_field_width": 12,
+    "all_records_terminated": true,
+    "enzyme_identity_verified": true,
+    "full_ALL_REAC_consumed": true,
+    "direct_link_module_coverage": "exact",
+    "module_count": 3,
+    "root_reaction_count": 2,
+    "reaction_field_rows_inspected": 34,
+    "matching_source_rows": 3,
+    "qualifying_unique_pairs_before_difference_filter": 3,
+    "retained_reaction_count": 1,
+    "output_row_count": 2,
+    "products_derived_only_from_module_REACTION": true,
+    "unresolved_inputs": [],
+    "solver_tests": "not_performed",
+    "independent_final_audit": "not_performed",
+    "human_review": "not_performed",
+    "source_field_stability": "not_performed"
+  },
+  "pair_literal_checks": [
+    {
+      "predicate": "research_goal",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "research_goal",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "reference_time_and_year_scope",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "reference_time_and_year_scope",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "identifier_semantics",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "identifier_semantics",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "complete_reaction_scope",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "complete_reaction_scope",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "complete_direct_module_scope",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "complete_direct_module_scope",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "full_module_coverage",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "full_module_coverage",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "field_and_exact_identity",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "field_and_exact_identity",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "multi_id_line_membership",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "multi_id_line_membership",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "target_consumption",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "target_consumption",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "written_one_way_direction",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "written_one_way_direction",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "no_one_way_reversal",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "no_one_way_reversal",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "reversible_direction_and_both_sides",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "reversible_direction_and_both_sides",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "line_local_explicit_products",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "line_local_explicit_products",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "set_semantics",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "set_semantics",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "group_identity_and_difference_threshold",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "group_identity_and_difference_threshold",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "all_rows_and_shared_sets",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "all_rows_and_shared_sets",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "singleton_and_uniform_exclusion",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "singleton_and_uniform_exclusion",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "no_product_supplementation",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "no_product_supplementation",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "annotation_interpretation",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "annotation_interpretation",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "duplicate_pair_and_conflict",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "duplicate_pair_and_conflict",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "absent_matching_annotation",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "absent_matching_annotation",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "unresolved_required_evidence",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "unresolved_required_evidence",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "format_and_column_order",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "format_and_column_order",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "output_size_and_composite_key",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "output_size_and_composite_key",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "row_order_and_tie_resolution",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "row_order_and_tie_resolution",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "product_serialization",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "product_serialization",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "completed_answer_only",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "completed_answer_only",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "verified_none",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "verified_none",
+      "variant": "go",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "no_partial_table_or_false_none",
+      "variant": "cg",
+      "literal_quote_verified": true
+    },
+    {
+      "predicate": "no_partial_table_or_false_none",
+      "variant": "go",
+      "literal_quote_verified": true
+    }
+  ],
+  "same_output_format": true,
+  "schema_passed": true,
+  "scorer_self_check": {
+    "status": "deterministic_explicit",
+    "metrics": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 6,
+      "gold_fields": 6,
+      "pred_fields": 6,
+      "item_denominator": 12,
+      "correct_rows": 2,
+      "gold_rows": 2,
+      "pred_rows": 2,
+      "row_denominator": 4,
+      "correct_pairs": 1,
+      "pair_denominator": 1,
+      "shared_ids": 2
+    },
+    "omitted_ids": [],
+    "extra_ids": [],
+    "duplicate_ids": [],
+    "order_pairs": [
+      {
+        "first": [
+          "R03140",
+          "M00532"
+        ],
+        "second": [
+          "R03140",
+          "M00968"
+        ],
+        "correct": true
+      }
+    ],
+    "poa_note": "first occurrence positions; no reordering",
+    "field_differences": [
+      {
+        "pred_index": 0,
+        "id": [
+          "R03140",
+          "M00532"
+        ],
+        "field": "REACTION_ID",
+        "pred_raw": "R03140",
+        "pred_normalized": "R03140",
+        "gold": "R03140",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "R03140",
+          "M00532"
+        ],
+        "field": "MODULE_ID",
+        "pred_raw": "M00532",
+        "pred_normalized": "M00532",
+        "gold": "M00532",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "R03140",
+          "M00532"
+        ],
+        "field": "PRODUCT_IDS",
+        "pred_raw": "C00197,C00988",
+        "pred_normalized": "C00197;C00988",
+        "gold": "C00197;C00988",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "R03140",
+          "M00968"
+        ],
+        "field": "REACTION_ID",
+        "pred_raw": "R03140",
+        "pred_normalized": "R03140",
+        "gold": "R03140",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "R03140",
+          "M00968"
+        ],
+        "field": "MODULE_ID",
+        "pred_raw": "M00968",
+        "pred_normalized": "M00968",
+        "gold": "M00968",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "R03140",
+          "M00968"
+        ],
+        "field": "PRODUCT_IDS",
+        "pred_raw": "C00197",
+        "pred_normalized": "C00197",
+        "gold": "C00197",
+        "correct": true,
+        "reason": "match"
+      }
+    ]
+  },
+  "human_review": "not_performed",
+  "independent_final_audit": "not_performed",
+  "pre_A_stability": "passed: controller_pre_A_stability.json"
+}

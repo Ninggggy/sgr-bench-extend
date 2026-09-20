@@ -1,0 +1,8 @@
+{
+  "changes": [
+    "Map declared numeric_fields and aliases into actual existing scorer fields structure; no new aliases or factual values",
+    "Remove unsolicited new SHA256 logging from candidate reference program; keep actual source content equality/conflict checks intact"
+  ],
+  "originals_preserved": "construction_pipeline/ten_task_phase/rolling_five/runs/epmc-quantitative-builder-02/stage_assets",
+  "scorer_not_modified": true
+}

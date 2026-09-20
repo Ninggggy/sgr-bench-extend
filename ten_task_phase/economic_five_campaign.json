@@ -1,0 +1,53 @@
+{
+  "max_seconds_per_session": 6000,
+  "stall_seconds": 3000,
+  "maximum_concurrent_model_sessions": 4,
+  "max_substantive_revisions": 2,
+  "current_date": "2026-09-09",
+  "construction_model": "gpt-6-astra",
+  "construction_effort": "high",
+  "solver_model": "gpt-5.6-sol",
+  "solver_effort": "medium",
+  "protocol_version": "ten-task-v1",
+  "repair_retries_allowed": 1,
+  "retry_policy": "Only one replacement attempt per prescheduled slot after verified infrastructure failure; never retry model mistakes, partial answers or parse failures; retain all attempts/cost. Explicit controller classification required before replacement.",
+  "admission": {
+    "metric": "Item-F1",
+    "trials_per_variant": 3,
+    "cg_mean_strictly_below": "7/10",
+    "go_mean_strictly_below": "7/10",
+    "arithmetic": "exact fractions from scoring counts",
+    "one_round_per_candidate_protocol_version": true,
+    "scores_are_selection_scores": true
+  },
+  "protocol_assets": {
+    "registered_at": "2026-09-09T10:18:50.460615+00:00",
+    "solver_config_path": "protocol/ten-task-v1/solver.config.toml",
+    "scorer_path": "protocol/ten-task-v1/score.py",
+    "data_tools_path": "protocol/ten-task-v1/data_tools.py",
+    "image_id": "sha256:7e6f86e9ecb36ec74f6dc42254c16bc9b0f31f22cea6f96be8f872599f0404b6"
+  },
+  "campaign_id": "economic_five_2026-09-12",
+  "started_at": "2026-09-11T16:26:15.871+00:00",
+  "deadline": "2026-09-13T16:26:15.871+00:00",
+  "max_sessions": 100,
+  "target_base_tasks": 5,
+  "session_ledger": "economic_five_session_ledger.jsonl",
+  "reserved_pending_sessions": 65,
+  "reserved_sessions": {
+    "accepted_target_retests": 30,
+    "remaining_development_and_audit": 35
+  },
+  "excluded": [
+    "original_50",
+    "all_previous_candidates_and_stopped_directions_without_material_new_evidence"
+  ],
+  "authorization": "User request 2026-09-12; separate round; no publication or automation",
+  "start_evidence": "Root session_meta actual timestamp; corrected 12.129 seconds earlier than goal registration, no budget reset",
+  "reservation_note": "Both completed candidates stopped after high-score A screens. Restore five full prospective pipelines: 30 formal +35 development/attack/audit. Spent A slots cannot count toward new candidates. 36 sessions charged, 64 remaining, below mandatory 65 even before fresh construction or coordination.",
+  "experiment_status": "stopped_budget_reservation",
+  "experiments_stopped_at": "2026-09-11T20:40:30.884135+00:00",
+  "stop_reason": "Required remaining pipeline reservation exceeds remaining model sessions; no new experiments, revisions or retries within this campaign.",
+  "native_goal_status": "blocked",
+  "blocked_reason": "Same required-session reservation deficit verified in three consecutive goal turns; 38 used, 62 remaining, at least65 mandatory future trial/audit sessions before fresh construction. No running experiments and no additional budget authorization."
+}

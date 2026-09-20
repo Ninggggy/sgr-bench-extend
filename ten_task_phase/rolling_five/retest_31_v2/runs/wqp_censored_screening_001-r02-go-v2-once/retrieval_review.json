@@ -1,0 +1,33 @@
+{
+  "run_id": "wqp_censored_screening_001-r02-go-v2-once",
+  "protocol_version": "ten-task-v2-bounded-retrieval",
+  "verdict": "failed",
+  "reviewer": "current assistant; local trajectory review, not human quality validation",
+  "external_requests": 53,
+  "access_confounded": true,
+  "capability_score_eligible": false,
+  "limitations": "Header-only output; scorer parse_failure_unscored and metricsnull -> NA, notzero. Result rows and matchedhardness unavailable.",
+  "checks": {
+    "concurrency": {
+      "verdict": "failed",
+      "explanation": "L21,33,39,41,45,47,51,53,55 each sends three search targets in onecall, exceeding2.",
+      "evidence_paths": [
+        "tool_events.jsonl"
+      ]
+    },
+    "bulk_scope": {
+      "verdict": "failed",
+      "explanation": "L9 attempts complete sitecadmium Result/search CSV without record/date pagination; it was denied and no full result dataset obtained.",
+      "evidence_paths": [
+        "tool_events.jsonl"
+      ]
+    },
+    "request_count": {
+      "verdict": "passed",
+      "explanation": "53external targets, selfreport50 inaccurate.",
+      "evidence_paths": [
+        "tool_events.jsonl"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "candidate_id": "europemc_reuse_deposit_001",
+  "revision": 1,
+  "status": "development_inconclusive",
+  "content_validated": true,
+  "difficulty_status": "access_confounded; no admission retest permitted",
+  "construction_method": "discovered_accession_matrix_reuse_and_new_deposit_provenance",
+  "remaining_substantive_revisions": 2,
+  "note": "Content/source programs and development pending; not admitted, no screening means.",
+  "reference_program_check": "passed",
+  "independent_key_check": "passed_after_JATS_container_parser_repair",
+  "audit_run": "../../../runs/r-epmc-reuse-r01-audit-repair",
+  "substantive_errors_cg": "inconclusive",
+  "substantive_errors_go": "inconclusive",
+  "audited_at": "2026-09-09T16:19:45.176797+00:00"
+}

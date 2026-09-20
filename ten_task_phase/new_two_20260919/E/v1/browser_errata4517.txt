@@ -1,0 +1,144 @@
+- navigation:
+  - link "RFC Errata":
+    - /url: /search/
+  - list:
+    - link "About":
+      - /url: https://www.rfc-editor.org/series/rfc-errata/
+    - link "Login":
+      - /url: /oidc/authenticate/
+- main:
+  - heading "Errata" [level=1]
+  - generic: RFC Number
+  - spinbutton "RFC Number": "4517"
+  - generic: Errata ID
+  - spinbutton "Errata ID"
+  - generic: Status
+  - combobox "Status":
+    - option "All/Any" [selected]
+    - option "Verified+Reported"
+    - option "Verified"
+    - option "Reported"
+    - option "Held for Document Update"
+    - option "Rejected"
+  - generic: Area Acronym
+  - combobox "Area Acronym":
+    - option "All/Any" [selected]
+    - option "app"
+    - option "art"
+    - option "gen"
+    - option "int"
+    - option "ops"
+    - option "rai"
+    - option "rtg"
+    - option "sec"
+    - option "tsv"
+    - option "wit"
+  - generic: Type
+  - combobox "Type":
+    - option "All/Any" [selected]
+    - option "Editorial"
+    - option "Technical"
+  - generic: WG Acronym
+  - textbox "WG Acronym"
+  - generic: Submitter Name
+  - textbox "Submitter Name"
+  - generic: Stream
+  - combobox "Stream":
+    - option "All/Any" [selected]
+    - option "IAB"
+    - option "INDEPENDENT"
+    - option "IRTF"
+    - option "Legacy"
+    - option "Editorial"
+  - generic: Date Submitted
+  - textbox "Date Submitted":
+    - /placeholder: YYYY-MM-DD, YYYY-MM, or YYYY
+  - generic: Presentation
+  - combobox "Presentation":
+    - option "Table"
+    - option "Full Records" [selected]
+  - button "Submit"
+  - heading "Verified (2)" [level=2]
+  - heading "RFC 4517 inline-errata" [level=3]:
+    - link "RFC 4517":
+      - /url: https://www.rfc-editor.org/info/rfc4517
+    - link "inline-errata":
+      - /url: https://www.rfc-editor.org/rfc/inline-errata/rfc4517.html
+  - paragraph:
+    - strong: "Source of RFC:"
+    - text: ldapbis (app)
+  - 'heading "Errata-ID: 4653" [level=4]':
+    - text: "Errata-ID:"
+    - link "4653":
+      - /url: /eid4653/
+  - term: "Status:"
+  - definition:
+    - generic: Verified
+  - term: "Type:"
+  - definition:
+    - generic: Technical
+  - term: "Reported By:"
+  - definition: Emmanuel Lecharny
+  - term: "Date Reported:"
+  - definition: 2016-03-31
+  - term: "Verified by:"
+  - definition: Barry Leiba
+  - term: "Date Verified:"
+  - definition: 2016-03-31
+  - paragraph: "Section 4.2 says:"
+  - code: "4.2. Matching Rule Definitions Nominated character strings in assertion and attribute values are prepared according to the string preparation algorithms [RFC4518] for LDAP when evaluating the following matching rules: numericStringMatch, numericStringSubstringsMatch, caseExactMatch, caseExactOrderingMatch, caseExactSubstringsMatch, caseExactIA5Match, caseIgnoreIA5Match, caseIgnoreIA5SubstringsMatch, caseIgnoreListMatch, caseIgnoreListSubstringsMatch, caseIgnoreMatch, caseIgnoreOrderingMatch, caseIgnoreSubstringsMatch, directoryStringFirstComponentMatch, telephoneNumberMatch, telephoneNumberSubstringsMatch and wordMatch."
+  - paragraph: "It should say:"
+  - code: "4.2. Matching Rule Definitions Nominated character strings in assertion and attribute values are prepared according to the string preparation algorithms [RFC4518] for LDAP when evaluating the following matching rules: numericStringMatch, numericStringOrderingMatch, numericStringSubstringsMatch, caseExactMatch, caseExactOrderingMatch, caseExactSubstringsMatch, caseExactIA5Match, caseIgnoreIA5Match, caseIgnoreIA5SubstringsMatch, caseIgnoreListMatch, caseIgnoreListSubstringsMatch, caseIgnoreMatch, caseIgnoreOrderingMatch, caseIgnoreSubstringsMatch, directoryStringFirstComponentMatch, telephoneNumberMatch, telephoneNumberSubstringsMatch and wordMatch."
+  - paragraph: "Notes:"
+  - code: "The 'numericStringOrderingMatch' matching rule should be in the list of Matching Rules that are prepared accordingly to RFC 4518. In 4.2.23, a reference to the String Preparation algorithm is made : \"In preparing the attribute value and assertion value for comparison, characters are not case folded in the Map preparation step, and only numericString Insignificant Character Handling is applied in the Insignificant Character Handling step.\""
+  - 'heading "Errata-ID: 7917" [level=4]':
+    - text: "Errata-ID:"
+    - link "7917":
+      - /url: /eid7917/
+  - term: "Status:"
+  - definition:
+    - generic: Verified
+  - term: "Type:"
+  - definition:
+    - generic: Technical
+  - term: "Reported By:"
+  - definition: Jesse Coretta
+  - term: "Date Reported:"
+  - definition: 2024-04-30
+  - term: "Verified by:"
+  - definition: Orie Steele
+  - term: "Date Verified:"
+  - definition: 2024-05-01
+  - paragraph: "Section 3.3.10 says:"
+  - code: subset = "baseobject" / "oneLevel" / "wholeSubtree"
+  - paragraph: "It should say:"
+  - code: subset = "baseObject" / "oneLevel" / "wholeSubtree"
+  - paragraph: "Notes:"
+  - code: The Enhanced Guide "subset" token SHOULD honor the case folding scheme for a search scope, as this refers to actual ASN.1 ENUMERATED / INTEGER components; see RFC 4511 Section 4.5.1 and ITU-T Rec. X.511 Clause 11.2.1 respectively. Therefore, "baseobject" SHOULD be "baseObject". Additionally, outreach to author failed due to unknown recipient at specified address/domain.
+  - link "Report New Erratum":
+    - /url: /new/entry-instructions/
+- contentinfo:
+  - text: rfc-editor.org is maintained by the
+  - link "Internet Engineering Task Force":
+    - /url: https://www.ietf.org/
+  - img "IETF"
+  - heading "Useful links" [level=5]
+  - list:
+    - link "IETF.org":
+      - /url: https://www.ietf.org
+    - link "IRTF.org":
+      - /url: https://www.irtf.org
+    - link "IAB.org":
+      - /url: https://www.iab.org
+    - link "Datatracker":
+      - /url: https://datatracker.ietf.org
+    - link "Author Resources":
+      - /url: https://authors.ietf.org
+  - heading "Contact Us" [level=5]
+  - list:
+    - link "RFC Editor":
+      - /url: https://www.rfc-editor.org/about/contact/
+    - link "rfc-dist Info Page":
+      - /url: http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+    - link "rfc-interest Info Page":
+      - /url: http://mailman.rfc-editor.org/mailman/listinfo/rfc-interest

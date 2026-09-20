@@ -1,0 +1,41 @@
+{
+  "initial": {
+    "source": "sources/d0027.json",
+    "request_role": "scope",
+    "visible": [
+      "CVE ID",
+      "published",
+      "configurations",
+      "vulnerable",
+      "matchCriteriaId",
+      "criteria",
+      "version boundaries"
+    ],
+    "not_visible": [
+      "Match status",
+      "dictionary association result"
+    ],
+    "meaning": "Initial intake state; not a claim to have downloaded the entire unfiltered CVE database."
+  },
+  "transitions": [
+    {
+      "from": "scope",
+      "to": "match",
+      "parameter": "cveId",
+      "decision": "Distinct CVE IDs discovered by recursively enumerating configurations; legal by-CVE batches with complete UUID comparison."
+    },
+    {
+      "from": "match",
+      "to": "dictionary",
+      "parameter": "matchCriteriaId",
+      "decision": "143 discovered UUIDs with missing/empty matches require exact successful dictionary responses; nonempty matches can exclude under official semantics."
+    }
+  ],
+  "identity_key": [
+    "cve_id",
+    "matchCriteriaId",
+    "criteria"
+  ],
+  "bounds": "Version fields are checked during UUID identity joins, not discarded.",
+  "no_private_blind_cache": "All sources and generated oracle files are construction-private; future blind sessions must retrieve public records independently."
+}

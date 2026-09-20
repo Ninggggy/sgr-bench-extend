@@ -1,0 +1,24 @@
+{
+  "variants": ["CG.json", "GO.json"],
+  "shared_oracle": "oracle.psv",
+  "shared_rules": "rules.json",
+  "construction_assets_enter_blind_solve": false,
+  "alignment_method": "The entire GO instruction is an exact prefix of the CG instruction. CG appends procedural search guidance only. Both output_format values are identical.",
+  "shared_conditions": [
+    "Genome Biology papers published in 2019 citing the named 2017 seed paper",
+    "An author's declared patent interest must concern a method disclosed in the paper",
+    "Explicit primary evidence must identify the published application",
+    "Unnumbered declarations qualify with an explicit paper-and-method bridge",
+    "Author/title similarity alone is insufficient",
+    "Commercial affiliation alone and mere patent citations are excluded",
+    "Published international and national/regional phase applications within the same simple family",
+    "Application-publication date on or before 2026-09-09",
+    "One row per application",
+    "First application publication under the jurisdiction's numbering system",
+    "Exclude unpublished priority filings, grants, later corrections and republications from first-publication selection",
+    "Identical five output columns, date format and sorting",
+    "No legal-status or rights conclusions"
+  ],
+  "public_leakage_review": "Neither variant names a retrieval website, the answer paper or method, patent IDs, answer authors, family ID, or expected row count. The journal and seed title/year specify the natural corpus.",
+  "execution": "The supplied independent_check.py contains a direct prefix/output-format check; Python execution is pending. No external audit or score is claimed."
+}

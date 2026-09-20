@@ -1,0 +1,135 @@
+{
+  "candidate_id": "device_recall_backlink_001",
+  "revision": 1,
+  "status": "reference_ready_pending_independent_review",
+  "three_questions": {
+    "mechanism": {
+      "judgment": "supported by actual finite dependency and exact identity evidence; independent review pending",
+      "finite_application_set": 2,
+      "complete_view_rows": [
+        34,
+        7
+      ],
+      "not_claimed": "all actual recalls, defect cause, permanent source stability"
+    },
+    "difficulty": {
+      "judgment": "untested",
+      "natural_error_hypothesis": "Inferring reverse display from forward citation; confusing model/event/date equality with record identity",
+      "score_prediction": null,
+      "future_requirement": "Sol initial screening after independent review"
+    },
+    "cost": {
+      "prior_failed_history": 28,
+      "prior_backlink_feasibility": 10,
+      "this_construction": 10,
+      "total": 48,
+      "construction_web_calls": 2,
+      "construction_click_items": 7,
+      "construction_open_items": 3,
+      "construction_request_items": [
+        {
+          "n": 1,
+          "op": "click",
+          "origin_ref": "turn55view1",
+          "link_id": 21,
+          "response_ref": "turn59view0"
+        },
+        {
+          "n": 2,
+          "op": "click",
+          "origin_ref": "turn55view1",
+          "link_id": 22,
+          "response_ref": "turn59view1"
+        },
+        {
+          "n": 3,
+          "op": "click",
+          "origin_ref": "turn55view1",
+          "link_id": 23,
+          "response_ref": "turn59view2"
+        },
+        {
+          "n": 4,
+          "op": "click",
+          "origin_ref": "turn55view1",
+          "link_id": 24,
+          "response_ref": "turn59view3"
+        },
+        {
+          "n": 5,
+          "op": "click",
+          "origin_ref": "turn55view1",
+          "link_id": 25,
+          "response_ref": "turn59view4"
+        },
+        {
+          "n": 6,
+          "op": "click",
+          "origin_ref": "turn55view1",
+          "link_id": 26,
+          "response_ref": "turn59view5"
+        },
+        {
+          "n": 7,
+          "op": "click",
+          "origin_ref": "turn55view1",
+          "link_id": 27,
+          "response_ref": "turn59view6"
+        },
+        {
+          "n": 8,
+          "op": "open",
+          "response_ref": "turn60view0",
+          "purpose": "root identity stability"
+        },
+        {
+          "n": 9,
+          "op": "open",
+          "response_ref": "turn60view1",
+          "purpose": "first positive-view page recheck"
+        },
+        {
+          "n": 10,
+          "op": "open",
+          "response_ref": "turn60view2",
+          "purpose": "negative-view reachability only; body not exposed"
+        }
+      ]
+    }
+  },
+  "fixed_material_coverage": {
+    "actual": "Complete source recall detail contains forward application set, not each application view membership; old complete PDF does not supply reverse states.",
+    "claimed_complete_covering_source": null,
+    "unknown": [
+      "Other exact reverse-view exports or fixed publications"
+    ],
+    "unknown_is_blocker": false,
+    "legitimate_shortcuts_allowed": true
+  },
+  "reference": {
+    "script": "reference.py",
+    "derivation": "reference_derivation.json",
+    "scope": "inventory.json",
+    "source_manifest": "source_manifest.json",
+    "raw_identity_response": "sources/raw/construction_identity_req1_7.txt",
+    "date_only_absence_superseded": true,
+    "negative_targets_exact_id_verified": 7,
+    "final_mapping_hardcoded": false
+  },
+  "verification": "execution_checks.json",
+  "human_validation": "not_performed",
+  "difficulty": "untested",
+  "model_tests": 0,
+  "substantive_revisions_used": 0,
+  "history": {
+    "old_direction_stopped": true,
+    "old_r01_ever_created": false,
+    "old_cost_retained": 28,
+    "no_global_ledger_modified": true
+  },
+  "future_limits": [
+    "Before evaluation, verify relevant observed source state; final negative-view refresh here exposed only a title.",
+    "Source failures or incomplete views must not count as capability-zero results.",
+    "Independent content/pair/SGR review remains outstanding."
+  ]
+}

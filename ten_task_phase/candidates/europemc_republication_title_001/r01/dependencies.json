@@ -1,0 +1,24 @@
+{
+  "candidate_id":"europemc_republication_title_001",
+  "assessment":"Defensible evidence-dependent retrieval for an initial screen; universal shortcut exclusion is not claimed",
+  "steps":[
+    {"stage":1,"input":"Public journal, notice publication month, publication type","retrieval":"Official indexed metadata search or equivalent permitted bulk path","result":"Complete notice IDs and full-text locations"},
+    {"stage":2,"input":"Notice IDs obtained in stage 1","retrieval":"Notice full text","branch":"Keep only notices explicitly announcing republication to correct the article title","result":"Qualifying notice identities, republication dates, research-article relationships and original/corrected version labels"},
+    {"stage":3,"input":"Qualifying notice/research identities and version relationships obtained in stage 2","retrieval":"Their supplementaryFiles archives or DOI/title-based public repository searches","result":"Originally published title and corrected version title for the same research DOI"}
+  ],
+  "concrete_edges":[
+    {"notice":"10.1371/journal.pone.0131264","later_archive_filter":"PMC4476753","later_bibliographic_query":"10.1371/journal.pone.0125149","needed_evidence":"Old title omits in Candidemia; notice supplies corrected title but does not itself print the complete old title"},
+    {"notice":"10.1371/journal.pone.0132230","later_archive_filter":"PMC4488309","later_bibliographic_query":"10.1371/journal.pone.0125021","needed_evidence":"Original header spells CTNBB1; current corrected title spells CTNNB1"}
+  ],
+  "partial_shortcut":"The .0131134 notice explicitly states Dehyrogenase/Dehydrogenase, so that row alone is not strong historical-title retrieval evidence",
+  "fixed_download_test":"The constructor's d0001-d0004 summaries already contain answer fields but are private construction assets. They are not public retrieval sources. Saving all raw inputs for offline reproducibility does not itself establish retrieval dependency.",
+  "official_shortcuts":[
+    {"route":"Europe PMC core search","assessment":"Enumerates scope; no demonstrated complete historical-version payload"},
+    {"route":"PLOS complete JATS XML archive","assessment":"Official documentation excludes supplementary data. Whole corpus not searched for incidental old-title citations; do not claim their absence."},
+    {"route":"Europe PMC OA bulk/supplementary downloads","assessment":"Legitimate alternative. Documentation covers supplementary content, but no fixed bounded combined payload containing all selection and answer fields was demonstrated."},
+    {"route":"PLOS API, FAIR-SMart conversion","assessment":"Prior actual failures preserved; not retried or prohibited as valid contestant routes"},
+    {"route":"Public bibliographic records","assessment":"Successful old-title access; stage-2 article identity changes the later query. PDF tool failure is not the dependency."}
+  ],
+  "initial_screen_allowed":true,
+  "admission_claim":false
+}

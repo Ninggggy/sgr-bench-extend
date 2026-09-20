@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "files_scanned": 826,
+  "known_secret_value_count": 3,
+  "matching_files": [],
+  "scope": "Exact current known authentication values only; no secret values retained in this report. Not proof against unknown credentials or future auth rotation."
+}

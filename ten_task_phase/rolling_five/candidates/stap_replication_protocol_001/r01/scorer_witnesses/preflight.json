@@ -1,0 +1,24 @@
+{
+  "executed": true,
+  "ordinary_and_boundary_ids": "Niwa and Aizawa numeric PMIDs; Som PMC handled as source identity not output key",
+  "main_body_selection": "direct article/body only; author main text excludes sub-article peer review",
+  "scorer_all_fields_including_key": {
+    "correct_fields": 6,
+    "gold_fields": 6,
+    "pred_fields": 6,
+    "item_denominator": 12,
+    "correct_rows": 2,
+    "gold_rows": 2,
+    "pred_rows": 2,
+    "row_denominator": 4,
+    "correct_pairs": 1,
+    "pair_denominator": 1,
+    "shared_ids": 2
+  },
+  "metrics": {
+    "Item-F1": 1.0,
+    "Row-F1": 1.0,
+    "P.O.A.": 1.0
+  },
+  "model_tests": 0
+}

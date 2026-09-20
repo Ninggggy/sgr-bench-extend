@@ -1,0 +1,127 @@
+{
+  "status": "parsed",
+  "rows": [
+    {
+      "line": 2,
+      "raw": "below_mdl|available|below_or_equal|6",
+      "cells": [
+        "below_mdl",
+        "available",
+        "below_or_equal",
+        "6"
+      ]
+    },
+    {
+      "line": 3,
+      "raw": "below_mdl|available|crosses|4",
+      "cells": [
+        "below_mdl",
+        "available",
+        "crosses",
+        "4"
+      ]
+    },
+    {
+      "line": 4,
+      "raw": "below_mdl|withdrawn|unresolved_hardness|1",
+      "cells": [
+        "below_mdl",
+        "withdrawn",
+        "unresolved_hardness",
+        "1"
+      ]
+    },
+    {
+      "line": 5,
+      "raw": "between_mdl_rl|available|above|1",
+      "cells": [
+        "between_mdl_rl",
+        "available",
+        "above",
+        "1"
+      ]
+    },
+    {
+      "line": 6,
+      "raw": "between_mdl_rl|available|below_or_equal|13",
+      "cells": [
+        "between_mdl_rl",
+        "available",
+        "below_or_equal",
+        "13"
+      ]
+    },
+    {
+      "line": 7,
+      "raw": "between_mdl_rl|available|crosses|13",
+      "cells": [
+        "between_mdl_rl",
+        "available",
+        "crosses",
+        "13"
+      ]
+    },
+    {
+      "line": 8,
+      "raw": "between_mdl_rl|withdrawn|unresolved_hardness|3",
+      "cells": [
+        "between_mdl_rl",
+        "withdrawn",
+        "unresolved_hardness",
+        "3"
+      ]
+    },
+    {
+      "line": 9,
+      "raw": "not_reported|available|not_reported|2",
+      "cells": [
+        "not_reported",
+        "available",
+        "not_reported",
+        "2"
+      ]
+    },
+    {
+      "line": 10,
+      "raw": "point|available|above|14",
+      "cells": [
+        "point",
+        "available",
+        "above",
+        "14"
+      ]
+    },
+    {
+      "line": 11,
+      "raw": "point|available|below_or_equal|24",
+      "cells": [
+        "point",
+        "available",
+        "below_or_equal",
+        "24"
+      ]
+    },
+    {
+      "line": 12,
+      "raw": "point|withdrawn|unresolved_hardness|3",
+      "cells": [
+        "point",
+        "withdrawn",
+        "unresolved_hardness",
+        "3"
+      ]
+    },
+    {
+      "line": 13,
+      "raw": "unresolved_u_limit|available|unresolved_limit|17",
+      "cells": [
+        "unresolved_u_limit",
+        "available",
+        "unresolved_limit",
+        "17"
+      ]
+    }
+  ],
+  "ignored_lines": [],
+  "issues": []
+}

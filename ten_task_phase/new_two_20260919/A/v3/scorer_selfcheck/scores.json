@@ -1,0 +1,860 @@
+{
+  "status": "deterministic_explicit",
+  "metrics": {
+    "Item-F1": 1.0,
+    "Row-F1": 1.0,
+    "P.O.A.": 1.0
+  },
+  "counts": {
+    "correct_fields": 40,
+    "gold_fields": 40,
+    "pred_fields": 40,
+    "item_denominator": 80,
+    "correct_rows": 8,
+    "gold_rows": 8,
+    "pred_rows": 8,
+    "row_denominator": 16,
+    "correct_pairs": 28,
+    "pair_denominator": 28,
+    "shared_ids": 8
+  },
+  "omitted_ids": [],
+  "extra_ids": [],
+  "duplicate_ids": [],
+  "order_pairs": [
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "second": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "correct": true
+    }
+  ],
+  "poa_note": "first occurrence positions; no reordering",
+  "field_differences": [
+    {
+      "pred_index": 0,
+      "id": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "field": "zone",
+      "pred_raw": "Atlantic/Azores",
+      "pred_normalized": "Atlantic/Azores",
+      "gold": "Atlantic/Azores",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "field": "start_local",
+      "pred_raw": "1992-03-29T00:00:00",
+      "pred_normalized": "1992-03-29T00:00:00",
+      "gold": "1992-03-29T00:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "field": "end_local",
+      "pred_raw": "1992-03-29T01:00:00",
+      "pred_normalized": "1992-03-29T01:00:00",
+      "gold": "1992-03-29T01:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "field": "offsets_2024a",
+      "pred_raw": "{-01:00}",
+      "pred_normalized": "{-01:00}",
+      "gold": "{-01:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "Atlantic/Azores",
+        "1992-03-29T00:00:00"
+      ],
+      "field": "offsets_2024b",
+      "pred_raw": "{}",
+      "pred_normalized": "{}",
+      "gold": "{}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "field": "zone",
+      "pred_raw": "Atlantic/Azores",
+      "pred_normalized": "Atlantic/Azores",
+      "gold": "Atlantic/Azores",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "field": "start_local",
+      "pred_raw": "1992-03-29T01:00:00",
+      "pred_normalized": "1992-03-29T01:00:00",
+      "gold": "1992-03-29T01:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "field": "end_local",
+      "pred_raw": "1992-03-29T02:00:00",
+      "pred_normalized": "1992-03-29T02:00:00",
+      "gold": "1992-03-29T02:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "field": "offsets_2024a",
+      "pred_raw": "{}",
+      "pred_normalized": "{}",
+      "gold": "{}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "Atlantic/Azores",
+        "1992-03-29T01:00:00"
+      ],
+      "field": "offsets_2024b",
+      "pred_raw": "{+00:00}",
+      "pred_normalized": "{+00:00}",
+      "gold": "{+00:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "field": "zone",
+      "pred_raw": "Atlantic/Azores",
+      "pred_normalized": "Atlantic/Azores",
+      "gold": "Atlantic/Azores",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "field": "start_local",
+      "pred_raw": "1992-09-27T00:00:00",
+      "pred_normalized": "1992-09-27T00:00:00",
+      "gold": "1992-09-27T00:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "field": "end_local",
+      "pred_raw": "1992-09-27T01:00:00",
+      "pred_normalized": "1992-09-27T01:00:00",
+      "gold": "1992-09-27T01:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "field": "offsets_2024a",
+      "pred_raw": "{+00:00}",
+      "pred_normalized": "{+00:00}",
+      "gold": "{+00:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "Atlantic/Azores",
+        "1992-09-27T00:00:00"
+      ],
+      "field": "offsets_2024b",
+      "pred_raw": "{-01:00;+00:00}",
+      "pred_normalized": "{-01:00;+00:00}",
+      "gold": "{-01:00;+00:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "field": "zone",
+      "pred_raw": "Atlantic/Azores",
+      "pred_normalized": "Atlantic/Azores",
+      "gold": "Atlantic/Azores",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "field": "start_local",
+      "pred_raw": "1992-09-27T01:00:00",
+      "pred_normalized": "1992-09-27T01:00:00",
+      "gold": "1992-09-27T01:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "field": "end_local",
+      "pred_raw": "1992-12-27T01:00:00",
+      "pred_normalized": "1992-12-27T01:00:00",
+      "gold": "1992-12-27T01:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "field": "offsets_2024a",
+      "pred_raw": "{+00:00}",
+      "pred_normalized": "{+00:00}",
+      "gold": "{+00:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "Atlantic/Azores",
+        "1992-09-27T01:00:00"
+      ],
+      "field": "offsets_2024b",
+      "pred_raw": "{-01:00}",
+      "pred_normalized": "{-01:00}",
+      "gold": "{-01:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "field": "zone",
+      "pred_raw": "Atlantic/Azores",
+      "pred_normalized": "Atlantic/Azores",
+      "gold": "Atlantic/Azores",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "field": "start_local",
+      "pred_raw": "1992-12-27T01:00:00",
+      "pred_normalized": "1992-12-27T01:00:00",
+      "gold": "1992-12-27T01:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "field": "end_local",
+      "pred_raw": "1992-12-27T02:00:00",
+      "pred_normalized": "1992-12-27T02:00:00",
+      "gold": "1992-12-27T02:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "field": "offsets_2024a",
+      "pred_raw": "{+00:00}",
+      "pred_normalized": "{+00:00}",
+      "gold": "{+00:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "Atlantic/Azores",
+        "1992-12-27T01:00:00"
+      ],
+      "field": "offsets_2024b",
+      "pred_raw": "{}",
+      "pred_normalized": "{}",
+      "gold": "{}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "field": "zone",
+      "pred_raw": "Atlantic/Azores",
+      "pred_normalized": "Atlantic/Azores",
+      "gold": "Atlantic/Azores",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "field": "start_local",
+      "pred_raw": "1993-03-28T01:00:00",
+      "pred_normalized": "1993-03-28T01:00:00",
+      "gold": "1993-03-28T01:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "field": "end_local",
+      "pred_raw": "1993-03-28T02:00:00",
+      "pred_normalized": "1993-03-28T02:00:00",
+      "gold": "1993-03-28T02:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "field": "offsets_2024a",
+      "pred_raw": "{+00:00}",
+      "pred_normalized": "{+00:00}",
+      "gold": "{+00:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "Atlantic/Azores",
+        "1993-03-28T01:00:00"
+      ],
+      "field": "offsets_2024b",
+      "pred_raw": "{}",
+      "pred_normalized": "{}",
+      "gold": "{}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "field": "zone",
+      "pred_raw": "Atlantic/Azores",
+      "pred_normalized": "Atlantic/Azores",
+      "gold": "Atlantic/Azores",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "field": "start_local",
+      "pred_raw": "1993-03-28T02:00:00",
+      "pred_normalized": "1993-03-28T02:00:00",
+      "gold": "1993-03-28T02:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "field": "end_local",
+      "pred_raw": "1993-06-17T01:00:00",
+      "pred_normalized": "1993-06-17T01:00:00",
+      "gold": "1993-06-17T01:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "field": "offsets_2024a",
+      "pred_raw": "{+00:00}",
+      "pred_normalized": "{+00:00}",
+      "gold": "{+00:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "Atlantic/Azores",
+        "1993-03-28T02:00:00"
+      ],
+      "field": "offsets_2024b",
+      "pred_raw": "{+01:00}",
+      "pred_normalized": "{+01:00}",
+      "gold": "{+01:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "field": "zone",
+      "pred_raw": "Atlantic/Azores",
+      "pred_normalized": "Atlantic/Azores",
+      "gold": "Atlantic/Azores",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "field": "start_local",
+      "pred_raw": "1993-06-17T01:00:00",
+      "pred_normalized": "1993-06-17T01:00:00",
+      "gold": "1993-06-17T01:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "field": "end_local",
+      "pred_raw": "1993-06-17T02:00:00",
+      "pred_normalized": "1993-06-17T02:00:00",
+      "gold": "1993-06-17T02:00:00",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "field": "offsets_2024a",
+      "pred_raw": "{+00:00}",
+      "pred_normalized": "{+00:00}",
+      "gold": "{+00:00}",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "Atlantic/Azores",
+        "1993-06-17T01:00:00"
+      ],
+      "field": "offsets_2024b",
+      "pred_raw": "{+00:00;+01:00}",
+      "pred_normalized": "{+00:00;+01:00}",
+      "gold": "{+00:00;+01:00}",
+      "correct": true,
+      "reason": "match"
+    }
+  ],
+  "item_fraction": "80/80",
+  "strictly_below_70": false,
+  "whole_answer_correct": true
+}

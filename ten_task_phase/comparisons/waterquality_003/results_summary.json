@@ -1,0 +1,208 @@
+{
+  "task_id": "waterquality_003",
+  "protocol_version": "ten-task-v1",
+  "recorded_at": "2026-09-09T17:44:40.993554+00:00",
+  "kind": "preselected_old_comparison_not_new_admission",
+  "trials": [
+    {
+      "run_id": "r-8c5eb66967fe",
+      "variant": "CG",
+      "trial": 1,
+      "status": "completed",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification_status": "passed",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.3333333333333333,
+          "Row-F1": 0.3333333333333333,
+          "P.O.A.": 0
+        },
+        "counts": {
+          "correct_fields": 8,
+          "gold_fields": 24,
+          "pred_fields": 24,
+          "item_denominator": 48,
+          "correct_rows": 1,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 0,
+          "pair_denominator": 0,
+          "shared_ids": 1
+        }
+      },
+      "item_f1_exact": "1/3",
+      "targeted_public_answer_hits": 0
+    },
+    {
+      "run_id": "r-6699d09f5b50",
+      "variant": "GO",
+      "trial": 1,
+      "status": "completed",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification_status": "passed",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.3333333333333333,
+          "Row-F1": 0.3333333333333333,
+          "P.O.A.": 0
+        },
+        "counts": {
+          "correct_fields": 8,
+          "gold_fields": 24,
+          "pred_fields": 24,
+          "item_denominator": 48,
+          "correct_rows": 1,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 0,
+          "pair_denominator": 0,
+          "shared_ids": 1
+        }
+      },
+      "item_f1_exact": "1/3",
+      "targeted_public_answer_hits": 0
+    },
+    {
+      "run_id": "r-5b78fb0f1e5c",
+      "variant": "CG",
+      "trial": 2,
+      "status": "completed",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification_status": "passed",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.3333333333333333,
+          "Row-F1": 0.3333333333333333,
+          "P.O.A.": 0
+        },
+        "counts": {
+          "correct_fields": 8,
+          "gold_fields": 24,
+          "pred_fields": 24,
+          "item_denominator": 48,
+          "correct_rows": 1,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 0,
+          "pair_denominator": 0,
+          "shared_ids": 1
+        }
+      },
+      "item_f1_exact": "1/3",
+      "targeted_public_answer_hits": 0
+    },
+    {
+      "run_id": "r-a9eb82756924",
+      "variant": "GO",
+      "trial": 2,
+      "status": "completed",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification_status": "passed",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.0,
+          "Row-F1": 0.0,
+          "P.O.A.": 0
+        },
+        "counts": {
+          "correct_fields": 0,
+          "gold_fields": 24,
+          "pred_fields": 24,
+          "item_denominator": 48,
+          "correct_rows": 0,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 0,
+          "pair_denominator": 0,
+          "shared_ids": 0
+        }
+      },
+      "item_f1_exact": "0",
+      "targeted_public_answer_hits": 0
+    },
+    {
+      "run_id": "r-a44408dfbba9",
+      "variant": "CG",
+      "trial": 3,
+      "status": "completed",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification_status": "passed",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.3333333333333333,
+          "Row-F1": 0.3333333333333333,
+          "P.O.A.": 0
+        },
+        "counts": {
+          "correct_fields": 8,
+          "gold_fields": 24,
+          "pred_fields": 24,
+          "item_denominator": 48,
+          "correct_rows": 1,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 0,
+          "pair_denominator": 0,
+          "shared_ids": 1
+        }
+      },
+      "item_f1_exact": "1/3",
+      "targeted_public_answer_hits": 0
+    },
+    {
+      "run_id": "r-3d1974333833",
+      "variant": "GO",
+      "trial": 3,
+      "status": "completed",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification_status": "passed",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.0,
+          "Row-F1": 0.0,
+          "P.O.A.": 0
+        },
+        "counts": {
+          "correct_fields": 0,
+          "gold_fields": 24,
+          "pred_fields": 24,
+          "item_denominator": 48,
+          "correct_rows": 0,
+          "gold_rows": 3,
+          "pred_rows": 3,
+          "row_denominator": 6,
+          "correct_pairs": 0,
+          "pair_denominator": 0,
+          "shared_ids": 0
+        }
+      },
+      "item_f1_exact": "0",
+      "targeted_public_answer_hits": 0
+    }
+  ],
+  "item_f1_means_exact": {
+    "CG": "1/3",
+    "GO": "1/9"
+  },
+  "completed_slots": 6,
+  "semantic_review": "error_review.md",
+  "public_answer_exposure": "Targeted hits require manual review; no hits is not proof of no exposure.",
+  "interpretation": "Original oracle is nonunique under public criteria; alternative valid stations cause row-key mismatches. Preserve all raw scores; do not equate low scores with substantive errors."
+}

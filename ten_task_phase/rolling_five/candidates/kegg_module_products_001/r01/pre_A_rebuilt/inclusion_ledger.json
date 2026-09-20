@@ -1,0 +1,143 @@
+{
+  "source_line_decisions": [
+    {
+      "reaction_id": "R00024",
+      "module_id": "M00165",
+      "anchor_id": "modules.txt:656",
+      "arrow": "->",
+      "written_left_ids": [
+        "C00011",
+        "C01182"
+      ],
+      "written_right_ids": [
+        "C00197"
+      ],
+      "input_ids": [
+        "C00011",
+        "C01182"
+      ],
+      "product_ids": [
+        "C00197"
+      ],
+      "qualifying": true,
+      "reason": "C01182_consumed",
+      "duplicate_qualifying_source": false,
+      "decision": "exclude_group",
+      "group_reason": "single_qualifying_module"
+    },
+    {
+      "reaction_id": "R03140",
+      "module_id": "M00532",
+      "anchor_id": "modules.txt:852",
+      "arrow": "->",
+      "written_left_ids": [
+        "C01182"
+      ],
+      "written_right_ids": [
+        "C00197",
+        "C00988"
+      ],
+      "input_ids": [
+        "C01182"
+      ],
+      "product_ids": [
+        "C00197",
+        "C00988"
+      ],
+      "qualifying": true,
+      "reason": "C01182_consumed",
+      "duplicate_qualifying_source": false,
+      "decision": "include_pair",
+      "group_reason": "different_products_across_modules"
+    },
+    {
+      "reaction_id": "R03140",
+      "module_id": "M00968",
+      "anchor_id": "modules.txt:1148",
+      "arrow": "->",
+      "written_left_ids": [
+        "C01182"
+      ],
+      "written_right_ids": [
+        "C00197"
+      ],
+      "input_ids": [
+        "C01182"
+      ],
+      "product_ids": [
+        "C00197"
+      ],
+      "qualifying": true,
+      "reason": "C01182_consumed",
+      "duplicate_qualifying_source": false,
+      "decision": "include_pair",
+      "group_reason": "different_products_across_modules"
+    },
+    {
+      "reaction_id": "R00024",
+      "module_id": "M00532",
+      "decision": "no_matching_REACTION_line",
+      "product_ids": null,
+      "record_lines": [
+        684,
+        882
+      ],
+      "source_file": "modules.txt"
+    },
+    {
+      "reaction_id": "R00024",
+      "module_id": "M00968",
+      "decision": "no_matching_REACTION_line",
+      "product_ids": null,
+      "record_lines": [
+        884,
+        1167
+      ],
+      "source_file": "modules.txt"
+    },
+    {
+      "reaction_id": "R03140",
+      "module_id": "M00165",
+      "decision": "no_matching_REACTION_line",
+      "product_ids": null,
+      "record_lines": [
+        1,
+        682
+      ],
+      "source_file": "modules.txt"
+    }
+  ],
+  "reaction_groups": [
+    {
+      "reaction_id": "R00024",
+      "qualifying_module_ids": [
+        "M00165"
+      ],
+      "distinct_product_sets": [
+        [
+          "C00197"
+        ]
+      ],
+      "decision": "exclude",
+      "reason": "single_qualifying_module"
+    },
+    {
+      "reaction_id": "R03140",
+      "qualifying_module_ids": [
+        "M00532",
+        "M00968"
+      ],
+      "distinct_product_sets": [
+        [
+          "C00197"
+        ],
+        [
+          "C00197",
+          "C00988"
+        ]
+      ],
+      "decision": "include",
+      "reason": "different_products_across_modules"
+    }
+  ]
+}

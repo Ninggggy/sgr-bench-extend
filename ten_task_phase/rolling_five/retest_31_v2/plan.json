@@ -1,0 +1,982 @@
+{
+  "registered_at": "2026-09-13T11:57:33.464479+00:00",
+  "protocol_version": "ten-task-v2-bounded-retrieval",
+  "campaign": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five_campaign.json",
+  "ledger": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five_session_ledger.jsonl",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "role": "blind",
+  "purpose": "comparison",
+  "selection": "Latest previously tested revision per base; earliest archived public/oracle pair by time, without score selection. One trial per variant; no retries.",
+  "items": [
+    {
+      "candidate_id": "arxiv_assumption_scope_001",
+      "revision": 3,
+      "variants": {
+        "CG": {
+          "run_id": "arxiv_assumption_scope_001-r03-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-r03-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "arxiv_assumption_scope_001-r03-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-r03-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "variants": {
+        "CG": {
+          "run_id": "arxiv_historical_title_001-r02-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-title-r02-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "arxiv_historical_title_001-r02-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-title-r02-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "variants": {
+        "CG": {
+          "run_id": "arxiv_historical_title_002-r03-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "arxiv_historical_title_002-r03-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "cfpb_app_issuer_version_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "cfpb_app_issuer_version_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-cfpb-issuer-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "cfpb_app_issuer_version_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-cfpb-issuer-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "chembl_stereochemical_peers_001",
+      "revision": 2,
+      "variants": {
+        "CG": {
+          "run_id": "chembl_stereochemical_peers_001-r02-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/chembl-stereo-r02-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "chembl_stereochemical_peers_001-r02-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/chembl-stereo-r02-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "comptox_012",
+      "revision": 0,
+      "variants": {
+        "CG": {
+          "run_id": "comptox_012-r00-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-2dc5eb711174"
+        },
+        "GO": {
+          "run_id": "comptox_012-r00-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-dd837f3557ad"
+        }
+      }
+    },
+    {
+      "candidate_id": "device_recall_backlink_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "device_recall_backlink_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/device-backlink-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "device_recall_backlink_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/device-backlink-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "diazepam_receptor_identity_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "diazepam_receptor_identity_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/diazepam-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "diazepam_receptor_identity_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/diazepam-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "economic_kegg_ddi_001",
+      "revision": 2,
+      "variants": {
+        "CG": {
+          "run_id": "economic_kegg_ddi_001-r02-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/runs/kegg-ddi-r02-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "economic_kegg_ddi_001-r02-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/runs/kegg-ddi-r02-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "economic_nvd_daily_001",
+      "revision": 2,
+      "variants": {
+        "CG": {
+          "run_id": "economic_nvd_daily_001-r02-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/runs/nvd-daily-r02-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "economic_nvd_daily_001-r02-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/runs/nvd-daily-r02-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "epmc_quantitative_001",
+      "revision": 2,
+      "variants": {
+        "CG": {
+          "run_id": "epmc_quantitative_001-r02-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/epmc-r02-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "epmc_quantitative_001-r02-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/epmc-r02-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "europemc_balf_provenance_001",
+      "revision": 1,
+      "variants": {},
+      "status": "excluded_prior_service_safety_stop"
+    },
+    {
+      "candidate_id": "europemc_declared_patent_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "europemc_declared_patent_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-epmc-patent-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "europemc_declared_patent_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-epmc-patent-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "europemc_republication_title_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "europemc_republication_title_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-epmc-repubtitle-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "europemc_republication_title_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-epmc-repubtitle-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "europemc_reuse_deposit_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "europemc_reuse_deposit_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-epmc-reuse-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "europemc_reuse_deposit_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-epmc-reuse-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "genome_002",
+      "revision": 0,
+      "variants": {
+        "CG": {
+          "run_id": "genome_002-r00-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-aa1cc723e5c0"
+        },
+        "GO": {
+          "run_id": "genome_002-r00-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-3bf6d4816a7d"
+        }
+      }
+    },
+    {
+      "candidate_id": "iana_dtls_001",
+      "revision": 4,
+      "variants": {
+        "CG": {
+          "run_id": "iana_dtls_001-r04-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-r04-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "iana_dtls_001-r04-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-r04-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "kegg_initial_cdx_001",
+      "revision": 2,
+      "variants": {
+        "CG": {
+          "run_id": "kegg_initial_cdx_001-r02-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-kegg-cdx001-r02-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "kegg_initial_cdx_001-r02-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-kegg-cdx001-r02-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "kegg_module_products_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "kegg_module_products_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-module-products-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "kegg_module_products_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-module-products-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "kegg_prodrug_identity_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "kegg_prodrug_identity_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-prodrug-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "kegg_prodrug_identity_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-prodrug-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "nvd_configuration_environment_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "nvd_configuration_environment_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/nvd-environment-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "nvd_configuration_environment_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/nvd-environment-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "nvd_initial_assessment_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "nvd_initial_assessment_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-nvd-initial-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "nvd_initial_assessment_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-nvd-initial-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "nvd_repository_publication_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "nvd_repository_publication_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-nvd-repopub-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "nvd_repository_publication_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-nvd-repopub-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "optimization_guarantee_001",
+      "revision": 2,
+      "variants": {
+        "CG": {
+          "run_id": "optimization_guarantee_001-r02-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "optimization_guarantee_001-r02-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "reptile_001",
+      "revision": 0,
+      "variants": {
+        "CG": {
+          "run_id": "reptile_001-r00-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-38fddeb0a06d"
+        },
+        "GO": {
+          "run_id": "reptile_001-r00-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-b9ac95ab18e1"
+        }
+      }
+    },
+    {
+      "candidate_id": "reptile_type_referral_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "reptile_type_referral_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-reptile-referral-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "reptile_type_referral_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-reptile-referral-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "scotus_joinder_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "scotus_joinder_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "scotus_joinder_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "stap_replication_protocol_001",
+      "revision": 1,
+      "variants": {
+        "CG": {
+          "run_id": "stap_replication_protocol_001-r01-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/stap-r01-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "stap_replication_protocol_001-r01-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/stap-r01-go-dev-a"
+        }
+      }
+    },
+    {
+      "candidate_id": "wateroffice_002",
+      "revision": 0,
+      "variants": {
+        "CG": {
+          "run_id": "wateroffice_002-r00-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-2ce6c7d8cdc9"
+        },
+        "GO": {
+          "run_id": "wateroffice_002-r00-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-8a12e57411f7"
+        }
+      }
+    },
+    {
+      "candidate_id": "waterquality_003",
+      "revision": 0,
+      "variants": {
+        "CG": {
+          "run_id": "waterquality_003-r00-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-8c5eb66967fe"
+        },
+        "GO": {
+          "run_id": "waterquality_003-r00-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-6699d09f5b50"
+        }
+      }
+    },
+    {
+      "candidate_id": "wqp_censored_screening_001",
+      "revision": 2,
+      "variants": {
+        "CG": {
+          "run_id": "wqp_censored_screening_001-r02-cg-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/wqp-censor-r02-cg-dev-a"
+        },
+        "GO": {
+          "run_id": "wqp_censored_screening_001-r02-go-v2-once",
+          "source_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/wqp-censor-r02-go-dev-a"
+        }
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_assumption_scope_001-r03-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_assumption_scope_001-r03-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_assumption_scope_001-r03-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/arxiv_assumption_scope_001-r03-cg-v2-once",
+      "label": "arxiv_assumption_scope_001-r03-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_assumption_scope_001-r03-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_assumption_scope_001-r03-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_assumption_scope_001-r03-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_assumption_scope_001-r03-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/arxiv_assumption_scope_001-r03-go-v2-once",
+      "label": "arxiv_assumption_scope_001-r03-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_assumption_scope_001-r03-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_001-r02-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_001-r02-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_001-r02-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/arxiv_historical_title_001-r02-cg-v2-once",
+      "label": "arxiv_historical_title_001-r02-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_001-r02-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_001-r02-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_001-r02-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_001-r02-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/arxiv_historical_title_001-r02-go-v2-once",
+      "label": "arxiv_historical_title_001-r02-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_001-r02-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_002-r03-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_002-r03-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_002-r03-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/arxiv_historical_title_002-r03-cg-v2-once",
+      "label": "arxiv_historical_title_002-r03-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_002-r03-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_002-r03-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_002-r03-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_002-r03-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/arxiv_historical_title_002-r03-go-v2-once",
+      "label": "arxiv_historical_title_002-r03-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_002-r03-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/cfpb_app_issuer_version_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/cfpb_app_issuer_version_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/cfpb_app_issuer_version_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/cfpb_app_issuer_version_001-r01-cg-v2-once",
+      "label": "cfpb_app_issuer_version_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/cfpb_app_issuer_version_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/cfpb_app_issuer_version_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/cfpb_app_issuer_version_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/cfpb_app_issuer_version_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/cfpb_app_issuer_version_001-r01-go-v2-once",
+      "label": "cfpb_app_issuer_version_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/cfpb_app_issuer_version_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/chembl_stereochemical_peers_001-r02-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/chembl_stereochemical_peers_001-r02-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/chembl_stereochemical_peers_001-r02-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/chembl_stereochemical_peers_001-r02-cg-v2-once",
+      "label": "chembl_stereochemical_peers_001-r02-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/chembl_stereochemical_peers_001-r02-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/chembl_stereochemical_peers_001-r02-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/chembl_stereochemical_peers_001-r02-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/chembl_stereochemical_peers_001-r02-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/chembl_stereochemical_peers_001-r02-go-v2-once",
+      "label": "chembl_stereochemical_peers_001-r02-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/chembl_stereochemical_peers_001-r02-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/comptox_012-r00-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/comptox_012-r00-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/comptox_012-r00-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/comptox_012-r00-cg-v2-once",
+      "label": "comptox_012-r00-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/comptox_012-r00-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/comptox_012-r00-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/comptox_012-r00-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/comptox_012-r00-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/comptox_012-r00-go-v2-once",
+      "label": "comptox_012-r00-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/comptox_012-r00-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/device_recall_backlink_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/device_recall_backlink_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/device_recall_backlink_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/device_recall_backlink_001-r01-cg-v2-once",
+      "label": "device_recall_backlink_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/device_recall_backlink_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/device_recall_backlink_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/device_recall_backlink_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/device_recall_backlink_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/device_recall_backlink_001-r01-go-v2-once",
+      "label": "device_recall_backlink_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/device_recall_backlink_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/diazepam_receptor_identity_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/diazepam_receptor_identity_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/diazepam_receptor_identity_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/diazepam_receptor_identity_001-r01-cg-v2-once",
+      "label": "diazepam_receptor_identity_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/diazepam_receptor_identity_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/diazepam_receptor_identity_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/diazepam_receptor_identity_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/diazepam_receptor_identity_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/diazepam_receptor_identity_001-r01-go-v2-once",
+      "label": "diazepam_receptor_identity_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/diazepam_receptor_identity_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_kegg_ddi_001-r02-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_kegg_ddi_001-r02-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_kegg_ddi_001-r02-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/economic_kegg_ddi_001-r02-cg-v2-once",
+      "label": "economic_kegg_ddi_001-r02-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_kegg_ddi_001-r02-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_kegg_ddi_001-r02-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_kegg_ddi_001-r02-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_kegg_ddi_001-r02-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/economic_kegg_ddi_001-r02-go-v2-once",
+      "label": "economic_kegg_ddi_001-r02-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_kegg_ddi_001-r02-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_nvd_daily_001-r02-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_nvd_daily_001-r02-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_nvd_daily_001-r02-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/economic_nvd_daily_001-r02-cg-v2-once",
+      "label": "economic_nvd_daily_001-r02-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_nvd_daily_001-r02-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_nvd_daily_001-r02-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_nvd_daily_001-r02-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_nvd_daily_001-r02-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/economic_nvd_daily_001-r02-go-v2-once",
+      "label": "economic_nvd_daily_001-r02-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/economic_nvd_daily_001-r02-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/epmc_quantitative_001-r02-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/epmc_quantitative_001-r02-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/epmc_quantitative_001-r02-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/epmc_quantitative_001-r02-cg-v2-once",
+      "label": "epmc_quantitative_001-r02-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/epmc_quantitative_001-r02-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/epmc_quantitative_001-r02-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/epmc_quantitative_001-r02-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/epmc_quantitative_001-r02-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/epmc_quantitative_001-r02-go-v2-once",
+      "label": "epmc_quantitative_001-r02-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/epmc_quantitative_001-r02-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_declared_patent_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_declared_patent_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_declared_patent_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/europemc_declared_patent_001-r01-cg-v2-once",
+      "label": "europemc_declared_patent_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_declared_patent_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_declared_patent_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_declared_patent_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_declared_patent_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/europemc_declared_patent_001-r01-go-v2-once",
+      "label": "europemc_declared_patent_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_declared_patent_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_republication_title_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_republication_title_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_republication_title_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/europemc_republication_title_001-r01-cg-v2-once",
+      "label": "europemc_republication_title_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_republication_title_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_republication_title_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_republication_title_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_republication_title_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/europemc_republication_title_001-r01-go-v2-once",
+      "label": "europemc_republication_title_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_republication_title_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_reuse_deposit_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_reuse_deposit_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_reuse_deposit_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/europemc_reuse_deposit_001-r01-cg-v2-once",
+      "label": "europemc_reuse_deposit_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_reuse_deposit_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_reuse_deposit_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_reuse_deposit_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_reuse_deposit_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/europemc_reuse_deposit_001-r01-go-v2-once",
+      "label": "europemc_reuse_deposit_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_reuse_deposit_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/genome_002-r00-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/genome_002-r00-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/genome_002-r00-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/genome_002-r00-cg-v2-once",
+      "label": "genome_002-r00-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/genome_002-r00-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/genome_002-r00-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/genome_002-r00-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/genome_002-r00-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/genome_002-r00-go-v2-once",
+      "label": "genome_002-r00-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/genome_002-r00-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/iana_dtls_001-r04-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/iana_dtls_001-r04-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/iana_dtls_001-r04-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/iana_dtls_001-r04-cg-v2-once",
+      "label": "iana_dtls_001-r04-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/iana_dtls_001-r04-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/iana_dtls_001-r04-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/iana_dtls_001-r04-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/iana_dtls_001-r04-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/iana_dtls_001-r04-go-v2-once",
+      "label": "iana_dtls_001-r04-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/iana_dtls_001-r04-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_initial_cdx_001-r02-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_initial_cdx_001-r02-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_initial_cdx_001-r02-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/kegg_initial_cdx_001-r02-cg-v2-once",
+      "label": "kegg_initial_cdx_001-r02-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_initial_cdx_001-r02-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_initial_cdx_001-r02-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_initial_cdx_001-r02-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_initial_cdx_001-r02-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/kegg_initial_cdx_001-r02-go-v2-once",
+      "label": "kegg_initial_cdx_001-r02-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_initial_cdx_001-r02-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_module_products_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_module_products_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_module_products_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/kegg_module_products_001-r01-cg-v2-once",
+      "label": "kegg_module_products_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_module_products_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_module_products_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_module_products_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_module_products_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/kegg_module_products_001-r01-go-v2-once",
+      "label": "kegg_module_products_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_module_products_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_prodrug_identity_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_prodrug_identity_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_prodrug_identity_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/kegg_prodrug_identity_001-r01-cg-v2-once",
+      "label": "kegg_prodrug_identity_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_prodrug_identity_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_prodrug_identity_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_prodrug_identity_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_prodrug_identity_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/kegg_prodrug_identity_001-r01-go-v2-once",
+      "label": "kegg_prodrug_identity_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/kegg_prodrug_identity_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_configuration_environment_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_configuration_environment_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_configuration_environment_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/nvd_configuration_environment_001-r01-cg-v2-once",
+      "label": "nvd_configuration_environment_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_configuration_environment_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_configuration_environment_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_configuration_environment_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_configuration_environment_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/nvd_configuration_environment_001-r01-go-v2-once",
+      "label": "nvd_configuration_environment_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_configuration_environment_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_initial_assessment_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_initial_assessment_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_initial_assessment_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/nvd_initial_assessment_001-r01-cg-v2-once",
+      "label": "nvd_initial_assessment_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_initial_assessment_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_initial_assessment_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_initial_assessment_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_initial_assessment_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/nvd_initial_assessment_001-r01-go-v2-once",
+      "label": "nvd_initial_assessment_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_initial_assessment_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_repository_publication_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_repository_publication_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_repository_publication_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/nvd_repository_publication_001-r01-cg-v2-once",
+      "label": "nvd_repository_publication_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_repository_publication_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_repository_publication_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_repository_publication_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_repository_publication_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/nvd_repository_publication_001-r01-go-v2-once",
+      "label": "nvd_repository_publication_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_repository_publication_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/optimization_guarantee_001-r02-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/optimization_guarantee_001-r02-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/optimization_guarantee_001-r02-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/optimization_guarantee_001-r02-cg-v2-once",
+      "label": "optimization_guarantee_001-r02-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/optimization_guarantee_001-r02-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/optimization_guarantee_001-r02-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/optimization_guarantee_001-r02-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/optimization_guarantee_001-r02-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/optimization_guarantee_001-r02-go-v2-once",
+      "label": "optimization_guarantee_001-r02-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/optimization_guarantee_001-r02-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_001-r00-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_001-r00-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_001-r00-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/reptile_001-r00-cg-v2-once",
+      "label": "reptile_001-r00-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_001-r00-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_001-r00-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_001-r00-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_001-r00-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/reptile_001-r00-go-v2-once",
+      "label": "reptile_001-r00-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_001-r00-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_type_referral_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_type_referral_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_type_referral_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/reptile_type_referral_001-r01-cg-v2-once",
+      "label": "reptile_type_referral_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_type_referral_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_type_referral_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_type_referral_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_type_referral_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/reptile_type_referral_001-r01-go-v2-once",
+      "label": "reptile_type_referral_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/reptile_type_referral_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/scotus_joinder_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/scotus_joinder_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/scotus_joinder_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/scotus_joinder_001-r01-cg-v2-once",
+      "label": "scotus_joinder_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/scotus_joinder_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/scotus_joinder_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/scotus_joinder_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/scotus_joinder_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/scotus_joinder_001-r01-go-v2-once",
+      "label": "scotus_joinder_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/scotus_joinder_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/stap_replication_protocol_001-r01-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/stap_replication_protocol_001-r01-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/stap_replication_protocol_001-r01-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/stap_replication_protocol_001-r01-cg-v2-once",
+      "label": "stap_replication_protocol_001-r01-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/stap_replication_protocol_001-r01-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/stap_replication_protocol_001-r01-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/stap_replication_protocol_001-r01-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/stap_replication_protocol_001-r01-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/stap_replication_protocol_001-r01-go-v2-once",
+      "label": "stap_replication_protocol_001-r01-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/stap_replication_protocol_001-r01-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wateroffice_002-r00-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wateroffice_002-r00-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wateroffice_002-r00-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/wateroffice_002-r00-cg-v2-once",
+      "label": "wateroffice_002-r00-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wateroffice_002-r00-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wateroffice_002-r00-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wateroffice_002-r00-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wateroffice_002-r00-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/wateroffice_002-r00-go-v2-once",
+      "label": "wateroffice_002-r00-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wateroffice_002-r00-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/waterquality_003-r00-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/waterquality_003-r00-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/waterquality_003-r00-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/waterquality_003-r00-cg-v2-once",
+      "label": "waterquality_003-r00-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/waterquality_003-r00-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/waterquality_003-r00-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/waterquality_003-r00-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/waterquality_003-r00-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/waterquality_003-r00-go-v2-once",
+      "label": "waterquality_003-r00-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/waterquality_003-r00-go-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wqp_censored_screening_001-r02-cg-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wqp_censored_screening_001-r02-cg-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wqp_censored_screening_001-r02-cg-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/wqp_censored_screening_001-r02-cg-v2-once",
+      "label": "wqp_censored_screening_001-r02-cg-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wqp_censored_screening_001-r02-cg-v2-once/job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wqp_censored_screening_001-r02-go-v2-once/public.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wqp_censored_screening_001-r02-go-v2-once/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wqp_censored_screening_001-r02-go-v2-once/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/runs/wqp_censored_screening_001-r02-go-v2-once",
+      "label": "wqp_censored_screening_001-r02-go-v2-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/wqp_censored_screening_001-r02-go-v2-once/job.json"
+    }
+  ],
+  "deadline": "2026-09-13T16:26:15.871+00:00"
+}

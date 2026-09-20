@@ -1,0 +1,5 @@
+candidate_id,revision,variant,trial,stage,status,model,effort,model_verification,item_f1_exact,item_f1_percent,row_f1,whole_task_correct,retrieval_compliance,external_requests,access_confounded,capability_score_eligible,elapsed_seconds,run_id
+europemc_reuse_deposit_001,2,CG,1,single_trial_comparison,completed,gpt-5.6-sol,medium,passed,0,0.0,0.0,False,failed,31,True,False,167.123,europemc_reuse_deposit_001-polish01-cg-once
+europemc_reuse_deposit_001,2,GO,1,single_trial_comparison,completed,gpt-5.6-sol,medium,passed,0,0.0,0.0,False,passed,33,True,False,207.497,europemc_reuse_deposit_001-polish01-go-once
+stap_replication_protocol_001,2,CG,1,single_trial_comparison,completed,gpt-5.6-sol,medium,passed,,,,,inconclusive,47,True,False,263.408,stap_replication_protocol_001-polish01-cg-once
+stap_replication_protocol_001,2,GO,1,single_trial_comparison,completed,gpt-5.6-sol,medium,passed,,,,,passed,3,True,False,55.353,stap_replication_protocol_001-polish01-go-once

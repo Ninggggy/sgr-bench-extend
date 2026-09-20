@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "field": "initial_n",
+      "a": "730.0",
+      "b": "730",
+      "expected_equivalent": true,
+      "observed_equivalent": true
+    },
+    {
+      "field": "analysis_population",
+      "a": "baseline;SCID5;returned",
+      "b": "baseline;SCID-5;returned",
+      "expected_equivalent": true,
+      "observed_equivalent": true
+    },
+    {
+      "field": "analyzed_n",
+      "a": "730",
+      "b": "581",
+      "expected_equivalent": false,
+      "observed_equivalent": false
+    },
+    {
+      "field": "help_n",
+      "a": "109",
+      "b": "271",
+      "expected_equivalent": false,
+      "observed_equivalent": false
+    },
+    {
+      "field": "nondepressed_n",
+      "a": "481",
+      "b": "491",
+      "expected_equivalent": false,
+      "observed_equivalent": false
+    }
+  ],
+  "not_solver_scores": true
+}

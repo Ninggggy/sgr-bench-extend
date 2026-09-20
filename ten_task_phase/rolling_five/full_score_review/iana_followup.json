@@ -1,0 +1,218 @@
+{
+  "candidate_id": "iana_dtls_001",
+  "reviewed_revision": 3,
+  "work_type": "bounded historical-original evidence followup",
+  "started_utc": "2026-09-12T17:59:16+00:00",
+  "ended_utc": "2026-09-12T18:03:37.893727+00:00",
+  "source_access_period_utc": [
+    "2026-09-12T17:59:16Z",
+    "2026-09-12T17:59:55Z"
+  ],
+  "maximum_wall_seconds": 1200,
+  "actual_wall_seconds": 261.893727,
+  "hypothesis": "An official historical draft/allocation event may uniquely connect deprecated numeric allocation53 to its actual specification and a necessary compatibility boundary.",
+  "minimal_original": "Versioned official draft explicitly using53 or official allocation event explicitly linking53 to that draft and relevant definition.",
+  "pre_request_registration": "iana_followup.md initial hypothesis/budget/stop section preserved",
+  "request_budget": 8,
+  "requests": [
+    {
+      "n": 1,
+      "web_call": 1,
+      "operation": "open",
+      "url": "https://datatracker.ietf.org/doc/rfc9146/",
+      "result": "retrieved",
+      "locator": "L89-95",
+      "finding": "RFC metadata explicitly identifies predecessor draft family via Was link67.",
+      "access_utc": "between17:59:16 and17:59:22 UTC"
+    },
+    {
+      "n": 2,
+      "web_call": 2,
+      "operation": "click link67 from RFC metadata",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/13/",
+      "result": "retrieved",
+      "locator": "L90-108,286-295",
+      "finding": "Official latest draft13 exposes revision selector00-13; enum remains TBD1.",
+      "access_utc": "between17:59:22 and17:59:55 UTC; exact unknown"
+    },
+    {
+      "n": 3,
+      "web_call": 3,
+      "operation": "find Changes from",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/13/",
+      "result": "no exact phrase match",
+      "finding": "Not evidence that change history is absent.",
+      "access_utc": "between17:59:22 and17:59:55 UTC; exact unknown"
+    },
+    {
+      "n": 4,
+      "web_call": 3,
+      "operation": "find53",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/13/",
+      "result": "retrieved broad matches",
+      "locator": "L724-736,808-840",
+      "finding": "IANA text still does not identify earlier revision; Appendix A names09 MAC/additional-data change.",
+      "access_utc": "between17:59:22 and17:59:55 UTC; exact unknown"
+    },
+    {
+      "n": 5,
+      "web_call": 4,
+      "operation": "click revision08 link73 from draft13",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/08/",
+      "result": "retrieved",
+      "locator": "first rendering L143-151,268-272,481-491",
+      "finding": "Versioned original08 and old AEAD concatenation obtained; displayed enum is TBD1, not53.",
+      "access_utc": "between17:59:22 and17:59:55 UTC; exact unknown"
+    },
+    {
+      "n": 6,
+      "web_call": 4,
+      "operation": "click revision09 link74 from draft13",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/09/",
+      "result": "retrieved but response only gives metadata/title",
+      "finding": "Specific version09 exists; complete body not exposed in this batched response.",
+      "access_utc": "between17:59:22 and17:59:55 UTC; exact unknown"
+    },
+    {
+      "n": 7,
+      "web_call": 5,
+      "operation": "find53",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/08/",
+      "result": "broad navigation matches; output truncated",
+      "locator": "second rendering L89-137",
+      "finding": "Confirms version08 identity/date; not adequate to determine whether any later body paragraph mentions53.",
+      "access_utc": "before17:59:55 UTC; exact unknown"
+    },
+    {
+      "n": 8,
+      "web_call": 5,
+      "operation": "find53",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/09/",
+      "result": "broad navigation matches; output truncated",
+      "locator": "L89-137",
+      "finding": "Confirms version09 identity and header; no complete allocation paragraph obtained.",
+      "access_utc": "before17:59:55 UTC; exact unknown"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "url": "https://datatracker.ietf.org/doc/rfc9146/",
+      "source_locator": "request1 L89-95",
+      "short_quote": "Was draft-ietf-tls-dtls-connection-id",
+      "claim": "RFC9146 has an explicitly identified official predecessor family."
+    },
+    {
+      "id": "E2",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/13/",
+      "source_locator": "request4 Appendix A L832-834",
+      "short_quote": "draft-ietf-tls-dtls-connection-id-09; Changed MAC/additional data calculation.",
+      "claim": "History identifies09 as a substantive calculation change; it does not identify53 ownership."
+    },
+    {
+      "id": "E3",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/08/",
+      "source_locator": "request5 §3 L268-272; §5.3 L481-491",
+      "short_quote": "connection_id(TBD1)",
+      "claim": "The selected08 original has an unspecified extension enum. Its AEAD additional-data sequence places cid_length after cid and starts with seq_num."
+    },
+    {
+      "id": "E4",
+      "url": "https://datatracker.ietf.org/doc/rfc9146/",
+      "source_locator": "request1 §5.3 L475-488",
+      "short_quote": null,
+      "claim": "Final RFC uses a sequence-number placeholder, repeated CID content type, cid_length before the version, and explicit epoch and sequence_number before cid. It does not provide the old08 expression."
+    },
+    {
+      "id": "E5",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/13/",
+      "source_locator": "request4 §10.2 L724-732",
+      "short_quote": null,
+      "claim": "Latest draft repeats the53 incompatibility notice but still only calls it a previous version, with no exact revision correspondence."
+    }
+  ],
+  "historical_identity_assessment": {
+    "status": "not_closed",
+    "known": "RFC predecessor family and official08/09 revision identities obtained;09 change history and08 old formula obtained.",
+    "unknown": "Which official historical revision, bounded revision set, or transition boundary is associated with allocation53 and the relevant authentication definition.",
+    "no_inference": "Do not equate08 with53 because it predates the MAC change. TBD1 cannot be silently replaced with53.",
+    "single_revision_not_required": "A bounded revision set or documented transition boundary with unambiguous relevant definitions is sufficient. Requiring53 to designate exactly one revision would be stronger than necessary."
+  },
+  "difference_assessment": {
+    "natural": "Old/new authenticated-data layout can matter to interoperation, a real definition difference beyond maturity metadata.",
+    "new_evidence": "Old08 AEAD expression and09 change-history statement were not in current fixed registry/RFC source package.",
+    "current_fixed_material": "Current RFC directly supplies final formula and incompatible=no interoperability conclusion, but not08 old expression or53 revision mapping.",
+    "boundary": "This does not establish a unique53-associated standard or an evidence-backed new answer; asking merely whether53/54 are compatible remains directly answered by old RFC9146."
+  },
+  "dependency": {
+    "supported_prefix": [
+      "IANA deprecated identity/reference",
+      "RFC9146 official predecessor family",
+      "draft13 version-history statement",
+      "select official08/09 revision views"
+    ],
+    "needed_information": "Version-specific authenticated-data definition associated with53",
+    "missing_edge": "Official53→exact historical revision correspondence",
+    "strict_sgr_claim": "Version selection is a site-specific operation determined by prior history evidence; incomplete identity edge prevents claiming a ready SGR task. No extra second-level requirement imposed."
+  },
+  "true_boundary": {
+    "positive": "Actual08 definition differs from final RFC",
+    "negative": "TBD1 in08 enum;09 change history alone does not label all prior revisions53",
+    "access_boundary": "Two broad find53 outputs were truncated and navigation-contaminated; absence of53 in body unknown, not disproven."
+  },
+  "reference_reuse": [
+    "IANA namespace/table and numeric identity parser",
+    "existing full registry observation andxrefs",
+    "document identity/version checks",
+    "source index",
+    "current maturity fields if retained naturally"
+  ],
+  "minimum_reference_change_if_future_evidence_closes": [
+    "Add explicit allocation-to-version original and evidence-backed mapping",
+    "Add only necessary definition comparison fields to serve interoperability need",
+    "Recheck full revised scope andCG/GO conditions; existing formula reading needs semantic review",
+    "Sync private/public empty serialization residue when actualr04 constructed"
+  ],
+  "current_reference_change": false,
+  "revision_budget": {
+    "maximum": 2,
+    "used_before": 1,
+    "used_after": 1,
+    "remaining": 1,
+    "r04_created": false,
+    "note": "Any future actual substantive r04 uses second revision; no reset byID."
+  },
+  "decision": {
+    "status": "stop_this_followup_not_ready_for_r04",
+    "worth_spending_remaining_revision_now": false,
+    "reason": "Eight registered request items exhausted without an official allocation-to-revision/set/transition relation. A true08-versus-final textual difference exists, but it does not uniquely establish allocation-specific interoperability semantics; the generic historical comparison is a changed information need without sufficient task justification.",
+    "reopen_evidence": "Official allocation review/event or historical draft connecting53 to a revision, bounded revision set, or transition with unambiguous relevant definition. A single revision is not mandatory."
+  },
+  "proposal": null,
+  "accounting": {
+    "web_tool_calls": 5,
+    "requested_web_items": 8,
+    "unique_url_targets": 4,
+    "actual_underlying_http_requests": "unknown (web service internal fetching/caching)",
+    "source_failures": "No safety block or explicit fetch failure;2 unhelpful broad find responses and1 no exact match; body coverage incomplete",
+    "new_solver_tests": 0,
+    "new_agents": 0,
+    "old_files_modified": 0,
+    "new_model_worker_invocations": 0,
+    "model": "gpt-6-astra/high inherited authorized reviewer",
+    "input_tokens": "unknown",
+    "cached_input_tokens": "unknown",
+    "output_tokens": "unknown",
+    "money": "unknown",
+    "clock_calls": 3,
+    "local_exec_calls_including_report_write_and_validation": 3
+  },
+  "alternative_scope_assessment": {
+    "examined_without_new_requests": true,
+    "supported": "Revision08 versus publishedRFC9146 authentication-input source-text difference; draft13 history labels09 a MAC/additional-data change.",
+    "not_verified": "Complete09 formulas were not exposed; no claim of exact08-to09 expression equivalence or53-to54 causal relation.",
+    "possible_generic_task": "A specification-family historical authentication-input comparison could be written without assigning08 to53. Its versions can be discovered fromRFC predecessor/history rather than supplied as fixed IDs.",
+    "limitation": "That generic comparison changes the natural target from registration identity/maturity and allocation-specific interoperation to a chosen last-MAC-change study. Existing evidence does not justify that choice as the required next fact for this inventory. Copying before/after formulas is not itself strongerSGR or difficulty evidence.",
+    "conclusion": "Do not silently replace the information need, assert allocation causality, or spendr04 merely because a historical difference exists."
+  }
+}

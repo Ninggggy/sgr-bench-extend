@@ -1,0 +1,788 @@
+{
+  "status": "deterministic_explicit",
+  "metrics": {
+    "Item-F1": 1.0,
+    "Row-F1": 1.0,
+    "P.O.A.": 1.0
+  },
+  "counts": {
+    "correct_fields": 22,
+    "gold_fields": 22,
+    "pred_fields": 22,
+    "item_denominator": 44,
+    "correct_rows": 11,
+    "gold_rows": 11,
+    "pred_rows": 11,
+    "row_denominator": 22,
+    "correct_pairs": 55,
+    "pair_denominator": 55,
+    "shared_ids": 11
+  },
+  "omitted_ids": [],
+  "extra_ids": [],
+  "duplicate_ids": [],
+  "order_pairs": [
+    {
+      "first": [
+        "DIRECT_COMPLEX"
+      ],
+      "second": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "DIRECT_COMPLEX"
+      ],
+      "second": [
+        "COMPLEX_GROUP"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "DIRECT_COMPLEX"
+      ],
+      "second": [
+        "GABA_SUBUNIT"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "DIRECT_COMPLEX"
+      ],
+      "second": [
+        "TSPO"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "DIRECT_COMPLEX"
+      ],
+      "second": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "DIRECT_COMPLEX"
+      ],
+      "second": [
+        "OTHER"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "DIRECT_COMPLEX"
+      ],
+      "second": [
+        "ENGINEERED_VARIANT"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "DIRECT_COMPLEX"
+      ],
+      "second": [
+        "604850"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "DIRECT_COMPLEX"
+      ],
+      "second": [
+        "1701379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "DIRECT_COMPLEX"
+      ],
+      "second": [
+        "1876214"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "second": [
+        "COMPLEX_GROUP"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "second": [
+        "GABA_SUBUNIT"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "second": [
+        "TSPO"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "second": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "second": [
+        "OTHER"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "second": [
+        "ENGINEERED_VARIANT"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "second": [
+        "604850"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "second": [
+        "1701379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "second": [
+        "1876214"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "COMPLEX_GROUP"
+      ],
+      "second": [
+        "GABA_SUBUNIT"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "COMPLEX_GROUP"
+      ],
+      "second": [
+        "TSPO"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "COMPLEX_GROUP"
+      ],
+      "second": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "COMPLEX_GROUP"
+      ],
+      "second": [
+        "OTHER"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "COMPLEX_GROUP"
+      ],
+      "second": [
+        "ENGINEERED_VARIANT"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "COMPLEX_GROUP"
+      ],
+      "second": [
+        "604850"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "COMPLEX_GROUP"
+      ],
+      "second": [
+        "1701379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "COMPLEX_GROUP"
+      ],
+      "second": [
+        "1876214"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "GABA_SUBUNIT"
+      ],
+      "second": [
+        "TSPO"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "GABA_SUBUNIT"
+      ],
+      "second": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "GABA_SUBUNIT"
+      ],
+      "second": [
+        "OTHER"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "GABA_SUBUNIT"
+      ],
+      "second": [
+        "ENGINEERED_VARIANT"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "GABA_SUBUNIT"
+      ],
+      "second": [
+        "604850"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "GABA_SUBUNIT"
+      ],
+      "second": [
+        "1701379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "GABA_SUBUNIT"
+      ],
+      "second": [
+        "1876214"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "TSPO"
+      ],
+      "second": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "TSPO"
+      ],
+      "second": [
+        "OTHER"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "TSPO"
+      ],
+      "second": [
+        "ENGINEERED_VARIANT"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "TSPO"
+      ],
+      "second": [
+        "604850"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "TSPO"
+      ],
+      "second": [
+        "1701379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "TSPO"
+      ],
+      "second": [
+        "1876214"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "second": [
+        "OTHER"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "second": [
+        "ENGINEERED_VARIANT"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "second": [
+        "604850"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "second": [
+        "1701379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "second": [
+        "1876214"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "OTHER"
+      ],
+      "second": [
+        "ENGINEERED_VARIANT"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "OTHER"
+      ],
+      "second": [
+        "604850"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "OTHER"
+      ],
+      "second": [
+        "1701379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "OTHER"
+      ],
+      "second": [
+        "1876214"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "ENGINEERED_VARIANT"
+      ],
+      "second": [
+        "604850"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "ENGINEERED_VARIANT"
+      ],
+      "second": [
+        "1701379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "ENGINEERED_VARIANT"
+      ],
+      "second": [
+        "1876214"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "604850"
+      ],
+      "second": [
+        "1701379"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "604850"
+      ],
+      "second": [
+        "1876214"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "1701379"
+      ],
+      "second": [
+        "1876214"
+      ],
+      "correct": true
+    }
+  ],
+  "poa_note": "first occurrence positions; no reordering",
+  "field_differences": [
+    {
+      "pred_index": 0,
+      "id": [
+        "DIRECT_COMPLEX"
+      ],
+      "field": "ITEM",
+      "pred_raw": "DIRECT_COMPLEX",
+      "pred_normalized": "DIRECT_COMPLEX",
+      "gold": "DIRECT_COMPLEX",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "DIRECT_COMPLEX"
+      ],
+      "field": "FINDING",
+      "pred_raw": "42",
+      "pred_normalized": "42",
+      "gold": "42",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "field": "ITEM",
+      "pred_raw": "HOMOLOGOUS_COMPLEX",
+      "pred_normalized": "HOMOLOGOUS_COMPLEX",
+      "gold": "HOMOLOGOUS_COMPLEX",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "HOMOLOGOUS_COMPLEX"
+      ],
+      "field": "FINDING",
+      "pred_raw": "13",
+      "pred_normalized": "13",
+      "gold": "13",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "COMPLEX_GROUP"
+      ],
+      "field": "ITEM",
+      "pred_raw": "COMPLEX_GROUP",
+      "pred_normalized": "COMPLEX_GROUP",
+      "gold": "COMPLEX_GROUP",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "COMPLEX_GROUP"
+      ],
+      "field": "FINDING",
+      "pred_raw": "28",
+      "pred_normalized": "28",
+      "gold": "28",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "GABA_SUBUNIT"
+      ],
+      "field": "ITEM",
+      "pred_raw": "GABA_SUBUNIT",
+      "pred_normalized": "GABA_SUBUNIT",
+      "gold": "GABA_SUBUNIT",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "GABA_SUBUNIT"
+      ],
+      "field": "FINDING",
+      "pred_raw": "9",
+      "pred_normalized": "9",
+      "gold": "9",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "TSPO"
+      ],
+      "field": "ITEM",
+      "pred_raw": "TSPO",
+      "pred_normalized": "TSPO",
+      "gold": "TSPO",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "TSPO"
+      ],
+      "field": "FINDING",
+      "pred_raw": "2",
+      "pred_normalized": "2",
+      "gold": "2",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "field": "ITEM",
+      "pred_raw": "UNCURATED_GABA_BZD",
+      "pred_normalized": "UNCURATED_GABA_BZD",
+      "gold": "UNCURATED_GABA_BZD",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "UNCURATED_GABA_BZD"
+      ],
+      "field": "FINDING",
+      "pred_raw": "26",
+      "pred_normalized": "26",
+      "gold": "26",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "OTHER"
+      ],
+      "field": "ITEM",
+      "pred_raw": "OTHER",
+      "pred_normalized": "OTHER",
+      "gold": "OTHER",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "OTHER"
+      ],
+      "field": "FINDING",
+      "pred_raw": "10",
+      "pred_normalized": "10",
+      "gold": "10",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "ENGINEERED_VARIANT"
+      ],
+      "field": "ITEM",
+      "pred_raw": "ENGINEERED_VARIANT",
+      "pred_normalized": "ENGINEERED_VARIANT",
+      "gold": "ENGINEERED_VARIANT",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "ENGINEERED_VARIANT"
+      ],
+      "field": "FINDING",
+      "pred_raw": "6",
+      "pred_normalized": "6",
+      "gold": "6",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 8,
+      "id": [
+        "604850"
+      ],
+      "field": "ITEM",
+      "pred_raw": "604850",
+      "pred_normalized": "604850",
+      "gold": "604850",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 8,
+      "id": [
+        "604850"
+      ],
+      "field": "FINDING",
+      "pred_raw": "Homo sapiens alpha4/beta3/gamma2 -> Homo sapiens alpha1/beta3/gamma2",
+      "pred_normalized": "Homo sapiens alpha4/beta3/gamma2 -> Homo sapiens alpha1/beta3/gamma2",
+      "gold": "Homo sapiens alpha4/beta3/gamma2 -> Homo sapiens alpha1/beta3/gamma2",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 9,
+      "id": [
+        "1701379"
+      ],
+      "field": "ITEM",
+      "pred_raw": "1701379",
+      "pred_normalized": "1701379",
+      "gold": "1701379",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 9,
+      "id": [
+        "1701379"
+      ],
+      "field": "FINDING",
+      "pred_raw": "Homo sapiens alpha1/beta2/gamma2 -> Homo sapiens alpha1/beta1/gamma2",
+      "pred_normalized": "Homo sapiens alpha1/beta2/gamma2 -> Homo sapiens alpha1/beta1/gamma2",
+      "gold": "Homo sapiens alpha1/beta2/gamma2 -> Homo sapiens alpha1/beta1/gamma2",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 10,
+      "id": [
+        "1876214"
+      ],
+      "field": "ITEM",
+      "pred_raw": "1876214",
+      "pred_normalized": "1876214",
+      "gold": "1876214",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 10,
+      "id": [
+        "1876214"
+      ],
+      "field": "FINDING",
+      "pred_raw": "Rattus norvegicus alpha5/beta2/gamma2 -> Rattus norvegicus alpha1/beta2/gamma2",
+      "pred_normalized": "Rattus norvegicus alpha5/beta2/gamma2 -> Rattus norvegicus alpha1/beta2/gamma2",
+      "gold": "Rattus norvegicus alpha5/beta2/gamma2 -> Rattus norvegicus alpha1/beta2/gamma2",
+      "correct": true,
+      "reason": "match"
+    }
+  ]
+}

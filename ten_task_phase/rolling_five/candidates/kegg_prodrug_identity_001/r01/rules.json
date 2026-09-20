@@ -1,0 +1,8 @@
+{
+  "columns": ["PRODRUG_D", "ACTIVE_D"],
+  "row_key": ["PRODRUG_D", "ACTIVE_D"],
+  "fields": {
+    "PRODRUG_D": {"type": "string"},
+    "ACTIVE_D": {"type": "string"}
+  }
+}

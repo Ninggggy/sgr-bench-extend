@@ -1,0 +1,41 @@
+{
+  "root": {
+    "record_id": "123823",
+    "recall_number": "Z-0436-2014",
+    "date_posted": "December 03, 2013"
+  },
+  "rows": [
+    {
+      "application": "K050369",
+      "status": "PRESENT",
+      "basis": "At least one actual displayed link resolves to the exact source record; remaining unresolved targets are immaterial to positive membership.",
+      "resolved_target_count": 1,
+      "matching_targets": [
+        {
+          "link_id": 25,
+          "display_description": "Assembly, Patient Side Manipulator on da Vinci Surgical Systems: da Vinci S Surgical System; da Vi...",
+          "display_class": "2",
+          "display_posted": "12/03/2013",
+          "application": "K050369",
+          "position": 12,
+          "page_ref": "turn57view0",
+          "target_record_id": "123823",
+          "target_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=123823",
+          "target_source": "turn58view0",
+          "target_recall_number": "Z-0436-2014"
+        }
+      ]
+    },
+    {
+      "application": "K081137",
+      "status": "ABSENT",
+      "basis": "Every displayed row has a resolved official record ID, and none equals the source ID. No date/name inference.",
+      "resolved_target_count": 7,
+      "matching_targets": []
+    }
+  ],
+  "identity_method": "Actual click source ref/link ID to official final record URL; no title/date equivalence assumption",
+  "all_application_rows_included": true,
+  "excluded_applications": [],
+  "observation_date": "2026-09-13"
+}

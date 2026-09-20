@@ -1,0 +1,21 @@
+{
+  "preserved_original_artifacts":["d0011","d0022"],
+  "original_failures": [
+    {"operation":"registered downloads","sources":"FDA diagnostic table, openFDA PMA API, FDA PMA ZIP, physician PDF, openFDA dataset ZIP","actual_result":"ValueError: Only configured official-source HTTPS URLs are supported","evidence":"d0011"},
+    {"operation":"web open","sources":"openFDA PMA JSON and downloads manifest","actual_result":"Internal Error; no data body inspected","evidence":"d0011"},
+    {"operation":"web official bulk link","url":"https://www.accessdata.fda.gov/premarket/ftparea/pma.zip","actual_result":"400 Unsupported content-type: application/x-zip-compressed","evidence":"d0011"},
+    {"operation":"original complete-source paging","actual_result":"Initial 32000-character stepping exceeded a 30000-character response cap, yielding an incomplete 1072-row parse; gaps were retrieved and the repaired 346009-character source yielded 1149 rows","evidence":"d0010 and d0011"},
+    {"operation":"original substitution comparison","actual_result":"Unbounded regex matched K3C inside PIK3CA; word-boundary repair recovered matching 19-member sets","evidence":"d0010 and d0011"},
+    {"operation":"controller direct PDF HTTP retrieval","actual_result":"Eight actual HTTP 404 responses; no PDF bytes obtained; not retried in r02","evidence":"d0022"},
+    {"operation":"PDF screenshots","actual_result":"References returned without a model-visible image; no visual inspection achieved","evidence":"d0011 and d0022"}
+  ],
+  "r02_observations": [
+    {"operation":"registered download","url":"https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools","actual_result":"ValueError: Only configured official-source HTTPS URLs are supported"},
+    {"operation":"web find in physician label","pattern":"Biomarker Rules for AKT1","actual_result":"Returned general label context rather than the complete Table 9 definition","evidence":"d0035:r02_physician_definition_search"},
+    {"operation":"web find in physician label","pattern":"M1?","actual_result":"No matching text found","evidence":"d0035:r02_physician_definition_search"},
+    {"operation":"web find in physician label","pattern":"NM_000314","actual_result":"No matching text found","evidence":"d0035:r02_physician_pten_search"},
+    {"operation":"web find in physician label","pattern":"C124R","actual_result":"Returned analytical-validation examples; not a full eligible PTEN variant definition","evidence":"d0035:r02_physician_pten_search"},
+    {"operation":"bounded approval HTML inspection","actual_result":"The inspected slice contained 57 FDA-2023 rows and five L01E records; it was not a complete-scope calculation and did not replace the preserved exhaustive six-drug result"}
+  ],
+  "interpretation":"Tool restrictions and unsupported formats are not evidence that legal public API/bulk routes are prohibited or unavailable. Missing search text is not proof of a biological absence."
+}

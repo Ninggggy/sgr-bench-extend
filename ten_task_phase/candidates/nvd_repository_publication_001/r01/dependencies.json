@@ -1,0 +1,22 @@
+{
+  "assessment":"Observed nontrivial retrieval decision; sufficient for a qualified source-stage candidate, not proof against every possible API shortcut",
+  "edges":[
+    {"from":"Annual publication/source fields","to":"Cohort-specific reference retrieval","change":"Filter selects CVEs and their actual reference URLs","evidence":"d0011.response"},
+    {"from":"Audiobookshelf CVE-specific code reference and shared disclosure","to":"Issue 203 or issue 204","change":"AuthorController.js and HlsRouter.js select distinct issue identities","evidence":"d0011.response and d0010.response record 1"},
+    {"from":"Audiobookshelf disclosure publication hyperlink","to":"Repository advisory retrieval","change":"Actual click selects GHSA-mgj7-rfx8-vhpr, distinct from both CNA advisory IDs","evidence":"d0010.response record 2"},
+    {"from":"Scrypted CVE-specific code reference and shared disclosure","to":"Issue 218 or issue 219","change":"plugin-http.ts and Login.vue select distinct issue identities","evidence":"d0011.response and d0010.response record 2"},
+    {"from":"Scrypted disclosure publication hyperlink","to":"Repository advisory retrieval","change":"Actual click selects GHSA-w4hv-vmv9-hgcr, distinct from both CNA advisory IDs","evidence":"d0010.response records 3, 4 and 7"},
+    {"from":"Issue-matched repository publication field","to":"Earlier-than-catalogue predicate and calendar calculation","change":"Observed field determines inclusion and delay","evidence":"d0010.response; this final arithmetic edge alone is not the retrieval dependency"}
+  ],
+  "shortcut_observations":[
+    {"source":"NVD annual","actual_evidence":"Complete annual available; all selected objects reread","result":"No complete repository identity/date fields for the disclosure-mediated rows"},
+    {"source":"CVE List","actual_evidence":"All selected members inspected","result":"CNA source identifiers and CVE publication fields differ from required repository fields for relevant rows"},
+    {"source":"GitHub OSV bulk member","actual_evidence":"Actual Scrypted member inspected in prior work; metadata and tail fields preserved","result":"Publication/review metadata is 2024-02-16, not repository date 2023-10-13; no whole-bulk coverage claim"},
+    {"source":"Global advisory API","actual_evidence":"Public endpoint documentation; configured-source refusal and prior nonretryable browser failure report","result":"No actual cohort response establishing whole-scope coverage; no unavailability claim"},
+    {"source":"Repository advisory API","actual_evidence":"Public endpoint documentation; actual browser Internal Error","result":"Valid legal alternative after identity discovery; no actual response semantics validated in this campaign"}
+  ],
+  "allowed_routes":["Public catalogue API or annual export","CVE List bulk files","Global advisory APIs","Repository advisory APIs","Repository pages","Public research disclosures","Batches parameterized by previously discovered identities"],
+  "collapse_definition":"A fixed small set of public downloads already containing all decision fields would collapse the claimed retrieval dependency. The delivered offline browser log is an adaptive research artifact, not such a public source.",
+  "limitation":"A global API or other legitimate source could shorten or replace the observed path. Actual-response auditing is incomplete. API failures, request counts and download size are not evidence of SGR difficulty.",
+  "field_clarification":"Uniform repository-displayed publication date changes neither cohort membership nor issue identity requirements. It resolves the requested output field while preserving the absolute-first-access uncertainty."
+}

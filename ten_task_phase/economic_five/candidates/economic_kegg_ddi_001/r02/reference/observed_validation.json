@@ -1,0 +1,47 @@
+{
+  "execution_engine": "Actual JavaScript and registered SQLite tools; not Python",
+  "member_counts": {
+    "DG01659": 20,
+    "DG01568": 40
+  },
+  "candidate_pairs": 800,
+  "reported_pairs": 296,
+  "not_reported_pairs": 504,
+  "unknown": 0,
+  "class_counts": {
+    "CI": 294,
+    "CI,P": 2,
+    "P": 0
+  },
+  "batch_directed_rows": 1072,
+  "all_singleton_rows": 19430,
+  "sql_javascript_equal": true,
+  "html_checks": [
+    {
+      "id": "DG01659",
+      "api_count": 20,
+      "html_count": 20,
+      "equal": true,
+      "member_start_char": 5537,
+      "member_end_char": 11851,
+      "hidden_css": true
+    },
+    {
+      "id": "DG01568",
+      "api_count": 40,
+      "html_count": 40,
+      "equal": true,
+      "member_start_char": 5466,
+      "member_end_char": 18711,
+      "hidden_css": true
+    }
+  ],
+  "both_endpoint_symmetric_difference": 0,
+  "ssri_only_missing": 14,
+  "within_group_added": 240,
+  "salt_inheritance_added": 36,
+  "construction_repeat_differences": 0,
+  "python_execution": "NOT_RUN",
+  "scorer_execution": "NOT_RUN",
+  "campaign_stability": "PENDING_CONTROLLER"
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-11T16:39:36.444886+00:00",
+  "cause": "Existing host timing-token services ports18763/18764 were not running. data_tools.throttle calls them before source request; Connection refused in those calls is NOT source refusal.",
+  "affected_runs": [
+    "cpe-feasibility-01",
+    "kegg-module-feasibility-01"
+  ],
+  "preserve": "All original artifacts, costs and errors retained. Web errors and large-file timeout are separate and not explained by this correction.",
+  "repair": "Started unchanged runtime/site_limiter.py on18763 and18764; container GET each returned200 allowed:true. No model/tool/isolation or rate changes.",
+  "next": "One bounded source-access diagnostic through unchanged downloader; no blind or admission retry."
+}

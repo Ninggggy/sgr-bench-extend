@@ -1,0 +1,40 @@
+{
+  "member_counts": {
+    "DG01659": 20,
+    "DG01568": 40
+  },
+  "candidate_pairs": 800,
+  "reported_pairs": 296,
+  "not_reported_pairs": 504,
+  "unknown_pairs": 0,
+  "class_counts": {
+    "CI": 294,
+    "CI,P": 2
+  },
+  "batch_directed_rows": 1072,
+  "singleton_directed_rows": 19430,
+  "singleton_chemical_endpoint_rows": 28,
+  "singleton_outside_member_rows": 18500,
+  "singleton_sources": 60,
+  "source_file_independence": "distinct batch and singleton file IDs and resolved paths",
+  "both_endpoint_comparison": "equal",
+  "sql_comparison": "equal",
+  "html_membership": {
+    "DG01659": {
+      "count": 20,
+      "member_start_char": 5537,
+      "member_end_char": 11851,
+      "hidden_css": true
+    },
+    "DG01568": {
+      "count": 40,
+      "member_start_char": 5466,
+      "member_end_char": 18711,
+      "hidden_css": true
+    }
+  },
+  "construction_repeat": "equal",
+  "fresh_boundary_slices": "equal",
+  "delivered_oracle": "equal",
+  "campaign_stability": "not established by this offline program"
+}

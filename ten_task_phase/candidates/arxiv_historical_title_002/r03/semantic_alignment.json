@@ -1,0 +1,14 @@
+{
+  "candidate_id":"arxiv_historical_title_002",
+  "revision":3,
+  "public_inputs":{"CG":"CG.json","GO":"GO.json","inherited_CG":"d0119.response","inherited_GO":"d0120.response","substantive_changes":[]},
+  "equality":"GO instruction is the exact CG instruction prefix. Output formats are identical. CG adds only retrieval guidance.",
+  "shared_requirements":["Public metadata current through 9 September 2026","Every record first submitted in calendar 2020 UTC","Current categories include cs.LG, including crosslists","Current source record is withdrawn","Each direct named replacement, update, correction, merger result or mistaken-submission redirect","Exclude merely related, independently equivalent and unnamed forthcoming works","Cutoff is source last listed submission timestamp, not a withdrawal-event date","Latest successor submission at or before cutoff; all latest-time ties","Selected-version title","Successors unrestricted by year/category","No title-change filter","Omit relations with no eligible successor version","Stop for source submission drift after anchor","Six specified columns and source/target/version sorting"],
+  "shared_oracle":"oracle.psv",
+  "shared_rules":"rules.json",
+  "rule_preservation":{"source":"d0122.response","columns_unchanged":true,"row_key_unchanged":["source_id","target_id"],"field_logic_unchanged":true,"new_aliases":"Only v14 to integer 14 and the same four UTC-format aliases for each newly evidenced timestamp. No title, identity or relation aliases.","ties":"All latest-time ties remain required by both public variants and both programs. Actual selected histories contain no ties, so the inherited two-field row key is adequate for this oracle."},
+  "publisher_application":"Both variants request catalogue records, catalogue submission histories and an integer successor version. The explicit Wiley relation is preserved but supplies no supported distinct catalogue successor version after complete relevant identity queries. It is not silently called unrelated, mapped to the source itself, or assigned an invented publisher version. This applies the existing output domain and no-eligible-version requirement, without adding a public condition.",
+  "empty_comment_application":"Both variants refer to the current notice. Official documentation identifies the withdrawal reason as the Comments field. Empty Comments cannot contain a named successor notice; this does not assert active status.",
+  "public_leakage":"Public files contain only instruction and output_format. They contain no target website name, answer IDs, author hints, expected row count, oracle, source manifest or private review evidence.",
+  "execution":"String/schema equality and rule-preservation checks performed in JavaScript. Independent Python repeats public equality checks when executed by controller. No solver or admission execution occurred."
+}

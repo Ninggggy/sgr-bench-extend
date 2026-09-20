@@ -1,0 +1,22 @@
+{
+  "actual_access_date":"2026-09-10",
+  "protocol_anchor":"2026-09-09",
+  "javascript_checks_performed": {
+    "preserved_table9_line_continuity":{"first_line":683,"last_line":723,"continuous":true},
+    "comparison_with_controller_d0021":[
+      {"gene":"AKT1","transcript_equal":true,"substitution_set_equal":true,"substitution_count":1},
+      {"gene":"PIK3CA","transcript_equal":true,"substitution_set_equal":true,"substitution_count":19},
+      {"gene":"PTEN","transcript_equal":true,"substitution_set_equal":true,"substitution_count":13}
+    ],
+    "physician_label_vs_ssed_pik3ca":{"set_equal":true,"count":19},
+    "source_class_extraction":["nonsense","frameshift","splice_site","homozygous_deletion","rearrangement"]
+  },
+  "new_preserved_web_registry":"d0035",
+  "r01_python_execution":"Actually completed successfully by controller; d0006",
+  "r02_python_execution":"Not executed by explorer",
+  "r02_scorer_execution":"Not executed by explorer",
+  "pdf_visual_inspection":"Not achieved",
+  "complete_pma_bulk_body_inspection":"Not achieved",
+  "blind_trials":0,
+  "protocol_or_scorer_modified":false
+}

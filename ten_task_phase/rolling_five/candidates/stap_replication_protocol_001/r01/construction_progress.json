@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-09-13T06:22:18.771000+00:00",
+  "ended_at_utc": "2026-09-13T06:38:38.933723+00:00",
+  "budget_seconds": 1800,
+  "revision": 1,
+  "substantive_revisions": 0,
+  "status": "reference_ready_pending_independent_review",
+  "candidate_records": 49,
+  "included": 3,
+  "excluded": 46,
+  "model_tests": 0,
+  "tokens": null,
+  "completion": "Complete constructor package and deterministic checks; independent review and all validation stages remain pending."
+}

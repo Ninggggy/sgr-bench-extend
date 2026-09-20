@@ -1,0 +1,68 @@
+{
+  "task_id": "waterquality_005-g",
+  "domain": "WATER_QUALITY_PORTAL",
+  "autonomy_type": "ordered table",
+  "oracle_output_cardinality": 9,
+  "instruction": "I am organizing integrated water-quality records for the lower Neches River during 1978-1984 and want a table of the nine Characteristic Group start years for the nearest qualifying TCEQ reference station downstream of NECHES RIVER AT CR 4915 that still represents the inland Neches River mainstem. Output a 9-row table with columns rank|MonitoringLocationIdentifier|HUC|County|characteristic_group|group_start_year|common_start_year, using the fixed nine-group order specified in the task.",
+  "start_url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10598/",
+  "output_format": "Output a 9-row table with columns rank|MonitoringLocationIdentifier|HUC|County|characteristic_group|group_start_year|common_start_year.",
+  "oracle_answer": "1|TCEQMAIN-10580|12020003|Hardin County|Biological, Algae, Phytoplankton|1972|1977\n2|TCEQMAIN-10580|12020003|Hardin County|Inorganics, Major, Non-metals|1971|1977\n3|TCEQMAIN-10580|12020003|Hardin County|Inorganics, Minor, Metals|1974|1977\n4|TCEQMAIN-10580|12020003|Hardin County|Microbiological|1972|1977\n5|TCEQMAIN-10580|12020003|Hardin County|Nutrient|1972|1977\n6|TCEQMAIN-10580|12020003|Hardin County|Organics, Other|1974|1977\n7|TCEQMAIN-10580|12020003|Hardin County|Organics, PCBs|1974|1977\n8|TCEQMAIN-10580|12020003|Hardin County|Organics, Pesticide|1977|1977\n9|TCEQMAIN-10580|12020003|Hardin County|Physical|1971|1977",
+  "metadata": {
+    "State-Gated Retrieval": [
+      "Search only among TCEQ monitoring stations downstream of NECHES RIVER AT CR 4915 that still represent the inland Neches River mainstem.",
+      "A candidate station must cover 1978-1984 in all nine Characteristic Groups and, on the detail page, must still qualify as River/Stream, outside lake or reservoir waters, and outside the Sabine-Neches outlet boundary reach.",
+      "The final output must be centered on the single winning station and list group_start_year plus common_start_year row by row in the fixed nine-group order."
+    ],
+    "dependency_type": "Data + Control",
+    "intra_chain": true,
+    "inter_chain": true,
+    "data_dependency": [
+      "the fixed downstream starting point at NECHES RIVER AT CR 4915 yields candidate inland mainstem stations across successive downstream HUCs",
+      "detail pages yield River/Stream validity, inland-vs-boundary semantics, and nine-group period-of-record coverage across 1978-1984",
+      "final rows are produced only after one winning station survives the inland-mainstem checks and the requirement that all nine groups match the same station, after which its nine group start years are emitted in the required order"
+    ],
+    "control_dependency": [
+      "the nearest downstream mainstem station remains provisional until all nine characteristic groups have been checked separately and matched back to the same station ID",
+      "the downstream search must continue to the next mainstem HUC when the first candidate fails the nine-group coverage requirement",
+      "location semantics remain valid only after detail-page exclusion of lake/reservoir and Sabine-Neches boundary stations"
+    ],
+    "freeze": {
+      "historical_window": "Neches River inland mainstem stations downstream of NECHES RIVER AT CR 4915, validated within the fixed 1978-1984 window against nine characteristic groups as largely stable reference information"
+    },
+    "answer_type": "multi-row ordered table"
+  },
+  "rubric": {
+    "inclusion_conditions": [
+      "Search only among TCEQ monitoring stations downstream of NECHES RIVER AT CR 4915 that still represent the inland Neches River mainstem.",
+      "A candidate station must cover 1978-1984 in all nine Characteristic Groups and, on the detail page, must still qualify as River/Stream, outside lake or reservoir waters, and outside the Sabine-Neches outlet boundary reach.",
+      "The final output must be centered on the single winning station and list group_start_year plus common_start_year row by row in the fixed nine-group order."
+    ],
+    "exclusion_conditions": [
+      "Exclude results that retain TCEQMAIN-10591 merely because it appears to be the nearest downstream mainstem station.",
+      "Exclude results that do not check the nine Characteristic Groups separately and verify that they all belong to the same station ID.",
+      "Exclude stations located in lake or reservoir waters or in the Sabine-Neches outlet boundary reach."
+    ],
+    "normalization": {
+      "field_separator": "|",
+      "record_separator": "\n",
+      "header_row": "omit the header row; emit data rows only",
+      "schema": [
+        "rank",
+        "MonitoringLocationIdentifier",
+        "HUC",
+        "County",
+        "characteristic_group",
+        "group_start_year",
+        "common_start_year"
+      ],
+      "rank": "emit 1 through 9 in the fixed characteristic-group order required by the task",
+      "MonitoringLocationIdentifier": "use uppercase MonitoringLocationIdentifier",
+      "HUC": "emit the HUC as an 8-digit string with no separators",
+      "County": "use the county name exactly as shown on the detail page",
+      "characteristic_group": "preserve the group label exactly as listed in the task",
+      "year_fields": "emit four-digit years as plain integers",
+      "common_start_year": "repeat the earliest year in which all nine required groups are simultaneously present for the chosen station",
+      "sorting_or_selection": "emit rows in the fixed nine-group order stated in the task"
+    }
+  }
+}

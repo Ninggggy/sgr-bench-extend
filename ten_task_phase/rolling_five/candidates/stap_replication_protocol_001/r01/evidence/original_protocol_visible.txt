@@ -1,0 +1,1110 @@
+RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic cells into pluripotency | Nature
+Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+            the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+            Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+            and JavaScript.
+Advertisement
+View all journals
+Saved research
+Search
+Account
+Log in
+Content
+Explore content
+About
+the journal
+Publish
+with us
+Subscribe
+Sign up for alerts
+RSS feed
+nature
+articles
+article
+Article
+Published:
+29 January 2014
+RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic cells into pluripotency
+Haruko Obokata
+1
+,
+2
+,
+3
+,
+Teruhiko Wakayama
+3
+nAff8
+,
+Yoshiki Sasai
+4
+,
+Koji Kojima
+1
+,
+Martin P. Vacanti
+1
+,
+5
+,
+Hitoshi Niwa
+6
+,
+Masayuki Yamato
+7
+&
+…
+Charles A. Vacanti
+1
+Show authors
+Nature
+volume
+505
+,
+pages
+641–647 (
+2014
+)
+Cite this article
+Save article
+View saved research
+551k
+Accesses
+230
+Citations
+2838
+Altmetric
+Metrics
+details
+A
+Correction
+to this article was published on 30 July 2014
+A
+Retraction
+to this article was published on 02 July 2014
+This article has been
+updated
+Abstract
+Here we report a unique cellular reprogramming phenomenon, called stimulus-triggered acquisition of pluripotency (STAP), which requires neither nuclear transfer nor the introduction of transcription factors. In STAP, strong external stimuli such as a transient low-pH stressor reprogrammed mammalian somatic cells, resulting in the generation of pluripotent cells. Through real-time imaging of STAP cells derived from purified lymphocytes, as well as gene rearrangement analysis, we found that committed somatic cells give rise to STAP cells by reprogramming rather than selection. STAP cells showed a substantial decrease in DNA methylation in the regulatory regions of pluripotency marker genes. Blastocyst injection showed that STAP cells efficiently contribute to chimaeric embryos and to offspring via germline transmission. We also demonstrate the derivation of robustly expandable pluripotent cell lines from STAP cells. Thus, our findings indicate that epigenetic fate determination of mammalian cells can be markedly converted in a context-dependent manner by strong environmental cues.
+This is a preview of subscription content,
+access via your institution
+Access options
+Access through your institution
+Subscription info for Chinese customers
+We have a dedicated website for our Chinese customers. Please go to
+naturechina.com
+to subscribe to this journal.
+Go to naturechina.com
+Buy this article
+Purchase on SpringerLink
+Instant access to the full article PDF.
+39,95 €
+Prices may be subject to local taxes which are calculated during checkout
+Additional access options:
+Log in
+Learn about institutional subscriptions
+Read our FAQs
+Contact customer support
+Figure 1: Stimulus-triggered conversion of lymphocytes into
+Oct4-
+GFP
++
+cells.
+Figure 2: Low-pH-induced
+Oct4-
+GFP
++
+cells represent pluripotent cells.
+Figure 3: STAP cell conversion from a variety of cells by low-pH treatment.
+Figure 4: Chimaeric mouse generation from STAP cells.
+Figure 5: ES-cell-like stem cells can be derived from STAP cells.
+Similar content being viewed by others
+New insights into the epitranscriptomic control of pluripotent stem cell fate
+Article
+Open access
+21 October 2022
+Chemical reprogramming of human somatic cells to pluripotent stem cells
+Article
+13 April 2022
+A rapid chemical reprogramming system to generate human pluripotent stem cells
+Article
+03 January 2025
+Explore related subjects
+Discover the latest articles and news in related subjects.
+Reprogramming
+Change history
+02 July 2014
+Several critical errors have been found in our Article and Letter, which led to an in-depth investigation by the RIKEN Institute. The RIKEN investigation committee has categorized some of the errors as misconduct (see Supplementary Data 1 and Supplementary Data 2).
+References
+Gurdon, J. B. The developmental capacity of nuclei taken from intestinal epithelium cells of feeding tadpoles.
+J. Embryol. Exp. Morphol.
+10
+, 622–640 (1962)
+CAS
+PubMed
+Google Scholar
+Wakayama, T., Perry, A. C., Zuccotti, M., Johnson, K. R. & Yanagimachi, R. Full-term development of mice from enucleated oocytes injected with cumulus cell nuclei.
+Nature
+394
+, 369–374 (1998)
+ADS
+CAS
+PubMed
+Google Scholar
+Takahashi, K. & Yamanaka, S. Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors.
+Cell
+126
+, 663–676 (2006)
+CAS
+PubMed
+Google Scholar
+Thorpe, T. A. History of plant tissue culture.
+Mol. Biotechnol.
+37
+, 169–180 (2007)
+CAS
+PubMed
+Google Scholar
+Jiang, Y. et al. Pluripotency of mesenchymal stem cells derived from adult marrow.
+Nature
+418
+, 41–49 (2002)
+ADS
+CAS
+PubMed
+Google Scholar
+D’Ippolito, G. et al. Marrow-isolated adult multilineage inducible (MIAMI) cells, a unique population of postnatal young and old human cells with extensive expansion and differentiation potential.
+J. Cell Sci.
+117
+, 2971–2981 (2004)
+PubMed
+Google Scholar
+Kucia, M. et al. A population of very small embryonic-like (VSEL) CXCR4
++
+SSEA-1
++
+Oct-4
++
+stem cells identified in adult bone marrow.
+Leukemia
+20
+, 857–869 (2006)
+CAS
+PubMed
+Google Scholar
+Kuroda, Y. et al. Unique multipotent cells in adult human mesenchymal cell populations.
+Proc. Natl Acad. Sci. USA
+107
+, 8639–8643 (2010)
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Obokata, H. et al. The potential of stem cells in adult tissues representative of the three germ layers.
+Tissue Eng. Part A
+17
+, 607–615 (2011)
+CAS
+PubMed
+Google Scholar
+Lengner, C. J., Welstead, G. G. & Jaenisch, R. The pluripotency regulator Oct4: a role in somatic stem cells?
+Cell Cycle
+7
+, 725–728 (2008)
+CAS
+PubMed
+Google Scholar
+Berg, J. S. & Goodell, M. A. An argument against a role for Oct4 in somatic stem cells.
+Cell Stem Cell
+1
+, 359–360 (2007)
+CAS
+PubMed
+Google Scholar
+Hong, H. et al. Suppression of induced pluripotent stem cell generation by the p53-p21 pathway.
+Nature
+460
+, 1132–1135 (2009)
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Hanna, J. et al. Direct reprogramming of terminally differentiated mature B lymphocytes to pluripotency.
+Cell
+133
+, 250–264 (2008)
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Ohbo, K. et al. Identification and characterization of stem cells in prepubertal spermatogenesis in mice small star, filled.
+Dev. Biol.
+258
+, 209–225 (2003)
+CAS
+PubMed
+Google Scholar
+Holtfreter, J. Neural induction in explants which have passed through a sublethal cytolysis.
+J. Exp. Zool.
+106
+, 197–222 (1947)
+CAS
+PubMed
+Google Scholar
+Gerhart, J. Johannes Holtfreter’s contributions to ongoing studies of the organizer.
+Dev. Dyn.
+205
+, 245–256 (1996)
+CAS
+PubMed
+Google Scholar
+Byrnes, W. M. Ernest Everett Just, Johannes Holtfreter, and the origin of certain concepts in embryo morphogenesis.
+Mol. Reprod. Dev.
+76
+, 912–921 (2009)
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Gratama, J. W., Sutherland, D. R. & Keeney, M. Flow cytometric enumeration and immunophenotyping of hematopoietic stem and progenitor cells.
+Semin. Hematol.
+38
+, 139–147 (2001)
+CAS
+PubMed
+Google Scholar
+Inoue, K. et al. Inefficient reprogramming of the hematopoietic stem cell genome following nuclear transfer.
+J. Cell Sci.
+119
+, 1985–1991 (2006)
+CAS
+PubMed
+Google Scholar
+Ying, Q. L. et al. The ground state of embryonic stem cell self-renewal.
+Nature
+453
+, 519–523 (2008)
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Tesar, P. J. et al. New cell lines from mouse epiblast share defining features with human embryonic stem cells.
+Nature
+448
+, 196–199 (2007)
+ADS
+CAS
+PubMed
+Google Scholar
+Brons, I. G. et al. Derivation of pluripotent epiblast stem cells from mammalian embryos.
+Nature
+448
+, 191–195 (2007)
+ADS
+CAS
+PubMed
+Google Scholar
+Kuroda, Y. et al. Isolation, culture and evaluation of multilineage-differentiating stress-enduring (Muse) cells.
+Nature Protocols
+8
+, 1391–1415 (2013)
+PubMed
+Google Scholar
+Niwa, H. How is pluripotency determined and maintained?
+Development
+134
+, 635–646 (2007)
+CAS
+PubMed
+Google Scholar
+Watanabe, K. et al. Directed differentiation of telencephalic precursors from embryonic stem cells.
+Nature Neurosci.
+8
+, 288–296 (2005)
+CAS
+PubMed
+Google Scholar
+Kawasaki, H. et al. Induction of midbrain dopaminergic neurons from ES cells by stromal cell-derived inducing activity.
+Neuron
+28
+, 31–40 (2000)
+CAS
+PubMed
+Google Scholar
+Gouon-Evans, V. et al. BMP-4 is required for hepatic specification of mouse embryonic stem cell-derived definitive endoderm.
+Nature Biotechnol.
+24
+, 1402–1411 (2006)
+CAS
+Google Scholar
+Ohgushi, M. & Sasai, Y. Lonely death dance of human pluripotent stem cells: ROCKing between metastable cell states.
+Trends Cell Biol.
+21
+, 274–282 (2011)
+CAS
+PubMed
+Google Scholar
+Ohgushi, M. et al. Molecular pathway and cell state responsible for dissociation-induced apoptosis in human embryonic stem cells.
+Cell Stem Cell
+7
+, 225–239 (2010)
+CAS
+PubMed
+Google Scholar
+Murakami, K., Araki, K., Ohtsuka, S., Wakayama, T. & Niwa, H. Choice of random rather than imprinted X inactivation in female embryonic stem cell-derived extra-embryonic cells.
+Development
+138
+, 197–202 (2011)
+CAS
+PubMed
+Google Scholar
+Pera, M. F. & Tam, P. P. Extrinsic regulation of pluripotent stem cells.
+Nature
+465
+, 713–720 (2010)
+ADS
+CAS
+PubMed
+Google Scholar
+Surani, M. A. & Barton, S. C. Development of gynogenetic eggs in the mouse: implications for parthenogenetic embryos.
+Science
+222
+, 1034–1036 (1983)
+ADS
+CAS
+PubMed
+Google Scholar
+Wakayama, S. et al. Successful serial recloning in the mouse over multiple generations.
+Cell Stem Cell
+12
+, 293–297 (2013)
+CAS
+PubMed
+Google Scholar
+Nagy, A., Rossant, J., Nagy, R., Abramow-Newerly, W. & Roder, J. C. Derivation of completely cell culture-derived mice from early-passage embryonic stem cells.
+Proc. Natl Acad. Sci. USA
+90
+, 8424–8428 (1993)
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Eakin, G. S., Hadjantonakis, A. K., Papaioannou, V. E. & Behringer, R. R. Developmental potential and behavior of tetraploid cells in the mouse embryo.
+Dev. Biol.
+288
+, 150–159 (2005)
+CAS
+PubMed
+Google Scholar
+Ogawa, K., Matsui, H., Ohtsuka, S. & Niwa, H. A novel mechanism for regulating clonal propagation of mouse ES cells.
+Genes Cells
+9
+, 471–477 (2004)
+CAS
+PubMed
+Google Scholar
+Hurtado, C. & De Robertis, E. M. Neural induction in the absence of organizer in salamander is mediated by MAPK.
+Dev. Biol.
+307
+, 282–289 (2007)
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Hou, P. et al. Pluripotent stem cells induced from mouse somatic cells by small-molecule compounds.
+Science
+341
+, 651–654 (2013)
+ADS
+CAS
+PubMed
+Google Scholar
+Eiraku, M. et al. Self-organizing optic-cup morphogenesis in three-dimensional culture.
+Nature
+472
+, 51–56 (2011)
+ADS
+CAS
+PubMed
+Google Scholar
+Eilken, M. H., Nishikawa, S. & Schroeder, T. Continuous single-cell imaging of blood generation from haemogenic endothelium.
+Nature
+457
+, 896–900 (2009)
+ADS
+CAS
+PubMed
+Google Scholar
+Jentsch, I., Geigl, J., Klein, C. A. & Speicher, M. R. Seven-fluorochrome mouse M-FISH for high-resolution analysis of interchromosomal rearrangements.
+Cytogenet. Genome Res.
+103
+, 84–88 (2003)
+CAS
+PubMed
+Google Scholar
+Download references
+Acknowledgements
+We thank S. Nishikawa for discussion and J. D. Ross, N. Takata, M. Eiraku, M. Ohgushi, S. Itoh, S. Yonemura, S. Ohtsuka and K. Kakiguchi for help with experiments and analyses. We thank A. Penvose and K. Westerman for comments on the manuscript. H.O. is grateful to T. Okano, S. Tsuneda and K. Kuroda for support and encouragement. Financial support for this research was provided by Intramural RIKEN Research Budget (H.O., T.W. and Y.S.), a Scientific Research in Priority Areas (20062015) to T.W., the Network Project for Realization of Regenerative Medicine to Y.S., and Department of Anesthesiology, Perioperative and Pain Medicine at Brigham and Women’s Hospital to C.A.V.
+Author information
+Author notes
+Teruhiko Wakayama
+Present address: Present address: Faculty of Life and Environmental Sciences, University of Yamanashi, Yamanashi 400-8510, Japan.,
+Authors and Affiliations
+Laboratory for Tissue Engineering and Regenerative Medicine, Brigham and Women’s Hospital, Harvard Medical School, Boston, 02115, Massachusetts, USA
+Haruko Obokata, Koji Kojima, Martin P. Vacanti & Charles A. Vacanti
+Laboratory for Cellular Reprogramming, RIKEN Center for Developmental biology, Kobe 650-0047, Japan,
+Haruko Obokata
+Laboratory for Genomic Reprogramming, RIKEN Center for Developmental biology, Kobe 650-0047, Japan,
+Haruko Obokata & Teruhiko Wakayama
+Laboratory for Organogenesis and Neurogenesis, RIKEN Center for Developmental biology, Kobe 650-0047, Japan,
+Yoshiki Sasai
+Department of Pathology, Irwin Army Community Hospital, Fort Riley, 66442, Kansas, USA
+Martin P. Vacanti
+Laboratory for Pluripotent Stem Cell Studies, RIKEN Center for Developmental biology, Kobe 650-0047, Japan,
+Hitoshi Niwa
+Institute of Advanced Biomedical Engineering and Science, Tokyo Women’s Medical University, Tokyo 162-8666, Japan,
+Masayuki Yamato
+Authors
+Haruko Obokata
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Teruhiko Wakayama
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Yoshiki Sasai
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Koji Kojima
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Martin P. Vacanti
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Hitoshi Niwa
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Masayuki Yamato
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Charles A. Vacanti
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Contributions
+H.O. and Y.S. wrote the manuscript. H.O., T.W. and Y.S. performed experiments, and K.K. assisted with H.O.’s transplantation experiments. H.O., T.W., Y.S., H.N. and C.A.V. designed the project. M.P.V. and M.Y. helped with the design and evaluation of the project.
+Corresponding authors
+Correspondence to
+Haruko Obokata
+or
+Charles A. Vacanti
+.
+Ethics declarations
+Competing interests
+The authors declare no competing financial interests.
+Additional information
+Several critical errors have been found in our Article and Letter, which led to an in-depth investigation by the RIKEN Institute. The RIKEN investigation committee has categorized some of the errors as misconduct (see Supplementary Data 1 and Supplementary Data 2). Additional errors identified by the authors that are not discussed in RIKEN’s report are listed below.
+Extended data figures and tables
+Extended Data Figure 1 Conversion of haematopoietic cells into
+Oct4-
+GFP
++
+cells by a low-pH exposure.
+a
+, Optimization of pH conditions for
+Oct4-
+GFP induction. Five days after CD45-positive cells were exposed to acidic solution treatment at different pH,
+Oct4-
+GFP expression was analysed by FACS (
+n
+= 3, average?±?s.d.).
+b
+, Gating strategy for
+Oct4-
+GFP
++
+cell sorting. Top: representative results 7?days after the stress treatment. Bottom: non-treated control. P3 populations were sorted and counted as
+Oct4-
+GFP
++
+cells for all experiments.
+c
+, Controls for FACS analysis. In
+Oct4-
+GFP
++
+cell analysis, the grey and white histograms indicate the negative control (non-stress-treated
+Oct4-gfp
+haematopoietic cells) and the positive control (
+Oct4-gfp
+ES cells), respectively. Also, the green histograms indicate non-treated cells (left) and stress-treated cells at day?7 (right). In CD45
++
+cell analysis, the grey and white histograms indicate the negative (isotype) and positive controls, respectively. The red histograms indicate non-stress-treated cells (left) and stress-treated cells at day?7 (right).
+d
+,
+Oct4-
+GFP
++
+cell generation from various subpopulations of CD45
++
+cells. Seven days after the stress treatment,
+Oct4-
+GFP expression was analysed by FACS (
+n
+= 3, average?±?s.d.). Among total CD45
++
+fraction and its subfractions of CD19
++
+, CD90
++
+, CD34
++
+and CD34
+−
+cells, the efficacy of CD34
++
+cells was significantly lower than the others.
+P
+?<?0.05 by the Newman–Keuls test and
+P
+?<?0.01 by one-way ANOVA.
+e
+, Comparison of culture conditions for low-pH-induced conversion. Stress-treated cells were cultured in various media. The number of
+Oct4-
+GFP-expressing clusters was counted at day 14 (
+n
+= 3, average?±?s.d.). ***
+P
+?<?0.001 (B27+LIF versus all other groups); Tukey’s test. In the case of 3i medium, although the clusters appeared at a moderate efficiency, they appeared late and grew slowly. ACTH, ACTH-containing ES medium; ES+LIF+FBS, 20% FBS+LIF-containing ES culture medium; B27, DMEM/F12 medium containing 2% B27; B27+LIF, DMEM/F12 medium containing 2% B27+LIF; EpiSC, EpiSC culture medium containing Fgf2+activin.
+f
+, Signalling factor dependency of STAP cell generation. Growth factors that are conventionally used for pluripotent cell culture such as LIF, activin, Bmp4 and Fgf2 were added to basal culture medium (B27-supplemented DMEM/F12) in different culture phases (days 0–7, 2–7 and 4–7), and
+Oct4-
+GFP expression was analysed by FACS at day 7 (
+n
+= 3, average?±?s.d.).
+g
+,
+h
+, Time course of apoptosis after the low-pH exposure. Stress-treated cells and non-stress-treated control cells were stained with CD45, annexin-V and propidium iodide at day 0 (immediately after stress treatment), day 3 and day 7.
+g
+, Blue bars, GFP
++
+CD45
+−
+; orange bars, GFP
+−
+CD45
++
+. Percentages in total cells included propidium-iodide-positive cells.
+h
+, Annexin-V-positive cells in these cell populations were analysed by FACS.
+Extended Data Figure 2 Phenotypic change during STAP cell conversion.
+a
+, Oct4 protein expression in STAP cells was detected by immunostaining at day 2 (left) and day 7 (right).
+b
+, Live cell imaging of STAP conversion (grey, CD45 antibody; green,
+Oct4-
+GFP). See Methods for experimental details to monitor live CD45 immunostaining.
+c
+, Immunostaining of a parental CD45
++
+cell (left) and an
+Oct4
+-GFP
++
+cell (right). Scale bar, 10?μm.
+d
+, EdU uptake assay (
+n
+= 3, average?±?s.d.).
+e
+, Schematic of
+Tcrb
+gene rearrangement.
+f
+, T-cell-derived STAP cells. Scale bar, 100?μm.
+g
+, Genomic PCR analysis of (D)J recombination at the
+Tcrb
+gene of T-cell-derived STAP cells. G.L. is the size of the non-rearranged germline type, whereas the smaller ladders correspond to the alternative rearrangements of J exons (confirmed by sequencing). Negative controls (ES cells), positive controls (lymphocytes) and T-cell-derived STAP (two independent preparations on d7) are indicated.
+Extended Data Figure 3 Gene expression analyses during STAP conversion and endoderm differentiation assay.
+a
+, Expression of pluripotency marker genes in STAP cells derived from T cells (
+n
+= 3, average?±?s.d.).
+b
+, Expression of pluripotency marker genes in STAP cells. In this experiment,
+Oct4-
+GFP
++
+cells seen in live cell imaging (
+Extended Data Fig. 2b
+) were analysed to confirm their conversion into STAP cells (
+n
+= 3, average?±?s.d.).
+c
+, Haematopoietic marker expression during STAP conversion from CD45
++
+cells (
+n
+= 3, average?±?s.d.).
+d
+, Formation of visceral endoderm-like surface epithelium in differentiating STAP cluster on day 2 (left) and day 8 (right). Scale bars, 50?μm.
+Extended Data Figure 4 Teratoma formation assay and characterization of
+Oct4
+-GFP-dim cells.
+a
+–
+c
+, Teratomas formed from STAP cell clusters included neuroepithelium (
+a
+), striated muscle (
+b
+) and pancreas (
+c
+; right, high-magnification view showing a typical acinar morphology and ductal structures). Scale bars, 100?μm.
+d
+, Teratoma-forming ability of
+Oct4-
+GFP
++
+and
+Oct4-
+GFP-dim cells (isolated by FACS, top).
+Oct4-
+GFP
++
+cells, but not
+Oct4-
+GFP-dim cells, efficiently formed teratomas (table at the bottom). However, because STAP cells were dissociation-intolerant, the teratoma-forming efficiency of dissociated
+Oct4-
+GFP
++
+cells was lower than that of non-dissociated STAP cell clusters.
+e
+, Gene expression of
+Oct4-
+GFP
++
+and
+Oct4-
+GFP-dim cells (
+n
+= 3, the average?±?s.d.). Haematopoietic marker gene expression (left) and early lineage marker gene expression (right) are shown.
+Extended Data Figure 5
+In vitro
+characterization of STAP cells.
+a
+, Immunostaining for Ki67 and BrdU. STAP cell clusters (top) and ES cell colonies (bottom) are shown. For BrdU uptake, BrdU was added into each culture medium (10?μM) for 12?h until fixation. Scale bar, 100?μm.
+b
+, Transformation assay by soft agar culture. Neither
+Oct4-
+GFP
++
+nor
+Oct4-
+GFP-dim cells showed colony formation in soft agar, whereas ES cells and STAP stem cells showed anchorage-independent growth in the same LIF-B27 medium. Scale bar, 100?µm. Proliferated cells were lysed and the amount of DNA in each well was estimated by chemical luminescence (graph).
+n
+= 3 , average?±?s.d.
+c
+, No substantial change in chromosome number was seen with STAP cells in the CGH array. Genomic DNA derived from CD45
++
+cells (male) was used as reference DNA. The spikes (for example, those seen in the X chromosome) were nonspecific and also found in the data of these parental CD45
++
+cells when the manufacturer’s control DNA was used as a reference.
+d
+, qPCR analysis for pluripotency markers that highly express in ES cells, but not in EpiSCs. Average?±?s.d.
+e
+, Immunostaining of markers for mouse EpiSC and ES cells. Scale bar, 100 μm.
+f
+,
+g
+, H3K27me3
++
+foci in female cells, which are indicative of X-chromosomal inactivation. These foci were not observed in male cells. Scale bar, 10?μm. In the case of female STAP cells, ∼40% of cells retained H3K27me3
++
+foci (
+g
+). **
+P
+?<?0.001; Tukey’s test.
+n
+= 3, average?±?s.d. Although nuclear staining looked to be higher in STAP cells with H3K27me3
++
+foci (
+f
+), this appeared to be caused by some optical artefacts scattering from the strong focal signal.
+h
+, qPCR analysis for the tight junction markers
+Zo-1
+and claudin 7, which were highly expressed in EpiSCs, but not in ES cells or STAP cells. **
+P
+?<?0.01; ns, not significant; Tukey's test;
+n
+= 3, average?±?s.d.
+Extended Data Figure 6 Conversion of somatic tissue cells into STAP cells.
+a
+, Alkaline phosphatase expression of STAP cells derived from adipose-derived mesenchymal cells. Scale bar, 100?μm.
+b
+, E-cadherin expression of STAP cells derived from adipose-derived mesenchymal cells. Scale bar, 50?μm.
+c
+, FACS sorting of dissociated neonatal cardiac muscle cells by removing CD45
++
+cells.
+d
+, Cardiomyocyte marker gene expression during STAP conversion from cardiomyocytes (
+n
+= 3, average?±?s.d.).
+Extended Data Figure 7 Generation chimaeras with STAP cells.
+a
+, 2N chimaeras generated with STAP cells derived from
+Oct4
+-
+gfp
+C57BL/6 mice (left) and 129/Sv?×?C57BL/6 F
+1
+mice (right).
+b
+, Generation of chimaeric mice from STAP cells by cluster injection. STAP cells used in the experiments above were generated from CD45
++
+lymphocytes of multiple neonatal spleens (male and female tissues were mixed). *All fetuses were collected at 13.5?d.p.c. to 15.5?d.p.c. and the contribution rate of STAP cells into each organ was examined by FACS. **The contribution of STAP cells into each chimaera was scored as high (>50% of the coat colour of GFP expression). ***B6GFP: C57BL/6 mouse carrying
+cag-gfp.
+c
+, Production of offspring from STAP cells via germline transmission. Chimaeras generated with 129/Sv?×?B6GFP STAP cells (obtained from the experiments shown in
+b
+) were used for germline transmission study.
+d
+, 4N embryos at E9.5 generated with STAP cells derived from F
+1
+GFP mice (B6GFP and DBA/2 or 129/Sv). B6GFP, C57BL/6 mouse carrying
+cag-gfp
+.
+Extended Data Figure 8 Molecular and cellular characterization of STAP stem cells.
+a
+, Compatibility of 2i conditions with STAP stem-cell derivation from STAP cells and STAP stem-cell maintenance. STAP stem cells could not be established directly from STAP cells in 2i + LIF medium (top). However, once established in ACTH medium, STAP stem cells were able to survive and expand in 2i + LIF medium. Scale bar, 100?μm.
+b
+, Q-band analysis (
+n
+= 4; all cell lines showed the normal karyotype).
+c
+, Multicolour FISH analysis (
+n
+= 8; all cell lines showed the normal karyotype) of STAP stem cells.
+d
+, Methylation status of the
+Oct4
+and
+Nanog
+promoters.
+e
+, Electron microscope analysis of STAP stem cells. Scale bar, 1?μm.
+f
+,
+g
+, Beating cardiac muscle (mesoderm; 38%,
+n
+= 8). Red line indicates an analysed region for kymograph (
+g
+).
+h
+, Clonability of STAP stem cells. Clonal expansion from single STAP stem cells was performed. Pluripotency of clonal cell lines was confirmed by teratoma formation assay, showing the formation of neuroectoderm (left), muscle tissue (middle) and bronchial-like epithelium (right). Scale bar, 100?μm.
+i
+, Production of chimaeric mice from STAP stem-cell lines using diploid embryos. *These STAP stem-cell lines were generated from independent STAP cell clusters.
+j
+, Production of mouse chimaeras from STAP stem-cell lines by the tetraploid complementation method. *These STAP stem-cell lines were generated from independent STAP cell clusters.
+k
+, No H3K27me3-dense foci are seen in female STAP stem cells (
+n
+= 50; the CD45
++
+cell is a positive control). Scale bar, 10?μm.
+Extended Data Figure 9 Effects of various stressors on STAP conversion.
+a
+, Percentages of
+Oct4-
+GFP-expressing cells 7?days after stress treatment. Somatic cells were isolated from various tissues and exposed to different stressors.
+Oct4-
+GFP expression was analysed by FACS.
+b
+, Oct4 and
+Oct4-
+GFP expression induced in the reflux oesophagitis mouse model as an
+in vivo
+acid exposure model (top, experimental procedure). Oct4, but not Nanog, expression was observed in the oesophageal epithelium exposed to gastric acid (75% of 12 operated mice).
+Related audio
+Scientists have reprogrammed differentiated body cells into pluripotent embryonic stem cells – using acid. (download MP3
+)
+Supplementary information
+Supplementary Information (download PDF
+)
+This file contains Supplementary Table 1. (PDF 102 kb)
+Live imaging of low-pH-treated CD45
++
+cells (download MOV
+)
+DIC images during day 0 – day 7, overlaid with
+oct3/4::
+GFP (green). A strong contrast of DIC (as compared to video 2) was applied to imaging so that lamellipodia-like processes (frequently seen on and after day 4) could be viewed easily. (MOV 23217 kb)
+Live imaging of low-pH-treated CD45
++
+cells (another view) (download MOV
+)
+DIC images during day 0 – day 6, overlaid with
+oct3/4::
+GFP (green). The interval of imaging was half (15 min) of that of video 1 (the overall speed of the video is three-times slower than video 1). In this view field where the cell density was relatively low, behaviours of individual cells were more easily seen. In this case, forming clusters were slightly smaller in size. (MOV 11907 kb)
+STAP cell-derived embryo (E10.5) from 4N blastocyst injection (download MOV
+)
+STAP cells with constitutive GFP expression were injected into 4N blastocysts and produced normal embryos with heart beating. (MOV 1656 kb)
+Beating cardiac muscle generated from STAP-SCs
+in vitro
+Bright-field image. (MOV 2487 kb) (download MOV
+)
+PowerPoint slides
+PowerPoint slide for Fig. 1 (download PPT
+)
+PowerPoint slide for Fig. 2 (download PPT
+)
+PowerPoint slide for Fig. 3 (download PPT
+)
+PowerPoint slide for Fig. 4 (download PPT
+)
+PowerPoint slide for Fig. 5 (download PPT
+)
+About this article
+Cite this article
+Obokata, H., Wakayama, T., Sasai, Y.
+et al.
+RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic cells into pluripotency.
+Nature
+505
+, 641–647 (2014). https://doi.org/10.1038/nature12968
+Download citation
+Received
+:
+10 March 2013
+Accepted
+:
+20 December 2013
+Published
+:
+29 January 2014
+Issue date
+:
+30 January 2014
+DOI
+:
+https://doi.org/10.1038/nature12968
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Comments
+Commenting on this article is now closed.
+Donald Newgreen
+29 January 2014, 19:00
+There is a recognised phenomenon of a variety of cellular stresses inducing changes like epithelial-mesenchymal transition (EMT) in cancerous, precancerous and normal cells. It is presumed to be in part an adaptive protective response; EMT often confers resistence to various cell death stimuli. The EMT has been related to induced expression of stem cell characteristics (Mani, et al. Cell 133, 704-715). This may have snapped into this program. Nevertheless the precautionary TGTBT principle applies for the present (ie. too good to be true). There's always cold fusion to remember.
+Jeanne Pawitan
+31 March 2014, 02:47
+In my opinion, the success of Obokata is not due to the acid bath only, as the source of the cells she reprogrammed might play a role. She used cells from a transgenic mice, which bears a special Oct4/GFP construct that contains promoter and enhancers.1, 2 other researchers have tried to replicate her success using other kinds of cells, and they failed.3 Prof. Lee and his team tried to use transgenic mice bearing Oct4/GFP as Obokata et al used, and carefully followed the protocol, but failed.4
+In  technical tips for STAP cell conversion, which was published on 5 March 2014, Obokata et al gave some tips to reproduce their work, including a statement that they used an ?Oct3/4-EGFP transgenic mouse line?, 5 while Prof. Lee used CBA-Tg(Pou5f1-EGFP)2Mnn/j transgenic mice from the Jackson Laboratory,4 thus not precisely the same and I supposed the promoter/enhancers in these two kinds of mice are different.
+In my opinion, the promoter/enhancer in Obokata et al?s transgenic mouse derived cells can be induced by low pH to cause gene expression, thus the expression of Oct4/GFP, while those of others can not. Therefore, in the conclusion of Obokata?s et al?s work should be emphasized that stimulus-triggered acquired pluripotency was only tested in Oct3/4-EGFP transgenic mouse line derived cells,and whether the technique works on other types of cells need further confirmation.
+Reference
+1.&#009Obokata H, Wakayama T, Sasai Y, Kojima K, Vacanti MP, Niwa H, Yamato M, Vacanti CA.Stimulus-triggered fate conversion of somatic cells into pluripotency.Nature. 2014;505(7485):641-7.
+2.&#009Obokata H, Sasai Y, Niwa H, Kadota M, Andrabi M, Takata N, Tokoro M, Terashita Y, Yonemura S, Vacanti CA, Wakayama T.Bidirectional developmental potential in reprogrammed cells with acquired pluripotency.Nature. 2014 ;505(7485):676-80.
+3.&#009Knoepfler lab stem cell blog. STAP new data.
+http://www.ipscell.com/stap...
+4.&#009Lee KKH. Review of article: Stimulus-triggered fate conversion of somatic cells into pluripotency.
+https://www.researchgate.ne...
+5.&#009Obokata H,  Sasai Y,  Niwa H. Essential technical tips for STAP cell conversion culture from somatic cells. Nature Protocol Exchange (2014). doi:10.1038/protex.2014.008. ht
+Alexandra Iché
+19 June 2014, 09:55
+I have not followed closely the whole STAP ?story?, but I totally agree with the comment from Jeanne Pawitan. As a non-specialist, I was stricken by the fact that transgenic mice used in this work carry a construct containing the whole OCT4 gene. Indeed, the GOF18 construct encompass the OCT4 coding sequence, which is located downstream of GFP and SV40 polyA signal sequences. In my opinion, one hypothesis may be that acidic conditions allow a low activation of the promoter, as well as a reduction of polyA signal efficacy, leading to OCT4 protein expression, which in turn could trigger cell reprogramming. Polyadenylation modulation in stress conditions was recently described (Graber JH et al., Genome Res., 2013), as well as modulation of translation initiation (Komar and Hatzoglou, Cell cycle, 2013) in such conditions.
+Obviously, this explanation is not valid for experiments performed using CAG-GFP mice ?
+Sarah Rain
+22 June 2016, 15:11
+This raises the question of chicken & the egg &#8211 if an isolation procedure induces reprogramming then when we "discover" stem cells have we in fact made them from adult cells. This would imply that stem cell pools are limited if not non existent in tissues subject to stresses such as wounding.
+Also why not call these stress induced stem cells siPS cells rather than STAP, a simple acronym for a tongue twisting des cription? Unless of course siPS has
+already
+been taken.
+Access through your institution
+Buy or subscribe
+Editorial Summary
+A new way to induce pluripotency
+The fates of the somatic cells that form the bulk of the mammalian body are thought to be largely determined by the time the cellular differentiation processes of development have been completed. Reprogramming in response to environmental stress has been observed in plants but not so far in mammalian cells. Now two manuscripts by Haruko Obokata and colleagues describe an unexpected reprogramming phenomenon, which the authors call stimulus-triggered acquisition of pluripotency (STAP). In STAP, mouse somatic cells such as CD45
++
+haematopoietic cells are reprogrammed to pluripotency by transient exposure to low pH. Extensive analysis of the molecular features and developmental potential of STAP cells suggests that they represent a unique state of pluripotency — and provide an alternative source of pluripotent cells to the use of transcription factors, as has become routine for induced pluripotent stem cell production.
+show all
+Associated content
+Potency unchained
+Austin Smith
+Nature
+News & Views
+29 Jan 2014
+Failure to replicate the STAP cell phenomenon
+Alejandro De Los Angeles
+Francesco Ferrari
+George Q. Daley
+Nature
+Brief Communications Arising
+24 Sept 2015
+STAP cells are derived from ES cells
+Daijiro Konno
+Takeya Kasukawa
+Fumio Matsuzaki
+Nature
+Brief Communications Arising
+24 Sept 2015
+Advertisement
+Explore content
+Research articles
+News
+Opinion
+Research Analysis
+Careers
+Books & Culture
+Podcasts
+Videos
+Current issue
+Browse issues
+Collections
+Subjects
+Follow us on Facebook
+Follow us on Bluesky
+Follow us on X
+Subscribe
+Sign up for alerts
+RSS feed
+About the journal
+Journal Staff
+About the Editors
+Research Cross-Journal Editorial Team
+Journal Information
+Journal Metrics
+Our publishing models
+Editorial Values Statement
+Editorial policies
+Journalistic Principles
+History of Nature
+Awards
+Contact
+Send a news tip
+Publish with us
+For Authors
+For Referees
+Language editing services
+Open access funding
+Submit manuscript
+Search
+Search articles by subject, keyword or author
+Show results from
+All journals
+This journal
+Search
+Advanced search
+Quick links
+Explore articles by subject
+Find a job
+Guide to authors
+Editorial policies
+Nature
+(
+Nature
+)
+ISSN
+1476-4687
+(online)
+ISSN
+0028-0836
+(print)
+nature.com footer links
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded
+                        content
+Professional development
+Nature Awards
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Japan
+Nature Middle East
+Privacy
+                Policy
+Use
+                of cookies
+Your privacy choices/Manage cookies
+Legal
+                notice
+Accessibility
+                statement
+Terms & Conditions
+Your US state privacy rights
+© 2026 Springer Nature Limited
+Close banner
+Close
+Sign up for the
+Nature Briefing
+newsletter — what matters in science, free to your inbox daily.
+Email address
+Sign up
+I agree my information will be processed in accordance with the
+Nature
+and Springer Nature Limited
+Privacy Policy
+.
+Close banner
+Close
+Get the most important science stories of the day, free in your inbox.
+Sign up for Nature Briefing

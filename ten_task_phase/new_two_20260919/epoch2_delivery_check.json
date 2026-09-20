@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-19T15:16:07.326823+00:00",
+  "goal_completed": false,
+  "qualified_questions": 0,
+  "report_links_resolve": true,
+  "registered_unexecuted": 0,
+  "remaining_blind": 6,
+  "remaining_reviews": 7,
+  "artifact_checks": "C/D/E CG/GO/reference/oracle/recompute/rules/scorer/verification/acquisition/browser replay/trajectory review all exist",
+  "controller_goal_tokens_cumulative": 3006899,
+  "worker_tokens_source": "epoch2_costs.json",
+  "web_calls_logged": 80,
+  "session_elapsed_seconds": 5947.454778
+}

@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    "original_station_universe",
+    "original_activity_panels",
+    "original_year_support",
+    "original_all_interval_frontier",
+    "independent_withdrawal_identity",
+    "post_withdrawal_year_support",
+    "post_withdrawal_all_interval_frontier",
+    "full_design_set_change_test",
+    "post_trial_interval_cohort_and_withdrawn_season",
+    "remaining_cohort_event_minimum",
+    "same_activity_companion_measurements",
+    "scenario_specific_sorted_output"
+  ],
+  "edges": [
+    {
+      "from": "original_station_universe",
+      "to": "original_activity_panels"
+    },
+    {
+      "from": "original_activity_panels",
+      "to": "original_year_support"
+    },
+    {
+      "from": "original_year_support",
+      "to": "original_all_interval_frontier"
+    },
+    {
+      "from": "independent_withdrawal_identity",
+      "to": "post_withdrawal_year_support"
+    },
+    {
+      "from": "post_withdrawal_year_support",
+      "to": "post_withdrawal_all_interval_frontier"
+    },
+    {
+      "from": "post_withdrawal_all_interval_frontier",
+      "to": "full_design_set_change_test"
+    },
+    {
+      "from": "full_design_set_change_test",
+      "to": "post_trial_interval_cohort_and_withdrawn_season"
+    },
+    {
+      "from": "post_trial_interval_cohort_and_withdrawn_season",
+      "to": "remaining_cohort_event_minimum"
+    },
+    {
+      "from": "remaining_cohort_event_minimum",
+      "to": "same_activity_companion_measurements"
+    },
+    {
+      "from": "same_activity_companion_measurements",
+      "to": "scenario_specific_sorted_output"
+    },
+    {
+      "from": "original_activity_panels",
+      "to": "independent_withdrawal_identity",
+      "meaning": "Defines the full original eligible withdrawal-key universe independently of the original frontier."
+    },
+    {
+      "from": "original_all_interval_frontier",
+      "to": "full_design_set_change_test",
+      "meaning": "Supplies the original design set for comparison; also permits monotonicity pruning."
+    }
+  ],
+  "required_state_retention": "Restore the complete original record between trials. Each withdrawal changes its own support state, global frontier, cohort, year range and season-specific candidate events. Do not reuse original frontier intervals or minimum events as the universe of post-withdrawal choices.",
+  "retrieval_limit": "Legal complete exports may make this entirely local computation. No unavoidable adaptive network sequence is claimed. All added dependencies need real counterfactual effects and independent empirical difficulty tests.",
+  "default_state": {
+    "source": "private/sources/default_homepage.response",
+    "request": "GET https://www.waterqualitydata.us/ with no search parameters",
+    "evidence_scope": "actual HTML response only; no claim browser rendering or persisted client state examined"
+  },
+  "target_states": {
+    "bounded_unfiltered_station_export": "private/sources/station_2000_2019_explicit_hucs.response",
+    "regional_activity_export": "private/sources/activity_2000_2019_trinity_zip.response",
+    "derived_mainstem_result_export": "private/sources/wide_mainstem_2000_2019_panel_zip.response",
+    "parameter_code_crosscheck": "private/sources/independent_pcode_mainstem_2000_2019_zip.response"
+  },
+  "edge_interpretation": "Computational/data/output dependencies only; listed order is not an unavoidable retrieval sequence. A full_design_set_change_test controls output eligibility, while dates, quarters and event candidates may be computed beforehand.",
+  "observed_legal_pruning": {
+    "eligible_trials": 833,
+    "no_supported_year_loss": 782,
+    "supported_year_loss": 51,
+    "original_frontier_membership_year_affected": 5,
+    "distinct_resulting_support_states": 3,
+    "proof": "Deletion only reduces quarter/year support and interval coverage. If every original frontier design retains its complete membership, it still dominates all formerly dominated designs. Only critical original-frontier support withdrawals need all-interval recomputation; previously dominated intervals must still be reconsidered for these trials."
+  },
+  "redundant_event_removal": "Every frontier-changing withdrawal destroys its station-year. A surviving interval either excludes that year or excludes that station from its cohort; explicitly removing that activity again from the final cohort/year pool adds no effect here."
+}

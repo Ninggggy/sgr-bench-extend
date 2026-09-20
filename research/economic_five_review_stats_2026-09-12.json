@@ -1,0 +1,122 @@
+{
+  "scope": "Read-only review of economic five round; no experiment or source-ledger mutation",
+  "evidence": [
+    "../ten_task_phase/economic_five/run_accounting.json",
+    "../ten_task_phase/economic_five_session_ledger.jsonl",
+    "../ten_task_phase/economic_five/candidates.json"
+  ],
+  "accounting_snapshot_at": "2026-09-11T20:45:42.183651+00:00",
+  "source_snapshot_tokens": {
+    "input_tokens": 101864688,
+    "cached_input_tokens": 98827776,
+    "output_tokens": 546149
+  },
+  "stage_classification_from_saved_accounting": {
+    "coordination": {
+      "sessions": 7,
+      "session_numbers": [
+        1,
+        14,
+        18,
+        26,
+        36,
+        37,
+        38
+      ],
+      "input_tokens": 46738689,
+      "cached_input_tokens": 45900288,
+      "output_tokens": 273907,
+      "seconds": 15566.065651
+    },
+    "source_exploration": {
+      "sessions": 19,
+      "session_numbers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        19,
+        22,
+        23,
+        24,
+        25
+      ],
+      "input_tokens": 6365847,
+      "cached_input_tokens": 5371008,
+      "output_tokens": 67086,
+      "seconds": 4092.638
+    },
+    "definition_review": {
+      "sessions": 3,
+      "session_numbers": [
+        17,
+        20,
+        27
+      ],
+      "input_tokens": 378775,
+      "cached_input_tokens": 320256,
+      "output_tokens": 10384,
+      "seconds": 402.96900000000005
+    },
+    "construction_repair": {
+      "sessions": 5,
+      "session_numbers": [
+        21,
+        28,
+        29,
+        30,
+        31
+      ],
+      "input_tokens": 7961640,
+      "cached_input_tokens": 7521664,
+      "output_tokens": 110191,
+      "seconds": 4408.794
+    },
+    "development_A": {
+      "sessions": 4,
+      "session_numbers": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "input_tokens": 40419737,
+      "cached_input_tokens": 39714560,
+      "output_tokens": 84581,
+      "seconds": 9000.860999999999
+    }
+  },
+  "classification_note": "19 exploration sessions include one next-opportunity suggestion and followups; 17 recorded opportunities, not 19 distinct questions. Five construction sessions include two stopped builders and integration repair. Three reviews are not final audits. Stage totals preserve original snapshot.",
+  "actual_controller_end": "2026-09-11T20:46:07.795Z",
+  "actual_wall_seconds_through_controller_end": 15591.924,
+  "last_controller_turn_id": "01a09237-1bcf-75f0-9661-bbd647374477",
+  "last_controller_trace_path": "/Users/ning/.codex/sessions/2026/09/12/rollout-2026-09-12T00-21-52-01a09146-83af-7150-9649-0915f150623e.jsonl",
+  "last_controller_last_observed_usage_delta": {
+    "input_tokens": 485179,
+    "cached_input_tokens": 479872,
+    "output_tokens": 2639
+  },
+  "tokens_with_last_observed_controller_update": {
+    "input_tokens": 102230322,
+    "cached_input_tokens": 99189632,
+    "output_tokens": 548326
+  },
+  "usage_limitations": "Two failed worker sessions have unknown tokens; final token_count precedes task_complete. These are observed totals, not guaranteed complete billing or quota. Historical accounting kept unchanged.",
+  "source_snapshot_session_seconds_sum": 33471.327651,
+  "opportunities": 17,
+  "constructed_base_tasks": 2,
+  "development_runs": 4,
+  "formal_trials": 0,
+  "standard_accepted": 0,
+  "designated_accepted": 0
+}

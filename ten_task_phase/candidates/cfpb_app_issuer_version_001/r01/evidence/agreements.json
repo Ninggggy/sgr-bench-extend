@@ -1,0 +1,24 @@
+{
+  "preservation": "Attributed, non-contiguous verbatim fragments from actual native-web reads. Fragment labels are editorial locators. These are not complete source snapshots or downloaded HTML.",
+  "read_interval_utc": ["2026-09-10T03:55:16Z", "2026-09-10T04:00:20Z"],
+  "records": [
+    {
+      "id":"agreement_bancorp",
+      "url":"https://www.chime.com/policies/bancorp/deposit-account-agreement/",
+      "locations":"Revision header; section 1.A; section 1.B.3",
+      "quotes":{"revision":"Rev. 02/2026","program":"on behalf of Chime Financial, Inc.,","issuer":"available from The Bancorp Bank, N.A.,","product":"personal, checkless account.","mobile":"Chime mobile application"}
+    },
+    {
+      "id":"agreement_stride",
+      "url":"https://www.chime.com/policies/stride/deposit-account-agreement/",
+      "locations":"Revision header; section 1 opening paragraph; sections 1.A and 1.B.3",
+      "quotes":{"revision":"Rev. 02/2026","program":"on behalf of Chime Financial, Inc.","issuer":"available from Stride Bank, N.A.,","product":"personal, checkless account.","mobile":"Chime mobile banking application"}
+    },
+    {
+      "id":"agreement_solo",
+      "url":"https://solofunds.com/bsb-deposit-account-agreement-and-account-disclosures/",
+      "locations":"Last Updated header; sections 1, 2 and 5",
+      "quotes":{"revision":"Last Updated: July 27, 2026","program":"SoLo customer","issuer":"deposit account (“Account”) issued by Bangor Savings Bank.","product":"consumer deposit account","mobile":"mobile application hosted by SoLo"}
+    }
+  ]
+}

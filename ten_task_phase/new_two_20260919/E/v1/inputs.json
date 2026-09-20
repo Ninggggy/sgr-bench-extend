@@ -1,0 +1,44 @@
+[
+  {
+    "id": "T1",
+    "attribute": " \u03d2\u00ad \u212a A ",
+    "initial": "\u03c5 ",
+    "any": "k ",
+    "final": "a"
+  },
+  {
+    "id": "T2",
+    "attribute": "a \u0301b c",
+    "initial": "a",
+    "any": " \u0301b",
+    "final": "c"
+  },
+  {
+    "id": "T3",
+    "attribute": "foo bar",
+    "initial": "foo ",
+    "any": " ",
+    "final": " bar"
+  },
+  {
+    "id": "T4",
+    "attribute": "A\ufe0f\tK B",
+    "initial": "A ",
+    "any": "K ",
+    "final": "B"
+  },
+  {
+    "id": "T5",
+    "attribute": "a\u1d2cb c",
+    "initial": "a",
+    "any": "\u1d2cb",
+    "final": "c"
+  },
+  {
+    "id": "T6",
+    "attribute": "\ud87e\udc68 \u03d2 \u212a",
+    "initial": "\ud844\udf6a ",
+    "any": "\u03c5 ",
+    "final": "k"
+  }
+]

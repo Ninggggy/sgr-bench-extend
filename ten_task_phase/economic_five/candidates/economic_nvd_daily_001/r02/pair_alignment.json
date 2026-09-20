@@ -1,0 +1,350 @@
+{
+  "candidate": "economic_nvd_daily_001",
+  "revision": "r02",
+  "status": "constructed_not_evaluation_approved",
+  "common_output_definition": "output_schema.json",
+  "predicates": [
+    {
+      "predicate": "observation_window",
+      "cg": {
+        "field": "instruction",
+        "quote": "Use the current public CVE enrichment records linked to CPE Match Criteria and the Official CPE Dictionary, as observed during 2026-09-11 through 2026-09-13 UTC."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "Use the current public CVE enrichment records linked to CPE Match Criteria and the Official CPE Dictionary, as observed during 2026-09-11 through 2026-09-13 UTC."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "published_day",
+      "cg": {
+        "field": "instruction",
+        "quote": "The intake consists of every CVE whose published field falls on 2003-11-17 UTC (00:00:00.000 through 23:59:59.999)."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "The intake consists of every CVE whose published field falls on 2003-11-17 UTC (00:00:00.000 through 23:59:59.999)."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "current_published_semantics",
+      "cg": {
+        "field": "instruction",
+        "quote": "This is the current published field, not a reconstruction of the records as they stood in 2003."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "This is the current published field, not a reconstruction of the records as they stood in 2003."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "no_status_prefilter",
+      "cg": {
+        "field": "instruction",
+        "quote": "Do not filter the intake by CVE status."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "Do not filter the intake by CVE status."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "vulnerable_any_node",
+      "cg": {
+        "field": "instruction",
+        "quote": "It appears anywhere in the CVE's configurations with vulnerable=true."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "It appears anywhere in the CVE's configurations with vulnerable=true."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "exact_uuid_active",
+      "cg": {
+        "field": "instruction",
+        "quote": "The CPE Match Criteria record for its exact matchCriteriaId has status Active."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "The CPE Match Criteria record for its exact matchCriteriaId has status Active."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "dictionary_zero",
+      "cg": {
+        "field": "instruction",
+        "quote": "The Official CPE Dictionary has zero records associated with that exact matchCriteriaId UUID."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "The Official CPE Dictionary has zero records associated with that exact matchCriteriaId UUID."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "deprecated_entries",
+      "cg": {
+        "field": "instruction",
+        "quote": "Deprecated dictionary records still count as records."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "Deprecated dictionary records still count as records."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "row_identity",
+      "cg": {
+        "field": "instruction",
+        "quote": "Keep the full identity (CVE ID, matchCriteriaId, criteria)."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "Keep the full identity (CVE ID, matchCriteriaId, criteria)."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "within_cve_dedup",
+      "cg": {
+        "field": "instruction",
+        "quote": "Return repeated occurrences of the same identity within a CVE only once."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "Return repeated occurrences of the same identity within a CVE only once."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "cross_cve_preservation",
+      "cg": {
+        "field": "instruction",
+        "quote": "The same UUID used by different CVEs produces separate rows."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "The same UUID used by different CVEs produces separate rows."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "ranges_and_criteria",
+      "cg": {
+        "field": "instruction",
+        "quote": "Preserve the complete criteria string and any version boundaries when checking identity across records."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "Preserve the complete criteria string and any version boundaries when checking identity across records."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "overlap",
+      "cg": {
+        "field": "instruction",
+        "quote": "Overlapping criteria, including wildcard and patch-specific updates, remain separate UUIDs; coverage for one does not establish coverage for another."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "Overlapping criteria, including wildcard and patch-specific updates, remain separate UUIDs; coverage for one does not establish coverage for another."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "nonempty_matches",
+      "cg": {
+        "field": "instruction",
+        "quote": "A nonempty official matches list is evidence of dictionary coverage."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "A nonempty official matches list is evidence of dictionary coverage."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "omission_is_not_zero",
+      "cg": {
+        "field": "instruction",
+        "quote": "An omitted or empty matches list alone is not evidence of zero coverage: inclusion requires a successful exact-UUID dictionary response with totalResults=0."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "An omitted or empty matches list alone is not evidence of zero coverage: inclusion requires a successful exact-UUID dictionary response with totalResults=0."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "errors_unknown",
+      "cg": {
+        "field": "instruction",
+        "quote": "Failed requests, inaccessible records and conflicting identities or revisions are unresolved, not zero."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "Failed requests, inaccessible records and conflicting identities or revisions are unresolved, not zero."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "resolve_unknown",
+      "cg": {
+        "field": "instruction",
+        "quote": "Resolve any uncertainty that could change the result before presenting a complete answer."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "Resolve any uncertainty that could change the result before presenting a complete answer."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "access_revision_notes",
+      "cg": {
+        "field": "instruction",
+        "quote": "Keep actual UTC access times and source-provided revision dates in your research notes."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "Keep actual UTC access times and source-provided revision dates in your research notes."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "no_sept9_cutoff",
+      "cg": {
+        "field": "instruction",
+        "quote": "The observation window does not assert a historical cutoff of 2026-09-09."
+      },
+      "go": {
+        "field": "instruction",
+        "quote": "The observation window does not assert a historical cutoff of 2026-09-09."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "columns",
+      "cg": {
+        "field": "output_format",
+        "quote": "Return only a pipe-separated table with the header cve_id|matchCriteriaId|criteria and one row per qualifying identity."
+      },
+      "go": {
+        "field": "output_format",
+        "quote": "Return only a pipe-separated table with the header cve_id|matchCriteriaId|criteria and one row per qualifying identity."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "normalization",
+      "cg": {
+        "field": "output_format",
+        "quote": "Use the full CVE ID, uppercase hyphenated UUID, and exact complete criteria string."
+      },
+      "go": {
+        "field": "output_format",
+        "quote": "Use the full CVE ID, uppercase hyphenated UUID, and exact complete criteria string."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "ordering",
+      "cg": {
+        "field": "output_format",
+        "quote": "Sort ascending by cve_id, then matchCriteriaId, then criteria, using case-sensitive lexicographic order."
+      },
+      "go": {
+        "field": "output_format",
+        "quote": "Sort ascending by cve_id, then matchCriteriaId, then criteria, using case-sensitive lexicographic order."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "output_scale_ties",
+      "cg": {
+        "field": "output_format",
+        "quote": "Return every qualifying identity; there is no top-k limit or tie truncation."
+      },
+      "go": {
+        "field": "output_format",
+        "quote": "Return every qualifying identity; there is no top-k limit or tie truncation."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "table_only",
+      "cg": {
+        "field": "output_format",
+        "quote": "Do not add columns, Markdown fences, or commentary."
+      },
+      "go": {
+        "field": "output_format",
+        "quote": "Do not add columns, Markdown fences, or commentary."
+      },
+      "identical": true
+    },
+    {
+      "predicate": "none",
+      "cg": {
+        "field": "output_format",
+        "quote": "If the verified result is empty, return the single line NONE instead of a header or table."
+      },
+      "go": {
+        "field": "output_format",
+        "quote": "If the verified result is empty, return the single line NONE instead of a header or table."
+      },
+      "identical": true
+    }
+  ],
+  "procedural_difference": {
+    "cg": "Explicit enumeration, dependent retrieval, identity verification, coverage verification, and sorting steps.",
+    "go": "Research goal and all eligibility/output conditions; no prescribed research sequence."
+  },
+  "ambiguity_checks": [
+    {
+      "phrase": "no dictionary records",
+      "interpretations": [
+        "No records associated with this exact Match Criteria UUID.",
+        "No records for the named product or any overlapping CPE pattern."
+      ],
+      "comparison": "Actual patch-overlap counterfactual is computed in reference/counterfactuals.json.",
+      "resolution": "Keep the full identity (CVE ID, matchCriteriaId, criteria). Return repeated occurrences of the same identity within a CVE only once. The same UUID used by different CVEs produces separate rows. Preserve the complete criteria string and any version boundaries when checking identity across records. Overlapping criteria, including wildcard and patch-specific updates, remain separate UUIDs; coverage for one does not establish coverage for another."
+    },
+    {
+      "phrase": "one day's CVE intake",
+      "interpretations": [
+        "Current published field date is the requested day.",
+        "CVE ID year or original 2003 snapshot determines scope."
+      ],
+      "comparison": "Current source includes IDs from years other than 2003; historic snapshot is neither claimed nor used.",
+      "resolution": "Use the current public CVE enrichment records linked to CPE Match Criteria and the Official CPE Dictionary, as observed during 2026-09-11 through 2026-09-13 UTC. The intake consists of every CVE whose published field falls on 2003-11-17 UTC (00:00:00.000 through 23:59:59.999). This is the current published field, not a reconstruction of the records as they stood in 2003. Do not filter the intake by CVE status."
+    },
+    {
+      "phrase": "unique criterion",
+      "interpretations": [
+        "Deduplicate per CVE and UUID.",
+        "Deduplicate globally by UUID."
+      ],
+      "comparison": "Actual global-UUID counterfactual is computed in reference/counterfactuals.json.",
+      "resolution": "Keep the full identity (CVE ID, matchCriteriaId, criteria). Return repeated occurrences of the same identity within a CVE only once. The same UUID used by different CVEs produces separate rows. Preserve the complete criteria string and any version boundaries when checking identity across records. Overlapping criteria, including wildcard and patch-specific updates, remain separate UUIDs; coverage for one does not establish coverage for another."
+    },
+    {
+      "phrase": "no matches",
+      "interpretations": [
+        "Missing matches is automatically zero.",
+        "Only successful exact dictionary zero confirms inclusion."
+      ],
+      "comparison": "Missing alone was left unknown until exact endpoint checks.",
+      "resolution": "A nonempty official matches list is evidence of dictionary coverage. An omitted or empty matches list alone is not evidence of zero coverage: inclusion requires a successful exact-UUID dictionary response with totalResults=0. Failed requests, inaccessible records and conflicting identities or revisions are unresolved, not zero. Resolve any uncertainty that could change the result before presenting a complete answer."
+    }
+  ]
+}

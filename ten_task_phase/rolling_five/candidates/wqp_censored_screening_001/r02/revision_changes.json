@@ -1,0 +1,122 @@
+{
+  "candidate_id": "wqp_censored_screening_001",
+  "revision": 2,
+  "substantive_revision_number": 1,
+  "repairs": [
+    "B1"
+  ],
+  "parent_review": "../r01/independent_review/pre_a_review.json",
+  "decision": "EPA SRS indexed official record sufficiently establishes the standardized reported characteristic basis. Apply that basis to the three 200.7(W) results; do not infer inability to verify from method difference or network timeouts.",
+  "acquisition": "Existing controller_srs_indexed.json contains indexed EPA SRS E1640416 text, with exact WQX-approved synonym and definition. controller_srs_open.json contains only JS shell. No new request; no direct rendered-page or NEMI4690 confirmation claimed.",
+  "unknown_column": "Synonym quality rating; not unknown unit/basis.",
+  "changes": [
+    {
+      "result_id": "STORET-949426233",
+      "before": {
+        "result_id": "STORET-949426233",
+        "evidence": "below_mdl",
+        "lower_ug_l": "0",
+        "upper_ug_l": "0.07",
+        "hardness_state": "basis_unverified",
+        "hardness_mg_l": "NA",
+        "screen": "unresolved_hardness"
+      },
+      "after": {
+        "result_id": "STORET-949426233",
+        "evidence": "below_mdl",
+        "lower_ug_l": "0",
+        "upper_ug_l": "0.07",
+        "hardness_state": "available",
+        "hardness_mg_l": "93",
+        "screen": "below_or_equal"
+      },
+      "activity_id": "21COL001_WQX-201320123-20121204_S-ROUTINE",
+      "date": "2012-12-04",
+      "criterion_ug_l": 0.2338976522630004
+    },
+    {
+      "result_id": "STORET-949450675",
+      "before": {
+        "result_id": "STORET-949450675",
+        "evidence": "between_mdl_rl",
+        "lower_ug_l": "0.07",
+        "upper_ug_l": "1",
+        "hardness_state": "basis_unverified",
+        "hardness_mg_l": "NA",
+        "screen": "unresolved_hardness"
+      },
+      "after": {
+        "result_id": "STORET-949450675",
+        "evidence": "between_mdl_rl",
+        "lower_ug_l": "0.07",
+        "upper_ug_l": "1",
+        "hardness_state": "available",
+        "hardness_mg_l": "78",
+        "screen": "crosses"
+      },
+      "activity_id": "21COL001_WQX-201320076-20121002_S-ROUTINE",
+      "date": "2012-10-02",
+      "criterion_ug_l": 0.20697593281563473
+    },
+    {
+      "result_id": "STORET-949467276",
+      "before": {
+        "result_id": "STORET-949467276",
+        "evidence": "between_mdl_rl",
+        "lower_ug_l": "0.07",
+        "upper_ug_l": "0.6",
+        "hardness_state": "basis_unverified",
+        "hardness_mg_l": "NA",
+        "screen": "unresolved_hardness"
+      },
+      "after": {
+        "result_id": "STORET-949467276",
+        "evidence": "between_mdl_rl",
+        "lower_ug_l": "0.07",
+        "upper_ug_l": "0.6",
+        "hardness_state": "available",
+        "hardness_mg_l": "96",
+        "screen": "crosses"
+      },
+      "activity_id": "21COL001_WQX-201320027-20120806_S-ROUTINE",
+      "date": "2012-08-06",
+      "criterion_ug_l": 0.23911599594707472
+    }
+  ],
+  "unchanged_sample_count": 98,
+  "unchanged": [
+    "101-result dissolved population",
+    "36 excluded other fractions",
+    "All named limit/qualifier interval rules",
+    "QC withdrawals and U handling",
+    "Nominal hardness equation and duration/legal limitations",
+    "Original scorer and rules",
+    "CG/GO substantive scientific conditions and output format; only shared date wording removed"
+  ],
+  "aggregate_before": {
+    "below_or_equal": 42,
+    "above": 15,
+    "crosses": 15,
+    "unresolved_limit": 17,
+    "unresolved_hardness": 10,
+    "not_reported": 2
+  },
+  "aggregate_after": {
+    "below_or_equal": 43,
+    "above": 15,
+    "crosses": 17,
+    "unresolved_limit": 17,
+    "unresolved_hardness": 7,
+    "not_reported": 2
+  },
+  "public_rows": 12,
+  "independent_review": "pending targeted B1/result review; no pass claimed",
+  "unaffected_review_findings": "../r01/independent_review/pre_a_review.json#passed_findings",
+  "time_wording_correction": {
+    "change": "Removed future-facing as-available-on 13 September 2026 phrase identically from CG, GO and candidate.public.",
+    "reason": "Registered runtime current_date is 2026-09-09; no future snapshot requirement is needed.",
+    "preserved": "Full publicly reported record scope; actual 13 September source observation timestamps remain private.",
+    "substantive_revision_number": 1,
+    "network_requests": 0
+  }
+}

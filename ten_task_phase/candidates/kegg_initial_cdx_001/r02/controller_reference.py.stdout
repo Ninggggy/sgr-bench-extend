@@ -1,0 +1,5 @@
+drug|biomarker|reference_transcript|named_substitutions|additional_classes
+Capivasertib|AKT1|NM_001014431|E17K|NONE
+Capivasertib|PIK3CA|NM_006218|C420R;E542K;E545A;E545D;E545G;E545K;E545Q;G1049R;H1047L;H1047R;H1047Y;M1043I;M1043V;N345K;Q546E;Q546K;Q546P;Q546R;R88Q|NONE
+Capivasertib|PTEN|NM_000314|C124R;C124S;C136R;C136Y;G129E;G129R;G129V;R130G;R130L;R130P;R130Q;R173C;S170R|frameshift;homozygous_deletion;nonsense;rearrangement;splice_site
+Quizartinib dihydrochloride|FLT3|NONE|NONE|internal_tandem_duplication

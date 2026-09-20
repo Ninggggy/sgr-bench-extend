@@ -1,0 +1,76 @@
+{
+  "candidate_id": "nvd_configuration_environment_001",
+  "revision": "r01",
+  "review_type": "independent_pre_A_audit",
+  "decision": "pass_pre_A_content_and_reference",
+  "blocking_findings": [],
+  "independence": {
+    "author": "different agent/turn 01a09a11-82ae-74e0-9d05-5c9a207aafc2",
+    "reviewer": "/root/assay_interference_scope",
+    "author_solver_or_checker_imported": false,
+    "method": "Raw CVE plus all raw criterion responses independently parsed; Boolean membership evaluation over every observed hardware/firmware pair; derived PSV written before comparison. Author delivery was inspected as audit material, so this is not a blind solve.",
+    "model": "gpt-6-astra",
+    "effort": "medium",
+    "reviewer_thread": "01a099f3-ff0a-7460-85fc-7b4396d818ef",
+    "reviewer_turn_id": "parent trace registration; not independently exposed"
+  },
+  "checks": {
+    "complete_source_scope": {
+      "pass": true,
+      "evidence": "derive_from_raw.py and independent_derivation.json",
+      "details": "CVE response exactly one result; 19 configurations, 40 unique criterion IDs, exactly40 raw Match responses. Every response startIndex0/resultsPerPage1/totalResults1 with explicit matches list; UUID, criteria and all bound fields agree. No missing criterion or pagination. All Active."
+    },
+    "boolean_and_environment_roles": {
+      "pass": true,
+      "details": "All19 configurations AND two OR nodes; final two firmware nodes each have2 alternative criteria. Vulnerable=false hardware remains a required positive presence condition; negate false verified through evaluator. Firmware alone satisfies zero configurations. 19x90 inventory pairs yield90 applicable pairs.",
+      "official_evidence": "official_semantics_excerpts.json needles independently found at their recorded offsets in docs/d0002.response; Running On/With requires matches from both nodes."
+    },
+    "identity_and_unique_projection": {
+      "pass": true,
+      "details": "All hardware has vendor zyxel, version -, remaining attributes *; all firmware has vendor zyxel and post-update attributes *. Output product/version/update projection is lossless within actual full dataset. Literal4.73(-) preserved; * is not hypothetical update enumeration. Cross-criterion pairs/grouped releases deduplicated."
+    },
+    "reference": {
+      "pass": true,
+      "details": "Independent19-row PSV equals author oracle byte-for-byte;90 pairs,19 hardware names,90 firmware names.",
+      "evidence": "independent_oracle.psv, independent_pairs.json"
+    },
+    "CG_GO_alignment": {
+      "pass": true,
+      "details": "CG pre-guidance text equals GO instruction; output_format identical. Complete configurations, registered names, joint hardware requirements, wildcard/missing semantics and ordering shared. Guidance supplies retrieval/interpretation route only. No target website name/URL or answer product names supplied. CVE identifies a natural incident but does not expose sparse criterion member sets."
+    },
+    "SGR_and_shortest_observed_path": {
+      "pass_for_pre_A": true,
+      "details": "CVE-specific configuration response supplies actual UUIDs needed to request registered names not present in root. Official UI semantics likewise identifies criterion expansion as exposing matches. Sparse interval member sets differ by hardware. Vendor advisory raw/web_4.json lines408–413 gives only four series intervals/patches; cannot supply these exact registrations. No demonstrated complete static bypass in supplied evidence. Equivalent API/bulk remains allowed; unknown bulk not treated as a blocker or impossibility claim. This passes necessary-dependency review, not a claim that blind performance will be low."
+    },
+    "scoring": {
+      "pass": true,
+      "evidence": "scoring_and_pairing_checks.json; runtime/score.py inspection; existing mechanical_checks.json mutation fixtures",
+      "details": "Independent reconstruction scores57/57 fields and19/19 rows. registered_releases is one normalized set-valued field per row, not90 individually scored items. Missing row/field is never populated; explicit empty list contributes no registered releases but does not imply safety. A wrong or incomplete nonempty release list loses the whole release field; correct two keys alone earn2/3 item credit under existing metric. No scorer change requested; report this metric literally."
+    },
+    "language_and_scope": {
+      "pass": true,
+      "details": "Task is technical but scope is finite natural asset inventory; output compression avoids90 repeated rows. No fabricated thresholds or unrelated filters. Does not ask exploit execution or infer that unlisted assets are safe."
+    }
+  },
+  "stability": {
+    "status": "pending_evaluation_window_observation_not_filled",
+    "current_evidence": "Raw source snapshot2026-09-13 with CVE lastModified2026-06-17; cpeLastModified separately exists for each criterion and affects matches independently of CVE timestamp. Metadata correctly says uniform runtime2026-09-09 is not a source cutoff.",
+    "required_existing_process_followup": "At evaluation-window before/after observations, compare answer-relevant CVE configurations and each matched-name set/criteria, not CVE lastModified alone. Preserve actual observation results. If answer-bearing source changes, assess affected runs/reference before interpreting scores. Do not pretend before/after checks have already occurred; no new hash/contract/gate mechanism required.",
+    "is_current_pre_A_content_blocker": false
+  },
+  "not_completed": [
+    "Blind A, B, attacks and formal retests",
+    "Independent final audit",
+    "Human expert review",
+    "Before/after evaluation-window source observations"
+  ],
+  "provenance": {
+    "new_network_requests": 0,
+    "construction_runs": 0,
+    "blind_runs": 0,
+    "human_review": "not_done",
+    "elapsed_seconds": null,
+    "cost_note": "Actual timing/tokens recorded by parent trace; no fabricated metrics."
+  },
+  "completed_utc": "2026-09-13T09:35:53.086023+00:00"
+}

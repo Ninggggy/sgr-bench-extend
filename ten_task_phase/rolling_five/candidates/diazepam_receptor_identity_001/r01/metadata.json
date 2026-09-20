@@ -1,0 +1,17 @@
+{
+  "candidate_id": "diazepam_receptor_identity_001",
+  "revision": 1,
+  "runtime_current_date": "2026-09-09",
+  "reference_observation_utc_day": "2026-09-13",
+  "model_tests": 0,
+  "subagents": 0,
+  "human_validation": "not_performed",
+  "substantive_revisions": 0,
+  "internal_draft_changes": [
+    "Source-date correction: May1 prepared date, May29 official issue announcement; public uses release37issuedMay2026",
+    "Five-column feasibility schema narrowed to two necessary columns before tests; no old scores exist",
+    "Whole-cohort engineered flag includes six, not four direct-complex subset"
+  ],
+  "scorer_protocol": "Unchanged existing all-column Item-F1; ITEM is a row key and a scored field.",
+  "review_status": "Constructor reference ready; independent pre-A not run."
+}

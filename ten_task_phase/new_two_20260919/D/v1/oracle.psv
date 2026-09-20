@@ -1,0 +1,10 @@
+lot | agreement_covered | eligible_control_body_codes
+L1 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172
+L2 | YES | NONE
+L3 | NO | CL-BIO-110;CL-BIO-171
+L4 | NO | CL-BIO-110;CL-BIO-171
+L5 | YES | NONE
+L6 | YES | NONE
+L7 | NO | CL-BIO-110;CL-BIO-171;CL-BIO-172
+L8 | NO | CL-BIO-171
+L9 | YES | NONE

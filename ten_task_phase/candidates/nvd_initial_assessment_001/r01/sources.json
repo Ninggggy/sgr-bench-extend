@@ -1,0 +1,9 @@
+{
+  "current": "sources/apache_current.source_actual.json",
+  "history": "sources/apache_2020_2023_history.source.json",
+  "unfiltered_history": "sources/unfiltered_history_probe.source.json",
+  "formula": "sources/first_cvss31.source.json",
+  "per_field_evidence": "reference_result.json:field_evidence",
+  "retrieval_date": "2026-09-09",
+  "original_sources_preserved": true
+}

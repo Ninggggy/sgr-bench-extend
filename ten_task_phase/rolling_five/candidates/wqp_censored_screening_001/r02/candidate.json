@@ -1,0 +1,73 @@
+{
+  "candidate_id": "wqp_censored_screening_001",
+  "revision": 2,
+  "ecosystem": "WQP",
+  "domain": "Censored chemical evidence and sample comparability",
+  "status": "content_validated",
+  "old_task_refs": [
+    "wqp_activity_panel_001/r01",
+    "wqp_fraction_identity"
+  ],
+  "research_goal": "Separate informative cadmium sample screens from censoring or paired-hardness evidence gaps at the Leadville monitoring station.",
+  "structural_upgrade": "Returned qualifier and result identity select named limit metadata, whose interpretation changes a sample screen; J-R is a whole code and U is not interchangeable with MDL. Exact-activity hardness and result-specific withdrawals alter comparability. See sources.json.",
+  "public": {
+    "cg": {
+      "instruction": "Summarize the sufficiency of sample-level evidence for cadmium screening at monitoring location 21COL001_WQX-7182 (ARKANSAS R. BLW LEADVILLE), covering its complete publicly reported cadmium record. Include every dissolved cadmium result, including withdrawn and censored results; total and total-recoverable cadmium cannot substitute. Compare the reported concentration evidence with the numerical freshwater chronic cadmium recommendation currently endorsed by EPA. Use the recommendation's hardness equation at the recorded positive hardness, without substituting a typical hardness or neighbouring sample. This is a nominal sample-level numerical screen, not a claim of ecological protection, four-day-average compliance, or legal exceedance.\n\nUse the concentration interval supported by the result's complete qualifier and named limit metadata. Treat an unqualified numerical measurement as a reported point; retain an approximate between-limit measurement as its declared interval, not its point estimate. Do not substitute one named limit for another when the qualifier requires a different kind. These are reported analytical bounds, not confidence bounds on true concentrations. Match hardness by organization and exact activity identity; require a verifiable CaCO3-equivalent basis. Preserve unavailable or withdrawn evidence as unresolved; an activity comment that some analyte was recalled does not itself withdraw every analyte. Public APIs, complete profiles, bulk files and calculation tools are allowed.\n\nSearch guidance: inspect the result qualifiers and the limitations of the first result profile. Use result identities to retrieve all associated detection/quantitation-limit types where needed, and retrieve same-activity hardness. Consult the exact current and legacy qualifier dictionary entries without splitting hyphenated codes, and follow EPA's current chronic-criterion reference.",
+      "output_format": "Return only a pipe-separated table with header evidence|hardness_state|screen|n_results. Count every dissolved result exactly once; return only nonempty combinations sorted lexicographically by evidence, hardness_state, then screen. evidence is point, below_mdl, between_mdl_rl, unresolved_u_limit, or not_reported. point uses the reported value; below_mdl uses [0,MDL); between_mdl_rl uses (MDL,reporting limit). hardness_state is available, withdrawn, basis_unverified, missing, ambiguous, or unusable. screen is above (all supported values strictly above the numerical recommendation), below_or_equal (all at or below), crosses (both possibilities remain), unresolved_limit, unresolved_hardness, or not_reported. Apply not_reported first, then unsupported limit, then unavailable hardness, before a numerical comparison. n_results is an integer count; an unresolved entry is not a negative finding. Do not output the underlying per-result ledger."
+    },
+    "go": {
+      "instruction": "Summarize the sufficiency of sample-level evidence for cadmium screening at monitoring location 21COL001_WQX-7182 (ARKANSAS R. BLW LEADVILLE), covering its complete publicly reported cadmium record. Include every dissolved cadmium result, including withdrawn and censored results; total and total-recoverable cadmium cannot substitute. Compare the reported concentration evidence with the numerical freshwater chronic cadmium recommendation currently endorsed by EPA. Use the recommendation's hardness equation at the recorded positive hardness, without substituting a typical hardness or neighbouring sample. This is a nominal sample-level numerical screen, not a claim of ecological protection, four-day-average compliance, or legal exceedance.\n\nUse the concentration interval supported by the result's complete qualifier and named limit metadata. Treat an unqualified numerical measurement as a reported point; retain an approximate between-limit measurement as its declared interval, not its point estimate. Do not substitute one named limit for another when the qualifier requires a different kind. These are reported analytical bounds, not confidence bounds on true concentrations. Match hardness by organization and exact activity identity; require a verifiable CaCO3-equivalent basis. Preserve unavailable or withdrawn evidence as unresolved; an activity comment that some analyte was recalled does not itself withdraw every analyte. Public APIs, complete profiles, bulk files and calculation tools are allowed.",
+      "output_format": "Return only a pipe-separated table with header evidence|hardness_state|screen|n_results. Count every dissolved result exactly once; return only nonempty combinations sorted lexicographically by evidence, hardness_state, then screen. evidence is point, below_mdl, between_mdl_rl, unresolved_u_limit, or not_reported. point uses the reported value; below_mdl uses [0,MDL); between_mdl_rl uses (MDL,reporting limit). hardness_state is available, withdrawn, basis_unverified, missing, ambiguous, or unusable. screen is above (all supported values strictly above the numerical recommendation), below_or_equal (all at or below), crosses (both possibilities remain), unresolved_limit, unresolved_hardness, or not_reported. Apply not_reported first, then unsupported limit, then unavailable hardness, before a numerical comparison. n_results is an integer count; an unresolved entry is not a negative finding. Do not output the underlying per-result ledger."
+    }
+  },
+  "private": {
+    "source_version": "WQP responses retrieved 2026-09-13; record dates 2007-10-09 through 2026-06-16. Full request timestamps in source manifest.",
+    "start_urls": [
+      "https://www.waterqualitydata.us/provider/STORET/21COL001_WQX/21COL001_WQX-7182/"
+    ],
+    "candidate_scope": "All 137 returned cadmium records; all 101 dissolved results contribute to nonempty evidence-state counts. The complete per-result ledger remains private.",
+    "predicates": [
+      "Select Dissolved cadmium results without dropping censored or Not Reported rows.",
+      "Interpret complete qualifier tokens using named limits; do not replace missing CRQL with LRL.",
+      "Join exact organization/activity hardness; distinguish result QC withdrawal from activity-level warnings.",
+      "Use the current EPA chronic recommendation equation for nominal comparison; no temporal or legal compliance conclusion."
+    ],
+    "output_columns": [
+      "evidence",
+      "hardness_state",
+      "screen",
+      "n_results"
+    ],
+    "row_key": [
+      "evidence",
+      "hardness_state",
+      "screen"
+    ],
+    "sorting_rules": [
+      "Lexicographic evidence, hardness_state, then screen."
+    ],
+    "missing_value_rules": [
+      "Explicit NA and evidence states; missing evidence is never zero, absence or compliance.",
+      "EPA SRS E1640416 identifies the exact WQX-approved characteristic Hardness, Ca, Mg as total hardness expressed in mg/L CaCO3 equivalents. A different analytical method alone does not invalidate that reported basis."
+    ],
+    "source_manifest_path": "sources.json",
+    "state_graph_path": null,
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "passed",
+    "difficulty": "structural_only",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "mechanical_checks.json",
+      "inclusion_and_calculation.json",
+      "schema_validation.json",
+      "revision_changes.json",
+      "independent_review/r01_pre_a_review.json",
+      "independent_review/b1_delta_review.json",
+      "pre_development_a/checks.json",
+      "pre_development_a/web_checks.json"
+    ]
+  }
+}

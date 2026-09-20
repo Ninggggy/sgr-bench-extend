@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-09-08T13:11:21.075110+00:00",
+  "status": "uncommitted research option; only advance if r02 difficulty feedback triggers remaining revision",
+  "continuity": "Same station universe, raw records, four-parameter activity panels, annual support and common-window designs.",
+  "research_need": "Quality-assurance sensitivity: determine whether a common observation design depends on a single sampled activity, and what complete alternative designs and low-oxygen reference events remain if it is withdrawn. This is a hypothetical withdrawal analysis, not a claim that an official observation was actually invalidated.",
+  "empirical_basis": {
+    "eligible_activities": 833,
+    "frontier_changing_withdrawals": 5,
+    "distinct_post_withdrawal_design_states": 3
+  },
+  "possible_definition": "Test each original eligible organization/activity key separately, restoring full original data between trials. A trial matters if the full global Pareto set of interval+complete cohort identities changes; changes in counts or minima alone do not qualify. For every changing trial enumerate the complete post-withdrawal frontier, including previously dominated nonbaseline windows and equal duration/coverage ties with different cohorts. For each post-withdrawal interval use only remaining complete eligible activities in its cohort/interval and the quarter-of-year of the withdrawn activity; select the single minimum-oxygen activity across that cohort, preserving its own companion measurements. Retain all affecting withdrawals, not just one chosen to maximize damage.",
+  "reason_not_arbitrary_threshold": "Single-observation withdrawal is a standard sensitivity question, requires no tuned numeric quality cutoff or desired winner. All trials and full outcomes retained.",
+  "format_and_scale_constraint": "One output row per changing withdrawal/post-frontier interval, a smaller row count than r02 is expected; complexity comes from restoring and recomputing counterfactual state, not extra output volume. Final precise rules and metrics must be fixed before any r03 blind solve.",
+  "not_evidence_of_harder": "No intelligent test of this possible revision has occurred. Meaningful dependency is not sufficient to claim difficulty."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "five_repairs_current_20260919",
+  "protocol_version": "five-repairs-public-web-20260919",
+  "authorization": "User authorized synchronization of current execution rules, prompts and runtime configuration. Preserve previous trials and cumulative budgets. This update does not launch tests.",
+  "status": "configured_not_running",
+  "started_at": "2026-09-18T17:10:50.071583+00:00",
+  "deadline": null,
+  "current_date": "2026-09-09",
+  "session_ledger": "session_ledger.jsonl",
+  "max_sessions": 45,
+  "max_blind_sessions": 30,
+  "max_review_sessions": 15,
+  "inherited_blind_sessions": 4,
+  "inherited_review_sessions": 4,
+  "max_versions_per_task": 3,
+  "inherited_blind_trials": [
+    {
+      "candidate_id": "waterquality_003",
+      "revision": "sanmarcos01",
+      "variant": "CG",
+      "trial": 1
+    },
+    {
+      "candidate_id": "waterquality_003",
+      "revision": "sanmarcos01",
+      "variant": "GO",
+      "trial": 1
+    },
+    {
+      "candidate_id": "wateroffice_002",
+      "revision": "ontario01",
+      "variant": "CG",
+      "trial": 1
+    },
+    {
+      "candidate_id": "wateroffice_002",
+      "revision": "ontario01",
+      "variant": "GO",
+      "trial": 1
+    }
+  ],
+  "maximum_concurrent_model_sessions": 4,
+  "controller_concurrency_slots": 1,
+  "max_seconds_per_session": 6000,
+  "stall_seconds": 3000,
+  "repair_retries_allowed": 0,
+  "reserved_pending_sessions": 0,
+  "blind_model": "gpt-5.6-sol",
+  "blind_effort": "medium",
+  "review_model": "gpt-6-astra",
+  "review_effort": "medium",
+  "blind_tool_profile": "public_web",
+  "protocol_assets": {
+    "retrieval_policy_path": "retrieval_policy.md",
+    "blind_prompt_path": "blind.md",
+    "solver_config_path": "solver.config.toml"
+  },
+  "historical_usage_source": "../dual70_deep_20260918/session_ledger.jsonl",
+  "historical_state": "../browser_plugin_20260918/continuation_08.json",
+  "goal_completed": false,
+  "candidate_ids": [
+    "waterquality_003",
+    "wateroffice_002",
+    "reptile_001",
+    "genome_002",
+    "kegg_initial_cdx_001"
+  ]
+}

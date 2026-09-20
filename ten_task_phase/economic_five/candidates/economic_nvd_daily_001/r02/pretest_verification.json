@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-09-11T19:21:19.616153+00:00",
+  "reference_execution": "reference/controller_invocation_01.json",
+  "source_byte_comparison": "reference/controller_source_comparison.json",
+  "pair_predicates": 25,
+  "common_conditions_equal": true,
+  "primary_scoring_key": [
+    "cve_id",
+    "matchCriteriaId"
+  ],
+  "key_reason": "These two source identifiers uniquely identify all 228 relations; criteria is an answer field determined by UUID. No need put all answer fields in scoring key and forfeit ordinary per-field credit. Defined before any blind run.",
+  "self_score_counts": {
+    "correct_fields": 684,
+    "gold_fields": 684,
+    "pred_fields": 684,
+    "item_denominator": 1368,
+    "correct_rows": 228,
+    "gold_rows": 228,
+    "pred_rows": 228,
+    "row_denominator": 456,
+    "correct_pairs": 25878,
+    "pair_denominator": 25878,
+    "shared_ids": 228
+  },
+  "scorer_probes": {
+    "case": {
+      "correct_fields": 3,
+      "gold_fields": 3,
+      "pred_fields": 3,
+      "item_denominator": 6,
+      "correct_rows": 1,
+      "gold_rows": 1,
+      "pred_rows": 1,
+      "row_denominator": 2,
+      "correct_pairs": 0,
+      "pair_denominator": 0,
+      "shared_ids": 1
+    },
+    "wrong_criteria": {
+      "correct_fields": 2,
+      "gold_fields": 3,
+      "pred_fields": 3,
+      "item_denominator": 6,
+      "correct_rows": 0,
+      "gold_rows": 1,
+      "pred_rows": 1,
+      "row_denominator": 2,
+      "correct_pairs": 0,
+      "pair_denominator": 0,
+      "shared_ids": 1
+    },
+    "duplicate": {
+      "correct_fields": 3,
+      "gold_fields": 3,
+      "pred_fields": 6,
+      "item_denominator": 9,
+      "correct_rows": 1,
+      "gold_rows": 1,
+      "pred_rows": 2,
+      "row_denominator": 3,
+      "correct_pairs": 0,
+      "pair_denominator": 0,
+      "shared_ids": 1
+    },
+    "none": {
+      "correct_fields": 0,
+      "gold_fields": 3,
+      "pred_fields": 0,
+      "item_denominator": 3,
+      "correct_rows": 0,
+      "gold_rows": 1,
+      "pred_rows": 0,
+      "row_denominator": 1,
+      "correct_pairs": 0,
+      "pair_denominator": 0,
+      "shared_ids": 0
+    }
+  },
+  "model_scores": false
+}

@@ -1,0 +1,1534 @@
+{
+  "task_id": "reptile_001",
+  "protocol_version": "ten-task-v1",
+  "recorded_at": "2026-09-09T17:05:53.164010+00:00",
+  "kind": "preselected_old_comparison_not_new_admission",
+  "trials": [
+    {
+      "variant": "CG",
+      "trial": 1,
+      "planned_run_id": "r-38fddeb0a06d",
+      "actual_run_id": "r-38fddeb0a06d",
+      "item_f1_exact": "17/30",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.5666666666666667,
+          "Row-F1": 0.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 17,
+          "gold_fields": 32,
+          "pred_fields": 28,
+          "item_denominator": 60,
+          "correct_rows": 0,
+          "gold_rows": 8,
+          "pred_rows": 7,
+          "row_denominator": 15,
+          "correct_pairs": 15,
+          "pair_denominator": 15,
+          "shared_ids": 6
+        },
+        "omitted_ids": [
+          [
+            "Argyrophis oatesii",
+            "Typhlops oatesii"
+          ],
+          [
+            "Myriopholis blanfordii",
+            "Leptotyphlops blanfordi"
+          ]
+        ],
+        "extra_ids": [
+          [
+            "Argyrophis oatesii",
+            "Asiatyphlops oatesii"
+          ]
+        ],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "observed_public_answer_exposure": false,
+      "verification_status": "passed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    {
+      "variant": "GO",
+      "trial": 1,
+      "planned_run_id": "r-b9ac95ab18e1",
+      "actual_run_id": "r-b9ac95ab18e1-repair",
+      "item_f1_exact": "17/28",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.6071428571428571,
+          "Row-F1": 0.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 17,
+          "gold_fields": 32,
+          "pred_fields": 24,
+          "item_denominator": 56,
+          "correct_rows": 0,
+          "gold_rows": 8,
+          "pred_rows": 6,
+          "row_denominator": 14,
+          "correct_pairs": 15,
+          "pair_denominator": 15,
+          "shared_ids": 6
+        },
+        "omitted_ids": [
+          [
+            "Fowlea sanctijohannis",
+            "Xenochrophis sanctijohannis"
+          ],
+          [
+            "Myriopholis blanfordii",
+            "Leptotyphlops blanfordi"
+          ]
+        ],
+        "extra_ids": [],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "observed_public_answer_exposure": false,
+      "verification_status": "passed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    {
+      "variant": "CG",
+      "trial": 2,
+      "planned_run_id": "r-7472804a7ded",
+      "actual_run_id": "r-7472804a7ded",
+      "item_f1_exact": "2/3",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.6666666666666666,
+          "Row-F1": 0.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 20,
+          "gold_fields": 32,
+          "pred_fields": 28,
+          "item_denominator": 60,
+          "correct_rows": 0,
+          "gold_rows": 8,
+          "pred_rows": 7,
+          "row_denominator": 15,
+          "correct_pairs": 21,
+          "pair_denominator": 21,
+          "shared_ids": 7
+        },
+        "omitted_ids": [
+          [
+            "Myriopholis blanfordii",
+            "Leptotyphlops blanfordi"
+          ]
+        ],
+        "extra_ids": [],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "observed_public_answer_exposure": false,
+      "verification_status": "passed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    {
+      "variant": "GO",
+      "trial": 2,
+      "planned_run_id": "r-68b9f7475339",
+      "actual_run_id": "r-68b9f7475339",
+      "item_f1_exact": "23/56",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.4107142857142857,
+          "Row-F1": 0.35714285714285715,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 23,
+          "gold_fields": 32,
+          "pred_fields": 80,
+          "item_denominator": 112,
+          "correct_rows": 5,
+          "gold_rows": 8,
+          "pred_rows": 20,
+          "row_denominator": 28,
+          "correct_pairs": 15,
+          "pair_denominator": 15,
+          "shared_ids": 6
+        },
+        "omitted_ids": [
+          [
+            "Argyrophis oatesii",
+            "Typhlops oatesii"
+          ],
+          [
+            "Myriopholis blanfordii",
+            "Leptotyphlops blanfordi"
+          ]
+        ],
+        "extra_ids": [
+          [
+            "Ahaetulla dispar",
+            "Dryophis dispar"
+          ],
+          [
+            "Ahaetulla flavescens",
+            "Dryophis prasinus"
+          ],
+          [
+            "Ahaetulla perroteti",
+            "Dryophis perroteti"
+          ],
+          [
+            "Argyrophis oatesii",
+            "Asiatyphlops oatesii"
+          ],
+          [
+            "Boiga gocool",
+            "Dipsadomorphus gokool"
+          ],
+          [
+            "Craspedocephalus gramineus",
+            "Trimeresurus gramineus"
+          ],
+          [
+            "Gonyosoma frenatum",
+            "Rhadinophis frenatus"
+          ],
+          [
+            "Hydrophis schistosus",
+            "Enhydrina schistosus"
+          ],
+          [
+            "Oreocryptophis porphyraceus",
+            "Orthriophis porphyraceus"
+          ],
+          [
+            "Rhabdops olivaceus",
+            "Pseudocyclophis olivaceus"
+          ],
+          [
+            "Sahyadriophis beddomei",
+            "Amphiesma beddomii"
+          ],
+          [
+            "Sibynophis collaris",
+            "Polyodontophis collaris"
+          ],
+          [
+            "Sibynophis sagittarius",
+            "Polyodontophis sagittarius"
+          ],
+          [
+            "Wallophis brachyura",
+            "Coronella brachyura"
+          ]
+        ],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "observed_public_answer_exposure": false,
+      "verification_status": "passed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    {
+      "variant": "CG",
+      "trial": 3,
+      "planned_run_id": "r-6ad977509c71",
+      "actual_run_id": "r-6ad977509c71",
+      "item_f1_exact": "1",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 32,
+          "gold_fields": 32,
+          "pred_fields": 32,
+          "item_denominator": 64,
+          "correct_rows": 8,
+          "gold_rows": 8,
+          "pred_rows": 8,
+          "row_denominator": 16,
+          "correct_pairs": 28,
+          "pair_denominator": 28,
+          "shared_ids": 8
+        },
+        "omitted_ids": [],
+        "extra_ids": [],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Argyrophis oatesii",
+              "Typhlops oatesii"
+            ],
+            "second": [
+              "Myriopholis blanfordii",
+              "Leptotyphlops blanfordi"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Dendrelaphis grandoculis",
+              "Ahaetulla grandoculis"
+            ],
+            "second": [
+              "Myriopholis blanfordii",
+              "Leptotyphlops blanfordi"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            "second": [
+              "Myriopholis blanfordii",
+              "Leptotyphlops blanfordi"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Gerrhopilus beddomii",
+              "Typhlops beddomii"
+            ],
+            "second": [
+              "Myriopholis blanfordii",
+              "Leptotyphlops blanfordi"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius khasiensis",
+              "Amphiesma khasiense"
+            ],
+            "second": [
+              "Myriopholis blanfordii",
+              "Leptotyphlops blanfordi"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "second": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Hebius parallelus",
+              "Amphiesma parallelum"
+            ],
+            "second": [
+              "Myriopholis blanfordii",
+              "Leptotyphlops blanfordi"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "Indotyphlops jerdoni",
+              "Typhlops jerdoni"
+            ],
+            "second": [
+              "Myriopholis blanfordii",
+              "Leptotyphlops blanfordi"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "observed_public_answer_exposure": true,
+      "verification_status": "passed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    {
+      "variant": "GO",
+      "trial": 3,
+      "planned_run_id": "r-b16f08272ff9",
+      "actual_run_id": "r-b16f08272ff9",
+      "item_f1_exact": "0",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.0,
+          "Row-F1": 0.0,
+          "P.O.A.": 0
+        },
+        "counts": {
+          "correct_fields": 0,
+          "gold_fields": 32,
+          "pred_fields": 166,
+          "item_denominator": 198,
+          "correct_rows": 0,
+          "gold_rows": 8,
+          "pred_rows": 31,
+          "row_denominator": 39,
+          "correct_pairs": 0,
+          "pair_denominator": 0,
+          "shared_ids": 0
+        },
+        "omitted_ids": [
+          [
+            "Argyrophis oatesii",
+            "Typhlops oatesii"
+          ],
+          [
+            "Dendrelaphis grandoculis",
+            "Ahaetulla grandoculis"
+          ],
+          [
+            "Fowlea sanctijohannis",
+            "Xenochrophis sanctijohannis"
+          ],
+          [
+            "Gerrhopilus beddomii",
+            "Typhlops beddomii"
+          ],
+          [
+            "Hebius khasiensis",
+            "Amphiesma khasiense"
+          ],
+          [
+            "Hebius parallelus",
+            "Amphiesma parallelum"
+          ],
+          [
+            "Indotyphlops jerdoni",
+            "Typhlops jerdoni"
+          ],
+          [
+            "Myriopholis blanfordii",
+            "Leptotyphlops blanfordi"
+          ]
+        ],
+        "extra_ids": [
+          [
+            "book name",
+            "current name"
+          ],
+          [
+            "Dryophis dispar",
+            "Ahaetulla dispar"
+          ],
+          [
+            "Dryophis prasinus",
+            "Ahaetulla flavescens"
+          ],
+          [
+            "paralectotype BMNH 1908.6.23.59",
+            "Dryophis prasinus"
+          ],
+          [
+            "Dryophis perroteti",
+            "Ahaetulla perroteti"
+          ],
+          [
+            "Typhlops oatesii",
+            "Argyrophis oatesii"
+          ],
+          [
+            "Dipsas gokool",
+            "Boiga gocool"
+          ],
+          [
+            "Trimeresurus gramineus",
+            "Craspedocephalus gramineus"
+          ],
+          [
+            "1946.1.19.87",
+            "Trimeresurus gramineus"
+          ],
+          [
+            "Dendrophis grandoculis",
+            "Dendrelaphis grandoculis"
+          ],
+          [
+            "Coluber hodgsoni",
+            "Elaphe hodgsonii"
+          ],
+          [
+            "Tropidonotus sancti-johannis",
+            "Fowlea sanctijohannis"
+          ],
+          [
+            "Typhlops beddomii",
+            "Gerrhopilus beddomii"
+          ],
+          [
+            "Coluber frenatus",
+            "Gonyosoma frenatum"
+          ],
+          [
+            "Tropidonotus khasiensis",
+            "Hebius khasiensis"
+          ],
+          [
+            "BMNH paralectotypes also listed",
+            "Amphiesma khasiense"
+          ],
+          [
+            "Tropidonotus parallelus",
+            "Hebius parallelus"
+          ],
+          [
+            "Enhydrina valakadien",
+            "Hydrophis schistosus"
+          ],
+          [
+            "Typhlops jerdoni",
+            "Indotyphlops jerdoni"
+          ],
+          [
+            "Hydrophobus gracilis",
+            "Lycodon gracilis"
+          ],
+          [
+            "Hydrophobus nympha",
+            "Lycodon nympha"
+          ],
+          [
+            "Glauconia blanfordii",
+            "Myriopholis blanfordii"
+          ],
+          [
+            "Ablabes porphyraceus",
+            "Oreocryptophis porphyraceus"
+          ],
+          [
+            "Zamenis gracilis",
+            "Platyceps gracilis"
+          ],
+          [
+            "page also records \u201cIndia\u201d and an unknown locality",
+            "Type: BMNH 1946.1.13.82"
+          ],
+          [
+            "Pseudocyclophis olivaceus",
+            "Rhabdops olivaceus"
+          ],
+          [
+            "Tropidonotus beddomei",
+            "Sahyadriophis beddomei"
+          ],
+          [
+            "Polyodontophis collaris",
+            "Sibynophis collaris"
+          ],
+          [
+            "paralectotype BMNH 1946.1.1.51B",
+            "Polyodontophis collaris"
+          ],
+          [
+            "Polyodontophis sagittarius",
+            "Sibynophis sagittarius"
+          ],
+          [
+            "Coronella brachyura",
+            "Wallophis brachyura"
+          ]
+        ],
+        "duplicate_ids": [],
+        "order_pairs": [],
+        "poa_note": "fewer than two shared IDs => 0"
+      },
+      "observed_public_answer_exposure": false,
+      "verification_status": "passed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    }
+  ],
+  "item_f1_means_exact": {
+    "CG": "67/90",
+    "GO": "19/56"
+  },
+  "public_answer_exposure": "CG3confirmed; otherfive targeted saved-event inspection found no benchmark-answer references, not proof of no exposure",
+  "unchanged_original_failure": "r-b9ac95ab18e1 originalinfra failure retained unscored, approvedrepairvalidslot, allcostscounted",
+  "semantic_and_format_review": "error_review.md",
+  "interpretation_limits": [
+    "CG1/CG2/GO1 capitalization penalties",
+    "GO3 wrong output schema causes original score0 despite extensive progress",
+    "Unresolved old scope/chronology ambiguity",
+    "CG3 observed public answer exposure"
+  ]
+}

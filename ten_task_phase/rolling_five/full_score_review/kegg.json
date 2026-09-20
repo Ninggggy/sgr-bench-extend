@@ -1,0 +1,290 @@
+{
+  "review_scope": "two assigned KEGG r01 tasks only; review only",
+  "first_observed_utc": "2026-09-12T17:37:23Z",
+  "exact_start_utc": "unknown; first file read preceded first clock",
+  "ended_utc": "2026-09-12T17:43:43.084542+00:00",
+  "budget_seconds": 1200,
+  "actual_access_new_sources": null,
+  "review_tokens": "unknown",
+  "review_model_identity": "parent assigned GPT-6 Astra/high; independent host billing/turn context not read",
+  "calls": {
+    "new_network_requests": 0,
+    "new_model_test_runs": 0,
+    "child_agents_spawned": 0,
+    "local_exec_command_calls_through_write": 14,
+    "clock_calls_through_write": 2,
+    "token_accounting": "unknown",
+    "count_scope": "includes final JSON and local-link validation; no reference re-execution or scoring"
+  },
+  "common_basis": [
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/chinese_1st_ver/latex/main.tex:142",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/chinese_1st_ver/latex/sections/3_Method.tex:8,42-47,55-63",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/research/economic_five_efficiency_review_2026-09-12.md",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/research/construction_efficiency_review_2026-09-10.md",
+    "/Users/ning/.codex/skills/0-autoresearch-skill/references/benchmark-construction-efficiency.md"
+  ],
+  "selected_count": 0,
+  "candidates": [
+    {
+      "candidate_id": "kegg_prodrug_identity_001",
+      "revision": 1,
+      "revisions_used_remaining": {
+        "used": 0,
+        "remaining": 2,
+        "max": 2,
+        "basis": "construction_pipeline/ten_task_phase/rolling_five_campaign.json:5; full_score_review/inventory.json"
+      },
+      "full_score_reason": {
+        "CG": "完整DG发现四成员，逐项GET/读取后own COMMENT与D身份核对，4/4。",
+        "GO": "公开搜索结果与D00752页面已给全部4输出字段；以hsa:3615展开代替完整DG，范围和部分排除证据未充分核实，仍与gold完全相同。",
+        "direct_answer": "前药GO存在近直接字段暴露；不等于完整固定材料覆盖全部研究义务。",
+        "fixed_material": "br08324部分覆盖，未证明完整覆盖。",
+        "local_join": "成员字段提取/排序是后续计算，非检索依赖本身。",
+        "result_driven_batch": true,
+        "domain_judgment": "盐型身份、own COMMENT与组级关系归属。"
+      },
+      "mechanism_assessment": {
+        "verdict": "SGR成立但容易；GO成功分数与轨迹完整性不足并存。",
+        "dependency": "DG Member结果→D GET参数→own COMMENT/目标身份。",
+        "no_extra_requirement": "无第二层、特殊回查或永久HTTP重放要求；普通遍历不自动成立。",
+        "full_fixed_counterexample_established": false
+      },
+      "completeness_assessment": {
+        "reference": "原参考重建与pre/post_A全范围结果比较通过，未发现具体遗漏；最终独立审计/人工审核未执行。",
+        "solver": "CG有完整DG/四D；GO缺完整DG和部分成员完整当前记录，不能证明全义务完成。",
+        "stable_forever": false
+      },
+      "difficulty_hypothesis": {
+        "old_hypothesis": "身份与自身关系边界可能被误读。",
+        "observed_counterevidence": "CG完整短路径75秒答对，GO近直接字段105秒答对。",
+        "new_hypothesis": "unknown;无新原件，不提出低分预期。"
+      },
+      "opportunity": null,
+      "reusable": [
+        "既有共享限流与合法访问画像",
+        "flat-field续行/终止符解析",
+        "范围与身份检查",
+        "逐项纳排及原件行索引",
+        "当前观察时点来源资产，仅用于构造侧"
+      ],
+      "recheck": [
+        "任何新条件下的完整范围/身份/所有纳排/参考时点",
+        "目标字段和必要证据不得沿用旧条件答案",
+        "若前药target在组外，拆开成员档案和目标档案；现有集合相等断言不能直接扩用"
+      ],
+      "costs": {
+        "actual_this_review": {
+          "new_evidence_requests": 0,
+          "reference_modifications": 0,
+          "semantic_redesigns": 0,
+          "validation_model_runs": 0
+        },
+        "new_evidence": {
+          "future_if_unchanged_scope_requests_per_observation": [
+            2,
+            5
+          ],
+          "basis": "DG+四D batch；逐项5请求。",
+          "for_undefined_new_opportunity": "unknown"
+        },
+        "reference_modification": {
+          "future_model_sessions_min_if_real_redesign": 1,
+          "model": "gpt-6-astra/high",
+          "historical_builder_seconds": 518.68,
+          "historical_input_tokens": 34208,
+          "historical_output_tokens": 16810,
+          "new_scope_cost_range": "unknown;历史非保证"
+        },
+        "semantic_recheck": {
+          "program": "完整记录覆盖、续行、集合和差异",
+          "model": "4成员own关系归属/盐型/排除",
+          "new_scope_cost_range": "unknown"
+        },
+        "complete_followup_validation": {
+          "sessions": 13,
+          "breakdown": {
+            "A": 2,
+            "B": 2,
+            "attacks": 2,
+            "independent_final_audit": 1,
+            "formal": 6
+          },
+          "historical_A_not_credit": true,
+          "construction_extra_min": 1,
+          "wall_tokens_money": "unknown",
+          "A_duration_proxy_for_12_solver_sessions_minutes": [
+            15.08,
+            21.12
+          ],
+          "proxy_warning": "不是预测/上界；攻击与正式未实测，终审/人工审核/取证另计。"
+        },
+        "historical_A": {
+          "elapsed_seconds": [
+            75.425,
+            105.617
+          ],
+          "input_tokens": [
+            326538,
+            476895
+          ],
+          "output_tokens": [
+            1596,
+            2162
+          ]
+        }
+      },
+      "decision": {
+        "action": "淘汰本次方向",
+        "selected_for_redesign": false,
+        "reason": "暂无新证据支持值得改造，旧自然边界已经纳入且A两面满分。",
+        "one_gap_to_reopen": "同一自然目标下新必要证据及真实边界，须实证前步发现→后步专门网站检索状态→必要信息。",
+        "permanent_ecosystem_rejection": false
+      },
+      "evidence_locations": [
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_prodrug_identity_001/r01/development_decision.json:7",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_prodrug_identity_001/r01/design_rationale.md:1",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_prodrug_identity_001/r01/controller_integration_check.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_prodrug_identity_001/r01/controller_pre_A_stability.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_prodrug_identity_001/r01/controller_post_A_stability.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-prodrug-r01-cg-dev-a/tool_events.jsonl:12-18",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-prodrug-r01-go-dev-a/tool_events.jsonl:8,12,16,18,20,22",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-prodrug-r01-go-dev-a/events.jsonl:27"
+      ],
+      "proposal": null
+    },
+    {
+      "candidate_id": "kegg_module_products_001",
+      "revision": 1,
+      "revisions_used_remaining": {
+        "used": 0,
+        "remaining": 2,
+        "max": 2,
+        "basis": "construction_pipeline/ten_task_phase/rolling_five_campaign.json:5; full_score_review/inventory.json"
+      },
+      "full_score_reason": {
+        "CG": "前步搜索发现模块ID，集中下载根/links/模块，再读REACTION尾段，完成产品集比较，6/6。",
+        "GO": "先取得direct module links，再按返回ID下载3模块，读模块特定REACTION并本地集合比较，6/6。",
+        "direct_answer": "没有证明完整直接答案页。",
+        "fixed_material": "实际两个完整catalog不含必要联合关系；未知dump未作反例。",
+        "local_join": "模块内提取、按reaction归组/比较是后续计算。",
+        "result_driven_batch": true,
+        "domain_judgment": "模块REACTION的显式产品、箭头方向与generic EQUATION边界。"
+      },
+      "mechanism_assessment": {
+        "verdict": "SGR成立但容易。",
+        "dependency": "direct enzyme-module links结果→模块GET参数→模块特定产品证据。",
+        "no_extra_requirement": "无第二层、特殊回查或永久HTTP重放要求；普通遍历不自动成立。",
+        "full_fixed_counterexample_established": false
+      },
+      "completeness_assessment": {
+        "reference": "原参考重建与pre/post_A全范围结果比较通过，未发现具体遗漏；最终独立审计/人工审核未执行。",
+        "solver": "两面取到三模块及关键REACTION区段；GO长输出截断后补读尾段，未见决定性证据缺失。",
+        "stable_forever": false
+      },
+      "difficulty_hypothesis": {
+        "old_hypothesis": "模块注释可能被通用反应EQUATION替代。",
+        "observed_counterevidence": "两面90–121秒均正确，真实边界没有转化为本次区分度。",
+        "new_hypothesis": "unknown;无新原件，不提出低分预期。"
+      },
+      "opportunity": null,
+      "reusable": [
+        "既有共享限流与合法访问画像",
+        "flat-field续行/终止符解析",
+        "范围与身份检查",
+        "逐项纳排及原件行索引",
+        "当前观察时点来源资产，仅用于构造侧"
+      ],
+      "recheck": [
+        "任何新条件下的完整范围/身份/所有纳排/参考时点",
+        "目标字段和必要证据不得沿用旧条件答案",
+        "所有新模块的ALL_REAC匹配、箭头和产品解析，复杂表达式不能自动排除"
+      ],
+      "costs": {
+        "actual_this_review": {
+          "new_evidence_requests": 0,
+          "reference_modifications": 0,
+          "semantic_redesigns": 0,
+          "validation_model_runs": 0
+        },
+        "new_evidence": {
+          "future_if_unchanged_scope_requests_per_observation": [
+            2,
+            3
+          ],
+          "basis": "实取3组件；2请求合并URL仅合法估计未实取。",
+          "for_undefined_new_opportunity": "unknown"
+        },
+        "reference_modification": {
+          "future_model_sessions_min_if_real_redesign": 1,
+          "model": "gpt-6-astra/high",
+          "historical_builder_seconds": 735.249,
+          "historical_input_tokens": 73083,
+          "historical_output_tokens": 22140,
+          "new_scope_cost_range": "unknown;历史非保证"
+        },
+        "semantic_recheck": {
+          "program": "完整记录覆盖、续行、集合和差异",
+          "model": "3相关模块反应行及单模块/缺失边界",
+          "new_scope_cost_range": "unknown"
+        },
+        "complete_followup_validation": {
+          "sessions": 13,
+          "breakdown": {
+            "A": 2,
+            "B": 2,
+            "attacks": 2,
+            "independent_final_audit": 1,
+            "formal": 6
+          },
+          "historical_A_not_credit": true,
+          "construction_extra_min": 1,
+          "wall_tokens_money": "unknown",
+          "A_duration_proxy_for_12_solver_sessions_minutes": [
+            18.09,
+            24.15
+          ],
+          "proxy_warning": "不是预测/上界；攻击与正式未实测，终审/人工审核/取证另计。"
+        },
+        "historical_A": {
+          "elapsed_seconds": [
+            120.763,
+            90.434
+          ],
+          "input_tokens": [
+            492369,
+            352971
+          ],
+          "output_tokens": [
+            2138,
+            1863
+          ]
+        }
+      },
+      "decision": {
+        "action": "淘汰本次方向",
+        "selected_for_redesign": false,
+        "reason": "暂无新证据支持值得改造，旧自然边界已经纳入且A两面满分。",
+        "one_gap_to_reopen": "同一自然目标下新必要证据及真实边界，须实证前步发现→后步专门网站检索状态→必要信息。",
+        "permanent_ecosystem_rejection": false
+      },
+      "evidence_locations": [
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/r01/development_decision.json:7",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/r01/design_rationale.md:1",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/r01/controller_integration_check.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/r01/controller_pre_A_stability.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/r01/controller_post_A_stability.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-module-products-r01-cg-dev-a/tool_events.jsonl:10,21-24",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-module-products-r01-go-dev-a/tool_events.jsonl:13-20",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/sources/modules.txt:656,852,1148"
+      ],
+      "proposal": null
+    }
+  ],
+  "verification": {
+    "json_parsed": true,
+    "local_links_exist": true,
+    "originals_modified": false,
+    "new_network_requests": 0,
+    "new_validation_runs": 0
+  }
+}

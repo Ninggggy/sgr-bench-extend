@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidate adjudication artifact",
+  "description": "模型建议的裁决资产。结构合法不证明事实、运行完成或难度成立；父进程核对引用及结果后决定候选状态。",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "content_verdict": {
+      "type": "string",
+      "enum": [
+        "ready_for_difficulty_test",
+        "revise",
+        "reject",
+        "inconclusive"
+      ]
+    },
+    "candidate_difficulty": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "仅属于此候选的对照结论；集合比较不得填写为单题已确认。",
+      "properties": {
+        "verdict": {
+          "type": "string",
+          "enum": [
+            "not_run",
+            "structural_only",
+            "screened",
+            "confirmed_harder",
+            "not_harder",
+            "inconclusive"
+          ]
+        },
+        "comparison_task_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "analysis_plan_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "report_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "verdict",
+        "comparison_task_ids",
+        "analysis_plan_path",
+        "report_path"
+      ]
+    },
+    "supporting_reports": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "affected_assets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "description",
+          "evidence_refs",
+          "affected_assets"
+        ]
+      }
+    },
+    "rerun_stages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_action": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "candidate_id",
+    "revision",
+    "content_verdict",
+    "candidate_difficulty",
+    "supporting_reports",
+    "issues",
+    "rerun_stages",
+    "next_action"
+  ]
+}

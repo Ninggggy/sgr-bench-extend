@@ -1,0 +1,26 @@
+{
+  "candidate_id": "kegg_prodrug_identity_001",
+  "revision": 1,
+  "registered_at": "2026-09-12T13:36:19.242911+00:00",
+  "stage": "development_a",
+  "trials": [
+    {
+      "candidate_id": "kegg_prodrug_identity_001",
+      "revision": 1,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "kegg-prodrug-r01-cg-dev-a"
+    },
+    {
+      "candidate_id": "kegg_prodrug_identity_001",
+      "revision": 1,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "kegg-prodrug-r01-go-dev-a"
+    }
+  ]
+}

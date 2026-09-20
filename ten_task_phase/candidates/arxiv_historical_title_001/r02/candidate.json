@@ -1,0 +1,62 @@
+{
+  "candidate_id": "arxiv_historical_title_001",
+  "revision": 2,
+  "ecosystem": "arXiv",
+  "domain": "ARXIV",
+  "status": "content_validated",
+  "old_task_refs": [
+    "arxiv_002"
+  ],
+  "research_goal": "Identify source-timestamp-selected historical title changes across direct withdrawn-preprint replacement relationships.",
+  "structural_upgrade": "Complete first-submission cohort, directed identity referral, source-conditioned historical version selection, and historical/current title comparison.",
+  "public": {
+    "cg": {
+      "instruction": "Using catalogue records as observed on 9 September 2026, audit historical title changes across direct replacement records for preprints first submitted during calendar year 2021 in UTC and classified as cs.LG, including cross-listed records. Find every predecessor whose latest recorded version is marked withdrawn and whose current comment explicitly identifies a distinct archive record as its direct replacement or continuation of the same work. Include notices of supersession, subsumption, merger into another record, revised resubmission, or correction of an accidentally duplicated record when they designate that other record. Exclude ordinary references, administrative text-overlap notices, incoming mergers, and active companion records unless the stated withdrawal and direct-replacement conditions are satisfied. Follow only the directly designated replacement, not a chain of later replacements. For each relationship, use the predecessor's latest version marked withdrawn as the withdrawal version. Select the replacement version whose recorded submission timestamp is the latest not later than that withdrawal version's recorded submission timestamp, comparing exact UTC timestamps. These are submission-record times, not public announcement or availability times. Include only relationships for which such a replacement version exists AND the title attached to that selected version differs in wording from the replacement record's current title. Ignore layout whitespace and equivalent mathematical rendering when comparing titles. Return the predecessor identifier, distinct replacement identifier and selected replacement version. To investigate, establish the complete year/category cohort, interpret replacement direction and actual withdrawal status, compare the two records' submission histories, then retrieve the selected version's metadata and compare its historical title with the current title before deciding whether to include the relationship.",
+      "output_format": "Return only a pipe-separated table with header predecessor_id|replacement_id|selected_version. Use unversioned archive identifiers in the first two columns and v followed by the version number in the third. Use one row per qualifying direct relationship, sorted by predecessor_id then replacement_id."
+    },
+    "go": {
+      "instruction": "Using catalogue records as observed on 9 September 2026, audit historical title changes across direct replacement records for preprints first submitted during calendar year 2021 in UTC and classified as cs.LG, including cross-listed records. Find every predecessor whose latest recorded version is marked withdrawn and whose current comment explicitly identifies a distinct archive record as its direct replacement or continuation of the same work. Include notices of supersession, subsumption, merger into another record, revised resubmission, or correction of an accidentally duplicated record when they designate that other record. Exclude ordinary references, administrative text-overlap notices, incoming mergers, and active companion records unless the stated withdrawal and direct-replacement conditions are satisfied. Follow only the directly designated replacement, not a chain of later replacements. For each relationship, use the predecessor's latest version marked withdrawn as the withdrawal version. Select the replacement version whose recorded submission timestamp is the latest not later than that withdrawal version's recorded submission timestamp, comparing exact UTC timestamps. These are submission-record times, not public announcement or availability times. Include only relationships for which such a replacement version exists AND the title attached to that selected version differs in wording from the replacement record's current title. Ignore layout whitespace and equivalent mathematical rendering when comparing titles. Return the predecessor identifier, distinct replacement identifier and selected replacement version.",
+      "output_format": "Return only a pipe-separated table with header predecessor_id|replacement_id|selected_version. Use unversioned archive identifiers in the first two columns and v followed by the version number in the third. Use one row per qualifying direct relationship, sorted by predecessor_id then replacement_id."
+    }
+  },
+  "private": {
+    "source_version": "Official catalogue and version records observed2026-09-09; preserved raw evidence",
+    "start_urls": [
+      "https://arxiv.org/search/advanced"
+    ],
+    "candidate_scope": "All26533first-submitted2021cs.LGrecords including crosslists;705distinctnumeric-ID notices plus nonnumeric closure challenge.",
+    "predicates": [
+      "latest predecessor version withdrawn",
+      "explicit direct replacement/continuation relationship",
+      "selected replacement version submitted no later than predecessor withdrawal-version timestamp",
+      "selected historical title differs substantively from current title"
+    ],
+    "output_columns": [
+      "predecessor_id",
+      "replacement_id",
+      "selected_version"
+    ],
+    "row_key": [
+      "predecessor_id",
+      "replacement_id"
+    ],
+    "sorting_rules": [
+      "predecessor_id ascending then replacement_id ascending"
+    ],
+    "missing_value_rules": [
+      "Exclude relationship if no replacement version exists by cutoff; never invent a version"
+    ],
+    "source_manifest_path": "sources.json",
+    "state_graph_path": "dependencies.json",
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "passed",
+    "difficulty": "screened",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "audit/audit.json"
+    ]
+  }
+}

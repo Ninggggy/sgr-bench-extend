@@ -1,0 +1,34 @@
+Source: https://patents.google.com/patent/US20190002953A1/en
+Visited: 2026-09-10
+Attribution: Selected bibliographic fields transcribed from the actual web response. Link markup and legal-status labels omitted. Full native response separately preserved. Publication table is complete as displayed.
+
+Publication number
+US20190002953A1
+Authority
+US
+Application number
+US15/765,742
+Publication date
+2019-01-03
+
+## Publications (2)
+Publication Number | Publication Date
+US20190002953A1 | 2019-01-03
+US10870879B2 | 2020-12-22
+
+# Family
+## ID=54266422
+## Country Status (3)
+US (1) | US10870879B2
+EP (1) | EP3359683A1
+WO (1) | WO2017060316A1
+
+## Also Published As
+WO2017060316A1 | 2017-04-13
+EP3359683A1 | 2018-08-15
+US10870879B2 | 2020-12-22
+
+Application timeline, identifiers transcribed without status labels:
+2016-10-05 | US | US15/765,742
+2016-10-05 | EP | EP16775753.3A
+2016-10-05 | WO | PCT/EP2016/073816

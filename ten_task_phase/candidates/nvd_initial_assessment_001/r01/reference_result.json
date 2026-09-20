@@ -1,0 +1,1136 @@
+{
+  "complete_product_response": 351,
+  "complete_pool": [
+    "CVE-2006-20001",
+    "CVE-2019-17567",
+    "CVE-2020-11984",
+    "CVE-2020-11985",
+    "CVE-2020-11993",
+    "CVE-2020-13938",
+    "CVE-2020-13950",
+    "CVE-2020-1927",
+    "CVE-2020-1934",
+    "CVE-2020-35452",
+    "CVE-2020-9490",
+    "CVE-2021-26690",
+    "CVE-2021-26691",
+    "CVE-2021-30641",
+    "CVE-2021-31618",
+    "CVE-2021-33193",
+    "CVE-2021-34798",
+    "CVE-2021-36160",
+    "CVE-2021-39275",
+    "CVE-2021-40438",
+    "CVE-2021-41524",
+    "CVE-2021-41773",
+    "CVE-2021-42013",
+    "CVE-2021-44224",
+    "CVE-2021-44790",
+    "CVE-2022-22719",
+    "CVE-2022-22720",
+    "CVE-2022-22721",
+    "CVE-2022-23943",
+    "CVE-2022-26377",
+    "CVE-2022-28330",
+    "CVE-2022-28614",
+    "CVE-2022-28615",
+    "CVE-2022-29404",
+    "CVE-2022-30522",
+    "CVE-2022-30556",
+    "CVE-2022-31813",
+    "CVE-2022-36760",
+    "CVE-2022-37436",
+    "CVE-2023-25690",
+    "CVE-2023-27522",
+    "CVE-2023-31122",
+    "CVE-2023-43622",
+    "CVE-2023-45802"
+  ],
+  "history_events": 851,
+  "excluded": [
+    {
+      "cve_id": "CVE-2020-1927",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2020-11984",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2020-11985",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2020-11993",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2020-9490",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2019-17567",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2020-13938",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2020-13950",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2020-35452",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-26690",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-26691",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-30641",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-31618",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-32785",
+      "reason": "environment_only",
+      "matches": [
+        {
+          "vulnerable": false,
+          "criteria": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+          "versionStartIncluding": "2.0.0",
+          "versionEndIncluding": "2.4.48",
+          "matchCriteriaId": "BC9C65B5-0989-4D64-9BED-1E391AD971AE"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2021-32786",
+      "reason": "environment_only",
+      "matches": [
+        {
+          "vulnerable": false,
+          "criteria": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+          "versionStartIncluding": "2.0.0",
+          "versionEndIncluding": "2.4.48",
+          "matchCriteriaId": "BC9C65B5-0989-4D64-9BED-1E391AD971AE"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2021-32791",
+      "reason": "environment_only",
+      "matches": [
+        {
+          "vulnerable": false,
+          "criteria": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+          "versionStartIncluding": "2.0.0",
+          "versionEndIncluding": "2.4.48",
+          "matchCriteriaId": "BC9C65B5-0989-4D64-9BED-1E391AD971AE"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2021-32792",
+      "reason": "environment_only",
+      "matches": [
+        {
+          "vulnerable": false,
+          "criteria": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+          "versionStartIncluding": "2.0.0",
+          "versionEndIncluding": "2.4.48",
+          "matchCriteriaId": "BC9C65B5-0989-4D64-9BED-1E391AD971AE"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2021-33193",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-34798",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-36160",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-39275",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-41524",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-42013",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-44224",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2021-44790",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-22719",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-22720",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-23943",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-26377",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-28330",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-28614",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-28615",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-29404",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-30522",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-30556",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-31813",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2006-20001",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2022-37436",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2023-25690",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2023-27522",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2023-43622",
+      "reason": "same_initial_and_current_base_vector"
+    },
+    {
+      "cve_id": "CVE-2023-45802",
+      "reason": "same_initial_and_current_base_vector"
+    }
+  ],
+  "answers": [
+    [
+      "CVE-2020-1934",
+      "9.8",
+      "5.3",
+      "2020-04-15"
+    ],
+    [
+      "CVE-2021-40438",
+      "9.8",
+      "9",
+      "2021-10-04"
+    ],
+    [
+      "CVE-2021-41773",
+      "7.5",
+      "9.8",
+      "2026-02-17"
+    ],
+    [
+      "CVE-2022-22721",
+      "9.8",
+      "9.1",
+      "2022-08-30"
+    ],
+    [
+      "CVE-2022-36760",
+      "9.8",
+      "9",
+      "2023-01-30"
+    ],
+    [
+      "CVE-2023-31122",
+      "9.1",
+      "7.5",
+      "2023-10-30"
+    ]
+  ],
+  "field_evidence": [
+    {
+      "row": [
+        "CVE-2020-1934",
+        "9.8",
+        "5.3",
+        "2020-04-15"
+      ],
+      "published": "2020-04-01T20:15:15.127",
+      "current_matches": [
+        {
+          "vulnerable": true,
+          "criteria": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+          "versionStartIncluding": "2.4.0",
+          "versionEndIncluding": "2.4.41",
+          "matchCriteriaId": "46C866A0-204C-4F7C-BDFB-5A74F32837F6"
+        }
+      ],
+      "initial_event": {
+        "cveId": "CVE-2020-1934",
+        "eventName": "Initial Analysis",
+        "cveChangeId": "4BEF5A6A-DA00-4AA8-8481-488463E377E9",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2020-04-03T15:45:11.707",
+        "details": [
+          {
+            "action": "Added",
+            "type": "CVSS V2",
+            "newValue": "NIST (AV:N/AC:L/Au:N/C:P/I:P/A:P)"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://httpd.apache.org/security/vulnerabilities_24.html No Types Assigned",
+            "newValue": "https://httpd.apache.org/security/vulnerabilities_24.html Vendor Advisory"
+          },
+          {
+            "action": "Added",
+            "type": "CWE",
+            "newValue": "NIST CWE-908"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:* versions from (including) 2.4.0 up to (including) 2.4.41"
+          }
+        ]
+      },
+      "first_revision_event": {
+        "cveId": "CVE-2020-1934",
+        "eventName": "Modified Analysis",
+        "cveChangeId": "9F63D979-D33E-4A94-A028-712031925134",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2020-04-15T14:35:37.383",
+        "details": [
+          {
+            "action": "Removed",
+            "type": "CVSS V2",
+            "oldValue": "NIST (AV:N/AC:L/Au:N/C:P/I:P/A:P)"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V2",
+            "newValue": "NIST (AV:N/AC:L/Au:N/C:P/I:N/A:N)"
+          },
+          {
+            "action": "Removed",
+            "type": "CVSS V3.1",
+            "oldValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/r1719675306dfbeaceff3dc63ccad3de2d5615919ca3c13276948b9ac@%3Cdev.httpd.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/r1719675306dfbeaceff3dc63ccad3de2d5615919ca3c13276948b9ac@%3Cdev.httpd.apache.org%3E Issue Tracking, Patch, Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/r52a52fd60a258f5999a8fa5424b30d9fd795885f9ff4828d889cd201@%3Cdev.httpd.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/r52a52fd60a258f5999a8fa5424b30d9fd795885f9ff4828d889cd201@%3Cdev.httpd.apache.org%3E Issue Tracking, Patch, Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://security.netapp.com/advisory/ntap-20200413-0002/ No Types Assigned",
+            "newValue": "https://security.netapp.com/advisory/ntap-20200413-0002/ Third Party Advisory"
+          }
+        ]
+      },
+      "current_metric": {
+        "source": "nvd@nist.gov",
+        "type": "Primary",
+        "cvssData": {
+          "version": "3.1",
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+          "baseScore": 5.3,
+          "baseSeverity": "MEDIUM",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "LOW",
+          "integrityImpact": "NONE",
+          "availabilityImpact": "NONE"
+        },
+        "exploitabilityScore": 3.9,
+        "impactScore": 1.4
+      }
+    },
+    {
+      "row": [
+        "CVE-2021-40438",
+        "9.8",
+        "9",
+        "2021-10-04"
+      ],
+      "published": "2021-09-16T15:15:07.633",
+      "current_matches": [
+        {
+          "vulnerable": true,
+          "criteria": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+          "versionEndIncluding": "2.4.48",
+          "matchCriteriaId": "1691C7CE-5CDA-4B9A-854E-3B58C1115526"
+        }
+      ],
+      "initial_event": {
+        "cveId": "CVE-2021-40438",
+        "eventName": "Initial Analysis",
+        "cveChangeId": "6BAB5C7C-9ED9-4B9C-83D0-8ACB83B1F93D",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2021-09-27T19:09:56.243",
+        "details": [
+          {
+            "action": "Added",
+            "type": "CVSS V2",
+            "newValue": "NIST (AV:N/AC:L/Au:N/C:P/I:P/A:P)"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://httpd.apache.org/security/vulnerabilities_24.html No Types Assigned",
+            "newValue": "https://httpd.apache.org/security/vulnerabilities_24.html Release Notes, Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/r3925e167d5eb1c75def3750c155d753064e1d34a143028bb32910432@%3Cusers.httpd.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/r3925e167d5eb1c75def3750c155d753064e1d34a143028bb32910432@%3Cusers.httpd.apache.org%3E Mailing List, Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/r61fdbfc26ab170f4e6492ef3bd5197c20b862ce156e9d5a54d4b899c@%3Cusers.httpd.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/r61fdbfc26ab170f4e6492ef3bd5197c20b862ce156e9d5a54d4b899c@%3Cusers.httpd.apache.org%3E Mailing List, Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/r82838efc5fa6fc4c73986399c9b71573589f78b31846aff5bd9b1697@%3Cusers.httpd.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/r82838efc5fa6fc4c73986399c9b71573589f78b31846aff5bd9b1697@%3Cusers.httpd.apache.org%3E Mailing List, Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/r82c077663f9759c7df5a6656f925b3ee4f55fcd33c889ba7cd687029@%3Cusers.httpd.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/r82c077663f9759c7df5a6656f925b3ee4f55fcd33c889ba7cd687029@%3Cusers.httpd.apache.org%3E Mailing List, Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SPBR6WUYBJNACHKE65SPL7TJOHX7RHWD/ No Types Assigned",
+            "newValue": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SPBR6WUYBJNACHKE65SPL7TJOHX7RHWD/ Mailing List, Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZNCYSR3BXT36FFF4XTCPL3HDQK4VP45R/ No Types Assigned",
+            "newValue": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZNCYSR3BXT36FFF4XTCPL3HDQK4VP45R/ Mailing List, Third Party Advisory"
+          },
+          {
+            "action": "Added",
+            "type": "CWE",
+            "newValue": "NIST CWE-918"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:* versions up to (including) 2.4.48"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*\n     *cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*"
+          }
+        ]
+      },
+      "first_revision_event": {
+        "cveId": "CVE-2021-40438",
+        "eventName": "Modified Analysis",
+        "cveChangeId": "64BDD215-8DFE-4776-B9CC-8F9994D08191",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2021-10-04T15:46:25.623",
+        "details": [
+          {
+            "action": "Removed",
+            "type": "CVSS V2",
+            "oldValue": "NIST (AV:N/AC:L/Au:N/C:P/I:P/A:P)"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V2",
+            "newValue": "NIST (AV:N/AC:M/Au:N/C:P/I:P/A:P)"
+          },
+          {
+            "action": "Removed",
+            "type": "CVSS V3.1",
+            "oldValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.debian.org/debian-lts-announce/2021/10/msg00001.html No Types Assigned",
+            "newValue": "https://lists.debian.org/debian-lts-announce/2021/10/msg00001.html Mailing List, Third Party Advisory"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*"
+          }
+        ]
+      },
+      "current_metric": {
+        "source": "nvd@nist.gov",
+        "type": "Primary",
+        "cvssData": {
+          "version": "3.1",
+          "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+          "baseScore": 9.0,
+          "baseSeverity": "CRITICAL",
+          "attackVector": "NETWORK",
+          "attackComplexity": "HIGH",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "CHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "HIGH",
+          "availabilityImpact": "HIGH"
+        },
+        "exploitabilityScore": 2.2,
+        "impactScore": 6.0
+      }
+    },
+    {
+      "row": [
+        "CVE-2021-41773",
+        "7.5",
+        "9.8",
+        "2026-02-17"
+      ],
+      "published": "2021-10-05T09:15:07.593",
+      "current_matches": [
+        {
+          "vulnerable": true,
+          "criteria": "cpe:2.3:a:apache:http_server:2.4.49:*:*:*:*:*:*:*",
+          "matchCriteriaId": "B201CFB2-F626-4DD0-9F6A-DFE8F64203E2"
+        }
+      ],
+      "initial_event": {
+        "cveId": "CVE-2021-41773",
+        "eventName": "Initial Analysis",
+        "cveChangeId": "735AF39D-D583-4FF5-8AAF-607DCACC4994",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2021-10-12T15:43:01.630",
+        "details": [
+          {
+            "action": "Added",
+            "type": "CVSS V2",
+            "newValue": "NIST (AV:N/AC:M/Au:N/C:P/I:N/A:N)"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://packetstormsecurity.com/files/164418/Apache-HTTP-Server-2.4.49-Path-Traversal.html No Types Assigned",
+            "newValue": "http://packetstormsecurity.com/files/164418/Apache-HTTP-Server-2.4.49-Path-Traversal.html Exploit, Third Party Advisory, VDB Entry"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://packetstormsecurity.com/files/164418/Apache-HTTP-Server-2.4.49-Path-Traversal-Remote-Code-Execution.html No Types Assigned",
+            "newValue": "http://packetstormsecurity.com/files/164418/Apache-HTTP-Server-2.4.49-Path-Traversal-Remote-Code-Execution.html Exploit, Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/05/2 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/05/2 Mailing List, Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/07/1 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/07/1 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/07/6 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/07/6 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/08/1 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/08/1 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/08/2 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/08/2 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/08/3 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/08/3 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/08/4 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/08/4 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/08/5 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/08/5 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/08/6 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/08/6 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/09/1 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/09/1 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2021/10/11/4 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2021/10/11/4 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://httpd.apache.org/security/vulnerabilities_24.html No Types Assigned",
+            "newValue": "https://httpd.apache.org/security/vulnerabilities_24.html Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/r17a4c6ce9aff662efd9459e9d1850ab4a611cb23392fc68264c72cb3@%3Ccvs.httpd.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/r17a4c6ce9aff662efd9459e9d1850ab4a611cb23392fc68264c72cb3@%3Ccvs.httpd.apache.org%3E Mailing List, Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/r6abf5f2ba6f1aa8b1030f95367aaf17660c4e4c78cb2338aee18982f@%3Cusers.httpd.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/r6abf5f2ba6f1aa8b1030f95367aaf17660c4e4c78cb2338aee18982f@%3Cusers.httpd.apache.org%3E Mailing List, Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/r7c795cd45a3384d4d27e57618a215b0ed19cb6ca8eb070061ad5d837@%3Cannounce.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/r7c795cd45a3384d4d27e57618a215b0ed19cb6ca8eb070061ad5d837@%3Cannounce.apache.org%3E Mailing List, Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/r98d704ed4377ed889d40479db79ed1ee2f43b2ebdd79ce84b042df45@%3Cannounce.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/r98d704ed4377ed889d40479db79ed1ee2f43b2ebdd79ce84b042df45@%3Cannounce.apache.org%3E Mailing List, Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.apache.org/thread.html/rb5b0e46f179f60b0c70204656bc52fcb558e961cb4d06a971e9e3efb@%3Cusers.httpd.apache.org%3E No Types Assigned",
+            "newValue": "https://lists.apache.org/thread.html/rb5b0e46f179f60b0c70204656bc52fcb558e961cb4d06a971e9e3efb@%3Cusers.httpd.apache.org%3E Mailing List, Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-httpd-pathtrv-LAzg68cZ No Types Assigned",
+            "newValue": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-httpd-pathtrv-LAzg68cZ Third Party Advisory"
+          },
+          {
+            "action": "Added",
+            "type": "CWE",
+            "newValue": "NIST CWE-22"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:a:apache:http_server:2.4.49:*:*:*:*:*:*:*"
+          }
+        ]
+      },
+      "first_revision_event": {
+        "cveId": "CVE-2021-41773",
+        "eventName": "Modified Analysis",
+        "cveChangeId": "61CABF25-4919-44AC-A392-1B18A68AEA8C",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2026-02-17T19:49:26.367",
+        "details": [
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "action": "Removed",
+            "type": "CVSS V3.1",
+            "oldValue": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+          }
+        ]
+      },
+      "current_metric": {
+        "source": "nvd@nist.gov",
+        "type": "Primary",
+        "cvssData": {
+          "version": "3.1",
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "baseScore": 9.8,
+          "baseSeverity": "CRITICAL",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "HIGH",
+          "availabilityImpact": "HIGH"
+        },
+        "exploitabilityScore": 3.9,
+        "impactScore": 5.9
+      }
+    },
+    {
+      "row": [
+        "CVE-2022-22721",
+        "9.8",
+        "9.1",
+        "2022-08-30"
+      ],
+      "published": "2022-03-14T11:15:09.133",
+      "current_matches": [
+        {
+          "vulnerable": true,
+          "criteria": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+          "versionEndIncluding": "2.4.52",
+          "matchCriteriaId": "E4ABADEE-0A1F-4D0D-B32E-128DF9942FE5"
+        }
+      ],
+      "initial_event": {
+        "cveId": "CVE-2022-22721",
+        "eventName": "Initial Analysis",
+        "cveChangeId": "2732C6B8-8A24-4C65-A447-39FC2991EF02",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2022-03-18T18:59:58.923",
+        "details": [
+          {
+            "action": "Added",
+            "type": "CVSS V2",
+            "newValue": "NIST (AV:N/AC:M/Au:N/C:P/I:P/A:P)"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://www.openwall.com/lists/oss-security/2022/03/14/2 No Types Assigned",
+            "newValue": "http://www.openwall.com/lists/oss-security/2022/03/14/2 Mailing List, Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://httpd.apache.org/security/vulnerabilities_24.html No Types Assigned",
+            "newValue": "https://httpd.apache.org/security/vulnerabilities_24.html Vendor Advisory"
+          },
+          {
+            "action": "Added",
+            "type": "CWE",
+            "newValue": "NIST CWE-190"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:* versions up to (including) 2.4.52"
+          }
+        ]
+      },
+      "first_revision_event": {
+        "cveId": "CVE-2022-22721",
+        "eventName": "Modified Analysis",
+        "cveChangeId": "31931F2A-71BC-457D-B03B-980CDEDDAEF7",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2022-08-30T15:53:51.240",
+        "details": [
+          {
+            "action": "Removed",
+            "type": "CVSS V2",
+            "oldValue": "NIST (AV:N/AC:M/Au:N/C:P/I:P/A:P)"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V2",
+            "newValue": "NIST (AV:N/AC:M/Au:N/C:N/I:P/A:P)"
+          },
+          {
+            "action": "Removed",
+            "type": "CVSS V3.1",
+            "oldValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://seclists.org/fulldisclosure/2022/May/33 No Types Assigned",
+            "newValue": "http://seclists.org/fulldisclosure/2022/May/33 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://seclists.org/fulldisclosure/2022/May/35 No Types Assigned",
+            "newValue": "http://seclists.org/fulldisclosure/2022/May/35 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "http://seclists.org/fulldisclosure/2022/May/38 No Types Assigned",
+            "newValue": "http://seclists.org/fulldisclosure/2022/May/38 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X73C35MMMZGBVPQQCH7LQZUMYZNQA5FO/ Third Party Advisory",
+            "newValue": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X73C35MMMZGBVPQQCH7LQZUMYZNQA5FO/ Mailing List, Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z7H26WJ6TPKNWV3QKY4BHKUKQVUTZJTD/ Third Party Advisory",
+            "newValue": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z7H26WJ6TPKNWV3QKY4BHKUKQVUTZJTD/ Mailing List, Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://security.gentoo.org/glsa/202208-20 No Types Assigned",
+            "newValue": "https://security.gentoo.org/glsa/202208-20 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://support.apple.com/kb/HT213255 No Types Assigned",
+            "newValue": "https://support.apple.com/kb/HT213255 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://support.apple.com/kb/HT213256 No Types Assigned",
+            "newValue": "https://support.apple.com/kb/HT213256 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://support.apple.com/kb/HT213257 No Types Assigned",
+            "newValue": "https://support.apple.com/kb/HT213257 Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://www.oracle.com/security-alerts/cpuapr2022.html No Types Assigned",
+            "newValue": "https://www.oracle.com/security-alerts/cpuapr2022.html Patch, Third Party Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://www.oracle.com/security-alerts/cpujul2022.html No Types Assigned",
+            "newValue": "https://www.oracle.com/security-alerts/cpujul2022.html Third Party Advisory"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:a:oracle:enterprise_manager_ops_center:12.4.0.0:*:*:*:*:*:*:*\n     *cpe:2.3:a:oracle:http_server:12.2.1.3.0:*:*:*:*:*:*:*\n     *cpe:2.3:a:oracle:http_server:12.2.1.4.0:*:*:*:*:*:*:*\n     *cpe:2.3:a:oracle:zfs_storage_appliance_kit:8.8:*:*:*:*:*:*:*"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:* versions from (including) 10.15 up to (excluding) 10.15.7\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2020-001:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2021-001:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2021-002:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2021-003:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2021-004:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2021-005:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2021-006:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2021-007:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2021-008:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2022-001:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2022-002:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:10.15.7:security_update_2022-003:*:*:*:*:*:*\n     *cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:* versions from (including) 11.0 up to (excluding) 11.6.6\n     *cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:* versions from (including) 12.0 up to (excluding) 12.4"
+          }
+        ]
+      },
+      "current_metric": {
+        "source": "nvd@nist.gov",
+        "type": "Primary",
+        "cvssData": {
+          "version": "3.1",
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+          "baseScore": 9.1,
+          "baseSeverity": "CRITICAL",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "NONE",
+          "integrityImpact": "HIGH",
+          "availabilityImpact": "HIGH"
+        },
+        "exploitabilityScore": 3.9,
+        "impactScore": 5.2
+      }
+    },
+    {
+      "row": [
+        "CVE-2022-36760",
+        "9.8",
+        "9",
+        "2023-01-30"
+      ],
+      "published": "2023-01-17T20:15:11.580",
+      "current_matches": [
+        {
+          "vulnerable": true,
+          "criteria": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+          "versionStartIncluding": "2.4.0",
+          "versionEndExcluding": "2.4.55",
+          "matchCriteriaId": "D0A3B324-BA2F-404C-9E0D-6E810296BEA2"
+        }
+      ],
+      "initial_event": {
+        "cveId": "CVE-2022-36760",
+        "eventName": "Initial Analysis",
+        "cveChangeId": "227CC76A-0BD6-4734-A1C0-66E58C1F82CE",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2023-01-25T02:09:22.903",
+        "details": [
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://httpd.apache.org/security/vulnerabilities_24.html No Types Assigned",
+            "newValue": "https://httpd.apache.org/security/vulnerabilities_24.html Mailing List, Vendor Advisory"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:* versions from (including) 2.4.0 up to (excluding) 2.4.55"
+          }
+        ]
+      },
+      "first_revision_event": {
+        "cveId": "CVE-2022-36760",
+        "eventName": "Reanalysis",
+        "cveChangeId": "F56D02C8-3C6C-4EAE-985B-0C8F9626C4A4",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2023-01-30T19:21:21.013",
+        "details": [
+          {
+            "action": "Removed",
+            "type": "CVSS V3.1",
+            "oldValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+          }
+        ]
+      },
+      "current_metric": {
+        "source": "nvd@nist.gov",
+        "type": "Primary",
+        "cvssData": {
+          "version": "3.1",
+          "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+          "baseScore": 9.0,
+          "baseSeverity": "CRITICAL",
+          "attackVector": "NETWORK",
+          "attackComplexity": "HIGH",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "CHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "HIGH",
+          "availabilityImpact": "HIGH"
+        },
+        "exploitabilityScore": 2.2,
+        "impactScore": 6.0
+      }
+    },
+    {
+      "row": [
+        "CVE-2023-31122",
+        "9.1",
+        "7.5",
+        "2023-10-30"
+      ],
+      "published": "2023-10-23T07:15:11.103",
+      "current_matches": [
+        {
+          "vulnerable": true,
+          "criteria": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+          "versionEndExcluding": "2.4.58",
+          "matchCriteriaId": "98328F29-DA83-4BEE-B8A8-D1C4AF224497"
+        }
+      ],
+      "initial_event": {
+        "cveId": "CVE-2023-31122",
+        "eventName": "Initial Analysis",
+        "cveChangeId": "35F866A1-0FEE-4DB8-8E51-21385631453B",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2023-10-28T03:30:29.237",
+        "details": [
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://httpd.apache.org/security/vulnerabilities_24.html No Types Assigned",
+            "newValue": "https://httpd.apache.org/security/vulnerabilities_24.html Vendor Advisory"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TI3V2YCEUM65QDYPGGNUZ7UONIM5OEXC/ No Types Assigned",
+            "newValue": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TI3V2YCEUM65QDYPGGNUZ7UONIM5OEXC/ Mailing List"
+          },
+          {
+            "action": "Changed",
+            "type": "Reference Type",
+            "oldValue": "https://security.netapp.com/advisory/ntap-20231027-0011/ No Types Assigned",
+            "newValue": "https://security.netapp.com/advisory/ntap-20231027-0011/ Third Party Advisory"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:* versions up to (including) 2.4.57"
+          },
+          {
+            "action": "Added",
+            "type": "CPE Configuration",
+            "newValue": "OR\n     *cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*"
+          }
+        ]
+      },
+      "first_revision_event": {
+        "cveId": "CVE-2023-31122",
+        "eventName": "Reanalysis",
+        "cveChangeId": "A50C876D-B0F3-4E69-8712-DDE326736AEE",
+        "sourceIdentifier": "nvd@nist.gov",
+        "created": "2023-10-30T17:54:53.690",
+        "details": [
+          {
+            "action": "Removed",
+            "type": "CVSS V3.1",
+            "oldValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+          },
+          {
+            "action": "Added",
+            "type": "CVSS V3.1",
+            "newValue": "NIST AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ]
+      },
+      "current_metric": {
+        "source": "nvd@nist.gov",
+        "type": "Primary",
+        "cvssData": {
+          "version": "3.1",
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "baseScore": 7.5,
+          "baseSeverity": "HIGH",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "NONE",
+          "integrityImpact": "NONE",
+          "availabilityImpact": "HIGH"
+        },
+        "exploitabilityScore": 3.9,
+        "impactScore": 3.6
+      }
+    }
+  ]
+}

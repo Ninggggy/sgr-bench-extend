@@ -1,0 +1,474 @@
+{
+  "protocol_version": "ten-task-v1",
+  "created_at": "2026-09-09T09:31:45.122352+00:00",
+  "old_controls": [
+    {
+      "task_id": "comptox_012",
+      "go_task_id": "comptox_012-g",
+      "ecosystem": "COMPTOX_CHEMEXPO",
+      "trials_each_variant": 3,
+      "selected_at": "2026-09-09T09:36:31.532523+00:00",
+      "reason": "hierarchical PUC scope",
+      "slots": [
+        {
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "r-2dc5eb711174",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-2dc5eb711174",
+          "label": "old-comptox_012-cg-1"
+        },
+        {
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "r-dd837f3557ad",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-dd837f3557ad",
+          "label": "old-comptox_012-go-1"
+        },
+        {
+          "variant": "CG",
+          "trial": 2,
+          "run_id": "r-fbf7a0ad3ee8",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-fbf7a0ad3ee8",
+          "label": "old-comptox_012-cg-2"
+        },
+        {
+          "variant": "GO",
+          "trial": 2,
+          "run_id": "r-ac50d2a343b2",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-ac50d2a343b2",
+          "label": "old-comptox_012-go-2"
+        },
+        {
+          "variant": "CG",
+          "trial": 3,
+          "run_id": "r-2647d23c1013",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-2647d23c1013",
+          "label": "old-comptox_012-cg-3"
+        },
+        {
+          "variant": "GO",
+          "trial": 3,
+          "run_id": "r-d2446ad66d57",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-d2446ad66d57",
+          "label": "old-comptox_012-go-3"
+        }
+      ]
+    },
+    {
+      "task_id": "genome_002",
+      "go_task_id": "genome_002-g",
+      "ecosystem": "KEGG",
+      "trials_each_variant": 3,
+      "selected_at": "2026-09-09T09:36:31.532666+00:00",
+      "reason": "organism/module/replicon identity",
+      "slots": [
+        {
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "r-aa1cc723e5c0",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-aa1cc723e5c0",
+          "label": "old-genome_002-cg-1"
+        },
+        {
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "r-3bf6d4816a7d",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-3bf6d4816a7d",
+          "label": "old-genome_002-go-1"
+        },
+        {
+          "variant": "CG",
+          "trial": 2,
+          "run_id": "r-2b2d18f3fd8e",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-2b2d18f3fd8e",
+          "label": "old-genome_002-cg-2"
+        },
+        {
+          "variant": "GO",
+          "trial": 2,
+          "run_id": "r-ff6c3bdb8b4f",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-ff6c3bdb8b4f",
+          "label": "old-genome_002-go-2"
+        },
+        {
+          "variant": "CG",
+          "trial": 3,
+          "run_id": "r-e630ddf80726",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-e630ddf80726",
+          "label": "old-genome_002-cg-3"
+        },
+        {
+          "variant": "GO",
+          "trial": 3,
+          "run_id": "r-9462cbe8adbe",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-9462cbe8adbe",
+          "label": "old-genome_002-go-3"
+        }
+      ]
+    },
+    {
+      "task_id": "reptile_001",
+      "go_task_id": "reptile_001-g",
+      "ecosystem": "REPTILE_DATABASE",
+      "trials_each_variant": 3,
+      "selected_at": "2026-09-09T09:36:31.532668+00:00",
+      "reason": "accepted name and historical synonym identity",
+      "slots": [
+        {
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "r-38fddeb0a06d",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-38fddeb0a06d",
+          "label": "old-reptile_001-cg-1"
+        },
+        {
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "r-b9ac95ab18e1",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-b9ac95ab18e1",
+          "label": "old-reptile_001-go-1"
+        },
+        {
+          "variant": "CG",
+          "trial": 2,
+          "run_id": "r-7472804a7ded",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-7472804a7ded",
+          "label": "old-reptile_001-cg-2"
+        },
+        {
+          "variant": "GO",
+          "trial": 2,
+          "run_id": "r-68b9f7475339",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-68b9f7475339",
+          "label": "old-reptile_001-go-2"
+        },
+        {
+          "variant": "CG",
+          "trial": 3,
+          "run_id": "r-6ad977509c71",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-6ad977509c71",
+          "label": "old-reptile_001-cg-3"
+        },
+        {
+          "variant": "GO",
+          "trial": 3,
+          "run_id": "r-b16f08272ff9",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-b16f08272ff9",
+          "label": "old-reptile_001-go-3"
+        }
+      ]
+    },
+    {
+      "task_id": "wateroffice_002",
+      "go_task_id": "wateroffice_002-g",
+      "ecosystem": "WATER_OFFICE",
+      "trials_each_variant": 3,
+      "selected_at": "2026-09-09T09:36:31.532670+00:00",
+      "reason": "flow vs level and period availability",
+      "slots": [
+        {
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "r-2ce6c7d8cdc9",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-2ce6c7d8cdc9",
+          "label": "old-wateroffice_002-cg-1"
+        },
+        {
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "r-8a12e57411f7",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-8a12e57411f7",
+          "label": "old-wateroffice_002-go-1"
+        },
+        {
+          "variant": "CG",
+          "trial": 2,
+          "run_id": "r-7c1136ab22b6",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-7c1136ab22b6",
+          "label": "old-wateroffice_002-cg-2"
+        },
+        {
+          "variant": "GO",
+          "trial": 2,
+          "run_id": "r-2eca622e3268",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-2eca622e3268",
+          "label": "old-wateroffice_002-go-2"
+        },
+        {
+          "variant": "CG",
+          "trial": 3,
+          "run_id": "r-f9400c7cb7cb",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-f9400c7cb7cb",
+          "label": "old-wateroffice_002-cg-3"
+        },
+        {
+          "variant": "GO",
+          "trial": 3,
+          "run_id": "r-9f6aeb170c80",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-9f6aeb170c80",
+          "label": "old-wateroffice_002-go-3"
+        }
+      ]
+    },
+    {
+      "task_id": "waterquality_003",
+      "go_task_id": "waterquality_003-g",
+      "ecosystem": "WATER_QUALITY_PORTAL",
+      "trials_each_variant": 3,
+      "selected_at": "2026-09-09T09:36:31.532671+00:00",
+      "reason": "mainstem scope and group validity",
+      "slots": [
+        {
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "r-8c5eb66967fe",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-8c5eb66967fe",
+          "label": "old-waterquality_003-cg-1"
+        },
+        {
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "r-6699d09f5b50",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-6699d09f5b50",
+          "label": "old-waterquality_003-go-1"
+        },
+        {
+          "variant": "CG",
+          "trial": 2,
+          "run_id": "r-5b78fb0f1e5c",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-5b78fb0f1e5c",
+          "label": "old-waterquality_003-cg-2"
+        },
+        {
+          "variant": "GO",
+          "trial": 2,
+          "run_id": "r-a9eb82756924",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-a9eb82756924",
+          "label": "old-waterquality_003-go-2"
+        },
+        {
+          "variant": "CG",
+          "trial": 3,
+          "run_id": "r-a44408dfbba9",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-a44408dfbba9",
+          "label": "old-waterquality_003-cg-3"
+        },
+        {
+          "variant": "GO",
+          "trial": 3,
+          "run_id": "r-3d1974333833",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-3d1974333833",
+          "label": "old-waterquality_003-go-3"
+        }
+      ]
+    }
+  ],
+  "candidate_neighbors": {
+    "reptile_type_referral_001/r01": {
+      "primary_old_task": "reptile_001",
+      "recorded_at": "2026-09-09T09:59:44.980657+00:00",
+      "reason": "historical-name and museum-type identity; no new candidate score viewed"
+    },
+    "europemc_reuse_deposit_001/r01": {
+      "primary_old_task": "europemc_002",
+      "direction_recorded_at": "2026-09-09T10:28:38.159722+00:00",
+      "recorded_at": "2026-09-09T11:28:36.359089+00:00",
+      "reason": "Candidate-specific map links the existing pre-score EuropePMC direction selection. CG A started; no new candidate score exists or was viewed. Outsidepreselectedfive, noadditionaloldrun."
+    },
+    "arxiv_historical_title_001/r02": {
+      "old_task_id": "arxiv_002",
+      "registered_at": "2026-09-09T12:16:50.337154+00:00",
+      "comparison_run": "not among five prespecified old controls; source neighbor only; direction already registered before any arXiv new score"
+    },
+    "nvd_initial_assessment_001": {
+      "old_task_id": "nvd_001",
+      "registered_at": "2026-09-09T16:49:16.796914+00:00",
+      "comparison_in_selected_five": false
+    },
+    "europemc_balf_provenance_001": {
+      "old_task_id": "europemc_002",
+      "registered_at": "2026-09-09T17:32:45.833313+00:00",
+      "direction_registered_at": "2026-09-09T17:00:42.566810+00:00",
+      "comparison_in_selected_five": false
+    }
+  },
+  "admission_rounds": [
+    {
+      "candidate_id": "arxiv_historical_title_001",
+      "revision": 2,
+      "protocol_version": "ten-task-v1",
+      "registered_at": "2026-09-09T17:12:59.810528+00:00",
+      "rules_path": "../candidates/arxiv_historical_title_001/r02/rules.json",
+      "audit_paths": [
+        "../runs/r-arxiv-title-r02-audit"
+      ],
+      "purpose": "selection_screening_not_unbiased_evaluation",
+      "retry_policy": "Zero automatic replacements in this round. Infrastructure failure leaves the version inconclusive; no slot substitution, no extra sampling, no zero imputation. All six primary slots remain scheduled.",
+      "slots": [
+        {
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "r-arxiv-title-r02-cg-admission-1",
+          "run_dir": "../runs/r-arxiv-title-r02-cg-admission-1",
+          "label": "admission_arxiv_historical_title_001_r02_CG_1"
+        },
+        {
+          "variant": "CG",
+          "trial": 2,
+          "run_id": "r-arxiv-title-r02-cg-admission-2",
+          "run_dir": "../runs/r-arxiv-title-r02-cg-admission-2",
+          "label": "admission_arxiv_historical_title_001_r02_CG_2"
+        },
+        {
+          "variant": "CG",
+          "trial": 3,
+          "run_id": "r-arxiv-title-r02-cg-admission-3",
+          "run_dir": "../runs/r-arxiv-title-r02-cg-admission-3",
+          "label": "admission_arxiv_historical_title_001_r02_CG_3"
+        },
+        {
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "r-arxiv-title-r02-go-admission-1",
+          "run_dir": "../runs/r-arxiv-title-r02-go-admission-1",
+          "label": "admission_arxiv_historical_title_001_r02_GO_1"
+        },
+        {
+          "variant": "GO",
+          "trial": 2,
+          "run_id": "r-arxiv-title-r02-go-admission-2",
+          "run_dir": "../runs/r-arxiv-title-r02-go-admission-2",
+          "label": "admission_arxiv_historical_title_001_r02_GO_2"
+        },
+        {
+          "variant": "GO",
+          "trial": 3,
+          "run_id": "r-arxiv-title-r02-go-admission-3",
+          "run_dir": "../runs/r-arxiv-title-r02-go-admission-3",
+          "label": "admission_arxiv_historical_title_001_r02_GO_3"
+        }
+      ]
+    },
+    {
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "protocol_version": "ten-task-v1",
+      "registered_at": "2026-09-10T11:45:08.141161+00:00",
+      "rules_path": "../candidates/arxiv_historical_title_002/r03/rules.json",
+      "audit_paths": [
+        "../runs/r-resume-arxiv002-r03-audit"
+      ],
+      "purpose": "selection_screening_not_unbiased_evaluation",
+      "retry_policy": "Zero automatic replacements in this round. Infrastructure failure leaves the version inconclusive; no slot substitution, no extra sampling, no zero imputation. All six primary slots remain scheduled. Irrecoverable blocking or existing runtime/budget limits trigger user-requested stop with unfinished slots reported.",
+      "slots": [
+        {
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "r-arxiv-histtitle002-r03-cg-admission-1",
+          "run_dir": "../runs/r-arxiv-histtitle002-r03-cg-admission-1",
+          "label": "admission_arxiv_historical_title_002_r03_CG_1"
+        },
+        {
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "r-arxiv-histtitle002-r03-go-admission-1",
+          "run_dir": "../runs/r-arxiv-histtitle002-r03-go-admission-1",
+          "label": "admission_arxiv_historical_title_002_r03_GO_1"
+        },
+        {
+          "variant": "CG",
+          "trial": 2,
+          "run_id": "r-arxiv-histtitle002-r03-cg-admission-2",
+          "run_dir": "../runs/r-arxiv-histtitle002-r03-cg-admission-2",
+          "label": "admission_arxiv_historical_title_002_r03_CG_2"
+        },
+        {
+          "variant": "GO",
+          "trial": 2,
+          "run_id": "r-arxiv-histtitle002-r03-go-admission-2",
+          "run_dir": "../runs/r-arxiv-histtitle002-r03-go-admission-2",
+          "label": "admission_arxiv_historical_title_002_r03_GO_2"
+        },
+        {
+          "variant": "CG",
+          "trial": 3,
+          "run_id": "r-arxiv-histtitle002-r03-cg-admission-3",
+          "run_dir": "../runs/r-arxiv-histtitle002-r03-cg-admission-3",
+          "label": "admission_arxiv_historical_title_002_r03_CG_3"
+        },
+        {
+          "variant": "GO",
+          "trial": 3,
+          "run_id": "r-arxiv-histtitle002-r03-go-admission-3",
+          "run_dir": "../runs/r-arxiv-histtitle002-r03-go-admission-3",
+          "label": "admission_arxiv_historical_title_002_r03_GO_3"
+        }
+      ]
+    }
+  ],
+  "note": "Register neighbors before reading any new candidate score; at most 5 old tasks, 3 CG+3 GO each. No old full-50 rerun.",
+  "neighbor_assignment_rule": "Before any new candidate score, primary old neighbor is the listed same-ecosystem control; candidate-specific mapping recorded before development A. Different ecosystem needs explicit pre-score assignment. Selected once, no replacement based on results.",
+  "old_trial_registration_at": "2026-09-09T09:45:14.976396+00:00",
+  "unscored_nearest_neighbors": [
+    {
+      "recorded_at": "2026-09-09T10:28:38.159722+00:00",
+      "direction": "europepmc_accession_reuse",
+      "old_task_id": "europemc_002",
+      "reason": "Shared study identity tracking and source-conditioned follow-up; outside the five prescheduled comparison tasks, no extra old solve scheduled."
+    },
+    {
+      "recorded_at": "2026-09-09T10:47:05.049372+00:00",
+      "direction": "arxiv_historical_replacement",
+      "old_task_id": "arxiv_002",
+      "reason": "Same scholarly archive, first-version time scope and paper identity; outside selectedfive old comparisons, no additional old sessions scheduled."
+    },
+    {
+      "candidate_direction": "cfpb_prior_order_modification",
+      "old_task_ids": [
+        "consumerfinance_008",
+        "consumerfinance_011"
+      ],
+      "registered_at": "2026-09-09T11:09:17.409784+00:00",
+      "reason": "Same administrative action retrieval; new proposed need is earlier docket operative modification state. No new candidate scores viewed; outside selectedfive, no additional comparisonrun."
+    },
+    {
+      "direction": "europepmc_lau_matrix_reuse",
+      "old_task_id": "europemc_002",
+      "registered_at": "2026-09-09T16:19:45.176797+00:00",
+      "note": "Source neighbor only, outside existing five controls; no extra old trial; before any new Lau scores."
+    },
+    {
+      "direction": "nvd_historical_nist_assessment",
+      "old_task_id": "nvd_001",
+      "registered_at": "2026-09-09T16:46:24.392119+00:00",
+      "note": "Original50 membership verified: same current-product to NIST historical-analysis distinction; outside selectedfive controls, no extra old runs. No new NVD score exists.",
+      "resolved_at": "2026-09-09T16:49:16.796914+00:00"
+    },
+    {
+      "direction": "europepmc_balf_original_deposits",
+      "old_task_id": "europemc_002",
+      "registered_at": "2026-09-09T17:00:42.566810+00:00",
+      "note": "Different biological seed, same source-conditioned study identity/deposit provenance family. Before any new candidate solver scores; outside selectedfive, no extra old runs."
+    }
+  ],
+  "infrastructure_repairs": [
+    {
+      "original_run_id": "r-epmc-reuse-r01-audit",
+      "replacement_run_id": "r-epmc-reuse-r01-audit-repair",
+      "registered_at": "2026-09-09T16:09:27.877092+00:00",
+      "reason": "Actual provider DNS failure; no final output; first and only repair."
+    },
+    {
+      "original_run_id": "r-arxiv-title-r02-cg-dev-a",
+      "replacement_run_id": "r-arxiv-title-r02-cg-dev-a-repair",
+      "registered_at": "2026-09-09T16:09:27.877092+00:00",
+      "reason": "Actual provider DNS failure; no final output; first and only repair."
+    },
+    {
+      "original_run_id": "r-b9ac95ab18e1",
+      "replacement_run_id": "r-b9ac95ab18e1-repair",
+      "registered_at": "2026-09-09T16:09:27.877092+00:00",
+      "reason": "Actual provider DNS failure; no final output; first and only repair."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "candidate.json": "passed",
+  "embedded_cg_matches": true,
+  "embedded_go_matches": true,
+  "same_output_format": true,
+  "scorer_returncode": 0
+}

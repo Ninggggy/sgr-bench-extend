@@ -1,0 +1,74 @@
+{
+  "candidate_id": "kegg_module_products_001",
+  "revision": 1,
+  "ecosystem": "KEGG",
+  "domain": "KEGG_MODULE",
+  "status": "rejected",
+  "old_task_refs": [
+    "genome_002",
+    "genome_004"
+  ],
+  "research_goal": "Compare the compound products explicitly written for the same Rubisco-associated reaction across associated modules' REACTION annotations, retaining all qualifying module rows of reactions with different product sets.",
+  "structural_upgrade": "A real module-annotation comparison boundary is supported. Direct enzyme-to-module discovery followed by module retrieval preserves one retrieval dependency. No structural or difficulty improvement over the old tasks is claimed.",
+  "public": {
+    "cg": {
+      "instruction": "Compare the products written for the same Rubisco-associated reaction across module annotations. Return all qualifying reaction–module pairs for reactions whose product sets differ across modules.\n\nUse the annotations observed on 12 September 2026, with no publication-year filter. R, M, and C identifiers identify reactions, modules (functional units), and compounds, respectively.\n\n1. Read all reaction IDs in the full ALL_REAC field of enzyme EC 4.1.1.39, including entries marked other. Use all modules in its official direct enzyme-to-module links, without filtering by module name or organism.\n2. Read each linked module in full. In its REACTION field, match reaction IDs exactly against that ALL_REAC set. A comma-separated reaction ID list applies the line to each listed reaction.\n3. For matching lines, identify the input and product sides using the direction rules below. Keep only lines that explicitly consume D-ribulose 1,5-bisphosphate (C01182). Form each product set from only the compound IDs explicitly written on that line's product side. Ignore coefficients and compound order; deduplicate IDs.\n4. Group qualifying lines by reaction ID. Retain reactions with at least two distinct product sets across different linked modules. Return all qualifying module rows for each retained reaction, including rows that share a product set. Exclude reactions represented in only one qualifying module or with identical product sets throughout.\n\nRead -> or => from left to right, and <- or <= from right to left. For <-> or <=>, use the direction consuming C01182 if it appears on exactly one side. C01182 on both sides leaves consumption unresolved. Do not reverse a one-way arrow to make a line qualify.\n\nNo products may be added from a generic reaction entry's EQUATION or from other module lines. This comparison concerns written annotations, not complete chemical stoichiometry, biological absence, or organism phenotype.\n\nRepeated qualifying lines for the same reaction–module pair collapse to one row when their product sets agree; conflicting sets are unresolved. A complete module with no matching REACTION line contributes no row. If a required record is incomplete, or a matching line's direction or product set is unresolved, report the unresolved issue instead of a table or NONE.",
+      "output_format": "Return a pipe-separated table with the header REACTION_ID|MODULE_ID|PRODUCT_IDS. Include every qualifying pair, with one row per distinct (REACTION_ID, MODULE_ID). Sort rows by REACTION_ID ascending, then MODULE_ID ascending. Within PRODUCT_IDS, list the unique compound IDs in ascending order, separated by commas without spaces. Do not include commentary or additional columns in a completed answer. If the complete, resolved comparison yields no qualifying pairs, return only NONE, without a header. Incomplete or unresolved research must not be represented by NONE or a partial table."
+    },
+    "go": {
+      "instruction": "Compare the products written for the same Rubisco-associated reaction across module annotations. Return all qualifying reaction–module pairs for reactions whose product sets differ across modules.\n\nUse the annotations observed on 12 September 2026, with no publication-year filter. R, M, and C identifiers identify reactions, modules (functional units), and compounds, respectively.\n\nEligible reactions are all reaction IDs in the full ALL_REAC field of enzyme EC 4.1.1.39, including entries marked other. The module scope is all modules in its official direct enzyme-to-module links, without filtering by module name or organism. Coverage must include each linked module in full. A module line is in scope only when its REACTION field contains an exact match to an eligible reaction ID. A comma-separated reaction ID list applies the line to each listed reaction.\n\nA qualifying line explicitly consumes D-ribulose 1,5-bisphosphate (C01182). Read -> or => from left to right, and <- or <= from right to left. For <-> or <=>, use the direction consuming C01182 if it appears on exactly one side. C01182 on both sides leaves consumption unresolved. Do not reverse a one-way arrow to make a line qualify. Each product set contains only the compound IDs explicitly written on that line's product side. Ignore coefficients and compound order; deduplicate IDs.\n\nThe requested reactions have at least two distinct product sets across different linked modules, compared within the same reaction ID. Return all qualifying module rows for each retained reaction, including rows that share a product set. Exclude reactions represented in only one qualifying module or with identical product sets throughout.\n\nNo products may be added from a generic reaction entry's EQUATION or from other module lines. This comparison concerns written annotations, not complete chemical stoichiometry, biological absence, or organism phenotype.\n\nRepeated qualifying lines for the same reaction–module pair collapse to one row when their product sets agree; conflicting sets are unresolved. A complete module with no matching REACTION line contributes no row. If a required record is incomplete, or a matching line's direction or product set is unresolved, report the unresolved issue instead of a table or NONE.",
+      "output_format": "Return a pipe-separated table with the header REACTION_ID|MODULE_ID|PRODUCT_IDS. Include every qualifying pair, with one row per distinct (REACTION_ID, MODULE_ID). Sort rows by REACTION_ID ascending, then MODULE_ID ascending. Within PRODUCT_IDS, list the unique compound IDs in ascending order, separated by commas without spaces. Do not include commentary or additional columns in a completed answer. If the complete, resolved comparison yields no qualifying pairs, return only NONE, without a header. Incomplete or unresolved research must not be represented by NONE or a partial table."
+    }
+  },
+  "private": {
+    "source_version": "Official responses observed 2026-09-12; capture provenance in source_manifest.json. Runtime date remains 2026-09-09 and is not a historical source cutoff.",
+    "start_urls": [
+      "https://rest.kegg.jp/get/ec:4.1.1.39"
+    ],
+    "candidate_scope": "All reaction IDs in the complete ALL_REAC field of ec:4.1.1.39, including other, and all modules in the official direct enzyme-to-module link response. Inspect complete module records without module-name, organism, or publication-year filtering.",
+    "predicates": [
+      "Match exact reaction IDs within each linked module's REACTION field; comma-separated IDs each identify the same annotated line.",
+      "A qualifying line explicitly consumes D-ribulose 1,5-bisphosphate, C01182, in a direction permitted by its written arrow. Do not reverse one-way arrows. For reversible arrows, use the consuming direction when C01182 occurs on exactly one side; occurrence on both sides is unresolved.",
+      "Products are only explicit compound IDs on that module line's product side. Ignore coefficients and order, and deduplicate IDs. Do not supplement from generic EQUATION records or other module lines.",
+      "Repeated qualifying lines for a reaction-module pair collapse if their product sets agree; conflicting sets are unresolved.",
+      "Group qualifying pairs by reaction ID. Retain reactions with at least two distinct product sets across different linked modules, and include all their qualifying module pairs, including pairs sharing a product set.",
+      "Exclude reactions with only one qualifying module or identical product sets throughout. Compare annotations only; do not infer complete stoichiometry, biological absence, or organism phenotype."
+    ],
+    "output_columns": [
+      "REACTION_ID",
+      "MODULE_ID",
+      "PRODUCT_IDS"
+    ],
+    "row_key": [
+      "REACTION_ID",
+      "MODULE_ID"
+    ],
+    "sorting_rules": [
+      "REACTION_ID ascending, then MODULE_ID ascending",
+      "PRODUCT_IDS deduplicated and ascending, comma-separated"
+    ],
+    "missing_value_rules": [
+      "A complete module with no matching REACTION line contributes no pair; missing membership is not an empty product set.",
+      "Incomplete required records or unresolved matching-line direction/product sets prevent an answer table and must not produce NONE.",
+      "Return bare NONE only after complete, resolved comparison yields no qualifying pairs."
+    ],
+    "source_manifest_path": "source_manifest.json",
+    "state_graph_path": "state_graph.json",
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "passed",
+    "difficulty": "screened",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "reference_report.md",
+      "design_rationale.md",
+      "language_review.md",
+      "pair_alignment.json",
+      "controller_integration_check.json",
+      "controller_pre_A_stability.json",
+      "development_decision.json"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "candidate_id": "chembl_stereochemical_peers_001",
+  "revision": 2,
+  "at": "2026-09-13T03:43:00.211067+00:00",
+  "decision": "stop_raw_full_scores_with_access_protocol_issues",
+  "results": {
+    "CG": {
+      "run_id": "chembl-stereo-r02-cg-dev-a",
+      "raw_item_f1": "64/64",
+      "counts": {
+        "correct_fields": 32,
+        "gold_fields": 32,
+        "pred_fields": 32,
+        "item_denominator": 64,
+        "correct_rows": 16,
+        "gold_rows": 16,
+        "pred_rows": 16,
+        "row_denominator": 32,
+        "correct_pairs": 120,
+        "pair_denominator": 120,
+        "shared_ids": 16
+      },
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "usage": {
+        "input_tokens": 894665,
+        "cached_input_tokens": 805376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3777,
+        "reasoning_output_tokens": 1479
+      },
+      "elapsed_seconds": 178.274,
+      "mechanical_verification": "passed",
+      "actual_access_protocol": "issue",
+      "access_review": "development_access_review.json"
+    },
+    "GO": {
+      "run_id": "chembl-stereo-r02-go-dev-a",
+      "raw_item_f1": "64/64",
+      "counts": {
+        "correct_fields": 32,
+        "gold_fields": 32,
+        "pred_fields": 32,
+        "item_denominator": 64,
+        "correct_rows": 16,
+        "gold_rows": 16,
+        "pred_rows": 16,
+        "row_denominator": 32,
+        "correct_pairs": 120,
+        "pair_denominator": 120,
+        "shared_ids": 16
+      },
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "usage": {
+        "input_tokens": 739629,
+        "cached_input_tokens": 656384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4150,
+        "reasoning_output_tokens": 1761
+      },
+      "elapsed_seconds": 163.238,
+      "mechanical_verification": "passed",
+      "actual_access_protocol": "issue",
+      "access_review": "development_access_review.json"
+    }
+  },
+  "reason": "Both first-A outputs exactly32fields, but both repeat explicitly non-retryable safety-refused URLs. Preserve raw scores, do not treat as unqualified compliant ability evidence, do not resample or count as admissions.",
+  "source_data": "Downloaded complete16 molecule objects, seed and status match reference; independent label recomputation matches all16 rows.",
+  "isolation": "No private-construction reads or altered downloader configuration evidenced.",
+  "formal_runs": 0,
+  "formal_means": null,
+  "admitted": false,
+  "human_validation": "not_performed",
+  "substantive_revisions_used": 1,
+  "pair_parallel_elapsed_seconds": 178.275403,
+  "model_elapsed_seconds_sum": 341.512
+}

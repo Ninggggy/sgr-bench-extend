@@ -1,0 +1,140 @@
+# Portugal
+
+# From Paul Eggert (2014-08-11), after a heads-up from Stephen Colebourne:
+# According to a Portuguese decree (1911-05-26)
+# https://dre.pt/application/dir/pdf1sdip/1911/05/12500/23132313.pdf
+# Lisbon was at -0:36:44.68, but switched to GMT on 1912-01-01 at 00:00.
+#
+# From Michael Deckers (2018-02-15):
+# article 5 [of the 1911 decree; Deckers's translation] ...:
+# These dispositions shall enter into force at the instant at which,
+# according to the 2nd article, the civil day January 1, 1912 begins,
+# all clocks therefore having to be advanced or set back correspondingly ...
+
+# From Rui Pedro Salgueiro (1992-11-12):
+# Portugal has recently (September, 27) changed timezone
+# (from WET to MET or CET) to harmonize with EEC.
+#
+# Martin Bruckmann (1996-02-29) reports via Peter Ilieve
+# that Portugal is reverting to 0:00 by not moving its clocks this spring.
+# The new Prime Minister was fed up with getting up in the dark in the winter.
+#
+# From Paul Eggert (1996-11-12):
+# IATA SSIM (1991-09) reports several 1991-09 and 1992-09 transitions
+# at 02:00u, not 01:00u.  Assume that these are typos.
+# IATA SSIM (1991/1992) reports that the Azores were at -1:00.
+# IATA SSIM (1993-02) says +0:00; later issues (through 1996-09) say -1:00.
+# Guess that the Azores changed to EU rules in 1992 (since that's when Portugal
+# harmonized with EU rules), and that they stayed +0:00 that winter.
+#
+# Rule	NAME	FROM	TO	-	IN	ON	AT	SAVE	LETTER/S
+# DSH writes that despite Decree 1,469 (1915), the change to the clocks was not
+# done every year, depending on what Spain did, because of railroad schedules.
+# Go with Shanks & Pottenger.
+Rule	Port	1916	only	-	Jun	17	23:00	1:00	S
+# Whitman gives 1916 Oct 31; go with Shanks & Pottenger.
+Rule	Port	1916	only	-	Nov	 1	 1:00	0	-
+Rule	Port	1917	only	-	Feb	28	23:00s	1:00	S
+Rule	Port	1917	1921	-	Oct	14	23:00s	0	-
+Rule	Port	1918	only	-	Mar	 1	23:00s	1:00	S
+Rule	Port	1919	only	-	Feb	28	23:00s	1:00	S
+Rule	Port	1920	only	-	Feb	29	23:00s	1:00	S
+Rule	Port	1921	only	-	Feb	28	23:00s	1:00	S
+Rule	Port	1924	only	-	Apr	16	23:00s	1:00	S
+Rule	Port	1924	only	-	Oct	14	23:00s	0	-
+Rule	Port	1926	only	-	Apr	17	23:00s	1:00	S
+Rule	Port	1926	1929	-	Oct	Sat>=1	23:00s	0	-
+Rule	Port	1927	only	-	Apr	 9	23:00s	1:00	S
+Rule	Port	1928	only	-	Apr	14	23:00s	1:00	S
+Rule	Port	1929	only	-	Apr	20	23:00s	1:00	S
+Rule	Port	1931	only	-	Apr	18	23:00s	1:00	S
+# Whitman gives 1931 Oct 8; go with Shanks & Pottenger.
+Rule	Port	1931	1932	-	Oct	Sat>=1	23:00s	0	-
+Rule	Port	1932	only	-	Apr	 2	23:00s	1:00	S
+Rule	Port	1934	only	-	Apr	 7	23:00s	1:00	S
+# Whitman gives 1934 Oct 5; go with Shanks & Pottenger.
+Rule	Port	1934	1938	-	Oct	Sat>=1	23:00s	0	-
+# Shanks & Pottenger give 1935 Apr 30; go with Whitman.
+Rule	Port	1935	only	-	Mar	30	23:00s	1:00	S
+Rule	Port	1936	only	-	Apr	18	23:00s	1:00	S
+# Whitman gives 1937 Apr 2; go with Shanks & Pottenger.
+Rule	Port	1937	only	-	Apr	 3	23:00s	1:00	S
+Rule	Port	1938	only	-	Mar	26	23:00s	1:00	S
+Rule	Port	1939	only	-	Apr	15	23:00s	1:00	S
+# Whitman gives 1939 Oct 7; go with Shanks & Pottenger.
+Rule	Port	1939	only	-	Nov	18	23:00s	0	-
+Rule	Port	1940	only	-	Feb	24	23:00s	1:00	S
+# Shanks & Pottenger give 1940 Oct 7; go with Whitman.
+Rule	Port	1940	1941	-	Oct	 5	23:00s	0	-
+Rule	Port	1941	only	-	Apr	 5	23:00s	1:00	S
+Rule	Port	1942	1945	-	Mar	Sat>=8	23:00s	1:00	S
+Rule	Port	1942	only	-	Apr	25	22:00s	2:00	M # Midsummer
+Rule	Port	1942	only	-	Aug	15	22:00s	1:00	S
+Rule	Port	1942	1945	-	Oct	Sat>=24	23:00s	0	-
+Rule	Port	1943	only	-	Apr	17	22:00s	2:00	M
+Rule	Port	1943	1945	-	Aug	Sat>=25	22:00s	1:00	S
+Rule	Port	1944	1945	-	Apr	Sat>=21	22:00s	2:00	M
+Rule	Port	1946	only	-	Apr	Sat>=1	23:00s	1:00	S
+Rule	Port	1946	only	-	Oct	Sat>=1	23:00s	0	-
+# Whitman says DST was not observed in 1950; go with Shanks & Pottenger.
+# Whitman gives Oct lastSun for 1952 on; go with Shanks & Pottenger.
+Rule	Port	1947	1965	-	Apr	Sun>=1	 2:00s	1:00	S
+Rule	Port	1947	1965	-	Oct	Sun>=1	 2:00s	0	-
+Rule	Port	1977	only	-	Mar	27	 0:00s	1:00	S
+Rule	Port	1977	only	-	Sep	25	 0:00s	0	-
+Rule	Port	1978	1979	-	Apr	Sun>=1	 0:00s	1:00	S
+Rule	Port	1978	only	-	Oct	 1	 0:00s	0	-
+Rule	Port	1979	1982	-	Sep	lastSun	 1:00s	0	-
+Rule	Port	1980	only	-	Mar	lastSun	 0:00s	1:00	S
+Rule	Port	1981	1982	-	Mar	lastSun	 1:00s	1:00	S
+Rule	Port	1983	only	-	Mar	lastSun	 2:00s	1:00	S
+#
+# Zone	NAME		STDOFF	RULES	FORMAT	[UNTIL]
+		#STDOFF	-0:36:44.68
+Zone	Europe/Lisbon	-0:36:45 -	LMT	1884
+			-0:36:45 -	LMT	1912 Jan  1  0:00u # Lisbon MT
+			 0:00	Port	WE%sT	1966 Apr  3  2:00
+			 1:00	-	CET	1976 Sep 26  1:00
+			 0:00	Port	WE%sT	1983 Sep 25  1:00s
+			 0:00	W-Eur	WE%sT	1992 Sep 27  1:00s
+			 1:00	EU	CE%sT	1996 Mar 31  1:00u
+			 0:00	EU	WE%sT
+Zone Atlantic/Azores	-1:42:40 -	LMT	1884        # Ponta Delgada
+			-1:54:32 -	HMT	1912 Jan  1  2:00u # Horta MT
+# Vanguard section, for zic and other parsers that support %z.
+#			-2:00	Port	%z	1966 Apr  3  2:00
+#			-1:00	Port	%z	1983 Sep 25  1:00s
+#			-1:00	W-Eur	%z	1992 Sep 27  1:00s
+# Rearguard section, for parsers lacking %z; see ziguard.awk.
+			-2:00	Port	-02/-01	1942 Apr 25 22:00s
+			-2:00	Port	+00	1942 Aug 15 22:00s
+			-2:00	Port	-02/-01	1943 Apr 17 22:00s
+			-2:00	Port	+00	1943 Aug 28 22:00s
+			-2:00	Port	-02/-01	1944 Apr 22 22:00s
+			-2:00	Port	+00	1944 Aug 26 22:00s
+			-2:00	Port	-02/-01	1945 Apr 21 22:00s
+			-2:00	Port	+00	1945 Aug 25 22:00s
+			-2:00	Port	-02/-01	1966 Apr  3  2:00
+			-1:00	Port	-01/+00	1983 Sep 25  1:00s
+			-1:00	W-Eur	-01/+00	1992 Sep 27  1:00s
+# End of rearguard section.
+			 0:00	EU	WE%sT	1993 Mar 28  1:00u
+			-1:00	EU	-01/+00
+Zone Atlantic/Madeira	-1:07:36 -	LMT	1884        # Funchal
+			-1:07:36 -	FMT	1912 Jan  1  1:00u # Funchal MT
+# Vanguard section, for zic and other parsers that support %z.
+#			-1:00	Port	%z	1966 Apr  3  2:00
+# Rearguard section, for parsers lacking %z; see ziguard.awk.
+			-1:00	Port	-01/+00	1942 Apr 25 22:00s
+			-1:00	Port	+01	1942 Aug 15 22:00s
+			-1:00	Port	-01/+00	1943 Apr 17 22:00s
+			-1:00	Port	+01	1943 Aug 28 22:00s
+			-1:00	Port	-01/+00	1944 Apr 22 22:00s
+			-1:00	Port	+01	1944 Aug 26 22:00s
+			-1:00	Port	-01/+00	1945 Apr 21 22:00s
+			-1:00	Port	+01	1945 Aug 25 22:00s
+			-1:00	Port	-01/+00	1966 Apr  3  2:00
+# End of rearguard section.
+			 0:00	Port	WE%sT	1983 Sep 25  1:00s
+			 0:00	EU	WE%sT
+

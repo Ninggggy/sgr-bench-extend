@@ -1,0 +1,95 @@
+{
+  "candidate_id": "device_recall_backlink_001",
+  "revision": 1,
+  "observation_date": "2026-09-13",
+  "observation_timezone": "UTC",
+  "protocol_current_date": "2026-09-09",
+  "human_validation": "not_performed",
+  "difficulty": "untested",
+  "substantive_revisions_used": 0,
+  "construction_model": "Astra/high; parent native trace authoritative",
+  "model_tests": 0,
+  "independent_review": "not_performed",
+  "request_accounting": {
+    "prior_failed_history": 28,
+    "prior_backlink_feasibility": 10,
+    "this_construction": 10,
+    "total": 48,
+    "construction_web_calls": 2,
+    "construction_click_items": 7,
+    "construction_open_items": 3,
+    "construction_request_items": [
+      {
+        "n": 1,
+        "op": "click",
+        "origin_ref": "turn55view1",
+        "link_id": 21,
+        "response_ref": "turn59view0"
+      },
+      {
+        "n": 2,
+        "op": "click",
+        "origin_ref": "turn55view1",
+        "link_id": 22,
+        "response_ref": "turn59view1"
+      },
+      {
+        "n": 3,
+        "op": "click",
+        "origin_ref": "turn55view1",
+        "link_id": 23,
+        "response_ref": "turn59view2"
+      },
+      {
+        "n": 4,
+        "op": "click",
+        "origin_ref": "turn55view1",
+        "link_id": 24,
+        "response_ref": "turn59view3"
+      },
+      {
+        "n": 5,
+        "op": "click",
+        "origin_ref": "turn55view1",
+        "link_id": 25,
+        "response_ref": "turn59view4"
+      },
+      {
+        "n": 6,
+        "op": "click",
+        "origin_ref": "turn55view1",
+        "link_id": 26,
+        "response_ref": "turn59view5"
+      },
+      {
+        "n": 7,
+        "op": "click",
+        "origin_ref": "turn55view1",
+        "link_id": 27,
+        "response_ref": "turn59view6"
+      },
+      {
+        "n": 8,
+        "op": "open",
+        "response_ref": "turn60view0",
+        "purpose": "root identity stability"
+      },
+      {
+        "n": 9,
+        "op": "open",
+        "response_ref": "turn60view1",
+        "purpose": "first positive-view page recheck"
+      },
+      {
+        "n": 10,
+        "op": "open",
+        "response_ref": "turn60view2",
+        "purpose": "negative-view reachability only; body not exposed"
+      }
+    ]
+  },
+  "prior_history": "opportunities/device_regulatory_identity/completion.md and completion.json preserved; no previous device r01 existed; no revision reset.",
+  "construction_started_at_utc": "2026-09-13T02:49:19Z",
+  "constructor_completed_at_utc": "2026-09-13T02:58:00.204366+00:00",
+  "construction_elapsed_seconds": 521.204733
+}

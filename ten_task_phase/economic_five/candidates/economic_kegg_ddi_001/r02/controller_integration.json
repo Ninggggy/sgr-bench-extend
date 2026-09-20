@@ -1,0 +1,12 @@
+{
+  "revision": "r02",
+  "parent_revision": "r01",
+  "substantive_repairs": 1,
+  "repair_run": "../../../runs/kegg-ddi-integration-repair-01",
+  "changes": "Astra/high parser and pretest paired-output/scoring integration repair; original sources and oracle copied byte-for-byte. Controller relabeled revision metadata only.",
+  "prior_tests": [],
+  "runtime_builder_status_preserved": "invalid_output; complete CSV artifact recovered without model rerun or source refetch",
+  "human_review": "not_completed",
+  "mechanical_public_json_fix": "Decoded literal backslash-n sequences to actual newlines in both public instructions and alignment quotes before any blind invocation.",
+  "pretest_validation": "pretest_verification.json"
+}

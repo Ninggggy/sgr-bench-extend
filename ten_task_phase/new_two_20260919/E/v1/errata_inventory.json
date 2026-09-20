@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-09-19T14:53:41.239592+00:00",
+  "4518": [
+    {
+      "id": 860,
+      "effect": "FE00 range affectsT4",
+      "url": "https://errata.rfc-editor.org/eid860/"
+    },
+    {
+      "id": 1757,
+      "effect": "inner substring spaces; no fixturecontainsone",
+      "url": "https://errata.rfc-editor.org/eid1757/"
+    },
+    {
+      "id": 1758,
+      "effect": "example fix; no fixturecontainsone",
+      "url": "https://errata.rfc-editor.org/eid1758/"
+    },
+    {
+      "id": 7213,
+      "effect": "punctuation; noeffect",
+      "url": "https://errata.rfc-editor.org/eid7213/"
+    },
+    {
+      "id": 9048,
+      "effect": "AppendixB nor/or; noeffect; verified2026-08-03",
+      "url": "https://errata.rfc-editor.org/eid9048/"
+    }
+  ],
+  "4517": [
+    {
+      "id": 4653,
+      "effect": "numericOrdering listing; irrelevant"
+    },
+    {
+      "id": 7917,
+      "effect": "EnhancedGuide token; irrelevant"
+    }
+  ],
+  "browser_sources": [
+    "browser_errata4518.txt",
+    "browser_errata4517.txt"
+  ],
+  "native_path": "officialinlineerrata accessible; directerrata endpoints notaccessible; recordroutefailures, notdifficulty"
+}

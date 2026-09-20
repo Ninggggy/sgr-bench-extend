@@ -1,0 +1,22 @@
+{
+  "columns": [
+    "predecessor_id",
+    "replacement_id",
+    "selected_version"
+  ],
+  "row_key": [
+    "predecessor_id",
+    "replacement_id"
+  ],
+  "fields": {
+    "predecessor_id": {
+      "type": "string"
+    },
+    "replacement_id": {
+      "type": "string"
+    },
+    "selected_version": {
+      "type": "string"
+    }
+  }
+}

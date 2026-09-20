@@ -1,0 +1,182 @@
+{
+  "reverse_rows": {
+    "metrics": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 0.0
+    },
+    "counts": {
+      "correct_fields": 12,
+      "gold_fields": 12,
+      "pred_fields": 12,
+      "item_denominator": 24,
+      "correct_rows": 3,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 0,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    }
+  },
+  "case_and_set_order": {
+    "metrics": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 12,
+      "gold_fields": 12,
+      "pred_fields": 12,
+      "item_denominator": 24,
+      "correct_rows": 3,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    }
+  },
+  "markers_mistaken_for_function": {
+    "metrics": {
+      "Item-F1": 0.9166666666666666,
+      "Row-F1": 0.6666666666666666,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 11,
+      "gold_fields": 12,
+      "pred_fields": 12,
+      "item_denominator": 24,
+      "correct_rows": 2,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    }
+  },
+  "drop_study": {
+    "metrics": {
+      "Item-F1": 0.8,
+      "Row-F1": 0.8,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 8,
+      "gold_fields": 12,
+      "pred_fields": 8,
+      "item_denominator": 20,
+      "correct_rows": 2,
+      "gold_rows": 3,
+      "pred_rows": 2,
+      "row_denominator": 5,
+      "correct_pairs": 1,
+      "pair_denominator": 1,
+      "shared_ids": 2
+    }
+  },
+  "reference": {
+    "metrics": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 12,
+      "gold_fields": 12,
+      "pred_fields": 12,
+      "item_denominator": 24,
+      "correct_rows": 3,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    }
+  },
+  "omit_atp": {
+    "metrics": {
+      "Item-F1": 0.9166666666666666,
+      "Row-F1": 0.6666666666666666,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 11,
+      "gold_fields": 12,
+      "pred_fields": 12,
+      "item_denominator": 24,
+      "correct_rows": 2,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    }
+  },
+  "reported_mistaken_for_unperformed": {
+    "metrics": {
+      "Item-F1": 0.9166666666666666,
+      "Row-F1": 0.6666666666666666,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 11,
+      "gold_fields": 12,
+      "pred_fields": 12,
+      "item_denominator": 24,
+      "correct_rows": 2,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    }
+  },
+  "unperformed_mistaken_for_negative": {
+    "metrics": {
+      "Item-F1": 0.9166666666666666,
+      "Row-F1": 0.6666666666666666,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 11,
+      "gold_fields": 12,
+      "pred_fields": 12,
+      "item_denominator": 24,
+      "correct_rows": 2,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    }
+  },
+  "miss_rare_markers": {
+    "metrics": {
+      "Item-F1": 0.9166666666666666,
+      "Row-F1": 0.6666666666666666,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 11,
+      "gold_fields": 12,
+      "pred_fields": 12,
+      "item_denominator": 24,
+      "correct_rows": 2,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    }
+  }
+}

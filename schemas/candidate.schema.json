@@ -1,0 +1,259 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Candidate document shape. Cross-field state consistency is checked separately by scripts/prepare.py validate-candidate; neither this schema nor that check verifies source facts, report contents, or experimental conclusions.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "ecosystem": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "description": "Candidate-level workflow state. auto_validated requires content=passed and this candidate's independently supported difficulty=confirmed_harder against its specified old-task comparison. A collection-level result does not advance this state.",
+      "enum": [
+        "candidate",
+        "reference_ready",
+        "content_validated",
+        "auto_validated",
+        "needs_revision",
+        "rejected",
+        "inconclusive"
+      ]
+    },
+    "old_task_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "maxItems": 3
+    },
+    "research_goal": {
+      "type": "string"
+    },
+    "structural_upgrade": {
+      "type": "string"
+    },
+    "public": {
+      "type": "object",
+      "description": "The two task variants may be null during drafting. content_validated and auto_validated require both variants with exactly equal output_format; semantic equivalence requires separate review.",
+      "additionalProperties": false,
+      "properties": {
+        "cg": {
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "instruction": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "output_format": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "instruction",
+                "output_format"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "go": {
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "instruction": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "output_format": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "instruction",
+                "output_format"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "cg",
+        "go"
+      ]
+    },
+    "private": {
+      "type": "object",
+      "description": "File references are relative to the directory containing candidate.json. The reference_ready, content_validated, and auto_validated states require nonempty source_manifest_path, oracle_path, and reference_script_path. Path syntax and optional file-existence checks are performed separately in Python.",
+      "additionalProperties": false,
+      "properties": {
+        "source_version": {
+          "type": "string"
+        },
+        "start_urls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "candidate_scope": {
+          "type": "string"
+        },
+        "predicates": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "output_columns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "row_key": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sorting_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "missing_value_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_manifest_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "state_graph_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "oracle_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reference_script_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "source_version",
+        "start_urls",
+        "candidate_scope",
+        "predicates",
+        "output_columns",
+        "row_key",
+        "sorting_rules",
+        "missing_value_rules",
+        "source_manifest_path",
+        "state_graph_path",
+        "oracle_path",
+        "reference_script_path"
+      ]
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "content": {
+          "type": "string",
+          "enum": [
+            "not_run",
+            "passed",
+            "failed",
+            "inconclusive"
+          ]
+        },
+        "difficulty": {
+          "type": "string",
+          "description": "Conclusion about this individual candidate, not the collection. confirmed_harder requires sufficient independent confirmation runs under a prespecified comparison and decision rule. Collection mean differences or the default three-run pilot do not establish it automatically.",
+          "enum": [
+            "not_run",
+            "structural_only",
+            "screened",
+            "confirmed_harder",
+            "not_harder",
+            "inconclusive"
+          ]
+        },
+        "human_validation": {
+          "type": "string",
+          "description": "Actual human-review status, recorded independently of content and difficulty results. Automated success must not fill in human review that did not occur.",
+          "enum": [
+            "not_performed",
+            "partial",
+            "completed"
+          ]
+        },
+        "report_paths": {
+          "type": "array",
+          "description": "Report file paths relative to candidate.json's directory. content_validated and auto_validated require at least one nonempty reference. Existence does not establish that a report supports the declared conclusions.",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "content",
+        "difficulty",
+        "human_validation",
+        "report_paths"
+      ]
+    }
+  },
+  "required": [
+    "candidate_id",
+    "revision",
+    "ecosystem",
+    "domain",
+    "status",
+    "old_task_refs",
+    "research_goal",
+    "structural_upgrade",
+    "public",
+    "private",
+    "validation"
+  ]
+}

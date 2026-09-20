@@ -1,0 +1,1 @@
+SELECT DISTINCT j.cve_id,j.matchCriteriaId,j.criteria FROM j JOIN d ON j.matchCriteriaId=d.requested_uuid WHERE CAST(j.vulnerable AS INTEGER)=1 AND j.status='Active' AND CAST(json_extract(d.response_json,'$.totalResults') AS INTEGER)=0 AND json_array_length(d.response_json,'$.products')=0 ORDER BY j.cve_id,j.matchCriteriaId,j.criteria;

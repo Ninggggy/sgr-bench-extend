@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-09-17T04:10:20.567877+00:00",
+  "results": {
+    "europemc_reuse_deposit_001-polish01-cg-once": {
+      "status": "completed",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification_status": "passed",
+      "elapsed_seconds": 167.123,
+      "errors": [],
+      "run_id": "europemc_reuse_deposit_001-polish01-cg-once",
+      "exit_code": 0
+    },
+    "europemc_reuse_deposit_001-polish01-go-once": {
+      "status": "completed",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification_status": "passed",
+      "elapsed_seconds": 207.497,
+      "errors": [],
+      "run_id": "europemc_reuse_deposit_001-polish01-go-once",
+      "exit_code": 0
+    },
+    "stap_replication_protocol_001-polish01-go-once": {
+      "status": "completed",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification_status": "passed",
+      "elapsed_seconds": 55.353,
+      "errors": [],
+      "run_id": "stap_replication_protocol_001-polish01-go-once",
+      "exit_code": 0
+    },
+    "stap_replication_protocol_001-polish01-cg-once": {
+      "status": "completed",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification_status": "passed",
+      "elapsed_seconds": 263.408,
+      "errors": [],
+      "run_id": "stap_replication_protocol_001-polish01-cg-once",
+      "exit_code": 0
+    }
+  }
+}

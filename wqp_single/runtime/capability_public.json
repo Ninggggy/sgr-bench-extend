@@ -1,0 +1,4 @@
+{
+  "instruction": "This is a data-tool capability check, not a benchmark task. Independently retrieve complete official WQP Activity and Result CSV exports for site TCEQMAIN-10580, calendar year 1978. Use the available download and query_csv tools to count all rows, group result counts by ActivityMediaName, and count distinct OrganizationIdentifier/ActivityIdentifier keys in each response plus result activity keys absent from the Activity export. Also attempt the narrow Result profile and report whether ResultIdentifier is present. Inspect official service documentation for the profile parameter. Report exact URLs, HTTP statuses, file_ids, all counted rows and any limitations. Do not infer zero records from a failed retrieval. No answer key is supplied.",
+  "output_format": "Return the requested counts and access observations as a concise table or textual report inside final_answer, using the provided solver_result JSON."
+}

@@ -1,0 +1,159 @@
+{
+  "seed": {
+    "url": "https://www.nature.com/articles/s41591-020-0901-9",
+    "status": 200,
+    "bytes": 354895,
+    "at": "2026-09-09T17:10:07.920200+00:00"
+  },
+  "cohort": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ACCESSION_ID%3AGSE145926+AND+FIRST_PDATE%3A%5B2020-05-13+TO+2020-12-31%5D+AND+OPEN_ACCESS%3AY+AND+IN_PMC%3AY&format=json&resultType=core&pageSize=1000",
+    "status": 200,
+    "bytes": 173779,
+    "at": "2026-09-09T17:10:01.350398+00:00"
+  },
+  "fulltext_receipts": [
+    {
+      "pmcid": "PMC7716113",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7716113/fullTextXML",
+      "status": 200,
+      "bytes": 28552,
+      "at": "2026-09-09T17:00:43.023484+00:00"
+    },
+    {
+      "pmcid": "PMC7658590",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7658590/fullTextXML",
+      "status": 200,
+      "bytes": 208261,
+      "at": "2026-09-09T17:00:45.002127+00:00"
+    },
+    {
+      "pmcid": "PMC7645905",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7645905/fullTextXML",
+      "status": 200,
+      "bytes": 90583,
+      "at": "2026-09-09T17:00:46.348732+00:00"
+    },
+    {
+      "pmcid": "PMC7596306",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7596306/fullTextXML",
+      "status": 200,
+      "bytes": 90865,
+      "at": "2026-09-09T17:00:48.127055+00:00"
+    },
+    {
+      "pmcid": "PMC7753335",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7753335/fullTextXML",
+      "status": 200,
+      "bytes": 75664,
+      "at": "2026-09-09T17:00:51.759509+00:00"
+    },
+    {
+      "pmcid": "PMC7518203",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7518203/fullTextXML",
+      "status": 200,
+      "bytes": 159695,
+      "at": "2026-09-09T17:00:54.073754+00:00"
+    },
+    {
+      "pmcid": "PMC7596772",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7596772/fullTextXML",
+      "status": 200,
+      "bytes": 126411,
+      "at": "2026-09-09T17:00:55.966863+00:00"
+    },
+    {
+      "pmcid": "PMC7710067",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7710067/fullTextXML",
+      "status": 200,
+      "bytes": 233241,
+      "at": "2026-09-09T17:00:58.375810+00:00"
+    },
+    {
+      "pmcid": "PMC7577733",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7577733/fullTextXML",
+      "status": 200,
+      "bytes": 223408,
+      "at": "2026-09-09T17:01:00.749138+00:00"
+    },
+    {
+      "pmcid": "PMC7537045",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7537045/fullTextXML",
+      "status": 200,
+      "bytes": 135853,
+      "at": "2026-09-09T17:01:03.627484+00:00"
+    },
+    {
+      "pmcid": "PMC7116884",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7116884/fullTextXML",
+      "status": 200,
+      "bytes": 112670,
+      "at": "2026-09-09T17:01:04.989022+00:00"
+    },
+    {
+      "pmcid": "PMC7405878",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7405878/fullTextXML",
+      "status": 200,
+      "bytes": 240479,
+      "at": "2026-09-09T17:01:07.123502+00:00"
+    },
+    {
+      "pmcid": "PMC7485000",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7485000/fullTextXML",
+      "status": 200,
+      "bytes": 68286,
+      "at": "2026-09-09T17:01:08.972494+00:00"
+    },
+    {
+      "pmcid": "PMC7367032",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7367032/fullTextXML",
+      "status": 200,
+      "bytes": 139698,
+      "at": "2026-09-09T17:01:10.845650+00:00"
+    },
+    {
+      "pmcid": "PMC7205692",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7205692/fullTextXML",
+      "status": 200,
+      "bytes": 200930,
+      "at": "2026-09-09T17:01:14.812562+00:00"
+    }
+  ],
+  "prior_paper": {
+    "url": "https://www.nature.com/articles/s41556-020-0542-8",
+    "status": 200,
+    "bytes": 468490,
+    "at": "2026-09-09T17:18:54.072020+00:00"
+  },
+  "repository_receipts": [
+    [
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141634/soft/GSE141634_family.soft.gz",
+        "file": "GSE141634.soft.gz",
+        "status": 200,
+        "bytes": 1868,
+        "at": "2026-09-09T17:15:13.463795+00:00"
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152586/soft/GSE152586_family.soft.gz",
+        "file": "GSE152586.soft.gz",
+        "status": 200,
+        "bytes": 4113,
+        "at": "2026-09-09T17:15:14.235159+00:00"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-9221",
+        "file": "E-MTAB-9221.json",
+        "status": 200,
+        "bytes": 34644,
+        "at": "2026-09-09T17:15:15.414005+00:00"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD019157",
+        "file": "PXD019157.json",
+        "status": 200,
+        "bytes": 8386,
+        "at": "2026-09-09T17:15:17.132442+00:00"
+      }
+    ]
+  ]
+}

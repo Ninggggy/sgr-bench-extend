@@ -1,0 +1,37 @@
+[
+  {
+    "at": "2026-09-19T14:27:00.179Z",
+    "tool": "browser plugin",
+    "actions": [
+      "url",
+      "domSnapshot"
+    ],
+    "resolved_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2140",
+    "file": "browser_amendment.txt",
+    "prior_navigation": "goto returned timeout but page subsequently rendered; previous save failed because undefined data; this is fresh read"
+  },
+  {
+    "at": "2026-09-19T14:27:29.946Z",
+    "tool": "browser plugin",
+    "actions": [
+      "goto",
+      "url",
+      "domSnapshot"
+    ],
+    "requested_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:22017A1214(01)",
+    "resolved_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:22017A1214(01)",
+    "file": "browser_agreement.txt"
+  },
+  {
+    "at": "2026-09-19T14:29:24.155Z",
+    "tool": "browser plugin",
+    "actions": [
+      "goto",
+      "url",
+      "domSnapshot"
+    ],
+    "requested_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021R2325",
+    "resolved_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021R2325",
+    "file": "browser_country_list.txt"
+  }
+]

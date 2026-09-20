@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://data.iana.org/time-zones/tzdb-2024a/europe",
+    "bytes": 171759,
+    "retrieved_at": "2026-09-19T10:38:12.781038+00:00"
+  },
+  {
+    "url": "https://data.iana.org/time-zones/tzdb-2024b/europe",
+    "bytes": 182395,
+    "retrieved_at": "2026-09-19T10:38:14.118691+00:00"
+  },
+  {
+    "url": "https://data.iana.org/time-zones/tzdb-2024b/zone1970.tab",
+    "bytes": 17510,
+    "retrieved_at": "2026-09-19T10:38:14.805161+00:00"
+  },
+  {
+    "url": "https://data.iana.org/time-zones/tzdb-2024b/tz-how-to.html",
+    "bytes": 24651,
+    "retrieved_at": "2026-09-19T10:38:16.012720+00:00"
+  }
+]

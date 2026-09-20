@@ -1,0 +1,23 @@
+{
+  "candidate_id": "europemc_reuse_deposit_001",
+  "historical_revision": 1,
+  "revision": 2,
+  "batch_revision": "polish01",
+  "status": "ready",
+  "reason": "完整10篇索引候选与原范围一致，9篇XML逐字相同，种子和大学公开稿可访问；从本轮原件及原语义注释重算得到同一答案。旧补充材料审查复用，不宣称重新独立语义审计。",
+  "changes": [
+    "按任务、范围、判定条件分段；解释必要术语；CG/GO使用相同实质条件，仅CG增加步骤。",
+    "引用和限制放独立字段；删除与v2冲突的批量许可；历史输入不覆盖。"
+  ],
+  "evidence_paths": [
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/europemc_reuse_deposit_001/reference.stdout",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/europemc_reuse_deposit_001/reference.stderr",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/source_checks/pre/reuse_d0001.response",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/europemc_reuse_deposit_001/r01/audit_decision.json"
+  ],
+  "historical_inputs": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/europemc_reuse_deposit_001-r01-cg-v2-once",
+  "independent_human_review": "not_performed",
+  "formal_admission": false,
+  "legal_path": "种子发现及公开数据说明<=3请求；ACCESSION_ID/FIRST_PDATE/OA普通20条搜索1请求；10篇原文<=12请求；相关补充文件按已有记录总计不超过36个，整体<=52。没有向盲解提供该路径或私有材料。",
+  "sgr": "前步种子GEO身份决定专门字段索引查询；随后逐文区别矩阵复用、基因列表及新实验数据归属。"
+}

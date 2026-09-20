@@ -1,0 +1,19 @@
+{
+  "turn_id": "01a096c5-b9be-7132-83f3-6b3950f65755",
+  "trace": "/Users/ning/.codex/sessions/2026/09/13/rollout-2026-09-13T01-36-45-01a096b1-6dd7-7043-b1fe-9e51d479d210.jsonl",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "started_at": "2026-09-12T17:58:55.696Z",
+  "ended_at": "2026-09-12T18:03:48.799Z",
+  "elapsed_seconds": 293.103,
+  "known_usage": {
+    "input_tokens": 1775168,
+    "cached_input_tokens": 1718272,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 8037,
+    "reasoning_output_tokens": 1738,
+    "total_tokens": 1783205
+  },
+  "actual_new_model_work_turns": 1,
+  "note": "Existing native worker reused but this is one new model-work turn, charged separately. Source web requests8items across5toolcalls; actual underlying HTTP count unknown."
+}

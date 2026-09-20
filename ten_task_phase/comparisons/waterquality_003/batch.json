@@ -1,0 +1,64 @@
+{
+  "campaign": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/campaign.json",
+  "ledger": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/session_ledger.jsonl",
+  "role": "blind",
+  "purpose": "comparison",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "jobs": [
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-8c5eb66967fe",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/r-8c5eb66967fe.job.json",
+      "label": "old-waterquality_003-cg-1"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-6699d09f5b50",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/GO.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/r-6699d09f5b50.job.json",
+      "label": "old-waterquality_003-go-1"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-5b78fb0f1e5c",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/r-5b78fb0f1e5c.job.json",
+      "label": "old-waterquality_003-cg-2"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-a9eb82756924",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/GO.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/r-a9eb82756924.job.json",
+      "label": "old-waterquality_003-go-2"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-a44408dfbba9",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/r-a44408dfbba9.job.json",
+      "label": "old-waterquality_003-cg-3"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-3d1974333833",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/GO.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/r-3d1974333833.job.json",
+      "label": "old-waterquality_003-go-3"
+    }
+  ]
+}

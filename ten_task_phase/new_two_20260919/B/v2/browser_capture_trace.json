@@ -1,0 +1,66 @@
+[
+  {
+    "tool": "mcp__node_repl__js",
+    "browser": "Chrome extension browser 1",
+    "tab": "743800939",
+    "requested_url": "https://www.rfc-editor.org/errata/rfc9110",
+    "started_at": "2026-09-19T09:22:59.266Z",
+    "actions": [
+      "researchTab.goto(requested_url)",
+      "researchTab.playwright.domSnapshot()",
+      "researchFs.writeFile(evidence_path, DOM)"
+    ],
+    "result": "navigation and DOM capture returned without error",
+    "dom_chars": 30931,
+    "saved_file": "http-errata.browser.txt",
+    "ended_at": "2026-09-19T09:23:02.611Z"
+  },
+  {
+    "tool": "mcp__node_repl__js",
+    "browser": "Chrome extension browser 1",
+    "tab": "743800939",
+    "requested_url": "https://www.rfc-editor.org/rfc/rfc7230.html",
+    "started_at": "2026-09-19T09:23:02.611Z",
+    "actions": [
+      "researchTab.goto(requested_url)",
+      "researchTab.playwright.domSnapshot()",
+      "researchFs.writeFile(evidence_path, DOM)"
+    ],
+    "result": "navigation and DOM capture returned without error",
+    "dom_chars": 220743,
+    "saved_file": "rfc7230.browser.txt",
+    "ended_at": "2026-09-19T09:23:03.581Z"
+  },
+  {
+    "tool": "mcp__node_repl__js",
+    "browser": "Chrome extension browser 1",
+    "tab": "743800939",
+    "requested_url": "https://www.rfc-editor.org/rfc/rfc7231.html",
+    "started_at": "2026-09-19T09:23:03.582Z",
+    "actions": [
+      "researchTab.goto(requested_url)",
+      "researchTab.playwright.domSnapshot()",
+      "researchFs.writeFile(evidence_path, DOM)"
+    ],
+    "result": "navigation and DOM capture returned without error",
+    "dom_chars": 259027,
+    "saved_file": "rfc7231.browser.txt",
+    "ended_at": "2026-09-19T09:23:04.466Z"
+  },
+  {
+    "tool": "mcp__node_repl__js",
+    "browser": "Chrome extension browser 1",
+    "tab": "743800939",
+    "requested_url": "https://www.rfc-editor.org/rfc/rfc7233.html",
+    "started_at": "2026-09-19T09:23:04.466Z",
+    "actions": [
+      "researchTab.goto(requested_url)",
+      "researchTab.playwright.domSnapshot()",
+      "researchFs.writeFile(evidence_path, DOM)"
+    ],
+    "result": "navigation and DOM capture returned without error",
+    "dom_chars": 51117,
+    "saved_file": "rfc7233.browser.txt",
+    "ended_at": "2026-09-19T09:23:05.128Z"
+  }
+]

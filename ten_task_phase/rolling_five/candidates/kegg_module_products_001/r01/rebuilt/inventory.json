@@ -1,0 +1,467 @@
+{
+  "source_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/sources",
+  "enzyme": {
+    "id": "ec:4.1.1.39",
+    "start_line": 1,
+    "terminator_line": 1234,
+    "field_line_counts": {
+      "ENTRY": 1,
+      "NAME": 15,
+      "CLASS": 3,
+      "SYSNAME": 1,
+      "REACTION": 1,
+      "ALL_REAC": 2,
+      "SUBSTRATE": 2,
+      "PRODUCT": 3,
+      "COMMENT": 1,
+      "HISTORY": 1,
+      "REFERENCE": 2,
+      "AUTHORS": 2,
+      "TITLE": 2,
+      "JOURNAL": 3,
+      "PATHWAY": 5,
+      "ORTHOLOGY": 2,
+      "GENES": 1182,
+      "DBLINKS": 5
+    }
+  },
+  "all_reaction_ids": [
+    "R00024",
+    "R03140"
+  ],
+  "linked_module_ids": [
+    "M00165",
+    "M00532",
+    "M00968"
+  ],
+  "link_line_count": 3,
+  "duplicate_link_count": 0,
+  "modules": [
+    {
+      "id": "M00165",
+      "start_line": 1,
+      "terminator_line": 682,
+      "field_line_counts": {
+        "ENTRY": 1,
+        "NAME": 1,
+        "DEFINITION": 1,
+        "DIAGRAM": 1,
+        "CLASS": 1,
+        "PATHWAY": 4,
+        "ORTHOLOGY": 11,
+        "COMPLETE": 634,
+        "REACTION": 13,
+        "COMPOUND": 14
+      }
+    },
+    {
+      "id": "M00532",
+      "start_line": 684,
+      "terminator_line": 882,
+      "field_line_counts": {
+        "ENTRY": 1,
+        "NAME": 1,
+        "DEFINITION": 2,
+        "DIAGRAM": 1,
+        "CLASS": 1,
+        "PATHWAY": 4,
+        "ORTHOLOGY": 12,
+        "COMPLETE": 146,
+        "REACTION": 11,
+        "COMPOUND": 14,
+        "REFERENCE": 1,
+        "AUTHORS": 1,
+        "TITLE": 1,
+        "JOURNAL": 2
+      }
+    },
+    {
+      "id": "M00968",
+      "start_line": 884,
+      "terminator_line": 1167,
+      "field_line_counts": {
+        "ENTRY": 1,
+        "NAME": 1,
+        "DEFINITION": 1,
+        "DIAGRAM": 1,
+        "CLASS": 1,
+        "PATHWAY": 5,
+        "ORTHOLOGY": 9,
+        "COMPLETE": 238,
+        "REACTION": 10,
+        "COMPOUND": 11,
+        "REFERENCE": 1,
+        "AUTHORS": 1,
+        "TITLE": 1,
+        "JOURNAL": 2
+      }
+    }
+  ],
+  "reaction_rows": [
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01523"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00199 -> C01182",
+      "anchor_id": "modules.txt:655",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R00024"
+      ],
+      "matched_reaction_ids": [
+        "R00024"
+      ],
+      "equation": "C01182 + C00011 -> C00197",
+      "anchor_id": "modules.txt:656",
+      "scope_decision": "in_scope"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01512"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00197 -> C00236",
+      "anchor_id": "modules.txt:657",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01061",
+        "R01063"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00236 -> C00118",
+      "anchor_id": "modules.txt:658",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01015"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00118 -> C00111",
+      "anchor_id": "modules.txt:659",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01068"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00118 + C00111 -> C00354",
+      "anchor_id": "modules.txt:660",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R00762"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00354 -> C00085",
+      "anchor_id": "modules.txt:661",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01067"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00085 + C00118 -> C00279 + C00231",
+      "anchor_id": "modules.txt:662",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01829"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00279 + C00111 -> C00447",
+      "anchor_id": "modules.txt:663",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01845"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00447 -> C05382",
+      "anchor_id": "modules.txt:664",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01641"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C05382 + C00118 -> C00117 + C00231",
+      "anchor_id": "modules.txt:665",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01056"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00117 -> C00199",
+      "anchor_id": "modules.txt:666",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00165",
+      "reaction_ids": [
+        "R01529"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00231 -> C00199",
+      "anchor_id": "modules.txt:667",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R03140"
+      ],
+      "matched_reaction_ids": [
+        "R03140"
+      ],
+      "equation": "C01182 -> C00988 + C00197",
+      "anchor_id": "modules.txt:852",
+      "scope_decision": "in_scope"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R01334"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00988 -> C00160",
+      "anchor_id": "modules.txt:853",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R00475"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00160 + C00007 -> C00048 + C00027",
+      "anchor_id": "modules.txt:854",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R00009"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00027 -> C00007",
+      "anchor_id": "modules.txt:855",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R00372"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00048 + C00025 -> C00026 + C00037",
+      "anchor_id": "modules.txt:856",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R00369"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00048 -> C00037",
+      "anchor_id": "modules.txt:857",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R00945"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00037 -> C00065",
+      "anchor_id": "modules.txt:858",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R00588"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00065 + C00048 -> C00168 + C00037",
+      "anchor_id": "modules.txt:859",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R01388",
+        "R01392"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00168 -> C00258",
+      "anchor_id": "modules.txt:860",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R01514"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00258 -> C00197",
+      "anchor_id": "modules.txt:861",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00532",
+      "reaction_ids": [
+        "R01221"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00037 -> C00014",
+      "anchor_id": "modules.txt:862",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00968",
+      "reaction_ids": [
+        "R01876"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00299 -> C00620",
+      "anchor_id": "modules.txt:1141",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00968",
+      "reaction_ids": [
+        "R02147"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00387 -> C00620",
+      "anchor_id": "modules.txt:1142",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00968",
+      "reaction_ids": [
+        "R11535",
+        "R13089"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00620 -> C01151",
+      "anchor_id": "modules.txt:1143",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00968",
+      "reaction_ids": [
+        "R10836"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00020 -> C01151",
+      "anchor_id": "modules.txt:1144",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00968",
+      "reaction_ids": [
+        "R10837"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00055 -> C01151",
+      "anchor_id": "modules.txt:1145",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00968",
+      "reaction_ids": [
+        "R10838"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C00105 -> C01151",
+      "anchor_id": "modules.txt:1146",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00968",
+      "reaction_ids": [
+        "R10555"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C01151 -> C01182",
+      "anchor_id": "modules.txt:1147",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00968",
+      "reaction_ids": [
+        "R03140"
+      ],
+      "matched_reaction_ids": [
+        "R03140"
+      ],
+      "equation": "C01182 -> C00197",
+      "anchor_id": "modules.txt:1148",
+      "scope_decision": "in_scope"
+    },
+    {
+      "module_id": "M00968",
+      "reaction_ids": [
+        "R13090"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C01182 -> C22337",
+      "anchor_id": "modules.txt:1149",
+      "scope_decision": "outside_ALL_REAC"
+    },
+    {
+      "module_id": "M00968",
+      "reaction_ids": [
+        "R12696"
+      ],
+      "matched_reaction_ids": [],
+      "equation": "C22337 -> C00111",
+      "anchor_id": "modules.txt:1150",
+      "scope_decision": "outside_ALL_REAC"
+    }
+  ],
+  "optional_reaction_context": {
+    "status": "parsed_optional_context",
+    "affects_selection": false,
+    "records": [
+      {
+        "reaction_id": "R00024",
+        "equation": "C01182 + C00011 + C00001 <=> 2 C00197",
+        "module_annotation": "M00165  Reductive pentose phosphate cycle (Calvin cycle)"
+      },
+      {
+        "reaction_id": "R03140",
+        "equation": "C01182 + C00007 <=> C00197 + C00988",
+        "module_annotation": "M00532  Photorespiration M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate"
+      }
+    ]
+  }
+}

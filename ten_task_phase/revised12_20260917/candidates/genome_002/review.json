@@ -1,0 +1,21 @@
+{
+  "candidate_id": "genome_002",
+  "historical_revision": 0,
+  "revision": 1,
+  "batch_revision": "polish01",
+  "status": "blocked",
+  "reason": "已澄清专门图范围并修正标识/输出格式；普通GENOME记录和模块可读，但联合图入口（包括源页面真实链接及旧成功路径）现为HTTP 400。最后native web访问旧合法路径收到明确non-retryable拒绝，之后不重试或换表示。联合状态证据未能确认，不测。",
+  "changes": [
+    "按任务、范围、判定条件分段；解释必要术语；CG/GO使用相同实质条件，仅CG增加步骤。",
+    "引用和限制放独立字段；删除与v2冲突的批量许可；历史输入不覆盖。",
+    "实质澄清：只取物种级示例、专门氨基酸生物合成图，排除总览图；输出由逗号单行改为表格。",
+    "有限等价别名：api buc与api+buc、两个map前缀；不将只有host的缺失身份自动补成正确组合。"
+  ],
+  "evidence_paths": [
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/source_checks/pre/genome_joint_known_route.json",
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/access_blocks.json"
+  ],
+  "historical_inputs": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/genome_002-r00-cg-v2-once",
+  "independent_human_review": "not_performed",
+  "formal_admission": false
+}

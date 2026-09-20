@@ -1,0 +1,248 @@
+{
+  "at": "2026-09-12T05:29:44.750Z",
+  "rateLimitsByLimitId": {
+    "codex_bengalfox": {
+      "limitId": "codex_bengalfox",
+      "limitName": "GPT-5.3-Codex-Spark",
+      "primary": {
+        "usedPercent": 0,
+        "windowDurationMins": 300,
+        "resetsAt": 1789208984
+      },
+      "secondary": {
+        "usedPercent": 0,
+        "windowDurationMins": 10080,
+        "resetsAt": 1789795784
+      },
+      "credits": null,
+      "individualLimit": null,
+      "spendControlReached": null,
+      "planType": "pro",
+      "rateLimitReachedType": null
+    },
+    "base_model_inference": {
+      "limitId": "base_model_inference",
+      "limitName": "gpt-reserve",
+      "primary": {
+        "usedPercent": 0,
+        "windowDurationMins": 10080,
+        "resetsAt": 1789795784
+      },
+      "secondary": null,
+      "credits": null,
+      "individualLimit": null,
+      "spendControlReached": null,
+      "planType": "pro",
+      "rateLimitReachedType": null
+    },
+    "codex": {
+      "limitId": "codex",
+      "limitName": null,
+      "primary": {
+        "usedPercent": 80,
+        "windowDurationMins": 10080,
+        "resetsAt": 1789441352
+      },
+      "secondary": null,
+      "credits": {
+        "hasCredits": false,
+        "unlimited": false,
+        "balance": "0"
+      },
+      "individualLimit": null,
+      "spendControlReached": false,
+      "planType": "pro",
+      "rateLimitReachedType": null
+    }
+  },
+  "reset_credits_available": 2,
+  "note": "Account-wide snapshot, not attributable exclusively to this round; no reset redeemed.",
+  "latest_observation": {
+    "at": "2026-09-13T06:49:50.291013+00:00",
+    "used_percent": 34,
+    "remaining_percent": 66,
+    "reset_credits_available": 2,
+    "source": "actual get_usage_limits before STAP A dispatch"
+  },
+  "observation_history": [
+    {
+      "at": "2026-09-12T06:55:29.120022+00:00",
+      "codex_week_used_percent": 83,
+      "rate_limit_reached_type": null,
+      "reset_credits_available": 2,
+      "reset_redeemed": false,
+      "note": "Shared account quota; not attributable to this round."
+    },
+    {
+      "at": "2026-09-12T07:48:53.443659+00:00",
+      "codex_week_used_percent": 85,
+      "rate_limit_reached_type": null,
+      "reset_credits_available": 2,
+      "reset_redeemed": false,
+      "note": "Shared account quota, not attributable to this round."
+    },
+    {
+      "at": "2026-09-12T08:14:26.974086+00:00",
+      "codex_week_used_percent": 0,
+      "resetsAt": 1789805418,
+      "rate_limit_reached_type": null,
+      "reset_credits_available": 2,
+      "reset_redeemed_by_this_task": false,
+      "note": "Unexpected change from prior85%; cause not established. Shared account snapshot does not increase inherited62-session ceiling."
+    },
+    {
+      "at": "2026-09-12T14:12:00+00:00",
+      "time_precision": "minute; controller tool observation",
+      "codex_weekly_used_percent": 3,
+      "windowDurationMins": 10080,
+      "resetsAt": 1789805418,
+      "rateLimitReachedType": null,
+      "spendControlReached": false,
+      "reset_credits_available": 2,
+      "reset_redeemed_by_this_task": false
+    },
+    {
+      "recorded_at": "2026-09-12T14:51:21.822730+00:00",
+      "source_observation": "get_usage_limits immediately preceding this record",
+      "codex_weekly_used_percent": 4,
+      "windowDurationMins": 10080,
+      "resetsAt": 1789805418,
+      "rateLimitReachedType": null,
+      "spendControlReached": false,
+      "reset_credits_available": 2,
+      "reset_redeemed_by_this_task": false
+    },
+    {
+      "at": "2026-09-12T15:51:00+00:00",
+      "source": "get_usage_limits actual tool response in controller turn",
+      "used_percent": 7,
+      "window_duration_mins": 10080,
+      "resets_at": 1789805418,
+      "rate_limit_reached": null,
+      "spend_control_reached": false,
+      "reset_credits_available": 2,
+      "reset_redeemed": false
+    },
+    {
+      "at": "2026-09-12T16:04:38+00:00",
+      "source": "get_usage_limits with concurrent actual clock observation",
+      "used_percent": 8,
+      "window_duration_mins": 10080,
+      "resets_at": 1789805418,
+      "rate_limit_reached": null,
+      "spend_control_reached": false,
+      "reset_credits_available": 2,
+      "reset_redeemed": false
+    },
+    {
+      "at": "2026-09-12T16:32:13+00:00",
+      "source": "get_usage_limits and actual clock",
+      "used_percent": 10,
+      "window_duration_mins": 10080,
+      "resets_at": 1789805418,
+      "rate_limit_reached": null,
+      "spend_control_reached": false,
+      "reset_credits_available": 2,
+      "reset_redeemed": false
+    },
+    {
+      "at": "2026-09-13T03:19:37.823147+00:00",
+      "source": "mcp__codex_app__get_usage_limits",
+      "codex_used_percent": 23,
+      "codex_remaining_percent": 77,
+      "window_duration_mins": 10080,
+      "resets_at": 1789805418,
+      "reset_credits_available": 2,
+      "reset_credits_redeemed_this_task": 0,
+      "spend_control_reached": false,
+      "limits_reached_type": null,
+      "note": "Shared account quota; input tokens and sessions do not convert to quota; no resets or added cap."
+    },
+    {
+      "at": "2026-09-13T03:58:06.208797+00:00",
+      "source": "mcp__codex_app__get_usage_limits",
+      "codex_used_percent": 26,
+      "codex_remaining_percent": 74,
+      "window_duration_mins": 10080,
+      "resets_at": 1789805418,
+      "reset_credits_available": 2,
+      "reset_credits_redeemed_this_task": 0,
+      "spend_control_reached": false,
+      "limits_reached_type": null,
+      "note": "Actual shared quota, not inferred from accumulated tokens; no cap reset."
+    },
+    {
+      "at": "2026-09-13T03:58:06.208797+00:00",
+      "source": "mcp__codex_app__get_usage_limits",
+      "codex_used_percent": 26,
+      "codex_remaining_percent": 74,
+      "window_duration_mins": 10080,
+      "resets_at": 1789805418,
+      "reset_credits_available": 2,
+      "reset_credits_redeemed_this_task": 0,
+      "spend_control_reached": false,
+      "limits_reached_type": null,
+      "note": "Actual shared quota, not inferred from accumulated tokens; no cap reset."
+    },
+    {
+      "at": "2026-09-13T04:09:06+00:00",
+      "source": "mcp__codex_app__get_usage_limits",
+      "codex_used_percent": 26,
+      "codex_remaining_percent": 74,
+      "window_duration_mins": 10080,
+      "resets_at": 1789805418,
+      "reset_credits_available": 2,
+      "reset_credits_redeemed_this_task": 0,
+      "spend_control_reached": false,
+      "limits_reached_type": null,
+      "note": "Actual shared quota, not inferred from accumulated tokens; no cap reset."
+    },
+    {
+      "at": "2026-09-13T06:01:20.757824+00:00",
+      "used_percent": 31,
+      "remaining_percent": 69,
+      "reset_credits_available": 2,
+      "source": "get_usage_limits actual account codex window; no token-to-quota conversion"
+    },
+    {
+      "at": "2026-09-13T06:21:23.023328+00:00",
+      "used_percent": 32,
+      "remaining_percent": 68,
+      "reset_credits_available": 2,
+      "source": "actual get_usage_limits codex account window"
+    },
+    {
+      "at": "2026-09-13T06:49:50.291013+00:00",
+      "used_percent": 34,
+      "remaining_percent": 66,
+      "reset_credits_available": 2,
+      "source": "actual get_usage_limits before STAP A dispatch"
+    }
+  ],
+  "history": [
+    {
+      "observed_at": "2026-09-12T16:59:45.258427+00:00",
+      "codex_week_used_percent": 12,
+      "rate_limit_reached": null,
+      "spend_control_reached": false,
+      "available_reset_credits": 2,
+      "reset_redeemed": false
+    },
+    {
+      "observed_at": "2026-09-12T17:58:36.703233+00:00",
+      "codex_week_used_percent": 15,
+      "rate_limit_reached": null,
+      "spend_control_reached": false,
+      "available_reset_credits": 2,
+      "reset_redeemed": false
+    },
+    {
+      "observed_at": "2026-09-13T01:38:25.760856+00:00",
+      "source": "actual get_usage_limits tool response at recovery start",
+      "codex_week_used_percent": 17,
+      "rate_limit_reached": null,
+      "spend_control_reached": false,
+      "reset_redeemed": false
+    }
+  ]
+}

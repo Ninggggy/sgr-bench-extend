@@ -1,0 +1,31 @@
+{
+  "registered_at": "2026-09-11T19:05:06.628758+00:00",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "campaign": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five_campaign.json",
+  "jobs": [
+    {
+      "candidate_id": "economic_kegg_ddi_001",
+      "revision": "r02",
+      "protocol_version": "ten-task-v1",
+      "stage": "development",
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "kegg-ddi-r02-cg-dev-a"
+    },
+    {
+      "candidate_id": "economic_kegg_ddi_001",
+      "revision": "r02",
+      "protocol_version": "ten-task-v1",
+      "stage": "development",
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "kegg-ddi-r02-go-dev-a"
+    }
+  ],
+  "entry_evidence": "pretest_verification.json",
+  "no_private_assets_to_blind": true,
+  "round": "A",
+  "prelaunch_correction": "Removed unsupported development_round job key before any model session started. Two local validation failures, zero model invocations.",
+  "ledger": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five_session_ledger.jsonl"
+}

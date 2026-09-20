@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-08T12:56:26.882552+00:00",
+  "separate_query": "fourpCode values, same derived17 mainstem stations and2000\u20132019; independent from characteristicName filtering",
+  "actual_pcode_rows": 3782,
+  "characteristic_export_four_code_rows": 3782,
+  "full_common_field_multiset_equal": true,
+  "missing_from_characteristic_filter": 0,
+  "missing_from_pcode_filter": 0,
+  "raw_original_zip": "private/sources/independent_pcode_mainstem_2000_2019_zip.response"
+}

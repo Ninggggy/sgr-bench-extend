@@ -1,0 +1,320 @@
+{
+  "scope_and_decision_path": "../../../opportunities/nvd_configuration_environment/feasibility.json",
+  "original_request_log": "../../../opportunities/nvd_configuration_environment/raw/request_log.jsonl",
+  "documentation_request_log": "../../../opportunities/nvd_configuration_environment/docs/request_log.jsonl",
+  "web_request_log": "../../../opportunities/nvd_configuration_environment/web_request_log.json",
+  "criterion_file_index": "../../../opportunities/nvd_configuration_environment/match_file_index.json",
+  "field_mapping_and_inclusion": "inclusion_and_sources.json",
+  "sources": [
+    {
+      "file_id": "d0001",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0001.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2023-28771",
+      "requested_at": "2026-09-13T09:22:16.794005+00:00",
+      "received_at": "2026-09-13T09:22:17.559433+00:00"
+    },
+    {
+      "file_id": "d0002",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0002.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=558978AD-8153-4C1F-A6DE-CCFBF69F754D",
+      "requested_at": "2026-09-13T09:22:52.882596+00:00",
+      "received_at": "2026-09-13T09:22:53.616947+00:00"
+    },
+    {
+      "file_id": "d0003",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0003.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=7F7654A1-3806-41C7-82D4-46B0CD7EE53B",
+      "requested_at": "2026-09-13T09:24:34.760772+00:00",
+      "received_at": "2026-09-13T09:24:35.496336+00:00"
+    },
+    {
+      "file_id": "d0004",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0004.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=B150462B-6A4A-4B8C-800D-A83E24C79819",
+      "requested_at": "2026-09-13T09:24:40.966250+00:00",
+      "received_at": "2026-09-13T09:24:41.933755+00:00"
+    },
+    {
+      "file_id": "d0005",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0005.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=47398FD0-6C5E-4625-9EFD-DE08C9AB7DB2",
+      "requested_at": "2026-09-13T09:24:47.171763+00:00",
+      "received_at": "2026-09-13T09:24:47.908661+00:00"
+    },
+    {
+      "file_id": "d0006",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0006.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=A32A52F5-5406-4A44-A5C1-42FCDC8C6B22",
+      "requested_at": "2026-09-13T09:24:53.377764+00:00",
+      "received_at": "2026-09-13T09:24:54.090748+00:00"
+    },
+    {
+      "file_id": "d0007",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0007.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D68A36FF-8CAF-401C-9F18-94F3A2405CF4",
+      "requested_at": "2026-09-13T09:24:59.581149+00:00",
+      "received_at": "2026-09-13T09:25:00.296302+00:00"
+    },
+    {
+      "file_id": "d0008",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0008.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=320FC232-D76C-4D8A-8003-7C9A7A287A4C",
+      "requested_at": "2026-09-13T09:25:05.786000+00:00",
+      "received_at": "2026-09-13T09:25:06.577830+00:00"
+    },
+    {
+      "file_id": "d0009",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0009.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2818E8AC-FFEE-4DF9-BF3F-C75166C0E851",
+      "requested_at": "2026-09-13T09:25:11.986791+00:00",
+      "received_at": "2026-09-13T09:25:12.728103+00:00"
+    },
+    {
+      "file_id": "d0010",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0010.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2360F0CC-6958-47B6-87A9-B03D52DEBAF8",
+      "requested_at": "2026-09-13T09:25:18.191369+00:00",
+      "received_at": "2026-09-13T09:25:18.950492+00:00"
+    },
+    {
+      "file_id": "d0011",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0011.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=0B41F437-855B-4490-8011-DF59887BE6D5",
+      "requested_at": "2026-09-13T09:25:24.393098+00:00",
+      "received_at": "2026-09-13T09:25:25.139852+00:00"
+    },
+    {
+      "file_id": "d0012",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0012.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=6C4EE067-E0F0-49B7-8698-8B1AD8E346F0",
+      "requested_at": "2026-09-13T09:25:30.593995+00:00",
+      "received_at": "2026-09-13T09:25:31.299281+00:00"
+    },
+    {
+      "file_id": "d0013",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0013.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=66B99746-0589-46E6-9CBD-F38619AD97DC",
+      "requested_at": "2026-09-13T09:25:36.798633+00:00",
+      "received_at": "2026-09-13T09:25:37.513386+00:00"
+    },
+    {
+      "file_id": "d0014",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0014.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D96CB09A-9AB3-4360-ACFC-A917E7EEC460",
+      "requested_at": "2026-09-13T09:25:43.002970+00:00",
+      "received_at": "2026-09-13T09:25:43.790412+00:00"
+    },
+    {
+      "file_id": "d0015",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0015.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2B30A4C0-9928-46AD-9210-C25656FB43FB",
+      "requested_at": "2026-09-13T09:25:49.203846+00:00",
+      "received_at": "2026-09-13T09:25:49.959209+00:00"
+    },
+    {
+      "file_id": "d0016",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0016.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=F0226DAD-492B-493D-B15E-90AA593BAAAB",
+      "requested_at": "2026-09-13T09:25:55.408973+00:00",
+      "received_at": "2026-09-13T09:25:56.191557+00:00"
+    },
+    {
+      "file_id": "d0017",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0017.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D74ABA7E-AA78-4A13-A64E-C44021591B42",
+      "requested_at": "2026-09-13T09:26:01.611298+00:00",
+      "received_at": "2026-09-13T09:26:02.363224+00:00"
+    },
+    {
+      "file_id": "d0018",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0018.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=030F29C9-5435-4EA5-B009-895BB2259C19",
+      "requested_at": "2026-09-13T09:26:07.815947+00:00",
+      "received_at": "2026-09-13T09:26:08.546334+00:00"
+    },
+    {
+      "file_id": "d0019",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0019.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=F93B6A06-2951-46D2-A7E1-103D7318D612",
+      "requested_at": "2026-09-13T09:26:14.016996+00:00",
+      "received_at": "2026-09-13T09:26:14.737593+00:00"
+    },
+    {
+      "file_id": "d0020",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0020.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=3CF08551-BA8E-47BC-985D-D5ED76A46793",
+      "requested_at": "2026-09-13T09:26:20.217914+00:00",
+      "received_at": "2026-09-13T09:26:21.012930+00:00"
+    },
+    {
+      "file_id": "d0021",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0021.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=646C1F07-B553-47B0-953B-DC7DE7FD0F8B",
+      "requested_at": "2026-09-13T09:26:26.423120+00:00",
+      "received_at": "2026-09-13T09:26:27.196640+00:00"
+    },
+    {
+      "file_id": "d0022",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0022.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=62ACD903-AC40-451C-B2AB-6F843B3C8897",
+      "requested_at": "2026-09-13T09:26:32.623145+00:00",
+      "received_at": "2026-09-13T09:26:33.399319+00:00"
+    },
+    {
+      "file_id": "d0023",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0023.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=92C697A5-D1D3-4FF0-9C43-D27B18181958",
+      "requested_at": "2026-09-13T09:26:38.827803+00:00",
+      "received_at": "2026-09-13T09:26:39.590535+00:00"
+    },
+    {
+      "file_id": "d0024",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0024.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=BE7B066A-5AF0-42AF-A341-A91802F588F1",
+      "requested_at": "2026-09-13T09:26:45.030687+00:00",
+      "received_at": "2026-09-13T09:26:45.757996+00:00"
+    },
+    {
+      "file_id": "d0025",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0025.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=110A1CA4-0170-4834-8281-0A3E14FC5584",
+      "requested_at": "2026-09-13T09:26:51.231701+00:00",
+      "received_at": "2026-09-13T09:26:51.946549+00:00"
+    },
+    {
+      "file_id": "d0026",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0026.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=04A828C5-B71C-43EE-8132-C14C58A52360",
+      "requested_at": "2026-09-13T09:26:57.436127+00:00",
+      "received_at": "2026-09-13T09:26:58.235120+00:00"
+    },
+    {
+      "file_id": "d0027",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0027.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9D1396E3-731B-4D05-A3F8-F3ABB80D5C29",
+      "requested_at": "2026-09-13T09:27:03.641108+00:00",
+      "received_at": "2026-09-13T09:27:04.391675+00:00"
+    },
+    {
+      "file_id": "d0028",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0028.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=42F4D9F3-BCBF-4990-B270-3592D69FCC22",
+      "requested_at": "2026-09-13T09:27:09.845498+00:00",
+      "received_at": "2026-09-13T09:27:10.647247+00:00"
+    },
+    {
+      "file_id": "d0029",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0029.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=81D90A7B-174F-40A1-8AF4-08B15B7BAC40",
+      "requested_at": "2026-09-13T09:27:16.048358+00:00",
+      "received_at": "2026-09-13T09:27:16.812613+00:00"
+    },
+    {
+      "file_id": "d0030",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0030.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=E136FA9E-48A2-428C-9F0A-CD9DB7F91581",
+      "requested_at": "2026-09-13T09:27:22.250602+00:00",
+      "received_at": "2026-09-13T09:27:22.969945+00:00"
+    },
+    {
+      "file_id": "d0031",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0031.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=EECD311A-4E96-4576-AADF-47291EDE3559",
+      "requested_at": "2026-09-13T09:27:28.455410+00:00",
+      "received_at": "2026-09-13T09:27:29.171878+00:00"
+    },
+    {
+      "file_id": "d0032",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0032.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=5DCFD02F-5884-4A96-957D-4CEEDB3826BE",
+      "requested_at": "2026-09-13T09:27:34.660800+00:00",
+      "received_at": "2026-09-13T09:27:35.465806+00:00"
+    },
+    {
+      "file_id": "d0033",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0033.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=3C45C303-1A95-4245-B242-3AB9B9106CD4",
+      "requested_at": "2026-09-13T09:27:40.860157+00:00",
+      "received_at": "2026-09-13T09:27:41.613353+00:00"
+    },
+    {
+      "file_id": "d0034",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0034.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9C6AFD50-926C-4579-A951-4EFDCBA512F0",
+      "requested_at": "2026-09-13T09:27:47.063091+00:00",
+      "received_at": "2026-09-13T09:27:47.880264+00:00"
+    },
+    {
+      "file_id": "d0035",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0035.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9E3AC823-0ECA-42D8-8312-2FBE5914E4C0",
+      "requested_at": "2026-09-13T09:27:53.266573+00:00",
+      "received_at": "2026-09-13T09:27:54.034864+00:00"
+    },
+    {
+      "file_id": "d0036",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0036.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D84D915E-8075-4DFC-8C83-D7E6A65D7AFC",
+      "requested_at": "2026-09-13T09:27:59.474239+00:00",
+      "received_at": "2026-09-13T09:28:00.241428+00:00"
+    },
+    {
+      "file_id": "d0037",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0037.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=34699536-4CA4-4F87-8E69-A16F2C88A1E8",
+      "requested_at": "2026-09-13T09:28:05.682792+00:00",
+      "received_at": "2026-09-13T09:28:06.412469+00:00"
+    },
+    {
+      "file_id": "d0038",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0038.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=A983A8D5-1B1E-4DE5-93FE-DED5B2DDCB83",
+      "requested_at": "2026-09-13T09:28:11.877989+00:00",
+      "received_at": "2026-09-13T09:28:12.714340+00:00"
+    },
+    {
+      "file_id": "d0039",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0039.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=81F20DFB-ED71-4D6F-9B15-4F86341550A9",
+      "requested_at": "2026-09-13T09:28:18.079049+00:00",
+      "received_at": "2026-09-13T09:28:18.870623+00:00"
+    },
+    {
+      "file_id": "d0040",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0040.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=5D5DCBFB-AB12-4525-ADD4-F85059E59177",
+      "requested_at": "2026-09-13T09:28:24.284096+00:00",
+      "received_at": "2026-09-13T09:28:25.072693+00:00"
+    },
+    {
+      "file_id": "d0041",
+      "path": "../../../opportunities/nvd_configuration_environment/raw/d0041.response",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=BB902356-D134-434B-8BAF-2CB366F32050",
+      "requested_at": "2026-09-13T09:28:30.488949+00:00",
+      "received_at": "2026-09-13T09:28:31.265422+00:00"
+    }
+  ],
+  "documentation_sources": [
+    {
+      "file_id": "d0001",
+      "path": "../../../opportunities/nvd_configuration_environment/docs/d0001.response",
+      "url": "https://nvd.nist.gov/developers/products",
+      "requested_at": "2026-09-13T09:25:16.975881+00:00",
+      "received_at": "2026-09-13T09:25:17.960889+00:00"
+    },
+    {
+      "file_id": "d0002",
+      "path": "../../../opportunities/nvd_configuration_environment/docs/d0002.response",
+      "url": "https://nvd.nist.gov/main-AIKKIYBA.js",
+      "requested_at": "2026-09-13T09:25:45.047462+00:00",
+      "received_at": "2026-09-13T09:25:48.363642+00:00"
+    }
+  ],
+  "shortcut_evidence_paths": [
+    "../../../opportunities/nvd_configuration_environment/raw/web_1.json",
+    "../../../opportunities/nvd_configuration_environment/raw/web_2.json",
+    "../../../opportunities/nvd_configuration_environment/raw/web_3.json",
+    "../../../opportunities/nvd_configuration_environment/raw/web_4.json"
+  ],
+  "official_semantics_excerpts_path": "../../../opportunities/nvd_configuration_environment/official_semantics_excerpts.json"
+}

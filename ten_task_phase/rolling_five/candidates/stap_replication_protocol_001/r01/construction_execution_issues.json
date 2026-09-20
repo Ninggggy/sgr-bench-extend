@@ -1,0 +1,15 @@
+[
+  {
+    "issue": "Original visible HTML extraction first attempted an unavailable optional bs4 library",
+    "resolution": "Used standard-library HTMLParser; no installation or extra request"
+  },
+  {
+    "issue": "Initial metadata compact-print selected one missing abstract with direct dict indexing",
+    "resolution": "Used get and separately saved seven no-abstract identities; scope unaffected"
+  },
+  {
+    "issue": "First full verify prepare check referenced execution_checks.json before that self-report existed",
+    "resolution": "Write an explicit in-progress report before checking report paths; no source or oracle change",
+    "model_test": false
+  }
+]

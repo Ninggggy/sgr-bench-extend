@@ -1,0 +1,13 @@
+{
+  "full_json_schema": "passed",
+  "draft": "2020-12",
+  "schema_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/schemas/candidate.schema.json",
+  "jsonschema_module": "/Users/ning/.cache/uv/archive-v0/2a_f8UXv_Y95bK2BXA_Cf/lib/python3.13/site-packages/jsonschema/__init__.py",
+  "checked_at_utc": "2026-09-13T09:36:17.965016+00:00",
+  "prepare_validate_candidate_check_files": "passed in preceding actual command; see native trace",
+  "embedded_public_variants_equal_originals": true,
+  "status": "reference_ready",
+  "content_validation": "not_run",
+  "independent_review_claimed": false,
+  "change_kind": "r01 schema integration only; no task/oracle/audit edits"
+}

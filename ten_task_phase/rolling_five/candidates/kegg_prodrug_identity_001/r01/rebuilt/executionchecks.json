@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "reference_executed": true,
+  "checks": [
+    "12-column fields and continuations parsed",
+    "every loaded record terminated",
+    "group identity and Chemical type verified",
+    "complete MEMBER field enumerated without subgroup expansion",
+    "loaded drug IDs exactly equal direct member IDs",
+    "member names agree with independent Drug records",
+    "own COMMENT evaluated only after complete parsing",
+    "every emitted target has a verified Drug identity",
+    "all members have an inclusion or exclusion ledger entry",
+    "all distinct pairs emitted in two-key string order"
+  ],
+  "member_count": 4,
+  "loaded_drug_count": 4,
+  "included_member_count": 2,
+  "pair_count": 2,
+  "field_count": 4,
+  "source_stability_rechecks": "not_performed_by_this_script",
+  "independent_final_audit": "not_performed",
+  "human_review": "not_performed"
+}

@@ -1,0 +1,9 @@
+{
+  "construction_run": "../../../runs/r-europepmc-recover-01",
+  "raw_data": "../../../runs/r-europepmc-recover-01/downloaded_data",
+  "initial_interrupted_run": "../../../runs/r-europepmc-construct-02",
+  "controller_checks": [
+    "../../../research/europepmc_controller_content_check.json",
+    "../../../research/europepmc_source_recovery_note.json"
+  ]
+}

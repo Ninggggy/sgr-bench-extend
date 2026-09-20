@@ -1,0 +1,1070 @@
+{
+  "candidate_id": "diazepam_receptor_identity_001",
+  "revision": 1,
+  "decided_at": "2026-09-13T06:01:20.757824+00:00",
+  "status": "stop_development_a_full_GO_CG_access_noncompliant",
+  "reason": "GO completed full legitimate observed solve; neither output contains supported capability errors. Preserve CG raw full with access violation; no replacement or further sampling.",
+  "raw_scores": {
+    "cg": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 22,
+        "gold_fields": 22,
+        "pred_fields": 22,
+        "item_denominator": 44,
+        "correct_rows": 11,
+        "gold_rows": 11,
+        "pred_rows": 11,
+        "row_denominator": 22,
+        "correct_pairs": 55,
+        "pair_denominator": 55,
+        "shared_ids": 11
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "order_pairs": [
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "COMPLEX_GROUP"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "GABA_SUBUNIT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "TSPO"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "COMPLEX_GROUP"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "GABA_SUBUNIT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "TSPO"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "GABA_SUBUNIT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "TSPO"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "TSPO"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "OTHER"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "OTHER"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "OTHER"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "OTHER"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "ENGINEERED_VARIANT"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "ENGINEERED_VARIANT"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "ENGINEERED_VARIANT"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "604850"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "604850"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "1701379"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        }
+      ],
+      "poa_note": "first occurrence positions; no reordering"
+    },
+    "go": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 22,
+        "gold_fields": 22,
+        "pred_fields": 22,
+        "item_denominator": 44,
+        "correct_rows": 11,
+        "gold_rows": 11,
+        "pred_rows": 11,
+        "row_denominator": 22,
+        "correct_pairs": 55,
+        "pair_denominator": 55,
+        "shared_ids": 11
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "order_pairs": [
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "COMPLEX_GROUP"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "GABA_SUBUNIT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "TSPO"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "DIRECT_COMPLEX"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "COMPLEX_GROUP"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "GABA_SUBUNIT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "TSPO"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "HOMOLOGOUS_COMPLEX"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "GABA_SUBUNIT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "TSPO"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "COMPLEX_GROUP"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "TSPO"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "GABA_SUBUNIT"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "TSPO"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "second": [
+            "OTHER"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "UNCURATED_GABA_BZD"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "OTHER"
+          ],
+          "second": [
+            "ENGINEERED_VARIANT"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "OTHER"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "OTHER"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "OTHER"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "ENGINEERED_VARIANT"
+          ],
+          "second": [
+            "604850"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "ENGINEERED_VARIANT"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "ENGINEERED_VARIANT"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "604850"
+          ],
+          "second": [
+            "1701379"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "604850"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        },
+        {
+          "first": [
+            "1701379"
+          ],
+          "second": [
+            "1876214"
+          ],
+          "correct": true
+        }
+      ],
+      "poa_note": "first occurrence positions; no reordering"
+    }
+  },
+  "exact_item_f1": {
+    "cg": "44/44",
+    "go": "44/44"
+  },
+  "access_review": "development_access_review.json",
+  "pre_A_review": "pre_a_review.json",
+  "pre_source_check": "pre_development_a/checks.json",
+  "post_source_check": "post_development_a/checks.json",
+  "admitted": false,
+  "formal_trials": 0,
+  "formal_means": {
+    "cg": null,
+    "go": null
+  },
+  "human_review": "not_performed",
+  "substantive_revisions_used": 0,
+  "next_stages": "Not run: B, attacks, final admission audit and formal trials. No ability zero or replacement trial."
+}

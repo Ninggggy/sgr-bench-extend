@@ -1,0 +1,264 @@
+{
+  "review_author": "Constructor agent, Astra/high; not independent or human validation",
+  "scope": "Every uncurated activity and every description explicitly naming an engineered assayed receptor; all 130 descriptions additionally read for context.",
+  "uncurated_description_interpretations": {
+    "320288": {
+      "scope": "GABA_BZD",
+      "quote": "GABA-A receptor alpha-5--beta-2-gamma-2",
+      "reason": "The described rat receptor has explicit GABA-A alpha5/beta2/gamma2 subunits, while no target has been curated.",
+      "source_activity_id": 320288,
+      "assay_id": "CHEMBL818508"
+    },
+    "320291": {
+      "scope": "GABA_BZD",
+      "quote": "mutant rat GABA-A receptor alpha-4-(his)-beta-2-gamma-2",
+      "reason": "Explicit mutant GABA-A target; neither the human host nor mutant wording supplies completed target registration.",
+      "source_activity_id": 320291,
+      "assay_id": "CHEMBL822346"
+    },
+    "320296": {
+      "scope": "GABA_BZD",
+      "quote": "rat chimeric GABA-A receptor C6",
+      "reason": "Explicit GABA-A chimera C6; alpha1-alpha6 names a chimeric subunit and must not be treated as two coexisting alpha subunits.",
+      "source_activity_id": 320296,
+      "assay_id": "CHEMBL680660"
+    },
+    "807852": {
+      "scope": "GABA_BZD",
+      "quote": "rat GABA-A receptor alpha-2-beta-2-gamma-2",
+      "reason": "An explicit rat GABA-A subunit combination is described, but UNCHECKED remains the registered identity state.",
+      "source_activity_id": 807852,
+      "assay_id": "CHEMBL678891"
+    },
+    "807854": {
+      "scope": "GABA_BZD",
+      "quote": "rat GABA-A receptor alpha-5-beta-3-gamma-2",
+      "reason": "An explicit rat GABA-A subunit combination is described; description specificity does not upgrade UNCHECKED.",
+      "source_activity_id": 807854,
+      "assay_id": "CHEMBL680332"
+    },
+    "1039769": {
+      "scope": "GABA_BZD",
+      "quote": "alpha-1-beta-2-gamma-2 GABA-A receptor subunits",
+      "reason": "GABA-A target subunits are explicit. Sf9 is expression context, not a target species assignment.",
+      "source_activity_id": 1039769,
+      "assay_id": "CHEMBL677790"
+    },
+    "1605063": {
+      "scope": "GABA_BZD",
+      "quote": "GABA A / BzR receptor",
+      "reason": "GABA-A/benzodiazepine receptor is explicit; beta2/3 leaves alternatives, not an unambiguous beta subunit or stoichiometry.",
+      "source_activity_id": 1605063,
+      "assay_id": "CHEMBL871684"
+    },
+    "1605064": {
+      "scope": "GABA_BZD",
+      "quote": "GABA-A/BzR receptor",
+      "reason": "Explicit GABA-A/BzR target; beta2/3 remains ambiguous rather than two proven coexisting beta subunits.",
+      "source_activity_id": 1605064,
+      "assay_id": "CHEMBL871685"
+    },
+    "1605065": {
+      "scope": "GABA_BZD",
+      "quote": "GABA-A/BzR receptor",
+      "reason": "Explicit GABA-A/BzR target; beta2/3 does not identify one exact combination.",
+      "source_activity_id": 1605065,
+      "assay_id": "CHEMBL871686"
+    },
+    "1605066": {
+      "scope": "GABA_BZD",
+      "quote": "GABA-A/BzR receptor",
+      "reason": "Explicit GABA-A/BzR target; beta2/3 is not silently resolved to beta2 or beta3.",
+      "source_activity_id": 1605066,
+      "assay_id": "CHEMBL884630"
+    },
+    "1825718": {
+      "scope": "GABA_BZD",
+      "quote": "benzodiazepine receptor",
+      "reason": "The assayed site is expressly called benzodiazepine receptor; exact molecular identity remains uncurated.",
+      "source_activity_id": 1825718,
+      "assay_id": "CHEMBL917141"
+    },
+    "1876204": {
+      "scope": "GABA_BZD",
+      "quote": "GABAA/Bz receptor",
+      "reason": "Explicit GABAA/Bz target in bovine cortex, without a defined registered combination.",
+      "source_activity_id": 1876204,
+      "assay_id": "CHEMBL904136"
+    },
+    "1934383": {
+      "scope": "GABA_BZD",
+      "quote": "benzodiazepine receptor",
+      "reason": "Explicit benzodiazepine receptor target; a concentration in description does not change the standard-field scope.",
+      "source_activity_id": 1934383,
+      "assay_id": "CHEMBL892456"
+    },
+    "2145620": {
+      "scope": "GABA_BZD",
+      "quote": "GABAA/BzR complex",
+      "reason": "Explicit GABAA/BzR description; calling it a complex does not create a curated subunit set.",
+      "source_activity_id": 2145620,
+      "assay_id": "CHEMBL922345"
+    },
+    "2381316": {
+      "scope": "GABA_BZD",
+      "quote": "central-type benzodiazepine receptor",
+      "reason": "The description explicitly specifies central-type benzodiazepine receptor.",
+      "source_activity_id": 2381316,
+      "assay_id": "CHEMBL953128"
+    },
+    "2633930": {
+      "scope": "GABA_BZD",
+      "quote": "Benzodiazepine receptor",
+      "reason": "Explicit benzodiazepine receptor; bovine membranes do not identify a registered subunit combination.",
+      "source_activity_id": 2633930,
+      "assay_id": "CHEMBL954623"
+    },
+    "3560680": {
+      "scope": "GABA_BZD",
+      "quote": "GABA(A) receptor benzodiazepine site",
+      "reason": "Explicit GABA(A) benzodiazepine site, with no registered target identity.",
+      "source_activity_id": 3560680,
+      "assay_id": "CHEMBL1286791"
+    },
+    "7566922": {
+      "scope": "OTHER",
+      "quote": "ciramadol glucuronidation by human UGT enzymes",
+      "reason": "This record concerns UGT-mediated ciramadol glucuronidation, not an explicitly identified GABA/benzodiazepine site.",
+      "source_activity_id": 7566922,
+      "assay_id": "CHEMBL1908135"
+    },
+    "7566929": {
+      "scope": "OTHER",
+      "quote": "morphine glucuronidation by human UGT enzymes",
+      "reason": "The described target context is UGT-mediated morphine glucuronidation, not the audited receptor family.",
+      "source_activity_id": 7566929,
+      "assay_id": "CHEMBL1908140"
+    },
+    "7566938": {
+      "scope": "OTHER",
+      "quote": "codeine glucuronidation by human UGT enzymes",
+      "reason": "The described target context is UGT-mediated codeine glucuronidation.",
+      "source_activity_id": 7566938,
+      "assay_id": "CHEMBL1908137"
+    },
+    "7566951": {
+      "scope": "OTHER",
+      "quote": "AZT glucuronidation by human UGT enzymes",
+      "reason": "The described target context is UGT-mediated AZT glucuronidation.",
+      "source_activity_id": 7566951,
+      "assay_id": "CHEMBL1908130"
+    },
+    "13340319": {
+      "scope": "GABA_BZD",
+      "quote": "central-type GABAA receptor",
+      "reason": "Explicit central-type GABAA target; retained as uncurated rather than inferred from ligand alone.",
+      "source_activity_id": 13340319,
+      "assay_id": "CHEMBL2395268"
+    },
+    "13342043": {
+      "scope": "GABA_BZD",
+      "quote": "central BZD receptor (unknown origin)",
+      "reason": "Central BZD is an explicit benzodiazepine-site description; unknown origin stays unknown.",
+      "source_activity_id": 13342043,
+      "assay_id": "CHEMBL2395705"
+    },
+    "15148396": {
+      "scope": "GABA_BZD",
+      "quote": "benzodiazepine receptor",
+      "reason": "Explicit benzodiazepine receptor; no subunit attribution is supplied by rat cortical origin.",
+      "source_activity_id": 15148396,
+      "assay_id": "CHEMBL3395250"
+    },
+    "17960731": {
+      "scope": "GABA_BZD",
+      "quote": "GABA-A receptor benzodiazepine site",
+      "reason": "Explicit GABA-A benzodiazepine site in the assay description.",
+      "source_activity_id": 17960731,
+      "assay_id": "CHEMBL3994318"
+    },
+    "17966213": {
+      "scope": "GABA_BZD",
+      "quote": "benzodiazepine receptor",
+      "reason": "Explicit benzodiazepine receptor. The unusual recombinant bovine brain/HEK293 wording is not corrected or promoted to exact molecular identity.",
+      "source_activity_id": 17966213,
+      "assay_id": "CHEMBL3995198"
+    },
+    "18146381": {
+      "scope": "GABA_BZD",
+      "quote": "GABAA receptor",
+      "reason": "Explicit GABAA receptor in bovine membranes, target remains uncurated.",
+      "source_activity_id": 18146381,
+      "assay_id": "CHEMBL4032366"
+    },
+    "19039186": {
+      "scope": "GABA_BZD",
+      "quote": "human GABA alpha2/beta2/gamma2 receptor",
+      "reason": "Explicit GABA alpha2/beta2/gamma2 description, which does not substitute for missing registry attribution.",
+      "source_activity_id": 19039186,
+      "assay_id": "CHEMBL4351503"
+    },
+    "29082421": {
+      "scope": "GABA_BZD",
+      "quote": "CBR at low affinity site",
+      "reason": "The linked publication abstract explicitly expands CBR as central benzodiazepine receptor. Low-affinity labeling is retained as stated, without pharmacological correction.",
+      "source_activity_id": 29082421,
+      "assay_id": "CHEMBL6080335",
+      "document_evidence": "sources/raw/06_cbr_document.json#/abstract"
+    },
+    "29082429": {
+      "scope": "GABA_BZD",
+      "quote": "CBR at high affinity site",
+      "reason": "The linked publication abstract explicitly expands CBR as central benzodiazepine receptor. High-affinity labeling is not reconciled with numerical expectations.",
+      "source_activity_id": 29082429,
+      "assay_id": "CHEMBL6080336",
+      "document_evidence": "sources/raw/06_cbr_document.json#/abstract"
+    }
+  },
+  "engineered_target_interpretations": {
+    "320291": {
+      "quote": "Binding affinity for mutant rat GABA-A receptor alpha-4-(his)-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "engineering_kind": "mutant",
+      "target_not_control": true,
+      "reason": "The phrase \"Binding affinity for mutant rat GABA-A receptor\" directly identifies the assayed receptor. It is not a control, background variant, or variant of the ligand.",
+      "assay_id": "CHEMBL822346"
+    },
+    "320292": {
+      "quote": "Binding affinity for mutant rat GABA-A receptor alpha-6-(his)-beta-2-gamma-2 subunits expressed in HEK293 cells",
+      "engineering_kind": "mutant",
+      "target_not_control": true,
+      "reason": "The phrase \"Binding affinity for mutant rat GABA-A receptor\" directly identifies the assayed receptor. It is not a control, background variant, or variant of the ligand.",
+      "assay_id": "CHEMBL824044"
+    },
+    "320293": {
+      "quote": "Binding affinity for mutant rat GABA-A receptor alpha-6-(his,thr)beta2gamma2 subunits expressed in HEK293 cells",
+      "engineering_kind": "mutant",
+      "target_not_control": true,
+      "reason": "The phrase \"Binding affinity for mutant rat GABA-A receptor\" directly identifies the assayed receptor. It is not a control, background variant, or variant of the ligand.",
+      "assay_id": "CHEMBL824046"
+    },
+    "320294": {
+      "quote": "Binding affinity for mutant rat GABA-A receptor alpha-6-(his,thr,gly)beta2gamma2 subunits expressed in HEK293 cells",
+      "engineering_kind": "mutant",
+      "target_not_control": true,
+      "reason": "The phrase \"Binding affinity for mutant rat GABA-A receptor\" directly identifies the assayed receptor. It is not a control, background variant, or variant of the ligand.",
+      "assay_id": "CHEMBL824047"
+    },
+    "320295": {
+      "quote": "Binding affinity for mutant rat GABA-A receptor alpha-6-(his,thr,gly,val)beta2gamma2 subunits expressed in HEK293 cells",
+      "engineering_kind": "mutant",
+      "target_not_control": true,
+      "reason": "The phrase \"Binding affinity for mutant rat GABA-A receptor\" directly identifies the assayed receptor. It is not a control, background variant, or variant of the ligand.",
+      "assay_id": "CHEMBL824049"
+    },
+    "320296": {
+      "quote": "Binding affinity to rat chimeric GABA-A receptor C6, alpha1-alpha6 chimeric subunit co-expressed with beta-2 gamma2 subunits in HEK293 cells",
+      "engineering_kind": "chimera",
+      "target_not_control": true,
+      "reason": "The binding-affinity object is the rat chimeric C6 GABA-A receptor; alpha1-alpha6 is explicitly a chimeric subunit co-expressed with beta2/gamma2.",
+      "assay_id": "CHEMBL680660"
+    }
+  },
+  "negative_engineering_rule": "All other descriptions lack an explicit mutant/chimeric assayed target. Recombinant, expression host, alpha subtype, high/low affinity or unknown origin does not alone establish engineering; not called wild type.",
+  "species_rule": "Only explicit protein/source identity wording before expression-host context supplies the described protein species. Registered target species comes from target organism; tissue/host cannot upgrade or refute D/H."
+}

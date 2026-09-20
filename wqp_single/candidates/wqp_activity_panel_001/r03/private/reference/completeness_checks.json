@@ -1,0 +1,26 @@
+{
+  "station_2000_2019_explicit_hucs": {
+    "entity": "site",
+    "source_header_total": 460,
+    "parsed_rows": 460,
+    "equal": true
+  },
+  "activity_2000_2019_trinity_zip": {
+    "entity": "activity",
+    "source_header_total": 22726,
+    "parsed_rows": 22726,
+    "equal": true
+  },
+  "narrow_2000_2019_trinity_panel_zip": {
+    "entity": "result",
+    "source_header_total": 113046,
+    "parsed_rows": 113046,
+    "equal": true
+  },
+  "wide_mainstem_2000_2019_panel_zip": {
+    "entity": "result",
+    "source_header_total": 5215,
+    "parsed_rows": 5215,
+    "equal": true
+  }
+}

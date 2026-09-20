@@ -1,0 +1,149 @@
+{
+  "review_type": "Constructor semantic review of the supplied English wording; not independent final audit",
+  "shared_output_definition": {
+    "canonical_location": "cg.json#/output_format",
+    "equal_location": "go.json#/output_format",
+    "requirement": "The two output_format strings must be exactly equal. They jointly define output size, column order, pair identity, deduplication, sorting, and NONE. rules.json supplies the corresponding scorer fields and composite row key."
+  },
+  "predicates": [
+    {
+      "id": "aim",
+      "cg_quote": "Identify every drug entry in the mycophenolic-acid chemical drug group whose own annotation names the active drug form produced from that prodrug. Return all qualifying drug-ID pairs.",
+      "go_quote": "Identify every drug entry in the mycophenolic-acid chemical drug group whose own annotation names the active drug form produced from that prodrug. Return all qualifying drug-ID pairs."
+    },
+    {
+      "id": "reference_time",
+      "cg_quote": "Use the records observed on 12 September 2026.",
+      "go_quote": "Use the records observed on 12 September 2026."
+    },
+    {
+      "id": "finite_direct_chemical_scope",
+      "cg_quote": "Scope is limited to the direct drug entries in the complete Member field of DG00739, the mycophenolic-acid group with Type Chemical.",
+      "go_quote": "Scope is limited to the direct drug entries in the complete Member field of DG00739, the mycophenolic-acid group with Type Chemical."
+    },
+    {
+      "id": "own_explicit_relation",
+      "cg_quote": "Include a member only if its own Comment field explicitly states \"Active form of prodrug:\" and identifies the active form with a drug reference, \"[DR:D...]\".",
+      "go_quote": "A member qualifies only if its own Comment field explicitly states \"Active form of prodrug:\" and identifies the active form with a drug reference, \"[DR:D...]\"."
+    },
+    {
+      "id": "pair_direction",
+      "cg_quote": "Record the member's D identifier as PRODRUG_D and each explicitly linked active-form D identifier as ACTIVE_D.",
+      "go_quote": "PRODRUG_D is the member's D identifier; ACTIVE_D is an explicitly linked active-form D identifier."
+    },
+    {
+      "id": "target_identity",
+      "cg_quote": "Verify each linked identifier against its drug record.",
+      "go_quote": "Each linked identifier must be verified against its drug record."
+    },
+    {
+      "id": "salt_identity",
+      "cg_quote": "Keep distinct salt-form drug entries separate, even when names or products overlap.",
+      "go_quote": "Keep distinct salt-form drug entries separate, even when names or products overlap."
+    },
+    {
+      "id": "no_group_relation_propagation",
+      "cg_quote": "Group membership and group-level Prodrugs links do not establish an entry's own relation.",
+      "go_quote": "Group membership and group-level Prodrugs links do not establish an entry's own relation."
+    },
+    {
+      "id": "namespace",
+      "cg_quote": "Use drug identifiers (D...); compound identifiers (C...) and group identifiers (DG...) cannot replace them.",
+      "go_quote": "Use drug identifiers (D...); compound identifiers (C...) and group identifiers (DG...) cannot replace them."
+    },
+    {
+      "id": "complete_member_coverage",
+      "cg_quote": "Read each member's complete drug record.",
+      "go_quote": "The result must account for the complete drug record of every member in scope."
+    },
+    {
+      "id": "absence_and_biological_limit",
+      "cg_quote": "A fully read record without the required annotation is excluded only from this documented-relation query; this does not establish that the drug is biologically not a prodrug.",
+      "go_quote": "A fully read record without the required annotation is excluded only from this documented-relation query; this does not establish that the drug is biologically not a prodrug."
+    },
+    {
+      "id": "failed_evidence",
+      "cg_quote": "An unavailable or incomplete required record leaves the result unresolved and must not be treated as an exclusion or an empty result.",
+      "go_quote": "An unavailable or incomplete required record leaves the result unresolved and must not be treated as an exclusion or an empty result."
+    },
+    {
+      "id": "format_columns_and_row_identity",
+      "location": "output_format",
+      "cg_quote": "Return only pipe-separated text. For a nonempty result, use the header PRODRUG_D|ACTIVE_D and one row per distinct ordered pair of drug identifiers.",
+      "go_quote": "Return only pipe-separated text. For a nonempty result, use the header PRODRUG_D|ACTIVE_D and one row per distinct ordered pair of drug identifiers."
+    },
+    {
+      "id": "all_pairs_and_multiple_targets",
+      "location": "output_format",
+      "cg_quote": "Include every qualifying pair, including every explicitly linked active form when a member has more than one. Remove duplicate pairs.",
+      "go_quote": "Include every qualifying pair, including every explicitly linked active form when a member has more than one. Remove duplicate pairs."
+    },
+    {
+      "id": "ordering_and_ties",
+      "location": "output_format",
+      "cg_quote": "Sort by PRODRUG_D in ascending string order, then by ACTIVE_D in ascending string order.",
+      "go_quote": "Sort by PRODRUG_D in ascending string order, then by ACTIVE_D in ascending string order."
+    },
+    {
+      "id": "empty_and_no_extra_output",
+      "location": "output_format",
+      "cg_quote": "If the fully verified result is empty, return only NONE, without a header. Add no prose or code fences.",
+      "go_quote": "If the fully verified result is empty, return only NONE, without a header. Add no prose or code fences."
+    }
+  ],
+  "ambiguity_checks": [
+    {
+      "issue": "Own annotation versus a group-level Prodrugs link",
+      "interpretation_a": "Use only the member's explicit own Comment relation.",
+      "interpretation_b": "Propagate the group's Prodrugs association to all group members.",
+      "effect_on_supplied_sources": "A includes D00752 and D05094 as source entries. B would additionally admit D05095 and D05096 without own relation evidence.",
+      "resolution": "Both prompts explicitly require the own Comment and reject group-link propagation."
+    },
+    {
+      "issue": "Independent salt identity versus one product or ingredient family",
+      "interpretation_a": "Retain the distinct qualifying D entries.",
+      "interpretation_b": "Merge the qualifying hydrochloride with ordinary mofetil under their shared product or parent name.",
+      "effect_on_supplied_sources": "A retains two source D identities. B collapses them to one, changing the result.",
+      "resolution": "Both prompts explicitly preserve distinct salt-form entries even when names or products overlap."
+    },
+    {
+      "issue": "Direction of the phrase Active form of prodrug",
+      "interpretation_a": "The current member is PRODRUG_D and its linked active form is ACTIVE_D.",
+      "interpretation_b": "Treat the current record as the active form and reverse the link.",
+      "effect_on_supplied_sources": "B reverses both ordered pairs and produces a different pair set.",
+      "resolution": "Both prompts explicitly assign each column to its source role."
+    },
+    {
+      "issue": "Drug identity versus a Same as compound cross-reference",
+      "interpretation_a": "Keep the explicit D identifiers.",
+      "interpretation_b": "Replace the active drug with its C20380 cross-reference.",
+      "effect_on_supplied_sources": "B changes the target identifier in both rows.",
+      "resolution": "Both prompts prohibit replacing D identifiers with C or DG identifiers."
+    },
+    {
+      "issue": "Missing annotation versus missing evidence",
+      "interpretation_a": "Exclude only after reading the complete record; failed retrieval is unresolved.",
+      "interpretation_b": "Treat unreadable records as having no qualifying annotation.",
+      "effect_on_supplied_sources": "The supplied complete records support the same exclusions under A. In the documented earlier access-failure situation, B could remove unseen qualifying members or produce a false empty result, whereas A remains unresolved.",
+      "resolution": "Both prompts distinguish complete-record absence from unavailable or incomplete evidence."
+    },
+    {
+      "issue": "Reference observation versus evaluation date",
+      "interpretation_a": "Use the stated 12 September 2026 source observation.",
+      "interpretation_b": "Require reconstruction of the 9 September evaluation-date state.",
+      "effect_on_supplied_sources": "A has complete supplied evidence. The historical set under B is unknown; no difference or historical equality is asserted.",
+      "resolution": "Only the source observation date appears publicly. The evaluation date is private metadata."
+    },
+    {
+      "issue": "Direct drug scope versus recursive expansion or requiring targets to be group members",
+      "interpretation_a": "Only source drugs must be direct members; active forms are the explicit linked D identities.",
+      "interpretation_b": "Expand into subgroups or also impose group membership on targets.",
+      "effect_on_supplied_sources": "No observed set difference: there are no subgroups and all observed targets already have member records. Neither extra restriction is needed.",
+      "resolution": "Both prompts specify direct source entries and linked active forms. Target membership is not a private predicate."
+    }
+  ],
+  "constraints_not_present": "There is no numeric eligibility threshold, approval-date filter, winner selection, or fixed public row count.",
+  "sequence_difference": "CG gives group enumeration, member reading, and target verification steps. GO states the same scope and evidence requirements without prescribing their sequence.",
+  "independent_final_audit": "not_performed",
+  "human_review": "not_performed"
+}

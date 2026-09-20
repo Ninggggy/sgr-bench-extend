@@ -1,0 +1,27 @@
+{
+  "independent_derived_score": {
+    "Item-F1": 1.0,
+    "Row-F1": 1.0,
+    "P.O.A.": 1.0
+  },
+  "counts": {
+    "correct_fields": 57,
+    "gold_fields": 57,
+    "pred_fields": 57,
+    "item_denominator": 114,
+    "correct_rows": 19,
+    "gold_rows": 19,
+    "pred_rows": 19,
+    "row_denominator": 38,
+    "correct_pairs": 171,
+    "pair_denominator": 171,
+    "shared_ids": 19
+  },
+  "shared_instruction_before_guidance": true,
+  "same_output_format": true,
+  "no_explicit_site_url": true,
+  "empty_releases_not_filled": true,
+  "update_star_not_equal_dash": true,
+  "release_list_is_one_scored_field": true,
+  "note": "Reused production scorer only after raw-data derivation; no author reference script imported. Existing author mutation fixtures inspected, not duplicated."
+}

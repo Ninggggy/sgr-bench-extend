@@ -1,0 +1,27 @@
+{
+  "status": "deterministic_explicit",
+  "columns": ["docket", "min_justices", "max_justices"],
+  "row_key": ["docket"],
+  "fields": {
+    "docket": {"type": "string"},
+    "min_justices": {"type": "integer"},
+    "max_justices": {"type": "integer"}
+  },
+  "record_separator": "\n",
+  "delimiter": "|",
+  "header": "required_for_nonempty_table",
+  "output_definition": "cg.json#/output_format; go.json#/output_format must be identical",
+  "row_scope": "All signed decisions in the October Term 2022 Opinions of the Court table dated 6/27/23; no count threshold or top-k selection.",
+  "measure": "Distinct named formal joiners plus the lead author, evaluated over every substantive part scope distinguished by the formal joinder statements. Unrestricted joinder covers the entire lead writing; a scoped joinder includes subdivisions unless further limited.",
+  "excluded_support_units": ["syllabus", "separate opinions", "agreement with a judgment or conclusion"],
+  "evidence_usage": "Formal attribution in the syllabus and express declarations in separate opinions may establish lead-opinion joinder; ownership must remain attached to the opinion actually joined.",
+  "sorting": [
+    {"source_field": "R", "type": "integer", "direction": "ascending"},
+    {"field": "docket", "type": "string", "direction": "ascending", "condition": "R tied", "comparison": "lexicographic"}
+  ],
+  "ties": "retain all qualifying cases",
+  "empty": "NONE",
+  "empty_header": false,
+  "missing": "Stop; return only UNRESOLVED: followed by a brief explanation. No partial table, zero substitution, or judgment-vote inference.",
+  "scorer_note": "UNRESOLVED is a research failure report, not a table row or an alternative empty-table representation. Public formatting requirements remain stricter than any incidental parser leniency."
+}

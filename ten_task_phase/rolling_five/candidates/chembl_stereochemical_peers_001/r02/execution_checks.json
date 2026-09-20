@@ -1,0 +1,48 @@
+{
+  "checked_at_utc": "2026-09-13T03:24:54.423116+00:00",
+  "scope": "Constructor r02 integration checks only: no solver, attack, formal evaluation, human validation, or post-development independent audit.",
+  "reference_execution": {
+    "status": "passed",
+    "command": "python reference.py --out-dir .",
+    "rows": 16,
+    "status_counts": {
+      "FULL": 8,
+      "PARTIAL": 7,
+      "UNSPECIFIED": 1
+    },
+    "sources": "source_manifest.json",
+    "program_changes": "Only generated output header renamed from CHEMBL_ID to REGISTERED_ID; all existing failure checks retained."
+  },
+  "independent_public_rule_recompute": "independent_public_rule_recompute.json",
+  "all_r01_data_rows_labels_order_preserved": true,
+  "schema": {
+    "status": "passed",
+    "validator": "construction_pipeline/ten_task_phase/runtime/stage_results.py:validate",
+    "schema": "construction_pipeline/schemas/candidate.schema.json",
+    "full_actual_schema_checked": true,
+    "unsupported_keywords_fail_closed": true,
+    "new_validator_or_dependency_installed": false
+  },
+  "public_pair": {
+    "status": "passed",
+    "exact_two_keys": true,
+    "same_output_format": true,
+    "metadata_pair_exact": true,
+    "all_alignment_quotes_present": true,
+    "cg_without_steps_equals_go": true,
+    "no_source_brand_url_registered_prefix_or_seed_key": true,
+    "reviewed_drafts_exact": true
+  },
+  "source_paths": "source_path_checks.json",
+  "source_refresh": "refresh_checks.json",
+  "scoring_entry_point": "construction_pipeline/ten_task_phase/protocol/ten-task-v1/score.py",
+  "scorer_compatibility": "scorer_compatibility.json",
+  "scorer_cli_self_comparison": "offline_score/scores.json",
+  "prepare_validation": {
+    "command": "python construction_pipeline/scripts/prepare.py validate-candidate --candidate construction_pipeline/ten_task_phase/rolling_five/candidates/chembl_stereochemical_peers_001/r02/candidate.json --check-files",
+    "exit_code": 0,
+    "stdout": "{\"candidate_id\": \"chembl_stereochemical_peers_001\", \"status\": \"reference_ready\", \"state_consistency\": \"passed\", \"relative_path_syntax\": \"passed\", \"referenced_files\": \"checked\", \"scope\": \"Declared state consistency only; not full JSON Schema, source truth, or difficulty verification\"}\n",
+    "stderr": "",
+    "status": "passed"
+  }
+}

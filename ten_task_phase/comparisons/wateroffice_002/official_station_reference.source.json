@@ -1,0 +1,11 @@
+{
+  "url": "https://wateroffice.ec.gc.ca/station_metadata/reference_index_e.html?stnIndex=3491",
+  "retrieved_at": "2026-09-09T17:32:45.833313+00:00",
+  "status": 200,
+  "bytes": 54001,
+  "client": "curl with ordinary TLS certificate verification",
+  "earlier_attempts": [
+    "urllib local CA lookup failure",
+    "requests not installed in controller Python"
+  ]
+}

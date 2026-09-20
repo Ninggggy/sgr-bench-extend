@@ -1,0 +1,62 @@
+{
+  "updated_at": "2026-09-08T13:14:55.963697+00:00",
+  "completed": [
+    {
+      "label": "r02_content_A_CG",
+      "run": "runs/r-66b46047bdd4",
+      "elapsed_seconds": 877.327,
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 504,
+        "gold_fields": 504,
+        "pred_fields": 504,
+        "item_denominator": 1008,
+        "correct_rows": 36,
+        "gold_rows": 36,
+        "pred_rows": 36,
+        "row_denominator": 72,
+        "correct_pairs": 630,
+        "pair_denominator": 630,
+        "shared_ids": 36
+      },
+      "data_recovery": {
+        "method": "explicit regular files through docker exec; Docker archive API does not see this tmpfs",
+        "files": 50,
+        "successful": true
+      }
+    },
+    {
+      "label": "r02_content_B_CG",
+      "run": "runs/r-e437c6a3f566",
+      "elapsed_seconds": 403.547,
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 504,
+        "gold_fields": 504,
+        "pred_fields": 504,
+        "item_denominator": 1008,
+        "correct_rows": 36,
+        "gold_rows": 36,
+        "pred_rows": 36,
+        "row_denominator": 72,
+        "correct_pairs": 630,
+        "pair_denominator": 630,
+        "shared_ids": 36
+      },
+      "data_recovery": {
+        "method": "explicit regular files through docker exec; Docker archive API does not see this tmpfs",
+        "files": 26,
+        "successful": true
+      }
+    }
+  ],
+  "no_confirmation_runs_yet": true
+}

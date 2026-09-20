@@ -1,0 +1,190 @@
+{
+  "checked_at": "2026-09-19T15:09:57.065937+00:00",
+  "registered_content_checks": [
+    {
+      "candidate": "C",
+      "revision": "v1",
+      "checks": {
+        "reference": true,
+        "recompute": true,
+        "rules": true,
+        "CG": true,
+        "GO": true,
+        "authoritative:score_answer.py": true,
+        "authoritative:runtime_score_for_review.py": true,
+        "authoritative:verify.py": true
+      }
+    },
+    {
+      "candidate": "D",
+      "revision": "v1",
+      "checks": {
+        "reference": true,
+        "recompute": true,
+        "rules": true,
+        "CG": true,
+        "GO": true,
+        "authoritative:score_answer.py": true,
+        "authoritative:runtime_score_for_review.py": true,
+        "authoritative:verify.py": true
+      }
+    },
+    {
+      "candidate": "E",
+      "revision": "v1",
+      "checks": {
+        "reference": true,
+        "recompute": true,
+        "rules": true,
+        "CG": true,
+        "GO": true,
+        "authoritative:score_answer.py": true,
+        "authoritative:runtime_score_for_review.py": true,
+        "authoritative:verify.py": true
+      }
+    }
+  ],
+  "pairs": [
+    [
+      {
+        "face": "CG",
+        "run_id": "new-two-C-v1-CG",
+        "completed": true
+      },
+      {
+        "face": "GO",
+        "run_id": "new-two-C-v1-GO",
+        "completed": true
+      }
+    ],
+    [
+      {
+        "face": "CG",
+        "run_id": "new-two-D-v1-CG",
+        "completed": true
+      },
+      {
+        "face": "GO",
+        "run_id": "new-two-D-v1-GO",
+        "completed": true
+      }
+    ],
+    [
+      {
+        "face": "CG",
+        "run_id": "new-two-E-v1-CG",
+        "completed": true
+      },
+      {
+        "face": "GO",
+        "run_id": "new-two-E-v1-GO",
+        "completed": true
+      }
+    ]
+  ],
+  "model_checks": [
+    {
+      "run_id": "new-two-C-v1-review-1",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-C-v1-review-2",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-C-v1-review-3",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-C-v1-CG",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-C-v1-GO",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-D-v1-review-1",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-D-v1-review-2",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-D-v1-review-3",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-D-v1-CG",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-D-v1-GO",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-E-v1-review-1",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-E-v1-review-2",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-E-v1-CG",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "passed": true
+    },
+    {
+      "run_id": "new-two-E-v1-GO",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "passed": true
+    }
+  ],
+  "raw_tool_call_counts": {
+    "new-two-C-v1-CG": 6,
+    "new-two-C-v1-GO": 6,
+    "new-two-D-v1-CG": 10,
+    "new-two-D-v1-GO": 7,
+    "new-two-E-v1-CG": 9,
+    "new-two-E-v1-GO": 8
+  },
+  "status": "diagnostic; no scoring changes",
+  "counts": {
+    "historical_blind": 8,
+    "historical_review": 10,
+    "new_blind": 6,
+    "new_review": 8,
+    "remaining_blind": 6,
+    "remaining_review": 7,
+    "registered_unexecuted": 0,
+    "qualified_questions": 0
+  }
+}

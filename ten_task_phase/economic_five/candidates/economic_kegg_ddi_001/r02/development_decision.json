@@ -1,0 +1,87 @@
+{
+  "decided_at": "2026-09-11T19:10:46.300042+00:00",
+  "candidate_id": "economic_kegg_ddi_001",
+  "revision": "r02",
+  "decision": "stop_development_not_admitted",
+  "reason": "CG perfect and GO all 296 identities/coverage correct with only two class-token losses; practical near-perfect solution via discovered full groups and one DDI batch. No value in B/attacks/formal retests under economical screening.",
+  "development_A": [
+    {
+      "variant": "CG",
+      "run_id": "kegg-ddi-r02-cg-dev-a",
+      "score": "1",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 888,
+        "gold_fields": 888,
+        "pred_fields": 888,
+        "item_denominator": 1776,
+        "correct_rows": 296,
+        "gold_rows": 296,
+        "pred_rows": 296,
+        "row_denominator": 592,
+        "correct_pairs": 43660,
+        "pair_denominator": 43660,
+        "shared_ids": 296
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "status": "completed",
+      "differences": [],
+      "limitations": []
+    },
+    {
+      "variant": "GO",
+      "run_id": "kegg-ddi-r02-go-dev-a",
+      "score": "443/444",
+      "metrics": {
+        "Item-F1": 0.9977477477477478,
+        "Row-F1": 0.9932432432432432,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 886,
+        "gold_fields": 888,
+        "pred_fields": 888,
+        "item_denominator": 1776,
+        "correct_rows": 294,
+        "gold_rows": 296,
+        "pred_rows": 296,
+        "row_denominator": 592,
+        "correct_pairs": 43660,
+        "pair_denominator": 43660,
+        "shared_ids": 296
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "status": "completed",
+      "differences": [
+        {
+          "row_key": [
+            "D00824",
+            "D02562"
+          ],
+          "expected": "CI,P",
+          "actual": "P"
+        },
+        {
+          "row_key": [
+            "D07984",
+            "D02562"
+          ],
+          "expected": "CI,P",
+          "actual": "P"
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "formal_trials": [],
+  "formal_means": null,
+  "human_review": "not_completed",
+  "source_stability_scope": "Full answer-relevant membership and raw pair classes matched in both independently retrieved A runs; no claim beyond this observed period.",
+  "no_score_replacement": true
+}

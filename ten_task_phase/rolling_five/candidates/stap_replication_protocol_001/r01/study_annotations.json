@@ -1,0 +1,272 @@
+[
+  {
+    "pmid": "25075303",
+    "pmcid": "PMC4032108",
+    "name": "Tang et al. (2014)",
+    "procedure": [
+      "HCL",
+      "CD45_SORTED",
+      "REPORTER_DIFFERENT"
+    ],
+    "markers": "NEGATIVE",
+    "chimera": "NOT_REPORTED",
+    "teratoma": "NOT_REPORTED",
+    "lines": "NOT_REPORTED",
+    "pluripotency": "NOT_ESTABLISHED",
+    "source": "sources/raw/PMC4032108.response",
+    "locators": [
+      3,
+      8,
+      9,
+      14,
+      16,
+      20,
+      21,
+      22
+    ],
+    "notes": "Authors describe following the updated protocol but flag a different Oct4-GFP mouse strain/reporter. Necrotic apparent GFP signal was autofluorescence; endogenous Oct4/Sox2/Nanog not induced. This is an early-stage attempt; no functional test of induced cells is reported in the complete main article. Germ-cell GFP checks are controls, not proof of induced pluripotency.",
+    "evidence": [
+      {
+        "paragraph": 3,
+        "quote": "There are several fundamental questions that need to be addressed before STAP stem cells can be accepted as one of the main methods for generating stem-like iPS cells, such as: Can these findings be replicated by other researchers? And, other than mouse spleen cells, can this STAP protocol be applied to other somatic cells? Since the publication of the STAP articles, there has been a recent groundswell of comments on social media platforms, including blogs ( Knoeffler Lab Stem Cell Blog), networking sites ( ResearchGate) and Twitter, that have cast considerable doubt on Obokata et al.’s findings. In this context, we have attempted to create STAP cells using their most updated protocol ( Obokata et al., 2014c)."
+      },
+      {
+        "paragraph": 8,
+        "quote": "The crude splenocytes produced above were resuspended in PBS into a single-cell (1 × 10 7 cells/ml) suspension. The cells were incubated with Anti-mouse CD45 antibodies, which were directly conjugated with FITC (1: 100 dilutions, BD Pharmingen TM FITC Rat Anti-mouse CD45) for 30 min at 4°C. The stained cells were then washed three times with PBS and resuspended in PBS supplemented with 1% FBS. The CD45 +-stained splenocytes were sorted and purified using a Cell Sorter (BD LSRFortessa Cell Analyzer). The cells were sorting on 3 different occasions using the same pool of splenocytes extracted from the spleens of 6 neonates."
+      },
+      {
+        "paragraph": 9,
+        "quote": "We treated the somatic cells with low-pH medium according to the protocol described in ( Obokata et al., 2014c). Accordingly, 5×10 5 cells/ml of CD45 + splenocytes or lung fibroblasts were treated with low-pH HBSS (adjusted to pH 5.7 with HCl) for 25 min at 37°C. The acid-treated cells were then centrifuged at 1200 rpm for 5 min. The supernatants were removed and rechecked to confirm that the pH was still pH 5.7. All pH were measured using a calibrated pH meter (Mettler-Toledo, USA). All of acid-treated cell pellets were resuspended in DMEM/F-12 medium supplemented with 1× B27 and 1,000U LIF at a concentration of 1×10 5 cells/ml. The cultures were then plated onto non-adhesive culture dishes (SPL; Cat#11035) and examined for GFP expression on seven consecutive days using microscopy (LEICA SP5). The experiments were performed in triplicate."
+      },
+      {
+        "paragraph": 14,
+        "quote": "To replicate Obokata’s experiment, we isolated a pure population of CD45 + splenocytes from the spleens of five-day-old Oct4-GFP mice as shown in Figure 2A. The CD45 + splenocytes were treated with a mild acidic (pH 5.7) HBSS for 25 min at 37°C. The acid-bathed cells were then cultured in DMEM/F-12 medium supplemented with B27 and 1,000U LIF. We examined the cells for Oct4-GFP expression, every day for up to seven days, but did not observe any Oct4-GFP expression under the confocal microscope ( Figures 2B, C and D). However, we did occasionally observe clusters of cells that appeared to be GFP + but were later determined to be autofluorescence, as these cells were necrotic and stained positive with propidium iodide ( Figure 2E). qPCR analysis was performed to establish whether the acid-bathed cells were capable of expressing the stemness markers. The qPCR results revealed that acid treatment did not induce the splenocytes to express Oct4, Sox2 and Nanog ( Figure 2F)."
+      },
+      {
+        "paragraph": 16,
+        "quote": "We also attempted to produce STAP cells from Oct4-GFP lung fibroblasts. Like the splenocytes, the fibroblasts were treated with acidic HBSS (pH 5.7) for 25 min at 37°C. We checked the cells for GFP expression for seven consecutive days but did not observe any GFP expression ( Figure 3A and B). Likewise, our qPCR analysis also did not show induced Oct4, Sox2 and Nanog expressions in our acid-treated fibroblasts ( Figure 3C)."
+      },
+      {
+        "paragraph": 20,
+        "quote": "Currently, there is a trend to simplify iPS cell production by minimizing genetic manipulation and incorporating the use of small chemical molecules for somatic cell reprogramming ( Shi et al., 2008; Zhu et al., 2010). In this context, it has been reported that mouse iPS cells could be generated using a cocktail of seven chemical molecules without any genetic manipulation, with an efficiency of around 0.2% ( Hou et al., 2013). These important developments were recently superseded by claims that hydrochloric acid treatment alone can chemically reprogram fibroblasts to become induced pluripotent stem cells ( Obokata et al., 2014a; Obokata et al., 2014b). The authors claimed that chemically stressing CD45 + splenocytes (isolated from Oct4-GFP neonates) to the point of death so that approximately 25% of the cells survive will activate the Oct4-GFP transgene in over 50% of surviving cells. They called these cells “STAP cells” which, when injected into host blastocysts, could participate in the development of all tissues and organs, including the placenta. The STAP chimeric mice produced were reported to be healthy, and the STAP-derived germ cells were demonstrated to be involved in germline transmission ( Obokata et al., 2014a; Obokata et al., 2014b). These are astonishing findings. Nevertheless, we have tried to replicate the first stages of Obokata’s findings using CD45 + splenocytes isolated from Oct4-GFP neonates, but could not activate the expression of the Oct4-GFP transgene. This is despite using their most updated protocol for producing STAP cells, which was reported in Protocol Exchange ( Obokata et al., 2014c). We also tried using Oct4-GFP lung fibroblasts instead of splenocytes, but again we failed to detect Oct4-GFP expression after acid-treatment. Occasionally, there were cells that appeared GFP positive, but we later determined them to be autofluorescence from apoptotic cells. We made sure that the pH was exactly maintained at pH 5.7 during the experiments by measuring the pH before and after cell treatment. This is because the Protocol Exchange protocol placed a lot of emphasis on maintaining an optimal pH during the acid treatment of the cells. We found that there was a pH 0.1 increase after the acid buffer was added to treat the cells – so our starting pH was actually 5.6 to compensate. At the end of acid bath stimulation, we also measured the pH of the buffer to confirm that it was still pH 5.7. Therefore, our inability to produce STAP cells could not be attributed to changes in the pH during the cell stimulus procedures."
+      },
+      {
+        "paragraph": 21,
+        "quote": "Another possibility why we could not replicate Obokata’s results might be the difference in the strains of Oct4-GFP transgenic mice used. We acquired our transgenic mice from The Jackson Laboratory (CBA-Tg (Pou5f1-EGFP) 2Mnn/j) while Obokata used transgenic mice generated by Ohbo et al., 2003. Their transgenic mice were developed from a C57BL.6J background, and carry the EGFP cDNA under the control of an Oct4 18-kb genomic fragment (consisting of a minimal promoter and proximal and distal enhancer). Perhaps the transgene in these mice is more easily activated than in our Jackson Laboratory mice. This could potentially explain why Obokata’s transgenic splenocytes, but not our transgenic splenocytes, expressed the EGFP reporter following acid bath treatment. Nevertheless, in the context of generating STAP stem cells, it is not the expression of the transgene that is important but rather the expression of the endogenous Oct4 gene - and related endogenous stemness genes, Sox2 and Nanog. Expression of these genes could not be demonstrated using qPCR analysis following splenocyte acid treatment and culture."
+      },
+      {
+        "paragraph": 22,
+        "quote": "In conclusion, we have not been able to replicate Obokata et al.’s findings to produce STAP stem cells from somatic cells. It appears that the method for producing STAP stem cells is not as simple and straight forward as has been reported."
+      }
+    ]
+  },
+  {
+    "pmid": "27292224",
+    "pmcid": "PMC4904271",
+    "name": "Niwa (2016)",
+    "procedure": [
+      "HCL",
+      "ATP",
+      "FGF2",
+      "CD45_UNSORTED"
+    ],
+    "markers": "RARE_POSITIVE",
+    "chimera": "NEGATIVE",
+    "teratoma": "NOT_REPORTED",
+    "lines": "FAILED",
+    "pluripotency": "NOT_ESTABLISHED",
+    "source": "sources/raw/03_reproduction_fulltext.response",
+    "locators": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      23,
+      24
+    ],
+    "notes": "HCl attempt followed by ATP and FGF2 suggestions; spleen lymphocytes isolated by Lympholyte without a CD45 sorting step in the described preparation. Rare ATP-treated liver aggregate Oct3/4 expression by qPCR/immunostaining is real reported marker evidence, not full pluripotency. Own chimera assay negative and both ES-like/TS-like stable line derivations failed. The 1154/671 passage is another investigation and is not counted as this paper's own assay.",
+    "evidence": [
+      {
+        "paragraph": 3,
+        "quote": "In 2014, Obokata et al. reported that sublethal external stimuli, such as exposure to a transient low-pH stressor, reprogrammed mammalian somatic cells, resulting in the generation of pluripotent cells12. In these reports, this cellular reprograming event was designated ‘stimulus-triggered acquisition of pluripotency’ (STAP). The reports also described how the primary pluripotent cells, STAP cells, were able to give rise to two types of pluripotent stem cells in a culture-condition-dependent manner. However, both reports were subsequently retracted due to multiple intsances of scientific misconduct1011. To investigate the scientific significance of the STAP phenomenon, we repeated the reported experiments based on the methods presented in the retracted manuscripts and other relevant information subsequently obtained. We examined the expression of pluripotency-associated genes in cell aggregates obtained in cultures of somatic cells treated with transient low-pH, and the ability of such cell aggregates to contribute to chimeric embryos after injection into pre-implantation embryos. The results of this reevaluation indicate that the previously reported STAP phenomenon is not reproducible."
+      },
+      {
+        "paragraph": 4,
+        "quote": "In the original report, transient low-pH stress induced by addition of hydrochloric acid (HCl) caused massive cell death of dissociated somatic cells around 1–2 days after treatment (Fig. 1d of Obokata et al. 20141); the surviving cells formed aggregates (Fig. 1b of Obokata et al.1). In the present study, we examined the effect of HCl treatment on dissociated cells derived from spleen, liver and heart of 4–9-day-old mice. The amount of the diluted HCl solution used to achieve optimized low-pH condition was set at 10 µl based on the titration assay (Fig. 1a). This amount resulted in massive cell death routinely although it gave higher pH than 5.7 that was indicated in the previous manuscript (Figure S1a of Obokata et al.1), and 12 µl often resulted in complete cell death. However, although massive cell death was observed at two days after treatment, aggregate formation was rarely observed in any cell type (Fig. 1b). Occasional formation of aggregates was also observed in the culture of non-treated cells, suggesting that low-pH treatment does not enhance the formation of cell aggregates."
+      },
+      {
+        "paragraph": 5,
+        "quote": "Next we examined the effect of adenosine triphosphate (ATP) as a transient low-pH stressor based on personal communication with the authors of the original study. The amount of the diluted ATP solution to achieve optimized low-pH (~5.7) was adjusted (Fig. 1a) and experiments were repeated several times. Massive cell death was again observed at two days after treatment (Fig. 2a); however, we found that liver cells reproducibly gave rise to cell aggregates morphologically similar to those shown in the previous report, whereas spleen and heart cells only occasionally formed similar cell aggregates (Fig. 1b). The efficiency of aggregate formation was clearly higher for ATP-treated cells than for HCl-treated or non-treated cells, especially in the case of liver cells."
+      },
+      {
+        "paragraph": 6,
+        "quote": "In the case of liver cells, when 5 × 105 cells were seeded in a well of 12 well plate, 20–30 aggregates were observed after seven days on average (Fig. 2b). Addition of fibroblast growth factor (Fgf)-2, based on personal communication with the authors of the 2014 reports, slightly enhanced cell agregate formation. Since the culture medium contains leukemia inhibitory factor (LIF), which shows differential action on ES cells derived from different genetic backgrounds12, we suspected that the genetic background might affect aggregate formation. However, as shown in Fig. 2c, although it was known that the 129 background confers a dominant effect in obligating the LIF signal input to maintain pluripotency12, there was no difference between C57BL6 and C57BL6 × 129 F1 (either C57BL6/129 or 129/C57BL6) in the observed frequency of aggregate formation in the present study."
+      },
+      {
+        "paragraph": 7,
+        "quote": "To test the induction of pluripotency markers in cell aggregates obtained from ATP-treated liver cells, we assessed the expression of pluripotency-associated genes. Oct3/4 is a well-defined marker of pluripotent stem cells. Using a primer pair to detect Oct3/4 transcript from the Pou5f1 allele, but not pseudo-genes13, we did not find a detectable level (above 0.1% of the expression level in mouse ES cells, relative to the expression levels of Gapdh) of the transcript by quantitative polymerase chain reaction (Q-PCR) using a total RNA sample prepared from all cells in the culture (Fig. 3a), indicating that extremely few or no cells expressing Oct3/4 were present. Interestingly, expression of Gfp from the Oct3/4-GFP transgene (GOF18)14 was detected in liver cells cultured for seven days irrespective of ATP treatment, suggesting leaky expression of this transgene."
+      },
+      {
+        "paragraph": 8,
+        "quote": "We next performed qPCR on individual cell aggregates isolated from culture. Aggregates were selected and RNA samples were prepared separately. These RNAs were reverse-transcribed and qPCR was performed. We found that some aggregates expressed a comparable amount—more than 10% of the expression level in ES cells—of pluripotency-associated genes, including Oct3/4 (Fig. 3b). Since the cell aggregates consist of ~10 cells, such expression level indicated possible existence of the cell(s) expressing pluripotency-associated genes at the equivalent level to that in ES cells. Klf4 expression was detected in all samples, which may reflect its expression in liver cells, and thus serves as a positive control in this assay. Of cell aggregates derived from liver cells treated with ATP, 19% expressed the amount of Oct3/4 comparable to ES cells (Fig. 3c). These data suggest that some proportion of cells in the aggregates express pluripotency-associated genes at comparable levels to those of ES cells."
+      },
+      {
+        "paragraph": 9,
+        "quote": "To examine the proportion of the cells expressing Oct3/4 in the aggregates, we next applied immuno-staining using a specific antibody against Oct3/4 we raised and assessed previously15. Cell aggregates derived from low-PH treated liver cells were fixed, stained by anti-Oct3/4 antibody, and observed using confocal microscopy. We stained morula-stage mouse embryos as positive controls. By comparison with these positive controls, we found that some of the cell aggregates contained cells expressing Oct3/4 at comparable levels (Fig. 4a). In the case of cell aggregates derived from liver cells treated by ATP, 20% of cell aggregates contained Oct3/4-positive cells (Fig. 4b), which is consistent to the proportion of cell aggregates expressing the amounts of Oct3/4 comparable to ES cells detected by QPCR (Fig. 3c). In contrast, cell aggregates derived from liver cells treated by HCl included Oct3/4-positive cells at a frequency comparable to that of non-treated cells. The presence of Oct3/4-positive cells in the cell aggregates found only 1 in 14 cases in cultures of non-treated liver cells suggests that such cells are derived from Oct3/4-positive cells present in the liver cell population, that in vitro culture may itself be a source of the stress to the cells, or that the immuno-staining technique may produce some non-specific signal. In cell aggregates derived from ATP-treated liver cells, the Oct3/4-positive cells were typically positioned in the center of the cell aggregates and exhibit large nuclei, and were surrounded by Oct3/4-negative cells with small nuclei at the peripheries of the cell aggregates (Fig. 4c)."
+      },
+      {
+        "paragraph": 10,
+        "quote": "In the original report, the authors used transgenic reporter gene expression as a marker of pluripotency1. This reporter consisted of the transcriptional regulatory element of Oct3/4 and the fluorescent marker GFP, designated GOF, which is silent in somatic cells and activated in pluripotent cells14. When we used the same transgenic mouse line as a source of dissociated cells, we found that they began to acquire strong auto-fluorescence in culture after ATP treatment. On observation with fluorescent microscopy, most aggregates showed both green and red fluorescence, a sign of auto-fluorescence (Fig. 5a) although this may also include the fluorescent signal from the GOF transgene, since we detected Gfp mRNA by qPCR in these cells after culture in vitro for seven days (Fig. 3a)."
+      },
+      {
+        "paragraph": 11,
+        "quote": "Specific detection of GFP fluorescence by fluorescence-activated cell sorting (FACS) was also performed. In spleen cells collected using Lympholyte, CD45-positive/E-cadherin-negative blood cells were enriched. The reprogramming of such cells to a state of pluripotency can be monitored by their conversion to CD45-negative/E-cadherin-positive cells and acquisition of GFP expression from the GOF transgene. However, although we again observed increased auto-fluorescence and some reduction of CD45 expression, neither a specific signal of GFP fluorescence nor an increase of E-cadherin expression was observed in the low-pH treated cells (Fig. 5b). Given these findings, we suggest that that there was no evident sign of reprogramming in low-pH treated spleen cells based on the expression of the GOF transgene."
+      },
+      {
+        "paragraph": 12,
+        "quote": "In the original report, the authors showed that the cell aggregates obtained by the culture of low-pH treated cells contribute to chimeras when the cell aggregates were chosen by their morphologies under the microscopic observation, manually dissected and injected into blastocysts (Fig. 4a of Obokata et al.1). The frequency of obtaining chimeric mice from injected blastocysts reached 24% (64 chimeric mice from 264 injected blastocysts; Figure S7b of Obokata et al.1). We prepared cell aggregates from the liver cells dissociated from the livers of transgenic mice carrying CAG-EGFP16 or selected cell aggregates expressing GFP prepared from the liver cells derived from Alb-cre: Rosa-GFP double transgenic mice1718 (Fig. 6, top) and repeated injections of these into morula and blastocysts eight times. However, we found no chimeric embryos carrying GFP-positive cells among 117 embryos derived from 244 injected embryos based on observation by fluorescent microscopy (Fig. 6, bottom), although the embryo manipulation technique of the animal facility should be excellent as the huge number of knockout mice were routinely generated by the injection of ES cells into blastosysts (http://www2.clst.riken.jp/arg/mutant_mice_generated_in_CDB.html and http://www2.clst.riken.jp/arg/publications.html). These data strongly suggest that the acquisition of pluripotency occurs in cell aggregates derived from low-pH treated liver cells only extremely rarely, if at all."
+      },
+      {
+        "paragraph": 13,
+        "quote": "The original reports stated that two different types of stem cell lines could be established from cell aggregates obtained by the culture of low-pH treated cells: ES-like ‘STAP stem cells’ (Fig. 5 of Obokata et al.1) and trophoblast stem (TS)-like ‘FGF-induced (FI) stem cells’ (Fig. 2 of Obokata et al.2). To reevaluate these claims, we transferred cell aggregates derived from liver cells from various genetic backgrounds into the culture conditions for derivation of either ES-like or TS-like stem cells. In the case of the culture for ES-like stem cells in serum-free culture containing knockout serum replacement (KSR), adrenocorticotropic hormone (ACTH) and LIF19, most of the cell aggregates died without outgrowth, which may attributable to the absence of serum, while a small number aggregates gave rise to colonies containing small cells with large nuclei, resembling the morphology of embryonic stem cells. However, most of these cells ceased proliferation at day 7 and gradually regressed. Marked proliferation after day 7 was observed in only three of 492 cell aggregates and none of these gave rise to cell lines (Fig. 7a). In the case of the culture for TS-like stem cells containing FGF-4 and heparin20, many clumps showed outgrowth of fibroblastic cells, which may be due to the presence of FGF2 in the medium. Few of these (22 of 391 cell aggregates) gave rise to colonies of small stem cell-like cells, and one could be passaged three times (Fig. 7b). However, all ultimately regressed without giving rise to cell lines. These data showed that we are unable to derive stem cell lines from aggregates derived from low-pH treated liver cells."
+      },
+      {
+        "paragraph": 14,
+        "quote": "In the present study, we investigated the properties of cell aggregates obtained by culture of liver cells transiently treated with low-pH stimulus, which was performed by the group directed by the author. We initially followed the protocol described in the original paper1 with the detail description in protocol exchange where HCl was applied to achieve low-pH condition. However, we merely obtained the cell aggregates expressing the pluripotency makers as described in this report even when it was combined with the culture in medium containing Fgf2, which was not described in the original protocol but subsequently suggested by the authors. However, when we used ATP instead of HCl, also based on a suggestion by the authors, a few cells in a subset of cell aggregates expressed the pluripotency marker Oct3/4 at levels comparable to those in ES cells that were reproducibly detected by QPCR (Fig. 3c) and immunostaining (Fig. 4b). However, the frequency was very low; 5 × 105 liver cells yielded only ~30 cell aggregates, in which about 20% of the cell aggregates contained 1–2 Oct3/4 positive cells, indicating a frequency per seeded liver cell of 0.0012–0.0024%. Moreover, the pluripotency of such cells was not confirmed by chimera formation assay, and they did not give rise to any stem cell lines. We thus conclude that such cell aggregates do not fulfill the definition for STAP cells proposed in the original studies. Moreover, since the frequency of Oct3/4-positive cells in the cell aggregates was quite low, it was impossible to determine whether they were selected from the original population or induced in culture, again highlighting the lack of evidence supporting the existence of the reported STAP phenomenon. An independent examination was made on chimeric potency of STAP-like cell aggregates that were generated by Haruko Obokata. Among 1154 embryos injected with the aggregates, 671 developed beyond E8.5; however, none of the aggregates made significant contribution to any tissues, the details of which was reported in a Biorixiv website (bioRxiv doi: http://dx.doi.org/10.1101/028472). These data are consistent to the recent report by De Los Angeles et al.22."
+      },
+      {
+        "paragraph": 16,
+        "quote": "4–9-day-old mice were euthanized using carbon dioxide and then sterilized with 70% ethanol. For the isolation of spleen cells, excised spleen was minced with scissors and the tissue fragments were dissociated in phosphate buffered serine (PBS) by pipetting. The cell suspension was strained through a cell strainer followed by the collection of cells by centrifugation at 1,000 rpm for 5 min. The collected cells were re-suspended in 5 ml of Dulbecco’s Modified Eagle medium (DMEM; Life Technologies) and added to the same volume of Lympholyte® (Cedarlane), and then centrifuged at 1,000 g for 20 min. The lymphocyte layer was isolated and washed with PBS to obtain single cell suspension. For the isolation of liver cells, excised liver was minced with scissors and the tissue fragments were dissociated by incubation in Type I collagenase (Worthington Biochemical) solution (0.5 mg/ml in Hanks Balanced Salt Solution (HBSS, no calcium, no magnesium; Life Technologies)). Next, the cell suspension was strained through a cell strainer followed by the collection of cells by centrifugation at 1,000 rpm for 5 min. For the isolation of heart cells, the excised heart was minced with scissors and the tissue fragments were dissociated by incubation in Type II collagenase (Worthington Biochemical) solution (0.5 mg/ml in HBSS). The cell suspension was strained through a cell strainer followed by the collection of cells by centrifugation at 1,000 rpm for 5 min."
+      },
+      {
+        "paragraph": 17,
+        "quote": "Diluted HCl solution was prepared with 10 μl of 35% HCl (Nakarai) in 590 μl HBSS. Diluted ATP solution was prepared with ATP (Sigma) in distilled water at 200 mM. Titration of pH with various amount of diluted HCl or ATP was performed with 500 μl of HBSS containing 7 × 105 liver cells. As a routine method, 10 μl of either diluted HCl or ATP solution was added into 500 μl of cell suspension containing 5 × 105 cells in HBSS followed by incubation for 25 min at 37 °C, and then centrifuged at 1,000 rpm at room temperature for 5 min. After the supernatant was removed, precipitated cells were re-suspended and plated onto either adhesive or non-adhesive plates at cell density of 1–5 × 105 cells per well in 1 ml of the culture medium. The culture medium consists of DMEM/HamF12 (Life Technologies) supplemented with 1,000 U/ml of mouse LIF (home-made) and 2% of B27® Supplement (Life Technologies). Optionally, recombinant human Fgf2 (Wako) was added at final concentration of 10 ng/ml."
+      },
+      {
+        "paragraph": 23,
+        "quote": "Cell aggregates obtained by the ATP treatment of liver cells were cut into smaller pieces using a laser (XYClone, Nikko Hansen & Co., Ltd) or shaped glass capillaries, and single piece was then microinjected into each 8-cell or blastocyst stage embryo from ICR mice (Charles River Laboratories Japan, Inc.). Injected embryos were transferred to the uterus of 2.5 dpc pseudopregnant ICR females (Charles River Laboratories Japan, Inc.) on or the next day of injection."
+      },
+      {
+        "paragraph": 24,
+        "quote": "The culture medium for derivation of ES-like stem cells consists of Glasgow-modified eagles medium (GMEM, Sigma), 15% KnockOut Serum Replacement® (KSR, Life Technologies), 1 × non-essential amino acids (NEAA, Nakarai), 1 × Sodium Pyruvate (Nakarai), 10−4 M 2-mercaptoethanol (Nakarai), 1,000 U/ml of LIF and 10 μM ACTH (Kurabo on consignment). We confirmed the medium is optimal for the culture of conventional ES cells. The culture medium for derivation of TS-like stem cells consists of GMEM, 20% FCS, 1 × NEAA, 1 × Sodium Pyruvate, 10−4 M 2-mercaptoethanol, 25 ng/ml of recombinant mouse Fgf4 (Wako) and 1 μg/ml of heparin (Wako). We confirmed the medium is optimal for the culture of conventional TS cells. To derive stem cells, cell aggregates were isolated under a microscope and transferred into a well of 96-well plate with 100 μl of the culture medium and 1,000 feeder cells. Feeder cells were prepared by treatment of mouse embryonic fibroblasts prepared from day 14 C57BL6 embryos with Mitomycin C (Wako) for 3 hours."
+      }
+    ]
+  },
+  {
+    "pmid": "27610221",
+    "pmcid": "PMC4995676",
+    "name": "Aizawa (2016), version 2",
+    "procedure": [
+      "HCL",
+      "ATP",
+      "FGF2",
+      "CD45_UNSORTED"
+    ],
+    "markers": "RARE_POSITIVE",
+    "chimera": "NEGATIVE",
+    "teratoma": "NOT_PERFORMED",
+    "lines": "NOT_ATTEMPTED",
+    "pluripotency": "NOT_ESTABLISHED",
+    "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+    "locators": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24
+    ],
+    "notes": "Both HCl and ATP used; FGF2 in culture, CD45 FACS explicitly omitted. Preliminary qPCR suggested rare one/multiple marker-positive aggregates; fluorescence cause unresolved and most assays negative. Own chimera assay showed no significant contribution; teratoma/tetraploid tests and secondary line establishment explicitly not done. Use main article only, not peer-review suggestions.",
+    "evidence": [
+      {
+        "paragraph": 2,
+        "quote": "The present article reports the results of a study conducted by Haruko Obokata in the RIKEN Center for Developmental Biology (CDB), which was designed to determine whether the STAP phenomenon was in fact reproducible. Obokata was permitted to perform this closely monitored study from July 14 to November 30, 2014 under my supervision as head of the Scientific Validity Examination Team, at the direction of the Head Office for Internal Reform organized by the RIKEN President. Unfortunately, I have been unable to contact her since the completion of the study, or to obtain her agreement to be listed as an author on this article. Nonetheless, given the extraordinary degree of attention and controversy the original STAP publications and research misconduct generated, I feel it is important to report the results of this investigation in the interests of clarifying the scientific record. In the Scientific Validity Examination Team, Hitoshi Niwa, one of the coauthors of the Nature papers, also conducted an independent examination of whether the STAP phenomenon was reproducible; the results of his examination have been reported previously ( Niwa, 2016)."
+      },
+      {
+        "paragraph": 3,
+        "quote": "The investigation reported here consisted of two types of experiments; preliminary ones conducted without supervision, and formal ones conducted in the presence of expert witnesses. There were no significant differences in the data generated in the preliminary and formal experiments, and all are included together in this report. The experiments were conducted in a new setting, not in the laboratory that Obokata had used for the previous studies described in the retracted Nature publications ( Obokata et al., 2014a; Obokata et al., 2014b). All reagents, materials, instruments, and experimental spaces were freshly furnished. Obokata was permitted to conduct experiments only in designated rooms. She prepared cell aggregates, but did not perform any of the subsequent analyses herself, other than observations of the cell aggregates by phase and fluorescence microscopy. Other members of the team conducted chimeric, FACS, qPCR and immunohistochemical analyses of the cell aggregates. In this report, I refer to the studies reported in the papers retracted ( Obokata et al., 2014a; Obokata et al., 2014b) as \"the previous studies\" for the sake of brevity. I also refer to the technical tips published by several authors of the original articles for details of the experimental procedure ( Obokata et al., 2014c)."
+      },
+      {
+        "paragraph": 4,
+        "quote": "Experiments were performed using a transgenic mouse line harboring GFP under an Oct4 promoter ( Ohbo et al., 2003); the line is the same as that used in the previous studies ( Obokata et al., 2014a; Obokata et al., 2014b). The mouse line has been maintained in C57BL/6 background in a homozygous state ( B6 oct-gfp +/+). Spleens were dissected from homozygous newborn mice ( B6 oct-gfp +/+; 6–8 days old) obtained by crossing a homozygous transgenic female ( B6 oct-gfp +/+) with a homozygous transgenic male ( B6 oct-gfp +/+), or from hemizygous newborn mice ( F1 oct-gfp +/-; 6–8 days old) obtained by crossing a homozygous transgenic female ( B6 oct-gfp +/+) with a wild type 129 male ( 129 oct-gfp -/-). Spleen cells were prepared as described previously ( Obokata et al., 2014a; Obokata et al., 2014c), but enrichment of CD45-positive cells by FACS sorting was omitted. The source of the cells used in these experiments were lymphocytes collected with Lympholyte following the manufacturer’s instructions (Cedarlane Laboratories, Ontario, Canada)."
+      },
+      {
+        "paragraph": 5,
+        "quote": "The stress treatment evaluated was the low-pH condition; no other conditions, such as trituration, were examined. The low-pH conditions included not only the previously reported induction by HCl ( Obokata et al., 2014a; Obokata et al., 2014b; Obokata et al., 2014c), but also that by ATP. Although not described in the previous reports, the ATP treatment had been used most frequently by Obokata et al., and is described in their patent application regarding the STAP process (US Patent Application no.: 14/397,080). In brief, the low-pH condition was generated by suspending the 1×10 6 cells in 494 μl HBSS (Hank’s Balanced Salt Solution), adding 6 μl 200 mM ATP, and incubating for 15 min at 37°C in CO 2 incubator. The low-pH treated-cells were cultured for 6–8 days, and cell aggregates of 50–100 μm showing green fluorescence were identified (see Materials and methods). Table 1 gives the frequency of the cell aggregates identified by Haruko Obokata (see Materials and methods). The frequency of green fluorescent cell aggregates was slightly higher under ATP treatment than HCl treatment in the C57BL/6 background. However, no marked difference was found in the frequency of green fluorescent cell aggregates under either of the low-pH conditions (HCl or ATP) or genetic background of mice (C57BL/6 or F1 between C57BL/6 and 129). The observed frequency was approximately 10 green fluorescent cell aggregates per 10 6 cells seeded; this was approximately 10-fold lower than that in the previous studies. Most green fluorescent cell aggregates also exhibited higher or lower degrees of red fluorescence ( Figure 1). No quantitative determination was made, but about one in three cell aggregates exhibited green fluorescence more intense than red fluorescence. Green fluorescent cell aggregates that exhibited no significant red fluorescence were rare."
+      },
+      {
+        "paragraph": 7,
+        "quote": "Chimera production was performed with spleens of a transgenic mouse line harboring gfp under a CAG promoter ( Okabe et al., 1997) which were also maintained homozygously in C57BL/6 background ( B6 cag-gfp +/+); this line is different from the one previously used ( Obokata et al., 2014a; Obokata et al., 2014b). Spleens were dissected from cag-gfp hemizygous newborn mice in C57BL/6 background ( B6 cag-gfp +/-; 6–8 days old) obtained by crosses of wild-type C57BL/6 ( B6 cag-gfp -/-) female with homozygous transgenic ( B6 cag-gfp +/+) male, or from hemizygous newborn mice in F1 background between C57BL/6 and 129 ( F1 cag-gfp +/-; 6–8 days old) obtained by crosses of homozygous transgenic female ( B6 cag-gfp +/+) with wild-type 129 male ( 129 cag-gfp -/-). Cell aggregates of 50–100 μm were selected by their cluster morphology by Obokata and subjected to the chimeric assay. Chimeras were made by members of the Laboratory for Animal Resources and Genetic Engineering, CDB, with expertise in chimera production with ES cells ( http://www2.clst.riken.jp/arg/APDBN.html, http://www2.clst.riken.jp/arg/mutant_mice_generated_in_CDB.html)(present affiliation: Animal Resource Development Unit, Biosystem Dynamics Group, Division of Bio-Function Dynamics Imaging, Center for Life Science Technologies (CLST))."
+      },
+      {
+        "paragraph": 8,
+        "quote": "The previous report indicated that the generation of chimeras using STAP cells involved a distinct technical approach ( Obokata et al., 2014a): “Single cell dispersion by trypsinization, as it is done in the chimera production with ES cells, caused low chimaerism. STAP spherical colonies were cut into small pieces using a microknife under the microscope. Small clusters of the cells are then injected into blastocysts.” In the present study, cell aggregates were cut into small pieces by either glass capillary, laser beam (XY Clone: Nikko Hansen & Co., Osaka, Japan) or microsurgical knife (K-5310: FEATHER Safety Razor Co., Osaka, Japan) and were injected into a host embryo, either E2.5 8-cell stage or E3.5 blastocyst stage embryos of random-bred ICR (Charles River, Tokyo, Japan). Injected embryos were transplanted into the uterus of pseudopregnant females of the ICR strain, and recovered at E9.5 or E8.5 to judge the contribution of injected cells by GFP-green fluorescence ( Table 2). Notably, the previous study describes that small clusters of 'STAP' cells were injected into ‘E4.5 blastocysts’, and the next day, the chimeric blastocysts were transferred into pseudopregnant females ( Obokata et al., 2014a)."
+      },
+      {
+        "paragraph": 13,
+        "quote": "Five hundred and sixty four embryos (210 morula and 354 blastocyst) were injected with cell aggregates cut into pieces by glass capillaries, and 294 embryos were recovered at E9.5. Ninety-two embryos (48 morula and 44 blastocyst) were injected with cell aggregates cut into pieces by laser beam, and 58 embryos were recovered at E9.5. Three hundred and ninety five embryos (193 morula and 202 blastocyst) were injected with cell aggregates cut into pieces by microknife, and 239 embryos were recovered. Seven hundred and sixty seven embryos were injected with cell aggregates derived from C57BL/6 spleen ( B6 cag-gfp +/+), and 284 embryos with aggregates from F1 spleen between C57BL/6 and 129 ( F1 cag-gfp +/-). Cell aggregates cut into pieces were injected into 451 morula- and 600 blastocyst-stage embryos. In total, 1,051 embryos injected with cell aggregates cut into pieces were transplanted into a foster uterus, and 591 embryos were recovered. The contribution of injected cells was judged by GFP green fluorescence in embryos (see Materials and methods). No significant contribution of the injected cells was observed in any of the 591 embryos examined. Pluripotency was not examined by injecting putative STAP cells into tetraploid embryos."
+      },
+      {
+        "paragraph": 14,
+        "quote": "Two reports of unsuccessful attempts at “STAP cell” formation have been published; both judged by oct-gfp and pluripotent marker gene expression ( De Los Angeles et al., 2015; Tang et al., 2014). One of the central claims in the original reports was that the purported STAP cells had the ability to differentiate into multiple lineages, including germ cells, when placed in a normal developmental environment. However, this was not examined in these two reports. The key question is how “STAP cells” are prepared. In the original reports, the STAP cells were prepared by Haruko Obokata, while the chimera production and the establishment of two stem cells, STAP-SCs that were ES (embryonic stem)-like and FI-SCs that could differentiate into both extraembryonic and embryonic tissues, were made by Teruhiko Wakayama. Thus, Obokata is presumably the best qualified to prepare “STAP cells”. The present study focused on assessing pluripotency by chimera production using cell aggregates prepared by Obokata. Under the assay conditions reported here, we observed no evidence of pluripotency in cell aggregates she prepared herself."
+      },
+      {
+        "paragraph": 15,
+        "quote": "I encourage readers to recognize a number of limitations in the studies, which were conducted under strict time constraints and in the face of considerable, often adversarial, media scrutiny. Unfortunately, it was not possible to receive technical advice from Teruhiko Wakayama in the chimera production reported here, and it is unclear whether or to what extent the techniques for chimera production in the present study correspond to those used in the previous studies. Previous studies also examined the pluripotency of purported STAP cells by their potency to generate teratomas in immune-deficient mice. However, more than 10 5 cells are required to form teratoma subcutaneously in the flank of an immune-deficient mouse using ES or EC (embryo carcinoma) cells, and the process takes about one month. No teratoma formation was examined in the present study, since the frequency of green fluorescent cell aggregates was low and time was limited. Teratoma formation under the kidney capsule, which also takes about two months using blastocyst embryos, was also not examined."
+      },
+      {
+        "paragraph": 16,
+        "quote": "The more critical question is whether and to what extent the STAP cell aggregates prepared by Obokata in this trial under new experimental conditions recapitulated the STAP cell aggregates reported in the previous study. The frequency of green fluorescent cell aggregates from low pH-treated, oct-gfp transgenic spleen cells was 10-fold less than that in previous studies. Moreover, green fluorescence due to GFP expression cannot be distinguished from that due to autofluorescence, nor can GFP expression by reprogramming be distinguished from that due to non-specific gene expression in dying cells. The cell aggregates were not characterized in vitro in detail, but the following features were observed:"
+      },
+      {
+        "paragraph": 17,
+        "quote": "(1) Preliminary FACS analysis of low pH-treated, oct-gfp transgenic spleen cells suggested that the frequency of green fluorescent cells was very low and that the majority of surviving cells were CD45-positive after one week in culture under the conditions used in the present study. In the previous study, CD45 + cells were rare and a significant number of green fluorescent cells were observed (Figure 1c in Obokata et al., 2014a)."
+      },
+      {
+        "paragraph": 18,
+        "quote": "(2) Preliminary qPCR analysis suggested that the majority of the cell aggregates generated in the present study did not express pluripotency markers, in contrast to the report of pluripotency marker expression in the previous study (Figure 2b in Obokata et al., 2014a), although there were cell aggregates at a low frequency that expressed one or multiple pluripotent markers including the oct-gfp transgene."
+      },
+      {
+        "paragraph": 19,
+        "quote": "(3) Preliminary immunochemical analysis suggested that most of the cell aggregates in the present study did not express pluripotency markers. In contrast to the data shown in Figure 2a of the previous study, they did not express OCT4, SSEA1, NANOG and E-CADHERIN, ( Obokata et al., 2014a)."
+      },
+      {
+        "paragraph": 20,
+        "quote": "The possibility cannot be excluded that the experimental conditions used in the present study in some way differed from the previously established optimum conditions for STAP induction. It is my view that it was beyond the scope of this examination to reassign each condition; a definitive answer to the question of whether the previously used conditions for inducing the STAP phenomenon can be indeed established or not must await further study. Nevertheless, I consider it is important to report that Haruko Obokata herself failed to reproduce the reported phenomenon, in that the putative STAP cells described here were unable to contribute to any tissues in a normal developmental environment."
+      },
+      {
+        "paragraph": 21,
+        "quote": "Another reported feature of the STAP phenomenon was that while STAP cells themselves do not proliferate, two types of stem cells could be established from them: STAP-SCs and FI-SCs. However, as Obokata had no experience with these stem cell culture, she did not undertake the establishment of the secondary stem cell types in the present study."
+      },
+      {
+        "paragraph": 23,
+        "quote": "Newborn male mice of 6–8 days old were euthanized using carbon dioxide and then sterilized with 70% ethanol. Two spleens were placed in a 15 ml conical tube, minced by scissors into paste, added with 5.5 ml HBSS (GIBCO 14170), mechanically dissociated using a Pasteur pipette and strained through a cell strainer (mesh size 40 μm, FALCON 352340) into another conical tube. Five ml of Lympholyte-M (Cedarlane CL5031) was added to the bottom of the tube beneath the cell suspension, and the tube was centrifuged at 1,500 g for 20 min. The middle lymphocyte layer was transferred into another tube and centrifuged at 800 g for 10 min. The pelleted cells were suspended in 500 μl HBSS, of which 6 μl was subjected to the counting of cell number; in exchange 6 μl 200 mM ATP (SIGMA 3377) or diluted HCl (10 μl 35% HCl to 590 μl HBSS) was added to the cell suspension. The cell suspension was incubated at 37°C for 15 min in 5% CO 2 incubator, and then centrifuged at 1,500 rpm for 15 min at room temperature. After the supernatant was removed, B27 medium (DMEM/F-12 (GIBCO 11330) supplemented with 1,000 U LIF (ESGRO 1107), 2% B-27 (GIBCO 17504) and 1 μg/ml bFGF (WAKO 060-04543) was added to the cell pellets to obtain 1×10 6 cells/ml suspension; one ml of the suspension was plated in each well of a 24 well plate (FALCON 353047) and cultured at 37°C in 5% CO2 incubator for seven days to develop cell aggregates. Cell aggregates of 50–100 μm were examined for green and red fluorescence with an Olympus Fluorescent Microscope IX51 (mirror units: Olympus U-MNIBA2 to detect green fluorescence and Olympus U-MWIG2 to detect red fluorescence), and the number of candidate aggregates were counted by Haruko Obokata. Images were taken with an Olympus DP70 camera coupled with Olympus DP Controller software (version 1.2.1.108)."
+      },
+      {
+        "paragraph": 24,
+        "quote": "Cell aggregates prepared by Haruko Obokata were subjected to chimera production. Cell aggregates were cut into small pieces by either glass capillary, laser beam (XY Clone: Nikko Hansen & Co., Osaka, Japan) or microsurgical knife (K-5310: FEATHER Safety Razor Co., Osaka, Japan). The pieces were injected into host embryos of either E2.5 8-cell stage or E3.5 blastocyst stage embryos of random-bred ICR (Charles River, Tokyo, Japan). Injected embryos were transplanted into the uterus of pseudopregnant females of the ICR strain. Injection of cell aggregates and transplantation of the embryos into pseudopregnant females were performed as routinely done with ES cells ( http://www2.clst.riken.jp/arg/Methods.html). Embryos were recovered at E9.5 or E8.5 and examined for the contribution of injected cells by detecting the presence of GFP-green fluorescence with LEICA fluorescence stereomicroscope M165FC (filter sets 10447407 and 10447408). E9.5 or E8.5 embryos of the cag-gfp transgenic line used for the preparation of cell aggregates served as positive control and wild type ICR embryos as negative control for the green fluorescence detection."
+      }
+    ]
+  }
+]

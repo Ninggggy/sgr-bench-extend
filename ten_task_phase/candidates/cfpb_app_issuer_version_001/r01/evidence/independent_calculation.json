@@ -1,0 +1,15 @@
+{
+  "execution":"Actually performed in this session using JavaScript in functions.exec; no Python execution claimed.",
+  "time_interval_utc":["2026-09-10T03:59:33Z","2026-09-10T04:00:20Z"],
+  "inputs":["Registered d0004 primary NIC web-record content","Registered d0005 primary CRA web-record content","Fresh native-web responses for the three standard agreements"],
+  "method":"Extract issuer names from agreement clauses. Independently extract NIC legal-name/certificate pairs and the CRA front-page name/certificate pair. Normalize case and punctuation, National Association/N.A., and the leading/trailing article in the Bancorp legal name, then join.",
+  "result":[
+    {"agreement_issuer":"The Bancorp Bank, N.A.","regulator_name":"BANCORP BANK NATIONAL ASSOCIATION, THE","certificate":"35444","matches":1},
+    {"agreement_issuer":"Stride Bank, N.A.","regulator_name":"STRIDE BANK, NATIONAL ASSOCIATION","certificate":"4091","matches":1},
+    {"agreement_issuer":"Bangor Savings Bank","regulator_name":"Bangor Savings Bank","certificate":"18408","matches":1}
+  ],
+  "unique_issuer_count":3,
+  "unique_match_for_every_issuer":true,
+  "additional_source_check":{"url":"https://www.fdic.gov/banker-resource-center/fdic-examinations-scheduled-first-quarter-2025-all-regions","channel":"Official native-web search response; direct open failed","observation":"The indexed 2025 schedule independently pairs Bangor Savings Bank with 18408."},
+  "python_status":"Delivered, not executed."
+}

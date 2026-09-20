@@ -1,0 +1,1 @@
+{"candidate_id": "wqp_activity_panel_001", "status": "reference_ready", "state_consistency": "passed", "relative_path_syntax": "passed", "referenced_files": "checked", "scope": "Declared state consistency only; not full JSON Schema, source truth, or difficulty verification"}

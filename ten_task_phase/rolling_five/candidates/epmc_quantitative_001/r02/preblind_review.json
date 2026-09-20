@@ -1,0 +1,81 @@
+{
+  "candidate": "epmc_quantitative_001",
+  "revision": "r02",
+  "status": "completed",
+  "review_role": "Separate constructor-output reviewer at the preblind repair stage; not the post-development final audit.",
+  "ready_for_development_A": true,
+  "readiness_basis": "The public pair removes direct site disclosure while retaining the indexed scope, resolves the demonstrated NA ambiguity, and preserves the seven-field truth. Actual supplied execution and validation support the unchanged reference assets. The hardest supplied legacy mechanism has been compared using primary-source evidence. The independent ruling supports the required minimum discovery dependency.",
+  "scope_review": {
+    "public_scope": "ISSN 0940-1334; indexed publication year 2026; volume 276; issue 2; indexed membership observed 12 September 2026.",
+    "change": "Removed Europe PMC's attribution from both scope paragraphs. No website, URL or start_url is introduced into either public object.",
+    "preserved_universe": "The original controller-preserved indexed issue remains the construction universe. No annual-year, online-date, open-access-only, PMCID-only, publisher-only, or unrestricted-search replacement was made.",
+    "primary_corroboration": "The publisher identifies volume 276 issue 2 as March 2026, lists 47 articles, and places the quantitative and author-only correction notices in that issue. Their online dates are in 2025. This corroborates the natural issue identity and the task-relevant notice scope accepted in the supplied indexed screening. [Publisher issue](https://link.springer.com/journal/406/volumes-and-issues/276-2)",
+    "equivalence_limit": "Publisher issue metadata supports the same natural journal issue and the same two task-relevant notices here. It is not proof that every publisher identity equals every saved indexed identity: the full 47-row indexed inventory was not supplied inline, and equal counts alone cannot establish that. Accordingly r02 retains indexed membership rather than asserting universal index/publisher equivalence or replacing the saved universe.",
+    "date_handling": "The construction observation remains 12 September 2026. The nested current_date value of 9 September is not used to alter that explicit task boundary. Fresh web observations corroborate content and do not replace the preserved snapshot."
+  },
+  "source_checks": [
+    {
+      "topic": "Whole-issue coverage and boundary",
+      "basis": "Supplied ACTUAL EXECUTION reports 360 annual records, 47 issue records, 24 issue PMCIDs, two candidate notices and one output row, with no conflicts. It reports complete inventory, type/title agreement and classification of every candidate. Fresh publisher reading corroborates the two correction entries.",
+      "fresh_primary_evidence": "The separate excluded notice changes an author's name; its closing update sentence adds no participant or population change. [Author-name correction](https://link.springer.com/article/10.1007/s00406-025-02026-8)"
+    },
+    {
+      "topic": "Original identity",
+      "basis": "Supplied FIELD EVIDENCE and executed identity checks establish agreement between the notice's original DOI, annual DOI-to-PMCID mapping, direct corrected-article PMCID link and original XML identifiers. PMCAID is a separate namespace and is not used. This reviewer did not freshly retrieve those XML identifiers.",
+      "fresh_primary_evidence": "The publisher correction explicitly links its original article by DOI. [Quantitative correction](https://link.springer.com/article/10.1007/s00406-025-02058-0)"
+    },
+    {
+      "topic": "Exact outcome counts",
+      "basis": "The preserved extraction establishes help_n=271 and nondepressed_n=491, with notice/table/original agreement. The former 109 represents the substituted admissions event; 481 is superseded. No percentage reconstruction is needed.",
+      "fresh_primary_evidence": "The current publisher notice independently displays the two revised counts and explains the substituted event. [Quantitative correction, Results changes](https://link.springer.com/article/10.1007/s00406-025-02058-0)"
+    },
+    {
+      "topic": "Population totals and arithmetic",
+      "basis": "Original Par12 directly supports initial_n=730 including 18 dropouts and analyzed_n=581. The preserved reference checks 491+90=581 after confirming compatible diagnostic groups. This is a corroborating sum, not an inferred question denominator. The existing counterfactuals distinguish initial-minus-analyzed 149, wrong-event delta -162 and superseded-group delta -10; they were not re-executed here.",
+      "fresh_primary_evidence": "The publisher Methods paragraph independently reports both totals, the included dropouts and the required completed assessment and returned questionnaires. [Original study, Methods and design](https://link.springer.com/article/10.1007/s00406-025-01990-5)"
+    },
+    {
+      "topic": "Meaning of the population",
+      "basis": "Supplied original Par9, Par12 and Par32 support the current baseline cross-section, completed SCID-5 and returned questionnaires, and define the non-depressed group diagnostically. The prospective project label does not change the current analysis window. The notice alone lacks the decisive initial-cohort and inclusion anchors.",
+      "fresh_primary_evidence": "The publisher original explicitly distinguishes the current cross-sectional analysis from the broader prospective design and states the assessment and questionnaire requirements. [Original study, Methods and design](https://link.springer.com/article/10.1007/s00406-025-01990-5)"
+    }
+  ],
+  "content_ambiguity_repaired": {
+    "old_text": "Use NA if a notice does not correct a requested count.",
+    "problem": "Read literally across all four numeric fields, this can suppress directly requested, uncorrected population totals and disagree with the verified reference.",
+    "replacement": "For help_n and nondepressed_n, use NA if no qualifying notice corrects that count. Report initial_n and analyzed_n even if those totals were not corrected.",
+    "effect": "Makes the existing distinction between correction outcomes and population context explicit. No field, source value, oracle row, numerical logic, alias, sorting rule or scorer behavior is changed."
+  },
+  "dependency_review": {
+    "minimum_discovery_dependency_satisfied": true,
+    "basis": "Supplied INDEPENDENT MECHANISM RULING: observed issue membership produces the PMCIDs that determine later evidence-bearing full-text retrieval. Population evidence is absent from metadata and appears in those responses.",
+    "not_required": "A correction-first request followed by a newly triggered original-paper request is not required and was bypassed by the same-issue batch.",
+    "limitation": "The ruling establishes neither universal shortcut resistance nor difficulty. No stronger dependency claim is made."
+  },
+  "legacy_comparison": {
+    "artifact": "old_task_comparison.md",
+    "tasks_compared": ["europemc_001", "europemc_002", "europemc_003", "europemc_004", "europemc_005"],
+    "hardest_comparator": "europemc_005",
+    "selection_status": "Reasoned comparison of supplied requirements, not a score-based ranking.",
+    "novelty": "Issue-level correction eligibility, revision-versus-event disambiguation, and original-study population context jointly determine whose corrected counts are being reported. Generic identity joins, source reconciliation, conflict handling and discovery dependencies already exist in the old tasks."
+  },
+  "validation_provenance": {
+    "controller_reference_execution": "Supplied actual execution passed; expected_oracle_equal=true. No rerun by this reviewer.",
+    "controller_schema_and_scorer": "The latest controller instruction reports full candidate schema, embedded/external pair checks and scorer self-check passed for the supplied assets. This supersedes the older reference report's pending statements.",
+    "r02_public_string_checks": "Actually executed JavaScript: 30 literal quotation pairs present, identical output_format strings, two-key public objects, and no direct site/URL/start_url/answer-ID disclosure in instructions.",
+    "fresh_browsing": "Read publisher issue, both notice bodies, original Methods, WHO validation article, indexed WHO table text and the cited Zhou primary article. Web-rendered content was used for corroboration and comparison; no raw-payload or HTTP-200 claim is made for this reviewer.",
+    "unsuccessful_access": "Direct PMC article opens returned browser checks; REST and standalone table opens did not yield usable payloads. These are not counted as successful source checks. Available publisher content, indexed primary-source table text and supplied executed evidence support the stated findings.",
+    "solver_tests": "none",
+    "solver_scores": "none",
+    "human_review": "pending; not performed",
+    "final_independent_audit": "pending; not performed"
+  },
+  "remaining_limitations": [
+    "Controller must materialize the returned files and apply its normal r02 object/content validation; those filesystem actions have not been performed in this isolated role.",
+    "A fresh complete publisher-to-snapshot identity comparison was not performed; the preserved indexed universe was not replaced.",
+    "No historical pre-correction article response or independent enrollment dataset is claimed.",
+    "The hardest-old comparison is not a validation of its legacy oracle; a source/specification discrepancy is recorded in the comparison artifact.",
+    "One output row cannot discriminate ordering performance. No difficulty or benchmark-wide validity claim is made.",
+    "Final independent audit and human review remain pending."
+  ]
+}

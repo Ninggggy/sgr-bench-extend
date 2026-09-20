@@ -1,0 +1,4038 @@
+[
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01401065",
+      "2013",
+      "2019"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08065350"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08065350",
+      "activity": "nwistx.01.01401065",
+      "date": "2014-03-11",
+      "time": "10:12:00",
+      "time_zone": "CDT",
+      "year": 2014,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "12.5",
+        "specific_conductance_uS_cm": "627",
+        "dissolved_oxygen_mg_L": "11.5",
+        "pH": "7.4"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 37744,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401065",
+            "result_id": "NWIS-97460944",
+            "field": "ResultMeasureValue",
+            "raw_value": "12.5"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 37745,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401065",
+            "result_id": "NWIS-97460950",
+            "field": "ResultMeasureValue",
+            "raw_value": "627"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 37746,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401065",
+            "result_id": "NWIS-97460952",
+            "field": "ResultMeasureValue",
+            "raw_value": "11.5"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 37748,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401065",
+            "result_id": "NWIS-97460955",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.4"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 14740,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01401065",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2013,
+      "end_year": 2019,
+      "duration": 7,
+      "coverage": 2,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067000"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.01300791"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01300792"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01300852"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01300899"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01300953"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01301014"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400665"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400842"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400864"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401052"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401056"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501159"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501365"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501431"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501505"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501582"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501592"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601311"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601602"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601655"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601892"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601917"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601987"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701101"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701363"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701365"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701503"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701528"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701778"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800795"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800966"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800971"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01801115"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01801304"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01900434"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01900498"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01900661"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08057410"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08057410",
+      "activity": "nwistx.01.01601917",
+      "date": "2016-03-09",
+      "time": "12:30:00",
+      "time_zone": "CST",
+      "year": 2016,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "16.3",
+        "specific_conductance_uS_cm": "400",
+        "dissolved_oxygen_mg_L": "8.4",
+        "pH": "7.7"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 60448,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601917",
+            "result_id": "NWIS-103467784",
+            "field": "ResultMeasureValue",
+            "raw_value": "16.3"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 60449,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601917",
+            "result_id": "NWIS-103467790",
+            "field": "ResultMeasureValue",
+            "raw_value": "400"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 60450,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601917",
+            "result_id": "NWIS-103467792",
+            "field": "ResultMeasureValue",
+            "raw_value": "8.4"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 60452,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601917",
+            "result_id": "NWIS-103467794",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.7"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 22238,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01601917",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01401065",
+      "2014",
+      "2015"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08065350"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08065350",
+      "activity": "nwistx.01.01401065",
+      "date": "2014-03-11",
+      "time": "10:12:00",
+      "time_zone": "CDT",
+      "year": 2014,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "12.5",
+        "specific_conductance_uS_cm": "627",
+        "dissolved_oxygen_mg_L": "11.5",
+        "pH": "7.4"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 37744,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401065",
+            "result_id": "NWIS-97460944",
+            "field": "ResultMeasureValue",
+            "raw_value": "12.5"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 37745,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401065",
+            "result_id": "NWIS-97460950",
+            "field": "ResultMeasureValue",
+            "raw_value": "627"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 37746,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401065",
+            "result_id": "NWIS-97460952",
+            "field": "ResultMeasureValue",
+            "raw_value": "11.5"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 37748,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401065",
+            "result_id": "NWIS-97460955",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.4"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 14740,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01401065",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2014,
+      "end_year": 2015,
+      "duration": 2,
+      "coverage": 3,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067000"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067252"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.01400665"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400721"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400796"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400842"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400864"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401001"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401052"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401056"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401071"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401147"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501159"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501186"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501270"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501286"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501287"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501296"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501364"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501365"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501388"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501431"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501447"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501505"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501582"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501584"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501590"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501592"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501624"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067252"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067252",
+      "activity": "nwistx.01.01501624",
+      "date": "2015-03-20",
+      "time": "12:24:00",
+      "time_zone": "CDT",
+      "year": 2015,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "15.8",
+        "specific_conductance_uS_cm": "359",
+        "dissolved_oxygen_mg_L": "8.9",
+        "pH": "7.4"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 47082,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01501624",
+            "result_id": "NWIS-100251172",
+            "field": "ResultMeasureValue",
+            "raw_value": "15.8"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 47083,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01501624",
+            "result_id": "NWIS-100251179",
+            "field": "ResultMeasureValue",
+            "raw_value": "359"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 47084,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01501624",
+            "result_id": "NWIS-100251181",
+            "field": "ResultMeasureValue",
+            "raw_value": "8.9"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 47086,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01501624",
+            "result_id": "NWIS-100251183",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.4"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 10595,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01501624",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01401515",
+      "2013",
+      "2019"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08065350"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08065350",
+      "activity": "nwistx.01.01401515",
+      "date": "2014-05-20",
+      "time": "10:45:00",
+      "time_zone": "CDT",
+      "year": 2014,
+      "quarter": 2,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "23.9",
+        "specific_conductance_uS_cm": "395",
+        "dissolved_oxygen_mg_L": "6.9",
+        "pH": "7.5"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 39861,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401515",
+            "result_id": "NWIS-98184862",
+            "field": "ResultMeasureValue",
+            "raw_value": "23.9"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 39862,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401515",
+            "result_id": "NWIS-98184868",
+            "field": "ResultMeasureValue",
+            "raw_value": "395"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 39863,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401515",
+            "result_id": "NWIS-98184870",
+            "field": "ResultMeasureValue",
+            "raw_value": "6.9"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 39865,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401515",
+            "result_id": "NWIS-98184873",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.5"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 21000,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01401515",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2013,
+      "end_year": 2019,
+      "duration": 7,
+      "coverage": 2,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067000"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.01301102"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01301265"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01301339"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01301446"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01301527"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01301659"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01301830"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01302117"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401146"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401194"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401315"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401364"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401499"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401516"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401518"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401915"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01402123"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01402125"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01402261"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01402265"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501764"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502005"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502048"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502248"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502433"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502453"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01503036"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01503132"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01503283"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01602278"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01602334"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01602853"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01602957"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01603124"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01603155"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01603301"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01603585"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701782"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701805"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01702087"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01702090"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01702498"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01702781"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01801726"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01801777"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01801926"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01801960"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01802042"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01802127"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01802151"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01802153"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01802359"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01802394"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01901242"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01901313"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01901530"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01901553"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01901608"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01901956"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01902520"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01902666"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08057410"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08057410",
+      "activity": "nwistx.01.01503036",
+      "date": "2015-06-10",
+      "time": "13:00:00",
+      "time_zone": "CDT",
+      "year": 2015,
+      "quarter": 2,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "27.4",
+        "specific_conductance_uS_cm": "346",
+        "dissolved_oxygen_mg_L": "5.0",
+        "pH": "7.4"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 55477,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01503036",
+            "result_id": "NWIS-100914015",
+            "field": "ResultMeasureValue",
+            "raw_value": "27.4"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 55478,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01503036",
+            "result_id": "NWIS-100914020",
+            "field": "ResultMeasureValue",
+            "raw_value": "346"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 55479,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01503036",
+            "result_id": "NWIS-100914022",
+            "field": "ResultMeasureValue",
+            "raw_value": "5.0"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 55481,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01503036",
+            "result_id": "NWIS-100914024",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.4"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 7793,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01503036",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01401515",
+      "2014",
+      "2015"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08065350"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08065350",
+      "activity": "nwistx.01.01401515",
+      "date": "2014-05-20",
+      "time": "10:45:00",
+      "time_zone": "CDT",
+      "year": 2014,
+      "quarter": 2,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "23.9",
+        "specific_conductance_uS_cm": "395",
+        "dissolved_oxygen_mg_L": "6.9",
+        "pH": "7.5"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 39861,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401515",
+            "result_id": "NWIS-98184862",
+            "field": "ResultMeasureValue",
+            "raw_value": "23.9"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 39862,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401515",
+            "result_id": "NWIS-98184868",
+            "field": "ResultMeasureValue",
+            "raw_value": "395"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 39863,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401515",
+            "result_id": "NWIS-98184870",
+            "field": "ResultMeasureValue",
+            "raw_value": "6.9"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 39865,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401515",
+            "result_id": "NWIS-98184873",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.5"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 21000,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01401515",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2014,
+      "end_year": 2015,
+      "duration": 2,
+      "coverage": 3,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067000"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067252"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.01401146"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401194"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401264"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401315"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401364"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401499"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401513"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401516"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401518"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401915"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01402075"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01402123"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01402125"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01402261"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01402265"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501720"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501764"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502005"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502048"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502211"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502248"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502395"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502433"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502453"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502557"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502581"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01502988"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01503036"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01503132"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01503283"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01503291"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067252"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067252",
+      "activity": "nwistx.01.01502581",
+      "date": "2015-05-30",
+      "time": "11:30:00",
+      "time_zone": "CDT",
+      "year": 2015,
+      "quarter": 2,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "dissolved_oxygen_mg_L": "4.3",
+        "pH": "7.1",
+        "temperature_deg_C": "25.3",
+        "specific_conductance_uS_cm": "276"
+      },
+      "value_evidence": {
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 49990,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01502581",
+            "result_id": "NWIS-100854065",
+            "field": "ResultMeasureValue",
+            "raw_value": "4.3"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 49992,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01502581",
+            "result_id": "NWIS-100854067",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.1"
+          }
+        ],
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 49994,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01502581",
+            "result_id": "NWIS-100854056",
+            "field": "ResultMeasureValue",
+            "raw_value": "25.3"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 49995,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01502581",
+            "result_id": "NWIS-100854063",
+            "field": "ResultMeasureValue",
+            "raw_value": "276"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 12619,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01502581",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01500574",
+      "2013",
+      "2019"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08065350"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08065350",
+      "activity": "nwistx.01.01500574",
+      "date": "2014-10-30",
+      "time": "10:10:00",
+      "time_zone": "CDT",
+      "year": 2014,
+      "quarter": 4,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "21.9",
+        "specific_conductance_uS_cm": "515",
+        "dissolved_oxygen_mg_L": "8.0",
+        "pH": "7.8"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40659,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500574",
+            "result_id": "NWIS-99632259",
+            "field": "ResultMeasureValue",
+            "raw_value": "21.9"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40660,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500574",
+            "result_id": "NWIS-99632265",
+            "field": "ResultMeasureValue",
+            "raw_value": "515"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40661,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500574",
+            "result_id": "NWIS-99632267",
+            "field": "ResultMeasureValue",
+            "raw_value": "8.0"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40663,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500574",
+            "result_id": "NWIS-99632270",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.8"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 12977,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01500574",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2013,
+      "end_year": 2019,
+      "duration": 7,
+      "coverage": 2,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067000"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.01400199"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400361"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400405"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400447"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400449"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500129"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500326"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500577"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500797"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500840"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501041"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01600066"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01600731"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601145"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601150"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01700003"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01700323"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01700391"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01700739"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01700883"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01700889"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800002"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800159"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800188"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800335"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800524"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800575"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01900010"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01900045"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01900065"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01900088"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01900199"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01900335"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.02000003"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.02000160"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.02000170"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.02000253"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.02000254"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.02000291"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08057410"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08057410",
+      "activity": "nwistx.01.01900010",
+      "date": "2018-10-10",
+      "time": "12:10:00",
+      "time_zone": "CDT",
+      "year": 2018,
+      "quarter": 4,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "22.3",
+        "specific_conductance_uS_cm": "295",
+        "dissolved_oxygen_mg_L": "5.7",
+        "pH": "7.7"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 94791,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900010",
+            "result_id": "NWIS-111988852",
+            "field": "ResultMeasureValue",
+            "raw_value": "22.3"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 94792,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900010",
+            "result_id": "NWIS-111988858",
+            "field": "ResultMeasureValue",
+            "raw_value": "295"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 94793,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900010",
+            "result_id": "NWIS-111988860",
+            "field": "ResultMeasureValue",
+            "raw_value": "5.7"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 94795,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900010",
+            "result_id": "NWIS-111988862",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.7"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 20178,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01900010",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01500574",
+      "2014",
+      "2015"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08065350"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08065350",
+      "activity": "nwistx.01.01500574",
+      "date": "2014-10-30",
+      "time": "10:10:00",
+      "time_zone": "CDT",
+      "year": 2014,
+      "quarter": 4,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "21.9",
+        "specific_conductance_uS_cm": "515",
+        "dissolved_oxygen_mg_L": "8.0",
+        "pH": "7.8"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40659,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500574",
+            "result_id": "NWIS-99632259",
+            "field": "ResultMeasureValue",
+            "raw_value": "21.9"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40660,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500574",
+            "result_id": "NWIS-99632265",
+            "field": "ResultMeasureValue",
+            "raw_value": "515"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40661,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500574",
+            "result_id": "NWIS-99632267",
+            "field": "ResultMeasureValue",
+            "raw_value": "8.0"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40663,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500574",
+            "result_id": "NWIS-99632270",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.8"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 12977,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01500574",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2014,
+      "end_year": 2015,
+      "duration": 2,
+      "coverage": 3,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067000"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067252"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.01500087"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500129"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500130"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500326"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500573"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500577"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500652"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500797"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500840"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501023"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501041"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01600066"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01600731"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01600900"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601145"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601148"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601150"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067252"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067252",
+      "activity": "nwistx.01.01500130",
+      "date": "2014-10-15",
+      "time": "12:27:00",
+      "time_zone": "CDT",
+      "year": 2014,
+      "quarter": 4,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "specific_conductance_uS_cm": "387",
+        "temperature_deg_C": "26.2",
+        "dissolved_oxygen_mg_L": "5.5",
+        "pH": "7.6"
+      },
+      "value_evidence": {
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 41796,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500130",
+            "result_id": "NWIS-99461399",
+            "field": "ResultMeasureValue",
+            "raw_value": "387"
+          }
+        ],
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 41797,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500130",
+            "result_id": "NWIS-99461392",
+            "field": "ResultMeasureValue",
+            "raw_value": "26.2"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 41798,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500130",
+            "result_id": "NWIS-99461401",
+            "field": "ResultMeasureValue",
+            "raw_value": "5.5"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 41800,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500130",
+            "result_id": "NWIS-99461403",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.6"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 2259,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01500130",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01601150",
+      "2002",
+      "2007"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067000"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067000",
+      "activity": "nwistx.01.01601150",
+      "date": "2015-12-02",
+      "time": "12:07:00",
+      "time_zone": "CST",
+      "year": 2015,
+      "quarter": 4,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "15.8",
+        "specific_conductance_uS_cm": "284",
+        "dissolved_oxygen_mg_L": "9.1",
+        "pH": "7.7"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 46543,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601150",
+            "result_id": "NWIS-109810285",
+            "field": "ResultMeasureValue",
+            "raw_value": "15.8"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 46544,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601150",
+            "result_id": "NWIS-109810290",
+            "field": "ResultMeasureValue",
+            "raw_value": "284"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 46545,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601150",
+            "result_id": "NWIS-109810292",
+            "field": "ResultMeasureValue",
+            "raw_value": "9.1"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 46547,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601150",
+            "result_id": "NWIS-109810294",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.7"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 11336,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01601150",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2002,
+      "end_year": 2007,
+      "duration": 6,
+      "coverage": 2,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08065350"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.00300032"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00300088"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00300093"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00300136"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00400038"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00400069"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00400111"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00500132"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00500240"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00500305"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00600014"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00600037"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00600080"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00700014"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00700089"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00700098"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00700129"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00800009"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00800026"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00800124"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00800127"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08057410"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08057410",
+      "activity": "nwistx.01.00300032",
+      "date": "2002-10-08",
+      "time": "11:00:00",
+      "time_zone": "CDT",
+      "year": 2002,
+      "quarter": 4,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "24.2",
+        "specific_conductance_uS_cm": "535",
+        "dissolved_oxygen_mg_L": "6.5",
+        "pH": "7.4"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 6612,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.00300032",
+            "result_id": "NWIS-49276989",
+            "field": "ResultMeasureValue",
+            "raw_value": "24.2"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 6613,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.00300032",
+            "result_id": "NWIS-49276993",
+            "field": "ResultMeasureValue",
+            "raw_value": "535"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 6614,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.00300032",
+            "result_id": "NWIS-49276995",
+            "field": "ResultMeasureValue",
+            "raw_value": "6.5"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 6616,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.00300032",
+            "result_id": "NWIS-49276997",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.4"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 18565,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.00300032",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01601150",
+      "2014",
+      "2014"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067000"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067000",
+      "activity": "nwistx.01.01601150",
+      "date": "2015-12-02",
+      "time": "12:07:00",
+      "time_zone": "CST",
+      "year": 2015,
+      "quarter": 4,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "15.8",
+        "specific_conductance_uS_cm": "284",
+        "dissolved_oxygen_mg_L": "9.1",
+        "pH": "7.7"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 46543,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601150",
+            "result_id": "NWIS-109810285",
+            "field": "ResultMeasureValue",
+            "raw_value": "15.8"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 46544,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601150",
+            "result_id": "NWIS-109810290",
+            "field": "ResultMeasureValue",
+            "raw_value": "284"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 46545,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601150",
+            "result_id": "NWIS-109810292",
+            "field": "ResultMeasureValue",
+            "raw_value": "9.1"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 46547,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601150",
+            "result_id": "NWIS-109810294",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.7"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 11336,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01601150",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2014,
+      "end_year": 2014,
+      "duration": 1,
+      "coverage": 4,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08065350"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067000"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067252"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.01500087"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500129"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500130"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500326"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500573"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500574"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500577"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500652"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500797"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01500840"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501023"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501041"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067252"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067252",
+      "activity": "nwistx.01.01500130",
+      "date": "2014-10-15",
+      "time": "12:27:00",
+      "time_zone": "CDT",
+      "year": 2014,
+      "quarter": 4,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "specific_conductance_uS_cm": "387",
+        "temperature_deg_C": "26.2",
+        "dissolved_oxygen_mg_L": "5.5",
+        "pH": "7.6"
+      },
+      "value_evidence": {
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 41796,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500130",
+            "result_id": "NWIS-99461399",
+            "field": "ResultMeasureValue",
+            "raw_value": "387"
+          }
+        ],
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 41797,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500130",
+            "result_id": "NWIS-99461392",
+            "field": "ResultMeasureValue",
+            "raw_value": "26.2"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 41798,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500130",
+            "result_id": "NWIS-99461401",
+            "field": "ResultMeasureValue",
+            "raw_value": "5.5"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 41800,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01500130",
+            "result_id": "NWIS-99461403",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.6"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 2259,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01500130",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01900498",
+      "2002",
+      "2007"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067000"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067000",
+      "activity": "nwistx.01.01900498",
+      "date": "2019-02-13",
+      "time": "12:30:00",
+      "time_zone": "CST",
+      "year": 2019,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "13.0",
+        "specific_conductance_uS_cm": "302",
+        "dissolved_oxygen_mg_L": "10.5",
+        "pH": "7.3"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96129,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481227",
+            "field": "ResultMeasureValue",
+            "raw_value": "13.0"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96130,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481234",
+            "field": "ResultMeasureValue",
+            "raw_value": "302"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96131,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481236",
+            "field": "ResultMeasureValue",
+            "raw_value": "10.5"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96133,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481238",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.3"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 287,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01900498",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2002,
+      "end_year": 2007,
+      "duration": 6,
+      "coverage": 2,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08065350"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.00200270"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00200383"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00200456"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00200783"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00200965"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00201013"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00300369"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00300481"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00300597"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00300737"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00300869"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00400234"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00400358"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00400619"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00500309"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00500693"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00502302"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00600088"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00600381"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00600556"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00700180"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00700392"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00700436"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.00700726"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08065350"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08065350",
+      "activity": "nwistx.01.00200965",
+      "date": "2002-03-27",
+      "time": "16:15:00",
+      "time_zone": "CST",
+      "year": 2002,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "15.0",
+        "specific_conductance_uS_cm": "328",
+        "dissolved_oxygen_mg_L": "8.1",
+        "pH": "7.8"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 8954,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.00200965",
+            "result_id": "NWIS-49211639",
+            "field": "ResultMeasureValue",
+            "raw_value": "15.0"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 8955,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.00200965",
+            "result_id": "NWIS-49211644",
+            "field": "ResultMeasureValue",
+            "raw_value": "328"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 8956,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.00200965",
+            "result_id": "NWIS-49211647",
+            "field": "ResultMeasureValue",
+            "raw_value": "8.1"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 8958,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.00200965",
+            "result_id": "NWIS-49211650",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.8"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 1282,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.00200965",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01900498",
+      "2013",
+      "2018"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067000"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067000",
+      "activity": "nwistx.01.01900498",
+      "date": "2019-02-13",
+      "time": "12:30:00",
+      "time_zone": "CST",
+      "year": 2019,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "13.0",
+        "specific_conductance_uS_cm": "302",
+        "dissolved_oxygen_mg_L": "10.5",
+        "pH": "7.3"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96129,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481227",
+            "field": "ResultMeasureValue",
+            "raw_value": "13.0"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96130,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481234",
+            "field": "ResultMeasureValue",
+            "raw_value": "302"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96131,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481236",
+            "field": "ResultMeasureValue",
+            "raw_value": "10.5"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96133,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481238",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.3"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 287,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01900498",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2013,
+      "end_year": 2018,
+      "duration": 6,
+      "coverage": 2,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067000"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.01300791"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01300792"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01300852"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01300899"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01300953"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01301014"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400665"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400842"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400864"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401052"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401056"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501159"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501365"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501431"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501505"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501582"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501592"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601311"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601602"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601655"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601892"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601917"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01601987"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701101"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701363"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701365"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701503"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701528"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01701778"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800795"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800966"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01800971"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01801115"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01801304"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08057410"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08057410",
+      "activity": "nwistx.01.01601917",
+      "date": "2016-03-09",
+      "time": "12:30:00",
+      "time_zone": "CST",
+      "year": 2016,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "16.3",
+        "specific_conductance_uS_cm": "400",
+        "dissolved_oxygen_mg_L": "8.4",
+        "pH": "7.7"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 60448,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601917",
+            "result_id": "NWIS-103467784",
+            "field": "ResultMeasureValue",
+            "raw_value": "16.3"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 60449,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601917",
+            "result_id": "NWIS-103467790",
+            "field": "ResultMeasureValue",
+            "raw_value": "400"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 60450,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601917",
+            "result_id": "NWIS-103467792",
+            "field": "ResultMeasureValue",
+            "raw_value": "8.4"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 60452,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01601917",
+            "result_id": "NWIS-103467794",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.7"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 22238,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01601917",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01900498",
+      "2014",
+      "2014"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067000"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067000",
+      "activity": "nwistx.01.01900498",
+      "date": "2019-02-13",
+      "time": "12:30:00",
+      "time_zone": "CST",
+      "year": 2019,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "13.0",
+        "specific_conductance_uS_cm": "302",
+        "dissolved_oxygen_mg_L": "10.5",
+        "pH": "7.3"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96129,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481227",
+            "field": "ResultMeasureValue",
+            "raw_value": "13.0"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96130,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481234",
+            "field": "ResultMeasureValue",
+            "raw_value": "302"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96131,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481236",
+            "field": "ResultMeasureValue",
+            "raw_value": "10.5"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96133,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481238",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.3"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 287,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01900498",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2014,
+      "end_year": 2014,
+      "duration": 1,
+      "coverage": 4,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08065350"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067000"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067252"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.01400665"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400721"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400796"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400842"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400864"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401001"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401052"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401056"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401065"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401071"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401147"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08057410"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08057410",
+      "activity": "nwistx.01.01401056",
+      "date": "2014-03-06",
+      "time": "12:15:00",
+      "time_zone": "CST",
+      "year": 2014,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "14.4",
+        "specific_conductance_uS_cm": "838",
+        "dissolved_oxygen_mg_L": "9.5",
+        "pH": "7.3"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40764,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401056",
+            "result_id": "NWIS-97432752",
+            "field": "ResultMeasureValue",
+            "raw_value": "14.4"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40765,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401056",
+            "result_id": "NWIS-97432758",
+            "field": "ResultMeasureValue",
+            "raw_value": "838"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40766,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401056",
+            "result_id": "NWIS-97432760",
+            "field": "ResultMeasureValue",
+            "raw_value": "9.5"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 40768,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01401056",
+            "result_id": "NWIS-97432762",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.3"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 12913,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01401056",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  },
+  {
+    "row_key": [
+      "USGS-TX",
+      "nwistx.01.01900498",
+      "2014",
+      "2015"
+    ],
+    "withdrawal": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067000"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067000",
+      "activity": "nwistx.01.01900498",
+      "date": "2019-02-13",
+      "time": "12:30:00",
+      "time_zone": "CST",
+      "year": 2019,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "13.0",
+        "specific_conductance_uS_cm": "302",
+        "dissolved_oxygen_mg_L": "10.5",
+        "pH": "7.3"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96129,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481227",
+            "field": "ResultMeasureValue",
+            "raw_value": "13.0"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96130,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481234",
+            "field": "ResultMeasureValue",
+            "raw_value": "302"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96131,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481236",
+            "field": "ResultMeasureValue",
+            "raw_value": "10.5"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 96133,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01900498",
+            "result_id": "NWIS-118481238",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.3"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 287,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01900498",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    },
+    "post_interval": {
+      "start_year": 2014,
+      "end_year": 2015,
+      "duration": 2,
+      "coverage": 3,
+      "cohort": [
+        [
+          "USGS-TX",
+          "USGS-08057410"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067000"
+        ],
+        [
+          "USGS-TX",
+          "USGS-08067252"
+        ]
+      ]
+    },
+    "remaining_candidate_keys": [
+      [
+        "USGS-TX",
+        "nwistx.01.01400665"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400721"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400796"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400842"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01400864"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401001"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401052"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401056"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401071"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01401147"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501159"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501186"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501270"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501286"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501287"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501296"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501364"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501365"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501388"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501431"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501447"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501505"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501582"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501584"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501590"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501592"
+      ],
+      [
+        "USGS-TX",
+        "nwistx.01.01501624"
+      ]
+    ],
+    "selected_activity": {
+      "site_key": [
+        "USGS-TX",
+        "USGS-08067252"
+      ],
+      "organization": "USGS-TX",
+      "site": "USGS-08067252",
+      "activity": "nwistx.01.01501624",
+      "date": "2015-03-20",
+      "time": "12:24:00",
+      "time_zone": "CDT",
+      "year": 2015,
+      "quarter": 1,
+      "activity_type": "Sample-Routine",
+      "media": "Water",
+      "routine_water": true,
+      "panel_complete": true,
+      "missing": [],
+      "conflicting": [],
+      "values": {
+        "temperature_deg_C": "15.8",
+        "specific_conductance_uS_cm": "359",
+        "dissolved_oxygen_mg_L": "8.9",
+        "pH": "7.4"
+      },
+      "value_evidence": {
+        "temperature_deg_C": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 47082,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01501624",
+            "result_id": "NWIS-100251172",
+            "field": "ResultMeasureValue",
+            "raw_value": "15.8"
+          }
+        ],
+        "specific_conductance_uS_cm": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 47083,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01501624",
+            "result_id": "NWIS-100251179",
+            "field": "ResultMeasureValue",
+            "raw_value": "359"
+          }
+        ],
+        "dissolved_oxygen_mg_L": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 47084,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01501624",
+            "result_id": "NWIS-100251181",
+            "field": "ResultMeasureValue",
+            "raw_value": "8.9"
+          }
+        ],
+        "pH": [
+          {
+            "source_id": "narrow_2000_2019_trinity_panel_zip",
+            "archive_member": "narrowresult.csv",
+            "csv_record": 47086,
+            "organization": "USGS-TX",
+            "activity": "nwistx.01.01501624",
+            "result_id": "NWIS-100251183",
+            "field": "ResultMeasureValue",
+            "raw_value": "7.4"
+          }
+        ]
+      },
+      "activity_evidence": {
+        "source_id": "activity_2000_2019_trinity_zip",
+        "archive_member": "activity.csv",
+        "csv_record": 10595,
+        "organization": "USGS-TX",
+        "activity": "nwistx.01.01501624",
+        "result_id": null,
+        "field": null,
+        "raw_value": null
+      },
+      "depth_metadata": {
+        "ActivityRelativeDepthName": "",
+        "ActivityDepthHeightMeasure/MeasureValue": "",
+        "ActivityDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityDepthAltitudeReferencePointText": "",
+        "ActivityTopDepthHeightMeasure/MeasureValue": "",
+        "ActivityTopDepthHeightMeasure/MeasureUnitCode": "",
+        "ActivityBottomDepthHeightMeasure/MeasureValue": "",
+        "ActivityBottomDepthHeightMeasure/MeasureUnitCode": ""
+      },
+      "eligible": true
+    }
+  }
+]

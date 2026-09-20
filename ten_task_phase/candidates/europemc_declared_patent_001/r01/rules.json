@@ -1,0 +1,41 @@
+{
+  "columns": [
+    "paper_doi",
+    "jurisdiction",
+    "application_identifier",
+    "first_application_publication",
+    "publication_date"
+  ],
+  "row_key": [
+    "paper_doi",
+    "jurisdiction"
+  ],
+  "fields": {
+    "paper_doi": {
+      "type": "string"
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "application_identifier": {
+      "aliases": {
+        "15/765,742": "US15/765,742",
+        "US15/765742": "US15/765,742",
+        "15/765742": "US15/765,742",
+        "US15765742": "US15/765,742",
+        "15765742": "US15/765,742",
+        "EP16775753.3": "EP16775753.3A",
+        "16775753.3": "EP16775753.3A",
+        "PCT/EP2016/073816": "PCT/EP2016/073816"
+      },
+      "alias_evidence": "Equivalent office-prefix and punctuation serializations of observed application identities; raw displays retained in web/patent_*.txt and original US front page. The database EP suffix A is accepted with or without that display suffix.",
+      "type": "string"
+    },
+    "first_application_publication": {
+      "type": "string"
+    },
+    "publication_date": {
+      "type": "string"
+    }
+  }
+}

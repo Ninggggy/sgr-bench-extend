@@ -1,0 +1,163 @@
+{
+  "review_completed_at_utc": "2026-09-13T03:21:29.006345+00:00",
+  "api_provenance": "source_manifest.json",
+  "fresh_api_provenance": "../resumption_pretest_refresh/acquisition.json",
+  "primary_documentation": [
+    {
+      "id": "inchi_faq",
+      "url": "https://www.inchi-trust.org/technical-faq/",
+      "review_date_utc": "2026-09-13",
+      "retained_prior_observation": {
+        "path": "../../../runs/chembl-structure-builder-01/tool_events.jsonl",
+        "events": [
+          4,
+          6
+        ],
+        "observed_at_utc": [
+          "2026-09-12T16:59:23.282Z",
+          "2026-09-12T16:59:31.545Z"
+        ]
+      },
+      "sections": [
+        "4.2",
+        "8.1",
+        "8.2",
+        "8.3",
+        "8.6",
+        "8.7",
+        "13.1",
+        "13.2"
+      ],
+      "quoted_anchors": [
+        "molecular skeleton (connectivity)",
+        "same ‘?’ sign",
+        "at least one defined stereocenter"
+      ],
+      "supports": "The first key block represents basic connectivity; isotope and stereochemical information is elsewhere, and protonation is separately indicated. Standard InChI uses /t for tetrahedral parities, with + or - for assigned centres. Unknown and undefined both use ?. Wholly unassigned stereo is omitted. Atom numbers follow canonical formula numbering apart from H. Nitrogen has restricted stereochemistry support, so counting every SMILES @ is not a carbon-centre completeness test."
+    },
+    {
+      "id": "chembl_faq",
+      "url": "https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/drug-and-compound-questions",
+      "review_date_utc": "2026-09-13",
+      "retained_prior_observation": {
+        "path": "../../../runs/chembl-structure-builder-01/tool_events.jsonl",
+        "event": 8,
+        "observed_at_utc": "2026-09-12T17:00:04.657Z"
+      },
+      "sections": [
+        "chirality flag",
+        "molecule hierarchy",
+        "virtual parents",
+        "structure flexmatch search"
+      ],
+      "quoted_anchors": [
+        "for unchecked compounds the chirality flag = -1",
+        "does not consider stereochemistry, isotopes etc."
+      ],
+      "supports": "The drug chirality field concerns dosing form and is curated for drugs and clinical candidates. It is not structure-assignment completeness. Virtual parents are registered entities that can lack their own hierarchy row. Connectivity searching disregards stereo and isotope distinctions; result records still need the whole-record component check."
+    },
+    {
+      "id": "chembl_api_docs",
+      "url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services",
+      "review_date_utc": "2026-09-13",
+      "sections": [
+        "Meta Data and Pagination",
+        "Filtering and Ordering"
+      ],
+      "quoted_anchors": [
+        "Starts with query (case insensitive equivalent)"
+      ],
+      "supports": "page_meta supplies total count and continuation links. Field-specific startswith filtering is documented. Exact support for the molecule structure key is verified in the preserved live schema."
+    },
+    {
+      "id": "chembl_downloads",
+      "url": "https://chembl.gitbook.io/chembl-interface-documentation/downloads",
+      "review_date_utc": "2026-09-13",
+      "supports": "Official database and structure exports exist. No bulk export contents were acquired in this recovery, and their exact coverage has not been established. This is neither an established shortcut nor a blocker."
+    }
+  ],
+  "schema_anchor": {
+    "source_id": "d0004",
+    "json_pointer": "/fields/molecule_structures/schema/filtering/standard_inchi_key",
+    "required_value": "startswith",
+    "standard_inchi_pointer": "/fields/molecule_structures/schema/fields/standard_inchi/help_text",
+    "standard_inchi_description": "IUPAC standard InChI for the compound"
+  },
+  "boundary_witnesses": [
+    {
+      "id": "CHEMBL170",
+      "role": "ordinary seed",
+      "source_ids": [
+        "d0007",
+        "d0005"
+      ],
+      "facts": "Exact preferred name QUININE. Four assigned non-isotopic carbon parities. Included FULL."
+    },
+    {
+      "id": "CHEMBL1294",
+      "role": "name coverage boundary",
+      "source_ids": [
+        "d0005",
+        "d0002"
+      ],
+      "facts": "Same actual basic layers, distinct stereo representation, absent from full quinine name search."
+    },
+    {
+      "id": "CHEMBL15088",
+      "role": "zero assignments",
+      "source_ids": [
+        "d0005"
+      ],
+      "facts": "Complete Standard InChI has no /t; zero carbon @ tags. UNSPECIFIED does not establish a racemic sample."
+    },
+    {
+      "id": "CHEMBL387326",
+      "role": "partial assignment",
+      "source_ids": [
+        "d0005"
+      ],
+      "facts": "/t13-,14?,19-,20+ contains three specified carbon centres; PARTIAL."
+    },
+    {
+      "id": "CHEMBL2359966",
+      "role": "whole-record salt boundary",
+      "source_ids": [
+        "d0003"
+      ],
+      "facts": "Multicomponent QUININE SULFATE, parent CHEMBL170. Excluded as its own registered structure is not a single component."
+    },
+    {
+      "id": "CHEMBL1616938",
+      "role": "virtual parent",
+      "source_ids": [
+        "d0003",
+        "d0005"
+      ],
+      "facts": "Own hierarchy null; CHEMBL1365872 points to this parent. Included FULL."
+    },
+    {
+      "id": "CHEMBL1741006",
+      "role": "virtual parent and nitrogen tag",
+      "source_ids": [
+        "d0003",
+        "d0005"
+      ],
+      "facts": "Own hierarchy null; CHEMBL1590884 points to this parent. Four carbon assignments, plus separate N stereo in SMILES. Included FULL."
+    },
+    {
+      "id": "CHEMBL1878119",
+      "role": "nitrogen versus carbon",
+      "source_ids": [
+        "d0005"
+      ],
+      "facts": "Two assigned carbon centres and a separate N stereo tag in canonical SMILES. PARTIAL."
+    }
+  ],
+  "carbon_scope_reasoning": "The seed formula C20H24N2O2 assigns canonical atom numbers 1–20 to carbon; its /t centres are 13,14,19,20. Its canonical SMILES independently marks four carbon CH centres. Every peer shares the actual basic layers, and reference.py checks all per-record carbon tag counts against the InChI assignments. No assertion about a fifth nitrogen centre is needed for this explicitly carbon-only task.",
+  "reuse_note": "Scientific anchors and boundary evidence reused from r01/evidence.json and prior independent content review; not newly fetched or independently re-audited during integration.",
+  "source_discovery": {
+    "review": "../source_discovery_open_review.json",
+    "requests": "../source_discovery_open_evidence/request_ledger.json",
+    "conclusion": "Practical source identifiability passed independent pre-development review; no whole-Internet exclusivity claim."
+  }
+}

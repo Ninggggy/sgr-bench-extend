@@ -1,0 +1,44 @@
+{
+  "scope": "Agreement Annex I (Chile to EU), original published text; clauses transcribed and semantically classified before output computation.",
+  "chapter_rules": {
+    "03": {
+      "base": false,
+      "evidence": "Annex I contains no chapter 03; Annex II is reverse direction."
+    },
+    "06": {
+      "base": true,
+      "evidence": "Annex I chapter 06, live trees and other plants; 0602 not among conditional subheadings."
+    },
+    "09": {
+      "base": true,
+      "excluded_kinds": [
+        "mate"
+      ],
+      "evidence": "Annex I chapter 09: COFFEE, TEA, MATÉ* AND SPICES; * Excluded."
+    },
+    "15": {
+      "base": true,
+      "excluded_kinds": [
+        "beeswax"
+      ],
+      "evidence": "Annex I 1521 excluded except vegetable waxes if processed for use as food; beeswax is not vegetable wax."
+    },
+    "20": {
+      "base": true,
+      "evidence": "Annex I chapter 20 includes preparations of vegetables, fruit, nuts or other parts of plants."
+    },
+    "22": {
+      "base": true,
+      "evidence": "Annex I chapter 22; exclusions/limitations 2201,2202,2208 do not include grape wine 2204."
+    },
+    "33": {
+      "base": true,
+      "food_only": true,
+      "evidence": "Annex I 3301 included only if used for food."
+    }
+  },
+  "origin_conditions": "Unprocessed agricultural products produced in Chile; processed food processed in Chile with Chilean, EU, or recognised-third-country-regime ingredients. All Chile processing and organic-compliance facts are assumed in inventory; third-country body recognition is not country equivalence.",
+  "EU_origins_in_inventory": [
+    "France"
+  ]
+}

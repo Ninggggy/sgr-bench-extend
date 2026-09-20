@@ -1,0 +1,39 @@
+{
+  "status": "provisional_rejected_for_admission",
+  "public_json_keys": ["instruction", "output_format"],
+  "shared_oracle": "oracle.psv",
+  "shared_rules": "rules.json",
+  "conditions_present_in_both": [
+    "Museum catalogue audit using the public taxonomic catalogue covering all living reptiles",
+    "Observation date 9 September 2026",
+    "Currently accepted seed species",
+    "Exact seed genus Chelodina",
+    "Seed original description year before 1900",
+    "Type account concerns a former British Museum catalogue number",
+    "Museum accession books identify that number as a species outside Chelodina",
+    "Resolve referred name to its currently accepted species",
+    "Use that species' exact current genus",
+    "Include every accepted species in that genus originally described before 1900",
+    "Report accepted binomial, original description year and own holotype catalogue identifier",
+    "Exclude types attributed only to synonyms or subspecies",
+    "Sort by accepted binomial",
+    "Identical PSV header and formatting"
+  ],
+  "cg_only_material": "Procedural guidance on constructing the complete initial pool, inspecting type accounts, following the referral and avoiding substring genus matches. No additional selection condition.",
+  "public_question_checks": {
+    "english": true,
+    "target_website_named": false,
+    "answer_record_ids_disclosed": false,
+    "referred_species_or_target_genus_disclosed": false,
+    "author_hints": false,
+    "expected_row_count_disclosed": false,
+    "valid_api_or_bulk_paths_prohibited": false
+  },
+  "alignment_review": "Manual textual comparison performed; common core and output_format are identical",
+  "observed_source_facts": "Complete pools, actual referral, search responses and target Types fields were inspected",
+  "computed_observations": "JavaScript derived three provisional rows; independent June-workbook extraction matched live-CSV names and years",
+  "python_execution": "Not performed; controller must execute both delivered programs",
+  "independent_biological_type_verification": "Not claimed; checks concern faithful extraction of the designated catalogue records",
+  "bulk_bypass_audit": "Unresolved",
+  "content_validated": false
+}

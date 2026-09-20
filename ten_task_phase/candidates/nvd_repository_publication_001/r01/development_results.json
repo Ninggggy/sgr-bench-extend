@@ -1,0 +1,57 @@
+{
+  "at": "2026-09-10T05:07:01.889290+00:00",
+  "stage": "A",
+  "results": [
+    {
+      "variant": "CG",
+      "run_id": "r-nvd-repopub-r01-cg-dev-a",
+      "run_dir": "construction_pipeline/ten_task_phase/runs/r-nvd-repopub-r01-cg-dev-a",
+      "status": "completed",
+      "verification_status": "passed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 30,
+        "gold_fields": 30,
+        "pred_fields": 30,
+        "item_denominator": 60,
+        "correct_rows": 6,
+        "gold_rows": 6,
+        "pred_rows": 6,
+        "row_denominator": 12,
+        "correct_pairs": 15,
+        "pair_denominator": 15,
+        "shared_ids": 6
+      }
+    },
+    {
+      "variant": "GO",
+      "run_id": "r-nvd-repopub-r01-go-dev-a",
+      "run_dir": "construction_pipeline/ten_task_phase/runs/r-nvd-repopub-r01-go-dev-a",
+      "status": "completed",
+      "verification_status": "passed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 30,
+        "gold_fields": 30,
+        "pred_fields": 30,
+        "item_denominator": 60,
+        "correct_rows": 6,
+        "gold_rows": 6,
+        "pred_rows": 6,
+        "row_denominator": 12,
+        "correct_pairs": 15,
+        "pair_denominator": 15,
+        "shared_ids": 6
+      }
+    }
+  ],
+  "decision": "Both initial variants fully correct; reject r01 without further sampling. All raw high scores preserved."
+}

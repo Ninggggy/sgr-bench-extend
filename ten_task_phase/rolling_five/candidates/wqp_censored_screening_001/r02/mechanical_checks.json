@@ -1,0 +1,46 @@
+{
+  "same_author": true,
+  "independent_review": "pending",
+  "inherited_unaffected_checks": "../r01/mechanical_checks.json",
+  "inherited_independent_findings": "../r01/independent_review/pre_a_review.json#passed_findings",
+  "exactly_three_B1_records_changed": true,
+  "unchanged_other_98_samples": true,
+  "source_scope_and_exclusions_unchanged": true,
+  "three_thresholds_algebraically_recomputed": true,
+  "aggregate_matches_all_101_samples": true,
+  "scorer_checks": {
+    "self": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "wrong_affected_count": {
+      "Item-F1": 0.9791666666666666,
+      "Row-F1": 0.9166666666666666,
+      "P.O.A.": 1.0
+    },
+    "omit_row": {
+      "Item-F1": 0.9565217391304348,
+      "Row-F1": 0.9565217391304348,
+      "P.O.A.": 1.0
+    },
+    "duplicate": {
+      "Item-F1": 0.96,
+      "Row-F1": 0.96,
+      "P.O.A.": 1.0
+    },
+    "reverse": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 0.0
+    }
+  },
+  "public_conditions_and_rules_unchanged_except_shared_date_phrase": true,
+  "time_wording_checks": {
+    "candidate_public_matches_standalone": true,
+    "same_output_format": true,
+    "date_phrase_removed": true,
+    "json_parse": "passed",
+    "reference_not_recomputed": "unchanged source scope and calculation"
+  }
+}

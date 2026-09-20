@@ -1,0 +1,350 @@
+{
+  "recorded_at": "2026-09-08T13:06:38.917209+00:00",
+  "purpose": "Unscored data-quality sensitivity exploration for the same candidate. Not yet a public revision; currentr02 solves unaffected.",
+  "all_eligible_activity_withdrawals_considered": 833,
+  "changing_trials": 5,
+  "distinct_changed_frontier_states": 3,
+  "counts_by_withdrawn_station": {
+    "USGS-08067000": 2,
+    "USGS-08065350": 3
+  },
+  "actual_counterfactual_records": [
+    {
+      "withdrawn_activity": [
+        "USGS-TX",
+        "nwistx.01.01900498"
+      ],
+      "withdrawn_site": "USGS-08067000",
+      "date": "2019-02-13",
+      "year": 2019,
+      "quarter": 1,
+      "resulting_frontier": [
+        {
+          "start_year": 2002,
+          "end_year": 2007,
+          "duration": 6,
+          "coverage": 2,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08065350"
+            ]
+          ]
+        },
+        {
+          "start_year": 2013,
+          "end_year": 2018,
+          "duration": 6,
+          "coverage": 2,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067000"
+            ]
+          ]
+        },
+        {
+          "start_year": 2014,
+          "end_year": 2014,
+          "duration": 1,
+          "coverage": 4,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08065350"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067000"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067252"
+            ]
+          ]
+        },
+        {
+          "start_year": 2014,
+          "end_year": 2015,
+          "duration": 2,
+          "coverage": 3,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067000"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067252"
+            ]
+          ]
+        }
+      ],
+      "removed_baseline_designs": [
+        [
+          2013,
+          2019
+        ]
+      ],
+      "added_designs": [
+        [
+          2002,
+          2007
+        ],
+        [
+          2013,
+          2018
+        ]
+      ]
+    },
+    {
+      "withdrawn_activity": [
+        "USGS-TX",
+        "nwistx.01.01601150"
+      ],
+      "withdrawn_site": "USGS-08067000",
+      "date": "2015-12-02",
+      "year": 2015,
+      "quarter": 4,
+      "resulting_frontier": [
+        {
+          "start_year": 2002,
+          "end_year": 2007,
+          "duration": 6,
+          "coverage": 2,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08065350"
+            ]
+          ]
+        },
+        {
+          "start_year": 2014,
+          "end_year": 2014,
+          "duration": 1,
+          "coverage": 4,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08065350"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067000"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067252"
+            ]
+          ]
+        }
+      ],
+      "removed_baseline_designs": [
+        [
+          2013,
+          2019
+        ],
+        [
+          2014,
+          2015
+        ]
+      ],
+      "added_designs": [
+        [
+          2002,
+          2007
+        ]
+      ]
+    },
+    {
+      "withdrawn_activity": [
+        "USGS-TX",
+        "nwistx.01.01500574"
+      ],
+      "withdrawn_site": "USGS-08065350",
+      "date": "2014-10-30",
+      "year": 2014,
+      "quarter": 4,
+      "resulting_frontier": [
+        {
+          "start_year": 2013,
+          "end_year": 2019,
+          "duration": 7,
+          "coverage": 2,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067000"
+            ]
+          ]
+        },
+        {
+          "start_year": 2014,
+          "end_year": 2015,
+          "duration": 2,
+          "coverage": 3,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067000"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067252"
+            ]
+          ]
+        }
+      ],
+      "removed_baseline_designs": [
+        [
+          2014,
+          2014
+        ]
+      ],
+      "added_designs": []
+    },
+    {
+      "withdrawn_activity": [
+        "USGS-TX",
+        "nwistx.01.01401065"
+      ],
+      "withdrawn_site": "USGS-08065350",
+      "date": "2014-03-11",
+      "year": 2014,
+      "quarter": 1,
+      "resulting_frontier": [
+        {
+          "start_year": 2013,
+          "end_year": 2019,
+          "duration": 7,
+          "coverage": 2,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067000"
+            ]
+          ]
+        },
+        {
+          "start_year": 2014,
+          "end_year": 2015,
+          "duration": 2,
+          "coverage": 3,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067000"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067252"
+            ]
+          ]
+        }
+      ],
+      "removed_baseline_designs": [
+        [
+          2014,
+          2014
+        ]
+      ],
+      "added_designs": []
+    },
+    {
+      "withdrawn_activity": [
+        "USGS-TX",
+        "nwistx.01.01401515"
+      ],
+      "withdrawn_site": "USGS-08065350",
+      "date": "2014-05-20",
+      "year": 2014,
+      "quarter": 2,
+      "resulting_frontier": [
+        {
+          "start_year": 2013,
+          "end_year": 2019,
+          "duration": 7,
+          "coverage": 2,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067000"
+            ]
+          ]
+        },
+        {
+          "start_year": 2014,
+          "end_year": 2015,
+          "duration": 2,
+          "coverage": 3,
+          "cohort": [
+            [
+              "USGS-TX",
+              "USGS-08057410"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067000"
+            ],
+            [
+              "USGS-TX",
+              "USGS-08067252"
+            ]
+          ]
+        }
+      ],
+      "removed_baseline_designs": [
+        [
+          2014,
+          2014
+        ]
+      ],
+      "added_designs": []
+    }
+  ]
+}

@@ -1,0 +1,2139 @@
+{
+  "candidate_id": "economic_kegg_ddi_001",
+  "revision": "r01",
+  "observation_interval_utc": {
+    "first_request": "2026-09-11T18:27:48.594876+00:00",
+    "last_response": "2026-09-11T18:34:44.918128+00:00"
+  },
+  "acquisition": "Registered wqp_data.download automatically saved full bodies; paths are delivery destinations, not claims of writes in the read-only worker. Preserve each asset byte-for-byte when exporting.",
+  "source_revision": {
+    "drug_last_update": "2026/09/04",
+    "dgroup_last_update": "2026/08/25",
+    "ddi_revision": null,
+    "ddi_revision_status": "unavailable",
+    "note": "DRUG/DGROUP update dates and documentation dates are not DDI revisions."
+  },
+  "coverage": {
+    "group_termination": "Both ENTRY blocks end in ///; parse MEMBER through next flat-file field; only exact D plus five digits, excluding DG identifiers.",
+    "pagination": "No pagination parameters or tokens in these documented get/ddi operations; full saved bodies used.",
+    "ddi_request_items": 60,
+    "ddi_url_length": 444,
+    "documented_ddi_item_limit": null,
+    "limit_note": "API manual gives 10-entry limits for list/get, not DDI; DDI section supplies no numeric maximum or URL-length limit. One 60-item, 444-character DDI URL succeeded. Completeness additionally verified against all 60 endpoint singleton requests, avoiding reliance on undocumented large-set behavior.",
+    "rate_limit": "Official API page: at most 3 requests/second. Calls in this record stayed below that rate.",
+    "candidate_pairs": 800,
+    "reported_pairs": 296,
+    "not_reported": 504,
+    "unknown": 0,
+    "dual_classes": 2,
+    "within_pairs_excluded": 240
+  },
+  "sources": [
+    {
+      "file_id": "d0040",
+      "path": "sources/d0040.html",
+      "role": "api_manual",
+      "url": "https://www.kegg.jp/kegg/rest/keggapi.html",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:27:48.594876+00:00",
+      "received_at": "2026-09-11T18:27:50.701416+00:00",
+      "status": 200,
+      "bytes": 33740,
+      "headers": {},
+      "final_url": "https://www.kegg.jp/kegg/rest/keggapi.html"
+    },
+    {
+      "file_id": "d0041",
+      "path": "sources/d0041.txt",
+      "role": "members",
+      "url": "https://rest.kegg.jp/get/DG01659+DG01568",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:27:56.745150+00:00",
+      "received_at": "2026-09-11T18:27:58.307595+00:00",
+      "status": 200,
+      "bytes": 4105,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:27:58 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/get/DG01659+DG01568"
+    },
+    {
+      "file_id": "d0043",
+      "path": "sources/d0043.html",
+      "role": "api_limits",
+      "url": "https://www.kegg.jp/kegg/rest/",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:28:26.303251+00:00",
+      "received_at": "2026-09-11T18:28:28.390327+00:00",
+      "status": 200,
+      "bytes": 9713,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:28:28 GMT",
+        "Server": "Apache",
+        "Accept-Ranges": "bytes",
+        "Connection": "close",
+        "Content-Type": "text/html",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://www.kegg.jp/kegg/rest/"
+    },
+    {
+      "file_id": "d0044",
+      "path": "sources/d0044.tsv",
+      "role": "batch",
+      "url": "https://rest.kegg.jp/ddi/D06367+D00326+D00823+D07704+D00822+D07705+D02362+D02260+D05374+D05375+D02360+D00825+D02787+D07984+D00824+D04105+D07913+D02567+D03649+D05491+D03731+D00785+D08469+D02562+D10829+D10158+D10191+D04681+D01097+D03733+D05033+D02580+D07337+D08349+D00505+D08625+D00826+D02579+D08085+D07338+D08453+D02564+D00346+D01501+D02002+D09773+D01888+D03239+D03409+D04092+D02561+D02559+D05039+D05040+D08392+D08393+D02560+D02563+D02581+D03248",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:28:28.396428+00:00",
+      "received_at": "2026-09-11T18:28:31.406659+00:00",
+      "status": 200,
+      "bytes": 46680,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:28:30 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D06367+D00326+D00823+D07704+D00822+D07705+D02362+D02260+D05374+D05375+D02360+D00825+D02787+D07984+D00824+D04105+D07913+D02567+D03649+D05491+D03731+D00785+D08469+D02562+D10829+D10158+D10191+D04681+D01097+D03733+D05033+D02580+D07337+D08349+D00505+D08625+D00826+D02579+D08085+D07338+D08453+D02564+D00346+D01501+D02002+D09773+D01888+D03239+D03409+D04092+D02561+D02559+D05039+D05040+D08392+D08393+D02560+D02563+D02581+D03248",
+      "requested_drug_ids": [
+        "D06367",
+        "D00326",
+        "D00823",
+        "D07704",
+        "D00822",
+        "D07705",
+        "D02362",
+        "D02260",
+        "D05374",
+        "D05375",
+        "D02360",
+        "D00825",
+        "D02787",
+        "D07984",
+        "D00824",
+        "D04105",
+        "D07913",
+        "D02567",
+        "D03649",
+        "D05491",
+        "D03731",
+        "D00785",
+        "D08469",
+        "D02562",
+        "D10829",
+        "D10158",
+        "D10191",
+        "D04681",
+        "D01097",
+        "D03733",
+        "D05033",
+        "D02580",
+        "D07337",
+        "D08349",
+        "D00505",
+        "D08625",
+        "D00826",
+        "D02579",
+        "D08085",
+        "D07338",
+        "D08453",
+        "D02564",
+        "D00346",
+        "D01501",
+        "D02002",
+        "D09773",
+        "D01888",
+        "D03239",
+        "D03409",
+        "D04092",
+        "D02561",
+        "D02559",
+        "D05039",
+        "D05040",
+        "D08392",
+        "D08393",
+        "D02560",
+        "D02563",
+        "D02581",
+        "D03248"
+      ],
+      "url_characters": 444
+    },
+    {
+      "file_id": "d0048",
+      "path": "sources/d0048.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D06367",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:08.300834+00:00",
+      "received_at": "2026-09-11T18:29:10.146761+00:00",
+      "status": 200,
+      "bytes": 2908,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:09 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D06367",
+      "drug_id": "D06367"
+    },
+    {
+      "file_id": "d0049",
+      "path": "sources/d0049.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D00326",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:10.168832+00:00",
+      "received_at": "2026-09-11T18:29:12.073034+00:00",
+      "status": 200,
+      "bytes": 10304,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:11 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00326",
+      "drug_id": "D00326"
+    },
+    {
+      "file_id": "d0050",
+      "path": "sources/d0050.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D00823",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:12.095411+00:00",
+      "received_at": "2026-09-11T18:29:14.452624+00:00",
+      "status": 200,
+      "bytes": 10304,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:13 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00823",
+      "drug_id": "D00823"
+    },
+    {
+      "file_id": "d0051",
+      "path": "sources/d0051.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D07704",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:14.475482+00:00",
+      "received_at": "2026-09-11T18:29:16.757305+00:00",
+      "status": 200,
+      "bytes": 8905,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:16 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D07704",
+      "drug_id": "D07704"
+    },
+    {
+      "file_id": "d0052",
+      "path": "sources/d0052.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D00822",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:16.780120+00:00",
+      "received_at": "2026-09-11T18:29:20.124029+00:00",
+      "status": 200,
+      "bytes": 8905,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:19 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00822",
+      "drug_id": "D00822"
+    },
+    {
+      "file_id": "d0053",
+      "path": "sources/d0053.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D07705",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:20.151051+00:00",
+      "received_at": "2026-09-11T18:29:23.048956+00:00",
+      "status": 200,
+      "bytes": 8905,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:22 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D07705",
+      "drug_id": "D07705"
+    },
+    {
+      "file_id": "d0054",
+      "path": "sources/d0054.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02362",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:23.073712+00:00",
+      "received_at": "2026-09-11T18:29:25.959707+00:00",
+      "status": 200,
+      "bytes": 5536,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:24 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02362",
+      "drug_id": "D02362"
+    },
+    {
+      "file_id": "d0055",
+      "path": "sources/d0055.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02260",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:25.983464+00:00",
+      "received_at": "2026-09-11T18:29:28.351074+00:00",
+      "status": 200,
+      "bytes": 32627,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:27 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02260",
+      "drug_id": "D02260"
+    },
+    {
+      "file_id": "d0056",
+      "path": "sources/d0056.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D05374",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:28.378093+00:00",
+      "received_at": "2026-09-11T18:29:31.093166+00:00",
+      "status": 200,
+      "bytes": 32627,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:30 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D05374",
+      "drug_id": "D05374"
+    },
+    {
+      "file_id": "d0057",
+      "path": "sources/d0057.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D05375",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:31.116902+00:00",
+      "received_at": "2026-09-11T18:29:33.871547+00:00",
+      "status": 200,
+      "bytes": 32627,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:32 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D05375",
+      "drug_id": "D05375"
+    },
+    {
+      "file_id": "d0058",
+      "path": "sources/d0058.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02360",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:33.894681+00:00",
+      "received_at": "2026-09-11T18:29:36.103511+00:00",
+      "status": 200,
+      "bytes": 7690,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:35 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02360",
+      "drug_id": "D02360"
+    },
+    {
+      "file_id": "d0059",
+      "path": "sources/d0059.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D00825",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:36.124050+00:00",
+      "received_at": "2026-09-11T18:29:38.833229+00:00",
+      "status": 200,
+      "bytes": 25854,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:37 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00825",
+      "drug_id": "D00825"
+    },
+    {
+      "file_id": "d0060",
+      "path": "sources/d0060.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02787",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:38.856259+00:00",
+      "received_at": "2026-09-11T18:29:41.346100+00:00",
+      "status": 200,
+      "bytes": 2932,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:40 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02787",
+      "drug_id": "D02787"
+    },
+    {
+      "file_id": "d0061",
+      "path": "sources/d0061.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D07984",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:41.368799+00:00",
+      "received_at": "2026-09-11T18:29:43.686587+00:00",
+      "status": 200,
+      "bytes": 13896,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:42 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D07984",
+      "drug_id": "D07984"
+    },
+    {
+      "file_id": "d0062",
+      "path": "sources/d0062.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D00824",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:43.709991+00:00",
+      "received_at": "2026-09-11T18:29:46.333237+00:00",
+      "status": 200,
+      "bytes": 38560,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:45 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00824",
+      "drug_id": "D00824"
+    },
+    {
+      "file_id": "d0063",
+      "path": "sources/d0063.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D04105",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:46.356830+00:00",
+      "received_at": "2026-09-11T18:29:48.937900+00:00",
+      "status": 200,
+      "bytes": 2908,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:48 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D04105",
+      "drug_id": "D04105"
+    },
+    {
+      "file_id": "d0064",
+      "path": "sources/d0064.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D07913",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:48.961537+00:00",
+      "received_at": "2026-09-11T18:29:51.675168+00:00",
+      "status": 200,
+      "bytes": 9119,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:50 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D07913",
+      "drug_id": "D07913"
+    },
+    {
+      "file_id": "d0065",
+      "path": "sources/d0065.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02567",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:51.697571+00:00",
+      "received_at": "2026-09-11T18:29:54.309267+00:00",
+      "status": 200,
+      "bytes": 32564,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:53 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02567",
+      "drug_id": "D02567"
+    },
+    {
+      "file_id": "d0066",
+      "path": "sources/d0066.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D03649",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:54.330300+00:00",
+      "received_at": "2026-09-11T18:29:56.480330+00:00",
+      "status": 200,
+      "bytes": 2512,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:55 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D03649",
+      "drug_id": "D03649"
+    },
+    {
+      "file_id": "d0067",
+      "path": "sources/d0067.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D05491",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:29:56.501939+00:00",
+      "received_at": "2026-09-11T18:29:59.184837+00:00",
+      "status": 200,
+      "bytes": 2512,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:29:58 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D05491",
+      "drug_id": "D05491"
+    },
+    {
+      "file_id": "d0095",
+      "path": "sources/d0095.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D03731",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:30:57.317749+00:00",
+      "received_at": "2026-09-11T18:30:59.826258+00:00",
+      "status": 200,
+      "bytes": 28885,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:30:58 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D03731",
+      "drug_id": "D03731"
+    },
+    {
+      "file_id": "d0096",
+      "path": "sources/d0096.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D00785",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:30:59.851101+00:00",
+      "received_at": "2026-09-11T18:31:02.673579+00:00",
+      "status": 200,
+      "bytes": 28885,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:01 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00785",
+      "drug_id": "D00785"
+    },
+    {
+      "file_id": "d0097",
+      "path": "sources/d0097.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D08469",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:02.698565+00:00",
+      "received_at": "2026-09-11T18:31:04.975550+00:00",
+      "status": 200,
+      "bytes": 9372,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:04 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D08469",
+      "drug_id": "D08469"
+    },
+    {
+      "file_id": "d0098",
+      "path": "sources/d0098.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02562",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:04.999279+00:00",
+      "received_at": "2026-09-11T18:31:07.204384+00:00",
+      "status": 200,
+      "bytes": 21721,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:06 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02562",
+      "drug_id": "D02562"
+    },
+    {
+      "file_id": "d0099",
+      "path": "sources/d0099.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D10829",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:07.229030+00:00",
+      "received_at": "2026-09-11T18:31:09.369864+00:00",
+      "status": 200,
+      "bytes": 9372,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:08 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D10829",
+      "drug_id": "D10829"
+    },
+    {
+      "file_id": "d0100",
+      "path": "sources/d0100.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D10158",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:09.391915+00:00",
+      "received_at": "2026-09-11T18:31:11.396745+00:00",
+      "status": 200,
+      "bytes": 11753,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:10 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D10158",
+      "drug_id": "D10158"
+    },
+    {
+      "file_id": "d0101",
+      "path": "sources/d0101.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D10191",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:11.410955+00:00",
+      "received_at": "2026-09-11T18:31:13.652719+00:00",
+      "status": 200,
+      "bytes": 25707,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:12 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D10191",
+      "drug_id": "D10191"
+    },
+    {
+      "file_id": "d0102",
+      "path": "sources/d0102.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D04681",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:13.676251+00:00",
+      "received_at": "2026-09-11T18:31:15.801989+00:00",
+      "status": 200,
+      "bytes": 8413,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:14 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D04681",
+      "drug_id": "D04681"
+    },
+    {
+      "file_id": "d0103",
+      "path": "sources/d0103.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D01097",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:15.825053+00:00",
+      "received_at": "2026-09-11T18:31:17.886980+00:00",
+      "status": 200,
+      "bytes": 8413,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:16 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D01097",
+      "drug_id": "D01097"
+    },
+    {
+      "file_id": "d0104",
+      "path": "sources/d0104.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D03733",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:17.910208+00:00",
+      "received_at": "2026-09-11T18:31:20.064066+00:00",
+      "status": 200,
+      "bytes": 8413,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:19 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D03733",
+      "drug_id": "D03733"
+    },
+    {
+      "file_id": "d0105",
+      "path": "sources/d0105.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D05033",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:20.085796+00:00",
+      "received_at": "2026-09-11T18:31:22.527772+00:00",
+      "status": 200,
+      "bytes": 8448,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:21 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D05033",
+      "drug_id": "D05033"
+    },
+    {
+      "file_id": "d0106",
+      "path": "sources/d0106.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02580",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:22.551708+00:00",
+      "received_at": "2026-09-11T18:31:24.671362+00:00",
+      "status": 200,
+      "bytes": 8526,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:23 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02580",
+      "drug_id": "D02580"
+    },
+    {
+      "file_id": "d0107",
+      "path": "sources/d0107.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D07337",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:24.692350+00:00",
+      "received_at": "2026-09-11T18:31:26.732483+00:00",
+      "status": 200,
+      "bytes": 8526,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:26 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D07337",
+      "drug_id": "D07337"
+    },
+    {
+      "file_id": "d0108",
+      "path": "sources/d0108.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D08349",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:26.756694+00:00",
+      "received_at": "2026-09-11T18:31:29.101434+00:00",
+      "status": 200,
+      "bytes": 8526,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:28 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D08349",
+      "drug_id": "D08349"
+    },
+    {
+      "file_id": "d0109",
+      "path": "sources/d0109.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D00505",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:29.125177+00:00",
+      "received_at": "2026-09-11T18:31:31.475628+00:00",
+      "status": 200,
+      "bytes": 8526,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:30 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00505",
+      "drug_id": "D00505"
+    },
+    {
+      "file_id": "d0110",
+      "path": "sources/d0110.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D08625",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:31.483229+00:00",
+      "received_at": "2026-09-11T18:31:33.402143+00:00",
+      "status": 200,
+      "bytes": 8526,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:32 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D08625",
+      "drug_id": "D08625"
+    },
+    {
+      "file_id": "d0111",
+      "path": "sources/d0111.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D00826",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:33.424806+00:00",
+      "received_at": "2026-09-11T18:31:35.731546+00:00",
+      "status": 200,
+      "bytes": 8526,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:34 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00826",
+      "drug_id": "D00826"
+    },
+    {
+      "file_id": "d0112",
+      "path": "sources/d0112.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02579",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:35.753931+00:00",
+      "received_at": "2026-09-11T18:31:37.633964+00:00",
+      "status": 200,
+      "bytes": 8526,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:37 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02579",
+      "drug_id": "D02579"
+    },
+    {
+      "file_id": "d0113",
+      "path": "sources/d0113.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D08085",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:37.654172+00:00",
+      "received_at": "2026-09-11T18:31:40.053621+00:00",
+      "status": 200,
+      "bytes": 8526,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:39 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D08085",
+      "drug_id": "D08085"
+    },
+    {
+      "file_id": "d0114",
+      "path": "sources/d0114.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D07338",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:40.087743+00:00",
+      "received_at": "2026-09-11T18:31:42.229580+00:00",
+      "status": 200,
+      "bytes": 8526,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:41 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D07338",
+      "drug_id": "D07338"
+    },
+    {
+      "file_id": "d0115",
+      "path": "sources/d0115.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D08453",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:51.682788+00:00",
+      "received_at": "2026-09-11T18:31:53.731978+00:00",
+      "status": 200,
+      "bytes": 11766,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:52 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D08453",
+      "drug_id": "D08453"
+    },
+    {
+      "file_id": "d0116",
+      "path": "sources/d0116.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02564",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:53.754575+00:00",
+      "received_at": "2026-09-11T18:31:55.822906+00:00",
+      "status": 200,
+      "bytes": 11766,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:55 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02564",
+      "drug_id": "D02564"
+    },
+    {
+      "file_id": "d0117",
+      "path": "sources/d0117.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D00346",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:55.857085+00:00",
+      "received_at": "2026-09-11T18:31:57.875902+00:00",
+      "status": 200,
+      "bytes": 28880,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:57 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00346",
+      "drug_id": "D00346"
+    },
+    {
+      "file_id": "d0118",
+      "path": "sources/d0118.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D01501",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:31:57.900644+00:00",
+      "received_at": "2026-09-11T18:32:00.128988+00:00",
+      "status": 200,
+      "bytes": 9007,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:31:59 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D01501",
+      "drug_id": "D01501"
+    },
+    {
+      "file_id": "d0119",
+      "path": "sources/d0119.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02002",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:00.156678+00:00",
+      "received_at": "2026-09-11T18:32:02.448633+00:00",
+      "status": 200,
+      "bytes": 9007,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:01 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02002",
+      "drug_id": "D02002"
+    },
+    {
+      "file_id": "d0120",
+      "path": "sources/d0120.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D09773",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:02.473165+00:00",
+      "received_at": "2026-09-11T18:32:04.899636+00:00",
+      "status": 200,
+      "bytes": 9007,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:04 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D09773",
+      "drug_id": "D09773"
+    },
+    {
+      "file_id": "d0121",
+      "path": "sources/d0121.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D01888",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:04.921254+00:00",
+      "received_at": "2026-09-11T18:32:07.553394+00:00",
+      "status": 200,
+      "bytes": 8246,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:06 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D01888",
+      "drug_id": "D01888"
+    },
+    {
+      "file_id": "d0122",
+      "path": "sources/d0122.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D03239",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:07.579206+00:00",
+      "received_at": "2026-09-11T18:32:09.985881+00:00",
+      "status": 200,
+      "bytes": 8853,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:09 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D03239",
+      "drug_id": "D03239"
+    },
+    {
+      "file_id": "d0123",
+      "path": "sources/d0123.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D03409",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:10.009258+00:00",
+      "received_at": "2026-09-11T18:32:12.207471+00:00",
+      "status": 200,
+      "bytes": 8246,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:11 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D03409",
+      "drug_id": "D03409"
+    },
+    {
+      "file_id": "d0124",
+      "path": "sources/d0124.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D04092",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:12.234765+00:00",
+      "received_at": "2026-09-11T18:32:14.504798+00:00",
+      "status": 200,
+      "bytes": 8246,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:13 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D04092",
+      "drug_id": "D04092"
+    },
+    {
+      "file_id": "d0125",
+      "path": "sources/d0125.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02561",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:14.525606+00:00",
+      "received_at": "2026-09-11T18:32:16.688148+00:00",
+      "status": 200,
+      "bytes": 10858,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:16 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02561",
+      "drug_id": "D02561"
+    },
+    {
+      "file_id": "d0126",
+      "path": "sources/d0126.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02559",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:16.707582+00:00",
+      "received_at": "2026-09-11T18:32:19.175116+00:00",
+      "status": 200,
+      "bytes": 8504,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:18 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02559",
+      "drug_id": "D02559"
+    },
+    {
+      "file_id": "d0127",
+      "path": "sources/d0127.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D05039",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:19.197645+00:00",
+      "received_at": "2026-09-11T18:32:21.273337+00:00",
+      "status": 200,
+      "bytes": 9111,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:20 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D05039",
+      "drug_id": "D05039"
+    },
+    {
+      "file_id": "d0128",
+      "path": "sources/d0128.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D05040",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:21.296305+00:00",
+      "received_at": "2026-09-11T18:32:23.645122+00:00",
+      "status": 200,
+      "bytes": 9111,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:22 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D05040",
+      "drug_id": "D05040"
+    },
+    {
+      "file_id": "d0129",
+      "path": "sources/d0129.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D08392",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:23.670192+00:00",
+      "received_at": "2026-09-11T18:32:25.560304+00:00",
+      "status": 200,
+      "bytes": 8224,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:24 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D08392",
+      "drug_id": "D08392"
+    },
+    {
+      "file_id": "d0130",
+      "path": "sources/d0130.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D08393",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:25.583487+00:00",
+      "received_at": "2026-09-11T18:32:27.226672+00:00",
+      "status": 200,
+      "bytes": 8224,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:26 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D08393",
+      "drug_id": "D08393"
+    },
+    {
+      "file_id": "d0131",
+      "path": "sources/d0131.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02560",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:27.251497+00:00",
+      "received_at": "2026-09-11T18:32:29.382877+00:00",
+      "status": 200,
+      "bytes": 8224,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:28 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02560",
+      "drug_id": "D02560"
+    },
+    {
+      "file_id": "d0132",
+      "path": "sources/d0132.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02563",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:29.406509+00:00",
+      "received_at": "2026-09-11T18:32:31.578622+00:00",
+      "status": 200,
+      "bytes": 8224,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:30 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02563",
+      "drug_id": "D02563"
+    },
+    {
+      "file_id": "d0133",
+      "path": "sources/d0133.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D02581",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:31.602434+00:00",
+      "received_at": "2026-09-11T18:32:33.857817+00:00",
+      "status": 200,
+      "bytes": 8224,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:33 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02581",
+      "drug_id": "D02581"
+    },
+    {
+      "file_id": "d0134",
+      "path": "sources/d0134.tsv",
+      "role": "singleton",
+      "url": "https://rest.kegg.jp/ddi/D03248",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:32:33.881001+00:00",
+      "received_at": "2026-09-11T18:32:35.717075+00:00",
+      "status": 200,
+      "bytes": 8224,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:32:35 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D03248",
+      "drug_id": "D03248"
+    },
+    {
+      "file_id": "d0088",
+      "path": "sources/d0088.html",
+      "role": "member_html",
+      "url": "https://www.kegg.jp/entry/DG01659",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:30:09.065137+00:00",
+      "received_at": "2026-09-11T18:30:11.518419+00:00",
+      "status": 200,
+      "bytes": 12489,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:30:10 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://www.kegg.jp/entry/DG01659",
+      "group_id": "DG01659"
+    },
+    {
+      "file_id": "d0089",
+      "path": "sources/d0089.html",
+      "role": "member_html",
+      "url": "https://www.kegg.jp/entry/DG01568",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:30:11.529380+00:00",
+      "received_at": "2026-09-11T18:30:13.910915+00:00",
+      "status": 200,
+      "bytes": 19349,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:30:13 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://www.kegg.jp/entry/DG01568",
+      "group_id": "DG01568"
+    },
+    {
+      "file_id": "d0090",
+      "path": "sources/d0090.txt",
+      "role": "drug_info",
+      "url": "https://rest.kegg.jp/info/drug",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:30:13.919426+00:00",
+      "received_at": "2026-09-11T18:30:16.283254+00:00",
+      "status": 200,
+      "bytes": 189,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:30:15 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/info/drug"
+    },
+    {
+      "file_id": "d0176",
+      "path": "sources/d0176.txt",
+      "role": "boundary",
+      "url": "https://rest.kegg.jp/ddi/D00326+D03731",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:33:01.333468+00:00",
+      "received_at": "2026-09-11T18:33:03.220360+00:00",
+      "status": 200,
+      "bytes": 126,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:33:02 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00326+D03731"
+    },
+    {
+      "file_id": "d0177",
+      "path": "sources/d0177.txt",
+      "role": "boundary",
+      "url": "https://rest.kegg.jp/ddi/D00824+D02562+D07984",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:33:03.236736+00:00",
+      "received_at": "2026-09-11T18:33:05.142807+00:00",
+      "status": 200,
+      "bytes": 350,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:33:04 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D00824+D02562+D07984"
+    },
+    {
+      "file_id": "d0178",
+      "path": "sources/d0178.txt",
+      "role": "dgroup_info",
+      "url": "https://rest.kegg.jp/info/dgroup",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:33:05.156391+00:00",
+      "received_at": "2026-09-11T18:33:06.851798+00:00",
+      "status": 200,
+      "bytes": 104,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:33:06 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/info/dgroup"
+    },
+    {
+      "file_id": "d0179",
+      "path": "sources/d0179.txt",
+      "role": "boundary",
+      "url": "https://rest.kegg.jp/ddi/D02260+D02362+D00346",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:33:34.408889+00:00",
+      "received_at": "2026-09-11T18:33:36.194059+00:00",
+      "status": 200,
+      "bytes": 230,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:33:35 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02260+D02362+D00346"
+    },
+    {
+      "file_id": "d0181",
+      "path": "sources/d0181.txt",
+      "role": "failed_optional_boundary",
+      "url": "https://rest.kegg.jp/ddi/D02362+D00346",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:33:37.580472+00:00",
+      "received_at": "2026-09-11T18:33:39.826931+00:00",
+      "status": 404,
+      "bytes": 0,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:33:39 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D02362+D00346",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file_id": "d0180",
+      "path": "sources/d0180.html",
+      "role": "ddi_documentation",
+      "url": "https://www.kegg.jp/kegg/medicus/medicus3.html",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:33:36.207934+00:00",
+      "received_at": "2026-09-11T18:33:37.567147+00:00",
+      "status": 200,
+      "bytes": 7143,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:33:37 GMT",
+        "Server": "Apache",
+        "Accept-Ranges": "bytes",
+        "Connection": "close",
+        "Content-Type": "text/html",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://www.kegg.jp/kegg/medicus/medicus3.html"
+    },
+    {
+      "file_id": "d0189",
+      "path": "sources/d0189.tsv",
+      "role": "batch_repeat",
+      "url": "https://rest.kegg.jp/ddi/D06367+D00326+D00823+D07704+D00822+D07705+D02362+D02260+D05374+D05375+D02360+D00825+D02787+D07984+D00824+D04105+D07913+D02567+D03649+D05491+D03731+D00785+D08469+D02562+D10829+D10158+D10191+D04681+D01097+D03733+D05033+D02580+D07337+D08349+D00505+D08625+D00826+D02579+D08085+D07338+D08453+D02564+D00346+D01501+D02002+D09773+D01888+D03239+D03409+D04092+D02561+D02559+D05039+D05040+D08392+D08393+D02560+D02563+D02581+D03248",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:34:41.091628+00:00",
+      "received_at": "2026-09-11T18:34:43.479334+00:00",
+      "status": 200,
+      "bytes": 46680,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:34:42 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/ddi/D06367+D00326+D00823+D07704+D00822+D07705+D02362+D02260+D05374+D05375+D02360+D00825+D02787+D07984+D00824+D04105+D07913+D02567+D03649+D05491+D03731+D00785+D08469+D02562+D10829+D10158+D10191+D04681+D01097+D03733+D05033+D02580+D07337+D08349+D00505+D08625+D00826+D02579+D08085+D07338+D08453+D02564+D00346+D01501+D02002+D09773+D01888+D03239+D03409+D04092+D02561+D02559+D05039+D05040+D08392+D08393+D02560+D02563+D02581+D03248"
+    },
+    {
+      "file_id": "d0190",
+      "path": "sources/d0190.txt",
+      "role": "members_repeat",
+      "url": "https://rest.kegg.jp/get/DG01659+DG01568",
+      "method": "GET",
+      "requested_at": "2026-09-11T18:34:43.494032+00:00",
+      "received_at": "2026-09-11T18:34:44.918128+00:00",
+      "status": 200,
+      "bytes": 4105,
+      "headers": {
+        "Date": "Fri, 11 Sep 2026 18:34:44 GMT",
+        "Server": "Apache",
+        "Connection": "close",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Transfer-Encoding": "chunked"
+      },
+      "final_url": "https://rest.kegg.jp/get/DG01659+DG01568"
+    }
+  ],
+  "prior_evidence": {
+    "retained_file_ids": [
+      "d0035"
+    ],
+    "status": "Existing primary-source member body was read this turn. Its original acquisition metadata was not supplied; fresh acquisition d0041 is used for the reconstructable reference. Prior feasibility conclusions were not treated as independently verified facts."
+  },
+  "derived_assets": [
+    {
+      "file_id": "d0045",
+      "path": "reference/observed_batch.csv",
+      "operation": "tabulate d0044 as TSV with drug1,drug2,class,mechanism",
+      "rows": 1072
+    },
+    {
+      "file_id": "d0091",
+      "path": "reference/check_ssri_only.csv",
+      "rows": 4
+    },
+    {
+      "file_id": "d0092",
+      "path": "reference/check_ssri_only_missing.csv",
+      "rows": 14
+    },
+    {
+      "file_id": "d0175",
+      "path": "reference/check_both_endpoints.csv",
+      "rows": 4
+    },
+    {
+      "file_id": "d0182",
+      "path": "reference/observed_oracle.csv",
+      "rows": 296
+    },
+    {
+      "file_id": "d0183",
+      "path": "reference/check_within_counts.csv",
+      "rows": 3
+    },
+    {
+      "file_id": "d0184",
+      "path": "reference/check_symmetry.csv",
+      "rows": 1
+    },
+    {
+      "file_id": "d0185",
+      "path": "reference/check_duplicate_conflicts.csv",
+      "rows": 0
+    },
+    {
+      "file_id": "d0186",
+      "path": "reference/observed_ledger.csv",
+      "rows": 800
+    },
+    {
+      "file_id": "d0187",
+      "path": "reference/counterfactual_within_added.csv",
+      "rows": 240
+    },
+    {
+      "file_id": "d0188",
+      "path": "reference/counterfactual_salt_added.csv",
+      "rows": 36
+    },
+    {
+      "file_id": "d0191",
+      "path": "reference/observed_batch_repeat.csv",
+      "rows": 1072
+    },
+    {
+      "file_id": "d0192",
+      "path": "reference/check_repeat.csv",
+      "rows": 2
+    },
+    {
+      "file_id": "d0068",
+      "path": "reference/tabulated/d0068.csv",
+      "source_file_id": "d0048",
+      "drug_id": "D06367",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 83
+    },
+    {
+      "file_id": "d0069",
+      "path": "reference/tabulated/d0069.csv",
+      "source_file_id": "d0049",
+      "drug_id": "D00326",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 220
+    },
+    {
+      "file_id": "d0070",
+      "path": "reference/tabulated/d0070.csv",
+      "source_file_id": "d0050",
+      "drug_id": "D00823",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 220
+    },
+    {
+      "file_id": "d0071",
+      "path": "reference/tabulated/d0071.csv",
+      "source_file_id": "d0051",
+      "drug_id": "D07704",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 191
+    },
+    {
+      "file_id": "d0072",
+      "path": "reference/tabulated/d0072.csv",
+      "source_file_id": "d0052",
+      "drug_id": "D00822",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 191
+    },
+    {
+      "file_id": "d0073",
+      "path": "reference/tabulated/d0073.csv",
+      "source_file_id": "d0053",
+      "drug_id": "D07705",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 191
+    },
+    {
+      "file_id": "d0074",
+      "path": "reference/tabulated/d0074.csv",
+      "source_file_id": "d0054",
+      "drug_id": "D02362",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 118
+    },
+    {
+      "file_id": "d0075",
+      "path": "reference/tabulated/d0075.csv",
+      "source_file_id": "d0055",
+      "drug_id": "D02260",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 814
+    },
+    {
+      "file_id": "d0076",
+      "path": "reference/tabulated/d0076.csv",
+      "source_file_id": "d0056",
+      "drug_id": "D05374",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 814
+    },
+    {
+      "file_id": "d0077",
+      "path": "reference/tabulated/d0077.csv",
+      "source_file_id": "d0057",
+      "drug_id": "D05375",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 814
+    },
+    {
+      "file_id": "d0078",
+      "path": "reference/tabulated/d0078.csv",
+      "source_file_id": "d0058",
+      "drug_id": "D02360",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 176
+    },
+    {
+      "file_id": "d0079",
+      "path": "reference/tabulated/d0079.csv",
+      "source_file_id": "d0059",
+      "drug_id": "D00825",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 680
+    },
+    {
+      "file_id": "d0080",
+      "path": "reference/tabulated/d0080.csv",
+      "source_file_id": "d0060",
+      "drug_id": "D02787",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 83
+    },
+    {
+      "file_id": "d0081",
+      "path": "reference/tabulated/d0081.csv",
+      "source_file_id": "d0061",
+      "drug_id": "D07984",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 298
+    },
+    {
+      "file_id": "d0082",
+      "path": "reference/tabulated/d0082.csv",
+      "source_file_id": "d0062",
+      "drug_id": "D00824",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 917
+    },
+    {
+      "file_id": "d0083",
+      "path": "reference/tabulated/d0083.csv",
+      "source_file_id": "d0063",
+      "drug_id": "D04105",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 83
+    },
+    {
+      "file_id": "d0084",
+      "path": "reference/tabulated/d0084.csv",
+      "source_file_id": "d0064",
+      "drug_id": "D07913",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 188
+    },
+    {
+      "file_id": "d0085",
+      "path": "reference/tabulated/d0085.csv",
+      "source_file_id": "d0065",
+      "drug_id": "D02567",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 768
+    },
+    {
+      "file_id": "d0086",
+      "path": "reference/tabulated/d0086.csv",
+      "source_file_id": "d0066",
+      "drug_id": "D03649",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 71
+    },
+    {
+      "file_id": "d0087",
+      "path": "reference/tabulated/d0087.csv",
+      "source_file_id": "d0067",
+      "drug_id": "D05491",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 71
+    },
+    {
+      "file_id": "d0135",
+      "path": "reference/tabulated/d0135.csv",
+      "source_file_id": "d0095",
+      "drug_id": "D03731",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 759
+    },
+    {
+      "file_id": "d0136",
+      "path": "reference/tabulated/d0136.csv",
+      "source_file_id": "d0096",
+      "drug_id": "D00785",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 759
+    },
+    {
+      "file_id": "d0137",
+      "path": "reference/tabulated/d0137.csv",
+      "source_file_id": "d0097",
+      "drug_id": "D08469",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 262
+    },
+    {
+      "file_id": "d0138",
+      "path": "reference/tabulated/d0138.csv",
+      "source_file_id": "d0098",
+      "drug_id": "D02562",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 597
+    },
+    {
+      "file_id": "d0139",
+      "path": "reference/tabulated/d0139.csv",
+      "source_file_id": "d0099",
+      "drug_id": "D10829",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 262
+    },
+    {
+      "file_id": "d0140",
+      "path": "reference/tabulated/d0140.csv",
+      "source_file_id": "d0100",
+      "drug_id": "D10158",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 334
+    },
+    {
+      "file_id": "d0141",
+      "path": "reference/tabulated/d0141.csv",
+      "source_file_id": "d0101",
+      "drug_id": "D10191",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 717
+    },
+    {
+      "file_id": "d0142",
+      "path": "reference/tabulated/d0142.csv",
+      "source_file_id": "d0102",
+      "drug_id": "D04681",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 239
+    },
+    {
+      "file_id": "d0143",
+      "path": "reference/tabulated/d0143.csv",
+      "source_file_id": "d0103",
+      "drug_id": "D01097",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 239
+    },
+    {
+      "file_id": "d0144",
+      "path": "reference/tabulated/d0144.csv",
+      "source_file_id": "d0104",
+      "drug_id": "D03733",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 239
+    },
+    {
+      "file_id": "d0145",
+      "path": "reference/tabulated/d0145.csv",
+      "source_file_id": "d0105",
+      "drug_id": "D05033",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 240
+    },
+    {
+      "file_id": "d0146",
+      "path": "reference/tabulated/d0146.csv",
+      "source_file_id": "d0106",
+      "drug_id": "D02580",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 241
+    },
+    {
+      "file_id": "d0147",
+      "path": "reference/tabulated/d0147.csv",
+      "source_file_id": "d0107",
+      "drug_id": "D07337",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 241
+    },
+    {
+      "file_id": "d0148",
+      "path": "reference/tabulated/d0148.csv",
+      "source_file_id": "d0108",
+      "drug_id": "D08349",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 241
+    },
+    {
+      "file_id": "d0149",
+      "path": "reference/tabulated/d0149.csv",
+      "source_file_id": "d0109",
+      "drug_id": "D00505",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 241
+    },
+    {
+      "file_id": "d0150",
+      "path": "reference/tabulated/d0150.csv",
+      "source_file_id": "d0110",
+      "drug_id": "D08625",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 241
+    },
+    {
+      "file_id": "d0151",
+      "path": "reference/tabulated/d0151.csv",
+      "source_file_id": "d0111",
+      "drug_id": "D00826",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 241
+    },
+    {
+      "file_id": "d0152",
+      "path": "reference/tabulated/d0152.csv",
+      "source_file_id": "d0112",
+      "drug_id": "D02579",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 241
+    },
+    {
+      "file_id": "d0153",
+      "path": "reference/tabulated/d0153.csv",
+      "source_file_id": "d0113",
+      "drug_id": "D08085",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 241
+    },
+    {
+      "file_id": "d0154",
+      "path": "reference/tabulated/d0154.csv",
+      "source_file_id": "d0114",
+      "drug_id": "D07338",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 241
+    },
+    {
+      "file_id": "d0155",
+      "path": "reference/tabulated/d0155.csv",
+      "source_file_id": "d0115",
+      "drug_id": "D08453",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 333
+    },
+    {
+      "file_id": "d0156",
+      "path": "reference/tabulated/d0156.csv",
+      "source_file_id": "d0116",
+      "drug_id": "D02564",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 333
+    },
+    {
+      "file_id": "d0157",
+      "path": "reference/tabulated/d0157.csv",
+      "source_file_id": "d0117",
+      "drug_id": "D00346",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 823
+    },
+    {
+      "file_id": "d0158",
+      "path": "reference/tabulated/d0158.csv",
+      "source_file_id": "d0118",
+      "drug_id": "D01501",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 256
+    },
+    {
+      "file_id": "d0159",
+      "path": "reference/tabulated/d0159.csv",
+      "source_file_id": "d0119",
+      "drug_id": "D02002",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 256
+    },
+    {
+      "file_id": "d0160",
+      "path": "reference/tabulated/d0160.csv",
+      "source_file_id": "d0120",
+      "drug_id": "D09773",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 256
+    },
+    {
+      "file_id": "d0161",
+      "path": "reference/tabulated/d0161.csv",
+      "source_file_id": "d0121",
+      "drug_id": "D01888",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 233
+    },
+    {
+      "file_id": "d0162",
+      "path": "reference/tabulated/d0162.csv",
+      "source_file_id": "d0122",
+      "drug_id": "D03239",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 250
+    },
+    {
+      "file_id": "d0163",
+      "path": "reference/tabulated/d0163.csv",
+      "source_file_id": "d0123",
+      "drug_id": "D03409",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 233
+    },
+    {
+      "file_id": "d0164",
+      "path": "reference/tabulated/d0164.csv",
+      "source_file_id": "d0124",
+      "drug_id": "D04092",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 233
+    },
+    {
+      "file_id": "d0165",
+      "path": "reference/tabulated/d0165.csv",
+      "source_file_id": "d0125",
+      "drug_id": "D02561",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 276
+    },
+    {
+      "file_id": "d0166",
+      "path": "reference/tabulated/d0166.csv",
+      "source_file_id": "d0126",
+      "drug_id": "D02559",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 241
+    },
+    {
+      "file_id": "d0167",
+      "path": "reference/tabulated/d0167.csv",
+      "source_file_id": "d0127",
+      "drug_id": "D05039",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 251
+    },
+    {
+      "file_id": "d0168",
+      "path": "reference/tabulated/d0168.csv",
+      "source_file_id": "d0128",
+      "drug_id": "D05040",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 251
+    },
+    {
+      "file_id": "d0169",
+      "path": "reference/tabulated/d0169.csv",
+      "source_file_id": "d0129",
+      "drug_id": "D08392",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 233
+    },
+    {
+      "file_id": "d0170",
+      "path": "reference/tabulated/d0170.csv",
+      "source_file_id": "d0130",
+      "drug_id": "D08393",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 233
+    },
+    {
+      "file_id": "d0171",
+      "path": "reference/tabulated/d0171.csv",
+      "source_file_id": "d0131",
+      "drug_id": "D02560",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 233
+    },
+    {
+      "file_id": "d0172",
+      "path": "reference/tabulated/d0172.csv",
+      "source_file_id": "d0132",
+      "drug_id": "D02563",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 233
+    },
+    {
+      "file_id": "d0173",
+      "path": "reference/tabulated/d0173.csv",
+      "source_file_id": "d0133",
+      "drug_id": "D02581",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 233
+    },
+    {
+      "file_id": "d0174",
+      "path": "reference/tabulated/d0174.csv",
+      "source_file_id": "d0134",
+      "drug_id": "D03248",
+      "operation": "tabulate TSV: drug1,drug2,class,mechanism",
+      "rows": 233
+    },
+    {
+      "file_id": "d0193",
+      "path": "reference/check_singleton_orientation.csv",
+      "rows": 1
+    }
+  ]
+}

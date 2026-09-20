@@ -1,0 +1,902 @@
+{
+  "completed_at": "2026-09-12T17:49:38.811476+00:00",
+  "review_complete": true,
+  "original_five_task_goal_complete": false,
+  "admitted_new_tasks": 0,
+  "selected_for_redesign": [],
+  "decision_counts": {
+    "continue": 0,
+    "park": 1,
+    "reject_this_direction": 6
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "candidate_id": "iana_dtls_001",
+      "decision": "暂存",
+      "basis": "唯一具体且有原文起点的历史原件缺口；仍不满足继续条件。"
+    },
+    {
+      "rank": 2,
+      "candidate_id": "kegg_module_products_001",
+      "decision": "淘汰本次方向",
+      "basis": "已有必要状态依赖和完整范围，但没有新的自然判断。"
+    },
+    {
+      "rank": 3,
+      "candidate_id": "kegg_prodrug_identity_001",
+      "decision": "淘汰本次方向",
+      "basis": "已有必要状态依赖和完整参考，但GO存在近直接字段路径，未见新证据。"
+    },
+    {
+      "rank": 4,
+      "candidate_id": "scotus_joinder_001",
+      "decision": "淘汰本次改造方向",
+      "basis": "原范围与答案有支持，但没有新状态条件，严格机制仍需独立说明。"
+    },
+    {
+      "rank": 5,
+      "candidate_id": "epmc_quantitative_001",
+      "decision": "淘汰本次改造方向",
+      "basis": "原参考范围有支持，实际跨站字段路径已解决语义边界，无新证据。"
+    },
+    {
+      "rank": 6,
+      "candidate_id": "optimization_guarantee_001",
+      "decision": "淘汰本次改造方向",
+      "basis": "邻近适用性方向重现已知不唯一性，暂无解除原件。"
+    },
+    {
+      "rank": 7,
+      "candidate_id": "arxiv_assumption_scope_001",
+      "decision": "淘汰本次改造方向",
+      "basis": "已用尽两次实质修订，且没有新机会；禁止第三次改造。"
+    }
+  ],
+  "ranking_limit": "Qualitative opportunity triage from independent reports, not a difficulty/success estimate. No qualifying candidate is selected.",
+  "candidates": [
+    {
+      "candidate_id": "iana_dtls_001",
+      "revision": 3,
+      "revisions_used_remaining": {
+        "maximum": 2,
+        "used": 1,
+        "remaining": 1,
+        "editorial_revisions": 1,
+        "interpretation": "r02 editorial; r03 real empty serialization repair. Retain charged substantive count; no reset by new ID."
+      },
+      "full_score_reason": {
+        "class": [
+          "direct registry fields",
+          "discovered identifier-driven batch",
+          "direct document metadata"
+        ],
+        "CG": {
+          "correct_fields": 24,
+          "gold_fields": 24,
+          "seconds": 75.438
+        },
+        "GO": {
+          "correct_fields": 24,
+          "gold_fields": 24,
+          "seconds": 60.396
+        },
+        "summary": "All four identities and references appear together; RFC categories and current draft family revision/lifecycle are near-direct. No evidence of an actual complete fixed-material bypass or local large join."
+      },
+      "mechanism_assessment": {
+        "logical_dependency": "supported",
+        "strict_sgr": "one discovered family/revision record-state interpretation supported; independent target-W/state certification not completed; ordinary RFC traversal alone is insufficient",
+        "difficulty": "easy in both observed A runs",
+        "fixed_material_counterexample": "not established; IANA exports lack document lifecycle; full Datatracker bulk/API coverage unknown",
+        "extra_required_depth": false
+      },
+      "completeness_assessment": {
+        "status": "existing full universe and answer supported; final independent/human audit not performed",
+        "records": 103,
+        "numeric_namespace": [
+          0,
+          65535
+        ],
+        "eligible": 4,
+        "post_A_inventory_and_fields_equal": true,
+        "minor_residual": "candidate.json private empty clause at line59 stale; no impact on current nonempty reference/public output"
+      },
+      "difficulty_hypothesis": "No supported new difficulty claim. Existing incompatibility notice directly answers incompatible, and does not identify historical revision.",
+      "opportunity": {
+        "status": "parked_hypothesis_only",
+        "natural_goal": "Identify the specification actually associated with deprecated early allocation53 so implementers do not apply final allocation54 semantics to it.",
+        "prior_discovery": "RFC9146 sec10.2 says53 belongs to previous version and is incompatible with final RFC.",
+        "subsequent_site_state": "IETF document family historical revision/allocation-event record selected from discovered identity; not yet retrieved.",
+        "necessary_information": "Official versioned primary draft explicitly assigning/using53 and locating relevant compatibility definition.",
+        "one_gap": "Exact historical draft revision/original linking allocation53 to its actual definition.",
+        "minimal_original": "One official historical Internet-Draft original, or official allocation event explicitly identifying that original; URL/revision unknown.",
+        "stop_condition": "No unique revision/allocation correspondence, no necessary result-conditioned site state, or current fixed document already directly supplies complete requested contrast.",
+        "new_evidence_obtained": false,
+        "web_requests": 0
+      },
+      "reusable": [
+        "IANA table/namespace profile",
+        "XML/TXT retrieval experience",
+        "singleton/range and numeric identity parser",
+        "xref types and RFC header parser",
+        "103-record observation and source index",
+        "existing identity/maturity boundaries",
+        "empty serialization repair"
+      ],
+      "recheck": [
+        "53-to-historical-revision original",
+        "compatibility definition and unique scope",
+        "new predicates/reference/pair",
+        "full new observation if time changes",
+        "public/private empty clause alignment"
+      ],
+      "costs": {
+        "new_evidence": {
+          "program_requests_estimate": [
+            1,
+            3
+          ],
+          "model_minutes_cap": [
+            5,
+            15
+          ],
+          "basis": "single missing primary original; success unknown; not launched"
+        },
+        "reference_changes": {
+          "engineering_minutes_estimate": [
+            20,
+            45
+          ],
+          "basis": "reuse current roughly300-line reference registry parser; historical relation evidence new; unmeasured"
+        },
+        "semantic_review": {
+          "model_or_domain_minutes_estimate": [
+            20,
+            45
+          ],
+          "basis": "identity/revision/compatibility must be read; old builder25.27min as scale only"
+        },
+        "full_followup": {
+          "model_sessions_if_all_stages": 13,
+          "stages": {
+            "A": 2,
+            "B": 2,
+            "attack": 2,
+            "independent_audit": 1,
+            "formal": 6
+          },
+          "wall_time": "unknown",
+          "tokens": "unknown",
+          "money": "unknown",
+          "human_audit_time": "unknown",
+          "note": "A pass required for later stages; historical A cannot be reused",
+          "additional_construction": "At least1 Astra/high evidence/reference/pair construction session, separate from13; estimate only."
+        }
+      },
+      "decision": {
+        "action": "暂存",
+        "select_for_continuation": false,
+        "reason": "No new original supports a worth-revising conclusion; only one precise historical-original gap retained."
+      },
+      "evidence_locations": [
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/sources/rfc9146.txt:573-580",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/annotations.json:7,12",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/state_graph.json:18-30",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/reference.py:94-157",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/controller_pre_A_check.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/development_decision.json:7-102",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-r03-go-dev-a/tool_events.jsonl:5-9; ordinals28,31,35,42,45",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-r03-cg-dev-a/tool_events.jsonl:7-14; ordinals36,39,43,50,57,60",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-dtls-builder-01/run.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-r03-go-dev-a/campaign_context.json:9",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/serialization_patch.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/editorial_patch.json"
+      ],
+      "review_group": "registry_law"
+    },
+    {
+      "candidate_id": "kegg_module_products_001",
+      "revision": 1,
+      "revisions_used_remaining": {
+        "used": 0,
+        "remaining": 2,
+        "max": 2,
+        "basis": "construction_pipeline/ten_task_phase/rolling_five_campaign.json:5; full_score_review/inventory.json"
+      },
+      "full_score_reason": {
+        "CG": "前步搜索发现模块ID，集中下载根/links/模块，再读REACTION尾段，完成产品集比较，6/6。",
+        "GO": "先取得direct module links，再按返回ID下载3模块，读模块特定REACTION并本地集合比较，6/6。",
+        "direct_answer": "没有证明完整直接答案页。",
+        "fixed_material": "实际两个完整catalog不含必要联合关系；未知dump未作反例。",
+        "local_join": "模块内提取、按reaction归组/比较是后续计算。",
+        "result_driven_batch": true,
+        "domain_judgment": "模块REACTION的显式产品、箭头方向与generic EQUATION边界。"
+      },
+      "mechanism_assessment": {
+        "verdict": "SGR成立但容易。",
+        "dependency": "direct enzyme-module links结果→模块GET参数→模块特定产品证据。",
+        "no_extra_requirement": "无第二层、特殊回查或永久HTTP重放要求；普通遍历不自动成立。",
+        "full_fixed_counterexample_established": false
+      },
+      "completeness_assessment": {
+        "reference": "原参考重建与pre/post_A全范围结果比较通过，未发现具体遗漏；最终独立审计/人工审核未执行。",
+        "solver": "两面取到三模块及关键REACTION区段；GO长输出截断后补读尾段，未见决定性证据缺失。",
+        "stable_forever": false
+      },
+      "difficulty_hypothesis": {
+        "old_hypothesis": "模块注释可能被通用反应EQUATION替代。",
+        "observed_counterevidence": "两面90–121秒均正确，真实边界没有转化为本次区分度。",
+        "new_hypothesis": "unknown;无新原件，不提出低分预期。"
+      },
+      "opportunity": null,
+      "reusable": [
+        "既有共享限流与合法访问画像",
+        "flat-field续行/终止符解析",
+        "范围与身份检查",
+        "逐项纳排及原件行索引",
+        "当前观察时点来源资产，仅用于构造侧"
+      ],
+      "recheck": [
+        "任何新条件下的完整范围/身份/所有纳排/参考时点",
+        "目标字段和必要证据不得沿用旧条件答案",
+        "所有新模块的ALL_REAC匹配、箭头和产品解析，复杂表达式不能自动排除"
+      ],
+      "costs": {
+        "actual_this_review": {
+          "new_evidence_requests": 0,
+          "reference_modifications": 0,
+          "semantic_redesigns": 0,
+          "validation_model_runs": 0
+        },
+        "new_evidence": {
+          "future_if_unchanged_scope_requests_per_observation": [
+            2,
+            3
+          ],
+          "basis": "实取3组件；2请求合并URL仅合法估计未实取。",
+          "for_undefined_new_opportunity": "unknown"
+        },
+        "reference_modification": {
+          "future_model_sessions_min_if_real_redesign": 1,
+          "model": "gpt-6-astra/high",
+          "historical_builder_seconds": 735.249,
+          "historical_input_tokens": 73083,
+          "historical_output_tokens": 22140,
+          "new_scope_cost_range": "unknown;历史非保证"
+        },
+        "semantic_recheck": {
+          "program": "完整记录覆盖、续行、集合和差异",
+          "model": "3相关模块反应行及单模块/缺失边界",
+          "new_scope_cost_range": "unknown"
+        },
+        "complete_followup_validation": {
+          "sessions": 13,
+          "breakdown": {
+            "A": 2,
+            "B": 2,
+            "attacks": 2,
+            "independent_final_audit": 1,
+            "formal": 6
+          },
+          "historical_A_not_credit": true,
+          "construction_extra_min": 1,
+          "wall_tokens_money": "unknown",
+          "A_duration_proxy_for_12_solver_sessions_minutes": [
+            18.09,
+            24.15
+          ],
+          "proxy_warning": "不是预测/上界；攻击与正式未实测，终审/人工审核/取证另计。"
+        },
+        "historical_A": {
+          "elapsed_seconds": [
+            120.763,
+            90.434
+          ],
+          "input_tokens": [
+            492369,
+            352971
+          ],
+          "output_tokens": [
+            2138,
+            1863
+          ]
+        }
+      },
+      "decision": {
+        "action": "淘汰本次方向",
+        "selected_for_redesign": false,
+        "reason": "暂无新证据支持值得改造，旧自然边界已经纳入且A两面满分。",
+        "one_gap_to_reopen": "同一自然目标下新必要证据及真实边界，须实证前步发现→后步专门网站检索状态→必要信息。",
+        "permanent_ecosystem_rejection": false
+      },
+      "evidence_locations": [
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/r01/development_decision.json:7",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/r01/design_rationale.md:1",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/r01/controller_integration_check.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/r01/controller_pre_A_stability.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/r01/controller_post_A_stability.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-module-products-r01-cg-dev-a/tool_events.jsonl:10,21-24",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-module-products-r01-go-dev-a/tool_events.jsonl:13-20",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_module_products_001/sources/modules.txt:656,852,1148"
+      ],
+      "proposal": null,
+      "review_group": "kegg"
+    },
+    {
+      "candidate_id": "kegg_prodrug_identity_001",
+      "revision": 1,
+      "revisions_used_remaining": {
+        "used": 0,
+        "remaining": 2,
+        "max": 2,
+        "basis": "construction_pipeline/ten_task_phase/rolling_five_campaign.json:5; full_score_review/inventory.json"
+      },
+      "full_score_reason": {
+        "CG": "完整DG发现四成员，逐项GET/读取后own COMMENT与D身份核对，4/4。",
+        "GO": "公开搜索结果与D00752页面已给全部4输出字段；以hsa:3615展开代替完整DG，范围和部分排除证据未充分核实，仍与gold完全相同。",
+        "direct_answer": "前药GO存在近直接字段暴露；不等于完整固定材料覆盖全部研究义务。",
+        "fixed_material": "br08324部分覆盖，未证明完整覆盖。",
+        "local_join": "成员字段提取/排序是后续计算，非检索依赖本身。",
+        "result_driven_batch": true,
+        "domain_judgment": "盐型身份、own COMMENT与组级关系归属。"
+      },
+      "mechanism_assessment": {
+        "verdict": "SGR成立但容易；GO成功分数与轨迹完整性不足并存。",
+        "dependency": "DG Member结果→D GET参数→own COMMENT/目标身份。",
+        "no_extra_requirement": "无第二层、特殊回查或永久HTTP重放要求；普通遍历不自动成立。",
+        "full_fixed_counterexample_established": false
+      },
+      "completeness_assessment": {
+        "reference": "原参考重建与pre/post_A全范围结果比较通过，未发现具体遗漏；最终独立审计/人工审核未执行。",
+        "solver": "CG有完整DG/四D；GO缺完整DG和部分成员完整当前记录，不能证明全义务完成。",
+        "stable_forever": false
+      },
+      "difficulty_hypothesis": {
+        "old_hypothesis": "身份与自身关系边界可能被误读。",
+        "observed_counterevidence": "CG完整短路径75秒答对，GO近直接字段105秒答对。",
+        "new_hypothesis": "unknown;无新原件，不提出低分预期。"
+      },
+      "opportunity": null,
+      "reusable": [
+        "既有共享限流与合法访问画像",
+        "flat-field续行/终止符解析",
+        "范围与身份检查",
+        "逐项纳排及原件行索引",
+        "当前观察时点来源资产，仅用于构造侧"
+      ],
+      "recheck": [
+        "任何新条件下的完整范围/身份/所有纳排/参考时点",
+        "目标字段和必要证据不得沿用旧条件答案",
+        "若前药target在组外，拆开成员档案和目标档案；现有集合相等断言不能直接扩用"
+      ],
+      "costs": {
+        "actual_this_review": {
+          "new_evidence_requests": 0,
+          "reference_modifications": 0,
+          "semantic_redesigns": 0,
+          "validation_model_runs": 0
+        },
+        "new_evidence": {
+          "future_if_unchanged_scope_requests_per_observation": [
+            2,
+            5
+          ],
+          "basis": "DG+四D batch；逐项5请求。",
+          "for_undefined_new_opportunity": "unknown"
+        },
+        "reference_modification": {
+          "future_model_sessions_min_if_real_redesign": 1,
+          "model": "gpt-6-astra/high",
+          "historical_builder_seconds": 518.68,
+          "historical_input_tokens": 34208,
+          "historical_output_tokens": 16810,
+          "new_scope_cost_range": "unknown;历史非保证"
+        },
+        "semantic_recheck": {
+          "program": "完整记录覆盖、续行、集合和差异",
+          "model": "4成员own关系归属/盐型/排除",
+          "new_scope_cost_range": "unknown"
+        },
+        "complete_followup_validation": {
+          "sessions": 13,
+          "breakdown": {
+            "A": 2,
+            "B": 2,
+            "attacks": 2,
+            "independent_final_audit": 1,
+            "formal": 6
+          },
+          "historical_A_not_credit": true,
+          "construction_extra_min": 1,
+          "wall_tokens_money": "unknown",
+          "A_duration_proxy_for_12_solver_sessions_minutes": [
+            15.08,
+            21.12
+          ],
+          "proxy_warning": "不是预测/上界；攻击与正式未实测，终审/人工审核/取证另计。"
+        },
+        "historical_A": {
+          "elapsed_seconds": [
+            75.425,
+            105.617
+          ],
+          "input_tokens": [
+            326538,
+            476895
+          ],
+          "output_tokens": [
+            1596,
+            2162
+          ]
+        }
+      },
+      "decision": {
+        "action": "淘汰本次方向",
+        "selected_for_redesign": false,
+        "reason": "暂无新证据支持值得改造，旧自然边界已经纳入且A两面满分。",
+        "one_gap_to_reopen": "同一自然目标下新必要证据及真实边界，须实证前步发现→后步专门网站检索状态→必要信息。",
+        "permanent_ecosystem_rejection": false
+      },
+      "evidence_locations": [
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_prodrug_identity_001/r01/development_decision.json:7",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_prodrug_identity_001/r01/design_rationale.md:1",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_prodrug_identity_001/r01/controller_integration_check.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_prodrug_identity_001/r01/controller_pre_A_stability.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/kegg_prodrug_identity_001/r01/controller_post_A_stability.json:2",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-prodrug-r01-cg-dev-a/tool_events.jsonl:12-18",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-prodrug-r01-go-dev-a/tool_events.jsonl:8,12,16,18,20,22",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-prodrug-r01-go-dev-a/events.jsonl:27"
+      ],
+      "proposal": null,
+      "review_group": "kegg"
+    },
+    {
+      "candidate_id": "scotus_joinder_001",
+      "revision": 1,
+      "revisions_used_remaining": {
+        "maximum": 2,
+        "used": 0,
+        "remaining": 2
+      },
+      "full_score_reason": {
+        "class": [
+          "discovered case-PDF batch",
+          "concentrated direct attribution evidence",
+          "small local named-set counting",
+          "correct domain ownership judgment"
+        ],
+        "CG": {
+          "correct_fields": 9,
+          "gold_fields": 9,
+          "seconds": 130.921
+        },
+        "GO": {
+          "correct_fields": 9,
+          "gold_fields": 9,
+          "seconds": 80.618
+        },
+        "summary": "Term/date discovers3 cases. Syllabus attribution supplies unrestricted and divided named groups; author-inclusive min/max yields all values. CG extra search is source version/path recovery."
+      },
+      "mechanism_assessment": {
+        "logical_dependency": "supported: selected case identities condition document batch",
+        "strict_sgr": "term/release scope to document-record selection evidenced; correspondence to Method site-conditioned exposure remains insufficiently independently validated, not disproven",
+        "difficulty": "easy in both observed A runs",
+        "fixed_material_counterexample": "not established; inspected journal lacks complete joinder, inspected Orders PDF is wrong page scope, GovInfo coverage unknown",
+        "static_pdf_is_not_disproof": true,
+        "extra_required_depth": false
+      },
+      "completeness_assessment": {
+        "status": "existing scope/count evidence supported; final independent/human audit not performed",
+        "dated_term_records": 58,
+        "selected_cases": 3,
+        "named_groups": 4,
+        "post_A_inventory_and_fields_equal": true,
+        "unresolved_in_reference": []
+      },
+      "difficulty_hypothesis": "Existing Counterman ownership and Mallory part boundaries are already included and solved. No new evidence-backed natural retrieval judgment found.",
+      "opportunity": null,
+      "reusable": [
+        "term-table/date/category/R parser",
+        "58-record observed universe",
+        "docket/print identity checks",
+        "PDF-text provenance and anchor index",
+        "named Justice roster/part parser for its two observed formats",
+        "three-case scope/ownership annotations"
+      ],
+      "recheck": [
+        "any enlarged category/date universe",
+        "new attribution syntax and ownership",
+        "version-dependent claims",
+        "new answer predicates/reference/pair",
+        "all revised task testing"
+      ],
+      "costs": {
+        "new_evidence": {
+          "recommended_now": 0,
+          "conditional_after_specific_original": {
+            "requests": [
+              1,
+              3
+            ],
+            "model_minutes_cap": [
+              5,
+              15
+            ]
+          },
+          "target": "unknown; no request should launch now"
+        },
+        "reference_changes": {
+          "recommended_now": 0,
+          "conditional_total": "unknown",
+          "basis": "no new concrete predicates; current parser is not a universal opinion parser"
+        },
+        "semantic_review": {
+          "recommended_now": 0,
+          "conditional_total": "unknown"
+        },
+        "historical_basis": {
+          "feasibility_seconds": 282.356,
+          "builder_seconds": 740.483
+        },
+        "full_followup": {
+          "model_sessions_if_all_stages": 13,
+          "stages": {
+            "A": 2,
+            "B": 2,
+            "attack": 2,
+            "independent_audit": 1,
+            "formal": 6
+          },
+          "wall_time": "unknown",
+          "tokens": "unknown",
+          "money": "unknown",
+          "human_audit_time": "unknown",
+          "additional_construction": "At least1 Astra/high evidence/reference/pair construction session, separate from13; estimate only."
+        }
+      },
+      "decision": {
+        "action": "淘汰本次改造方向",
+        "select_for_continuation": false,
+        "reason": "No new original or natural indispensable retrieval condition beyond already solved3 PDFs. Does not reject all court tasks or assert fixed-material disproof of old mechanism.",
+        "reopen_evidence": "A specific official subsequent record showing an actual formal-attribution identity/version scope requires result-conditioned selection of another official record and is not direct synthesis of current3 PDFs."
+      },
+      "evidence_locations": [
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/development_decision.json:7-90",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/annotations.json:14-21,33-41,56-64",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/state_graph.json:3-20",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/reference.py:93-115,135-148,197-257,279-297",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/pre_A_rebuild/execution_checks.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/controller_pre_A_stability.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/controller_post_A_stability.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-r01-go-dev-a/tool_events.jsonl:1-10; ordinals14,17,23,26,33,39,46,49",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-r01-cg-dev-a/tool_events.jsonl:3-30; ordinals23,26,77,80,89,92,101,104,110,113",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-joinder-builder-01/run.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-opinion-coalitions-feasibility-01/run.json"
+      ],
+      "review_group": "registry_law"
+    },
+    {
+      "candidate_id": "epmc_quantitative_001",
+      "revision": 2,
+      "substantive_revisions_used": 1,
+      "substantive_revisions_remaining": 1,
+      "full_score_reason": {
+        "scores": "CG和GO均7/7字段、1/1行；P.O.A.=0源于无可比较行对，不是排序失败。",
+        "CG": "PubMed搜索发现两通知；点击PubMed的出版社/原文链接，一次返回同时提供更正271/491及原文730/581、baseline SCID-5和问卷返回条件；后续补PMCID。EUtils/EPMC定向访问失败，未走reference的完整年度API→XML路线。",
+        "GO": "搜索发现两通知，Springer两更正正文排除作者名更正，Springer原文和PubMed补全部字段，最后打开Springer期目录核查两通知。",
+        "cause": "help/admission、non-depressed/outpatient、initial/analyzed和baseline/prospective均有直接原文解释，两个实际解均处理正确。"
+      },
+      "mechanism_assessment": "reference有年度索引返回期成员与PMCID→结果驱动fullTextXML→正文独有总体/纳入条件的依赖。24篇batch依然以前步PMCID为请求参数，不能判其自动消除依赖。但实际Sol答案承载证据主要在Springer/PubMed，已出现不依赖目标Europe PMC状态的答案路径；不能以reference路线代替实际Sol路线，亦不能因EPMC访问失败推断来源不存在。不追加第二层依赖。",
+      "completeness_assessment": "pre_A_rebuild记载360年度、47期记录、24 PMCID、2通知、1输出，纳排和一致性检查通过，post_A保留完整范围比较。Sol的Springer目录只支持其列出两通知，不独立证明与EPMC47身份全等；既定7字段满分不等于独立证明索引全集。人审/独立最终审计未完成。",
+      "difficulty_hypothesis": "原有自然语义边界真实，但已两面全部解决。增加分母、百分比或更正前后数值只加读表/计算，暂无新证据支持诊断性SGR。",
+      "opportunity": {
+        "status": "none",
+        "finding": "暂无值得改造依据。最近自然需求“更正数字属于哪一人群”已由现题覆盖；没有已见新原件、新版本或必需字段解除跨站易解结论。",
+        "evidence_to_state_to_information": null,
+        "boundary": "作者名更正与help/admission为现存边界，不能重复算新证据。",
+        "network_hypothesis": null
+      },
+      "reusable": [
+        "年度/期索引原始响应、两通知/原文XML、DOI/PMCID连接和通用XML解析",
+        "reference.py的完整纳排、全范围稳定性比较和现有安全检查",
+        "7字段定义、原始高分、现有来源/边界证据"
+      ],
+      "recheck": [
+        "改题后必须重核纳入谓词、每条通知正文、身份范围、人群/分母语义及受影响oracle，不能移植一行旧gold",
+        "现场索引变化须重核完整答案相关范围及评估期稳定性；不要求永久公开HTTP重放"
+      ],
+      "costs": {
+        "unit": "minutes; conditional estimates, not measured",
+        "new_evidence": {
+          "model_minutes": [
+            10,
+            25
+          ],
+          "program_minutes": [
+            2,
+            8
+          ],
+          "requests": [
+            0,
+            4
+          ]
+        },
+        "reference": {
+          "model_minutes": [
+            15,
+            35
+          ],
+          "program_minutes": [
+            2,
+            10
+          ]
+        },
+        "semantic_check": {
+          "model_minutes": [
+            15,
+            30
+          ],
+          "program_minutes": [
+            2,
+            8
+          ]
+        },
+        "future_full_validation": {
+          "model_session_minutes": [
+            75,
+            180
+          ],
+          "program_minutes": [
+            5,
+            20
+          ],
+          "model_sessions_full": 13,
+          "protocol": "A2+B2+攻击2+独立最终审计1+正式6",
+          "additional_construction_sessions_min": 1,
+          "additional_construction_model": "Astra/high",
+          "A_only_if_full_scores": 2,
+          "run_now": false
+        },
+        "note": "当前决定不启动，新增执行为0。估计为同规模材料获授权重开后的工作量参照，不是成功率/账户费用；模型分钟为累计会话时间。旧A不能抵扣新版本A。取证/参考/配对另需至少1个Astra/high会话。tokens和周额度未知。"
+      },
+      "decision": {
+        "action": "淘汰本次改造方向",
+        "reason": "双满分且实际跨站答案路径成立；现有边界已解决，没有新证据值得用最后一次实质修订。保留材料和全部高分，不靠加行/条件抽低分。",
+        "reopen": "本次不暂存。以后若获授权且出现不同必要状态证据的新原件，仍按原ID累计修订再判断。"
+      },
+      "evidence_locations": [
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/epmc_quantitative_001/r02/development_decision.json:7–102",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/epmc_quantitative_001/r02/design_rationale.md:9–23",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/epmc_quantitative_001/r02/revision_notes.md:5–19",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/epmc_quantitative_001/r02/reference.py:155–237",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/epmc_quantitative_001/r02/pre_A_rebuild/execution_report.json:2–21",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/epmc-r02-cg-dev-a/sessions/rollout-2026-09-12T06-11-22-01a0943d-f22f-7fd0-b875-1801c044ef8e.jsonl:57–60, call_RG1yx8GSC5FRlZPqOYPEezee, source L57–65/L98–102",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/epmc-r02-cg-dev-a/sessions/rollout-2026-09-12T06-11-22-01a0943d-f22f-7fd0-b875-1801c044ef8e.jsonl:22–25 and 87–90, explicit non-retryable access failures",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/epmc-r02-go-dev-a/sessions/rollout-2026-09-12T06-11-23-01a0943d-f6b0-70d1-a7cd-bbe2bf0174f5.jsonl:66–76, calls call_4AXsKn8u2MjQ7JgXdF0t7fbr and call_NUCclCyHEBVNFY6BF7EXy6BP",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/epmc-r02-go-dev-a/sessions/rollout-2026-09-12T06-11-23-01a0943d-f6b0-70d1-a7cd-bbe2bf0174f5.jsonl:91–94, call_ijI0kHFTcTxAVdm5O34g4bU7, issue source L469–483",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/epmc-r02-cg-dev-a/events.jsonl:30",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/epmc-r02-go-dev-a/events.jsonl:25"
+      ],
+      "review_group": "papers"
+    },
+    {
+      "candidate_id": "optimization_guarantee_001",
+      "revision": 2,
+      "substantive_revisions_used": 1,
+      "substantive_revisions_remaining": 1,
+      "full_score_reason": {
+        "scores": "两面均18/18字段、3/3行、P.O.A.=1。",
+        "CG": "从搜索所得UC Davis托管survey PDF读完整ZO-SCG bullet和bibliography，按题名检索三作并合并[41]/[44]；读official history和所选HTML，查询式、gap定义与Theorem 2.1(1)/4.8/3.6提供全部字段。16次exec。",
+        "GO": "survey bullet/refs→题名搜索/三官方history→三版HTML，定点读gap式和定理，再以1809v1标题核对合并、survey history核对截止。12次exec。",
+        "cause": "r02限定主声明并排除证明有效性，已知冲突不再改变纳排。随机方向≠sample noise、minimum/expectation、gap下标位移均两面正确。"
+      },
+      "mechanism_assessment": "存在bullet引用标题→原作身份/history→原文query/gap的普通检索依赖，但不自动满足严格SGR。实际截止版本v2/v2/v3均等于观测时当前最新版，截止过滤未见选择非默认答案承载版本。1809v1切换用于旧标题合并身份，是真实状态证据；其存在仍不能自动把整条以当前静态正文为主的综合路径判严格SGR必要性已确立。无需新增第二层分支；这里只保守拒绝由普通citation链推出严格合格。",
+      "completeness_assessment": "完整bullet有4引用，题名/作者/共同arXiv身份合为3作；reference解析版本、query和gap域并保留执行通过。source_manifest为选段及明确UNFETCHED间隙，不宣称全PDF逐行审计或会议稿与预印本等同。r01适用性不唯一仍成立；r02是主声明转录，不是数学保证认证。独立最终审计/人审未完成。",
+      "difficulty_hypothesis": "定理选择、重复身份和期望/最小值边界真实但已双满分。恢复算法适用性会重现r01不唯一，而非得到合法困难。",
+      "opportunity": {
+        "status": "none",
+        "finding": "暂无值得改造依据。唯一相邻自然需求是核对声明与算法/证明的实际适用关系，但现存冲突正是r01已知停因，不是新证据。没有新作者勘误或权威原件消解它。",
+        "evidence_to_state_to_information": null,
+        "boundary": "1810.03233v3主定理A4–A6与Lemma E.1的A3–A6冲突，A3包含convex；算法与证明参数日程亦不一致。不能自选typo修复以制造唯一oracle。",
+        "network_hypothesis": null
+      },
+      "reusable": [
+        "survey完整bullet/bibliography、三作及1809v1题名身份、official history",
+        "citation_universe/resolve/history选择、query/gap域提取器、公开主声明范围",
+        "r01 stop及冲突原件、r02选段/执行记录与原高分"
+      ],
+      "recheck": [
+        "若未来有勘误，需重核声明、假设、算法日程、证明范围及问题定义；旧r02转录答案不成为适用性答案",
+        "新SGR主张须指出前步证据→目标站状态操作→必要信息；不能加率/排名/行数/引用层数替代"
+      ],
+      "costs": {
+        "unit": "minutes; conditional estimates, not measured",
+        "new_evidence": {
+          "model_minutes": [
+            15,
+            30
+          ],
+          "program_minutes": [
+            2,
+            8
+          ],
+          "requests": [
+            0,
+            4
+          ]
+        },
+        "reference": {
+          "model_minutes": [
+            20,
+            45
+          ],
+          "program_minutes": [
+            2,
+            10
+          ]
+        },
+        "semantic_check": {
+          "model_minutes": [
+            30,
+            60
+          ],
+          "program_minutes": [
+            2,
+            8
+          ]
+        },
+        "future_full_validation": {
+          "model_session_minutes": [
+            90,
+            240
+          ],
+          "program_minutes": [
+            5,
+            20
+          ],
+          "model_sessions_full": 13,
+          "protocol": "A2+B2+攻击2+独立最终审计1+正式6",
+          "additional_construction_sessions_min": 1,
+          "additional_construction_model": "Astra/high",
+          "A_only_if_full_scores": 2,
+          "run_now": false
+        },
+        "note": "当前决定不启动，新增执行为0。估计为同规模材料获授权重开后的工作量参照，不是成功率/账户费用；模型分钟为累计会话时间。旧A不能抵扣新版本A。取证/参考/配对另需至少1个Astra/high会话。tokens和周额度未知。"
+      },
+      "decision": {
+        "action": "淘汰本次改造方向",
+        "reason": "主声明方向双满分；邻近适用性仍有旧不唯一性且无新原件，严格SGR也不能只凭citation链推定。并非仅缺一个可补字段的暂存情形，不值得最后一次修订。",
+        "reopen": "不把未知勘误当存在；未来原件即使解开旧冲突，仍需另证自然需求与必要状态依赖，修订累计不重置。"
+      },
+      "evidence_locations": [
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/optimization_guarantee_001/revision_history.json:1–13",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/optimization_guarantee_001/r01/stop.json:10–16",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/optimization_guarantee_001/r02/design_rationale.md:1–11",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/optimization_guarantee_001/r02/reference_report.md:3–17",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/optimization_guarantee_001/r02/source_manifest.json:6–16",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/optimization_guarantee_001/r02/reference.py:104–152,176–245,284–304",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/optimization_guarantee_001/sources/1810.03233v3.excerpt.txt:266 and 657",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/optimization_guarantee_001/sources/1810.03233v3.additional.excerpt.txt:3",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-cg-dev-a/sessions/rollout-2026-09-12T15-37-22-01a09644-2252-7dd1-987d-825d3e16b37d.jsonl:24–38, survey PDF and bibliography source L1032–1048",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-cg-dev-a/sessions/rollout-2026-09-12T15-37-22-01a09644-2252-7dd1-987d-825d3e16b37d.jsonl:101–104, call_UkYOeNbuUpb9xbRu0Q5oTEu7, Theorem3.6 source L373–377",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-go-dev-a/sessions/rollout-2026-09-12T15-37-23-01a09644-23e8-7ea3-a636-58117a54d20a.jsonl:45–57, call_pkgXaEBL0H7QkwxfdXTCJvL9 histories→call_A8qxXVbWyOC3BdnEawPpQcge HTMLs",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-go-dev-a/sessions/rollout-2026-09-12T15-37-23-01a09644-23e8-7ea3-a636-58117a54d20a.jsonl:61–78, gap and theorem originals",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-go-dev-a/sessions/rollout-2026-09-12T15-37-23-01a09644-23e8-7ea3-a636-58117a54d20a.jsonl:89–99, v1 title and survey cutoff",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-cg-dev-a/events.jsonl:36",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-go-dev-a/events.jsonl:29"
+      ],
+      "review_group": "papers"
+    },
+    {
+      "candidate_id": "arxiv_assumption_scope_001",
+      "revision": 3,
+      "substantive_revisions_used": 2,
+      "substantive_revisions_remaining": 0,
+      "full_score_reason": {
+        "scores": "两面均12/12字段、3/3行、P.O.A.=1。",
+        "CG": "题名/作者搜索确定1705.08366；官方history列v1/v2/v3；批量打开三版HTML/PDF；find定义、main result、erratum，最后读取v3更正和v1定义。",
+        "GO": "history→三版HTML→find→v3更正；每面5次exec。ANY_T/rank t与MATCHED_T/rank 2t直接写在定义，Definition 11包含基本条件，corrected Theorem 8明确2-very general position。",
+        "cause": "版本内精确提取和勘误优先级即可作答，不要求验证证明。"
+      },
+      "mechanism_assessment": "官方history揭示版本全集→切换版本内容→取得当前默认v3不能代替的v1定义和各版本局部勘误，是有条件成立的狭窄版本状态依赖；批量三版不消除history前步。v3内Definition 11→更正定理本身为文内阅读，不另算网站状态。机制有条件成立不等于难度合格。",
+      "completeness_assessment": "history完整三版，reference.py 101–127校验版本/时间和注释全集；143–180解析矩阵、秩、主定理与同版更正。rebuilt/preblind_checks明确已执行通过。只支持作者声明的唯一转录，不验证几何定义或证明；独立最终审计/人审未完成。",
+      "difficulty_hypothesis": "版本差异和强条件包含弱条件是真边界，但两面近直接全对。跨论文反例、增加量词或删提示均无当前依据，而且两次实质修订已用尽。",
+      "opportunity": {
+        "status": "none",
+        "finding": "暂无值得改造依据。r03是第二且最后实质修订。v3 Example 12的反例引用至多是普通引用线索，不授权第三次改造，也不证明新SGR。",
+        "evidence_to_state_to_information": null,
+        "boundary": "v1与v2/v3开头reduced词语差异已在r03修复；不能推断v1允许non-reduced或几何等价。",
+        "network_hypothesis": null
+      },
+      "reusable": [
+        "官方history、三版原PDF/文本、v3HTML、版本时间与身份解析",
+        "矩阵/秩/勘误优先级证据及CG/GO语义检查",
+        "r01/r02/r03修订历史、原失败、两面满分"
+      ],
+      "recheck": [
+        "后来版本或新研究需求均须重核版本全集和定义/定理/勘误作用域，不移植旧三行答案",
+        "本协议禁止第三次实质修订，不得改ID重置额度"
+      ],
+      "costs": {
+        "unit": "minutes; conditional estimates, not measured",
+        "new_evidence": {
+          "model_minutes": [
+            10,
+            20
+          ],
+          "program_minutes": [
+            2,
+            8
+          ],
+          "requests": [
+            0,
+            4
+          ]
+        },
+        "reference": {
+          "model_minutes": [
+            10,
+            25
+          ],
+          "program_minutes": [
+            2,
+            10
+          ]
+        },
+        "semantic_check": {
+          "model_minutes": [
+            15,
+            30
+          ],
+          "program_minutes": [
+            2,
+            8
+          ]
+        },
+        "future_full_validation": {
+          "model_session_minutes": [
+            60,
+            150
+          ],
+          "program_minutes": [
+            5,
+            20
+          ],
+          "model_sessions_full": 13,
+          "protocol": "A2+B2+攻击2+独立最终审计1+正式6",
+          "additional_construction_sessions_min": 1,
+          "additional_construction_model": "Astra/high",
+          "A_only_if_full_scores": 2,
+          "run_now": false
+        },
+        "note": "当前决定不启动，新增执行为0。估计为同规模材料获授权重开后的工作量参照，不是成功率/账户费用；模型分钟为累计会话时间。旧A不能抵扣新版本A。取证/参考/配对另需至少1个Astra/high会话。tokens和周额度未知。",
+        "revision_limit": "成本仅为同规模材料参照；本题第三次修订和相应验证不允许启动，本轮合法新增执行为[0,0]。"
+      },
+      "decision": {
+        "action": "淘汰本次改造方向",
+        "reason": "两次修订额度明确耗尽，两面各5次exec满分，无新的实际错误或来源机会。",
+        "reopen": "本轮不重开；用户明确改变修订政策也仅解除程序限制，不自动提供内容或难度依据。"
+      },
+      "evidence_locations": [
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/arxiv_assumption_scope_001/r02/revision_notes.md:1–9",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/arxiv_assumption_scope_001/r03/revision_notes.md:1–9",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/arxiv_assumption_scope_001/r03/repair_review.json:4–18",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/arxiv_assumption_scope_001/r03/reference.py:101–180",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/arxiv_assumption_scope_001/r03/rebuilt/preblind_checks.json:475–485",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/arxiv_assumption_scope_001/sources/v1.txt:162–163",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/arxiv_assumption_scope_001/sources/v2.txt:186–187",
+        "construction_pipeline/ten_task_phase/rolling_five/candidates/arxiv_assumption_scope_001/sources/v3.txt:428 and 486–487",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-r03-cg-dev-a/sessions/rollout-2026-09-12T06-18-22-01a09444-5a46-7052-be0f-c737b3602c44.jsonl:22–32, calls call_AnonGlxGYA1lKJNp0Lx8BLlv and call_WUXGAFv4OTyxqkT0OapNsMS6, history source L28–30",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-r03-cg-dev-a/sessions/rollout-2026-09-12T06-18-22-01a09444-5a46-7052-be0f-c737b3602c44.jsonl:36–46, find and original follow-up",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-r03-go-dev-a/sessions/rollout-2026-09-12T06-18-33-01a09444-82fd-70b2-846d-478baec88146.jsonl:22–32, history→three HTML versions",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-r03-go-dev-a/sessions/rollout-2026-09-12T06-18-33-01a09444-82fd-70b2-846d-478baec88146.jsonl:45–48, call_xF38FF1WQqqH6xeoRVdZ0sQy, source L295–297/L331–334",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-r03-cg-dev-a/events.jsonl:14",
+        "construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-r03-go-dev-a/events.jsonl:14"
+      ],
+      "review_group": "papers"
+    }
+  ],
+  "new_tests": 0,
+  "new_source_requests": 0,
+  "stop_after_review": true
+}

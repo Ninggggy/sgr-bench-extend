@@ -1,0 +1,18 @@
+{
+  "preservation":"All inherited raw artifacts remain in their original namespace according to d0253.response. This list summarizes failures without replacing their actual responses.",
+  "inherited":[
+    {"evidence":"d0071.response and its inherited source artifacts","failure":"Annual API start=10000 returned HTTP 500; successful overlapping monthly pages completed the original scope."},
+    {"evidence":"d0071.response","failure":"Prior arxiv.org API redirect rejection and OAI ListRecords/Kaggle unsafe-open failures; not reopened here."},
+    {"evidence":"d0071.response","failure":"Official bulk documentation registered download rejected by configured-source restriction; documentation obtained through public web tool."},
+    {"evidence":"d0071.response","failure":"OAI example click invalid-arguments error; registered GetRecord configured-source rejection; web GetRecord non-retryable unsafe-open error. No fabricated HTTP body/status."},
+    {"evidence":"d0006.response and inherited audit","failure":"Prior independent-regex scope discrepancy retained; final programs independently reconstruct the full raw scope."},
+    {"evidence":"d0136.response–d0142.response and original controller artifacts","failure":"Worker146 incomplete prefix dispositions and original omission-program filename failure retained. User reports corrected programs passed using d0114.jsonl; this does not mean the final programs were executed."},
+    {"evidence":"d0221.response","failure":"TLS EOF for 2010.00297 source page; not interpreted as negative withdrawal status."}
+  ],
+  "this_session":[
+    {"action":"Registered download of Wiley DOI page","result":"ValueError: Only configured official-source HTTPS URLs are supported","http_status":null,"raw_file":null},
+    {"action":"Public web open of Wiley /doi/abs/10.1049/cit2.12111","result":"HTTP 403","subsequent_action":"Canonical /doi/10.1049/cit2.12111 public web open succeeded; actual response preserved by controller."},
+    {"action":"Retry source 2010.00297","result":"HTTP 200, d0260.response; current record active","original_failure_preserved":"d0221.response"}
+  ],
+  "not_failures_or_scores":"Successful HTML retrieval is not eligibility. Mechanical review coverage is not semantic correctness. Python non-execution is explicitly pending controller work, not a fabricated test pass. No solver or scorer calls were made."
+}

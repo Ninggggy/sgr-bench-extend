@@ -1,0 +1,17 @@
+{
+  "at": "2026-09-09T11:35:49.755927+00:00",
+  "run_id": "r-epmc-reuse-r01-cg-dev-a",
+  "Item-F1": 0,
+  "predicted_pair": [
+    "PMC7934477",
+    "GSE138525"
+  ],
+  "oracle_pair": [
+    "PMC8140091",
+    "GSE165306"
+  ],
+  "observed_progress": "Correctseedaccession, foundrealmatrix-reuse/newexperimentaldepositinabroaderkeywordarticle; returnedarticleisoutsideexplicitaccession-indexpool.",
+  "confounding": "NativewebAPIopensfailed; noMCPdatatoolcallmade despiteuniformavailabletoolsandstageinstructions. Mustnotcountaccessfailurealoneassubstantivedifficulty.",
+  "substantive_error_audit": "pending; requires distinguishingunsupportedclaimedscopemembership fromenvironment-onlyfailure and checkinglaterdevelopment/attackwithsuccessfulsourceacquisition.",
+  "not_admission_score": true
+}

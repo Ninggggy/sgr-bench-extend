@@ -1,0 +1,61 @@
+group_id,drug_id,name_as_reported,source_file_id,source_line
+DG01568,D00346,Isoniazid (JP19/USP/INN)  <JP/US>,d0041,70
+DG01568,D00505,Phenelzine sulfate (USP)  <US>,d0041,58
+DG01568,D00785,Selegiline hydrochloride (JAN/USP)  <JP/US>,d0041,40
+DG01568,D00826,Tranylcypromine sulfate (USP)  <US>,d0041,61
+DG01568,D01097,Lazabemide hydrochloride (JAN/USAN),d0041,50
+DG01568,D01501,Isoniazid calcium pyruvinate (JAN),d0041,71
+DG01568,D01888,Safrazine hydrochloride (JAN),d0041,74
+DG01568,D02002,Isoniazid sodium methanesulfonate hydrate (JAN),d0041,72
+DG01568,D02559,Toloxatone (INN),d0041,80
+DG01568,D02560,Brofaromine (INN),d0041,87
+DG01568,D02561,Moclobemide (USAN/INN),d0041,79
+DG01568,D02562,Rasagiline mesylate (USAN); Rasagiline mesilate (JAN)  <JP/US>,d0041,43
+DG01568,D02563,Befloxatone (INN),d0041,88
+DG01568,D02564,Pargyline hydrochloride (USAN),d0041,68
+DG01568,D02579,Iproniazid (INN),d0041,63
+DG01568,D02580,Isocarboxazid (INN)  <US>,d0041,54
+DG01568,D02581,Cimoxatone (INN),d0041,89
+DG01568,D03239,Ladostigil tartrate (USAN),d0041,75
+DG01568,D03248,Clorgiline (INN),d0041,90
+DG01568,D03409,Caroxazone (USAN/INN),d0041,76
+DG01568,D03731,Selegiline (USAN/INN)  <US>,d0041,39
+DG01568,D03733,Mofegiline hydrochloride (USAN),d0041,51
+DG01568,D04092,Etryptamine acetate (USAN),d0041,77
+DG01568,D04681,Lazabemide (USAN/INN),d0041,49
+DG01568,D05033,Milacemide hydrochloride (USAN),d0041,52
+DG01568,D05039,Minaprine (USAN/INN),d0041,82
+DG01568,D05040,Minaprine hydrochloride (USAN),d0041,83
+DG01568,D07337,Nialamide (INN),d0041,55
+DG01568,D07338,Iproclozide (INN),d0041,65
+DG01568,D08085,Iproniazid phosphate,d0041,64
+DG01568,D08349,Phenelzine (BAN),d0041,57
+DG01568,D08392,Pirlindole (INN),d0041,85
+DG01568,D08393,Pirlindole hydrochloride,d0041,86
+DG01568,D08453,Pargyline (INN),d0041,67
+DG01568,D08469,Rasagiline (USAN/INN),d0041,42
+DG01568,D08625,Tranylcypromine (INN),d0041,60
+DG01568,D09773,Isoniazid glucuronate sodium (JAN),d0041,73
+DG01568,D10158,Safinamide (USAN/INN),d0041,46
+DG01568,D10191,Safinamide mesylate (USAN); Safinamide mesilate (JAN)  <JP/US>,d0041,47
+DG01568,D10829,Rasagiline tartrate,d0041,44
+DG01659,D00326,Fluoxetine (USAN/INN),d0041,6
+DG01659,D00822,Citalopram hydrobromide (USP)  <US>,d0041,10
+DG01659,D00823,Fluoxetine hydrochloride (JAN/USP)  <US>,d0041,7
+DG01659,D00824,Fluvoxamine maleate (JP19/USP)  <JP/US>,d0041,23
+DG01659,D00825,Sertraline hydrochloride (JAN/USP)  <JP/US>,d0041,19
+DG01659,D02260,Paroxetine hydrochloride hemihydrate (USP); Paroxetine hydrochloride hydrate (JP19)  <JP/US>,d0041,14
+DG01659,D02360,Sertraline (INN),d0041,18
+DG01659,D02362,Paroxetine (USP/INN),d0041,13
+DG01659,D02567,Escitalopram oxalate (JAN/USP)  <JP/US>,d0041,27
+DG01659,D02787,Alaproclate (USAN/INN),d0041,20
+DG01659,D03649,Dapoxetine hydrochloride (USAN),d0041,28
+DG01659,D04105,Etoperidone hydrochloride (USAN),d0041,24
+DG01659,D05374,Paroxetine hydrochloride (USP)  <US>,d0041,15
+DG01659,D05375,Paroxetine mesylate (USAN)  <US>,d0041,16
+DG01659,D05491,Pirandamine hydrochloride (USAN),d0041,29
+DG01659,D06367,Zimeldine hydrochloride (USAN),d0041,4
+DG01659,D07704,Citalopram (USP/INN),d0041,9
+DG01659,D07705,Citalopram hydrochloride,d0041,11
+DG01659,D07913,Escitalopram (INN),d0041,26
+DG01659,D07984,Fluvoxamine (INN),d0041,22

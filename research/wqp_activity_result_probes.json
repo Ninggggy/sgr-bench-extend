@@ -1,0 +1,24 @@
+[
+  {
+    "id": "wqp_activity_1978_probe",
+    "url": "https://www.waterqualitydata.us/data/Activity/search?siteid=TCEQMAIN-10580&startDateLo=01-01-1978&startDateHi=12-31-1978&mimeType=csv&zip=no",
+    "requested_at_utc": "2026-09-07T09:22:35.744606+00:00",
+    "max_bytes": 2000000,
+    "status": 200,
+    "content_type": "text/csv;charset=UTF-8",
+    "bytes": 7064,
+    "truncated": false,
+    "saved_file": "wqp_activity_1978_probe.response"
+  },
+  {
+    "id": "wqp_result_1978_probe",
+    "url": "https://www.waterqualitydata.us/data/Result/search?siteid=TCEQMAIN-10580&startDateLo=01-01-1978&startDateHi=12-31-1978&mimeType=csv&zip=no",
+    "requested_at_utc": "2026-09-07T09:22:35.745011+00:00",
+    "max_bytes": 2000000,
+    "status": 200,
+    "content_type": "text/csv;charset=UTF-8",
+    "bytes": 86033,
+    "truncated": false,
+    "saved_file": "wqp_result_1978_probe.response"
+  }
+]

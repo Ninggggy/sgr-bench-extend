@@ -1,0 +1,16 @@
+test_composite_identity (test_score.WQPScoring.test_composite_identity) ... ok
+test_conversion_and_precision (test_score.WQPScoring.test_conversion_and_precision) ... ok
+test_duplicate_no_reward (test_score.WQPScoring.test_duplicate_no_reward) ... ok
+test_first_duplicate_wrong_not_best (test_score.WQPScoring.test_first_duplicate_wrong_not_best) ... ok
+test_missing_extra_fields (test_score.WQPScoring.test_missing_extra_fields) ... ok
+test_nonempty_parse_failure (test_score.WQPScoring.test_nonempty_parse_failure) ... ok
+test_rank_not_identity (test_score.WQPScoring.test_rank_not_identity) ... ok
+test_reverse_order (test_score.WQPScoring.test_reverse_order) ... ok
+test_single_shared_zero_poa (test_score.WQPScoring.test_single_shared_zero_poa) ... ok
+test_wrong_entity_join (test_score.WQPScoring.test_wrong_entity_join) ... ok
+test_zero_is_valid (test_score.WQPScoring.test_zero_is_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.005s
+
+OK

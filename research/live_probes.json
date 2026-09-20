@@ -1,0 +1,35 @@
+[
+  {
+    "id": "wateroffice_daily_probe",
+    "url": "https://wateroffice.ec.gc.ca/services/daily_data/csv/inline?stations%5B%5D=07HA001&parameters%5B%5D=flow&start_date=1966-05-01&end_date=1966-05-03",
+    "requested_at_utc": "2026-09-07T09:03:02.650473+00:00",
+    "max_bytes": 2000000,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  {
+    "id": "wqp_station_probe",
+    "url": "https://www.waterqualitydata.us/data/Station/search?siteid=TCEQMAIN-10598&mimeType=csv&zip=no",
+    "requested_at_utc": "2026-09-07T09:03:02.651603+00:00",
+    "max_bytes": 2000000,
+    "status": 200,
+    "content_type": "text/csv;charset=UTF-8",
+    "final_url": "https://www.waterqualitydata.us/data/Station/search?siteid=TCEQMAIN-10598&mimeType=csv&zip=no",
+    "bytes": 1228,
+    "truncated": false,
+    "saved_file": "wqp_station_probe.response",
+    "preview": "OrganizationIdentifier,OrganizationFormalName,MonitoringLocationIdentifier,MonitoringLocationName,MonitoringLocationTypeName,MonitoringLocationDescriptionText,HUCEightDigitCode,Dra"
+  },
+  {
+    "id": "census_metadata_probe",
+    "url": "https://api.census.gov/data/2016/acs/acs5/groups/B18105.json",
+    "requested_at_utc": "2026-09-07T09:03:02.651819+00:00",
+    "max_bytes": 2000000,
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "final_url": "https://api.census.gov/data/2016/acs/acs5/groups/B18105.json",
+    "bytes": 212908,
+    "truncated": false,
+    "saved_file": "census_metadata_probe.response",
+    "preview": "{\n  \"variables\": {\n    \"B18105_033MA\": {\n      \"label\": \"Annotation of Margin of Error!!Total!!Female!!75 years and over!!No ambulatory difficulty\",\n      \"concept\": \"SEX BY AGE BY"
+  }
+]

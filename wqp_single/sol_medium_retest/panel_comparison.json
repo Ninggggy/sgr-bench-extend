@@ -1,0 +1,254 @@
+{
+  "fields": [
+    "organization",
+    "activity",
+    "station",
+    "actual_date",
+    "time",
+    "DO",
+    "temperature",
+    "conductance",
+    "pH"
+  ],
+  "reference_eligible_rows": 833,
+  "runs": [
+    {
+      "label": "screening_new_CG_1",
+      "full_panel_checks": [
+        {
+          "file_id": "d0007",
+          "path": "runs/r-a55562d61d59/downloaded_data/d0007.csv",
+          "columns": [
+            "org",
+            "aid",
+            "sid",
+            "dt",
+            "tm",
+            "oxy",
+            "temp",
+            "cond",
+            "ph"
+          ],
+          "rows": 833,
+          "reference_eligible_rows": 833,
+          "time_compared": true,
+          "exact_multiset_match": true,
+          "missing": 0,
+          "different_or_extra": 0
+        }
+      ],
+      "has_exact_panel_match": true
+    },
+    {
+      "label": "screening_new_GO_1",
+      "full_panel_checks": [
+        {
+          "file_id": "d0009",
+          "path": "runs/r-8224e9cc365a/downloaded_data/d0009.csv",
+          "columns": [
+            "org",
+            "aid",
+            "station",
+            "adate",
+            "atime",
+            "oxy",
+            "temp",
+            "cond",
+            "ph"
+          ],
+          "rows": 833,
+          "reference_eligible_rows": 833,
+          "time_compared": true,
+          "exact_multiset_match": true,
+          "missing": 0,
+          "different_or_extra": 0
+        }
+      ],
+      "has_exact_panel_match": true
+    },
+    {
+      "label": "confirmation_new_CG_1",
+      "full_panel_checks": [
+        {
+          "file_id": "d0008",
+          "path": "runs/r-0ee77dc62ed5/downloaded_data/d0008.csv",
+          "columns": [
+            "org",
+            "act",
+            "station",
+            "dt",
+            "tm",
+            "oxy",
+            "temp",
+            "cond",
+            "ph"
+          ],
+          "rows": 833,
+          "reference_eligible_rows": 833,
+          "time_compared": true,
+          "exact_multiset_match": true,
+          "missing": 0,
+          "different_or_extra": 0
+        }
+      ],
+      "has_exact_panel_match": true
+    },
+    {
+      "label": "confirmation_new_GO_1",
+      "full_panel_checks": [
+        {
+          "file_id": "d0008",
+          "path": "runs/r-69914a9877c8/downloaded_data/d0008.csv",
+          "columns": [
+            "org",
+            "aid",
+            "site",
+            "dt",
+            "tm",
+            "do",
+            "temp",
+            "cond",
+            "ph"
+          ],
+          "rows": 833,
+          "reference_eligible_rows": 833,
+          "time_compared": true,
+          "exact_multiset_match": true,
+          "missing": 0,
+          "different_or_extra": 0
+        }
+      ],
+      "has_exact_panel_match": true
+    },
+    {
+      "label": "confirmation_new_CG_2",
+      "full_panel_checks": [
+        {
+          "file_id": "d0011",
+          "path": "runs/r-92c02e2f6067/downloaded_data/d0011.csv",
+          "columns": [
+            "org",
+            "aid",
+            "sid",
+            "adate",
+            "atime",
+            "oxy",
+            "temp",
+            "cond",
+            "ph"
+          ],
+          "rows": 833,
+          "reference_eligible_rows": 833,
+          "time_compared": true,
+          "exact_multiset_match": true,
+          "missing": 0,
+          "different_or_extra": 0
+        }
+      ],
+      "has_exact_panel_match": true
+    },
+    {
+      "label": "confirmation_new_GO_2",
+      "full_panel_checks": [
+        {
+          "file_id": "d0010",
+          "path": "runs/r-4df368e8ea7e/downloaded_data/d0010.csv",
+          "columns": [
+            "org",
+            "aid",
+            "sid",
+            "dt",
+            "tm",
+            "oxy",
+            "temp",
+            "cond",
+            "ph"
+          ],
+          "rows": 833,
+          "reference_eligible_rows": 833,
+          "time_compared": true,
+          "exact_multiset_match": false,
+          "missing": 833,
+          "different_or_extra": 833
+        },
+        {
+          "file_id": "d0015",
+          "path": "runs/r-4df368e8ea7e/downloaded_data/d0015.csv",
+          "columns": [
+            "org",
+            "aid",
+            "sid",
+            "dt",
+            "tm",
+            "oxy",
+            "temp",
+            "cond",
+            "ph"
+          ],
+          "rows": 833,
+          "reference_eligible_rows": 833,
+          "time_compared": true,
+          "exact_multiset_match": true,
+          "missing": 0,
+          "different_or_extra": 0
+        }
+      ],
+      "has_exact_panel_match": true
+    },
+    {
+      "label": "confirmation_new_CG_3",
+      "full_panel_checks": [
+        {
+          "file_id": "d0010",
+          "path": "runs/r-e5e848752431/downloaded_data/d0010.csv",
+          "columns": [
+            "org",
+            "act",
+            "site",
+            "dt",
+            "tm",
+            "oxygen",
+            "temp",
+            "cond",
+            "ph"
+          ],
+          "rows": 833,
+          "reference_eligible_rows": 833,
+          "time_compared": true,
+          "exact_multiset_match": true,
+          "missing": 0,
+          "different_or_extra": 0
+        }
+      ],
+      "has_exact_panel_match": true
+    },
+    {
+      "label": "confirmation_new_GO_3",
+      "full_panel_checks": [
+        {
+          "file_id": "d0012",
+          "path": "runs/r-426fcaec1732/downloaded_data/d0012.csv",
+          "columns": [
+            "org",
+            "aid",
+            "site",
+            "dt",
+            null,
+            "oxy",
+            "temp",
+            "cond",
+            "ph"
+          ],
+          "rows": 833,
+          "reference_eligible_rows": 833,
+          "time_compared": false,
+          "exact_multiset_match": true,
+          "missing": 0,
+          "different_or_extra": 0
+        }
+      ],
+      "has_exact_panel_match": true
+    }
+  ],
+  "scope": "Only recognized derived complete panels (time compared when present; otherwise explicitly omitted from both projections), compared as full multisets to original eligible ledger using exact decimal equivalence. This supplements official raw response field checks; no inference from unrecognized/missing panels and no source fetch or model invocation."
+}

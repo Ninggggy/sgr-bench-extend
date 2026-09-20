@@ -1,0 +1,6 @@
+{
+  "campaign_path": "campaign.json",
+  "plan_path": "analysis_plan.json",
+  "ledger_path": "session_ledger.jsonl",
+  "candidates": []
+}

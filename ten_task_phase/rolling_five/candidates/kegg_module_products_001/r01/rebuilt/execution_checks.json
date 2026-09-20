@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "source_parse": "passed",
+  "flat_field_width": 12,
+  "all_records_terminated": true,
+  "enzyme_identity_verified": true,
+  "full_ALL_REAC_consumed": true,
+  "direct_link_module_coverage": "exact",
+  "module_count": 3,
+  "root_reaction_count": 2,
+  "reaction_field_rows_inspected": 34,
+  "matching_source_rows": 3,
+  "qualifying_unique_pairs_before_difference_filter": 3,
+  "retained_reaction_count": 1,
+  "output_row_count": 2,
+  "products_derived_only_from_module_REACTION": true,
+  "unresolved_inputs": [],
+  "solver_tests": "not_performed",
+  "independent_final_audit": "not_performed",
+  "human_review": "not_performed",
+  "source_field_stability": "not_performed"
+}

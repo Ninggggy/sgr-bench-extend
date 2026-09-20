@@ -1,0 +1,1281 @@
+[
+  {
+    "roster_index": 1,
+    "pmid": "40503367",
+    "pmcid": "PMC12149799",
+    "title": "Stem cell therapy for retinal pigment epithelium disorders.",
+    "included": false,
+    "decision_reason": "Review of retinal pigment epithelium therapeutics; the abstract states that it reviews molecular processes and transplantation progress, with no own STAP induction experiment.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[0].abstractText",
+        "quote": "Retinal pigment epithelium (RPE) dysfunction is involved in the advancement of numerous degenerative retinal illnesses, such as age-related macular degeneration and hereditary retinal abnormalities. Transplantation of RPE produced from stem cells has emerged as a promising therapeutic strategy to restore retinal function and prevent vision loss. However, other obstacles impede its clinical application, including immunological rejection, cell viability, functional integration, and the necessity for consistent differentiation techniques. This review offers a thorough examination of the molecular processes regulating RPE integrity, investigates recent progress in stem cell-derived RPE therapeutics, and addresses significant challenges to their broad implementation. Furthermore, we emphasize prospective avenues intended to enhance the safety, efficacy, and enduring success of RPE transplantation in clinical environments."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 2,
+    "pmid": "40217002",
+    "pmcid": "PMC12185309",
+    "title": "Characterizing the effect of retractions on publishing careers.",
+    "included": false,
+    "decision_reason": "Bibliometric study of retracted authors using Retraction Watch, Microsoft Academic Graph and Altmetric; its subjects are publishing careers, not acid-treated cells.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[1].abstractText",
+        "quote": "Retracting academic papers is a fundamental tool of quality control, but it may have far-reaching consequences for retracted authors and their careers. Previous studies have highlighted the adverse effects of retractions on citation counts and the citations of co-authors; however, the broader impacts beyond these have not been fully explored. Here we address this gap by leveraging Retraction Watch, the most extensive dataset on retractions and link it to Microsoft Academic Graph and Altmetric. Retracted authors, particularly those with less experience, often leave scientific publishing in the aftermath of a retraction, especially if their retractions attract widespread attention. However, retracted authors who remain active in publishing maintain and establish more collaborations compared with their similar non-retracted counterparts. Nevertheless, retracted authors generally retain less senior and less productive co-authors, but gain more impactful co-authors post-retraction. Our findings suggest that retractions may impose a disproportionate impact on early career authors."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 3,
+    "pmid": "33433463",
+    "pmcid": "PMC8323703",
+    "title": "Induced pluripotent stem cell technology for spinal cord injury: a promising alternative therapy.",
+    "included": false,
+    "decision_reason": "Review of cell therapy for spinal cord injury; the abstract explicitly describes a review of relevant cell types, not an own transient-acid experiment.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[2].abstractText",
+        "quote": "Spinal cord injury has long been a prominent challenge in the trauma repair process. Spinal cord injury is a research hotspot by virtue of its difficulty to treat and its escalating morbidity. Furthermore, spinal cord injury has a long period of disease progression and leads to complications that exert a lot of mental and economic pressure on patients. There are currently a large number of therapeutic strategies for treating spinal cord injury, which range from pharmacological and surgical methods to cell therapy and rehabilitation training. All of these strategies have positive effects in the course of spinal cord injury treatment. This review mainly discusses the problems regarding stem cell therapy for spinal cord injury, including the characteristics and action modes of all relevant cell types. Induced pluripotent stem cells, which represent a special kind of stem cell population, have gained impetus in cell therapy development because of a range of advantages. Induced pluripotent stem cells can be developed into the precursor cells of each neural cell type at the site of spinal cord injury, and have great potential for application in spinal cord injury therapy."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 4,
+    "pmid": "32894201",
+    "pmcid": "PMC7487873",
+    "title": "Double sperm cloning (DSC) is a promising strategy in mammalian genetic engineering and stem cell research.",
+    "included": false,
+    "decision_reason": "Perspective/review proposing double sperm cloning; its described reprogramming route is sperm injection into denucleated oocytes, not low-pH somatic-cell induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[3].abstractText",
+        "quote": "Embryonic stem cells (ESCs) derived from somatic cell nuclear transfer (SCNT) and induced pluripotent stem cells (iPSCs) are promising tools for meeting the personalized requirements of regenerative medicine. However, some obstacles need to be overcome before clinical trials can be undertaken. First, donor cells vary, and the reprogramming procedures are diverse, so standardization is a great obstacle regarding SCNT and iPSCs. Second, somatic cells derived from a patient may carry mitochondrial DNA mutations and exhibit telomere instability with aging or disease, and SCNT-ESCs and iPSCs retain the epigenetic memory or epigenetic modification errors. Third, reprogramming efficiency has remained low. Therefore, in addition to improving their success rate, other alternatives for producing ESCs should be explored. Producing androgenetic diploid embryos could be an outstanding strategy; androgenic diploid embryos are produced through double sperm cloning (DSC), in which two capacitated sperms (XY or XX, sorted by flow cytometer) are injected into a denucleated oocyte by intracytoplasmic sperm injection (ICSI) to reconstruct embryo and derive DSC-ESCs. This process could avoid some potential issues, such as mitochondrial interference, telomere shortening, and somatic epigenetic memory, all of which accompany somatic donor cells. Oocytes are naturally activated by sperm, which is unlike the artificial activation that occurs in SCNT. The procedure is simple and practical and can be easily standardized. In addition, DSC-ESCs can overcome ethical concerns and resolve immunological response matching with sperm providers. Certainly, some challenges must be faced regarding imprinted genes, epigenetics, X chromosome inactivation, and dosage compensation. In mice, DSC-ESCs have been produced and have shown excellent differentiation ability. Therefore, the many advantages of DSC make the study of this process worthwhile for regenerative medicine and animal breeding."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 5,
+    "pmid": "30705711",
+    "pmcid": "PMC6354101",
+    "title": "Human adult pluripotency: Facts and questions.",
+    "included": false,
+    "decision_reason": "Discusses adult pluripotency and recounts the original STAP study as a cited report; does not report its own transient-acid induction experiment.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[4].abstractText",
+        "quote": "Cellular reprogramming and induced pluripotent stem cell (IPSC) technology demonstrated the plasticity of adult cell fate, opening a new era of cellular modelling and introducing a versatile therapeutic tool for regenerative medicine. While IPSCs are already involved in clinical trials for various regenerative purposes, critical questions concerning their medium- and long-term genetic and epigenetic stability still need to be answered. Pluripotent stem cells have been described in the last decades in various mammalian and human tissues (such as bone marrow, blood and adipose tissue). We briefly describe the characteristics of human-derived adult stem cells displaying <i>in vitro</i> and/or <i>in vivo</i> pluripotency while highlighting that the common denominators of their isolation or occurrence within tissue are represented by extreme cellular stress. Spontaneous cellular reprogramming as a survival mechanism favoured by senescence and cellular scarcity could represent an adaptative mechanism. Reprogrammed cells could initiate tissue regeneration or tumour formation dependent on the microenvironment characteristics. Systems biology approaches and lineage tracing within living tissues can be used to clarify the origin of adult pluripotent stem cells and their significance for regeneration and disease."
+      },
+      {
+        "source": "sources/raw/PMC6354101.response",
+        "locator": "article/body descendant p[15] (1-based; excludes sub-articles)",
+        "paragraph": 15,
+        "quote": "In early 2014, a paper described a “unique cellular reprogramming phenomenon” of exposing adult differentiated cells to low pH. CD45-positive spleen lymphocytes from 1-week-old C57BL/6 mice carrying an Oct4-gfp transgene and adult cells derived from the brain, skin, muscle, fat, bone marrow, lung and liver that were transiently exposed to low pH were reported to acquire pluripotency in vitro. A portion of such cells, which the authors termed stimulus-triggered acquisition of pluripotency (STAP) stem cells, were shown to express pluripotency markers, differentiate to triploblastic lineages under specified conditions, and contribute to chimaeras and germline transmission when injected into mouse blastocysts. Compared to mouse ESCs, STAP cells displayed limited self-renewal capability in ES-specific media and did not form colonies in dissociated culture[52]. The authors hypostatised that “unknown cellular mechanisms” triggered by sublethal stress unlocked the cells from their differentiated state and allowed re-expression of pluripotency-related genes, reflecting early embryonic stages. Such phenomena do not likely occur in vivo-at least not in mammalian organisms-as presumed mechanisms block progression from the initial OCT-4 activation to further reprogramming. Several months later, the paper was retracted due to “errors classified as misconduct” by the institutional investigation committee[53]. The negative impact of the retraction was further combined with news about possible “honour suicide” of one of the senior authors. However, while the “multiple errors” could indeed impact the study reproducibility and the credibility of the reported data, they could not rule out the existence of the STAP phenomenon. Interestingly, a recent paper reported a method of preconditioning adult human umbilical cord blood-derived stem cells to increase survival after transplantation. Exposure to oxidative stress and serum deprivation increased cell resistance in vitro, possible pointing to an adaptative mechanism for cell survival[54]."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 6,
+    "pmid": "29291747",
+    "pmcid": "PMC5749007",
+    "title": "The limited application of stem cells in medicine: a review.",
+    "included": false,
+    "decision_reason": "Review of the clinical/ethical limitations of stem-cell therapies, explicitly analyzing ethics and politics, not performing acid induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[5].abstractText",
+        "quote": "The history of stem cell therapies is one of a limited number of clinical applications despite a vast therapeutic potential. Major breakthroughs in stem cell research have not yet enjoyed clinical success-all stem cell therapies bar hematopoietic stem cell transplantations remain experimental. With the increased risk of organ failure and neurodegenerative disease associated with our ability to push the boundaries of life expectancy comes an increased pressure to pioneer novel stem cell-based therapeutic approaches. We conclude that the failure of such therapies to achieve clinical translation stems from the polarising effect of the ethical debate around their use. The intractability of the ethical debate is double edged: legislators not only have placed tighter restrictions on certain stem cell therapies, but do so in favour of less controversial cells which will have worse outcomes for patients. It is by considering this relationship between the politics, ethics and science of stem cells that the reasons for the currently limited clinical significance of stem cell therapies be realised."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 7,
+    "pmid": "28428163",
+    "pmcid": "PMC5418527",
+    "title": "Public Response to Scientific Misconduct: Assessing Changes in Public Sentiment Toward the Stimulus-Triggered Acquisition of Pluripotency (STAP) Cell Case via Twitter.",
+    "included": false,
+    "decision_reason": "Own data are tweets and public sentiment following the STAP scandal; not own cell experiments.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[6].abstractText",
+        "quote": "<h4>Background</h4>In this age of social media, any news-good or bad-has the potential to spread in unpredictable ways. Changes in public sentiment have the potential to either drive or limit investment in publicly funded activities, such as scientific research. As a result, understanding the ways in which reported cases of scientific misconduct shape public sentiment is becoming increasingly essential-for researchers and institutions, as well as for policy makers and funders. In this study, we thus set out to assess and define the patterns according to which public sentiment may change in response to reported cases of scientific misconduct. This study focuses on the public response to the events involved in a recent case of major scientific misconduct that occurred in 2014 in Japan-stimulus-triggered acquisition of pluripotency (STAP) cell case.<h4>Objectives</h4>The aims of this study were to determine (1) the patterns according to which public sentiment changes in response to scientific misconduct; (2) whether such measures vary significantly, coincident with major timeline events; and (3) whether the changes observed mirror the response patterns reported in the literature with respect to other classes of events, such as entertainment news and disaster reports.<h4>Methods</h4>The recent STAP cell scandal is used as a test case. Changes in the volume and polarity of discussion were assessed using a sampling of case-related Twitter data, published between January 28, 2014 and March 15, 2015. Rapidminer was used for text processing and the popular bag-of-words algorithm, SentiWordNet, was used in Rapidminer to calculate sentiment for each sample Tweet. Relative volume and sentiment was then assessed overall, month-to-month, and with respect to individual entities.<h4>Results</h4>Despite the ostensibly negative subject, average sentiment over the observed period tended to be neutral (-0.04); however, a notable downward trend (y=-0.01 x +0.09; R ²=.45) was observed month-to-month. Notably polarized tweets accounted for less than one-third of sampled discussion: 17.49% (1656/9467) negative and 12.59% positive (1192/9467). Significant polarization was found in only 4 out of the 15 months covered, with significant variation month-to-month (P<.001). Significant increases in polarization tended to coincide with increased discussion volume surrounding major events (P<.001).<h4>Conclusions</h4>These results suggest that public opinion toward scientific research may be subject to the same sensationalist dynamics driving public opinion in other, consumer-oriented topics. The patterns in public response observed here, with respect to the STAP cell case, were found to be consistent with those observed in the literature with respect to other classes of news-worthy events on Twitter. Discussion was found to become strongly polarized only during times of increased public attention, and such increases tended to be driven primarily by negative reporting and reactionary commentary."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 8,
+    "pmid": "28246071",
+    "pmcid": "PMC5350454",
+    "title": "Scientific Misconduct and Social Media: Role of Twitter in the Stimulus Triggered Acquisition of Pluripotency Cells Scandal.",
+    "included": false,
+    "decision_reason": "Own data are Twitter and newspaper content about misconduct; not own cell experiments.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[7].abstractText",
+        "quote": "<h4>Background</h4>The academic scandal on a study on stimulus‑triggered acquisition of pluripotency (STAP) cells in Japan in 2014 involved suspicions of scientific misconduct by the lead author of the study after the paper had been reviewed on a peer‑review website. This study investigated the discussions on STAP cells on Twitter and content of newspaper articles in an attempt to assess the role of social compared with traditional media in scientific peer review.<h4>Objective</h4>This study examined Twitter utilization in scientific peer review on STAP cells misconduct.<h4>Methods</h4>Searches for tweets and newspaper articles containing the term \"STAP cells\" were carried out through Twitter's search engine and Nikkei Telecom database, respectively. The search period was from January 1 to July 1, 2014. The nouns appearing in the \"top tweets\" and newspaper articles were extracted through a morphological analysis, and their frequency of appearance and changes over time were investigated.<h4>Results</h4>The total numbers of top tweets and newspaper articles containing the term were 134,958 and 1646, respectively. Negative words concerning STAP cells began to appear on Twitter by February 9-15, 2014, or 3 weeks after Obokata presented a paper on STAP cells. The number of negative words in newspaper articles gradually increased beginning in the week of March 12-18, 2014. A total of 1000 tweets were randomly selected, and they were found to contain STAP-related opinions (43.3%, 433/1000), links to news sites and other sources (41.4%, 414/1000), false scientific or medical claims (8.9%, 89/1000), and topics unrelated to STAP (6.4%, 64/1000).<h4>Conclusions</h4>The discussion on scientific misconduct during the STAP cells scandal took place at an earlier stage on Twitter than in newspapers, a traditional medium."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 9,
+    "pmid": "28123930",
+    "pmcid": "PMC5220388",
+    "title": "Irreproducibility of published bioscience research: Diagnosis, pathogenesis and therapy.",
+    "included": false,
+    "decision_reason": "Discussion of irreproducibility; paragraph 11 treats STAP failures as external published examples.",
+    "evidence": [
+      {
+        "source": "sources/raw/PMC5220388.response",
+        "locator": "article/body descendant p[1] (1-based; excludes sub-articles)",
+        "paragraph": 1,
+        "quote": "During a 40 year career as a biomedical researcher and academic leader, my primary professional goal has been to discover and disseminate new knowledge relevant to biology and health, with my own efforts focused on metabolic physiology and disease. I have done this during a period of dynamic growth of the bioscience enterprise, which has produced remarkable discoveries to illuminate our understanding of human biology and disease while creating numerous benefits for the health and welfare of society. The bioscience research ecosystem that supports this effort is large and complex. Physicians and PhD scientists in academia and industry conduct basic and clinical research, spending over 100 billion dollars yearly in the US alone [1]. The results of this research eventually appear in over one million scientific papers per year [2], in more than 5000 journals [3] of varying focus, standards, and impact. These publications are the bricks on which the edifice of scientific progress is built. The worldwide scientific community reads, discusses, assesses, and wherever possible builds upon the results reported in these papers. The overall arc of progress from this activity is evident, and there is little doubt that the future will continue to bring discoveries of profoundly important impact."
+      },
+      {
+        "source": "sources/raw/PMC5220388.response",
+        "locator": "article/body descendant p[11] (1-based; excludes sub-articles)",
+        "paragraph": 11,
+        "quote": "At the other end of the spectrum are papers of high impact with results of potential importance and great interest to the community. Sometimes, and thankfully quite rarely, the conclusions of such papers are rapidly shown to be false. In such cases, other scientists have been actively involved in the same research question, and at the time of publication already have data bearing on the new papers' claims. They view the success of their own research as requiring the new claims to be rapidly verified or rejected. If their work fails to replicate it, they would be motivated to quickly publish the negative results. Two prominent examples of high profile studies whose major findings were quite rapidly shown to be false, were the claims about the putative beta cell stimulatory hormone betatrophin [13], [14], [15] and STAP cells as a facile approach to creating totipotential stem cells [16], [17], [18]. In such cases, though the corrections and/or retractions may be quickly published, it is important to understand why the erroneous findings came to be believed by the scientific teams and then published in high impact journals to public acclaim. Such outcomes can result from honest errors and/or incompetence, or more nefarious causes involving research misconduct or even outright fraud."
+      }
+    ],
+    "abstract_present": false,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 10,
+    "pmid": "27302093",
+    "pmcid": "PMC4908587",
+    "title": "Acidic extracellular pH of tumors induces octamer-binding transcription factor 4 expression in murine fibroblasts in vitro and in vivo.",
+    "included": false,
+    "decision_reason": "Own chronic mildly acidic tumor-environment experiments, including pH 6.5 culture for seven days. Not transient low-pH STAP induction; OCT4 observations do not change this exclusion.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[9].abstractText",
+        "quote": "Octamer-binding transcription factor 4 (OCT-4) is an important marker of cellular de-differentiation that can be induced by environmental stressors, such as acidity. Here we demonstrate that chronic acidic stress in solid tumors induced OCT-4 expression in fibroblasts and other stromal cells in four tumor models. The results have implications for how tumors utilize pH modulation to recruit associated stromal cells, induce partial reprogramming of tumor-associated stromal cells, and respond to therapy."
+      },
+      {
+        "source": "sources/raw/04_chronic_acid_boundary_fulltext.response",
+        "locator": "article/body descendant p[2] (1-based; excludes sub-articles)",
+        "paragraph": 2,
+        "quote": "The cancer microenvironment replicates in many ways the characteristics of normal stem cell environments111213. Several factors, such as hypoxia and the acidic environment found in the cancer stem cell niche, are also stressors on cell metabolism and division1114. Literature suggests that these same stressors can induce at least a partial reprogramming of fibroblast cells in vitro, resulting in the expression of OCT-4 in culture under conditions of metabolic stress15. Both in vivo and in vitro studies have shown that OCT-4 mediates cellular development. Given that the in vivo microenvironment of many solid tumors is weakly acidic (pH 6.5)16171819, we hypothesized that acid-mediated chronic mild stress would induce a partial reprogramming of stromal cells in vivo, as indicated by increased OCT-4 expression. Our results show that in vitro replication of the chronic mildly acidic solid tumor environment induced OCT-4 expression in murine fibroblasts. We also demonstrated that OCT-4 expression increased in fibroblasts and other supporting stromal cells within tumor xenografts. This expression of OCT-4 may explain some of the stem cell-like phenotypes of stromal cells within the tumor microenvironment."
+      },
+      {
+        "source": "sources/raw/04_chronic_acid_boundary_fulltext.response",
+        "locator": "article/body descendant p[4] (1-based; excludes sub-articles)",
+        "paragraph": 4,
+        "quote": "A previous study showed that cells cultured in a highly acidic environment (pH 5) showed increased OCT-4 expression15. Because the extracellular pH of solid tumors rarely falls below pH 6, we investigated whether OCT-4 expression could be induced in cells cultured in a more physiologically relevant, mildly acidic medium (pH 6.5), similar to the extracellular pH of solid tumors. GFP transfected 3T3 fibroblast cells were cultured in acidic (pH 6.5) media for 7 days in the presence or absence of tumor cells. A high level and intense nuclear localization of OCT-4 expression was observed in both the presence and absence of tumor cells (Fig. 1d–f), suggesting the possibility of cell reprogramming under these conditions. Co-staining with vimentin shows strong cytoplasmic vimentin positivity confirming the fibroblast origin of the cells (Fig. 1). The percentage of OCT-4 positive cells sequentially increased over time (Fig. 2), indicating that chronic exposure of these cells to acidic environments such as those found in some solid tumors, provides a potential pathway to induce cellular stress to surrounding healthy cells. In addition, there is an inverse correlation of OCT-4 expression with acidity, OCT-4 intensity increasing as pH decreases from 7.4 to 6.5 (Supplementary Figure 2). Very few BxPC-3 and MDA-MB-231 (GFP-negative) cells were observed because these cells do not remain adherent during staining. Similar results were obtained when cells were stained using a second OCT-4 antibody (Supplementary Figure 1). Incubation with non-tumor cell lines, such as primary mammary epithelial cells (PMEC), under acidic conditions showed OCT-4 expression in both cell lines, while no OCT-4 expression was seen under non-acidic conditions. (Supplementary Figure 3)."
+      },
+      {
+        "source": "sources/raw/04_chronic_acid_boundary_fulltext.response",
+        "locator": "article/body descendant p[11] (1-based; excludes sub-articles)",
+        "paragraph": 11,
+        "quote": "This report offers observational evidence that mild acidity does induce some degree of OCT-4 expression in vivo, therefore confirming previous findings about stress based OCT-4 expression. However, it is not clear how long these cells maintain the OCT-4 expression nor if the expression induces any other pluripotent stem cell phenotype. To rule out the possibility of artifact, we tested both a mouse monoclonal and a rabbit polyclonal anti-OCT-4 antibody. We observed similar results with both antibodies, although OCT-4 localization at times alternated between cytoplasmic (murine monoclonal) and nuclear (rabbit polyclonal), depending on the type of antibody used (Fig. 1, Supplementary Figure 1)."
+      },
+      {
+        "source": "sources/raw/04_chronic_acid_boundary_fulltext.response",
+        "locator": "article/body descendant p[12] (1-based; excludes sub-articles)",
+        "paragraph": 12,
+        "quote": "Fibroblasts are traditionally considered to be strong supporting actors in the tumor microenvironment. The concept that chronic physiological extracellular acidity can have significant effects on the expression of reprogramming markers, such as OCT-4 both in vitro and in vivo, suggests a possible mechanism for the phenotypic changes in cancer associated fibroblasts. One report indicates that acidity may actually transform fibroblasts into cancerous tissue22. Some preliminary data (Supplementary Figure 4) demonstrate that implantation of these acid treated cells induces tumor growth in athymic nude mice. For this study, fibroblast cells were not co-cultured with tumor cells. Further, the concept that acid mediated stress can induce the presence of factors that cause reprogramming in vivo raises the question of what happens if intratumoral pH is changed in vivo. Indeed, pH changes in vivo can inhibit tumor growth23."
+      },
+      {
+        "source": "sources/raw/04_chronic_acid_boundary_fulltext.response",
+        "locator": "article/body descendant p[16] (1-based; excludes sub-articles)",
+        "paragraph": 16,
+        "quote": "MDA-MB 231, 4T1luc, and BxPC-3 tumor cells, and 3T3-GFP fibroblasts were cultured alone or in co-culture in acidic (pH 6.5), slightly acidic (pH 6.8), or non-acidic (pH 7.4) media (DMEM + 10% FBS + 1% Pen Strep) in 8 well slides. Acidic media was created by titrating DMEM + 10% FBS + 1% Pen Strep media with 1 M HCl to the desired pH range. Slides were incubated for 7 days without any modifications in 5% CO2 at 37 °C, after which they were stained for OCT-4."
+      },
+      {
+        "source": "sources/raw/04_chronic_acid_boundary_fulltext.response",
+        "locator": "article/body descendant p[18] (1-based; excludes sub-articles)",
+        "paragraph": 18,
+        "quote": "3T3-GFP Fibroblast cells were grown in T75 flasks under either HCl titrated, pH 6.5 conditions, as described above, or in pH 7.4 media for 7 days, or grown in T75 flasks under normal conditions overnight. Cells were trypsinized and injected in a 50% matrigel/PBS matrix. For each “tumor” injection site, 1 million cells from the above three categories were used. Mouse 1 received the acid treated cells on its left flank and 7 day pH 7.4 treated cells in its right flank. Mouse 2 received the acid treated cells on its left flank and 1 day pH 7.4 treated cells in its right flank. Mouse 3 received 7 day control cells on its left flank and 1 day pH 7.4 treated cells in its right flank. GFP images were taken 2 weeks later using the ART Optix MX3 system."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 11,
+    "pmid": "27292224",
+    "pmcid": "PMC4904271",
+    "title": "Investigation of the cellular reprogramming phenomenon referred to as stimulus-triggered acquisition of pluripotency (STAP).",
+    "included": true,
+    "decision_reason": "Own experimental replication investigation using transient HCl and ATP treatments; included irrespective of the negative overall conclusion.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[10].abstractText",
+        "quote": "In January 2014, it was reported that strong external stimuli, such as a transient low-pH stressor, was capable of inducing the reprogramming of mammalian somatic cells, resulting in the generation of pluripotent cells. This cellular reprograming event was designated 'stimulus-triggered acquisition of pluripotency' (STAP) by the authors of these reports. However, after multiple instances of scientific misconduct in the handling and presentation of the data were brought to light, both reports were retracted. To investigate the actual scientific significance of the purported STAP phenomenon, we sought to repeat the original experiments based on the methods presented in the retracted manuscripts and other relevant information. As a result, we have concluded that the STAP phenomenon as described in the original studies is not reproducible."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[3] (1-based; excludes sub-articles)",
+        "paragraph": 3,
+        "quote": "In 2014, Obokata et al. reported that sublethal external stimuli, such as exposure to a transient low-pH stressor, reprogrammed mammalian somatic cells, resulting in the generation of pluripotent cells12. In these reports, this cellular reprograming event was designated ‘stimulus-triggered acquisition of pluripotency’ (STAP). The reports also described how the primary pluripotent cells, STAP cells, were able to give rise to two types of pluripotent stem cells in a culture-condition-dependent manner. However, both reports were subsequently retracted due to multiple intsances of scientific misconduct1011. To investigate the scientific significance of the STAP phenomenon, we repeated the reported experiments based on the methods presented in the retracted manuscripts and other relevant information subsequently obtained. We examined the expression of pluripotency-associated genes in cell aggregates obtained in cultures of somatic cells treated with transient low-pH, and the ability of such cell aggregates to contribute to chimeric embryos after injection into pre-implantation embryos. The results of this reevaluation indicate that the previously reported STAP phenomenon is not reproducible."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[4] (1-based; excludes sub-articles)",
+        "paragraph": 4,
+        "quote": "In the original report, transient low-pH stress induced by addition of hydrochloric acid (HCl) caused massive cell death of dissociated somatic cells around 1–2 days after treatment (Fig. 1d of Obokata et al. 20141); the surviving cells formed aggregates (Fig. 1b of Obokata et al.1). In the present study, we examined the effect of HCl treatment on dissociated cells derived from spleen, liver and heart of 4–9-day-old mice. The amount of the diluted HCl solution used to achieve optimized low-pH condition was set at 10 µl based on the titration assay (Fig. 1a). This amount resulted in massive cell death routinely although it gave higher pH than 5.7 that was indicated in the previous manuscript (Figure S1a of Obokata et al.1), and 12 µl often resulted in complete cell death. However, although massive cell death was observed at two days after treatment, aggregate formation was rarely observed in any cell type (Fig. 1b). Occasional formation of aggregates was also observed in the culture of non-treated cells, suggesting that low-pH treatment does not enhance the formation of cell aggregates."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[5] (1-based; excludes sub-articles)",
+        "paragraph": 5,
+        "quote": "Next we examined the effect of adenosine triphosphate (ATP) as a transient low-pH stressor based on personal communication with the authors of the original study. The amount of the diluted ATP solution to achieve optimized low-pH (~5.7) was adjusted (Fig. 1a) and experiments were repeated several times. Massive cell death was again observed at two days after treatment (Fig. 2a); however, we found that liver cells reproducibly gave rise to cell aggregates morphologically similar to those shown in the previous report, whereas spleen and heart cells only occasionally formed similar cell aggregates (Fig. 1b). The efficiency of aggregate formation was clearly higher for ATP-treated cells than for HCl-treated or non-treated cells, especially in the case of liver cells."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[6] (1-based; excludes sub-articles)",
+        "paragraph": 6,
+        "quote": "In the case of liver cells, when 5 × 105 cells were seeded in a well of 12 well plate, 20–30 aggregates were observed after seven days on average (Fig. 2b). Addition of fibroblast growth factor (Fgf)-2, based on personal communication with the authors of the 2014 reports, slightly enhanced cell agregate formation. Since the culture medium contains leukemia inhibitory factor (LIF), which shows differential action on ES cells derived from different genetic backgrounds12, we suspected that the genetic background might affect aggregate formation. However, as shown in Fig. 2c, although it was known that the 129 background confers a dominant effect in obligating the LIF signal input to maintain pluripotency12, there was no difference between C57BL6 and C57BL6 × 129 F1 (either C57BL6/129 or 129/C57BL6) in the observed frequency of aggregate formation in the present study."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[7] (1-based; excludes sub-articles)",
+        "paragraph": 7,
+        "quote": "To test the induction of pluripotency markers in cell aggregates obtained from ATP-treated liver cells, we assessed the expression of pluripotency-associated genes. Oct3/4 is a well-defined marker of pluripotent stem cells. Using a primer pair to detect Oct3/4 transcript from the Pou5f1 allele, but not pseudo-genes13, we did not find a detectable level (above 0.1% of the expression level in mouse ES cells, relative to the expression levels of Gapdh) of the transcript by quantitative polymerase chain reaction (Q-PCR) using a total RNA sample prepared from all cells in the culture (Fig. 3a), indicating that extremely few or no cells expressing Oct3/4 were present. Interestingly, expression of Gfp from the Oct3/4-GFP transgene (GOF18)14 was detected in liver cells cultured for seven days irrespective of ATP treatment, suggesting leaky expression of this transgene."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[8] (1-based; excludes sub-articles)",
+        "paragraph": 8,
+        "quote": "We next performed qPCR on individual cell aggregates isolated from culture. Aggregates were selected and RNA samples were prepared separately. These RNAs were reverse-transcribed and qPCR was performed. We found that some aggregates expressed a comparable amount—more than 10% of the expression level in ES cells—of pluripotency-associated genes, including Oct3/4 (Fig. 3b). Since the cell aggregates consist of ~10 cells, such expression level indicated possible existence of the cell(s) expressing pluripotency-associated genes at the equivalent level to that in ES cells. Klf4 expression was detected in all samples, which may reflect its expression in liver cells, and thus serves as a positive control in this assay. Of cell aggregates derived from liver cells treated with ATP, 19% expressed the amount of Oct3/4 comparable to ES cells (Fig. 3c). These data suggest that some proportion of cells in the aggregates express pluripotency-associated genes at comparable levels to those of ES cells."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[9] (1-based; excludes sub-articles)",
+        "paragraph": 9,
+        "quote": "To examine the proportion of the cells expressing Oct3/4 in the aggregates, we next applied immuno-staining using a specific antibody against Oct3/4 we raised and assessed previously15. Cell aggregates derived from low-PH treated liver cells were fixed, stained by anti-Oct3/4 antibody, and observed using confocal microscopy. We stained morula-stage mouse embryos as positive controls. By comparison with these positive controls, we found that some of the cell aggregates contained cells expressing Oct3/4 at comparable levels (Fig. 4a). In the case of cell aggregates derived from liver cells treated by ATP, 20% of cell aggregates contained Oct3/4-positive cells (Fig. 4b), which is consistent to the proportion of cell aggregates expressing the amounts of Oct3/4 comparable to ES cells detected by QPCR (Fig. 3c). In contrast, cell aggregates derived from liver cells treated by HCl included Oct3/4-positive cells at a frequency comparable to that of non-treated cells. The presence of Oct3/4-positive cells in the cell aggregates found only 1 in 14 cases in cultures of non-treated liver cells suggests that such cells are derived from Oct3/4-positive cells present in the liver cell population, that in vitro culture may itself be a source of the stress to the cells, or that the immuno-staining technique may produce some non-specific signal. In cell aggregates derived from ATP-treated liver cells, the Oct3/4-positive cells were typically positioned in the center of the cell aggregates and exhibit large nuclei, and were surrounded by Oct3/4-negative cells with small nuclei at the peripheries of the cell aggregates (Fig. 4c)."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[10] (1-based; excludes sub-articles)",
+        "paragraph": 10,
+        "quote": "In the original report, the authors used transgenic reporter gene expression as a marker of pluripotency1. This reporter consisted of the transcriptional regulatory element of Oct3/4 and the fluorescent marker GFP, designated GOF, which is silent in somatic cells and activated in pluripotent cells14. When we used the same transgenic mouse line as a source of dissociated cells, we found that they began to acquire strong auto-fluorescence in culture after ATP treatment. On observation with fluorescent microscopy, most aggregates showed both green and red fluorescence, a sign of auto-fluorescence (Fig. 5a) although this may also include the fluorescent signal from the GOF transgene, since we detected Gfp mRNA by qPCR in these cells after culture in vitro for seven days (Fig. 3a)."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[11] (1-based; excludes sub-articles)",
+        "paragraph": 11,
+        "quote": "Specific detection of GFP fluorescence by fluorescence-activated cell sorting (FACS) was also performed. In spleen cells collected using Lympholyte, CD45-positive/E-cadherin-negative blood cells were enriched. The reprogramming of such cells to a state of pluripotency can be monitored by their conversion to CD45-negative/E-cadherin-positive cells and acquisition of GFP expression from the GOF transgene. However, although we again observed increased auto-fluorescence and some reduction of CD45 expression, neither a specific signal of GFP fluorescence nor an increase of E-cadherin expression was observed in the low-pH treated cells (Fig. 5b). Given these findings, we suggest that that there was no evident sign of reprogramming in low-pH treated spleen cells based on the expression of the GOF transgene."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[12] (1-based; excludes sub-articles)",
+        "paragraph": 12,
+        "quote": "In the original report, the authors showed that the cell aggregates obtained by the culture of low-pH treated cells contribute to chimeras when the cell aggregates were chosen by their morphologies under the microscopic observation, manually dissected and injected into blastocysts (Fig. 4a of Obokata et al.1). The frequency of obtaining chimeric mice from injected blastocysts reached 24% (64 chimeric mice from 264 injected blastocysts; Figure S7b of Obokata et al.1). We prepared cell aggregates from the liver cells dissociated from the livers of transgenic mice carrying CAG-EGFP16 or selected cell aggregates expressing GFP prepared from the liver cells derived from Alb-cre: Rosa-GFP double transgenic mice1718 (Fig. 6, top) and repeated injections of these into morula and blastocysts eight times. However, we found no chimeric embryos carrying GFP-positive cells among 117 embryos derived from 244 injected embryos based on observation by fluorescent microscopy (Fig. 6, bottom), although the embryo manipulation technique of the animal facility should be excellent as the huge number of knockout mice were routinely generated by the injection of ES cells into blastosysts (http://www2.clst.riken.jp/arg/mutant_mice_generated_in_CDB.html and http://www2.clst.riken.jp/arg/publications.html). These data strongly suggest that the acquisition of pluripotency occurs in cell aggregates derived from low-pH treated liver cells only extremely rarely, if at all."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[13] (1-based; excludes sub-articles)",
+        "paragraph": 13,
+        "quote": "The original reports stated that two different types of stem cell lines could be established from cell aggregates obtained by the culture of low-pH treated cells: ES-like ‘STAP stem cells’ (Fig. 5 of Obokata et al.1) and trophoblast stem (TS)-like ‘FGF-induced (FI) stem cells’ (Fig. 2 of Obokata et al.2). To reevaluate these claims, we transferred cell aggregates derived from liver cells from various genetic backgrounds into the culture conditions for derivation of either ES-like or TS-like stem cells. In the case of the culture for ES-like stem cells in serum-free culture containing knockout serum replacement (KSR), adrenocorticotropic hormone (ACTH) and LIF19, most of the cell aggregates died without outgrowth, which may attributable to the absence of serum, while a small number aggregates gave rise to colonies containing small cells with large nuclei, resembling the morphology of embryonic stem cells. However, most of these cells ceased proliferation at day 7 and gradually regressed. Marked proliferation after day 7 was observed in only three of 492 cell aggregates and none of these gave rise to cell lines (Fig. 7a). In the case of the culture for TS-like stem cells containing FGF-4 and heparin20, many clumps showed outgrowth of fibroblastic cells, which may be due to the presence of FGF2 in the medium. Few of these (22 of 391 cell aggregates) gave rise to colonies of small stem cell-like cells, and one could be passaged three times (Fig. 7b). However, all ultimately regressed without giving rise to cell lines. These data showed that we are unable to derive stem cell lines from aggregates derived from low-pH treated liver cells."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[14] (1-based; excludes sub-articles)",
+        "paragraph": 14,
+        "quote": "In the present study, we investigated the properties of cell aggregates obtained by culture of liver cells transiently treated with low-pH stimulus, which was performed by the group directed by the author. We initially followed the protocol described in the original paper1 with the detail description in protocol exchange where HCl was applied to achieve low-pH condition. However, we merely obtained the cell aggregates expressing the pluripotency makers as described in this report even when it was combined with the culture in medium containing Fgf2, which was not described in the original protocol but subsequently suggested by the authors. However, when we used ATP instead of HCl, also based on a suggestion by the authors, a few cells in a subset of cell aggregates expressed the pluripotency marker Oct3/4 at levels comparable to those in ES cells that were reproducibly detected by QPCR (Fig. 3c) and immunostaining (Fig. 4b). However, the frequency was very low; 5 × 105 liver cells yielded only ~30 cell aggregates, in which about 20% of the cell aggregates contained 1–2 Oct3/4 positive cells, indicating a frequency per seeded liver cell of 0.0012–0.0024%. Moreover, the pluripotency of such cells was not confirmed by chimera formation assay, and they did not give rise to any stem cell lines. We thus conclude that such cell aggregates do not fulfill the definition for STAP cells proposed in the original studies. Moreover, since the frequency of Oct3/4-positive cells in the cell aggregates was quite low, it was impossible to determine whether they were selected from the original population or induced in culture, again highlighting the lack of evidence supporting the existence of the reported STAP phenomenon. An independent examination was made on chimeric potency of STAP-like cell aggregates that were generated by Haruko Obokata. Among 1154 embryos injected with the aggregates, 671 developed beyond E8.5; however, none of the aggregates made significant contribution to any tissues, the details of which was reported in a Biorixiv website (bioRxiv doi: http://dx.doi.org/10.1101/028472). These data are consistent to the recent report by De Los Angeles et al.22."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[16] (1-based; excludes sub-articles)",
+        "paragraph": 16,
+        "quote": "4–9-day-old mice were euthanized using carbon dioxide and then sterilized with 70% ethanol. For the isolation of spleen cells, excised spleen was minced with scissors and the tissue fragments were dissociated in phosphate buffered serine (PBS) by pipetting. The cell suspension was strained through a cell strainer followed by the collection of cells by centrifugation at 1,000 rpm for 5 min. The collected cells were re-suspended in 5 ml of Dulbecco’s Modified Eagle medium (DMEM; Life Technologies) and added to the same volume of Lympholyte® (Cedarlane), and then centrifuged at 1,000 g for 20 min. The lymphocyte layer was isolated and washed with PBS to obtain single cell suspension. For the isolation of liver cells, excised liver was minced with scissors and the tissue fragments were dissociated by incubation in Type I collagenase (Worthington Biochemical) solution (0.5 mg/ml in Hanks Balanced Salt Solution (HBSS, no calcium, no magnesium; Life Technologies)). Next, the cell suspension was strained through a cell strainer followed by the collection of cells by centrifugation at 1,000 rpm for 5 min. For the isolation of heart cells, the excised heart was minced with scissors and the tissue fragments were dissociated by incubation in Type II collagenase (Worthington Biochemical) solution (0.5 mg/ml in HBSS). The cell suspension was strained through a cell strainer followed by the collection of cells by centrifugation at 1,000 rpm for 5 min."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[17] (1-based; excludes sub-articles)",
+        "paragraph": 17,
+        "quote": "Diluted HCl solution was prepared with 10 μl of 35% HCl (Nakarai) in 590 μl HBSS. Diluted ATP solution was prepared with ATP (Sigma) in distilled water at 200 mM. Titration of pH with various amount of diluted HCl or ATP was performed with 500 μl of HBSS containing 7 × 105 liver cells. As a routine method, 10 μl of either diluted HCl or ATP solution was added into 500 μl of cell suspension containing 5 × 105 cells in HBSS followed by incubation for 25 min at 37 °C, and then centrifuged at 1,000 rpm at room temperature for 5 min. After the supernatant was removed, precipitated cells were re-suspended and plated onto either adhesive or non-adhesive plates at cell density of 1–5 × 105 cells per well in 1 ml of the culture medium. The culture medium consists of DMEM/HamF12 (Life Technologies) supplemented with 1,000 U/ml of mouse LIF (home-made) and 2% of B27® Supplement (Life Technologies). Optionally, recombinant human Fgf2 (Wako) was added at final concentration of 10 ng/ml."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[23] (1-based; excludes sub-articles)",
+        "paragraph": 23,
+        "quote": "Cell aggregates obtained by the ATP treatment of liver cells were cut into smaller pieces using a laser (XYClone, Nikko Hansen & Co., Ltd) or shaped glass capillaries, and single piece was then microinjected into each 8-cell or blastocyst stage embryo from ICR mice (Charles River Laboratories Japan, Inc.). Injected embryos were transferred to the uterus of 2.5 dpc pseudopregnant ICR females (Charles River Laboratories Japan, Inc.) on or the next day of injection."
+      },
+      {
+        "source": "sources/raw/03_reproduction_fulltext.response",
+        "locator": "article/body descendant p[24] (1-based; excludes sub-articles)",
+        "paragraph": 24,
+        "quote": "The culture medium for derivation of ES-like stem cells consists of Glasgow-modified eagles medium (GMEM, Sigma), 15% KnockOut Serum Replacement® (KSR, Life Technologies), 1 × non-essential amino acids (NEAA, Nakarai), 1 × Sodium Pyruvate (Nakarai), 10−4 M 2-mercaptoethanol (Nakarai), 1,000 U/ml of LIF and 10 μM ACTH (Kurabo on consignment). We confirmed the medium is optimal for the culture of conventional ES cells. The culture medium for derivation of TS-like stem cells consists of GMEM, 20% FCS, 1 × NEAA, 1 × Sodium Pyruvate, 10−4 M 2-mercaptoethanol, 25 ng/ml of recombinant mouse Fgf4 (Wako) and 1 μg/ml of heparin (Wako). We confirmed the medium is optimal for the culture of conventional TS cells. To derive stem cells, cell aggregates were isolated under a microscope and transferred into a well of 96-well plate with 100 μl of the culture medium and 1,000 feeder cells. Feeder cells were prepared by treatment of mouse embryonic fibroblasts prepared from day 14 C57BL6 embryos with Mitomycin C (Wako) for 3 hours."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 12,
+    "pmid": "27385103",
+    "pmcid": "PMC4941052",
+    "title": "Analysis of chromosomal aberrations and recombination by allelic bias in RNA-Seq.",
+    "included": false,
+    "decision_reason": "RNA-seq chromosomal-aberration/allelic-bias method using gene-expression profiles; not own transient-acid reprogramming.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[11].abstractText",
+        "quote": "Genomic instability has profound effects on cellular phenotypes. Studies have shown that pluripotent cells with abnormal karyotypes may grow faster, differentiate less and become more resistance to apoptosis. Previously, we showed that microarray gene expression profiles can be utilized for the analysis of chromosomal aberrations by comparing gene expression levels between normal and aneuploid samples. Here we adopted this method for RNA-Seq data and present eSNP-Karyotyping for the detection of chromosomal aberrations, based on measuring the ratio of expression between the two alleles. We demonstrate its ability to detect chromosomal gains and losses in pluripotent cells and their derivatives, as well as meiotic recombination patterns. This method is advantageous since it does not require matched diploid samples for comparison, is less sensitive to global expression changes caused by the aberration and utilizes already available gene expression profiles to determine chromosomal aberrations."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 13,
+    "pmid": "27610221",
+    "pmcid": "PMC4995676",
+    "title": "Results of an attempt to reproduce the STAP phenomenon.",
+    "included": true,
+    "decision_reason": "Reports the supervised experiment performed by Obokata and the examination team; included as this publication's own experiment, distinct from the cited Niwa investigation.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[12].abstractText",
+        "quote": "In 2014, Obokata and colleagues reported their observation of a novel cell reprogramming phenomenon they named 'stimulus-triggered acquisition of pluripotency' (STAP). The most conclusive evidence for the pluripotency of so-called STAP cells was the purported ability of such cells to contribute to chimera formation. Here, I report the results of an attempt by Haruko Obokata to replicate the phenomenon under the supervision of the Scientific Validity Examination Team of RIKEN. In this follow-up study, putative STAP cells prepared by Haruko Obokata were injected into 1051 embryos, of which 591 were recovered. However, the injected cells made no significant contribution in any of the embryos that developed."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[2] (1-based; excludes sub-articles)",
+        "paragraph": 2,
+        "quote": "The present article reports the results of a study conducted by Haruko Obokata in the RIKEN Center for Developmental Biology (CDB), which was designed to determine whether the STAP phenomenon was in fact reproducible. Obokata was permitted to perform this closely monitored study from July 14 to November 30, 2014 under my supervision as head of the Scientific Validity Examination Team, at the direction of the Head Office for Internal Reform organized by the RIKEN President. Unfortunately, I have been unable to contact her since the completion of the study, or to obtain her agreement to be listed as an author on this article. Nonetheless, given the extraordinary degree of attention and controversy the original STAP publications and research misconduct generated, I feel it is important to report the results of this investigation in the interests of clarifying the scientific record. In the Scientific Validity Examination Team, Hitoshi Niwa, one of the coauthors of the Nature papers, also conducted an independent examination of whether the STAP phenomenon was reproducible; the results of his examination have been reported previously ( Niwa, 2016)."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[3] (1-based; excludes sub-articles)",
+        "paragraph": 3,
+        "quote": "The investigation reported here consisted of two types of experiments; preliminary ones conducted without supervision, and formal ones conducted in the presence of expert witnesses. There were no significant differences in the data generated in the preliminary and formal experiments, and all are included together in this report. The experiments were conducted in a new setting, not in the laboratory that Obokata had used for the previous studies described in the retracted Nature publications ( Obokata et al., 2014a; Obokata et al., 2014b). All reagents, materials, instruments, and experimental spaces were freshly furnished. Obokata was permitted to conduct experiments only in designated rooms. She prepared cell aggregates, but did not perform any of the subsequent analyses herself, other than observations of the cell aggregates by phase and fluorescence microscopy. Other members of the team conducted chimeric, FACS, qPCR and immunohistochemical analyses of the cell aggregates. In this report, I refer to the studies reported in the papers retracted ( Obokata et al., 2014a; Obokata et al., 2014b) as \"the previous studies\" for the sake of brevity. I also refer to the technical tips published by several authors of the original articles for details of the experimental procedure ( Obokata et al., 2014c)."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[4] (1-based; excludes sub-articles)",
+        "paragraph": 4,
+        "quote": "Experiments were performed using a transgenic mouse line harboring GFP under an Oct4 promoter ( Ohbo et al., 2003); the line is the same as that used in the previous studies ( Obokata et al., 2014a; Obokata et al., 2014b). The mouse line has been maintained in C57BL/6 background in a homozygous state ( B6 oct-gfp +/+). Spleens were dissected from homozygous newborn mice ( B6 oct-gfp +/+; 6–8 days old) obtained by crossing a homozygous transgenic female ( B6 oct-gfp +/+) with a homozygous transgenic male ( B6 oct-gfp +/+), or from hemizygous newborn mice ( F1 oct-gfp +/-; 6–8 days old) obtained by crossing a homozygous transgenic female ( B6 oct-gfp +/+) with a wild type 129 male ( 129 oct-gfp -/-). Spleen cells were prepared as described previously ( Obokata et al., 2014a; Obokata et al., 2014c), but enrichment of CD45-positive cells by FACS sorting was omitted. The source of the cells used in these experiments were lymphocytes collected with Lympholyte following the manufacturer’s instructions (Cedarlane Laboratories, Ontario, Canada)."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[5] (1-based; excludes sub-articles)",
+        "paragraph": 5,
+        "quote": "The stress treatment evaluated was the low-pH condition; no other conditions, such as trituration, were examined. The low-pH conditions included not only the previously reported induction by HCl ( Obokata et al., 2014a; Obokata et al., 2014b; Obokata et al., 2014c), but also that by ATP. Although not described in the previous reports, the ATP treatment had been used most frequently by Obokata et al., and is described in their patent application regarding the STAP process (US Patent Application no.: 14/397,080). In brief, the low-pH condition was generated by suspending the 1×10 6 cells in 494 μl HBSS (Hank’s Balanced Salt Solution), adding 6 μl 200 mM ATP, and incubating for 15 min at 37°C in CO 2 incubator. The low-pH treated-cells were cultured for 6–8 days, and cell aggregates of 50–100 μm showing green fluorescence were identified (see Materials and methods). Table 1 gives the frequency of the cell aggregates identified by Haruko Obokata (see Materials and methods). The frequency of green fluorescent cell aggregates was slightly higher under ATP treatment than HCl treatment in the C57BL/6 background. However, no marked difference was found in the frequency of green fluorescent cell aggregates under either of the low-pH conditions (HCl or ATP) or genetic background of mice (C57BL/6 or F1 between C57BL/6 and 129). The observed frequency was approximately 10 green fluorescent cell aggregates per 10 6 cells seeded; this was approximately 10-fold lower than that in the previous studies. Most green fluorescent cell aggregates also exhibited higher or lower degrees of red fluorescence ( Figure 1). No quantitative determination was made, but about one in three cell aggregates exhibited green fluorescence more intense than red fluorescence. Green fluorescent cell aggregates that exhibited no significant red fluorescence were rare."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[7] (1-based; excludes sub-articles)",
+        "paragraph": 7,
+        "quote": "Chimera production was performed with spleens of a transgenic mouse line harboring gfp under a CAG promoter ( Okabe et al., 1997) which were also maintained homozygously in C57BL/6 background ( B6 cag-gfp +/+); this line is different from the one previously used ( Obokata et al., 2014a; Obokata et al., 2014b). Spleens were dissected from cag-gfp hemizygous newborn mice in C57BL/6 background ( B6 cag-gfp +/-; 6–8 days old) obtained by crosses of wild-type C57BL/6 ( B6 cag-gfp -/-) female with homozygous transgenic ( B6 cag-gfp +/+) male, or from hemizygous newborn mice in F1 background between C57BL/6 and 129 ( F1 cag-gfp +/-; 6–8 days old) obtained by crosses of homozygous transgenic female ( B6 cag-gfp +/+) with wild-type 129 male ( 129 cag-gfp -/-). Cell aggregates of 50–100 μm were selected by their cluster morphology by Obokata and subjected to the chimeric assay. Chimeras were made by members of the Laboratory for Animal Resources and Genetic Engineering, CDB, with expertise in chimera production with ES cells ( http://www2.clst.riken.jp/arg/APDBN.html, http://www2.clst.riken.jp/arg/mutant_mice_generated_in_CDB.html)(present affiliation: Animal Resource Development Unit, Biosystem Dynamics Group, Division of Bio-Function Dynamics Imaging, Center for Life Science Technologies (CLST))."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[8] (1-based; excludes sub-articles)",
+        "paragraph": 8,
+        "quote": "The previous report indicated that the generation of chimeras using STAP cells involved a distinct technical approach ( Obokata et al., 2014a): “Single cell dispersion by trypsinization, as it is done in the chimera production with ES cells, caused low chimaerism. STAP spherical colonies were cut into small pieces using a microknife under the microscope. Small clusters of the cells are then injected into blastocysts.” In the present study, cell aggregates were cut into small pieces by either glass capillary, laser beam (XY Clone: Nikko Hansen & Co., Osaka, Japan) or microsurgical knife (K-5310: FEATHER Safety Razor Co., Osaka, Japan) and were injected into a host embryo, either E2.5 8-cell stage or E3.5 blastocyst stage embryos of random-bred ICR (Charles River, Tokyo, Japan). Injected embryos were transplanted into the uterus of pseudopregnant females of the ICR strain, and recovered at E9.5 or E8.5 to judge the contribution of injected cells by GFP-green fluorescence ( Table 2). Notably, the previous study describes that small clusters of 'STAP' cells were injected into ‘E4.5 blastocysts’, and the next day, the chimeric blastocysts were transferred into pseudopregnant females ( Obokata et al., 2014a)."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[13] (1-based; excludes sub-articles)",
+        "paragraph": 13,
+        "quote": "Five hundred and sixty four embryos (210 morula and 354 blastocyst) were injected with cell aggregates cut into pieces by glass capillaries, and 294 embryos were recovered at E9.5. Ninety-two embryos (48 morula and 44 blastocyst) were injected with cell aggregates cut into pieces by laser beam, and 58 embryos were recovered at E9.5. Three hundred and ninety five embryos (193 morula and 202 blastocyst) were injected with cell aggregates cut into pieces by microknife, and 239 embryos were recovered. Seven hundred and sixty seven embryos were injected with cell aggregates derived from C57BL/6 spleen ( B6 cag-gfp +/+), and 284 embryos with aggregates from F1 spleen between C57BL/6 and 129 ( F1 cag-gfp +/-). Cell aggregates cut into pieces were injected into 451 morula- and 600 blastocyst-stage embryos. In total, 1,051 embryos injected with cell aggregates cut into pieces were transplanted into a foster uterus, and 591 embryos were recovered. The contribution of injected cells was judged by GFP green fluorescence in embryos (see Materials and methods). No significant contribution of the injected cells was observed in any of the 591 embryos examined. Pluripotency was not examined by injecting putative STAP cells into tetraploid embryos."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[14] (1-based; excludes sub-articles)",
+        "paragraph": 14,
+        "quote": "Two reports of unsuccessful attempts at “STAP cell” formation have been published; both judged by oct-gfp and pluripotent marker gene expression ( De Los Angeles et al., 2015; Tang et al., 2014). One of the central claims in the original reports was that the purported STAP cells had the ability to differentiate into multiple lineages, including germ cells, when placed in a normal developmental environment. However, this was not examined in these two reports. The key question is how “STAP cells” are prepared. In the original reports, the STAP cells were prepared by Haruko Obokata, while the chimera production and the establishment of two stem cells, STAP-SCs that were ES (embryonic stem)-like and FI-SCs that could differentiate into both extraembryonic and embryonic tissues, were made by Teruhiko Wakayama. Thus, Obokata is presumably the best qualified to prepare “STAP cells”. The present study focused on assessing pluripotency by chimera production using cell aggregates prepared by Obokata. Under the assay conditions reported here, we observed no evidence of pluripotency in cell aggregates she prepared herself."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[15] (1-based; excludes sub-articles)",
+        "paragraph": 15,
+        "quote": "I encourage readers to recognize a number of limitations in the studies, which were conducted under strict time constraints and in the face of considerable, often adversarial, media scrutiny. Unfortunately, it was not possible to receive technical advice from Teruhiko Wakayama in the chimera production reported here, and it is unclear whether or to what extent the techniques for chimera production in the present study correspond to those used in the previous studies. Previous studies also examined the pluripotency of purported STAP cells by their potency to generate teratomas in immune-deficient mice. However, more than 10 5 cells are required to form teratoma subcutaneously in the flank of an immune-deficient mouse using ES or EC (embryo carcinoma) cells, and the process takes about one month. No teratoma formation was examined in the present study, since the frequency of green fluorescent cell aggregates was low and time was limited. Teratoma formation under the kidney capsule, which also takes about two months using blastocyst embryos, was also not examined."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[16] (1-based; excludes sub-articles)",
+        "paragraph": 16,
+        "quote": "The more critical question is whether and to what extent the STAP cell aggregates prepared by Obokata in this trial under new experimental conditions recapitulated the STAP cell aggregates reported in the previous study. The frequency of green fluorescent cell aggregates from low pH-treated, oct-gfp transgenic spleen cells was 10-fold less than that in previous studies. Moreover, green fluorescence due to GFP expression cannot be distinguished from that due to autofluorescence, nor can GFP expression by reprogramming be distinguished from that due to non-specific gene expression in dying cells. The cell aggregates were not characterized in vitro in detail, but the following features were observed:"
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[17] (1-based; excludes sub-articles)",
+        "paragraph": 17,
+        "quote": "(1) Preliminary FACS analysis of low pH-treated, oct-gfp transgenic spleen cells suggested that the frequency of green fluorescent cells was very low and that the majority of surviving cells were CD45-positive after one week in culture under the conditions used in the present study. In the previous study, CD45 + cells were rare and a significant number of green fluorescent cells were observed (Figure 1c in Obokata et al., 2014a)."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[18] (1-based; excludes sub-articles)",
+        "paragraph": 18,
+        "quote": "(2) Preliminary qPCR analysis suggested that the majority of the cell aggregates generated in the present study did not express pluripotency markers, in contrast to the report of pluripotency marker expression in the previous study (Figure 2b in Obokata et al., 2014a), although there were cell aggregates at a low frequency that expressed one or multiple pluripotent markers including the oct-gfp transgene."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[19] (1-based; excludes sub-articles)",
+        "paragraph": 19,
+        "quote": "(3) Preliminary immunochemical analysis suggested that most of the cell aggregates in the present study did not express pluripotency markers. In contrast to the data shown in Figure 2a of the previous study, they did not express OCT4, SSEA1, NANOG and E-CADHERIN, ( Obokata et al., 2014a)."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[20] (1-based; excludes sub-articles)",
+        "paragraph": 20,
+        "quote": "The possibility cannot be excluded that the experimental conditions used in the present study in some way differed from the previously established optimum conditions for STAP induction. It is my view that it was beyond the scope of this examination to reassign each condition; a definitive answer to the question of whether the previously used conditions for inducing the STAP phenomenon can be indeed established or not must await further study. Nevertheless, I consider it is important to report that Haruko Obokata herself failed to reproduce the reported phenomenon, in that the putative STAP cells described here were unable to contribute to any tissues in a normal developmental environment."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[21] (1-based; excludes sub-articles)",
+        "paragraph": 21,
+        "quote": "Another reported feature of the STAP phenomenon was that while STAP cells themselves do not proliferate, two types of stem cells could be established from them: STAP-SCs and FI-SCs. However, as Obokata had no experience with these stem cell culture, she did not undertake the establishment of the secondary stem cell types in the present study."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[23] (1-based; excludes sub-articles)",
+        "paragraph": 23,
+        "quote": "Newborn male mice of 6–8 days old were euthanized using carbon dioxide and then sterilized with 70% ethanol. Two spleens were placed in a 15 ml conical tube, minced by scissors into paste, added with 5.5 ml HBSS (GIBCO 14170), mechanically dissociated using a Pasteur pipette and strained through a cell strainer (mesh size 40 μm, FALCON 352340) into another conical tube. Five ml of Lympholyte-M (Cedarlane CL5031) was added to the bottom of the tube beneath the cell suspension, and the tube was centrifuged at 1,500 g for 20 min. The middle lymphocyte layer was transferred into another tube and centrifuged at 800 g for 10 min. The pelleted cells were suspended in 500 μl HBSS, of which 6 μl was subjected to the counting of cell number; in exchange 6 μl 200 mM ATP (SIGMA 3377) or diluted HCl (10 μl 35% HCl to 590 μl HBSS) was added to the cell suspension. The cell suspension was incubated at 37°C for 15 min in 5% CO 2 incubator, and then centrifuged at 1,500 rpm for 15 min at room temperature. After the supernatant was removed, B27 medium (DMEM/F-12 (GIBCO 11330) supplemented with 1,000 U LIF (ESGRO 1107), 2% B-27 (GIBCO 17504) and 1 μg/ml bFGF (WAKO 060-04543) was added to the cell pellets to obtain 1×10 6 cells/ml suspension; one ml of the suspension was plated in each well of a 24 well plate (FALCON 353047) and cultured at 37°C in 5% CO2 incubator for seven days to develop cell aggregates. Cell aggregates of 50–100 μm were examined for green and red fluorescence with an Olympus Fluorescent Microscope IX51 (mirror units: Olympus U-MNIBA2 to detect green fluorescence and Olympus U-MWIG2 to detect red fluorescence), and the number of candidate aggregates were counted by Haruko Obokata. Images were taken with an Olympus DP70 camera coupled with Olympus DP Controller software (version 1.2.1.108)."
+      },
+      {
+        "source": "sources/raw/05_later_supervised_reproduction_fulltext.response",
+        "locator": "article/body descendant p[24] (1-based; excludes sub-articles)",
+        "paragraph": 24,
+        "quote": "Cell aggregates prepared by Haruko Obokata were subjected to chimera production. Cell aggregates were cut into small pieces by either glass capillary, laser beam (XY Clone: Nikko Hansen & Co., Osaka, Japan) or microsurgical knife (K-5310: FEATHER Safety Razor Co., Osaka, Japan). The pieces were injected into host embryos of either E2.5 8-cell stage or E3.5 blastocyst stage embryos of random-bred ICR (Charles River, Tokyo, Japan). Injected embryos were transplanted into the uterus of pseudopregnant females of the ICR strain. Injection of cell aggregates and transplantation of the embryos into pseudopregnant females were performed as routinely done with ES cells ( http://www2.clst.riken.jp/arg/Methods.html). Embryos were recovered at E9.5 or E8.5 and examined for the contribution of injected cells by detecting the presence of GFP-green fluorescence with LEICA fluorescence stereomicroscope M165FC (filter sets 10447407 and 10447408). E9.5 or E8.5 embryos of the cag-gfp transgenic line used for the preparation of cell aggregates served as positive control and wild type ICR embryos as negative control for the green fluorescence detection."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 14,
+    "pmid": "26539021",
+    "pmcid": "PMC4630493",
+    "title": "Clothes Do Not Make the Man: Well-favored Figures are Game-changers in the Biomedical Publication.",
+    "included": false,
+    "decision_reason": "Letter about figures, image manipulation and scientific communication; STAP is among cited examples, not an experiment performed here.",
+    "evidence": [
+      {
+        "source": "sources/raw/PMC4630493.response",
+        "locator": "article/body descendant p[1] (1-based; excludes sub-articles)",
+        "paragraph": 1,
+        "quote": "It can be argued that visualization is as important in science as it is in art (1). In scientific manuscripts, visualization can be achieved by using video materials, graphs, and pictures. Schematic figures and graphical abstracts play an increasingly important role in the understanding complex concepts."
+      },
+      {
+        "source": "sources/raw/PMC4630493.response",
+        "locator": "article/body descendant p[3] (1-based; excludes sub-articles)",
+        "paragraph": 3,
+        "quote": "The presence of the appealing high-tech images, which can be occasionally manipulated, may conceal drawbacks of research methodology and make publications and subsequent citations biased. Reviewers, editors, and readers may be even fooled by the graphical appearance of the made-up articles. Good examples of potential bias added by graphics are numerous articles retracted by top scientific journals (2,3,4,5,6), where editors, reviewers and medical illustrators favor submission of sophisticated and often incomprehensible for nonexperts illustrations. The same editors and reviewers are paying much attention to the fantastic figures and overlook major errors or fatal faults, which undermine the validity of the papers (7)."
+      },
+      {
+        "source": "sources/raw/PMC4630493.response",
+        "locator": "article/body descendant p[6] (1-based; excludes sub-articles)",
+        "paragraph": 6,
+        "quote": "The scientific value of a research paper should be appraised apart from its stunning figures and other illustrative materials. Scholarly journals are not art galleries. In their judgments reviewers and editors should not substitute value of scientific contents by beauty of well-favored figures. And they should always ask themselves what is the difference between a comic book and a scientific journal."
+      },
+      {
+        "source": "sources/raw/PMC4630493.response",
+        "locator": "article/body descendant p[7] (1-based; excludes sub-articles)",
+        "paragraph": 7,
+        "quote": "Authors, reviewers, and editors have to prioritize scientific methodology, concept, and contents rather than attractive appearance of their papers. Science communication and art exhibition differ."
+      }
+    ],
+    "abstract_present": false,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 15,
+    "pmid": "26074753",
+    "pmcid": "PMC4444765",
+    "title": "Emerging trends in peer review-a survey.",
+    "included": false,
+    "decision_reason": "Survey of peer-review mechanisms in 82 scientific-communication channels; not cell induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[14].abstractText",
+        "quote": "\"Classical peer review\" has been subject to intense criticism for slowing down the publication process, bias against specific categories of paper and author, unreliability, inability to detect errors and fraud, unethical practices, and the lack of recognition for unpaid reviewers. This paper surveys innovative forms of peer review that attempt to address these issues. Based on an initial literature review, we construct a sample of 82 channels of scientific communication covering all forms of review identified by the survey, and analyze the review mechanisms used by each channel. We identify two major trends: the rapidly expanding role of preprint servers (e.g., ArXiv) that dispense with traditional peer review altogether, and the growth of \"non-selective review,\" focusing on papers' scientific quality rather than their perceived importance and novelty. Other potentially important developments include forms of \"open review,\" which remove reviewer anonymity, and interactive review, as well as new mechanisms for post-publication review and out-of-channel reader commentary, especially critical commentary targeting high profile papers. One of the strongest findings of the survey is the persistence of major differences between the peer review processes used by different disciplines. None of these differences is likely to disappear in the foreseeable future. The most likely scenario for the coming years is thus continued diversification, in which different review mechanisms serve different author, reader, and publisher needs. Relatively little is known about the impact of these innovations on the problems they address. These are important questions for future quantitative research."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 16,
+    "pmid": "26559758",
+    "pmcid": "PMC4641509",
+    "title": "Making the most of peer review.",
+    "included": false,
+    "decision_reason": "Commentary on improving peer review; paragraph 5 recounts post-publication STAP criticism and retraction.",
+    "evidence": [
+      {
+        "source": "sources/raw/PMC4641509.response",
+        "locator": "article/body descendant p[1] (1-based; excludes sub-articles)",
+        "paragraph": 1,
+        "quote": "The scientific community spends a significant amount of time on the peer review of manuscripts submitted to journals. Many of the referee reports written during this process contain insights, comments, suggestions and questions that help authors to improve their manuscripts. However, with the exception of a small number of journals, these reports are only ever seen by the authors of the manuscript and the editors of the journal. I read referee reports when they are available, and I find them to be very helpful. Hiding them is an enormous waste."
+      },
+      {
+        "source": "sources/raw/PMC4641509.response",
+        "locator": "article/body descendant p[5] (1-based; excludes sub-articles)",
+        "paragraph": 5,
+        "quote": "What is the evidence that post-publication comments are helpful? Three recent scientific controversies—the report that a bacterial DNA sample contains arsenic instead of phosphorous, the report that RNA sequences contain widespread edits/changes from the corresponding DNA sequences, and the report of stimulus-triggered acquisition of pluripotency (STAP)—show that post-publication comments offer a fast and efficient method for raising concerns about potential problems in published papers. Criticisms of the arsenic life paper were first raised on blogs shortly after it was published online in Science in December 2010 (Wolfe-Simon et al., 2011), and the journal subsequently published eight Technical Comments expressing concern about the paper in May 2011. Bloggers started to ask questions about the RNA paper, which was published in Science in May 2011 (Li et al., 2011), shortly after publication (Pickrell, 2011), and the journal subsequently published three Technical Comments about the paper in March 2012 (Hayden, 2012). Concerns about the two STAP papers, which were published in Nature in January 2014 (Obokata et al., 2014a, 2014b), were raised immediately on PubPeer and blogs (The Niche, 2014), and both papers were retracted in July 2014."
+      }
+    ],
+    "abstract_present": false,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 17,
+    "pmid": "26177855",
+    "pmcid": "PMC4567024",
+    "title": "Protecting the normal in order to better kill the cancer.",
+    "included": false,
+    "decision_reason": "Proposes a chemotherapy strategy protecting normal cells; no own transient low-pH pluripotency study in its described research scope.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[16].abstractText",
+        "quote": "Chemotherapy is the only option for oncologists when a cancer has widely spread to different body sites. However, almost all currently available chemotherapeutic drugs will eventually encounter resistance after their initial positive effect, mainly because cancer cells develop genetic alterations, collectively coined herein as mutations, to adapt to the therapy. Some patients may still respond to a second chemo drug, but few cases respond to a third one. Since it takes time for cancer cells to develop new mutations and then select those life-sustaining ones via clonal expansion, \"run against time for mutations to emerge\" should be a crucial principle for treatment of those currently incurable cancers. Since cancer cells constantly change to adapt to the therapy whereas normal cells are stable, it may be a better strategy to shift our focus from killing cancer cells per se to protecting normal cells from chemotherapeutic toxicity. This new strategy requires the development of new drugs that are nongenotoxic and can quickly, in just hours or days, kill cancer cells without leaving the still-alive cells with time to develop mutations, and that should have their toxicities confined to only one or few organs, so that specific protections can be developed and applied."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 18,
+    "pmid": "26064951",
+    "pmcid": "PMC4430655",
+    "title": "Effect of Metformin on Viability, Morphology, and Ultrastructure of Mouse Bone Marrow-Derived Multipotent Mesenchymal Stromal Cells and Balb/3T3 Embryonic Fibroblast Cell Line.",
+    "included": false,
+    "decision_reason": "Own metformin exposure of stromal cells and fibroblasts; drug effects on viability and IGF2, not acid-based STAP induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[17].abstractText",
+        "quote": "Metformin, a popular drug used to treat diabetes, has recently gained attention as a potentially useful therapeutic agent for treating cancer. In our research metformin was added to in vitro cultures of bone marrow-derived multipotent mesenchymal stromal cells (BMSCs) and Balb/3T3 fibroblast at concentration of 1 mM, 5 mM, and 10 mM. Obtained results indicated that metformin negatively affected proliferation activity of investigated cells. The drug triggered the formation of autophagosomes and apoptotic bodies in all tested cultures. Additionally, we focused on determination of expression of genes involved in insulin-like growth factor 2 (IGF2) signaling pathway. The most striking finding was that the mRNA level of IGF2 was constant in both BMSCs and Balb/3T3. Further, the analysis of IGF2 concentration in cell supernatants showed that it decreased in BMSC cultures after 5 and 10 mM metformin treatments. In case of Balb/3T3 the concentration of IGF2 in culture supernatants decreased after 1 and 5 mM and increased after 10 mM of metformin. Our results suggest that metformin influences the cytophysiology of somatic cells in a dose- and time-dependent manner causing inhibition of proliferation and abnormalities of their morphology and ultrastructure."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 19,
+    "pmid": "26594336",
+    "pmcid": "PMC4648225",
+    "title": "The Inherent Drawbacks of the Pressure to Publish in Health Sciences: Good or Bad Science.",
+    "included": false,
+    "decision_reason": "Commentary on pressure to publish; no own cellular reprogramming experiment.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[18].abstractText",
+        "quote": "In recent years, there has been a significant increase in the number of scientific publications- it is the era of \"hunting the article\". This commentary discusses the drawbacks of the pressure to publish that certainly contribute to the 'dark side' of science. In fact, health science career progression greatly relies on the number of scientific publications a researcher has, and in many cases these may be more valorized than the health services provided. Of course, scientific publications help to develop the skills of health care professionals, but as Einstein highlighted \" not everything that counts can be counted, and not everything that can be counted counts\"."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 20,
+    "pmid": "25472549",
+    "pmcid": "PMC4255744",
+    "title": "EXACT2: the semantics of biomedical protocols.",
+    "included": false,
+    "decision_reason": "Ontology and text-mining evaluation of biomedical protocols. Paragraph 78 invokes STAP as a cited reproducibility example, not a protocol the authors experimentally repeat.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[19].abstractText",
+        "quote": "<h4>Background</h4>The reliability and reproducibility of experimental procedures is a cornerstone of scientific practice. There is a pressing technological need for the better representation of biomedical protocols to enable other agents (human or machine) to better reproduce results. A framework that ensures that all information required for the replication of experimental protocols is essential to achieve reproducibility. To construct EXACT2 we manually inspected hundreds of published and commercial biomedical protocols from several areas of biomedicine. After establishing a clear pattern for extracting the required information we utilized text-mining tools to translate the protocols into a machine amenable format. We have verified the utility of EXACT2 through the successful processing of previously 'unseen' (not used for the construction of EXACT2)protocols.<h4>Methods</h4>We have developed the ontology EXACT2 (EXperimental ACTions) that is designed to capture the full semantics of biomedical protocols required for their reproducibility.<h4>Results</h4>The paper reports on a fundamentally new version EXACT2 that supports the semantically-defined representation of biomedical protocols. The ability of EXACT2 to capture the semantics of biomedical procedures was verified through a text mining use case. In this EXACT2 is used as a reference model for text mining tools to identify terms pertinent to experimental actions, and their properties, in biomedical protocols expressed in natural language. An EXACT2-based framework for the translation of biomedical protocols to a machine amenable format is proposed.<h4>Conclusions</h4>The EXACT2 ontology is sufficient to record, in a machine processable form, the essential information about biomedical protocols. EXACT2 defines explicit semantics of experimental actions, and can be used by various computer applications. It can serve as a reference model for for the translation of biomedical protocols in natural language into a semantically-defined format."
+      },
+      {
+        "source": "sources/raw/PMC4255744.response",
+        "locator": "article/body descendant p[78] (1-based; excludes sub-articles)",
+        "paragraph": 78,
+        "quote": "Modern laboratory science requires the use of sophisticated protocols [36,37]. However, these are still generally expressed using natural language, and unfortunately use of natural language inevitably introduces ambiguities about how to reproduce experiments. The result is the failure to reproduce results, with the subsequent loss of time and money. While working on this paper we noticed that yet another research paper has been retracted from Nature because results could not be reproduced. Obokata et al. [38] in their paper titled 'Stimulus-triggered fate conversion of somatic cells into pluripotency' reported on a cheap and quick method of producing stem cells. The Reuters news agency reports Prof. Wakayama of the University of Yamanashi told Japanese TV: \"When conducting the experiment, I believed it was absolutely right... But now that many mistakes have emerged, I think it is best to withdraw the research paper\". We argue that if experimental procedures reported by [38] were expressed with the use of EXACT2 then mistakes could be identified earlier and other groups could reproduce their results more easily."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 21,
+    "pmid": "25243705",
+    "pmcid": "PMC4231238",
+    "title": "Quality control method for RNA-seq using single nucleotide polymorphism allele frequency.",
+    "included": false,
+    "decision_reason": "Retrospective computational reanalysis of STAP RNA-seq SNP allele frequencies; does not produce new acid-treated cells.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[20].abstractText",
+        "quote": "RNA sequencing (RNA-seq) provides information not only about the level of expression of individual genes but also about genomic sequences of host cells. When we use transcriptome data with whole-genome single nucleotide polymorphism (SNP) variant information, the allele frequency can show the genetic composition of the cell population and/or chromosomal aberrations. Here, I show how SNPs in mRNAs can be used to evaluate RNA-seq experiments by focusing on RNA-seq data based on a recently retracted paper on stimulus-triggered acquisition of pluripotency (STAP) cells. The analysis indicated that different types of cells and chromosomal abnormalities might have been erroneously included in the dataset. This re-evaluation showed that observing allele frequencies could help in assessing the quality of samples during a study and with retrospective evaluation of experimental quality."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 22,
+    "pmid": "24974102",
+    "pmcid": "PMC4225048",
+    "title": "Ethics of iPSC-based clinical research for age-related macular degeneration: patient-centered risk-benefit analysis.",
+    "included": false,
+    "decision_reason": "Patient-centered ethical risk-benefit analysis of iPSC clinical research; no own low-pH induction experiment.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[21].abstractText",
+        "quote": "The opportunity to undergo an induced pluripotent stem cell-based autologous transplant can strike patients as a chance for a cure from a debilitating condition with few options for respite. However, when clinical studies of this caliber present themselves, patients and researchers, each with their own set of motives, may find it difficult to take a balanced approach to evaluating them. We present a patient-centered risk-benefit analysis of the iPSC-based clinical research currently underway in Japan, including a survey of in vitro and in vivo tests that support this project, an in-depth discussion of risks, and further elucidation of considerations patients may wish to consider. The arguments presented will assist patients in undertaking a more informed decision-making process."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 23,
+    "pmid": "26417315",
+    "pmcid": "PMC4464452",
+    "title": "Hepatitis C virus infection: establishment of chronicity and liver disease progression.",
+    "included": false,
+    "decision_reason": "HCV infection mechanisms and associated models; stem-like cells arise in the context of viral infection, not transient low-pH STAP experiments.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[22].abstractText",
+        "quote": "Hepatitis C virus (HCV) often causes persistent infection, and is an important factor in the etiology of fibrosis, cirrhosis, and hepatocellular carcinoma (HCC). There are no preventive or therapeutic vaccines available against HCV. Treatment strategies of HCV infection are likely to improve with recently discovered direct antiviral agents (DAAs). However, a proportion of patients still progress to liver failure and/or HCC despite having been cured of the infection. Thus, there is a need for early diagnosis and therapeutic modalities for HCV related end stage liver disease prevention. HCV genome does not integrate into its host genome, and has a predominantly cytoplasmic life cycle. Therefore, HCV mediated liver disease progression appears to involve indirect mechanisms from persistent infection of hepatocytes. Studying the underlying mechanisms of HCV mediated evasion of immune responses and liver disease progression is challenging due to the lack of a naturally susceptible small animal model. We and other investigators have used a number of experimental systems to investigate the mechanisms for establishment of chronic HCV infection and liver disease progression. HCV infection modulates immune systems. Further, HCV infection of primary human hepatocytes promotes growth, induces phenotypic changes, modulates epithelial mesenchymal transition (EMT) related genes, and generates tumor initiating stem-like cells (TISCs). HCV infection also modulates microRNAs (miRNAs), and influences growth by overriding normal death progression of primary human hepatocytes for disease pathogenesis. Understanding these ob-servations at the molecular level should aid in developing strategies for additional effective therapies against HCV mediated liver disease progression."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 24,
+    "pmid": "25447808",
+    "pmcid": "PMC4726664",
+    "title": "Pathophysiology of ocular surface squamous neoplasia.",
+    "included": false,
+    "decision_reason": "Pathophysiology synthesis of ocular surface squamous neoplasia and UV/HIV/HPV mechanisms; not own STAP induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[23].abstractText",
+        "quote": "The incidence of ocular surface squamous neoplasia (OSSN) is strongly associated with solar ultraviolet (UV) radiation, HIV and human papilloma virus (HPV). Africa has the highest incidence rates in the world. Most lesions occur at the limbus within the interpalpebral fissure particularly the nasal sector. The nasal limbus receives the highest intensity of sunlight. Limbal epithelial crypts are concentrated nasally and contain niches of limbal epithelial stem cells in the basal layer. It is possible that these are the progenitor cells in OSSN. OSSN arises in the basal epithelial cells spreading towards the surface which resembles the movement of corneo-limbal stem cell progeny before it later invades through the basement membrane below. UV radiation damages DNA producing pyrimidine dimers in the DNA chain. Specific CC → TT base pair dimer transformations of the p53 tumour-suppressor gene occur in OSSN allowing cells with damaged DNA past the G1-S cell cycle checkpoint. UV radiation also causes local and systemic photoimmunosuppression and reactivates latent viruses such as HPV. The E7 proteins of HPV promote proliferation of infected epithelial cells via the retinoblastoma gene while E6 proteins prevent the p53 tumour suppressor gene from effecting cell-cycle arrest of DNA-damaged and infected cells. Immunosuppression from UV radiation, HIV and vitamin A deficiency impairs tumour immune surveillance allowing survival of aberrant cells. Tumour growth and metastases are enhanced by; telomerase reactivation which increases the number of cell divisions a cell can undergo; vascular endothelial growth factor for angiogenesis and matrix metalloproteinases (MMPs) that destroy the intercellular matrix between cells. Despite these potential triggers, the disease is usually unilateral. It is unclear how HPV reaches the conjunctiva."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 25,
+    "pmid": "25763379",
+    "pmcid": "PMC4352683",
+    "title": "Reprogramming for cardiac regeneration.",
+    "included": false,
+    "decision_reason": "Review of cardiac reprogramming strategies and clinical challenges; no own acid-treatment replication study.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[24].abstractText",
+        "quote": "Treatment of cardiovascular diseases remains challenging considering the limited regeneration capacity of the heart muscle. Developments of reprogramming strategies to create in vitro and in vivo cardiomyocytes have been the focus point of a considerable amount of research in the past decades. The choice of cells to employ, the state-of-the-art methods for different reprogramming strategies, and their promises and future challenges before clinical entry, are all discussed here."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 26,
+    "pmid": "25364739",
+    "pmcid": "PMC4207037",
+    "title": "Stress and pluripotency.",
+    "included": false,
+    "decision_reason": "Conceptual discussion of stress and pluripotency. STAP evidence and failed attempts are explicitly attributed to other reports/labs.",
+    "evidence": [
+      {
+        "source": "sources/raw/PMC4207037.response",
+        "locator": "article/body descendant p[1] (1-based; excludes sub-articles)",
+        "paragraph": 1,
+        "quote": "Vacanti and colleagues recently reported the generation of mouse cells exhibiting pluri/totipotency by stress treatment, and showed that these cells can give rise to chimeras and clonal adults (Obokata et al., 2014a,b). The findings were controversial, and the authors have now retracted the papers, citing multiple critical errors within the reports that impaired the credibility of the findings as a whole. The central notion of this stimulus-triggered acquisition of pluripotency (STAP), and how the idea might have evolved from other notions, is nonetheless worth a moment of thought. In view of the fact that generation of STAP cells beyond the authors' labs have not yet been definitely reported thus far (http://www.ipscell.com/stap-new-data/), one could perhaps surmise that the STAP process, even if real, is difficult to reproduce. The big question though, is whether generation of pluripotent cells by stress alone is at all plausible."
+      },
+      {
+        "source": "sources/raw/PMC4207037.response",
+        "locator": "article/body descendant p[4] (1-based; excludes sub-articles)",
+        "paragraph": 4,
+        "quote": "On the other hand, stress also activates major barriers against reprogramming, the most prominent being p53 and its downstream activities (Krizhanovsky and Lowe, 2009). Acidosis, which will accompany the primary method of low pH incubation in STAP cell generation, activates p53 (Dregoesc and Rainbow, 2009; Lamonte et al., 2013). Other than causing massive death in the culture, which is a phenomenon reported by most if not all attempts to reproduce STAP cells elsewhere, p53 activation would also suppress Nanog expression (Lin et al., 2005; Cinghu et al., 2014). Indeed, it would be difficult to envisage how reprogramming, even infrequently, could predominate over senescence and apoptosis induced by p53 activation alone. This is unless if one starts with p53-deficient cells, or for some reason, p53 defective cells are selected in the process. The genome of cells with defective p53 will however, not likely to be readily germ line transmissible."
+      },
+      {
+        "source": "sources/raw/PMC4207037.response",
+        "locator": "article/body descendant p[5] (1-based; excludes sub-articles)",
+        "paragraph": 5,
+        "quote": "It is also worth noting that the association of stress with pluripotency has been made previously by Obokata and colleagues, as well as others. The authors had previously reported the isolation of cytosphere-forming multi/pluripotent stem cells from several adult tissues capable of differentiating into all three germ layers using “vigorous” trituration (Obokata et al., 2011). Trituration was subsequently suggested and recommended as a method in conjunction with low pH treatment for the production of STAP cells. It was unclear though if the trituration merely served to disperse cell clumps, or had it contributed toward pluripotency induction in the authors' earlier paper. Another report had also indicated that pluripotent stem cells known as Multilineage differentiating stress-enduring (Muse) Cells, could be isolated from adipose tissues using severe cellular stress conditions (Heneidi et al., 2013). The notion of the existence of pluripotent stem cells in multiple adult tissues have been expounded by several groups (Jiang et al., 2002; Brons et al., 2007; Ratajczak et al., 2014), but this notion has remained controversial (Danova-Alt et al., 2012; Miyanishi et al., 2013; Szade et al., 2013). It is, however, conceivable that the idea of STAP may have “evolved” from the perception that stress-related protocols have aided the isolation of adult stem cells."
+      }
+    ],
+    "abstract_present": false,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 27,
+    "pmid": "24940477",
+    "pmcid": "PMC4041046",
+    "title": "Pluripotent muse cells derived from human adipose tissue: a new perspective on regenerative medicine and cell therapy.",
+    "included": false,
+    "decision_reason": "Explicit review of Muse cells and their reported isolation under severe stress; no own transient-acid STAP replication.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[26].abstractText",
+        "quote": "In 2010, Multilineage Differentiating Stress Enduring (Muse) cells were introduced to the scientific community, offering potential resolution to the issue of teratoma formation that plagues both embryonic stem (ES) and induced pluripotent (iPS) stem cells. Isolated from human bone marrow, dermal fibroblasts, adipose tissue and commercially available adipose stem cells (ASCs) under severe cellular stress conditions, Muse cells self-renew in a controlled manner and do not form teratomas when injected into immune-deficient mice. Furthermore, Muse cells express classic pluripotency markers and differentiate into cells from the three embryonic germ layers both spontaneously and under media-specific induction. When transplanted in vivo, Muse cells contribute to tissue generation and repair. This review delves into the aspects of Muse cells that set them apart from ES, iPS, and various reported adult pluripotent stem cell lines, with specific emphasis on Muse cells derived from adipose tissue (Muse-AT), and their potential to revolutionize the field of regenerative medicine and stem cell therapy."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 28,
+    "pmid": "24860566",
+    "pmcid": "PMC4029000",
+    "title": "Induced pluripotent stem cells: challenges and opportunities for cancer immunotherapy.",
+    "included": false,
+    "decision_reason": "Review of iPSC-derived cells for cancer immunotherapy; not own acid-induced somatic-cell pluripotency.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[27].abstractText",
+        "quote": "Despite recent advances in cancer treatment over the past 30 years, therapeutic options remain limited and do not always offer a cure for malignancy. Given that tumor-associated antigens (TAA) are, by definition, self-proteins, the need to productively engage autoreactive T cells remains at the heart of strategies for cancer immunotherapy. These have traditionally focused on the administration of autologous monocyte-derived dendritic cells (moDC) pulsed with TAA, or the ex vivo expansion and adoptive transfer of tumor-infiltrating lymphocytes (TIL) as a source of TAA-specific cytotoxic T cells (CTL). Although such approaches have shown some efficacy, success has been limited by the poor capacity of moDC to cross present exogenous TAA to the CD8(+) T-cell repertoire and the potential for exhaustion of CTL expanded ex vivo. Recent advances in induced pluripotency offer opportunities to generate patient-specific stem cell lines with the potential to differentiate in vitro into cell types whose properties may help address these issues. Here, we review recent success in the differentiation of NK cells from human induced pluripotent stem (iPS) cells as well as minor subsets of dendritic cells (DCs) with therapeutic potential, including CD141(+)XCR1(+) DC, capable of cross presenting TAA to naïve CD8(+) T cells. Furthermore, we review recent progress in the use of TIL as the starting material for the derivation of iPSC lines, thereby capturing their antigen specificity in a self-renewing stem cell line, from which potentially unlimited numbers of naïve TAA-specific T cells may be differentiated, free of the risks of exhaustion."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 29,
+    "pmid": "24852251",
+    "pmcid": "PMC4086070",
+    "title": "StemCellNet: an interactive platform for network-oriented investigations in stem cell biology.",
+    "included": false,
+    "decision_reason": "StemCellNet network-analysis web-server and molecular-interaction resource; not own cell-reprogramming experiment.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[28].abstractText",
+        "quote": "Stem cells are characterized by their potential for self-renewal and their capacity to differentiate into mature cells. These two key features emerge through the interplay of various factors within complex molecular networks. To provide researchers with a dedicated tool to investigate these networks, we have developed StemCellNet, a versatile web server for interactive network analysis and visualization. It rapidly generates focused networks based on a large collection of physical and regulatory interactions identified in human and murine stem cells. The StemCellNet web-interface has various easy-to-use tools for selection and prioritization of network components, as well as for integration of expression data provided by the user. As a unique feature, the networks generated can be screened against a compendium of stemness-associated genes. StemCellNet can also indicate novel candidate genes by evaluating their connectivity patterns. Finally, an optional dataset of generic interactions, which provides large coverage of the human and mouse proteome, extends the versatility of StemCellNet to other biomedical research areas in which stem cells play important roles, such as in degenerative diseases or cancer. The StemCellNet web server is freely accessible at http://stemcellnet.sysbiolab.eu."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 30,
+    "pmid": "24830454",
+    "pmcid": "PMC4102810",
+    "title": "Transmembrane voltage potential of somatic cells controls oncogene-mediated tumorigenesis at long-range.",
+    "included": false,
+    "decision_reason": "Own Xenopus oncogene and ion-channel experiments testing distant resting-voltage control of tumorigenesis; acidity is a tumor characteristic, not the induction being tested.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[29].abstractText",
+        "quote": "The microenvironment is increasingly recognized as a crucial aspect of cancer. In contrast and complement to the field's focus on biochemical factors and extracellular matrix, we characterize a novel aspect of host:tumor interaction - endogenous bioelectric signals among non-excitable somatic cells. Extending prior work focused on the bioelectric state of cancer cells themselves, we show for the first time that the resting potentials of distant cells are critical for oncogene-dependent tumorigenesis. In the Xenopus laevis tadpole model, we used human oncogenes such as mutant KRAS to drive formation of tumor-like structures that exhibited overproliferation, increased nuclear size, hypoxia, acidity, and leukocyte attraction. Remarkably, misexpression of hyperpolarizing ion channels at distant sites within the tadpole significantly reduced the incidence of these tumors. The suppression of tumorigenesis could also be achieved by hyperpolarization using native CLIC1 chloride channels, suggesting a treatment modality not requiring gene therapy. Using a dominant negative approach, we implicate HDAC1 as the mechanism by which resting potential changes affect downstream cell behaviors. Based on published data on the voltage-mediated changes of butyrate flux through the SLC5A8 transporter, we present a model linking resting potentials of host cells to the ability of oncogenes to initiate tumorigenesis. Antibiotic data suggest that the relevant butyrate is generated by a native bacterial species, identifying a novel link between the microbiome and cancer that is mediated by alterations in bioelectric signaling."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 31,
+    "pmid": "24759906",
+    "pmcid": "PMC3997360",
+    "title": "A module of human peripheral blood mononuclear cell transcriptional network containing primitive and differentiation markers is related to specific cardiovascular health variables.",
+    "included": false,
+    "decision_reason": "Own qPCR observational analysis of blood samples from healthy/hypertensive people; measures transcriptional networks, not low-pH induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[30].abstractText",
+        "quote": "Peripheral blood mononuclear cells (PBMCs), including rare circulating stem and progenitor cells (CSPCs), have important yet poorly understood roles in the maintenance and repair of blood vessels and perfused organs. Our hypothesis was that the identities and functions of CSPCs in cardiovascular health could be ascertained by analyzing the patterns of their co-expressed markers in unselected PBMC samples. Because gene microarrays had failed to detect many stem cell-associated genes, we performed quantitative real-time PCR to measure the expression of 45 primitive and tissue differentiation markers in PBMCs from healthy and hypertensive human subjects. We compared these expression levels to the subjects' demographic and cardiovascular risk factors, including vascular stiffness. The tested marker genes were expressed in all of samples and organized in hierarchical transcriptional network modules, constructed by a bottom-up approach. An index of gene expression in one of these modules (metagene), defined as the average standardized relative copy numbers of 15 pluripotency and cardiovascular differentiation markers, was negatively correlated (all p<0.03) with age (R2 = -0.23), vascular stiffness (R2 = -0.24), and central aortic pressure (R2 = -0.19) and positively correlated with body mass index (R2 = 0.72, in women). The co-expression of three neovascular markers was validated at the single-cell level using mRNA in situ hybridization and immunocytochemistry. The overall gene expression in this cardiovascular module was reduced by 72±22% in the patients compared with controls. However, the compactness of both modules was increased in the patients' samples, which was reflected in reduced dispersion of their nodes' degrees of connectivity, suggesting a more primitive character of the patients' CSPCs. In conclusion, our results show that the relationship between CSPCs and vascular function is encoded in modules of the PBMCs transcriptional network. Furthermore, the coordinated gene expression in these modules can be linked to cardiovascular risk factors and subclinical cardiovascular disease; thus, this measure may be useful for their diagnosis and prognosis."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 32,
+    "pmid": "24628920",
+    "pmcid": "PMC3995523",
+    "title": "Embryonic rat vascular smooth muscle cells revisited - a model for neonatal, neointimal SMC or differentiated vascular stem cells?",
+    "included": false,
+    "decision_reason": "Own characterization of vascular smooth-muscle cell lines with serum deprivation, adipogenic induction and Notch blockade; not low-pH STAP replication.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[31].abstractText",
+        "quote": "<h4>Background</h4>The A10 and A7r5 cell lines derived from the thoracic aorta of embryonic rat are widely used as models of non-differentiated, neonatal and neointimal vascular smooth muscle cells in culture. The recent discovery of resident multipotent vascular stem cells within the vessel wall has necessitated the identity and origin of these vascular cells be revisited. In this context, we examined A10 and A7r5 cell lines to establish the similarities and differences between these cell lines and multipotent vascular stem cells isolated from adult rat aortas by determining their differentiation state, stem cell marker expression and their multipotency potential in vitro.<h4>Methods</h4>Vascular smooth muscle cell differentiation markers (alpha-actin, myosin heavy chain, calponin) and stem cell marker expression (Sox10, Sox17 and S100β) were assessed using immunocytochemistry, confocal microscopy, FACS analysis and real-time quantitative PCR.<h4>Results</h4>Both A10 and A7r5 expressed vascular smooth muscle differentiation, markers, smooth muscle alpha - actin, smooth muscle myosin heavy chain and calponin. In parallel analysis, multipotent vascular stem cells isolated from rat aortic explants were immunocytochemically myosin heavy chain negative but positive for the neural stem cell markers Sox10+, a neural crest marker, Sox17+ the endoderm marker, and the glia marker, S100β+. This multipotent vascular stem cell marker profile was detected in both embryonic vascular cell lines in addition to the adventitial progenitor stem cell marker, stem cell antigen-1, Sca1+. Serum deprivation resulted in a significant increase in stem cell and smooth muscle cell differentiation marker expression, when compared to serum treated cells. Both cell types exhibited weak multipotency following adipocyte inductive stimulation. Moreover, Notch signaling blockade following γ-secretase inhibition with DAPT enhanced the expression of both vascular smooth muscle and stem cell markers.<h4>Conclusions</h4>We conclude that A10 and A7r5 cells share similar neural stem cell markers to both multipotent vascular stem cells and adventitial progenitors that are indicative of neointimal stem-derived smooth muscle cells. This may have important implications for their use in examining vascular contractile and proliferative phenotypes in vitro."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 33,
+    "pmid": "24671607",
+    "pmcid": "PMC4169589",
+    "title": "Stem cell therapy: a new approach to the treatment of refractory depression.",
+    "included": false,
+    "decision_reason": "Own rat depression model with ethanol/corticosterone exposure and neural-stem-cell treatment; no transient-acid pluripotency induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[32].abstractText",
+        "quote": "To better understand the relationship of repeated exposure to adversity during early development as a risk factor for refractory depression, we exposed pregnant female rats to ethanol and the resulting pups to corticosterone during adolescence. A stressful forced swim test was then used to induce depression-like behavior. The adolescent rat brains were examined for the possible therapeutic benefit of a combination of sertraline, an antidepressant, and neural stem cells (NSCs) complexed with atelocollagen in relation to the level of GABAergic interneuron and synaptic protein density in different brain regions. The combined exposures of prenatal and adolescent stress resulted in a reduction in parvalbumin (PV)-positive phenotype of GABAergic interneurons and reduced postsynaptic density protein 95 (PSD-95) levels in the anterior cingulate cortex, amygdala, and hippocampus. Treatments with sertraline and NSCs reversed the reductions in PV-positive cells and PSD-95 levels. Furthermore, the combined treatment of sertraline and NSCs resulted in reduced depressive-like behaviors. These experiments underscore a potentially important role for synaptic remodeling and GABAergic interneuron genesis in the treatment of refractory depression and highlight the therapeutic potential of stem cell and pharmacological combination treatments for refractory depression."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 34,
+    "pmid": "24649403",
+    "pmcid": "PMC3958738",
+    "title": "Analysis of essential pathways for self-renewal in common marmoset embryonic stem cells.",
+    "included": false,
+    "decision_reason": "Own study of growth factors/pathways maintaining established marmoset embryonic stem cells; not induction from acid-treated somatic cells.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[33].abstractText",
+        "quote": "Common marmoset (CM) is widely recognized as a useful non-human primate for disease modeling and preclinical studies. Thus, embryonic stem cells (ESCs) derived from CM have potential as an appropriate cell source to test human regenerative medicine using human ESCs. CM ESCs have been established by us and other groups, and can be cultured in vitro. However, the growth factors and downstream pathways for self-renewal of CM ESCs are largely unknown. In this study, we found that basic fibroblast growth factor (bFGF) rather than leukemia inhibitory factor (LIF) promoted CM ESC self-renewal via the activation of phosphatidylinositol-3-kinase (PI3K)-protein kinase B (AKT) pathway on mouse embryonic fibroblast (MEF) feeders. Moreover, bFGF and transforming growth factor β (TGFβ) signaling pathways cooperatively maintained the undifferentiated state of CM ESCs under feeder-free condition. Our findings may improve the culture techniques of CM ESCs and facilitate their use as a preclinical experimental resource for human regenerative medicine."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 35,
+    "pmid": "25157428",
+    "pmcid": "PMC4097842",
+    "title": "Ethical issues in stem cell research and therapy.",
+    "included": false,
+    "decision_reason": "Explicit review of ethical issues in stem-cell research and therapy; no own STAP experiment.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[34].abstractText",
+        "quote": "Rapid progress in biotechnology has introduced a host of pressing ethical and policy issues pertaining to stem cell research. In this review, we provide an overview of the most significant issues with which the stem cell research community should be familiar. We draw on a sample of the bioethics and scientific literatures to address issues that are specific to stem cell research and therapy, as well as issues that are important for stem cell research and therapy but also for translational research in related fields, and issues that apply to all clinical research and therapy. Although debate about the moral status of the embryo in human embryonic stem cell research continues to have relevance, the discovery of other highly multipotent stem cell types and alternative methods of isolating and creating highly multipotent stem cells has raised new questions and concerns. Induced pluripotent stem cells hold great promise, but care is needed to ensure their safety in translational clinical trials, despite the temptation to move quickly from bench to bedside. A variety of highly multipotent stem cells - such as mesenchymal stem/stromal cells and stem cells derived from amniotic fluid, umbilical cord blood, adipose tissue, or urine - present the opportunity for widespread biobanking and increased access. With these increased opportunities, however, come pressing policy issues of consent, control, and justice. The imperatives to minimize risks of harm, obtain informed consent, reduce the likelihood of the therapeutic misconception, and facilitate sound translation from bench to bedside are not unique to stem cell research; their application to stem cell research and therapy nonetheless merits particular attention. Because stem cell research is both scientifically promising and ethically challenging, both the application of existing ethical frameworks and careful consideration of new ethical implications are necessary as this broad and diverse field moves forward."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 36,
+    "pmid": "24984077",
+    "pmcid": "PMC4080539",
+    "title": "Research wranglers: initiatives to improve reproducibility of study findings.",
+    "included": false,
+    "decision_reason": "News report about reproducibility initiatives. Paragraph 3 reports other scientists' acid-bath failures; these are not this article's experiments.",
+    "evidence": [
+      {
+        "source": "sources/raw/PMC4080539.response",
+        "locator": "article/body descendant p[1] (1-based; excludes sub-articles)",
+        "paragraph": 1,
+        "quote": "Advances in science depend on researchers being able to reproduce the findings of their peers, thus providing a solid platform from which to move forward with new lines of scientific inquiry. Yet for a variety of reasons, irreproducibility appears to be a growing problem in experimental research. Now funding agencies and research journals are crafting guidelines to ensure that published studies are well designed, well reported, and better able to generate reproducible results."
+      },
+      {
+        "source": "sources/raw/PMC4080539.response",
+        "locator": "article/body descendant p[3] (1-based; excludes sub-articles)",
+        "paragraph": 3,
+        "quote": "Media reports have singled out a number of egregious cases of irreproducibility, including reports published in Nature earlier this year indicating that adult stem cells would become pluripotent if submerged in a mild acid bath.1,2 The findings were widely criticized after scientists were unable to reproduce the results in their own laboratories.3 Subsequently, the first author agreed to retract the reports.4 In another widely publicized example, the biopharmaceutical company Amgen claimed it could reproduce just 6 of 53 studies that were considered landmarks in basic cancer research, despite close cooperation with the original scientists to make sure the same experimental protocols were used.5"
+      },
+      {
+        "source": "sources/raw/PMC4080539.response",
+        "locator": "article/body descendant p[7] (1-based; excludes sub-articles)",
+        "paragraph": 7,
+        "quote": "At a fundamental level, “reproducibility” refers to the ability of scientists to generate results comparable to those reported in prior studies. Thus, reproducibility differs from replication, or the generation of precisely the same results using the same experimental methods as the original investigators. The terms are often used interchangeably, but NINDS program director Shai Silberberg argues that replication is more of an ideal than a practical goal."
+      }
+    ],
+    "abstract_present": false,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 37,
+    "pmid": "25078608",
+    "pmcid": "PMC4117590",
+    "title": "MicroRNA modulation induced by AICA ribonucleotide in J1 mouse ES cells.",
+    "included": false,
+    "decision_reason": "Own AICAR treatment and miRNA profiling in established J1 embryonic stem cells; the low-pH result is prior literature, not the intervention tested.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[36].abstractText",
+        "quote": "ES cells can propagate indefinitely, maintain self-renewal, and differentiate into almost any cell type of the body. These properties make them valuable in the research of embryonic development, regenerative medicine, and organ transplantation. MicroRNAs (miRNAs) are considered to have essential functions in the maintenance and differentiation of embryonic stem cells (ES cells). It was reported that, strong external stimuli, such as a transient low-pH and hypoxia stress, were conducive to the formation of induced pluripotent stem cells (iPS cells). AICA ribonucleotide (AICAR) is an AMP-activated protein kinase activator, which can let cells in the state of energy stress. We have demonstrated that AICAR can maintain the pluripotency of J1 mouse ES cells through modulating protein expression in our previous research, but its effects on ES cell miRNA expression remain unknown. In this study, we conducted small RNA high-throughput sequencing to investigate AICAR influence on J1 mouse ES cells by comparing the miRNA expression patterns of the AICAR-treated cells and those without treatment. The result showed that AICAR can significantly modulate the expression of multiple miRNAs, including those have crucial functions in ES cell development. Some differentially expressed miRNAs were selected and confirmed by real-time PCR. For the differently expressed miRNAs identified, further study was conducted regarding the pluripotency and differentiation associated miRNAs with their targets. Moreover, miR-134 was significantly down-regulated after AICAR treatment, and this was suggested to be directly associated with the up-regulated pluripotency markers, Nanog and Sox2. Lastly, Myc was significantly down-regulated after AICAR treatment; therefore, we predicted miRNAs that may target Myc and identified that AICAR induced up-regulation of miR-34a, 34b, and 34c can repress Myc expression in J1 mouse ES cells. Taken together, our study provide a new mechanism for AICAR in ES cells pluripotency maintenance and give insight for its usage in iPS cells generation."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 38,
+    "pmid": "24895014",
+    "pmcid": "PMC4162847",
+    "title": "Evidence that the population of quiescent bone marrow-residing very small embryonic/epiblast-like stem cells (VSELs) expands in response to neurotoxic treatment.",
+    "included": false,
+    "decision_reason": "Own kainic-acid neurotoxicity model examining mobilization/expansion of pre-existing VSELs. Kainic acid is a neurotoxin here, not a low-pH bath inducing STAP pluripotency.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[37].abstractText",
+        "quote": "The concept that bone marrow (BM)-derived cells may participate in neural regeneration remains controversial, and the identity of the specific cell type(s) involved remains unknown. We recently reported that the adult murine BM contains a highly mobile population of Sca-1(+) Lin(-) CD45(-) cells known as very small embryonic/epiblast-like stem cells (VSELs) that express several markers of pluripotency such as Oct-4. In the BM microenvironment, these cells are kept quiescent because of epigenetic modification of certain paternally imprinted genes. However, as reported, these cells can be mobilized in mice in an experimental model of stroke and express several genes involved in neurogenesis while circulating in peripheral blood (PB). In the current work, we employed a model of toxic brain damage, which is induced by administration of kainic acid, to see not only whether VSELs can be mobilized into PB in response to this neurotoxin, but, more importantly, whether they proliferate and expand in BM tissue. We report here for the first time that brain damage leads to activation and expansion of the BM pool of quiescent VSELs, which precedes their subsequent egress into PB. Harnessing these cells in neural tissue regeneration is currently one of the challenges in regenerative medicine."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 39,
+    "pmid": "25031174",
+    "pmcid": "PMC4207917",
+    "title": "Perspectives on the production of pluripotent cells from hematopoietic cells.",
+    "included": false,
+    "decision_reason": "Perspective recounting the original CD45/acid experiment in paragraph 6 and calling for further studies; no own repetition.",
+    "evidence": [
+      {
+        "source": "sources/raw/PMC4207917.response",
+        "locator": "article/body descendant p[6] (1-based; excludes sub-articles)",
+        "paragraph": 6,
+        "quote": "In spite of the advances made towards understanding cell reprogramming mechanisms and the ever-growing efforts to manage technical issues, little progress had been made until recently when the possibility of triggering the conversion of somatic cells to pluripotent cells by applying extreme external stimulation was reported.7 The cells obtained in these experiments were named Stimulus-triggered Acquisition of Pluripotency (STAP) cells. In this recent work, pluripotency was acquired from hematopoietic system cells when CD 45+ lymphocytes were exposed to an acidic environment (pH 5.7). The results are encouraging and the STAP cells have been shown to be similar to iPSCs in potency and gene expression with this reprogramming method being more efficient and free of the risks inherent to the use of retroviruses. However, STAP cells also display the capacity of forming teratomas, an undesirable feature that limits their use in therapy for the time being. Nevertheless, the increase in efficiency and drastically diminished costs, suggest that these cells can be produced in a large scale for future in-depth studies that may culminate in the establishment of cell lineages that make cell therapy feasible. Further studies must be carried out using this technology in order to determine its potential and limitations. Can we expect STAP cells to be used to generate in vitro hematopoietic progenitor cells in the near future?"
+      }
+    ],
+    "abstract_present": false,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 40,
+    "pmid": "24638034",
+    "pmcid": "PMC4042166",
+    "title": "Generation of neural progenitor cells by chemical cocktails and hypoxia.",
+    "included": false,
+    "decision_reason": "Own chemical-cocktail plus hypoxia conversion to neural progenitors, not transient low-pH pluripotency induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[39].abstractText",
+        "quote": "Neural progenitor cells (NPCs) can be induced from somatic cells by defined factors. Here we report that NPCs can be generated from mouse embryonic fibroblasts by a chemical cocktail, namely VCR (V, VPA, an inhibitor of HDACs; C, CHIR99021, an inhibitor of GSK-3 kinases and R, Repsox, an inhibitor of TGF-β pathways), under a physiological hypoxic condition. These chemical-induced NPCs (ciNPCs) resemble mouse brain-derived NPCs regarding their proliferative and self-renewing abilities, gene expression profiles, and multipotency for different neuroectodermal lineages in vitro and in vivo. Further experiments reveal that alternative cocktails with inhibitors of histone deacetylation, glycogen synthase kinase, and TGF-β pathways show similar efficacies for ciNPC induction. Moreover, ciNPCs can also be induced from mouse tail-tip fibroblasts and human urinary cells with the same chemical cocktail VCR. Thus our study demonstrates that lineage-specific conversion of somatic cells to NPCs could be achieved by chemical cocktails without introducing exogenous factors."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 41,
+    "pmid": "24832604",
+    "pmcid": "PMC4047905",
+    "title": "Understanding the roadmaps to induced pluripotency.",
+    "included": false,
+    "decision_reason": "Review/discussion of routes and mechanisms of induced pluripotency, reporting other studies; not own STAP induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[40].abstractText",
+        "quote": "Somatic cells can be reprogrammed into induced pluripotent stem cells (iPSCs) by ectopic expression of transcription factors Oct4, Sox2, Klf4 and cMyc. Recent advancements have shown that small-molecule compounds can induce pluripotency, indicating that cell fate can be regulated by direct manipulation of intrinsic cell signaling pathways, thereby innovating our current understanding of reprogramming. The fact that lineage specifiers can induce pluripotency suggests that the pluripotent state is a fine balance between competing differentiation forces. Dissection of pluripotent roadmaps indicates that reprogramming is a process of reverse development, involving a series of complicated and distinct reprogramming stages. Evidence from mouse iPSC transplantation studies demonstrated that some certain but not all cells derived from iPSCs are immunogenic. These studies provide new ways to minimize reprogramming-induced abnormalities and maximize reprogramming efficiency to facilitate clinical development and use of iPSCs."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 42,
+    "pmid": "25075303",
+    "pmcid": "PMC4032108",
+    "title": "Transient acid treatment cannot induce neonatal somatic cells to become pluripotent stem cells.",
+    "included": true,
+    "decision_reason": "Own HCl treatment of CD45-sorted neonatal splenocytes and lung fibroblasts to replicate the early induction stage; functional pluripotency testing is not required for eligibility.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[41].abstractText",
+        "quote": "Currently, there are genetic- and chemical-based methods for producing pluripotent stem cells from somatic cells, but all of them are extremely inefficient.  However, a simple and efficient technique has recently been reported by Obokata et al (2014a, b) that creates pluripotent stem cells through acid-based treatment of somatic cells.  These cells were named stimulus-triggered acquisition of pluripotency (STAP) stem cells. This would be a major game changer in regenerative medicine if the results could be independently replicated. Hence, we isolated CD45 (+) splenocytes from five-day-old Oct4-GFP mice and treated the cells with acidified (pH 5.7) Hank's Balanced Salt Solution (HBSS) for 25 min, using the methods described by Obokata et al 2014c. However, we found that this method did not induce the splenocytes to express the stem cell marker Oct4-GFP when observed under a confocal microscope three to six days after acid treatment. qPCR analysis also confirmed that acid treatment did not induce the splenocytes to express the stemness markers Oct4, Sox2 and Nanog.  In addition, we obtained similar results from acid-treated Oct4-GFP lung fibroblasts. In summary, we have not been able to produce STAP stem cells from neonatal splenocytes or lung fibroblasts using the acid-based treatment reported by Obokata et al (2014a, b, c)."
+      },
+      {
+        "source": "sources/raw/PMC4032108.response",
+        "locator": "article/body descendant p[3] (1-based; excludes sub-articles)",
+        "paragraph": 3,
+        "quote": "There are several fundamental questions that need to be addressed before STAP stem cells can be accepted as one of the main methods for generating stem-like iPS cells, such as: Can these findings be replicated by other researchers? And, other than mouse spleen cells, can this STAP protocol be applied to other somatic cells? Since the publication of the STAP articles, there has been a recent groundswell of comments on social media platforms, including blogs ( Knoeffler Lab Stem Cell Blog), networking sites ( ResearchGate) and Twitter, that have cast considerable doubt on Obokata et al.’s findings. In this context, we have attempted to create STAP cells using their most updated protocol ( Obokata et al., 2014c)."
+      },
+      {
+        "source": "sources/raw/PMC4032108.response",
+        "locator": "article/body descendant p[4] (1-based; excludes sub-articles)",
+        "paragraph": 4,
+        "quote": "Oct4 -GFP transgenic (CBA-Tg (Pou5f1-EGFP) 2Mnn/j) mice, obtained from The Jackson Laboratory and maintained in the CUHK Laboratory Animal Services Centre, were used for experimentation. The usage of these mice was approved by the CUHK Animal Experimentation Ethics Committee (Project No.: 11/056/GRF-5). The new born neonates were kept in a nest bedding with their mothers at 25°C room temperature, under a 12/12 dark-light cycle, and sufficient food and water. We humanely euthanized six to seven of five-day-old neonatal Oct4 -GFP mice by cervical dislocation (according to the ARRIVE guidelines, Kilkenny et al., 2012) and harvested their testes, spleens and lungs. This was done on the same day as the mice left animal breeding centre."
+      },
+      {
+        "source": "sources/raw/PMC4032108.response",
+        "locator": "article/body descendant p[8] (1-based; excludes sub-articles)",
+        "paragraph": 8,
+        "quote": "The crude splenocytes produced above were resuspended in PBS into a single-cell (1 × 10 7 cells/ml) suspension. The cells were incubated with Anti-mouse CD45 antibodies, which were directly conjugated with FITC (1: 100 dilutions, BD Pharmingen TM FITC Rat Anti-mouse CD45) for 30 min at 4°C. The stained cells were then washed three times with PBS and resuspended in PBS supplemented with 1% FBS. The CD45 +-stained splenocytes were sorted and purified using a Cell Sorter (BD LSRFortessa Cell Analyzer). The cells were sorting on 3 different occasions using the same pool of splenocytes extracted from the spleens of 6 neonates."
+      },
+      {
+        "source": "sources/raw/PMC4032108.response",
+        "locator": "article/body descendant p[9] (1-based; excludes sub-articles)",
+        "paragraph": 9,
+        "quote": "We treated the somatic cells with low-pH medium according to the protocol described in ( Obokata et al., 2014c). Accordingly, 5×10 5 cells/ml of CD45 + splenocytes or lung fibroblasts were treated with low-pH HBSS (adjusted to pH 5.7 with HCl) for 25 min at 37°C. The acid-treated cells were then centrifuged at 1200 rpm for 5 min. The supernatants were removed and rechecked to confirm that the pH was still pH 5.7. All pH were measured using a calibrated pH meter (Mettler-Toledo, USA). All of acid-treated cell pellets were resuspended in DMEM/F-12 medium supplemented with 1× B27 and 1,000U LIF at a concentration of 1×10 5 cells/ml. The cultures were then plated onto non-adhesive culture dishes (SPL; Cat#11035) and examined for GFP expression on seven consecutive days using microscopy (LEICA SP5). The experiments were performed in triplicate."
+      },
+      {
+        "source": "sources/raw/PMC4032108.response",
+        "locator": "article/body descendant p[14] (1-based; excludes sub-articles)",
+        "paragraph": 14,
+        "quote": "To replicate Obokata’s experiment, we isolated a pure population of CD45 + splenocytes from the spleens of five-day-old Oct4-GFP mice as shown in Figure 2A. The CD45 + splenocytes were treated with a mild acidic (pH 5.7) HBSS for 25 min at 37°C. The acid-bathed cells were then cultured in DMEM/F-12 medium supplemented with B27 and 1,000U LIF. We examined the cells for Oct4-GFP expression, every day for up to seven days, but did not observe any Oct4-GFP expression under the confocal microscope ( Figures 2B, C and D). However, we did occasionally observe clusters of cells that appeared to be GFP + but were later determined to be autofluorescence, as these cells were necrotic and stained positive with propidium iodide ( Figure 2E). qPCR analysis was performed to establish whether the acid-bathed cells were capable of expressing the stemness markers. The qPCR results revealed that acid treatment did not induce the splenocytes to express Oct4, Sox2 and Nanog ( Figure 2F)."
+      },
+      {
+        "source": "sources/raw/PMC4032108.response",
+        "locator": "article/body descendant p[16] (1-based; excludes sub-articles)",
+        "paragraph": 16,
+        "quote": "We also attempted to produce STAP cells from Oct4-GFP lung fibroblasts. Like the splenocytes, the fibroblasts were treated with acidic HBSS (pH 5.7) for 25 min at 37°C. We checked the cells for GFP expression for seven consecutive days but did not observe any GFP expression ( Figure 3A and B). Likewise, our qPCR analysis also did not show induced Oct4, Sox2 and Nanog expressions in our acid-treated fibroblasts ( Figure 3C)."
+      },
+      {
+        "source": "sources/raw/PMC4032108.response",
+        "locator": "article/body descendant p[20] (1-based; excludes sub-articles)",
+        "paragraph": 20,
+        "quote": "Currently, there is a trend to simplify iPS cell production by minimizing genetic manipulation and incorporating the use of small chemical molecules for somatic cell reprogramming ( Shi et al., 2008; Zhu et al., 2010). In this context, it has been reported that mouse iPS cells could be generated using a cocktail of seven chemical molecules without any genetic manipulation, with an efficiency of around 0.2% ( Hou et al., 2013). These important developments were recently superseded by claims that hydrochloric acid treatment alone can chemically reprogram fibroblasts to become induced pluripotent stem cells ( Obokata et al., 2014a; Obokata et al., 2014b). The authors claimed that chemically stressing CD45 + splenocytes (isolated from Oct4-GFP neonates) to the point of death so that approximately 25% of the cells survive will activate the Oct4-GFP transgene in over 50% of surviving cells. They called these cells “STAP cells” which, when injected into host blastocysts, could participate in the development of all tissues and organs, including the placenta. The STAP chimeric mice produced were reported to be healthy, and the STAP-derived germ cells were demonstrated to be involved in germline transmission ( Obokata et al., 2014a; Obokata et al., 2014b). These are astonishing findings. Nevertheless, we have tried to replicate the first stages of Obokata’s findings using CD45 + splenocytes isolated from Oct4-GFP neonates, but could not activate the expression of the Oct4-GFP transgene. This is despite using their most updated protocol for producing STAP cells, which was reported in Protocol Exchange ( Obokata et al., 2014c). We also tried using Oct4-GFP lung fibroblasts instead of splenocytes, but again we failed to detect Oct4-GFP expression after acid-treatment. Occasionally, there were cells that appeared GFP positive, but we later determined them to be autofluorescence from apoptotic cells. We made sure that the pH was exactly maintained at pH 5.7 during the experiments by measuring the pH before and after cell treatment. This is because the Protocol Exchange protocol placed a lot of emphasis on maintaining an optimal pH during the acid treatment of the cells. We found that there was a pH 0.1 increase after the acid buffer was added to treat the cells – so our starting pH was actually 5.6 to compensate. At the end of acid bath stimulation, we also measured the pH of the buffer to confirm that it was still pH 5.7. Therefore, our inability to produce STAP cells could not be attributed to changes in the pH during the cell stimulus procedures."
+      },
+      {
+        "source": "sources/raw/PMC4032108.response",
+        "locator": "article/body descendant p[21] (1-based; excludes sub-articles)",
+        "paragraph": 21,
+        "quote": "Another possibility why we could not replicate Obokata’s results might be the difference in the strains of Oct4-GFP transgenic mice used. We acquired our transgenic mice from The Jackson Laboratory (CBA-Tg (Pou5f1-EGFP) 2Mnn/j) while Obokata used transgenic mice generated by Ohbo et al., 2003. Their transgenic mice were developed from a C57BL.6J background, and carry the EGFP cDNA under the control of an Oct4 18-kb genomic fragment (consisting of a minimal promoter and proximal and distal enhancer). Perhaps the transgene in these mice is more easily activated than in our Jackson Laboratory mice. This could potentially explain why Obokata’s transgenic splenocytes, but not our transgenic splenocytes, expressed the EGFP reporter following acid bath treatment. Nevertheless, in the context of generating STAP stem cells, it is not the expression of the transgene that is important but rather the expression of the endogenous Oct4 gene - and related endogenous stemness genes, Sox2 and Nanog. Expression of these genes could not be demonstrated using qPCR analysis following splenocyte acid treatment and culture."
+      },
+      {
+        "source": "sources/raw/PMC4032108.response",
+        "locator": "article/body descendant p[22] (1-based; excludes sub-articles)",
+        "paragraph": 22,
+        "quote": "In conclusion, we have not been able to replicate Obokata et al.’s findings to produce STAP stem cells from somatic cells. It appears that the method for producing STAP stem cells is not as simple and straight forward as has been reported."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 43,
+    "pmid": "25002192",
+    "pmcid": "PMC4053948",
+    "title": "Lucky iPSCs.",
+    "included": false,
+    "decision_reason": "Despite mixed research-article/Review metadata, the abstract and body discuss others' published reprogramming findings. The STAP paragraph is explicitly about another study.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[42].abstractText",
+        "quote": "The probabilistic behavior of direct induction of pluripotency has been a subject of intense research interest. Here we discuss recently published reports on this topic."
+      },
+      {
+        "source": "sources/raw/PMC4053948.response",
+        "locator": "article/body descendant p[18] (1-based; excludes sub-articles)",
+        "paragraph": 18,
+        "quote": "Further, these studies highlight the interplay between transcription factor and chromatin changes when inducing the complete epigenetic reprogramming that leads to authentic pluripotency induction. While in OSKM-triggered iPSC reprogramming, OSKM initiate the critical secondary epigenetic events, recent studies have pointed to what may be a global epigenetic change as an initial trigger that can randomly lead to secondary transcriptional reactivation of the endogenous pluripotency network without exogenous transcription factor expression. A prominent example is the demonstration that small molecule compound combinations, several of which target epigenetic repressors, are sufficient to induce the pluripotency transcriptional network in mouse fibroblasts [10]. Another recent sensational study reported the ability to trigger acquisition of pluripotency in neonatal mouse cells by transient exposure to low-pH conditions (with the resulting cells termed ‘STAP’ cells) [6]. If confirmed, these studies may underscore a ‘chicken-or-the-egg’ pdigm regarding the co-dominance between transcription factors and chromatin landscape. Detailed understanding of the interplay between these components is key to the molecular understanding of cell reprogramming and lineage specification trajectories."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 44,
+    "pmid": "25206856",
+    "pmcid": "PMC4146237",
+    "title": "Dipping cells in acidic bath could make stem cells.",
+    "included": false,
+    "decision_reason": "Commentary summarizing the original Nature claims and explicitly calling for replication; no own acid-bath experiment.",
+    "evidence": [
+      {
+        "source": "sources/raw/PMC4146237.response",
+        "locator": "article/body descendant p[1] (1-based; excludes sub-articles)",
+        "paragraph": 1,
+        "quote": "The discovery that somatic mammalian cells can be epigenetically reprogrammed to induced pluripotent stem cells (iPSCs) through the exogenous expression of the Oct4, Sox2, Klf4 and c-Myc (OSKM) has demonstrated a new way for cell-replacement therapy in regenerative medicine (Li et al., 2013; Nishimura and Takahashi, 2013; Takahashi and Yamanaka, 2013). This novel technology has opened new therapeutic opportunities to generate stem cells in any tissue for cell replacement therapy in a number of disorders (Yamanaka, 2012; Li et al., 2013; Nishimura and Takahashi, 2013; Takahashi and Yamanaka, 2013). Just last week, two papers published in Nature, describing a surprisingly simple method to turn mature cells into embryonic-like stem cells by culturing cells in a low pH medium (Obokata et al., 2014a, 2014b). This method by Obokata and colleagues is truly the simplest, cheapest, and fastest method ever achieved for reprogramming somatic cells into multipotent stem cells."
+      },
+      {
+        "source": "sources/raw/PMC4146237.response",
+        "locator": "article/body descendant p[9] (1-based; excludes sub-articles)",
+        "paragraph": 9,
+        "quote": "The novel approach developed by Obokata et al is surprisingly simple. When a dozen of cell types, including those from brain, skin, lung, and liver were exposed to stress, including low pH, about 20% of the cells that survived from stress reprogrammed to multipotent stem cells without introduction of any exogenous genes. Obokata called the phenomena stimulus-triggered acquisition of pluripotency (STAP; Figure 1d). This is an amazing technique that may allow creating cells with pluripotency from patients without destruction of an embryo or introduction of exogenous genes. If successful, it would open a new era in stem cell biology and research in tumorigenesis. However, scientists need to replicate this exciting result and fully understand the mechanism underlying STAP cells before their full potential is realized and applied in medicine."
+      }
+    ],
+    "abstract_present": false,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 45,
+    "pmid": "24782779",
+    "pmcid": "PMC3986550",
+    "title": "Molecular and cell-based therapies for muscle degenerations: a road under construction.",
+    "included": false,
+    "decision_reason": "Explicit review of molecular and cell therapies for muscle degeneration; no own STAP replication.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[44].abstractText",
+        "quote": "Despite the advances achieved in understanding the molecular biology of muscle cells in the past decades, there is still need for effective treatments of muscular degeneration caused by muscular dystrophies and for counteracting the muscle wasting caused by cachexia or sarcopenia. The corticosteroid medications currently in use for dystrophic patients merely help to control the inflammatory state and only slightly delay the progression of the disease. Unfortunately, walkers and wheel chairs are the only options for such patients to maintain independence and walking capabilities until the respiratory muscles become weak and the mechanical ventilation is needed. On the other hand, myostatin inhibition, IL-6 antagonism and synthetic ghrelin administration are examples of promising treatments in cachexia animal models. In both dystrophies and cachectic syndrome the muscular degeneration is extremely relevant and the translational therapeutic attempts to find a possible cure are well defined. In particular, molecular-based therapies are common options to be explored in order to exploit beneficial treatments for cachexia, while gene/cell therapies are mostly used in the attempt to induce a substantial improvement of the dystrophic muscular phenotype. This review focuses on the description of the use of molecular administrations and gene/stem cell therapy to treat muscular degenerations. It reviews previous trials using cell delivery protocols in mice and patients starting with the use of donor myoblasts, outlining the likely causes for their poor results and briefly focusing on satellite cell studies that raise new hope. Then it proceeds to describe recently identified stem/progenitor cells, including pluripotent stem cells and in relationship to their ability to home within a dystrophic muscle and to differentiate into skeletal muscle cells. Different known features of various stem cells are compared in this perspective, and the few available examples of their use in animal models of muscular degeneration are reported. Since non coding RNAs, including microRNAs (miRNAs), are emerging as prominent players in the regulation of stem cell fates we also provides an outline of the role of microRNAs in the control of myogenic commitment. Finally, based on our current knowledge and the rapid advance in stem cell biology, a prediction of clinical translation for cell therapy protocols combined with molecular treatments is discussed."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 46,
+    "pmid": "24736840",
+    "pmcid": "PMC4003273",
+    "title": "Dystrophic muscle environment induces changes in cell plasticity.",
+    "included": false,
+    "decision_reason": "Comment on Saccone and colleagues' muscle-plasticity study; pH reprogramming is cited as an external unconfirmed finding.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[45].abstractText",
+        "quote": "Fibro-adipogenic progenitors (FAPs) reside in the muscle, where they facilitate myofiber regeneration. Under normal conditions, FAPs lack myogenic potential and thus do not directly contribute to regenerated myofibers. Surprisingly, Saccone and colleagues (pp. 841-857) demonstrated that the dystrophic muscle environment causes FAPs to adopt a chromatin state that imparts these cells with myogenic potential. In this context, treatment of muscle with deacetylase inhibitors activates a BAF60c-myomiR transcriptional network in FAPs, blocking adipogenesis and driving muscle differentiation."
+      },
+      {
+        "source": "sources/raw/PMC4003273.response",
+        "locator": "article/body descendant p[5] (1-based; excludes sub-articles)",
+        "paragraph": 5,
+        "quote": "The most surprising finding of this study is the fact that the myogenic potential of FAPs is limited to cells derived from the muscle of young mdx mice. As FAPs are not thought to express the dystrophin gene (mutations in the dystrophin gene are at the origin of DMD), it appears that muscle degeneration in young mdx muscle creates an environment that modifies the epigenetic state of FAPs to establish an altered potency within these cells. The dystrophin-independent nature of this altered cell plasticity is strongly supported by the investigators’ finding that myogenic potential can also be acquired in young FAPs after cardiotoxin-induced injury. This injury-induced acquisition of myogenic potential is exciting in light of recent work reporting that pH-induced stress of CD45+ cells from the spleen induces a reprogramming of the epigenome to establish a totipotent cell state (Obokata 2014). While the pH-induced reprogramming of CD45+ cells still requires confirmation from independent laboratories, it is intriguing to speculate that the muscle environment induced by the chronic myofiber breakdown in muscular dystrophy or cardiotoxin-induced muscle injury leads to a stress response that reprograms the epigenetic state of FAPs in young mice to a cell type of altered potency. Supporting the possibility that the damaged muscle environment alters the plasticity of nonmyogenic cells, myogenic commitment of a mesenchymal (CD34+/Sca1+) cell population was recently reported in cancer cachexia (He et al. 2013). Nevertheless, the question remains as to why the muscle environment of older mdx mice does not confer a similar alteration of cell plasticity on its resident FAPs. A first possibility could be that the reduced level of necrosis observed in the aged mdx mice does not provide sufficient stress to induce the epigenetic reprogramming required for FAPs to acquire altered cell plasticity. Indeed, young mdx mice display intense skeletal muscle necrosis due to intense degeneration and regeneration of the skeletal muscle (De Luca 2012). However, stabilization of the dystrophic pathology in aged mdx mice leads to a gradual decrease in necrosis and may create a less stressful environment for FAPs. Alternatively, it may be that FAPs from older mice establish a more stable epigenetic state, increasing their resistance to extracellular stresses that might alter their plasticity. While the epigenetic state of FAPs has yet to be examined at any point in development, studies of epigenetic modifications in satellite cells have demonstrated age-related alterations in histone methylation. For example, global levels of the transcriptionally repressive mark of histone H3K27 trimethylation (H3K27me3) are significantly increased in satellite cells of aged mice (Liu et al. 2013). One could thus imagine that a similar increase in global H3K27me3 levels in FAPs from aged mice would lead to a decrease in chromatin plasticity and lay the basis for these cells’ inability to acquire myogenic potential after HDAC inhibitor treatment. Comparative genome-wide analysis of histone modifications in FAPs of young and old mice will help resolve this question. At the same time, it will be important to examine the myogenic potential of HDAC inhibitor-treated FAPs isolated from older mice after cardiotoxin-induced muscle injury to confirm that loss of muscle potency is related to the aging of FAPs and not to the age-related changes in phenotype described in mdx muscle."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 47,
+    "pmid": "24686321",
+    "pmcid": "PMC4065176",
+    "title": "Reprogramming cancer cells to pluripotency: an experimental tool for exploring cancer epigenetics.",
+    "included": false,
+    "decision_reason": "Summarizes the authors' prior glioblastoma reprogramming with exogenous OCT4/KLF4. The experimental route is transcription factors, not low-pH STAP induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[46].abstractText",
+        "quote": "The epigenetic marks displayed by a cancer cell originate from two separate processes: The most prominent epigenetic signatures are associated with the cell of origin, i.e., the lineage and cell type identity imposed during development. The second set comprises those aberrant cancer-specific epigenetic marks that appear during tumor initiation or subsequent malignant progression. These are generally thought to associate with tumor-promoting pathways. As biochemical pathways regulating epigenetic mechanisms are potentially \"druggable\" and reversible, there is considerable interest in defining their roles in tumor genesis and growth, as they may represent therapeutic targets for treatment of human neoplasias. (1) However, despite the potential importance of epigenetic modifications in human cancer, it has been difficult to determine when, where and how epigenetic disruptions occur, and if they have important functional roles in sustaining the malignant state."
+      },
+      {
+        "source": "sources/raw/PMC4065176.response",
+        "locator": "article/body descendant p[1] (1-based; excludes sub-articles)",
+        "paragraph": 1,
+        "quote": "We, and others, have recently demonstrated that lineage reprogramming to pluripotency through forced expression of reprogramming transcription factors (termed induced pluripotent stem cell [iPSC] technology) can be applied to study epigenetic mechanisms in human cancer.2-6 Such experimentally induced reprogramming provides a cellular model to assess the functional contribution of both cancer-specific and lineage-associated methylation changes in maintaining the malignant cellular state. Here we summarize the major conclusions from our studies of the human brain cancer glioblastoma (GBM), and discuss the benefits and limitations of this experimental approach.4"
+      },
+      {
+        "source": "sources/raw/PMC4065176.response",
+        "locator": "article/body descendant p[9] (1-based; excludes sub-articles)",
+        "paragraph": 9,
+        "quote": "Previous studies had indicated that mouse and human cancer cell lines might be amenable to experimentally induced reprogramming, using either nuclear transfer,34,35 or more recently forced expression of reprogramming transcription factors C-MYC, OCT4 (POU5F1), SOX2, and KLF4.2,3 Normal neural stem cells can be efficiently reprogrammed using two factors, OCT4 and KLF436 (the other “Yamanaka factors,” SOX2 and C-MYC, are already expressed). We reasoned that such “two factor” reprogramming might therefore be sufficient for reprogramming of GBM stem cells. A further incentive to explore iPSC reprogramming using human GBM stem cells, is that well defined protocols exist to steer the resulting iPSCs along the neural lineage,37,38 thus enabling analysis of the functional consequences of a cancer-specific epigenetic resetting in the appropriate lineage context. Glioblastoma iPSCs (GiPSCs) would also be useful to explore how the GBM genome behaves in distinct non-neural lineages, and if they are able to engage in distinct differentiation programs."
+      },
+      {
+        "source": "sources/raw/PMC4065176.response",
+        "locator": "article/body descendant p[10] (1-based; excludes sub-articles)",
+        "paragraph": 10,
+        "quote": "Despite the extensive genetic and karyotypic changes in GBMs, we found that a subset of GNS cells were amenable to transcription factor mediated reprogramming, through forced expression of only OCT4 and KLF4.4 Reprogramming was no more efficient than control NS cells, and switching cells into hESC culture conditions did not result in iPSC conversion. Prior to reprogramming, we also failed to observe transcription of key pluripotency markers in the GBM stem cells, and the promoter regions of OCT4 and NANOG were hypermethylated. Thus, the core pluripotency network driven by OCT4 and NANOG is not likely to be a feature of human GBM; an earlier study suggested that this was the case,39 but has since been challenged by the finding that only the MYC-driven transcriptional module is shared.40"
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 48,
+    "pmid": "24724061",
+    "pmcid": "PMC3974965",
+    "title": "Disease modeling and cell based therapy with iPSC: future therapeutic option with fast and safe application.",
+    "included": false,
+    "decision_reason": "Explicit review of disease modelling and iPSC therapy; no own acid induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[47].abstractText",
+        "quote": "Induced pluripotent stem cell (iPSC) technology has shown us great hope to treat various human diseases which have been known as untreatable and further endows personalized medicine for future therapy without ethical issues and immunological rejection which embryonic stem cell (hES) treatment has faced. It has been agreed that iPSCs knowledge can be harnessed from disease modeling which mimics human pathological development rather than trials utilizing conventional rodent and cell lines. Now, we can routinely generate iPSC from patient specific cell sources, such as skin fibroblast, hair follicle cells, patient blood samples and even urine containing small amount of epithelial cells. iPSC has both similarity and dissimilarity to hES. iPSC is similar enough to regenerate tissue and even full organism as ES does, however what we want for therapeutic advantage is limited to regenerated tissue and lineage specific differentiation. Depending on the lineage and type of cells, both tissue memory containing (DNA rearrangement/epigenetics) and non-containing iPSC can be generated. This makes iPSC even better choice to perform disease modeling as well as cell based therapy. Tissue memory containing iPSC from mature leukocytes would be beneficial for curing cancer and infectious disease. In this review, the benefit of iPSC for translational approaches will be presented."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  },
+  {
+    "roster_index": 49,
+    "pmid": "24675390",
+    "pmcid": "PMC4012730",
+    "title": "Arsenic-induced sub-lethal stress reprograms human bronchial epithelial cells to CD61¯ cancer stem cells.",
+    "included": false,
+    "decision_reason": "Own six-month low-dose arsenic stress causing cancer-stem-cell traits; not transient low-pH STAP induction.",
+    "evidence": [
+      {
+        "source": "sources/raw/cohort_initial.response",
+        "locator": "resultList.result[48].abstractText",
+        "quote": "In the present report, we demonstrate that sub-lethal stress induced by consecutive exposure to 0.25 µM arsenic (As3+) for six months can trigger reprogramming of the human bronchial epithelial cell (BEAS-2B) to form cancer stem cells (CSCs) without forced introduction of the stemness transcription factors. These CSCs formed from As3+-induced sub-lethal stress featured with an increased expression of the endogenous stemness genes, including Oct4, Sox2, Klf4, Myc, and others that are associated with the pluripotency and self-renewal of the CSCs. Flow cytometry analysis indicated that 90% of the CSC cells are CD61¯, whereas 100% of the parental cells are CD61+. These CD61¯ CSCs are highly tumorigenic and metastatic to the lung in xenotransplantation tests in NOD/SCID Il2rγ-/- mice. Additional tests also revealed that the CD61¯ CSCs showed a significant decrease in the expression of the genes important for DNA repair and oxidative phosphorylation. To determine the clinical relevance of the above findings, we stratified human lung cancers based on the level of CD61 protein and found that CD61low cancer correlates with poorer survival of the patients. Such a correlation was also observed in human breast cancer and ovarian cancer. Taken together, our findings suggest that in addition to the traditional approaches of enforced introduction of the exogenous stemness circuit transcription factors, sub-lethal stress induced by consecutive low dose As3+ is also able to convert non-stem cells to the CSCs."
+      }
+    ],
+    "abstract_present": true,
+    "pubtype_not_used_as_sufficient_exclusion": true,
+    "semantic_review": "Constructor model assessment, not independent human adjudication"
+  }
+]

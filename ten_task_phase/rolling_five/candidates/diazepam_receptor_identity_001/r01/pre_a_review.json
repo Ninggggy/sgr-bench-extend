@@ -1,0 +1,159 @@
+{
+  "candidate_id": "diazepam_receptor_identity_001",
+  "revision": 1,
+  "status": "pass_pre_A_content_review",
+  "review_stage": "Independent pre-A content/reference/pair review only",
+  "reviewer": "/root/diazepam_pre_a_audit",
+  "model": "gpt-6-astra",
+  "reasoning": "high",
+  "constructor_final_ready_utc": "2026-09-13T05:42:23.750687+00:00",
+  "controller_final_ready_confirmed": true,
+  "completed_at_utc": "2026-09-13T05:44:52.816560+00:00",
+  "decision": "No substantive content, scope, reference, pair-alignment, or observed-path SGR blocker remains for development A. This is not a difficulty pass, development-afterward final quality audit, or human research judgment.",
+  "review_inputs": [
+    "chinese_1st_ver/latex/main.tex:142",
+    "chinese_1st_ver/latex/sections/3_Method.tex",
+    "construction_pipeline/research/economic_five_efficiency_review_2026-09-12.md",
+    "construction_pipeline/prompts/02_candidate_designer.md",
+    "construction_pipeline/prompts/07_pair_writer.md",
+    "cg.json",
+    "go.json",
+    "rules.json",
+    "sources/raw/01_activities.json",
+    "sources/raw/02_targets.json",
+    "sources/raw/03_assays.json",
+    "sources/raw/04_source.json",
+    "sources/raw/05_status.json",
+    "sources/raw/06_cbr_document.json",
+    "sources/raw/07_activities_refresh.json",
+    "sources/raw/08_targets_refresh.json",
+    "sources/raw/09_assays_refresh.json",
+    "sources/raw/10_exact_diazepam_identity.json",
+    "sources/reused_discovery_request_02_03_official_pages.json",
+    "sources/reused_discovery_request_04_release_notes.json",
+    "reference.py",
+    "constructor_annotations.json",
+    "execution_checks.json"
+  ],
+  "independence": "Raw records and all 130 descriptions were read. The separate recompute.py neither imports reference.py nor consumes constructor annotations, counts, or oracle. Preliminary constructor counts were visible while inspecting scope documents; the program independently derives results and compares oracle only afterward. No blind-model claim.",
+  "scope": {
+    "compound": "CHEMBL12",
+    "raw_activity_count": 131,
+    "scope_count": 130,
+    "distinct_assays": 126,
+    "distinct_targets": 32,
+    "excluded_source_ids": [
+      7704649
+    ],
+    "unchecked_registration_count": 30
+  },
+  "classification": {
+    "COMPLEX_GROUP": 28,
+    "DIRECT_COMPLEX": 42,
+    "UNCURATED_GABA_BZD": 26,
+    "HOMOLOGOUS_COMPLEX": 13,
+    "TSPO": 2,
+    "OTHER": 10,
+    "GABA_SUBUNIT": 9
+  },
+  "engineered_ids": [
+    320291,
+    320292,
+    320293,
+    320294,
+    320295,
+    320296
+  ],
+  "conflicts": [
+    [
+      "604850",
+      "Homo sapiens alpha4/beta3/gamma2 -> Homo sapiens alpha1/beta3/gamma2"
+    ],
+    [
+      "1701379",
+      "Homo sapiens alpha1/beta2/gamma2 -> Homo sapiens alpha1/beta1/gamma2"
+    ],
+    [
+      "1876214",
+      "Rattus norvegicus alpha5/beta2/gamma2 -> Rattus norvegicus alpha1/beta2/gamma2"
+    ]
+  ],
+  "semantic_checks": {
+    "all_30_unchecked_descriptions_read": true,
+    "unchecked_split": "26 GABA/BZD, 4 UGT OTHER; do not describe 26 as the entire UNCHECKED inventory.",
+    "CBR": "Activity 29082421 and 29082429 directly assay CBR low/high-affinity sites and link to CHEMBL6078658, whose original abstract defines central benzodiazepine receptor. This is target context, not unrelated background.",
+    "engineering": "All six mutant/chimeric labels directly modify the assayed receptor. Four lie in DIRECT_COMPLEX and two in UNCURATED_GABA_BZD. Recombinant alone and unlabeled records are not treated as mutants or certified wild type.",
+    "identity": "GROUP MEMBER is not a coexisting subunit set; H is not converted to D; detailed descriptions do not promote UNCHECKED or SINGLE PROTEIN. TSPO remains TSPO despite broad BzR wording.",
+    "conflicts": "All three conflict descriptions explicitly name human/rat receptor origin. No expression-host origin is used. Alternatives beta2/3, chimera and incomplete registration do not create additional conflicts.",
+    "standard_fields": "131 queried records satisfy all B/Ki/nM/= and individual-compound predicates; only non-literature activity 7704649 is excluded. Converted pKi/units and duplicate/validity flags are retained."
+  },
+  "pair": {
+    "GO_equals_CG_without_three_guidance_steps": true,
+    "output_format_equal": true,
+    "all_necessary_conditions_equal": true,
+    "GO_unnecessary_route_constraint": false,
+    "output_rows": 11,
+    "output_columns": [
+      "ITEM",
+      "FINDING"
+    ],
+    "public_website_name_url_or_answer_ids_present": false
+  },
+  "scoring": {
+    "entrypoint": "construction_pipeline/ten_task_phase/runtime/score.py",
+    "equals_registered_protocol_file": true,
+    "protocol_modified": false,
+    "scored_fields": [
+      "ITEM",
+      "FINDING"
+    ],
+    "gold_fields": 22,
+    "correct_fields": 22,
+    "Item-F1": 1.0,
+    "Row-F1": 1.0,
+    "P.O.A.": 1.0,
+    "meaning": "Independent reconstructed answer compatibility, not tested-model performance. Fixed row keys receive existing protocol credit."
+  },
+  "SGR": {
+    "verdict": "Observed-path dependency supported; no counterexample established by the inspected complete activity package.",
+    "witness": "The full original activity response lacks relationship_type; explicit human receptor descriptions include H (e.g. 599580). Its discovered assay identities condition the follow-up assay filter that exposes D/H attribution.",
+    "shorter_paths": "Target names already expose the three conflicts and may spare some component lookups. Equivalent batch queries and sufficient CBR evidence are legal. No unique operation sequence, second dependency, special return visit, or all-HTTP replay requirement is imposed.",
+    "bulk_status": "A complete database export or other joined projection has not been retrieved in this review. Its actual coverage and shortest route remain unknown; lack of this bulk evidence is not treated as a blocker, and no legal available shortcut is denied."
+  },
+  "stability": {
+    "all_full_raw_JSON_pairs_equal": {
+      "01_activities.json": true,
+      "02_targets.json": true,
+      "03_assays.json": true
+    },
+    "independent_initial_refresh_answers_equal": true,
+    "reference_matches_oracle": true,
+    "version": "ChEMBL_37",
+    "prepared": "2026-05-01",
+    "official_announcement": "2026-05-29",
+    "actual_reference_observation": "2026-09-13 UTC",
+    "runtime_current_date": "2026-09-09",
+    "limitations": "Full relevant cohorts agree at the two recorded construction observations; this is not a guarantee over future evaluation or proof of permanent historical HTTP replay. Post-refresh status itself was not separately fetched."
+  },
+  "blocking_findings": [],
+  "required_followup": "Proceed through the existing development, attack, independent final-audit and formal/human stages as applicable; this review replaces none of them.",
+  "artifacts": [
+    "independent_review/recompute.py",
+    "independent_review/recomputed.json",
+    "independent_review/recomputed.psv",
+    "independent_review/summary.json",
+    "independent_review/current_scorer_check.json"
+  ],
+  "accounting": {
+    "functions_exec_calls_including_report_write": 17,
+    "new_public_requests": 0,
+    "model_solver_calls": 0,
+    "spawned_subagents": 0,
+    "tokens": null,
+    "money": null,
+    "elapsed_seconds": null,
+    "timing_note": "Task assignment was around 05:36 UTC; completed timestamp above, within the 1800-second allocation. Exact dispatch timestamp/whole-turn elapsed and token accounting must come from the controller native trace; no fabricated exact elapsed.",
+    "known_clock_observation_utc": "2026-09-13T05:40:48Z",
+    "all_review_costs_charged": true
+  }
+}

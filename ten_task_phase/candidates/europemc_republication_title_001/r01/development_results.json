@@ -1,0 +1,44 @@
+{
+  "candidate_id": "europemc_republication_title_001",
+  "revision": "r01",
+  "stage": "development_A",
+  "completed_at": "2026-09-10T06:24:44.899931+00:00",
+  "decision": "reject_both_initial_variants_fully_correct",
+  "additional_trials": false,
+  "results": [
+    {
+      "variant": "CG",
+      "run_id": "r-epmc-repubtitle-r01-cg-dev-a",
+      "Item-F1": 1,
+      "Row-F1": 1,
+      "correct_fields": 12,
+      "gold_fields": 12,
+      "verification": "passed",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "elapsed_seconds": 620.391,
+      "isolation_record": "construction_pipeline/ten_task_phase/runs/r-epmc-repubtitle-r01-cg-dev-a/isolation.json"
+    },
+    {
+      "variant": "GO",
+      "run_id": "r-epmc-repubtitle-r01-go-dev-a",
+      "Item-F1": 1,
+      "Row-F1": 1,
+      "correct_fields": 12,
+      "gold_fields": 12,
+      "verification": "passed",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "elapsed_seconds": 463.429,
+      "isolation_record": "construction_pipeline/ten_task_phase/runs/r-epmc-repubtitle-r01-go-dev-a/isolation.json"
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "observed_at": "2026-09-11T19:46:15.278014+00:00",
+  "provisional": false,
+  "run_id": "nvd-daily-r02-go-dev-a",
+  "client_timeouts": [
+    {
+      "id": "item_217",
+      "tool": "download",
+      "arguments": {
+        "url": "https://nvd.nist.gov/feeds/json/cpematch/2.0/nvdcpematch-2.0.tar.gz"
+      },
+      "error": {
+        "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+      },
+      "status": "failed"
+    },
+    {
+      "id": "item_220",
+      "tool": "download",
+      "arguments": {
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?cveId=CVE-2001-1411&resultsPerPage=500"
+      },
+      "error": {
+        "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+      },
+      "status": "failed"
+    },
+    {
+      "id": "item_222",
+      "tool": "download",
+      "arguments": {
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=786BB737-EA99-4EC6-B742-0C35BF2453F9"
+      },
+      "error": {
+        "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+      },
+      "status": "failed"
+    },
+    {
+      "id": "item_225",
+      "tool": "download",
+      "arguments": {
+        "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=786BB737-EA99-4EC6-B742-0C35BF2453F9"
+      },
+      "error": {
+        "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+      },
+      "status": "failed"
+    },
+    {
+      "id": "item_226",
+      "tool": "read_text",
+      "arguments": {
+        "file_id": "d0007",
+        "offset": 0,
+        "limit": 30000
+      },
+      "error": {
+        "message": "tool call error: tool call failed for `wqp_data/read_text`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+      },
+      "status": "failed"
+    },
+    {
+      "id": "item_229",
+      "tool": "download",
+      "arguments": {
+        "url": "https://nvd.nist.gov/feeds/json/cpe/2.0/nvdcpe-2.0.tar.gz"
+      },
+      "error": {
+        "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+      },
+      "status": "failed"
+    },
+    {
+      "id": "item_231",
+      "tool": "download",
+      "arguments": {
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=B86E994F-ACB5-40C7-A9AF-E0A938C3A3D3&resultsPerPage=1"
+      },
+      "error": {
+        "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+      },
+      "status": "failed"
+    }
+  ],
+  "server_observation": {
+    "bulk_request_started_at": "2026-09-11T19:23:17.047812+00:00",
+    "bulk_request_ended_at": "2026-09-11T19:42:18.017648+00:00",
+    "server_error": "ValueError: Response exceeds 512MB resource bound. No partial data registered; report this limitation, not a source absence.",
+    "elapsed_seconds": 1140.969836,
+    "source": "isolated /work/data/tool_calls.jsonl read-only observation; preserve final downloaded_data/tool_calls.jsonl after runner completes"
+  },
+  "mechanism": "Existing MCP server dispatches synchronously; socket timeout is not a total download deadline. Client timeouts include a read_text call for an already registered file. Bulk archive exceeded existing advertised 512MB bound; no boundary changed.",
+  "interpretation": "Both runs recovered and completed with supported perfect answers. Do not present earlier faults as ability failures or zeros. No replacement attempts performed.",
+  "controller_action": "No blind-run messages, injected files, tool changes, retries, or score modifications. Original 6000-second/3000-second-stall policy remains.",
+  "completed_runs": {
+    "nvd-daily-r02-cg-dev-a": {
+      "client_error_count": 27,
+      "client_errors": [
+        {
+          "id": "item_14",
+          "tool": "download",
+          "arguments": {
+            "url": "https://nvd.nist.gov/feeds/json/cpematch/2.0/nvdcpematch-2.0.zip"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_16",
+          "tool": "query_csv",
+          "arguments": {
+            "tables": {
+              "x": "d0004"
+            },
+            "sql": "SELECT COUNT(DISTINCT matchCriteriaId) AS distinct_uuid, COUNT(*) identities FROM x"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/query_csv`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_17",
+          "tool": "query_csv",
+          "arguments": {
+            "tables": {
+              "x": "d0004"
+            },
+            "sql": "SELECT DISTINCT matchCriteriaId FROM x ORDER BY matchCriteriaId",
+            "limit": 1000
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/query_csv`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_18",
+          "tool": "read_text",
+          "arguments": {
+            "file_id": "d0004",
+            "offset": 0,
+            "limit": 10000
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/read_text`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_21",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=3F18A4E3-D4C9-48D3-A0EB-C99DABD7C214"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_196",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=34FC1E19-8F20-4215-8D90-E42EF7126BD9"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_207",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=426DDDE1-593C-4D8A-80E1-7B2091FC5C09"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_204",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=3EE7A2B1-A161-4A20-9EEC-B1EF7F2E387C"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_201",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=3BEDEF47-8205-42DD-93B7-100B1F7F1872"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_205",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=3E357E33-4A31-4FF9-AFC4-2CFB1F5ABB73"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_185",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=24DF2AB3-DEAB-4D70-986E-FFBB7E64B96A"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_206",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=3F18A4E3-D4C9-48D3-A0EB-C99DABD7C214"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_197",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=363E3895-A19B-42EC-B479-765168DC0B17"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_188",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=2AD73BA0-D315-4ADA-A942-8DCC2A920B28"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_202",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=3C35D826-724A-4C68-8053-E8A6B23AF5F8"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_192",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=30D6A539-5523-4E52-854A-82CDCDBDFC45"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_198",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=3A29A154-2CF6-441B-8715-84F49F21A15A"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_194",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=34ACB544-87DD-4D9A-99F0-A10F48C1EE05"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_189",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=2EF47A61-63FA-4695-A6B8-E6252205026E"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_195",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=34B327B1-0C38-47DA-8CF3-03C3753E0582"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_203",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=3DC757E1-EC37-48C5-BE72-53184624ACDC"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_200",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=3BA72AC9-E57E-49C6-9DD7-83F3257B5C5C"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_199",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=3A879A73-C624-4D47-A748-9EAC73EC8DBD"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_190",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=2FB2708A-58D1-4F17-8504-3748D6667788"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_191",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=2FB739C3-A9BD-433F-8547-12BC615DB18D"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_193",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=31D12FAE-5839-4123-876E-0A32DA2B1A42"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_208",
+          "tool": "query_csv",
+          "arguments": {
+            "tables": {
+              "x": "d0131"
+            },
+            "sql": "SELECT matchCriteriaId FROM x ORDER BY matchCriteriaId",
+            "limit": 20,
+            "offset": 0
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/query_csv`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        }
+      ],
+      "server_tool_calls": 341,
+      "server_errors": [
+        {
+          "started_at": "2026-09-11T19:22:16.552430+00:00",
+          "ended_at": "2026-09-11T19:22:16.561334+00:00",
+          "name": "query_csv",
+          "arguments": {
+            "tables": {
+              "v": "d0002"
+            },
+            "sql": "\nSELECT DISTINCT\n json_extract(v.cve,'$.id') AS cve_id,\n json_extract(m.value,'$.matchCriteriaId') AS matchCriteriaId,\n json_extract(m.value,'$.criteria') AS criteria,\n json_extract(m.value,'$.versionStartIncluding') AS versionStartIncluding,\n json_extract(m.value,'$.versionStartExcluding') AS versionStartExcluding,\n json_extract(m.value,'$.versionEndIncluding') AS versionEndIncluding,\n json_extract(m.value,'$.versionEndExcluding') AS versionEndExcluding\nFROM v\nJOIN json_each(v.cve,'$.configurations') cfg\nJOIN json_each(cfg.value,'$.nodes') n\nJOIN json_each(n.value,'$.cpeMatch') m\nWHERE json_extract(m.value,'$.vulnerable')=1\nORDER BY 1,2,3\n",
+            "limit": 5000
+          },
+          "result": {
+            "error": "OperationalError: vtable constructor failed: json_each"
+          }
+        },
+        {
+          "started_at": "2026-09-11T19:22:26.152957+00:00",
+          "ended_at": "2026-09-11T19:22:26.158773+00:00",
+          "name": "query_csv",
+          "arguments": {
+            "tables": {
+              "src": "d0002"
+            },
+            "sql": "SELECT json_extract(cve,'$.id') id, c.key, c.value FROM src CROSS JOIN json_each(json_extract(cve,'$.configurations')) AS c WHERE json_extract(cve,'$.id')='CVE-2001-1411'"
+          },
+          "result": {
+            "error": "OperationalError: vtable constructor failed: json_each"
+          }
+        },
+        {
+          "started_at": "2026-09-11T19:22:51.513778+00:00",
+          "ended_at": "2026-09-11T19:40:44.169159+00:00",
+          "name": "download",
+          "arguments": {
+            "url": "https://nvd.nist.gov/feeds/json/cpematch/2.0/nvdcpematch-2.0.zip"
+          },
+          "result": {
+            "error": "ValueError: Response exceeds 512MB resource bound. No partial data registered; report this limitation, not a source absence."
+          }
+        }
+      ],
+      "final_limitations": [],
+      "outcome": "Completed all answer-relevant retrievals and perfect final answer; transient faults did not produce a low score. Keep faults and runtime as observed."
+    },
+    "nvd-daily-r02-go-dev-a": {
+      "client_error_count": 7,
+      "client_errors": [
+        {
+          "id": "item_217",
+          "tool": "download",
+          "arguments": {
+            "url": "https://nvd.nist.gov/feeds/json/cpematch/2.0/nvdcpematch-2.0.tar.gz"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_220",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?cveId=CVE-2001-1411&resultsPerPage=500"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_222",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=786BB737-EA99-4EC6-B742-0C35BF2453F9"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_225",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpes/2.0?matchCriteriaId=786BB737-EA99-4EC6-B742-0C35BF2453F9"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_226",
+          "tool": "read_text",
+          "arguments": {
+            "file_id": "d0007",
+            "offset": 0,
+            "limit": 30000
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/read_text`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_229",
+          "tool": "download",
+          "arguments": {
+            "url": "https://nvd.nist.gov/feeds/json/cpe/2.0/nvdcpe-2.0.tar.gz"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        },
+        {
+          "id": "item_231",
+          "tool": "download",
+          "arguments": {
+            "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=B86E994F-ACB5-40C7-A9AF-E0A938C3A3D3&resultsPerPage=1"
+          },
+          "error": {
+            "message": "tool call error: tool call failed for `wqp_data/download`\n\nCaused by:\n    timed out awaiting tools/call after 180s"
+          }
+        }
+      ],
+      "server_tool_calls": 511,
+      "server_errors": [
+        {
+          "started_at": "2026-09-11T19:21:56.516107+00:00",
+          "ended_at": "2026-09-11T19:21:56.526072+00:00",
+          "name": "query_csv",
+          "arguments": {
+            "tables": {
+              "v": "d0002"
+            },
+            "sql": "\nWITH cv AS (\n SELECT json_extract(cve,'$.id') cve_id, cve FROM v\n), configs AS (\n SELECT cve_id, c.value cfg FROM cv, json_each(cve,'$.configurations') c\n), nodes AS (\n SELECT cve_id, n.value node FROM configs, json_each(cfg,'$.nodes') n\n), matches AS (\n SELECT cve_id, m.value mt FROM nodes, json_each(node,'$.cpeMatch') m\n)\nSELECT DISTINCT cve_id,\n upper(json_extract(mt,'$.matchCriteriaId')) AS matchCriteriaId,\n json_extract(mt,'$.criteria') AS criteria,\n json_extract(mt,'$.versionStartIncluding') AS versionStartIncluding,\n json_extract(mt,'$.versionStartExcluding') AS versionStartExcluding,\n json_extract(mt,'$.versionEndIncluding') AS versionEndIncluding,\n json_extract(mt,'$.versionEndExcluding') AS versionEndExcluding\nFROM matches\nWHERE json_extract(mt,'$.vulnerable')=1\nORDER BY 1,2,3,4,5,6,7"
+          },
+          "result": {
+            "error": "OperationalError: vtable constructor failed: json_each"
+          }
+        },
+        {
+          "started_at": "2026-09-11T19:23:17.047812+00:00",
+          "ended_at": "2026-09-11T19:42:18.017648+00:00",
+          "name": "download",
+          "arguments": {
+            "url": "https://nvd.nist.gov/feeds/json/cpematch/2.0/nvdcpematch-2.0.tar.gz"
+          },
+          "result": {
+            "error": "ValueError: Response exceeds 512MB resource bound. No partial data registered; report this limitation, not a source absence."
+          }
+        },
+        {
+          "started_at": "2026-09-11T19:48:08.552009+00:00",
+          "ended_at": "2026-09-11T19:48:08.552072+00:00",
+          "name": "download",
+          "arguments": {
+            "url": "https://mirror.cveb.in/nvd/json/cpe/2.0/nvdcpe-2.0.tar.gz"
+          },
+          "result": {
+            "error": "ValueError: Only configured official-source HTTPS URLs are supported"
+          }
+        },
+        {
+          "started_at": "2026-09-11T19:48:09.570687+00:00",
+          "ended_at": "2026-09-11T19:48:09.570876+00:00",
+          "name": "download",
+          "arguments": {
+            "url": "https://cpe.gcve.eu/api/openapi.yaml"
+          },
+          "result": {
+            "error": "ValueError: Only configured official-source HTTPS URLs are supported"
+          }
+        },
+        {
+          "started_at": "2026-09-11T19:48:09.576943+00:00",
+          "ended_at": "2026-09-11T19:48:09.577046+00:00",
+          "name": "download",
+          "arguments": {
+            "url": "https://cpe.gcve.eu/api/cpes?vendor_q=deskpro&product_q=deskpro&part=a&per_page=100"
+          },
+          "result": {
+            "error": "ValueError: Only configured official-source HTTPS URLs are supported"
+          }
+        },
+        {
+          "started_at": "2026-09-11T19:48:09.577168+00:00",
+          "ended_at": "2026-09-11T19:48:09.577220+00:00",
+          "name": "download",
+          "arguments": {
+            "url": "https://v4.mirror.cveb.in/nvd/json/cpematch/1.0/nvdcpematch-1.0.json.zip"
+          },
+          "result": {
+            "error": "ValueError: Only configured official-source HTTPS URLs are supported"
+          }
+        }
+      ],
+      "final_limitations": [],
+      "outcome": "Completed all answer-relevant retrievals and perfect final answer; transient faults did not produce a low score. Keep faults and runtime as observed."
+    }
+  },
+  "updated_at": "2026-09-11T20:40:30.884135+00:00"
+}

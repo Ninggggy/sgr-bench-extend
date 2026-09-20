@@ -1,0 +1,40 @@
+{
+  "status": "parsed",
+  "rows": [
+    {
+      "line": 2,
+      "raw": "Chime Financial, Inc.|2024-05-07|Stride Bank, N.A.|4091|2026-02",
+      "cells": [
+        "Chime Financial, Inc.",
+        "2024-05-07",
+        "Stride Bank, N.A.",
+        "4091",
+        "2026-02"
+      ]
+    },
+    {
+      "line": 3,
+      "raw": "Chime Financial, Inc.|2024-05-07|The Bancorp Bank, N.A.|35444|2026-02",
+      "cells": [
+        "Chime Financial, Inc.",
+        "2024-05-07",
+        "The Bancorp Bank, N.A.",
+        "35444",
+        "2026-02"
+      ]
+    },
+    {
+      "line": 4,
+      "raw": "SoLo Funds, Inc.|2024-05-17|Bangor Savings Bank|18408|2026-07-27",
+      "cells": [
+        "SoLo Funds, Inc.",
+        "2024-05-17",
+        "Bangor Savings Bank",
+        "18408",
+        "2026-07-27"
+      ]
+    }
+  ],
+  "ignored_lines": [],
+  "issues": []
+}

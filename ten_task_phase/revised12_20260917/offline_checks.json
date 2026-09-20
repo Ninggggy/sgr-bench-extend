@@ -1,0 +1,122 @@
+[
+  {
+    "candidate_id": "arxiv_historical_title_001",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "arxiv_historical_title_002",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "economic_kegg_ddi_001",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "economic_nvd_daily_001",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "europemc_reuse_deposit_001",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "genome_002",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "kegg_initial_cdx_001",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "nvd_initial_assessment_001",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "reptile_001",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "stap_replication_protocol_001",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "wateroffice_002",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  },
+  {
+    "candidate_id": "waterquality_003",
+    "paired_conditions_identical": true,
+    "oracle_self_score": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "warning": "Self-score is a mechanical test, not source or uniqueness validation."
+  }
+]

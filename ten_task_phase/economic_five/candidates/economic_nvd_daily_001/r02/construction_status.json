@@ -1,0 +1,13 @@
+{
+  "status": "inconclusive",
+  "reference_reconstructed": true,
+  "oracle_rows": 228,
+  "all_inclusions_resolved": true,
+  "pair_prepared": true,
+  "python_executed": false,
+  "existing_scorer_executed": false,
+  "formal_evaluation_stability_confirmed": false,
+  "construction_stability_confirmed_through": "2026-09-11T19:05:53.000",
+  "reason": "Complete files and observed-source reference are built; controller execution and actual evaluation-period verification remain.",
+  "revision": "r02"
+}

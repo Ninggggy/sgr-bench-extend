@@ -1,0 +1,1069 @@
+[
+  {
+    "task_id": "comptox_012",
+    "trials": [
+      {
+        "run_id": "r-2dc5eb711174",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 1,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.8333333333333334,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 10,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 1,
+            "pair_denominator": 1,
+            "shared_ids": 2
+          }
+        },
+        "item_f1_exact": "5/6"
+      },
+      {
+        "run_id": "r-dd837f3557ad",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 1,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.8333333333333334,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 10,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 1,
+            "pair_denominator": 1,
+            "shared_ids": 2
+          }
+        },
+        "item_f1_exact": "5/6"
+      },
+      {
+        "run_id": "r-fbf7a0ad3ee8",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 2,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.8333333333333334,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 10,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 1,
+            "pair_denominator": 1,
+            "shared_ids": 2
+          }
+        },
+        "item_f1_exact": "5/6"
+      },
+      {
+        "run_id": "r-ac50d2a343b2",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 2,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.5555555555555556,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 5,
+            "gold_fields": 12,
+            "pred_fields": 6,
+            "item_denominator": 18,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 1,
+            "row_denominator": 3,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 1
+          }
+        },
+        "item_f1_exact": "5/9"
+      },
+      {
+        "run_id": "r-2647d23c1013",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 3,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 12,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 2,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 1,
+            "pair_denominator": 1,
+            "shared_ids": 2
+          }
+        },
+        "item_f1_exact": "1"
+      },
+      {
+        "run_id": "r-d2446ad66d57",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 3,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.5555555555555556,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 5,
+            "gold_fields": 12,
+            "pred_fields": 6,
+            "item_denominator": 18,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 1,
+            "row_denominator": 3,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 1
+          }
+        },
+        "item_f1_exact": "5/9"
+      }
+    ],
+    "approved_completed_repairs": [],
+    "review_path": "comparisons/comptox_012/error_review.md"
+  },
+  {
+    "task_id": "genome_002",
+    "trials": [
+      {
+        "run_id": "r-aa1cc723e5c0",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 1,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          }
+        },
+        "item_f1_exact": "0"
+      },
+      {
+        "run_id": "r-3bf6d4816a7d",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 1,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          }
+        },
+        "item_f1_exact": "0"
+      },
+      {
+        "run_id": "r-2b2d18f3fd8e",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 2,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 54,
+            "item_denominator": 66,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 9,
+            "row_denominator": 11,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          }
+        },
+        "item_f1_exact": "0"
+      },
+      {
+        "run_id": "r-ff6c3bdb8b4f",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 2,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 54,
+            "item_denominator": 66,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 9,
+            "row_denominator": 11,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          }
+        },
+        "item_f1_exact": "0"
+      },
+      {
+        "run_id": "r-e630ddf80726",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 3,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          }
+        },
+        "item_f1_exact": "0"
+      },
+      {
+        "run_id": "r-9462cbe8adbe",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 3,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 12,
+            "pred_fields": 54,
+            "item_denominator": 66,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 9,
+            "row_denominator": 11,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          }
+        },
+        "item_f1_exact": "0"
+      }
+    ],
+    "approved_completed_repairs": [],
+    "review_path": "comparisons/genome_002/error_review.md"
+  },
+  {
+    "task_id": "reptile_001",
+    "trials": [
+      {
+        "run_id": "r-38fddeb0a06d",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 1,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.5666666666666667,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 17,
+            "gold_fields": 32,
+            "pred_fields": 28,
+            "item_denominator": 60,
+            "correct_rows": 0,
+            "gold_rows": 8,
+            "pred_rows": 7,
+            "row_denominator": 15,
+            "correct_pairs": 15,
+            "pair_denominator": 15,
+            "shared_ids": 6
+          }
+        },
+        "item_f1_exact": "17/30"
+      },
+      {
+        "run_id": "r-b9ac95ab18e1",
+        "status": "stalled",
+        "variant": "GO",
+        "trial": 1
+      },
+      {
+        "run_id": "r-7472804a7ded",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 2,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.6666666666666666,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 20,
+            "gold_fields": 32,
+            "pred_fields": 28,
+            "item_denominator": 60,
+            "correct_rows": 0,
+            "gold_rows": 8,
+            "pred_rows": 7,
+            "row_denominator": 15,
+            "correct_pairs": 21,
+            "pair_denominator": 21,
+            "shared_ids": 7
+          }
+        },
+        "item_f1_exact": "2/3"
+      },
+      {
+        "run_id": "r-68b9f7475339",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 2,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.4107142857142857,
+            "Row-F1": 0.35714285714285715,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 23,
+            "gold_fields": 32,
+            "pred_fields": 80,
+            "item_denominator": 112,
+            "correct_rows": 5,
+            "gold_rows": 8,
+            "pred_rows": 20,
+            "row_denominator": 28,
+            "correct_pairs": 15,
+            "pair_denominator": 15,
+            "shared_ids": 6
+          }
+        },
+        "item_f1_exact": "23/56"
+      },
+      {
+        "run_id": "r-6ad977509c71",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 3,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 32,
+            "gold_fields": 32,
+            "pred_fields": 32,
+            "item_denominator": 64,
+            "correct_rows": 8,
+            "gold_rows": 8,
+            "pred_rows": 8,
+            "row_denominator": 16,
+            "correct_pairs": 28,
+            "pair_denominator": 28,
+            "shared_ids": 8
+          }
+        },
+        "item_f1_exact": "1"
+      },
+      {
+        "run_id": "r-b16f08272ff9",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 3,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 32,
+            "pred_fields": 166,
+            "item_denominator": 198,
+            "correct_rows": 0,
+            "gold_rows": 8,
+            "pred_rows": 31,
+            "row_denominator": 39,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          }
+        },
+        "item_f1_exact": "0"
+      }
+    ],
+    "approved_completed_repairs": [
+      {
+        "variant": "GO",
+        "trial": 1,
+        "planned_run_id": "r-b9ac95ab18e1",
+        "actual_run_id": "r-b9ac95ab18e1-repair",
+        "item_f1_exact": "17/28",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.6071428571428571,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 17,
+            "gold_fields": 32,
+            "pred_fields": 24,
+            "item_denominator": 56,
+            "correct_rows": 0,
+            "gold_rows": 8,
+            "pred_rows": 6,
+            "row_denominator": 14,
+            "correct_pairs": 15,
+            "pair_denominator": 15,
+            "shared_ids": 6
+          },
+          "omitted_ids": [
+            [
+              "Fowlea sanctijohannis",
+              "Xenochrophis sanctijohannis"
+            ],
+            [
+              "Myriopholis blanfordii",
+              "Leptotyphlops blanfordi"
+            ]
+          ],
+          "extra_ids": [],
+          "duplicate_ids": [],
+          "order_pairs": [
+            {
+              "first": [
+                "Argyrophis oatesii",
+                "Typhlops oatesii"
+              ],
+              "second": [
+                "Dendrelaphis grandoculis",
+                "Ahaetulla grandoculis"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Argyrophis oatesii",
+                "Typhlops oatesii"
+              ],
+              "second": [
+                "Gerrhopilus beddomii",
+                "Typhlops beddomii"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Argyrophis oatesii",
+                "Typhlops oatesii"
+              ],
+              "second": [
+                "Hebius khasiensis",
+                "Amphiesma khasiense"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Argyrophis oatesii",
+                "Typhlops oatesii"
+              ],
+              "second": [
+                "Hebius parallelus",
+                "Amphiesma parallelum"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Argyrophis oatesii",
+                "Typhlops oatesii"
+              ],
+              "second": [
+                "Indotyphlops jerdoni",
+                "Typhlops jerdoni"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Dendrelaphis grandoculis",
+                "Ahaetulla grandoculis"
+              ],
+              "second": [
+                "Gerrhopilus beddomii",
+                "Typhlops beddomii"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Dendrelaphis grandoculis",
+                "Ahaetulla grandoculis"
+              ],
+              "second": [
+                "Hebius khasiensis",
+                "Amphiesma khasiense"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Dendrelaphis grandoculis",
+                "Ahaetulla grandoculis"
+              ],
+              "second": [
+                "Hebius parallelus",
+                "Amphiesma parallelum"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Dendrelaphis grandoculis",
+                "Ahaetulla grandoculis"
+              ],
+              "second": [
+                "Indotyphlops jerdoni",
+                "Typhlops jerdoni"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Gerrhopilus beddomii",
+                "Typhlops beddomii"
+              ],
+              "second": [
+                "Hebius khasiensis",
+                "Amphiesma khasiense"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Gerrhopilus beddomii",
+                "Typhlops beddomii"
+              ],
+              "second": [
+                "Hebius parallelus",
+                "Amphiesma parallelum"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Gerrhopilus beddomii",
+                "Typhlops beddomii"
+              ],
+              "second": [
+                "Indotyphlops jerdoni",
+                "Typhlops jerdoni"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Hebius khasiensis",
+                "Amphiesma khasiense"
+              ],
+              "second": [
+                "Hebius parallelus",
+                "Amphiesma parallelum"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Hebius khasiensis",
+                "Amphiesma khasiense"
+              ],
+              "second": [
+                "Indotyphlops jerdoni",
+                "Typhlops jerdoni"
+              ],
+              "correct": true
+            },
+            {
+              "first": [
+                "Hebius parallelus",
+                "Amphiesma parallelum"
+              ],
+              "second": [
+                "Indotyphlops jerdoni",
+                "Typhlops jerdoni"
+              ],
+              "correct": true
+            }
+          ],
+          "poa_note": "first occurrence positions; no reordering"
+        },
+        "observed_public_answer_exposure": false,
+        "verification_status": "passed",
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "run_id": "r-b9ac95ab18e1-repair"
+      }
+    ],
+    "review_path": "comparisons/reptile_001/error_review.md"
+  },
+  {
+    "task_id": "wateroffice_002",
+    "trials": [
+      {
+        "run_id": "r-2ce6c7d8cdc9",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 1,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.8125,
+            "Row-F1": 0.25,
+            "P.O.A.": 0.6666666666666666
+          },
+          "counts": {
+            "correct_fields": 13,
+            "gold_fields": 16,
+            "pred_fields": 16,
+            "item_denominator": 32,
+            "correct_rows": 1,
+            "gold_rows": 4,
+            "pred_rows": 4,
+            "row_denominator": 8,
+            "correct_pairs": 4,
+            "pair_denominator": 6,
+            "shared_ids": 4
+          }
+        },
+        "item_f1_exact": "13/16"
+      },
+      {
+        "run_id": "r-8a12e57411f7",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 1,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.2222222222222222,
+            "Row-F1": 0.0,
+            "P.O.A.": 0.6666666666666666
+          },
+          "counts": {
+            "correct_fields": 4,
+            "gold_fields": 16,
+            "pred_fields": 20,
+            "item_denominator": 36,
+            "correct_rows": 0,
+            "gold_rows": 4,
+            "pred_rows": 5,
+            "row_denominator": 9,
+            "correct_pairs": 4,
+            "pair_denominator": 6,
+            "shared_ids": 4
+          }
+        },
+        "item_f1_exact": "2/9"
+      },
+      {
+        "run_id": "r-7c1136ab22b6",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 2,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.8125,
+            "Row-F1": 0.25,
+            "P.O.A.": 0.6666666666666666
+          },
+          "counts": {
+            "correct_fields": 13,
+            "gold_fields": 16,
+            "pred_fields": 16,
+            "item_denominator": 32,
+            "correct_rows": 1,
+            "gold_rows": 4,
+            "pred_rows": 4,
+            "row_denominator": 8,
+            "correct_pairs": 4,
+            "pair_denominator": 6,
+            "shared_ids": 4
+          }
+        },
+        "item_f1_exact": "13/16"
+      },
+      {
+        "run_id": "r-2eca622e3268",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 2,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 16,
+            "gold_fields": 16,
+            "pred_fields": 16,
+            "item_denominator": 32,
+            "correct_rows": 4,
+            "gold_rows": 4,
+            "pred_rows": 4,
+            "row_denominator": 8,
+            "correct_pairs": 6,
+            "pair_denominator": 6,
+            "shared_ids": 4
+          }
+        },
+        "item_f1_exact": "1"
+      },
+      {
+        "run_id": "r-f9400c7cb7cb",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 3,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.8125,
+            "Row-F1": 0.25,
+            "P.O.A.": 0.6666666666666666
+          },
+          "counts": {
+            "correct_fields": 13,
+            "gold_fields": 16,
+            "pred_fields": 16,
+            "item_denominator": 32,
+            "correct_rows": 1,
+            "gold_rows": 4,
+            "pred_rows": 4,
+            "row_denominator": 8,
+            "correct_pairs": 4,
+            "pair_denominator": 6,
+            "shared_ids": 4
+          }
+        },
+        "item_f1_exact": "13/16"
+      },
+      {
+        "run_id": "r-9f6aeb170c80",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 3,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.2,
+            "Row-F1": 0.0,
+            "P.O.A.": 0.6666666666666666
+          },
+          "counts": {
+            "correct_fields": 4,
+            "gold_fields": 16,
+            "pred_fields": 24,
+            "item_denominator": 40,
+            "correct_rows": 0,
+            "gold_rows": 4,
+            "pred_rows": 6,
+            "row_denominator": 10,
+            "correct_pairs": 4,
+            "pair_denominator": 6,
+            "shared_ids": 4
+          }
+        },
+        "item_f1_exact": "1/5"
+      }
+    ],
+    "approved_completed_repairs": [],
+    "review_path": "comparisons/wateroffice_002/error_review.md"
+  },
+  {
+    "task_id": "waterquality_003",
+    "trials": [
+      {
+        "run_id": "r-8c5eb66967fe",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 1,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.3333333333333333,
+            "Row-F1": 0.3333333333333333,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 8,
+            "gold_fields": 24,
+            "pred_fields": 24,
+            "item_denominator": 48,
+            "correct_rows": 1,
+            "gold_rows": 3,
+            "pred_rows": 3,
+            "row_denominator": 6,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 1
+          }
+        },
+        "item_f1_exact": "1/3"
+      },
+      {
+        "run_id": "r-6699d09f5b50",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 1,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.3333333333333333,
+            "Row-F1": 0.3333333333333333,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 8,
+            "gold_fields": 24,
+            "pred_fields": 24,
+            "item_denominator": 48,
+            "correct_rows": 1,
+            "gold_rows": 3,
+            "pred_rows": 3,
+            "row_denominator": 6,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 1
+          }
+        },
+        "item_f1_exact": "1/3"
+      },
+      {
+        "run_id": "r-5b78fb0f1e5c",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 2,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.3333333333333333,
+            "Row-F1": 0.3333333333333333,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 8,
+            "gold_fields": 24,
+            "pred_fields": 24,
+            "item_denominator": 48,
+            "correct_rows": 1,
+            "gold_rows": 3,
+            "pred_rows": 3,
+            "row_denominator": 6,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 1
+          }
+        },
+        "item_f1_exact": "1/3"
+      },
+      {
+        "run_id": "r-a9eb82756924",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 2,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 24,
+            "pred_fields": 24,
+            "item_denominator": 48,
+            "correct_rows": 0,
+            "gold_rows": 3,
+            "pred_rows": 3,
+            "row_denominator": 6,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          }
+        },
+        "item_f1_exact": "0"
+      },
+      {
+        "run_id": "r-a44408dfbba9",
+        "status": "completed",
+        "variant": "CG",
+        "trial": 3,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.3333333333333333,
+            "Row-F1": 0.3333333333333333,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 8,
+            "gold_fields": 24,
+            "pred_fields": 24,
+            "item_denominator": 48,
+            "correct_rows": 1,
+            "gold_rows": 3,
+            "pred_rows": 3,
+            "row_denominator": 6,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 1
+          }
+        },
+        "item_f1_exact": "1/3"
+      },
+      {
+        "run_id": "r-3d1974333833",
+        "status": "completed",
+        "variant": "GO",
+        "trial": 3,
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.0,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 0,
+            "gold_fields": 24,
+            "pred_fields": 24,
+            "item_denominator": 48,
+            "correct_rows": 0,
+            "gold_rows": 3,
+            "pred_rows": 3,
+            "row_denominator": 6,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 0
+          }
+        },
+        "item_f1_exact": "0"
+      }
+    ],
+    "approved_completed_repairs": [],
+    "review_path": "comparisons/waterquality_003/error_review.md"
+  }
+]

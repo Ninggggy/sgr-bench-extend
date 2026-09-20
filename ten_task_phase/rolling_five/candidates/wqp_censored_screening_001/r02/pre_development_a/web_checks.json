@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T10:53:38.631238+00:00",
+  "public_request_items": 2,
+  "answer_bearing_observations": {
+    "current_criterion_2001": true,
+    "wqx_exact_synonym": true,
+    "caco3_basis": true
+  },
+  "limits": "SRS indexed primary text only; current web observation is not proof of uncached direct site state. Physical property definition retained; no direct-rendered claim."
+}

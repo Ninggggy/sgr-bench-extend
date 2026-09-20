@@ -1,0 +1,21 @@
+{
+  "columns": [
+    "cve_id",
+    "matchCriteriaId",
+    "criteria"
+  ],
+  "row_key": [
+    "cve_id",
+    "matchCriteriaId"
+  ],
+  "fields": {
+    "cve_id": {
+      "uppercase": true
+    },
+    "matchCriteriaId": {
+      "uppercase": true
+    },
+    "criteria": {}
+  },
+  "status": "deterministic_explicit"
+}

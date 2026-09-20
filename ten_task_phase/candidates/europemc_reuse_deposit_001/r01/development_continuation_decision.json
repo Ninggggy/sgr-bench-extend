@@ -1,0 +1,24 @@
+{
+  "at": "2026-09-09T11:38:26.952578+00:00",
+  "revision": 1,
+  "initial_pair": {
+    "CG": {
+      "run_id": "r-epmc-reuse-r01-cg-dev-a",
+      "Item-F1": 0
+    },
+    "GO": {
+      "run_id": "r-epmc-reuse-r01-go-dev-a",
+      "Item-F1": 0
+    }
+  },
+  "decision": "Complete specifiedordinaryB andoneattack pervariant, thenAstraaudit",
+  "reason": "Bothfoundrealmatrixreuse/newdeposit butclaimedout-of-indexpair. Nativewebaccessconfounds areexplicitlyunresolved. ExistingofficialdataMCProute succeeds200withthefullscope; nextdevelopment/attackswilltestlegalretrieval alternatives. Noauditor maypasssubstantiveerrorcheck solelyonaccessfailure.",
+  "new_runs": [
+    "r-epmc-reuse-r01-cg-dev-b",
+    "r-epmc-reuse-r01-cg-attack",
+    "r-epmc-reuse-r01-go-dev-b",
+    "r-epmc-reuse-r01-go-attack"
+  ],
+  "admission_round_registered": false,
+  "no_resampling": "ThesearetheprotocolrequiredB/attacktrials, notreplacements/retries/additionaladmissiondraws."
+}

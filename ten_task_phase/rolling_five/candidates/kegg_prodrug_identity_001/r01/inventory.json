@@ -1,0 +1,13 @@
+{
+  "derivation": "Constructor reading of supplied complete source captures; not reference.py execution",
+  "group": {"id": "DG00739", "name": "Mycophenolic acid", "type": "Chemical", "evidence": "../sources/DG00739.txt#ENTRY,NAME,TYPE,MEMBER"},
+  "members": [
+    {"id": "D00752", "name": "Mycophenolate mofetil (JAN/USP)", "formula": "C23H31NO7", "comment_present": true},
+    {"id": "D05094", "name": "Mycophenolate mofetil hydrochloride (USAN)", "formula": "C23H31NO7. HCl", "comment_present": true},
+    {"id": "D05095", "name": "Mycophenolate sodium (USP)", "formula": "C17H19O6. Na", "comment_present": true},
+    {"id": "D05096", "name": "Mycophenolic acid (USAN/INN)", "formula": "C17H20O6", "comment_present": false}
+  ],
+  "other_direct_members": [],
+  "identity_evidence": "../sources/D_members.txt#each-ENTRY,NAME,FORMULA",
+  "closure": "All four Member D identifiers have matching complete Drug records. No subgroup is listed."
+}

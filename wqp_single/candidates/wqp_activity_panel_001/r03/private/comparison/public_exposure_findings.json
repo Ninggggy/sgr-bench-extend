@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-09-08T15:44:06.626756+00:00",
+  "reviewer": "Controller, not an additional blind model or human expert",
+  "inspected_completed_comparison_runs": 16,
+  "benchmark_snippet_runs": [
+    "screening_old_CG_1",
+    "screening_old_GO_1",
+    "confirmation_old_CG_1",
+    "confirmation_old_GO_1",
+    "confirmation_old_CG_2",
+    "confirmation_old_CG_3",
+    "confirmation_old_GO_3"
+  ],
+  "old_runs_with_snippets": 7,
+  "old_runs_total": 8,
+  "new_runs_with_detected_snippets": 0,
+  "new_runs_total": 8,
+  "finding": "Controller inspected all matching returned blocks and subsequent native tool calls. Seven old-task runs encountered public Hugging Face SGR-BENCH task/form metadata snippets. They contain wording, task identity, output format or the already-public three-row requirement; no reference station rows or gold values were observed in those blocks. The inspected calls did not open the benchmark search results or a benchmark URL; selected values were sourced from official station pages.",
+  "limits": "This verifies recorded text/actions only. It is not proof of zero latent training/memory exposure or of no unrecognized channel. Public exposure and old selection ambiguity limit general ability claims.",
+  "score_change": false,
+  "replacement_runs": 0,
+  "evidence": "public_exposure_review.json"
+}

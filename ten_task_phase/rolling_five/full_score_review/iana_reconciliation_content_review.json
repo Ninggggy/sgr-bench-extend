@@ -1,0 +1,97 @@
+{
+  "direction": "iana_deprecated_dtls_registration_reconciliation",
+  "review_date_utc": "2026-09-13",
+  "review_kind": "independent_pre_development_content_review",
+  "overall": "content_pass_pending_candidate_integration_and_empirical_validation",
+  "actual_model_verification": "Astra/high required; controller native trace is authoritative",
+  "source_directory": "iana_reconciliation_reference",
+  "reviewed_pair": "iana_reconciliation_reference/paired_draft.json",
+  "recomputed_directory": "iana_reconciliation_content_recomputed",
+  "independent_check_file": "iana_reconciliation_content_recomputed/independent_checks.json",
+  "passed": {
+    "registry_records": 103,
+    "in_scope_values": [53],
+    "registry_original_bytes_equal": true,
+    "html_bytes": 151447,
+    "complete_closed_html": true,
+    "history_events": 170,
+    "unique_event_ids": 170,
+    "independent_html_parser_all_bodies_equal": true,
+    "full_comment_and_snippet_pairs": 13,
+    "annotation_bijection": true,
+    "semantic_reading": "All short actions individually read; all long bodies separately read. Keyword categories used only for organization.",
+    "substantive_registry_operator_reviews": ["history-800636"],
+    "administrative_events_excluded": 11,
+    "other_iana_or_53_comments_excluded": 5,
+    "other_events_excluded": 153,
+    "latest_qualifying_review_unique": true,
+    "publication_month_sufficient_for_actual_selection": true,
+    "replacement_53_to_54_explicit": true,
+    "proposed_value_53_not_claimed_executed": true,
+    "full_reference_program_rerun": true,
+    "reference_bytes_equal": true,
+    "reference_row": ["53", "54", "2021-03-26", "draft-ietf-tls-dtls-connection-id-10", "53"],
+    "cg_go_shared_conditions_identical": true,
+    "no_filter_on_proposal_equaling_old_value": true,
+    "no_direct_website_disclosure": true,
+    "natural_unique_protocol_and_actor_scope_retained": true,
+    "result_conditioned_site_history_view_dependency_supported": true
+  },
+  "evidence_locators": {
+    "registry_scope": "registry.xml:514-522; table tls-extensiontype-values-1",
+    "replacement": "rfc9146.txt:573-580",
+    "other_reference_role": "rfc9847.txt:157-188",
+    "site_state_controls": "history.html:736-764",
+    "rfc_draft_identity": "history.html:1038-1045; ../iana_followup_evidence.json:E1",
+    "qualifying_review": "history.html:1724-1730, history-800636",
+    "later_nonqualifying_status": "history.html:1526, history-803525",
+    "other_review_comments": ["history-804344", "history-803932"],
+    "shepherds": ["history-720243", "history-719779", "history-689758"]
+  },
+  "real_remaining_gaps": [
+    {
+      "kind": "candidate_integration",
+      "finding": "No new formal candidate revision has been created; paired public/private conditions, five-column scorer and source manifest must be integrated and checked together.",
+      "new_source_fetch_required_by_current_five_fields": false
+    }
+  ],
+  "blocking_content_errors_found": [],
+  "unknowns": {
+    "difficulty": "not_measured",
+    "score_below_70": "unsupported",
+    "all_shortcuts_excluded": false,
+    "direct_search_or_mail_shortcut": "not_probed",
+    "future_evaluation_window_stability": "not_verified",
+    "legacy_implementation_protocol_revision": "unresolved_and_outside_this_five_field_task"
+  },
+  "scope_limits": {
+    "history_coverage": "Complete displayed official draft-family History, not all off-page correspondence or all RFC-tab events",
+    "fixed_material_counterexample": "Existing registry plus RFCs do not directly contain the three historical review fields; no complete-answer fixed-material bypass established",
+    "saved_history_as_fixed_material": "Evidence captured after selecting discovered family; not automatically a solver-provided or pre-existing answer shortcut",
+    "extra_dependency_required": false,
+    "permanent_http_replay_required": false,
+    "visual_expand_counted_as_necessary_dependency": false,
+    "draft11_needed_for_current_five_fields": false,
+    "human_validation": "not_performed",
+    "post_development_final_quality_audit": "not_performed_and_not_replaced",
+    "standard_inclusion": false,
+    "old_r03_modified": false,
+    "author_files_modified": false
+  },
+  "source_time": {
+    "registry_observation_date": "2026-09-12",
+    "registry_updated": "2026-08-11",
+    "history_requested_at_utc": "2026-09-13T01:52:34.843703+00:00",
+    "history_received_at_utc": "2026-09-13T01:52:36.826111+00:00",
+    "same_capture_date_claimed": false
+  },
+  "resource_accounting": {
+    "local_command_calls_including_final_validation": 10,
+    "patch_calls": 1,
+    "new_web_requests": 0,
+    "new_api_requests": 0,
+    "solver_model_calls": 0,
+    "subagent_spawns": 0,
+    "model_tokens_and_elapsed": "Controller native trace; not estimated"
+  }
+}

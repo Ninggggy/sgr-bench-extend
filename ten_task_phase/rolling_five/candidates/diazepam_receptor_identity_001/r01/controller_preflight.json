@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-13T05:27:31.351317+00:00",
+  "scope": "Independent controller mechanical enumeration and namespace/link consistency only; no scientific classification, final audit or human review certified. No source requests or model tests.",
+  "checks": {
+    "initial_rows": 131,
+    "curated_rows": 130,
+    "distinct_activity_ids": 130,
+    "unique_assay_ids": 126,
+    "unique_target_ids": 32,
+    "initial_page_complete": true,
+    "assay_page_complete": true,
+    "target_page_complete": true,
+    "all_assays_resolve": true,
+    "all_targets_resolve": true,
+    "all_activity_assay_target_links_agree": true,
+    "all_descriptions_agree": true,
+    "all_scope_fields_match": true
+  }
+}

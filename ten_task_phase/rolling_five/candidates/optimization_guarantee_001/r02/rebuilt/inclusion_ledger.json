@@ -1,0 +1,42 @@
+[
+  {
+    "citation": 41,
+    "arxiv_id": "1809.06474",
+    "title": "Zeroth-order nonconvex stochasticoptimization: Handling constraints, high-dimensionality, and saddlepoints,",
+    "matching_title_versions": [
+      "1809.06474v2"
+    ],
+    "action": "include_work",
+    "reason": "Matching original title and every cited author surname; common arXiv identity determines merging."
+  },
+  {
+    "citation": 44,
+    "arxiv_id": "1809.06474",
+    "title": "Zeroth-order (non)-convexstochastic optimization via conditional gradient and gradient updates,",
+    "matching_title_versions": [
+      "1809.06474v1"
+    ],
+    "action": "merge_same_work",
+    "reason": "Matching original title and every cited author surname; common arXiv identity determines merging."
+  },
+  {
+    "citation": 46,
+    "arxiv_id": "1811.10828",
+    "title": "A Frank-Wolfe framework for efficient andeffective adversarial attacks,",
+    "matching_title_versions": [
+      "1811.10828v2"
+    ],
+    "action": "include_work",
+    "reason": "Matching original title and every cited author surname; common arXiv identity determines merging."
+  },
+  {
+    "citation": 47,
+    "arxiv_id": "1810.03233",
+    "title": "Towards gradient free and projectionfree stochastic optimization,",
+    "matching_title_versions": [
+      "1810.03233v3"
+    ],
+    "action": "include_work",
+    "reason": "Matching original title and every cited author surname; common arXiv identity determines merging."
+  }
+]

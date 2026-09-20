@@ -1,0 +1,44 @@
+{
+  "status": "historical_superseded_for_review_only",
+  "source": "../iana_resume_optimization.json proposal",
+  "reason": "Natural-goal repair: compare the last explicit allocation proposal, not the last proposal selected for reusing a known old answer value. Original file remains unchanged.",
+  "proposal": {
+    "status": "conditional_draft_not_final",
+    "natural_goal": "避免DTLS实现计划把早期IANA提案当成实际生效登记。",
+    "old_conditions_retained": [
+      "2026-09-12观察状态",
+      "完整16位注册表枚举",
+      "DTLS-Only恰为Y",
+      "数值身份",
+      "官方IANA/IETF来源",
+      "明确缺失规则"
+    ],
+    "conditions_changed": [
+      "输出收窄至deprecated子集以核对登记，不保留原四行成熟度输出",
+      "由所引规范明确建立替代关系",
+      "选择发布前最后一条明确拟沿用旧编号的实质IANA提案",
+      "区分提案和实际执行，不推定协议线上语义"
+    ],
+    "minimum_output": [
+      "deprecated_value",
+      "published_replacement_value",
+      "review_date",
+      "reviewed_draft",
+      "proposed_permanent_value"
+    ],
+    "why_minimal": "两个实际数值身份与审查日期、受审版本、计划数值足以说明登记提案和最终分配的差别；不需要MAC公式。",
+    "CG": "Check the registration trail behind deprecated DTLS-only extensions so an implementation plan does not mistake an earlier allocation proposal for the published assignment.\n\nFirst enumerate the registry scope. Follow each entry's cited specification to establish its replacement and document family. Select that family's official History view and identify the qualifying IANA review. Verify its reviewed revision, date and proposed value, then compare it with the published specification.\n\nUse the public registration state observed on 12 September 2026. The scope is every individual numeric entry in the complete TLS ExtensionType Values registry whose DTLS-Only flag is Y and whose registry name marks the allocation as deprecated. Keep numeric allocations distinct. For each entry, use its cited specification to establish any expressly identified replacement allocation. Do not infer replacement from similar names.\n\nCompare that published allocation with the latest substantive, pre-publication IANA Functions Operator review of the specification that expressly proposed retaining the deprecated numeric value. A review is a proposal, not proof that the planned assignment took effect. Status-change notices and other reviewers' comments are not IANA allocation proposals. Use the reviewed draft revision recorded with the review; do not assign an implementation or an on-wire protocol definition to that value solely because the review mentioned it. Do not compare arbitrary draft formulas.\n\nReturn one pipe-separated row per in-scope deprecated allocation, sorted by its decimal value, with columns:\ndeprecated_value|published_replacement_value|review_date|reviewed_draft|proposed_permanent_value\n\nUse YYYY-MM-DD dates and fully versioned draft identifiers. If complete official records establish that no qualifying review exists, put NONE in the three review fields. If required records or replacement identity remain unresolved, return UNRESOLVED with a short explanation instead of a partial table.",
+    "GO": "Check the registration trail behind deprecated DTLS-only extensions so an implementation plan does not mistake an earlier allocation proposal for the published assignment. Report the published replacement alongside the last qualifying IANA proposal, including the reviewed draft and review date.\n\nUse the public registration state observed on 12 September 2026. The scope is every individual numeric entry in the complete TLS ExtensionType Values registry whose DTLS-Only flag is Y and whose registry name marks the allocation as deprecated. Keep numeric allocations distinct. For each entry, use its cited specification to establish any expressly identified replacement allocation. Do not infer replacement from similar names.\n\nCompare that published allocation with the latest substantive, pre-publication IANA Functions Operator review of the specification that expressly proposed retaining the deprecated numeric value. A review is a proposal, not proof that the planned assignment took effect. Status-change notices and other reviewers' comments are not IANA allocation proposals. Use the reviewed draft revision recorded with the review; do not assign an implementation or an on-wire protocol definition to that value solely because the review mentioned it. Do not compare arbitrary draft formulas.\n\nReturn one pipe-separated row per in-scope deprecated allocation, sorted by its decimal value, with columns:\ndeprecated_value|published_replacement_value|review_date|reviewed_draft|proposed_permanent_value\n\nUse YYYY-MM-DD dates and fully versioned draft identifiers. If complete official records establish that no qualifying review exists, put NONE in the three review fields. If required records or replacement identity remain unresolved, return UNRESOLVED with a short explanation instead of a partial table.",
+    "not_ready_conditions": [
+      "完整History及新版集合的全部合格提案纳排",
+      "核实latest substantive review规则及状态/评论边界",
+      "任何r04测试前完成新参考、配对和评分接口检查"
+    ],
+    "evidence_does_not_authorize": [
+      "把draft-08标为53实际规范",
+      "把计划写成已执行",
+      "声称所有旧设备使用某受审版本",
+      "声明难度或收录通过"
+    ]
+  }
+}

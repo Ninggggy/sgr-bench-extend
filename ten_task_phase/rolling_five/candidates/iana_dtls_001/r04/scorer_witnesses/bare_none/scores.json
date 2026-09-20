@@ -1,0 +1,30 @@
+{
+  "status": "deterministic_explicit",
+  "metrics": {
+    "Item-F1": 0.0,
+    "Row-F1": 0.0,
+    "P.O.A.": 0
+  },
+  "counts": {
+    "correct_fields": 0,
+    "gold_fields": 5,
+    "pred_fields": 0,
+    "item_denominator": 5,
+    "correct_rows": 0,
+    "gold_rows": 1,
+    "pred_rows": 0,
+    "row_denominator": 1,
+    "correct_pairs": 0,
+    "pair_denominator": 0,
+    "shared_ids": 0
+  },
+  "omitted_ids": [
+    [
+      "53"
+    ]
+  ],
+  "extra_ids": [],
+  "duplicate_ids": [],
+  "order_pairs": [],
+  "poa_note": "fewer than two shared IDs => 0"
+}

@@ -1,0 +1,824 @@
+{
+  "status": "source_reconnaissance_in_progress",
+  "goal_completed": false,
+  "qualified_tasks": 0,
+  "review_sessions_used": 4,
+  "blind_sessions_used": 4,
+  "review_sessions_remaining": 11,
+  "blind_sessions_remaining": 26,
+  "construction_requests_recorded": 2543,
+  "versions_used": {
+    "nvd_initial_assessment_001": 0,
+    "arxiv_historical_title_001": 0,
+    "kegg_initial_cdx_001": 0,
+    "reptile_001": 0,
+    "economic_kegg_ddi_001": 0,
+    "waterquality_003": 1
+  },
+  "max_directions_per_task": null,
+  "construction_request_limit": null,
+  "blind_request_limit": null,
+  "external_request_concurrency_limit": null,
+  "previous_state": "../browser_plugin_20260918/continuation_08.json",
+  "previous_stops": "Old direction/request-budget stops are historical, not active restrictions. Evidence gaps and prior scores remain.",
+  "browser_reproducibility_required": true,
+  "browser_plugin_in_isolated_runner": false,
+  "ordinary_webfetch_configured": true,
+  "live_runtime_verified": false,
+  "cancelled_resource": "https://www.ugra.org/assets/pdfs/2021BasinHighlightsReport_FINAL.pdf",
+  "next_work": "Inspect BHLsinglepageviewer or another independent single-article source; originalfull8pages first, thencomplete naming-actinventory.",
+  "blind_browser_plugin_required": false,
+  "browser_reproducibility_scope": "construction_and_public_path_validation_only",
+  "excluded_historical_versions": {
+    "wateroffice_002": 1,
+    "genome_002": 0
+  },
+  "new_web_request_items": 85,
+  "new_browser_navigation_attempts": 72,
+  "previous_turn_classification": "progress:remaining30MPIMrecords first-passsearched;20active historiesread;10unmapped. Entire71indexed scope touched, but15unmapped+1identitydiscrepancy means wholeunitdeferred.",
+  "current_turn_classification": "progress:independent2019cataloguepage193visuallyread;DBconflictinglineatusplacementmadeexplicit;newwholeWerner1903unitselectedbeforefullinventory.",
+  "updated_at": "2026-09-19T15:33:10.258027+00:00",
+  "pass02_request_accounting": {
+    "inherited_total": 373,
+    "web_logical_items": 67,
+    "browser_navigation_or_page_selection_attempts": 68,
+    "total": 135,
+    "cumulative": 508,
+    "notes": "Includes failures and repeated PDF section/find reads; browser DOM/screenshot observations and network subresources excluded. 56 individual KEGG drug pages read; 18 Class III records reused for second scope."
+  },
+  "pass02_findings": {
+    "kegg_scope_1": "DG01648 x DG01523: 324 candidates, 9 pairs all P, symmetric; rejected before model sessions",
+    "kegg_scope_2": "DG01649 x DG01648: 360 candidates,65 pairs,CI10/P44/CI,P11; symmetric. First-member identity replication plus P gives320/375 Item-F1; rejected",
+    "cdx": "Tepmetko initial-label exclusion confirmed; S029 historical Oncomine therapeutic vs analytical-only distinction and appendix located; complete reference/browser path pending",
+    "reptile": "Commons original scan page171 (=printed169) read in browser; ordinary web page/image/IA formats unavailable; remaining seven pages not read",
+    "water": "Earlier two PDFs yielded metadata/partial text, but later detail/find reads timed out; no geography or span completeness established"
+  },
+  "pass03_request_accounting": {
+    "inherited_total": 508,
+    "web_logical_items": 15,
+    "browser_navigation_or_page_selection_attempts": 6,
+    "construction_file_downloads": 1,
+    "total": 22,
+    "cumulative": 530,
+    "notes": "Browser count includes mirror goto and page selections 2,6,10,62,63; screenshots/zoom/API diagnostics excluded. Includes failed requests. Download is a construction-side public PDF export, not a browser export or blind-path proof."
+  },
+  "pass03_findings": {
+    "cdx_therascreen": "P110027/S012 approved2021-05-28, KRAS G12C for Lumakras; seven detected variants are not seven NSCLC eligibility variants",
+    "cdx_oncomine": "MAN0018703 B.0 dated2021-09-13; public mirror in browser,502pages. Read revision page, therapeutic table, limitations, appendixpp62-63; full selected extraction and all AppendixB text saved.57 EGFR20 detection entries:53 insertion/dup/complex,3 substitution,1NA. Detection inventory is not finite therapeutic eligibility.",
+    "runtime": "All five registered text assets compared; sibling prepared registration compared; execution public/reference/rules taken from checked saved content.62 related tests passed."
+  },
+  "pass04_request_accounting": {
+    "inherited_total": 530,
+    "web_logical_items": 37,
+    "browser_navigation_or_page_selection_attempts": 6,
+    "total": 43,
+    "cumulative": 573,
+    "notes": "Includes all failed/retried ordinary reads. Browser SIpage/MCZpage/SIfile/HallowellPDF and local PDF selections8/15. Screenshots and tabs-list excluded; no construction downloads. First two browser errors and Hallowell goto timeout remain in tool trajectory; screenshot confirms Hallowell loaded later without reload."
+  },
+  "pass04_findings": {
+    "reptile_cope1869": "MCZ individual type records readable through ordinary web; random tagging and uncertain five-specimen lot documented. Original inaccessible; not ready, no precise type set inferred.",
+    "reptile_hallowell1854": "Independent Commons30page scan contains full paper98-105. Complete ordinary text read, browser start/end seen.15 taxon treatments catalogued:4 new reptile species provisional include,10 excluded existing/recombined/amphibian,1 nomenclatural act unresolved. Real corrected-locality, lost-type, current-genus and original2/current3 syntype issues need primary adjudication.",
+    "other_five": "No additional work or new qualification this pass."
+  },
+  "pass05_request_accounting": {
+    "inherited_total": 573,
+    "web_logical_items": 39,
+    "browser_navigation_or_page_selection_attempts": 4,
+    "total": 43,
+    "cumulative": 616,
+    "notes": "Includes initial three searches before context compaction, failures, reference section/find reads. Browser museum goto timeout resolved on DOM read;1932original connectionclosed;BioNames landing readable;embedded content blocked by client, do not bypass. DOM observations excluded."
+  },
+  "pass05_findings": {
+    "hallowell1854": "Deferred: primary2011 explicitly reports lost tristis types and unresolved rapicauda/solimoensis assignment. ANSP2vs3 and triangularis naming act unresolved. Do not borrow rapicauda neotype as tristis type. No finite unique reference established.",
+    "hewitt1932": "Natural article105-128 and eight indexed names found through BioNames; six reptile names provisional, two amphibians. Museum type catalogue readable in browser and ordinaryweb, but original not yet readable.1935IUCNcopy is10pages only, cannot stand for75page paper.",
+    "other_five": "No further evidence closure or model sessions this pass."
+  },
+  "pass06_request_accounting": {
+    "inherited_total": 616,
+    "web_logical_items": 16,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 17,
+    "cumulative": 633
+  },
+  "pass07_request_accounting": {
+    "inherited_total": 633,
+    "web_logical_items": 19,
+    "browser_navigation_or_page_selection_attempts": 5,
+    "total": 24,
+    "cumulative": 657,
+    "notes": "Reportgoto+page3selection+threeWQPstationgotos; screenshots/DOMreads excluded. Includes failedwebsectionreads and3unsuccessfulsearches."
+  },
+  "pass08_request_accounting": {
+    "inherited_total": 657,
+    "web_logical_items": 11,
+    "browser_navigation_or_page_selection_attempts": 2,
+    "total": 13,
+    "cumulative": 670,
+    "notes": "Includes4webitems beforecompaction, 2sectionopens,3searches,1search+1find; browser15111/12616. No downloads. Providerwide search result incidental, not used as candidate inventory."
+  },
+  "pass09_request_accounting": {
+    "inherited_total": 670,
+    "web_logical_items": 15,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 16,
+    "cumulative": 686
+  },
+  "pass10_request_accounting": {
+    "inherited_total": 686,
+    "web_logical_items": 43,
+    "browser_navigation_or_page_selection_attempts": 2,
+    "total": 45,
+    "cumulative": 731
+  },
+  "pass11_request_accounting": {
+    "inherited_total": 731,
+    "web_logical_items": 26,
+    "browser_navigation_or_page_selection_attempts": 4,
+    "total": 30,
+    "cumulative": 761,
+    "notes": "Includes initial seven web items before compaction, three PDF gotos and manufacturer page2 selection. Same-tab observations/screenshots and failed AX argument diagnostic excluded. No downloads or model sessions."
+  },
+  "pass12_request_accounting": {
+    "inherited_total": 761,
+    "web_logical_items": 12,
+    "browser_navigation_or_page_selection_attempts": 4,
+    "total": 16,
+    "cumulative": 777
+  },
+  "pass13_request_accounting": {
+    "inherited_total": 777,
+    "web_logical_items": 1,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 1,
+    "cumulative": 778
+  },
+  "pass14_request_accounting": {
+    "inherited_total": 778,
+    "web_logical_items": 5,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 6,
+    "cumulative": 784
+  },
+  "time_budget_clarification": {
+    "source": "/Users/ning/.codex/attachments/60836a5f-af09-4e5d-a1c1-ffff77a2538c/goal-objective.md section1",
+    "instruction": "单工作会话6000秒",
+    "observed_goal_time_seconds": 6153,
+    "uncertainty": "Whether single-session cap applies to total controller goal execution or individual review/blind model sessions",
+    "status": "resolved_by_user",
+    "consecutive_turns_waiting": 0,
+    "new_external_work_started": false,
+    "goal_complete": false,
+    "runtime_evidence": [
+      "campaign.json max_seconds_per_session=6000, deadline=null",
+      "runtime/campaign_runtime.py accepts null project deadline for current protocols",
+      "runtime/run.py applies maximum_seconds to independently allocated model invocation"
+    ],
+    "resolution": "User explicitly cancelled the 6000-second single work-session limit; stall3000 remains."
+  },
+  "latest_runtime_validation": {
+    "command": "python3 -m unittest test_current_repairs test_current_summary",
+    "tests": 23,
+    "result": "passed",
+    "live_model_run": false
+  },
+  "max_seconds_per_session": null,
+  "stall_seconds": 3000,
+  "pass18_request_accounting": {
+    "inherited_total": 784,
+    "web_logical_items": 23,
+    "browser_navigation_or_page_selection_attempts": 2,
+    "total": 25,
+    "cumulative": 809,
+    "notes": "Includes six initial web requests before continuation and failures. Browser Zenodo PDF goto and Archive text goto. Same-tab observations and DOM reads excluded. Full-volume text is construction reconnaissance; blind single-article path compliance unresolved."
+  },
+  "pass19_request_accounting": {
+    "inherited_total": 809,
+    "web_logical_items": 26,
+    "browser_navigation_or_page_selection_attempts": 2,
+    "total": 28,
+    "cumulative": 837,
+    "notes": "Includes unsuccessful searches/finds and timeout reads; browser ResearchGate1991 security challenge and Scincidae PDF timeout. No bypass. Same-tab observation excluded."
+  },
+  "pass20_request_accounting": {
+    "inherited_total": 837,
+    "web_logical_items": 22,
+    "browser_navigation_or_page_selection_attempts": 4,
+    "total": 26,
+    "cumulative": 863,
+    "notes": "Browser two group navigations and two member expansions; observations excluded. Includes failed web opens and nonproductive searches."
+  },
+  "pass21_request_accounting": {
+    "inherited_total": 863,
+    "web_logical_items": 11,
+    "browser_navigation_or_page_selection_attempts": 43,
+    "total": 54,
+    "cumulative": 917,
+    "notes": "Web:2drug opens,hydantoin class click,2DDI opens,3find+1DDI open,rilpivirine entry+NNRTI class click. Browser:entry+DDI click+23remaining DDI navigations,NNRTI group goto+expand,16DDI navigations. DOM observations and copying already-read text excluded. Includes failures; no model sessions."
+  },
+  "pass21_findings": {
+    "factorxa_hydantoin": "24 complete browser DDI records;135 candidates,15pairs all P,symmetric. Two anchor partner sets exactly reproduce answer. Hydantoin ordinary group path now closed. Individual ordinary DDI opens partially failed. Rejected before review/blind.",
+    "nnrti_hydantoin": "16x9 official members;25complete directional pages,9reused;144candidates,30pairs:P15,CI9,CI/P6,symmetric. First nonempty official anchors,Cartesian partner replication+allP yields150/210 Item-F1 using existing scorer;construction simulation only. Rejected before review/blind.",
+    "drift": "D00512 ordinary initial cache1340hits vs browser1353; subsequent ordinary find refreshed page. Do not equate cache with access-date snapshot."
+  },
+  "pass22_request_accounting": {
+    "inherited_total": 917,
+    "web_logical_items": 18,
+    "browser_navigation_or_page_selection_attempts": 3,
+    "total": 21,
+    "cumulative": 938,
+    "notes": "Includes2initial searches;3opens;2finds+2searches;3searches;1open+2searches;2searches+1open. Browser NVD1934 change page failed,Apache index succeeded,NVD22721 change page failed. DOM observations excluded. First browser1934 error preserved in tool trajectory, not a saved raw result."
+  },
+  "pass22_findings": {
+    "vendor_index": "43 unique heading entries under fixed-release sections2.4.42..2.4.58 browser read,ordinary official page available. All43 in historical44;11985excluded by fixed-release scope because under2.4.25. Do not conflate vendorfix cohort andNVDpublication scope.",
+    "history": "Search indexed1934change2022-04-26 (CPE-only) but directweb0body/browserconnectionclosed.22721change2022-08-30 readable ordinary236lines,hasNISTCVSSv3removed/added;browserconnectionclosed,currentdetail0body,initialsearchunresolved. Search-only near-ID results excluded.",
+    "status": "No complete NVD reference;no version/review/blind session charged."
+  },
+  "pass23_request_accounting": {
+    "inherited_total": 938,
+    "web_logical_items": 44,
+    "browser_navigation_or_page_selection_attempts": 3,
+    "total": 47,
+    "cumulative": 985,
+    "notes": "Logical web items perbatch3,4,5,3,4,4,3,5,6,4,3=44; browserFGFRapprovalPDFfailed,annualPDFfailed,makerpressgoto timeout then same-tab DOMminimal. DOM observations excluded. FirstFGFRbrowsererror intooltrajectory only;remainingrawresults saved. No model sessions."
+  },
+  "pass23_findings": {
+    "balversa": "P18004304/12/2019historicalIFU intendeduse6FGFR3variants;FGFR2BICC1/CASP7 andFGFR3BAIAP2L1 explicitlynoclinicalselectionclaim. CurrentFDAindexsame6:historicalFGFR2 eligibility hypothesis disproven.",
+    "piqray": "P190001tissue/P190004plasma concurrent05/24/2019;ordersidentifyapplications despite samecombined webpage wording.11variantsincludingE545Dc1635G>T only;currentindexsame.",
+    "rozlytrek": "Original2019label2.1 explicitlynoapprovedROS1selectiontestorNTRKsolidtumor test;exclude.2022CDx cannotbackfill.",
+    "annual_scope": "48annual rows ordinaryAppendixA read;11therapeuticoncologycandidates drafted;remaining8initialCDxstatusesunadjudicated;browserpaths incomplete;no quality/score claim."
+  },
+  "pass24_request_accounting": {
+    "inherited_total": 985,
+    "web_logical_items": 15,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 15,
+    "cumulative": 1000,
+    "notes": "Recovered six stored raw tool results from prior unsaved exploration; includes PMC challenge and publisher failures."
+  },
+  "pass24_findings": {
+    "cdx": "Enhertu FDA staff approval-summary found, PMC challenge and publisher inaccessible; no final initial-CDx adjudication. Later EV+pembrolizumab FDA paper search excerpt supports earlier all-comer EV approvals but is not original2019 review. Defer2019scope: no further established historical qualification difference."
+  },
+  "pass25_request_accounting": {
+    "inherited_total": 1000,
+    "web_logical_items": 17,
+    "browser_navigation_or_page_selection_attempts": 3,
+    "total": 20,
+    "cumulative": 1020,
+    "notes": "Web batches2+2+2+2+3+4+2. Browser Blanco/Hays index and2013PDF goto; same-tab observations excluded. Initial2search raw in conversation only; remaining outputs saved. Includes failed fullPDF and screenshot."
+  },
+  "pass26_request_accounting": {
+    "inherited_total": 1020,
+    "web_logical_items": 12,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 13,
+    "cumulative": 1033,
+    "notes": "3WQP+1report+2search+2open+2search+2open;onebrowser12661 navigation. PriorPDFtab absent,not retried. Failed requests included."
+  },
+  "pass27_request_accounting": {
+    "inherited_total": 1033,
+    "web_logical_items": 16,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 17,
+    "cumulative": 1050,
+    "notes": "Web batches2+3+2+2+1+1+3+2;onebrowserArchiveOCRnavigation. DOM extraction/chunk copying excluded. Includes failed ordinaryweb requests."
+  },
+  "pass28_request_accounting": {
+    "web_logical_items": 12,
+    "browser_navigation_or_page_selection_attempts": 2,
+    "total": 14,
+    "cumulative": 1064,
+    "notes": "Recovered8 stored tool results from interrupted earlier work; BioStorView opened PDF newtab; no scan read then."
+  },
+  "pass29_request_accounting": {
+    "web_logical_items": 17,
+    "browser_navigation_or_page_selection_attempts": 4,
+    "total": 21,
+    "cumulative": 1085,
+    "notes": "17web items including2failed PDFscreenshots;1browsergoto+3PDF page selections. Zoom/screenshots/AX/unsupported export observation excluded per existing accounting convention."
+  },
+  "pass30_request_accounting": {
+    "web_logical_items": 35,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 36,
+    "cumulative": 1121,
+    "notes": "Includes all failed reads, searches, find calls, and construction-only BHL250-item metadata index; browser safety challenge not bypassed."
+  },
+  "pass31_request_accounting": {
+    "inherited_total": 1121,
+    "web_logical_items": 16,
+    "browser_navigation_or_page_selection_attempts": 8,
+    "total": 24,
+    "cumulative": 1145,
+    "notes": "Pending9web/6browser plus current7web/2browser. Brown goto1+PDF selections5; NVD andcurl goto2. Screenshots,zoom,DOMobservations,tabs-list excluded; failed reads retained."
+  },
+  "pass32_request_accounting": {
+    "inherited_total": 1145,
+    "web_logical_items": 28,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 29,
+    "cumulative": 1174,
+    "notes": "Web batches2+3+5+5+5+5+3; one PolivyPDF browsergoto failure; same-tab observation excluded. All9rawtoolresults saved."
+  },
+  "pass33_request_accounting": {
+    "inherited_total": 1174,
+    "web_logical_items": 17,
+    "browser_navigation_or_page_selection_attempts": 3,
+    "total": 20,
+    "cumulative": 1194,
+    "notes": "Web batches2+2+2+2+2+3+1+1+2; browserMeCBICv1,UAIv1,UAIv2; all12rawresults saved. No datasets/API downloads."
+  },
+  "active_candidate_ids": [
+    "reptile_001",
+    "arxiv_historical_title_001"
+  ],
+  "paused_candidate_ids": [
+    "nvd_initial_assessment_001",
+    "kegg_initial_cdx_001",
+    "economic_kegg_ddi_001",
+    "waterquality_003"
+  ],
+  "pass34_request_accounting": {
+    "web_logical_items": 12,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 12,
+    "cumulative": 1206,
+    "notes": "Recovered original tool results from persistent stores; no replay requests."
+  },
+  "pass34_findings": {
+    "uai": "All seven current old/new pairs have matching titles apart from For/for; current pages show no withdrawal/direct replacement notice. Two older records have v2; earlier versions not read. No demonstrated eligible historical relation. Stop expansion of UAI; not a claim about all88 histories."
+  },
+  "focus01_request_accounting": {
+    "web_logical_items": 8,
+    "construction_file_downloads": 1,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 9,
+    "cumulative": 1215,
+    "notes": "First3query raw results remain in conversation turn277; next3queries+museum open+catalog click saved. XLSX downloaded for construction only, not valid ordinary-web blind path."
+  },
+  "focus02_request_accounting": {
+    "web_logical_items": 18,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 19,
+    "cumulative": 1234,
+    "notes": "Search/open/find/click batches3+3+2+1+2+1+1+1+2+2; onebrowsergoto; same-tab observation and local saved image reread excluded. All raw results saved."
+  },
+  "focus03_request_accounting": {
+    "web_logical_items": 25,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 25,
+    "cumulative": 1259,
+    "notes": "batches3+3+3+3+3+2+2+2+2+2; includes failures; no downloads/models"
+  },
+  "focus04_request_accounting": {
+    "web_logical_items": 16,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 17,
+    "cumulative": 1276,
+    "notes": "Web batches3+2+3+1+2+1+1+1+2. One INPN browsergoto, same-tab observation excluded. Includes failures. Eleven raw results saved."
+  },
+  "focus05_request_accounting": {
+    "web_logical_items": 22,
+    "browser_navigation_or_page_selection_attempts": 4,
+    "total": 26,
+    "cumulative": 1302,
+    "notes": "Web3+3+2+4+1+1+2+2+2+1+1; browsergoto1, attempted Page3 input1, Next2. Includes failures.18rawresults saved; observations/screenshots excluded."
+  },
+  "focus06_request_accounting": {
+    "web_logical_items": 22,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 23,
+    "cumulative": 1325,
+    "notes": "Web2+1+2+2+1+2+2+3+3+1+3. Futer browsergoto failed.12raw saved. No downloads/models."
+  },
+  "focus07_request_accounting": {
+    "web_logical_items": 16,
+    "browser_navigation_or_page_selection_attempts": 2,
+    "total": 18,
+    "cumulative": 1343,
+    "notes": "Web2+3+3+2+1+1+1+1+1+1; browserhomegoto/publicationsclick.12raw saved. FullbrowserDOM extracted179uniqueIDs locally, no memberfetch."
+  },
+  "focus08_request_accounting": {
+    "inherited_total": 1343,
+    "web_logical_items": 12,
+    "browser_navigation_or_page_selection_attempts": 3,
+    "total": 15,
+    "cumulative": 1358,
+    "notes": "Web2+3+1+1+1+2+2; browserCommonsgoto,PDFclick,Page21selection.14raw saved. DOM/AX/screenshots excluded. Includes failed and repeated BHLmetadata read; do not repeat403."
+  },
+  "focus09_request_accounting": {
+    "inherited_total": 1358,
+    "web_logical_items": 25,
+    "browser_navigation_or_page_selection_attempts": 2,
+    "total": 27,
+    "cumulative": 1385,
+    "notes": "Web2+3+2+4+1+2+1+3+3+2+2; browserQi andFranco indices.13raw stored; local DOM extraction excluded. No APIs/feed/bulkdownloads."
+  },
+  "focus10_request_accounting": {
+    "inherited_total": 1385,
+    "web_logical_items": 11,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 12,
+    "cumulative": 1397,
+    "notes": "Web2+1+2+1+2+3; browserDymarskyindex.7raw saved. No all55member expansion."
+  },
+  "focus11_request_accounting": {
+    "inherited_total": 1397,
+    "web_logical_items": 10,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 10,
+    "cumulative": 1407,
+    "notes": "Web1+2+2+1+2+2;6raw saved. Local prior evidence reread excluded."
+  },
+  "focus12_request_accounting": {
+    "inherited_total": 1407,
+    "web_logical_items": 14,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 14,
+    "cumulative": 1421,
+    "notes": "Prior pending7 plus BioStor metadata1, four page image clicks4, mirror searches2. Six raw batches saved; metadata repeat in conversation only. No bypass or model calls."
+  },
+  "focus13_request_accounting": {
+    "inherited_total": 1421,
+    "web_logical_items": 19,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 19,
+    "cumulative": 1440,
+    "notes": "Web batches3+1+3+3+2+3+2+1+1. Nine raw results saved. No model sessions."
+  },
+  "focus14_request_accounting": {
+    "inherited_total": 1440,
+    "web_logical_items": 5,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 6,
+    "cumulative": 1446,
+    "notes": "Web1+2+1+1; browseroldAtlasgoto1. Same-tab observationtimeouts and AX checks excluded.7raw saved. No model sessions."
+  },
+  "focus15_request_accounting": {
+    "inherited_total": 1446,
+    "web_logical_items": 7,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 7,
+    "cumulative": 1453,
+    "notes": "1+2+2+1+1;5raw outputs. No model sessions."
+  },
+  "blocked_audit": {
+    "turns": [
+      "focus13",
+      "focus14",
+      "focus15"
+    ],
+    "same_condition": "Missing source evidence necessary for complete unique reference and eligible natural scope",
+    "condition_persisted": true,
+    "last_checks": "Reviewed current results and candidate inventory; Stay current primary homepage and CV read; no qualifying scope established.",
+    "reason": "当前已调查候选均无法满足测试前置条件：Reptile原件可达性和模式身份冲突未闭合；arXiv已有合法完整身份索引但已核实替代案例没有历史标题差异，其他索引不能支持完整历史范围。需要新的具体原始证据或合格自然范围来源；不能靠重复失败请求、拼选困难记录或错误参考继续。",
+    "not_success": true,
+    "resume_requires": "Concrete new public original/type correction or a complete natural arXiv identity scope with verifiable relevant history; retain existing constraints and budgets.",
+    "superseded_by_user_resume": true,
+    "assessment_correction": "Candidate-specific gaps did not establish inability to continue independently; user directs change in search method."
+  },
+  "resume01_request_accounting": {
+    "inherited_total": 1453,
+    "web_logical_items": 23,
+    "browser_navigation_or_page_selection_attempts": 3,
+    "total": 26,
+    "cumulative": 1479,
+    "notes": "Web1+1+2+1+2+1+3+3+3+4+2;browserarchive,month,original.16raw saved. Observations/screenshots excluded. No newmodel/versionuse."
+  },
+  "check01_request_accounting": {
+    "inherited_total": 1479,
+    "web_logical_items": 13,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 13,
+    "cumulative": 1492,
+    "notes": "web4 priorcompaction +5gaps +3figure/open/find +1revision. Failed screenshot included. Browser tab-list observation excluded. Five raw batches saved."
+  },
+  "next01_request_accounting": {
+    "inherited_total": 1492,
+    "web_logical_items": 14,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 14,
+    "cumulative": 1506,
+    "notes": "2+3+3searches,2identityopens,3recordopens,1historicalopen. Sixrawbatches. No model/versioncost."
+  },
+  "next02_request_accounting": {
+    "inherited_total": 1506,
+    "web_logical_items": 15,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 15,
+    "cumulative": 1521,
+    "notes": "2+1+2+1+2+3+1+1+1+1 logicalwebitems;10rawbatches. Failures included; no newmodel/versioncost."
+  },
+  "next03_request_accounting": {
+    "inherited_total": 1521,
+    "web_logical_items": 17,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 17,
+    "cumulative": 1538,
+    "notes": "2+3+2+2+1+1+1+3+2 logicalwebitems;9rawbatches. No models/versions."
+  },
+  "next04_request_accounting": {
+    "inherited_total": 1538,
+    "web_logical_items": 17,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 17,
+    "cumulative": 1555,
+    "notes": "2+3 precompaction;2routes+3find/search+3scope+4scope. Six raw batches saved. No model/version use."
+  },
+  "next05_request_accounting": {
+    "inherited_total": 1555,
+    "web_logical_items": 21,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 21,
+    "cumulative": 1576,
+    "notes": "3search+3identityopen+6find/endread+2identityopen+4find/read+3recordopen. Six raw batches. No newmodels/versions."
+  },
+  "next06_request_accounting": {
+    "inherited_total": 1576,
+    "web_logical_items": 28,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 28,
+    "cumulative": 1604,
+    "notes": "Batches2+3+3+2+4+5+3+2+2+1+1. Elevenrawbatches. No models/versions."
+  },
+  "next07_request_accounting": {
+    "inherited_total": 1604,
+    "web_logical_items": 45,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 46,
+    "cumulative": 1650,
+    "notes": "Web16beforecompaction +4+4+3+3+3+4+4+4; browserArchivePDFgoto1. Same-tabobservations excluded.17rawbatches saved. No model/versionuse. IncidentalglobalDBsearchresult notused asinventory."
+  },
+  "next08_request_accounting": {
+    "inherited_total": 1650,
+    "web_logical_items": 34,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 35,
+    "cumulative": 1685,
+    "notes": "Web1+4+4+2+3+3+2+3+1+3+3+3+2; browserOxfordgoto1.15rawresults saved includingsecuritychallenge. Same-tabobservationexcluded; no model/versionuse."
+  },
+  "next09_request_accounting": {
+    "inherited_total": 1685,
+    "web_logical_items": 18,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 19,
+    "cumulative": 1704,
+    "notes": "Web1+3+1+1+2+4+3+3. BrowserVershyningoto1 failedconnectionclosed; rawbrowsererror in conversation.8rawwebbatches saved. No models/versions."
+  },
+  "next10_request_accounting": {
+    "inherited_total": 1704,
+    "web_logical_items": 25,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 25,
+    "cumulative": 1729,
+    "notes": "Recovered8pending +2+3+2+3+3+2+2 webitems.11rawresults saved; includes failed finds/reads. No newmodel/version use."
+  },
+  "next11_request_accounting": {
+    "inherited_total": 1729,
+    "web_logical_items": 27,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "construction_file_downloads": 1,
+    "total": 29,
+    "cumulative": 1758,
+    "notes": "Web2+2+1+3+3+2+1+3+3+3+2+2=27. Onebrowsergoto; same-tabobservations/screenshotexcluded. One singlepaperdownload.13rawbatches saved; browsergotoerror/image in tooltrajectory. No models/versions."
+  },
+  "next12_request_accounting": {
+    "inherited_total": 1758,
+    "web_logical_items": 29,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 30,
+    "cumulative": 1788,
+    "notes": "Web2+2+2+2+3+2+3+1+4+4+4=29. BrowserAkbulutindexgoto1;DOMobservations excluded.12rawbatches saved. No models/versions."
+  },
+  "next13_request_accounting": {
+    "inherited_total": 1788,
+    "web_logical_items": 30,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 30,
+    "cumulative": 1818,
+    "notes": "2 search +2 index +4 superseded +4 diagnostics +4+4+4+4+2 grant records. Nine raw batches saved; no models or versions."
+  },
+  "next14_request_accounting": {
+    "inherited_total": 1818,
+    "web_logical_items": 32,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 32,
+    "cumulative": 1850,
+    "notes": "Batches2+3+3+2+4+3+3+4+4+4;10rawbatches. Failedreads included. No models or versions."
+  },
+  "next15_request_accounting": {
+    "inherited_total": 1850,
+    "web_logical_items": 27,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 27,
+    "cumulative": 1877,
+    "notes": "Batches2+3+5+4+3+4+4+2;8rawbatches. Failed reads included. No models/versions."
+  },
+  "next16_request_accounting": {
+    "inherited_total": 1877,
+    "web_logical_items": 43,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 43,
+    "cumulative": 1920,
+    "notes": "17pending beforecompaction +1+3+3+4+4+3+2+2+4. Includes failures and one repeatedDBroute via searchcache; do not repeatfailedpaths.14raw files saved. Three-searchbatch turn566 remains in conversation only; archivefailure saved as explicit result summary, not fabricatedraw. No model/version use."
+  },
+  "next17_request_accounting": {
+    "inherited_total": 1920,
+    "web_logical_items": 9,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 9,
+    "cumulative": 1929,
+    "notes": "1+2+2+1+3;5rawbatches saved. No models/versions."
+  },
+  "next18_request_accounting": {
+    "inherited_total": 1929,
+    "web_logical_items": 14,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 14,
+    "cumulative": 1943,
+    "notes": "2+2+4+3+2+1;6rawbatches. No models/versions."
+  },
+  "next19_request_accounting": {
+    "inherited_total": 1943,
+    "web_logical_items": 17,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 17,
+    "cumulative": 1960,
+    "notes": "2+3+3+3+2+2+2;7rawbatches. No downloads/models/versions."
+  },
+  "next20_request_accounting": {
+    "inherited_total": 1960,
+    "web_logical_items": 30,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 30,
+    "cumulative": 1990,
+    "notes": "7batches of4 +1batch of2;8raw saved; prior3recordresults reused. No models/versions."
+  },
+  "next21_request_accounting": {
+    "inherited_total": 1990,
+    "web_logical_items": 25,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "construction_file_downloads": 1,
+    "total": 26,
+    "cumulative": 2016,
+    "notes": "Includes failed singlepaper download SSL EOF; 11rawwebbatches saved. No models/versions."
+  },
+  "next22_request_accounting": {
+    "inherited_total": 2016,
+    "web_logical_items": 29,
+    "browser_navigation_or_page_selection_attempts": 4,
+    "total": 33,
+    "cumulative": 2049,
+    "notes": "Web2+1+4+15+1+4+2. Browsergoto1, Searchinside2unexpectedPDFtransitions, JP2selection1. Observations excluded.10rawwebbatches andbrowsertextsaved. No models/versions."
+  },
+  "next23_request_accounting": {
+    "inherited_total": 2049,
+    "web_logical_items": 11,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 11,
+    "cumulative": 2060,
+    "notes": "1+1+2+1+1+3+2;7rawbatches. No models/versions."
+  },
+  "next24_request_accounting": {
+    "inherited_total": 2060,
+    "web_logical_items": 18,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 18,
+    "cumulative": 2078,
+    "notes": "1+2+1+2+2+1+1+1+2+2+2+1.12rawbatches. Bibliographicindex no selectedpagesize; no substantiveexport/prejoinedanswer used. Failedreads included. No models/versions."
+  },
+  "next25_request_accounting": {
+    "inherited_total": 2078,
+    "web_logical_items": 19,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "construction_file_downloads": 2,
+    "total": 22,
+    "cumulative": 2100,
+    "notes": "Includes2precompactionitems, failedscreenshot/find/sectionreads. Browsergoto timeout then successfulsame-tabobservation.2singlepaperdownloads successful, notblindpathproof.11rawfiles;finaloriginalopen/screenshotfailure onlyconversation. No models/versions."
+  },
+  "next26_request_accounting": {
+    "inherited_total": 2100,
+    "web_logical_items": 12,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 12,
+    "cumulative": 2112,
+    "notes": "1+2+1+2+1+2+3;7rawbatches. No models/versions/downloads."
+  },
+  "next27_request_accounting": {
+    "inherited_total": 2112,
+    "web_logical_items": 22,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 22,
+    "cumulative": 2134,
+    "notes": "1+2+2search,1identityopen,4batchesof4records;8raw. No models/versions/downloads."
+  },
+  "next28_request_accounting": {
+    "inherited_total": 2134,
+    "web_logical_items": 40,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 40,
+    "cumulative": 2174,
+    "notes": "1index+38records+1truncatedhistorytailread;12raw. No models/versions/downloads."
+  },
+  "next29_request_accounting": {
+    "inherited_total": 2174,
+    "web_logical_items": 10,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 10,
+    "cumulative": 2184,
+    "notes": "1+1+2+2+1+2+1;7raw. Includesnonretryablesaferedirect; no downloads/models/versions."
+  },
+  "next30_request_accounting": {
+    "inherited_total": 2184,
+    "web_logical_items": 48,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "construction_file_downloads": 3,
+    "total": 52,
+    "cumulative": 2236,
+    "notes": "Includes initial8webbeforecompaction;40followupweb;3successfulsinglepaperdownloads1934/1966/1995;browsergoto timeoutthenpage1/93seen,same-tabobservationsnotcounted.No model sessions."
+  },
+  "next31_request_accounting": {
+    "inherited_total": 2236,
+    "web_logical_items": 19,
+    "browser_navigation_or_page_selection_attempts": 4,
+    "construction_file_downloads": 1,
+    "total": 24,
+    "cumulative": 2260,
+    "notes": "16web beforecompaction plus3logicalsearches in2fataltransportfailedtoolcalls;4browsergotos Google/codeICZN/wwwICZN/ZooKeys;1failedsinglepaperdownload403. Same-tabDOMreads excluded. No model sessions."
+  },
+  "next32_request_accounting": {
+    "inherited_total": 2260,
+    "web_logical_items": 25,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "construction_file_downloads": 1,
+    "total": 26,
+    "cumulative": 2286,
+    "notes": "IncludesoldSI404,newSIPDFsizefailure,andfailedconstructiondownload;11arxivsingleabstractrecords. No model sessions."
+  },
+  "next33_request_accounting": {
+    "inherited_total": 2286,
+    "web_logical_items": 16,
+    "browser_navigation_or_page_selection_attempts": 1,
+    "total": 17,
+    "cumulative": 2303,
+    "notes": "Initial10 web +2search +1PDFopen +2find/1section. BrowserZenodogoto timeout then same-tab DOM success confirms restricted files; tab closed. Eight raw results saved. No model sessions/downloads."
+  },
+  "next34_request_accounting": {
+    "inherited_total": 2303,
+    "web_logical_items": 31,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 31,
+    "cumulative": 2334,
+    "notes": "2identityindexes+28singleabstracts+1tailread for truncatedHoshinoresult. Nine raw batches saved. No model/version use."
+  },
+  "next35_request_accounting": {
+    "inherited_total": 2334,
+    "web_logical_items": 11,
+    "browser_navigation_or_page_selection_attempts": 0,
+    "total": 11,
+    "cumulative": 2345,
+    "notes": "1index+7abstracts+2independent identity searches empty+1newCochranBHLpart403. Five raw batches. No models/versions."
+  },
+  "next36_request_accounting": {
+    "inherited_total": 2345,
+    "web_logical_items": 21,
+    "total": 21,
+    "cumulative": 2366,
+    "notes": "2search+1index+4record+4identitysearch+4abstract+2PDF+1search/2find+1correctedabstract;8rawbatches;no models/downloads/browser."
+  },
+  "next37_request_accounting": {
+    "inherited_total": 2366,
+    "web_logical_items": 21,
+    "total": 21,
+    "cumulative": 2387,
+    "notes": "1v1+4search+1search/3abstract+4sectionreads+4search+4abstract=21;6rawbatches;threebodyomissions in mixedquery corrected with explicitsectionreads. No models/versions."
+  },
+  "next38_request_accounting": {
+    "inherited_total": 2387,
+    "web_logical_items": 25,
+    "total": 25,
+    "cumulative": 2412,
+    "notes": "17 beforecompaction+4history+4identity;7rawbatches. No models/versions/downloads/browser."
+  },
+  "next39_request_accounting": {
+    "inherited_total": 2412,
+    "web_logical_items": 47,
+    "total": 47,
+    "cumulative": 2459,
+    "notes": "5four-searchbatches20+records4/3/4/3/4/2=20+identitysearch4+replacementsearch3;13rawbatches. No model/version use."
+  },
+  "next40_request_accounting": {
+    "inherited_total": 2459,
+    "web_logical_items": 60,
+    "total": 60,
+    "cumulative": 2519,
+    "notes": "9four-searchbatches36+19abstracts+4identitypages+1singlequery=60;16rawbatches. No models/versions/downloads/browser."
+  },
+  "next41_request_accounting": {
+    "inherited_total": 2519,
+    "web_logical_items": 23,
+    "construction_file_downloads": 1,
+    "total": 24,
+    "cumulative": 2543,
+    "notes": "13rawwebbatches;one successfulsinglecataloguePDFdownload1251239bytes;selectedpage193rendered. FailedPDFfind/screenshot/2020read/BioStorsearchincluded. No browser/models/versions."
+  }
+}

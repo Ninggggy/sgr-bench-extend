@@ -1,0 +1,11 @@
+{
+  "status": "parse_failure",
+  "rows": [],
+  "ignored_lines": [
+    {
+      "line": 2,
+      "text": "NONE"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "validator": "construction_pipeline/ten_task_phase/runtime/stage_results.py:validate",
+  "schema": "construction_pipeline/schemas/candidate.schema.json",
+  "full_actual_schema_checked": true,
+  "unsupported_keywords_fail_closed": true,
+  "new_validator_or_dependency_installed": false
+}

@@ -1,0 +1,198 @@
+{
+  "status": "blocked_session_time_limit_goal_unmet",
+  "goal_completed": false,
+  "started_at": "2026-09-19T08:32:36+00:00",
+  "blind_used": 6,
+  "blind_limit": 12,
+  "review_used": 8,
+  "review_limit": 15,
+  "slots": {
+    "A": {
+      "versions": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "quality": "v3_passed",
+      "CG": "80/80",
+      "GO": "80/80",
+      "passed": false,
+      "blind_used": 6,
+      "review_used": 6,
+      "version_limit": 5,
+      "remaining_versions": 2
+    },
+    "B": {
+      "versions": [
+        "v1",
+        "v2"
+      ],
+      "quality": "interpretation_confounded",
+      "CG": null,
+      "GO": null,
+      "raw_CG": "22/24",
+      "raw_GO": "24/24",
+      "passed": false,
+      "blind_used": 2,
+      "review_used": 4,
+      "version_limit": 5,
+      "remaining_versions": 3
+    },
+    "C": {
+      "versions": [
+        "v1"
+      ],
+      "version_limit": 5,
+      "quality": "reference passed; CG scorer composite-alias defect discovered",
+      "CG": null,
+      "GO": "128/128",
+      "passed": false,
+      "review_used": 3,
+      "blind_used": 2,
+      "raw_CG": "124/128"
+    },
+    "D": {
+      "versions": [
+        "v1"
+      ],
+      "version_limit": 5,
+      "quality": "passed after three reviews",
+      "CG": "54/54",
+      "GO": "54/54",
+      "passed": false,
+      "blind_used": 2,
+      "review_used": 3
+    },
+    "E": {
+      "versions": [
+        "v1"
+      ],
+      "version_limit": 5,
+      "quality": "passed_review_2; both valid high scores",
+      "CG": "72/72",
+      "GO": "72/72",
+      "passed": false,
+      "blind_used": 2,
+      "review_used": 2
+    }
+  },
+  "unexecuted_registered_slots": 0,
+  "remaining_blind": 6,
+  "remaining_reviews": 7,
+  "reserved": {
+    "blind": 0,
+    "review": 0
+  },
+  "constructor_native_web_calls": 49,
+  "constructor_logical_web_operations": 143,
+  "browser_node_calls": 34,
+  "costs": "epoch2_costs.json",
+  "previous_stop_reason": "Content-review budget exhausted; B v2 has confirmed ambiguity and every scored face is at or above70%; all registered pairs executed. No justified wording-only retest.",
+  "budget_amended_at": "2026-09-19T09:49:48.081053+00:00",
+  "resumed_at": "2026-09-19T09:54:39.702704+00:00",
+  "resumption_scope": "Epoch2 reset: 12 blind, 15 reviews. New objects/directions get new question IDs and five versions; all historical results preserved.",
+  "last_screening_at": "2026-09-19T14:06:05.624209+00:00",
+  "screening_report": "exploration/resumed_screening.md",
+  "resumed_costs": "resumed_costs.json",
+  "current_opportunity": "All C/D/E pairs complete, nonequalifies. PKIX policy opportunity prototype unreviewed; no newblindallocation.",
+  "final_costs": "epoch2_costs.json",
+  "version_limit_per_slot": 5,
+  "budget_amendments": [
+    {
+      "at": "2026-09-19T13:01:07.646776+00:00",
+      "field": "version_limit_per_slot",
+      "old": 3,
+      "new": 5,
+      "used_counts_preserved": true,
+      "blind_limit": 12,
+      "review_limit": 15,
+      "reset_rule": "pending clarification: user said both same-position consumption and new-number reset"
+    },
+    {
+      "at": "2026-09-19T13:08:21.679633+00:00",
+      "field": "version_accounting_rule",
+      "user_instruction": "换对象或方向不占同一位置的版本机会，算作另起题号重置",
+      "new_question_on_object_or_direction_change": true,
+      "global_usage_preserved": true
+    },
+    {
+      "at": "2026-09-19T13:35:24.433397+00:00",
+      "field": "total_model_budgets",
+      "user_instruction": "总预算重置",
+      "budget_epoch": 2,
+      "blind_available": 12,
+      "review_available": 15,
+      "historical_ledger_preserved": true,
+      "question_versions_reset": false
+    }
+  ],
+  "previous_version_stop_reason": "A used all three substantive versions; A v3 CG and GO each valid 80/80. The conjunction of two qualified tasks is impossible within the authorized version limit. All registered pairs completed. B v3 remains unallocated; no claim of exhaustive infeasibility across every possible direction.",
+  "reset_rule_clarification_pending": false,
+  "version_accounting_rule": {
+    "limit_per_question": 5,
+    "same_object_and_direction": "Substantive revisions consume the same question version budget.",
+    "changed_object_or_direction": "Allocate a new question ID, starting at v1 with five version opportunities; preserve old question records.",
+    "global_blind_limit": 12,
+    "global_review_limit": 15,
+    "global_usage_resets": "Only on explicit user instruction; current budget reset authorized at 2026-09-19T13:35:24.433397+00:00",
+    "effective_at": "2026-09-19T13:08:21.679633+00:00",
+    "historical_records": "Preserved as recorded; no retroactive renaming or deletion."
+  },
+  "historical_blocked_audits": [
+    {
+      "condition": "A_version_limit_exhausted_without_qualifying_pair",
+      "consecutive_goal_turns": 3,
+      "first_seen": "Previous goal turn completed A v3 and observed both valid 80/80 scores with 3/3 versions consumed.",
+      "revalidated_at": "2026-09-19T11:09:44.097453+00:00",
+      "previous_turn_classification": "no_progress",
+      "current_turn_classification": "no_progress: unchanged version cap and terminal valid high scores revalidated",
+      "required_change": "Explicit user amendment of the per-position version limit; do not infer it from automatic continuation",
+      "goal_completed": false,
+      "disposition": "mark_goal_blocked"
+    }
+  ],
+  "blocking_condition_resolved_at": "2026-09-19T13:08:21.679633+00:00",
+  "closed_budget_epochs": [
+    {
+      "epoch": 1,
+      "closed_at": "2026-09-19T13:35:24.433397+00:00",
+      "blind_used": 8,
+      "blind_limit": 12,
+      "review_used": 10,
+      "review_limit": 15,
+      "last_session_number": 18,
+      "reason": "User explicitly requested total budget reset."
+    }
+  ],
+  "budget_epoch": 2,
+  "budget_epoch_started_at": "2026-09-19T13:35:24.433397+00:00",
+  "budget_epoch_after_session_number": 18,
+  "historical_usage_before_current_epoch": {
+    "blind": 8,
+    "review": 10
+  },
+  "usage_accounting": "Top-level used/remaining fields refer to the current budget epoch. Existing per-slot usage and session ledger retain lifetime counts; new sessions after budget_epoch_after_session_number count against this epoch.",
+  "work_session_started_at": "2026-09-19T13:36:59.872045+00:00",
+  "previous_goal_turn_classification": "progress: constructed and reviewed C/D/E, completed six blind runs, audited all traces, no qualifying question",
+  "current_epoch_running": [],
+  "work_session_elapsed_seconds": 5947.454778,
+  "qualified_questions": 0,
+  "current_report": "REPORT.md",
+  "historical_cost_report": "final_costs.json",
+  "constructor_count_note": "Legacy top-level constructor web/browser counters describe earlier work only; epoch2 raw acquisition logs are in exploration and per-question acquisition/browser_replay files. No complete HTTP request count available.",
+  "stopped_at": "2026-09-19T15:16:07.326823+00:00",
+  "stop_reason": "Approaching the authorized 6000-second session boundary; all registered pairs complete. Remaining time insufficient for a new fully reviewed and paired question. Global budget remains 6 blind and 7 reviews; no claim of exhaustive infeasibility.",
+  "current_epoch_constructor_native_web_calls_logged": 80,
+  "current_epoch_constructor_web_call_range": "140-219 inclusive",
+  "session_limit_audit": {
+    "condition": "Insufficient authorized work-session time for remaining construction and paired evaluations; automatic continuation does not reset the 6000-second limit.",
+    "first_stop_at": "2026-09-19T15:16:07.326823+00:00",
+    "revalidated_at": "2026-09-19T15:17:03.407557+00:00",
+    "consecutive_goal_turns": 3,
+    "previous_turn": "progress: completed new evaluations and saved delivery, stopped near session limit",
+    "current_turn": "no progress: same session-time blocker; elapsed >=6000, no new authorization",
+    "needed_change": "Explicit authorization for a new work session or extension of the time limit; model budgets remain unchanged.",
+    "goal_completed": false,
+    "disposition": "blocked"
+  }
+}

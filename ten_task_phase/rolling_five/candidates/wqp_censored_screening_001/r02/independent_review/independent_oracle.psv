@@ -1,0 +1,13 @@
+evidence|hardness_state|screen|n_results
+below_mdl|available|below_or_equal|6
+below_mdl|available|crosses|4
+below_mdl|withdrawn|unresolved_hardness|1
+between_mdl_rl|available|above|1
+between_mdl_rl|available|below_or_equal|13
+between_mdl_rl|available|crosses|13
+between_mdl_rl|withdrawn|unresolved_hardness|3
+not_reported|available|not_reported|2
+point|available|above|14
+point|available|below_or_equal|24
+point|withdrawn|unresolved_hardness|3
+unresolved_u_limit|available|unresolved_limit|17

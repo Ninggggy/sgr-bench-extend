@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {"id": "E", "state": "Read complete enzyme record", "evidence": "d0001", "provides": "Full ALL_REAC reaction scope, including other"},
+    {"id": "L", "state": "Read official direct enzyme-to-module links", "evidence": "d0010", "provides": "Complete linked module ID set"},
+    {"id": "M", "state": "Retrieve every discovered module body, batching allowed", "evidence": "d0004", "provides": "Complete module REACTION annotations"},
+    {"id": "P", "state": "Match exact reaction IDs and read written directions and explicit product sets", "provides": "All qualifying reaction-module pairs"},
+    {"id": "Q", "state": "Compare product sets within each reaction ID and retain all rows of differing groups", "provides": "Ordered output"},
+    {"id": "R", "state": "Optional generic reaction records", "evidence": "d0002", "provides": "Audit context only"}
+  ],
+  "edges": [
+    {"from": "L", "to": "M", "type": "control", "field": "Returned module IDs", "witness": "d0010 enumerates the IDs used by the supplied d0004 batch request"},
+    {"from": "E", "to": "P", "type": "data", "field": "ALL_REAC"},
+    {"from": "M", "to": "P", "type": "data", "field": "Module REACTION"},
+    {"from": "P", "to": "Q", "type": "computation", "field": "Exact reaction identity and explicit product sets"},
+    {"from": "E", "to": "R", "type": "optional_control", "field": "ALL_REAC"}
+  ],
+  "mandatory_retrieval_dependency": "The discovered module IDs determine the complete module GET arguments. The root enzyme and direct link request can be made independently; discovered modules can be retrieved in one batch.",
+  "optional_alternative": "Generic reaction MODULE fields also exposed the observed modules in the earlier probe. That executed path is not a mandatory extra layer because direct enzyme-to-module links suffice.",
+  "shortest_path_note": "Direct links followed by a batch GET of the root enzyme and discovered modules is a two-request possibility under the supplied API limit. Its specific combined URL was not separately downloaded; the supplied evidence uses separate root and module responses.",
+  "limits": "Grouping is computation, not another retrieval dependency. Supplying the full discovered evidence package to a solver would remove the retrieval dependency. Neither catalogs nor an unknown dump are asserted to establish difficulty."
+}

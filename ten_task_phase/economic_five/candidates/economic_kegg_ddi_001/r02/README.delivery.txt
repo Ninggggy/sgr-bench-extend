@@ -1,0 +1,1 @@
+Complete authored files for economic_kegg_ddi_001/r01. The CSV container uses path, part, parts, content. Concatenate each path's content in ascending numeric part order to recover the exact UTF-8 file. Export source assets using source_manifest.json. Python execution and independent campaign stability remain pending.

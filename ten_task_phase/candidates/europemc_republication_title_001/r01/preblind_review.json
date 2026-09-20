@@ -1,0 +1,16 @@
+{
+  "candidate_id":"europemc_republication_title_001",
+  "revision":"r01",
+  "decision":"proceed_to_exactly_one_CG_GO_A_initial_screen",
+  "review_scope":"Content, source identity, bounded eligibility, observable fields, reference mappings, supplied independent result equality, API/dependency and public semantic alignment",
+  "observed_checks":{"private_files_completely_read":4,"inventory_records":164,"distinct_notice_dois":164,"republication_notices":18,"qualifying_notices":3,"PDF_header_extractions":26,"positive_header_strings_independently_matched":6,"controller_reference_equals_oracle":true,"controller_independent_equals_oracle":true,"failed_first_attempt_retained":true},
+  "field_evidence":[
+    {"article_doi":"10.1371/journal.pone.0119706","notice":"notice_xml/d0115.response","article_doi_evidence":"Same DOI on S1/S2 first pages, checked by controller and reference","republication_date_evidence":"Notice states May 26, 2015","original_title_evidence":"pone.0131134.s001.pdf first-page heading; notice explicitly gives erroneous Dehyrogenase","corrected_title_evidence":"pone.0131134.s002.pdf first-page heading; notice gives Dehydrogenase"},
+    {"article_doi":"10.1371/journal.pone.0125021","notice":"notice_xml/d0001.response","article_doi_evidence":"S1/S2 first pages; EPA DOI field corroboration","republication_date_evidence":"Notice states June 15, 2015","original_title_evidence":"pone.0132230.s001.pdf first-page heading; EPA old CTNBB1 title","corrected_title_evidence":"pone.0132230.s002.pdf first-page heading; correction notice heading"},
+    {"article_doi":"10.1371/journal.pone.0125149","notice":"notice_xml/d0128.response","article_doi_evidence":"Notice reference; S1/S2 first pages; IRIS DOI","republication_date_evidence":"Notice states June 3, 2015","original_title_evidence":"pone.0131264.s001.pdf first-page heading; IRIS catalogue omits in Candidemia","corrected_title_evidence":"pone.0131264.s002.pdf first-page heading; notice explicitly prints corrected title"}
+  ],
+  "independence_limits":"Two controller programs use different XML/PDF parsing mechanisms but share the underlying source corpus. The CSV scope is derived metadata, not an independently collected census. This session did not execute either program.",
+  "not_claimed":["blind scores","A completed","B completed","attacks completed","Astra admission audit completed","human review","full quality/admission check","source116 final completion"],
+  "remaining_campaign_work":"A, B, attacks, Astra audit and six preregistered fresh admissions with separate means below .70 are still required before acceptance.",
+  "other_candidate":"Retain arxiv_historical_title_001/r02; do not split this family or construct another historical-title candidate."
+}

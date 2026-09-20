@@ -1,0 +1,95 @@
+{
+  "status": "parsed",
+  "rows": [
+    {
+      "line": 2,
+      "raw": "DIRECT_COMPLEX|42",
+      "cells": [
+        "DIRECT_COMPLEX",
+        "42"
+      ]
+    },
+    {
+      "line": 3,
+      "raw": "HOMOLOGOUS_COMPLEX|13",
+      "cells": [
+        "HOMOLOGOUS_COMPLEX",
+        "13"
+      ]
+    },
+    {
+      "line": 4,
+      "raw": "COMPLEX_GROUP|28",
+      "cells": [
+        "COMPLEX_GROUP",
+        "28"
+      ]
+    },
+    {
+      "line": 5,
+      "raw": "GABA_SUBUNIT|9",
+      "cells": [
+        "GABA_SUBUNIT",
+        "9"
+      ]
+    },
+    {
+      "line": 6,
+      "raw": "TSPO|2",
+      "cells": [
+        "TSPO",
+        "2"
+      ]
+    },
+    {
+      "line": 7,
+      "raw": "UNCURATED_GABA_BZD|26",
+      "cells": [
+        "UNCURATED_GABA_BZD",
+        "26"
+      ]
+    },
+    {
+      "line": 8,
+      "raw": "OTHER|10",
+      "cells": [
+        "OTHER",
+        "10"
+      ]
+    },
+    {
+      "line": 9,
+      "raw": "ENGINEERED_VARIANT|6",
+      "cells": [
+        "ENGINEERED_VARIANT",
+        "6"
+      ]
+    },
+    {
+      "line": 10,
+      "raw": "604850|Homo sapiens alpha4/beta3/gamma2 -> Homo sapiens alpha1/beta3/gamma2",
+      "cells": [
+        "604850",
+        "Homo sapiens alpha4/beta3/gamma2 -> Homo sapiens alpha1/beta3/gamma2"
+      ]
+    },
+    {
+      "line": 11,
+      "raw": "1701379|Homo sapiens alpha1/beta2/gamma2 -> Homo sapiens alpha1/beta1/gamma2",
+      "cells": [
+        "1701379",
+        "Homo sapiens alpha1/beta2/gamma2 -> Homo sapiens alpha1/beta1/gamma2"
+      ]
+    },
+    {
+      "line": 12,
+      "raw": "1876214|Rattus norvegicus alpha5/beta2/gamma2 -> Rattus norvegicus alpha1/beta2/gamma2",
+      "cells": [
+        "1876214",
+        "Rattus norvegicus alpha5/beta2/gamma2 -> Rattus norvegicus alpha1/beta2/gamma2"
+      ]
+    }
+  ],
+  "ignored_lines": [],
+  "issues": []
+}

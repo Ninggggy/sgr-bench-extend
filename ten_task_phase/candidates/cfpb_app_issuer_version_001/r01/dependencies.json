@@ -1,0 +1,23 @@
+{
+  "decision":"One observed discovery dependency survives the inspected official bulk paths.",
+  "edges":[
+    {"from":"Filing interval","to":"Complete enforcement cohort and action descriptions","assessment":"Can be collapsed by a sufficiently complete official HTML archive; no SGR credit assigned to pagination or local filtering."},
+    {"from":"Qualifying respondent identities in action descriptions","to":"Discovery of each company's public policy/legal index","assessment":"Surviving retrieval edge. Earlier evidence supplies the company identities that change the later company-disclosure searches and destinations."},
+    {"from":"Company legal index and version labels","to":"Standard dated consumer deposit agreement body","assessment":"Surviving retrieval branch. Chime's index supplies distinct standard-agreement destinations. SoLo's index distinguishes current Bangor documents from archived terms and service-provider documents."},
+    {"from":"Agreement issuer names","to":"FDIC certificate identity","assessment":"Collapsible. An all-institution FDIC dataset can be downloaded before knowing the bank names, then joined locally. This candidate does not count this edge as necessary sequential retrieval."}
+  ],
+  "fixed_download_assessment":{
+    "official_archive":"The archive's documented scope is same-domain CFPB HTML. It does not archive the off-domain company agreements or their bodies. Inspected action summaries do not supply the selected 2026 agreement revision labels and issuer relationships.",
+    "fdic":"Documented institution bulk/API scope supplies bank identity and institutional attributes. The actual default response contains bank names and certificates. It does not supply the examined fintech agreement bodies or their revision labels. A full institution file is credited as resolving all bank-name-to-certificate joins.",
+    "limits":"No complete FDIC bulk file or complete definition schema was obtained. The surviving-edge assessment relies on the official dataset/collection scopes and actual company-source discoveries, not on failed requests or a claim that every possible public archive was searched.",
+    "reference_inputs":"The finite evidence files assembled after discovery are reproducibility inputs. Their existence after construction is not asserted to prove retrieval dependency. The claimed dependency occurs while discovering those company documents from the cohort."
+  },
+  "observed_wrong_branches":[
+    {"branch":"Treat a lending action as proof that no deposit agreement exists","counterevidence":"SoLo's consumer deposit agreement and September 2026 terms."},
+    {"branch":"Use the archived SoLo body's bank for the current disclosure scope","counterevidence":"January 2024 archived body identifies Evolve; July 2026 account agreement identifies Bangor."},
+    {"branch":"Read the current footer as the issuer in an archived historical body","counterevidence":"Archived SoLo page combines an Evolve body with a Bangor footer."},
+    {"branch":"Resolve Synapse or another technology provider as the bank","counterevidence":"Archived terms explicitly distinguish Synapse from a bank; current agreement names the issuer directly."},
+    {"branch":"Rename Stride on announcement of its acquisition","counterevidence":"September 8 announcement expects closing in first half of 2027."}
+  ],
+  "api_restrictions_in_public_questions":[]
+}

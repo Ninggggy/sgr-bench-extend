@@ -1,0 +1,47 @@
+{
+  "started_at": "2026-09-19T09:54:39.702704+00:00",
+  "snapshot_at": "2026-09-19T10:14:34.951703+00:00",
+  "session_wall_seconds": 1195.248999,
+  "new_blind_sessions": 0,
+  "new_review_sessions": 0,
+  "new_versions": {
+    "A": 0,
+    "B": 0
+  },
+  "constructor_native_web_calls": 42,
+  "constructor_logical_operations_literal_count": 122,
+  "browser_node_calls": 2,
+  "baseline_controller_tokens": {
+    "input_tokens": 24870942,
+    "cached_input_tokens": 23998720,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 102845,
+    "reasoning_output_tokens": 36730,
+    "total_tokens": 24973787
+  },
+  "latest_controller_tokens": {
+    "input_tokens": 31024876,
+    "cached_input_tokens": 29795968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 123680,
+    "reasoning_output_tokens": 49899,
+    "total_tokens": 31148556
+  },
+  "latest_controller_usage_at": "2026-09-19T10:13:52.741Z",
+  "controller_token_delta": {
+    "input_tokens": 6153934,
+    "cached_input_tokens": 5797248,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 20835,
+    "reasoning_output_tokens": 13169,
+    "total_tokens": 6174769
+  },
+  "notes": [
+    "Counters are local rollout snapshots; snapshot does not include the final reporting calls.",
+    "Input tokens include cached input tokens; output tokens include reasoning tokens. Do not add subsets twice.",
+    "No worker model session was launched in this resumption.",
+    "Logical web count counts literal q/ref_id request entries in logged JavaScript. Raw calls are retained for audit.",
+    "Browser initialization inspection did not establish a browser validation path.",
+    "No monetary cost is available."
+  ]
+}

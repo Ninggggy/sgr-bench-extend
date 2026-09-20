@@ -1,0 +1,67 @@
+{
+  "candidate_id": "wqp_activity_panel_001",
+  "revision": 3,
+  "content_verdict": "ready_for_difficulty_test",
+  "candidate_difficulty": {
+    "verdict": "inconclusive",
+    "comparison_task_ids": [
+      "waterquality_004"
+    ],
+    "analysis_plan_path": "private/comparison/analysis_plan.json",
+    "report_path": "private/comparison/difficulty_report.json"
+  },
+  "supporting_reports": [
+    "private/audit_report.md",
+    "private/decision.json",
+    "private/controller_content_review.json",
+    "private/audit_findings_resolution.json",
+    "private/comparison/screening_review.json",
+    "private/comparison/difficulty_report.md",
+    "private/comparison/public_exposure_findings.json"
+  ],
+  "issues": [
+    {
+      "description": "控制端收尾裁决，记录于全部固定测试结束后；不是新增盲解、独立模型审计或人类专家评估。原独立测量前裁决完整保留在private/decision.json。当前新题事实与唯一参考已核验；strictSGR检索必要性不成立，整体难题构造目标未完成。",
+      "evidence_refs": [
+        "private/content_audit.json",
+        "private/decision.json",
+        "private/controller_content_review.json"
+      ],
+      "affected_assets": [
+        "candidate.json"
+      ]
+    },
+    {
+      "description": "四次筛选及十二次全新确认全部按预定数完成、与各自原oracle完全一致。确认中新旧CG/GO各3/3，Item-F1/Row-F1/P.O.A.均1，等权均值差0，经验bootstrap[0,0]不证明总体相等。没有取得新题更难的证据，不升级confirmed_harder。",
+      "evidence_refs": [
+        "private/comparison/difficulty_report.json",
+        "private/comparison/analysis_plan.json"
+      ],
+      "affected_assets": [
+        "candidate.json"
+      ]
+    },
+    {
+      "description": "旧004三行27字段有真实来源，但公开分段和选站条件不足以唯一确定三站；八次旧题对照中的七次还偶遇公开题面/格式片段，已检查返回内容未见gold行，未打开基准页面。保留语义与暴露限制，不把原oracle满分当成唯一公共答案证明，也不宣称零污染。",
+      "evidence_refs": [
+        "private/comparison/reference_verification.json",
+        "private/comparison/public_exposure_findings.json"
+      ],
+      "affected_assets": [
+        "private/comparison/difficulty_report.json"
+      ]
+    },
+    {
+      "description": "两次实质修订已用尽。r01历史完整下载归档缺失不可恢复；资源或profile中间错误均保留，未计作最终推理失败。耗时口径差异与未作人工验证保持原记录。",
+      "evidence_refs": [
+        "private/audit_report.md",
+        "private/audit_findings_resolution.json"
+      ],
+      "affected_assets": [
+        "candidate.json"
+      ]
+    }
+  ],
+  "rerun_stages": [],
+  "next_action": "难题构造目标未完成。保留content_validated与difficulty=inconclusive，不标auto_validated；本候选交付后停止。不得追加试次、r04、第二候选、其他网站任务或旧50题实验；是否扩展由用户另行决定。"
+}

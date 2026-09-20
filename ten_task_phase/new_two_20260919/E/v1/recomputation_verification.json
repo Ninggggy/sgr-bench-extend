@@ -1,0 +1,229 @@
+{
+  "at": "2026-09-19T14:53:41.283135+00:00",
+  "python": "3.13.9 (main, Oct 28 2025, 12:02:14) [Clang 20.1.4 ]",
+  "implementation": "CPython",
+  "ucd": "3.2.0",
+  "all_rows_equal": true,
+  "all_stages_equal": true,
+  "computed_rows": [
+    [
+      "T1",
+      "U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 U+0020 U+0061 U+0020",
+      "U+0020 U+03C5 U+0020",
+      "U+006B U+0020",
+      "U+0061 U+0020",
+      "TRUE"
+    ],
+    [
+      "T2",
+      "U+0020 U+0061 U+0020 U+0301 U+0062 U+0020 U+0020 U+0063 U+0020",
+      "U+0020 U+0061",
+      "U+0020 U+0301 U+0062",
+      "U+0063 U+0020",
+      "TRUE"
+    ],
+    [
+      "T3",
+      "U+0020 U+0066 U+006F U+006F U+0020 U+0020 U+0062 U+0061 U+0072 U+0020",
+      "U+0020 U+0066 U+006F U+006F U+0020",
+      "U+0020",
+      "U+0020 U+0062 U+0061 U+0072 U+0020",
+      "FALSE"
+    ],
+    [
+      "T4",
+      "U+0020 U+0061 U+0020 U+0020 U+006B U+0020 U+0020 U+0062 U+0020",
+      "U+0020 U+0061 U+0020",
+      "U+006B U+0020",
+      "U+0062 U+0020",
+      "TRUE"
+    ],
+    [
+      "T5",
+      "FAIL",
+      "U+0020 U+0061",
+      "FAIL",
+      "U+0063 U+0020",
+      "UNDEFINED"
+    ],
+    [
+      "T6",
+      "U+0020 U+2136A U+0020 U+0020 U+03C5 U+0020 U+0020 U+006B U+0020",
+      "U+0020 U+2136A U+0020",
+      "U+03C5 U+0020",
+      "U+006B U+0020",
+      "TRUE"
+    ]
+  ],
+  "computed_stages": [
+    {
+      "id": "T1",
+      "stages": {
+        "attribute": {
+          "mapped": "U+0020 U+03C5 U+0020 U+006B U+0020 U+0061 U+0020",
+          "normalized": "U+0020 U+03C5 U+0020 U+006B U+0020 U+0061 U+0020",
+          "prepared": "U+0020 U+03C5 U+0020 U+0020 U+006B U+0020 U+0020 U+0061 U+0020"
+        },
+        "initial": {
+          "mapped": "U+03C5 U+0020",
+          "normalized": "U+03C5 U+0020",
+          "prepared": "U+0020 U+03C5 U+0020"
+        },
+        "any": {
+          "mapped": "U+006B U+0020",
+          "normalized": "U+006B U+0020",
+          "prepared": "U+006B U+0020"
+        },
+        "final": {
+          "mapped": "U+0061",
+          "normalized": "U+0061",
+          "prepared": "U+0061 U+0020"
+        }
+      },
+      "result": "TRUE"
+    },
+    {
+      "id": "T2",
+      "stages": {
+        "attribute": {
+          "mapped": "U+0061 U+0020 U+0301 U+0062 U+0020 U+0063",
+          "normalized": "U+0061 U+0020 U+0301 U+0062 U+0020 U+0063",
+          "prepared": "U+0020 U+0061 U+0020 U+0301 U+0062 U+0020 U+0020 U+0063 U+0020"
+        },
+        "initial": {
+          "mapped": "U+0061",
+          "normalized": "U+0061",
+          "prepared": "U+0020 U+0061"
+        },
+        "any": {
+          "mapped": "U+0020 U+0301 U+0062",
+          "normalized": "U+0020 U+0301 U+0062",
+          "prepared": "U+0020 U+0301 U+0062"
+        },
+        "final": {
+          "mapped": "U+0063",
+          "normalized": "U+0063",
+          "prepared": "U+0063 U+0020"
+        }
+      },
+      "result": "TRUE"
+    },
+    {
+      "id": "T3",
+      "stages": {
+        "attribute": {
+          "mapped": "U+0066 U+006F U+006F U+0020 U+0062 U+0061 U+0072",
+          "normalized": "U+0066 U+006F U+006F U+0020 U+0062 U+0061 U+0072",
+          "prepared": "U+0020 U+0066 U+006F U+006F U+0020 U+0020 U+0062 U+0061 U+0072 U+0020"
+        },
+        "initial": {
+          "mapped": "U+0066 U+006F U+006F U+0020",
+          "normalized": "U+0066 U+006F U+006F U+0020",
+          "prepared": "U+0020 U+0066 U+006F U+006F U+0020"
+        },
+        "any": {
+          "mapped": "U+0020",
+          "normalized": "U+0020",
+          "prepared": "U+0020"
+        },
+        "final": {
+          "mapped": "U+0020 U+0062 U+0061 U+0072",
+          "normalized": "U+0020 U+0062 U+0061 U+0072",
+          "prepared": "U+0020 U+0062 U+0061 U+0072 U+0020"
+        }
+      },
+      "result": "FALSE"
+    },
+    {
+      "id": "T4",
+      "stages": {
+        "attribute": {
+          "mapped": "U+0061 U+0020 U+006B U+0020 U+0062",
+          "normalized": "U+0061 U+0020 U+006B U+0020 U+0062",
+          "prepared": "U+0020 U+0061 U+0020 U+0020 U+006B U+0020 U+0020 U+0062 U+0020"
+        },
+        "initial": {
+          "mapped": "U+0061 U+0020",
+          "normalized": "U+0061 U+0020",
+          "prepared": "U+0020 U+0061 U+0020"
+        },
+        "any": {
+          "mapped": "U+006B U+0020",
+          "normalized": "U+006B U+0020",
+          "prepared": "U+006B U+0020"
+        },
+        "final": {
+          "mapped": "U+0062",
+          "normalized": "U+0062",
+          "prepared": "U+0062 U+0020"
+        }
+      },
+      "result": "TRUE"
+    },
+    {
+      "id": "T5",
+      "stages": {
+        "attribute": {
+          "mapped": "U+0061 U+1D2C U+0062 U+0020 U+0063",
+          "normalized": "U+0061 U+1D2C U+0062 U+0020 U+0063",
+          "failures": [
+            {
+              "cp": "U+1D2C",
+              "table": "A.1"
+            }
+          ]
+        },
+        "initial": {
+          "mapped": "U+0061",
+          "normalized": "U+0061",
+          "prepared": "U+0020 U+0061"
+        },
+        "any": {
+          "mapped": "U+1D2C U+0062",
+          "normalized": "U+1D2C U+0062",
+          "failures": [
+            {
+              "cp": "U+1D2C",
+              "table": "A.1"
+            }
+          ]
+        },
+        "final": {
+          "mapped": "U+0063",
+          "normalized": "U+0063",
+          "prepared": "U+0063 U+0020"
+        }
+      },
+      "result": "UNDEFINED"
+    },
+    {
+      "id": "T6",
+      "stages": {
+        "attribute": {
+          "mapped": "U+2F868 U+0020 U+03C5 U+0020 U+006B",
+          "normalized": "U+2136A U+0020 U+03C5 U+0020 U+006B",
+          "prepared": "U+0020 U+2136A U+0020 U+0020 U+03C5 U+0020 U+0020 U+006B U+0020"
+        },
+        "initial": {
+          "mapped": "U+2136A U+0020",
+          "normalized": "U+2136A U+0020",
+          "prepared": "U+0020 U+2136A U+0020"
+        },
+        "any": {
+          "mapped": "U+03C5 U+0020",
+          "normalized": "U+03C5 U+0020",
+          "prepared": "U+03C5 U+0020"
+        },
+        "final": {
+          "mapped": "U+006B",
+          "normalized": "U+006B",
+          "prepared": "U+006B U+0020"
+        }
+      },
+      "result": "TRUE"
+    }
+  ],
+  "historical_2F868_actual": "U+2136A",
+  "short_hex_actual": "U+0020",
+  "surrogate_actual": "!invalid:U+D800"
+}

@@ -1,0 +1,105 @@
+[
+  {
+    "label": "screening_new_CG_1",
+    "answer_equals_screening_GO": false,
+    "ranking_queries": [
+      {
+        "file_id": "d0012",
+        "sql_excerpt": "ROW_NUMBER() OVER (PARTITION BY ff.waid,ff.s,ff.e ORDER BY CAST(c.oxy AS REAL),c.dt,CASE WHEN COALESCE(c.tm,'')='' THEN 1 ELSE 0 END,c.tm COLLATE BINARY,c.sid COLLATE BINARY,c.aid COLLATE BINARY) rn\n FROM ff JOIN c ON CAST(c.yr AS INTEGER) BETWEEN ff.s AND ff.e AND c.q=ff.wq\n  AND instr(';'||ff.cohort||';',';'||c.sid||';')>0\n  AND NOT (c.org=ff.worg AND c.aid=ff.waid)\n)\nSELECT worg||'|'||waid||'|'||wsid||'|'||wdt||'|'||s||'|'||e||'|'||cov||'|'||cohort||'|'||wq||'|'||cnt||'|'||\n org||'|'||sid||'|",
+        "registry": "runs/r-a55562d61d59/downloaded_data/registry.json"
+      }
+    ]
+  },
+  {
+    "label": "screening_new_GO_1",
+    "answer_equals_screening_GO": true,
+    "ranking_queries": [
+      {
+        "file_id": "d0013",
+        "sql_excerpt": "ROW_NUMBER() OVER(PARTITION BY worg,waid,s,e ORDER BY oxy ASC,adate ASC,CASE WHEN TRIM(COALESCE(atime,''))='' THEN 1 ELSE 0 END ASC,atime ASC,station ASC,aid ASC) rn\n FROM eligible e\n)\nSELECT b.org||'|'||b.aid||'|'||b.wstation||'|'||b.wadate||'|'||\n b.s||'|'||b.e||'|'||b.coverage||'|'||b.ids||'|Q'||b.qtr||'|'||r.ec||'|'||\n r.org||'|'||r.station||'|'||r.aid||'|'||r.adate||'|'||\n printf('%.2f',r.oxy)||'|'||printf('%.2f',r.temp)||'|'||printf('%.2f',r.cond)||'|'||printf('%.2f',r.ph) line\nFROM br b J",
+        "registry": "runs/r-8224e9cc365a/downloaded_data/registry.json"
+      }
+    ]
+  },
+  {
+    "label": "confirmation_new_CG_1",
+    "answer_equals_screening_GO": false,
+    "ranking_queries": [
+      {
+        "file_id": "d0011",
+        "sql_excerpt": "row_number() OVER(PARTITION BY sy,ey ORDER BY station) rn FROM base_mem\n),\nbase_design AS (SELECT sy,ey,dur,cov,cohort FROM base_dw WHERE rn=1 AND cov>=2),\nbase_front AS (\n SELECT d.* FROM base_design d WHERE NOT EXISTS(SELECT 1 FROM base_design x WHERE x.dur>=d.dur AND x.cov>=d.cov AND (x.dur>d.dur OR x.cov>d.cov))\n),\nw0 AS (\n SELECT *,CAST(substr(dt,1,4) AS INT) wy,\n CASE WHEN CAST(substr(dt,6,2) AS INT)<=3 THEN 1 WHEN CAST(substr(dt,6,2) AS INT)<=6 THEN 2 WHEN CAST(substr(dt,6,2) AS INT)<=9 T",
+        "registry": "runs/r-0ee77dc62ed5/downloaded_data/registry.json"
+      },
+      {
+        "file_id": "d0011",
+        "sql_excerpt": "row_number() OVER(PARTITION BY wact,sy,ey ORDER BY station) rn FROM pm\n),\npd AS (SELECT wact,sy,ey,dur,cov,cohort FROM pdw WHERE rn=1 AND cov>=2),\npf AS (\n SELECT d.* FROM pd d WHERE NOT EXISTS(SELECT 1 FROM pd x WHERE x.wact=d.wact AND x.dur>=d.dur AND x.cov>=d.cov AND (x.dur>d.dur OR x.cov>d.cov))\n),\nchanging AS (\n SELECT w0.act wact FROM w0\n WHERE (SELECT COUNT(*) FROM pf WHERE pf.wact=w0.act)<>(SELECT COUNT(*) FROM base_front)\n OR EXISTS(SELECT 1 FROM pf WHERE pf.wact=w0.act AND NOT EXISTS(\n",
+        "registry": "runs/r-0ee77dc62ed5/downloaded_data/registry.json"
+      },
+      {
+        "file_id": "d0011",
+        "sql_excerpt": "row_number() OVER(PARTITION BY wact,sy,ey ORDER BY CAST(oxy AS REAL),dt,\n CASE WHEN COALESCE(tm,'')='' THEN 1 ELSE 0 END,tm,station,act) pick FROM cand0\n),\ncc AS (SELECT wact,sy,ey,COUNT(DISTINCT org||char(31)||act) cnt FROM cand0 GROUP BY wact,sy,ey)\nSELECT ww.org withdrawn_org,ww.act withdrawn_act,ww.station withdrawn_station,ww.dt withdrawn_date,\nca.sy,ca.ey,ca.cov,ca.cohort,'Q'||ww.wq quarter,cc.cnt,\nca.org selected_org,ca.station selected_station,ca.act selected_act,ca.dt selected_date,\npri",
+        "registry": "runs/r-0ee77dc62ed5/downloaded_data/registry.json"
+      }
+    ]
+  },
+  {
+    "label": "confirmation_new_GO_1",
+    "answer_equals_screening_GO": true,
+    "ranking_queries": [
+      {
+        "file_id": "d0012",
+        "sql_excerpt": "ROW_NUMBER() OVER (PARTITION BY s.wid,s.sy,s.ey ORDER BY c.do ASC,c.dt ASC,CASE WHEN COALESCE(c.tm,'')='' THEN 1 ELSE 0 END ASC,c.tm ASC,c.site ASC,c.aid ASC) rn\n FROM scenarios s JOIN c ON c.aid<>s.wid AND c.yr BETWEEN s.sy AND s.ey AND c.qtr=s.wq\n AND instr(';'||s.cohort||';',';'||c.site||';')>0\n)\nSELECT worg||'|'||wid||'|'||wsite||'|'||wdt||'|'||sy||'|'||ey||'|'||coverage||'|'||cohort||'|Q'||wq||'|'||activity_count||'|'||org||'|'||site||'|'||aid||'|'||dt||'|'||printf('%.2f',do)||'|'||printf('",
+        "registry": "runs/r-69914a9877c8/downloaded_data/registry.json"
+      }
+    ]
+  },
+  {
+    "label": "confirmation_new_CG_2",
+    "answer_equals_screening_GO": false,
+    "ranking_queries": [
+      {
+        "file_id": "d0013",
+        "sql_excerpt": "ROW_NUMBER() OVER (\n   PARTITION BY t.wid,t.sy,t.ey\n   ORDER BY e.oxy,e.adate,CASE WHEN e.atime='' THEN 1 ELSE 0 END,e.atime,e.sid,e.aid\n ) rn\n FROM trial_frontier t\n JOIN v w ON w.aid=t.wid\n JOIN trial_members m ON m.wid=t.wid AND m.sy=t.sy AND m.ey=t.ey\n JOIN p e ON e.sid=m.sid AND e.yr BETWEEN t.sy AND t.ey AND e.qtr=w.qtr AND e.aid<>t.wid\n JOIN changing c ON c.wid=t.wid\n)\nSELECT w.org,w.aid,w.sid,w.adate,\n       ep.sy,ep.ey,ep.coverage,ep.cohort,\n       'Q'||w.qtr,ep.activity_count,\n       e",
+        "registry": "runs/r-92c02e2f6067/downloaded_data/registry.json"
+      }
+    ]
+  },
+  {
+    "label": "confirmation_new_GO_2",
+    "answer_equals_screening_GO": true,
+    "ranking_queries": [
+      {
+        "file_id": "d0013",
+        "sql_excerpt": "ROW_NUMBER() OVER(PARTITION BY f.aid,f.s,f.e ORDER BY c.oxy,c.dt,CASE WHEN c.tm IS NULL OR c.tm='' THEN 1 ELSE 0 END,c.tm,c.sid,c.aid) rn\n FROM pfr f JOIN changing g ON g.aid=f.aid JOIN cand w ON w.aid=f.aid\n JOIN pmem m ON m.aid=f.aid AND m.s=f.s AND m.e=f.e\n JOIN c ON c.sid=m.sid AND c.yr BETWEEN f.s AND f.e AND c.q=w.q AND c.aid<>f.aid\n), cnt AS (\n SELECT wid,s,e,COUNT(DISTINCT org||char(31)||aid) n FROM ev GROUP BY wid,s,e\n)\nSELECT w.org withdrawn_org,w.aid withdrawn_aid,w.sid withdrawn_sid,",
+        "registry": "runs/r-4df368e8ea7e/downloaded_data/registry.json"
+      },
+      {
+        "file_id": "d0016",
+        "sql_excerpt": "ROW_NUMBER() OVER(PARTITION BY f.aid,f.s,f.e ORDER BY c.oxy,c.dt,CASE WHEN c.tm IS NULL OR c.tm='' THEN 1 ELSE 0 END,c.tm,c.sid,c.aid) rn\n FROM pfr f JOIN changing g ON g.aid=f.aid JOIN cand w ON w.aid=f.aid\n JOIN pmem m ON m.aid=f.aid AND m.s=f.s AND m.e=f.e\n JOIN c ON c.sid=m.sid AND c.yr BETWEEN f.s AND f.e AND c.q=w.q AND c.aid<>f.aid\n), cnt AS (SELECT wid,s,e,COUNT(DISTINCT org||char(31)||aid) n FROM ev GROUP BY wid,s,e)\nSELECT w.org,w.aid,w.sid,w.dt,f.s,f.e,f.cov,f.cohort,'Q'||w.q,n.n,\nev.",
+        "registry": "runs/r-4df368e8ea7e/downloaded_data/registry.json"
+      }
+    ]
+  },
+  {
+    "label": "confirmation_new_CG_3",
+    "answer_equals_screening_GO": false,
+    "ranking_queries": [
+      {
+        "file_id": "d0015",
+        "sql_excerpt": "ROW_NUMBER() OVER (\n          PARTITION BY d.act,d.s,d.e\n          ORDER BY CAST(p.oxygen AS REAL),p.dt,\n            CASE WHEN COALESCE(p.tm,'')='' THEN 1 ELSE 0 END,p.tm,p.site,p.act\n        ) rn\n FROM d JOIN p\n  ON CAST(p.yr AS INTEGER) BETWEEN CAST(d.s AS INTEGER) AND CAST(d.e AS INTEGER)\n AND CAST(p.qtr AS INTEGER)=CAST(d.qtr AS INTEGER)\n AND instr(';'||d.cohort||';',';'||p.site||';')>0\n AND p.act<>d.act\n)\nSELECT wd_org,wd_act,wd_site,wd_dt,'Q'||qtr qtr,s,e,cov,cohort,n,\n org,act,site,dt,tm,",
+        "registry": "runs/r-e5e848752431/downloaded_data/registry.json"
+      }
+    ]
+  },
+  {
+    "label": "confirmation_new_GO_3",
+    "answer_equals_screening_GO": false,
+    "ranking_queries": [
+      {
+        "file_id": "d0017",
+        "sql_excerpt": "ROW_NUMBER() OVER(PARTITION BY cc.aid,f.sy,f.ey ORDER BY CAST(c.oxy AS REAL),c.dt,\n   CASE WHEN a.\"ActivityStartTime/Time\"='' THEN 1 ELSE 0 END,a.\"ActivityStartTime/Time\",c.site,c.aid) rn\n FROM cand cc JOIN changed ch ON ch.aid=cc.aid JOIN front f ON f.sc=cc.aid\n JOIN members m ON m.sc=f.sc AND m.sy=f.sy AND m.ey=f.ey\n JOIN comp c ON c.site=m.site AND CAST(substr(c.dt,1,4) AS INT) BETWEEN f.sy AND f.ey\n   AND CAST((CAST(substr(c.dt,6,2) AS INT)-1)/3 AS INT)+1=cc.qtr AND c.aid<>cc.aid\n JOIN act a",
+        "registry": "runs/r-426fcaec1732/downloaded_data/registry.json"
+      }
+    ]
+  }
+]

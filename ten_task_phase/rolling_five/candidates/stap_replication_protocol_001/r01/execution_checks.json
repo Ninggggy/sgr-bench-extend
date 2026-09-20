@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-09-13T06:37:27.433025+00:00",
+  "schema": "passed",
+  "prepare": {
+    "exit_code": 0,
+    "stdout": "{\"candidate_id\": \"stap_replication_protocol_001\", \"status\": \"reference_ready\", \"state_consistency\": \"passed\", \"relative_path_syntax\": \"passed\", \"referenced_files\": \"checked\", \"scope\": \"Declared state consistency only; not full JSON Schema, source truth, or difficulty verification\"}\n",
+    "stderr": ""
+  },
+  "pair": "all 8 predicates literal match; CG minus steps equals GO; exact 2-key files; same output_format",
+  "reference": {
+    "candidate_records": 49,
+    "included": 3,
+    "excluded": 46,
+    "fields": 12
+  },
+  "scorer_fixtures": 9,
+  "main_vs_review_paragraphs": {
+    "main": 31,
+    "all_bodies": 86,
+    "namespaced_fixture_passed": true
+  },
+  "model_tests": 0,
+  "human_validation": "not_performed",
+  "content_review": "constructor only; independent quality audit not run",
+  "runtime_date": "2026-09-09"
+}

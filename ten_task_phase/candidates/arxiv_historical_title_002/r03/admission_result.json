@@ -1,0 +1,662 @@
+{
+  "candidate_id": "arxiv_historical_title_002",
+  "revision": 3,
+  "protocol_version": null,
+  "family": "direct_replacement_timestamp_conditioned_historical_metadata",
+  "ecosystem": "arXiv",
+  "scores_are_selection_scores": true,
+  "status": "user_designated_exception",
+  "admitted": true,
+  "CG": {
+    "trials": [
+      {
+        "trial": 1,
+        "run_id": "r-arxiv-histtitle002-r03-cg-admission-1",
+        "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-cg-admission-1",
+        "model_evidence": {
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "session_ids": [
+            "01a08b23-0b08-7313-9612-62151520439b"
+          ]
+        },
+        "counts": {
+          "correct_fields": 90,
+          "gold_fields": 126,
+          "pred_fields": 90,
+          "item_denominator": 216,
+          "correct_rows": 15,
+          "gold_rows": 21,
+          "pred_rows": 15,
+          "row_denominator": 36,
+          "correct_pairs": 105,
+          "pair_denominator": 105,
+          "shared_ids": 15
+        },
+        "metrics": {
+          "Item-F1": 0.8333333333333334,
+          "Row-F1": 0.8333333333333334,
+          "P.O.A.": 1.0
+        },
+        "Item-F1_exact": "5/6",
+        "complete_correct": false
+      },
+      {
+        "trial": 2,
+        "run_id": "r-arxiv-histtitle002-r03-cg-admission-2",
+        "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-cg-admission-2",
+        "model_evidence": {
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "session_ids": [
+            "01a08b23-06fd-7c01-b13d-1e2f65e31c6e"
+          ]
+        },
+        "counts": {
+          "correct_fields": 72,
+          "gold_fields": 126,
+          "pred_fields": 72,
+          "item_denominator": 198,
+          "correct_rows": 12,
+          "gold_rows": 21,
+          "pred_rows": 12,
+          "row_denominator": 33,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "metrics": {
+          "Item-F1": 0.7272727272727273,
+          "Row-F1": 0.7272727272727273,
+          "P.O.A.": 1.0
+        },
+        "Item-F1_exact": "8/11",
+        "complete_correct": false
+      },
+      {
+        "trial": 3,
+        "run_id": "r-arxiv-histtitle002-r03-cg-admission-3",
+        "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-cg-admission-3",
+        "model_evidence": {
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "session_ids": [
+            "01a08b23-07ea-7112-af6b-00a65d62c738"
+          ]
+        },
+        "counts": {
+          "correct_fields": 72,
+          "gold_fields": 126,
+          "pred_fields": 72,
+          "item_denominator": 198,
+          "correct_rows": 12,
+          "gold_rows": 21,
+          "pred_rows": 12,
+          "row_denominator": 33,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "metrics": {
+          "Item-F1": 0.7272727272727273,
+          "Row-F1": 0.7272727272727273,
+          "P.O.A.": 1.0
+        },
+        "Item-F1_exact": "8/11",
+        "complete_correct": false
+      }
+    ],
+    "mean": 0.7626262626262627,
+    "mean_exact": "151/198",
+    "threshold_passed": false
+  },
+  "GO": {
+    "trials": [
+      {
+        "trial": 1,
+        "run_id": "r-arxiv-histtitle002-r03-go-admission-1",
+        "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-go-admission-1",
+        "model_evidence": {
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "session_ids": [
+            "01a08b2a-5ca7-7020-af60-baaf61a71aad"
+          ]
+        },
+        "counts": {
+          "correct_fields": 36,
+          "gold_fields": 126,
+          "pred_fields": 36,
+          "item_denominator": 162,
+          "correct_rows": 6,
+          "gold_rows": 21,
+          "pred_rows": 6,
+          "row_denominator": 27,
+          "correct_pairs": 15,
+          "pair_denominator": 15,
+          "shared_ids": 6
+        },
+        "metrics": {
+          "Item-F1": 0.4444444444444444,
+          "Row-F1": 0.4444444444444444,
+          "P.O.A.": 1.0
+        },
+        "Item-F1_exact": "4/9",
+        "complete_correct": false
+      },
+      {
+        "trial": 2,
+        "run_id": "r-arxiv-histtitle002-r03-go-admission-2",
+        "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-go-admission-2",
+        "model_evidence": {
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "session_ids": [
+            "01a08b28-6b6c-7a41-9cb2-7d9fd6dd182b"
+          ]
+        },
+        "counts": {
+          "correct_fields": 72,
+          "gold_fields": 126,
+          "pred_fields": 72,
+          "item_denominator": 198,
+          "correct_rows": 12,
+          "gold_rows": 21,
+          "pred_rows": 12,
+          "row_denominator": 33,
+          "correct_pairs": 66,
+          "pair_denominator": 66,
+          "shared_ids": 12
+        },
+        "metrics": {
+          "Item-F1": 0.7272727272727273,
+          "Row-F1": 0.7272727272727273,
+          "P.O.A.": 1.0
+        },
+        "Item-F1_exact": "8/11",
+        "complete_correct": false
+      },
+      {
+        "trial": 3,
+        "run_id": "r-arxiv-histtitle002-r03-go-admission-3",
+        "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-go-admission-3",
+        "model_evidence": {
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "session_ids": [
+            "01a08b2c-6f21-7f82-9e12-41c81e4d2a00"
+          ]
+        },
+        "counts": {
+          "correct_fields": 48,
+          "gold_fields": 126,
+          "pred_fields": 48,
+          "item_denominator": 174,
+          "correct_rows": 8,
+          "gold_rows": 21,
+          "pred_rows": 8,
+          "row_denominator": 29,
+          "correct_pairs": 28,
+          "pair_denominator": 28,
+          "shared_ids": 8
+        },
+        "metrics": {
+          "Item-F1": 0.5517241379310345,
+          "Row-F1": 0.5517241379310345,
+          "P.O.A.": 1.0
+        },
+        "Item-F1_exact": "16/29",
+        "complete_correct": false
+      }
+    ],
+    "mean": 0.5744804365494021,
+    "mean_exact": "4948/8613",
+    "threshold_passed": true
+  },
+  "audits": {
+    "checks": {
+      "content": {
+        "verdict": "pass",
+        "explanation": "Complete annual Atom inventory, CSV, final ledger and comment partitions agree. Semantic boundary review supports the 21 relations and documented exclusions. All 21 historical selections and titles agree with preserved source histories and version-specific evidence. Pass is bounded by the supplied source domain and disclosed Sep10 observation versus Sep9 anchor limitation.",
+        "evidence_paths": [
+          "stage_assets/content_review.md"
+        ]
+      },
+      "sgr": {
+        "verdict": "pass",
+        "explanation": "Source notices determine subsequent target identity queries; source cutoffs and target histories determine subsequent version-specific title requests. Current titles cannot replace historical evidence. All six runs made meaningful incomplete progress; B-run retrieval decisions support substantive findings independently of scores alone. Legal API and source-selected batches remain allowed.",
+        "evidence_paths": [
+          "stage_assets/sgr_review.md",
+          "stage_assets/cg_error_review.md",
+          "stage_assets/go_error_review.md"
+        ]
+      },
+      "semantic_alignment": {
+        "verdict": "pass",
+        "explanation": "GO is the shared substantive instruction; CG adds retrieval guidance only. Both support the same catalogue-version domain, named-notice interpretation, cutoff, exclusions and output. Rules introduce equivalent timestamp/version aliases without identity or title substitutions.",
+        "evidence_paths": [
+          "stage_assets/alignment.md"
+        ]
+      },
+      "substantive_errors_cg": {
+        "verdict": "pass",
+        "error_category": "retrieval_decision",
+        "substantive_progress": true,
+        "explanation": "CG B closed retrieval after processing only selected lexical result bodies, leaving successful complete January and withdrawal-root batches unread. Those saved batches contain omitted qualifying candidates. This establishes an uncompleted retrieval branch, not an allegation that already-read notices were ignored. A and attack omissions alone remain causally inconclusive.",
+        "evidence_paths": [
+          "stage_assets/cg_error_review.md"
+        ]
+      },
+      "substantive_errors_go": {
+        "verdict": "pass",
+        "error_category": "retrieval_decision",
+        "substantive_progress": true,
+        "explanation": "GO B left complete successful correction and version result sets unread while declaring completion. They contain omitted direct-successor candidates, including 2001.09328. The finding concerns abandonment of available source-selected evidence, separable from initial API failures and output truncation. It does not infer a wrong identity or timestamp judgment.",
+        "evidence_paths": [
+          "stage_assets/go_error_review.md"
+        ]
+      }
+    },
+    "runs": [
+      {
+        "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-resume-arxiv002-r03-audit",
+        "model_evidence": {
+          "model": "gpt-6-astra",
+          "effort": "high",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "session_ids": [
+            "01a08b11-5c69-7681-9042-76ae3c449b0d"
+          ]
+        },
+        "ended_at": "2026-09-10T11:41:08.340418+00:00"
+      }
+    ]
+  },
+  "standard_assessment": {
+    "candidate_id": "arxiv_historical_title_002",
+    "revision": 3,
+    "protocol_version": "ten-task-v1",
+    "family": "direct_replacement_timestamp_conditioned_historical_metadata",
+    "ecosystem": "arXiv",
+    "scores_are_selection_scores": true,
+    "status": "rejected_threshold",
+    "admitted": false,
+    "CG": {
+      "trials": [
+        {
+          "trial": 1,
+          "run_id": "r-arxiv-histtitle002-r03-cg-admission-1",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-cg-admission-1",
+          "model_evidence": {
+            "model": "gpt-5.6-sol",
+            "effort": "medium",
+            "model_evidence_sources": [
+              "run.json request",
+              "invocation.json argv",
+              "solver.config.toml",
+              "sessions turn_context"
+            ],
+            "verified_turn_contexts": 1,
+            "session_ids": [
+              "01a08b23-0b08-7313-9612-62151520439b"
+            ]
+          },
+          "counts": {
+            "correct_fields": 90,
+            "gold_fields": 126,
+            "pred_fields": 90,
+            "item_denominator": 216,
+            "correct_rows": 15,
+            "gold_rows": 21,
+            "pred_rows": 15,
+            "row_denominator": 36,
+            "correct_pairs": 105,
+            "pair_denominator": 105,
+            "shared_ids": 15
+          },
+          "metrics": {
+            "Item-F1": 0.8333333333333334,
+            "Row-F1": 0.8333333333333334,
+            "P.O.A.": 1.0
+          },
+          "Item-F1_exact": "5/6",
+          "complete_correct": false
+        },
+        {
+          "trial": 2,
+          "run_id": "r-arxiv-histtitle002-r03-cg-admission-2",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-cg-admission-2",
+          "model_evidence": {
+            "model": "gpt-5.6-sol",
+            "effort": "medium",
+            "model_evidence_sources": [
+              "run.json request",
+              "invocation.json argv",
+              "solver.config.toml",
+              "sessions turn_context"
+            ],
+            "verified_turn_contexts": 1,
+            "session_ids": [
+              "01a08b23-06fd-7c01-b13d-1e2f65e31c6e"
+            ]
+          },
+          "counts": {
+            "correct_fields": 72,
+            "gold_fields": 126,
+            "pred_fields": 72,
+            "item_denominator": 198,
+            "correct_rows": 12,
+            "gold_rows": 21,
+            "pred_rows": 12,
+            "row_denominator": 33,
+            "correct_pairs": 66,
+            "pair_denominator": 66,
+            "shared_ids": 12
+          },
+          "metrics": {
+            "Item-F1": 0.7272727272727273,
+            "Row-F1": 0.7272727272727273,
+            "P.O.A.": 1.0
+          },
+          "Item-F1_exact": "8/11",
+          "complete_correct": false
+        },
+        {
+          "trial": 3,
+          "run_id": "r-arxiv-histtitle002-r03-cg-admission-3",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-cg-admission-3",
+          "model_evidence": {
+            "model": "gpt-5.6-sol",
+            "effort": "medium",
+            "model_evidence_sources": [
+              "run.json request",
+              "invocation.json argv",
+              "solver.config.toml",
+              "sessions turn_context"
+            ],
+            "verified_turn_contexts": 1,
+            "session_ids": [
+              "01a08b23-07ea-7112-af6b-00a65d62c738"
+            ]
+          },
+          "counts": {
+            "correct_fields": 72,
+            "gold_fields": 126,
+            "pred_fields": 72,
+            "item_denominator": 198,
+            "correct_rows": 12,
+            "gold_rows": 21,
+            "pred_rows": 12,
+            "row_denominator": 33,
+            "correct_pairs": 66,
+            "pair_denominator": 66,
+            "shared_ids": 12
+          },
+          "metrics": {
+            "Item-F1": 0.7272727272727273,
+            "Row-F1": 0.7272727272727273,
+            "P.O.A.": 1.0
+          },
+          "Item-F1_exact": "8/11",
+          "complete_correct": false
+        }
+      ],
+      "mean": 0.7626262626262627,
+      "mean_exact": "151/198",
+      "threshold_passed": false
+    },
+    "GO": {
+      "trials": [
+        {
+          "trial": 1,
+          "run_id": "r-arxiv-histtitle002-r03-go-admission-1",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-go-admission-1",
+          "model_evidence": {
+            "model": "gpt-5.6-sol",
+            "effort": "medium",
+            "model_evidence_sources": [
+              "run.json request",
+              "invocation.json argv",
+              "solver.config.toml",
+              "sessions turn_context"
+            ],
+            "verified_turn_contexts": 1,
+            "session_ids": [
+              "01a08b2a-5ca7-7020-af60-baaf61a71aad"
+            ]
+          },
+          "counts": {
+            "correct_fields": 36,
+            "gold_fields": 126,
+            "pred_fields": 36,
+            "item_denominator": 162,
+            "correct_rows": 6,
+            "gold_rows": 21,
+            "pred_rows": 6,
+            "row_denominator": 27,
+            "correct_pairs": 15,
+            "pair_denominator": 15,
+            "shared_ids": 6
+          },
+          "metrics": {
+            "Item-F1": 0.4444444444444444,
+            "Row-F1": 0.4444444444444444,
+            "P.O.A.": 1.0
+          },
+          "Item-F1_exact": "4/9",
+          "complete_correct": false
+        },
+        {
+          "trial": 2,
+          "run_id": "r-arxiv-histtitle002-r03-go-admission-2",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-go-admission-2",
+          "model_evidence": {
+            "model": "gpt-5.6-sol",
+            "effort": "medium",
+            "model_evidence_sources": [
+              "run.json request",
+              "invocation.json argv",
+              "solver.config.toml",
+              "sessions turn_context"
+            ],
+            "verified_turn_contexts": 1,
+            "session_ids": [
+              "01a08b28-6b6c-7a41-9cb2-7d9fd6dd182b"
+            ]
+          },
+          "counts": {
+            "correct_fields": 72,
+            "gold_fields": 126,
+            "pred_fields": 72,
+            "item_denominator": 198,
+            "correct_rows": 12,
+            "gold_rows": 21,
+            "pred_rows": 12,
+            "row_denominator": 33,
+            "correct_pairs": 66,
+            "pair_denominator": 66,
+            "shared_ids": 12
+          },
+          "metrics": {
+            "Item-F1": 0.7272727272727273,
+            "Row-F1": 0.7272727272727273,
+            "P.O.A.": 1.0
+          },
+          "Item-F1_exact": "8/11",
+          "complete_correct": false
+        },
+        {
+          "trial": 3,
+          "run_id": "r-arxiv-histtitle002-r03-go-admission-3",
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-go-admission-3",
+          "model_evidence": {
+            "model": "gpt-5.6-sol",
+            "effort": "medium",
+            "model_evidence_sources": [
+              "run.json request",
+              "invocation.json argv",
+              "solver.config.toml",
+              "sessions turn_context"
+            ],
+            "verified_turn_contexts": 1,
+            "session_ids": [
+              "01a08b2c-6f21-7f82-9e12-41c81e4d2a00"
+            ]
+          },
+          "counts": {
+            "correct_fields": 48,
+            "gold_fields": 126,
+            "pred_fields": 48,
+            "item_denominator": 174,
+            "correct_rows": 8,
+            "gold_rows": 21,
+            "pred_rows": 8,
+            "row_denominator": 29,
+            "correct_pairs": 28,
+            "pair_denominator": 28,
+            "shared_ids": 8
+          },
+          "metrics": {
+            "Item-F1": 0.5517241379310345,
+            "Row-F1": 0.5517241379310345,
+            "P.O.A.": 1.0
+          },
+          "Item-F1_exact": "16/29",
+          "complete_correct": false
+        }
+      ],
+      "mean": 0.5744804365494021,
+      "mean_exact": "4948/8613",
+      "threshold_passed": true
+    },
+    "audits": {
+      "checks": {
+        "content": {
+          "verdict": "pass",
+          "explanation": "Complete annual Atom inventory, CSV, final ledger and comment partitions agree. Semantic boundary review supports the 21 relations and documented exclusions. All 21 historical selections and titles agree with preserved source histories and version-specific evidence. Pass is bounded by the supplied source domain and disclosed Sep10 observation versus Sep9 anchor limitation.",
+          "evidence_paths": [
+            "stage_assets/content_review.md"
+          ]
+        },
+        "sgr": {
+          "verdict": "pass",
+          "explanation": "Source notices determine subsequent target identity queries; source cutoffs and target histories determine subsequent version-specific title requests. Current titles cannot replace historical evidence. All six runs made meaningful incomplete progress; B-run retrieval decisions support substantive findings independently of scores alone. Legal API and source-selected batches remain allowed.",
+          "evidence_paths": [
+            "stage_assets/sgr_review.md",
+            "stage_assets/cg_error_review.md",
+            "stage_assets/go_error_review.md"
+          ]
+        },
+        "semantic_alignment": {
+          "verdict": "pass",
+          "explanation": "GO is the shared substantive instruction; CG adds retrieval guidance only. Both support the same catalogue-version domain, named-notice interpretation, cutoff, exclusions and output. Rules introduce equivalent timestamp/version aliases without identity or title substitutions.",
+          "evidence_paths": [
+            "stage_assets/alignment.md"
+          ]
+        },
+        "substantive_errors_cg": {
+          "verdict": "pass",
+          "error_category": "retrieval_decision",
+          "substantive_progress": true,
+          "explanation": "CG B closed retrieval after processing only selected lexical result bodies, leaving successful complete January and withdrawal-root batches unread. Those saved batches contain omitted qualifying candidates. This establishes an uncompleted retrieval branch, not an allegation that already-read notices were ignored. A and attack omissions alone remain causally inconclusive.",
+          "evidence_paths": [
+            "stage_assets/cg_error_review.md"
+          ]
+        },
+        "substantive_errors_go": {
+          "verdict": "pass",
+          "error_category": "retrieval_decision",
+          "substantive_progress": true,
+          "explanation": "GO B left complete successful correction and version result sets unread while declaring completion. They contain omitted direct-successor candidates, including 2001.09328. The finding concerns abandonment of available source-selected evidence, separable from initial API failures and output truncation. It does not infer a wrong identity or timestamp judgment.",
+          "evidence_paths": [
+            "stage_assets/go_error_review.md"
+          ]
+        }
+      },
+      "runs": [
+        {
+          "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-resume-arxiv002-r03-audit",
+          "model_evidence": {
+            "model": "gpt-6-astra",
+            "effort": "high",
+            "model_evidence_sources": [
+              "run.json request",
+              "invocation.json argv",
+              "solver.config.toml",
+              "sessions turn_context"
+            ],
+            "verified_turn_contexts": 1,
+            "session_ids": [
+              "01a08b11-5c69-7681-9042-76ae3c449b0d"
+            ]
+          },
+          "ended_at": "2026-09-10T11:41:08.340418+00:00"
+        }
+      ]
+    }
+  },
+  "admission_basis": {
+    "candidate_id": "arxiv_historical_title_002",
+    "revision": 3,
+    "authorized_at": "2026-09-10T12:00:17.453Z",
+    "authorized_by": "user",
+    "instruction": "这题也收录进去吧，然后收尾停止就可以了",
+    "basis": "user_designated_exception",
+    "note": "用户在获知 CG 正式均值 151/198（76.2626%）未通过严格70%门槛后指定收录。保留质量审计通过及标准难度失败；六次正式复测仍完整保留，不冒称双70%通过。仅适用r03；其他候选规则不变。",
+    "historical_evidence_paths": [
+      "research/arxiv002_r03_user_admission_decision.json",
+      "candidates/arxiv_historical_title_002/r03/test_results.json",
+      "candidates/arxiv_historical_title_002/r03/final_audit_controller_review.json",
+      "runs/r-resume-arxiv002-r03-audit/stage_assets/audit.json"
+    ]
+  },
+  "standard_protocol_passed": false
+}

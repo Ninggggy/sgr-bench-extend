@@ -1,0 +1,7 @@
+{
+  "previous_constructor_reported_checks": 192,
+  "saved_script_checks": 162,
+  "explanation": "Saved script probes each release partition separately; earlier interactive probe used the union of both releases. The reproducible 162-check result is authoritative.",
+  "result": "boundary_results.json",
+  "code": "verify_boundaries.py"
+}

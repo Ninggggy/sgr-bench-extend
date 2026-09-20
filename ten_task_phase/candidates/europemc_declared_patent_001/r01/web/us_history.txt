@@ -1,0 +1,9 @@
+Sources:
+https://patents.justia.com/patent/20190002953
+https://patents.justia.com/patent/10870879
+Visited: 2026-09-10
+Attribution: Bibliographic facts transcribed from the two Patent History sections. Types, dates, application numbers and publication/grant numbers were actually read. Full native responses separately preserved. Table formatting is supplied for reproducibility.
+
+Type|Identifier|Date|Application
+Application|20190002953|Jan 3, 2019|15/765,742
+Grant|10870879|Dec 22, 2020|15/765,742

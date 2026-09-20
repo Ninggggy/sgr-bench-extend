@@ -1,0 +1,1053 @@
+[
+  {
+    "opportunity_id": "reptile-name",
+    "status": "stopped_inconclusive",
+    "run_id": "reptile-name-feasibility-01",
+    "reason": "Complete historical revision scope and source/version identity unresolved; current workbook lacks type locality; full dump actual coverage unknown, not proved shortcut. Referral novelty/difficulty also unproven.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": null,
+    "run_id": "selected-opportunity-feasibility-01",
+    "status": "stopped_input_delivery_failure",
+    "reason": "Assets copied but not registered for reading and not inlined. No source exploration performed. Corrected input work is charged separately.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "nvd-rejection",
+    "run_id": "nvd-rejection-feasibility-01",
+    "status": "stopped_inconclusive",
+    "reason": "Duplicate and nonduplicate rejection plus target scope observed; no substantive difficulty hypothesis beyond direct classification/join. Fixed annual package downloaded but parser field limit prevents coverage determination, not proof of shortcut absence.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "chemexpo-kit-document-identity",
+    "run_id": "selected-opportunity-input-correction-02",
+    "status": "stopped_inconclusive",
+    "reason": "Fixed CSV covers shallow mismatch; indispensable primary identity/complete component scope unavailable. No oracle or tests.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "kegg-organelle-pathway-scope",
+    "run_id": "kegg-new-scope-feasibility-01",
+    "status": "stopped_fixed_material_counterexample",
+    "reason": "Pathway81 candidate genes, full list/sce supplies locations; actual fixed data fully covers necessary evidence.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "arxiv-affected-scope",
+    "run_id": "arxiv-affected-scope-feasibility-01",
+    "status": "stopped_direct_answer",
+    "reason": "Latest abstract directly states affected theorem and added hypothesis; correction repeats conclusions.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "epmc-quantitative",
+    "candidate_id": "epmc_quantitative_001",
+    "revision": 2,
+    "run_id": "epmc-quantitative-feasibility-01",
+    "status": "stopped_development_a_full_scores",
+    "builder_run_id": "epmc-quantitative-builder-02",
+    "constructed": true,
+    "admitted": false,
+    "reason": "Both verified isolated Sol/medium A runs returned all7 fields correct; no further sampling authorized under stop rule.",
+    "previous_builder_run_id": "epmc-quantitative-builder-01",
+    "mechanism_review": "runs/epmc-mechanism-review-01",
+    "stop_correction": "Batch IDs discovered by prior query preserve one dependency; previous narrower notice-edge necessity removed, no difficulty claim.",
+    "substantive_revisions": 1,
+    "pair_path": "candidates/epmc_quantitative_001/r02",
+    "preblind_review": "runs/epmc-preblind-repair-01/stage_assets/preblind_review.json",
+    "development_a": {
+      "CG": "14/14",
+      "GO": "14/14"
+    }
+  },
+  {
+    "opportunity_id": "kegg-module-semantics",
+    "run_id": "kegg-module-semantics-feasibility-01",
+    "status": "stopped_fixed_material_counterexample",
+    "reason": "Fixed module definition and two organism KO responses cover all necessary evidence; no necessary next source query.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "nvd-deprecation-chain",
+    "run_id": "nvd-deprecation-chain-feasibility-01",
+    "status": "stopped_no_new_decisive_field",
+    "reason": "One bounded namespace19 entries all deprecated=false; no deprecatedBy; old direction not reopened.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "pdb-assembly",
+    "run_id": "pdb-assembly-feasibility-01",
+    "status": "stopped_no_boundary_and_source_access",
+    "reason": "Actual6JY3/6JY4 paper cohort and13-subunit assemblies observed; necessary AU-versus-assembly difference not found; REST/GraphQL/mmCIF actual evidence unavailable.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "iana-dtls-extensions",
+    "run_id": "new-source-feasibility-01",
+    "status": "stopped_r04_development_a_full_scores",
+    "constructed": true,
+    "admitted": false,
+    "reason": "Both ordinary fresh A solves completed all5fields exactly with no observed domain/identity/scope decision error. Do not append B, attack or formal trials to seek lower scores. Strict SGR/content passing does not substitute for difficulty filtering.",
+    "candidate_id": "iana_dtls_001",
+    "revision": 4,
+    "builder_run_id": "iana-dtls-builder-01",
+    "substantive_revisions": 2,
+    "editorial_revisions": 1,
+    "reference_execution": "r01/rebuilt/checks.json",
+    "pair_path": "candidates/iana_dtls_001/r04",
+    "optimization_followup": "full_score_review/iana_followup.json",
+    "optimization_state": "r04 completed and both fresh A full5/5; no further revision margin or sampling",
+    "optimization_followup_costs": "full_score_review/iana_followup_costs.json",
+    "resume_optimization": "full_score_review/iana_resume_optimization.json",
+    "reconciliation_reference": "full_score_review/iana_reconciliation_reference/README.md",
+    "version_history": [
+      {
+        "revision": 3,
+        "status": "stopped_development_a_full_scores",
+        "development_a": {
+          "CG": "48/48",
+          "GO": "48/48"
+        }
+      }
+    ],
+    "r03_development_a": {
+      "CG": "48/48",
+      "GO": "48/48"
+    },
+    "development_a": {
+      "CG": "10/10",
+      "GO": "10/10"
+    },
+    "development_decision": "candidates/iana_dtls_001/r04/development_decision.json"
+  },
+  {
+    "opportunity_id": "noaa-paleo-chronology",
+    "run_id": "original-scope-selection-01",
+    "status": "stopped_no_qualified_lead",
+    "reason": "No hard positive/necessary conditional evidence established. Paleo archive also not original NOAA CAG label; no false label assignment.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "arxiv-new-original-field",
+    "candidate_id": "arxiv_assumption_scope_001",
+    "revision": 3,
+    "run_id": "arxiv-new-original-field-01",
+    "status": "stopped_development_a_full_scores",
+    "builder_run_id": "arxiv-assumption-builder-02",
+    "reason": "Both verified isolated A runs full12/12; no further sampling.",
+    "constructed": true,
+    "admitted": false,
+    "previous_builder_run_id": "arxiv-assumption-builder-01",
+    "substantive_revisions": 2,
+    "repair_run_id": "arxiv-scope-repair-03",
+    "pair_path": "candidates/arxiv_assumption_scope_001/r03",
+    "development_a": {
+      "CG": "24/24",
+      "GO": "24/24"
+    }
+  },
+  {
+    "opportunity_id": "cfpb_integrity_adjudicated_restitution",
+    "status": "stopped_fixed_primary_answer",
+    "run_id": "cfpb-new-primary-feasibility-01",
+    "reason": "New decision gives overlap/exclusion directly in one fixed relief section; no indispensable downstream evidence found.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "reptile_ahaetulla_taxonomic_act",
+    "run_id": "reptile-taxonomic-act-feasibility-01",
+    "status": "stopped_primary_scope_unavailable",
+    "reason": "Database/workbook nomen-dubium boundary observed, revision fulltext unavailable and scope not exhaustive; no complete reference.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "epmc_manubot_software_provenance",
+    "run_id": "epmc-software-provenance-feasibility-01",
+    "status": "stopped_primary_version_gap_and_direct_answer",
+    "reason": "Paper directly supplies format positive/boundary, archived ability and release mapping unverified. Controller independently tried paper-linked public historical GitHub URL; restricted fetch, no contents, no bypass.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "nvd_vendor_backport",
+    "run_id": "nvd-vendor-backport-feasibility-01",
+    "status": "stopped_fixed_bulletin_api_answer",
+    "reason": "Full dated USN-6409-1 and JSON directly cover bothCVEs/two releases/fixed package and applicability boundary.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "exoplanet_mass_provenance",
+    "run_id": "exoplanet-mass-provenance-feasibility-01",
+    "status": "stopped_source_access_and_universe_gap",
+    "reason": "Registered download tool rejects NASA source and web TAP returned no data; table UI not actual complete records. No full reference or scores.",
+    "constructed": false,
+    "admitted": false,
+    "access_supplement": "runs/exoplanet-mass-provenance-feasibility-01/stage_assets/access_supplement_2026-09-13.json",
+    "supplemental_access_status": "stopped_access_protocol_issue_no_candidate",
+    "supplemental_source_requests": 5,
+    "supplemental_data_use": "access evidence only, excluded from reference/scoring/admission"
+  },
+  {
+    "opportunity_id": "arxiv_gnn_result_applicability",
+    "run_id": "arxiv-result-applicability-feasibility-01",
+    "status": "stopped_fixed_primary_answer",
+    "reason": "1810.00826v3 itself supplies7-model scope and aggregation/readout assumption boundaries, no necessary downstream original.",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "microsoft_segment_recast",
+    "run_id": "microsoft-segment-recast-feasibility-01",
+    "status": "stopped_independent_fixed_material_counterexample",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Independent Astra/high review verifies task-determined AR2024+AR2025 fixedset coversall8facts andinterpretation; prior-year parameter alreadyknownfromscope, notnecessarydiscoveredstate.",
+    "source_window_seconds": 148,
+    "actual_model_work_seconds": 1032.63,
+    "mechanism_review": "runs/microsoft-mechanism-review-02/stage_assets/review.json",
+    "failed_review_attempt": "runs/microsoft-mechanism-review-01",
+    "infrastructure_retry_count": 1
+  },
+  {
+    "opportunity_id": "gallery_panel_dating",
+    "run_id": "gallery-panel-dating-feasibility-01",
+    "status": "stopped_primary_pair_and_scope_gap",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Collection identity observed, but no verified dendrochronology ordinary/boundary pair or complete technical references; tested PDF/API access unavailable. No construction/tests."
+  },
+  {
+    "opportunity_id": "scotus_opinion_coalitions",
+    "run_id": "scotus-opinion-coalitions-feasibility-01",
+    "status": "stopped_development_a_full_scores",
+    "constructed": true,
+    "admitted": false,
+    "candidate_id": "scotus_joinder_001",
+    "revision": 1,
+    "builder_run_id": "scotus-joinder-builder-01",
+    "reason": "Both A runs fully correct on all9fields; no later sampling or substantive revision.",
+    "pair_path": "candidates/scotus_joinder_001/r01",
+    "development_a": {
+      "CG": "18/18",
+      "GO": "18/18"
+    }
+  },
+  {
+    "opportunity_id": "clinvar_constituent_haplotype_identity",
+    "run_id": "clinvar-haplotype-feasibility-01",
+    "status": "stopped_source_gap",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Actual single/haplotype identity boundary obtained; complete relation scope and common source version unclosed; no testing.",
+    "evidence": "runs/clinvar-haplotype-feasibility-01/stage_assets/feasibility.json"
+  },
+  {
+    "opportunity_id": "eurlex_corrigendum_scope",
+    "status": "stopped_source_access",
+    "run_id": "eurlex-corrigendum-feasibility-01",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Official original and corrigendum returned verification pages; no reference or mechanism proof; no model tests."
+  },
+  {
+    "opportunity_id": "uniprot_tau_isoform_identity",
+    "status": "stopped_fixed_primary_answer",
+    "run_id": "uniprot-tau-feasibility-01",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Observed canonical/2N4R/2N3R coordinate and splice boundary; single official text contains isoform identities, splice operations and full canonical sequence, no indispensable downstream retrieval."
+  },
+  {
+    "opportunity_id": "fdic_private_acquirer_scope",
+    "status": "stopped_source_access",
+    "run_id": "fdic-acquirer-feasibility-01",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Official list and annual overview return403; configured downloader refuses unsupported source. Complete cohort and ordinary/exception original evidence unverified; no construction or tests."
+  },
+  {
+    "opportunity_id": "resumed_new_primary_selector_01",
+    "status": "stopped_source_and_version_gap",
+    "run_id": "resumed-opportunity-feasibility-01",
+    "reason": "WoRMS list has5names but ordinarydetails403, actualIDs/distribution/commonversion unclosed; notSGRproof.",
+    "evidence": "runs/resumed-opportunity-feasibility-01/stage_assets/feasibility.json"
+  },
+  {
+    "opportunity_id": "census_geography_identity",
+    "status": "stopped_source_tls_failure",
+    "run_id": "census-geography-feasibility-01",
+    "reason": "Actual Census API data and geography metadata TLSunexpectedEOF; host diagnostic reproduces, no evidence or testscore."
+  },
+  {
+    "opportunity_id": "epmc_trial_report_cohort_identity",
+    "status": "stopped_original_fulltext_unavailable",
+    "run_id": "epmc-cohort-identity-feasibility-01",
+    "reason": "Tang2015 PMC4813361 fullTextXML404; HTMLshell; full trial scope/ordinary boundary unavailable. Do not reopen samepaper without new original."
+  },
+  {
+    "opportunity_id": "epmc_open_access_report_identity",
+    "status": "stopped_required_original_access",
+    "run_id": "epmc-open-access-identity-feasibility-02",
+    "reason": "Newreview XML acquired andrealsharedtrialID/partialcancerpopulation found; Lewis requiredoriginal403 and supplementcoverageunclosed. Nooracleorblindtest."
+  },
+  {
+    "opportunity_id": "kegg_drug_component_identity",
+    "status": "stopped_development_a_full_scores",
+    "run_id": "kegg-drug-identity-feasibility-01",
+    "reason": "BothAfull4/4; alloutputs preserved, no further sampling.",
+    "review_run_id": "kegg-drug-mechanism-review-01",
+    "candidate_id": "kegg_prodrug_identity_001",
+    "revision": 1,
+    "builder_run_id": "kegg-prodrug-builder-02",
+    "user_override": "User explicitly revoked stop recommendation; quality conditions retained.",
+    "new_evidence": "Fresh DG and fourD REST200 after restoring existing timing service; controller_preflight.json passed.",
+    "failed_builder_run_id": "kegg-prodrug-builder-01",
+    "failed_builder_reason": "Wrong exploration stage input; stopped and charged; no candidate revision or infrastructure retry.",
+    "constructed": true,
+    "admitted": false,
+    "pair_path": "candidates/kegg_prodrug_identity_001/r01",
+    "reference_fields": 4,
+    "substantive_revisions": 0,
+    "development_a": {
+      "CG": "8/8",
+      "GO": "8/8"
+    }
+  },
+  {
+    "opportunity_id": "kegg_new_annotation_boundary",
+    "status": "stopped_development_a_full_scores",
+    "run_id": "kegg-annotation-boundary-feasibility-01",
+    "candidate_id": "kegg_module_products_001",
+    "revision": 1,
+    "reason": "BothverifiedA6/6; nofurthersampling.",
+    "builder_run_id": "kegg-module-products-builder-01",
+    "reference_preflight": "candidates/kegg_module_products_001/sources/controller_preflight.json",
+    "constructed": true,
+    "admitted": false,
+    "pair_path": "candidates/kegg_module_products_001/r01",
+    "reference_fields": 6,
+    "substantive_revisions": 0,
+    "development_a": {
+      "CG": "12/12",
+      "GO": "12/12"
+    }
+  },
+  {
+    "opportunity_id": "arxiv_new_citation_scope",
+    "status": "stopped_fixed_primary_answer",
+    "run_id": "arxiv-citation-scope-feasibility-01",
+    "constructed": false,
+    "admitted": false,
+    "reason": "WGANv3 explicitly contains envelope-theorem derivative-condition boundary and minimalanswer; actualexternalcitationretrievalnotnecessary.",
+    "evidence": "runs/arxiv-citation-scope-feasibility-01/stage_assets/feasibility.json"
+  },
+  {
+    "opportunity_id": "post_six_full_score_new_evidence",
+    "status": "stopped_fixed_primary_answer",
+    "run_id": "difficulty-new-evidence-feasibility-01",
+    "reason": "NIST AM Bench actual fixed measurement description covers full minimal answer; no necessary discovered downstream retrieval. Diagnosis retained in run stage_assets."
+  },
+  {
+    "opportunity_id": "epmc_independent_trial_population",
+    "status": "stopped_infrastructure_repair_exhausted",
+    "run_id": "epmc-independent-trial-feasibility-01",
+    "candidate_id": "epmc_long_term_harms_001",
+    "builder_run": "epmc-long-term-harms-builder-02",
+    "previous_builder": "epmc-long-term-harms-builder-01",
+    "reason": "Firstbuilder repeatedwebsockettimeouts; soleidenticalinputreplacement stalled after3000s withoutcompleteoutput. NoSoltrials orscore.",
+    "formal_means": null
+  },
+  {
+    "opportunity_id": "astronomy_new_primary_access",
+    "status": "stopped_fixed_primary_answer",
+    "run_id": "astronomy-new-primary-feasibility-01",
+    "reason": "New complete Kepler-20 primary paper acquired, but fixed paper covers minimal mass-interpretation task; complete alternative-literature inventory still unavailable. No oracle/tests."
+  },
+  {
+    "opportunity_id": "optimization_original_guarantee_scope",
+    "status": "stopped_development_a_full_scores",
+    "run_id": "optimization-guarantee-feasibility-01",
+    "candidate_id": "optimization_guarantee_001",
+    "builder_run": "optimization-claim-builder-r02",
+    "sources": "candidates/optimization_guarantee_001/sources",
+    "revision": 2,
+    "substantive_revisions_used": 1,
+    "previous_builder": "optimization-guarantee-builder-01",
+    "r01_stop": "source_premise_parameter_discrepancy_verified",
+    "reference_execution": "passed",
+    "pair_literal_checks": 46,
+    "oracle_fields": 18,
+    "development_runs": [
+      "optimization-claim-r02-cg-dev-a",
+      "optimization-claim-r02-go-dev-a"
+    ],
+    "reason": "BothverifiedfreshSol/medium A full18/18 fields; no further sampling.",
+    "formal_means": null
+  },
+  {
+    "opportunity_id": "cmvp_cavp_validation_scope",
+    "status": "stopped_fixed_material_counterexample",
+    "run_id": "cmvp-cavp-feasibility-01",
+    "reason": "Official security policy covers necessary RSA scope; algorithm-detail navigation not indispensable.",
+    "evidence": "runs/cmvp-cavp-feasibility-01/stage_assets/evidence.md"
+  },
+  {
+    "opportunity_id": "financial_restatement_scope",
+    "status": "stopped_verified_event_date_package",
+    "run_id": "financial-restatement-feasibility-01",
+    "controller_pending_check": "Probe interim note says original reports unnecessary but non-reliance notice determines amended-report scope. Review final evidence: one necessary notice-to-report dependency may suffice; do not reject just because stronger original/amended comparison unnecessary.",
+    "probe_decision": "reject_original_vs_amended_necessity",
+    "review_run": "financial-mechanism-review-01",
+    "reason": "Independent Astra/high verified issuer event-date amendment index exposes all four needed reports using task-known parameters; corrected original-vs-amended rationale.",
+    "review_evidence": "runs/financial-mechanism-review-01/stage_assets/evidence.md"
+  },
+  {
+    "opportunity_id": "cluster_trial_independent_units",
+    "status": "stopped_fixed_material_counterexample",
+    "run_id": "cluster-trial-feasibility-01",
+    "reason": "Same Cochrane review supplies full six-trial attendance subgroup, allocation units and explicit nonindependence explanation; originals not indispensable.",
+    "evidence": "runs/cluster-trial-feasibility-01/stage_assets/evidence.md"
+  },
+  {
+    "opportunity_id": "timeseries_zero_shot_training_scope",
+    "status": "stopped_pre_A_strict_SGR",
+    "run_id": "timeseries-zero-shot-feasibility-01",
+    "candidate_id": "timeseries_zero_shot_001",
+    "builder_run": "timeseries-zero-shot-builder-01",
+    "source_preflight": "candidates/timeseries_zero_shot_001/controller_preflight.json",
+    "reference_execution": "passed",
+    "oracle_fields": 9,
+    "pair_literal_checks": 30,
+    "pre_A_review_run": "timeseries-pre-A-review-01",
+    "reason": "Independent Astra/high supports reference/pair and logicaldependency, but actual defaultHTMLreport links already expose allanswer evidence; ordinarycitationtraversal, no indispensable specializedstate. NoA orformaltests.",
+    "formal_means": null
+  },
+  {
+    "opportunity_id": "kinetics_assay_condition_identity",
+    "status": "stopped_primary_boundary_and_universe_gap",
+    "run_id": "kinetics-condition-feasibility-01",
+    "reason": "One stale cached SABIO-RK record; current record, same-study cohort enumeration and ordinary/boundary completeness unavailable. No full export or model tests.",
+    "evidence": "runs/kinetics-condition-feasibility-01/stage_assets/evidence.md"
+  },
+  {
+    "opportunity_id": "chembl_assay_target_attribution",
+    "status": "stopped_document_identity_gap",
+    "run_id": "chembl-assay-feasibility-01",
+    "reason": "Wylie2017 DOI/PMID/title all exact ChEMBL queries empty; no curated cohort. SourceAPI itselfworks; do not claim whole ecosystem unavailable.",
+    "evidence": "runs/chembl-assay-feasibility-01/stage_assets/feasibility.json"
+  },
+  {
+    "opportunity_id": "chembl_indexed_discovery_assays",
+    "status": "stopped_fixed_activity_assay_package",
+    "run_id": "chembl-indexed-feasibility-01",
+    "new_primary_evidence": "CHEMBL4196169 DOI10.1021/acs.jmedchem.8b01040;104actualcuratedparentcompoundactivityrows, distinctfromunindexedWylie2017",
+    "reason": "Actual full104compoundactivities+133paperassays cover all13eligible minimum comparisons; both queries fullyspecifiedfrom task-known paper/compound. Targetcomponent backcheck unnecessary.",
+    "evidence": "runs/chembl-indexed-feasibility-01/stage_assets/design_rationale.md"
+  },
+  {
+    "opportunity_id": "chembl_structural_query_stereochemical_peers",
+    "status": "stop_raw_full_scores_with_access_protocol_issues",
+    "run_id": "chembl-structure-feasibility-01",
+    "candidate_id": "chembl_stereochemical_peers_001",
+    "builder_run_id": "chembl-structure-builder-02",
+    "preflight": "candidates/chembl_stereochemical_peers_001/controller_preflight.json",
+    "builder_terminal_status": "runtime_error",
+    "retry_started": true,
+    "previous_failed_builder_run_id": "chembl-structure-builder-01",
+    "retry_attempt": 2,
+    "constructed": true,
+    "admitted": false,
+    "reason": "Both first-A outputs exactly32fields, but both repeat explicitly non-retryable safety-refused URLs. Preserve raw scores, do not treat as unqualified compliant ability evidence, do not resample or count as admissions.",
+    "construction_stop": "candidates/chembl_stereochemical_peers_001/construction_stop.json",
+    "status_history": [
+      {
+        "at": "2026-09-13T01:37:57.712586+00:00",
+        "status": "stopped_infrastructure_repair_exhausted",
+        "reason": "Both construction attempts ended after repeated actual transport failures with no complete result. Sole registered infrastructure replacement used. No third same-slot invocation allowed. Source feasibility remains evidence, not a qualified task.",
+        "defer_reason": "Latest user requested review only and stop afterward; sole exact infrastructure replacement not started."
+      }
+    ],
+    "recovery_worker": "01a09868-9ab1-7133-b053-ae33d01818ae",
+    "recovery_authorization": "candidates/chembl_stereochemical_peers_001/recovery_proposal.json",
+    "revision": 2,
+    "substantive_revisions": 1,
+    "pair_path": "candidates/chembl_stereochemical_peers_001/r02",
+    "reference_execution": "candidates/chembl_stereochemical_peers_001/controller_recomputed/scope_checks.json",
+    "content_review_state": "needs_repair; reference and SGR passed, target-website-disclosure conflicts with formal Method",
+    "content_review": "candidates/chembl_stereochemical_peers_001/content_review.json",
+    "source_discovery_repair": "candidates/chembl_stereochemical_peers_001/source_discovery_repair.json",
+    "version_history": [
+      {
+        "revision": 1,
+        "status": "content_requirement_unresolved",
+        "reason": "r01 retained complete. Bounded repair found no verified natural source-discovery wording that also preserves unique registration scope; no r02, no model tests, substantive revisions remain0.",
+        "pair_path": "candidates/chembl_stereochemical_peers_001/r01",
+        "substantive_revisions": 0
+      }
+    ],
+    "preblind_review": "candidates/chembl_stereochemical_peers_001/source_discovery_open_review.json",
+    "development_a_raw": {
+      "CG": "64/64",
+      "GO": "64/64"
+    },
+    "access_review": "candidates/chembl_stereochemical_peers_001/r02/development_access_review.json"
+  },
+  {
+    "opportunity_id": "trial_registration_history",
+    "status": "stopped_historical_version_source_gap",
+    "reason": "Current API dates available, but required first-version history bodies return only glossary shells through registered live web. No ordinary/history boundary scope closed; simple date task directly covered by current API. Bulk historical coverage unknown.",
+    "evidence": "opportunities/trial_registration_history/feasibility.json",
+    "constructed": false,
+    "admitted": false
+  },
+  {
+    "opportunity_id": "device_regulatory_identity",
+    "status": "stopped_complete_scope_counterexample",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Official Z-0436-2014 fits historical predicate recall scope but is missing from K081137 indexed list. Original8rows incomplete; addingone does not prove exhaustive. Preserve28requests and sources.",
+    "evidence": "opportunities/device_regulatory_identity/completion.json",
+    "distinct_followup": "Observed official backlink membership, not a complete historical recall inventory; feasibility pending."
+  },
+  {
+    "opportunity_id": "device-recall-backlink",
+    "candidate_id": "device_recall_backlink_001",
+    "revision": 1,
+    "status": "stop_raw_full_scores_go_access_protocol_issue",
+    "constructed": true,
+    "admitted": false,
+    "substantive_revisions": 0,
+    "pair_path": "candidates/device_recall_backlink_001/r01",
+    "preblind_review": "candidates/device_recall_backlink_001/content_review.json",
+    "reason": "Both raw outputs4/4 fields correct; independent scoped access review finds CG transition acceptable but GO retries same two refused application resources via links. Raw scores retained; no unqualified dual-compliant-fullscore claim and no resampling.",
+    "development_a_raw": {
+      "CG": "8/8",
+      "GO": "8/8"
+    },
+    "access_review": "candidates/device_recall_backlink_001/r01/development_access_review.json"
+  },
+  {
+    "opportunity_id": "ccds_transcript_status",
+    "status": "stopped_fixed_current_table_and_boundary_gap",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Official TP53 CCDS current table directly provides all12IDs/status/version from task-known gene. All Public .1; no actual withdrawn/replaced boundary. Gene transcript universe blocked by CAPTCHA; no bypass.",
+    "evidence": "opportunities/ccds_transcript_status/feasibility.json",
+    "public_request_items": 3
+  },
+  {
+    "opportunity_id": "hydrologic_upstream_scope",
+    "status": "stopped_actual_navigation_access_gap",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Official Little Falls station and current NLDI documentation readable; actual seed/navigation tool opens non-retryable safe-open errors. Complete upstream scope and real boundary not acquired; no bypass or false service-outage claim.",
+    "evidence": "opportunities/hydrologic_upstream_scope/feasibility.json",
+    "public_request_items": 4
+  },
+  {
+    "opportunity_id": "type_strain_registered_identity",
+    "status": "stopped_identity_conflict_and_complete_assembly_scope_gap",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Official LPSN and JCM entries conflict on JCM1134 type-strain identity; primary opinion distinguishes ATCC393 from334. Required assembly original reCAPTCHA; complete current genome scope and identity adjudication remain unclosed. No bypass.",
+    "evidence": "opportunities/type_strain_registered_identity/feasibility.json",
+    "public_request_items": 9
+  },
+  {
+    "opportunity_id": "assay_variant_sequence_identity",
+    "status": "stopped_no_necessary_sequence_dependency_and_construct_scope_gap",
+    "constructed": false,
+    "admitted": false,
+    "reason": "489activity limited registry query complete; actual activity supplies mutations and descriptions, assay embeds variant sequence. No necessary new independent sequence query established; normalized1210aa mutant sequence cannot prove actual truncated/tagged constructs. B/confidence9 cannot define all direct binding experiments.",
+    "evidence": "opportunities/assay_variant_sequence_identity/feasibility.json",
+    "public_request_items": 8
+  },
+  {
+    "opportunity_id": "peptide_registered_specificity",
+    "status": "stopped_dedicated_search_unavailable",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Complete H4 original gives mature chain2-103 and14gene identities directly. Dedicated peptide search requires unsupportedPOST/host and JS-only webpage; actual hits/isoform scope unavailable. No bypass or false sequence-search claim.",
+    "evidence": "opportunities/peptide_registered_specificity/feasibility.json",
+    "public_request_items": 6
+  },
+  {
+    "opportunity_id": "cpe_registered_identity_migration",
+    "status": "stopped_fixed_complete_namespace_counterexample",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Complete162Log4j CPE records include10deprecated and every replacement record and nondeprecated status. NineupdateANY-to-NA changes plus genuine2.4-to-2.4.0 boundary are all covered without further retrieval.",
+    "evidence": "opportunities/cpe_registered_identity_migration/feasibility.json",
+    "public_request_items": 2
+  },
+  {
+    "opportunity_id": "cpe_vulnerability_index_impact",
+    "status": "stopped_tls_failure_after_bounded_recovery",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Genuine2.4to2.4.0 replacement motivated finite index-impact check. Old-CPE CVE query120.034s TLS handshake timeout; one registered same-path retry5.032s TLS EOF. No HTTP response, old/new association sets unknown, new-CPE query not started; no zero or tests.",
+    "evidence": "opportunities/cpe_registered_identity_migration/vulnerability_index_recovery.json",
+    "public_request_items": 2,
+    "prior_namespace_items": 2,
+    "total_related_public_items": 4
+  },
+  {
+    "opportunity_id": "earthquake_product_origin",
+    "status": "stopped_required_catalog_source_access",
+    "constructed": false,
+    "admitted": false,
+    "reason": "First complete catalogue query safe-open refused; scope and boundary remain unknown. One request, no bypass or tests.",
+    "evidence": "opportunities/earthquake_product_origin/feasibility.json",
+    "public_request_items": 1
+  },
+  {
+    "opportunity_id": "gwas_trait_scope",
+    "status": "stopped_required_registry_original_access",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Official study pages expose placeholders; both API originals non-retryable safety refusal. Scope, actual ordinary/boundary fields and necessary retrieval dependence unknown. Six request items, no tests. Work order elapsed2500.025s exceeds900s; preserved explicitly.",
+    "evidence": "opportunities/gwas_trait_scope/feasibility.json",
+    "public_request_items": 6,
+    "work_order_time_limit_exceeded": true
+  },
+  {
+    "opportunity_id": "assay_annotation_consistency",
+    "status": "stopped_no_supported_discriminative_boundary",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Complete460assays,225sequenced records and7simple substitution combinations agree with registered base. Activity-conditioned assay retrieval supplies indispensable new sequences: not a fixed-activity counterexample. Independent annotation-QC need plausible, difficulty unknown; no supported further investment boundary. Three GETs, no tests;2718.697s work-order wall exceeds900s, cause unknown.",
+    "evidence": "opportunities/assay_annotation_consistency/feasibility.json",
+    "public_request_items": 3,
+    "work_order_time_limit_exceeded": true
+  },
+  {
+    "opportunity_id": "pdb_split_identity",
+    "status": "stopped_cohort_and_required_identity_fields_unavailable",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Official3U5Bto4V88split consolidation edge observed; mapping TSV unsupported content type, current entry exceeds4MB. Full paper cohort and assembly/author-label identity unresolved; fixed package actual coverage unknown. No safety refusal, no bypass or tests.",
+    "evidence": "opportunities/pdb_split_identity/feasibility.json",
+    "public_request_items": 6,
+    "controller_preliminary_search_items": 2,
+    "elapsed_seconds": 234
+  },
+  {
+    "opportunity_id": "wqp_fraction_identity",
+    "status": "stopped_analytical_identity_gap_and_no_necessary_retrieval",
+    "constructed": false,
+    "admitted": false,
+    "reason": "One actual finite cohort290rows incl41phosphorus-family records lacks fractions/bases/method selectors and result identity. No verified comparable positive or indispensable follow-up selector. Not a complete-answer fixed-package counterexample. One HTTP200 request; final elapsed recorded in feasibility.json, no tests.",
+    "evidence": "opportunities/wqp_fraction_identity/feasibility.json",
+    "public_request_items": 1,
+    "elapsed_seconds": 329.918442
+  },
+  {
+    "opportunity_id": "asciminib_cross_study",
+    "status": "stopped_fixed_complete_activity_packet",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Complete194drugactivities across14documents includes90later rows; original104rows equal prior original. Necessary minimum endpoint/context/variant comparisons directly exposed; no required downstream retrieval established. TBDcontext staysunknown;0laterGI50registrations is not no actual comparable experiment. One GET, no tests.",
+    "evidence": "opportunities/asciminib_cross_study/feasibility.json",
+    "public_request_items": 1
+  },
+  {
+    "opportunity_id": "receptor_complex_scope",
+    "status": "constructed_candidate_stopped_development_A",
+    "constructed": true,
+    "admitted": false,
+    "reason": "Constructed diazepam_receptor_identity_001/r01; final development decision below records full GO and noncompliant raw-full CG. No unstarted constructor remains.",
+    "evidence": "opportunities/receptor_complex_scope/feasibility.json",
+    "public_request_items": 5,
+    "next_candidate_id": "diazepam_receptor_identity_001",
+    "development_decision": "candidates/diazepam_receptor_identity_001/r01/development_decision.json"
+  },
+  {
+    "candidate_id": "diazepam_receptor_identity_001",
+    "revision": "r01",
+    "status": "stop_development_a_full_GO_CG_access_noncompliant",
+    "admitted": false,
+    "substantive_revisions_used": 0,
+    "evidence": "opportunities/receptor_complex_scope/feasibility.json",
+    "candidate_dir": "candidates/diazepam_receptor_identity_001/r01",
+    "pre_a_review": "candidates/diazepam_receptor_identity_001/r01/pre_a_review.json",
+    "development_a_runs": [
+      "diazepam-r01-cg-dev-a",
+      "diazepam-r01-go-dev-a"
+    ],
+    "reference_ready": true,
+    "reason": "GO completed full legitimate observed solve; neither output contains supported capability errors. Preserve CG raw full with access violation; no replacement or further sampling.",
+    "development_a_scores": {
+      "CG": "44/44",
+      "GO": "44/44"
+    },
+    "development_decision": "construction_pipeline/ten_task_phase/rolling_five/candidates/diazepam_receptor_identity_001/r01/development_decision.json",
+    "access_review": "construction_pipeline/ten_task_phase/rolling_five/candidates/diazepam_receptor_identity_001/r01/development_access_review.json"
+  },
+  {
+    "opportunity_id": "stap_replication_evidence",
+    "status": "constructed_candidate_stopped_development_A",
+    "constructed": true,
+    "admitted": false,
+    "reason": "Complete r01 constructed and audited; see stap_replication_protocol_001 development_decision.json.",
+    "evidence": "opportunities/stap_replication_evidence/feasibility.json",
+    "public_request_items": 5,
+    "independent_review": "opportunities/stap_replication_evidence/independent_mechanism_review.json"
+  },
+  {
+    "candidate_id": "stap_replication_protocol_001",
+    "revision": 1,
+    "substantive_revisions_used": 0,
+    "status": "stopped_development_A_CG_valid_full_GO_access_noncompliant",
+    "constructed": true,
+    "admitted": false,
+    "reason": "Independent access/error review confirms legitimate CG full score; GO omission under incomplete access does not justify later sampling.",
+    "path": "construction_pipeline/ten_task_phase/rolling_five/candidates/stap_replication_protocol_001/r01",
+    "evidence": "construction_pipeline/ten_task_phase/rolling_five/candidates/stap_replication_protocol_001/r01/construction_report.json",
+    "source_observation": "2026-09-13 UTC",
+    "pre_investment_review": "opportunities/stap_replication_evidence/independent_mechanism_review.json",
+    "formal_means": {
+      "cg": null,
+      "go": null
+    },
+    "pre_a_review": "construction_pipeline/ten_task_phase/rolling_five/candidates/stap_replication_protocol_001/r01/pre_a_review.json",
+    "development_plan": "construction_pipeline/ten_task_phase/rolling_five/candidates/stap_replication_protocol_001/r01/development_plan.json",
+    "actual_model": "gpt-5.6-sol",
+    "actual_effort": "medium",
+    "running_model_evidence": "candidates/stap_replication_protocol_001/r01/pre_development_a/actual_running_models.json",
+    "raw_A": {
+      "CG": "24/24",
+      "GO": "22/24"
+    },
+    "development_decision": "construction_pipeline/ten_task_phase/rolling_five/candidates/stap_replication_protocol_001/r01/development_decision.json",
+    "access_review": "construction_pipeline/ten_task_phase/rolling_five/candidates/stap_replication_protocol_001/r01/development_access_review.json"
+  },
+  {
+    "opportunity_id": "cftr_complex_identity",
+    "status": "stopped_no_new_evidence_to_reopen_clinvar_lineage",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/cftr_complex_identity/feasibility.json",
+    "reason": "Recovery review found no new source evidence resolving old complete member scope/version gap; no renamed candidate or new tests.",
+    "public_request_items": 0
+  },
+  {
+    "opportunity_id": "trial_outcome_history",
+    "status": "stopped_required_historical_bodies_unavailable",
+    "constructed": false,
+    "admitted": false,
+    "reason": "停止。新增索引证据确认ACTT-1是一个真实主要结果变更案例，并揭示直接论文与现成差异捷径；但已发现的两个历史状态正文仍仅返回glossary shell，不能解除旧历史来源缺口，不进入完整参考构造或模型测试。",
+    "evidence": "opportunities/trial_outcome_history/feasibility.json",
+    "public_request_items": 4
+  },
+  {
+    "opportunity_id": "geo_biological_replication",
+    "status": "stopped_fixed_complete_sample_material",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Complete16GSM/16run mapping has no repeated-sequencing boundary; SOFT already resolves four independent donor pairs for eight selected samples. No further construction or tests.",
+    "evidence": "opportunities/geo_biological_replication/feasibility.json",
+    "public_request_items": 3
+  },
+  {
+    "opportunity_id": "structural_interface_identity",
+    "status": "stopped_fixed_material_counterexample",
+    "constructed": false,
+    "admitted": false,
+    "reason": "stop_minimal_answer_covered_by_paper_and_single_directly_identified_structure_package",
+    "evidence": "opportunities/structural_interface_identity/feasibility.json",
+    "public_request_items": 4
+  },
+  {
+    "opportunity_id": "regulatory_staged_effective_scope",
+    "status": "stopped_fixed_historical_amendment_answer",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Single task-determined primary material covers minimal necessary facts; no necessary specialized state retrieval.",
+    "evidence": "opportunities/regulatory_staged_effective_scope/feasibility.json",
+    "public_request_items": 3
+  },
+  {
+    "opportunity_id": "evidence_selected_next",
+    "status": "stopped_no_unhandled_evidence_in_checked_index",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Bounded review of current candidate index identified no unprocessed source-backed opportunity. This is not an exhaustion claim; later Reactome primary search lead is separate.",
+    "evidence": "opportunities/evidence_selected_next/feasibility.json",
+    "public_request_items": 0
+  },
+  {
+    "opportunity_id": "weather_observation_regime",
+    "status": "stopped_no_new_judgment_and_actual_instrument_attribution_gap",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Observation ID conditions necessary full station-history retrieval, but registered periods reduce to direct joins and do not uniquely identify actual daily instruments. No claim of scientific comparability.",
+    "evidence": "opportunities/weather_observation_regime/feasibility.json",
+    "public_request_items": 5
+  },
+  {
+    "opportunity_id": "reactome_component_evidence",
+    "status": "stop_low_priority_direct_relation_classification",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Same-lineage recovery obtained production relations, but minimum answer remains direct member/candidate/component classification with disease-context presumed stated explicitly. Export unknowns are not the stop reason.",
+    "evidence": "opportunities/reactome_component_evidence/recovery_decision.json",
+    "public_request_items": 1,
+    "controller_preliminary_search_items": 2,
+    "prior_stop_evidence": "opportunities/reactome_component_evidence/feasibility.json"
+  },
+  {
+    "opportunity_id": "fus_condition_comparability",
+    "status": "stop_single_anchor_covers_minimum_answer_no_specialized_state_dependency",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Observed anchor covers minimal condition comparison; no necessary specialized state query. Not a claim that all later studies were exhausted.",
+    "evidence": "opportunities/fus_condition_comparability/feasibility.json",
+    "public_request_items": 8,
+    "controller_preliminary_search_items": 2
+  },
+  {
+    "opportunity_id": "assay_interference_scope",
+    "status": "reject_current_opportunity_shortcut_and_unresolved_full_hit_semantics",
+    "constructed": false,
+    "admitted": false,
+    "reason": "最小自然系列问题被现成汇总近直接覆盖。没有为扩大到全部初筛结果增加行数或人为条件；不能把SID归并、报告阅读和批量表连接自动称SGR。保留全初筛范围未判定，而不是错误宣称报告覆盖全部命中。",
+    "evidence": "opportunities/assay_interference_scope/feasibility.json",
+    "public_request_items": 13,
+    "controller_preliminary_search_items": 2
+  },
+  {
+    "opportunity_id": "antiplatelet_inference_scope",
+    "status": "stop_low_priority_direct_method_and_population_attribution",
+    "constructed": false,
+    "admitted": false,
+    "reason": "确认性层级与名义显著、重叠样本去重均比单纯作者方法标签多出真实推断；本次不据Methods可读就判简单。最低问题中的这些错误已由ACS原文、总队列原文和五年摘要直接界定，尚未找到必须结合完整九报告家族才改变该判断的实际反例。按本次投入优先级止损；不声称学术价值低或已测定低难度。",
+    "evidence": "opportunities/antiplatelet_inference_scope/feasibility.json",
+    "public_request_items": 18,
+    "controller_preliminary_search_items": 2
+  },
+  {
+    "opportunity_id": "hiv_sequence_interpretation",
+    "status": "complete_natural_sequence_scope_not_available_in_stated_deposit",
+    "constructed": false,
+    "admitted": false,
+    "reason": "All81 deposited records are clones from participants1–3; no public population or participants4–6 sequences in stated deposit. Do not substitute clone subset.",
+    "evidence": "opportunities/hiv_sequence_interpretation/feasibility.json",
+    "public_request_items": 6,
+    "controller_preliminary_search_items": 2
+  },
+  {
+    "opportunity_id": "mgi_genotype_context",
+    "status": "shortest_allgenoview_covers_natural_minimum",
+    "constructed": false,
+    "admitted": false,
+    "reason": "Single allgenoviews exposes all45 genotypes and six albuminuria-context blocks with background/treatment/comparator; direct complete source covers minimum natural question.",
+    "evidence": "opportunities/mgi_genotype_context/feasibility.json",
+    "public_request_items": 2,
+    "controller_preliminary_search_items": 2
+  },
+  {
+    "opportunity_id": "allen_heldout_sweeps",
+    "status": "stop_unverified_model_specific_fit_and_qc_provenance",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/allen_heldout_sweeps/feasibility.json",
+    "public_request_items": 17,
+    "controller_preliminary_search_items": 2
+  },
+  {
+    "opportunity_id": "nist_throttling_phase",
+    "status": "stopped_source_access_safety_refusal",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/nist_throttling_phase/feasibility.json",
+    "public_request_items": 3,
+    "controller_preliminary_search_items": 2
+  },
+  {
+    "opportunity_id": "wonder_cooccurrence",
+    "status": "stopped_no_registered_transport_for_required_live_scope",
+    "constructed": false,
+    "admitted": false,
+    "public_request_items": 4,
+    "evidence": "opportunities/wonder_cooccurrence/feasibility.json"
+  },
+  {
+    "opportunity_id": "acs_replicate_inference",
+    "status": "no_verified_data_or_result_conditioned_state_dependency",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/acs_replicate_inference/feasibility.json",
+    "public_request_items": 7,
+    "controller_preliminary_search_items": 2
+  },
+  {
+    "opportunity_id": "nvd_configuration_environment",
+    "candidate_id": "nvd_configuration_environment_001",
+    "status": "user_revision_assessed_no_supported_r02",
+    "constructed": true,
+    "admitted": false,
+    "path": "candidates/nvd_configuration_environment_001/r01",
+    "evidence": "opportunities/nvd_configuration_environment/feasibility.json",
+    "public_request_items": 49,
+    "development_A_raw": {
+      "CG": "57/57",
+      "GO": "57/57",
+      "CG_Item_F1": "1",
+      "GO_Item_F1": "1",
+      "formal": false
+    },
+    "access_status": {
+      "CG": "noncompliant",
+      "GO": "noncompliant"
+    },
+    "development_decision": "candidates/nvd_configuration_environment_001/r01/development_decision.json",
+    "formal_means": {
+      "CG": null,
+      "GO": null
+    },
+    "substantive_revisions_used": 0,
+    "revision_authorization": {
+      "at": "2026-09-13T10:05:07.646478+00:00",
+      "instruction": "NVD这道题同时也继续修改完善吧，确保能抵抗捷径",
+      "scope": "Same ID, preserve r01 scores/access closure; evidence-based revision work; no permission to bypass refused sources or silently change blind protocol.",
+      "worker_turn": "01a09a39-c9c4-7750-b5f5-b073d50f3b1f"
+    },
+    "revision_assessment": "candidates/nvd_configuration_environment_001/revision_workorder_20260913/revision_decision.json",
+    "requested_revision_complete": false
+  },
+  {
+    "opportunity_id": "cyp2d6_structural_function",
+    "status": "stopped_low_priority_fixed_structural_reference",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/cyp2d6_structural_function/feasibility.json",
+    "public_tool_items": 12
+  },
+  {
+    "opportunity_id": "egfr_structural_binding",
+    "status": "stop_partial_reference_no_new_state_dependent_judgment",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/egfr_structural_binding/feasibility.json",
+    "public_request_items": 6,
+    "controller_search_items": 1
+  },
+  {
+    "opportunity_id": "bioimage_annotation_coverage",
+    "status": "stopped_no_verified_pixel_level_evaluation_path",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/bioimage_annotation_coverage/feasibility.json",
+    "public_request_items": 2
+  },
+  {
+    "opportunity_id": "number_theory_certification",
+    "status": "stop_direct_certification_fields_no_new_state_dependency",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/number_theory_certification/feasibility.json",
+    "public_tool_items": 10,
+    "controller_search_items": 1
+  },
+  {
+    "opportunity_id": "rust_feature_exposure",
+    "status": "stopped_required_registry_state_unavailable_under_registered_tools",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/rust_feature_exposure/feasibility.json",
+    "prior_conclusion": "opportunities/rust_feature_exposure/feasibility_initial.json",
+    "public_request_items": 15,
+    "controller_search_items": 1
+  },
+  {
+    "candidate_id": "wqp_censored_screening_001",
+    "revision": 2,
+    "substantive_revisions_used": 1,
+    "status": "stopped_raw_full_scores_access_noncompliant",
+    "constructed": true,
+    "admitted": false,
+    "path": "candidates/wqp_censored_screening_001/r02",
+    "evidence": "opportunities/wqp_censored_screening/feasibility.json",
+    "public_request_items": 40,
+    "controller_search_items": 2,
+    "formal_means": {
+      "CG": null,
+      "GO": null
+    },
+    "previous_versions": [
+      "candidates/wqp_censored_screening_001/r01"
+    ],
+    "controller_basis_source_items": 4,
+    "pre_A_independent_source_items": 2,
+    "pre_development_source_items": 9,
+    "development_decision": "candidates/wqp_censored_screening_001/r02/development_decision.json",
+    "development_A": {
+      "CG": "96/96",
+      "GO": "96/96"
+    },
+    "access": {
+      "CG": "noncompliant",
+      "GO": "noncompliant"
+    }
+  },
+  {
+    "opportunity_id": "gaba_efficacy_primary_lead",
+    "status": "no_primary_lead_found",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/gaba_efficacy_primary_lead/feasibility.json",
+    "public_request_items": 2
+  },
+  {
+    "opportunity_id": "asd_disconnected_levels",
+    "status": "stopped_source_access_safety_refusal",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/asd_disconnected_levels/feasibility.json",
+    "public_request_items": 9,
+    "controller_search_items": 2
+  },
+  {
+    "opportunity_id": "bigg_gene_intervention",
+    "status": "stopped_no_supported_new_candidate",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/bigg_gene_intervention/feasibility.json",
+    "public_request_items": 17,
+    "controller_search_items": 2
+  },
+  {
+    "opportunity_id": "car_t_overlap_synthesis",
+    "status": "stopped_ready_made_overlap_controlled_synthesis",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/car_t_overlap_synthesis/feasibility.json",
+    "public_request_items": 2
+  },
+  {
+    "opportunity_id": "d2_kinetic_bias",
+    "status": "stopped_complete_experimental_context_unverified",
+    "constructed": false,
+    "admitted": false,
+    "evidence": "opportunities/d2_kinetic_bias/feasibility.json",
+    "controller_source_check": "opportunities/d2_kinetic_bias/controller_source_check.json",
+    "public_request_items": 10,
+    "controller_search_items": 2,
+    "controller_followup_items": 10
+  }
+]

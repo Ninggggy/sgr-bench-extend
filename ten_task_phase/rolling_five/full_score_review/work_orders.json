@@ -1,0 +1,46 @@
+{
+  "started_at": "2026-09-12T17:37:32.551132+00:00",
+  "groups": {
+    "review_papers": [
+      "epmc_quantitative_001",
+      "arxiv_assumption_scope_001",
+      "optimization_guarantee_001"
+    ],
+    "review_registry_law": [
+      "iana_dtls_001",
+      "scotus_joinder_001"
+    ],
+    "review_kegg": [
+      "kegg_prodrug_identity_001",
+      "kegg_module_products_001"
+    ]
+  },
+  "worker_model_requested": "gpt-6-astra",
+  "worker_effort_requested": "high",
+  "max_worker_wall_seconds": 1200,
+  "maximum_concurrency": 4,
+  "root_role": "coordination and deterministic aggregation; substantive reviews delegated to Astra/high",
+  "no_new_tests": true,
+  "no_unrelated_exploration": true,
+  "runtime_at_start": {
+    "prior_builder": "chembl-structure-builder-01 terminal runtime_error",
+    "replacement_started": false,
+    "project_cli_workers_active": 0,
+    "native_review_workers": 3
+  },
+  "account_quota_latest": {
+    "codex_week_used_percent": 13,
+    "resets_redeemed": 0
+  },
+  "usage": "pending observed native-agent traces; unknown must not be recorded as zero",
+  "user_request_at": "2026-09-12T17:34:51.491Z",
+  "root_token_baseline": {
+    "input_tokens": 118312091,
+    "cached_input_tokens": 115973504,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 475492,
+    "reasoning_output_tokens": 249535,
+    "total_tokens": 118787583
+  },
+  "accounting_note": "Root observed cumulative delta from last token_count before user review steering; unreported tail is unknown."
+}

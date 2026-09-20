@@ -1,0 +1,124 @@
+{
+  "at": "2026-09-13T01:50:16.634695+00:00",
+  "controller_reference_recompute": "passed; oracle byte-equal",
+  "full_declared_schema": "passed using existing runtime.stage_results.validate",
+  "prepare_files_state": "passed",
+  "scoring_program_matches_registered": "passed",
+  "rendered_blind_config_matches_registered_sol_medium": "passed",
+  "worker_records": [
+    {
+      "session_number": 160,
+      "run_id": "native-construction-01a09868-9b30-7e42-b696-e26560254195",
+      "run_dir": null,
+      "label": "/root/chembl_incremental_recovery",
+      "purpose": "construction",
+      "role": "constructor",
+      "thread_id": "01a09868-9ab1-7133-b053-ae33d01818ae",
+      "turn_id": "01a09868-9b30-7e42-b696-e26560254195",
+      "trace_path": "/Users/ning/.codex/sessions/2026/09/13/rollout-2026-09-13T09-36-27-01a09868-9ab1-7133-b053-ae33d01818ae.jsonl",
+      "started_at": "2026-09-13T01:36:27.449Z",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "usage_incomplete": true,
+      "ended_at": "2026-09-13T01:49:32.242Z",
+      "elapsed_seconds": 784.793,
+      "usage": {
+        "input_tokens": 2527600,
+        "cached_input_tokens": 2427776,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 20407,
+        "reasoning_output_tokens": 2930,
+        "total_tokens": 2548007
+      }
+    },
+    {
+      "session_number": 161,
+      "run_id": "native-construction-01a09868-df89-7082-84eb-402be930ac8f",
+      "run_dir": null,
+      "label": "/root/review_registry_law",
+      "purpose": "construction",
+      "role": "constructor",
+      "thread_id": "01a096b1-6dd7-7043-b1fe-9e51d479d210",
+      "turn_id": "01a09868-df89-7082-84eb-402be930ac8f",
+      "trace_path": "/Users/ning/.codex/sessions/2026/09/13/rollout-2026-09-13T01-36-45-01a096b1-6dd7-7043-b1fe-9e51d479d210.jsonl",
+      "started_at": "2026-09-13T01:36:44.955Z",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "usage_incomplete": true,
+      "ended_at": "2026-09-13T01:44:11.846Z",
+      "elapsed_seconds": 446.891,
+      "usage": {
+        "input_tokens": 2697016,
+        "cached_input_tokens": 2475520,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9768,
+        "reasoning_output_tokens": 2781,
+        "total_tokens": 2706784
+      }
+    }
+  ],
+  "latest_controller_record": {
+    "session_number": 166,
+    "run_id": "controller-turn-01a09863-1df0-7551-8766-c7f913e509f5",
+    "run_dir": null,
+    "label": "actual controller continuation or clarification",
+    "purpose": "coordination",
+    "role": "controller",
+    "thread_id": "01a093ef-429c-7323-9043-6551a6039662",
+    "turn_id": "01a09863-1df0-7551-8766-c7f913e509f5",
+    "trace_path": "/Users/ning/.codex/sessions/2026/09/12/rollout-2026-09-12T12-45-26-01a093ef-429c-7323-9043-6551a6039662.jsonl",
+    "usage_incomplete": true,
+    "started_at": "2026-09-13T01:30:27.723Z",
+    "status": "running",
+    "model": "gpt-6-astra",
+    "effort": "medium",
+    "usage": {
+      "input_tokens": 3240452,
+      "cached_input_tokens": 2964864,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 9889,
+      "reasoning_output_tokens": 1747,
+      "total_tokens": 3250341
+    }
+  },
+  "account_used_percent_observation": 17,
+  "new_model_tests": 0,
+  "standard_admissions": 0,
+  "target": 5,
+  "limitations": "Known token observations may omit tail usage. Cached input is part of input; account quota cannot be inferred from cumulative tokens. Worker durations are not wall time.",
+  "latest_checkpoint": {
+    "at": "2026-09-13T03:58:28.751816+00:00",
+    "native_goal_status": "active",
+    "standard_admissions": 0,
+    "target": 5,
+    "admission_check": "passed_partial_0_of_5",
+    "current_quota_used_percent": 26,
+    "max_sessions": null,
+    "old_history_preserved": true,
+    "chembl_revision": 2,
+    "chembl_substantive_revisions": 1,
+    "chembl_raw_development_a": {
+      "CG": "64/64",
+      "GO": "64/64"
+    },
+    "chembl_access_protocol": "both_issues_recorded_no_retest",
+    "iana_revision": 4,
+    "iana_substantive_revisions": 2,
+    "iana_raw_development_a": {
+      "CG": "10/10",
+      "GO": "10/10"
+    },
+    "device_raw_development_a": {
+      "CG": "8/8",
+      "GO": "8/8"
+    },
+    "device_access_protocol": {
+      "CG": "reviewed_transitions_pass",
+      "GO": "issue"
+    },
+    "formal_trials": 0,
+    "human_validation": "not_performed"
+  }
+}

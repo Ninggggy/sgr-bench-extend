@@ -1,0 +1,70 @@
+{
+  "columns": [
+    "erratum_id",
+    "legacy_rfc",
+    "legacy_section",
+    "legacy_has_defect"
+  ],
+  "row_key": [
+    "erratum_id"
+  ],
+  "fields": {
+    "erratum_id": {
+      "type": "integer",
+      "aliases": {
+        "eid7138": "7138",
+        "eid7306": "7306",
+        "eid7419": "7419"
+      }
+    },
+    "legacy_rfc": {
+      "type": "integer",
+      "aliases": {
+        "RFC 7231": "7231",
+        "RFC7231": "7231",
+        "rfc 7231": "7231",
+        "rfc7231": "7231",
+        "RFC 7233": "7233",
+        "RFC7233": "7233",
+        "rfc 7233": "7233",
+        "rfc7233": "7233"
+      }
+    },
+    "legacy_section": {
+      "aliases": {
+        "\u00a75.3.2": "5.3.2",
+        "\u00a7 5.3.2": "5.3.2",
+        "Section 5.3.2": "5.3.2",
+        "section 5.3.2": "5.3.2",
+        "\u00a72.1": "2.1",
+        "\u00a7 2.1": "2.1",
+        "Section 2.1": "2.1",
+        "section 2.1": "2.1",
+        "\u00a73.1.1.2": "3.1.1.2",
+        "\u00a7 3.1.1.2": "3.1.1.2",
+        "Section 3.1.1.2": "3.1.1.2",
+        "section 3.1.1.2": "3.1.1.2"
+      }
+    },
+    "legacy_has_defect": {
+      "uppercase": true,
+      "aliases": {
+        "Yes": "YES",
+        "No": "NO",
+        "true": "YES",
+        "false": "NO",
+        "TRUE": "YES",
+        "FALSE": "NO"
+      }
+    }
+  },
+  "evaluation_policy": {
+    "parse_failure": "invalid_unscored_never_success",
+    "blank": "retain_zero_score_but_format_confounded_never_success",
+    "NONE": "zero_for_nonempty_reference_if_substantive_complete_answer_and_no_access_confound",
+    "row_key_gating": "erratum_id match required before field credit",
+    "whole_task": "all rows and fields correct, no duplicates/malformed rows/extra or omitted rows; sorted order; no ignored prose",
+    "threshold": "n=2*correct_fields; d=gold_fields+pred_fields; d>0 and 10*n<7*d; validity additionally required",
+    "reporter": "../../evaluation.py"
+  }
+}

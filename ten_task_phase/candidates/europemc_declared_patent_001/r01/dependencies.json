@@ -1,0 +1,40 @@
+{
+  "candidate_count": 1,
+  "observed_dependencies": [
+    {
+      "earlier_evidence": "The sole method-related patent declaration in the complete article corpus identifies an unnumbered BART-Seq application.",
+      "source": "d0002.response, notes COI-statement, Par65",
+      "later_retrieval_changed": "Look for primary transfer evidence explicitly connecting the disclosed method and paper to a published application.",
+      "result": "The inspected primary transfer PDF contains the method, original DOI and technology-patent identity.",
+      "absent_from_earlier_sources": "Exact published application identity and publication histories"
+    },
+    {
+      "earlier_evidence": "The primary transfer document supplies the technology publication identity.",
+      "source": "web/bridge.txt",
+      "later_retrieval_changed": "Retrieve patent metadata for that exact disclosed invention and its family, rather than a similar title, author match or citing patent.",
+      "result": "Family and application-publication histories yielding the catalogue.",
+      "absent_from_earlier_sources": "EP and US application numbers, their first publication identifiers and dates"
+    }
+  ],
+  "collapsed_portion": {
+    "claim_not_made": "Separate jurisdiction lookups are necessary after reading a family record.",
+    "actual_shortcut": "The discovered US application page contains all final patent-side fields across WO, EP and US. A suitable OPS family/equivalents response could similarly combine lookups.",
+    "consequence": "The candidate's dependency is limited to disclosure and explicit invention identification selecting subsequent retrieval; downstream metadata computation is not counted as an additional necessary retrieval layer."
+  },
+  "bulk_assessment": {
+    "valid_paths": ["Europe PMC REST", "EPO OPS", "EPO DOCDB", "Linked open EP data", "USPTO public data services"],
+    "complete_bulk_download_observed": false,
+    "all_decision_fields_fixed_source_observed": false,
+    "unknown": "No exhaustive test of global DOCDB or every smaller export was performed. Tool limits and authentication requirements do not invalidate these paths."
+  },
+  "counterexample": {
+    "source": "web/counterexample.txt",
+    "relationship": "Patent citation, not family membership",
+    "resolved_family": "54266422",
+    "citing_family": "75690287",
+    "citing_publication": "US20230151358A1",
+    "citing_application": "US17/920,694",
+    "citing_international_application": "PCT/EP2021/060704",
+    "verification_limit": "Metadata display checked; no claim that this counterexample cites the BART article."
+  }
+}

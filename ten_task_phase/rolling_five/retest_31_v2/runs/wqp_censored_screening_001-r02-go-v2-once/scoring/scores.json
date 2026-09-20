@@ -1,0 +1,83 @@
+{
+  "status": "parse_failure_unscored",
+  "metrics": null,
+  "counts": {
+    "correct_fields": 0,
+    "gold_fields": 48,
+    "pred_fields": 0,
+    "item_denominator": 48,
+    "correct_rows": 0,
+    "gold_rows": 12,
+    "pred_rows": 0,
+    "row_denominator": 12,
+    "correct_pairs": 0,
+    "pair_denominator": 0,
+    "shared_ids": 0
+  },
+  "omitted_ids": [
+    [
+      "below_mdl",
+      "available",
+      "below_or_equal"
+    ],
+    [
+      "below_mdl",
+      "available",
+      "crosses"
+    ],
+    [
+      "below_mdl",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    [
+      "between_mdl_rl",
+      "available",
+      "above"
+    ],
+    [
+      "between_mdl_rl",
+      "available",
+      "below_or_equal"
+    ],
+    [
+      "between_mdl_rl",
+      "available",
+      "crosses"
+    ],
+    [
+      "between_mdl_rl",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    [
+      "not_reported",
+      "available",
+      "not_reported"
+    ],
+    [
+      "point",
+      "available",
+      "above"
+    ],
+    [
+      "point",
+      "available",
+      "below_or_equal"
+    ],
+    [
+      "point",
+      "withdrawn",
+      "unresolved_hardness"
+    ],
+    [
+      "unresolved_u_limit",
+      "available",
+      "unresolved_limit"
+    ]
+  ],
+  "extra_ids": [],
+  "duplicate_ids": [],
+  "order_pairs": [],
+  "poa_note": "fewer than two shared IDs => 0"
+}

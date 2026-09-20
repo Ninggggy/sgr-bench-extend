@@ -1,0 +1,135 @@
+{
+  "status": "parsed",
+  "rows": [
+    {
+      "line": 2,
+      "raw": "CHEMBL170|FULL",
+      "cells": [
+        "CHEMBL170",
+        "FULL"
+      ]
+    },
+    {
+      "line": 3,
+      "raw": "CHEMBL1294|FULL",
+      "cells": [
+        "CHEMBL1294",
+        "FULL"
+      ]
+    },
+    {
+      "line": 4,
+      "raw": "CHEMBL15088|UNSPECIFIED",
+      "cells": [
+        "CHEMBL15088",
+        "UNSPECIFIED"
+      ]
+    },
+    {
+      "line": 5,
+      "raw": "CHEMBL387326|PARTIAL",
+      "cells": [
+        "CHEMBL387326",
+        "PARTIAL"
+      ]
+    },
+    {
+      "line": 6,
+      "raw": "CHEMBL407725|PARTIAL",
+      "cells": [
+        "CHEMBL407725",
+        "PARTIAL"
+      ]
+    },
+    {
+      "line": 7,
+      "raw": "CHEMBL460606|FULL",
+      "cells": [
+        "CHEMBL460606",
+        "FULL"
+      ]
+    },
+    {
+      "line": 8,
+      "raw": "CHEMBL512340|FULL",
+      "cells": [
+        "CHEMBL512340",
+        "FULL"
+      ]
+    },
+    {
+      "line": 9,
+      "raw": "CHEMBL576997|FULL",
+      "cells": [
+        "CHEMBL576997",
+        "FULL"
+      ]
+    },
+    {
+      "line": 10,
+      "raw": "CHEMBL601807|PARTIAL",
+      "cells": [
+        "CHEMBL601807",
+        "PARTIAL"
+      ]
+    },
+    {
+      "line": 11,
+      "raw": "CHEMBL1358565|FULL",
+      "cells": [
+        "CHEMBL1358565",
+        "FULL"
+      ]
+    },
+    {
+      "line": 12,
+      "raw": "CHEMBL1364159|PARTIAL",
+      "cells": [
+        "CHEMBL1364159",
+        "PARTIAL"
+      ]
+    },
+    {
+      "line": 13,
+      "raw": "CHEMBL1616938|FULL",
+      "cells": [
+        "CHEMBL1616938",
+        "FULL"
+      ]
+    },
+    {
+      "line": 14,
+      "raw": "CHEMBL1741006|FULL",
+      "cells": [
+        "CHEMBL1741006",
+        "FULL"
+      ]
+    },
+    {
+      "line": 15,
+      "raw": "CHEMBL1878119|PARTIAL",
+      "cells": [
+        "CHEMBL1878119",
+        "PARTIAL"
+      ]
+    },
+    {
+      "line": 16,
+      "raw": "CHEMBL2355467|PARTIAL",
+      "cells": [
+        "CHEMBL2355467",
+        "PARTIAL"
+      ]
+    },
+    {
+      "line": 17,
+      "raw": "CHEMBL4751379|PARTIAL",
+      "cells": [
+        "CHEMBL4751379",
+        "PARTIAL"
+      ]
+    }
+  ],
+  "ignored_lines": [],
+  "issues": []
+}

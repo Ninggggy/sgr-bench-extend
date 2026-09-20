@@ -1,0 +1,22 @@
+{
+  "candidate_id": "nvd_initial_assessment_001",
+  "revision": "r01",
+  "ecosystem": "NVD",
+  "construction_family": "product_cohort_to_source_attributed_assessment_history",
+  "created_at": "2026-09-09T16:49:16.796914+00:00",
+  "constructor": {
+    "model": "gpt-6-astra",
+    "effort": "high",
+    "session_number": 50,
+    "turn_id": "01a086eb-1ae7-79c2-ae55-2870e0a3785a"
+  },
+  "substantive_revisions_used": 0,
+  "status": "rejected_development",
+  "content_validated": false,
+  "difficulty_status": "both_initial_variants_fully_correct",
+  "admitted": false,
+  "reference_execution": "passed",
+  "independent_key_check": "passed",
+  "decision_at": "2026-09-09T17:26:45.622788+00:00",
+  "decision": "Both CG and GO development A returned all six rows and all fields correctly (Item-F1=1 each). No substantive error supports continuing; no development B, shortcut attack or admission round scheduled. This is development rejection, not an admission-threshold result."
+}

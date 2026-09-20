@@ -1,0 +1,17 @@
+{
+  "wateroffice": {
+    "url": "https://wateroffice.ec.gc.ca/report/data_availability_e.html?type=historical&station=08EE004&parameter_type=Flow",
+    "result": "native web: not safe to open (non-retryable error)",
+    "action": "no retry, representation/tool switch or model trial for this task"
+  },
+  "genome": {
+    "url": "https://www.kegg.jp/kegg-bin/show_organism?menu_type=pathway_maps&org=api+buc",
+    "sequence": "constructor curl HTTP400; native web later non-retryable denial; no requests after denial",
+    "action": "blocked"
+  },
+  "fda": {
+    "result": "HTTP404 response bodies are abuse/excessive-requests apology pages for distinct original documents",
+    "action": "no re-fetch or alternate-tool bypass; task blocked"
+  },
+  "root_probe_note": "An initial guessed gn:T00013 URL resolved to Aquifex; it was discarded as unrelated evidence. The correct buc T00036 identity was obtained from its organism entry."
+}

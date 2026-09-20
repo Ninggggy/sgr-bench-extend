@@ -1,0 +1,136 @@
+[
+  {
+    "pair": [
+      "D00752",
+      "D05096"
+    ],
+    "member_evidence": {
+      "path": "../sources/DG00739.txt",
+      "record": "DG00739",
+      "record_lines": [
+        1,
+        9
+      ],
+      "field": "MEMBER",
+      "field_lines": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "member_line": 5
+    },
+    "annotation": "Active form of prodrug: Mycophenolic acid [DR:D05096]",
+    "comment_evidence": {
+      "path": "../sources/D_members.txt",
+      "record": "D00752",
+      "record_lines": [
+        1,
+        171
+      ],
+      "field": "COMMENT",
+      "field_lines": [
+        60
+      ],
+      "relation_lines": [
+        60
+      ]
+    },
+    "target_identity": {
+      "id": "D05096",
+      "kind": "Drug",
+      "name": "Mycophenolic acid (USAN/INN)",
+      "entry_evidence": {
+        "path": "../sources/D_members.txt",
+        "record": "D05096",
+        "record_lines": [
+          401,
+          491
+        ],
+        "field": "ENTRY",
+        "field_lines": [
+          401
+        ]
+      },
+      "name_evidence": {
+        "path": "../sources/D_members.txt",
+        "record": "D05096",
+        "record_lines": [
+          401,
+          491
+        ],
+        "field": "NAME",
+        "field_lines": [
+          402
+        ]
+      }
+    }
+  },
+  {
+    "pair": [
+      "D05094",
+      "D05096"
+    ],
+    "member_evidence": {
+      "path": "../sources/DG00739.txt",
+      "record": "DG00739",
+      "record_lines": [
+        1,
+        9
+      ],
+      "field": "MEMBER",
+      "field_lines": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "member_line": 6
+    },
+    "annotation": "Active form of prodrug: Mycophenolic acid [DR:D05096]",
+    "comment_evidence": {
+      "path": "../sources/D_members.txt",
+      "record": "D05094",
+      "record_lines": [
+        173,
+        281
+      ],
+      "field": "COMMENT",
+      "field_lines": [
+        185
+      ],
+      "relation_lines": [
+        185
+      ]
+    },
+    "target_identity": {
+      "id": "D05096",
+      "kind": "Drug",
+      "name": "Mycophenolic acid (USAN/INN)",
+      "entry_evidence": {
+        "path": "../sources/D_members.txt",
+        "record": "D05096",
+        "record_lines": [
+          401,
+          491
+        ],
+        "field": "ENTRY",
+        "field_lines": [
+          401
+        ]
+      },
+      "name_evidence": {
+        "path": "../sources/D_members.txt",
+        "record": "D05096",
+        "record_lines": [
+          401,
+          491
+        ],
+        "field": "NAME",
+        "field_lines": [
+          402
+        ]
+      }
+    }
+  }
+]

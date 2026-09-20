@@ -1,0 +1,57 @@
+{
+  "candidate_id": "europemc_balf_provenance_001",
+  "revision": 1,
+  "nodes": [
+    {
+      "id": "seed",
+      "source": "sources/primary_seed.html",
+      "decision": "Identify own experimental GSE series rather than borrowed healthy-control input."
+    },
+    {
+      "id": "cohort",
+      "source": "sources/downstream_2020.json",
+      "decision": "Complete indexed ACCESSION_ID/date/OA/PMC scope yields 14 records."
+    },
+    {
+      "id": "paper_deposits",
+      "source": "candidate_pool.json",
+      "decision": "Establish actual matrix reuse and experimental-deposit claims separately for each paper and accession."
+    },
+    {
+      "id": "repository",
+      "source": "sources/deposit_records/sources.json",
+      "decision": "Retrieve records for source-derived GSE/E-MTAB/PXD identities; inspect linked publication identity."
+    },
+    {
+      "id": "earlier_publication",
+      "source": "sources/prior_alveolosphere_nature.html",
+      "decision": "GSE141634 linked earlier article reports original experiment; exclude that pair while preserving GSE152586."
+    }
+  ],
+  "edges": [
+    [
+      "seed",
+      "cohort"
+    ],
+    [
+      "cohort",
+      "paper_deposits"
+    ],
+    [
+      "paper_deposits",
+      "repository"
+    ],
+    [
+      "repository",
+      "earlier_publication"
+    ]
+  ],
+  "local_operations_not_retrieval": [
+    "parsing XML",
+    "extracting accessions",
+    "sorting output",
+    "date comparison"
+  ],
+  "audit_status": "pending",
+  "counterexample": "Fixed 14 candidate XML files label GSE141634 as This paper, but actual repository/earlier-paper evidence changes inclusion."
+}

@@ -1,0 +1,23 @@
+{
+  "label": "screening_new_GO_1",
+  "run": "runs/r-8224e9cc365a",
+  "source_table": "d0009",
+  "query": "d0013",
+  "original_replay_equals_raw_answer": true,
+  "single_change": "ORDER BY oxy ASC -> ORDER BY CAST(oxy AS REAL) ASC",
+  "corrected_matches_all_reference_rows_and_fields": true,
+  "corrected_rows": 12,
+  "classification": "numeric processing/implementation error. query_csv explicitly loads all source columns as TEXT; textual10.0 sorts ahead of8.4. Not a source, format or scorer failure. State selection and counts were correct; do not call this strict SGR dependence evidence.",
+  "example": {
+    "withdrawal": "nwistx.01.01401065",
+    "interval": [
+      2013,
+      2019
+    ],
+    "wrong_event": "nwistx.01.01601892",
+    "wrong_DO": 10.0,
+    "correct_event": "nwistx.01.01601917",
+    "correct_DO": 8.4
+  },
+  "scope": "Controller-only offline diagnosis; no feedback to fresh blind solvers, no task/oracle/rule edits and no model retry."
+}

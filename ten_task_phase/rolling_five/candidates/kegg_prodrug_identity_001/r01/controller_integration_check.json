@@ -1,0 +1,264 @@
+{
+  "reference_recomputed": true,
+  "oracle_equal": true,
+  "full_scope_member_count": 4,
+  "pair_predicate_checks": [
+    {
+      "predicate": "aim",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "aim",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "reference_time",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "reference_time",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "finite_direct_chemical_scope",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "finite_direct_chemical_scope",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "own_explicit_relation",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "own_explicit_relation",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "pair_direction",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "pair_direction",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "target_identity",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "target_identity",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "salt_identity",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "salt_identity",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "no_group_relation_propagation",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "no_group_relation_propagation",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "namespace",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "namespace",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "complete_member_coverage",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "complete_member_coverage",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "absence_and_biological_limit",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "absence_and_biological_limit",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "failed_evidence",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "failed_evidence",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "format_columns_and_row_identity",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "format_columns_and_row_identity",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "all_pairs_and_multiple_targets",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "all_pairs_and_multiple_targets",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "ordering_and_ties",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "ordering_and_ties",
+      "variant": "go",
+      "quote_verified": true
+    },
+    {
+      "predicate": "empty_and_no_extra_output",
+      "variant": "cg",
+      "quote_verified": true
+    },
+    {
+      "predicate": "empty_and_no_extra_output",
+      "variant": "go",
+      "quote_verified": true
+    }
+  ],
+  "identical_output_format": true,
+  "schema_passed": true,
+  "scorer_self_check": {
+    "status": "deterministic_explicit",
+    "metrics": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 4,
+      "gold_fields": 4,
+      "pred_fields": 4,
+      "item_denominator": 8,
+      "correct_rows": 2,
+      "gold_rows": 2,
+      "pred_rows": 2,
+      "row_denominator": 4,
+      "correct_pairs": 1,
+      "pair_denominator": 1,
+      "shared_ids": 2
+    },
+    "omitted_ids": [],
+    "extra_ids": [],
+    "duplicate_ids": [],
+    "order_pairs": [
+      {
+        "first": [
+          "D00752",
+          "D05096"
+        ],
+        "second": [
+          "D05094",
+          "D05096"
+        ],
+        "correct": true
+      }
+    ],
+    "poa_note": "first occurrence positions; no reordering",
+    "field_differences": [
+      {
+        "pred_index": 0,
+        "id": [
+          "D00752",
+          "D05096"
+        ],
+        "field": "PRODRUG_D",
+        "pred_raw": "D00752",
+        "pred_normalized": "D00752",
+        "gold": "D00752",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "D00752",
+          "D05096"
+        ],
+        "field": "ACTIVE_D",
+        "pred_raw": "D05096",
+        "pred_normalized": "D05096",
+        "gold": "D05096",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "D05094",
+          "D05096"
+        ],
+        "field": "PRODRUG_D",
+        "pred_raw": "D05094",
+        "pred_normalized": "D05094",
+        "gold": "D05094",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "D05094",
+          "D05096"
+        ],
+        "field": "ACTIVE_D",
+        "pred_raw": "D05096",
+        "pred_normalized": "D05096",
+        "gold": "D05096",
+        "correct": true,
+        "reason": "match"
+      }
+    ]
+  },
+  "human_review": "not_performed",
+  "independent_final_audit": "not_performed",
+  "pre_A_stability": "passed: controller_pre_A_stability.json"
+}

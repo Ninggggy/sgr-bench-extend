@@ -1,0 +1,175 @@
+{
+  "status": "passed",
+  "checked_sources": 14,
+  "references": [
+    {
+      "source_id": "d0001",
+      "field": "path",
+      "path": "../sources/d0001.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0001",
+      "field": "provenance_registry",
+      "path": "../../../runs/chembl-structure-feasibility-01/downloaded_data/registry.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0002",
+      "field": "path",
+      "path": "../sources/d0002.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0002",
+      "field": "provenance_registry",
+      "path": "../../../runs/chembl-structure-feasibility-01/downloaded_data/registry.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0003",
+      "field": "path",
+      "path": "../sources/d0003.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0003",
+      "field": "provenance_registry",
+      "path": "../../../runs/chembl-structure-feasibility-01/downloaded_data/registry.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0004",
+      "field": "path",
+      "path": "../sources/d0004.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0004",
+      "field": "provenance_registry",
+      "path": "../../../runs/chembl-structure-feasibility-01/downloaded_data/registry.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0005",
+      "field": "path",
+      "path": "../sources/d0005.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0005",
+      "field": "provenance_registry",
+      "path": "../../../runs/chembl-structure-feasibility-01/downloaded_data/registry.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0006",
+      "field": "path",
+      "path": "../sources/d0006.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0006",
+      "field": "provenance_registry",
+      "path": "../../../runs/chembl-structure-feasibility-01/downloaded_data/registry.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0007",
+      "field": "path",
+      "path": "../sources/d0007.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0007",
+      "field": "provenance_registry",
+      "path": "../../../runs/chembl-structure-feasibility-01/downloaded_data/registry.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0008",
+      "field": "path",
+      "path": "../sources/d0008.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0008",
+      "field": "provenance_registry",
+      "path": "../../../runs/chembl-structure-feasibility-01/downloaded_data/registry.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0009",
+      "field": "path",
+      "path": "../sources/d0009.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0009",
+      "field": "provenance_registry",
+      "path": "../../../runs/chembl-structure-feasibility-01/downloaded_data/registry.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0010",
+      "field": "path",
+      "path": "../sources/d0010.json",
+      "exists": true
+    },
+    {
+      "source_id": "d0010",
+      "field": "provenance_registry",
+      "path": "../../../runs/chembl-structure-feasibility-01/downloaded_data/registry.json",
+      "exists": true
+    },
+    {
+      "source_id": "resumption_status_before",
+      "field": "path",
+      "path": "../resumption_pretest_refresh/status_before.json",
+      "exists": true
+    },
+    {
+      "source_id": "resumption_status_before",
+      "field": "provenance_registry",
+      "path": "../resumption_pretest_refresh/acquisition.json",
+      "exists": true
+    },
+    {
+      "source_id": "resumption_exact_name",
+      "field": "path",
+      "path": "../resumption_pretest_refresh/exact_name.json",
+      "exists": true
+    },
+    {
+      "source_id": "resumption_exact_name",
+      "field": "provenance_registry",
+      "path": "../resumption_pretest_refresh/acquisition.json",
+      "exists": true
+    },
+    {
+      "source_id": "resumption_prefix",
+      "field": "path",
+      "path": "../resumption_pretest_refresh/prefix.json",
+      "exists": true
+    },
+    {
+      "source_id": "resumption_prefix",
+      "field": "provenance_registry",
+      "path": "../resumption_pretest_refresh/acquisition.json",
+      "exists": true
+    },
+    {
+      "source_id": "resumption_status_after",
+      "field": "path",
+      "path": "../resumption_pretest_refresh/status_after.json",
+      "exists": true
+    },
+    {
+      "source_id": "resumption_status_after",
+      "field": "provenance_registry",
+      "path": "../resumption_pretest_refresh/acquisition.json",
+      "exists": true
+    }
+  ],
+  "manifest_auxiliary_paths_exist": true
+}

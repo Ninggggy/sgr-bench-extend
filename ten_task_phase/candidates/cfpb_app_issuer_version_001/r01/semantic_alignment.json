@@ -1,0 +1,33 @@
+{
+  "shared_oracle":"oracle.psv",
+  "shared_rules":"rules.json",
+  "relationship":"CG.instruction begins with the complete GO.instruction. Its appended paragraph supplies only retrieval guidance. output_format is identical.",
+  "conditions_in_both":[
+    "Inclusive April 1–June 30, 2024 filing cohort",
+    "Company respondents explicitly described as fintech or financial-technology in official action summaries",
+    "Consumer mobile app with publicly documented deposit account",
+    "Standard individual checking/transaction agreement scope",
+    "Latest dated standard version available by September 9, 2026 through the company public legal/policy index",
+    "Joint, savings, secured collateral and card-holder-specific agreements outside scope",
+    "Agreement-body issuer and revision/last-updated label",
+    "Archived versions excluded; current footer cannot replace historical body",
+    "Legal issuer only, not app company, intermediary or unspecified pooled/sweep banks",
+    "Deduplicate respondent and issuer",
+    "2026 disclosures do not establish 2024 partnerships",
+    "Announced acquisition changes identity only if completed by cutoff"
+  ],
+  "field_evidence":{
+    "respondent":"evidence/actions.json titles; agreement program fragments link the consumer account to the respondent",
+    "filing_date":"evidence/actions.json opening-paragraph dates, reconciled to chronological catalogue date-filed entries",
+    "issuer_bank":"evidence/agreements.json issuer fragments, with full clauses retained in actual web responses",
+    "fdic_certificate":"d0004.response NIC legal-name/certificate pairs; d0005.response 2021 CRA front-page name/certificate pair",
+    "disclosure_revision":"evidence/agreements.json revision/last-updated header fragments"
+  },
+  "alias_grounding":{
+    "respondent":"Chime and SoLo are the abbreviations used in the action bodies; punctuation variants preserve the same corporate names.",
+    "issuer_bank":"N.A. in company agreements corresponds to National Association in the two NIC legal names. Bangor's name is identical across agreement and CRA record.",
+    "dates":"ISO and written representations preserve the source's calendar date and precision. February 2026 is not assigned a specific revision day."
+  },
+  "public_files_contain_only":["instruction","output_format"],
+  "public_answer_hints":"No company or bank names, record identifiers, author hints, expected answer count or target website domains are supplied."
+}

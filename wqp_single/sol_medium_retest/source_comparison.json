@@ -1,0 +1,453 @@
+{
+  "comparison_fields": {
+    "Station": [
+      "OrganizationIdentifier",
+      "MonitoringLocationIdentifier",
+      "MonitoringLocationName",
+      "MonitoringLocationTypeName",
+      "HUCEightDigitCode"
+    ],
+    "Activity": [
+      "OrganizationIdentifier",
+      "ActivityIdentifier",
+      "MonitoringLocationIdentifier",
+      "ActivityStartDate",
+      "ActivityStartTime/Time",
+      "ActivityMediaName",
+      "ActivityTypeCode"
+    ],
+    "Result": [
+      "OrganizationIdentifier",
+      "ActivityIdentifier",
+      "MonitoringLocationIdentifier",
+      "ActivityStartDate",
+      "USGSPCode",
+      "ResultMeasureValue",
+      "ResultMeasure/MeasureUnitCode",
+      "ResultStatusIdentifier",
+      "ResultValueTypeName",
+      "ResultDetectionConditionText",
+      "MeasureQualifierCode"
+    ]
+  },
+  "runs": [
+    {
+      "label": "screening_new_CG_1",
+      "files": [
+        {
+          "file_id": "d0001",
+          "path": "runs/r-a55562d61d59/downloaded_data/d0001.response",
+          "kind": "Station",
+          "source_url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&sorted=no",
+          "rows_total": 460,
+          "rows_in_comparison_scope": 460,
+          "reference_scope_rows": 460,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0003",
+          "path": "runs/r-a55562d61d59/downloaded_data/d0003.response",
+          "kind": "Activity",
+          "source_url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&sorted=no",
+          "rows_total": 1026,
+          "rows_in_comparison_scope": 1026,
+          "reference_scope_rows": 1026,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0004",
+          "path": "runs/r-a55562d61d59/downloaded_data/d0004.response",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&pCode=00010%3B00095%3B00300%3B00400&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&sorted=no",
+          "rows_total": 3782,
+          "rows_in_comparison_scope": 3782,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        }
+      ]
+    },
+    {
+      "label": "screening_new_GO_1",
+      "files": [
+        {
+          "file_id": "d0003",
+          "path": "runs/r-8224e9cc365a/downloaded_data/d0003.response",
+          "kind": "Station",
+          "source_url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&providers=NWIS",
+          "rows_total": 460,
+          "rows_in_comparison_scope": 460,
+          "reference_scope_rows": 460,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0005",
+          "path": "runs/r-8224e9cc365a/downloaded_data/d0005.response",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?siteid=USGS-08056400&siteid=USGS-08057000&siteid=USGS-08057030&siteid=USGS-08057055&siteid=USGS-08057070&siteid=USGS-08057410&siteid=USGS-08057448&siteid=USGS-08057449&siteid=USGS-08062500&siteid=USGS-08062700&siteid=USGS-08065000&siteid=USGS-08065350&siteid=USGS-08066000&siteid=USGS-08066250&siteid=USGS-08066500&siteid=USGS-08067000&siteid=USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&providers=NWIS&sorted=no&pCode=00010%3B00095%3B00300%3B00400",
+          "rows_total": 3782,
+          "rows_in_comparison_scope": 3782,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0006",
+          "path": "runs/r-8224e9cc365a/downloaded_data/d0006.response",
+          "kind": "Activity",
+          "source_url": "https://www.waterqualitydata.us/data/Activity/search?siteid=USGS-08056400&siteid=USGS-08057000&siteid=USGS-08057030&siteid=USGS-08057055&siteid=USGS-08057070&siteid=USGS-08057410&siteid=USGS-08057448&siteid=USGS-08057449&siteid=USGS-08062500&siteid=USGS-08062700&siteid=USGS-08065000&siteid=USGS-08065350&siteid=USGS-08066000&siteid=USGS-08066250&siteid=USGS-08066500&siteid=USGS-08067000&siteid=USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&providers=NWIS&sorted=no",
+          "rows_total": 1026,
+          "rows_in_comparison_scope": 1026,
+          "reference_scope_rows": 1026,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_CG_1",
+      "files": [
+        {
+          "file_id": "d0001",
+          "path": "runs/r-0ee77dc62ed5/downloaded_data/d0001.response",
+          "kind": "Station",
+          "source_url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS&sorted=no",
+          "rows_total": 460,
+          "rows_in_comparison_scope": 460,
+          "reference_scope_rows": 460,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0004",
+          "path": "runs/r-0ee77dc62ed5/downloaded_data/d0004.response",
+          "kind": "Activity",
+          "source_url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&sampleMedia=Water&pCode=00010%3B00095%3B00300%3B00400&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS&sorted=no",
+          "rows_total": 21095,
+          "rows_in_comparison_scope": 975,
+          "reference_scope_rows": 1026,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 51,
+          "exact_full_scope_multiset": false,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0005",
+          "path": "runs/r-0ee77dc62ed5/downloaded_data/d0005.response",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&sampleMedia=Water&pCode=00010%3B00095%3B00300%3B00400&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS&sorted=no",
+          "rows_total": 83609,
+          "rows_in_comparison_scope": 3780,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 2,
+          "exact_full_scope_multiset": false,
+          "different_rows_preview": []
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_GO_1",
+      "files": [
+        {
+          "file_id": "d0001",
+          "path": "runs/r-69914a9877c8/downloaded_data/d0001.response",
+          "kind": "Station",
+          "source_url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&sorted=no",
+          "rows_total": 460,
+          "rows_in_comparison_scope": 460,
+          "reference_scope_rows": 460,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0003",
+          "path": "runs/r-69914a9877c8/downloaded_data/d0003.response",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&sampleMedia=Water&mimeType=csv&zip=no&sorted=no&pCode=00010%3B00095%3B00300%3B00400",
+          "rows_total": 3780,
+          "rows_in_comparison_scope": 3780,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 2,
+          "exact_full_scope_multiset": false,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0004",
+          "path": "runs/r-69914a9877c8/downloaded_data/d0004.response",
+          "kind": "Activity",
+          "source_url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&sampleMedia=Water&mimeType=csv&zip=no&sorted=no",
+          "rows_total": 404,
+          "rows_in_comparison_scope": 404,
+          "reference_scope_rows": 1026,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 622,
+          "exact_full_scope_multiset": false,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0005",
+          "path": "runs/r-69914a9877c8/downloaded_data/d0005.response",
+          "kind": "Activity",
+          "source_url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500&startDateLo=01-01-2000&startDateHi=12-31-2019&sampleMedia=Water&mimeType=csv&zip=no&sorted=no",
+          "rows_total": 605,
+          "rows_in_comparison_scope": 605,
+          "reference_scope_rows": 1026,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 421,
+          "exact_full_scope_multiset": false,
+          "different_rows_preview": []
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_CG_2",
+      "files": [
+        {
+          "file_id": "d0002",
+          "path": "runs/r-92c02e2f6067/downloaded_data/d0002.csv",
+          "kind": "Station",
+          "source_url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "rows_total": 460,
+          "rows_in_comparison_scope": 460,
+          "reference_scope_rows": 460,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0005",
+          "path": "runs/r-92c02e2f6067/downloaded_data/d0005.csv",
+          "kind": "Activity",
+          "source_url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "rows_total": 1026,
+          "rows_in_comparison_scope": 1026,
+          "reference_scope_rows": 1026,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0007",
+          "path": "runs/r-92c02e2f6067/downloaded_data/d0007.csv",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010%3B00095%3B00300%3B00400",
+          "rows_total": 3782,
+          "rows_in_comparison_scope": 3782,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_GO_2",
+      "files": [
+        {
+          "file_id": "d0001",
+          "path": "runs/r-4df368e8ea7e/downloaded_data/d0001.response",
+          "kind": "Station",
+          "source_url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS",
+          "rows_total": 460,
+          "rows_in_comparison_scope": 460,
+          "reference_scope_rows": 460,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0003",
+          "path": "runs/r-4df368e8ea7e/downloaded_data/d0003.response",
+          "kind": "Activity",
+          "source_url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS",
+          "rows_total": 1026,
+          "rows_in_comparison_scope": 1026,
+          "reference_scope_rows": 1026,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0014",
+          "path": "runs/r-4df368e8ea7e/downloaded_data/d0014.response",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS&pCode=00010%3B00095%3B00300%3B00400",
+          "rows_total": 3782,
+          "rows_in_comparison_scope": 3782,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_CG_3",
+      "files": [
+        {
+          "file_id": "d0001",
+          "path": "runs/r-e5e848752431/downloaded_data/d0001.response",
+          "kind": "Station",
+          "source_url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+          "rows_total": 460,
+          "rows_in_comparison_scope": 460,
+          "reference_scope_rows": 460,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0003",
+          "path": "runs/r-e5e848752431/downloaded_data/d0003.response",
+          "kind": "Activity",
+          "source_url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+          "rows_total": 1026,
+          "rows_in_comparison_scope": 1026,
+          "reference_scope_rows": 1026,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0004",
+          "path": "runs/r-e5e848752431/downloaded_data/d0004.response",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&pCode=00010&mimeType=csv&zip=no",
+          "rows_total": 977,
+          "rows_in_comparison_scope": 977,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 2805,
+          "exact_full_scope_multiset": false,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0005",
+          "path": "runs/r-e5e848752431/downloaded_data/d0005.response",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&pCode=00095&mimeType=csv&zip=no",
+          "rows_total": 948,
+          "rows_in_comparison_scope": 948,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 2834,
+          "exact_full_scope_multiset": false,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0006",
+          "path": "runs/r-e5e848752431/downloaded_data/d0006.response",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&pCode=00300&mimeType=csv&zip=no",
+          "rows_total": 928,
+          "rows_in_comparison_scope": 928,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 2854,
+          "exact_full_scope_multiset": false,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0007",
+          "path": "runs/r-e5e848752431/downloaded_data/d0007.response",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2009&pCode=00400&mimeType=csv&zip=no",
+          "rows_total": 279,
+          "rows_in_comparison_scope": 279,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 3503,
+          "exact_full_scope_multiset": false,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0008",
+          "path": "runs/r-e5e848752431/downloaded_data/d0008.response",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2010&startDateHi=12-31-2019&pCode=00400&mimeType=csv&zip=no",
+          "rows_total": 650,
+          "rows_in_comparison_scope": 650,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 3132,
+          "exact_full_scope_multiset": false,
+          "different_rows_preview": []
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_GO_3",
+      "files": [
+        {
+          "file_id": "d0002",
+          "path": "runs/r-426fcaec1732/downloaded_data/d0002.csv",
+          "kind": "Station",
+          "source_url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&providers=NWIS&sorted=no",
+          "rows_total": 460,
+          "rows_in_comparison_scope": 460,
+          "reference_scope_rows": 460,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0005",
+          "path": "runs/r-426fcaec1732/downloaded_data/d0005.csv",
+          "kind": "Result",
+          "source_url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&pCode=00010%3B00095%3B00300%3B00400&mimeType=csv&zip=yes&providers=NWIS&sorted=no",
+          "rows_total": 3782,
+          "rows_in_comparison_scope": 3782,
+          "reference_scope_rows": 3782,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        },
+        {
+          "file_id": "d0007",
+          "path": "runs/r-426fcaec1732/downloaded_data/d0007.csv",
+          "kind": "Activity",
+          "source_url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&providers=NWIS&sorted=no",
+          "rows_total": 1026,
+          "rows_in_comparison_scope": 1026,
+          "reference_scope_rows": 1026,
+          "different_or_extra_projected_rows": 0,
+          "reference_rows_not_in_this_response": 0,
+          "exact_full_scope_multiset": true,
+          "different_rows_preview": []
+        }
+      ]
+    }
+  ],
+  "interpretation": "Fieldwise multiset comparison against original raw official responses. Narrow queries may legitimately omit reference rows; omission alone is not source drift or incomplete solver coverage. Exact-full-scope means these decisive fields match, not every metadata column or all future sources. Old004 HTML requires separate review."
+}

@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-09-08T13:35:35.232287+00:00",
+  "observed_in_run": "runs/r-6e4ca9d3999e",
+  "model_computation": "Native functions.exec JavaScript can operate on data returned by tools and use in-turn store/load; this was available throughout all revisions and remains identical for old/new comparisons. It has no direct filesystem or network access.",
+  "MCP_tools": [
+    "official HTTPS download",
+    "paged registered-response read_text",
+    "read-only SQLite query_csv"
+  ],
+  "success_path": "Solver fetched complete official records, built supported-year sets, evaluated all original eligible withdrawals using locally written JavaScript, selected actual remaining events, and independently cross-checked selected records with SQL. Literal VALUES in finalSQL were generated from its own prior trial computations.",
+  "locators": [
+    "runs/r-6e4ca9d3999e/tool_events.jsonl ordinals129,135,141,150",
+    "first_solve_state_computation.json"
+  ],
+  "interpretation": "The source-backed dependency is real, but this model implemented it correctly within budget. Three downloads and sixteen SQL calls plus native computation suffice in this observed solve. Not evidence of a necessary adaptive network chain or of stronger difficulty."
+}

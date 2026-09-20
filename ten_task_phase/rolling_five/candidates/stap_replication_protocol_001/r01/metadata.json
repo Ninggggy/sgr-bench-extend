@@ -1,0 +1,17 @@
+{
+  "candidate_id": "stap_replication_protocol_001",
+  "revision": 1,
+  "substantive_revisions": 0,
+  "runtime_date": "2026-09-09",
+  "source_observed_date_utc": "2026-09-13",
+  "columns": [
+    "PMID",
+    "PROCEDURE",
+    "MARKERS",
+    "FUNCTIONAL_EVIDENCE"
+  ],
+  "scorer": "construction_pipeline/ten_task_phase/protocol/ten-task-v1/score.py",
+  "metric": "Unchanged Item-F1 counting all fields including PMID",
+  "ready_at_utc": "2026-09-13T06:38:38.933723+00:00",
+  "not_admitted": true
+}

@@ -1,0 +1,1 @@
+WITH a AS (SELECT * FROM original EXCEPT SELECT * FROM fresh),b AS (SELECT * FROM fresh EXCEPT SELECT * FROM original) SELECT (SELECT count(*) FROM original) AS original_rows,(SELECT count(*) FROM fresh) AS fresh_rows,(SELECT count(*) FROM a) AS missing_from_fresh,(SELECT count(*) FROM b) AS added_in_fresh;

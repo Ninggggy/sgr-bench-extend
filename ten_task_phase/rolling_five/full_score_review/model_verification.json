@@ -1,0 +1,26 @@
+[
+  {
+    "agent_path": "/root/review_registry_law",
+    "trace_path": "/Users/ning/.codex/sessions/2026/09/13/rollout-2026-09-13T01-36-45-01a096b1-6dd7-7043-b1fe-9e51d479d210.jsonl",
+    "started_at": "2026-09-12T17:36:45.527Z",
+    "model": "gpt-6-astra",
+    "effort": "high",
+    "turn_id": "01a096b1-6e2f-79d1-aa3d-414b84d0ab6b"
+  },
+  {
+    "agent_path": "/root/review_papers",
+    "trace_path": "/Users/ning/.codex/sessions/2026/09/13/rollout-2026-09-13T01-36-19-01a096b1-08a4-7012-89ca-4e5ee91af226.jsonl",
+    "started_at": "2026-09-12T17:36:19.620Z",
+    "model": "gpt-6-astra",
+    "effort": "high",
+    "turn_id": "01a096b1-0934-7d01-8246-1aabc5a5b0f3"
+  },
+  {
+    "agent_path": "/root/review_kegg",
+    "trace_path": "/Users/ning/.codex/sessions/2026/09/13/rollout-2026-09-13T01-37-11-01a096b1-d22c-79e0-a942-d05e31feb28c.jsonl",
+    "started_at": "2026-09-12T17:37:11.213Z",
+    "model": "gpt-6-astra",
+    "effort": "high",
+    "turn_id": "01a096b1-d27e-7ae0-bd25-3842e47f7ebb"
+  }
+]

@@ -1,0 +1,171 @@
+event_id	date	revision	actor	category	html_line	summary
+history-967196	2024-01-26	13	Gunter Van de Velde	other_event	1058	Request closed, assignment withdrawn: Jon Mitchell Last Call OPSDIR review
+history-967195	2024-01-26	13	Gunter Van de Velde	other_event	1067	Closed request for Last Call review by OPSDIR with state 'Overtaken by Events': Cleaning up stale OPSDIR queue
+history-848980	2022-03-04	13	(System)	other_event	1076	RFC Editor state changed to AUTH48-DONE from AUTH48
+history-820038	2021-08-05	13	(System)	other_event	1085	RFC Editor state changed to AUTH48
+history-816261	2021-07-15	13	(System)	other_event	1094	RFC Editor state changed to RFC-EDITOR from EDIT
+history-812744	2021-06-28	13	(System)	iana_administrative_state	1103	IANA Action state changed to RFC-Ed-Ack from Waiting on RFC Editor
+history-812502	2021-06-25	13	(System)	iana_administrative_state	1112	IANA Action state changed to Waiting on RFC Editor from In Progress
+history-812499	2021-06-25	13	(System)	iana_administrative_state	1121	IANA Action state changed to In Progress from Waiting on Authors
+history-812436	2021-06-24	13	(System)	iana_administrative_state	1130	IANA Action state changed to Waiting on Authors from In Progress
+history-812166	2021-06-22	13	(System)	other_event	1139	RFC Editor state changed to EDIT
+history-812165	2021-06-22	13	(System)	other_event	1148	IESG state changed to RFC Ed Queue from Approved-announcement sent
+history-812164	2021-06-22	13	(System)	other_event	1157	Announcement was received by RFC Editor
+history-812158	2021-06-22	13	(System)	iana_administrative_state	1166	IANA Action state changed to In Progress
+history-812146	2021-06-22	13	(System)	other_event	1175	Removed all action holders (IESG state changed)
+history-812145	2021-06-22	13	Cindy Morgan	other_event	1184	IESG state changed to Approved-announcement sent from Approved-announcement to be sent
+history-812144	2021-06-22	13	Cindy Morgan	other_event	1193	IESG has approved the document
+history-812143	2021-06-22	13	Cindy Morgan	other_event	1202	"Closed ""Approve"" ballot"
+history-812142	2021-06-22	13	Cindy Morgan	other_event	1211	Ballot approval text was generated
+history-812141	2021-06-22	13	Benjamin Kaduk	other_event	1220	IESG state changed to Approved-announcement to be sent from Approved-announcement to be sent::AD Followup
+history-812133	2021-06-22	13	Thomas Fossati	other_event	1229	New version available: draft-ietf-tls-dtls-connection-id-13.txt
+history-812132	2021-06-22	13	(System)	other_event	1238	New version approved
+history-812131	2021-06-22	13	(System)	other_event	1247	Request for posting confirmation emailed to previous authors: Achim Kraus , Eric Rescorla , Hannes Tschofenig , Thomas Fossati
+history-812130	2021-06-22	13	Thomas Fossati	other_event	1256	Uploaded new revision
+history-806432	2021-05-11	12	(System)	other_event	1265	Sub state has been changed to AD Followup from Revised ID Needed
+history-806431	2021-05-11	12	Hannes Tschofenig	other_event	1274	New version available: draft-ietf-tls-dtls-connection-id-12.txt
+history-806430	2021-05-11	12	(System)	other_event	1283	New version approved
+history-806429	2021-05-11	12	(System)	other_event	1292	Request for posting confirmation emailed to previous authors: Achim Kraus , Eric Rescorla , Hannes Tschofenig , Thomas Fossati
+history-806428	2021-05-11	12	Hannes Tschofenig	other_event	1301	Uploaded new revision
+history-804392	2021-04-22	11	Daniel Franke	other_event	1310	Request for Last Call review by SECDIR Completed: Ready. Reviewer: Daniel Franke. Sent review to list.
+history-804363	2021-04-22	11	(System)	other_event	1319	Changed action holders to Eric Rescorla, Hannes Tschofenig, Thomas Fossati, Achim Kraus (IESG state changed)
+history-804362	2021-04-22	11	Cindy Morgan	other_event	1328	IESG state changed to Approved-announcement to be sent::Revised I-D Needed from IESG Evaluation
+history-804344	2021-04-22	11	Lars Eggert	other_comment_with_iana_or_53	1337	[Ballot comment] All comments below are about potential very minor issues that you may choose to address in some way - or ignore - as you see fit. Some were flagged by automated to
+history-804343	2021-04-22	11	Lars Eggert	other_event	1346	[Ballot Position Update] New position, No Objection, has been recorded for Lars Eggert
+history-804337	2021-04-22	11	Zaheduzzaman Sarker	other_event	1355	[Ballot Position Update] New position, No Objection, has been recorded for Zaheduzzaman Sarker
+history-804247	2021-04-22	11	Murray Kucherawy	other_event	1364	[Ballot comment] I concur with my colleagues that this was easy to understand. Nice work.  I do get a little nervous these days at shepherd writeups that are over a year old.
+history-804246	2021-04-22	11	Murray Kucherawy	other_event	1373	[Ballot Position Update] New position, No Objection, has been recorded for Murray Kucherawy
+history-804038	2021-04-20	11	Roman Danyliw	other_event	1382	[Ballot Position Update] New position, No Objection, has been recorded for Roman Danyliw
+history-804020	2021-04-20	11	Erik Kline	other_event	1391	[Ballot Position Update] New position, Yes, has been recorded for Erik Kline
+history-804004	2021-04-20	11	Warren Kumari	other_event	1400	[Ballot comment] I opened this document with much trepidation -- I was expecting it to be horribly complex to read, and requiring much understanding of DTLS... but I was pleasantly
+history-804003	2021-04-20	11	Warren Kumari	other_event	1409	[Ballot Position Update] New position, No Objection, has been recorded for Warren Kumari
+history-803988	2021-04-20	11	John Scudder	other_event	1418	[Ballot comment] I found this document heavy sledding but once I was through it, it all came together, with the exception of my #3, below. The “heavy sledding” part I think would b
+history-803987	2021-04-20	11	John Scudder	other_event	1427	[Ballot Position Update] New position, No Objection, has been recorded for John Scudder
+history-803968	2021-04-20	11	Martin Duke	other_event	1436	[Ballot comment] Thanks for this document.  Section 9.3.3 of quic-transport, which deals with basically the same security model, also requires the receiving endpoint to probe the o
+history-803967	2021-04-20	11	Martin Duke	other_event	1445	[Ballot Position Update] New position, No Objection, has been recorded for Martin Duke
+history-803932	2021-04-20	11	Francesca Palombini	other_comment_with_iana_or_53	1454	[Ballot comment] Thank you for the work on this document. I only have minor comments and nits below.  Francesca   1. -----   sending messages to the client. A zero-length CID value
+history-803931	2021-04-20	11	Francesca Palombini	other_event	1463	[Ballot Position Update] New position, No Objection, has been recorded for Francesca Palombini
+history-803785	2021-04-19	11	Alvaro Retana	other_event	1472	[Ballot Position Update] New position, No Objection, has been recorded for Alvaro Retana
+history-803748	2021-04-19	11	Martin Vigoureux	other_event	1481	[Ballot Position Update] New position, No Objection, has been recorded for Martin Vigoureux
+history-803700	2021-04-19	11	Robert Wilton	other_event	1490	[Ballot comment] Hi,  I'm no DTLS expert, but I found the concepts/explanation in this document easy to follow.  I was slightly confused by the requirement to encode the length in 
+history-803699	2021-04-19	11	Robert Wilton	other_event	1499	[Ballot Position Update] New position, No Objection, has been recorded for Robert Wilton
+history-803691	2021-04-19	11	Éric Vyncke	other_event	1508	[Ballot comment] Thank you for the work put into this document. This specification addresses the IPv4-mainly issue of NAT binding and is still required. I am also trusted the secur
+history-803690	2021-04-19	11	Éric Vyncke	other_event	1517	[Ballot Position Update] New position, No Objection, has been recorded for Éric Vyncke
+history-803525	2021-04-16	11	Amanda Baber	iana_administrative_state	1526	IANA Review state changed to IANA OK - Actions Needed from Version Changed - Review Needed
+history-803217	2021-04-15	11	Amy Vezza	other_event	1535	Placed on agenda for telechat - 2021-04-22
+history-803102	2021-04-14	11	Benjamin Kaduk	other_event	1544	Ballot has been issued
+history-803101	2021-04-14	11	Benjamin Kaduk	other_event	1553	[Ballot Position Update] New position, Yes, has been recorded for Benjamin Kaduk
+history-803100	2021-04-14	11	Benjamin Kaduk	other_event	1562	"Created ""Approve"" ballot"
+history-803099	2021-04-14	11	(System)	other_event	1571	Changed action holders to Benjamin Kaduk (IESG state changed)
+history-803098	2021-04-14	11	Benjamin Kaduk	other_event	1580	IESG state changed to IESG Evaluation from Waiting for Writeup::AD Followup
+history-803097	2021-04-14	11	Benjamin Kaduk	other_event	1589	Ballot writeup was changed
+history-803007	2021-04-14	11	(System)	other_event	1598	Sub state has been changed to AD Followup from Revised ID Needed
+history-803006	2021-04-14	11	(System)	iana_administrative_state	1607	IANA Review state changed to Version Changed - Review Needed from IANA - Not OK
+history-803005	2021-04-14	11	Eric Rescorla	other_event	1616	New version available: draft-ietf-tls-dtls-connection-id-11.txt
+history-803004	2021-04-14	11	(System)	other_event	1625	New version approved
+history-803003	2021-04-14	11	(System)	other_event	1634	Request for posting confirmation emailed to previous authors: Achim Kraus , Eric Rescorla , Hannes Tschofenig , Thomas Fossati
+history-803002	2021-04-14	11	Eric Rescorla	other_event	1643	Uploaded new revision
+history-802912	2021-04-13	10	(System)	other_event	1652	Changed action holders to Eric Rescorla, Hannes Tschofenig, Thomas Fossati, Benjamin Kaduk, Achim Kraus (IESG state changed)
+history-802911	2021-04-13	10	Benjamin Kaduk	other_event	1661	IESG state changed to Waiting for Writeup::Revised I-D Needed from Waiting for Writeup
+history-801041	2021-03-30	10	Magnus Westerlund	other_event	1670	Request closed, assignment withdrawn: Jana Iyengar Last Call TSVART review
+history-801040	2021-03-30	10	Magnus Westerlund	other_event	1679	Closed request for Last Call review by TSVART with state 'Overtaken by Events'
+history-800778	2021-03-28	10	(System)	other_event	1688	IESG state changed to Waiting for Writeup from In Last Call
+history-800703	2021-03-26	10	Sabrina Tanamal	iana_administrative_state	1697	IANA Experts State changed to Expert Reviews OK from Reviews assigned
+history-800639	2021-03-26	10	Sabrina Tanamal	iana_administrative_state	1706	IANA Experts State changed to Reviews assigned
+history-800656	2021-03-26	10	(System)	iana_administrative_state	1715	IANA Review state changed to IANA - Not OK from IANA - Review Needed
+history-800636	2021-03-26	10	Sabrina Tanamal	substantive_iana_review_candidate	1724	(Via drafts-lastcall@iana.org): IESG/Authors/WG Chairs:  The IANA Functions Operator has completed its review of draft-ietf-tls-dtls-connection-id-10. If any part of this review is
+history-799594	2021-03-19	10	Gunter Van de Velde	other_event	1733	Request for Last Call review by OPSDIR is assigned to Jon Mitchell
+history-799593	2021-03-19	10	Gunter Van de Velde	other_event	1742	Request for Last Call review by OPSDIR is assigned to Jon Mitchell
+history-799167	2021-03-15	10	Russ Housley	other_event	1751	Request for Last Call review by GENART Completed: Ready. Reviewer: Russ Housley. Sent review to list.
+history-798864	2021-03-12	10	Jean Mahoney	other_event	1760	Request for Last Call review by GENART is assigned to Russ Housley
+history-798863	2021-03-12	10	Jean Mahoney	other_event	1769	Request for Last Call review by GENART is assigned to Russ Housley
+history-798398	2021-03-11	10	Tero Kivinen	other_event	1778	Request for Last Call review by SECDIR is assigned to Daniel Franke
+history-798397	2021-03-11	10	Tero Kivinen	other_event	1787	Request for Last Call review by SECDIR is assigned to Daniel Franke
+history-797522	2021-03-09	10	Magnus Westerlund	other_event	1796	Request for Last Call review by TSVART is assigned to Jana Iyengar
+history-797521	2021-03-09	10	Magnus Westerlund	other_event	1805	Request for Last Call review by TSVART is assigned to Jana Iyengar
+history-796683	2021-03-08	10	Cindy Morgan	iana_administrative_state	1814	IANA Review state changed to IANA - Review Needed
+history-796682	2021-03-08	10	Cindy Morgan	other_event	1823	The following Last Call announcement was sent out (ends 2021-03-28):  From: The IESG  To: IETF-Announce  CC: Joseph Salowey , draft-ietf-tls-dtls-connection-id@ietf.org, joe@salowe
+history-796681	2021-03-08	10	Cindy Morgan	other_event	1832	IESG state changed to In Last Call from Last Call Requested
+history-796423	2021-03-07	10	Benjamin Kaduk	other_event	1841	Last call was requested
+history-796422	2021-03-07	10	Benjamin Kaduk	other_event	1850	Ballot approval text was generated
+history-796421	2021-03-07	10	Benjamin Kaduk	other_event	1859	Ballot writeup was generated
+history-796420	2021-03-07	10	(System)	other_event	1868	Changed action holders to Benjamin Kaduk (IESG state changed)
+history-796419	2021-03-07	10	Benjamin Kaduk	other_event	1877	IESG state changed to Last Call Requested from AD Evaluation::AD Followup
+history-796418	2021-03-07	10	Benjamin Kaduk	other_event	1886	Last call announcement was changed
+history-796417	2021-03-07	10	Benjamin Kaduk	other_event	1895	Last call announcement was generated
+history-796399	2021-03-07	10	(System)	other_event	1904	Sub state has been changed to AD Followup from Revised ID Needed
+history-796398	2021-03-07	10	Eric Rescorla	other_event	1913	New version available: draft-ietf-tls-dtls-connection-id-10.txt
+history-796397	2021-03-07	10	(System)	other_event	1922	New version approved
+history-796396	2021-03-07	10	(System)	other_event	1931	Request for posting confirmation emailed to previous authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati , tls-chairs@ietf.org
+history-796395	2021-03-07	10	Eric Rescorla	other_event	1940	Uploaded new revision
+history-795284	2021-02-27	09	Benjamin Kaduk	other_event	1949	A few pull requests have landed, so let's publish them as an I-D (once the submissions block is lifted) and start the IETF LC.
+history-795283	2021-02-27	09	(System)	other_event	1958	Changed action holders to Eric Rescorla, Hannes Tschofenig, Thomas Fossati (IESG state changed)
+history-795282	2021-02-27	09	Benjamin Kaduk	other_event	1967	IESG state changed to AD Evaluation::Revised I-D Needed from AD Evaluation::AD Followup
+history-787472	2021-01-17	09	(System)	other_event	1976	Sub state has been changed to AD Followup from Revised ID Needed
+history-787471	2021-01-17	09	Hannes Tschofenig	other_event	1985	New version available: draft-ietf-tls-dtls-connection-id-09.txt
+history-787470	2021-01-17	09	(System)	other_event	1994	New version approved
+history-787469	2021-01-17	09	(System)	other_event	2003	Request for posting confirmation emailed to previous authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati
+history-787468	2021-01-17	09	Hannes Tschofenig	other_event	2012	Uploaded new revision
+history-785181	2020-12-29	08	Benjamin Kaduk	other_event	2021	Some good changes have landed in git at https://github.com/tlswg/dtls-conn-id but are not in the I-D repository yet.
+history-785180	2020-12-29	08	Benjamin Kaduk	other_event	2030	IESG state changed to AD Evaluation::Revised I-D Needed from AD Evaluation::AD Followup
+history-779719	2020-11-16	08	Sean Turner	other_event	2039	Added to session: IETF-109: tls Tue-1430
+history-776973	2020-11-02	08	(System)	other_event	2048	Sub state has been changed to AD Followup from Revised ID Needed
+history-776972	2020-11-02	08	Hannes Tschofenig	other_event	2057	New version available: draft-ietf-tls-dtls-connection-id-08.txt
+history-776971	2020-11-02	08	(System)	other_event	2066	New version accepted (logged-in submitter: Hannes Tschofenig)
+history-776970	2020-11-02	08	Hannes Tschofenig	other_event	2075	Uploaded new revision
+history-769659	2020-09-15	07	Benjamin Kaduk	other_event	2084	IESG state changed to AD Evaluation::Revised I-D Needed from AD Evaluation
+history-761841	2020-07-26	07	Benjamin Kaduk	other_event	2093	IESG state changed to AD Evaluation from Publication Requested
+history-720243	2019-11-21	07	Joseph Salowey	other_comment_with_iana_or_53	2102	As required by RFC 4858, this is the current template for the Document  Shepherd Write-Up.  Changes are expected over time. This version is dated 24 February 2012.  (1) What type o
+history-720242	2019-11-21	07	Joseph Salowey	other_event	2111	Responsible AD changed to Benjamin Kaduk
+history-720241	2019-11-21	07	Joseph Salowey	other_event	2120	IETF WG state changed to Submitted to IESG for Publication from WG Consensus: Waiting for Write-Up
+history-720240	2019-11-21	07	Joseph Salowey	other_event	2129	IESG state changed to Publication Requested from I-D Exists
+history-720239	2019-11-21	07	Joseph Salowey	other_event	2138	IESG process started in state Publication Requested
+history-719920	2019-11-20	07	Joseph Salowey	other_event	2147	Tag Doc Shepherd Follow-up Underway cleared.
+history-719919	2019-11-20	07	Joseph Salowey	other_event	2156	IETF WG state changed to WG Consensus: Waiting for Write-Up from Waiting for WG Chair Go-Ahead
+history-719779	2019-11-20	07	Joseph Salowey	other_comment_with_iana_or_53	2165	As required by RFC 4858, this is the current template for the Document  Shepherd Write-Up.  Changes are expected over time. This version is dated 24 February 2012.  (1) What type o
+history-719046	2019-11-19	07	Joseph Salowey	other_event	2174	Tag Doc Shepherd Follow-up Underway set. Tag Revised I-D Needed - Issue raised by WGLC cleared.
+history-715408	2019-11-04	07	Sean Turner	other_event	2183	Changed document URLs from:  []  to:  repository https://github.com/tlswg/dtls-conn-id
+history-711847	2019-10-21	07	Hannes Tschofenig	other_event	2192	New version available: draft-ietf-tls-dtls-connection-id-07.txt
+history-711846	2019-10-21	07	(System)	other_event	2201	New version approved
+history-711845	2019-10-21	07	(System)	other_event	2210	Request for posting confirmation emailed to previous authors: Hannes Tschofenig , Eric Rescorla , Thomas Fossati
+history-711844	2019-10-21	07	Hannes Tschofenig	other_event	2219	Uploaded new revision
+history-694437	2019-07-08	06	Thomas Fossati	other_event	2228	New version available: draft-ietf-tls-dtls-connection-id-06.txt
+history-694436	2019-07-08	06	(System)	other_event	2237	New version approved
+history-694435	2019-07-08	06	(System)	other_event	2246	Request for posting confirmation emailed to previous authors: Hannes Tschofenig , Eric Rescorla , Thomas Fossati
+history-694434	2019-07-08	06	Thomas Fossati	other_event	2255	Uploaded new revision
+history-689758	2019-06-13	05	Joseph Salowey	other_comment_with_iana_or_53	2264	As required by RFC 4858, this is the current template for the Document  Shepherd Write-Up.  Changes are expected over time. This version is dated 24 February 2012.  (1) What type o
+history-664797	2019-05-06	05	Hannes Tschofenig	other_event	2273	New version available: draft-ietf-tls-dtls-connection-id-05.txt
+history-664796	2019-05-06	05	(System)	other_event	2282	New version approved
+history-664793	2019-05-06	05	(System)	other_event	2291	Request for posting confirmation emailed to previous authors: Hannes Tschofenig , Eric Rescorla , Thomas Fossati
+history-664792	2019-05-06	05	Hannes Tschofenig	other_event	2300	Uploaded new revision
+history-653789	2019-03-11	04	Hannes Tschofenig	other_event	2309	New version available: draft-ietf-tls-dtls-connection-id-04.txt
+history-653788	2019-03-11	04	(System)	other_event	2318	New version approved
+history-653787	2019-03-11	04	(System)	other_event	2327	Request for posting confirmation emailed to previous authors: Hannes Tschofenig , Eric Rescorla , Thomas Fossati
+history-653786	2019-03-11	04	Hannes Tschofenig	other_event	2336	Uploaded new revision
+history-650913	2019-02-27	03	Hannes Tschofenig	other_event	2345	New version available: draft-ietf-tls-dtls-connection-id-03.txt
+history-650912	2019-02-27	03	(System)	other_event	2354	New version approved
+history-650911	2019-02-27	03	(System)	other_event	2363	Request for posting confirmation emailed to previous authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati , Tobias Gondrom , tls-chairs@ietf.org
+history-650910	2019-02-27	03	Hannes Tschofenig	other_event	2372	Uploaded new revision
+history-640731	2018-12-10	02	Joseph Salowey	other_event	2381	Tag Revised I-D Needed - Issue raised by WGLC set.
+history-640730	2018-12-10	02	Joseph Salowey	other_event	2390	IETF WG state changed to Waiting for WG Chair Go-Ahead from In WG Last Call
+history-636332	2018-11-06	02	Joseph Salowey	other_event	2399	IETF WG state changed to In WG Last Call from WG Document
+history-635810	2018-11-05	02	Sean Turner	other_event	2408	Notification list changed to Joseph Salowey <joe@salowey.net>
+history-635809	2018-11-05	02	Sean Turner	other_event	2417	Document shepherd changed to Joseph A. Salowey
+history-635807	2018-11-05	02	Sean Turner	other_event	2426	Changed consensus to Yes from Unknown
+history-635806	2018-11-05	02	Sean Turner	other_event	2435	Intended Status changed to Proposed Standard from None
+history-633688	2018-10-31	02	Sean Turner	other_event	2444	Added to session: IETF-103: tls Mon-1350
+history-632044	2018-10-22	02	Eric Rescorla	other_event	2453	New version available: draft-ietf-tls-dtls-connection-id-02.txt
+history-632043	2018-10-22	02	(System)	other_event	2462	New version approved
+history-632042	2018-10-22	02	(System)	other_event	2471	Request for posting confirmation emailed to previous authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati , Tobias Gondrom
+history-632041	2018-10-22	02	Eric Rescorla	other_event	2480	Uploaded new revision
+history-613125	2018-07-02	01	Eric Rescorla	other_event	2489	New version available: draft-ietf-tls-dtls-connection-id-01.txt
+history-613124	2018-07-02	01	(System)	other_event	2498	New version approved
+history-613123	2018-07-02	01	(System)	other_event	2507	Request for posting confirmation emailed to previous authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati , Tobias Gondrom
+history-613122	2018-07-02	01	Eric Rescorla	other_event	2516	Uploaded new revision
+history-613121	2018-07-02	01	Eric Rescorla	other_event	2525	Uploaded new revision
+history-612356	2018-06-30	00	(System)	other_event	2534	Document has expired
+history-580135	2018-01-04	00	Sean Turner	other_event	2543	This document now replaces draft-rescorla-tls-dtls-connection-id instead of None
+history-579125	2017-12-27	00	Eric Rescorla	other_event	2552	New version available: draft-ietf-tls-dtls-connection-id-00.txt
+history-579124	2017-12-27	00	(System)	other_event	2561	New version approved
+history-579123	2017-12-27	00	Eric Rescorla	other_event	2570	Request for posting confirmation emailed to submitter and authors: Eric Rescorla , Hannes Tschofenig , Thomas Fossati , Tobias Gondrom
+history-579122	2017-12-27	00	Eric Rescorla	other_event	2579	Uploaded new revision

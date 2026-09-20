@@ -1,0 +1,41 @@
+{
+  "source_version": "Official REST records observed on 2026-09-12; no claim about historical 2026-09-09 record contents",
+  "evaluation_date": "2026-09-09",
+  "provenance": "Complete source bodies and controller download metadata supplied inline. This constructor did not perform a new download.",
+  "download_log_path": "../sources/controller_downloads.json",
+  "required_sources": [
+    {
+      "path": "../sources/DG00739.txt",
+      "url": "https://rest.kegg.jp/get/DG00739",
+      "accessed_at": "2026-09-12T13:21:20.306599+00:00",
+      "reported_http_status": 200,
+      "reported_bytes": 364,
+      "content_type": "text/plain; charset=utf-8",
+      "coverage": "Complete DG00739 record, including Type and all Member lines through ///"
+    },
+    {
+      "path": "../sources/D_members.txt",
+      "url": "https://rest.kegg.jp/get/D00752+D05094+D05095+D05096",
+      "accessed_at": "2026-09-12T13:21:23.167368+00:00",
+      "reported_http_status": 200,
+      "reported_bytes": 19410,
+      "content_type": "text/plain; charset=utf-8",
+      "coverage": "Complete records for every discovered direct D member, including each record terminator"
+    }
+  ],
+  "context_only_sources": [
+    {
+      "path": "../sources/br08324.html",
+      "url": "https://www.kegg.jp/kegg/drug/br08324.html",
+      "accessed_at": "2026-09-12T13:21:29.325176+00:00",
+      "reported_http_status": 200,
+      "reported_bytes": 55077,
+      "use": "Known fixed-material comparison, based on the supplied independent review. Its full HTML body was not included for fresh inspection by this constructor. It is not a reference-script input."
+    }
+  ],
+  "stability": {
+    "preblind_full_recheck": "pending",
+    "postblind_full_recheck": "pending",
+    "required_scope": "Full DG00739 record and every D record discovered from its complete Member field; verify membership, own annotations, and target identities against this observation."
+  }
+}

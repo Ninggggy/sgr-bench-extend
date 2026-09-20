@@ -1,0 +1,38 @@
+{
+  "candidate_id": "nvd_configuration_environment_001",
+  "revision": 1,
+  "status": "stopped_raw_A_full_access_noncompliant",
+  "decided_at": "2026-09-13T10:02:05.838842+00:00",
+  "raw_scores": {
+    "CG": {
+      "correct_fields": 57,
+      "gold_fields": 57,
+      "pred_fields": 57,
+      "Item_F1": "114/114"
+    },
+    "GO": {
+      "correct_fields": 57,
+      "gold_fields": 57,
+      "pred_fields": 57,
+      "Item_F1": "114/114"
+    }
+  },
+  "access_status": {
+    "CG": "noncompliant",
+    "GO": "noncompliant"
+  },
+  "compliant_scores": {
+    "CG": null,
+    "GO": null
+  },
+  "formal_means": {
+    "CG": null,
+    "GO": null
+  },
+  "admitted": false,
+  "reason": "Both raw answers full; explicit safety refusals followed by same-resource retries and download bypass. No supported substantive answer error to repair. No zeros or score-based/violation-based resampling.",
+  "review": "independent_review/development_A_access_review.json",
+  "post_source": "post_development_a/checks.json",
+  "human_review": "not_performed",
+  "additional_sampling": false
+}

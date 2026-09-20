@@ -1,0 +1,606 @@
+{
+  "at": "2026-09-12T15:34:40.714619+00:00",
+  "scope": "Constructor source interpretation plus controller execution/schema/format checks; not independent final audit",
+  "reference_execution": "passed",
+  "expected_vs_recomputed_oracle": "identical",
+  "literal_pair_checks": 46,
+  "shared_output_format": true,
+  "schema": "passed",
+  "scorer_self": {
+    "status": "deterministic_explicit",
+    "metrics": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 18,
+      "gold_fields": 18,
+      "pred_fields": 18,
+      "item_denominator": 36,
+      "correct_rows": 3,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    },
+    "omitted_ids": [],
+    "extra_ids": [],
+    "duplicate_ids": [],
+    "order_pairs": [
+      {
+        "first": [
+          "1809.06474"
+        ],
+        "second": [
+          "1811.10828"
+        ],
+        "correct": true
+      },
+      {
+        "first": [
+          "1809.06474"
+        ],
+        "second": [
+          "1810.03233"
+        ],
+        "correct": true
+      },
+      {
+        "first": [
+          "1811.10828"
+        ],
+        "second": [
+          "1810.03233"
+        ],
+        "correct": true
+      }
+    ],
+    "poa_note": "first occurrence positions; no reordering",
+    "field_differences": [
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "ARXIV_ID",
+        "pred_raw": "1809.06474",
+        "pred_normalized": "1809.06474",
+        "gold": "1809.06474",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "VERSION",
+        "pred_raw": "v2",
+        "pred_normalized": "v2",
+        "gold": "v2",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "THEOREM",
+        "pred_raw": "Theorem 2.1(1)",
+        "pred_normalized": "Theorem 2.1(1)",
+        "gold": "Theorem 2.1(1)",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "QUERY_MODEL",
+        "pred_raw": "SAMPLE_FUNCTION",
+        "pred_normalized": "SAMPLE_FUNCTION",
+        "gold": "SAMPLE_FUNCTION",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "GAP_FORM",
+        "pred_raw": "EXPECTED_UNIFORM_GAP",
+        "pred_normalized": "EXPECTED_UNIFORM_GAP",
+        "gold": "EXPECTED_UNIFORM_GAP",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "ITERATES",
+        "pred_raw": "z_0..z_(N-1)",
+        "pred_normalized": "z_0..z_(N-1)",
+        "gold": "z_0..z_(N-1)",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "ARXIV_ID",
+        "pred_raw": "1811.10828",
+        "pred_normalized": "1811.10828",
+        "gold": "1811.10828",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "VERSION",
+        "pred_raw": "v2",
+        "pred_normalized": "v2",
+        "gold": "v2",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "THEOREM",
+        "pred_raw": "Theorem 4.8",
+        "pred_normalized": "Theorem 4.8",
+        "gold": "Theorem 4.8",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "QUERY_MODEL",
+        "pred_raw": "EXACT_FUNCTION",
+        "pred_normalized": "EXACT_FUNCTION",
+        "gold": "EXACT_FUNCTION",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "GAP_FORM",
+        "pred_raw": "EXPECTED_MIN_GAP",
+        "pred_normalized": "EXPECTED_MIN_GAP",
+        "gold": "EXPECTED_MIN_GAP",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "ITERATES",
+        "pred_raw": "x_1..x_T",
+        "pred_normalized": "x_1..x_T",
+        "gold": "x_1..x_T",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "ARXIV_ID",
+        "pred_raw": "1810.03233",
+        "pred_normalized": "1810.03233",
+        "gold": "1810.03233",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "VERSION",
+        "pred_raw": "v3",
+        "pred_normalized": "v3",
+        "gold": "v3",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "THEOREM",
+        "pred_raw": "Theorem 3.6",
+        "pred_normalized": "Theorem 3.6",
+        "gold": "Theorem 3.6",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "QUERY_MODEL",
+        "pred_raw": "SAMPLE_FUNCTION",
+        "pred_normalized": "SAMPLE_FUNCTION",
+        "gold": "SAMPLE_FUNCTION",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "GAP_FORM",
+        "pred_raw": "EXPECTED_MIN_GAP",
+        "pred_normalized": "EXPECTED_MIN_GAP",
+        "gold": "EXPECTED_MIN_GAP",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "ITERATES",
+        "pred_raw": "x_0..x_(T-1)",
+        "pred_normalized": "x_0..x_(T-1)",
+        "gold": "x_0..x_(T-1)",
+        "correct": true,
+        "reason": "match"
+      }
+    ]
+  },
+  "scorer_declared_aliases": {
+    "status": "deterministic_explicit",
+    "metrics": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 18,
+      "gold_fields": 18,
+      "pred_fields": 18,
+      "item_denominator": 36,
+      "correct_rows": 3,
+      "gold_rows": 3,
+      "pred_rows": 3,
+      "row_denominator": 6,
+      "correct_pairs": 3,
+      "pair_denominator": 3,
+      "shared_ids": 3
+    },
+    "omitted_ids": [],
+    "extra_ids": [],
+    "duplicate_ids": [],
+    "order_pairs": [
+      {
+        "first": [
+          "1809.06474"
+        ],
+        "second": [
+          "1811.10828"
+        ],
+        "correct": true
+      },
+      {
+        "first": [
+          "1809.06474"
+        ],
+        "second": [
+          "1810.03233"
+        ],
+        "correct": true
+      },
+      {
+        "first": [
+          "1811.10828"
+        ],
+        "second": [
+          "1810.03233"
+        ],
+        "correct": true
+      }
+    ],
+    "poa_note": "first occurrence positions; no reordering",
+    "field_differences": [
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "ARXIV_ID",
+        "pred_raw": "1809.06474",
+        "pred_normalized": "1809.06474",
+        "gold": "1809.06474",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "VERSION",
+        "pred_raw": "v2",
+        "pred_normalized": "v2",
+        "gold": "v2",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "THEOREM",
+        "pred_raw": "Theorem 2.1 (1)",
+        "pred_normalized": "Theorem 2.1(1)",
+        "gold": "Theorem 2.1(1)",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "QUERY_MODEL",
+        "pred_raw": "SAMPLE_FUNCTION",
+        "pred_normalized": "SAMPLE_FUNCTION",
+        "gold": "SAMPLE_FUNCTION",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "GAP_FORM",
+        "pred_raw": "EXPECTED_UNIFORM_GAP",
+        "pred_normalized": "EXPECTED_UNIFORM_GAP",
+        "gold": "EXPECTED_UNIFORM_GAP",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 0,
+        "id": [
+          "1809.06474"
+        ],
+        "field": "ITERATES",
+        "pred_raw": "z_0..z_{N-1}",
+        "pred_normalized": "z_0..z_(N-1)",
+        "gold": "z_0..z_(N-1)",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "ARXIV_ID",
+        "pred_raw": "1811.10828",
+        "pred_normalized": "1811.10828",
+        "gold": "1811.10828",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "VERSION",
+        "pred_raw": "v2",
+        "pred_normalized": "v2",
+        "gold": "v2",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "THEOREM",
+        "pred_raw": "Theorem 4.8",
+        "pred_normalized": "Theorem 4.8",
+        "gold": "Theorem 4.8",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "QUERY_MODEL",
+        "pred_raw": "EXACT_FUNCTION",
+        "pred_normalized": "EXACT_FUNCTION",
+        "gold": "EXACT_FUNCTION",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "GAP_FORM",
+        "pred_raw": "EXPECTED_MIN_GAP",
+        "pred_normalized": "EXPECTED_MIN_GAP",
+        "gold": "EXPECTED_MIN_GAP",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 1,
+        "id": [
+          "1811.10828"
+        ],
+        "field": "ITERATES",
+        "pred_raw": "x_1..x_T",
+        "pred_normalized": "x_1..x_T",
+        "gold": "x_1..x_T",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "ARXIV_ID",
+        "pred_raw": "1810.03233",
+        "pred_normalized": "1810.03233",
+        "gold": "1810.03233",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "VERSION",
+        "pred_raw": "v3",
+        "pred_normalized": "v3",
+        "gold": "v3",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "THEOREM",
+        "pred_raw": "Theorem 3.6",
+        "pred_normalized": "Theorem 3.6",
+        "gold": "Theorem 3.6",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "QUERY_MODEL",
+        "pred_raw": "SAMPLE_FUNCTION",
+        "pred_normalized": "SAMPLE_FUNCTION",
+        "gold": "SAMPLE_FUNCTION",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "GAP_FORM",
+        "pred_raw": "EXPECTED_MIN_GAP",
+        "pred_normalized": "EXPECTED_MIN_GAP",
+        "gold": "EXPECTED_MIN_GAP",
+        "correct": true,
+        "reason": "match"
+      },
+      {
+        "pred_index": 2,
+        "id": [
+          "1810.03233"
+        ],
+        "field": "ITERATES",
+        "pred_raw": "x_0..x_{T-1}",
+        "pred_normalized": "x_0..x_(T-1)",
+        "gold": "x_0..x_(T-1)",
+        "correct": true,
+        "reason": "match"
+      }
+    ]
+  },
+  "full_citation_scope": {
+    "status": "source_claims_recomputed",
+    "cutoff": "2020-06-21T06:40:13+00:00",
+    "citation_count": 4,
+    "distinct_work_count": 3,
+    "every_citation_accounted_for": true,
+    "unknown_gold_cells": 0,
+    "discrepancies_retained": [
+      {
+        "source": "1810.03233v3",
+        "kind": "schedule_text",
+        "algorithm_power": "2/3",
+        "appendix_power": "1/2",
+        "lines": [
+          992,
+          3777
+        ]
+      },
+      {
+        "source": "1810.03233v3",
+        "kind": "assumption_text",
+        "lines": [
+          265,
+          1021,
+          3689
+        ],
+        "observation": "Main statement names A4-A6; appendix lemma names A3-A6; A3 includes convexity."
+      },
+      {
+        "source": "1810.03233v3",
+        "kind": "gap_notation",
+        "lines": [
+          188,
+          192,
+          827,
+          1028
+        ],
+        "observation": "The printed G definition differentiates F(x), while the stochastic setup distinguishes F(x;y) and f(x). No replacement of F by f is made."
+      }
+    ],
+    "proof_verification": "not_performed",
+    "solver_tests": "not_run"
+  },
+  "human_review": "not_performed",
+  "independent_final_audit": "not_performed",
+  "development": "A registered, not started",
+  "error_policy": "UNKNOWN/CITE rows caused by inaccessible or unparsable necessary evidence must be classified as unscored/infrastructure or source failure during error review, never admitted as ability zero. Valid model reasoning errors kept at actual scores.",
+  "prepare_state_files_check": "passed",
+  "source_time_basis": {
+    "type": "fixed historical document versions",
+    "evidence": "Actual versioned PDF text and official complete posting histories captured12Sep2026; source manifest and body arXiv watermarks verified byreference.py. Cutoff is surveyv2 posting21Jun2020, notruntime9Sep2026.",
+    "limit": "No claim of permanent HTTP availability or continuous live-source monitoring; required public evidence must be accessible ineachblindrun."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "description": "Minimal source excerpts and paraphrases, with exact request-specific locators; not full original downloads or historical HTTP replay.",
+  "source_access_period_utc": [
+    "2026-09-12T17:59:16Z",
+    "2026-09-12T17:59:55Z"
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "url": "https://datatracker.ietf.org/doc/rfc9146/",
+      "source_locator": "request1 L89-95",
+      "short_quote": "Was draft-ietf-tls-dtls-connection-id",
+      "claim": "RFC9146 has an explicitly identified official predecessor family."
+    },
+    {
+      "id": "E2",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/13/",
+      "source_locator": "request4 Appendix A L832-834",
+      "short_quote": "draft-ietf-tls-dtls-connection-id-09; Changed MAC/additional data calculation.",
+      "claim": "History identifies09 as a substantive calculation change; it does not identify53 ownership."
+    },
+    {
+      "id": "E3",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/08/",
+      "source_locator": "request5 §3 L268-272; §5.3 L481-491",
+      "short_quote": "connection_id(TBD1)",
+      "claim": "The selected08 original has an unspecified extension enum. Its AEAD additional-data sequence places cid_length after cid and starts with seq_num."
+    },
+    {
+      "id": "E4",
+      "url": "https://datatracker.ietf.org/doc/rfc9146/",
+      "source_locator": "request1 §5.3 L475-488",
+      "short_quote": null,
+      "claim": "Final RFC uses a sequence-number placeholder, repeated CID content type, cid_length before the version, and explicit epoch and sequence_number before cid. It does not provide the old08 expression."
+    },
+    {
+      "id": "E5",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/13/",
+      "source_locator": "request4 §10.2 L724-732",
+      "short_quote": null,
+      "claim": "Latest draft repeats the53 incompatibility notice but still only calls it a previous version, with no exact revision correspondence."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "activities": {
+    "same_complete_id_set": true,
+    "all_record_fields_equal": true,
+    "initial_rows": 131,
+    "refresh_rows": 131,
+    "initial_time": "2026-09-13T05:11:22.701560+00:00",
+    "refresh_time": "2026-09-13T05:26:23.200190+00:00",
+    "changed_ids": []
+  },
+  "assays": {
+    "same_complete_id_set": true,
+    "all_record_fields_equal": true,
+    "initial_rows": 126,
+    "refresh_rows": 126,
+    "initial_time": "2026-09-13T05:13:11.305645+00:00",
+    "refresh_time": "2026-09-13T05:29:48.646505+00:00",
+    "changed_ids": []
+  },
+  "targets": {
+    "same_complete_id_set": true,
+    "all_record_fields_equal": true,
+    "initial_rows": 32,
+    "refresh_rows": 32,
+    "initial_time": "2026-09-13T05:12:09.511387+00:00",
+    "refresh_time": "2026-09-13T05:27:13.687546+00:00",
+    "changed_ids": []
+  },
+  "oracle_initial_equals_refresh": true,
+  "source_release": "ChEMBL_37",
+  "version_status_after_refresh_observed": false,
+  "limitations": "Same complete answer-related cohorts and all record fields were equal at these two observations; cached response headers are preserved. This is not a permanent archive/public replay guarantee or proof of unchanged sources throughout future evaluation. Check the entire relevant scope before future evaluations; no replacement or retry of model outputs is implied.",
+  "date_correction": {
+    "prepared": "2026-05-01",
+    "issued": "2026-05-29",
+    "official_evidence": "sources/reused_discovery_conclusion.json",
+    "former_feasibility_label_was_wrong": true
+  },
+  "compound_identity": {
+    "complete_preferred_name_query_rows": 1,
+    "self_parent_and_active": true,
+    "source": "sources/raw/10_exact_diazepam_identity.json",
+    "identity_queried_once": true
+  }
+}

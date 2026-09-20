@@ -1,0 +1,362 @@
+{
+  "source_release": "ChEMBL_37",
+  "seed_id": "CHEMBL170",
+  "derived_key_prefix": "LOUPRKONTZGTKE",
+  "basic_layers": {
+    "formula": "C20H24N2O2",
+    "c": "1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18",
+    "h": "3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3",
+    "q": "",
+    "p": ""
+  },
+  "carbon_centres": [
+    13,
+    14,
+    19,
+    20
+  ],
+  "rows": 16,
+  "status_counts": {
+    "FULL": 8,
+    "UNSPECIFIED": 1,
+    "PARTIAL": 7
+  },
+  "connectivity_rows": 43,
+  "excluded_multicomponent": [
+    {
+      "chembl_id": "CHEMBL197253",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL15088",
+        "molecule_chembl_id": "CHEMBL197253",
+        "parent_chembl_id": "CHEMBL15088"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.H2O4S/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;1-5(2,3)4/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;(H2,1,2,3,4)",
+      "canonical_smiles": "C=CC1CN2CCC1CC2C(O)c1ccnc2ccc(OC)cc12.O=S(=O)(O)O"
+    },
+    {
+      "chembl_id": "CHEMBL588046",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL588046",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.ClH/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1H/t13-,14-,19-,20+;/m0./s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.Cl"
+    },
+    {
+      "chembl_id": "CHEMBL589001",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL589001",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.H2O4S.H2O/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;1-5(2,3)4;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;(H2,1,2,3,4);1H2/t13-,14-,19-,20+;;/m0../s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O.O=S(=O)(O)O"
+    },
+    {
+      "chembl_id": "CHEMBL1200437",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1294",
+        "molecule_chembl_id": "CHEMBL1200437",
+        "parent_chembl_id": "CHEMBL1294"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.C6H12O7/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;7-1-2(8)3(9)4(10)5(11)6(12)13/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;2-5,7-11H,1H2,(H,12,13)/t13-,14-,19+,20-;2-,3-,4+,5-/m01/s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12.O=C(O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO"
+    },
+    {
+      "chembl_id": "CHEMBL1201100",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL1201100",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.H2O4S/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;1-5(2,3)4/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;(H2,1,2,3,4)/t13-,14-,19-,20+;/m0./s1",
+      "canonical_smiles": "C=C[C@H]1C[N@]2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O=S(=O)(O)O"
+    },
+    {
+      "chembl_id": "CHEMBL1365872",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1616938",
+        "molecule_chembl_id": "CHEMBL1365872",
+        "parent_chembl_id": "CHEMBL1616938"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.ClH.H2O/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1H;1H2/t13-,14+,19-,20-;;/m0../s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@@H]1C[C@H]2[C@@H](O)c1ccnc2ccc(OC)cc12.Cl.O"
+    },
+    {
+      "chembl_id": "CHEMBL1412138",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL407725",
+        "molecule_chembl_id": "CHEMBL1412138",
+        "parent_chembl_id": "CHEMBL407725"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.H2O4S.H2O/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;1-5(2,3)4;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;(H2,1,2,3,4);1H2/t13-,14?,19-,20+;;/m1../s1",
+      "canonical_smiles": "C=C[C@@H]1CN2CCC1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12.O.O=S(=O)(O)O"
+    },
+    {
+      "chembl_id": "CHEMBL1433835",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL15088",
+        "molecule_chembl_id": "CHEMBL1433835",
+        "parent_chembl_id": "CHEMBL15088"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.C6H12O7/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;7-1-2(8)3(9)4(10)5(11)6(12)13/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;2-5,7-11H,1H2,(H,12,13)/t;2?,3?,4?,5-/m.0/s1",
+      "canonical_smiles": "C=CC1C[N@]2CCC1CC2C(O)c1ccnc2ccc(OC)cc12.O=C(O)[C@@H](O)C(O)C(O)C(O)CO"
+    },
+    {
+      "chembl_id": "CHEMBL1435413",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1294",
+        "molecule_chembl_id": "CHEMBL1435413",
+        "parent_chembl_id": "CHEMBL1294"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.ClH.H2O/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1H;1H2/t13-,14-,19+,20-;;/m0../s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12.Cl.O"
+    },
+    {
+      "chembl_id": "CHEMBL1567959",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL512340",
+        "molecule_chembl_id": "CHEMBL1567959",
+        "parent_chembl_id": "CHEMBL512340"
+      },
+      "standard_inchi": "InChI=1S/2C20H24N2O2.H2O4S/c2*1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;1-5(2,3)4/h2*3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;(H2,1,2,3,4)/t2*13-,14-,19+,20-;/m11./s1",
+      "canonical_smiles": "C=C[C@@H]1C[N@@]2CC[C@@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.C=C[C@@H]1C[N@@]2CC[C@@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O=S(=O)(O)O"
+    },
+    {
+      "chembl_id": "CHEMBL1590884",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1741006",
+        "molecule_chembl_id": "CHEMBL1590884",
+        "parent_chembl_id": "CHEMBL1741006"
+      },
+      "standard_inchi": "InChI=1S/2C20H24N2O2.H2O4S/c2*1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;1-5(2,3)4/h2*3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;(H2,1,2,3,4)/t2*13-,14-,19-,20-;/m11./s1",
+      "canonical_smiles": "C=C[C@@H]1C[N@@]2CC[C@@H]1C[C@@H]2[C@H](O)c1ccnc2ccc(OC)cc12.C=C[C@@H]1C[N@@]2CC[C@@H]1C[C@@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O=S(=O)(O)O"
+    },
+    {
+      "chembl_id": "CHEMBL1881104",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL15088",
+        "molecule_chembl_id": "CHEMBL1881104",
+        "parent_chembl_id": "CHEMBL15088"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.BrH/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1H",
+      "canonical_smiles": "Br.C=CC1CN2CCC1CC2C(O)c1ccnc2ccc(OC)cc12"
+    },
+    {
+      "chembl_id": "CHEMBL1899143",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL1899143",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.ClH.H2O/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1H;1H2/t13-,14-,19-,20+;;/m0../s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.Cl.O"
+    },
+    {
+      "chembl_id": "CHEMBL2068675",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1294",
+        "molecule_chembl_id": "CHEMBL2068675",
+        "parent_chembl_id": "CHEMBL1294"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.C6H10O7/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;7-1-2(8)4(5(10)11)13-6(12)3(1)9/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1-4,6-9,12H,(H,10,11)/t13-,14-,19+,20-;1-,2-,3+,4-,6-/m00/s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12.O=C(O)[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@@H]1O"
+    },
+    {
+      "chembl_id": "CHEMBL2146083",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL2146083",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.2H2O4S/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;2*1-5(2,3)4/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;2*(H2,1,2,3,4)/t13-,14-,19-,20+;;/m0../s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O=S(=O)(O)O.O=S(=O)(O)O"
+    },
+    {
+      "chembl_id": "CHEMBL2146084",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL2146084",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.C7H6O3/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;8-6-4-2-1-3-5(6)7(9)10/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1-4,8H,(H,9,10)/t13-,14-,19-,20+;/m0./s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O=C(O)c1ccccc1O"
+    },
+    {
+      "chembl_id": "CHEMBL2146088",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL2146088",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.2ClH/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;2*1H/t13-,14-,19-,20+;;/m0../s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.Cl.Cl"
+    },
+    {
+      "chembl_id": "CHEMBL2146105",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL2146105",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.BrH/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1H/t13-,14-,19-,20+;/m0./s1",
+      "canonical_smiles": "Br.C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    {
+      "chembl_id": "CHEMBL2165709",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1294",
+        "molecule_chembl_id": "CHEMBL2165709",
+        "parent_chembl_id": "CHEMBL1294"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.ClH/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1H/t13-,14-,19+,20-;/m0./s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12.Cl"
+    },
+    {
+      "chembl_id": "CHEMBL2359966",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL2359966",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/2C20H24N2O2.H2O4S.2H2O/c2*1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;1-5(2,3)4;;/h2*3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;(H2,1,2,3,4);2*1H2/t2*13-,14-,19-,20+;;;/m00.../s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O.O.O=S(=O)(O)O"
+    },
+    {
+      "chembl_id": "CHEMBL3229759",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL3229759",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.C4H6O4/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;5-3(6)1-2-4(7)8/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1-2H2,(H,5,6)(H,7,8)/t13-,14-,19-,20+;/m0./s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O=C(O)CCC(=O)O"
+    },
+    {
+      "chembl_id": "CHEMBL3229764",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL3229764",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.C7H6O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;8-7(9)6-4-2-1-3-5-6/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1-5H,(H,8,9)/t13-,14-,19-,20+;/m0./s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O=C(O)c1ccccc1"
+    },
+    {
+      "chembl_id": "CHEMBL3706390",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL3706390",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.ClH.2H2O/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;;;/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;1H;2*1H2/t13-,14-,19-,20+;;;/m0.../s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.Cl.O.O"
+    },
+    {
+      "chembl_id": "CHEMBL3707183",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1294",
+        "molecule_chembl_id": "CHEMBL3707183",
+        "parent_chembl_id": "CHEMBL1294"
+      },
+      "standard_inchi": "InChI=1S/2C20H24N2O2.H2O4S.2H2O/c2*1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;1-5(2,3)4;;/h2*3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;(H2,1,2,3,4);2*1H2/t2*13-,14-,19+,20-;;;/m00.../s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12.C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12.O.O.O=S(=O)(O)O"
+    },
+    {
+      "chembl_id": "CHEMBL3707252",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL3707252",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/2C20H24N2O2.C3H9O6P/c2*1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;4-1-3(5)2-9-10(6,7)8/h2*3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;3-5H,1-2H2,(H2,6,7,8)/t2*13-,14-,19-,20+;/m00./s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O=P(O)(O)OCC(O)CO"
+    },
+    {
+      "chembl_id": "CHEMBL3707329",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL3707329",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/3C20H24N2O2.2H3O4P/c3*1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;2*1-5(2,3)4/h3*3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;2*(H3,1,2,3,4)/t3*13-,14-,19-,20+;;/m000../s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O=P(O)(O)O.O=P(O)(O)O"
+    },
+    {
+      "chembl_id": "CHEMBL3707332",
+      "reason": "multicomponent",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL170",
+        "molecule_chembl_id": "CHEMBL3707332",
+        "parent_chembl_id": "CHEMBL170"
+      },
+      "standard_inchi": "InChI=1S/C20H24N2O2.2C6H8O6/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18;2*7-1-2(8)5-3(9)4(10)6(11)12-5/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3;2*2,5,7-10H,1H2/t13-,14-,19-,20+;2*2-,5+/m000/s1",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.O=C1O[C@H]([C@@H](O)CO)C(O)=C1O.O=C1O[C@H]([C@@H](O)CO)C(O)=C1O"
+    }
+  ],
+  "name_search_rows": 42,
+  "name_search_overlap": [
+    "CHEMBL170",
+    "CHEMBL460606"
+  ],
+  "name_search_missing": [
+    "CHEMBL1294",
+    "CHEMBL1358565",
+    "CHEMBL1364159",
+    "CHEMBL15088",
+    "CHEMBL1616938",
+    "CHEMBL1741006",
+    "CHEMBL1878119",
+    "CHEMBL2355467",
+    "CHEMBL387326",
+    "CHEMBL407725",
+    "CHEMBL4751379",
+    "CHEMBL512340",
+    "CHEMBL576997",
+    "CHEMBL601807"
+  ],
+  "virtual_parent_ids": [
+    "CHEMBL1616938",
+    "CHEMBL1741006"
+  ],
+  "virtual_parent_witnesses": [
+    {
+      "child": "CHEMBL1365872",
+      "parent": "CHEMBL1616938"
+    },
+    {
+      "child": "CHEMBL1590884",
+      "parent": "CHEMBL1741006"
+    }
+  ],
+  "default_page_overlap": [],
+  "version_and_repeated_responses_equal": true,
+  "independent_connectivity_set_equal": true
+}

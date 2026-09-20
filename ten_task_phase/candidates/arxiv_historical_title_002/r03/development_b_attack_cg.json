@@ -1,0 +1,30 @@
+{
+  "campaign": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/campaign.json",
+  "ledger": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/session_ledger.jsonl",
+  "role": "blind",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "registered_at": "2026-09-10T10:59:53.972823+00:00",
+  "jobs": [
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-cg-dev-b",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_002/r03/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_002/r03/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_002/r03/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_002/r03/r-arxiv-histtitle002-r03-cg-dev-b.job.json",
+      "label": "r-arxiv-histtitle002-r03-cg-dev-b",
+      "purpose": "development"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-arxiv-histtitle002-r03-cg-attack",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_002/r03/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/attack.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_002/r03/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_002/r03/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_002/r03/r-arxiv-histtitle002-r03-cg-attack.job.json",
+      "label": "r-arxiv-histtitle002-r03-cg-attack",
+      "purpose": "attack"
+    }
+  ]
+}

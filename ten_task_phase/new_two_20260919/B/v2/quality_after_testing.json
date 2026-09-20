@@ -1,0 +1,8 @@
+{
+  "verdict": "needs_revision",
+  "acceptance_eligible": false,
+  "reason": "shared public-wording interpretation confound for erratum7306",
+  "arbitration": "runs/new-two-B-v2-review-2/stage_assets/review.md",
+  "original_pretest_resolution": "B/v2/quality_review.json",
+  "no_rescore": true
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_id": "europemc_declared_patent_001",
+  "revision": "r01",
+  "ecosystem": "Europe PMC",
+  "construction_family": "unnumbered_author_disclosure_to_explicit_invention_identity",
+  "created_at": "2026-09-10T04:08:22.086017+00:00",
+  "constructor_run": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-resume-bart-family",
+  "substantive_revisions_used": 0,
+  "status": "rejected_development",
+  "content_validated": false,
+  "admitted": false,
+  "reference_execution": "passed",
+  "independent_key_check": "passed",
+  "difficulty_status": "both_initial_variants_fully_correct",
+  "decision": "CG/GO A each15/15correctfields, Item-F1=1. All raw high scores preserved; no further tests of this version.",
+  "decision_at": "2026-09-10T04:23:27.369706+00:00"
+}

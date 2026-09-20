@@ -1,0 +1,73 @@
+{
+  "candidate_id": "chembl_stereochemical_peers_001",
+  "revision": 2,
+  "ecosystem": "ChEMBL",
+  "domain": "CHEMBL_STRUCTURE",
+  "status": "reference_ready",
+  "old_task_refs": [
+    "genome_001",
+    "genome_003"
+  ],
+  "research_goal": "Inventory quinine-connected single-component registered structures for structural deduplication while preserving representation identity, and classify completeness at four carbon stereocentres.",
+  "structural_upgrade": "Observed quinine identity discovery supplies the structural value used to configure a specialized key-prefix filter; full name search covers only 2 of 16 qualifying records. This is a structural hypothesis, with no demonstrated difficulty superiority over old tasks. Cross-ecosystem old-task comparisons concern scope and identity handling only.",
+  "public": {
+    "cg": {
+      "instruction": "For a structure deduplication check, inventory all registered structures with the same basic connectivity as quinine. Return each qualifying registered compound ID and how completely its carbon stereochemistry is specified.\n\nUse release 37, issued in May 2026, of the public database of curated small-molecule bioactivity measurements. Inventory that release’s registered compound records, with reference observations on 13 September 2026 (UTC).\n\nTo build the inventory:\n1. Find quinine’s registered Standard InChI and InChIKey.\n2. Use the discovered InChIKey’s first block in the structure-key prefix filter (standard_inchi_key__startswith), and retrieve every result page.\n3. Check the actual structure layers and component count against the scope below, then assign the status.\n\nInclude only complete registered structures with exactly one covalently connected component and both a Standard InChI and canonical SMILES. Exclude multicomponent salts, hydrates and mixtures; do not strip components to make them qualify.\n\nHere, the same basic connectivity means matching quinine’s Standard InChI formula, atom-connectivity (/c), hydrogen (/h), charge (/q) and protonation (/p) layers. Treat an absent layer as empty. Ignore stereochemical and isotope layers for this match.\n\nInclude quinine itself, stereoisomers, and records with partly or wholly unspecified stereochemistry. Keep every qualifying registered compound ID separately, including unnamed records and virtual parents whose own molecule_hierarchy is null. A shared name or parent ID alone does not establish inclusion.\n\nClassify the four tetrahedral carbon stereocentres of the quinine skeleton from the registered Standard InChI’s non-isotopic /t layer. A + or - assignment counts as specified; ? or a missing assignment counts as unspecified. If /t is absent from an otherwise complete Standard InChI, none of these centres is specified.\n\nUse FULL for 4 specified centres, PARTIAL for 1–3, and UNSPECIFIED for 0. Count only these carbon centres, excluding nitrogen stereo marks.\n\nThese labels describe the registered structure, not a sample’s composition. UNSPECIFIED does not establish a racemate. Do not substitute the curated drug chirality flag for structural assignments.\n\nUnavailable or unreadable source data leaves the inventory unresolved; it does not justify UNSPECIFIED or an empty result.",
+      "output_format": "Return only a pipe-separated table with the header REGISTERED_ID|STEREO_STATUS, in that column order. Include every qualifying ID exactly once, with no row limit. Sort by the integer suffix of the registered ID in ascending order. Use FULL, PARTIAL or UNSPECIFIED exactly; do not include structure strings or missing-value placeholders. If the verified result is empty, return only NONE without a header."
+    },
+    "go": {
+      "instruction": "For a structure deduplication check, inventory all registered structures with the same basic connectivity as quinine. Return each qualifying registered compound ID and how completely its carbon stereochemistry is specified.\n\nUse release 37, issued in May 2026, of the public database of curated small-molecule bioactivity measurements. Inventory that release’s registered compound records, with reference observations on 13 September 2026 (UTC).\n\nInclude only complete registered structures with exactly one covalently connected component and both a Standard InChI and canonical SMILES. Exclude multicomponent salts, hydrates and mixtures; do not strip components to make them qualify.\n\nHere, the same basic connectivity means matching quinine’s Standard InChI formula, atom-connectivity (/c), hydrogen (/h), charge (/q) and protonation (/p) layers. Treat an absent layer as empty. Ignore stereochemical and isotope layers for this match.\n\nInclude quinine itself, stereoisomers, and records with partly or wholly unspecified stereochemistry. Keep every qualifying registered compound ID separately, including unnamed records and virtual parents whose own molecule_hierarchy is null. A shared name or parent ID alone does not establish inclusion.\n\nClassify the four tetrahedral carbon stereocentres of the quinine skeleton from the registered Standard InChI’s non-isotopic /t layer. A + or - assignment counts as specified; ? or a missing assignment counts as unspecified. If /t is absent from an otherwise complete Standard InChI, none of these centres is specified.\n\nUse FULL for 4 specified centres, PARTIAL for 1–3, and UNSPECIFIED for 0. Count only these carbon centres, excluding nitrogen stereo marks.\n\nThese labels describe the registered structure, not a sample’s composition. UNSPECIFIED does not establish a racemate. Do not substitute the curated drug chirality flag for structural assignments.\n\nUnavailable or unreadable source data leaves the inventory unresolved; it does not justify UNSPECIFIED or an empty result.",
+      "output_format": "Return only a pipe-separated table with the header REGISTERED_ID|STEREO_STATUS, in that column order. Include every qualifying ID exactly once, with no row limit. Sort by the integer suffix of the registered ID in ascending order. Use FULL, PARTIAL or UNSPECIFIED exactly; do not include structure strings or missing-value placeholders. If the verified result is empty, return only NONE without a header."
+    }
+  },
+  "private": {
+    "source_version": "ChEMBL_37, release month May 2026; primary status/name/discovered-prefix/status observations 2026-09-13T03:15:28.584675+00:00 through 2026-09-13T03:15:37.493410+00:00 reused from ../resumption_pretest_refresh. All four HTTP 200 responses equal prior retained JSON. Earlier Sep 12 connectivity/default/name/schema and repeated observations remain independent scope checks. Cache is explicitly present: observed equality is not a permanent or fresh-origin guarantee. Public reference date remains 13 September 2026 UTC; runtime date is not a historical cutoff.",
+    "start_urls": [
+      "https://www.ebi.ac.uk/chembl/",
+      "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    ],
+    "candidate_scope": "Every registered ChEMBL 37 molecule whose complete single-component structure has Standard InChI formula/c/h/q/p layers equal to quinine, ignoring stereo and isotope layers for that match. Preserve separate registered IDs, unnamed entries and virtual parents; exclude whole-record multicomponent salts, hydrates and mixtures.",
+    "predicates": [
+      "Use release 37, issued in May 2026, of the public database of curated small-molecule bioactivity measurements. Inventory that release’s registered compound records, with reference observations on 13 September 2026 (UTC).",
+      "Include only complete registered structures with exactly one covalently connected component and both a Standard InChI and canonical SMILES. Exclude multicomponent salts, hydrates and mixtures; do not strip components to make them qualify.",
+      "Here, the same basic connectivity means matching quinine’s Standard InChI formula, atom-connectivity (/c), hydrogen (/h), charge (/q) and protonation (/p) layers. Treat an absent layer as empty. Ignore stereochemical and isotope layers for this match.",
+      "Include quinine itself, stereoisomers, and records with partly or wholly unspecified stereochemistry. Keep every qualifying registered compound ID separately, including unnamed records and virtual parents whose own molecule_hierarchy is null. A shared name or parent ID alone does not establish inclusion.",
+      "Classify the four tetrahedral carbon stereocentres of the quinine skeleton from the registered Standard InChI’s non-isotopic /t layer. A + or - assignment counts as specified; ? or a missing assignment counts as unspecified. If /t is absent from an otherwise complete Standard InChI, none of these centres is specified.\n\nUse FULL for 4 specified centres, PARTIAL for 1–3, and UNSPECIFIED for 0. Count only these carbon centres, excluding nitrogen stereo marks.",
+      "These labels describe the registered structure, not a sample’s composition. UNSPECIFIED does not establish a racemate. Do not substitute the curated drug chirality flag for structural assignments.",
+      "Unavailable or unreadable source data leaves the inventory unresolved; it does not justify UNSPECIFIED or an empty result."
+    ],
+    "output_columns": [
+      "REGISTERED_ID",
+      "STEREO_STATUS"
+    ],
+    "row_key": [
+      "REGISTERED_ID"
+    ],
+    "sorting_rules": [
+      "One row per qualifying REGISTERED_ID, ordered by ascending numeric suffix. Status ties do not remove or regroup records."
+    ],
+    "missing_value_rules": [
+      "Count ? or absent carbon assignment as unspecified only within a present, complete Standard InChI. An absent /t means zero assigned centres in this four-carbon scope.",
+      "A genuinely missing registered Standard InChI or canonical SMILES does not meet the defined eligibility rule. Unavailable or unreadable source responses leave the result unresolved; do not infer source absence.",
+      "For a fully verified empty result, return only NONE without a header."
+    ],
+    "source_manifest_path": "source_manifest.json",
+    "state_graph_path": "state_graph.json",
+    "oracle_path": "oracle.txt",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "not_run",
+    "difficulty": "structural_only",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "construction_report.md",
+      "construction_report.json",
+      "reference_report.md",
+      "pair_alignment.json",
+      "language_review.md",
+      "execution_checks.json",
+      "refresh_checks.json"
+    ]
+  }
+}

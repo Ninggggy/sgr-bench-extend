@@ -1,0 +1,60 @@
+{
+  "columns": [
+    "respondent",
+    "filing_date",
+    "issuer_bank",
+    "fdic_certificate",
+    "disclosure_revision"
+  ],
+  "row_key": [
+    "respondent",
+    "fdic_certificate"
+  ],
+  "fields": {
+    "respondent": {
+      "aliases": {
+        "Chime": "Chime Financial, Inc.",
+        "Chime Financial Inc.": "Chime Financial, Inc.",
+        "SoLo": "SoLo Funds, Inc.",
+        "SoLo Funds Inc.": "SoLo Funds, Inc."
+      },
+      "type": "string"
+    },
+    "filing_date": {
+      "aliases": {
+        "May 7, 2024": "2024-05-07",
+        "MAY 07, 2024": "2024-05-07",
+        "05/07/2024": "2024-05-07",
+        "May 17, 2024": "2024-05-17",
+        "MAY 17, 2024": "2024-05-17",
+        "05/17/2024": "2024-05-17"
+      },
+      "type": "string"
+    },
+    "issuer_bank": {
+      "aliases": {
+        "BANCORP BANK NATIONAL ASSOCIATION, THE": "The Bancorp Bank, N.A.",
+        "The Bancorp Bank, National Association": "The Bancorp Bank, N.A.",
+        "STRIDE BANK, NATIONAL ASSOCIATION": "Stride Bank, N.A.",
+        "Stride Bank, National Association": "Stride Bank, N.A.",
+        "BANGOR SAVINGS BANK": "Bangor Savings Bank"
+      },
+      "type": "string"
+    },
+    "fdic_certificate": {
+      "aliases": {},
+      "type": "integer"
+    },
+    "disclosure_revision": {
+      "aliases": {
+        "Rev. 02/2026": "2026-02",
+        "02/2026": "2026-02",
+        "February 2026": "2026-02",
+        "July 27, 2026": "2026-07-27",
+        "Last Updated: July 27, 2026": "2026-07-27",
+        "07/27/2026": "2026-07-27"
+      },
+      "type": "string"
+    }
+  }
+}

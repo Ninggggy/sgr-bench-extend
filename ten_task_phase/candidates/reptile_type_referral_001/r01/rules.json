@@ -1,0 +1,9 @@
+{
+  "columns": ["accepted_species", "description_year", "holotype_catalogue"],
+  "row_key": ["accepted_species"],
+  "fields": {
+    "accepted_species": {"type": "string", "comparison": "exact_after_outer_whitespace_trim"},
+    "description_year": {"type": "integer", "comparison": "exact"},
+    "holotype_catalogue": {"type": "string", "comparison": "exact_after_outer_whitespace_trim"}
+  }
+}

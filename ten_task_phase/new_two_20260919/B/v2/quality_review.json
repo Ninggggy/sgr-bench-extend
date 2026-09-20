@@ -1,0 +1,9 @@
+{
+  "verdict": "passed",
+  "review_run": "runs/new-two-B-v2-review-1",
+  "review_verdict": "needs_revision",
+  "resolution": "B/v2/quality_resolution.md",
+  "resolved_by": "controller",
+  "oracle_changed": false,
+  "blind_scores_seen": false
+}

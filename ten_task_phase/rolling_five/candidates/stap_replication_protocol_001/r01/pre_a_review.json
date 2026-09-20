@@ -1,0 +1,97 @@
+{
+  "candidate_id": "stap_replication_protocol_001",
+  "revision": 1,
+  "review_stage": "independent_pre_development_A_content_reference_pair",
+  "verdict": "pass_for_development_A",
+  "blocking_findings": [],
+  "allow_development_A": true,
+  "standard_admission": false,
+  "human_validation": "not_performed",
+  "reviewed_constructor_ready_at_utc": "2026-09-13T06:38:38.933723+00:00",
+  "draft_at_start": true,
+  "finalized_files_rechecked": true,
+  "constructor_files_modified": false,
+  "independence": {
+    "prior_opportunity_review": true,
+    "known_constructor_included_count_before_review": 3,
+    "answer_blind": false,
+    "raw_first_semantic_review": true,
+    "constructor_reference_imported_or_executed": false,
+    "annotations_compared_after_raw_derivation": true
+  },
+  "checks": {
+    "all_49_individual_eligibility": true,
+    "included": 3,
+    "excluded": 46,
+    "abstractless_main_texts": 7,
+    "main_texts": 16,
+    "independent_expected_fields_match": 12,
+    "identity_namespaces_and_versions": true,
+    "author_main_vs_peer_review": true,
+    "transient_vs_chronic": true,
+    "author_reported_protocol_claim_only": true,
+    "all_core_fields_initial_refresh_equal": true,
+    "all_16_fulltext_initial_refresh_bytes_equal": true,
+    "cg_minus_guidance_equals_go": true,
+    "output_format_equal": true,
+    "candidate_embedded_pair_equals_files": true,
+    "existing_scorer_fixtures_passed": 9,
+    "all_columns_including_pmid_scored": true,
+    "case_and_set_order_normalized": true,
+    "wrong_or_missing_tag_loses_whole_field": true
+  },
+  "sgr": {
+    "observed_mechanism_pass": true,
+    "dependency": "Original experimental identity -> CITES plus OPEN_ACCESS cohort -> result-conditioned main-text retrieval/eligibility",
+    "actual_complete_core_packet_sufficient": false,
+    "core_insufficiency_witnesses": [
+      "Niwa ATP/FGF2, rare molecular markers and failed stable line derivation",
+      "Aizawa explicitly unperformed teratoma and secondary-line experiments"
+    ],
+    "extra_second_dependency_required": false,
+    "result_driven_batch_download_legal": true,
+    "all_possible_shortcuts_excluded": false
+  },
+  "readability": {
+    "four_columns_acceptable": true,
+    "procedure_axes_have_scientific_use": true,
+    "functional_conclusion_tag_information_increment": "limited for this three-study result",
+    "optional_edit": "Can omit aggregate PLURIPOTENCY summary for brevity only in a future deliberate paired revision before testing; not required for this review",
+    "mandatory_edit": null,
+    "length_used_as_difficulty_evidence": false
+  },
+  "limitations": [
+    "Not answer-blind; prior feasibility review and known three-study constructor result disclosed.",
+    "All 49 abstracts and necessary main-text evidence/structures reviewed; not a claim to have read every nondecisive paragraph.",
+    "Author-reported methods audit does not certify faithful reproduction of the original full Nature protocol.",
+    "No new network evidence, model difficulty test, universal shortcut audit, human review, or post-development final audit.",
+    "Endpoint equality does not prove continuous or perpetual stability."
+  ],
+  "evidence_paths": [
+    "independent_review/eligibility_review.json",
+    "independent_review/decisive_evidence.json",
+    "independent_review/independent_expected.psv",
+    "independent_review/summary.json",
+    "independent_review/scorer_results.json",
+    "independent_review/reviewed_files.json"
+  ],
+  "runtime_date": "2026-09-09",
+  "source_observation_date_utc": "2026-09-13",
+  "parent_extra_pretest_observation": "06:42:25.667 UTC; parent-owned 17 GET cost not charged again here",
+  "cost": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "high",
+    "started_at_utc": "2026-09-13T06:35:34+00:00",
+    "completed_at_utc": "2026-09-13T06:47:15.828817+00:00",
+    "elapsed_seconds": 701.83,
+    "budget_seconds": 1200,
+    "functions_exec_calls": 17,
+    "network_requests": 0,
+    "new_model_test_calls": 0,
+    "subagents": 0,
+    "tokens": null,
+    "tokens_status": "unavailable in this tool context; do not record as zero",
+    "model_cost": null,
+    "accounting": "One new independent pre-A review; not the later formal audit reserve"
+  }
+}

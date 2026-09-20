@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-09-08T14:46:01.189814+00:00",
+  "reason": "User requests prompt verification and wrap-up; host Docker capacity verified6CPUs/10403872768bytes, permitting4isolated2GB containers.",
+  "content_and_shortcuts_workers": 2,
+  "dependent_audit_workers": 1,
+  "screening_confirmation_workers": 4,
+  "before_any_screening_or_confirmation": true,
+  "unchanged": "All4new/old CG/GO use identical model/effort/tools/per-run6000s/stall3000s/2GBisolation. Fixed4screening+12confirmation, no new attempts, no score-driven stopping. Session ledger allocation is locked.",
+  "timing_caution": "Concurrency and host timestamp differences are not interpreted as cognitive difficulty. This updates earlier2-worker speed amendment only for later comparisons."
+}

@@ -1,0 +1,7 @@
+{
+  "construction_run": "../../../runs/r-arxiv-recover-01",
+  "raw_data": "../../../runs/r-arxiv-recover-01/downloaded_data",
+  "original_interrupted_run": "../../../runs/r-arxiv-construct-02",
+  "reference_execution": "../../../research/arxiv_repaired_reference.json",
+  "independent_execution": "../../../research/arxiv_repaired_independent.json"
+}

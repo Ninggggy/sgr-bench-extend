@@ -1,0 +1,13 @@
+{
+  "run_id": "r-epmc-balf-r01-cg-dev-a",
+  "error_category": "provider_safety_interruption",
+  "score": null,
+  "decision": "CG development A was interrupted by provider biological-risk safety screening before final answer. No numerical score, no imputed zero, no retry/rephrasing to evade safeguard; GO remains unstarted. Content and substantive-error audits not completed.",
+  "preserve": [
+    "original public question",
+    "full source package",
+    "actual session and error events",
+    "observed token usage"
+  ],
+  "next_action": "Do not restart this failed batch or launch its GO slot as a workaround. Continue other scientific directions under unchanged protocol."
+}

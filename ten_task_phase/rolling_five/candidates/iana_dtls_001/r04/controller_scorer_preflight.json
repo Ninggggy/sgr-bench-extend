@@ -1,0 +1,118 @@
+{
+  "scope": "Local deterministic scorer entrypoint checks only, no solver/model tests",
+  "witness_sources": {
+    "ordinary": "history-800636; RFC9146 section10.2",
+    "nonproposal": "history-803525 2021-04-16 rev11 IANA OK status, no proposed value; deliberately invalid answer projection",
+    "empty": "serialization boundary; no assertion actual registry scope is empty"
+  },
+  "results": {
+    "ordinary": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 0
+      },
+      "counts": {
+        "correct_fields": 5,
+        "gold_fields": 5,
+        "pred_fields": 5,
+        "item_denominator": 10,
+        "correct_rows": 1,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 1
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "order_pairs": [],
+      "poa_note": "fewer than two shared IDs => 0"
+    },
+    "nonproposal": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 0.4,
+        "Row-F1": 0.0,
+        "P.O.A.": 0
+      },
+      "counts": {
+        "correct_fields": 2,
+        "gold_fields": 5,
+        "pred_fields": 5,
+        "item_denominator": 10,
+        "correct_rows": 0,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 1
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "order_pairs": [],
+      "poa_note": "fewer than two shared IDs => 0"
+    },
+    "bare_none": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 0.0,
+        "Row-F1": 0.0,
+        "P.O.A.": 0
+      },
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 5,
+        "pred_fields": 0,
+        "item_denominator": 5,
+        "correct_rows": 0,
+        "gold_rows": 1,
+        "pred_rows": 0,
+        "row_denominator": 1,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "omitted_ids": [
+        [
+          "53"
+        ]
+      ],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "order_pairs": [],
+      "poa_note": "fewer than two shared IDs => 0"
+    },
+    "header_none": {
+      "status": "parse_failure_unscored",
+      "metrics": null,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 5,
+        "pred_fields": 0,
+        "item_denominator": 5,
+        "correct_rows": 0,
+        "gold_rows": 1,
+        "pred_rows": 0,
+        "row_denominator": 1,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "omitted_ids": [
+        [
+          "53"
+        ]
+      ],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "order_pairs": [],
+      "poa_note": "fewer than two shared IDs => 0"
+    }
+  }
+}

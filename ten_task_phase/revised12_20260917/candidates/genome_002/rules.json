@@ -1,0 +1,34 @@
+{
+  "status": "deterministic_explicit",
+  "columns": [
+    "group",
+    "symbiont",
+    "pathway",
+    "module",
+    "replicon",
+    "created_year"
+  ],
+  "row_key": [
+    "group",
+    "symbiont",
+    "pathway",
+    "module",
+    "replicon"
+  ],
+  "fields": {
+    "created_year": {
+      "type": "integer"
+    },
+    "group": {
+      "aliases": {
+        "api buc": "api+buc"
+      }
+    },
+    "pathway": {
+      "aliases": {
+        "map00290": "00290",
+        "map00400": "00400"
+      }
+    }
+  }
+}

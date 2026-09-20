@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-13T06:28:35.700472+00:00",
+  "reference_rows": 49,
+  "current_rows": 49,
+  "current_hit_count": 49,
+  "same_namespace_ids": true,
+  "all_core_fields_equal": true,
+  "scope_complete": true,
+  "new_source_requests": 0,
+  "limits": "Mechanical comparison of two constructor-owned observed core packets only, not final eligibility or future stability."
+}

@@ -1,0 +1,157 @@
+{
+  "at": "2026-09-13T02:17:25.069835+00:00",
+  "candidate_id": "iana_dtls_001",
+  "revision": 4,
+  "decision": "stop_development_a_full_scores",
+  "reason": "Both ordinary fresh A solves completed all5fields exactly with no observed domain/identity/scope decision error. Do not append B, attack or formal trials to seek lower scores. Strict SGR/content passing does not substitute for difficulty filtering.",
+  "development_a": {
+    "CG": {
+      "run_id": "iana-r04-cg-dev-a",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verification": "passed",
+      "counts": {
+        "correct_fields": 5,
+        "gold_fields": 5,
+        "pred_fields": 5,
+        "item_denominator": 10,
+        "correct_rows": 1,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 1
+      },
+      "Item-F1_exact": "10/10",
+      "elapsed_seconds": 65.705,
+      "usage": {
+        "input_tokens": 348424,
+        "cached_input_tokens": 274048,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1528,
+        "reasoning_output_tokens": 801
+      },
+      "trace_path": "runs/iana-r04-cg-dev-a/sessions/rollout-2026-09-13T02-14-17-01a0988b-3ef1-75b0-884b-76664980f1bc.jsonl",
+      "calls": [
+        {
+          "line": 15,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({search_query:[\n {q:\"site:iana.org/assignments/tls-extensiontype-values DTLS-Only Deprecated ExtensionType\"},\n {q:\"site:datatracker.ietf.org/doc/history \\\"IANA Review\\\" \\\"ExtensionType\\\" DTLS deprecated\"}\n],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 24,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({open:[{ref_id:\"turn0search0\"}],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 31,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({open:[{ref_id:\"turn1view0\",\"lineno\":130}],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 38,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({click:[\n {ref_id:\"turn2view0\",\"id\":16}\n],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 45,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({click:[{ref_id:\"turn3view0\",\"id\":5}],response_length:\"short\"}); text(r)\n"
+        },
+        {
+          "line": 52,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({open:[{ref_id:\"https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/\"}],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 59,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({open:[{ref_id:\"turn5view0\",\"lineno\":385}],response_length:\"long\"}); text(r)\n"
+        }
+      ],
+      "observed_path": "Both actual traces identify protocol registry and load the discovered specification family official History; read 2021-03-26 substantive proposal and distinguish later administrative state. CG reads registry/spec then History; GO searches/reads History then cross-checks registry/RFC and possible later review.",
+      "private_reads": "All 7 executed calls are web__run requests, alongside verified clean container mount/read probes."
+    },
+    "GO": {
+      "run_id": "iana-r04-go-dev-a",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verification": "passed",
+      "counts": {
+        "correct_fields": 5,
+        "gold_fields": 5,
+        "pred_fields": 5,
+        "item_denominator": 10,
+        "correct_rows": 1,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 1
+      },
+      "Item-F1_exact": "10/10",
+      "elapsed_seconds": 80.868,
+      "usage": {
+        "input_tokens": 333565,
+        "cached_input_tokens": 261376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1895,
+        "reasoning_output_tokens": 893
+      },
+      "trace_path": "runs/iana-r04-go-dev-a/sessions/rollout-2026-09-13T02-14-17-01a0988b-3ed9-7bb1-a8dd-2b9d383acad9.jsonl",
+      "calls": [
+        {
+          "line": 15,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({search_query:[\n {q:\"site:iana.org/assignments/tls-extensiontype-values ExtensionType DTLS-Only Y Deprecated\"},\n {q:\"IANA TLS ExtensionType Values registry DTLS-Only Recommended\"}\n],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 22,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({search_query:[\n {q:\"site:datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history IANA Review ExtensionType\"},\n {q:\"\\\"draft-ietf-tls-dtls-connection-id\\\" \\\"IANA Review\\\" 54\"},\n {q:\"site:datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/ \\\"IANA\\\"\"}\n],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 31,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({open:[\n {ref_id:\"https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/\"}\n],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 38,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({open:[\n {ref_id:\"turn2view0\",\"lineno\":388},\n {ref_id:\"turn2view0\",\"lineno\":450},\n {ref_id:\"turn2view0\",\"lineno\":650}\n],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 45,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({search_query:[\n {q:\"\\\"IANA Functions Operator has completed its review of draft-ietf-tls-dtls-connection-id-11\\\"\"},\n {q:\"\\\"draft-ietf-tls-dtls-connection-id-11\\\" \\\"Value: 54\\\"\"},\n {q:\"\\\"connection_id\\\" \\\"54\\\" \\\"Sabrina Tanamal\\\"\"},\n {q:\"site:mailarchive.ietf.org draft-ietf-tls-dtls-connection-id-11 IANA 54\"}\n],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 54,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({open:[\n {ref_id:\"turn0search0\",\"lineno\":85},\n {ref_id:\"turn1search10\"},\n {ref_id:\"https://www.rfc-editor.org/rfc/rfc9146.html\"}\n],response_length:\"long\"}); text(r)\n"
+        },
+        {
+          "line": 61,
+          "tool": "exec",
+          "code": "const r = await tools.web__run({open:[{ref_id:\"turn5view0\",\"lineno\":145}],response_length:\"medium\"}); text(r)\n"
+        }
+      ],
+      "observed_path": "Both actual traces identify protocol registry and load the discovered specification family official History; read 2021-03-26 substantive proposal and distinguish later administrative state. CG reads registry/spec then History; GO searches/reads History then cross-checks registry/RFC and possible later review.",
+      "private_reads": "All 7 executed calls are web__run requests, alongside verified clean container mount/read probes."
+    }
+  },
+  "later_trials": {
+    "development_b": 0,
+    "attack": 0,
+    "formal": 0
+  },
+  "formal_means": null,
+  "admitted": false,
+  "substantive_revisions_used": 2,
+  "substantive_revisions_remaining": 0,
+  "poa_note": "Single shared row has zero comparable order pairs; scorer P.O.A.=0 is not an ordering error and does not affect Item-F1 stopping decision.",
+  "human_validation": "not_performed",
+  "selection_not_unbiased_evaluation": true
+}

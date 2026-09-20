@@ -1,0 +1,79 @@
+{
+  "checked_at_utc": "2026-09-13T06:37:27.392590+00:00",
+  "initial_cohort_utc": "2026-09-13T06:25:10.785712+00:00",
+  "final_refresh_utc": "2026-09-13T06:33:59.431637+00:00",
+  "complete_core_all_fields_equal": true,
+  "cohort_records": 49,
+  "all_decisive_fulltext_checks": {
+    "PMC4904271": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4908587": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4995676": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4207037": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC6354101": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4630493": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4207917": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4146237": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4065176": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC5220388": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4080539": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4003273": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4053948": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4255744": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4032108": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    },
+    "PMC4641509": {
+      "bytes_equal": true,
+      "main_paragraphs_equal": true
+    }
+  },
+  "recomputed_outputs_equal": true,
+  "scope_of_claim": "Only these observed construction endpoints; no perpetual stability claim.",
+  "future_run_plan": "Immediately before and after each model trial, repeat the complete original-seed citing/OA core query and all 16 main texts supporting eligibility or required fields. Compare the entire PMID/PMCID cohort and core records plus main-article identity/version and paragraphs. A new/removed record or changed relevant text requires fresh scientific adjudication and an explicit stability decision before the trial can support validation. Preserve the public task/runtime date and original score; never silently repair the answer from a later state. Prior private files are constructor evidence and cannot be passed to blind solvers.",
+  "supplement_policy": "No required current verdict depends on a missing supplement. Som excluded by its chronic protocol, so preliminary tumor-image classification need not be completed. Fetch a linked supplement only if a changed/new eligible verdict actually requires it.",
+  "estimated_one_observation_requests": 17,
+  "estimated_one_observation_bytes": 1159541
+}

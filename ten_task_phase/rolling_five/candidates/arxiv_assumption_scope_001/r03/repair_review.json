@@ -1,0 +1,42 @@
+{
+  "candidate": "arxiv_assumption_scope_001",
+  "revision": 3,
+  "revision_allowance": "second and last substantive repair",
+  "status": "prepared_for_controller_validation",
+  "decisive_failure": "r02 required reduced divisor in every version; the supplied controller run stopped at v1 divisor definition after 66 passing checks",
+  "repair": {
+    "public": "Replace the uniform definition with each version's own definition and divisor wording in both prompts",
+    "annotations": "Separate the shared theorem scope from version-specific divisor phrases and lexical reduced flags",
+    "reference": "Three exact literal substitutions: revision docstring, version-specific definition validation, and scope evidence record",
+    "alignment": "Update the repaired predicate quotation and add the uniform-definition ambiguity challenge"
+  },
+  "primary_evidence_inspected": [
+    {"source": "https://arxiv.org/pdf/1705.08366v1", "anchor": "p1 opening definition", "finding": "The definition does not explicitly use reduced; agrees with the controller-supplied normalized passage"},
+    {"source": "https://arxiv.org/pdf/1705.08366v2", "anchor": "p1 opening definition", "finding": "The definition explicitly uses reduced"},
+    {"source": "https://arxiv.org/html/1705.08366v3", "anchor": "opening definition", "finding": "The definition explicitly uses reduced"}
+  ],
+  "lexical_boundary": "No claim that v1 permits non-reduced divisors and no claim that its definition is mathematically equivalent to the later definitions",
+  "preserved": [
+    "Four requested fields and their column order",
+    "Three-row oracle and numerical version order",
+    "Identical public output_format strings",
+    "CG consists of GO instruction plus the existing procedure",
+    "Historical universe and snapshot",
+    "Main theorem, dimension threshold, category, and exclusions",
+    "Same-version correction precedence and strongest-name rule",
+    "NONE and UNKNOWN rules",
+    "Source manifest coverage and all unrelated reference checks",
+    "Existing rules.json and scorer behavior",
+    "r01 and r02 artifacts"
+  ],
+  "oracle_changed": false,
+  "oracle_file_replacement_required": false,
+  "reference_executed": false,
+  "patch_application": "pending controller unique-match verification and one-time application",
+  "automated_validation": "pending controller rerun",
+  "solver_tests": "not_performed",
+  "scores": null,
+  "human_review": "not_performed",
+  "independent_audit": "not_performed",
+  "hash_additions": false
+}

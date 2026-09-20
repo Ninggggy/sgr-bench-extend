@@ -1,0 +1,435 @@
+[
+  {
+    "chembl_id": "CHEMBL170",
+    "stereo_status": "FULL",
+    "specified_carbon_centres": [
+      13,
+      14,
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "-",
+      "19": "-",
+      "20": "+"
+    },
+    "pref_name": "QUININE",
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL170",
+      "molecule_chembl_id": "CHEMBL170",
+      "parent_chembl_id": "CHEMBL170"
+    },
+    "drug_chirality_not_used": 1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14-,19-,20+/m0/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-WZBLMQSHSA-N",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL1294",
+    "stereo_status": "FULL",
+    "specified_carbon_centres": [
+      13,
+      14,
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "-",
+      "19": "+",
+      "20": "-"
+    },
+    "pref_name": "QUINIDINE",
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL1294",
+      "molecule_chembl_id": "CHEMBL1294",
+      "parent_chembl_id": "CHEMBL1294"
+    },
+    "drug_chirality_not_used": 1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14-,19+,20-/m0/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-LHHVKLHASA-N",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL15088",
+    "stereo_status": "UNSPECIFIED",
+    "specified_carbon_centres": [],
+    "tetrahedral_markers": {},
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL15088",
+      "molecule_chembl_id": "CHEMBL15088",
+      "parent_chembl_id": "CHEMBL15088"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3",
+      "standard_inchi_key": "LOUPRKONTZGTKE-UHFFFAOYSA-N",
+      "canonical_smiles": "C=CC1CN2CCC1CC2C(O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL387326",
+    "stereo_status": "PARTIAL",
+    "specified_carbon_centres": [
+      13,
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "?",
+      "19": "-",
+      "20": "+"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL387326",
+      "molecule_chembl_id": "CHEMBL387326",
+      "parent_chembl_id": "CHEMBL387326"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14?,19-,20+/m0/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-VOMFEXJBSA-N",
+      "canonical_smiles": "C=C[C@H]1CN2CCC1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL407725",
+    "stereo_status": "PARTIAL",
+    "specified_carbon_centres": [
+      13,
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "?",
+      "19": "-",
+      "20": "+"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL407725",
+      "molecule_chembl_id": "CHEMBL407725",
+      "parent_chembl_id": "CHEMBL407725"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14?,19-,20+/m1/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-ZHEWUBEISA-N",
+      "canonical_smiles": "C=C[C@@H]1CN2CCC1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL460606",
+    "stereo_status": "FULL",
+    "specified_carbon_centres": [
+      13,
+      14,
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "-",
+      "19": "-",
+      "20": "+"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL460606",
+      "molecule_chembl_id": "CHEMBL460606",
+      "parent_chembl_id": "CHEMBL460606"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14-,19-,20+/m1/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-FQZPYLGXSA-N",
+      "canonical_smiles": "C=C[C@@H]1CN2CC[C@@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL512340",
+    "stereo_status": "FULL",
+    "specified_carbon_centres": [
+      13,
+      14,
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "-",
+      "19": "+",
+      "20": "-"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL512340",
+      "molecule_chembl_id": "CHEMBL512340",
+      "parent_chembl_id": "CHEMBL512340"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14-,19+,20-/m1/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-VPCNSNALSA-N",
+      "canonical_smiles": "C=C[C@@H]1C[N@@]2CC[C@@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL576997",
+    "stereo_status": "FULL",
+    "specified_carbon_centres": [
+      13,
+      14,
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "-",
+      "19": "+",
+      "20": "+"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL576997",
+      "molecule_chembl_id": "CHEMBL576997",
+      "parent_chembl_id": "CHEMBL576997"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14-,19+,20+/m0/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-AFHBHXEDSA-N",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL601807",
+    "stereo_status": "PARTIAL",
+    "specified_carbon_centres": [
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "?",
+      "14": "?",
+      "19": "?",
+      "20": "-"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL601807",
+      "molecule_chembl_id": "CHEMBL601807",
+      "parent_chembl_id": "CHEMBL601807"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13?,14?,19?,20-/m1/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-WGFDLZGGSA-N",
+      "canonical_smiles": "C=CC1CN2CCC1CC2[C@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL1358565",
+    "stereo_status": "FULL",
+    "specified_carbon_centres": [
+      13,
+      14,
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "+",
+      "19": "+",
+      "20": "-"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL1358565",
+      "molecule_chembl_id": "CHEMBL1358565",
+      "parent_chembl_id": "CHEMBL1358565"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14+,19+,20-/m0/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-SMHQJORMSA-N",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL1364159",
+    "stereo_status": "PARTIAL",
+    "specified_carbon_centres": [
+      13,
+      19
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "?",
+      "19": "-",
+      "20": "?"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL1364159",
+      "molecule_chembl_id": "CHEMBL1364159",
+      "parent_chembl_id": "CHEMBL1364159"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14?,19-,20?/m1/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-IGCMHAGFSA-N",
+      "canonical_smiles": "C=C[C@@H]1CN2CCC1C[C@@H]2C(O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL1616938",
+    "stereo_status": "FULL",
+    "specified_carbon_centres": [
+      13,
+      14,
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "+",
+      "19": "-",
+      "20": "-"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": null,
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14+,19-,20-/m0/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-ILWKUFEGSA-N",
+      "canonical_smiles": "C=C[C@H]1CN2CC[C@@H]1C[C@H]2[C@@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL1741006",
+    "stereo_status": "FULL",
+    "specified_carbon_centres": [
+      13,
+      14,
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "-",
+      "19": "-",
+      "20": "-"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": null,
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14-,19-,20-/m1/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-UYVJDWJCSA-N",
+      "canonical_smiles": "C=C[C@@H]1C[N@@]2CC[C@@H]1C[C@@H]2[C@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL1878119",
+    "stereo_status": "PARTIAL",
+    "specified_carbon_centres": [
+      13,
+      19
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "?",
+      "19": "+",
+      "20": "?"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL1878119",
+      "molecule_chembl_id": "CHEMBL1878119",
+      "parent_chembl_id": "CHEMBL1878119"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14?,19+,20?/m0/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-BEFZOFJQSA-N",
+      "canonical_smiles": "C=C[C@H]1C[N@@]2CCC1C[C@@H]2C(O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL2355467",
+    "stereo_status": "PARTIAL",
+    "specified_carbon_centres": [
+      19,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "?",
+      "14": "?",
+      "19": "-",
+      "20": "-"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL2355467",
+      "molecule_chembl_id": "CHEMBL2355467",
+      "parent_chembl_id": "CHEMBL2355467"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13?,14?,19-,20-/m0/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-CLONCEMUSA-N",
+      "canonical_smiles": "C=CC1C[N@@]2CCC1C[C@H]2[C@@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  },
+  {
+    "chembl_id": "CHEMBL4751379",
+    "stereo_status": "PARTIAL",
+    "specified_carbon_centres": [
+      13,
+      20
+    ],
+    "tetrahedral_markers": {
+      "13": "-",
+      "14": "?",
+      "19": "?",
+      "20": "+"
+    },
+    "pref_name": null,
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL4751379",
+      "molecule_chembl_id": "CHEMBL4751379",
+      "parent_chembl_id": "CHEMBL4751379"
+    },
+    "drug_chirality_not_used": -1,
+    "structure": {
+      "standard_inchi": "InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14?,19?,20+/m0/s1",
+      "standard_inchi_key": "LOUPRKONTZGTKE-OOXNXYBBSA-N",
+      "canonical_smiles": "C=C[C@H]1CN2CCC1CC2[C@H](O)c1ccnc2ccc(OC)cc12"
+    },
+    "source_id": "resumption_prefix"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc4517.txt",
+    "file": "rfc4517.txt",
+    "at": "2026-09-19T14:41:40.725349+00:00",
+    "bytes": 114285
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc4518.txt",
+    "file": "rfc4518.txt",
+    "at": "2026-09-19T14:41:42.022714+00:00",
+    "bytes": 28166
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc3454.txt",
+    "file": "rfc3454.txt",
+    "at": "2026-09-19T14:41:43.345486+00:00",
+    "bytes": 138684
+  },
+  {
+    "url": "https://www.unicode.org/Public/UNIDATA/NormalizationCorrections.txt",
+    "file": "normalization_corrections.txt",
+    "at": "2026-09-19T14:41:45.441700+00:00",
+    "bytes": 2214
+  }
+]

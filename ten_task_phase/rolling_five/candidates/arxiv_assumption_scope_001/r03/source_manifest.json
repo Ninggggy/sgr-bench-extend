@@ -1,0 +1,90 @@
+{
+  "construction_assets": [
+    {
+      "bytes": 2179,
+      "path": "candidate.json"
+    },
+    {
+      "bytes": 3901,
+      "path": "annotations.json"
+    },
+    {
+      "bytes": 2513,
+      "path": "rules.json"
+    },
+    {
+      "bytes": 3113,
+      "path": "cg.json"
+    },
+    {
+      "bytes": 2793,
+      "path": "go.json"
+    },
+    {
+      "bytes": 10637,
+      "path": "pair_alignment.json"
+    },
+    {
+      "bytes": 168,
+      "path": "oracle.psv"
+    },
+    {
+      "bytes": 15622,
+      "path": "reference.py"
+    }
+  ],
+  "equation_13_nonmembership_present": true,
+  "equation_13_used_for_output": false,
+  "snapshot_date": "2026-09-12",
+  "sources": [
+    {
+      "anchor": "Submission history",
+      "bytes": 40369,
+      "kind": "official HTML",
+      "path": "history.html",
+      "url": "https://arxiv.org/abs/1705.08366"
+    },
+    {
+      "bytes": 26517,
+      "kind": "controller pdftotext -layout output",
+      "path": "v1.txt",
+      "url": "https://arxiv.org/pdf/1705.08366v1"
+    },
+    {
+      "bytes": 32944,
+      "kind": "controller pdftotext -layout output",
+      "path": "v2.txt",
+      "url": "https://arxiv.org/pdf/1705.08366v2"
+    },
+    {
+      "bytes": 270374,
+      "kind": "official full HTML cross-check",
+      "path": "v3.html",
+      "url": "https://arxiv.org/html/1705.08366v3"
+    },
+    {
+      "bytes": 38040,
+      "kind": "controller pdftotext -layout output",
+      "path": "v3.txt",
+      "url": "https://arxiv.org/pdf/1705.08366v3"
+    },
+    {
+      "bytes": 125111,
+      "kind": "archived original PDF",
+      "path": "v1.pdf",
+      "url": "https://arxiv.org/pdf/1705.08366v1"
+    },
+    {
+      "bytes": 145160,
+      "kind": "archived original PDF",
+      "path": "v2.pdf",
+      "url": "https://arxiv.org/pdf/1705.08366v2"
+    },
+    {
+      "bytes": 162760,
+      "kind": "archived original PDF",
+      "path": "v3.pdf",
+      "url": "https://arxiv.org/pdf/1705.08366v3"
+    }
+  ]
+}

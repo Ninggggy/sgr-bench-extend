@@ -1,0 +1,22 @@
+{
+  "graph_type": "finite_evidence_dependency",
+  "nodes": [
+    {"id": "survey", "source": "2006.06224v2.excerpt.txt", "state": "complete bullet and bibliography"},
+    {"id": "identities", "state": "citation titles and authors resolved; common arXiv identities merged"},
+    {"id": "histories", "source": "history_metadata.txt", "state": "official version posting times"},
+    {"id": "originals", "state": "latest original versions at the survey posting"},
+    {"id": "claims", "state": "selected main statements, query formulas and printed gap quantifiers"},
+    {"id": "oracle", "state": "all distinct works ordered by first citation occurrence"},
+    {"id": "source_conflicts", "state": "observed discrepancies retained without mathematical adjudication"}
+  ],
+  "edges": [
+    {"from": "survey", "to": "identities", "type": "control", "reason": "Discovered citation titles determine original-work retrieval"},
+    {"from": "identities", "to": "originals", "type": "control", "reason": "Resolved identities determine documents"},
+    {"from": "histories", "to": "originals", "type": "data", "reason": "Posting cutoff selects versions"},
+    {"from": "originals", "to": "claims", "type": "data", "reason": "Original main statements and definitions determine fields"},
+    {"from": "claims", "to": "oracle", "type": "data", "reason": "Explicit query and quantifier classification"},
+    {"from": "survey", "to": "oracle", "type": "data", "reason": "First citation occurrence determines ordering"},
+    {"from": "originals", "to": "source_conflicts", "type": "data", "reason": "Retain observed disagreements in reference evidence"}
+  ],
+  "limitations": "One shallow citation-discovery dependency. Original retrieval may be batched after identity resolution. This graph is not a solver trace or a difficulty result."
+}

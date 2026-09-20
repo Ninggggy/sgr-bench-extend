@@ -1,0 +1,9 @@
+This query concerns explicitly documented relations of independent drug entries. Its real boundary is the difference between a member's own active-form annotation and a shared group-level Prodrugs link. The separate hydrochloride entry makes preserving drug identity consequential. The two-column ordered-pair key expresses that relationship directly.
+
+The necessary dependency is modest: the complete group Member field determines the candidate identifiers, and those identifiers determine the member records needed for qualification and exclusion. The group record alone lacks the own annotations. The source and target can share an already retrieved record; no artificial additional compound layer is required.
+
+The supplied independent review found that the fixed br08324 table directly covers the ordinary mofetil relationship, but does not supply D05094's own annotation or complete exclusion evidence for the remaining members. That is a partial shortcut. This constructor received its review and download metadata, not the full HTML for a new inspection. No newly discovered complete fixed counterexample is asserted, and no claim is made that all shortcuts have been excluded. Unknown global dumps are not treated as mandatory evidence or established counterexamples.
+
+Compared with genome_001 and genome_003 as defined in the input, this retains candidate expansion followed by entry-level qualification. It replaces their broader approval-date and target criteria with a small identity-and-annotation query. No structural superiority, difficulty increase, expected low score, or confirmed discrimination is claimed.
+
+The public group identifier disambiguates the research scope without naming the website or providing an entry URL. The prompts reveal neither the direct member list nor the answers or row count. They contain no extra eligibility filters. The short CG sequence and the goal-oriented GO use the same output definition.

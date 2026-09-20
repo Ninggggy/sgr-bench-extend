@@ -1,0 +1,763 @@
+{
+  "at": "2026-09-12T17:35:54.231300+00:00",
+  "candidates": [
+    {
+      "opportunity_id": "epmc-quantitative",
+      "candidate_id": "epmc_quantitative_001",
+      "revision": 2,
+      "run_id": "epmc-quantitative-feasibility-01",
+      "status": "stopped_development_a_full_scores",
+      "builder_run_id": "epmc-quantitative-builder-02",
+      "constructed": true,
+      "admitted": false,
+      "reason": "Both verified isolated Sol/medium A runs returned all7 fields correct; no further sampling authorized under stop rule.",
+      "previous_builder_run_id": "epmc-quantitative-builder-01",
+      "mechanism_review": "runs/epmc-mechanism-review-01",
+      "stop_correction": "Batch IDs discovered by prior query preserve one dependency; previous narrower notice-edge necessity removed, no difficulty claim.",
+      "substantive_revisions": 1,
+      "pair_path": "candidates/epmc_quantitative_001/r02",
+      "preblind_review": "runs/epmc-preblind-repair-01/stage_assets/preblind_review.json",
+      "development_a": {
+        "CG": "14/14",
+        "GO": "14/14"
+      }
+    },
+    {
+      "opportunity_id": "iana-dtls-extensions",
+      "run_id": "new-source-feasibility-01",
+      "status": "stopped_development_a_full_scores",
+      "constructed": true,
+      "admitted": false,
+      "reason": "Both verified A runs full24/24; no later sampling. All3versions andactualemptyserializationfailure preserved.",
+      "candidate_id": "iana_dtls_001",
+      "revision": 3,
+      "builder_run_id": "iana-dtls-builder-01",
+      "substantive_revisions": 1,
+      "editorial_revisions": 1,
+      "reference_execution": "r01/rebuilt/checks.json",
+      "pair_path": "candidates/iana_dtls_001/r03",
+      "development_a": {
+        "CG": "48/48",
+        "GO": "48/48"
+      }
+    },
+    {
+      "opportunity_id": "arxiv-new-original-field",
+      "candidate_id": "arxiv_assumption_scope_001",
+      "revision": 3,
+      "run_id": "arxiv-new-original-field-01",
+      "status": "stopped_development_a_full_scores",
+      "builder_run_id": "arxiv-assumption-builder-02",
+      "reason": "Both verified isolated A runs full12/12; no further sampling.",
+      "constructed": true,
+      "admitted": false,
+      "previous_builder_run_id": "arxiv-assumption-builder-01",
+      "substantive_revisions": 2,
+      "repair_run_id": "arxiv-scope-repair-03",
+      "pair_path": "candidates/arxiv_assumption_scope_001/r03",
+      "development_a": {
+        "CG": "24/24",
+        "GO": "24/24"
+      }
+    },
+    {
+      "opportunity_id": "scotus_opinion_coalitions",
+      "run_id": "scotus-opinion-coalitions-feasibility-01",
+      "status": "stopped_development_a_full_scores",
+      "constructed": true,
+      "admitted": false,
+      "candidate_id": "scotus_joinder_001",
+      "revision": 1,
+      "builder_run_id": "scotus-joinder-builder-01",
+      "reason": "Both A runs fully correct on all9fields; no later sampling or substantive revision.",
+      "pair_path": "candidates/scotus_joinder_001/r01",
+      "development_a": {
+        "CG": "18/18",
+        "GO": "18/18"
+      }
+    },
+    {
+      "opportunity_id": "kegg_drug_component_identity",
+      "status": "stopped_development_a_full_scores",
+      "run_id": "kegg-drug-identity-feasibility-01",
+      "reason": "BothAfull4/4; alloutputs preserved, no further sampling.",
+      "review_run_id": "kegg-drug-mechanism-review-01",
+      "candidate_id": "kegg_prodrug_identity_001",
+      "revision": 1,
+      "builder_run_id": "kegg-prodrug-builder-02",
+      "user_override": "User explicitly revoked stop recommendation; quality conditions retained.",
+      "new_evidence": "Fresh DG and fourD REST200 after restoring existing timing service; controller_preflight.json passed.",
+      "failed_builder_run_id": "kegg-prodrug-builder-01",
+      "failed_builder_reason": "Wrong exploration stage input; stopped and charged; no candidate revision or infrastructure retry.",
+      "constructed": true,
+      "admitted": false,
+      "pair_path": "candidates/kegg_prodrug_identity_001/r01",
+      "reference_fields": 4,
+      "substantive_revisions": 0,
+      "development_a": {
+        "CG": "8/8",
+        "GO": "8/8"
+      }
+    },
+    {
+      "opportunity_id": "kegg_new_annotation_boundary",
+      "status": "stopped_development_a_full_scores",
+      "run_id": "kegg-annotation-boundary-feasibility-01",
+      "candidate_id": "kegg_module_products_001",
+      "revision": 1,
+      "reason": "BothverifiedA6/6; nofurthersampling.",
+      "builder_run_id": "kegg-module-products-builder-01",
+      "reference_preflight": "candidates/kegg_module_products_001/sources/controller_preflight.json",
+      "constructed": true,
+      "admitted": false,
+      "pair_path": "candidates/kegg_module_products_001/r01",
+      "reference_fields": 6,
+      "substantive_revisions": 0,
+      "development_a": {
+        "CG": "12/12",
+        "GO": "12/12"
+      }
+    },
+    {
+      "opportunity_id": "optimization_original_guarantee_scope",
+      "status": "stopped_development_a_full_scores",
+      "run_id": "optimization-guarantee-feasibility-01",
+      "candidate_id": "optimization_guarantee_001",
+      "builder_run": "optimization-claim-builder-r02",
+      "sources": "candidates/optimization_guarantee_001/sources",
+      "revision": 2,
+      "substantive_revisions_used": 1,
+      "previous_builder": "optimization-guarantee-builder-01",
+      "r01_stop": "source_premise_parameter_discrepancy_verified",
+      "reference_execution": "passed",
+      "pair_literal_checks": 46,
+      "oracle_fields": 18,
+      "development_runs": [
+        "optimization-claim-r02-cg-dev-a",
+        "optimization-claim-r02-go-dev-a"
+      ],
+      "reason": "BothverifiedfreshSol/medium A full18/18 fields; no further sampling.",
+      "formal_means": null
+    }
+  ],
+  "verified_A_runs": {
+    "iana_dtls_001": [
+      {
+        "job": {
+          "candidate_id": "iana_dtls_001",
+          "revision": 3,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "iana-r03-go-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-r03-go-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 11,
+          "tool_calls": {
+            "exec": 6
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      },
+      {
+        "job": {
+          "candidate_id": "iana_dtls_001",
+          "revision": 3,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "iana-r03-cg-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-r03-cg-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 14,
+          "tool_calls": {
+            "exec": 7
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      }
+    ],
+    "arxiv_assumption_scope_001": [
+      {
+        "job": {
+          "candidate_id": "arxiv_assumption_scope_001",
+          "revision": 3,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "arxiv-r03-cg-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-r03-cg-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 10,
+          "tool_calls": {
+            "exec": 5
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      },
+      {
+        "job": {
+          "candidate_id": "arxiv_assumption_scope_001",
+          "revision": 3,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "arxiv-r03-go-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-r03-go-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 10,
+          "tool_calls": {
+            "exec": 5
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      }
+    ],
+    "epmc_quantitative_001": [
+      {
+        "job": {
+          "candidate_id": "epmc_quantitative_001",
+          "revision": 2,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "epmc-r02-go-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/epmc-r02-go-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 19,
+          "tool_calls": {
+            "exec": 10
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      },
+      {
+        "job": {
+          "candidate_id": "epmc_quantitative_001",
+          "revision": 2,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "epmc-r02-cg-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/epmc-r02-cg-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 26,
+          "tool_calls": {
+            "exec": 13
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      }
+    ],
+    "kegg_module_products_001": [
+      {
+        "job": {
+          "candidate_id": "kegg_module_products_001",
+          "revision": 1,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "kegg-module-products-r01-cg-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-module-products-r01-cg-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 24,
+          "tool_calls": {
+            "exec": 12
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      },
+      {
+        "job": {
+          "candidate_id": "kegg_module_products_001",
+          "revision": 1,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "kegg-module-products-r01-go-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-module-products-r01-go-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 20,
+          "tool_calls": {
+            "exec": 10
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      }
+    ],
+    "kegg_prodrug_identity_001": [
+      {
+        "job": {
+          "candidate_id": "kegg_prodrug_identity_001",
+          "revision": 1,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "kegg-prodrug-r01-go-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-prodrug-r01-go-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 22,
+          "tool_calls": {
+            "exec": 11
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      },
+      {
+        "job": {
+          "candidate_id": "kegg_prodrug_identity_001",
+          "revision": 1,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "kegg-prodrug-r01-cg-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/kegg-prodrug-r01-cg-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 18,
+          "tool_calls": {
+            "exec": 9
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      }
+    ],
+    "optimization_guarantee_001": [
+      {
+        "job": {
+          "candidate_id": "optimization_guarantee_001",
+          "revision": 2,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "optimization-claim-r02-cg-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-cg-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 32,
+          "tool_calls": {
+            "exec": 16
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      },
+      {
+        "job": {
+          "candidate_id": "optimization_guarantee_001",
+          "revision": 2,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "optimization-claim-r02-go-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/optimization-claim-r02-go-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 24,
+          "tool_calls": {
+            "exec": 12
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      }
+    ],
+    "scotus_joinder_001": [
+      {
+        "job": {
+          "candidate_id": "scotus_joinder_001",
+          "revision": 1,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "CG",
+          "trial": 1,
+          "run_id": "scotus-r01-cg-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-r01-cg-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 30,
+          "tool_calls": {
+            "exec": 15
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      },
+      {
+        "job": {
+          "candidate_id": "scotus_joinder_001",
+          "revision": 1,
+          "protocol_version": "ten-task-v1",
+          "stage": "development_a",
+          "variant": "GO",
+          "trial": 1,
+          "run_id": "scotus-r01-go-dev-a"
+        },
+        "run_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-r01-go-dev-a",
+        "verification": {
+          "public_keys": true,
+          "isolation": true,
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "raw_tool_records": 10,
+          "tool_calls": {
+            "exec": 5
+          },
+          "completion_event": true,
+          "model_status": "complete",
+          "end_status": "completed",
+          "scored": true,
+          "stage_schema": true,
+          "exact_extraction": true,
+          "parse_status": "parsed",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+          "status": "passed"
+        }
+      }
+    ]
+  },
+  "current_construction": "chembl-structure-builder-01 terminal runtime_error, sole replacement NOT started; deferred by latest user scope",
+  "scope": "review only; no new tests, attacks, formal runs or unrelated exploration; stop after review"
+}

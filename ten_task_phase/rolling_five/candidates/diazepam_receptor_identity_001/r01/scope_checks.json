@@ -1,0 +1,119 @@
+{
+  "observation": "initial",
+  "compound_identity": {
+    "record": "CHEMBL12",
+    "preferred_name": "DIAZEPAM",
+    "hierarchy": {
+      "active_chembl_id": "CHEMBL12",
+      "molecule_chembl_id": "CHEMBL12",
+      "parent_chembl_id": "CHEMBL12"
+    },
+    "complete_preferred_name_results": 1,
+    "scope": "This one registered compound, not expanded parent-family/salt/metabolite inventory"
+  },
+  "source_release": "ChEMBL_37",
+  "prepared_date_field": "2026-05-01",
+  "release_issued_month": "2026-05",
+  "initial_query_rows": 131,
+  "in_scope_activity_rows": 130,
+  "distinct_assays": 126,
+  "distinct_targets": 32,
+  "distinct_documents": 59,
+  "excluded_by_source": [
+    {
+      "activity_id": 7704649,
+      "src_id": 15,
+      "reason": "Source is not Scientific Literature"
+    }
+  ],
+  "category_counts": {
+    "COMPLEX_GROUP": 28,
+    "DIRECT_COMPLEX": 42,
+    "UNCURATED_GABA_BZD": 26,
+    "HOMOLOGOUS_COMPLEX": 13,
+    "TSPO": 2,
+    "OTHER": 10,
+    "GABA_SUBUNIT": 9
+  },
+  "engineered_variant_activity_ids": [
+    320291,
+    320292,
+    320293,
+    320294,
+    320295,
+    320296
+  ],
+  "conflicts": [
+    {
+      "activity_id": 604850,
+      "finding": "Homo sapiens alpha4/beta3/gamma2 -> Homo sapiens alpha1/beta3/gamma2",
+      "description_subunits": [
+        "alpha4",
+        "beta3",
+        "gamma2"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta3",
+        "gamma2"
+      ],
+      "assay_id": "CHEMBL676826",
+      "target_id": "CHEMBL2094121"
+    },
+    {
+      "activity_id": 1701379,
+      "finding": "Homo sapiens alpha1/beta2/gamma2 -> Homo sapiens alpha1/beta1/gamma2",
+      "description_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta1",
+        "gamma2"
+      ],
+      "assay_id": "CHEMBL861815",
+      "target_id": "CHEMBL2111392"
+    },
+    {
+      "activity_id": 1876214,
+      "finding": "Rattus norvegicus alpha5/beta2/gamma2 -> Rattus norvegicus alpha1/beta2/gamma2",
+      "description_subunits": [
+        "alpha5",
+        "beta2",
+        "gamma2"
+      ],
+      "registered_subunits": [
+        "alpha1",
+        "beta2",
+        "gamma2"
+      ],
+      "assay_id": "CHEMBL904139",
+      "target_id": "CHEMBL2095167"
+    }
+  ],
+  "answer_rows": 11,
+  "answer_fields": 22,
+  "numeric_audit": {
+    "raw_type_counts": {
+      "Ki": 127,
+      "pKi": 3
+    },
+    "raw_unit_counts": {
+      "nM": 112,
+      "uM": 12,
+      "10'-9M": 2,
+      "None": 3,
+      "mM": 1
+    },
+    "raw_relations": {
+      "=": 130
+    },
+    "non_null_raw_upper_values": [],
+    "non_null_standard_upper_values": [],
+    "interpretation": "Scope follows standard registered fields, including converted original pKi/unit representations; does not assert point estimates from relation alone or independent experiments."
+  },
+  "complete_activity_assay_target_closure": true,
+  "constructor_semantic_annotations": "All uncurated descriptions and explicit engineered targets reviewed by constructor; no independent human validation claimed."
+}

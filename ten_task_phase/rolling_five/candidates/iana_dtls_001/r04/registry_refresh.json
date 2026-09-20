@@ -1,0 +1,15 @@
+{
+  "started_at_utc": "2026-09-13T02:07:14.458273+00:00",
+  "ended_at_utc": "2026-09-13T02:07:15.979748+00:00",
+  "url": "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xml",
+  "final_url": "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xml",
+  "status": 200,
+  "bytes": 49922,
+  "new_requests": 1,
+  "previous_record_count": 103,
+  "current_record_count": 103,
+  "all_record_elements_equal": true,
+  "whole_xml_bytes_equal": true,
+  "source_updated": "2026-08-11",
+  "tool": "exec_command urllib.request same authorized URL; no solver allowlist modified"
+}

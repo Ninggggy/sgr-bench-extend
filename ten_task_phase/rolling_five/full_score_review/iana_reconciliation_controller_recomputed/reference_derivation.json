@@ -1,0 +1,14 @@
+{
+  "rows": [
+    [
+      "53",
+      "54",
+      "2021-03-26",
+      "draft-ietf-tls-dtls-connection-id-10",
+      "53"
+    ]
+  ],
+  "semantic_annotation_required": true,
+  "formal_oracle": false,
+  "model_tests": 0
+}

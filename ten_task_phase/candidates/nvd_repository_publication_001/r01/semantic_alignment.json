@@ -1,0 +1,26 @@
+{
+  "variants":["CG.json","GO.json"],
+  "public_keys":["instruction","output_format"],
+  "shared_oracle":"oracle.psv",
+  "shared_rules":"rules.json",
+  "shared_conditions":[
+    "Review dated 2026-09-09",
+    "CVE-2023 identifier series",
+    "Catalogue first-publication UTC date 2023-12-13",
+    "Recorded sourceIdentifier exactly security-advisories@github.com",
+    "Issue-matched original repository security advisory",
+    "Uniform repository-header displayed publication date",
+    "No absolute-first-public-access assertion",
+    "Researcher timeline and global database publication dates are separate fields",
+    "Explicit CVE identity or disclosure issue identifiers with code-reference identity; package name alone insufficient",
+    "Shared advisories permitted with separate CVE rows",
+    "Repository date strictly earlier than catalogue date",
+    "Calendar-day subtraction from UTC catalogue date",
+    "Public APIs and bulk sources permitted, including equivalent repository-publication API fields",
+    "Identical five output columns, date format and sorting"
+  ],
+  "difference":"CG appends search guidance to the exact GO instruction. It adds no eligibility condition, answer identifier, author hint, expected row count or API restriction.",
+  "target_naming":"The public question describes the government catalogue without naming its website. The exact sourceIdentifier is retained as a necessary cohort condition.",
+  "row_identity":"cve is unique; repository_advisory is intentionally not unique because shared advisories cover distinct CVEs.",
+  "aliases":"Empty alias maps; no unsupported synonyms or date equivalences are introduced."
+}

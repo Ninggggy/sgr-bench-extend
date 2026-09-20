@@ -1,0 +1,65 @@
+{
+  "candidate_id": "arxiv_historical_title_002",
+  "current_revision": 3,
+  "final_substantive_revision": true,
+  "revisions": [
+    {
+      "revision": 1,
+      "evidence": "d0071.response and preserved r01 artifacts d0072–d0076",
+      "outcome": "Closed under actual-withdrawal-event cutoff because current history markers did not uniquely date the withdrawal event for 2009.13051.",
+      "preserved_uncertainty": "Older source versions were also marked withdrawn; selecting among their submission dates would produce no eligible target, target v4 or target v5. Those were diagnostic alternatives, not asserted event dates.",
+      "numeric_scores": "No r01 numeric scores were recovered in the supplied closure evidence. No values are fabricated; preserve the original controller ledger and artifacts."
+    },
+    {
+      "revision": 2,
+      "evidence": [
+        "d0116.response",
+        "d0118.response",
+        "d0119.response",
+        "d0120.response",
+        "d0121.response",
+        "d0122.response",
+        "d0123.response",
+        "d0124.response",
+        "d0125.response",
+        "d0252.response"
+      ],
+      "change": "Existing public task uses source last listed submission timestamp as an explicit bibliographic convention, not an actual withdrawal-event timestamp.",
+      "outcome": "Audit inconclusive for completeness: all 19 supplied rows supported, but 2012.03115 outside the 707 lexical frontier lacked status/identity adjudication.",
+      "audit_findings": {
+        "content": "inconclusive",
+        "structural_sgr": "pass with stated bulk/admission limitations",
+        "semantic_alignment": "pass",
+        "substantive_cg_errors": "pass",
+        "substantive_go_errors": "pass"
+      }
+    },
+    {
+      "revision": 3,
+      "change": "Complete semantic review accounting replaces frontier-based selection; prefix finalized; all plausible flags resolved; omissions 2012.03115 and 2008.13265 added; publisher redirect explicitly disposed; current-status TLS failure resolved.",
+      "public_substantive_changes": [],
+      "old_supported_rows_unchanged": 19,
+      "constructed_rows": 21,
+      "review_history": "Worker146's incomplete prefix closure is preserved, followed within the same r03 by inherited complete A/B/C reviews and this session's final prefix/status/identity consolidation.",
+      "rules_change": "Only grounded integer v14 and equivalent UTC timestamp-format aliases added; existing columns, row key and per-field logic preserved.",
+      "execution": "Final reference and independent programs supplied but not executed here; actual JavaScript calculations and coverage checks documented separately.",
+      "admission_assessed": false
+    }
+  ],
+  "preserved_scores": {
+    "r-arxiv-histtitle002-r02-cg-dev-a": "32/35",
+    "r-arxiv-histtitle002-r02-cg-dev-b": "28/33",
+    "r-arxiv-histtitle002-r02-cg-attack": "24/31",
+    "r-arxiv-histtitle002-r02-go-dev-a": "11/15",
+    "r-arxiv-histtitle002-r02-go-dev-b": "11/15",
+    "r-arxiv-histtitle002-r02-go-attack": "0; seven-column schema failure, with 13 substantive relations"
+  },
+  "score_interpretation": "Historical scores are retained exactly. The format zero is not evidence of zero substantive progress. Five correctly formatted runs exceeded 70 percent. No dual-under-70 admission or improved-score claim is made.",
+  "resampling_this_session": 0,
+  "rescoring_this_session": 0,
+  "next_revision": null,
+  "campaign_restraint": "No content hashes, frozen contracts, baselines or new gates introduced. Original run IDs, filenames, source responses, failures and requested reference checks are retained.",
+  "blind_runs_in_consolidation_session": 0,
+  "consolidation_model_session_number": 150,
+  "controller_program_corrections": "controller_preblind_corrections.json"
+}

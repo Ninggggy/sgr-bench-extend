@@ -1,0 +1,389 @@
+{
+  "source_observation_date": "2026-09-13",
+  "timezone": "UTC",
+  "protocol_current_date": "2026-09-09",
+  "root_source": "turn53view0",
+  "sources": [
+    {
+      "id": "turn53view0",
+      "file": "sources/pages/turn53view0.txt",
+      "raw_response_file": "sources/raw/backlink_req1.txt",
+      "raw_response_segment": 0,
+      "role": "root",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=123823",
+      "origin": {
+        "op": "open",
+        "ref_id": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=123823",
+        "lineno": 33
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:36:29Z",
+        "2026-09-13T02:40:58Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn54view0",
+      "file": "sources/pages/turn54view0.txt",
+      "raw_response_file": "sources/raw/backlink_req2_3.txt",
+      "raw_response_segment": 0,
+      "role": "application",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K050369",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn53view0",
+        "id": 37
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:36:29Z",
+        "2026-09-13T02:40:58Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn54view1",
+      "file": "sources/pages/turn54view1.txt",
+      "raw_response_file": "sources/raw/backlink_req2_3.txt",
+      "raw_response_segment": 1,
+      "role": "application",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K081137",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn53view0",
+        "id": 38
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:36:29Z",
+        "2026-09-13T02:40:58Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn55view0",
+      "file": "sources/pages/turn55view0.txt",
+      "raw_response_file": "sources/raw/backlink_req4_5.txt",
+      "raw_response_segment": 0,
+      "role": "index",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?knumber=K050369&start_search=1",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn54view0",
+        "id": 33
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:36:29Z",
+        "2026-09-13T02:40:58Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn55view1",
+      "file": "sources/pages/turn55view1.txt",
+      "raw_response_file": "sources/raw/backlink_req4_5.txt",
+      "raw_response_segment": 1,
+      "role": "index",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?knumber=K081137&start_search=1",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn54view1",
+        "id": 36
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:36:29Z",
+        "2026-09-13T02:40:58Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn57view0",
+      "file": "sources/pages/turn57view0.txt",
+      "raw_response_file": "sources/raw/backlink_req7_9.txt",
+      "raw_response_segment": 0,
+      "role": "index",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?IVDProducts=&PMA_510K_Num=&centerclassificationtypetext=&event_id=&firmlegalnam=&knumber=K050369&pagenum=10&pnumber=&postdatefrom=&postdateto=&productcode=&productdescriptiontxt=&productshortreasontxt=&recallnumber=&recallstatus=&rootCauseText=&sortcolumn=cdd&start_search=11",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn55view0",
+        "id": 18
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:36:29Z",
+        "2026-09-13T02:40:58Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn57view1",
+      "file": "sources/pages/turn57view1.txt",
+      "raw_response_file": "sources/raw/backlink_req7_9.txt",
+      "raw_response_segment": 1,
+      "role": "index",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?IVDProducts=&PMA_510K_Num=&centerclassificationtypetext=&event_id=&firmlegalnam=&knumber=K050369&pagenum=10&pnumber=&postdatefrom=&postdateto=&productcode=&productdescriptiontxt=&productshortreasontxt=&recallnumber=&recallstatus=&rootCauseText=&sortcolumn=cdd&start_search=21",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn55view0",
+        "id": 19
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:36:29Z",
+        "2026-09-13T02:40:58Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn57view2",
+      "file": "sources/pages/turn57view2.txt",
+      "raw_response_file": "sources/raw/backlink_req7_9.txt",
+      "raw_response_segment": 2,
+      "role": "index",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?IVDProducts=&PMA_510K_Num=&centerclassificationtypetext=&event_id=&firmlegalnam=&knumber=K050369&pagenum=10&pnumber=&postdatefrom=&postdateto=&productcode=&productdescriptiontxt=&productshortreasontxt=&recallnumber=&recallstatus=&rootCauseText=&sortcolumn=cdd&start_search=31",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn55view0",
+        "id": 20
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:36:29Z",
+        "2026-09-13T02:40:58Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn58view0",
+      "file": "sources/pages/turn58view0.txt",
+      "raw_response_file": "sources/raw/backlink_req10.txt",
+      "raw_response_segment": 0,
+      "role": "linked_detail",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=123823",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn57view0",
+        "id": 25
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:36:29Z",
+        "2026-09-13T02:40:58Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn59view0",
+      "file": "sources/pages/turn59view0.txt",
+      "raw_response_file": "sources/raw/construction_identity_req1_7.txt",
+      "raw_response_segment": 0,
+      "role": "linked_detail",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=143856",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn55view1",
+        "id": 21
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:49:19Z",
+        "2026-09-13T02:50:23Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn59view1",
+      "file": "sources/pages/turn59view1.txt",
+      "raw_response_file": "sources/raw/construction_identity_req1_7.txt",
+      "raw_response_segment": 1,
+      "role": "linked_detail",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=131929",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn55view1",
+        "id": 22
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:49:19Z",
+        "2026-09-13T02:50:23Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn59view2",
+      "file": "sources/pages/turn59view2.txt",
+      "raw_response_file": "sources/raw/construction_identity_req1_7.txt",
+      "raw_response_segment": 2,
+      "role": "linked_detail",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=122634",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn55view1",
+        "id": 23
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:49:19Z",
+        "2026-09-13T02:50:23Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn59view3",
+      "file": "sources/pages/turn59view3.txt",
+      "raw_response_file": "sources/raw/construction_identity_req1_7.txt",
+      "raw_response_segment": 3,
+      "role": "linked_detail",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=122388",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn55view1",
+        "id": 24
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:49:19Z",
+        "2026-09-13T02:50:23Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn59view4",
+      "file": "sources/pages/turn59view4.txt",
+      "raw_response_file": "sources/raw/construction_identity_req1_7.txt",
+      "raw_response_segment": 4,
+      "role": "linked_detail",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=119691",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn55view1",
+        "id": 25
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:49:19Z",
+        "2026-09-13T02:50:23Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn59view5",
+      "file": "sources/pages/turn59view5.txt",
+      "raw_response_file": "sources/raw/construction_identity_req1_7.txt",
+      "raw_response_segment": 5,
+      "role": "linked_detail",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=119692",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn55view1",
+        "id": 26
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:49:19Z",
+        "2026-09-13T02:50:23Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn59view6",
+      "file": "sources/pages/turn59view6.txt",
+      "raw_response_file": "sources/raw/construction_identity_req1_7.txt",
+      "raw_response_segment": 6,
+      "role": "linked_detail",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=116999",
+      "origin": {
+        "op": "click",
+        "ref_id": "turn55view1",
+        "id": 27
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:49:19Z",
+        "2026-09-13T02:50:23Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn60view0",
+      "file": "sources/pages/turn60view0.txt",
+      "raw_response_file": "sources/raw/construction_refresh_req8_10.txt",
+      "raw_response_segment": 0,
+      "role": "refresh",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=123823",
+      "origin": {
+        "op": "open",
+        "ref_id": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=123823",
+        "lineno": null
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:49:19Z",
+        "2026-09-13T02:50:23Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn60view1",
+      "file": "sources/pages/turn60view1.txt",
+      "raw_response_file": "sources/raw/construction_refresh_req8_10.txt",
+      "raw_response_segment": 1,
+      "role": "refresh",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?knumber=K050369&start_search=1",
+      "origin": {
+        "op": "open",
+        "ref_id": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?knumber=K050369&start_search=1",
+        "lineno": null
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:49:19Z",
+        "2026-09-13T02:50:23Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn60view2",
+      "file": "sources/pages/turn60view2.txt",
+      "raw_response_file": "sources/raw/construction_refresh_req8_10.txt",
+      "raw_response_segment": 2,
+      "role": "refresh",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?knumber=K081137&start_search=1",
+      "origin": {
+        "op": "open",
+        "ref_id": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?knumber=K081137&start_search=1",
+        "lineno": null
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:49:19Z",
+        "2026-09-13T02:50:23Z"
+      ],
+      "body_exposure": "exact returned text; may be truncated by web tool; source header/URL retained"
+    },
+    {
+      "id": "turn52view0",
+      "file": "sources/pages/turn52view0.txt",
+      "raw_response_file": "sources/raw/completion_req15_16.txt",
+      "raw_response_segment": 0,
+      "role": "prior_observation",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=123823",
+      "origin": {
+        "op": "open",
+        "ref_id": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=123823",
+        "lineno": null
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:29:20Z",
+        "2026-09-13T02:36:29Z"
+      ],
+      "body_exposure": "complete required root fields or seven-row table; already counted in the preserved 28-item failed study"
+    },
+    {
+      "id": "turn52view1",
+      "file": "sources/pages/turn52view1.txt",
+      "raw_response_file": "sources/raw/completion_req15_16.txt",
+      "raw_response_segment": 1,
+      "role": "prior_observation",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?knumber=K081137&start_search=1",
+      "origin": {
+        "op": "open",
+        "ref_id": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?knumber=K081137&start_search=1",
+        "lineno": null
+      },
+      "observed_utc_window": [
+        "2026-09-13T02:29:20Z",
+        "2026-09-13T02:36:29Z"
+      ],
+      "body_exposure": "complete required root fields or seven-row table; already counted in the preserved 28-item failed study"
+    }
+  ],
+  "transport": "Existing live web tool; these are saved tool text responses, not downloaded HTML; no HTTP status inferred.",
+  "evidence_basis": "Exact official final URLs and source click references establish seven target IDs even where body text was not exposed. Full original seven-row index and complete K050369 pagination retained.",
+  "refresh_limit": "Final refresh K081137 response only exposes title/URL; does not constitute a complete new table observation. K050369 refreshed first page and root details visible; no full four-page refresh claimed."
+}

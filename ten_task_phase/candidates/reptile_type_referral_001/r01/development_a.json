@@ -1,0 +1,30 @@
+{
+  "campaign": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/campaign.json",
+  "ledger": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/session_ledger.jsonl",
+  "role": "blind",
+  "purpose": "development",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "registered_at": "2026-09-09T10:29:57.764975+00:00",
+  "note": "Ordinary preliminary pair A; unresolved bulk audit prevents admission. This is not an admission round. Execute both variants.",
+  "jobs": [
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-reptile-referral-r01-cg-dev-a",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/reptile_type_referral_001/r01/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/reptile_type_referral_001/r01/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/reptile_type_referral_001/r01/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/reptile_type_referral_001/r01/r-reptile-referral-r01-cg-dev-a.job.json",
+      "label": "r-reptile-referral-r01-cg-dev-a"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-reptile-referral-r01-go-dev-a",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/reptile_type_referral_001/r01/GO.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/reptile_type_referral_001/r01/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/reptile_type_referral_001/r01/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/reptile_type_referral_001/r01/r-reptile-referral-r01-go-dev-a.job.json",
+      "label": "r-reptile-referral-r01-go-dev-a"
+    }
+  ]
+}

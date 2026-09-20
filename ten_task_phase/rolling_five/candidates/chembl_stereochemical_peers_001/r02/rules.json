@@ -1,0 +1,18 @@
+{
+  "columns": [
+    "REGISTERED_ID",
+    "STEREO_STATUS"
+  ],
+  "row_key": [
+    "REGISTERED_ID"
+  ],
+  "fields": {
+    "STEREO_STATUS": {
+      "type": "string",
+      "uppercase": true
+    },
+    "REGISTERED_ID": {
+      "type": "string"
+    }
+  }
+}

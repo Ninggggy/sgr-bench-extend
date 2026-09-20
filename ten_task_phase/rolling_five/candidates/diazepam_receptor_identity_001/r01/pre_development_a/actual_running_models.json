@@ -1,0 +1,27 @@
+{
+  "cg": {
+    "run_id": "diazepam-r01-cg-dev-a",
+    "container_name": "sgr-solve-18c5180844ba",
+    "actual_turn_contexts": [
+      {
+        "timestamp": "2026-09-13T05:47:15.722Z",
+        "turn_id": "01a0994e-2dc4-7a82-bcdc-f3b8e0886d93",
+        "model": "gpt-5.6-sol",
+        "effort": "medium"
+      }
+    ]
+  },
+  "go": {
+    "run_id": "diazepam-r01-go-dev-a",
+    "container_name": "sgr-solve-819ae4a58cab",
+    "actual_turn_contexts": [
+      {
+        "timestamp": "2026-09-13T05:47:15.645Z",
+        "turn_id": "01a0994e-2e32-7b13-8a00-5eee92ce79a0",
+        "model": "gpt-5.6-sol",
+        "effort": "medium"
+      }
+    ]
+  },
+  "observed_at": "2026-09-13T05:48:09.032648+00:00"
+}

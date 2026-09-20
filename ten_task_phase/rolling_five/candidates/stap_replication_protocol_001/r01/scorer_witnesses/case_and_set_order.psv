@@ -1,0 +1,4 @@
+PMID|PROCEDURE|MARKERS|FUNCTIONAL_EVIDENCE
+25075303|reporter_different,hcl,cd45_sorted|negative|pluripotency_not_established lines_not_reported teratoma_not_reported chimera_not_reported
+27292224|hcl,fgf2,cd45_unsorted,atp|rare_positive|pluripotency_not_established lines_failed teratoma_not_reported chimera_negative
+27610221|hcl,fgf2,cd45_unsorted,atp|rare_positive|pluripotency_not_established lines_not_attempted teratoma_not_performed chimera_negative

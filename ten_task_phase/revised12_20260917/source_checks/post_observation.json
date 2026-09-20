@@ -1,0 +1,4 @@
+{
+  "status": "not_performed_due_to_known_access_refusals",
+  "reason": "After blind sessions, native web denials of the same indexed scopes are known. The controller does not re-fetch equivalent scopes with curl or inject preflight private responses to rescue the trials. Pre-test snapshots remain preserved; post-test stability is unconfirmed, and no trial is promoted to clean capability/admission evidence."
+}

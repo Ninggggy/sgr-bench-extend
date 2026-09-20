@@ -1,0 +1,30 @@
+[
+  {
+    "p": 1,
+    "text": "Dear Editor,"
+  },
+  {
+    "p": 2,
+    "text": "The myth of Prometheus appeared in the writings of Hesiod, a Greek epic poet, who lived at the end of the VIII century BC. According to the myth, Prometheus received a punishment from Zeus, which should last eternally, as he was immortal. Unbreakable chains, forged by Hephaestus, fastened Prometheus to a rock in Caucasus and an imposing eagle would come to eat his liver every day. During the dark night, for which Prometheus longed, the eaten organ would grow back again so that it could be devoured by the bird of prey the very next day. Some tell that the Greek hero Heracles (Roman Hercules) freed Prometheus years later."
+  },
+  {
+    "p": 3,
+    "text": "It is interesting that tissue regeneration was already mentioned in VIII century BC folklore, in a way that stories showed interest in a possibility that was not yet imagined in the medical science of the era."
+  },
+  {
+    "p": 4,
+    "text": "The advances in the state of the art related to regeneration have come to a point where scientists are attempting to fully understand the mechanisms and to master techniques of cell reprogramming in order to develop regenerative medicine."
+  },
+  {
+    "p": 5,
+    "text": "Discussions on the reprogramming of cells started more than 50 years ago1 and until now questions about which mechanisms are involved remain inadequately answered as do questions on the real applications and safety of the technique. Attempts to revert the lineage commitment of certain animal cells date back to 1960 when Gurdon obtained cells with characteristics of different stages of embryonic development by transferring of nuclei of endodermal cells of Xenopus laevis to enucleated oocytes. This shows the importance of nuclear modifications during embryonic development.2 In 1962, Gurdon managed to reprogram completely differentiated cells (enterocytes) using these procedures.3 In 2006, Takahashi and Yamanaka4 successfully determined the genes that are related to maintenance of the pluripotent state of a cell. They discovered, by introducing 24 transcription factor genes using retroviral vectors that only four were necessary to reprogram fibroblasts to cells with features found in embryonic stem cells; this lineage was named induced pluripotent stem cells (iPSC).4 These cells were seen as the great step forward in regenerative medicine despite of the low efficiency of the technique, the lack of safety of iPSC due to the possibility of teratogenesis when introduced into a living organism and due to the fact that retroviruses were necessary to accomplish cell reprogramming. The Medicine and Physiology Nobel Prize of 2012 was awarded to Gurdon,2 and to Takahashi and Yamanaka,4 putting cell reprogramming back in the avant-garde of science.5 The understanding of the underlying mechanisms by which cell reprogramming occur, as described by Yamanaka and Takahashi4 in 2006, allowed the use iPSCs for hematologic purposes to be considered. In 2009, the first lineage of hematopoietic progenitor cells (CD34+ and CD43+) was established from iPSCs as well as colony forming units of granulocytes, erythrocytes, macrophages and megakaryocytes (CFU-GEMM), symbolizing the possibility of future applications of cell reprogramming in the treatment of hematological diseases.6 However the use of these cells was still limited due to several reasons which impeded the development of other iPSCs-based cell therapies including teratogenesis, safety issues regarding the use of retroviruses and the low efficiency of the method."
+  },
+  {
+    "p": 6,
+    "text": "In spite of the advances made towards understanding cell reprogramming mechanisms and the ever-growing efforts to manage technical issues, little progress had been made until recently when the possibility of triggering the conversion of somatic cells to pluripotent cells by applying extreme external stimulation was reported.7 The cells obtained in these experiments were named Stimulus-triggered Acquisition of Pluripotency (STAP) cells. In this recent work, pluripotency was acquired from hematopoietic system cells when CD 45+ lymphocytes were exposed to an acidic environment (pH 5.7). The results are encouraging and the STAP cells have been shown to be similar to iPSCs in potency and gene expression with this reprogramming method being more efficient and free of the risks inherent to the use of retroviruses. However, STAP cells also display the capacity of forming teratomas, an undesirable feature that limits their use in therapy for the time being. Nevertheless, the increase in efficiency and drastically diminished costs, suggest that these cells can be produced in a large scale for future in-depth studies that may culminate in the establishment of cell lineages that make cell therapy feasible. Further studies must be carried out using this technology in order to determine its potential and limitations. Can we expect STAP cells to be used to generate in vitro hematopoietic progenitor cells in the near future?"
+  },
+  {
+    "p": 7,
+    "text": "The authors declare no conflicts of interest."
+  }
+]

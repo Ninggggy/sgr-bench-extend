@@ -1,0 +1,41 @@
+{
+  "note": "Fresh source-only capture, not reconstruction of historical actions. Earlier raw-browser failure was reported but historical raw error record not available in this package; not counted as success.",
+  "actions": [
+    {
+      "at": "2026-09-19T14:18:09.822Z",
+      "tool": "browser plugin",
+      "actions": [
+        "tab.goto(requested_url)",
+        "tab.url()",
+        "tab.playwright.domSnapshot()"
+      ],
+      "requested_url": "https://github.com/FreeRTOS/FreeRTOS-Kernel/releases/tag/V11.3.0",
+      "resolved_url": "https://github.com/FreeRTOS/FreeRTOS-Kernel/releases/tag/V11.3.0",
+      "artifact": "browser_release_full.txt"
+    },
+    {
+      "at": "2026-09-19T14:18:26.762Z",
+      "tool": "browser plugin",
+      "actions": [
+        "tab.goto(requested_url)",
+        "tab.url()",
+        "tab.playwright.domSnapshot()"
+      ],
+      "requested_url": "https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/V11.3.0/portable/GCC/RISC-V/portContext.h",
+      "resolved_url": "https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/V11.3.0/portable/GCC/RISC-V/portContext.h",
+      "artifact": "browser_context_full.txt"
+    },
+    {
+      "at": "2026-09-19T14:18:43.989Z",
+      "tool": "browser plugin",
+      "actions": [
+        "tab.goto(requested_url)",
+        "tab.url()",
+        "tab.playwright.domSnapshot()"
+      ],
+      "requested_url": "https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions/RISCV_no_extensions/freertos_risc_v_chip_specific_extensions.h",
+      "resolved_url": "https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions/RISCV_no_extensions/freertos_risc_v_chip_specific_extensions.h",
+      "artifact": "browser_extension_full.txt"
+    }
+  ]
+}

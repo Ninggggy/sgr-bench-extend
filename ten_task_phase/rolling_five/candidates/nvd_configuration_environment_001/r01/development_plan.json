@@ -1,0 +1,43 @@
+{
+  "candidate_id": "nvd_configuration_environment_001",
+  "revision": 1,
+  "stage": "development_a",
+  "registered_at": "2026-09-13T09:43:48.561782+00:00",
+  "trials": [
+    {
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "nvd-environment-r01-cg-dev-a",
+      "public": "construction_pipeline/ten_task_phase/rolling_five/candidates/nvd_configuration_environment_001/r01/CG.json",
+      "job_metadata": "construction_pipeline/ten_task_phase/rolling_five/inputs/nvd-environment-r01-cg-dev-a-job.json",
+      "infrastructure_replacement": {
+        "run_id": "nvd-environment-r01-cg-dev-a-repair1",
+        "job_metadata": "construction_pipeline/ten_task_phase/rolling_five/inputs/nvd-environment-r01-cg-dev-a-repair1-job.json",
+        "approval": "construction_pipeline/ten_task_phase/rolling_five/inputs/nvd-environment-r01-cg-dev-a-retry.json"
+      }
+    },
+    {
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "nvd-environment-r01-go-dev-a",
+      "public": "construction_pipeline/ten_task_phase/rolling_five/candidates/nvd_configuration_environment_001/r01/GO.json",
+      "job_metadata": "construction_pipeline/ten_task_phase/rolling_five/inputs/nvd-environment-r01-go-dev-a-job.json",
+      "infrastructure_replacement": {
+        "run_id": "nvd-environment-r01-go-dev-a-repair1",
+        "job_metadata": "construction_pipeline/ten_task_phase/rolling_five/inputs/nvd-environment-r01-go-dev-a-repair1-job.json",
+        "approval": "construction_pipeline/ten_task_phase/rolling_five/inputs/nvd-environment-r01-go-dev-a-retry.json"
+      }
+    }
+  ],
+  "scope": "Two new ordinary isolated development-A runs only. No formal retests registered.",
+  "requested_model": "gpt-5.6-sol",
+  "requested_effort": "medium",
+  "protocol_version": "ten-task-v1",
+  "stage_prompt": "construction_pipeline/ten_task_phase/rolling_five/inputs/blind.md",
+  "prerequisite_evidence": {
+    "pre_A": "independent_review/pre_a_review.json",
+    "complete_reference": "candidate.json",
+    "source_before": "pre_development_a/checks.json",
+    "source_after": "post_development_a/checks.json required after both runs"
+  }
+}

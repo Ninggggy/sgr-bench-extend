@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+"""Replay screening GO's SQL; correct only numeric ordering on its own saved table."""
+import csv,json,pathlib,sqlite3
+T=pathlib.Path(__file__).resolve().parent;j=json.loads((T/'analysis_plan.json').read_text())['jobs'][2];R=pathlib.Path(j['out']);D=R/'downloaded_data';reg=json.loads((D/'registry.json').read_text());data=list(csv.reader((D/reg['d0009']['path']).open()));cols=data.pop(0)
+con=sqlite3.connect(':memory:');q=lambda c:'"'+c.replace('"','""')+'"';con.execute('CREATE TABLE c ('+','.join(q(c)+' TEXT' for c in cols)+')');con.executemany('INSERT INTO c VALUES ('+','.join('?' for _ in cols)+')',data)
+sql=reg['d0013']['sql'];assert sql.count('ORDER BY oxy ASC')==1
+corrected=sql.replace('ORDER BY oxy ASC','ORDER BY CAST(oxy AS REAL) ASC')
+bad=[r[0] for r in con.execute(sql)];good=[r[0] for r in con.execute(corrected)];assert bad==(R/'answer.txt').read_text().splitlines();assert good==(T/'controller_reference/new_oracle.psv').read_text().splitlines()
+(T/'diagnostics/screening_go_original.sql').write_text(sql+'\n');(T/'diagnostics/screening_go_numeric_order.sql').write_text(corrected+'\n');(T/'diagnostics/screening_go_corrected.psv').write_text('\n'.join(good)+'\n')
+result={'label':j['label'],'run':str(R.relative_to(T)),'source_table':'d0009','query':'d0013','original_replay_equals_raw_answer':True,'single_change':'ORDER BY oxy ASC -> ORDER BY CAST(oxy AS REAL) ASC','corrected_matches_all_reference_rows_and_fields':True,'corrected_rows':len(good),'classification':'numeric processing/implementation error. query_csv explicitly loads all source columns as TEXT; textual10.0 sorts ahead of8.4. Not a source, format or scorer failure. State selection and counts were correct; do not call this strict SGR dependence evidence.','example':{'withdrawal':'nwistx.01.01401065','interval':[2013,2019],'wrong_event':'nwistx.01.01601892','wrong_DO':10.0,'correct_event':'nwistx.01.01601917','correct_DO':8.4},'scope':'Controller-only offline diagnosis; no feedback to fresh blind solvers, no task/oracle/rule edits and no model retry.'}
+(T/'diagnostics/screening_go_error.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(result))

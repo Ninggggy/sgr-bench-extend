@@ -1,0 +1,4 @@
+{
+  "change": "Remove unsolicited new checksum logging only; direct byte equality, conflict checks and source anchors retained",
+  "original": "construction_pipeline/ten_task_phase/rolling_five/runs/arxiv-assumption-builder-02/stage_assets/r02/reference.py"
+}

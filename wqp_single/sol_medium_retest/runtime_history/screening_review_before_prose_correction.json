@@ -1,0 +1,105 @@
+{
+  "recorded_at": "2026-09-09T05:37:17.105231+00:00",
+  "proceed": true,
+  "all_four_completed_extracted_scored": true,
+  "model_and_isolation": "All Sol/medium four-source checks passed, same existing tools and public inputs",
+  "scores": [
+    {
+      "label": "screening_new_CG_1",
+      "metrics": {
+        "Item-F1": 0.1,
+        "Row-F1": 0.1,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "counts": {
+        "correct_fields": 54,
+        "gold_fields": 216,
+        "pred_fields": 864,
+        "item_denominator": 1080,
+        "correct_rows": 3,
+        "gold_rows": 12,
+        "pred_rows": 48,
+        "row_denominator": 60,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      }
+    },
+    {
+      "label": "screening_old_CG_1",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "counts": {
+        "correct_fields": 27,
+        "gold_fields": 27,
+        "pred_fields": 27,
+        "item_denominator": 54,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      }
+    },
+    {
+      "label": "screening_new_GO_1",
+      "metrics": {
+        "Item-F1": 0.6574074074074074,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "counts": {
+        "correct_fields": 142,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 0,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      }
+    },
+    {
+      "label": "screening_old_GO_1",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "counts": {
+        "correct_fields": 27,
+        "gold_fields": 27,
+        "pred_fields": 27,
+        "item_denominator": 54,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      }
+    }
+  ],
+  "correctness_review": "Both new-task source scopes match decisive official reference fields, no source change or question/scorer modification. CG error is reproducible cohort completeness error. GO matches reference.",
+  "contamination": "Old GO actual full answer exposed through a public benchmark search return. Keep original score and flag; do not silently remove, replace or repair. Continue fixed confirmation as limited diagnostic, not a clean comparative-ability experiment.",
+  "known_limits_retained": [
+    "old004 public station-selection ambiguity",
+    "r03 strict SGR retrieval necessity failed",
+    "n3/variant pilot",
+    "model change postdates GPT-6 scores"
+  ],
+  "next": "Run all12 predetermined confirmation slots fresh, alternating declared new/old order, at most4 concurrent. No score-driven additions, no repair retry used."
+}

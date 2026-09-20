@@ -1,0 +1,310 @@
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner "Global navigation menu":
+  - button "Open menu":
+  - link "Homepage (g then d)":
+    - /url: /
+  - navigation "Breadcrumbs":
+    - list:
+      - link "FreeRTOS":
+        - /url: /FreeRTOS
+        - generic: FreeRTOS
+      - link "FreeRTOS-Kernel":
+        - /url: /FreeRTOS/FreeRTOS-Kernel
+      - button "Switch repository (alt shift r)":
+  - button "Open quick search dialog, type / to search":
+    - text: Type
+    - generic: /
+    - text: to search
+  - link "Chat with Copilot":
+    - /url: /copilot
+  - button "Open Copilot…":
+  - button "Create new...":
+  - link "All issues":
+    - /url: /issues
+  - link "All pull requests":
+    - /url: /pulls
+  - link "All repositories":
+    - /url: /repos
+  - link "You have no unread notifications (g then n)":
+    - /url: /notifications
+  - button "Open user navigation menu":
+    - img "User avatar"
+  - heading "Repository navigation" [level=2]
+  - navigation "Repository":
+    - list:
+      - link "Code":
+        - /url: /FreeRTOS/FreeRTOS-Kernel
+        - generic: Code
+      - link "Issues (43)":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/issues
+        - generic: Issues
+        - generic: "43"
+        - generic: (43)
+      - link "Pull requests (52)":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/pulls
+        - generic: Pull requests
+        - generic: "52"
+        - generic: (52)
+      - link "Agents":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/agents?author=Ninggggy
+        - generic: Agents
+      - link "Actions":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/actions
+        - generic: Actions
+      - link "Projects":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/projects
+        - generic: Projects
+      - link "Security and quality (5)":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/security
+        - generic: Security and quality
+        - generic: "5"
+        - generic: (5)
+      - link "Insights":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/pulse
+        - generic: Insights
+- main:
+  - heading "Expand file tree" [level=2]:
+    - button "Expand file tree":
+  - button "V11.3.0 branch":
+    - generic: V11.3.0
+  - navigation "Breadcrumbs":
+    - heading "Breadcrumbs" [level=2]
+    - list:
+      - link "FreeRTOS-Kernel":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0
+      - text: /
+      - link "portable":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable
+      - text: /
+      - link "GCC":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC
+      - text: /
+      - link "RISC-V":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC/RISC-V
+      - text: /
+      - link "chip_specific_extensions":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions
+      - text: /
+      - link "RISCV_no_extensions":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions/RISCV_no_extensions
+  - text: /
+  - heading "freertos_risc_v_chip_specific_extensions.h" [level=1]
+  - button "Copy path":
+  - combobox "Go to file"
+  - generic: t
+  - generic: T
+  - button "More file actions":
+  - heading "Latest commit" [level=2]
+  - heading "History" [level=2]
+  - link "History":
+    - /url: /FreeRTOS/FreeRTOS-Kernel/commits/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions/RISCV_no_extensions/freertos_risc_v_chip_specific_extensions.h
+    - generic: History
+  - heading "File metadata and controls" [level=2]
+  - list "File view":
+    - button "Code" [pressed]:
+      - generic: Code
+    - button "Blame":
+      - generic: Blame
+  - generic "2.99 KB": 69 lines (62 loc) · 2.99 KB
+  - button "Add to space":
+  - button "Ask Copilot about this file":
+  - link "Raw":
+    - /url: https://github.com/FreeRTOS/FreeRTOS-Kernel/raw/refs/tags/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions/RISCV_no_extensions/freertos_risc_v_chip_specific_extensions.h
+    - generic: Raw
+  - button "Copy raw file":
+  - button "Download raw file":
+  - button "You must be on a branch to make or propose changes to this file" [disabled]:
+  - button "More edit options":
+  - button "Close symbols panel" [expanded] [pressed]:
+  - region:
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "10"
+    - generic: "11"
+    - generic: "12"
+    - generic: "13"
+    - generic: "14"
+    - generic: "15"
+    - generic: "16"
+    - generic: "17"
+    - generic: "18"
+    - generic: "19"
+    - generic: "20"
+    - generic: "21"
+    - generic: "22"
+    - generic: "23"
+    - generic: "24"
+    - generic: "25"
+    - generic: "26"
+    - generic: "27"
+    - generic: "28"
+    - generic: "29"
+    - generic: "30"
+    - generic: "31"
+    - generic: "32"
+    - generic: "33"
+    - generic: "34"
+    - generic: "35"
+    - generic: "36"
+    - generic: "37"
+    - generic: "38"
+    - generic: "39"
+    - generic: "40"
+    - generic: "41"
+    - generic: "42"
+    - generic: "43"
+    - generic: "44"
+    - generic: "45"
+    - generic: "46"
+    - generic: "47"
+    - generic: "48"
+    - generic: "49"
+    - generic: "50"
+    - generic: "51"
+    - generic: "52"
+    - generic: "53"
+    - generic: "54"
+    - generic: "55"
+    - generic: "56"
+    - generic: "57"
+    - generic: "58"
+    - generic: "59"
+    - generic: "60"
+    - generic: "61"
+    - generic: "62"
+    - generic: "63"
+    - generic: "64"
+    - generic: "65"
+    - generic: "66"
+    - generic: "67"
+    - generic: "68"
+    - generic: "69"
+    - generic: /*
+    - generic: "* FreeRTOS Kernel V11.3.0"
+    - generic: "* Copyright (C) 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved."
+    - generic: "*"
+    - generic: "* SPDX-License-Identifier: MIT"
+    - generic: "*"
+    - generic: "* Permission is hereby granted, free of charge, to any person obtaining a copy of"
+    - generic: "* this software and associated documentation files (the \"Software\"), to deal in"
+    - generic: "* the Software without restriction, including without limitation the rights to"
+    - generic: "* use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of"
+    - generic: "* the Software, and to permit persons to whom the Software is furnished to do so,"
+    - generic: "* subject to the following conditions:"
+    - generic: "*"
+    - generic: "* The above copyright notice and this permission notice shall be included in all"
+    - generic: "* copies or substantial portions of the Software."
+    - generic: "*"
+    - generic: "* THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+    - generic: "* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS"
+    - generic: "* FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR"
+    - generic: "* COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER"
+    - generic: "* IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN"
+    - generic: "* CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    - generic: "*"
+    - generic: "* https://www.FreeRTOS.org"
+    - generic: "* https://github.com/FreeRTOS"
+    - generic: "*"
+    - generic: "*/"
+    - generic: /*
+    - generic: "* The FreeRTOS kernel's RISC-V port is split between the the code that is"
+    - generic: "* common across all currently supported RISC-V chips (implementations of the"
+    - generic: "* RISC-V ISA), and code that tailors the port to a specific RISC-V chip:"
+    - generic: "*"
+    - generic: "* + FreeRTOS\\Source\\portable\\GCC\\RISC-V\\portASM.S contains the code that"
+    - generic: "* is common to all currently supported RISC-V chips. There is only one"
+    - generic: "* portASM.S file because the same file is built for all RISC-V target chips."
+    - generic: "*"
+    - generic: "* + Header files called freertos_risc_v_chip_specific_extensions.h contain the"
+    - generic: "* code that tailors the FreeRTOS kernel's RISC-V port to a specific RISC-V"
+    - generic: "* chip. There are multiple freertos_risc_v_chip_specific_extensions.h files"
+    - generic: "* as there are multiple RISC-V chip implementations."
+    - generic: "*"
+    - generic: "* !!!NOTE!!!"
+    - generic: "* TAKE CARE TO INCLUDE THE CORRECT freertos_risc_v_chip_specific_extensions.h"
+    - generic: "* HEADER FILE FOR THE CHIP IN USE. This is done using the assembler's (not the"
+    - generic: "* compiler's!) include path. For example, if the chip in use includes a core"
+    - generic: "* local interrupter (CLINT) and does not include any chip specific register"
+    - generic: "* extensions then add the path below to the assembler's include path:"
+    - generic: "* FreeRTOS\\Source\\portable\\GCC\\RISC-V\\chip_specific_extensions\\RISCV_MTIME_CLINT_no_extensions"
+    - generic: "*"
+    - generic: "*/"
+    - generic: "#ifndef"
+    - generic: __FREERTOS_RISC_V_EXTENSIONS_H__
+    - generic: "#define"
+    - generic: __FREERTOS_RISC_V_EXTENSIONS_H__
+    - generic: "#define"
+    - generic: portasmHAS_SIFIVE_CLINT
+    - text: "0"
+    - generic: "#define"
+    - generic: portasmHAS_MTIME
+    - text: "0"
+    - generic: "#define"
+    - generic: portasmADDITIONAL_CONTEXT_SIZE
+    - text: "0"
+    - text: .
+    - generic: macro
+    - generic: portasmSAVE_ADDITIONAL_REGISTERS
+    - generic: /* No additional registers to save, so this macro does nothing. */
+    - text: .
+    - generic: endm
+    - text: .
+    - generic: macro
+    - generic: portasmRESTORE_ADDITIONAL_REGISTERS
+    - generic: /* No additional registers to restore, so this macro does nothing. */
+    - text: .
+    - generic: endm
+    - generic: "#endif"
+    - generic: /* __FREERTOS_RISC_V_EXTENSIONS_H__ */
+  - generic "Symbols":
+    - heading "Symbols" [level=2]
+    - button "Close symbols":
+    - paragraph: Find definitions and references for functions and other symbols in this file by clicking a symbol below or in the code.
+    - combobox "Filter symbols" [expanded]
+    - generic: r
+    - generic: R
+    - tree "Code navigation":
+      - treeitem "macro __FREERTOS_RISC_V_EXTENSIONS_H__" [level=1]:
+        - generic: macro
+        - generic "__FREERTOS_RISC_V_EXTENSIONS_H__"
+      - treeitem "macro portasmHAS_SIFIVE_CLINT" [level=1]:
+        - generic: macro
+        - generic "portasmHAS_SIFIVE_CLINT"
+      - treeitem "macro portasmHAS_MTIME" [level=1]:
+        - generic: macro
+        - generic "portasmHAS_MTIME"
+      - treeitem "macro portasmADDITIONAL_CONTEXT_SIZE" [level=1]:
+        - generic: macro
+        - generic "portasmADDITIONAL_CONTEXT_SIZE"
+- contentinfo:
+  - heading "Footer" [level=2]
+  - link "GitHub Homepage":
+    - /url: https://github.com
+  - generic: © 2026 GitHub, Inc.
+  - navigation "Footer":
+    - heading "Footer navigation" [level=3]
+    - list "Footer navigation":
+      - link "Terms":
+        - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - link "Privacy":
+        - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - link "Security":
+        - /url: https://github.com/security
+      - link "Status":
+        - /url: https://www.githubstatus.com/
+      - link "Community":
+        - /url: https://github.community/
+      - link "Docs":
+        - /url: https://docs.github.com/
+      - link "Contact":
+        - /url: https://support.github.com?tags=dotcom-footer
+      - button "Manage cookies"
+      - button "Do not share my personal information"

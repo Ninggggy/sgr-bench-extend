@@ -1,0 +1,356 @@
+{
+  "at": "2026-09-10T11:24:34.042614+00:00",
+  "runs": [
+    {
+      "run_id": "r-arxiv-histtitle002-r03-cg-dev-a",
+      "item_f1_exact": "13/17",
+      "counts": {
+        "correct_fields": 78,
+        "gold_fields": 126,
+        "pred_fields": 78,
+        "item_denominator": 204,
+        "correct_rows": 13,
+        "gold_rows": 21,
+        "pred_rows": 13,
+        "row_denominator": 34,
+        "correct_pairs": 78,
+        "pair_denominator": 78,
+        "shared_ids": 13
+      },
+      "omitted_ids": [
+        [
+          "2001.01717",
+          "1907.03532"
+        ],
+        [
+          "2001.09328",
+          "2009.02623"
+        ],
+        [
+          "2003.03601",
+          "2005.08948"
+        ],
+        [
+          "2008.13265",
+          "2010.11327"
+        ],
+        [
+          "2009.01395",
+          "1912.05078"
+        ],
+        [
+          "2010.11327",
+          "2111.15041"
+        ],
+        [
+          "2012.01380",
+          "2201.07858"
+        ],
+        [
+          "2012.03115",
+          "2108.09423"
+        ]
+      ],
+      "extra_ids": []
+    },
+    {
+      "run_id": "r-arxiv-histtitle002-r03-cg-dev-b",
+      "item_f1_exact": "16/29",
+      "counts": {
+        "correct_fields": 48,
+        "gold_fields": 126,
+        "pred_fields": 48,
+        "item_denominator": 174,
+        "correct_rows": 8,
+        "gold_rows": 21,
+        "pred_rows": 8,
+        "row_denominator": 29,
+        "correct_pairs": 28,
+        "pair_denominator": 28,
+        "shared_ids": 8
+      },
+      "omitted_ids": [
+        [
+          "2001.01717",
+          "1907.03532"
+        ],
+        [
+          "2001.09328",
+          "2009.02623"
+        ],
+        [
+          "2003.03601",
+          "2005.08948"
+        ],
+        [
+          "2003.03657",
+          "2006.14426"
+        ],
+        [
+          "2006.13025",
+          "2001.01796"
+        ],
+        [
+          "2008.13265",
+          "2010.11327"
+        ],
+        [
+          "2009.01395",
+          "1912.05078"
+        ],
+        [
+          "2009.13051",
+          "2009.14471"
+        ],
+        [
+          "2010.11327",
+          "2111.15041"
+        ],
+        [
+          "2010.11869",
+          "2104.08453"
+        ],
+        [
+          "2011.08470",
+          "2102.10955"
+        ],
+        [
+          "2012.01380",
+          "2201.07858"
+        ],
+        [
+          "2012.03115",
+          "2108.09423"
+        ]
+      ],
+      "extra_ids": []
+    },
+    {
+      "run_id": "r-arxiv-histtitle002-r03-cg-attack",
+      "item_f1_exact": "3/5",
+      "counts": {
+        "correct_fields": 54,
+        "gold_fields": 126,
+        "pred_fields": 54,
+        "item_denominator": 180,
+        "correct_rows": 9,
+        "gold_rows": 21,
+        "pred_rows": 9,
+        "row_denominator": 30,
+        "correct_pairs": 36,
+        "pair_denominator": 36,
+        "shared_ids": 9
+      },
+      "omitted_ids": [
+        [
+          "2001.01717",
+          "1907.03532"
+        ],
+        [
+          "2001.09328",
+          "2009.02623"
+        ],
+        [
+          "2003.03601",
+          "2005.08948"
+        ],
+        [
+          "2003.03657",
+          "2006.14426"
+        ],
+        [
+          "2005.12741",
+          "1807.11926"
+        ],
+        [
+          "2006.13025",
+          "2001.01796"
+        ],
+        [
+          "2008.13265",
+          "2010.11327"
+        ],
+        [
+          "2009.13051",
+          "2009.14471"
+        ],
+        [
+          "2010.11327",
+          "2111.15041"
+        ],
+        [
+          "2010.11869",
+          "2104.08453"
+        ],
+        [
+          "2011.08470",
+          "2102.10955"
+        ],
+        [
+          "2012.03115",
+          "2108.09423"
+        ]
+      ],
+      "extra_ids": []
+    },
+    {
+      "run_id": "r-arxiv-histtitle002-r03-go-dev-a",
+      "item_f1_exact": "8/11",
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 126,
+        "pred_fields": 72,
+        "item_denominator": 198,
+        "correct_rows": 12,
+        "gold_rows": 21,
+        "pred_rows": 12,
+        "row_denominator": 33,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "omitted_ids": [
+        [
+          "2003.03657",
+          "2006.14426"
+        ],
+        [
+          "2005.12741",
+          "1807.11926"
+        ],
+        [
+          "2008.13265",
+          "2010.11327"
+        ],
+        [
+          "2009.01395",
+          "1912.05078"
+        ],
+        [
+          "2009.13051",
+          "2009.14471"
+        ],
+        [
+          "2010.11327",
+          "2111.15041"
+        ],
+        [
+          "2010.11869",
+          "2104.08453"
+        ],
+        [
+          "2011.08470",
+          "2102.10955"
+        ],
+        [
+          "2012.03115",
+          "2108.09423"
+        ]
+      ],
+      "extra_ids": []
+    },
+    {
+      "run_id": "r-arxiv-histtitle002-r03-go-dev-b",
+      "item_f1_exact": "4/5",
+      "counts": {
+        "correct_fields": 84,
+        "gold_fields": 126,
+        "pred_fields": 84,
+        "item_denominator": 210,
+        "correct_rows": 14,
+        "gold_rows": 21,
+        "pred_rows": 14,
+        "row_denominator": 35,
+        "correct_pairs": 91,
+        "pair_denominator": 91,
+        "shared_ids": 14
+      },
+      "omitted_ids": [
+        [
+          "2001.01717",
+          "1907.03532"
+        ],
+        [
+          "2001.09328",
+          "2009.02623"
+        ],
+        [
+          "2003.03601",
+          "2005.08948"
+        ],
+        [
+          "2008.13265",
+          "2010.11327"
+        ],
+        [
+          "2010.11327",
+          "2111.15041"
+        ],
+        [
+          "2012.01380",
+          "2201.07858"
+        ],
+        [
+          "2012.03115",
+          "2108.09423"
+        ]
+      ],
+      "extra_ids": []
+    },
+    {
+      "run_id": "r-arxiv-histtitle002-r03-go-attack",
+      "item_f1_exact": "13/17",
+      "counts": {
+        "correct_fields": 78,
+        "gold_fields": 126,
+        "pred_fields": 78,
+        "item_denominator": 204,
+        "correct_rows": 13,
+        "gold_rows": 21,
+        "pred_rows": 13,
+        "row_denominator": 34,
+        "correct_pairs": 78,
+        "pair_denominator": 78,
+        "shared_ids": 13
+      },
+      "omitted_ids": [
+        [
+          "2001.09328",
+          "2009.02623"
+        ],
+        [
+          "2003.03601",
+          "2005.08948"
+        ],
+        [
+          "2003.03657",
+          "2006.14426"
+        ],
+        [
+          "2008.13265",
+          "2010.11327"
+        ],
+        [
+          "2009.01395",
+          "1912.05078"
+        ],
+        [
+          "2010.11327",
+          "2111.15041"
+        ],
+        [
+          "2012.01380",
+          "2201.07858"
+        ],
+        [
+          "2012.03115",
+          "2108.09423"
+        ]
+      ],
+      "extra_ids": []
+    }
+  ],
+  "note": "All six completed; all returned rows are correct and omissions vary. These are development and attack scores only. Substantive retrieval decision errors require actual trace review; no automatic pass from omissions or low scores.",
+  "a_exposure_limit": "Neither A actual returned tool text contained an omitted source ID. API failures and incomplete lexical search may confound omissions.",
+  "cg_b_observation": "Three full-year API attempts returned500, then a complete January body was successfully downloaded but not read. Four keyword response bodies were actually read. Other successful bodies remained unread. First malformed date request is recorded; later tool result shows a normalized valid2020 date. Inspect actual responses before assigning causality."
+}

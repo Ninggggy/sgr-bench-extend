@@ -1,0 +1,11 @@
+Verdict: pass.
+
+An executed string comparison found d0111/CG.instruction equal to d0112/GO.instruction after removing CG's final sentence beginning “To investigate”. The output_format strings are exactly equal. CG's addition describes a procedure; it adds no membership condition, expected answer count, or extra output field.
+
+Both public questions state the observation date; calendar-2021 first submission in UTC; cs.LG including crosslists; latest-version withdrawal; a distinct, directly designated replacement/continuation; included merger, subsumption and duplicate-correction cases; exclusions; direct-only traversal; latest withdrawn-version cutoff; maximum eligible exact recorded submission timestamp; explicit rejection of announcement/availability times; historical/current title difference; whitespace/mathematics equivalence; and the same sorted three-field output. The raw d0014/d0016 boundary therefore selects v6 under both prompts. No private rule is necessary to select the eight rows. Reporting identifiers/version is proportionate to a discrepancy list and avoids manufacturing difficulty through title transcription.
+
+d0178 records the 23-relationship draft and all-eight-discrepancy refinement at 11:32:41 UTC, with the three-field output decision at 11:33:39. d0120 records revision2 and one substantive revision used, with no prior scores. This precedes the six completed runs; the original r01 remained unscored. The record supports a source-based revision, not score-selected row removal.
+
+Actual development identity is documented by run records: r-arxiv-title-r02-cg-dev-a-repair/d0126; r-arxiv-title-r02-cg-dev-b/d0134; r-arxiv-title-r02-cg-attack/d0142; r-arxiv-title-r02-go-dev-a/d0150; r-arxiv-title-r02-go-dev-b/d0158; r-arxiv-title-r02-go-attack/d0166. Their complete navigation/full-trace pairs are d0133/d0132, d0141/d0140, d0149/d0148, d0157/d0156, d0165/d0164, and d0173/d0172. Run verification files d0130, d0138, d0146, d0154, d0162 and d0170 corroborate fresh public-input Sol/medium completions. None constitutes admission.
+
+The two prompts differ only modestly in guidance because the substantive rules must remain explicit in GO. This limits the size of the guidance contrast; it is not semantic inequality. No public question or candidate version was changed by this audit.

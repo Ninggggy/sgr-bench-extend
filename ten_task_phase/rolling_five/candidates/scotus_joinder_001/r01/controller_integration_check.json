@@ -1,0 +1,25 @@
+{
+  "schema": "passed",
+  "pair_quote_checks": 38,
+  "output_format_equal": true,
+  "actual_reference": "rebuilt/execution_checks.json",
+  "oracle_equal": true,
+  "scorer_counts": {
+    "correct_fields": 9,
+    "gold_fields": 9,
+    "pred_fields": 9,
+    "item_denominator": 18,
+    "correct_rows": 3,
+    "gold_rows": 3,
+    "pred_rows": 3,
+    "row_denominator": 6,
+    "correct_pairs": 3,
+    "pair_denominator": 3,
+    "shared_ids": 3
+  },
+  "empty_result_parse_status": "empty",
+  "declared_unresolved_parse_status": "parse_failure",
+  "unresolved_interpretation": "Deliberately unscored failure report, never abilityzero; source/tool failure excluded from capability evidence.",
+  "human_review": "not_performed",
+  "final_audit": "not_performed"
+}

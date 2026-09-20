@@ -1,0 +1,74 @@
+{
+  "candidate_id": "arxiv_historical_title_002",
+  "revision": 3,
+  "ecosystem": "arXiv",
+  "domain": "ARXIV",
+  "status": "content_validated",
+  "old_task_refs": [
+    "arxiv_002"
+  ],
+  "research_goal": "Reconstruct direct successor bibliographic citations at the source record last listed submission timestamp for the complete2020cs.LGcurrent-withdrawn cohort.",
+  "structural_upgrade": "Complete annual scope, semantic successor direction, source-conditioned target version and historical title retrieval. Same authorized family as accepted001, independently scoped; no accepted answerrowsreused.",
+  "public": {
+    "cg": {
+      "instruction": "Reconstruct a historical bibliography from catalogue records, using public metadata current through 9 September 2026. Consider every record first submitted during calendar 2020 (UTC) whose current categories include cs.LG, including crosslists, and whose current record is withdrawn. Include each direct successor that its current notice names as a replacement, updated or corrected version, or merger result; this includes mistaken separate submissions redirected to another record. A merely related work, an independently developed equivalent result, or an unnamed forthcoming work is not a direct named successor. For each source-to-successor relation, use the SOURCE RECORD'S LAST LISTED SUBMISSION TIMESTAMP as the cutoff, and select the successor version with the latest submission timestamp at or before it. This cutoff is a bibliographic convention, not an asserted withdrawal-event date. Use the title belonging to the selected successor version. Successors may be from any year or category. Include all qualifying relations and all versions tied at the latest eligible timestamp, without filtering for title changes. Omit a relation if no successor version was submitted by its cutoff. If a source's last listed submission is after 9 September 2026 UTC, stop and report version drift. The purpose is to identify the successor citations supported by this explicit historical cutoff. Start with the complete annual category inventory, inspect the current notices and withdrawal status, follow the named successor rather than any other merger contributor, and use source and successor submission histories to determine which version-specific title to retrieve.",
+      "output_format": "Return only a pipe-separated table with header source_id|source_last_submission_utc|target_id|target_version|target_submission_utc|target_title. Use unversioned record identifiers, an integer version number, UTC timestamps as YYYY-MM-DDTHH:MM:SSZ, and the selected version's title, preserving its wording. Use one row per source, direct successor and selected version; sort by those three fields."
+    },
+    "go": {
+      "instruction": "Reconstruct a historical bibliography from catalogue records, using public metadata current through 9 September 2026. Consider every record first submitted during calendar 2020 (UTC) whose current categories include cs.LG, including crosslists, and whose current record is withdrawn. Include each direct successor that its current notice names as a replacement, updated or corrected version, or merger result; this includes mistaken separate submissions redirected to another record. A merely related work, an independently developed equivalent result, or an unnamed forthcoming work is not a direct named successor. For each source-to-successor relation, use the SOURCE RECORD'S LAST LISTED SUBMISSION TIMESTAMP as the cutoff, and select the successor version with the latest submission timestamp at or before it. This cutoff is a bibliographic convention, not an asserted withdrawal-event date. Use the title belonging to the selected successor version. Successors may be from any year or category. Include all qualifying relations and all versions tied at the latest eligible timestamp, without filtering for title changes. Omit a relation if no successor version was submitted by its cutoff. If a source's last listed submission is after 9 September 2026 UTC, stop and report version drift. The purpose is to identify the successor citations supported by this explicit historical cutoff.",
+      "output_format": "Return only a pipe-separated table with header source_id|source_last_submission_utc|target_id|target_version|target_submission_utc|target_title. Use unversioned record identifiers, an integer version number, UTC timestamps as YYYY-MM-DDTHH:MM:SSZ, and the selected version's title, preserving its wording. Use one row per source, direct successor and selected version; sort by those three fields."
+    }
+  },
+  "private": {
+    "source_version": "Official catalogue and versionrecords actually observed2026-09-10; fixedprotocolanchor2026-09-09 with disclosedadministrativecorrectionlimit.",
+    "candidate_scope": "Complete25890firstsubmitted2020cs.LGrecords,15434fullnonemptycommentssemanticallyreviewed,10456emptycommentnoticeexclusionsdocumented;21historicalrelations.",
+    "output_columns": [
+      "source_id",
+      "source_last_submission_utc",
+      "target_id",
+      "target_version",
+      "target_submission_utc",
+      "target_title"
+    ],
+    "row_key": [
+      "source_id",
+      "target_id"
+    ],
+    "sorting_rules": [
+      "source_id,target_id,target_version ascending"
+    ],
+    "missing_value_rules": [
+      "No eligible targetversion meansexclude relation; neverinventunknownmetadata."
+    ],
+    "source_manifest_path": "sources.json",
+    "state_graph_path": "dependencies.json",
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py",
+    "start_urls": [
+      "https://arxiv.org/search/advanced"
+    ],
+    "scoring_rules_path": "rules.json",
+    "predicates": [
+      "Calendar-2020 first submission with current cs.LG membership, including crosslists, and current withdrawal",
+      "Current notice identifies a direct named replacement, update, correction, merger result or mistaken-separate-submission referral",
+      "Source last listed submission determines the successor-version cutoff; select all latest eligible timestamp ties",
+      "Retrieve the selected historical version title; title change is not required"
+    ]
+  },
+  "validation": {
+    "content": "passed",
+    "difficulty": "user_designated_exception; standard screening rejected_threshold: CG mean 151/198, GO mean 4948/8613",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "controller_program_check.json",
+      "controller_scoring_compatibility.json",
+      "coverage.json",
+      "controller_preblind_corrections.json",
+      "final_audit_controller_review.json",
+      "../../../runs/r-resume-arxiv002-r03-audit/stage_assets/audit.json",
+      "FINAL_DECISION.md",
+      "test_results.json",
+      "admission_result.json"
+    ]
+  }
+}

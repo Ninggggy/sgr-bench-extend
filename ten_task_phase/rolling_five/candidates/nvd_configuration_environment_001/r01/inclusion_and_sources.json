@@ -1,0 +1,745 @@
+{
+  "cve_source": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/nvd_configuration_environment/raw/d0001.response",
+  "criteria_count": 40,
+  "configurations": [
+    {
+      "configuration_index": 0,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "558978AD-8153-4C1F-A6DE-CCFBF69F754D",
+          "vulnerable_role": true,
+          "source_file": "d0002",
+          "matched_count": 6
+        },
+        {
+          "uuid": "7F7654A1-3806-41C7-82D4-46B0CD7EE53B",
+          "vulnerable_role": false,
+          "source_file": "d0003",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 6
+    },
+    {
+      "configuration_index": 1,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "B150462B-6A4A-4B8C-800D-A83E24C79819",
+          "vulnerable_role": true,
+          "source_file": "d0004",
+          "matched_count": 4
+        },
+        {
+          "uuid": "47398FD0-6C5E-4625-9EFD-DE08C9AB7DB2",
+          "vulnerable_role": false,
+          "source_file": "d0005",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 4
+    },
+    {
+      "configuration_index": 2,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "A32A52F5-5406-4A44-A5C1-42FCDC8C6B22",
+          "vulnerable_role": true,
+          "source_file": "d0006",
+          "matched_count": 5
+        },
+        {
+          "uuid": "D68A36FF-8CAF-401C-9F18-94F3A2405CF4",
+          "vulnerable_role": false,
+          "source_file": "d0007",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 5
+    },
+    {
+      "configuration_index": 3,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "320FC232-D76C-4D8A-8003-7C9A7A287A4C",
+          "vulnerable_role": true,
+          "source_file": "d0008",
+          "matched_count": 5
+        },
+        {
+          "uuid": "2818E8AC-FFEE-4DF9-BF3F-C75166C0E851",
+          "vulnerable_role": false,
+          "source_file": "d0009",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 5
+    },
+    {
+      "configuration_index": 4,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "2360F0CC-6958-47B6-87A9-B03D52DEBAF8",
+          "vulnerable_role": true,
+          "source_file": "d0010",
+          "matched_count": 5
+        },
+        {
+          "uuid": "0B41F437-855B-4490-8011-DF59887BE6D5",
+          "vulnerable_role": false,
+          "source_file": "d0011",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 5
+    },
+    {
+      "configuration_index": 5,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "6C4EE067-E0F0-49B7-8698-8B1AD8E346F0",
+          "vulnerable_role": true,
+          "source_file": "d0012",
+          "matched_count": 5
+        },
+        {
+          "uuid": "66B99746-0589-46E6-9CBD-F38619AD97DC",
+          "vulnerable_role": false,
+          "source_file": "d0013",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 5
+    },
+    {
+      "configuration_index": 6,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "D96CB09A-9AB3-4360-ACFC-A917E7EEC460",
+          "vulnerable_role": true,
+          "source_file": "d0014",
+          "matched_count": 6
+        },
+        {
+          "uuid": "2B30A4C0-9928-46AD-9210-C25656FB43FB",
+          "vulnerable_role": false,
+          "source_file": "d0015",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 6
+    },
+    {
+      "configuration_index": 7,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "F0226DAD-492B-493D-B15E-90AA593BAAAB",
+          "vulnerable_role": true,
+          "source_file": "d0016",
+          "matched_count": 6
+        },
+        {
+          "uuid": "D74ABA7E-AA78-4A13-A64E-C44021591B42",
+          "vulnerable_role": false,
+          "source_file": "d0017",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 6
+    },
+    {
+      "configuration_index": 8,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "030F29C9-5435-4EA5-B009-895BB2259C19",
+          "vulnerable_role": true,
+          "source_file": "d0018",
+          "matched_count": 6
+        },
+        {
+          "uuid": "F93B6A06-2951-46D2-A7E1-103D7318D612",
+          "vulnerable_role": false,
+          "source_file": "d0019",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 6
+    },
+    {
+      "configuration_index": 9,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "3CF08551-BA8E-47BC-985D-D5ED76A46793",
+          "vulnerable_role": true,
+          "source_file": "d0020",
+          "matched_count": 4
+        },
+        {
+          "uuid": "646C1F07-B553-47B0-953B-DC7DE7FD0F8B",
+          "vulnerable_role": false,
+          "source_file": "d0021",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 4
+    },
+    {
+      "configuration_index": 10,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "62ACD903-AC40-451C-B2AB-6F843B3C8897",
+          "vulnerable_role": true,
+          "source_file": "d0022",
+          "matched_count": 7
+        },
+        {
+          "uuid": "92C697A5-D1D3-4FF0-9C43-D27B18181958",
+          "vulnerable_role": false,
+          "source_file": "d0023",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 7
+    },
+    {
+      "configuration_index": 11,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "BE7B066A-5AF0-42AF-A341-A91802F588F1",
+          "vulnerable_role": true,
+          "source_file": "d0024",
+          "matched_count": 5
+        },
+        {
+          "uuid": "110A1CA4-0170-4834-8281-0A3E14FC5584",
+          "vulnerable_role": false,
+          "source_file": "d0025",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 5
+    },
+    {
+      "configuration_index": 12,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "04A828C5-B71C-43EE-8132-C14C58A52360",
+          "vulnerable_role": true,
+          "source_file": "d0026",
+          "matched_count": 6
+        },
+        {
+          "uuid": "9D1396E3-731B-4D05-A3F8-F3ABB80D5C29",
+          "vulnerable_role": false,
+          "source_file": "d0027",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 6
+    },
+    {
+      "configuration_index": 13,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "42F4D9F3-BCBF-4990-B270-3592D69FCC22",
+          "vulnerable_role": true,
+          "source_file": "d0028",
+          "matched_count": 4
+        },
+        {
+          "uuid": "81D90A7B-174F-40A1-8AF4-08B15B7BAC40",
+          "vulnerable_role": false,
+          "source_file": "d0029",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 4
+    },
+    {
+      "configuration_index": 14,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "E136FA9E-48A2-428C-9F0A-CD9DB7F91581",
+          "vulnerable_role": true,
+          "source_file": "d0030",
+          "matched_count": 4
+        },
+        {
+          "uuid": "EECD311A-4E96-4576-AADF-47291EDE3559",
+          "vulnerable_role": false,
+          "source_file": "d0031",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 4
+    },
+    {
+      "configuration_index": 15,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "5DCFD02F-5884-4A96-957D-4CEEDB3826BE",
+          "vulnerable_role": true,
+          "source_file": "d0032",
+          "matched_count": 4
+        },
+        {
+          "uuid": "3C45C303-1A95-4245-B242-3AB9B9106CD4",
+          "vulnerable_role": false,
+          "source_file": "d0033",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 4
+    },
+    {
+      "configuration_index": 16,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "9C6AFD50-926C-4579-A951-4EFDCBA512F0",
+          "vulnerable_role": true,
+          "source_file": "d0034",
+          "matched_count": 4
+        },
+        {
+          "uuid": "9E3AC823-0ECA-42D8-8312-2FBE5914E4C0",
+          "vulnerable_role": false,
+          "source_file": "d0035",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 4
+    },
+    {
+      "configuration_index": 17,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "D84D915E-8075-4DFC-8C83-D7E6A65D7AFC",
+          "vulnerable_role": true,
+          "source_file": "d0036",
+          "matched_count": 1
+        },
+        {
+          "uuid": "34699536-4CA4-4F87-8E69-A16F2C88A1E8",
+          "vulnerable_role": true,
+          "source_file": "d0037",
+          "matched_count": 1
+        },
+        {
+          "uuid": "A983A8D5-1B1E-4DE5-93FE-DED5B2DDCB83",
+          "vulnerable_role": false,
+          "source_file": "d0038",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 2
+    },
+    {
+      "configuration_index": 18,
+      "operator": "AND",
+      "criteria": [
+        {
+          "uuid": "81F20DFB-ED71-4D6F-9B15-4F86341550A9",
+          "vulnerable_role": true,
+          "source_file": "d0039",
+          "matched_count": 1
+        },
+        {
+          "uuid": "5D5DCBFB-AB12-4525-ADD4-F85059E59177",
+          "vulnerable_role": true,
+          "source_file": "d0040",
+          "matched_count": 1
+        },
+        {
+          "uuid": "BB902356-D134-434B-8BAF-2CB366F32050",
+          "vulnerable_role": false,
+          "source_file": "d0041",
+          "matched_count": 1
+        }
+      ],
+      "registered_pairs": 2
+    }
+  ],
+  "complete_registered_name_pairs": [
+    [
+      "cpe:2.3:h:zyxel:atp100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp100_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp100_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp100_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp100_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp100_firmware:5.31:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp100_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp100w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp100w_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp100w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp100w_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp100w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp100w_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp100w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp100w_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp200_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp200_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp200_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp200_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp200_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp500_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp500_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp500_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp500_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp500_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp700_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp700_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp700_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp700_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp700_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp800:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp800_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp800:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp800_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp800:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp800_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp800:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp800_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:atp800:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:atp800_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100_firmware:5.00:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100_firmware:5.01:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100w_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100w_firmware:5.00:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100w_firmware:5.01:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100w_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100w_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_100w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_100w_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_200_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_200_firmware:5.00:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_200_firmware:5.01:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_200_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_200_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_200:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_200_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_500_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_500_firmware:5.00:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_500_firmware:5.01:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_500_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_500_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_500_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_500:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_500_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_50:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_50_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_50:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_50_firmware:5.00:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_50:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_50_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_50:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_50_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_50w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_50w_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_50w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_50w_firmware:5.00:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_50w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_50w_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_50w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_50w_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_50w:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_50w_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_700_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_700_firmware:5.00:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_700_firmware:5.10:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_700_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_700_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:usg_flex_700:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:usg_flex_700_firmware:5.35:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn1000:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn1000_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn1000:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn1000_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn1000:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn1000_firmware:5.21:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn1000:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn1000_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn100_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn100_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn100_firmware:5.21:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn100_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn300:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn300_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn300:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn300_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn300:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn300_firmware:5.21:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn300:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn300_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn50:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn50_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn50:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn50_firmware:5.20:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn50:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn50_firmware:5.21:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:vpn50:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:vpn50_firmware:5.30:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:zywall_usg_100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:zywall_usg_100_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:zywall_usg_100:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:zywall_usg_100_firmware:4.73:-:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:zywall_usg_310:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:zywall_usg_310_firmware:4.60:*:*:*:*:*:*:*"
+    ],
+    [
+      "cpe:2.3:h:zyxel:zywall_usg_310:-:*:*:*:*:*:*:*",
+      "cpe:2.3:o:zyxel:zywall_usg_310_firmware:4.73:-:*:*:*:*:*:*"
+    ]
+  ],
+  "rows": 19,
+  "inclusion": "Every complete pair produced by the recorded Boolean expression and the UUID matches arrays; no filtering out vulnerable=false hardware.",
+  "exclusions": "No inferred intermediate releases, unmatched CPE dictionary names, patched versions or unrelated hardware. Missing registration is not evidence of safety.",
+  "empty_match_policy": "An explicitly returned empty matches array contributes no enumerated names; no claim of real-world non-vulnerability."
+}

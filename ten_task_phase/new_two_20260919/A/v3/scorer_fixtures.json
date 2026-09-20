@@ -1,0 +1,272 @@
+{
+  "passed": 23,
+  "fixtures": [
+    {
+      "fixture": "exact",
+      "item_fraction": "80/80",
+      "strictly_below_70": false,
+      "correct_rows": 8
+    },
+    {
+      "fixture": "reordered",
+      "item_fraction": "80/80",
+      "strictly_below_70": false,
+      "correct_rows": 8
+    },
+    {
+      "fixture": "documented_aliases_and_syntax",
+      "item_fraction": "80/80",
+      "strictly_below_70": false,
+      "correct_rows": 8
+    },
+    {
+      "fixture": "wrong_start_key",
+      "item_fraction": "70/80",
+      "strictly_below_70": false,
+      "correct_rows": 7
+    },
+    {
+      "fixture": "wrong_nonkey",
+      "item_fraction": "78/80",
+      "strictly_below_70": false,
+      "correct_rows": 7
+    },
+    {
+      "fixture": "missing_row",
+      "item_fraction": "70/75",
+      "strictly_below_70": false,
+      "correct_rows": 7
+    },
+    {
+      "fixture": "extra_row",
+      "item_fraction": "80/85",
+      "strictly_below_70": false,
+      "correct_rows": 8
+    },
+    {
+      "fixture": "duplicate",
+      "item_fraction": "80/85",
+      "strictly_below_70": false,
+      "correct_rows": 8
+    },
+    {
+      "fixture": "extra_column",
+      "item_fraction": "80/81",
+      "strictly_below_70": false,
+      "correct_rows": 7
+    },
+    {
+      "fixture": "split_maximal_interval",
+      "item_fraction": "78/85",
+      "strictly_below_70": false,
+      "correct_rows": 7
+    },
+    {
+      "fixture": "blank_not_empty_set",
+      "item_fraction": "78/80",
+      "strictly_below_70": false,
+      "correct_rows": 7
+    },
+    {
+      "fixture": "exactly_70_is_not_success",
+      "item_fraction": "56/80",
+      "strictly_below_70": false,
+      "correct_rows": 4
+    },
+    {
+      "fixture": "parse_failure",
+      "metrics": null,
+      "qualifying": false
+    },
+    {
+      "fixture": "blank",
+      "item_fraction": "0/40",
+      "strictly_below_70": null,
+      "whole_answer_correct": false,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 40,
+        "pred_fields": 0,
+        "item_denominator": 40,
+        "correct_rows": 0,
+        "gold_rows": 8,
+        "pred_rows": 0,
+        "row_denominator": 8,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      }
+    },
+    {
+      "fixture": "whitespace",
+      "item_fraction": "0/40",
+      "strictly_below_70": null,
+      "whole_answer_correct": false,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 40,
+        "pred_fields": 0,
+        "item_denominator": 40,
+        "correct_rows": 0,
+        "gold_rows": 8,
+        "pred_rows": 0,
+        "row_denominator": 8,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      }
+    },
+    {
+      "fixture": "NONE",
+      "item_fraction": "0/40",
+      "strictly_below_70": null,
+      "whole_answer_correct": false,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 40,
+        "pred_fields": 0,
+        "item_denominator": 40,
+        "correct_rows": 0,
+        "gold_rows": 8,
+        "pred_rows": 0,
+        "row_denominator": 8,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      }
+    },
+    {
+      "fixture": "header_only",
+      "item_fraction": "0/40",
+      "strictly_below_70": null,
+      "whole_answer_correct": false,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 40,
+        "pred_fields": 0,
+        "item_denominator": 40,
+        "correct_rows": 0,
+        "gold_rows": 8,
+        "pred_rows": 0,
+        "row_denominator": 8,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      }
+    },
+    {
+      "fixture": "delimiter_only",
+      "item_fraction": "0/45",
+      "strictly_below_70": null,
+      "whole_answer_correct": false,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 40,
+        "pred_fields": 5,
+        "item_denominator": 45,
+        "correct_rows": 0,
+        "gold_rows": 8,
+        "pred_rows": 1,
+        "row_denominator": 9,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      }
+    },
+    {
+      "fixture": "empty_cells",
+      "item_fraction": "0/45",
+      "strictly_below_70": null,
+      "whole_answer_correct": false,
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 40,
+        "pred_fields": 5,
+        "item_denominator": 45,
+        "correct_rows": 0,
+        "gold_rows": 8,
+        "pred_rows": 1,
+        "row_denominator": 9,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      }
+    },
+    {
+      "fixture": "whole_exact",
+      "item_fraction": "80/80",
+      "strictly_below_70": false,
+      "whole_answer_correct": true,
+      "counts": {
+        "correct_fields": 40,
+        "gold_fields": 40,
+        "pred_fields": 40,
+        "item_denominator": 80,
+        "correct_rows": 8,
+        "gold_rows": 8,
+        "pred_rows": 8,
+        "row_denominator": 16,
+        "correct_pairs": 28,
+        "pair_denominator": 28,
+        "shared_ids": 8
+      }
+    },
+    {
+      "fixture": "whole_reversed",
+      "item_fraction": "80/80",
+      "strictly_below_70": false,
+      "whole_answer_correct": false,
+      "counts": {
+        "correct_fields": 40,
+        "gold_fields": 40,
+        "pred_fields": 40,
+        "item_denominator": 80,
+        "correct_rows": 8,
+        "gold_rows": 8,
+        "pred_rows": 8,
+        "row_denominator": 16,
+        "correct_pairs": 0,
+        "pair_denominator": 28,
+        "shared_ids": 8
+      }
+    },
+    {
+      "fixture": "whole_prose",
+      "item_fraction": "80/80",
+      "strictly_below_70": false,
+      "whole_answer_correct": false,
+      "counts": {
+        "correct_fields": 40,
+        "gold_fields": 40,
+        "pred_fields": 40,
+        "item_denominator": 80,
+        "correct_rows": 8,
+        "gold_rows": 8,
+        "pred_rows": 8,
+        "row_denominator": 16,
+        "correct_pairs": 28,
+        "pair_denominator": 28,
+        "shared_ids": 8
+      }
+    },
+    {
+      "fixture": "backtick_prose",
+      "item_fraction": "80/80",
+      "strictly_below_70": false,
+      "whole_answer_correct": false,
+      "counts": {
+        "correct_fields": 40,
+        "gold_fields": 40,
+        "pred_fields": 40,
+        "item_denominator": 80,
+        "correct_rows": 8,
+        "gold_rows": 8,
+        "pred_rows": 8,
+        "row_denominator": 16,
+        "correct_pairs": 28,
+        "pair_denominator": 28,
+        "shared_ids": 8
+      }
+    }
+  ]
+}

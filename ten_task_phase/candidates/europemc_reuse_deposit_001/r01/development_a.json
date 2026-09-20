@@ -1,0 +1,30 @@
+{
+  "campaign": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/campaign.json",
+  "ledger": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/session_ledger.jsonl",
+  "role": "blind",
+  "purpose": "development",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "registered_at": "2026-09-09T11:28:08.939707+00:00",
+  "note": "Ordinary initial pair A, both variants planned before either score. Reference and independently repaired source checks passed; content/strictSGR/substantive-error audit still pending. Not an admission retest round.",
+  "jobs": [
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-epmc-reuse-r01-cg-dev-a",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/europemc_reuse_deposit_001/r01/CG.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/europemc_reuse_deposit_001/r01/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/europemc_reuse_deposit_001/r01/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/europemc_reuse_deposit_001/r01/r-epmc-reuse-r01-cg-dev-a.job.json",
+      "label": "r-epmc-reuse-r01-cg-dev-a"
+    },
+    {
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-epmc-reuse-r01-go-dev-a",
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/europemc_reuse_deposit_001/r01/GO.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/inputs/solve.md",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/europemc_reuse_deposit_001/r01/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/europemc_reuse_deposit_001/r01/rules.json",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/europemc_reuse_deposit_001/r01/r-epmc-reuse-r01-go-dev-a.job.json",
+      "label": "r-epmc-reuse-r01-go-dev-a"
+    }
+  ]
+}

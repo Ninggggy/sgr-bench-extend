@@ -1,0 +1,30 @@
+{
+  "revision":"r02",
+  "variants":["CG.json","GO.json"],
+  "shared_oracle":"oracle.psv",
+  "shared_rules":"rules.json",
+  "public_json_keys":["instruction","output_format"],
+  "shared_conditions":[
+    "ATC prefix L01E and first FDA drug approval during 2023",
+    "Approval/classification knowledge through 2026-09-09",
+    "Approved companion diagnostic covering the initial indication on the date of first drug approval",
+    "Original drug labeling, including corrections effective for original approval",
+    "Historically applicable device approval/supplement and indication-specific genomic definition",
+    "Preserve ingredient salts and hydrates",
+    "One row per drug–gene; combine eligible alterations across contemporaneously applicable diagnostics",
+    "Complete individually enumerated substitutions",
+    "Reference transcript exactly as source-stated for named substitutions; NONE when no named substitutions are enumerated",
+    "Additional specific open-ended class names, with subordinate inclusions/examples and biological qualifications retained by citation",
+    "Discrete source-classification inventory rather than complete prescribing/specimen/assay-performance prose",
+    "No substitution of whole-panel coverage, molecular targets, prior-therapy biomarkers, later indications, or general detection claims",
+    "No invented finite expansion of open-ended variant classes",
+    "Same generic class-token serialization, unordered-list delimiters, NONE convention, columns, row order, and citations",
+    "Legal APIs, bulk downloads, and source-discovered batches are allowed"
+  ],
+  "cg_only_difference":"One explanatory sentence describing scope establishment, historical record selection, and retrieval of the detailed definition. It supplies no additional selection or output condition.",
+  "expected_answer_count_disclosed":false,
+  "answer_record_ids_disclosed":false,
+  "target_website_named":false,
+  "domain_answer_codebook_in_public_prompt":false,
+  "serialization_note":"Replacing internal spaces/hyphens with underscores is a generic list-token format. Public prompts do not enumerate possible genes, substitutions, classes, diagnostic names, or record identifiers."
+}

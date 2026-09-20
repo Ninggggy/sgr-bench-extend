@@ -1,0 +1,900 @@
+Implementing regulation - 2021/1378 - EN - EUR-Lex
+(function(w,d,u){w.readyQ=[];w.bindReadyQ=[];function p(x,y){if(x=="ready"){w.bindReadyQ.push(y);}else{w.readyQ.push(x);}};var a={ready:p,bind:p};w.$=w.jQuery=function(f){if(f===d||f===u){return a}else{p(f)}}})(window,document)
+var legislativeUrl = 'http://old.eur-lex.europa.eu/en/techleg/index.htm';
+        var eurovocUrl = 'http://eurovoc.europa.eu/drupal/';
+        var interStyleGuideUrl = 'http://publications.europa.eu/code/en/en-000100.htm';
+        var sessionExpired = false;
+        var pageUrl = '';
+        var queryString = 'uri=CELEX:32021R1378';
+        var sessionTimeout = '900000';
+{
+            "utility": "cck",
+            "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html?locale=en#5.%20Cookies%20notice"
+        }
+document.addEventListener('DOMContentLoaded', function () {
+            (function(window, document, dataLayerName, id) {
+                window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+                function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString();f="; SameSite=Strict"}document.cookie=a+"="+b+d+f+"; path=/"}
+                var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+                var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+                tags.async=!0,tags.src="https://analytics.webanalytics.op.europa.eu/containers/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+                !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+            })(window, document, 'dataLayer','0b5594a8-b9c8-4cd6-aa25-5c578dcf91df');
+        }, { once: true });
+×
+Skip to main content
+Log in
+My EUR-Lex
+My EUR-Lex
+Sign in
+Register
+My recent searches (0)
+English
+English
+Select your language
+Official EU languages:
+bg
+български
+es
+Español
+cs
+Čeština
+da
+Dansk
+de
+Deutsch
+et
+Eesti keel
+el
+Ελληνικά
+en
+English
+fr
+Français
+ga
+Gaeilge
+hr
+Hrvatski
+it
+Italiano
+lv
+Latviešu valoda
+lt
+Lietuvių kalba
+hu
+Magyar
+mt
+Malti
+nl
+Nederlands
+pl
+Polski
+pt
+Português
+ro
+Română
+sk
+Slovenčina
+sl
+Slovenščina
+fi
+Suomi
+sv
+Svenska
+EUR-Lex
+Access to European Union law
+<a href="https://eur-lex.europa.eu/content/help/eurlex-content/experimental-features.html" target="_blank">More about the experimental features corner</a>
+Experimental features
+×
+Choose the experimental features you want to try
+Do you want to help improving EUR-Lex ? This is a list of experimental features that you can enable. These features are still under development; they are not fully tested, and might reduce EUR-Lex stability. Don't forget to give your feedback!
+Warning! Experimental feature conflicts detected.
+Replacement of CELEX identifiers by short titles - experimental feature. It replaces clickable CELEX identifiers of treaties and case-law by short titles.
+Visualisation of document relationships. It displays a dynamic graph with relations between the act and related documents. It is currently only available for legal acts.
+Deep linking. It enables links to other legal acts referred to within the documents. It is currently only available for documents smaller than 900 KB.
+Apply
+$(document).ready(function() {
+		var conflicts = {};
+		
+		initializeFloatingBox(conflicts,$(document).find('.exp-feature-child-checkbox'),"");
+
+		var expOriginalTooltip = $('#expFeatHelp').attr('aria-description');
+		expOriginalTooltip = expOriginalTooltip.replace(/(<([^>]+)>)/ig,'');
+		$('#expFeatHelp').attr('aria-description',expOriginalTooltip);
+	});
+EUR-Lex
+Access to European Union law
+This document is an excerpt from the EUR-Lex website
+var home_lang = en;
+    $(document).ready(function(){
+        svg4everybody({ polyfill: true });
+        ECL.autoInit();
+    });
+
+    $(document).ready(function(){
+        $(".ecl-site-header__language-link--active").removeClass("ecl-site-header__language-link--active");
+        $(home_lang).addClass("ecl-site-header__language-link--active");
+    });
+You are here
+EUROPA
+EUR-Lex home
+Implementing regulation - 2021/1378 - EN - EUR-Lex
+Help
+Print
+{
+                    "service": "share",
+                    "counter": false,
+                    "css": {
+                        "button": "myButton"
+                    },
+                    "link": "https://eur-lex.europa.eu/eli/reg_impl/2021/1378/oj/eng"
+                }
+$(document).ready(function() {
+        $('.PageShare').each(function() { 
+            const target = this;
+            let observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (!mutation.addedNodes) return
+                    for (let i = 0; i < mutation.addedNodes.length; i++) {
+                        let node = mutation.addedNodes[i]
+                        if ($(node) != undefined && $(node).is("a") && $(node).hasClass("myButton") && $(node).find("i").length === 0) {
+                            $(node).prepend("<i class='fa fa-share-alt' aria-hidden='true'></i>")
+                            observer.disconnect();
+                        }
+                    }
+                })
+            })
+            observer.observe(target, {
+                subtree: true,
+                childList: true
+            });
+        });
+    });
+Menu
+EU law
+Treaties
+Treaties currently in force
+Founding Treaties
+Accession Treaties
+Other treaties and protocols
+Chronological overview
+Legal acts
+Consolidated texts
+International agreements
+Preparatory documents
+EFTA documents
+Lawmaking procedures
+Summaries of EU legislation
+Browse by EU institutions
+European Parliament
+European Council
+Council of the European Union
+European Commission
+Court of Justice of the European Union
+European Central Bank
+European Court of Auditors
+European Economic and Social Committee
+European Committee of the Regions
+Browse by EuroVoc
+EU case-law
+Case-law
+Reports of cases
+Directory of case-law
+Official Journal
+Access to the Official Journal
+Official Journal L series daily view
+Official Journal C series daily view
+Browse the Official Journal
+Legally binding printed editions
+Special edition
+National law and case-law
+National transposition
+National case-law
+JURE case-law
+Information
+Themes in focus
+EUR-Lex developments
+Statistics
+ELI register
+What is ELI?
+ELI background
+Why implement ELI?
+Countries implementing ELI
+Testimonials
+How to implement ELI
+Glossary
+EU budget online
+Quick search
+Use quotation marks to search for an "exact phrase". Append an asterisk (
+*
+) to a search term to find variations of it (transp
+*
+, 32019R
+*
+). Use a question mark (
+?
+) instead of a single character in your search term to find variations of it (ca
+?
+e finds case, cane, care).
+Search tips
+Need more search options? Use the
+Advanced search
+$(document).ready(function() {
+			var quickSearchFld = $('#QuickSearchField.autocompleteField');
+			typeaheadFld(quickSearchFld, "./../../../autocomplete.html", true, 'QuickSearch');
+		});
+		var quickSearchHelpAlt="Use quotation marks to search for an &quot;exact phrase&quot;. Append an asterisk (<abbr title='Asterisk'>*</abbr>) to a search term to find variations of it (transp<abbr title='Asterisk'>*</abbr>, 32019R<abbr title='Asterisk'>*</abbr>). Use a question mark (<abbr title='Question mark'>?</abbr>) instead of a single character in your search term to find variations of it (ca<abbr title='Question mark'>?</abbr>e finds case, cane, care).";
+		var quickSearchHelp="Use quotation marks to search for an &quot;exact phrase&quot;. Append an asterisk (<abbr title='Asterisk'>*</abbr>) to a search term to find variations of it (transp<abbr title='Asterisk'>*</abbr>, 32019R<abbr title='Asterisk'>*</abbr>). Use a question mark (<abbr title='Question mark'>?</abbr>) instead of a single character in your search term to find variations of it (ca<abbr title='Question mark'>?</abbr>e finds case, cane, care).";
+Document 32021R1378
+Help
+Print
+{
+                    "service": "share",
+                    "counter": false,
+                    "css": {
+                        "button": "myButton"
+                    },
+                    "link": "https://eur-lex.europa.eu/eli/reg_impl/2021/1378/oj/eng"
+                }
+$(document).ready(function() {
+        $('.PageShare').each(function() { 
+            const target = this;
+            let observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (!mutation.addedNodes) return
+                    for (let i = 0; i < mutation.addedNodes.length; i++) {
+                        let node = mutation.addedNodes[i]
+                        if ($(node) != undefined && $(node).is("a") && $(node).hasClass("myButton") && $(node).find("i").length === 0) {
+                            $(node).prepend("<i class='fa fa-share-alt' aria-hidden='true'></i>")
+                            observer.disconnect();
+                        }
+                    }
+                })
+            })
+            observer.observe(target, {
+                subtree: true,
+                childList: true
+            });
+        });
+    });
+Text
+Document information
+Up-to-date link
+Permanent link
+$(document).ready(function () {
+        if (readCookie('bookmark') == 'trigger') {
+            deleteCookie('bookmark');
+
+        } else {
+        	// Permanent link (DISPLAYED FIST) should remove qid from query string, and bookmark link should be displayed in its place when page refreshes
+            $('#link-permanent-link').addClass("onlyJsInlineBlock");
+            $('#link-permanent-link').show();
+        }
+    });
+Download notice
+Save to My items
+Create an email alert
+Create an RSS alert
+Table of contents
+Hide table of contents
+Access current version (29/06/2026)
+29/06/2026
+All consolidated versions
+Hide consolidated versions
+29/06/2026
+25/10/2025
+18/05/2025
+20/12/2024
+07/11/2024
+10/08/2024
+27/06/2024
+18/11/2022
+01/01/2022
+Legal act
+​
+Commission Implementing Regulation (EU) 2021/1378 of 19 August 2021 laying down certain rules concerning the certificate issued to operators, groups of operators and exporters in third countries involved in the imports of organic and in-conversion products into the Union and establishing the list of recognised control authorities and control bodies in accordance with Regulation (EU) 2018/848 of the European Parliament and of the Council (Text with EEA relevance)
+Commission Implementing Regulation (EU) 2021/1378 of 19 August 2021 laying down certain rules concerning the certificate issued to operators, groups of operators and exporters in third countries involved in the imports of organic and in-conversion products into the Union and establishing the list of recognised control authorities and control bodies in accordance with Regulation (EU) 2018/848 of the European Parliament and of the Council (Text with EEA relevance)
+Commission Implementing Regulation (EU) 2021/1378 of 19 August 2021 laying down certain rules concerning the certificate issued to operators, groups of operators and exporters in third countries involved in the imports of organic and in-conversion products into the Union and establishing the list of recognised control authorities and control bodies in accordance with Regulation (EU) 2018/848 of the European Parliament and of the Council (Text with EEA relevance)
+C/2021/6052
+OJ L 297, 20.8.2021, pp. 24–31
+		 (BG, ES, CS, DA, DE, ET, EL, EN, FR, GA, HR, IT, LV, LT, HU, MT, NL, PL, PT, RO, SK, SL, FI, SV)
+In force: This act has been changed.
+Current consolidated version:
+29/06/2026
+ELI:
+http://data.europa.eu/eli/reg_impl/2021/1378/oj
+Expand all
+Collapse all
+Languages, formats and link to OJ
+Language
+BG
+ES
+CS
+DA
+DE
+ET
+EL
+EN
+FR
+GA
+HR
+IT
+LV
+LT
+HU
+MT
+NL
+PL
+PT
+RO
+SK
+SL
+FI
+SV
+HTML
+EN
+Toggle Dropdown
+BG
+ES
+CS
+DA
+DE
+ET
+EL
+EN
+FR
+GA
+HR
+IT
+LV
+LT
+HU
+MT
+NL
+PL
+PT
+RO
+SK
+SL
+FI
+SV
+PDF
+EN
+Toggle Dropdown
+BG
+ES
+CS
+DA
+DE
+ET
+EL
+EN
+FR
+GA
+HR
+IT
+LV
+LT
+HU
+MT
+NL
+PL
+PT
+RO
+SK
+SL
+FI
+SV
+Official Journal
+EN
+Toggle Dropdown
+BG
+ES
+CS
+DA
+DE
+ET
+EL
+EN
+FR
+GA
+HR
+IT
+LV
+LT
+HU
+MT
+NL
+PL
+PT
+RO
+SK
+SL
+FI
+SV
+Multilingual display
+Language 1
+English (en)
+Bulgarian (bg)
+Spanish (es)
+Czech (cs)
+Danish (da)
+German (de)
+Estonian (et)
+Greek (el)
+English (en)
+French (fr)
+Irish (ga)
+Croatian (hr)
+Italian (it)
+Latvian (lv)
+Lithuanian (lt)
+Hungarian (hu)
+Maltese (mt)
+Dutch (nl)
+Polish (pl)
+Portuguese (pt)
+Romanian (ro)
+Slovak (sk)
+Slovenian (sl)
+Finnish (fi)
+Swedish (sv)
+Language 2
+Please choose
+Bulgarian (bg)
+Spanish (es)
+Czech (cs)
+Danish (da)
+German (de)
+Estonian (et)
+Greek (el)
+English (en)
+French (fr)
+Irish (ga)
+Croatian (hr)
+Italian (it)
+Latvian (lv)
+Lithuanian (lt)
+Hungarian (hu)
+Maltese (mt)
+Dutch (nl)
+Polish (pl)
+Portuguese (pt)
+Romanian (ro)
+Slovak (sk)
+Slovenian (sl)
+Finnish (fi)
+Swedish (sv)
+Language 3
+Please choose
+Bulgarian (bg)
+Spanish (es)
+Czech (cs)
+Danish (da)
+German (de)
+Estonian (et)
+Greek (el)
+English (en)
+French (fr)
+Irish (ga)
+Croatian (hr)
+Italian (it)
+Latvian (lv)
+Lithuanian (lt)
+Hungarian (hu)
+Maltese (mt)
+Dutch (nl)
+Polish (pl)
+Portuguese (pt)
+Romanian (ro)
+Slovak (sk)
+Slovenian (sl)
+Finnish (fi)
+Swedish (sv)
+Display
+Text
+20.8.2021
+EN
+Official Journal of the European Union
+L 297/24
+COMMISSION IMPLEMENTING REGULATION (EU) 2021/1378
+of 19 August 2021
+laying down certain rules concerning the certificate issued to operators, groups of operators and exporters in third countries involved in the imports of organic and in-conversion products into the Union and establishing the list of recognised control authorities and control bodies in accordance with Regulation (EU) 2018/848 of the European Parliament and of the Council
+(Text with EEA relevance)
+THE EUROPEAN COMMISSION,
+Having regard to the Treaty on the Functioning of the European Union,
+Having regard to Regulation (EU) 2018/848 of the European Parliament and of the Council of 30 May 2018 on organic production and labelling of organic products and repealing Council Regulation (EC) No 834/2007
+(
+1
+)
+, and in particular Articles 45(4) and 46(1) thereof,
+Whereas:
+(1)
+In accordance with point (b)(i) of Article 45(1) of Regulation (EU) 2018/848, a product may be imported from a third country for the purpose of placing that product on the market within the Union as an organic product or as in-conversion product, if operators and groups of operators, including exporters in the third country concerned, have been subject to controls by control authorities or control bodies recognised in accordance with Article 46 of that Regulation, and those authorities or bodies have provided all such operators, groups of operators and exporters with a certificate confirming that they comply with Regulation (EU) 2018/848.
+(2)
+In order to give effect to point (b)(i) of Article 45(1) of Regulation (EU) 2018/848, the content of the certificate referred to in that provision should be specified, as well as the technical means by which it is to be issued.
+(3)
+In addition, for the purposes of point (b)(i) of Article 45(1) of Regulation (EU) 2018/848, it is appropriate to establish in this Regulation the list of recognised control authorities and control bodies that are competent to carry out those controls and to issue that certificate in third countries.
+(4)
+In the interest of clarity and legal certainty, this Regulation should apply from the date of application of Regulation (EU) 2018/848.
+(5)
+The measures provided for in this Regulation are in accordance with the opinion of the Organic Production Committee,
+HAS ADOPTED THIS REGULATION:
+Article 1
+Certificate for operators, groups of operators and exporters in third countries
+Control authorities and control bodies that have been recognised in accordance with Article 46(1) of Regulation (EU) 2018/848 shall provide operators, groups of operators and exporters in third countries that have been subject to the controls referred to in point (b)(i) of Article 45(1) of that Regulation with a certificate confirming that such operators, groups of operators and exporters comply with Regulation (EU) 2018/848 (‘the certificate’).
+The certificate shall:
+(a)
+be issued in electronic form, in accordance with the model set out in Annex I to this Regulation, and by using the electronic Trade Control and Expert System (TRACES) referred to in point (36) of Article 2 of Commission Implementing Regulation (EU) 2019/1715
+(
+2
+)
+;
+(b)
+allow the identification of:
+(i)
+the operator, group of operators or exporter covered by the certificate, including the list of members of a group of operators;
+(ii)
+the category of products covered by the certificate, classified in the same way as provided for in Article 35(7) of Regulation (EU) 2018/848; and
+(iii)
+its period of validity;
+(c)
+certify that the activity of the operator, group of operators or exporter complies with Regulation (EU) 2018/848; and
+(d)
+be updated whenever changes occur concerning the data included in it.
+Article 2
+List of recognised control authorities and control bodies
+1.   The list of control authorities and control bodies recognised in accordance with Article 46(1) of Regulation (EU) 2018/848 is set out in Annex II to this Regulation. The list shall contain the following information on each recognised control authority or control body:
+(a)
+the name and code number of the control authority or control body;
+(b)
+the product categories, as set out in Article 35(7) of Regulation (EU) 2018/848, for each third country;
+(c)
+the third countries in which the product categories have their origin, provided that those third countries are not already covered for the product category or product concerned by an agreement on trade in organic products in accordance with Article 47 of Regulation (EU) 2018/848 or through an equivalence recognition in accordance with Article 48 of that Regulation;
+(d)
+the duration of the recognition; and
+(e)
+the exceptions to the recognition, where appropriate.
+2.   Detailed information relating to the mailing address, website address and email contact point of the control authority or control body, as well as the name of the accreditation body granting the accreditation in accordance with point (d) of Article 46(2) of Regulation (EU) 2018/848, shall be publicly available via the Commission organic farming website.
+Article 3
+Entry into force and application
+This Regulation shall enter into force on the twentieth day following that of its publication in the
+Official Journal of the European Union
+.
+It shall apply from 1 January 2022.
+This Regulation shall be binding in its entirety and directly applicable in all Member States.
+Done at Brussels, 19 August 2021.
+For the Commission
+The President
+Ursula VON DER LEYEN
+(
+1
+)
+OJ L 150, 14.6.2018, p. 1
+.
+(
+2
+)
+Commission Implementing Regulation (EU) 2019/1715 of 30 September 2019 laying down rules for the functioning of the information management system for official controls and its system components (the IMSOC Regulation) (
+OJ L 261, 14.10.2019, p. 37
+).
+ANNEX I
+MODEL OF THE CERTIFICATE
+CERTIFICATE FOR OPERATORS, GROUPS OF OPERATORS AND EXPORTERS IN THIRD COUNTRIES FOR PRODUCTS TO BE IMPORTED INTO THE EUROPEAN UNION AS ORGANIC PRODUCTS OR IN-CONVERSION PRODUCTS
+Part I: Mandatory elements
+1.
+Document number
+2.
+(choose as appropriate)
+•
+Operator
+•
+Group of operators – see point 10
+•
+Exporter
+3.
+Name and address of the operator, group of operators or exporter:
+4.
+Name, address and code number of the control authority or control body of the operator, group of operators or exporter:
+5.
+Activity or activities of the operator, group of operators or exporter (choose as appropriate):
+•
+Production
+•
+Preparation
+•
+Distribution
+•
+Storing
+•
+Import
+•
+Export
+6.
+Category or categories of products as referred to in Article 35(7) of Regulation (EU) 2018/848 of the European Parliament and of the Council
+(
+1
+)
+and production methods (choose as appropriate):
+(a)
+unprocessed plants and plant products, including seeds and other plant reproductive material
+Production method:
+☐
+organic production excluding during the conversion period
+☐
+production during the conversion period
+☐
+organic production with non-organic production
+(b)
+livestock and unprocessed livestock products
+Production method:
+☐
+organic production excluding during the conversion period
+☐
+production during the conversion period
+☐
+organic production with non-organic production
+(c)
+algae and unprocessed aquaculture products
+Production method:
+☐
+organic production excluding during the conversion period
+☐
+production during the conversion period
+☐
+organic production with non-organic production
+(d)
+processed agricultural products, including aquaculture products, for use as food
+Production method:
+☐
+production of organic products
+☐
+production of in-conversion products
+☐
+organic production with non-organic production
+(e)
+feed
+Production method:
+☐
+production of organic products
+☐
+production of in-conversion products
+☐
+organic production with non-organic production
+(f)
+wine
+Production method:
+☐
+production of organic products
+☐
+production of in-conversion products
+☐
+organic production with non-organic production
+(g)
+other products listed in Annex I to Regulation (EU) 2018/848 or not covered by the previous categories
+Production method:
+☐
+production of organic products
+☐
+production of in-conversion products
+☐
+organic production with non-organic production
+7.
+Directory of products:
+Name of the product and/or Combined Nomenclature (CN) code as referred to in Council Regulation (EEC) No 2658/87
+(
+2
+)
+for products within the scope of Regulation (EU) 2018/848
+☐
+Organic
+☐
+In-conversion
+This document has been issued in accordance with Commission Implementing Regulation (EU) 2021/1378
+(
+3
+)
+to certify that the operator, group of operators or exporter (choose as appropriate) complies with Regulation (EU) 2018/848.
+8.
+Date, place
+Name and signature on behalf of the issuing control authority or control body:
+9.
+Certificate valid from………. [insert date] to..………[insert date]
+10.
+List of members of the group of operators as defined in Article 36 of Regulation (EU) 2018/848
+Name of member
+Address or other form of member identification
+Part II: Specific optional elements
+One or more elements to be completed if so decided by the control authority or control body that issues the certificate to the operator, group of operators or exporter in accordance with Implementing Regulation (EU) 2021/1378
+1.
+Quantity of products
+Name of the product and/or CN code as referred to in Regulation (EEC) No 2658/87 for products within the scope of Regulation (EU) 2018/848.
+☐ Organic
+☐ In-conversion
+Quantity estimated in kilograms, litres or, where relevant, in number of units.
+2.
+Information on the land
+Name of the product
+☐ Organic
+☐ In-conversion
+☐ Non-organic
+Surface in hectares
+3.
+List of premises or units where the activity is performed by the operator or group of operators
+Address or geolocation
+Description of the activity or activities as referred to in point 5 of part I
+4.
+Information on the activity or activities carried out by the operator or group of operators and whether the activity is, or the activities are performed for their own purpose or as a subcontractor carrying out the activity or activities for another operator, while the subcontractor remains responsible for the activity or activities performed
+Description of the activity or activities as referred to in point 5 of part I
+☐ Carrying out activity/activities for own purpose
+☐ Carrying out activity/activities as a subcontractor for another operator, while the subcontractor remains responsible for the activity or activities performed
+5.
+Information on the activity or activities carried out by the subcontracted third party
+Description of the activity or activities as referred to in point 5 of part I
+☐ Operator or group of operators remains responsible
+☐ Subcontracted third party is responsible
+6.
+List of subcontractors carrying out an activity or activities for the operator or group of operators for which the operator or group of operators remains responsible as regards organic production and for which it has not transferred that responsibility to the subcontractor
+Name and address
+Description of the activity or activities as referred to in point 5 of part I
+7.
+Information on the accreditation of the control body in accordance with point (d) of Article 46(2) of Regulation (EU) 2018/848
+(a)
+name of the accreditation body;
+(b)
+hyperlink to the accreditation certificate.
+8.
+Other information
+(
+1
+)
+Regulation (EU) 2018/848 of the European Parliament and of the Council of 30 May 2018 on organic production and labelling of organic products and repealing Council Regulation (EC) No 834/2007 (
+OJ L 150, 14.6.2018, p. 1
+).
+(
+2
+)
+Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (
+OJ L 256 7.9.1987, p. 1
+).
+(
+3
+)
+Commission Implementing Regulation (EU) 2021/1378 of 19 August 2021 laying down certain rules concerning the certificate issued to operators, groups of operators and exporters in third countries involved in the imports of organic products into the Union and establishing the list of recognised control authorities and control bodies in accordance with Regulation (EU) 2018/848 of the European Parliament and of the Council (
+OJ L 297, 20.8.2021, p. 24
+).
+ANNEX II
+List of control authorities and control bodies recognised in accordance with Article 46 of Regulation (EU) 2018/848
+For the purposes of this Annex, the product categories are designated by the following codes:
+A
+:
+unprocessed plants and plant products, including seeds and other plant reproductive material;
+B
+:
+livestock and unprocessed livestock products;
+C
+:
+algae and unprocessed aquaculture products;
+D
+:
+processed agricultural products, including aquaculture products, for use as food;
+E
+:
+feed;
+F
+:
+wine;
+G
+:
+other products listed in Annex I to Regulation (EU) 2018/848 or not covered by the previous categories.
+Information relating to the mailing address, website address and email contact point of the control authority or control body, as well as the name of the accreditation body granting its accreditation, can be found on the Commission organic farming website.
+Name of the control authority or control body:
+1.
+Code numbers, third countries and product categories concerned
+Code number
+Third country
+Category of products
+XX-BIO-XXX
+A
+B
+C
+D
+E
+F
+G
+2.
+Duration of the recognition:
+3.
+Exceptions:
+Top
+$(document).ready(function () {
+			popUpWidget("./../../../", "en", "800");
+			popUpWidgetAccessible("./../../../", "EN");
+		})
+$(document).ready(function () {
+			    
+				if ("false" == "true" || "true" == "true") {
+					initConsLegTable('To display the table of contents, zoom out or increase the size of your browser window.');
+				}
+				if ("true" == "true") {
+					initToc("false");
+					
+					eliResolutionResolver("/legal-content/EN/TXT/");
+				}
+				setTimeout(function(){ loadDocState("TXT false","PP"); }, 0);
+		        $(document).trigger("enhance");
+			});
+Table of contents
+Hide table of contents
+This site is managed by the
+Publications Office of the European Union
+Need help?
+Help pages
+Contact
+Sitemap
+Follow us
+X
+Legal
+Legal notice
+Cookies policy
+Accessibility
+Privacy statement
+Information
+About EUR-Lex
+Newsletter
+Useful links
+Other services
+European Data
+EU tenders
+EU research results
+EU Whoiswho
+EU publications
+N-Lex
+EU Law Tracker
+Discover more on
+europa.eu
+Contact the EU
+Call us 00 800 6 7 8 9 10 11
+Use other telephone options
+Write to us via our contact form
+Meet us at one of the EU centres
+Social media
+Search for EU social media channels
+Legal
+Languages on our websites
+Privacy policy
+Legal notice
+Cookies
+EU institutions
+European Parliament
+European Council
+Council of the European Union
+European Commission
+Court of Justice of the European Union (CJEU)
+European Central Bank (ECB)
+European Court of Auditors
+European External Action Service (EEAS)
+European Economic and Social Committee
+European Committee of Regions (CoR)
+European Investment Bank
+European Ombudsman
+European Data Protection Supervisor (EDPS)
+European Data Protection Board
+European Personnel Selection Office
+Publications Office of the European Union
+Agencies
+Switch to mobile
+Switch to desktop
+$(document).ready(function () {
+        var switchToDesktop = "notSelected";
+        var deviceDetected = "desktop";
+        //enable switch to desktop view for mobile devices
+        if (deviceDetected == 'mobile' ){
+            if ((switchToDesktop == 'false' || switchToDesktop == 'notSelected') && window.innerWidth<992 ){
+                $("#switchToDesktop").removeClass("hide");
+            }else if (switchToDesktop == 'true'){
+                $("#switchToMobile").removeClass("hide");
+            }
+        }
+    });
+(function($,d){$.each(readyQ,function(i,f){$(f)});$.each(bindReadyQ,function(i,f){$(d).on("ready",f)})})(jQuery,document)

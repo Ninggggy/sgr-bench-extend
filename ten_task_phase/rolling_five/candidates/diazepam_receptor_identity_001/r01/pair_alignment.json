@@ -1,0 +1,92 @@
+{
+  "scope": "Constructor literal and semantic comparison; not an independent review",
+  "construction_change": "Five-column feasibility draft replaced by two columns before any model solve; same research outputs, fewer fixed fields.",
+  "predicates": [
+    {
+      "predicate": "research_goal",
+      "cg_quote": "Before grouping diazepam binding affinities by GABA-A receptor composition, audit how precisely the curated records identify their targets. Summarize the registered attribution levels and identify explicit subunit-composition conflicts and engineered-receptor labels.",
+      "go_quote": "Before grouping diazepam binding affinities by GABA-A receptor composition, audit how precisely the curated records identify their targets. Summarize the registered attribution levels and identify explicit subunit-composition conflicts and engineered-receptor labels."
+    },
+    {
+      "predicate": "source_release_and_observation",
+      "cg_quote": "Use release 37, issued in May 2026, of the public database of curated small-molecule bioactivity measurements. Use its registered literature records, with reference observations on 13 September 2026 (UTC).",
+      "go_quote": "Use release 37, issued in May 2026, of the public database of curated small-molecule bioactivity measurements. Use its registered literature records, with reference observations on 13 September 2026 (UTC)."
+    },
+    {
+      "predicate": "whole_registered_scope_and_count_unit",
+      "cg_quote": "Use the individual registered compound whose preferred name is diazepam, without expanding to related compound records. Include every activity record for that compound from the Scientific Literature source whose registered assay type is Binding (B), standard type is Ki, standard units are nM, and standard relation is =. These are standard-field criteria, not a claim that the original measurements were exact point estimates. Retain records converted from other original representations. Count activity records, keeping different activity IDs separately even when they share an assay or have duplicate or validity flags.",
+      "go_quote": "Use the individual registered compound whose preferred name is diazepam, without expanding to related compound records. Include every activity record for that compound from the Scientific Literature source whose registered assay type is Binding (B), standard type is Ki, standard units are nM, and standard relation is =. These are standard-field criteria, not a claim that the original measurements were exact point estimates. Retain records converted from other original representations. Count activity records, keeping different activity IDs separately even when they share an assay or have duplicate or validity flags."
+    },
+    {
+      "predicate": "exhaustive_registration_categories",
+      "cg_quote": "Assign each activity to one of these registered-attribution categories:\n- DIRECT_COMPLEX: a defined GABA-A protein complex with its constituent subunit kinds registered, and a direct assay-to-target assignment.\n- HOMOLOGOUS_COMPLEX: a defined GABA-A protein complex with its constituent subunit kinds registered, but a homologous assay-to-target assignment.\n- COMPLEX_GROUP: a GABA-A protein complex group, regardless of whether its assignment is direct or homologous. Its group members do not specify one coexisting receptor composition.\n- GABA_SUBUNIT: only a single GABA-A subunit is registered as the target, even if the assay description mentions a fuller combination.\n- TSPO: the registered target is translocator protein, kept separate from the GABA-A categories.\n- UNCURATED_GABA_BZD: the target remains uncurated, while the assay description identifies a GABA-A or benzodiazepine receptor/site. An ambiguous abbreviation requires evidence establishing its meaning for the assayed target.\n- OTHER: all remaining activity records in the stated scope.\n\nUse the registered target type, component relationships and assay attribution to distinguish these levels. A detailed assay description does not upgrade an uncurated or homologous assignment. Retain the registered identity when a broad description such as BzR cannot identify the molecule more precisely.",
+      "go_quote": "Assign each activity to one of these registered-attribution categories:\n- DIRECT_COMPLEX: a defined GABA-A protein complex with its constituent subunit kinds registered, and a direct assay-to-target assignment.\n- HOMOLOGOUS_COMPLEX: a defined GABA-A protein complex with its constituent subunit kinds registered, but a homologous assay-to-target assignment.\n- COMPLEX_GROUP: a GABA-A protein complex group, regardless of whether its assignment is direct or homologous. Its group members do not specify one coexisting receptor composition.\n- GABA_SUBUNIT: only a single GABA-A subunit is registered as the target, even if the assay description mentions a fuller combination.\n- TSPO: the registered target is translocator protein, kept separate from the GABA-A categories.\n- UNCURATED_GABA_BZD: the target remains uncurated, while the assay description identifies a GABA-A or benzodiazepine receptor/site. An ambiguous abbreviation requires evidence establishing its meaning for the assayed target.\n- OTHER: all remaining activity records in the stated scope.\n\nUse the registered target type, component relationships and assay attribution to distinguish these levels. A detailed assay description does not upgrade an uncurated or homologous assignment. Retain the registered identity when a broad description such as BzR cannot identify the molecule more precisely."
+    },
+    {
+      "predicate": "independent_engineering_flag",
+      "cg_quote": "Independently count ENGINEERED_VARIANT: records whose assay description explicitly identifies the assayed receptor as mutant or chimeric. Count these across the whole scope, including uncurated targets. A variant mentioned only as a control or background does not qualify. Recombinant expression alone is not an engineered-receptor label, and absence of such a label does not establish wild type. This flag overlaps the attribution categories; do not remove flagged records from their category counts.",
+      "go_quote": "Independently count ENGINEERED_VARIANT: records whose assay description explicitly identifies the assayed receptor as mutant or chimeric. Count these across the whole scope, including uncurated targets. A variant mentioned only as a control or background does not qualify. Recombinant expression alone is not an engineered-receptor label, and absence of such a label does not establish wild type. This flag overlaps the attribution categories; do not remove flagged records from their category counts."
+    },
+    {
+      "predicate": "subunit_conflict_identity_and_species",
+      "cg_quote": "Also list each activity with an explicit subunit-composition conflict: the description identifies one unambiguous set of GABA-A subunit kinds, the registered target is a defined protein complex, and its constituent subunit-kind set differs from the described set. Compare kind sets after resolving spelling and subunit-name synonyms; do not compare stoichiometry. An alternative such as beta2/3, a chimeric subunit, a broad receptor label, a complex-group member list, or an incomplete single-subunit registration does not establish such a conflict.\n\nFor each conflict, report the described receptor species and subunit kinds, followed by the registered target species and subunit kinds. Use the explicitly described receptor origin, not an expression host or a tissue label alone; write UNKNOWN if that protein origin is unstated. A species difference by itself is not a subunit-composition conflict. These flags identify description/registration incompatibility, not which account is biologically correct, and they do not by themselves establish that measurements can be pooled.",
+      "go_quote": "Also list each activity with an explicit subunit-composition conflict: the description identifies one unambiguous set of GABA-A subunit kinds, the registered target is a defined protein complex, and its constituent subunit-kind set differs from the described set. Compare kind sets after resolving spelling and subunit-name synonyms; do not compare stoichiometry. An alternative such as beta2/3, a chimeric subunit, a broad receptor label, a complex-group member list, or an incomplete single-subunit registration does not establish such a conflict.\n\nFor each conflict, report the described receptor species and subunit kinds, followed by the registered target species and subunit kinds. Use the explicitly described receptor origin, not an expression host or a tissue label alone; write UNKNOWN if that protein origin is unstated. A species difference by itself is not a subunit-composition conflict. These flags identify description/registration incompatibility, not which account is biologically correct, and they do not by themselves establish that measurements can be pooled."
+    },
+    {
+      "predicate": "unresolved_evidence",
+      "cg_quote": "If required source records or the complete activity scope cannot be resolved, report UNRESOLVED rather than inventing a category, zero count, or absence of conflicts.",
+      "go_quote": "If required source records or the complete activity scope cannot be resolved, report UNRESOLVED rather than inventing a category, zero count, or absence of conflicts."
+    }
+  ],
+  "CG_only_guidance": "To perform the audit:\n1. Resolve diazepam in the registered compound records and retrieve the full activity scope below.\n2. Use the discovered assay and target identities to inspect attribution and component relationships; resolve description abbreviations from the linked publication when necessary.\n3. Assign the categories, then apply the independent engineered-target and composition-conflict checks.",
+  "output_format_exactly_equal": true,
+  "scoring_note": "Existing scorer counts both ITEM and FINDING; the eight fixed summary/flag keys are not hidden or assigned zero weight. Controller withdrew incompatible FINDING-only request.",
+  "ambiguity_checks": [
+    {
+      "interpretations": [
+        "Count assays",
+        "Count activity IDs"
+      ],
+      "resolution": "Include every diazepam activity record from the Scientific Literature source whose registered assay type is Binding (B), standard type is Ki, standard units are nM, and standard relation is =. These are standard-field criteria, not a claim that the original measurements were exact point estimates. Retain records converted from other original representations. Count activity records, keeping different activity IDs separately even when they share an assay or have duplicate or validity flags."
+    },
+    {
+      "interpretations": [
+        "Four direct-complex mutants only",
+        "All explicit engineering in cohort"
+      ],
+      "resolution": "Independently count ENGINEERED_VARIANT: records whose assay description explicitly identifies the assayed receptor as mutant or chimeric. Count these across the whole scope, including uncurated targets. A variant mentioned only as a control or background does not qualify. Recombinant expression alone is not an engineered-receptor label, and absence of such a label does not establish wild type. This flag overlaps the attribution categories; do not remove flagged records from their category counts."
+    },
+    {
+      "interpretations": [
+        "Component members coexist",
+        "Only kinds of a defined complex coexist as registered identity"
+      ],
+      "resolution": "Assign each activity to one of these registered-attribution categories:\n- DIRECT_COMPLEX: a defined GABA-A protein complex with its constituent subunit kinds registered, and a direct assay-to-target assignment.\n- HOMOLOGOUS_COMPLEX: a defined GABA-A protein complex with its constituent subunit kinds registered, but a homologous assay-to-target assignment.\n- COMPLEX_GROUP: a GABA-A protein complex group, regardless of whether its assignment is direct or homologous. Its group members do not specify one coexisting receptor composition.\n- GABA_SUBUNIT: only a single GABA-A subunit is registered as the target, even if the assay description mentions a fuller combination.\n- TSPO: the registered target is translocator protein, kept separate from the GABA-A categories.\n- UNCURATED_GABA_BZD: the target remains uncurated, while the assay description identifies a GABA-A or benzodiazepine receptor/site. Resolve an ambiguous abbreviation from its linked publication rather than guessing.\n- OTHER: all remaining activity records in the stated scope.\n\nUse the registered target type, component relationships and assay attribution to distinguish these levels. A detailed assay description does not upgrade an uncurated or homologous assignment. Retain the registered identity when a broad description such as BzR cannot identify the molecule more precisely."
+    },
+    {
+      "interpretations": [
+        "Standard relation equals implies original exact point",
+        "Scope determined by standard fields only"
+      ],
+      "resolution": "Include every diazepam activity record from the Scientific Literature source whose registered assay type is Binding (B), standard type is Ki, standard units are nM, and standard relation is =. These are standard-field criteria, not a claim that the original measurements were exact point estimates. Retain records converted from other original representations. Count activity records, keeping different activity IDs separately even when they share an assay or have duplicate or validity flags."
+    },
+    {
+      "interpretations": [
+        "Species differences are composition conflicts",
+        "Subunit kinds must differ"
+      ],
+      "resolution": "Also list each activity with an explicit subunit-composition conflict: the description identifies one unambiguous set of GABA-A subunit kinds, the registered target is a defined protein complex, and its constituent subunit-kind set differs from the described set. Compare kind sets after resolving spelling and subunit-name synonyms; do not compare stoichiometry. An alternative such as beta2/3, a chimeric subunit, a broad receptor label, a complex-group member list, or an incomplete single-subunit registration does not establish such a conflict.\n\nFor each conflict, report the described receptor species and subunit kinds, followed by the registered target species and subunit kinds. Use the explicitly described receptor origin, not an expression host or a tissue label alone; write UNKNOWN if that protein origin is unstated. A species difference by itself is not a subunit-composition conflict. These flags identify description/registration incompatibility, not which account is biologically correct, and they do not by themselves establish that measurements can be pooled."
+    },
+    {
+      "interpretations": [
+        "All related salt/parent-family records",
+        "The individual record whose preferred name is diazepam"
+      ],
+      "resolution": "Use the individual registered compound whose preferred name is diazepam, without expanding to related compound records. Include every activity record for that compound from the Scientific Literature source; supported by a complete official preferred-name query with one result and self-parent hierarchy."
+    }
+  ],
+  "internal_draft_refinements": [
+    "Public compound scope expressly individual preferred-name record; no post-score filtering or oracle change",
+    "GO abbreviation clause now states an evidence requirement; linked publication retrieval remains CG guidance only."
+  ]
+}

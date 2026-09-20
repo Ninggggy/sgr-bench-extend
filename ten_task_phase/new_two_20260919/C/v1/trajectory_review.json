@@ -1,0 +1,52 @@
+{
+  "reviewed_at": "2026-09-19T14:34:21.589612+00:00",
+  "method": "Controller inspected all twelve tool calls and their outputs, isolation probes, raw answers and immutable scorer results.",
+  "faces": {
+    "CG": {
+      "raw_item_fraction": "124/128",
+      "raw_row_fraction": "12/16",
+      "raw_whole_answer": false,
+      "tool_calls": 6,
+      "tool_policy": "passed: only normal web search and individual original files with focused line windows; no API, bulk fetch, browser, host paths, or merged answers",
+      "access": "No substantive access failure in outputs. GitHub navigation widget errors do not hide requested source.",
+      "exposure": "No private evidence, gold, other-face answer or old score in clean solver inventory; isolation probes all false.",
+      "format": "Complete normal table, eight distinct rows, no missing rows.",
+      "valid_for_acceptance": false,
+      "valid_item_fraction": null,
+      "strictly_below_70": false,
+      "elapsed_seconds": 161.496,
+      "usage": {
+        "input_tokens": 265820,
+        "cached_input_tokens": 200960,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4460,
+        "reasoning_output_tokens": 2979
+      },
+      "content": "All requested table cells semantically agree with gold. Solver incorrectly chose V11.3.1 rather than earliest V11.3.0, whose operative layout happens to agree. This is a version-selection reasoning error, not tool-policy violation.",
+      "scoring_defect": "Registered parser rejected the unambiguous x1/ra alias in two cells. Raw 124/128 retained; not interpreted as two content errors, no post-test parser change or retake. Semantic 64/64 cells is diagnostic only."
+    },
+    "GO": {
+      "raw_item_fraction": "128/128",
+      "raw_row_fraction": "16/16",
+      "raw_whole_answer": true,
+      "tool_calls": 6,
+      "tool_policy": "passed: only normal web search and individual original files with focused line windows; no API, bulk fetch, browser, host paths, or merged answers",
+      "access": "No substantive access failure in outputs. GitHub navigation widget errors do not hide requested source.",
+      "exposure": "No private evidence, gold, other-face answer or old score in clean solver inventory; isolation probes all false.",
+      "format": "Complete normal table, eight distinct rows, no missing rows.",
+      "valid_for_acceptance": true,
+      "valid_item_fraction": "128/128",
+      "strictly_below_70": false,
+      "elapsed_seconds": 135.801,
+      "usage": {
+        "input_tokens": 268213,
+        "cached_input_tokens": 184064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4169,
+        "reasoning_output_tokens": 2776
+      },
+      "content": "Selected V11.3.0 after initially reading V11.3.1; all requested fields correct."
+    }
+  },
+  "outcome": "Not qualified. No substantive revision supported merely by this high score. Retire this direction while exploring a distinct question."
+}

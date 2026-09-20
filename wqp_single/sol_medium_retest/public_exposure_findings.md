@@ -1,0 +1,24 @@
+# 本轮公开答案暴露检查
+
+本轮与GPT-6历史检查分开。完整原参考答案出现在实际工具返回时，判为答案暴露；后续官方核验不能消除已见答案。保留全部固定试次，不删分、不替换，不据污染后的均值证明纯能力差。
+
+|尝试|判定|匹配原答案行数|
+|---|---|---:|
+|screening_new_CG_1|no_matching_benchmark_response_detected|0|
+|screening_old_CG_1|no_matching_benchmark_response_detected|0|
+|screening_new_GO_1|no_matching_benchmark_response_detected|0|
+|screening_old_GO_1|observed_exact_old004_answer_exposure|3|
+|confirmation_new_CG_1|no_matching_benchmark_response_detected|0|
+|confirmation_old_CG_1|observed_exact_old004_answer_exposure|3|
+|confirmation_new_GO_1|no_matching_benchmark_response_detected|0|
+|confirmation_old_GO_1|no_matching_benchmark_response_detected|0|
+|confirmation_new_CG_2|no_matching_benchmark_response_detected|0|
+|confirmation_old_CG_2|no_matching_benchmark_response_detected|0|
+|confirmation_new_GO_2|no_matching_benchmark_response_detected|0|
+|confirmation_old_GO_2|no_matching_benchmark_response_detected|0|
+|confirmation_new_CG_3|no_matching_benchmark_response_detected|0|
+|confirmation_old_CG_3|observed_exact_old004_answer_exposure|3|
+|confirmation_new_GO_3|no_matching_benchmark_response_detected|0|
+|confirmation_old_GO_3|observed_exact_old004_answer_exposure|3|
+
+完整返回文本与行号见[public_exposure_findings.json](public_exposure_findings.json)；全部调用及搜索片段见[public_exposure_review.json](public_exposure_review.json)。未检出只表示已保存返回中未发现匹配片段，不能排除训练、记忆或未识别的暴露渠道。

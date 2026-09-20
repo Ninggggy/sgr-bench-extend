@@ -1,0 +1,93 @@
+{
+  "website": "https://www.ebi.ac.uk/chembl/",
+  "source_release": "ChEMBL_37",
+  "nodes": [
+    {
+      "id": "default",
+      "source_id": "d0006",
+      "state": "Default molecule API page",
+      "target_hits": 0
+    },
+    {
+      "id": "name",
+      "source_id": "resumption_exact_name",
+      "state": "Exact preferred-name query: quinine",
+      "exposes": [
+        "molecule_chembl_id",
+        "standard_inchi",
+        "standard_inchi_key",
+        "canonical_smiles"
+      ]
+    },
+    {
+      "id": "prefix",
+      "source_id": "resumption_prefix",
+      "state": "First-block structure-key prefix query configured from discovered quinine InChIKey",
+      "complete_count": 16
+    },
+    {
+      "id": "broad_name",
+      "source_id": "d0002",
+      "state": "Complete name search",
+      "count": 42,
+      "target_hits": 2,
+      "role": "Coverage comparison, not an extra required hop"
+    },
+    {
+      "id": "connectivity",
+      "source_id": "d0003",
+      "state": "Connectivity query configured from discovered quinine SMILES",
+      "count": 43,
+      "single_component_count": 16,
+      "role": "Independent scope and salt-boundary verification"
+    },
+    {
+      "id": "classify",
+      "artifact": "inventory.json",
+      "state": "Mechanical per-record layer comparison and carbon-assignment classification",
+      "role": "Answer derivation, not a new retrieval dependency"
+    },
+    {
+      "id": "version_refresh",
+      "artifact": "refresh_checks.json",
+      "state": "Controller status/name/discovered-prefix/status observation 2026-09-13 03:15:28.584675–03:15:37.493410 UTC",
+      "role": "Source stability evidence, not a difficulty layer"
+    }
+  ],
+  "edges": [
+    {
+      "from": "name",
+      "to": "prefix",
+      "type": "control",
+      "discovered_field": "molecule_structures.standard_inchi_key",
+      "transformation": "Take the first 14-character block",
+      "query_field": "molecule_structures__standard_inchi_key__startswith",
+      "witness_value": "LOUPRKONTZGTKE",
+      "exposure": "Complete peer set including 14 records absent from the full initial name search"
+    },
+    {
+      "from": "name",
+      "to": "connectivity",
+      "type": "control",
+      "discovered_field": "molecule_structures.canonical_smiles",
+      "query_field": "molecule_structures__canonical_smiles__connectivity",
+      "required_on_shortest_path": false
+    },
+    {
+      "from": "prefix",
+      "to": "classify",
+      "type": "data",
+      "fields": [
+        "standard_inchi",
+        "canonical_smiles",
+        "molecule_chembl_id"
+      ]
+    }
+  ],
+  "shortest_required_path": [
+    "name",
+    "prefix"
+  ],
+  "limits": "Observed discovery-conditioned specialized filtering. Does not prove all alternative sources or fixed exports impossible; no extra dependency is claimed for local parsing, sorting, or version checks.",
+  "source_discovery_evidence": "../source_discovery_open_evidence/request_ledger.json"
+}

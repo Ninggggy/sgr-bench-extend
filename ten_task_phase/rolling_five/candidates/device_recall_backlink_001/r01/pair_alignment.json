@@ -1,0 +1,62 @@
+{
+  "scope": "Constructor alignment only; independent review pending",
+  "same_research_goal": "For a regulatory record-linkage audit of U.S. medical-device recall Z-0436-2014, report whether each 510(k) application explicitly cited by its official recall record links back to that same recall through the recall view provided by the application’s official 510(k) record.",
+  "predicates": [
+    {
+      "id": "1",
+      "cg_quote": "Use the official records as observed on 13 September 2026 (UTC).",
+      "go_quote": "Use the official records as observed on 13 September 2026 (UTC).",
+      "assessment": "Identical scope, identity, observation or status rule."
+    },
+    {
+      "id": "2",
+      "cg_quote": "Include every 510(k) application explicitly listed in the source recall record, one row per application. The scope is this finite cited application set.",
+      "go_quote": "Include every 510(k) application explicitly listed in the source recall record, one row per application. The scope is this finite cited application set.",
+      "assessment": "Identical scope, identity, observation or status rule."
+    },
+    {
+      "id": "3",
+      "cg_quote": "PRESENT means the recall view provided by the application’s official 510(k) record contains a link to the source recall record. ABSENT means the complete view contains no link to that record. Include all result pages and retain the view’s application scope without adding date, status, product or classification filters.",
+      "go_quote": "PRESENT means the recall view provided by the application’s official 510(k) record contains a link to the source recall record. ABSENT means the complete view contains no link to that record. Include all result pages and retain the view’s application scope without adding date, status, product or classification filters.",
+      "assessment": "Identical scope, identity, observation or status rule."
+    },
+    {
+      "id": "4",
+      "cg_quote": "Match the exact recall record identity, using its Recall Number or official record identifier. Product names, model numbers, dates and shared recall-event identifiers alone do not establish that identity.",
+      "go_quote": "Match the exact recall record identity, using its Recall Number or official record identifier. Product names, model numbers, dates and shared recall-event identifiers alone do not establish that identity.",
+      "assessment": "Identical scope, identity, observation or status rule."
+    },
+    {
+      "id": "5",
+      "cg_quote": "This is an audit of the observed backlink views, not a count of all historical recalls or a conclusion about why a link is missing.",
+      "go_quote": "This is an audit of the observed backlink views, not a count of all historical recalls or a conclusion about why a link is missing.",
+      "assessment": "Identical scope, identity, observation or status rule."
+    },
+    {
+      "id": "6",
+      "cg_quote": "If a required source or complete view cannot be read, the affected status remains unresolved; access failure does not justify ABSENT. Use UNRESOLVED for that application rather than guessing.",
+      "go_quote": "If a required source or complete view cannot be read, the affected status remains unresolved; access failure does not justify ABSENT. Use UNRESOLVED for that application rather than guessing.",
+      "assessment": "Identical scope, identity, observation or status rule."
+    }
+  ],
+  "output_format_identical": true,
+  "only_variant_difference": {
+    "cg": "To carry out the audit:\n1. Locate the official source recall record and read its cited 510(k) application identifiers.\n2. Open each discovered application’s official 510(k) record and follow its CDRH Recalls link.\n3. Inspect the complete resulting view and resolve its record links as needed to determine exact source-record membership.",
+    "go": "Same result target and all scope predicates, retrieval route left open."
+  },
+  "public_leakage_check": "No domain, URL, brand, discovered application IDs, source record numeric ID, final count or status mapping in public files. CDRH Recalls control label appears only in CG as procedural scaffold; both variants retain regulatory role and unique Recall Number naturally.",
+  "ambiguity_checks": [
+    {
+      "issue": "Forward citation versus reverse membership",
+      "resolution_quote": "PRESENT means the recall view provided by the application’s official 510(k) record contains a link to the source recall record. ABSENT means the complete view contains no link to that record. Include all result pages and retain the view’s application scope without adding date, status, product or classification filters."
+    },
+    {
+      "issue": "Index date or shared event versus exact identity",
+      "resolution_quote": "Match the exact recall record identity, using its Recall Number or official record identifier. Product names, model numbers, dates and shared recall-event identifiers alone do not establish that identity."
+    },
+    {
+      "issue": "Unreadable source versus observed absence",
+      "resolution_quote": "If a required source or complete view cannot be read, the affected status remains unresolved; access failure does not justify ABSENT. Use UNRESOLVED for that application rather than guessing."
+    }
+  ]
+}

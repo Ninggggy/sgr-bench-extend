@@ -1,0 +1,103 @@
+{
+  "decision": "pass",
+  "scope": "Independent B1-only r02 difference review; inherits unaffected r01 passed findings, not a new full audit.",
+  "candidate_id": "wqp_censored_screening_001",
+  "revision": 2,
+  "substantive_revision_number": 1,
+  "B1": "resolved_by_new_authoritative_characteristic_definition",
+  "source_judgment": {
+    "indexed_evidence": "opportunities/wqp_censored_screening/evidence/controller_srs_indexed.json, turn109search0, official EPA SRS E1640416",
+    "identity": "Exact synonym Hardness, Ca, Mg appears under WQX with Approved status. SRS defines calcium/magnesium hardness in mg/L equivalent calcium carbonate. This establishes reported characteristic basis independently of2340B versus200.7(W) method labels.",
+    "unknown_column": "Table headers place Unknown in synonym Quality and Approved in Status; Unknown is not a missing unit/basis designation.",
+    "interpretation_limit": "Standardized reported meaning is established; laboratory execution correctness is not certified. None of the three original results reports conflicting basis.",
+    "access_truth": "controller_srs_open.json contains only a JavaScript shell. Full definition is indexed original-site text, not rendered interactive-page evidence.",
+    "why_sufficient": "EPA vocabulary registry supplies the exact approved WQX synonym and explicit equivalence units. Generally in the definition is not conflicting sample-specific evidence; the source suffices to interpret this standardized characteristic."
+  },
+  "independent_checks": {
+    "program": "independent_recompute.py derived from reviewer own r01 algorithm; no author program imported",
+    "raw_scope": 137,
+    "dissolved": 101,
+    "aggregate_rows": 12,
+    "oracle_exact": true,
+    "all_per_result_classifications_match": true,
+    "exactly_three_changed": [
+      "STORET-949467276",
+      "STORET-949450675",
+      "STORET-949426233"
+    ],
+    "remaining_98_author_ledger_rows_identical_as_parsed": true,
+    "remaining_98_independent_results_unchanged": true,
+    "three_calculations": [
+      {
+        "result_id": "STORET-949426233",
+        "date": "2012-12-04",
+        "evidence": "below_mdl",
+        "hardness_state": "available",
+        "screen": "below_or_equal",
+        "hardness": 93.0,
+        "criterion": 0.2338976522630004,
+        "lower": 0,
+        "upper": 0.07
+      },
+      {
+        "result_id": "STORET-949450675",
+        "date": "2012-10-02",
+        "evidence": "between_mdl_rl",
+        "hardness_state": "available",
+        "screen": "crosses",
+        "hardness": 78.0,
+        "criterion": 0.20697593281563473,
+        "lower": 0.07,
+        "upper": 1.0
+      },
+      {
+        "result_id": "STORET-949467276",
+        "date": "2012-08-06",
+        "evidence": "between_mdl_rl",
+        "hardness_state": "available",
+        "screen": "crosses",
+        "hardness": 96.0,
+        "criterion": 0.23911599594707472,
+        "lower": 0.07,
+        "upper": 0.6
+      }
+    ],
+    "aggregate_screen_totals": {
+      "unresolved_limit": 17,
+      "crosses": 17,
+      "below_or_equal": 43,
+      "above": 15,
+      "unresolved_hardness": 7,
+      "not_reported": 2
+    },
+    "rules_unchanged": true,
+    "scorer_entry": "Same runtime/score.py and rules. Reviewed r02 author mechanical scorer results; independently checked new12-row table compatibility, without repeating unaffected scorer tests."
+  },
+  "public_diff": {
+    "only_change": "Identical removal of , as available on 13 September 2026 from CG/GO.",
+    "conditions_equivalent": true,
+    "standalone_matches_candidate_public": true,
+    "output_format_unchanged": true,
+    "scope_unchanged": true,
+    "private_actual_source_observation": "Actual13September timestamps remain private; no claim this was registered runtime date."
+  },
+  "pending_separately": {
+    "evaluation_window_source_stability": "pending, not performed or inferred by this reviewer",
+    "human_review": "not_done",
+    "final_admission_audit": "not_done",
+    "blind_or_attack_tests": 0
+  },
+  "provenance": {
+    "model": "gpt-6-astra",
+    "effort": "medium",
+    "agent": "/root/assay_interference_scope",
+    "started_utc": "2026-09-13T10:53:05Z",
+    "completed_utc": "2026-09-13T10:55:02.888615+00:00",
+    "network_requests": 0,
+    "NEMI4690_requests": 0,
+    "author_files_modified": false,
+    "work_limit_seconds": 600,
+    "thread_cumulative_limits": "Retained, not reset",
+    "tokens_and_cost": "Actual parent trace; not fabricated locally"
+  }
+}

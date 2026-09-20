@@ -1,0 +1,62 @@
+[
+  {
+    "pred_index": null,
+    "id": [
+      "53"
+    ],
+    "field": "deprecated_value",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "53",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "53"
+    ],
+    "field": "published_replacement_value",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "54",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "53"
+    ],
+    "field": "review_date",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2021-03-26",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "53"
+    ],
+    "field": "reviewed_draft",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "draft-ietf-tls-dtls-connection-id-10",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "53"
+    ],
+    "field": "proposed_permanent_value",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "53",
+    "correct": false,
+    "reason": "omitted_row"
+  }
+]

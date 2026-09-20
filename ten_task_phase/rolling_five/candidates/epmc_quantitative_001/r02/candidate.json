@@ -1,0 +1,83 @@
+{
+  "candidate_id": "epmc_quantitative_001",
+  "revision": 2,
+  "ecosystem": "Europe PMC",
+  "domain": "Psychiatric research corrections and analysis populations",
+  "status": "rejected",
+  "old_task_refs": [
+    "europemc_005",
+    "europemc_004"
+  ],
+  "research_goal": "Identify participant-count or analysis-population corrections in the indexed journal issue and establish the population to which the corrected help-seeking and non-depressed counts refer.",
+  "structural_upgrade": "Observed issue membership and returned PMCIDs control subsequent evidence-bearing full-text retrieval. The previously recovered same-issue batch covers the original and both notices, so notice-to-original-specific retrieval is bypassable. Metadata alone does not supply the initial population or the analysis inclusion requirements. No comparative difficulty upgrade is established without a distinct legacy task.",
+  "public": {
+    "cg": {
+      "instruction": "Identify studies with participant-count or analysis-population corrections in European Archives of Psychiatry and Clinical Neuroscience, volume 276, issue 2. Report their corrected prior help-seeking and non-depressed counts, together with the population those counts describe.\n\nUse indexed issue membership observed on 12 September 2026: journal ISSN 0940-1334, indexed publication year 2026, volume 276, issue 2. This is an indexed-issue scope, not an online-publication-date cutoff.\n\n1. Enumerate the whole issue and inspect every record's title and publication types. A candidate notice has a correction or erratum publication type, or a title beginning Correction, Corrigendum, or Erratum, ignoring case.\n2. Read every candidate notice. Include a study if a candidate notice in this issue corrects a participant count or the definition of its analyzed population. Exclude notices confined to authorship or other changes that do not meet this condition.\n3. Match each included notice to its original study. Establish the corrected counts and the original study's initial population, analyzed subset, and explicit analysis inclusion requirements.\n\nUse the correction notice for revised values and the original study for population meaning. Resolve the meaning of a group using its diagnostic definition, not merely a generic label such as outpatient. Combine notices about the same original DOI into one study row. If their relevant claims conflict and the sources do not resolve the conflict, report UNKNOWN for the affected field.",
+      "output_format": "Return only PSV with columns in this order:\noriginal_pmcid|original_doi|initial_n|analyzed_n|help_n|nondepressed_n|analysis_population\n\nReturn one row per included original study. Sort by original_doi, then original_pmcid, ascending as strings. If no studies qualify, return NONE.\n\nUse the original study's prefixed PMCID and DOI. Counts are exact numbers of people, without percentages or rounding. initial_n is the reported initial cohort total; retain dropouts if the source includes them in that total. analyzed_n is the subset used for the relevant analysis, not an inferred valid-response denominator for an individual question. help_n is the corrected count reporting prior professional psychiatric or psychological help, not admissions to psychiatric units or day clinics. nondepressed_n is the corrected count without depression under the original study's diagnostic definition. For help_n and nondepressed_n, use NA if no qualifying notice corrects that count. Report initial_n and analyzed_n even if those totals were not corrected. Use UNKNOWN for an applicable fact that cannot be resolved; do not omit the study.\n\nWrite analysis_population as three semicolon-separated components: window;assessment;questionnaires. For window use baseline for cross-sectional data at study inclusion, followup for follow-up data, or combined if both enter the analysis. For assessment give the diagnostic assessment's name whose completion was required. For questionnaires use returned if returning the assessment questionnaires was an inclusion requirement. Use none only for an explicitly absent requirement, and UNKNOWN for an unresolved component. This compact field describes inclusion in the analysis; it does not request other study methods."
+    },
+    "go": {
+      "instruction": "Identify studies with participant-count or analysis-population corrections in European Archives of Psychiatry and Clinical Neuroscience, volume 276, issue 2. Report their corrected prior help-seeking and non-depressed counts, together with the population those counts describe.\n\nUse indexed issue membership observed on 12 September 2026: journal ISSN 0940-1334, indexed publication year 2026, volume 276, issue 2. This is an indexed-issue scope, not an online-publication-date cutoff.\n\nCoverage must include every record's title and publication types and the full text of every candidate notice. A candidate notice has a correction or erratum publication type, or a title beginning Correction, Corrigendum, or Erratum, ignoring case. Include a study if a candidate notice in this issue corrects a participant count or the definition of its analyzed population. Exclude notices confined to authorship or other changes that do not meet this condition.\n\nFor each included study, establish the corrected counts and the original study's initial population, analyzed subset, and explicit analysis inclusion requirements. Use the correction notice for revised values and the original study for population meaning. Resolve the meaning of a group using its diagnostic definition, not merely a generic label such as outpatient. Combine notices about the same original DOI into one study row. If their relevant claims conflict and the sources do not resolve the conflict, report UNKNOWN for the affected field.",
+      "output_format": "Return only PSV with columns in this order:\noriginal_pmcid|original_doi|initial_n|analyzed_n|help_n|nondepressed_n|analysis_population\n\nReturn one row per included original study. Sort by original_doi, then original_pmcid, ascending as strings. If no studies qualify, return NONE.\n\nUse the original study's prefixed PMCID and DOI. Counts are exact numbers of people, without percentages or rounding. initial_n is the reported initial cohort total; retain dropouts if the source includes them in that total. analyzed_n is the subset used for the relevant analysis, not an inferred valid-response denominator for an individual question. help_n is the corrected count reporting prior professional psychiatric or psychological help, not admissions to psychiatric units or day clinics. nondepressed_n is the corrected count without depression under the original study's diagnostic definition. For help_n and nondepressed_n, use NA if no qualifying notice corrects that count. Report initial_n and analyzed_n even if those totals were not corrected. Use UNKNOWN for an applicable fact that cannot be resolved; do not omit the study.\n\nWrite analysis_population as three semicolon-separated components: window;assessment;questionnaires. For window use baseline for cross-sectional data at study inclusion, followup for follow-up data, or combined if both enter the analysis. For assessment give the diagnostic assessment's name whose completion was required. For questionnaires use returned if returning the assessment questionnaires was an inclusion requirement. Use none only for an explicitly absent requirement, and UNKNOWN for an unresolved component. This compact field describes inclusion in the analysis; it does not request other study methods."
+    }
+  },
+  "private": {
+    "source_version": "Live indexed-issue observation on 2026-09-12; fresh required responses obtained 05:28:00–05:28:13 UTC. Run current_date 2026-09-09 is not an evidence cutoff. No reconstructed historical article version is claimed.",
+    "start_urls": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ISSN%3A0940-1334%20AND%20PUB_YEAR%3A2026&format=json&resultType=lite&pageSize=1000"
+    ],
+    "candidate_scope": "All 360 records in the complete annual response; locally select journalVolume=276 and issue=2, yielding 47 issue records. Inspect every issue record's metadata; the notice predicate yields two candidate notices, both inspected in full. One corrected original study qualifies.",
+    "predicates": [
+      "P1: Membership is Europe PMC ISSN 0940-1334, indexed year 2026, volume 276, issue 2 at the actual 2026-09-12 observation.",
+      "P2: Enumerate the whole issue and inspect every record; candidate notices have a correction/erratum type or Correction/Corrigendum/Erratum title prefix, case-insensitively.",
+      "P3: Inspect every candidate notice; include participant-count or analyzed-population-definition corrections; exclude author-only and other nonqualifying changes.",
+      "P4: Join correction and original identity; use revised notice values and original population semantics.",
+      "P5: Report original PMCID and DOI, initial cohort, analysis subset, corrected prior-help count, corrected non-depressed count, and compact analysis inclusion definition.",
+      "P6: Keep initial cohort including source-included dropouts distinct from analyzed subset; do not infer item-response denominators.",
+      "P7: Prior professional psychiatric/psychological help differs from admissions; non-depressed group follows the original diagnostic definition.",
+      "P8: Consolidate by original DOI; unresolved conflicting fields are UNKNOWN.",
+      "P9: Counts are exact people, no percentage reconstruction or rounding; uncorrected requested counts are NA, unresolved applicable facts UNKNOWN.",
+      "P10: Population coding is window;required completed assessment;questionnaire-return requirement, using the public vocabulary.",
+      "P11: One row per original study; ascending DOI then PMCID; NONE only for an empty qualifying set."
+    ],
+    "output_columns": [
+      "original_pmcid",
+      "original_doi",
+      "initial_n",
+      "analyzed_n",
+      "help_n",
+      "nondepressed_n",
+      "analysis_population"
+    ],
+    "row_key": [
+      "original_pmcid",
+      "original_doi"
+    ],
+    "sorting_rules": [
+      "Ascending original_doi, then original_pmcid, as strings; retain all qualifying studies without ranking or thresholds."
+    ],
+    "missing_value_rules": [
+      "NA for a requested count that is not corrected by the notice.",
+      "UNKNOWN for an unresolved applicable value or population component; never silently drop its study.",
+      "Conflicting relevant notices for one original DOI require UNKNOWN in unresolved fields.",
+      "NONE only when no study qualifies."
+    ],
+    "source_manifest_path": "source_manifest.json",
+    "state_graph_path": "state_graph.json",
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "not_run",
+    "difficulty": "screened",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "reference_report.md",
+      "design_rationale.md",
+      "preblind_checks.json",
+      "pair_alignment.json",
+      "preblind_review.json",
+      "rebuilt/execution_report.json",
+      "development_decision.json"
+    ]
+  }
+}

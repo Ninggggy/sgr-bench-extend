@@ -1,0 +1,5 @@
+{
+  "raw_dir": "construction_pipeline/ten_task_phase/runs/r-resume-bart-family/downloaded_data",
+  "constructor_run": "construction_pipeline/ten_task_phase/runs/r-resume-bart-family",
+  "full_web_responses": "construction_pipeline/ten_task_phase/runs/r-resume-bart-family/sessions"
+}

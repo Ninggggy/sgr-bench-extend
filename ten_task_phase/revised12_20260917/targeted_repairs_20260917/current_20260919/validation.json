@@ -1,0 +1,20 @@
+{
+  "offline_configuration": "passed",
+  "inherited_sessions": {
+    "blind": 4,
+    "audit": 4
+  },
+  "new_sessions": 0,
+  "data_mcp_exposed": false,
+  "ordinary_page_fetch": "configured_native_web",
+  "browser_plugin_in_isolated_runner": false,
+  "blind_browser_plugin_required": false,
+  "live_runtime_verified": false,
+  "retrieval_compliance": "requires_per_trial_trace_review",
+  "tests": {
+    "configuration_runtime_models_registration_and_summary": 51,
+    "scoring": 11,
+    "total_passed": 62
+  },
+  "model_trials_started": 0
+}

@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-09-11T17:03:29.882746+00:00",
+  "scope": "account_shared_not_project_cost",
+  "limit_id": "codex",
+  "used_percent": 71,
+  "remaining_percent": 29,
+  "window_duration_mins": 10080,
+  "resets_at": 1789441352,
+  "rate_limit_reached": false,
+  "reset_redeemed": false,
+  "note": "No quota conversion from tokens; no reset authorized or applied."
+}

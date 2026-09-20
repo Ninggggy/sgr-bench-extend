@@ -1,0 +1,134 @@
+{
+  "candidate_id": "iana_dtls_001",
+  "revision": "r03 unchanged; no r04",
+  "status": "reference_content_ready_pending_independent_semantic_review",
+  "started_at_utc": "2026-09-13T01:52:17+00:00",
+  "ended_at_utc": "2026-09-13T02:01:26.572584+00:00",
+  "elapsed_seconds": 549.57,
+  "limit_seconds": 1200,
+  "complete_observation": {
+    "registry_record_count": 103,
+    "in_scope": [
+      {
+        "record_index": 54,
+        "value": "53",
+        "name": "connection_id (deprecated)",
+        "dtls-only": "Y",
+        "references": [
+          {
+            "type": "rfc",
+            "data": "rfc9146"
+          },
+          {
+            "type": "rfc",
+            "data": "rfc9847"
+          }
+        ],
+        "included": true,
+        "reason": "individual numeric, DTLS-only Y, deprecated name"
+      }
+    ],
+    "history_event_count": 170,
+    "date_min": "2017-12-27",
+    "date_max": "2024-01-26",
+    "categories": {
+      "other_event": 153,
+      "iana_administrative_state": 11,
+      "other_comment_with_iana_or_53": 5,
+      "substantive_iana_review_candidate": 1
+    },
+    "has_pagination_marker": false,
+    "history_first_event": "history-967196",
+    "history_last_event": "history-579122",
+    "coverage_limit": "Complete returned official draft-family History HTML, including expanded full comment bodies; no assertion of all unrecorded/off-page correspondence."
+  },
+  "unique_latest_review": {
+    "event_id": "history-800636",
+    "html_line": 1724,
+    "date": "2021-03-26",
+    "draft": "draft-ietf-tls-dtls-connection-id-10",
+    "proposed_value": "53",
+    "replacement": "54",
+    "qualified_count": 1,
+    "scope": "Complete displayed official specification draft-family History, not all possible correspondence",
+    "later_state_counterexample": "history-803525 2021-04-16 IANA OK has no proposed value and is excluded"
+  },
+  "reference": "suggested_reference.psv",
+  "recompute": "recompute.py",
+  "semantic_annotations": "semantic_review.json",
+  "read_all_extracted_action_bodies": true,
+  "reading_method": {
+    "total_actions": 170,
+    "full_action_in_index_max180chars": 158,
+    "long_full_bodies_read_separately": 12,
+    "independent_review": false,
+    "not_claimed": "Human expert audit; exhaustive protocol-formula correctness; off-page correspondence coverage"
+  },
+  "content_gaps": [],
+  "draft11_required": false,
+  "draft11_reason": "All five fields derive from registry, final RFC9146 and review event, not draft11 formulas or IANA text.",
+  "interoperability_identity_still_unknown": true,
+  "strict_sgr": {
+    "status": "concrete_state_dependency_witness_pending_independent_review",
+    "dependency": "Registry identity/specification discovery selects draft family and official History view, exposing dated proposal not in current RFC inputs.",
+    "ordinary_link_traversal_is_sufficient_proof": false,
+    "result_driven_batch_allowed": true,
+    "actual_fixed_full_material_counterexample_found": false,
+    "all_shortcuts_ruled_out": false,
+    "difficulty_below70": "unknown; no model tests"
+  },
+  "website_disclosure": {
+    "method_location": "chinese_1st_ver/latex/sections/3_Method.tex:12",
+    "old_draft": "Explicit IANA operator name can reveal an ecosystem site; no URL is not sufficient compliance.",
+    "proposal": "Retain exact protocol scope and responsible-registry-operator role; omit website and organization brand, leave website identification to solver.",
+    "status": "conditional wording pending independent semantic judgement; not marked passed"
+  },
+  "natural_goal_repair": "Select latest substantive explicit ExtensionType proposal, regardless of equality with deprecated value; historical prior draft retained.",
+  "same_natural_need": "DTLS implementation registration planning, substantive shift from r03 maturity reporting; not proof of legacy protocol definitions.",
+  "revision_budget": {
+    "used_before": 1,
+    "used_after": 1,
+    "remaining": 1,
+    "r04_created": false
+  },
+  "costs": {
+    "actual": {
+      "model_sessions": 1,
+      "model": "Astra/high authorized inherited",
+      "public_requests": 1,
+      "request_budget": 6,
+      "public_request_log": "requests.json",
+      "source_access_seconds": 1.982408,
+      "model_tests": 0,
+      "subagents": 0,
+      "formal_candidate_changes": 0,
+      "tokens": "unknown",
+      "money": "unknown",
+      "known_tool_calls_note": "clock and local exec used; complete per-tool count across pre-compaction segment not independently instrumented, unknown."
+    },
+    "remaining_new_evidence": {
+      "requests_for_current_five_fields": 0,
+      "if_new_gap_found": "re-estimate; no scan authorized"
+    },
+    "paired_reference_and_semantics": {
+      "model_sessions_min": 1,
+      "model": "Astra/high",
+      "wall_seconds": "unknown",
+      "tokens": "unknown",
+      "program": "local reference recomputation under one second in observed runs"
+    },
+    "full_new_version_validation": {
+      "development_A": 2,
+      "development_B": 2,
+      "attack": 2,
+      "independent_final_audit": 1,
+      "formal": 6,
+      "total_model_sessions": 13,
+      "old_fullscore_A_credit": 0,
+      "executed": false,
+      "wall_seconds": "unknown",
+      "tokens": "unknown"
+    }
+  },
+  "decision": "Deliver executable suggested reference and conditional paired draft for independent content/method review. No admission, difficulty pass or r04 consumption."
+}

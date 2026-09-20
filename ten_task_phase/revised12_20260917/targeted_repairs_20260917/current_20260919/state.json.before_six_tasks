@@ -1,0 +1,31 @@
+{
+  "status": "configuration_updated_research_not_started",
+  "goal_completed": false,
+  "qualified_tasks": 0,
+  "review_sessions_used": 4,
+  "blind_sessions_used": 4,
+  "review_sessions_remaining": 11,
+  "blind_sessions_remaining": 26,
+  "construction_requests_recorded": 351,
+  "versions_used": {
+    "waterquality_003": 1,
+    "wateroffice_002": 1,
+    "reptile_001": 0,
+    "genome_002": 0,
+    "kegg_initial_cdx_001": 0
+  },
+  "max_directions_per_task": null,
+  "construction_request_limit": null,
+  "blind_request_limit": null,
+  "external_request_concurrency_limit": null,
+  "previous_state": "../browser_plugin_20260918/continuation_08.json",
+  "previous_stops": "Old direction/request-budget stops are historical, not active restrictions. Evidence gaps and prior scores remain.",
+  "browser_reproducibility_required": true,
+  "browser_plugin_in_isolated_runner": false,
+  "ordinary_webfetch_configured": true,
+  "live_runtime_verified": false,
+  "cancelled_resource": "https://www.ugra.org/assets/pdfs/2021BasinHighlightsReport_FINAL.pdf",
+  "next_work": "Continue substantive evidence, construction-side browser reproduction and reference preparation. Blind trials use isolated public_web; browser plugin integration is not required. No new trials started.",
+  "blind_browser_plugin_required": false,
+  "browser_reproducibility_scope": "construction_and_public_path_validation_only"
+}

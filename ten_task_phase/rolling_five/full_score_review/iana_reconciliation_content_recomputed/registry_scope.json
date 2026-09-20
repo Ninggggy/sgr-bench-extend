@@ -1,0 +1,1413 @@
+[
+  {
+    "record_index": 1,
+    "value": "0",
+    "name": "server_name",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc6066"
+      },
+      {
+        "type": "rfc",
+        "data": "rfc9261"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 2,
+    "value": "1",
+    "name": "max_fragment_length",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc6066"
+      },
+      {
+        "type": "rfc",
+        "data": "rfc8449"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 3,
+    "value": "2",
+    "name": "client_certificate_url",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc6066"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 4,
+    "value": "3",
+    "name": "trusted_ca_keys",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc6066"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 5,
+    "value": "4",
+    "name": "truncated_hmac",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc6066"
+      },
+      {
+        "type": "uri",
+        "data": "https://datatracker.ietf.org/doc/minutes-interim-2018-iesg-16-201808161400/"
+      },
+      {
+        "type": "rfc",
+        "data": "rfc9847"
+      },
+      {
+        "type": "uri",
+        "data": "https://www.iacr.org/archive/asiacrypt2011/70730368/70730368.pdf"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 6,
+    "value": "5",
+    "name": "status_request",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc6066"
+      },
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 7,
+    "value": "6",
+    "name": "user_mapping",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc4681"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 8,
+    "value": "7",
+    "name": "client_authz",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc5878"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 9,
+    "value": "8",
+    "name": "server_authz",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc5878"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 10,
+    "value": "9",
+    "name": "cert_type",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc6091"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 11,
+    "value": "10",
+    "name": "supported_groups (renamed from \"elliptic_curves\")",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8422"
+      },
+      {
+        "type": "rfc",
+        "data": "rfc7919"
+      },
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 12,
+    "value": "11",
+    "name": "ec_point_formats",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8422"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 13,
+    "value": "12",
+    "name": "srp",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc5054"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 14,
+    "value": "13",
+    "name": "signature_algorithms",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 15,
+    "value": "14",
+    "name": "use_srtp",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc5764"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 16,
+    "value": "15",
+    "name": "heartbeat",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc6520"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 17,
+    "value": "16",
+    "name": "application_layer_protocol_negotiation",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc7301"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 18,
+    "value": "17",
+    "name": "status_request_v2",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc6961"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 19,
+    "value": "18",
+    "name": "signed_certificate_timestamp",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc6962"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 20,
+    "value": "19",
+    "name": "client_certificate_type",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc7250"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 21,
+    "value": "20",
+    "name": "server_certificate_type",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc7250"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 22,
+    "value": "21",
+    "name": "padding",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc7685"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 23,
+    "value": "22",
+    "name": "encrypt_then_mac",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc7366"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 24,
+    "value": "23",
+    "name": "extended_main_secret",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc7627"
+      },
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 25,
+    "value": "24",
+    "name": "token_binding",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8472"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 26,
+    "value": "25",
+    "name": "cached_info",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc7924"
+      },
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 27,
+    "value": "26",
+    "name": "tls_lts",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "draft",
+        "data": "draft-gutmann-tls-lts-11"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 28,
+    "value": "27",
+    "name": "compress_certificate",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8879"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 29,
+    "value": "28",
+    "name": "record_size_limit",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8449"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 30,
+    "value": "29",
+    "name": "pwd_protect",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8492"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 31,
+    "value": "30",
+    "name": "pwd_clear",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8492"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 32,
+    "value": "31",
+    "name": "password_salt",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8492"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 33,
+    "value": "32",
+    "name": "ticket_pinning",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8672"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 34,
+    "value": "33",
+    "name": "tls_cert_with_extern_psk",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9973"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 35,
+    "value": "34",
+    "name": "delegated_credential",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9345"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 36,
+    "value": "35",
+    "name": "session_ticket (renamed from \"SessionTicket TLS\")",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc5077"
+      },
+      {
+        "type": "rfc",
+        "data": "rfc8447"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 37,
+    "value": "36",
+    "name": "TLMSP",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "uri",
+        "data": "https://docbox.etsi.org/CYBER/CYBER/Open/Latest_Drafts/CYBER-0027-2v020-TLMSP-Transport-Layer-Middlebox-Security-Protocol.pdf"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 38,
+    "value": "37",
+    "name": "TLMSP_proxying",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "uri",
+        "data": "https://docbox.etsi.org/CYBER/CYBER/Open/Latest_Drafts/CYBER-0027-2v020-TLMSP-Transport-Layer-Middlebox-Security-Protocol.pdf"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 39,
+    "value": "38",
+    "name": "TLMSP_delegate",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "uri",
+        "data": "https://docbox.etsi.org/CYBER/CYBER/Open/Latest_Drafts/CYBER-0027-2v020-TLMSP-Transport-Layer-Middlebox-Security-Protocol.pdf"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 40,
+    "value": "39",
+    "name": "supported_ekt_ciphers",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8870"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 41,
+    "value": "40",
+    "name": "Reserved",
+    "dtls-only": "",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9847"
+      },
+      {
+        "type": "uri",
+        "data": "https://mailarchive.ietf.org/arch/msg/tls-reg-review/5BD62HBFjo_AsW-Y8ohVuWEe1gI/"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 42,
+    "value": "41",
+    "name": "pre_shared_key",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 43,
+    "value": "42",
+    "name": "early_data",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 44,
+    "value": "43",
+    "name": "supported_versions",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 45,
+    "value": "44",
+    "name": "cookie",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 46,
+    "value": "45",
+    "name": "psk_key_exchange_modes",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 47,
+    "value": "46",
+    "name": "Reserved",
+    "dtls-only": "",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9847"
+      },
+      {
+        "type": "uri",
+        "data": "https://mailarchive.ietf.org/arch/msg/tls-reg-review/5BD62HBFjo_AsW-Y8ohVuWEe1gI/"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 48,
+    "value": "47",
+    "name": "certificate_authorities",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 49,
+    "value": "48",
+    "name": "oid_filters",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 50,
+    "value": "49",
+    "name": "post_handshake_auth",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 51,
+    "value": "50",
+    "name": "signature_algorithms_cert",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 52,
+    "value": "51",
+    "name": "key_share",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      },
+      {
+        "type": "rfc-errata",
+        "data": "5483"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 53,
+    "value": "52",
+    "name": "transparency_info",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9162"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 54,
+    "value": "53",
+    "name": "connection_id (deprecated)",
+    "dtls-only": "Y",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9146"
+      },
+      {
+        "type": "rfc",
+        "data": "rfc9847"
+      }
+    ],
+    "included": true,
+    "reason": "individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 55,
+    "value": "54",
+    "name": "connection_id",
+    "dtls-only": "Y",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9146"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: deprecated name"
+  },
+  {
+    "record_index": 56,
+    "value": "55",
+    "name": "external_id_hash",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8844"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 57,
+    "value": "56",
+    "name": "external_session_id",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8844"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 58,
+    "value": "57",
+    "name": "quic_transport_parameters",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9001"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 59,
+    "value": "58",
+    "name": "ticket_request",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9149"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 60,
+    "value": "59",
+    "name": "dnssec_chain",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9102"
+      },
+      {
+        "type": "rfc-errata",
+        "data": "6860"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 61,
+    "value": "60",
+    "name": "sequence_number_encryption_algorithms",
+    "dtls-only": "Y",
+    "references": [
+      {
+        "type": "draft",
+        "data": "draft-pismenny-tls-dtls-plaintext-sequence-number-01"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: deprecated name"
+  },
+  {
+    "record_index": 62,
+    "value": "61",
+    "name": "rrc",
+    "dtls-only": "Y",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9853"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: deprecated name"
+  },
+  {
+    "record_index": 63,
+    "value": "62",
+    "name": "tls_flags",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "draft",
+        "data": "draft-ietf-tls-tlsflags-14"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 64,
+    "value": "63-2569",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 65,
+    "value": "2570",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 66,
+    "value": "2571-6681",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 67,
+    "value": "6682",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 68,
+    "value": "6683-10793",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 69,
+    "value": "10794",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 70,
+    "value": "10795-14905",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 71,
+    "value": "14906",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 72,
+    "value": "14907-19017",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 73,
+    "value": "19018",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 74,
+    "value": "19019-23129",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 75,
+    "value": "23130",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 76,
+    "value": "23131-27241",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 77,
+    "value": "27242",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 78,
+    "value": "27243-31353",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 79,
+    "value": "31354",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 80,
+    "value": "31355-35465",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 81,
+    "value": "35466",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 82,
+    "value": "35467-39577",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 83,
+    "value": "39578",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 84,
+    "value": "39579-43689",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 85,
+    "value": "43690",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 86,
+    "value": "43691-47801",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 87,
+    "value": "47802",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 88,
+    "value": "47803-51913",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 89,
+    "value": "51914",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 90,
+    "value": "51915-56025",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 91,
+    "value": "56026",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 92,
+    "value": "56027-60137",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 93,
+    "value": "60138",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 94,
+    "value": "60139-64249",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 95,
+    "value": "64250",
+    "name": "Reserved",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc8701"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 96,
+    "value": "64251-64767",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 97,
+    "value": "64768",
+    "name": "ech_outer_extensions",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9849"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 98,
+    "value": "64769-65036",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 99,
+    "value": "65037",
+    "name": "encrypted_client_hello",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9849"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 100,
+    "value": "65038-65279",
+    "name": "Unassigned",
+    "dtls-only": "",
+    "references": [],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 101,
+    "value": "65280",
+    "name": "Reserved for Private Use",
+    "dtls-only": "",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 102,
+    "value": "65281",
+    "name": "renegotiation_info",
+    "dtls-only": "N",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc5746"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: DTLS-only Y, deprecated name"
+  },
+  {
+    "record_index": 103,
+    "value": "65282-65535",
+    "name": "Reserved for Private Use",
+    "dtls-only": "",
+    "references": [
+      {
+        "type": "rfc",
+        "data": "rfc9846"
+      }
+    ],
+    "included": false,
+    "reason": "outside conjunction: individual numeric, DTLS-only Y, deprecated name"
+  }
+]

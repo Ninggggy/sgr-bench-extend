@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-09-13T08:26:03.740758+00:00",
+  "new_nonblind": {
+    "model": "gpt-6-astra",
+    "effort": "medium"
+  },
+  "blind": {
+    "model": "gpt-5.6-sol",
+    "effort": "medium"
+  },
+  "tests": {
+    "test_model_config.py": 12,
+    "test_admission.py": 19,
+    "test_runtime.py": 13
+  },
+  "all_passed": true,
+  "registered_blind_config_exact_match": true,
+  "registered_scorer_exact_match": true,
+  "registered_data_tools_exact_match": true,
+  "historical_high_evidence_retained": true,
+  "admission_audit_effort_uses_registered_change_time": true,
+  "scope": "Offline behavioral/configuration checks; no new blind model invocation."
+}

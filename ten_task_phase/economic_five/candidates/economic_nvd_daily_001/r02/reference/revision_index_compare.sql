@@ -1,0 +1,1 @@
+SELECT count(*) AS modified_records,sum(CASE WHEN m.matchCriteriaId IS NOT NULL THEN 1 ELSE 0 END) AS relevant_modified_records FROM d LEFT JOIN (SELECT DISTINCT matchCriteriaId FROM m) m ON json_extract(d.matchString,'$.matchCriteriaId')=m.matchCriteriaId;

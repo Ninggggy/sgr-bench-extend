@@ -1,0 +1,27 @@
+[
+  {
+    "file": "registry.xml",
+    "original_local": "../../candidates/iana_dtls_001/sources/registry.xml",
+    "url": "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xml",
+    "retrieval": "reused original full observed registry; no request this unit",
+    "locator": "table tls-extensiontype-values-1, record54, lines514-522"
+  },
+  {
+    "file": "rfc9146.txt",
+    "url": "https://www.rfc-editor.org/rfc/rfc9146.txt",
+    "retrieval": "reused original local source",
+    "locator": "lines573-580; header12"
+  },
+  {
+    "file": "rfc9847.txt",
+    "url": "https://www.rfc-editor.org/rfc/rfc9847.txt",
+    "retrieval": "reused original local source",
+    "locator": "section4 lines157-188"
+  },
+  {
+    "file": "history.html",
+    "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+    "retrieval": "requests.json request1; complete151447-byte response",
+    "locator": "event table1058-2587; substantive review1724-1730"
+  }
+]

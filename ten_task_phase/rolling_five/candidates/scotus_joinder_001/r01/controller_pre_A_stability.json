@@ -1,0 +1,7 @@
+{
+  "full58_record_inventory_equal": true,
+  "all9_reference_fields_equal": true,
+  "source_capture": "../sources_pre_A/controller_downloads.json",
+  "execution": "pre_A_rebuild/execution_checks.json",
+  "status": "passed"
+}

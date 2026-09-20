@@ -1,0 +1,65 @@
+{
+  "registered_at": "2026-09-17T04:05:35.203146+00:00",
+  "deadline": "2026-09-19T04:05:35.203146+00:00",
+  "campaign": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/campaign.json",
+  "ledger": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/session_ledger.jsonl",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "role": "blind",
+  "purpose": "comparison",
+  "trials_per_variant": 1,
+  "workers": 3,
+  "selection": "All and only candidates with completed preflight; not selected using this batch scores. No retries or added sampling.",
+  "stage_change": "Removed obsolete unrestricted bulk permission; task citations use separate evidence field. Current v2 numeric limits, image, tools and shared scoring algorithm unchanged.",
+  "formal_admission": false,
+  "jobs": [
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/europemc_reuse_deposit_001/CG.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/europemc_reuse_deposit_001/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/europemc_reuse_deposit_001/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/runs/europemc_reuse_deposit_001-polish01-cg-once",
+      "label": "europemc_reuse_deposit_001-polish01-cg-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/europemc_reuse_deposit_001/CG.job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/europemc_reuse_deposit_001/GO.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/europemc_reuse_deposit_001/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/europemc_reuse_deposit_001/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/runs/europemc_reuse_deposit_001-polish01-go-once",
+      "label": "europemc_reuse_deposit_001-polish01-go-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/europemc_reuse_deposit_001/GO.job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/stap_replication_protocol_001/CG.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/stap_replication_protocol_001/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/stap_replication_protocol_001/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/runs/stap_replication_protocol_001-polish01-cg-once",
+      "label": "stap_replication_protocol_001-polish01-cg-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/stap_replication_protocol_001/CG.job.json"
+    },
+    {
+      "public": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/stap_replication_protocol_001/GO.json",
+      "gold": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/stap_replication_protocol_001/oracle.psv",
+      "rules": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/stap_replication_protocol_001/rules.json",
+      "stage": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blind.md",
+      "out": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/runs/stap_replication_protocol_001-polish01-go-once",
+      "label": "stap_replication_protocol_001-polish01-go-once",
+      "job_metadata": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/candidates/stap_replication_protocol_001/GO.job.json"
+    }
+  ],
+  "blocked": [
+    "arxiv_historical_title_001",
+    "arxiv_historical_title_002",
+    "economic_kegg_ddi_001",
+    "economic_nvd_daily_001",
+    "genome_002",
+    "kegg_initial_cdx_001",
+    "nvd_initial_assessment_001",
+    "reptile_001",
+    "wateroffice_002",
+    "waterquality_003"
+  ]
+}

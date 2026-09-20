@@ -1,0 +1,101 @@
+{
+  "status": "deterministic_explicit",
+  "columns": [
+    "withdrawn_OrganizationIdentifier",
+    "withdrawn_ActivityIdentifier",
+    "withdrawn_MonitoringLocationIdentifier",
+    "withdrawn_ActivityStartDate",
+    "start_year",
+    "end_year",
+    "cohort_station_count",
+    "cohort_station_ids",
+    "quarter",
+    "eligible_activity_count",
+    "selected_OrganizationIdentifier",
+    "selected_MonitoringLocationIdentifier",
+    "selected_ActivityIdentifier",
+    "selected_ActivityStartDate",
+    "dissolved_oxygen_mg_L",
+    "temperature_deg_C",
+    "specific_conductance_uS_cm",
+    "pH"
+  ],
+  "row_key": [
+    "withdrawn_OrganizationIdentifier",
+    "withdrawn_ActivityIdentifier",
+    "start_year",
+    "end_year"
+  ],
+  "fields": {
+    "eligible_activity_count": {
+      "type": "integer"
+    },
+    "dissolved_oxygen_mg_L": {
+      "type": "decimal",
+      "units": {
+        "mg/L": {},
+        "mg/l": {},
+        "ug/L": {
+          "scale_den": 1000
+        },
+        "µg/L": {
+          "scale_den": 1000
+        }
+      }
+    },
+    "temperature_deg_C": {
+      "type": "decimal",
+      "units": {
+        "deg C": {},
+        "°C": {},
+        "deg F": {
+          "offset": 32,
+          "scale_num": 5,
+          "scale_den": 9
+        },
+        "°F": {
+          "offset": 32,
+          "scale_num": 5,
+          "scale_den": 9
+        }
+      }
+    },
+    "specific_conductance_uS_cm": {
+      "type": "decimal",
+      "units": {
+        "uS/cm": {},
+        "µS/cm": {},
+        "uS/cm @25C": {},
+        "umho/cm": {},
+        "mS/cm": {
+          "scale_num": 1000
+        }
+      }
+    },
+    "pH": {
+      "type": "decimal",
+      "units": {
+        "std units": {},
+        "SU": {}
+      }
+    },
+    "start_year": {
+      "type": "integer"
+    },
+    "end_year": {
+      "type": "integer"
+    },
+    "cohort_station_count": {
+      "type": "integer"
+    },
+    "cohort_station_ids": {
+      "type": "id_list",
+      "semantics": "Compare the membership set; semicolon/comma/whitespace separators and member order are presentation equivalents. Preserve individual identifiers. Repeated identical members do not add membership."
+    }
+  },
+  "precision": "Round source computations HALF_UP to 2dp; compare predicted decimals exactly without further rounding or tolerance. Equivalent trailing zeros/explicit equivalent units allowed.",
+  "duplicates": "First occurrence eligible for credit; all duplicate rows count in denominator, no extra reward.",
+  "sorting": "withdrawn activity ID, start year, end year; P.O.A. on complete scenario/interval identities; fewer2common=>0",
+  "missing": "Blank/absent output values incorrect; missing rows penalized; NONE parsed as empty; nonempty unparsable unscored and reported.",
+  "sentinels": "Declared empty-post-frontier sentinel is meaningful missing data; NONE/NA exactly as public task. Actual source recomputation determines whether any exists."
+}

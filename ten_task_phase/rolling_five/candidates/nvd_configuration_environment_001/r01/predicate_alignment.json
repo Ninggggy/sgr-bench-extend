@@ -1,0 +1,13 @@
+{
+  "shared_text_exact": true,
+  "shared_output_exact": true,
+  "conditions": [
+    "same CVE and complete configuration scope",
+    "registered names rather than interval interpolation",
+    "hardware and firmware joint applicability",
+    "same grouping and CPE product/version/update tokens",
+    "same wildcard/missing semantics",
+    "same ordering and output format"
+  ],
+  "CG_only_guidance": "UUID query order and explicit vulnerable=false interpretation; GO retains the identical required complete applicable asset combinations."
+}

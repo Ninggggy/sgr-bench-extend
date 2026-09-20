@@ -1,0 +1,289 @@
+{
+  "checked_at_utc": "2026-09-13T05:41:15.851602+00:00",
+  "scope": "Constructor deterministic verification only; no model or independent/human content review",
+  "full_candidate_schema": "passed",
+  "public_pair": {
+    "exact_two_keys": true,
+    "candidate_pair_equal": true,
+    "same_output_format": true,
+    "literal_predicates": 7,
+    "CG_minus_steps_equals_GO": true,
+    "no_website_or_answer_identifiers": true,
+    "source_descriptor_reused": "release37issuedMay2026",
+    "runtime_date": "2026-09-09"
+  },
+  "reference": {
+    "initial_refresh_oracle_equal": true,
+    "every_in_scope_row_has_evidence_and_reason": true,
+    "activity_rows": 130,
+    "answer_rows": 11,
+    "uncurated_individual_reviews": 30,
+    "raw_value_upper_fields_inspected": true,
+    "no_final_count_literals_in_algorithm": "Counts computed from source-derived categories; description interpretations remain explicit reviewed annotations, not an independent human claim."
+  },
+  "semantic_parser_boundaries": {
+    "foreign_expression_host_not_target_origin": true,
+    "tissue_only_origin_not_promoted": true,
+    "unknown_origin_retained": true,
+    "beta2_or3_not_resolved": true,
+    "chimera_not_coexisting_alpha_set": true
+  },
+  "scorer_compatibility": {
+    "entry_point": "construction_pipeline/ten_task_phase/runtime/score.py",
+    "unchanged": true,
+    "all_columns_including_ITEM_scored": true,
+    "controller_withdrew_FINDING_only_requirement": true,
+    "finite_identity_aliases_checked_without_biological_number_equivalence": true,
+    "fixtures": {
+      "full_reference": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 22,
+          "gold_fields": 22,
+          "pred_fields": 22,
+          "item_denominator": 44,
+          "correct_rows": 11,
+          "gold_rows": 11,
+          "pred_rows": 11,
+          "row_denominator": 22,
+          "correct_pairs": 55,
+          "pair_denominator": 55,
+          "shared_ids": 11
+        }
+      },
+      "homologous_wrongly_direct": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.9090909090909091,
+          "Row-F1": 0.8181818181818182,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 20,
+          "gold_fields": 22,
+          "pred_fields": 22,
+          "item_denominator": 44,
+          "correct_rows": 9,
+          "gold_rows": 11,
+          "pred_rows": 11,
+          "row_denominator": 22,
+          "correct_pairs": 55,
+          "pair_denominator": 55,
+          "shared_ids": 11
+        }
+      },
+      "group_wrongly_defined": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.9090909090909091,
+          "Row-F1": 0.8181818181818182,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 20,
+          "gold_fields": 22,
+          "pred_fields": 22,
+          "item_denominator": 44,
+          "correct_rows": 9,
+          "gold_rows": 11,
+          "pred_rows": 11,
+          "row_denominator": 22,
+          "correct_pairs": 55,
+          "pair_denominator": 55,
+          "shared_ids": 11
+        }
+      },
+      "four_direct_mutants_instead_of_six_all_scope": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.9545454545454546,
+          "Row-F1": 0.9090909090909091,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 21,
+          "gold_fields": 22,
+          "pred_fields": 22,
+          "item_denominator": 44,
+          "correct_rows": 10,
+          "gold_rows": 11,
+          "pred_rows": 11,
+          "row_denominator": 22,
+          "correct_pairs": 55,
+          "pair_denominator": 55,
+          "shared_ids": 11
+        }
+      },
+      "wrong_beta_identity": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.9545454545454546,
+          "Row-F1": 0.9090909090909091,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 21,
+          "gold_fields": 22,
+          "pred_fields": 22,
+          "item_denominator": 44,
+          "correct_rows": 10,
+          "gold_rows": 11,
+          "pred_rows": 11,
+          "row_denominator": 22,
+          "correct_pairs": 55,
+          "pair_denominator": 55,
+          "shared_ids": 11
+        }
+      },
+      "wrong_alpha_identity": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.9545454545454546,
+          "Row-F1": 0.9090909090909091,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 21,
+          "gold_fields": 22,
+          "pred_fields": 22,
+          "item_denominator": 44,
+          "correct_rows": 10,
+          "gold_rows": 11,
+          "pred_rows": 11,
+          "row_denominator": 22,
+          "correct_pairs": 55,
+          "pair_denominator": 55,
+          "shared_ids": 11
+        }
+      },
+      "wrong_species": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.9545454545454546,
+          "Row-F1": 0.9090909090909091,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 21,
+          "gold_fields": 22,
+          "pred_fields": 22,
+          "item_denominator": 44,
+          "correct_rows": 10,
+          "gold_rows": 11,
+          "pred_rows": 11,
+          "row_denominator": 22,
+          "correct_pairs": 55,
+          "pair_denominator": 55,
+          "shared_ids": 11
+        }
+      },
+      "common_aliases": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 22,
+          "gold_fields": 22,
+          "pred_fields": 22,
+          "item_denominator": 44,
+          "correct_rows": 11,
+          "gold_rows": 11,
+          "pred_rows": 11,
+          "row_denominator": 22,
+          "correct_pairs": 55,
+          "pair_denominator": 55,
+          "shared_ids": 11
+        }
+      },
+      "drop_conflict": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.9523809523809523,
+          "Row-F1": 0.9523809523809523,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 20,
+          "gold_fields": 22,
+          "pred_fields": 20,
+          "item_denominator": 42,
+          "correct_rows": 10,
+          "gold_rows": 11,
+          "pred_rows": 10,
+          "row_denominator": 21,
+          "correct_pairs": 45,
+          "pair_denominator": 45,
+          "shared_ids": 10
+        }
+      },
+      "reverse_order": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 0.0
+        },
+        "counts": {
+          "correct_fields": 22,
+          "gold_fields": 22,
+          "pred_fields": 22,
+          "item_denominator": 44,
+          "correct_rows": 11,
+          "gold_rows": 11,
+          "pred_rows": 11,
+          "row_denominator": 22,
+          "correct_pairs": 0,
+          "pair_denominator": 55,
+          "shared_ids": 11
+        }
+      },
+      "fixed_keys_only": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.42105263157894735,
+          "Row-F1": 0.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 8,
+          "gold_fields": 22,
+          "pred_fields": 16,
+          "item_denominator": 38,
+          "correct_rows": 0,
+          "gold_rows": 11,
+          "pred_rows": 8,
+          "row_denominator": 19,
+          "correct_pairs": 28,
+          "pair_denominator": 28,
+          "shared_ids": 8
+        }
+      }
+    },
+    "no_difficulty_inference": "These are deliberately altered reference fixtures, never model performance or A trials."
+  },
+  "prepare_validation": {
+    "command": [
+      "/Users/ning/.local/bin/python",
+      "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/scripts/prepare.py",
+      "validate-candidate",
+      "--candidate",
+      "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/diazepam_receptor_identity_001/r01/candidate.json",
+      "--check-files"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"candidate_id\": \"diazepam_receptor_identity_001\", \"status\": \"reference_ready\", \"state_consistency\": \"passed\", \"relative_path_syntax\": \"passed\", \"referenced_files\": \"checked\", \"scope\": \"Declared state consistency only; not full JSON Schema, source truth, or difficulty verification\"}\n",
+    "stderr": ""
+  },
+  "public_projection_exact_keys_and_runtime_date": "passed",
+  "model_tests": 0,
+  "human_validation": "not_performed",
+  "difficulty": "not_run"
+}

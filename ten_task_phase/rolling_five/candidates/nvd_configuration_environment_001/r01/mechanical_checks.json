@@ -1,0 +1,70 @@
+{
+  "status": "passed_same_author_mechanical_checks",
+  "independent_review": false,
+  "registered_pair_count": 90,
+  "firmware_names": 90,
+  "hardware_names": 19,
+  "alternative_algorithm": "Direct truth evaluation over the cross product of all enumerated hardware and firmware names, independent of DNF expansion code.",
+  "standalone_firmware_accepted": 0,
+  "counterfactuals": {
+    "drop_environment_standalone_accepted": 90,
+    "replace_AND_by_OR_pair_count": 1710,
+    "replace_firmware_OR_by_AND_lost_pairs": [
+      [
+        "cpe:2.3:h:zyxel:zywall_usg_100:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:zyxel:zywall_usg_100_firmware:4.60:*:*:*:*:*:*:*"
+      ],
+      [
+        "cpe:2.3:h:zyxel:zywall_usg_100:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:zyxel:zywall_usg_100_firmware:4.73:-:*:*:*:*:*:*"
+      ],
+      [
+        "cpe:2.3:h:zyxel:zywall_usg_310:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:zyxel:zywall_usg_310_firmware:4.60:*:*:*:*:*:*:*"
+      ],
+      [
+        "cpe:2.3:h:zyxel:zywall_usg_310:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:zyxel:zywall_usg_310_firmware:4.73:-:*:*:*:*:*:*"
+      ]
+    ]
+  },
+  "scorer": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runtime/score.py",
+  "scorer_fixtures": {
+    "exact": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "list_order_normalization": {
+      "Item-F1": 1.0,
+      "Row-F1": 1.0,
+      "P.O.A.": 1.0
+    },
+    "changed_update": {
+      "Item-F1": 0.9649122807017544,
+      "Row-F1": 0.8947368421052632,
+      "P.O.A.": 1.0
+    },
+    "omitted_row": {
+      "Item-F1": 0.972972972972973,
+      "Row-F1": 0.972972972972973,
+      "P.O.A.": 1.0
+    },
+    "duplicate_row": {
+      "Item-F1": 0.9743589743589743,
+      "Row-F1": 0.9743589743589743,
+      "P.O.A.": 1.0
+    },
+    "invented_release": {
+      "Item-F1": 0.9824561403508771,
+      "Row-F1": 0.9473684210526315,
+      "P.O.A.": 1.0
+    },
+    "swapped_hardware": {
+      "Item-F1": 0.9473684210526315,
+      "Row-F1": 0.9473684210526315,
+      "P.O.A.": 1.0
+    }
+  },
+  "note": "Fixture scores are software tests, never model scores or difficulty evidence."
+}

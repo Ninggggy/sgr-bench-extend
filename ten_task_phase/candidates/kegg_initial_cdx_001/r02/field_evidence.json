@@ -1,0 +1,50 @@
+{
+  "scope_fields": {
+    "drug": "d0023 Active ingredient column joined to d0028 ENTRY/NAME/ATC metadata. Quizartinib dihydrochloride is corroborated by the 2HCl formula; no free-base alias is introduced.",
+    "first_approval_selection": "d0023 FDA dates and preserved original scope audit; included dates agree with d0029 cap_pma and quiz_pma Decision Date fields.",
+    "original_indication": "d0029 original drug labels, including pirt_label correction; d0030 pirt_corrected_approval preserves the original effective date."
+  },
+  "rows": [
+    {
+      "row_key": ["Capivasertib", "AKT1"],
+      "biomarker": "d0029 cap_ssed Table 9 lines 690–692; cap_device_label Table 1 lines 81–90.",
+      "reference_transcript": "NM_001014431, Table 9 line 691; no accession version is stated.",
+      "named_substitutions": "E17K, Table 9 line 692; independently present in the physician-label intended-use row.",
+      "additional_classes": "NONE: the complete AKT1 Table 9 entry consists of its named SNV and introduces no additional open-ended class."
+    },
+    {
+      "row_key": ["Capivasertib", "PIK3CA"],
+      "biomarker": "d0029 cap_ssed Table 9 lines 693–698; cap_device_label Table 1 lines 82–90.",
+      "reference_transcript": "NM_006218, Table 9 line 694; no version is stated.",
+      "named_substitutions": "All 19 entries in Table 9 lines 695–698; same set independently extracted from the physician-label capivasertib row.",
+      "additional_classes": "NONE: this entry enumerates SNVs and supplies no additional eligible open-ended class.",
+      "adjacent_indication_distinction": "The preceding physician-label alpelisib row has an E545D nucleotide qualification. That neighboring restriction is not attached to the capivasertib row and must not be transferred to it."
+    },
+    {
+      "row_key": ["Capivasertib", "PTEN"],
+      "biomarker": "d0029 cap_ssed Table 9 lines 699–722.",
+      "reference_transcript": "NM_000314, Table 9 line 700. This cell refers to the named substitutions; it does not override the transcript-independent deletion and rearrangement clauses.",
+      "named_substitutions": "All 13 named substitutions in lines 701–703. The missing comma between R130G and C136Y does not merge the two separately recognizable identifiers.",
+      "additional_classes": {
+        "nonsense": "Line 704, specific open-ended short-variant class.",
+        "frameshift": "Line 704, specific open-ended short-variant class.",
+        "splice_site": "Line 704, specific open-ended short-variant class; underscores only serialize the source's two-word name.",
+        "homozygous_deletion": "Lines 709–713: specific eligible class within the copy-number heading.",
+        "rearrangement": "Lines 714–722: the source RE class, interpreted with its functional qualification."
+      },
+      "retained_qualification_summary": "The short-variant category explicitly includes start-codon missense changes and short deletions spanning from upstream across the start codon, annotated M1?. Homozygous deletion involves at least one exon on both alleles irrespective of transcript. Rearrangements must disrupt protein function irrespective of transcript; the source describes intragenic partial-gene duplications, deletions and inversions, and events joining a PTEN breakpoint to another gene or intergenic sequence.",
+      "projection_adjudication": "The start-codon inclusions and rearrangement examples remain subordinate to the source classes. They are not separate output classes. Copy Number Alteration is a broad parent heading; homozygous deletion is the specific eligible class requested by r02. M1? is an open-ended annotation, not an individually specified amino-acid replacement.",
+      "independent_support_limit": "d0021 independently confirms the Table 9 projection. The physician intended-use table says PTEN alterations without supplying this complete definition; its analytical examples are not an exhaustive eligibility list."
+    },
+    {
+      "row_key": ["Quizartinib dihydrochloride", "FLT3"],
+      "biomarker": "d0029 quiz_label sections 1 and 2.1; quiz_pma drug-specific FLT3-ITD+ AML clause.",
+      "reference_transcript": "NONE under the explicit r02 convention because the qualifying claim enumerates no named amino-acid substitutions; this does not assert that FLT3 lacks a reference transcript.",
+      "named_substitutions": "NONE: the applicable claim is an open-ended ITD class. The assay's D835/I836 TKD detection wording is not a VANFLYTA-specific substitution set.",
+      "additional_classes": "internal_tandem_duplication from the original drug label; abbreviation ITD is expressly expanded there and in quiz_pma.",
+      "retained_context": "Original adult newly diagnosed AML indication uses induction/consolidation combinations followed by maintenance after consolidation. The label excludes maintenance monotherapy following allogeneic HSCT. ITD positivity is the companion criterion; TKD detection alone is insufficient, without implying that an ITD-positive patient must lack every TKD co-alteration."
+    }
+  ],
+  "capivasertib_context": "Original indication is adult HR-positive/HER2-negative locally advanced or metastatic breast cancer with qualifying genomic alteration, with fulvestrant and the source's prior endocrine-treatment/recurrence conditions. Specimen evidence is tumor tissue; the diagnostic intended use specifies FFPE tissue DNA. These remain source context rather than exact-matched prose cells.",
+  "citation_scoring_limit": "The unchanged scorer does not establish whether narrative citations are correct. Citations identify the governing source definitions; they are not represented as machine-validated clinical prose."
+}

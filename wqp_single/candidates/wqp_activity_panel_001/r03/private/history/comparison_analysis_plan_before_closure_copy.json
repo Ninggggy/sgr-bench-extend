@@ -1,0 +1,79 @@
+{
+  "recorded_at": "2026-09-08T11:38:46.666263+00:00",
+  "candidate_id": "wqp_activity_panel_001",
+  "revision": 3,
+  "primary_old_task": "waterquality_004",
+  "auxiliary_old_task": null,
+  "selection_before_new_scores": true,
+  "rationale": "Both tasks select river-mainstem monitoring locations by joint historical measurement eligibility. Old004 outputs3 station rows×9fields=27; r01 outputs4 station-quarter rows×11fields=44 after sampling qualification. Old joins characteristic-group time envelopes, new joins coded measurements within organisation/activity and selects quarterly low-oxygen events. The source organization is USGS-TX after documented TCEQ metadata failure, so organization, grain and output-size differences remain comparison limitations; no claim that more fields implies harder. Primary control remains the one selected before any new scores.",
+  "screening": {
+    "runs_per_task_variant": 1,
+    "total": 4
+  },
+  "confirmation": {
+    "runs_per_task_variant": 3,
+    "total": 12,
+    "fresh_sessions": true,
+    "default_conclusion_ceiling": "inconclusive; three runs per form are a pilot, not sufficient for confirmed_harder"
+  },
+  "primary_metric": "Item-F1",
+  "secondary_metrics": [
+    "Row-F1",
+    "P.O.A.",
+    "whole_task_exact"
+  ],
+  "aggregation": "Average repeats within each variant then equal CG/GO weight; delta=new-old; no artificial pairing of repeats",
+  "uncertainty": "Fixed-pair independent within-variant bootstrap, 20000 draws seed 20260908; descriptive only. No task-population CI with one pair; zero-width interval not certainty.",
+  "decision": "Only pilot screened/inconclusive at this size. Report 5 percentage-point target and CI upper<0 descriptively; no confirmed_harder with pilot alone.",
+  "failures": "No score-dependent retries. Preserve environmental/access/parse failures separately; no fabricated zero. Report end-to-end and evaluable denominators, no ability conclusion if material access or oracle uncertainty.",
+  "stop": "Unresolved source/reference/semantic validity failures prevent dependent difficulty scoring; final factually valid version receives the unchanged fixed diagnostic comparison. Structural or hardness failure prevents successful candidate acceptance. Budget60sessions/24h,6000s/run,3000s stall. No further revision orcandidate.",
+  "date_policy": "Actual Asia/Shanghai evaluation date each run; record source retrieval times; no fictitious snapshots.",
+  "tools": "Codex CLI0.153.4 gpt-6-astra/high; native live web + bounded official HTTPS download/paged text/read-only SQLite; clean Docker no host mounts, read-only root and Codex sandbox; shell/apps/delegation disabled",
+  "scope_refinement_before_scores": {
+    "recorded_at": "2026-09-08T11:54:34.114965+00:00",
+    "organization": "USGS-TX",
+    "region_hucs": [
+      "12030202",
+      "12030203"
+    ],
+    "calendar_year": 2019,
+    "rationale": "Same candidate purpose and region; TCEQ Other media/conflicting temperatures do not support a reliable full-year panel; USGS has explicit parameter codes and sample categories."
+  },
+  "output_scale_record": {
+    "old_rows": 3,
+    "old_fields": 27,
+    "new_rows": 4,
+    "new_fields": 44,
+    "note": "Oracle cardinality stays controller-side; not added to blind payloads."
+  },
+  "revision_amendment": {
+    "recorded_at": "2026-09-08T13:22:51.652385+00:00",
+    "before_r03_scores": true,
+    "reason": "Bothr02 CG scores1, final authorized substantive repair applies independent single-activity withdrawal states. Same source records; no old comparison score seen.",
+    "same_primary": "waterquality_004",
+    "same_runs": "4 screening +12 independent confirmation, no score-driven additions",
+    "output_scale": "r0312rows18fields=216; r0236rows14fields=504. Extra state dependency reduces output size relative to r02; still differs from old3rows9fields."
+  },
+  "content_scope_clarification": {
+    "recorded_at": "2026-09-08T13:31:26.144012+00:00",
+    "timing": "Recorded after the first final-revision development score file existed; no screening or confirmation score exists. An attempted pre-score assertion failed and did not write the plan. Do not describe this clarification as prespecified before r03 development.",
+    "existing_development_score_files": [
+      "runs/r-6e4ca9d3999e/scoring/scores.json"
+    ],
+    "provenance": "Latest user correction requires final fixed-version new/old confirmation and separate factual correctness versus difficulty.",
+    "factual_readiness": "Source completeness, unique declared answer, CG/GO conditions and scoring validity must hold. Concrete unresolved factual or semantic errors block dependent scoring comparisons.",
+    "structural_and_difficulty_limits": "A legal bulk implementation or correct development answer alone does not make the defined factual task unanswerable. Strict SGR retrieval-necessity failure and insufficient exposed difficulty are separate findings; either can prevent successful hard-candidate acceptance.",
+    "final_measurement": "After the final permitted version is fixed and factually reviewable, carry out the unchanged4screening +12fresh confirmation as a diagnostic fixed-pair comparison. No repair or score-driven retesting; fatal content uncertainty is reported as explicit unexecuted work.",
+    "unchanged": "Same original old004, public inputs, gold, model,tools,budgets,trial counts,metrics,aggregation and inconclusive ceiling. No relaxation of difficulty acceptance."
+  },
+  "execution_speed_amendment": {
+    "recorded_at": "2026-09-08T14:36:29.717034+00:00",
+    "reason": "User requested finishing verification and wrap-up as soon as possible. The original serial policy was a default; controller now uses at most2independent isolated model sessions concurrently to reduce wall clock.",
+    "maximum_concurrent_model_sessions": 2,
+    "before_any_screening_or_confirmation": true,
+    "model_tool_budget_trial_counts_changed": false,
+    "future_new_old_comparability": "All subsequent screening/confirmation tasks use the same bounded pool of2; record actual per-run timing and any access failures. Development serial/parallel timing differences are not hardness evidence.",
+    "dependent_stages": "Evidence audit after requiredcontent/shortcuts; adjudication afterevidenceaudit; final comparison afterfactualreview. No parallel dependencies.",
+    "accounting": "Lock the existing session ledger during session-number/budget allocation to avoid duplicate numbers or exceeding60 under concurrent starts. No hashes, new freeze mechanisms, or altered sandbox."
+  }
+}

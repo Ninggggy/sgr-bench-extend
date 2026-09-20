@@ -1,0 +1,143 @@
+{
+  "checked_at": "2026-09-13T05:25:50.622011+00:00",
+  "scope": "Constructor parser/scorer compatibility; no solver and no difficulty evidence",
+  "actual_sample_activity_ids": [
+    320285,
+    139849,
+    599580,
+    604850,
+    320292
+  ],
+  "namespace": "Numeric activity_id is the row key for conflicts; assay and target IDs only source-link keys",
+  "format_adjustment": "5 columns to 2 columns to remove repeated fixed structure and placeholders",
+  "scorer_key_credit": "Existing unchanged scorer counts ITEM and FINDING, including row-key fields. Controller explicitly withdrew FINDING-only requirement; no protocol change, no blocker. Final Item-F1 remains all-column exact counts.",
+  "results": {
+    "sample_correct": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 10,
+        "gold_fields": 10,
+        "pred_fields": 10,
+        "item_denominator": 20,
+        "correct_rows": 5,
+        "gold_rows": 5,
+        "pred_rows": 5,
+        "row_denominator": 10,
+        "correct_pairs": 10,
+        "pair_denominator": 10,
+        "shared_ids": 5
+      }
+    },
+    "group_wrongly_counted_defined": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 0.8,
+        "Row-F1": 0.6,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 8,
+        "gold_fields": 10,
+        "pred_fields": 10,
+        "item_denominator": 20,
+        "correct_rows": 3,
+        "gold_rows": 5,
+        "pred_rows": 5,
+        "row_denominator": 10,
+        "correct_pairs": 10,
+        "pair_denominator": 10,
+        "shared_ids": 5
+      }
+    },
+    "homologous_wrongly_direct": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 0.8,
+        "Row-F1": 0.6,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 8,
+        "gold_fields": 10,
+        "pred_fields": 10,
+        "item_denominator": 20,
+        "correct_rows": 3,
+        "gold_rows": 5,
+        "pred_rows": 5,
+        "row_denominator": 10,
+        "correct_pairs": 10,
+        "pair_denominator": 10,
+        "shared_ids": 5
+      }
+    },
+    "variant_missed": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 0.9,
+        "Row-F1": 0.8,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 9,
+        "gold_fields": 10,
+        "pred_fields": 10,
+        "item_denominator": 20,
+        "correct_rows": 4,
+        "gold_rows": 5,
+        "pred_rows": 5,
+        "row_denominator": 10,
+        "correct_pairs": 10,
+        "pair_denominator": 10,
+        "shared_ids": 5
+      }
+    },
+    "conflict_wrong_alpha": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 0.9,
+        "Row-F1": 0.8,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 9,
+        "gold_fields": 10,
+        "pred_fields": 10,
+        "item_denominator": 20,
+        "correct_rows": 4,
+        "gold_rows": 5,
+        "pred_rows": 5,
+        "row_denominator": 10,
+        "correct_pairs": 10,
+        "pair_denominator": 10,
+        "shared_ids": 5
+      }
+    },
+    "ordinary_identity_alias": {
+      "status": "deterministic_explicit",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 10,
+        "gold_fields": 10,
+        "pred_fields": 10,
+        "item_denominator": 20,
+        "correct_rows": 5,
+        "gold_rows": 5,
+        "pred_rows": 5,
+        "row_denominator": 10,
+        "correct_pairs": 10,
+        "pair_denominator": 10,
+        "shared_ids": 5
+      }
+    }
+  },
+  "controller_correction_recorded_at": "2026-09-13T05:26:00+00:00"
+}

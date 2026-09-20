@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-09-08T13:14:51.573667+00:00",
+  "trigger": "Two CG development solves fully correct",
+  "action": "return_to_construction",
+  "completed_jobs": [
+    "r02_content_A_CG",
+    "r02_content_B_CG"
+  ],
+  "not_run_jobs": [
+    "r02_content_A_GO",
+    "r02_content_B_GO",
+    "r02_shortcut_CG",
+    "r02_shortcut_GO"
+  ],
+  "new_model_sessions_added_due_to_score": 0,
+  "remaining_substantive_revisions": 1,
+  "claim": "This form exposed no substantial difficulty in this development round. Not a precise success probability estimate.",
+  "rule_provenance": "User correction received after r01; recorded before r02 development."
+}

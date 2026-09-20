@@ -1,0 +1,23 @@
+Source: https://patents.google.com/patent/WO2017060316A1/en
+Visited: 2026-09-10
+Attribution: Selected bibliographic fields transcribed from the actual web response. Link markup and legal-status labels omitted. Full native response separately preserved. Publication table is complete as displayed.
+
+Publication number
+WO2017060316A1
+Authority
+WO
+Application number
+PCT/EP2016/073816
+Publication date
+2017-04-13
+
+## Publications (1)
+Publication Number | Publication Date
+WO2017060316A1 | 2017-04-13
+
+# Family
+## ID=54266422
+## Country Status (3)
+US (1) | US10870879B2
+EP (1) | EP3359683A1
+WO (1) | WO2017060316A1

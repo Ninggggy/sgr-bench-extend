@@ -1,0 +1,25 @@
+{
+  "columns": [
+    "cve_id",
+    "initial_base_score",
+    "current_base_score",
+    "first_revision_date"
+  ],
+  "row_key": [
+    "cve_id"
+  ],
+  "fields": {
+    "cve_id": {
+      "type": "string"
+    },
+    "initial_base_score": {
+      "type": "decimal"
+    },
+    "current_base_score": {
+      "type": "decimal"
+    },
+    "first_revision_date": {
+      "type": "string"
+    }
+  }
+}

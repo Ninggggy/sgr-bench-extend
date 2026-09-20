@@ -1,0 +1,300 @@
+{
+  "criterion_count": 40,
+  "criterion_responses": 40,
+  "configurations": 19,
+  "hardware_count": 19,
+  "firmware_count": 90,
+  "complete_pair_count": 90,
+  "grouped_rows": 19,
+  "exact_oracle_equal": true,
+  "projection_lossless": true,
+  "standalone_firmware_accepted": 0,
+  "response_receipts": [
+    {
+      "file": "d0010.response",
+      "uuid": "2360F0CC-6958-47B6-87A9-B03D52DEBAF8",
+      "names": 5,
+      "cpeLastModified": "2023-07-21T22:40:05.697",
+      "criteria": "cpe:2.3:o:zyxel:atp700_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0011.response",
+      "uuid": "0B41F437-855B-4490-8011-DF59887BE6D5",
+      "names": 1,
+      "cpeLastModified": "2022-04-04T17:28:01.380",
+      "criteria": "cpe:2.3:h:zyxel:atp700:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0024.response",
+      "uuid": "BE7B066A-5AF0-42AF-A341-A91802F588F1",
+      "names": 5,
+      "cpeLastModified": "2023-08-12T00:08:06.533",
+      "criteria": "cpe:2.3:o:zyxel:usg_flex_50w_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0025.response",
+      "uuid": "110A1CA4-0170-4834-8281-0A3E14FC5584",
+      "names": 1,
+      "cpeLastModified": "2022-06-06T17:04:22.433",
+      "criteria": "cpe:2.3:h:zyxel:usg_flex_50w:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0007.response",
+      "uuid": "D68A36FF-8CAF-401C-9F18-94F3A2405CF4",
+      "names": 1,
+      "cpeLastModified": "2019-10-24T17:01:14.653",
+      "criteria": "cpe:2.3:h:zyxel:atp200:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0006.response",
+      "uuid": "A32A52F5-5406-4A44-A5C1-42FCDC8C6B22",
+      "names": 5,
+      "cpeLastModified": "2023-07-21T22:40:05.697",
+      "criteria": "cpe:2.3:o:zyxel:atp200_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0039.response",
+      "uuid": "81F20DFB-ED71-4D6F-9B15-4F86341550A9",
+      "names": 1,
+      "cpeLastModified": "2023-08-12T00:08:06.533",
+      "criteria": "cpe:2.3:o:zyxel:zywall_usg_100_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0038.response",
+      "uuid": "A983A8D5-1B1E-4DE5-93FE-DED5B2DDCB83",
+      "names": 1,
+      "cpeLastModified": "2023-09-22T21:13:32.977",
+      "criteria": "cpe:2.3:h:zyxel:zywall_usg_310:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0033.response",
+      "uuid": "3C45C303-1A95-4245-B242-3AB9B9106CD4",
+      "names": 1,
+      "cpeLastModified": "2019-10-24T17:01:18.293",
+      "criteria": "cpe:2.3:h:zyxel:vpn300:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0032.response",
+      "uuid": "5DCFD02F-5884-4A96-957D-4CEEDB3826BE",
+      "names": 4,
+      "cpeLastModified": "2023-05-01T17:21:11.913",
+      "criteria": "cpe:2.3:o:zyxel:vpn300_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0034.response",
+      "uuid": "9C6AFD50-926C-4579-A951-4EFDCBA512F0",
+      "names": 4,
+      "cpeLastModified": "2023-05-01T17:21:11.913",
+      "criteria": "cpe:2.3:o:zyxel:vpn50_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0035.response",
+      "uuid": "9E3AC823-0ECA-42D8-8312-2FBE5914E4C0",
+      "names": 1,
+      "cpeLastModified": "2019-10-24T17:01:18.497",
+      "criteria": "cpe:2.3:h:zyxel:vpn50:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0017.response",
+      "uuid": "D74ABA7E-AA78-4A13-A64E-C44021591B42",
+      "names": 1,
+      "cpeLastModified": "2021-01-12T18:00:46.180",
+      "criteria": "cpe:2.3:h:zyxel:usg_flex_100w:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0016.response",
+      "uuid": "F0226DAD-492B-493D-B15E-90AA593BAAAB",
+      "names": 6,
+      "cpeLastModified": "2025-01-24T12:06:29.920",
+      "criteria": "cpe:2.3:o:zyxel:usg_flex_100w_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0029.response",
+      "uuid": "81D90A7B-174F-40A1-8AF4-08B15B7BAC40",
+      "names": 1,
+      "cpeLastModified": "2019-10-24T17:01:18.077",
+      "criteria": "cpe:2.3:h:zyxel:vpn100:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0028.response",
+      "uuid": "42F4D9F3-BCBF-4990-B270-3592D69FCC22",
+      "names": 4,
+      "cpeLastModified": "2023-05-01T17:21:11.913",
+      "criteria": "cpe:2.3:o:zyxel:vpn100_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0023.response",
+      "uuid": "92C697A5-D1D3-4FF0-9C43-D27B18181958",
+      "names": 1,
+      "cpeLastModified": "2021-01-12T18:00:46.880",
+      "criteria": "cpe:2.3:h:zyxel:usg_flex_500:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0022.response",
+      "uuid": "62ACD903-AC40-451C-B2AB-6F843B3C8897",
+      "names": 7,
+      "cpeLastModified": "2025-01-24T12:06:29.920",
+      "criteria": "cpe:2.3:o:zyxel:usg_flex_500_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0030.response",
+      "uuid": "E136FA9E-48A2-428C-9F0A-CD9DB7F91581",
+      "names": 4,
+      "cpeLastModified": "2023-05-01T17:21:11.913",
+      "criteria": "cpe:2.3:o:zyxel:vpn1000_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0031.response",
+      "uuid": "EECD311A-4E96-4576-AADF-47291EDE3559",
+      "names": 1,
+      "cpeLastModified": "2021-03-22T20:02:38.157",
+      "criteria": "cpe:2.3:h:zyxel:vpn1000:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0004.response",
+      "uuid": "B150462B-6A4A-4B8C-800D-A83E24C79819",
+      "names": 4,
+      "cpeLastModified": "2023-07-21T22:40:05.697",
+      "criteria": "cpe:2.3:o:zyxel:atp100w_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0005.response",
+      "uuid": "47398FD0-6C5E-4625-9EFD-DE08C9AB7DB2",
+      "names": 1,
+      "cpeLastModified": "2022-04-04T17:28:01.380",
+      "criteria": "cpe:2.3:h:zyxel:atp100w:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0019.response",
+      "uuid": "F93B6A06-2951-46D2-A7E1-103D7318D612",
+      "names": 1,
+      "cpeLastModified": "2021-01-12T18:00:46.540",
+      "criteria": "cpe:2.3:h:zyxel:usg_flex_200:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0018.response",
+      "uuid": "030F29C9-5435-4EA5-B009-895BB2259C19",
+      "names": 6,
+      "cpeLastModified": "2023-08-12T00:08:06.533",
+      "criteria": "cpe:2.3:o:zyxel:usg_flex_200_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0027.response",
+      "uuid": "9D1396E3-731B-4D05-A3F8-F3ABB80D5C29",
+      "names": 1,
+      "cpeLastModified": "2021-01-12T18:00:47.257",
+      "criteria": "cpe:2.3:h:zyxel:usg_flex_700:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0026.response",
+      "uuid": "04A828C5-B71C-43EE-8132-C14C58A52360",
+      "names": 6,
+      "cpeLastModified": "2025-01-24T12:06:29.920",
+      "criteria": "cpe:2.3:o:zyxel:usg_flex_700_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0013.response",
+      "uuid": "66B99746-0589-46E6-9CBD-F38619AD97DC",
+      "names": 1,
+      "cpeLastModified": "2019-10-24T17:01:15.107",
+      "criteria": "cpe:2.3:h:zyxel:atp800:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0012.response",
+      "uuid": "6C4EE067-E0F0-49B7-8698-8B1AD8E346F0",
+      "names": 5,
+      "cpeLastModified": "2023-07-21T22:40:05.697",
+      "criteria": "cpe:2.3:o:zyxel:atp800_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0020.response",
+      "uuid": "3CF08551-BA8E-47BC-985D-D5ED76A46793",
+      "names": 4,
+      "cpeLastModified": "2025-01-24T12:06:29.920",
+      "criteria": "cpe:2.3:o:zyxel:usg_flex_50_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0021.response",
+      "uuid": "646C1F07-B553-47B0-953B-DC7DE7FD0F8B",
+      "names": 1,
+      "cpeLastModified": "2023-02-16T20:44:07.873",
+      "criteria": "cpe:2.3:h:zyxel:usg_flex_50:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0014.response",
+      "uuid": "D96CB09A-9AB3-4360-ACFC-A917E7EEC460",
+      "names": 6,
+      "cpeLastModified": "2025-01-24T12:06:29.920",
+      "criteria": "cpe:2.3:o:zyxel:usg_flex_100_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0015.response",
+      "uuid": "2B30A4C0-9928-46AD-9210-C25656FB43FB",
+      "names": 1,
+      "cpeLastModified": "2021-01-12T18:00:45.820",
+      "criteria": "cpe:2.3:h:zyxel:usg_flex_100:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0040.response",
+      "uuid": "5D5DCBFB-AB12-4525-ADD4-F85059E59177",
+      "names": 1,
+      "cpeLastModified": "2023-08-12T00:08:06.533",
+      "criteria": "cpe:2.3:o:zyxel:zywall_usg_100_firmware:4.73:-:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0041.response",
+      "uuid": "BB902356-D134-434B-8BAF-2CB366F32050",
+      "names": 1,
+      "cpeLastModified": "2021-03-03T23:02:44.753",
+      "criteria": "cpe:2.3:h:zyxel:zywall_usg_100:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0009.response",
+      "uuid": "2818E8AC-FFEE-4DF9-BF3F-C75166C0E851",
+      "names": 1,
+      "cpeLastModified": "2019-10-24T17:01:14.873",
+      "criteria": "cpe:2.3:h:zyxel:atp500:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0008.response",
+      "uuid": "320FC232-D76C-4D8A-8003-7C9A7A287A4C",
+      "names": 5,
+      "cpeLastModified": "2023-07-21T22:40:05.697",
+      "criteria": "cpe:2.3:o:zyxel:atp500_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0037.response",
+      "uuid": "34699536-4CA4-4F87-8E69-A16F2C88A1E8",
+      "names": 1,
+      "cpeLastModified": "2023-08-12T00:08:06.533",
+      "criteria": "cpe:2.3:o:zyxel:zywall_usg_310_firmware:4.73:-:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0036.response",
+      "uuid": "D84D915E-8075-4DFC-8C83-D7E6A65D7AFC",
+      "names": 1,
+      "cpeLastModified": "2023-08-12T00:08:06.533",
+      "criteria": "cpe:2.3:o:zyxel:zywall_usg_310_firmware:*:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0003.response",
+      "uuid": "7F7654A1-3806-41C7-82D4-46B0CD7EE53B",
+      "names": 1,
+      "cpeLastModified": "2021-03-22T20:02:38.157",
+      "criteria": "cpe:2.3:h:zyxel:atp100:-:*:*:*:*:*:*:*"
+    },
+    {
+      "file": "d0002.response",
+      "uuid": "558978AD-8153-4C1F-A6DE-CCFBF69F754D",
+      "names": 6,
+      "cpeLastModified": "2023-07-21T22:40:05.697",
+      "criteria": "cpe:2.3:o:zyxel:atp100_firmware:*:*:*:*:*:*:*:*"
+    }
+  ],
+  "nonstar_updates": [
+    "-"
+  ],
+  "configuration_operators": {
+    "AND": 19
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "annual_scope_equal": true,
+  "issue_scope_equal": true,
+  "required_xml_equal": {
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953309/fullTextXML": true,
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953317/fullTextXML": true,
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953261/fullTextXML": true
+  }
+}

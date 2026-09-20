@@ -1,0 +1,23 @@
+[
+  {
+    "pmcid": "PMC7367032",
+    "p_ordinal": 70,
+    "source_text": "The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE partner repository with the dataset identifier PXD019157 and https://doi.org/10.6019/PXD019157. All other supporting data in this study are available from the Lead Contact on request.",
+    "generated_clause": "The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE partner repository with the dataset identifier PXD019157 and https://doi.org/10.6019/PXD019157. All other supporting data in this study are available from the Lead Contact on request.",
+    "note": "Manual semantic annotation of experimental-deposit clause; raw source checked by reference and independently."
+  },
+  {
+    "pmcid": "PMC7405878",
+    "p_ordinal": 136,
+    "source_text": "All blood scRNA-seq data used in this study can be accessed by ArrayExpress Archive of Functional Genomics Data under the accession number E-MTAB-9221. Integrated BALF scRNA-seq data can be accessed in GEO under the accession number GSE145926.",
+    "generated_clause": "All blood scRNA-seq data used in this study can be accessed by ArrayExpress Archive of Functional Genomics Data under the accession number E-MTAB-9221. ",
+    "note": "Manual semantic annotation of experimental-deposit clause; raw source checked by reference and independently."
+  },
+  {
+    "pmcid": "PMC7577733",
+    "p_ordinal": 89,
+    "source_text": "RNA-seq data that support the findings of this study have been deposited in the Gene Expression Omnibus (GEO) under accession codes GEO: GSE141634 (MTEC alveolosphere scRNA-seq) and GEO: GSE152586 (Bulk RNA-seq from SARS-CoV-2 infected alveolospheres). Previously published sequencing data that were re-analyzed here are available under accession code GEO: GSE145926 (scRNA-seq data from severe COVID-19 patient lungs) and GEO: GSE135893 (scRNA-seq data from control lungs). All analysis code is available from corresponding author upon request.",
+    "generated_clause": "RNA-seq data that support the findings of this study have been deposited in the Gene Expression Omnibus (GEO) under accession codes GEO: GSE141634 (MTEC alveolosphere scRNA-seq) and GEO: GSE152586 (Bulk RNA-seq from SARS-CoV-2 infected alveolospheres). ",
+    "note": "Manual semantic annotation of experimental-deposit clause; raw source checked by reference and independently."
+  }
+]

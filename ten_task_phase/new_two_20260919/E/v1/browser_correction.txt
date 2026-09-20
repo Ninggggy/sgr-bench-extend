@@ -1,0 +1,76 @@
+- table:
+  - rowgroup:
+    - row "[Unicode] Unicode Corrigenda Tech Site | Site Map | Search":
+      - cell "[Unicode] Unicode Corrigenda Tech Site | Site Map | Search":
+        - table:
+          - rowgroup:
+            - row "[Unicode] Unicode Corrigenda Tech Site | Site Map | Search":
+              - cell "[Unicode]":
+                - link "[Unicode]":
+                  - /url: https://www.unicode.org/
+                  - img "[Unicode]"
+              - cell "Unicode Corrigenda":
+                - link "Unicode Corrigenda":
+                  - /url: https://www.unicode.org/versions/corrigenda.html
+              - cell "Tech Site | Site Map | Search":
+                - link "Tech Site":
+                  - /url: https://www.unicode.org/main.html
+                - text: "|"
+                - link "Site Map":
+                  - /url: https://www.unicode.org/sitemap/
+                - text: "|"
+                - link "Search":
+                  - /url: https://www.unicode.org/search
+    - row:
+      - cell
+    - row "Access to Copyright and terms of use":
+      - cell "Access to Copyright and terms of use":
+        - blockquote:
+          - 'heading "Corrigendum #4: Five CJK Canonical Mapping Errors" [level=1]'
+          - paragraph
+          - table:
+            - rowgroup:
+              - row "Corrigendum Effective Date Applicable Versions Fixed Version Result Documented In:":
+                - columnheader "Corrigendum"
+                - columnheader "Effective Date"
+                - columnheader "Applicable Versions"
+                - columnheader "Fixed Version"
+                - columnheader "Result Documented In:"
+              - 'row "Corrigendum #4: Five CJK Canonical Mapping Errors 2003-Mar-04 [94-L1] 3.2.0 4.0.0 2003-April NormalizationsCorrections.txt"':
+                - 'cell "Corrigendum #4: Five CJK Canonical Mapping Errors"'
+                - cell "2003-Mar-04 [94-L1]":
+                  - text: 2003-Mar-04
+                  - text: "[94-L1]"
+                - cell "3.2.0"
+                - cell "4.0.0 2003-April":
+                  - text: 4.0.0
+                  - text: 2003-April
+                - cell "NormalizationsCorrections.txt"
+          - paragraph: Five clear errors were discovered in the canonical mappings for Plane 2 CJK compatibility characters, verified independently by multiple experts. Those errors are for U+2F868, U+2F874, U+2F91F, U+2F95F, and U+2F9BF.
+          - paragraph: A few other Plane 2 CJK compatibility characters have been determined to have certain visual or clerical errors, but those errors have been handled through cross-reference annotations to the Unicode character names list.
+          - paragraph: "Make the following corrections in UnicodeData.txt:"
+          - blockquote:
+            - paragraph:
+              - text: Correct canonical mapping for 2F868 from 2136A to 36FC (㛼).
+              - text: Correct canonical mapping for 2F874 from 5F33 to 5F53 (当).
+              - text: Correct canonical mapping for 2F91F from 43AB to 243AB (𤎫).
+              - text: Correct canonical mapping for 2F95F from 7AAE to 7AEE (竮).
+              - text: Correct canonical mapping for 2F9BF from 4D57 to 45D7 (䗗).
+          - paragraph: Make corresponding corrections to the kCompatibilityVariant field for the same characters in Unihan.txt.
+          - paragraph: "Add the following entries to NormalizationCorrections.txt:"
+          - blockquote:
+            - paragraph:
+              - text: "2F868;2136A;36FC;4.0.0 # Corrigendum 4"
+              - text: "2F874;5F33;5F53;4.0.0 # Corrigendum 4"
+              - text: "2F91F;43AB;243AB;4.0.0 # Corrigendum 4"
+              - text: "2F95F;7AAE;7AEE;4.0.0 # Corrigendum 4"
+              - text: "2F9BF;4D57;45D7;4.0.0 # Corrigendum 4"
+          - paragraph: This corrigendum does not change the status of normalized text. Text that is in any of the normalization forms (NFD, NFC, NFKD, NFKC) as defined in Unicode 3.2.0 is still in that same normalization form after the application of this corrigendum.
+        - separator
+        - table:
+          - rowgroup:
+            - row "Access to Copyright and terms of use":
+              - cell "Access to Copyright and terms of use":
+                - link "Access to Copyright and terms of use":
+                  - /url: http://www.unicode.org/copyright.html
+                  - img "Access to Copyright and terms of use"

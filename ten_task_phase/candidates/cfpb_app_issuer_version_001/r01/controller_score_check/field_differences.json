@@ -1,0 +1,197 @@
+[
+  {
+    "pred_index": 0,
+    "id": [
+      "Chime Financial, Inc.",
+      "4091"
+    ],
+    "field": "respondent",
+    "pred_raw": "Chime Financial, Inc.",
+    "pred_normalized": "Chime Financial, Inc.",
+    "gold": "Chime Financial, Inc.",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "Chime Financial, Inc.",
+      "4091"
+    ],
+    "field": "filing_date",
+    "pred_raw": "2024-05-07",
+    "pred_normalized": "2024-05-07",
+    "gold": "2024-05-07",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "Chime Financial, Inc.",
+      "4091"
+    ],
+    "field": "issuer_bank",
+    "pred_raw": "Stride Bank, N.A.",
+    "pred_normalized": "Stride Bank, N.A.",
+    "gold": "Stride Bank, N.A.",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "Chime Financial, Inc.",
+      "4091"
+    ],
+    "field": "fdic_certificate",
+    "pred_raw": "4091",
+    "pred_normalized": "4091",
+    "gold": "4091",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "Chime Financial, Inc.",
+      "4091"
+    ],
+    "field": "disclosure_revision",
+    "pred_raw": "2026-02",
+    "pred_normalized": "2026-02",
+    "gold": "2026-02",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 1,
+    "id": [
+      "Chime Financial, Inc.",
+      "35444"
+    ],
+    "field": "respondent",
+    "pred_raw": "Chime Financial, Inc.",
+    "pred_normalized": "Chime Financial, Inc.",
+    "gold": "Chime Financial, Inc.",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 1,
+    "id": [
+      "Chime Financial, Inc.",
+      "35444"
+    ],
+    "field": "filing_date",
+    "pred_raw": "2024-05-07",
+    "pred_normalized": "2024-05-07",
+    "gold": "2024-05-07",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 1,
+    "id": [
+      "Chime Financial, Inc.",
+      "35444"
+    ],
+    "field": "issuer_bank",
+    "pred_raw": "The Bancorp Bank, N.A.",
+    "pred_normalized": "The Bancorp Bank, N.A.",
+    "gold": "The Bancorp Bank, N.A.",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 1,
+    "id": [
+      "Chime Financial, Inc.",
+      "35444"
+    ],
+    "field": "fdic_certificate",
+    "pred_raw": "35444",
+    "pred_normalized": "35444",
+    "gold": "35444",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 1,
+    "id": [
+      "Chime Financial, Inc.",
+      "35444"
+    ],
+    "field": "disclosure_revision",
+    "pred_raw": "2026-02",
+    "pred_normalized": "2026-02",
+    "gold": "2026-02",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 2,
+    "id": [
+      "SoLo Funds, Inc.",
+      "18408"
+    ],
+    "field": "respondent",
+    "pred_raw": "SoLo Funds, Inc.",
+    "pred_normalized": "SoLo Funds, Inc.",
+    "gold": "SoLo Funds, Inc.",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 2,
+    "id": [
+      "SoLo Funds, Inc.",
+      "18408"
+    ],
+    "field": "filing_date",
+    "pred_raw": "2024-05-17",
+    "pred_normalized": "2024-05-17",
+    "gold": "2024-05-17",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 2,
+    "id": [
+      "SoLo Funds, Inc.",
+      "18408"
+    ],
+    "field": "issuer_bank",
+    "pred_raw": "Bangor Savings Bank",
+    "pred_normalized": "Bangor Savings Bank",
+    "gold": "Bangor Savings Bank",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 2,
+    "id": [
+      "SoLo Funds, Inc.",
+      "18408"
+    ],
+    "field": "fdic_certificate",
+    "pred_raw": "18408",
+    "pred_normalized": "18408",
+    "gold": "18408",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 2,
+    "id": [
+      "SoLo Funds, Inc.",
+      "18408"
+    ],
+    "field": "disclosure_revision",
+    "pred_raw": "2026-07-27",
+    "pred_normalized": "2026-07-27",
+    "gold": "2026-07-27",
+    "correct": true,
+    "reason": "match"
+  }
+]

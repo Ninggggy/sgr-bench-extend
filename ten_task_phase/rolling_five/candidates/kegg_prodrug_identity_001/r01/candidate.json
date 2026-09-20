@@ -1,0 +1,75 @@
+{
+  "candidate_id": "kegg_prodrug_identity_001",
+  "revision": 1,
+  "ecosystem": "KEGG",
+  "domain": "KEGG_DRUG",
+  "status": "rejected",
+  "old_task_refs": [
+    "genome_001",
+    "genome_003"
+  ],
+  "research_goal": "Identify every independent direct drug member of the mycophenolic-acid Chemical group whose own annotation explicitly identifies its prodrug active form, preserving salt entries and D-to-D identity.",
+  "structural_upgrade": "Observed basic member-expansion dependency and an entry-level identity boundary. No structural superiority or increased difficulty relative to the specified old tasks has been established.",
+  "public": {
+    "cg": {
+      "instruction": "Identify every drug entry in the mycophenolic-acid chemical drug group whose own annotation names the active drug form produced from that prodrug. Return all qualifying drug-ID pairs.\n\nUse the records observed on 12 September 2026. Scope is limited to the direct drug entries in the complete Member field of DG00739, the mycophenolic-acid group with Type Chemical.\n\n1. Read the group's complete Member field to establish the candidate entries.\n2. Read each member's complete drug record. Include a member only if its own Comment field explicitly states \"Active form of prodrug:\" and identifies the active form with a drug reference, \"[DR:D...]\". Record the member's D identifier as PRODRUG_D and each explicitly linked active-form D identifier as ACTIVE_D.\n3. Verify each linked identifier against its drug record.\n\nKeep distinct salt-form drug entries separate, even when names or products overlap. Group membership and group-level Prodrugs links do not establish an entry's own relation. Use drug identifiers (D...); compound identifiers (C...) and group identifiers (DG...) cannot replace them.\n\nA fully read record without the required annotation is excluded only from this documented-relation query; this does not establish that the drug is biologically not a prodrug. An unavailable or incomplete required record leaves the result unresolved and must not be treated as an exclusion or an empty result.",
+      "output_format": "Return only pipe-separated text. For a nonempty result, use the header PRODRUG_D|ACTIVE_D and one row per distinct ordered pair of drug identifiers. Include every qualifying pair, including every explicitly linked active form when a member has more than one. Remove duplicate pairs. Sort by PRODRUG_D in ascending string order, then by ACTIVE_D in ascending string order. If the fully verified result is empty, return only NONE, without a header. Add no prose or code fences."
+    },
+    "go": {
+      "instruction": "Identify every drug entry in the mycophenolic-acid chemical drug group whose own annotation names the active drug form produced from that prodrug. Return all qualifying drug-ID pairs.\n\nUse the records observed on 12 September 2026. Scope is limited to the direct drug entries in the complete Member field of DG00739, the mycophenolic-acid group with Type Chemical.\n\nA member qualifies only if its own Comment field explicitly states \"Active form of prodrug:\" and identifies the active form with a drug reference, \"[DR:D...]\". PRODRUG_D is the member's D identifier; ACTIVE_D is an explicitly linked active-form D identifier. Each linked identifier must be verified against its drug record.\n\nKeep distinct salt-form drug entries separate, even when names or products overlap. Group membership and group-level Prodrugs links do not establish an entry's own relation. Use drug identifiers (D...); compound identifiers (C...) and group identifiers (DG...) cannot replace them.\n\nThe result must account for the complete drug record of every member in scope. A fully read record without the required annotation is excluded only from this documented-relation query; this does not establish that the drug is biologically not a prodrug. An unavailable or incomplete required record leaves the result unresolved and must not be treated as an exclusion or an empty result.",
+      "output_format": "Return only pipe-separated text. For a nonempty result, use the header PRODRUG_D|ACTIVE_D and one row per distinct ordered pair of drug identifiers. Include every qualifying pair, including every explicitly linked active form when a member has more than one. Remove duplicate pairs. Sort by PRODRUG_D in ascending string order, then by ACTIVE_D in ascending string order. If the fully verified result is empty, return only NONE, without a header. Add no prose or code fences."
+    }
+  },
+  "private": {
+    "source_version": "Official REST observation: DG00739 at 2026-09-12T13:21:20.306599+00:00 and all discovered D members at 2026-09-12T13:21:23.167368+00:00. Runtime evaluation date is 2026-09-09; no historical September 9 source-state claim.",
+    "start_urls": [
+      "https://www.kegg.jp/entry/DG00739"
+    ],
+    "candidate_scope": "Direct D entries in the complete Member field of DG00739, named Mycophenolic acid and typed Chemical, at the stated source observation. No subgroup expansion or broader ATC/immunosuppressant scope.",
+    "predicates": [
+      "The source identifier is a direct D member of DG00739 at the stated observation.",
+      "The member's own complete Comment explicitly states Active form of prodrug: and links the active form with a DR drug reference.",
+      "PRODRUG_D is that member's identifier and ACTIVE_D is each explicitly linked active-form D identifier, verified against its Drug record.",
+      "Distinct salt-form D entries remain separate despite shared names, products, or active forms.",
+      "Group membership and group-level Prodrugs links do not establish an own relation; C and DG identifiers cannot replace D identifiers.",
+      "Every qualifying ordered pair is included without additional numeric, approval-date, ranking, or target-membership restrictions."
+    ],
+    "output_columns": [
+      "PRODRUG_D",
+      "ACTIVE_D"
+    ],
+    "row_key": [
+      "PRODRUG_D",
+      "ACTIVE_D"
+    ],
+    "sorting_rules": [
+      "Deduplicate identical ordered pairs.",
+      "Sort ascending by PRODRUG_D string, then ACTIVE_D string."
+    ],
+    "missing_value_rules": [
+      "Exclude a member without the required annotation only after its complete record has been read.",
+      "Exclusion from this documented-relation query does not assert biological non-prodrug status.",
+      "Unavailable, incomplete, or unresolved required evidence makes the result unresolved; it is not an exclusion, an empty result, or a scored zero.",
+      "For a fully verified empty result, output only NONE without a header."
+    ],
+    "source_manifest_path": "source_manifest.json",
+    "state_graph_path": "state_graph.json",
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "passed",
+    "difficulty": "screened",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "reference_report.md",
+      "design_rationale.md",
+      "pair_alignment.json",
+      "language_review.md",
+      "executionchecks.json",
+      "controller_integration_check.json",
+      "controller_pre_A_stability.json",
+      "development_decision.json"
+    ]
+  }
+}

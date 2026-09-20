@@ -1,0 +1,56 @@
+{
+  "trials": [
+    {
+      "variant": "CG",
+      "run": "construction_pipeline/ten_task_phase/runs/r-cfpb-issuer-r01-cg-dev-a",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 15,
+        "gold_fields": 15,
+        "pred_fields": 15,
+        "item_denominator": 30,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verification": "passed"
+    },
+    {
+      "variant": "GO",
+      "run": "construction_pipeline/ten_task_phase/runs/r-cfpb-issuer-r01-go-dev-a",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 15,
+        "gold_fields": 15,
+        "pred_fields": 15,
+        "item_denominator": 30,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verification": "passed"
+    }
+  ],
+  "decision": "Both A variants fully correct. Reject this version; no B, attacks or admission resampling scheduled.",
+  "decided_at": "2026-09-10T04:23:27.370875+00:00"
+}

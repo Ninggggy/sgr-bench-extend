@@ -1,0 +1,2577 @@
+Complete contiguous Annex I through Annex II boundary from retained full DOM, lines 926-3501.
+    - paragraph: ANNEX I
+    - paragraph: LIST OF RECOGNISED THIRD COUNTRIES REFERRED TO IN ARTICLE 1 AND THE RELEVANT SPECIFICATIONS
+    - table:
+      - rowgroup:
+        - 'row "Note: Pursuant to Article 17(1), point (f), of Regulation (EC) No 834/2007, animals and animal products produced during the conversion period shall not be marketed in the Union with the indications referred to in Articles 23 and 24 of that Regulation used in the labelling and advertising of products. Such products are therefore also excluded from the recognitions as regards product categories B and D for all third countries listed in this Annex."':
+          - cell "Note:":
+            - paragraph: "Note:"
+          - cell "Pursuant to Article 17(1), point (f), of Regulation (EC) No 834/2007, animals and animal products produced during the conversion period shall not be marketed in the Union with the indications referred to in Articles 23 and 24 of that Regulation used in the labelling and advertising of products. Such products are therefore also excluded from the recognitions as regards product categories B and D for all third countries listed in this Annex."
+    - paragraph: ARGENTINA
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products Designation of category as in Annex II Limitations Unprocessed plant products A Live animals or unprocessed animal products B Processed agricultural products for use as food (1) D Vegetative propagating material and seeds for cultivation F":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products Designation of category as in Annex II Limitations Unprocessed plant products A Live animals or unprocessed animal products B Processed agricultural products for use as food (1) D Vegetative propagating material and seeds for cultivation F":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products Designation of category as in Annex II Limitations":
+                  - cell "Category of products":
+                    - paragraph: Category of products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Unprocessed plant products A":
+                  - cell "Unprocessed plant products":
+                    - paragraph: Unprocessed plant products
+                  - cell "A":
+                    - paragraph: A
+                  - cell:
+                    - paragraph
+                - row "Live animals or unprocessed animal products B":
+                  - cell "Live animals or unprocessed animal products":
+                    - paragraph: Live animals or unprocessed animal products
+                  - cell "B":
+                    - paragraph: B
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as food (1) D":
+                  - cell "Processed agricultural products for use as food (1)":
+                    - paragraph:
+                      - text: Processed agricultural products for use as food
+                      - link "(1)":
+                        - /url: "#ntr1-L_2021465EN.01001401-E0001"
+                  - cell "D":
+                    - paragraph: D
+                  - cell:
+                    - paragraph
+                - row "Vegetative propagating material and seeds for cultivation F":
+                  - cell "Vegetative propagating material and seeds for cultivation":
+                    - paragraph: Vegetative propagating material and seeds for cultivation
+                  - cell "F":
+                    - paragraph: F
+                  - cell:
+                    - paragraph
+    - table:
+      - rowgroup:
+        - 'row "2. Origin: products of categories A, B and F that have been grown in Argentina and products of category D processed in Argentina with organically grown ingredients that have been grown in Argentina."':
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - 'cell "Origin: products of categories A, B and F that have been grown in Argentina and products of category D processed in Argentina with organically grown ingredients that have been grown in Argentina."':
+            - generic: "Origin: products of categories A, B and F that have been grown in Argentina and products of category D processed in Argentina with organically grown ingredients that have been grown in Argentina."
+    - table:
+      - rowgroup:
+        - row "3. Production standard Ley 25 127 sobre ‘Producción ecológica, biológica y orgánica’.":
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - cell "Production standard Ley 25 127 sobre ‘Producción ecológica, biológica y orgánica’.":
+            - generic: Production standard Ley 25 127 sobre ‘Producción ecológica, biológica y orgánica’.
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authority: Servicio Nacional de Sanidad y Calidad Agroalimentaria SENASA, www.senasa.gov.ar"':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authority: Servicio Nacional de Sanidad y Calidad Agroalimentaria SENASA, www.senasa.gov.ar"':
+            - generic: "Competent authority: Servicio Nacional de Sanidad y Calidad Agroalimentaria SENASA, www.senasa.gov.ar"
+    - table:
+      - rowgroup:
+        - row "5. Control bodies Code number Name Internet address AR-BIO-001 Food Safety SA www.foodsafety.com.ar AR-BIO-002 Ecocert Argentina SA https://www.ecocert.com/es-AR/home AR-BIO-003 LETIS S.A. www.letis.org AR-BIO-004 Organización Internacional Agropecuaria (OIA) www.oia.com.ar":
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - cell "Control bodies Code number Name Internet address AR-BIO-001 Food Safety SA www.foodsafety.com.ar AR-BIO-002 Ecocert Argentina SA https://www.ecocert.com/es-AR/home AR-BIO-003 LETIS S.A. www.letis.org AR-BIO-004 Organización Internacional Agropecuaria (OIA) www.oia.com.ar":
+            - generic: Control bodies
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "AR-BIO-001 Food Safety SA www.foodsafety.com.ar":
+                  - cell "AR-BIO-001":
+                    - paragraph: AR-BIO-001
+                  - cell "Food Safety SA":
+                    - paragraph: Food Safety SA
+                  - cell "www.foodsafety.com.ar":
+                    - paragraph: www.foodsafety.com.ar
+                - row "AR-BIO-002 Ecocert Argentina SA https://www.ecocert.com/es-AR/home":
+                  - cell "AR-BIO-002":
+                    - paragraph: AR-BIO-002
+                  - cell "Ecocert Argentina SA":
+                    - paragraph: Ecocert Argentina SA
+                  - cell "https://www.ecocert.com/es-AR/home":
+                    - paragraph: https://www.ecocert.com/es-AR/home
+                - row "AR-BIO-003 LETIS S.A. www.letis.org":
+                  - cell "AR-BIO-003":
+                    - paragraph: AR-BIO-003
+                  - cell "LETIS S.A.":
+                    - paragraph: LETIS S.A.
+                  - cell "www.letis.org":
+                    - paragraph: www.letis.org
+                - row "AR-BIO-004 Organización Internacional Agropecuaria (OIA) www.oia.com.ar":
+                  - cell "AR-BIO-004":
+                    - paragraph: AR-BIO-004
+                  - cell "Organización Internacional Agropecuaria (OIA)":
+                    - paragraph: Organización Internacional Agropecuaria (OIA)
+                  - cell "www.oia.com.ar":
+                    - paragraph: www.oia.com.ar
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate issuing bodies: as at point 5."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate issuing bodies: as at point 5."':
+            - generic: "Certificate issuing bodies: as at point 5."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - paragraph: AUSTRALIA
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products Designation of category as in Annex II Limitations Unprocessed plant products A Processed agricultural products for use as food (2) D Composed essentially of one or more ingredients of plant origin Vegetative propagating material and seeds for cultivation F":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products Designation of category as in Annex II Limitations Unprocessed plant products A Processed agricultural products for use as food (2) D Composed essentially of one or more ingredients of plant origin Vegetative propagating material and seeds for cultivation F":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products Designation of category as in Annex II Limitations":
+                  - cell "Category of products":
+                    - paragraph: Category of products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Unprocessed plant products A":
+                  - cell "Unprocessed plant products":
+                    - paragraph: Unprocessed plant products
+                  - cell "A":
+                    - paragraph: A
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as food (2) D Composed essentially of one or more ingredients of plant origin":
+                  - cell "Processed agricultural products for use as food (2)":
+                    - paragraph:
+                      - text: Processed agricultural products for use as food
+                      - link "(2)":
+                        - /url: "#ntr2-L_2021465EN.01001401-E0002"
+                  - cell "D":
+                    - paragraph: D
+                  - cell "Composed essentially of one or more ingredients of plant origin":
+                    - paragraph: Composed essentially of one or more ingredients of plant origin
+                - row "Vegetative propagating material and seeds for cultivation F":
+                  - cell "Vegetative propagating material and seeds for cultivation":
+                    - paragraph: Vegetative propagating material and seeds for cultivation
+                  - cell "F":
+                    - paragraph: F
+                  - cell:
+                    - paragraph
+    - table:
+      - rowgroup:
+        - 'row "2. Origin: products of categories A and F that have been grown in Australia and products of category D processed in Australia with organically grown ingredients that have been grown in Australia."':
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - 'cell "Origin: products of categories A and F that have been grown in Australia and products of category D processed in Australia with organically grown ingredients that have been grown in Australia."':
+            - generic: "Origin: products of categories A and F that have been grown in Australia and products of category D processed in Australia with organically grown ingredients that have been grown in Australia."
+    - table:
+      - rowgroup:
+        - 'row "3. Production standard: national standard for organic and bio-dynamic produce."':
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - 'cell "Production standard: national standard for organic and bio-dynamic produce."':
+            - generic: "Production standard: national standard for organic and bio-dynamic produce."
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authority: Department of Agriculture and Water Resources (http://www.agriculture.gov.au)"':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authority: Department of Agriculture and Water Resources (http://www.agriculture.gov.au)"':
+            - generic: "Competent authority: Department of Agriculture and Water Resources (http://www.agriculture.gov.au)"
+    - table:
+      - rowgroup:
+        - 'row "5. Control bodies: Code number Name Internet address AU-BIO-001 ACO Certification Ltd www.aco.net.au AU-BIO-003 Bio-dynamic Research Institute (BDRI) www.demeter.org.au AU-BIO-004 NASAA Certified Organic www.nasaa.com.au AU-BIO-005 Organic Food Chain Pty Ltd (OFC) www.organicfoodchain.com.au AU-BIO-006 AUS-QUAL Pty Ltd www.ausqual.com.au AU-BIO-007 Southern Cross Certified Australia Pty Ltd https://www.sxcertified.com.au"':
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - 'cell "Control bodies: Code number Name Internet address AU-BIO-001 ACO Certification Ltd www.aco.net.au AU-BIO-003 Bio-dynamic Research Institute (BDRI) www.demeter.org.au AU-BIO-004 NASAA Certified Organic www.nasaa.com.au AU-BIO-005 Organic Food Chain Pty Ltd (OFC) www.organicfoodchain.com.au AU-BIO-006 AUS-QUAL Pty Ltd www.ausqual.com.au AU-BIO-007 Southern Cross Certified Australia Pty Ltd https://www.sxcertified.com.au"':
+            - generic: "Control bodies:"
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "AU-BIO-001 ACO Certification Ltd www.aco.net.au":
+                  - cell "AU-BIO-001":
+                    - paragraph: AU-BIO-001
+                  - cell "ACO Certification Ltd":
+                    - paragraph: ACO Certification Ltd
+                  - cell "www.aco.net.au":
+                    - paragraph: www.aco.net.au
+                - row "AU-BIO-003 Bio-dynamic Research Institute (BDRI) www.demeter.org.au":
+                  - cell "AU-BIO-003":
+                    - paragraph: AU-BIO-003
+                  - cell "Bio-dynamic Research Institute (BDRI)":
+                    - paragraph: Bio-dynamic Research Institute (BDRI)
+                  - cell "www.demeter.org.au":
+                    - paragraph: www.demeter.org.au
+                - row "AU-BIO-004 NASAA Certified Organic www.nasaa.com.au":
+                  - cell "AU-BIO-004":
+                    - paragraph: AU-BIO-004
+                  - cell "NASAA Certified Organic":
+                    - paragraph: NASAA Certified Organic
+                  - cell "www.nasaa.com.au":
+                    - paragraph: www.nasaa.com.au
+                - row "AU-BIO-005 Organic Food Chain Pty Ltd (OFC) www.organicfoodchain.com.au":
+                  - cell "AU-BIO-005":
+                    - paragraph: AU-BIO-005
+                  - cell "Organic Food Chain Pty Ltd (OFC)":
+                    - paragraph: Organic Food Chain Pty Ltd (OFC)
+                  - cell "www.organicfoodchain.com.au":
+                    - paragraph: www.organicfoodchain.com.au
+                - row "AU-BIO-006 AUS-QUAL Pty Ltd www.ausqual.com.au":
+                  - cell "AU-BIO-006":
+                    - paragraph: AU-BIO-006
+                  - cell "AUS-QUAL Pty Ltd":
+                    - paragraph: AUS-QUAL Pty Ltd
+                  - cell "www.ausqual.com.au":
+                    - paragraph: www.ausqual.com.au
+                - row "AU-BIO-007 Southern Cross Certified Australia Pty Ltd https://www.sxcertified.com.au":
+                  - cell "AU-BIO-007":
+                    - paragraph: AU-BIO-007
+                  - cell "Southern Cross Certified Australia Pty Ltd":
+                    - paragraph: Southern Cross Certified Australia Pty Ltd
+                  - cell "https://www.sxcertified.com.au":
+                    - paragraph: https://www.sxcertified.com.au
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate issuing bodies: as at point 5."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate issuing bodies: as at point 5."':
+            - generic: "Certificate issuing bodies: as at point 5."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - paragraph: CANADA
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products Designation of category as in Annex II Limitations Unprocessed plant products A Live animals or unprocessed animal products B Processed agricultural products for use as food D Processed agricultural products for use as feed E Vegetative propagating material and seeds for cultivation F":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products Designation of category as in Annex II Limitations Unprocessed plant products A Live animals or unprocessed animal products B Processed agricultural products for use as food D Processed agricultural products for use as feed E Vegetative propagating material and seeds for cultivation F":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products Designation of category as in Annex II Limitations":
+                  - cell "Category of products":
+                    - paragraph: Category of products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Unprocessed plant products A":
+                  - cell "Unprocessed plant products":
+                    - paragraph: Unprocessed plant products
+                  - cell "A":
+                    - paragraph: A
+                  - cell:
+                    - paragraph
+                - row "Live animals or unprocessed animal products B":
+                  - cell "Live animals or unprocessed animal products":
+                    - paragraph: Live animals or unprocessed animal products
+                  - cell "B":
+                    - paragraph: B
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as food D":
+                  - cell "Processed agricultural products for use as food":
+                    - paragraph: Processed agricultural products for use as food
+                  - cell "D":
+                    - paragraph: D
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as feed E":
+                  - cell "Processed agricultural products for use as feed":
+                    - paragraph: Processed agricultural products for use as feed
+                  - cell "E":
+                    - paragraph: E
+                  - cell:
+                    - paragraph
+                - row "Vegetative propagating material and seeds for cultivation F":
+                  - cell "Vegetative propagating material and seeds for cultivation":
+                    - paragraph: Vegetative propagating material and seeds for cultivation
+                  - cell "F":
+                    - paragraph: F
+                  - cell:
+                    - paragraph
+    - table:
+      - rowgroup:
+        - 'row "2. Origin: products of category A, B and F that have been grown in Canada and products of category D and E processed in Canada with organically grown ingredients that have been grown in Canada or that have been imported into Canada in accordance with the Canadian legislation."':
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - 'cell "Origin: products of category A, B and F that have been grown in Canada and products of category D and E processed in Canada with organically grown ingredients that have been grown in Canada or that have been imported into Canada in accordance with the Canadian legislation."':
+            - generic: "Origin: products of category A, B and F that have been grown in Canada and products of category D and E processed in Canada with organically grown ingredients that have been grown in Canada or that have been imported into Canada in accordance with the Canadian legislation."
+    - table:
+      - rowgroup:
+        - 'row "3. Production standard: Organic Products Regulation."':
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - 'cell "Production standard: Organic Products Regulation."':
+            - generic: "Production standard: Organic Products Regulation."
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authority: Canadian Food Inspection Agency (CFIA), www.inspection.gc.ca"':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authority: Canadian Food Inspection Agency (CFIA), www.inspection.gc.ca"':
+            - generic: "Competent authority: Canadian Food Inspection Agency (CFIA), www.inspection.gc.ca"
+    - table:
+      - rowgroup:
+        - row:
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - cell:
+            - generic: Control bodies
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "CA-ORG-002 British Columbia Association for Regenerative Agriculture (BCARA) www.certifiedorganic.bc.ca":
+                  - cell "CA-ORG-002":
+                    - paragraph: CA-ORG-002
+                  - cell "British Columbia Association for Regenerative Agriculture (BCARA)":
+                    - paragraph: British Columbia Association for Regenerative Agriculture (BCARA)
+                  - cell "www.certifiedorganic.bc.ca":
+                    - paragraph: www.certifiedorganic.bc.ca
+                - row "CA-ORG-003 CCOF Certification Services www.ccof.org":
+                  - cell "CA-ORG-003":
+                    - paragraph: CA-ORG-003
+                  - cell "CCOF Certification Services":
+                    - paragraph: CCOF Certification Services
+                  - cell "www.ccof.org":
+                    - paragraph: www.ccof.org
+                - row "CA-ORG-004 Centre for Systems Integration (CSI) www.csi-ics.com":
+                  - cell "CA-ORG-004":
+                    - paragraph: CA-ORG-004
+                  - cell "Centre for Systems Integration (CSI)":
+                    - paragraph: Centre for Systems Integration (CSI)
+                  - cell "www.csi-ics.com":
+                    - paragraph: www.csi-ics.com
+                - row "CA-ORG-005 Consorzio per il Controllo dei Prodotti Biologici Società a responsabilità limitata (CCPB SRL) www.ccpb.it":
+                  - cell "CA-ORG-005":
+                    - paragraph: CA-ORG-005
+                  - cell "Consorzio per il Controllo dei Prodotti Biologici Società a responsabilità limitata (CCPB SRL)":
+                    - paragraph: Consorzio per il Controllo dei Prodotti Biologici Società a responsabilità limitata (CCPB SRL)
+                  - cell "www.ccpb.it":
+                    - paragraph: www.ccpb.it
+                - row "CA-ORG-006 Ecocert Canada www.ecocertcanada.com":
+                  - cell "CA-ORG-006":
+                    - paragraph: CA-ORG-006
+                  - cell "Ecocert Canada":
+                    - paragraph: Ecocert Canada
+                  - cell "www.ecocertcanada.com":
+                    - paragraph: www.ecocertcanada.com
+                - row "CA-ORG-007 Fraser Valley Organic Producers Association (FVOPA) www.fvopa.ca":
+                  - cell "CA-ORG-007":
+                    - paragraph: CA-ORG-007
+                  - cell "Fraser Valley Organic Producers Association (FVOPA)":
+                    - paragraph: Fraser Valley Organic Producers Association (FVOPA)
+                  - cell "www.fvopa.ca":
+                    - paragraph: www.fvopa.ca
+                - row "CA-ORG-009 International Certification Services Incorporated (ICS) www.ics-intl.com":
+                  - cell "CA-ORG-009":
+                    - paragraph: CA-ORG-009
+                  - cell "International Certification Services Incorporated (ICS)":
+                    - paragraph: International Certification Services Incorporated (ICS)
+                  - cell "www.ics-intl.com":
+                    - paragraph: www.ics-intl.com
+                - row "CA-ORG-010 LETIS S.A. www.letis.com.ar":
+                  - cell "CA-ORG-010":
+                    - paragraph: CA-ORG-010
+                  - cell "LETIS S.A.":
+                    - paragraph: LETIS S.A.
+                  - cell "www.letis.com.ar":
+                    - paragraph: www.letis.com.ar
+                - row "CA-ORG-013 Organic Crop Improvement Association (OCIA) www.ocia.org":
+                  - cell "CA-ORG-013":
+                    - paragraph: CA-ORG-013
+                  - cell "Organic Crop Improvement Association (OCIA)":
+                    - paragraph: Organic Crop Improvement Association (OCIA)
+                  - cell "www.ocia.org":
+                    - paragraph: www.ocia.org
+                - row "CA-ORG-014 Organic Producers Association of Manitoba Cooperative Incorporated (OPAM) www.opam-mb.com":
+                  - cell "CA-ORG-014":
+                    - paragraph: CA-ORG-014
+                  - cell "Organic Producers Association of Manitoba Cooperative Incorporated (OPAM)":
+                    - paragraph: Organic Producers Association of Manitoba Cooperative Incorporated (OPAM)
+                  - cell "www.opam-mb.com":
+                    - paragraph: www.opam-mb.com
+                - row "CA-ORG-015 Pacific Agricultural Certification Society (PACS) www.pacscertifiedorganic.ca":
+                  - cell "CA-ORG-015":
+                    - paragraph: CA-ORG-015
+                  - cell "Pacific Agricultural Certification Society (PACS)":
+                    - paragraph: Pacific Agricultural Certification Society (PACS)
+                  - cell "www.pacscertifiedorganic.ca":
+                    - paragraph: www.pacscertifiedorganic.ca
+                - row "CA-ORG-016 Pro-Cert Organic Systems Ltd (Pro-Cert) www.ocpro.ca":
+                  - cell "CA-ORG-016":
+                    - paragraph: CA-ORG-016
+                  - cell "Pro-Cert Organic Systems Ltd (Pro-Cert)":
+                    - paragraph: Pro-Cert Organic Systems Ltd (Pro-Cert)
+                  - cell "www.ocpro.ca":
+                    - paragraph: www.ocpro.ca
+                - row "CA-ORG-017 Quality Assurance International Incorporated (QAI) http://www.qai-inc.com":
+                  - cell "CA-ORG-017":
+                    - paragraph: CA-ORG-017
+                  - cell "Quality Assurance International Incorporated (QAI)":
+                    - paragraph: Quality Assurance International Incorporated (QAI)
+                  - cell "http://www.qai-inc.com":
+                    - paragraph: http://www.qai-inc.com
+                - row "CA-ORG-018 Quality Certification Services (QCS) www.qcsinfo.org":
+                  - cell "CA-ORG-018":
+                    - paragraph: CA-ORG-018
+                  - cell "Quality Certification Services (QCS)":
+                    - paragraph: Quality Certification Services (QCS)
+                  - cell "www.qcsinfo.org":
+                    - paragraph: www.qcsinfo.org
+                - row "CA-ORG-019 Organisme de Certification Québec Vrai (OCQV) http://www.quebecvrai.org/":
+                  - cell "CA-ORG-019":
+                    - paragraph: CA-ORG-019
+                  - cell "Organisme de Certification Québec Vrai (OCQV)":
+                    - paragraph: Organisme de Certification Québec Vrai (OCQV)
+                  - cell "http://www.quebecvrai.org/":
+                    - paragraph: http://www.quebecvrai.org/
+                - row "CA-ORG-021 TransCanada Organic Certification Services (TCO Cert) http://www.tcocert.ca/contacts/":
+                  - cell "CA-ORG-021":
+                    - paragraph: CA-ORG-021
+                  - cell "TransCanada Organic Certification Services (TCO Cert)":
+                    - paragraph: TransCanada Organic Certification Services (TCO Cert)
+                  - cell "http://www.tcocert.ca/contacts/":
+                    - paragraph: http://www.tcocert.ca/contacts/
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate issuing bodies: as at point 5."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate issuing bodies: as at point 5."':
+            - generic: "Certificate issuing bodies: as at point 5."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - paragraph: COSTA RICA
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Processed agricultural products for use as food (3) D Processed plant products only Vegetative propagating material and seeds for cultivation F":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Processed agricultural products for use as food (3) D Processed plant products only Vegetative propagating material and seeds for cultivation F":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products or products Designation of category as in Annex II Limitations":
+                  - cell "Category of products or products":
+                    - paragraph: Category of products or products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Unprocessed plant products A":
+                  - cell "Unprocessed plant products":
+                    - paragraph: Unprocessed plant products
+                  - cell "A":
+                    - paragraph: A
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as food (3) D Processed plant products only":
+                  - cell "Processed agricultural products for use as food (3)":
+                    - paragraph:
+                      - text: Processed agricultural products for use as food
+                      - link "(3)":
+                        - /url: "#ntr3-L_2021465EN.01001401-E0003"
+                  - cell "D":
+                    - paragraph: D
+                  - cell "Processed plant products only":
+                    - paragraph: Processed plant products only
+                - row "Vegetative propagating material and seeds for cultivation F":
+                  - cell "Vegetative propagating material and seeds for cultivation":
+                    - paragraph: Vegetative propagating material and seeds for cultivation
+                  - cell "F":
+                    - paragraph: F
+                  - cell:
+                    - paragraph
+    - table:
+      - rowgroup:
+        - 'row "2. Origin: products of categories A and F that have been grown in Costa Rica and products of category D processed in Costa Rica with organically grown ingredients that have been grown in Costa Rica."':
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - 'cell "Origin: products of categories A and F that have been grown in Costa Rica and products of category D processed in Costa Rica with organically grown ingredients that have been grown in Costa Rica."':
+            - generic: "Origin: products of categories A and F that have been grown in Costa Rica and products of category D processed in Costa Rica with organically grown ingredients that have been grown in Costa Rica."
+    - table:
+      - rowgroup:
+        - 'row "3. Production standard: Reglamento sobre la agricultura orgánica."':
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - 'cell "Production standard: Reglamento sobre la agricultura orgánica."':
+            - generic: "Production standard: Reglamento sobre la agricultura orgánica."
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authority: Servicio Fitosanitario del Estado, Ministerio de Agricultura y Ganadería, www.sfe.go.cr"':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authority: Servicio Fitosanitario del Estado, Ministerio de Agricultura y Ganadería, www.sfe.go.cr"':
+            - generic: "Competent authority: Servicio Fitosanitario del Estado, Ministerio de Agricultura y Ganadería, www.sfe.go.cr"
+    - table:
+      - rowgroup:
+        - 'row "5. Control bodies: Code number Name Internet address CR-BIO-002 Kiwa BCS Costa Rica Limitada www.kiwa.lat CR-BIO-003 Eco-LOGICA www.eco-logica.com CR-BIO-007 Primus Auditing Operations de Costa Rica S.A. www.primusauditingops.com"':
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - 'cell "Control bodies: Code number Name Internet address CR-BIO-002 Kiwa BCS Costa Rica Limitada www.kiwa.lat CR-BIO-003 Eco-LOGICA www.eco-logica.com CR-BIO-007 Primus Auditing Operations de Costa Rica S.A. www.primusauditingops.com"':
+            - generic: "Control bodies:"
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "CR-BIO-002 Kiwa BCS Costa Rica Limitada www.kiwa.lat":
+                  - cell "CR-BIO-002":
+                    - paragraph: CR-BIO-002
+                  - cell "Kiwa BCS Costa Rica Limitada":
+                    - paragraph: Kiwa BCS Costa Rica Limitada
+                  - cell "www.kiwa.lat":
+                    - paragraph: www.kiwa.lat
+                - row "CR-BIO-003 Eco-LOGICA www.eco-logica.com":
+                  - cell "CR-BIO-003":
+                    - paragraph: CR-BIO-003
+                  - cell "Eco-LOGICA":
+                    - paragraph: Eco-LOGICA
+                  - cell "www.eco-logica.com":
+                    - paragraph: www.eco-logica.com
+                - row "CR-BIO-007 Primus Auditing Operations de Costa Rica S.A. www.primusauditingops.com":
+                  - cell "CR-BIO-007":
+                    - paragraph: CR-BIO-007
+                  - cell "Primus Auditing Operations de Costa Rica S.A.":
+                    - paragraph: Primus Auditing Operations de Costa Rica S.A.
+                  - cell "www.primusauditingops.com":
+                    - paragraph: www.primusauditingops.com
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate issuing bodies: as at point 5."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate issuing bodies: as at point 5."':
+            - generic: "Certificate issuing bodies: as at point 5."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - paragraph: ISRAEL
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Processed agricultural products for use as food (4) D Composed essentially of one or more ingredients of plant origin Vegetative propagating material and seeds for cultivation F":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Processed agricultural products for use as food (4) D Composed essentially of one or more ingredients of plant origin Vegetative propagating material and seeds for cultivation F":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products or products Designation of category as in Annex II Limitations":
+                  - cell "Category of products or products":
+                    - paragraph: Category of products or products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Unprocessed plant products A":
+                  - cell "Unprocessed plant products":
+                    - paragraph: Unprocessed plant products
+                  - cell "A":
+                    - paragraph: A
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as food (4) D Composed essentially of one or more ingredients of plant origin":
+                  - cell "Processed agricultural products for use as food (4)":
+                    - paragraph:
+                      - text: Processed agricultural products for use as food
+                      - link "(4)":
+                        - /url: "#ntr4-L_2021465EN.01001401-E0004"
+                  - cell "D":
+                    - paragraph: D
+                  - cell "Composed essentially of one or more ingredients of plant origin":
+                    - paragraph: Composed essentially of one or more ingredients of plant origin
+                - row "Vegetative propagating material and seeds for cultivation F":
+                  - cell "Vegetative propagating material and seeds for cultivation":
+                    - paragraph: Vegetative propagating material and seeds for cultivation
+                  - cell "F":
+                    - paragraph: F
+                  - cell:
+                    - paragraph
+    - table:
+      - rowgroup:
+        - 'row "2. Origin: products of category A and F that have been grown in Israel and products of category D processed in Israel with organically grown ingredients that have been grown in Israel or that have been imported into Israel: — either from the Union, — or from a third country in the framework of a regime which is recognised as equivalent in accordance with Article 33(2) of Regulation (EC) No 834/2007."':
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - 'cell "Origin: products of category A and F that have been grown in Israel and products of category D processed in Israel with organically grown ingredients that have been grown in Israel or that have been imported into Israel: — either from the Union, — or from a third country in the framework of a regime which is recognised as equivalent in accordance with Article 33(2) of Regulation (EC) No 834/2007."':
+            - generic: "Origin: products of category A and F that have been grown in Israel and products of category D processed in Israel with organically grown ingredients that have been grown in Israel or that have been imported into Israel:"
+            - table:
+              - rowgroup:
+                - row "— either from the Union,":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "either from the Union,":
+                    - paragraph: either from the Union,
+            - table:
+              - rowgroup:
+                - row "— or from a third country in the framework of a regime which is recognised as equivalent in accordance with Article 33(2) of Regulation (EC) No 834/2007.":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "or from a third country in the framework of a regime which is recognised as equivalent in accordance with Article 33(2) of Regulation (EC) No 834/2007.":
+                    - paragraph: or from a third country in the framework of a regime which is recognised as equivalent in accordance with Article 33(2) of Regulation (EC) No 834/2007.
+    - table:
+      - rowgroup:
+        - 'row "3. Production standard: Law for the Regulation of Organic Produce, 5765-2005, and its relevant Regulations."':
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - 'cell "Production standard: Law for the Regulation of Organic Produce, 5765-2005, and its relevant Regulations."':
+            - generic: "Production standard: Law for the Regulation of Organic Produce, 5765-2005, and its relevant Regulations."
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authority: Plant Protection and Inspection Services (PPIS), www.ppis.moag.gov.il"':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authority: Plant Protection and Inspection Services (PPIS), www.ppis.moag.gov.il"':
+            - generic: "Competent authority: Plant Protection and Inspection Services (PPIS), www.ppis.moag.gov.il"
+    - table:
+      - rowgroup:
+        - row "5. Control bodies Code number Name Internet address IL-ORG-001 Secal Israel Inspection and certification www.skal.co.il IL-ORG-002 Agrior Ltd-Organic Inspection & Certification www.agrior.co.il IL-ORG-003 IQC Institute of Quality & Control www.iqc.co.il IL-ORG-004 Plant Protection and Inspection Services (PPIS) www.ppis.moag.gov.il":
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - cell "Control bodies Code number Name Internet address IL-ORG-001 Secal Israel Inspection and certification www.skal.co.il IL-ORG-002 Agrior Ltd-Organic Inspection & Certification www.agrior.co.il IL-ORG-003 IQC Institute of Quality & Control www.iqc.co.il IL-ORG-004 Plant Protection and Inspection Services (PPIS) www.ppis.moag.gov.il":
+            - generic: Control bodies
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "IL-ORG-001 Secal Israel Inspection and certification www.skal.co.il":
+                  - cell "IL-ORG-001":
+                    - paragraph: IL-ORG-001
+                  - cell "Secal Israel Inspection and certification":
+                    - paragraph: Secal Israel Inspection and certification
+                  - cell "www.skal.co.il":
+                    - paragraph: www.skal.co.il
+                - row "IL-ORG-002 Agrior Ltd-Organic Inspection & Certification www.agrior.co.il":
+                  - cell "IL-ORG-002":
+                    - paragraph: IL-ORG-002
+                  - cell "Agrior Ltd-Organic Inspection & Certification":
+                    - paragraph: Agrior Ltd-Organic Inspection & Certification
+                  - cell "www.agrior.co.il":
+                    - paragraph: www.agrior.co.il
+                - row "IL-ORG-003 IQC Institute of Quality & Control www.iqc.co.il":
+                  - cell "IL-ORG-003":
+                    - paragraph: IL-ORG-003
+                  - cell "IQC Institute of Quality & Control":
+                    - paragraph: IQC Institute of Quality & Control
+                  - cell "www.iqc.co.il":
+                    - paragraph: www.iqc.co.il
+                - row "IL-ORG-004 Plant Protection and Inspection Services (PPIS) www.ppis.moag.gov.il":
+                  - cell "IL-ORG-004":
+                    - paragraph: IL-ORG-004
+                  - cell "Plant Protection and Inspection Services (PPIS)":
+                    - paragraph: Plant Protection and Inspection Services (PPIS)
+                  - cell "www.ppis.moag.gov.il":
+                    - paragraph: www.ppis.moag.gov.il
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate issuing bodies: as at point 5."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate issuing bodies: as at point 5."':
+            - generic: "Certificate issuing bodies: as at point 5."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - paragraph: INDIA
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Vegetative propagating material and seeds for cultivation F":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Vegetative propagating material and seeds for cultivation F":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products or products Designation of category as in Annex II Limitations":
+                  - cell "Category of products or products":
+                    - paragraph: Category of products or products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Unprocessed plant products A":
+                  - cell "Unprocessed plant products":
+                    - paragraph: Unprocessed plant products
+                  - cell "A":
+                    - paragraph: A
+                  - cell:
+                    - paragraph
+                - row "Vegetative propagating material and seeds for cultivation F":
+                  - cell "Vegetative propagating material and seeds for cultivation":
+                    - paragraph: Vegetative propagating material and seeds for cultivation
+                  - cell "F":
+                    - paragraph: F
+                  - cell:
+                    - paragraph
+    - table:
+      - rowgroup:
+        - 'row "2. Origin: products of categories A and F that have been grown in India."':
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - 'cell "Origin: products of categories A and F that have been grown in India."':
+            - generic: "Origin: products of categories A and F that have been grown in India."
+    - table:
+      - rowgroup:
+        - 'row "3. Production standard: National Programme for Organic Production."':
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - 'cell "Production standard: National Programme for Organic Production."':
+            - generic: "Production standard: National Programme for Organic Production."
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authority: Agricultural and Processed Food Products Export Development Authority APEDA, http://www.apeda.gov.in/apedawebsite/index.asp"':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authority: Agricultural and Processed Food Products Export Development Authority APEDA, http://www.apeda.gov.in/apedawebsite/index.asp"':
+            - generic: "Competent authority: Agricultural and Processed Food Products Export Development Authority APEDA, http://www.apeda.gov.in/apedawebsite/index.asp"
+    - table:
+      - rowgroup:
+        - row:
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - cell:
+            - generic: Control bodies
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "IN-ORG-001 Aditi Organic Certifications Pvt. Ltd www.aditicert.net":
+                  - cell "IN-ORG-001":
+                    - paragraph: IN-ORG-001
+                  - cell "Aditi Organic Certifications Pvt. Ltd":
+                    - paragraph: Aditi Organic Certifications Pvt. Ltd
+                  - cell "www.aditicert.net":
+                    - paragraph: www.aditicert.net
+                - row "IN-ORG-002 APOF Organic Certification Agency (AOCA) www.aoca.in":
+                  - cell "IN-ORG-002":
+                    - paragraph: IN-ORG-002
+                  - cell "APOF Organic Certification Agency (AOCA)":
+                    - paragraph: APOF Organic Certification Agency (AOCA)
+                  - cell "www.aoca.in":
+                    - paragraph: www.aoca.in
+                - row "IN-ORG-003 Bureau Veritas (India) Pvt. Limited www.bureauveritas.co.in":
+                  - cell "IN-ORG-003":
+                    - paragraph: IN-ORG-003
+                  - cell "Bureau Veritas (India) Pvt. Limited":
+                    - paragraph: Bureau Veritas (India) Pvt. Limited
+                  - cell "www.bureauveritas.co.in":
+                    - paragraph: www.bureauveritas.co.in
+                - row "IN-ORG-006 TQ Cert Services Private Limited www.tqcert.in":
+                  - cell "IN-ORG-006":
+                    - paragraph: IN-ORG-006
+                  - cell "TQ Cert Services Private Limited":
+                    - paragraph: TQ Cert Services Private Limited
+                  - cell "www.tqcert.in":
+                    - paragraph: www.tqcert.in
+                - row "IN-ORG-007 IMO Control Pvt. Ltd www.imocontrol.in":
+                  - cell "IN-ORG-007":
+                    - paragraph: IN-ORG-007
+                  - cell "IMO Control Pvt. Ltd":
+                    - paragraph: IMO Control Pvt. Ltd
+                  - cell "www.imocontrol.in":
+                    - paragraph: www.imocontrol.in
+                - row "IN-ORG-011 Natural Organic Certification Agro Pvt. Ltd www.nocaagro.com":
+                  - cell "IN-ORG-011":
+                    - paragraph: IN-ORG-011
+                  - cell "Natural Organic Certification Agro Pvt. Ltd":
+                    - paragraph: Natural Organic Certification Agro Pvt. Ltd
+                  - cell "www.nocaagro.com":
+                    - paragraph: www.nocaagro.com
+                - row "IN-ORG-013 SGS India Pvt. Ltd www.sgsgroup.in":
+                  - cell "IN-ORG-013":
+                    - paragraph: IN-ORG-013
+                  - cell "SGS India Pvt. Ltd":
+                    - paragraph: SGS India Pvt. Ltd
+                  - cell "www.sgsgroup.in":
+                    - paragraph: www.sgsgroup.in
+                - row "IN-ORG-014 Uttarakhand State Organic Certification Agency (USOCA) www.usoca.org":
+                  - cell "IN-ORG-014":
+                    - paragraph: IN-ORG-014
+                  - cell "Uttarakhand State Organic Certification Agency (USOCA)":
+                    - paragraph: Uttarakhand State Organic Certification Agency (USOCA)
+                  - cell "www.usoca.org":
+                    - paragraph: www.usoca.org
+                - row "IN-ORG-016 Rajasthan State Organic Certification Agency (RSOCA) www.agriculture.rajasthan.gov.in/rssopca":
+                  - cell "IN-ORG-016":
+                    - paragraph: IN-ORG-016
+                  - cell "Rajasthan State Organic Certification Agency (RSOCA)":
+                    - paragraph: Rajasthan State Organic Certification Agency (RSOCA)
+                  - cell "www.agriculture.rajasthan.gov.in/rssopca":
+                    - paragraph: www.agriculture.rajasthan.gov.in/rssopca
+                - row "IN-ORG-017 Chhattisgarh Certification Society, India (CGCERT) www.cgcert.com":
+                  - cell "IN-ORG-017":
+                    - paragraph: IN-ORG-017
+                  - cell "Chhattisgarh Certification Society, India (CGCERT)":
+                    - paragraph: Chhattisgarh Certification Society, India (CGCERT)
+                  - cell "www.cgcert.com":
+                    - paragraph: www.cgcert.com
+                - row "IN-ORG-018 Tamil Nadu Organic Certification Department (TNOCD) www.tnocd.net":
+                  - cell "IN-ORG-018":
+                    - paragraph: IN-ORG-018
+                  - cell "Tamil Nadu Organic Certification Department (TNOCD)":
+                    - paragraph: Tamil Nadu Organic Certification Department (TNOCD)
+                  - cell "www.tnocd.net":
+                    - paragraph: www.tnocd.net
+                - row "IN-ORG-021 Madhya Pradesh State Organic Certification Agency (MPSOCA) www.mpsoca.org":
+                  - cell "IN-ORG-021":
+                    - paragraph: IN-ORG-021
+                  - cell "Madhya Pradesh State Organic Certification Agency (MPSOCA)":
+                    - paragraph: Madhya Pradesh State Organic Certification Agency (MPSOCA)
+                  - cell "www.mpsoca.org":
+                    - paragraph: www.mpsoca.org
+                - row "IN-ORG-023 Faircert Certification Services Pvt Ltd www.faircert.com":
+                  - cell "IN-ORG-023":
+                    - paragraph: IN-ORG-023
+                  - cell "Faircert Certification Services Pvt Ltd":
+                    - paragraph: Faircert Certification Services Pvt Ltd
+                  - cell "www.faircert.com":
+                    - paragraph: www.faircert.com
+                - row "IN-ORG-024 Odisha State Organic Certification Agency (OSOCA) www.ossopca.org":
+                  - cell "IN-ORG-024":
+                    - paragraph: IN-ORG-024
+                  - cell "Odisha State Organic Certification Agency (OSOCA)":
+                    - paragraph: Odisha State Organic Certification Agency (OSOCA)
+                  - cell "www.ossopca.org":
+                    - paragraph: www.ossopca.org
+                - row "IN-ORG-025 Gujarat Organic Products Certification Agency (GOPCA) www.gopca.in":
+                  - cell "IN-ORG-025":
+                    - paragraph: IN-ORG-025
+                  - cell "Gujarat Organic Products Certification Agency (GOPCA)":
+                    - paragraph: Gujarat Organic Products Certification Agency (GOPCA)
+                  - cell "www.gopca.in":
+                    - paragraph: www.gopca.in
+                - row "IN-ORG-026 Uttar Pradesh State Organic Certification Agency www.upsoca.org":
+                  - cell "IN-ORG-026":
+                    - paragraph: IN-ORG-026
+                  - cell "Uttar Pradesh State Organic Certification Agency":
+                    - paragraph: Uttar Pradesh State Organic Certification Agency
+                  - cell "www.upsoca.org":
+                    - paragraph: www.upsoca.org
+                - row "IN-ORG-027 Karnataka State Organic Certification Agency www.kssoca.org":
+                  - cell "IN-ORG-027":
+                    - paragraph: IN-ORG-027
+                  - cell "Karnataka State Organic Certification Agency":
+                    - paragraph: Karnataka State Organic Certification Agency
+                  - cell "www.kssoca.org":
+                    - paragraph: www.kssoca.org
+                - row "IN-ORG-028 Sikkim State Organic Certification Agency (SSOCA) www.ssoca.in":
+                  - cell "IN-ORG-028":
+                    - paragraph: IN-ORG-028
+                  - cell "Sikkim State Organic Certification Agency (SSOCA)":
+                    - paragraph: Sikkim State Organic Certification Agency (SSOCA)
+                  - cell "www.ssoca.in":
+                    - paragraph: www.ssoca.in
+                - row "IN-ORG-029 Global Certification Society www.glocert.org":
+                  - cell "IN-ORG-029":
+                    - paragraph: IN-ORG-029
+                  - cell "Global Certification Society":
+                    - paragraph: Global Certification Society
+                  - cell "www.glocert.org":
+                    - paragraph: www.glocert.org
+                - row "IN-ORG-030 GreenCert Biosolutions Pvt. Ltd www.greencertindia.in":
+                  - cell "IN-ORG-030":
+                    - paragraph: IN-ORG-030
+                  - cell "GreenCert Biosolutions Pvt. Ltd":
+                    - paragraph: GreenCert Biosolutions Pvt. Ltd
+                  - cell "www.greencertindia.in":
+                    - paragraph: www.greencertindia.in
+                - row "IN-ORG-031 Telangana State Organic Certification Authority www.tsoca.telangana.gov.in":
+                  - cell "IN-ORG-031":
+                    - paragraph: IN-ORG-031
+                  - cell "Telangana State Organic Certification Authority":
+                    - paragraph: Telangana State Organic Certification Authority
+                  - cell "www.tsoca.telangana.gov.in":
+                    - paragraph: www.tsoca.telangana.gov.in
+                - row "IN-ORG-032 Bihar State Seed and Organic Certification Agency (BSSOCA) www.bssca.co.in":
+                  - cell "IN-ORG-032":
+                    - paragraph: IN-ORG-032
+                  - cell "Bihar State Seed and Organic Certification Agency (BSSOCA)":
+                    - paragraph: Bihar State Seed and Organic Certification Agency (BSSOCA)
+                  - cell "www.bssca.co.in":
+                    - paragraph: www.bssca.co.in
+                - row "IN-ORG-033 Reliable Organic Certification Organization https://rococert.com":
+                  - cell "IN-ORG-033":
+                    - paragraph: IN-ORG-033
+                  - cell "Reliable Organic Certification Organization":
+                    - paragraph: Reliable Organic Certification Organization
+                  - cell "https://rococert.com":
+                    - paragraph: https://rococert.com
+                - row "IN-ORG-034 Bhumaatha Organic Certification Bureau (BOCB) http://www.agricertbocb.in":
+                  - cell "IN-ORG-034":
+                    - paragraph: IN-ORG-034
+                  - cell "Bhumaatha Organic Certification Bureau (BOCB)":
+                    - paragraph: Bhumaatha Organic Certification Bureau (BOCB)
+                  - cell "http://www.agricertbocb.in":
+                    - paragraph: http://www.agricertbocb.in
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate issuing bodies: as at point 5."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate issuing bodies: as at point 5."':
+            - generic: "Certificate issuing bodies: as at point 5."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - paragraph: JAPAN
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Processed agricultural products for use as food (5) D Composed essentially of one or more ingredients of plant origin":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Processed agricultural products for use as food (5) D Composed essentially of one or more ingredients of plant origin":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products or products Designation of category as in Annex II Limitations":
+                  - cell "Category of products or products":
+                    - paragraph: Category of products or products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Unprocessed plant products A":
+                  - cell "Unprocessed plant products":
+                    - paragraph: Unprocessed plant products
+                  - cell "A":
+                    - paragraph: A
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as food (5) D Composed essentially of one or more ingredients of plant origin":
+                  - cell "Processed agricultural products for use as food (5)":
+                    - paragraph:
+                      - text: Processed agricultural products for use as food
+                      - link "(5)":
+                        - /url: "#ntr5-L_2021465EN.01001401-E0005"
+                  - cell "D":
+                    - paragraph: D
+                  - cell "Composed essentially of one or more ingredients of plant origin":
+                    - paragraph: Composed essentially of one or more ingredients of plant origin
+    - table:
+      - rowgroup:
+        - 'row "2. Origin: products of category A that have been grown in Japan and products of category D processed in Japan with organically grown ingredients that have been grown in Japan or that have been imported into Japan: — either from the Union, — or from a third country for which Japan has recognised that the products have been produced and controlled in that third country in accordance with rules equivalent to those laid down in the Japanese legislation."':
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - 'cell "Origin: products of category A that have been grown in Japan and products of category D processed in Japan with organically grown ingredients that have been grown in Japan or that have been imported into Japan: — either from the Union, — or from a third country for which Japan has recognised that the products have been produced and controlled in that third country in accordance with rules equivalent to those laid down in the Japanese legislation."':
+            - generic: "Origin: products of category A that have been grown in Japan and products of category D processed in Japan with organically grown ingredients that have been grown in Japan or that have been imported into Japan:"
+            - table:
+              - rowgroup:
+                - row "— either from the Union,":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "either from the Union,":
+                    - paragraph: either from the Union,
+            - table:
+              - rowgroup:
+                - row "— or from a third country for which Japan has recognised that the products have been produced and controlled in that third country in accordance with rules equivalent to those laid down in the Japanese legislation.":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "or from a third country for which Japan has recognised that the products have been produced and controlled in that third country in accordance with rules equivalent to those laid down in the Japanese legislation.":
+                    - paragraph: or from a third country for which Japan has recognised that the products have been produced and controlled in that third country in accordance with rules equivalent to those laid down in the Japanese legislation.
+    - table:
+      - rowgroup:
+        - 'row "3. Production standards: 17 Japanese Agricultural Standard for Organic Plants (Notification No 1605 of the MAFF of October 27, 2005), Japanese Agricultural Standard for Organic Processed Foods (Notification No 1606 of MAFF of October 27, 2005)."':
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - 'cell "Production standards: 17 Japanese Agricultural Standard for Organic Plants (Notification No 1605 of the MAFF of October 27, 2005), Japanese Agricultural Standard for Organic Processed Foods (Notification No 1606 of MAFF of October 27, 2005)."':
+            - generic: "Production standards: 17 Japanese Agricultural Standard for Organic Plants (Notification No 1605 of the MAFF of October 27, 2005), Japanese Agricultural Standard for Organic Processed Foods (Notification No 1606 of MAFF of October 27, 2005)."
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authorities: Food Manufacture Affairs Division, Food Industry Affairs Bureau, Ministry of Agriculture, Forestry and Fisheries, www.maff.go.jp/j/jas/index.html and Food and Agricultural Materials Inspection Center (FAMIC), www.famic.go.jp"':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authorities: Food Manufacture Affairs Division, Food Industry Affairs Bureau, Ministry of Agriculture, Forestry and Fisheries, www.maff.go.jp/j/jas/index.html and Food and Agricultural Materials Inspection Center (FAMIC), www.famic.go.jp"':
+            - generic: "Competent authorities: Food Manufacture Affairs Division, Food Industry Affairs Bureau, Ministry of Agriculture, Forestry and Fisheries, www.maff.go.jp/j/jas/index.html and Food and Agricultural Materials Inspection Center (FAMIC), www.famic.go.jp"
+    - table:
+      - rowgroup:
+        - row:
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - cell:
+            - generic: Control bodies
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "JP-BIO-001 Hyogo prefectural Organic Agriculture Society, HOAS www.hyoyuken.org":
+                  - cell "JP-BIO-001":
+                    - paragraph: JP-BIO-001
+                  - cell "Hyogo prefectural Organic Agriculture Society, HOAS":
+                    - paragraph: Hyogo prefectural Organic Agriculture Society, HOAS
+                  - cell "www.hyoyuken.org":
+                    - paragraph: www.hyoyuken.org
+                - row "JP-BIO-002 AFAS Certification Center Co., Ltd www.afasseq.com":
+                  - cell "JP-BIO-002":
+                    - paragraph: JP-BIO-002
+                  - cell "AFAS Certification Center Co., Ltd":
+                    - paragraph: AFAS Certification Center Co., Ltd
+                  - cell "www.afasseq.com":
+                    - paragraph: www.afasseq.com
+                - row "JP-BIO-003 NPO Kagoshima Organic Agriculture Association www.koaa.or.jp":
+                  - cell "JP-BIO-003":
+                    - paragraph: JP-BIO-003
+                  - cell "NPO Kagoshima Organic Agriculture Association":
+                    - paragraph: NPO Kagoshima Organic Agriculture Association
+                  - cell "www.koaa.or.jp":
+                    - paragraph: www.koaa.or.jp
+                - row "JP-BIO-004 Center of Japan Organic Farmers Group www.yu-ki.or.jp":
+                  - cell "JP-BIO-004":
+                    - paragraph: JP-BIO-004
+                  - cell "Center of Japan Organic Farmers Group":
+                    - paragraph: Center of Japan Organic Farmers Group
+                  - cell "www.yu-ki.or.jp":
+                    - paragraph: www.yu-ki.or.jp
+                - row "JP-BIO-005 Japan Organic & Natural Foods Association http://jona-japan.org/english/":
+                  - cell "JP-BIO-005":
+                    - paragraph: JP-BIO-005
+                  - cell "Japan Organic & Natural Foods Association":
+                    - paragraph: Japan Organic & Natural Foods Association
+                  - cell "http://jona-japan.org/english/":
+                    - paragraph: http://jona-japan.org/english/
+                - row "JP-BIO-006 Ecocert Japan Limited www.ecocert.co.jp":
+                  - cell "JP-BIO-006":
+                    - paragraph: JP-BIO-006
+                  - cell "Ecocert Japan Limited":
+                    - paragraph: Ecocert Japan Limited
+                  - cell "www.ecocert.co.jp":
+                    - paragraph: www.ecocert.co.jp
+                - row "JP-BIO-007 Bureau Veritas Japan Co., Ltd http://certification.bureauveritas.jp/cer-business/jas/nintei_list.html":
+                  - cell "JP-BIO-007":
+                    - paragraph: JP-BIO-007
+                  - cell "Bureau Veritas Japan Co., Ltd":
+                    - paragraph: Bureau Veritas Japan Co., Ltd
+                  - cell "http://certification.bureauveritas.jp/cer-business/jas/nintei_list.html":
+                    - paragraph: http://certification.bureauveritas.jp/cer-business/jas/nintei_list.html
+                - row "JP-BIO-008 OCIA Japan www.ocia-jp.com":
+                  - cell "JP-BIO-008":
+                    - paragraph: JP-BIO-008
+                  - cell "OCIA Japan":
+                    - paragraph: OCIA Japan
+                  - cell "www.ocia-jp.com":
+                    - paragraph: www.ocia-jp.com
+                - row "JP-BIO-009 Overseas Merchandise Inspection Co., Ltd http://www.omicnet.com/omicnet/services-en/organic-certification-en.html":
+                  - cell "JP-BIO-009":
+                    - paragraph: JP-BIO-009
+                  - cell "Overseas Merchandise Inspection Co., Ltd":
+                    - paragraph: Overseas Merchandise Inspection Co., Ltd
+                  - cell "http://www.omicnet.com/omicnet/services-en/organic-certification-en.html":
+                    - paragraph: http://www.omicnet.com/omicnet/services-en/organic-certification-en.html
+                - row "JP-BIO-010 Organic Farming Promotion Association http://yusuikyo.web.fc2.com/":
+                  - cell "JP-BIO-010":
+                    - paragraph: JP-BIO-010
+                  - cell "Organic Farming Promotion Association":
+                    - paragraph: Organic Farming Promotion Association
+                  - cell "http://yusuikyo.web.fc2.com/":
+                    - paragraph: http://yusuikyo.web.fc2.com/
+                - row "JP-BIO-011 ASAC Stands for Axis’ System for Auditing and Certification and Association for Sustainable Agricultural Certification www.axis-asac.net":
+                  - cell "JP-BIO-011":
+                    - paragraph: JP-BIO-011
+                  - cell "ASAC Stands for Axis’ System for Auditing and Certification and Association for Sustainable Agricultural Certification":
+                    - paragraph: ASAC Stands for Axis’ System for Auditing and Certification and Association for Sustainable Agricultural Certification
+                  - cell "www.axis-asac.net":
+                    - paragraph: www.axis-asac.net
+                - row "JP-BIO-012 Environmentally Friendly Rice Network www.epfnetwork.org/okome":
+                  - cell "JP-BIO-012":
+                    - paragraph: JP-BIO-012
+                  - cell "Environmentally Friendly Rice Network":
+                    - paragraph: Environmentally Friendly Rice Network
+                  - cell "www.epfnetwork.org/okome":
+                    - paragraph: www.epfnetwork.org/okome
+                - row "JP-BIO-013 Ooita Prefecture Organic Agricultural Research Center www.d-b.ne.jp/oitayuki":
+                  - cell "JP-BIO-013":
+                    - paragraph: JP-BIO-013
+                  - cell "Ooita Prefecture Organic Agricultural Research Center":
+                    - paragraph: Ooita Prefecture Organic Agricultural Research Center
+                  - cell "www.d-b.ne.jp/oitayuki":
+                    - paragraph: www.d-b.ne.jp/oitayuki
+                - row "JP-BIO-014 AINOU www.ainou.or.jp/ainohtm/disclosure/nintei-kouhyou.htm":
+                  - cell "JP-BIO-014":
+                    - paragraph: JP-BIO-014
+                  - cell "AINOU":
+                    - paragraph: AINOU
+                  - cell "www.ainou.or.jp/ainohtm/disclosure/nintei-kouhyou.htm":
+                    - paragraph: www.ainou.or.jp/ainohtm/disclosure/nintei-kouhyou.htm
+                - row "JP-BIO-015 SGS Japan Incorporation www.jp.sgs.com/ja/home_jp_v2.htm":
+                  - cell "JP-BIO-015":
+                    - paragraph: JP-BIO-015
+                  - cell "SGS Japan Incorporation":
+                    - paragraph: SGS Japan Incorporation
+                  - cell "www.jp.sgs.com/ja/home_jp_v2.htm":
+                    - paragraph: www.jp.sgs.com/ja/home_jp_v2.htm
+                - row "JP-BIO-016 Ehime Organic Agricultural Association http://eoaa.sakura.ne.jp/":
+                  - cell "JP-BIO-016":
+                    - paragraph: JP-BIO-016
+                  - cell "Ehime Organic Agricultural Association":
+                    - paragraph: Ehime Organic Agricultural Association
+                  - cell "http://eoaa.sakura.ne.jp/":
+                    - paragraph: http://eoaa.sakura.ne.jp/
+                - row "JP-BIO-017 Center for Eco-design Certification Co. Ltd http://www.eco-de.co.jp/list.html":
+                  - cell "JP-BIO-017":
+                    - paragraph: JP-BIO-017
+                  - cell "Center for Eco-design Certification Co. Ltd":
+                    - paragraph: Center for Eco-design Certification Co. Ltd
+                  - cell "http://www.eco-de.co.jp/list.html":
+                    - paragraph: http://www.eco-de.co.jp/list.html
+                - row "JP-BIO-018 Organic Certification Association http://yuukinin.org/index.html":
+                  - cell "JP-BIO-018":
+                    - paragraph: JP-BIO-018
+                  - cell "Organic Certification Association":
+                    - paragraph: Organic Certification Association
+                  - cell "http://yuukinin.org/index.html":
+                    - paragraph: http://yuukinin.org/index.html
+                - row "JP-BIO-020 Hiroshima Environment and Health Association https://www.kanhokyo.or.jp/":
+                  - cell "JP-BIO-020":
+                    - paragraph: JP-BIO-020
+                  - cell "Hiroshima Environment and Health Association":
+                    - paragraph: Hiroshima Environment and Health Association
+                  - cell "https://www.kanhokyo.or.jp/":
+                    - paragraph: https://www.kanhokyo.or.jp/
+                - row "JP-BIO-021 ACCIS Inc. https://www.accis.jp/":
+                  - cell "JP-BIO-021":
+                    - paragraph: JP-BIO-021
+                  - cell "ACCIS Inc.":
+                    - paragraph: ACCIS Inc.
+                  - cell "https://www.accis.jp/":
+                    - paragraph: https://www.accis.jp/
+                - row "JP-BIO-022 Organic Certification Organization Co. Ltd www.oco45.net":
+                  - cell "JP-BIO-022":
+                    - paragraph: JP-BIO-022
+                  - cell "Organic Certification Organization Co. Ltd":
+                    - paragraph: Organic Certification Organization Co. Ltd
+                  - cell "www.oco45.net":
+                    - paragraph: www.oco45.net
+                - row "JP-BIO-023 Rice Research Organic Food Institute https://rrofi.jp/":
+                  - cell "JP-BIO-023":
+                    - paragraph: JP-BIO-023
+                  - cell "Rice Research Organic Food Institute":
+                    - paragraph: Rice Research Organic Food Institute
+                  - cell "https://rrofi.jp/":
+                    - paragraph: https://rrofi.jp/
+                - row "JP-BIO-024 Aya town miyazaki, Japan http://www.town.aya.miyazaki.jp/ayatown/organicfarming/index.html":
+                  - cell "JP-BIO-024":
+                    - paragraph: JP-BIO-024
+                  - cell "Aya town miyazaki, Japan":
+                    - paragraph: Aya town miyazaki, Japan
+                  - cell "http://www.town.aya.miyazaki.jp/ayatown/organicfarming/index.html":
+                    - paragraph: http://www.town.aya.miyazaki.jp/ayatown/organicfarming/index.html
+                - row "JP-BIO-025 Tokushima Organic Certified Association http://www.tokukaigi.or.jp/yuuki/":
+                  - cell "JP-BIO-025":
+                    - paragraph: JP-BIO-025
+                  - cell "Tokushima Organic Certified Association":
+                    - paragraph: Tokushima Organic Certified Association
+                  - cell "http://www.tokukaigi.or.jp/yuuki/":
+                    - paragraph: http://www.tokukaigi.or.jp/yuuki/
+                - row "JP-BIO-027 NPO Kumamoto Organic Agriculture Association http://www.kumayuken.org/":
+                  - cell "JP-BIO-027":
+                    - paragraph: JP-BIO-027
+                  - cell "NPO Kumamoto Organic Agriculture Association":
+                    - paragraph: NPO Kumamoto Organic Agriculture Association
+                  - cell "http://www.kumayuken.org/":
+                    - paragraph: http://www.kumayuken.org/
+                - row "JP-BIO-028 Hokkaido Organic Promoters Association http://www.hosk.jp/CCP.html":
+                  - cell "JP-BIO-028":
+                    - paragraph: JP-BIO-028
+                  - cell "Hokkaido Organic Promoters Association":
+                    - paragraph: Hokkaido Organic Promoters Association
+                  - cell "http://www.hosk.jp/CCP.html":
+                    - paragraph: http://www.hosk.jp/CCP.html
+                - row "JP-BIO-029 Association of organic agriculture certification Kochi corporation NPO http://www8.ocn.ne.jp/~koaa/jisseki.html":
+                  - cell "JP-BIO-029":
+                    - paragraph: JP-BIO-029
+                  - cell "Association of organic agriculture certification Kochi corporation NPO":
+                    - paragraph: Association of organic agriculture certification Kochi corporation NPO
+                  - cell "http://www8.ocn.ne.jp/~koaa/jisseki.html":
+                    - paragraph: http://www8.ocn.ne.jp/~koaa/jisseki.html
+                - row "JP-BIO-031 Wakayama Organic Certified Association https://woca.jpn.org/w/":
+                  - cell "JP-BIO-031":
+                    - paragraph: JP-BIO-031
+                  - cell "Wakayama Organic Certified Association":
+                    - paragraph: Wakayama Organic Certified Association
+                  - cell "https://woca.jpn.org/w/":
+                    - paragraph: https://woca.jpn.org/w/
+                - row "JP-BIO-032 Shimane Organic Agriculture Association www.shimane-yuki.or.jp/index.html":
+                  - cell "JP-BIO-032":
+                    - paragraph: JP-BIO-032
+                  - cell "Shimane Organic Agriculture Association":
+                    - paragraph: Shimane Organic Agriculture Association
+                  - cell "www.shimane-yuki.or.jp/index.html":
+                    - paragraph: www.shimane-yuki.or.jp/index.html
+                - row "JP-BIO-034 International Nature Farming Research Center http://www.infrc.or.jp/":
+                  - cell "JP-BIO-034":
+                    - paragraph: JP-BIO-034
+                  - cell "International Nature Farming Research Center":
+                    - paragraph: International Nature Farming Research Center
+                  - cell "http://www.infrc.or.jp/":
+                    - paragraph: http://www.infrc.or.jp/
+                - row "JP-BIO-035 Organic Certification Center www.organic-cert.or.jp":
+                  - cell "JP-BIO-035":
+                    - paragraph: JP-BIO-035
+                  - cell "Organic Certification Center":
+                    - paragraph: Organic Certification Center
+                  - cell "www.organic-cert.or.jp":
+                    - paragraph: www.organic-cert.or.jp
+                - row "JP-BIO-036 Japan Food Research Laboratories http://www.jfrl.or.jp/jas.html":
+                  - cell "JP-BIO-036":
+                    - paragraph: JP-BIO-036
+                  - cell "Japan Food Research Laboratories":
+                    - paragraph: Japan Food Research Laboratories
+                  - cell "http://www.jfrl.or.jp/jas.html":
+                    - paragraph: http://www.jfrl.or.jp/jas.html
+                - row "JP-BIO-037 Leafearth Company http://www.leafearth.jp/":
+                  - cell "JP-BIO-037":
+                    - paragraph: JP-BIO-037
+                  - cell "Leafearth Company":
+                    - paragraph: Leafearth Company
+                  - cell "http://www.leafearth.jp/":
+                    - paragraph: http://www.leafearth.jp/
+                - row "JP-BIO-038 Akatonbo http://www.akatonbo.or.jp/":
+                  - cell "JP-BIO-038":
+                    - paragraph: JP-BIO-038
+                  - cell "Akatonbo":
+                    - paragraph: Akatonbo
+                  - cell "http://www.akatonbo.or.jp/":
+                    - paragraph: http://www.akatonbo.or.jp/
+                - row "JP-BIO-039 Japan Grain Inspection Association http://www.kokken.or.jp/":
+                  - cell "JP-BIO-039":
+                    - paragraph: JP-BIO-039
+                  - cell "Japan Grain Inspection Association":
+                    - paragraph: Japan Grain Inspection Association
+                  - cell "http://www.kokken.or.jp/":
+                    - paragraph: http://www.kokken.or.jp/
+                - row "JP-BIO-040 Okayama Agriculture Development Institute http://www.nokaiken.or.jp":
+                  - cell "JP-BIO-040":
+                    - paragraph: JP-BIO-040
+                  - cell "Okayama Agriculture Development Institute":
+                    - paragraph: Okayama Agriculture Development Institute
+                  - cell "http://www.nokaiken.or.jp":
+                    - paragraph: http://www.nokaiken.or.jp
+                - row "JP-BIO-041 Japan Agricultural Standard Certification Alliance http://jascert.or.jp/":
+                  - cell "JP-BIO-041":
+                    - paragraph: JP-BIO-041
+                  - cell "Japan Agricultural Standard Certification Alliance":
+                    - paragraph: Japan Agricultural Standard Certification Alliance
+                  - cell "http://jascert.or.jp/":
+                    - paragraph: http://jascert.or.jp/
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate issuing bodies: as at point 5."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate issuing bodies: as at point 5."':
+            - generic: "Certificate issuing bodies: as at point 5."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - paragraph: REPUBLIC OF KOREA
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products or products Designation of category as in Annex II Limitations Processed agricultural products for use as food D":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products or products Designation of category as in Annex II Limitations Processed agricultural products for use as food D":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products or products Designation of category as in Annex II Limitations":
+                  - cell "Category of products or products":
+                    - paragraph: Category of products or products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Processed agricultural products for use as food D":
+                  - cell "Processed agricultural products for use as food":
+                    - paragraph: Processed agricultural products for use as food
+                  - cell "D":
+                    - paragraph: D
+                  - cell:
+                    - paragraph
+    - table:
+      - rowgroup:
+        - 'row "2. Origin: products of category D processed in the Republic of Korea with organically grown ingredients that have been grown in the Republic of Korea or that have been imported into the Republic of Korea: — either from the Union, — or from a third country for which the Republic of Korea has recognised that the products have been produced and controlled in that third country in accordance with the rules equivalent to those laid down in the legislation of the Republic of Korea."':
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - 'cell "Origin: products of category D processed in the Republic of Korea with organically grown ingredients that have been grown in the Republic of Korea or that have been imported into the Republic of Korea: — either from the Union, — or from a third country for which the Republic of Korea has recognised that the products have been produced and controlled in that third country in accordance with the rules equivalent to those laid down in the legislation of the Republic of Korea."':
+            - generic: "Origin: products of category D processed in the Republic of Korea with organically grown ingredients that have been grown in the Republic of Korea or that have been imported into the Republic of Korea:"
+            - table:
+              - rowgroup:
+                - row "— either from the Union,":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "either from the Union,":
+                    - paragraph: either from the Union,
+            - table:
+              - rowgroup:
+                - row "— or from a third country for which the Republic of Korea has recognised that the products have been produced and controlled in that third country in accordance with the rules equivalent to those laid down in the legislation of the Republic of Korea.":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "or from a third country for which the Republic of Korea has recognised that the products have been produced and controlled in that third country in accordance with the rules equivalent to those laid down in the legislation of the Republic of Korea.":
+                    - paragraph: or from a third country for which the Republic of Korea has recognised that the products have been produced and controlled in that third country in accordance with the rules equivalent to those laid down in the legislation of the Republic of Korea.
+    - table:
+      - rowgroup:
+        - 'row "3. Production standards: Act on Promotion of Environmentally-friendly Agriculture and Fisheries and Management and Support for Organic Food."':
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - 'cell "Production standards: Act on Promotion of Environmentally-friendly Agriculture and Fisheries and Management and Support for Organic Food."':
+            - generic: "Production standards: Act on Promotion of Environmentally-friendly Agriculture and Fisheries and Management and Support for Organic Food."
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authority: Ministry of Agriculture, Food and Rural Affairs, www.enviagro.go.kr/portal/en/main.do"':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authority: Ministry of Agriculture, Food and Rural Affairs, www.enviagro.go.kr/portal/en/main.do"':
+            - generic: "Competent authority: Ministry of Agriculture, Food and Rural Affairs, www.enviagro.go.kr/portal/en/main.do"
+    - table:
+      - rowgroup:
+        - row:
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - cell:
+            - generic: Control bodies
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "KR-ORG-002 Doalnara Organic Certificated Korea www.doalnara.or.kr":
+                  - cell "KR-ORG-002":
+                    - paragraph: KR-ORG-002
+                  - cell "Doalnara Organic Certificated Korea":
+                    - paragraph: Doalnara Organic Certificated Korea
+                  - cell "www.doalnara.or.kr":
+                    - paragraph: www.doalnara.or.kr
+                - row "KR-ORG-004 Global Organic Agriculturalist Association www.goaa.co.kr":
+                  - cell "KR-ORG-004":
+                    - paragraph: KR-ORG-004
+                  - cell "Global Organic Agriculturalist Association":
+                    - paragraph: Global Organic Agriculturalist Association
+                  - cell "www.goaa.co.kr":
+                    - paragraph: www.goaa.co.kr
+                - row "KR-ORG-005 OCK http://www.greenock.co.kr/":
+                  - cell "KR-ORG-005":
+                    - paragraph: KR-ORG-005
+                  - cell "OCK":
+                    - paragraph: OCK
+                  - cell "http://www.greenock.co.kr/":
+                    - paragraph: http://www.greenock.co.kr/
+                - row "KR-ORG-006 KAFCC http://eco.konkuk.ac.kr":
+                  - cell "KR-ORG-006":
+                    - paragraph: KR-ORG-006
+                  - cell "KAFCC":
+                    - paragraph: KAFCC
+                  - cell "http://eco.konkuk.ac.kr":
+                    - paragraph: http://eco.konkuk.ac.kr
+                - row "KR-ORG-007 Korea Environment-Friendly Organic Certification Centre www.a-cert.co.kr":
+                  - cell "KR-ORG-007":
+                    - paragraph: KR-ORG-007
+                  - cell "Korea Environment-Friendly Organic Certification Centre":
+                    - paragraph: Korea Environment-Friendly Organic Certification Centre
+                  - cell "www.a-cert.co.kr":
+                    - paragraph: www.a-cert.co.kr
+                - row "KR-ORG-008 Konkuk Ecocert Certification Service www.ecocert.co.kr":
+                  - cell "KR-ORG-008":
+                    - paragraph: KR-ORG-008
+                  - cell "Konkuk Ecocert Certification Service":
+                    - paragraph: Konkuk Ecocert Certification Service
+                  - cell "www.ecocert.co.kr":
+                    - paragraph: www.ecocert.co.kr
+                - row "KR-ORG-009 Woorinong Certification https://blog.naver.com/woorinongin/70107436715":
+                  - cell "KR-ORG-009":
+                    - paragraph: KR-ORG-009
+                  - cell "Woorinong Certification":
+                    - paragraph: Woorinong Certification
+                  - cell "https://blog.naver.com/woorinongin/70107436715":
+                    - paragraph: https://blog.naver.com/woorinongin/70107436715
+                - row "KR-ORG-010 ACO (Australian Certified Organic) www.aco.net.au":
+                  - cell "KR-ORG-010":
+                    - paragraph: KR-ORG-010
+                  - cell "ACO (Australian Certified Organic)":
+                    - paragraph: ACO (Australian Certified Organic)
+                  - cell "www.aco.net.au":
+                    - paragraph: www.aco.net.au
+                - row "KR-ORG-011 Kiwa BCS Öko-Garantie GmbH www.bcs-oeko.com":
+                  - cell "KR-ORG-011":
+                    - paragraph: KR-ORG-011
+                  - cell "Kiwa BCS Öko-Garantie GmbH":
+                    - paragraph: Kiwa BCS Öko-Garantie GmbH
+                  - cell "www.bcs-oeko.com":
+                    - paragraph: www.bcs-oeko.com
+                - row "KR-ORG-012 BCS Korea www.bcskorea.com":
+                  - cell "KR-ORG-012":
+                    - paragraph: KR-ORG-012
+                  - cell "BCS Korea":
+                    - paragraph: BCS Korea
+                  - cell "www.bcskorea.com":
+                    - paragraph: www.bcskorea.com
+                - row "KR-ORG-013 Hansol Food, Agriculture, Fisher-Forest Certification Center www.hansolnonglim.com":
+                  - cell "KR-ORG-013":
+                    - paragraph: KR-ORG-013
+                  - cell "Hansol Food, Agriculture, Fisher-Forest Certification Center":
+                    - paragraph: Hansol Food, Agriculture, Fisher-Forest Certification Center
+                  - cell "www.hansolnonglim.com":
+                    - paragraph: www.hansolnonglim.com
+                - row "KR-ORG-014 The Centrefor Environment Friendly Agricultural Products Certification www.hgreent.or.kr":
+                  - cell "KR-ORG-014":
+                    - paragraph: KR-ORG-014
+                  - cell "The Centrefor Environment Friendly Agricultural Products Certification":
+                    - paragraph: The Centrefor Environment Friendly Agricultural Products Certification
+                  - cell "www.hgreent.or.kr":
+                    - paragraph: www.hgreent.or.kr
+                - row "KR-ORG-015 ECO-Leaders Certification Co., Ltd www.ecoleaders.kr":
+                  - cell "KR-ORG-015":
+                    - paragraph: KR-ORG-015
+                  - cell "ECO-Leaders Certification Co., Ltd":
+                    - paragraph: ECO-Leaders Certification Co., Ltd
+                  - cell "www.ecoleaders.kr":
+                    - paragraph: www.ecoleaders.kr
+                - row "KR-ORG-017 Jeonnam bioindustry foundation www.jbf.kr":
+                  - cell "KR-ORG-017":
+                    - paragraph: KR-ORG-017
+                  - cell "Jeonnam bioindustry foundation":
+                    - paragraph: Jeonnam bioindustry foundation
+                  - cell "www.jbf.kr":
+                    - paragraph: www.jbf.kr
+                - row "KR-ORG-019 Neo environmentally-friendly Certification Center https://neoefcc.modoo.at/":
+                  - cell "KR-ORG-019":
+                    - paragraph: KR-ORG-019
+                  - cell "Neo environmentally-friendly Certification Center":
+                    - paragraph: Neo environmentally-friendly Certification Center
+                  - cell "https://neoefcc.modoo.at/":
+                    - paragraph: https://neoefcc.modoo.at/
+                - row "KR-ORG-020 Green Environmentally-Friendly certification center http://cafe.naver.com/greenorganic6279":
+                  - cell "KR-ORG-020":
+                    - paragraph: KR-ORG-020
+                  - cell "Green Environmentally-Friendly certification center":
+                    - paragraph: Green Environmentally-Friendly certification center
+                  - cell "http://cafe.naver.com/greenorganic6279":
+                    - paragraph: http://cafe.naver.com/greenorganic6279
+                - row "KR-ORG-021 ISC Agriculture development research institute www.isc-cert.com":
+                  - cell "KR-ORG-021":
+                    - paragraph: KR-ORG-021
+                  - cell "ISC Agriculture development research institute":
+                    - paragraph: ISC Agriculture development research institute
+                  - cell "www.isc-cert.com":
+                    - paragraph: www.isc-cert.com
+                - row "KR-ORG-022 Greenstar Agrifood Certification Center":
+                  - cell "KR-ORG-022":
+                    - paragraph: KR-ORG-022
+                  - cell "Greenstar Agrifood Certification Center":
+                    - paragraph: Greenstar Agrifood Certification Center
+                  - cell:
+                    - paragraph
+                    - figure:
+                      - img "Image 1"
+                    - paragraph
+                - row "KR-ORG-023 Control Union Korea www.controlunion.co.kr":
+                  - cell "KR-ORG-023":
+                    - paragraph: KR-ORG-023
+                  - cell "Control Union Korea":
+                    - paragraph: Control Union Korea
+                  - cell "www.controlunion.co.kr":
+                    - paragraph: www.controlunion.co.kr
+                - row "KR-ORG-024 Industry-Academic Cooperation Foundation, SCNU http://siacf.scnu.ac.kr/web/siacf/home":
+                  - cell "KR-ORG-024":
+                    - paragraph: KR-ORG-024
+                  - cell "Industry-Academic Cooperation Foundation, SCNU":
+                    - paragraph: Industry-Academic Cooperation Foundation, SCNU
+                  - cell "http://siacf.scnu.ac.kr/web/siacf/home":
+                    - paragraph: http://siacf.scnu.ac.kr/web/siacf/home
+                - row "KR-ORG-026 Agricultural Products Quality Service http://apqs.kr":
+                  - cell "KR-ORG-026":
+                    - paragraph: KR-ORG-026
+                  - cell "Agricultural Products Quality Service":
+                    - paragraph: Agricultural Products Quality Service
+                  - cell "http://apqs.kr":
+                    - paragraph: http://apqs.kr
+                - row "KR-ORG-027 University Industry Liaison office of CNU http://sanhak.jnu.ac.kr/eng/":
+                  - cell "KR-ORG-027":
+                    - paragraph: KR-ORG-027
+                  - cell "University Industry Liaison office of CNU":
+                    - paragraph: University Industry Liaison office of CNU
+                  - cell "http://sanhak.jnu.ac.kr/eng/":
+                    - paragraph: http://sanhak.jnu.ac.kr/eng/
+                - row "KR-ORG-029 Eco Agriculture Institute Inc http://blog.daum.net/ifea2011":
+                  - cell "KR-ORG-029":
+                    - paragraph: KR-ORG-029
+                  - cell "Eco Agriculture Institute Inc":
+                    - paragraph: Eco Agriculture Institute Inc
+                  - cell "http://blog.daum.net/ifea2011":
+                    - paragraph: http://blog.daum.net/ifea2011
+                - row "KR-ORG-030 Korea Crops Research Institute (co.ltd) https://blog.naver.com/kor034":
+                  - cell "KR-ORG-030":
+                    - paragraph: KR-ORG-030
+                  - cell "Korea Crops Research Institute (co.ltd)":
+                    - paragraph: Korea Crops Research Institute (co.ltd)
+                  - cell "https://blog.naver.com/kor034":
+                    - paragraph: https://blog.naver.com/kor034
+                - row "KR-ORG-031 Korea organic certification http://blog.daum.net/koafc2019":
+                  - cell "KR-ORG-031":
+                    - paragraph: KR-ORG-031
+                  - cell "Korea organic certification":
+                    - paragraph: Korea organic certification
+                  - cell "http://blog.daum.net/koafc2019":
+                    - paragraph: http://blog.daum.net/koafc2019
+                - row "KR-ORG-032 Jayeondeul agri-food certification institute www.jaci.kr":
+                  - cell "KR-ORG-032":
+                    - paragraph: KR-ORG-032
+                  - cell "Jayeondeul agri-food certification institute":
+                    - paragraph: Jayeondeul agri-food certification institute
+                  - cell "www.jaci.kr":
+                    - paragraph: www.jaci.kr
+                - row "KR-ORG-033 Institute of Organic food Evaluation www.ioe42.com":
+                  - cell "KR-ORG-033":
+                    - paragraph: KR-ORG-033
+                  - cell "Institute of Organic food Evaluation":
+                    - paragraph: Institute of Organic food Evaluation
+                  - cell "www.ioe42.com":
+                    - paragraph: www.ioe42.com
+                - row "KR-ORG-034 EverGreen Nongouhwi http://blog.naver.com/evergreen8374":
+                  - cell "KR-ORG-034":
+                    - paragraph: KR-ORG-034
+                  - cell "EverGreen Nongouhwi":
+                    - paragraph: EverGreen Nongouhwi
+                  - cell "http://blog.naver.com/evergreen8374":
+                    - paragraph: http://blog.naver.com/evergreen8374
+                - row "KR-ORG-035 ONNURI ORGANIC Co., Ltd. https://blog.naver.com/onr77830":
+                  - cell "KR-ORG-035":
+                    - paragraph: KR-ORG-035
+                  - cell "ONNURI ORGANIC Co., Ltd.":
+                    - paragraph: ONNURI ORGANIC Co., Ltd.
+                  - cell "https://blog.naver.com/onr77830":
+                    - paragraph: https://blog.naver.com/onr77830
+                - row "KR-ORG-036 Hankyoung Certification Center Co., Ltd. https://blog.naver.com/hk61369":
+                  - cell "KR-ORG-036":
+                    - paragraph: KR-ORG-036
+                  - cell "Hankyoung Certification Center Co., Ltd.":
+                    - paragraph: Hankyoung Certification Center Co., Ltd.
+                  - cell "https://blog.naver.com/hk61369":
+                    - paragraph: https://blog.naver.com/hk61369
+                - row "KR-ORG-037 Ctforum. Ltd http://blog.daum.net/ctforum":
+                  - cell "KR-ORG-037":
+                    - paragraph: KR-ORG-037
+                  - cell "Ctforum. Ltd":
+                    - paragraph: Ctforum. Ltd
+                  - cell "http://blog.daum.net/ctforum":
+                    - paragraph: http://blog.daum.net/ctforum
+                - row "KR-ORG-038 ORGANIC PROMOTION http://blog.daum.net/op7373":
+                  - cell "KR-ORG-038":
+                    - paragraph: KR-ORG-038
+                  - cell "ORGANIC PROMOTION":
+                    - paragraph: ORGANIC PROMOTION
+                  - cell "http://blog.daum.net/op7373":
+                    - paragraph: http://blog.daum.net/op7373
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate issuing bodies and authorities: as at point 5."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate issuing bodies and authorities: as at point 5."':
+            - generic: "Certificate issuing bodies and authorities: as at point 5."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - paragraph: NEW ZEALAND
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Live animals or unprocessed animal products B Processed agricultural products for use as food (6) D Vegetative propagating material and seeds for cultivation F":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Live animals or unprocessed animal products B Processed agricultural products for use as food (6) D Vegetative propagating material and seeds for cultivation F":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products or products Designation of category as in Annex II Limitations":
+                  - cell "Category of products or products":
+                    - paragraph: Category of products or products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Unprocessed plant products A":
+                  - cell "Unprocessed plant products":
+                    - paragraph: Unprocessed plant products
+                  - cell "A":
+                    - paragraph: A
+                  - cell:
+                    - paragraph
+                - row "Live animals or unprocessed animal products B":
+                  - cell "Live animals or unprocessed animal products":
+                    - paragraph: Live animals or unprocessed animal products
+                  - cell "B":
+                    - paragraph: B
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as food (6) D":
+                  - cell "Processed agricultural products for use as food (6)":
+                    - paragraph:
+                      - text: Processed agricultural products for use as food
+                      - link "(6)":
+                        - /url: "#ntr6-L_2021465EN.01001401-E0006"
+                  - cell "D":
+                    - paragraph: D
+                  - cell:
+                    - paragraph
+                - row "Vegetative propagating material and seeds for cultivation F":
+                  - cell "Vegetative propagating material and seeds for cultivation":
+                    - paragraph: Vegetative propagating material and seeds for cultivation
+                  - cell "F":
+                    - paragraph: F
+                  - cell:
+                    - paragraph
+    - table:
+      - rowgroup:
+        - row:
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - cell:
+            - generic: "Origin: products of category A, B and F that have been grown in New Zealand and products of category D processed in New Zealand with organically grown ingredients that have been grown in New Zealand or that have been imported into New Zealand:"
+            - table:
+              - rowgroup:
+                - row "— either from the Union,":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "either from the Union,":
+                    - paragraph: either from the Union,
+            - table:
+              - rowgroup:
+                - row "— or from a third country in the framework of a regime which is recognised as equivalent in accordance with Article 33(2) of Regulation (EC) No 834/2007,":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "or from a third country in the framework of a regime which is recognised as equivalent in accordance with Article 33(2) of Regulation (EC) No 834/2007,":
+                    - paragraph: or from a third country in the framework of a regime which is recognised as equivalent in accordance with Article 33(2) of Regulation (EC) No 834/2007,
+            - table:
+              - rowgroup:
+                - row "— or from a third country whose rules of production and inspection have been recognised as equivalent to the MPI Official Organic Assurance Programme on the basis of assurances and information provided by this country's competent authority in accordance with the provisions established by MPI and provided that only organically produced ingredients intended to be incorporated, up to a maximum of 5 % of products of agricultural origin, in products of category D prepared in New Zealand are imported.":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "or from a third country whose rules of production and inspection have been recognised as equivalent to the MPI Official Organic Assurance Programme on the basis of assurances and information provided by this country's competent authority in accordance with the provisions established by MPI and provided that only organically produced ingredients intended to be incorporated, up to a maximum of 5 % of products of agricultural origin, in products of category D prepared in New Zealand are imported.":
+                    - paragraph: or from a third country whose rules of production and inspection have been recognised as equivalent to the MPI Official Organic Assurance Programme on the basis of assurances and information provided by this country's competent authority in accordance with the provisions established by MPI and provided that only organically produced ingredients intended to be incorporated, up to a maximum of 5 % of products of agricultural origin, in products of category D prepared in New Zealand are imported.
+    - table:
+      - rowgroup:
+        - 'row "3. Production standard: MPI Official Organic Assurance Programme Technical Rules for Organic Production."':
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - 'cell "Production standard: MPI Official Organic Assurance Programme Technical Rules for Organic Production."':
+            - generic: "Production standard: MPI Official Organic Assurance Programme Technical Rules for Organic Production."
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authority: Ministry for Primary Industries (MPI) http://www.mpi.govt.nz/exporting/food/organics/"':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authority: Ministry for Primary Industries (MPI) http://www.mpi.govt.nz/exporting/food/organics/"':
+            - generic: "Competent authority: Ministry for Primary Industries (MPI)"
+            - paragraph: http://www.mpi.govt.nz/exporting/food/organics/
+    - table:
+      - rowgroup:
+        - row "5. Control bodies Code number Name Internet address NZ-BIO-001 Ministry for Primary Industries (MPI) http://www.mpi.govt.nz/exporting/food/organics/ NZ-BIO-002 AsureQuality Limited https://www.asurequality.com NZ-BIO-003 BioGro New Zealand Limited https://www.biogro.co.nz":
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - cell "Control bodies Code number Name Internet address NZ-BIO-001 Ministry for Primary Industries (MPI) http://www.mpi.govt.nz/exporting/food/organics/ NZ-BIO-002 AsureQuality Limited https://www.asurequality.com NZ-BIO-003 BioGro New Zealand Limited https://www.biogro.co.nz":
+            - generic: Control bodies
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "NZ-BIO-001 Ministry for Primary Industries (MPI) http://www.mpi.govt.nz/exporting/food/organics/":
+                  - cell "NZ-BIO-001":
+                    - paragraph: NZ-BIO-001
+                  - cell "Ministry for Primary Industries (MPI)":
+                    - paragraph: Ministry for Primary Industries (MPI)
+                  - cell "http://www.mpi.govt.nz/exporting/food/organics/":
+                    - paragraph: http://www.mpi.govt.nz/exporting/food/organics/
+                - row "NZ-BIO-002 AsureQuality Limited https://www.asurequality.com":
+                  - cell "NZ-BIO-002":
+                    - paragraph: NZ-BIO-002
+                  - cell "AsureQuality Limited":
+                    - paragraph: AsureQuality Limited
+                  - cell "https://www.asurequality.com":
+                    - paragraph: https://www.asurequality.com
+                - row "NZ-BIO-003 BioGro New Zealand Limited https://www.biogro.co.nz":
+                  - cell "NZ-BIO-003":
+                    - paragraph: NZ-BIO-003
+                  - cell "BioGro New Zealand Limited":
+                    - paragraph: BioGro New Zealand Limited
+                  - cell "https://www.biogro.co.nz":
+                    - paragraph: https://www.biogro.co.nz
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate-issuing bodies: Ministry for Primary Industries (MPI)."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate-issuing bodies: Ministry for Primary Industries (MPI)."':
+            - generic: "Certificate-issuing bodies: Ministry for Primary Industries (MPI)."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - paragraph: TUNISIA
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Processed agricultural products for use as food (7) D Composed essentially of one or more ingredients of plant origin Vegetative propagating material and seeds for cultivation F":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Processed agricultural products for use as food (7) D Composed essentially of one or more ingredients of plant origin Vegetative propagating material and seeds for cultivation F":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products or products Designation of category as in Annex II Limitations":
+                  - cell "Category of products or products":
+                    - paragraph: Category of products or products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Unprocessed plant products A":
+                  - cell "Unprocessed plant products":
+                    - paragraph: Unprocessed plant products
+                  - cell "A":
+                    - paragraph: A
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as food (7) D Composed essentially of one or more ingredients of plant origin":
+                  - cell "Processed agricultural products for use as food (7)":
+                    - paragraph:
+                      - text: Processed agricultural products for use as food
+                      - link "(7)":
+                        - /url: "#ntr7-L_2021465EN.01001401-E0007"
+                  - cell "D":
+                    - paragraph: D
+                  - cell "Composed essentially of one or more ingredients of plant origin":
+                    - paragraph: Composed essentially of one or more ingredients of plant origin
+                - row "Vegetative propagating material and seeds for cultivation F":
+                  - cell "Vegetative propagating material and seeds for cultivation":
+                    - paragraph: Vegetative propagating material and seeds for cultivation
+                  - cell "F":
+                    - paragraph: F
+                  - cell:
+                    - paragraph
+    - table:
+      - rowgroup:
+        - 'row "2. Origin: products of categories A and F that have been grown in Tunisia and products of category D processed in Tunisia with organically grown ingredients that have been grown in Tunisia."':
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - 'cell "Origin: products of categories A and F that have been grown in Tunisia and products of category D processed in Tunisia with organically grown ingredients that have been grown in Tunisia."':
+            - generic: "Origin: products of categories A and F that have been grown in Tunisia and products of category D processed in Tunisia with organically grown ingredients that have been grown in Tunisia."
+    - table:
+      - rowgroup:
+        - 'row "3. Production standards: Law No 99-30 of 5 April 1999 relating to Organic farming; Decree of the Minister for Agriculture of 28 February 2001, approving the standard specifications of the crop production according to the organic method."':
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - 'cell "Production standards: Law No 99-30 of 5 April 1999 relating to Organic farming; Decree of the Minister for Agriculture of 28 February 2001, approving the standard specifications of the crop production according to the organic method."':
+            - generic: "Production standards: Law No 99-30 of 5 April 1999 relating to Organic farming; Decree of the Minister for Agriculture of 28 February 2001, approving the standard specifications of the crop production according to the organic method."
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authority: 40 Ministre de l''Agriculture, des Ressources Hydrauliques et de la Pêche, www.agriculture.tn and www.onagri.tn."':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authority: 40 Ministre de l''Agriculture, des Ressources Hydrauliques et de la Pêche, www.agriculture.tn and www.onagri.tn."':
+            - generic: "Competent authority: 40 Ministre de l'Agriculture, des Ressources Hydrauliques et de la Pêche, www.agriculture.tn and www.onagri.tn."
+    - table:
+      - rowgroup:
+        - 'row "5. Control bodies: Code number Name Internet address TN-BIO-001 Ecocert SA www.ecocert.com TN-BIO-007 Institut national de la normalisation et de la propriété industrielle (INNORPI) www.innorpi.tn TN-BIO-008 CCPB Srl www.ccpb.it TN-BIO-009 CERES GmbH www.ceres-cert.com TN-BIO-010 Kiwa BCS Öko-Garantie GmbH www.kiwabcs.com"':
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - 'cell "Control bodies: Code number Name Internet address TN-BIO-001 Ecocert SA www.ecocert.com TN-BIO-007 Institut national de la normalisation et de la propriété industrielle (INNORPI) www.innorpi.tn TN-BIO-008 CCPB Srl www.ccpb.it TN-BIO-009 CERES GmbH www.ceres-cert.com TN-BIO-010 Kiwa BCS Öko-Garantie GmbH www.kiwabcs.com"':
+            - generic: "Control bodies:"
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "TN-BIO-001 Ecocert SA www.ecocert.com":
+                  - cell "TN-BIO-001":
+                    - paragraph: TN-BIO-001
+                  - cell "Ecocert SA":
+                    - paragraph: Ecocert SA
+                  - cell "www.ecocert.com":
+                    - paragraph: www.ecocert.com
+                - row "TN-BIO-007 Institut national de la normalisation et de la propriété industrielle (INNORPI) www.innorpi.tn":
+                  - cell "TN-BIO-007":
+                    - paragraph: TN-BIO-007
+                  - cell "Institut national de la normalisation et de la propriété industrielle (INNORPI)":
+                    - paragraph: Institut national de la normalisation et de la propriété industrielle (INNORPI)
+                  - cell "www.innorpi.tn":
+                    - paragraph: www.innorpi.tn
+                - row "TN-BIO-008 CCPB Srl www.ccpb.it":
+                  - cell "TN-BIO-008":
+                    - paragraph: TN-BIO-008
+                  - cell "CCPB Srl":
+                    - paragraph: CCPB Srl
+                  - cell "www.ccpb.it":
+                    - paragraph: www.ccpb.it
+                - row "TN-BIO-009 CERES GmbH www.ceres-cert.com":
+                  - cell "TN-BIO-009":
+                    - paragraph: TN-BIO-009
+                  - cell "CERES GmbH":
+                    - paragraph: CERES GmbH
+                  - cell "www.ceres-cert.com":
+                    - paragraph: www.ceres-cert.com
+                - row "TN-BIO-010 Kiwa BCS Öko-Garantie GmbH www.kiwabcs.com":
+                  - cell "TN-BIO-010":
+                    - paragraph: TN-BIO-010
+                  - cell "Kiwa BCS Öko-Garantie GmbH":
+                    - paragraph: Kiwa BCS Öko-Garantie GmbH
+                  - cell "www.kiwabcs.com":
+                    - paragraph: www.kiwabcs.com
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate issuing bodies: as at point 5."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate issuing bodies: as at point 5."':
+            - generic: "Certificate issuing bodies: as at point 5."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - paragraph: UNITED STATES
+    - table:
+      - rowgroup:
+        - row "1. Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Live animals or unprocessed animal products B Processed agricultural products for use as foodw (8) D Processed agricultural products for use as feed E Vegetative propagating material and seeds for cultivation F":
+          - cell
+          - cell "1.":
+            - paragraph: "1."
+          - cell "Product categories Category of products or products Designation of category as in Annex II Limitations Unprocessed plant products A Live animals or unprocessed animal products B Processed agricultural products for use as foodw (8) D Processed agricultural products for use as feed E Vegetative propagating material and seeds for cultivation F":
+            - generic: Product categories
+            - table:
+              - rowgroup:
+                - row "Category of products or products Designation of category as in Annex II Limitations":
+                  - cell "Category of products or products":
+                    - paragraph: Category of products or products
+                  - cell "Designation of category as in Annex II":
+                    - paragraph: Designation of category as in Annex II
+                  - cell "Limitations":
+                    - paragraph: Limitations
+                - row "Unprocessed plant products A":
+                  - cell "Unprocessed plant products":
+                    - paragraph: Unprocessed plant products
+                  - cell "A":
+                    - paragraph: A
+                  - cell:
+                    - paragraph
+                - row "Live animals or unprocessed animal products B":
+                  - cell "Live animals or unprocessed animal products":
+                    - paragraph: Live animals or unprocessed animal products
+                  - cell "B":
+                    - paragraph: B
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as foodw (8) D":
+                  - cell "Processed agricultural products for use as foodw (8)":
+                    - paragraph:
+                      - text: Processed agricultural products for use as foodw
+                      - link "(8)":
+                        - /url: "#ntr8-L_2021465EN.01001401-E0008"
+                  - cell "D":
+                    - paragraph: D
+                  - cell:
+                    - paragraph
+                - row "Processed agricultural products for use as feed E":
+                  - cell "Processed agricultural products for use as feed":
+                    - paragraph: Processed agricultural products for use as feed
+                  - cell "E":
+                    - paragraph: E
+                  - cell:
+                    - paragraph
+                - row "Vegetative propagating material and seeds for cultivation F":
+                  - cell "Vegetative propagating material and seeds for cultivation":
+                    - paragraph: Vegetative propagating material and seeds for cultivation
+                  - cell "F":
+                    - paragraph: F
+                  - cell:
+                    - paragraph
+    - table:
+      - rowgroup:
+        - 'row "2. Origin: products of categories A, B and F and organically grown ingredients in products of categories D and E that: — have been grown in the United States, or — have been imported into the United States and processed or packaged in the United States in accordance with US legislation."':
+          - cell
+          - cell "2.":
+            - paragraph: "2."
+          - 'cell "Origin: products of categories A, B and F and organically grown ingredients in products of categories D and E that: — have been grown in the United States, or — have been imported into the United States and processed or packaged in the United States in accordance with US legislation."':
+            - generic: "Origin: products of categories A, B and F and organically grown ingredients in products of categories D and E that:"
+            - table:
+              - rowgroup:
+                - row "— have been grown in the United States, or":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "have been grown in the United States, or":
+                    - paragraph: have been grown in the United States, or
+            - table:
+              - rowgroup:
+                - row "— have been imported into the United States and processed or packaged in the United States in accordance with US legislation.":
+                  - cell "—":
+                    - paragraph: —
+                  - cell "have been imported into the United States and processed or packaged in the United States in accordance with US legislation.":
+                    - paragraph: have been imported into the United States and processed or packaged in the United States in accordance with US legislation.
+    - table:
+      - rowgroup:
+        - 'row "3. Production standards: Organic Foods Production Act of 1990 (7 U.S.C. 6501 et seq.), National Organic Program (7 CFR 205)."':
+          - cell
+          - cell "3.":
+            - paragraph: "3."
+          - 'cell "Production standards: Organic Foods Production Act of 1990 (7 U.S.C. 6501 et seq.), National Organic Program (7 CFR 205)."':
+            - generic: "Production standards: Organic Foods Production Act of 1990 (7 U.S.C. 6501 et seq.), National Organic Program (7 CFR 205)."
+    - table:
+      - rowgroup:
+        - 'row "4. Competent authority: United States Department of Agriculture (USDA), Agricultural Marketing Service (AMS), www.usda.gov"':
+          - cell
+          - cell "4.":
+            - paragraph: "4."
+          - 'cell "Competent authority: United States Department of Agriculture (USDA), Agricultural Marketing Service (AMS), www.usda.gov"':
+            - generic: "Competent authority: United States Department of Agriculture (USDA), Agricultural Marketing Service (AMS), www.usda.gov"
+    - table:
+      - rowgroup:
+        - row:
+          - cell
+          - cell "5.":
+            - paragraph: "5."
+          - cell:
+            - generic: Control bodies
+            - table:
+              - rowgroup:
+                - row "Code number Name Internet address":
+                  - cell "Code number":
+                    - paragraph: Code number
+                  - cell "Name":
+                    - paragraph: Name
+                  - cell "Internet address":
+                    - paragraph: Internet address
+                - row "US-ORG-001 Where Food Comes From Organic www.wfcforganic.com":
+                  - cell "US-ORG-001":
+                    - paragraph: US-ORG-001
+                  - cell "Where Food Comes From Organic":
+                    - paragraph: Where Food Comes From Organic
+                  - cell "www.wfcforganic.com":
+                    - paragraph: www.wfcforganic.com
+                - row "US-ORG-002 Agricultural Services Certified Organic www.ascorganic.com/":
+                  - cell "US-ORG-002":
+                    - paragraph: US-ORG-002
+                  - cell "Agricultural Services Certified Organic":
+                    - paragraph: Agricultural Services Certified Organic
+                  - cell "www.ascorganic.com/":
+                    - paragraph: www.ascorganic.com/
+                - row "US-ORG-003 Baystate Organic Certifiers www.baystateorganic.org":
+                  - cell "US-ORG-003":
+                    - paragraph: US-ORG-003
+                  - cell "Baystate Organic Certifiers":
+                    - paragraph: Baystate Organic Certifiers
+                  - cell "www.baystateorganic.org":
+                    - paragraph: www.baystateorganic.org
+                - row "US-ORG-004 Kiwa BCS Öko-Garantie GmbH www.bcs-oeko.com":
+                  - cell "US-ORG-004":
+                    - paragraph: US-ORG-004
+                  - cell "Kiwa BCS Öko-Garantie GmbH":
+                    - paragraph: Kiwa BCS Öko-Garantie GmbH
+                  - cell "www.bcs-oeko.com":
+                    - paragraph: www.bcs-oeko.com
+                - row "US-ORG-005 BIOAGRIcert http://www.bioagricert.org/english":
+                  - cell "US-ORG-005":
+                    - paragraph: US-ORG-005
+                  - cell "BIOAGRIcert":
+                    - paragraph: BIOAGRIcert
+                  - cell "http://www.bioagricert.org/english":
+                    - paragraph: http://www.bioagricert.org/english
+                - row "US-ORG-006 CCOF Certification Services www.ccof.org":
+                  - cell "US-ORG-006":
+                    - paragraph: US-ORG-006
+                  - cell "CCOF Certification Services":
+                    - paragraph: CCOF Certification Services
+                  - cell "www.ccof.org":
+                    - paragraph: www.ccof.org
+                - row "US-ORG-007 Colorado Department of Agriculture www.colorado.gov":
+                  - cell "US-ORG-007":
+                    - paragraph: US-ORG-007
+                  - cell "Colorado Department of Agriculture":
+                    - paragraph: Colorado Department of Agriculture
+                  - cell "www.colorado.gov":
+                    - paragraph: www.colorado.gov
+                - row "US-ORG-008 Control Union Certification www.skalint.com":
+                  - cell "US-ORG-008":
+                    - paragraph: US-ORG-008
+                  - cell "Control Union Certification":
+                    - paragraph: Control Union Certification
+                  - cell "www.skalint.com":
+                    - paragraph: www.skalint.com
+                - row "US-ORG-009 Department of Plant Industry – Clemson University www.clemson.edu/organic":
+                  - cell "US-ORG-009":
+                    - paragraph: US-ORG-009
+                  - cell "Department of Plant Industry – Clemson University":
+                    - paragraph: Department of Plant Industry – Clemson University
+                  - cell "www.clemson.edu/organic":
+                    - paragraph: www.clemson.edu/organic
+                - row "US-ORG-010 Ecocert S.A www.ecocert.com":
+                  - cell "US-ORG-010":
+                    - paragraph: US-ORG-010
+                  - cell "Ecocert S.A":
+                    - paragraph: Ecocert S.A
+                  - cell "www.ecocert.com":
+                    - paragraph: www.ecocert.com
+                - row "US-ORG-011 Georgia Crop Improvement Association, Inc www.certifiedseed.org":
+                  - cell "US-ORG-011":
+                    - paragraph: US-ORG-011
+                  - cell "Georgia Crop Improvement Association, Inc":
+                    - paragraph: Georgia Crop Improvement Association, Inc
+                  - cell "www.certifiedseed.org":
+                    - paragraph: www.certifiedseed.org
+                - row "US-ORG-013 Global Organic Alliance, Inc. www.goa-online.org":
+                  - cell "US-ORG-013":
+                    - paragraph: US-ORG-013
+                  - cell "Global Organic Alliance, Inc.":
+                    - paragraph: Global Organic Alliance, Inc.
+                  - cell "www.goa-online.org":
+                    - paragraph: www.goa-online.org
+                - row "US-ORG-015 Idaho State Department of Agriculture www.agri.idaho.gov/Categories/PlantsInsects/Organic/indexOrganicHome.php":
+                  - cell "US-ORG-015":
+                    - paragraph: US-ORG-015
+                  - cell "Idaho State Department of Agriculture":
+                    - paragraph: Idaho State Department of Agriculture
+                  - cell "www.agri.idaho.gov/Categories/PlantsInsects/Organic/indexOrganicHome.php":
+                    - paragraph: www.agri.idaho.gov/Categories/PlantsInsects/Organic/indexOrganicHome.php
+                - row "US-ORG-016 Ecocert ICO, LLC www.ecocertico.com":
+                  - cell "US-ORG-016":
+                    - paragraph: US-ORG-016
+                  - cell "Ecocert ICO, LLC":
+                    - paragraph: Ecocert ICO, LLC
+                  - cell "www.ecocertico.com":
+                    - paragraph: www.ecocertico.com
+                - row "US-ORG-017 International Certification Services, Inc. www.ics-intl.com":
+                  - cell "US-ORG-017":
+                    - paragraph: US-ORG-017
+                  - cell "International Certification Services, Inc.":
+                    - paragraph: International Certification Services, Inc.
+                  - cell "www.ics-intl.com":
+                    - paragraph: www.ics-intl.com
+                - row "US-ORG-018 Iowa Department of Agriculture and Land Stewardship https://www.iowaagriculture.gov/AgDiversification/organicCertification.asp":
+                  - cell "US-ORG-018":
+                    - paragraph: US-ORG-018
+                  - cell "Iowa Department of Agriculture and Land Stewardship":
+                    - paragraph: Iowa Department of Agriculture and Land Stewardship
+                  - cell "https://www.iowaagriculture.gov/AgDiversification/organicCertification.asp":
+                    - paragraph: https://www.iowaagriculture.gov/AgDiversification/organicCertification.asp
+                - row "US-ORG-019 Kentucky Department of Agriculture www.kyagr.com/marketing/plantmktg/organic/index.htm":
+                  - cell "US-ORG-019":
+                    - paragraph: US-ORG-019
+                  - cell "Kentucky Department of Agriculture":
+                    - paragraph: Kentucky Department of Agriculture
+                  - cell "www.kyagr.com/marketing/plantmktg/organic/index.htm":
+                    - paragraph: www.kyagr.com/marketing/plantmktg/organic/index.htm
+                - row "US-ORG-020 LACON GmbH www.lacon-institut.com":
+                  - cell "US-ORG-020":
+                    - paragraph: US-ORG-020
+                  - cell "LACON GmbH":
+                    - paragraph: LACON GmbH
+                  - cell "www.lacon-institut.com":
+                    - paragraph: www.lacon-institut.com
+                - row "US-ORG-022 Marin Organic Certified Agriculture https://www.marincounty.org/depts/ag/moca":
+                  - cell "US-ORG-022":
+                    - paragraph: US-ORG-022
+                  - cell "Marin Organic Certified Agriculture":
+                    - paragraph: Marin Organic Certified Agriculture
+                  - cell "https://www.marincounty.org/depts/ag/moca":
+                    - paragraph: https://www.marincounty.org/depts/ag/moca
+                - row "US-ORG-023 Maryland Department of Agriculture http://mda.maryland.gov/foodfeedquality/Pages/certified_md_organic_farms.aspx":
+                  - cell "US-ORG-023":
+                    - paragraph: US-ORG-023
+                  - cell "Maryland Department of Agriculture":
+                    - paragraph: Maryland Department of Agriculture
+                  - cell "http://mda.maryland.gov/foodfeedquality/Pages/certified_md_organic_farms.aspx":
+                    - paragraph: http://mda.maryland.gov/foodfeedquality/Pages/certified_md_organic_farms.aspx
+                - row "US-ORG-024 Mayacert S.A www.mayacert.com":
+                  - cell "US-ORG-024":
+                    - paragraph: US-ORG-024
+                  - cell "Mayacert S.A":
+                    - paragraph: Mayacert S.A
+                  - cell "www.mayacert.com":
+                    - paragraph: www.mayacert.com
+                - row "US-ORG-025 Midwest Organic Services Association, Inc. www.mosaorganic.org":
+                  - cell "US-ORG-025":
+                    - paragraph: US-ORG-025
+                  - cell "Midwest Organic Services Association, Inc.":
+                    - paragraph: Midwest Organic Services Association, Inc.
+                  - cell "www.mosaorganic.org":
+                    - paragraph: www.mosaorganic.org
+                - row "US-ORG-026 Minnesota Crop Improvement Association www.mncia.org":
+                  - cell "US-ORG-026":
+                    - paragraph: US-ORG-026
+                  - cell "Minnesota Crop Improvement Association":
+                    - paragraph: Minnesota Crop Improvement Association
+                  - cell "www.mncia.org":
+                    - paragraph: www.mncia.org
+                - row "US-ORG-027 MOFGA Certification Services, LLC www.mofga.org/":
+                  - cell "US-ORG-027":
+                    - paragraph: US-ORG-027
+                  - cell "MOFGA Certification Services, LLC":
+                    - paragraph: MOFGA Certification Services, LLC
+                  - cell "www.mofga.org/":
+                    - paragraph: www.mofga.org/
+                - row "US-ORG-028 Montana Department of Agriculture http://agr.mt.gov/agr/Producer/Organic/Info/index.html":
+                  - cell "US-ORG-028":
+                    - paragraph: US-ORG-028
+                  - cell "Montana Department of Agriculture":
+                    - paragraph: Montana Department of Agriculture
+                  - cell "http://agr.mt.gov/agr/Producer/Organic/Info/index.html":
+                    - paragraph: http://agr.mt.gov/agr/Producer/Organic/Info/index.html
+                - row "US-ORG-029 Monterey County Certified Organic https://www.co.monterey.ca.us/government/departments-a-h/agricultural-commissioner/agricultural-resource-programs/agricultural-product-quality-and-marketing/monterey-county-certifi#ag":
+                  - cell "US-ORG-029":
+                    - paragraph: US-ORG-029
+                  - cell "Monterey County Certified Organic":
+                    - paragraph: Monterey County Certified Organic
+                  - cell "https://www.co.monterey.ca.us/government/departments-a-h/agricultural-commissioner/agricultural-resource-programs/agricultural-product-quality-and-marketing/monterey-county-certifi#ag":
+                    - paragraph: https://www.co.monterey.ca.us/government/departments-a-h/agricultural-commissioner/agricultural-resource-programs/agricultural-product-quality-and-marketing/monterey-county-certifi#ag
+                - row "US-ORG-030 Natural Food Certifiers www.nfccertification.com":
+                  - cell "US-ORG-030":
+                    - paragraph: US-ORG-030
+                  - cell "Natural Food Certifiers":
+                    - paragraph: Natural Food Certifiers
+                  - cell "www.nfccertification.com":
+                    - paragraph: www.nfccertification.com
+                - row "US-ORG-031 Nature’s International Certification Services www.naturesinternational.com/":
+                  - cell "US-ORG-031":
+                    - paragraph: US-ORG-031
+                  - cell "Nature’s International Certification Services":
+                    - paragraph: Nature’s International Certification Services
+                  - cell "www.naturesinternational.com/":
+                    - paragraph: www.naturesinternational.com/
+                - row "US-ORG-033 New Hampshire Department of Agriculture, Division of Regulatory Services www.agriculture.nh.gov":
+                  - cell "US-ORG-033":
+                    - paragraph: US-ORG-033
+                  - cell "New Hampshire Department of Agriculture, Division of Regulatory Services":
+                    - paragraph: New Hampshire Department of Agriculture, Division of Regulatory Services
+                  - cell "www.agriculture.nh.gov":
+                    - paragraph: www.agriculture.nh.gov
+                - row "US-ORG-034 New Jersey Department of Agriculture www.nj.gov/agriculture/divisions/md/prog/jerseyorganic.html":
+                  - cell "US-ORG-034":
+                    - paragraph: US-ORG-034
+                  - cell "New Jersey Department of Agriculture":
+                    - paragraph: New Jersey Department of Agriculture
+                  - cell "www.nj.gov/agriculture/divisions/md/prog/jerseyorganic.html":
+                    - paragraph: www.nj.gov/agriculture/divisions/md/prog/jerseyorganic.html
+                - row "US-ORG-035 New Mexico Department of Agriculture, Organic Program www.nmda.nmsu.edu/marketing/organic-program":
+                  - cell "US-ORG-035":
+                    - paragraph: US-ORG-035
+                  - cell "New Mexico Department of Agriculture, Organic Program":
+                    - paragraph: New Mexico Department of Agriculture, Organic Program
+                  - cell "www.nmda.nmsu.edu/marketing/organic-program":
+                    - paragraph: www.nmda.nmsu.edu/marketing/organic-program
+                - row "US-ORG-036 NOFA New York Certified Organic, LLC http://www.nofany.org":
+                  - cell "US-ORG-036":
+                    - paragraph: US-ORG-036
+                  - cell "NOFA":
+                    - paragraph: NOFA
+                  - cell "New York Certified Organic, LLC http://www.nofany.org":
+                    - paragraph: New York Certified Organic, LLC http://www.nofany.org
+                - row "US-ORG-037 Ohio Ecological Food and Farm Association www.oeffa.org":
+                  - cell "US-ORG-037":
+                    - paragraph: US-ORG-037
+                  - cell "Ohio Ecological Food and Farm Association":
+                    - paragraph: Ohio Ecological Food and Farm Association
+                  - cell "www.oeffa.org":
+                    - paragraph: www.oeffa.org
+                - row "US-ORG-038 Americert International (OIA North America, LLC) http://www.americertorganic.com/home":
+                  - cell "US-ORG-038":
+                    - paragraph: US-ORG-038
+                  - cell "Americert International (OIA North America, LLC)":
+                    - paragraph: Americert International (OIA North America, LLC)
+                  - cell "http://www.americertorganic.com/home":
+                    - paragraph: http://www.americertorganic.com/home
+                - row "US-ORG-039 Oklahoma Department of Agriculture, Food and Forestry www.oda.state.ok.us":
+                  - cell "US-ORG-039":
+                    - paragraph: US-ORG-039
+                  - cell "Oklahoma Department of Agriculture, Food and Forestry":
+                    - paragraph: Oklahoma Department of Agriculture, Food and Forestry
+                  - cell "www.oda.state.ok.us":
+                    - paragraph: www.oda.state.ok.us
+                - row "US-ORG-040 OneCert www.onecert.com":
+                  - cell "US-ORG-040":
+                    - paragraph: US-ORG-040
+                  - cell "OneCert":
+                    - paragraph: OneCert
+                  - cell "www.onecert.com":
+                    - paragraph: www.onecert.com
+                - row "US-ORG-041 Oregon Department of Agriculture www.oregon.gov/ODA/CID":
+                  - cell "US-ORG-041":
+                    - paragraph: US-ORG-041
+                  - cell "Oregon Department of Agriculture":
+                    - paragraph: Oregon Department of Agriculture
+                  - cell "www.oregon.gov/ODA/CID":
+                    - paragraph: www.oregon.gov/ODA/CID
+                - row "US-ORG-042 Oregon Tilth Certified Organic www.tilth.org":
+                  - cell "US-ORG-042":
+                    - paragraph: US-ORG-042
+                  - cell "Oregon Tilth Certified Organic":
+                    - paragraph: Oregon Tilth Certified Organic
+                  - cell "www.tilth.org":
+                    - paragraph: www.tilth.org
+                - row "US-ORG-043 Organic Certifiers, Inc. http://www.organiccertifiers.com":
+                  - cell "US-ORG-043":
+                    - paragraph: US-ORG-043
+                  - cell "Organic Certifiers, Inc.":
+                    - paragraph: Organic Certifiers, Inc.
+                  - cell "http://www.organiccertifiers.com":
+                    - paragraph: http://www.organiccertifiers.com
+                - row "US-ORG-044 Organic Crop Improvement Association www.ocia.org":
+                  - cell "US-ORG-044":
+                    - paragraph: US-ORG-044
+                  - cell "Organic Crop Improvement Association":
+                    - paragraph: Organic Crop Improvement Association
+                  - cell "www.ocia.org":
+                    - paragraph: www.ocia.org
+                - row "US-ORG-046 Organización Internacional Agropecuraria www.oia.com.ar":
+                  - cell "US-ORG-046":
+                    - paragraph: US-ORG-046
+                  - cell "Organización Internacional Agropecuraria":
+                    - paragraph: Organización Internacional Agropecuraria
+                  - cell "www.oia.com.ar":
+                    - paragraph: www.oia.com.ar
+                - row "US-ORG-047 Pennsylvania Certified Organic www.paorganic.org":
+                  - cell "US-ORG-047":
+                    - paragraph: US-ORG-047
+                  - cell "Pennsylvania Certified Organic":
+                    - paragraph: Pennsylvania Certified Organic
+                  - cell "www.paorganic.org":
+                    - paragraph: www.paorganic.org
+                - row "US-ORG-048 Primus Auditing Operations http://www.primusauditingops.com":
+                  - cell "US-ORG-048":
+                    - paragraph: US-ORG-048
+                  - cell "Primus Auditing Operations":
+                    - paragraph: Primus Auditing Operations
+                  - cell "http://www.primusauditingops.com":
+                    - paragraph: http://www.primusauditingops.com
+                - row "US-ORG-049 Pro-Cert Organic Systems, Ltd www.pro-cert.org":
+                  - cell "US-ORG-049":
+                    - paragraph: US-ORG-049
+                  - cell "Pro-Cert Organic Systems, Ltd":
+                    - paragraph: Pro-Cert Organic Systems, Ltd
+                  - cell "www.pro-cert.org":
+                    - paragraph: www.pro-cert.org
+                - row "US-ORG-050 Quality Assurance International www.qai-inc.com":
+                  - cell "US-ORG-050":
+                    - paragraph: US-ORG-050
+                  - cell "Quality Assurance International":
+                    - paragraph: Quality Assurance International
+                  - cell "www.qai-inc.com":
+                    - paragraph: www.qai-inc.com
+                - row "US-ORG-051 Quality Certification Services www.QCSinfo.org":
+                  - cell "US-ORG-051":
+                    - paragraph: US-ORG-051
+                  - cell "Quality Certification Services":
+                    - paragraph: Quality Certification Services
+                  - cell "www.QCSinfo.org":
+                    - paragraph: www.QCSinfo.org
+                - row "US-ORG-052 Rhode Island Department of Environmental Management www.dem.ri.gov/programs/bnatres/agricult/orgcert.htm":
+                  - cell "US-ORG-052":
+                    - paragraph: US-ORG-052
+                  - cell "Rhode Island Department of Environmental Management":
+                    - paragraph: Rhode Island Department of Environmental Management
+                  - cell "www.dem.ri.gov/programs/bnatres/agricult/orgcert.htm":
+                    - paragraph: www.dem.ri.gov/programs/bnatres/agricult/orgcert.htm
+                - row "US-ORG-053 SCS Global Services, Inc. www.scs globalservices.com":
+                  - cell "US-ORG-053":
+                    - paragraph: US-ORG-053
+                  - cell "SCS Global Services, Inc.":
+                    - paragraph: SCS Global Services, Inc.
+                  - cell "www.scs globalservices.com":
+                    - paragraph: www.scs globalservices.com
+                - row "US-ORG-055 Texas Department of Agriculture http://www.texasagriculture.gov/regulatoryprograms/organics.aspx":
+                  - cell "US-ORG-055":
+                    - paragraph: US-ORG-055
+                  - cell "Texas Department of Agriculture":
+                    - paragraph: Texas Department of Agriculture
+                  - cell "http://www.texasagriculture.gov/regulatoryprograms/organics.aspx":
+                    - paragraph: http://www.texasagriculture.gov/regulatoryprograms/organics.aspx
+                - row "US-ORG-056 Utah Department of Agriculture http://ag.utah.gov/divisions/plant/organic/index.html":
+                  - cell "US-ORG-056":
+                    - paragraph: US-ORG-056
+                  - cell "Utah Department of Agriculture":
+                    - paragraph: Utah Department of Agriculture
+                  - cell "http://ag.utah.gov/divisions/plant/organic/index.html":
+                    - paragraph: http://ag.utah.gov/divisions/plant/organic/index.html
+                - row "US-ORG-057 Vermont Organic Farmers, LLC http://www.nofavt.org":
+                  - cell "US-ORG-057":
+                    - paragraph: US-ORG-057
+                  - cell "Vermont Organic Farmers, LLC":
+                    - paragraph: Vermont Organic Farmers, LLC
+                  - cell "http://www.nofavt.org":
+                    - paragraph: http://www.nofavt.org
+                - row "US-ORG-058 Washington State Department of Agriculture www.agr.wa.gov/FoodAnimal/Organic":
+                  - cell "US-ORG-058":
+                    - paragraph: US-ORG-058
+                  - cell "Washington State Department of Agriculture":
+                    - paragraph: Washington State Department of Agriculture
+                  - cell "www.agr.wa.gov/FoodAnimal/Organic":
+                    - paragraph: www.agr.wa.gov/FoodAnimal/Organic
+                - row "US-ORG-059 Yolo County Department of Agriculture https://www.yolocounty.org/general-government/general-government-departments/agriculture-cooperative-extension/agriculture-and-weights-measures/yolo-certified-organic-agriculture":
+                  - cell "US-ORG-059":
+                    - paragraph: US-ORG-059
+                  - cell "Yolo County Department of Agriculture":
+                    - paragraph: Yolo County Department of Agriculture
+                  - cell "https://www.yolocounty.org/general-government/general-government-departments/agriculture-cooperative-extension/agriculture-and-weights-measures/yolo-certified-organic-agriculture":
+                    - paragraph: https://www.yolocounty.org/general-government/general-government-departments/agriculture-cooperative-extension/agriculture-and-weights-measures/yolo-certified-organic-agriculture
+                - row "US-ORG-62 CERES http://www.ceres-cert.com/":
+                  - cell "US-ORG-62":
+                    - paragraph: US-ORG-62
+                  - cell "CERES":
+                    - paragraph: CERES
+                  - cell "http://www.ceres-cert.com/":
+                    - paragraph: http://www.ceres-cert.com/
+                - row "US-ORG-063 Eco-Logica S.A http://www.eco-logica.com/":
+                  - cell "US-ORG-063":
+                    - paragraph: US-ORG-063
+                  - cell "Eco-Logica S.A":
+                    - paragraph: Eco-Logica S.A
+                  - cell "http://www.eco-logica.com/":
+                    - paragraph: http://www.eco-logica.com/
+                - row "US-ORG-064 Food Safety S.A. http://www.foodsafety.com.ar/":
+                  - cell "US-ORG-064":
+                    - paragraph: US-ORG-064
+                  - cell "Food Safety S.A.":
+                    - paragraph: Food Safety S.A.
+                  - cell "http://www.foodsafety.com.ar/":
+                    - paragraph: http://www.foodsafety.com.ar/
+                - row "US-ORG-065 IBD Certifications http://www.ibd.com.br/":
+                  - cell "US-ORG-065":
+                    - paragraph: US-ORG-065
+                  - cell "IBD Certifications":
+                    - paragraph: IBD Certifications
+                  - cell "http://www.ibd.com.br/":
+                    - paragraph: http://www.ibd.com.br/
+                - row "US-ORG-066 Istituto per la Certificazione Etica e Ambientale (ICEA) http://www.icea.info/":
+                  - cell "US-ORG-066":
+                    - paragraph: US-ORG-066
+                  - cell "Istituto per la Certificazione Etica e Ambientale (ICEA)":
+                    - paragraph: Istituto per la Certificazione Etica e Ambientale (ICEA)
+                  - cell "http://www.icea.info/":
+                    - paragraph: http://www.icea.info/
+                - row "US-ORG-067 OnMark Certification Services http://onmarkcertification.com/":
+                  - cell "US-ORG-067":
+                    - paragraph: US-ORG-067
+                  - cell "OnMark Certification Services":
+                    - paragraph: OnMark Certification Services
+                  - cell "http://onmarkcertification.com/":
+                    - paragraph: http://onmarkcertification.com/
+                - row "US-ORG-068 Perry Johnson Registrar Food Safety, Inc. http://www.pjrfsi.com/":
+                  - cell "US-ORG-068":
+                    - paragraph: US-ORG-068
+                  - cell "Perry Johnson Registrar Food Safety, Inc.":
+                    - paragraph: Perry Johnson Registrar Food Safety, Inc.
+                  - cell "http://www.pjrfsi.com/":
+                    - paragraph: http://www.pjrfsi.com/
+    - table:
+      - rowgroup:
+        - 'row "6. Certificate issuing bodies: as at point 5."':
+          - cell
+          - cell "6.":
+            - paragraph: "6."
+          - 'cell "Certificate issuing bodies: as at point 5."':
+            - generic: "Certificate issuing bodies: as at point 5."
+    - table:
+      - rowgroup:
+        - row "7. Duration of the inclusion:31 December 2026.":
+          - cell
+          - cell "7.":
+            - paragraph: "7."
+          - cell "Duration of the inclusion:31 December 2026.":
+            - generic: Duration of the inclusion:31 December 2026.
+    - separator
+    - paragraph:
+      - link "(1)":
+        - /url: "#ntc1-L_2021465EN.01001401-E0001"
+      - text: Wine and yeast not included.
+    - paragraph:
+      - link "(2)":
+        - /url: "#ntc2-L_2021465EN.01001401-E0002"
+      - text: Wine and yeast not included.
+    - paragraph:
+      - link "(3)":
+        - /url: "#ntc3-L_2021465EN.01001401-E0003"
+      - text: Wine and yeast not included.
+    - paragraph:
+      - link "(4)":
+        - /url: "#ntc4-L_2021465EN.01001401-E0004"
+      - text: Wine and yeast not included.
+    - paragraph:
+      - link "(5)":
+        - /url: "#ntc5-L_2021465EN.01001401-E0005"
+      - text: Wine not included.
+    - paragraph:
+      - link "(6)":
+        - /url: "#ntc6-L_2021465EN.01001401-E0006"
+      - text: Yeast not included.
+    - paragraph:
+      - link "(7)":
+        - /url: "#ntc7-L_2021465EN.01001401-E0007"
+      - text: Wine and yeast not included.
+    - paragraph:
+      - link "(8)":
+        - /url: "#ntc8-L_2021465EN.01001401-E0008"
+      - text: Wine included.
+    - separator
+    - paragraph: ANNEX II

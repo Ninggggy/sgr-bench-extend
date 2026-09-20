@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "predicate_quotes": 30,
+  "candidate_schema": "passed",
+  "same_output_format": true,
+  "reference_unchanged": true
+}

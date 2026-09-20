@@ -1,0 +1,3257 @@
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner "Global navigation menu":
+  - button "Open menu":
+  - link "Homepage (g then d)":
+    - /url: /
+  - navigation "Breadcrumbs":
+    - list:
+      - link "FreeRTOS":
+        - /url: /FreeRTOS
+        - generic: FreeRTOS
+      - link "FreeRTOS-Kernel":
+        - /url: /FreeRTOS/FreeRTOS-Kernel
+      - button "Switch repository (alt shift r)":
+  - button "Open quick search dialog, type / to search":
+    - text: Type
+    - generic: /
+    - text: to search
+  - link "Chat with Copilot":
+    - /url: /copilot
+  - button "Open Copilot…":
+  - button "Create new...":
+  - link "All issues":
+    - /url: /issues
+  - link "All pull requests":
+    - /url: /pulls
+  - link "All repositories":
+    - /url: /repos
+  - link "You have no unread notifications (g then n)":
+    - /url: /notifications
+  - button "Open user navigation menu":
+    - img "User avatar"
+  - heading "Repository navigation" [level=2]
+  - navigation "Repository":
+    - list:
+      - link "Code":
+        - /url: /FreeRTOS/FreeRTOS-Kernel
+        - generic: Code
+      - link "Issues (43)":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/issues
+        - generic: Issues
+        - generic: "43"
+        - generic: (43)
+      - link "Pull requests (52)":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/pulls
+        - generic: Pull requests
+        - generic: "52"
+        - generic: (52)
+      - link "Agents":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/agents?author=Ninggggy
+        - generic: Agents
+      - link "Actions":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/actions
+        - generic: Actions
+      - link "Projects":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/projects
+        - generic: Projects
+      - link "Security and quality (5)":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/security
+        - generic: Security and quality
+        - generic: "5"
+        - generic: (5)
+      - link "Insights":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/pulse
+        - generic: Insights
+- main:
+  - heading "Expand file tree" [level=2]:
+    - button "Expand file tree":
+  - button "V11.3.0 branch":
+    - generic: V11.3.0
+  - navigation "Breadcrumbs":
+    - heading "Breadcrumbs" [level=2]
+    - list:
+      - link "FreeRTOS-Kernel":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0
+      - text: /
+      - link "portable":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable
+      - text: /
+      - link "GCC":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC
+      - text: /
+      - link "RISC-V":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC/RISC-V
+  - text: /
+  - heading "portContext.h" [level=1]
+  - button "Copy path":
+  - combobox "Go to file"
+  - generic: t
+  - generic: T
+  - button "More file actions":
+  - heading "Latest commit" [level=2]
+  - heading "History" [level=2]
+  - link "History":
+    - /url: /FreeRTOS/FreeRTOS-Kernel/commits/V11.3.0/portable/GCC/RISC-V/portContext.h
+    - generic: History
+  - heading "File metadata and controls" [level=2]
+  - list "File view":
+    - button "Code" [pressed]:
+      - generic: Code
+    - button "Blame":
+      - generic: Blame
+  - generic "16.4 KB": 468 lines (416 loc) · 16.4 KB
+  - button "Add to space":
+  - button "Ask Copilot about this file":
+  - link "Raw":
+    - /url: https://github.com/FreeRTOS/FreeRTOS-Kernel/raw/refs/tags/V11.3.0/portable/GCC/RISC-V/portContext.h
+    - generic: Raw
+  - button "Copy raw file":
+  - button "Download raw file":
+  - button "You must be on a branch to make or propose changes to this file" [disabled]:
+  - button "More edit options":
+  - button "Close symbols panel" [expanded] [pressed]:
+  - region:
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "10"
+    - generic: "11"
+    - generic: "12"
+    - generic: "13"
+    - generic: "14"
+    - generic: "15"
+    - generic: "16"
+    - generic: "17"
+    - generic: "18"
+    - generic: "19"
+    - generic: "20"
+    - generic: "21"
+    - generic: "22"
+    - generic: "23"
+    - generic: "24"
+    - generic: "25"
+    - generic: "26"
+    - generic: "27"
+    - generic: "28"
+    - generic: "29"
+    - generic: "30"
+    - generic: "31"
+    - generic: "32"
+    - generic: "33"
+    - generic: "34"
+    - generic: "35"
+    - generic: "36"
+    - generic: "37"
+    - generic: "38"
+    - generic: "39"
+    - generic: "40"
+    - generic: "41"
+    - generic: "42"
+    - generic: "43"
+    - generic: "44"
+    - generic: "45"
+    - generic: "46"
+    - generic: "47"
+    - generic: "48"
+    - generic: "49"
+    - generic: "50"
+    - generic: "51"
+    - generic: "52"
+    - generic: "53"
+    - generic: "54"
+    - generic: "55"
+    - generic: "56"
+    - generic: "57"
+    - generic: "58"
+    - generic: "59"
+    - generic: "60"
+    - generic: "61"
+    - generic: "62"
+    - generic: "63"
+    - generic: "64"
+    - generic: "65"
+    - generic: "66"
+    - generic: "67"
+    - generic: "68"
+    - generic: "69"
+    - generic: "70"
+    - generic: "71"
+    - generic: "72"
+    - generic: "73"
+    - generic: "74"
+    - generic: "75"
+    - generic: "76"
+    - generic: "77"
+    - generic: "78"
+    - generic: "79"
+    - generic: "80"
+    - generic: "81"
+    - generic: "82"
+    - generic: "83"
+    - generic: "84"
+    - generic: "85"
+    - generic: "86"
+    - generic: "87"
+    - generic: "88"
+    - generic: "89"
+    - generic: "90"
+    - generic: "91"
+    - generic: "92"
+    - generic: "93"
+    - generic: "94"
+    - generic: "95"
+    - generic: "96"
+    - generic: "97"
+    - generic: "98"
+    - generic: "99"
+    - generic: "100"
+    - generic: "101"
+    - generic: "102"
+    - generic: "103"
+    - generic: "104"
+    - generic: "105"
+    - generic: "106"
+    - generic: "107"
+    - generic: "108"
+    - generic: "109"
+    - generic: "110"
+    - generic: "111"
+    - generic: "112"
+    - generic: "113"
+    - generic: "114"
+    - generic: "115"
+    - generic: "116"
+    - generic: "117"
+    - generic: "118"
+    - generic: "119"
+    - generic: "120"
+    - generic: "121"
+    - generic: "122"
+    - generic: "123"
+    - generic: "124"
+    - generic: "125"
+    - generic: "126"
+    - generic: "127"
+    - generic: "128"
+    - generic: "129"
+    - generic: "130"
+    - generic: "131"
+    - generic: "132"
+    - generic: "133"
+    - generic: "134"
+    - generic: "135"
+    - generic: "136"
+    - generic: "137"
+    - generic: "138"
+    - generic: "139"
+    - generic: "140"
+    - generic: "141"
+    - generic: "142"
+    - generic: "143"
+    - generic: "144"
+    - generic: "145"
+    - generic: "146"
+    - generic: "147"
+    - generic: "148"
+    - generic: "149"
+    - generic: "150"
+    - generic: "151"
+    - generic: "152"
+    - generic: "153"
+    - generic: "154"
+    - generic: "155"
+    - generic: "156"
+    - generic: "157"
+    - generic: "158"
+    - generic: "159"
+    - generic: "160"
+    - generic: "161"
+    - generic: "162"
+    - generic: "163"
+    - generic: "164"
+    - generic: "165"
+    - generic: "166"
+    - generic: "167"
+    - generic: "168"
+    - generic: "169"
+    - generic: "170"
+    - generic: "171"
+    - generic: "172"
+    - generic: "173"
+    - generic: "174"
+    - generic: "175"
+    - generic: "176"
+    - generic: "177"
+    - generic: "178"
+    - generic: "179"
+    - generic: "180"
+    - generic: "181"
+    - generic: "182"
+    - generic: "183"
+    - generic: "184"
+    - generic: "185"
+    - generic: "186"
+    - generic: "187"
+    - generic: "188"
+    - generic: "189"
+    - generic: "190"
+    - generic: "191"
+    - generic: "192"
+    - generic: "193"
+    - generic: "194"
+    - generic: "195"
+    - generic: "196"
+    - generic: "197"
+    - generic: "198"
+    - generic: "199"
+    - generic: "200"
+    - generic: "201"
+    - generic: "202"
+    - generic: "203"
+    - generic: "204"
+    - generic: "205"
+    - generic: "206"
+    - generic: "207"
+    - generic: "208"
+    - generic: "209"
+    - generic: "210"
+    - generic: "211"
+    - generic: "212"
+    - generic: "213"
+    - generic: "214"
+    - generic: "215"
+    - generic: "216"
+    - generic: "217"
+    - generic: "218"
+    - generic: "219"
+    - generic: "220"
+    - generic: "221"
+    - generic: "222"
+    - generic: "223"
+    - generic: "224"
+    - generic: "225"
+    - generic: "226"
+    - generic: "227"
+    - generic: "228"
+    - generic: "229"
+    - generic: "230"
+    - generic: "231"
+    - generic: "232"
+    - generic: "233"
+    - generic: "234"
+    - generic: "235"
+    - generic: "236"
+    - generic: "237"
+    - generic: "238"
+    - generic: "239"
+    - generic: "240"
+    - generic: "241"
+    - generic: "242"
+    - generic: "243"
+    - generic: "244"
+    - generic: "245"
+    - generic: "246"
+    - generic: "247"
+    - generic: "248"
+    - generic: "249"
+    - generic: "250"
+    - generic: "251"
+    - generic: "252"
+    - generic: "253"
+    - generic: "254"
+    - generic: "255"
+    - generic: "256"
+    - generic: "257"
+    - generic: "258"
+    - generic: "259"
+    - generic: "260"
+    - generic: "261"
+    - generic: "262"
+    - generic: "263"
+    - generic: "264"
+    - generic: "265"
+    - generic: "266"
+    - generic: "267"
+    - generic: "268"
+    - generic: "269"
+    - generic: "270"
+    - generic: "271"
+    - generic: "272"
+    - generic: "273"
+    - generic: "274"
+    - generic: "275"
+    - generic: "276"
+    - generic: "277"
+    - generic: "278"
+    - generic: "279"
+    - generic: "280"
+    - generic: "281"
+    - generic: "282"
+    - generic: "283"
+    - generic: "284"
+    - generic: "285"
+    - generic: "286"
+    - generic: "287"
+    - generic: "288"
+    - generic: "289"
+    - generic: "290"
+    - generic: "291"
+    - generic: "292"
+    - generic: "293"
+    - generic: "294"
+    - generic: "295"
+    - generic: "296"
+    - generic: "297"
+    - generic: "298"
+    - generic: "299"
+    - generic: "300"
+    - generic: "301"
+    - generic: "302"
+    - generic: "303"
+    - generic: "304"
+    - generic: "305"
+    - generic: "306"
+    - generic: "307"
+    - generic: "308"
+    - generic: "309"
+    - generic: "310"
+    - generic: "311"
+    - generic: "312"
+    - generic: "313"
+    - generic: "314"
+    - generic: "315"
+    - generic: "316"
+    - generic: "317"
+    - generic: "318"
+    - generic: "319"
+    - generic: "320"
+    - generic: "321"
+    - generic: "322"
+    - generic: "323"
+    - generic: "324"
+    - generic: "325"
+    - generic: "326"
+    - generic: "327"
+    - generic: "328"
+    - generic: "329"
+    - generic: "330"
+    - generic: "331"
+    - generic: "332"
+    - generic: "333"
+    - generic: "334"
+    - generic: "335"
+    - generic: "336"
+    - generic: "337"
+    - generic: "338"
+    - generic: "339"
+    - generic: "340"
+    - generic: "341"
+    - generic: "342"
+    - generic: "343"
+    - generic: "344"
+    - generic: "345"
+    - generic: "346"
+    - generic: "347"
+    - generic: "348"
+    - generic: "349"
+    - generic: "350"
+    - generic: "351"
+    - generic: "352"
+    - generic: "353"
+    - generic: "354"
+    - generic: "355"
+    - generic: "356"
+    - generic: "357"
+    - generic: "358"
+    - generic: "359"
+    - generic: "360"
+    - generic: "361"
+    - generic: "362"
+    - generic: "363"
+    - generic: "364"
+    - generic: "365"
+    - generic: "366"
+    - generic: "367"
+    - generic: "368"
+    - generic: "369"
+    - generic: "370"
+    - generic: "371"
+    - generic: "372"
+    - generic: "373"
+    - generic: "374"
+    - generic: "375"
+    - generic: "376"
+    - generic: "377"
+    - generic: "378"
+    - generic: "379"
+    - generic: "380"
+    - generic: "381"
+    - generic: "382"
+    - generic: "383"
+    - generic: "384"
+    - generic: "385"
+    - generic: "386"
+    - generic: "387"
+    - generic: "388"
+    - generic: "389"
+    - generic: "390"
+    - generic: "391"
+    - generic: "392"
+    - generic: "393"
+    - generic: "394"
+    - generic: "395"
+    - generic: "396"
+    - generic: "397"
+    - generic: "398"
+    - generic: "399"
+    - generic: "400"
+    - generic: "401"
+    - generic: "402"
+    - generic: "403"
+    - generic: "404"
+    - generic: "405"
+    - generic: "406"
+    - generic: "407"
+    - generic: "408"
+    - generic: "409"
+    - generic: "410"
+    - generic: "411"
+    - generic: "412"
+    - generic: "413"
+    - generic: "414"
+    - generic: "415"
+    - generic: "416"
+    - generic: "417"
+    - generic: "418"
+    - generic: "419"
+    - generic: "420"
+    - generic: "421"
+    - generic: "422"
+    - generic: "423"
+    - generic: "424"
+    - generic: "425"
+    - generic: "426"
+    - generic: "427"
+    - generic: "428"
+    - generic: "429"
+    - generic: "430"
+    - generic: "431"
+    - generic: "432"
+    - generic: "433"
+    - generic: "434"
+    - generic: "435"
+    - generic: "436"
+    - generic: "437"
+    - generic: "438"
+    - generic: "439"
+    - generic: "440"
+    - generic: "441"
+    - generic: "442"
+    - generic: "443"
+    - generic: "444"
+    - generic: "445"
+    - generic: "446"
+    - generic: "447"
+    - generic: "448"
+    - generic: "449"
+    - generic: "450"
+    - generic: "451"
+    - generic: "452"
+    - generic: "453"
+    - generic: "454"
+    - generic: "455"
+    - generic: "456"
+    - generic: "457"
+    - generic: "458"
+    - generic: "459"
+    - generic: "460"
+    - generic: "461"
+    - generic: "462"
+    - generic: "463"
+    - generic: "464"
+    - generic: "465"
+    - generic: "466"
+    - generic: "467"
+    - generic: "468"
+    - generic: /*
+    - generic: "* FreeRTOS Kernel V11.3.0"
+    - generic: "* Copyright (C) 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved."
+    - generic: "*"
+    - generic: "* SPDX-License-Identifier: MIT"
+    - generic: "*"
+    - generic: "* Permission is hereby granted, free of charge, to any person obtaining a copy of"
+    - generic: "* this software and associated documentation files (the \"Software\"), to deal in"
+    - generic: "* the Software without restriction, including without limitation the rights to"
+    - generic: "* use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of"
+    - generic: "* the Software, and to permit persons to whom the Software is furnished to do so,"
+    - generic: "* subject to the following conditions:"
+    - generic: "*"
+    - generic: "* The above copyright notice and this permission notice shall be included in all"
+    - generic: "* copies or substantial portions of the Software."
+    - generic: "*"
+    - generic: "* THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+    - generic: "* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS"
+    - generic: "* FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR"
+    - generic: "* COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER"
+    - generic: "* IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN"
+    - generic: "* CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    - generic: "*"
+    - generic: "* https://www.FreeRTOS.org"
+    - generic: "* https://github.com/FreeRTOS"
+    - generic: "*"
+    - generic: "*/"
+    - generic: "#ifndef"
+    - generic: PORTCONTEXT_H
+    - generic: "#define"
+    - generic: PORTCONTEXT_H
+    - generic: "#ifndef"
+    - generic: configENABLE_FPU
+    - generic: "#define"
+    - generic: configENABLE_FPU
+    - text: "0"
+    - generic: "#endif"
+    - generic: "#ifndef"
+    - generic: configENABLE_VPU
+    - generic: "#define"
+    - generic: configENABLE_VPU
+    - text: "0"
+    - generic: "#endif"
+    - generic: "#if"
+    - generic: __riscv_xlen
+    - generic: ==
+    - generic: "64"
+    - generic: "#define"
+    - generic: portWORD_SIZE
+    - text: "8"
+    - generic: "#define"
+    - generic: store_x
+    - text: sd
+    - generic: "#define"
+    - generic: load_x
+    - text: ld
+    - generic: "#elif"
+    - generic: __riscv_xlen
+    - generic: ==
+    - generic: "32"
+    - generic: "#define"
+    - generic: store_x
+    - text: sw
+    - generic: "#define"
+    - generic: load_x
+    - text: lw
+    - generic: "#define"
+    - generic: portWORD_SIZE
+    - text: "4"
+    - generic: "#else"
+    - generic: "#error"
+    - text: Assembler did not define __riscv_xlen
+    - generic: "#endif"
+    - generic: "#include"
+    - generic: "\"freertos_risc_v_chip_specific_extensions.h\""
+    - generic: /* Only the standard core registers are stored by default. Any additional
+    - generic: "* registers must be saved by the portasmSAVE_ADDITIONAL_REGISTERS and"
+    - generic: "* portasmRESTORE_ADDITIONAL_REGISTERS macros - which can be defined in a chip"
+    - generic: "* specific version of freertos_risc_v_chip_specific_extensions.h. See the"
+    - generic: "* notes at the top of portASM.S file. */"
+    - generic: "#ifdef"
+    - generic: __riscv_32e
+    - generic: "#define"
+    - generic: portCONTEXT_SIZE
+    - text: ( 15 * portWORD_SIZE )
+    - generic: "#define"
+    - generic: portCRITICAL_NESTING_OFFSET
+    - text: "14"
+    - generic: "#else"
+    - generic: "#define"
+    - generic: portCONTEXT_SIZE
+    - text: ( 31 * portWORD_SIZE )
+    - generic: "#define"
+    - generic: portCRITICAL_NESTING_OFFSET
+    - text: "30"
+    - generic: "#endif"
+    - generic: "#if"
+    - text: (
+    - generic: configENABLE_FPU
+    - generic: ==
+    - generic: "1"
+    - text: )
+    - generic: /* Bit [14:13] in the mstatus encode the status of FPU state which is one of
+    - generic: "* the following values:"
+    - generic: "* 1. Value: 0, Meaning: Off."
+    - generic: "* 2. Value: 1, Meaning: Initial."
+    - generic: "* 3. Value: 2, Meaning: Clean."
+    - generic: "* 4. Value: 3, Meaning: Dirty."
+    - generic: "*/"
+    - generic: "#define"
+    - generic: MSTATUS_FS_MASK
+    - text: "0x6000"
+    - generic: "#define"
+    - generic: MSTATUS_FS_INITIAL
+    - text: "0x2000"
+    - generic: "#define"
+    - generic: MSTATUS_FS_CLEAN
+    - text: "0x4000"
+    - generic: "#define"
+    - generic: MSTATUS_FS_DIRTY
+    - text: "0x6000"
+    - generic: "#define"
+    - generic: MSTATUS_FS_OFFSET
+    - text: "13"
+    - generic: "#ifdef"
+    - generic: __riscv_fdiv
+    - generic: "#if"
+    - generic: __riscv_flen
+    - generic: ==
+    - generic: "32"
+    - generic: "#define"
+    - generic: load_f
+    - text: flw
+    - generic: "#define"
+    - generic: store_f
+    - text: fsw
+    - generic: "#elif"
+    - generic: __riscv_flen
+    - generic: ==
+    - generic: "64"
+    - generic: "#define"
+    - generic: load_f
+    - text: fld
+    - generic: "#define"
+    - generic: store_f
+    - text: fsd
+    - generic: "#else"
+    - generic: "#error"
+    - text: Assembler did not define __riscv_flen
+    - generic: "#endif"
+    - generic: "#define"
+    - generic: portFPU_REG_SIZE
+    - text: ( __riscv_flen / 8 )
+    - generic: "#define"
+    - generic: portFPU_REG_COUNT
+    - text: "33"
+    - generic: /* 32 Floating point registers plus one CSR. */
+    - generic: "#define"
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: regIndex
+    - text: ) ( ( 2 * portWORD_SIZE ) + ( regIndex * portFPU_REG_SIZE ) )
+    - generic: "#define"
+    - generic: portFPU_CONTEXT_SIZE
+    - text: ( portFPU_REG_SIZE * portFPU_REG_COUNT )
+    - generic: "#else"
+    - generic: "#error"
+    - text: configENABLE_FPU must not be set to 1 if the hardware does not have FPU
+    - generic: "#endif"
+    - generic: "#endif"
+    - generic: "#if"
+    - text: (
+    - generic: configENABLE_VPU
+    - generic: ==
+    - generic: "1"
+    - text: )
+    - generic: /* Bit [10:9] in the mstatus encode the status of VPU state which is one of
+    - generic: "* the following values:"
+    - generic: "* 1. Value: 0, Meaning: Off."
+    - generic: "* 2. Value: 1, Meaning: Initial."
+    - generic: "* 3. Value: 2, Meaning: Clean."
+    - generic: "* 4. Value: 3, Meaning: Dirty."
+    - generic: "*/"
+    - generic: "#define"
+    - generic: MSTATUS_VS_MASK
+    - text: "0x600"
+    - generic: "#define"
+    - generic: MSTATUS_VS_INITIAL
+    - text: "0x200"
+    - generic: "#define"
+    - generic: MSTATUS_VS_CLEAN
+    - text: "0x400"
+    - generic: "#define"
+    - generic: MSTATUS_VS_DIRTY
+    - text: "0x600"
+    - generic: "#define"
+    - generic: MSTATUS_VS_OFFSET
+    - text: "9"
+    - generic: "#ifndef"
+    - generic: __riscv_vector
+    - generic: "#error"
+    - text: configENABLE_VPU must not be set to 1 if the hardware does not have VPU
+    - generic: "#endif"
+    - generic: "#endif"
+    - generic: /*-----------------------------------------------------------*/
+    - text: .
+    - generic: extern
+    - generic: pxCurrentTCB
+    - text: .
+    - generic: extern
+    - generic: xISRStackTop
+    - text: .
+    - generic: extern
+    - generic: xCriticalNesting
+    - text: .
+    - generic: extern
+    - generic: pxCriticalNesting
+    - generic: /*-----------------------------------------------------------*/
+    - text: .
+    - generic: macro
+    - generic: portcontexSAVE_FPU_CONTEXT
+    - generic: addi
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: "-"
+    - text: (
+    - generic: portFPU_CONTEXT_SIZE
+    - text: )
+    - generic: /* Store the FPU registers. */
+    - generic: store_f
+    - generic: f0
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "0"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f1
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "1"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f2
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "2"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f3
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "3"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f4
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "4"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f5
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "5"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f6
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "6"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f7
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "7"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f8
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "8"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f9
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "9"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f10
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "10"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f11
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "11"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f12
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "12"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f13
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "13"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f14
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "14"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f15
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "15"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f16
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "16"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f17
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "17"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f18
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "18"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f19
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "19"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f20
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "20"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f21
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "21"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f22
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "22"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f23
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "23"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f24
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "24"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f25
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "25"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f26
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "26"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f27
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "27"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f28
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "28"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f29
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "29"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f30
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "30"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: store_f
+    - generic: f31
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "31"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: csrr
+    - generic: t0
+    - text: ","
+    - generic: fcsr
+    - generic: store_x
+    - generic: t0
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "32"
+    - text: )(
+    - generic: sp
+    - text: )
+    - text: .
+    - generic: endm
+    - generic: /*-----------------------------------------------------------*/
+    - text: .
+    - generic: macro
+    - generic: portcontextRESTORE_FPU_CONTEXT
+    - generic: /* Restore the FPU registers. */
+    - generic: load_f
+    - generic: f0
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "0"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f1
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "1"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f2
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "2"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f3
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "3"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f4
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "4"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f5
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "5"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f6
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "6"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f7
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "7"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f8
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "8"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f9
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "9"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f10
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "10"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f11
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "11"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f12
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "12"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f13
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "13"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f14
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "14"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f15
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "15"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f16
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "16"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f17
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "17"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f18
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "18"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f19
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "19"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f20
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "20"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f21
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "21"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f22
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "22"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f23
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "23"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f24
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "24"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f25
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "25"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f26
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "26"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f27
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "27"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f28
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "28"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f29
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "29"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f30
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "30"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_f
+    - generic: f31
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "31"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: t0
+    - text: ","
+    - generic: portFPU_REG_OFFSET
+    - text: (
+    - generic: "32"
+    - text: )(
+    - generic: sp
+    - text: )
+    - generic: csrw
+    - generic: fcsr
+    - text: ","
+    - generic: t0
+    - generic: addi
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ", ("
+    - generic: portFPU_CONTEXT_SIZE
+    - text: )
+    - text: .
+    - generic: endm
+    - generic: /*-----------------------------------------------------------*/
+    - text: .
+    - generic: macro
+    - generic: portcontexSAVE_VPU_CONTEXT
+    - generic: /* Un-reserve the space reserved for mstatus and epc. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ", ("
+    - generic: "2"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: )
+    - generic: csrr
+    - generic: t0
+    - text: ","
+    - generic: vlenb
+    - generic: /* t0 = vlenb. vlenb is the length of each vector register in bytes. */
+    - generic: slli
+    - generic: t0
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: "3"
+    - generic: /* t0 = vlenb * 8. t0 now contains the space required to store 8 vector registers. */
+    - generic: neg
+    - generic: t0
+    - text: ","
+    - generic: t0
+    - generic: /* Store the vector registers in group of 8. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: t0
+    - generic: vs8r
+    - text: .
+    - generic: v
+    - generic: v24
+    - text: ", ("
+    - generic: sp
+    - text: )
+    - generic: /* Store v24-v31. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: t0
+    - generic: vs8r
+    - text: .
+    - generic: v
+    - generic: v16
+    - text: ", ("
+    - generic: sp
+    - text: )
+    - generic: /* Store v16-v23. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: t0
+    - generic: vs8r
+    - text: .
+    - generic: v
+    - generic: v8
+    - text: ", ("
+    - generic: sp
+    - text: )
+    - generic: /* Store v8-v15. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: t0
+    - generic: vs8r
+    - text: .
+    - generic: v
+    - generic: v0
+    - text: ", ("
+    - generic: sp
+    - text: )
+    - generic: /* Store v0-v7. */
+    - generic: /* Store the VPU CSRs. */
+    - generic: addi
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: "-"
+    - text: (
+    - generic: "4"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: )
+    - generic: csrr
+    - generic: t0
+    - text: ","
+    - generic: vstart
+    - generic: store_x
+    - generic: t0
+    - text: ","
+    - generic: "0"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: csrr
+    - generic: t0
+    - text: ","
+    - generic: vcsr
+    - generic: store_x
+    - generic: t0
+    - text: ","
+    - generic: "1"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: csrr
+    - generic: t0
+    - text: ","
+    - generic: vl
+    - generic: store_x
+    - generic: t0
+    - text: ","
+    - generic: "2"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: csrr
+    - generic: t0
+    - text: ","
+    - generic: vtype
+    - generic: store_x
+    - generic: t0
+    - text: ","
+    - generic: "3"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: /* Re-reserve the space for mstatus and epc. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: "-"
+    - text: (
+    - generic: "2"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: )
+    - text: .
+    - generic: endm
+    - generic: /*-----------------------------------------------------------*/
+    - text: .
+    - generic: macro
+    - generic: portcontextRESTORE_VPU_CONTEXT
+    - generic: /* Un-reserve the space reserved for mstatus and epc. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ", ("
+    - generic: "2"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: )
+    - generic: /* Restore the VPU CSRs. */
+    - generic: load_x
+    - generic: t0
+    - text: ","
+    - generic: "0"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: csrw
+    - generic: vstart
+    - text: ","
+    - generic: t0
+    - generic: load_x
+    - generic: t0
+    - text: ","
+    - generic: "1"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: csrw
+    - generic: vcsr
+    - text: ","
+    - generic: t0
+    - generic: load_x
+    - generic: t0
+    - text: ","
+    - generic: "2"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: t1
+    - text: ","
+    - generic: "3"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: vsetvl
+    - generic: x0
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: t1
+    - generic: /* vlen and vtype can only be updated by using vset*vl* instructions. */
+    - generic: addi
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ", ("
+    - generic: "4"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: )
+    - generic: csrr
+    - generic: t0
+    - text: ","
+    - generic: vlenb
+    - generic: /* t0 = vlenb. vlenb is the length of each vector register in bytes. */
+    - generic: slli
+    - generic: t0
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: "3"
+    - generic: /* t0 = vlenb * 8. t0 now contains the space required to store 8 vector registers. */
+    - generic: /* Restore the vector registers. */
+    - generic: vl8r
+    - text: .
+    - generic: v
+    - generic: v0
+    - text: ", ("
+    - generic: sp
+    - text: )
+    - generic: /* Restore v0-v7. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: t0
+    - generic: vl8r
+    - text: .
+    - generic: v
+    - generic: v8
+    - text: ", ("
+    - generic: sp
+    - text: )
+    - generic: /* Restore v8-v15. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: t0
+    - generic: vl8r
+    - text: .
+    - generic: v
+    - generic: v16
+    - text: ", ("
+    - generic: sp
+    - text: )
+    - generic: /* Restore v16-v23. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: t0
+    - generic: vl8r
+    - text: .
+    - generic: v
+    - generic: v24
+    - text: ", ("
+    - generic: sp
+    - text: )
+    - generic: /* Restore v23-v31. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: t0
+    - generic: /* Re-reserve the space for mstatus and epc. */
+    - generic: add
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: "-"
+    - text: (
+    - generic: "2"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: )
+    - text: .
+    - generic: endm
+    - generic: /*-----------------------------------------------------------*/
+    - text: .
+    - generic: macro
+    - generic: portcontextSAVE_CONTEXT_INTERNAL
+    - generic: addi
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: "-"
+    - generic: portCONTEXT_SIZE
+    - generic: store_x
+    - generic: x1
+    - text: ","
+    - generic: "2"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x5
+    - text: ","
+    - generic: "3"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x6
+    - text: ","
+    - generic: "4"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x7
+    - text: ","
+    - generic: "5"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x8
+    - text: ","
+    - generic: "6"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x9
+    - text: ","
+    - generic: "7"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x10
+    - text: ","
+    - generic: "8"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x11
+    - text: ","
+    - generic: "9"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x12
+    - text: ","
+    - generic: "10"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x13
+    - text: ","
+    - generic: "11"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x14
+    - text: ","
+    - generic: "12"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x15
+    - text: ","
+    - generic: "13"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: "#ifndef"
+    - generic: __riscv_32e
+    - generic: store_x
+    - generic: x16
+    - text: ","
+    - generic: "14"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x17
+    - text: ","
+    - generic: "15"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x18
+    - text: ","
+    - generic: "16"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x19
+    - text: ","
+    - generic: "17"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x20
+    - text: ","
+    - generic: "18"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x21
+    - text: ","
+    - generic: "19"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x22
+    - text: ","
+    - generic: "20"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x23
+    - text: ","
+    - generic: "21"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x24
+    - text: ","
+    - generic: "22"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x25
+    - text: ","
+    - generic: "23"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x26
+    - text: ","
+    - generic: "24"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x27
+    - text: ","
+    - generic: "25"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x28
+    - text: ","
+    - generic: "26"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x29
+    - text: ","
+    - generic: "27"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x30
+    - text: ","
+    - generic: "28"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: store_x
+    - generic: x31
+    - text: ","
+    - generic: "29"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: "#endif"
+    - generic: /* ifndef __riscv_32e */
+    - generic: load_x
+    - generic: t0
+    - text: ","
+    - generic: xCriticalNesting
+    - generic: /* Load the value of xCriticalNesting into t0. */
+    - generic: store_x
+    - generic: t0
+    - text: ","
+    - generic: portCRITICAL_NESTING_OFFSET
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: /* Store the critical nesting value to the stack. */
+    - generic: "#if"
+    - text: (
+    - generic: configENABLE_FPU
+    - generic: ==
+    - generic: "1"
+    - text: )
+    - generic: csrr
+    - generic: t0
+    - text: ","
+    - generic: mstatus
+    - generic: srl
+    - generic: t1
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: MSTATUS_FS_OFFSET
+    - generic: andi
+    - generic: t1
+    - text: ","
+    - generic: t1
+    - text: ","
+    - generic: "3"
+    - generic: addi
+    - generic: t2
+    - text: ","
+    - generic: x0
+    - text: ","
+    - generic: "3"
+    - generic: bne
+    - generic: t1
+    - text: ","
+    - generic: t2
+    - text: ","
+    - generic: 1f
+    - generic: /* If FPU status is not dirty, do not save FPU registers. */
+    - generic: portcontexSAVE_FPU_CONTEXT
+    - generic: "1"
+    - text: ":"
+    - generic: "#endif"
+    - generic: "#if"
+    - text: (
+    - generic: configENABLE_VPU
+    - generic: ==
+    - generic: "1"
+    - text: )
+    - generic: csrr
+    - generic: t0
+    - text: ","
+    - generic: mstatus
+    - generic: srl
+    - generic: t1
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: MSTATUS_VS_OFFSET
+    - generic: andi
+    - generic: t1
+    - text: ","
+    - generic: t1
+    - text: ","
+    - generic: "3"
+    - generic: addi
+    - generic: t2
+    - text: ","
+    - generic: x0
+    - text: ","
+    - generic: "3"
+    - generic: bne
+    - generic: t1
+    - text: ","
+    - generic: t2
+    - text: ","
+    - generic: 2f
+    - generic: /* If VPU status is not dirty, do not save VPU registers. */
+    - generic: portcontexSAVE_VPU_CONTEXT
+    - generic: "2"
+    - text: ":"
+    - generic: "#endif"
+    - generic: csrr
+    - generic: t0
+    - text: ","
+    - generic: mstatus
+    - generic: store_x
+    - generic: t0
+    - text: ","
+    - generic: "1"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: portasmSAVE_ADDITIONAL_REGISTERS
+    - generic: /* Defined in freertos_risc_v_chip_specific_extensions.h to save any registers unique to the RISC-V implementation. */
+    - generic: "#if"
+    - text: (
+    - generic: configENABLE_FPU
+    - generic: ==
+    - generic: "1"
+    - text: )
+    - generic: /* Mark the FPU as clean, if it was dirty and we saved FPU registers. */
+    - generic: srl
+    - generic: t1
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: MSTATUS_FS_OFFSET
+    - generic: andi
+    - generic: t1
+    - text: ","
+    - generic: t1
+    - text: ","
+    - generic: "3"
+    - generic: addi
+    - generic: t2
+    - text: ","
+    - generic: x0
+    - text: ","
+    - generic: "3"
+    - generic: bne
+    - generic: t1
+    - text: ","
+    - generic: t2
+    - text: ","
+    - generic: 3f
+    - generic: li
+    - generic: t1
+    - text: ", ~"
+    - generic: MSTATUS_FS_MASK
+    - generic: and
+    - generic: t0
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: t1
+    - generic: li
+    - generic: t1
+    - text: ","
+    - generic: MSTATUS_FS_CLEAN
+    - generic: or
+    - generic: t0
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: t1
+    - generic: csrw
+    - generic: mstatus
+    - text: ","
+    - generic: t0
+    - generic: "3"
+    - text: ":"
+    - generic: "#endif"
+    - generic: "#if"
+    - text: (
+    - generic: configENABLE_VPU
+    - generic: ==
+    - generic: "1"
+    - text: )
+    - generic: /* Mark the VPU as clean, if it was dirty and we saved VPU registers. */
+    - generic: srl
+    - generic: t1
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: MSTATUS_VS_OFFSET
+    - generic: andi
+    - generic: t1
+    - text: ","
+    - generic: t1
+    - text: ","
+    - generic: "3"
+    - generic: addi
+    - generic: t2
+    - text: ","
+    - generic: x0
+    - text: ","
+    - generic: "3"
+    - generic: bne
+    - generic: t1
+    - text: ","
+    - generic: t2
+    - text: ","
+    - generic: 4f
+    - generic: li
+    - generic: t1
+    - text: ", ~"
+    - generic: MSTATUS_VS_MASK
+    - generic: and
+    - generic: t0
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: t1
+    - generic: li
+    - generic: t1
+    - text: ","
+    - generic: MSTATUS_VS_CLEAN
+    - generic: or
+    - generic: t0
+    - text: ","
+    - generic: t0
+    - text: ","
+    - generic: t1
+    - generic: csrw
+    - generic: mstatus
+    - text: ","
+    - generic: t0
+    - generic: "4"
+    - text: ":"
+    - generic: "#endif"
+    - generic: load_x
+    - generic: t0
+    - text: ","
+    - generic: pxCurrentTCB
+    - generic: /* Load pxCurrentTCB. */
+    - generic: store_x
+    - generic: sp
+    - text: ","
+    - generic: "0"
+    - text: (
+    - generic: t0
+    - text: )
+    - generic: /* Write sp to first TCB member. */
+    - text: .
+    - generic: endm
+    - generic: /*-----------------------------------------------------------*/
+    - text: .
+    - generic: macro
+    - generic: portcontextSAVE_EXCEPTION_CONTEXT
+    - generic: portcontextSAVE_CONTEXT_INTERNAL
+    - generic: csrr
+    - generic: a0
+    - text: ","
+    - generic: mcause
+    - generic: csrr
+    - generic: a1
+    - text: ","
+    - generic: mepc
+    - generic: addi
+    - generic: a1
+    - text: ","
+    - generic: a1
+    - text: ","
+    - generic: "4"
+    - generic: /* Synchronous so update exception return address to the instruction after the instruction that generated the exception. */
+    - generic: store_x
+    - generic: a1
+    - text: ","
+    - generic: "0"
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: /* Save updated exception return address. */
+    - generic: load_x
+    - generic: sp
+    - text: ","
+    - generic: xISRStackTop
+    - generic: /* Switch to ISR stack. */
+    - text: .
+    - generic: endm
+    - generic: /*-----------------------------------------------------------*/
+    - text: .
+    - generic: macro
+    - generic: portcontextSAVE_INTERRUPT_CONTEXT
+    - generic: portcontextSAVE_CONTEXT_INTERNAL
+    - generic: csrr
+    - generic: a0
+    - text: ","
+    - generic: mcause
+    - generic: csrr
+    - generic: a1
+    - text: ","
+    - generic: mepc
+    - generic: store_x
+    - generic: a1
+    - text: ","
+    - generic: "0"
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: /* Asynchronous interrupt so save unmodified exception return address. */
+    - generic: load_x
+    - generic: sp
+    - text: ","
+    - generic: xISRStackTop
+    - generic: /* Switch to ISR stack. */
+    - text: .
+    - generic: endm
+    - generic: /*-----------------------------------------------------------*/
+    - text: .
+    - generic: macro
+    - generic: portcontextRESTORE_CONTEXT
+    - generic: load_x
+    - generic: t1
+    - text: ","
+    - generic: pxCurrentTCB
+    - generic: /* Load pxCurrentTCB. */
+    - generic: load_x
+    - generic: sp
+    - text: ","
+    - generic: "0"
+    - text: (
+    - generic: t1
+    - text: )
+    - generic: /* Read sp from first TCB member. */
+    - generic: /* Load mepc with the address of the instruction in the task to run next. */
+    - generic: load_x
+    - generic: t0
+    - text: ","
+    - generic: "0"
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: csrw
+    - generic: mepc
+    - text: ","
+    - generic: t0
+    - generic: /* Defined in freertos_risc_v_chip_specific_extensions.h to restore any registers unique to the RISC-V implementation. */
+    - generic: portasmRESTORE_ADDITIONAL_REGISTERS
+    - generic: /* Restore mstatus register. It is important to use t3 (and not t0) here as t3
+    - generic: "* is not clobbered by portcontextRESTORE_VPU_CONTEXT and"
+    - generic: "* portcontextRESTORE_FPU_CONTEXT. */"
+    - generic: load_x
+    - generic: t3
+    - text: ","
+    - generic: "1"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: csrw
+    - generic: mstatus
+    - text: ","
+    - generic: t3
+    - generic: "#if"
+    - text: (
+    - generic: configENABLE_VPU
+    - generic: ==
+    - generic: "1"
+    - text: )
+    - generic: srl
+    - generic: t1
+    - text: ","
+    - generic: t3
+    - text: ","
+    - generic: MSTATUS_VS_OFFSET
+    - generic: andi
+    - generic: t1
+    - text: ","
+    - generic: t1
+    - text: ","
+    - generic: "3"
+    - generic: addi
+    - generic: t2
+    - text: ","
+    - generic: x0
+    - text: ","
+    - generic: "3"
+    - generic: bne
+    - generic: t1
+    - text: ","
+    - generic: t2
+    - text: ","
+    - generic: 5f
+    - generic: /* If VPU status is not dirty, do not restore VPU registers. */
+    - generic: portcontextRESTORE_VPU_CONTEXT
+    - generic: "5"
+    - text: ":"
+    - generic: "#endif"
+    - generic: /* ifdef portasmSTORE_VPU_CONTEXT */
+    - generic: "#if"
+    - text: (
+    - generic: configENABLE_FPU
+    - generic: ==
+    - generic: "1"
+    - text: )
+    - generic: srl
+    - generic: t1
+    - text: ","
+    - generic: t3
+    - text: ","
+    - generic: MSTATUS_FS_OFFSET
+    - generic: andi
+    - generic: t1
+    - text: ","
+    - generic: t1
+    - text: ","
+    - generic: "3"
+    - generic: addi
+    - generic: t2
+    - text: ","
+    - generic: x0
+    - text: ","
+    - generic: "3"
+    - generic: bne
+    - generic: t1
+    - text: ","
+    - generic: t2
+    - text: ","
+    - generic: 6f
+    - generic: /* If FPU status is not dirty, do not restore FPU registers. */
+    - generic: portcontextRESTORE_FPU_CONTEXT
+    - generic: "6"
+    - text: ":"
+    - generic: "#endif"
+    - generic: /* ifdef portasmSTORE_FPU_CONTEXT */
+    - generic: load_x
+    - generic: t0
+    - text: ","
+    - generic: portCRITICAL_NESTING_OFFSET
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: /* Obtain xCriticalNesting value for this task from task's stack. */
+    - generic: load_x
+    - generic: t1
+    - text: ","
+    - generic: pxCriticalNesting
+    - generic: /* Load the address of xCriticalNesting into t1. */
+    - generic: store_x
+    - generic: t0
+    - text: ","
+    - generic: "0"
+    - text: (
+    - generic: t1
+    - text: )
+    - generic: /* Restore the critical nesting value for this task. */
+    - generic: load_x
+    - generic: x1
+    - text: ","
+    - generic: "2"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x5
+    - text: ","
+    - generic: "3"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x6
+    - text: ","
+    - generic: "4"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x7
+    - text: ","
+    - generic: "5"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x8
+    - text: ","
+    - generic: "6"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x9
+    - text: ","
+    - generic: "7"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x10
+    - text: ","
+    - generic: "8"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x11
+    - text: ","
+    - generic: "9"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x12
+    - text: ","
+    - generic: "10"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x13
+    - text: ","
+    - generic: "11"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x14
+    - text: ","
+    - generic: "12"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x15
+    - text: ","
+    - generic: "13"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: "#ifndef"
+    - generic: __riscv_32e
+    - generic: load_x
+    - generic: x16
+    - text: ","
+    - generic: "14"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x17
+    - text: ","
+    - generic: "15"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x18
+    - text: ","
+    - generic: "16"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x19
+    - text: ","
+    - generic: "17"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x20
+    - text: ","
+    - generic: "18"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x21
+    - text: ","
+    - generic: "19"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x22
+    - text: ","
+    - generic: "20"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x23
+    - text: ","
+    - generic: "21"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x24
+    - text: ","
+    - generic: "22"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x25
+    - text: ","
+    - generic: "23"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x26
+    - text: ","
+    - generic: "24"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x27
+    - text: ","
+    - generic: "25"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x28
+    - text: ","
+    - generic: "26"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x29
+    - text: ","
+    - generic: "27"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x30
+    - text: ","
+    - generic: "28"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: load_x
+    - generic: x31
+    - text: ","
+    - generic: "29"
+    - generic: "*"
+    - generic: portWORD_SIZE
+    - text: (
+    - generic: sp
+    - text: )
+    - generic: "#endif"
+    - generic: /* ifndef __riscv_32e */
+    - generic: addi
+    - generic: sp
+    - text: ","
+    - generic: sp
+    - text: ","
+    - generic: portCONTEXT_SIZE
+    - generic: mret
+    - text: .
+    - generic: endm
+    - generic: /*-----------------------------------------------------------*/
+    - generic: "#endif"
+    - generic: /* PORTCONTEXT_H */
+  - generic "Symbols":
+    - heading "Symbols" [level=2]
+    - button "Close symbols":
+    - paragraph: Find definitions and references for functions and other symbols in this file by clicking a symbol below or in the code.
+    - combobox "Filter symbols" [expanded]
+    - generic: r
+    - generic: R
+    - tree "Code navigation":
+      - treeitem "macro PORTCONTEXT_H" [level=1]:
+        - generic: macro
+        - generic "PORTCONTEXT_H"
+      - treeitem "macro configENABLE_FPU" [level=1]:
+        - generic: macro
+        - generic "configENABLE_FPU"
+      - treeitem "macro configENABLE_VPU" [level=1]:
+        - generic: macro
+        - generic "configENABLE_VPU"
+      - treeitem "macro portWORD_SIZE" [level=1]:
+        - generic: macro
+        - generic "portWORD_SIZE"
+      - treeitem "macro store_x" [level=1]:
+        - generic: macro
+        - generic "store_x"
+      - treeitem "macro load_x" [level=1]:
+        - generic: macro
+        - generic "load_x"
+      - treeitem "macro store_x" [level=1]:
+        - generic: macro
+        - generic "store_x"
+      - treeitem "macro load_x" [level=1]:
+        - generic: macro
+        - generic "load_x"
+      - treeitem "macro portWORD_SIZE" [level=1]:
+        - generic: macro
+        - generic "portWORD_SIZE"
+      - treeitem "macro portCONTEXT_SIZE" [level=1]:
+        - generic: macro
+        - generic "portCONTEXT_SIZE"
+      - treeitem "macro portCRITICAL_NESTING_OFFSET" [level=1]:
+        - generic: macro
+        - generic "portCRITICAL_NESTING_OFFSET"
+      - treeitem "macro portCONTEXT_SIZE" [level=1]:
+        - generic: macro
+        - generic "portCONTEXT_SIZE"
+      - treeitem "macro portCRITICAL_NESTING_OFFSET" [level=1]:
+        - generic: macro
+        - generic "portCRITICAL_NESTING_OFFSET"
+      - treeitem "macro MSTATUS_FS_MASK" [level=1]:
+        - generic: macro
+        - generic "MSTATUS_FS_MASK"
+      - treeitem "macro MSTATUS_FS_INITIAL" [level=1]:
+        - generic: macro
+        - generic "MSTATUS_FS_INITIAL"
+      - treeitem "macro MSTATUS_FS_CLEAN" [level=1]:
+        - generic: macro
+        - generic "MSTATUS_FS_CLEAN"
+      - treeitem "macro MSTATUS_FS_DIRTY" [level=1]:
+        - generic: macro
+        - generic "MSTATUS_FS_DIRTY"
+      - treeitem "macro MSTATUS_FS_OFFSET" [level=1]:
+        - generic: macro
+        - generic "MSTATUS_FS_OFFSET"
+      - treeitem "macro load_f" [level=1]:
+        - generic: macro
+        - generic "load_f"
+      - treeitem "macro store_f" [level=1]:
+        - generic: macro
+        - generic "store_f"
+      - treeitem "macro load_f" [level=1]:
+        - generic: macro
+        - generic "load_f"
+      - treeitem "macro store_f" [level=1]:
+        - generic: macro
+        - generic "store_f"
+      - treeitem "macro portFPU_REG_SIZE" [level=1]:
+        - generic: macro
+        - generic "portFPU_REG_SIZE"
+      - treeitem "macro portFPU_REG_COUNT" [level=1]:
+        - generic: macro
+        - generic "portFPU_REG_COUNT"
+      - treeitem "macro portFPU_CONTEXT_SIZE" [level=1]:
+        - generic: macro
+        - generic "portFPU_CONTEXT_SIZE"
+      - treeitem "macro MSTATUS_VS_MASK" [level=1]:
+        - generic: macro
+        - generic "MSTATUS_VS_MASK"
+      - treeitem "macro MSTATUS_VS_INITIAL" [level=1]:
+        - generic: macro
+        - generic "MSTATUS_VS_INITIAL"
+      - treeitem "macro MSTATUS_VS_CLEAN" [level=1]:
+        - generic: macro
+        - generic "MSTATUS_VS_CLEAN"
+      - treeitem "macro MSTATUS_VS_DIRTY" [level=1]:
+        - generic: macro
+        - generic "MSTATUS_VS_DIRTY"
+      - treeitem "macro MSTATUS_VS_OFFSET" [level=1]:
+        - generic: macro
+        - generic "MSTATUS_VS_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portFPU_REG_OFFSET" [level=1]:
+        - generic: func
+        - generic "portFPU_REG_OFFSET"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+      - treeitem "func portWORD_SIZE" [level=1]:
+        - generic: func
+        - generic "portWORD_SIZE"
+- contentinfo:
+  - heading "Footer" [level=2]
+  - link "GitHub Homepage":
+    - /url: https://github.com
+  - generic: © 2026 GitHub, Inc.
+  - navigation "Footer":
+    - heading "Footer navigation" [level=3]
+    - list "Footer navigation":
+      - link "Terms":
+        - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - link "Privacy":
+        - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - link "Security":
+        - /url: https://github.com/security
+      - link "Status":
+        - /url: https://www.githubstatus.com/
+      - link "Community":
+        - /url: https://github.community/
+      - link "Docs":
+        - /url: https://docs.github.com/
+      - link "Contact":
+        - /url: https://support.github.com?tags=dotcom-footer
+      - button "Manage cookies"
+      - button "Do not share my personal information"

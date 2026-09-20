@@ -1,0 +1,432 @@
+[
+  {
+    "source_id": "activity_2000_2019_trinity",
+    "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&huc=1203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&dataProfile=activity",
+    "parameters": {
+      "organization": [
+        "USGS-TX"
+      ],
+      "huc": [
+        "1203"
+      ],
+      "startDateLo": [
+        "01-01-2000"
+      ],
+      "startDateHi": [
+        "12-31-2019"
+      ],
+      "mimeType": [
+        "csv"
+      ],
+      "zip": [
+        "no"
+      ],
+      "dataProfile": [
+        "activity"
+      ]
+    },
+    "requested_at": "2026-09-08T12:39:26.748610+00:00",
+    "received_at": "2026-09-08T12:39:58.034605+00:00",
+    "http_status": 500,
+    "transport_complete": true,
+    "valid_data_response": false,
+    "response_path": "private/sources/activity_2000_2019_trinity.response",
+    "receipt_path": "private/sources/activity_2000_2019_trinity.json",
+    "headers_path": "private/sources/activity_2000_2019_trinity.headers"
+  },
+  {
+    "source_id": "activity_2000_2019_trinity_zip",
+    "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&dataProfile=activity",
+    "parameters": {
+      "organization": [
+        "USGS-TX"
+      ],
+      "huc": [
+        "12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203"
+      ],
+      "startDateLo": [
+        "01-01-2000"
+      ],
+      "startDateHi": [
+        "12-31-2019"
+      ],
+      "mimeType": [
+        "csv"
+      ],
+      "zip": [
+        "yes"
+      ],
+      "dataProfile": [
+        "activity"
+      ]
+    },
+    "requested_at": "2026-09-08T12:40:54.514590+00:00",
+    "received_at": "2026-09-08T12:41:50.048601+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/activity_2000_2019_trinity_zip.response",
+    "receipt_path": "private/sources/activity_2000_2019_trinity_zip.json",
+    "headers_path": "private/sources/activity_2000_2019_trinity_zip.headers",
+    "extracted_csv_path": "private/sources/activity_2000_2019_trinity_zip.extracted.csv",
+    "zip_member": "activity.csv"
+  },
+  {
+    "source_id": "default_homepage",
+    "url": "https://www.waterqualitydata.us/",
+    "parameters": {},
+    "requested_at": "2026-09-08T12:54:52.122024+00:00",
+    "received_at": "2026-09-08T12:54:55.307769+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/default_homepage.response",
+    "receipt_path": "private/sources/default_homepage.json",
+    "headers_path": "private/sources/default_homepage.headers"
+  },
+  {
+    "source_id": "epa_definitions",
+    "url": "https://www.epa.gov/waterdata/concepts-and-definitions-storage-and-retrieval-and-water-quality-exchange",
+    "parameters": {},
+    "requested_at": "2026-09-08T11:44:29.129414+00:00",
+    "received_at": "2026-09-08T11:44:31.943533+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/epa_definitions.response",
+    "receipt_path": "private/sources/epa_definitions.json",
+    "headers_path": "private/sources/epa_definitions.headers"
+  },
+  {
+    "source_id": "huc_domain_values",
+    "url": "https://www.waterqualitydata.us/Codes/huc?mimeType=csv",
+    "parameters": {
+      "mimeType": [
+        "csv"
+      ]
+    },
+    "requested_at": "2026-09-08T12:42:36.901630+00:00",
+    "received_at": "2026-09-08T12:42:38.636098+00:00",
+    "http_status": 404,
+    "transport_complete": true,
+    "valid_data_response": false,
+    "response_path": "private/sources/huc_domain_values.response",
+    "receipt_path": "private/sources/huc_domain_values.json",
+    "headers_path": "private/sources/huc_domain_values.headers"
+  },
+  {
+    "source_id": "independent_pcode_mainstem_2000_2019_zip",
+    "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&pCode=00010%3B00095%3B00300%3B00400&mimeType=csv&zip=yes&dataProfile=resultPhysChem",
+    "parameters": {
+      "organization": [
+        "USGS-TX"
+      ],
+      "siteid": [
+        "USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252"
+      ],
+      "startDateLo": [
+        "01-01-2000"
+      ],
+      "startDateHi": [
+        "12-31-2019"
+      ],
+      "pCode": [
+        "00010;00095;00300;00400"
+      ],
+      "mimeType": [
+        "csv"
+      ],
+      "zip": [
+        "yes"
+      ],
+      "dataProfile": [
+        "resultPhysChem"
+      ]
+    },
+    "requested_at": "2026-09-08T12:54:52.122998+00:00",
+    "received_at": "2026-09-08T12:56:06.941228+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/independent_pcode_mainstem_2000_2019_zip.response",
+    "receipt_path": "private/sources/independent_pcode_mainstem_2000_2019_zip.json",
+    "headers_path": "private/sources/independent_pcode_mainstem_2000_2019_zip.headers",
+    "extracted_csv_path": "private/sources/independent_pcode_mainstem_2000_2019_zip.extracted.csv",
+    "zip_member": "resultphyschem.csv"
+  },
+  {
+    "source_id": "narrow_2000_2019_trinity_panel",
+    "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&huc=1203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&dataProfile=narrowResult&characteristicName=Oxygen%3BSpecific+conductance%3BTemperature%2C+water%3BpH",
+    "parameters": {
+      "organization": [
+        "USGS-TX"
+      ],
+      "huc": [
+        "1203"
+      ],
+      "startDateLo": [
+        "01-01-2000"
+      ],
+      "startDateHi": [
+        "12-31-2019"
+      ],
+      "mimeType": [
+        "csv"
+      ],
+      "zip": [
+        "no"
+      ],
+      "dataProfile": [
+        "narrowResult"
+      ],
+      "characteristicName": [
+        "Oxygen;Specific conductance;Temperature, water;pH"
+      ]
+    },
+    "requested_at": "2026-09-08T12:39:26.748429+00:00",
+    "received_at": "2026-09-08T12:39:58.034153+00:00",
+    "http_status": 500,
+    "transport_complete": true,
+    "valid_data_response": false,
+    "response_path": "private/sources/narrow_2000_2019_trinity_panel.response",
+    "receipt_path": "private/sources/narrow_2000_2019_trinity_panel.json",
+    "headers_path": "private/sources/narrow_2000_2019_trinity_panel.headers"
+  },
+  {
+    "source_id": "narrow_2000_2019_trinity_panel_zip",
+    "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&dataProfile=narrowResult&characteristicName=Oxygen%3BSpecific+conductance%3BTemperature%2C+water%3BpH",
+    "parameters": {
+      "organization": [
+        "USGS-TX"
+      ],
+      "huc": [
+        "12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203"
+      ],
+      "startDateLo": [
+        "01-01-2000"
+      ],
+      "startDateHi": [
+        "12-31-2019"
+      ],
+      "mimeType": [
+        "csv"
+      ],
+      "zip": [
+        "yes"
+      ],
+      "dataProfile": [
+        "narrowResult"
+      ],
+      "characteristicName": [
+        "Oxygen;Specific conductance;Temperature, water;pH"
+      ]
+    },
+    "requested_at": "2026-09-08T12:40:54.514782+00:00",
+    "received_at": "2026-09-08T12:42:53.070968+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/narrow_2000_2019_trinity_panel_zip.response",
+    "receipt_path": "private/sources/narrow_2000_2019_trinity_panel_zip.json",
+    "headers_path": "private/sources/narrow_2000_2019_trinity_panel_zip.headers",
+    "extracted_csv_path": "private/sources/narrow_2000_2019_trinity_panel_zip.extracted.csv",
+    "zip_member": "narrowresult.csv"
+  },
+  {
+    "source_id": "official_huc_hierarchy",
+    "url": "https://water.usgs.gov/GIS/huc_rdb.html",
+    "parameters": {},
+    "requested_at": "2026-09-08T12:44:21.850845+00:00",
+    "received_at": "2026-09-08T12:44:27.402248+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/official_huc_hierarchy.response",
+    "receipt_path": "private/sources/official_huc_hierarchy.json",
+    "headers_path": "private/sources/official_huc_hierarchy.headers"
+  },
+  {
+    "source_id": "services",
+    "url": "https://www.waterqualitydata.us/webservices_documentation/",
+    "parameters": {},
+    "requested_at": "2026-09-08T11:44:23.621544+00:00",
+    "received_at": "2026-09-08T11:44:27.485607+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/services.response",
+    "receipt_path": "private/sources/services.json",
+    "headers_path": "private/sources/services.headers"
+  },
+  {
+    "source_id": "station_2000_2019_explicit_hucs",
+    "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&dataProfile=station",
+    "parameters": {
+      "organization": [
+        "USGS-TX"
+      ],
+      "huc": [
+        "12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203"
+      ],
+      "startDateLo": [
+        "01-01-2000"
+      ],
+      "startDateHi": [
+        "12-31-2019"
+      ],
+      "mimeType": [
+        "csv"
+      ],
+      "zip": [
+        "no"
+      ],
+      "dataProfile": [
+        "station"
+      ]
+    },
+    "requested_at": "2026-09-08T12:42:36.901126+00:00",
+    "received_at": "2026-09-08T12:43:15.308135+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/station_2000_2019_explicit_hucs.response",
+    "receipt_path": "private/sources/station_2000_2019_explicit_hucs.json",
+    "headers_path": "private/sources/station_2000_2019_explicit_hucs.headers"
+  },
+  {
+    "source_id": "station_2000_2019_trinity",
+    "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=1203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&dataProfile=station",
+    "parameters": {
+      "organization": [
+        "USGS-TX"
+      ],
+      "huc": [
+        "1203"
+      ],
+      "startDateLo": [
+        "01-01-2000"
+      ],
+      "startDateHi": [
+        "12-31-2019"
+      ],
+      "mimeType": [
+        "csv"
+      ],
+      "zip": [
+        "no"
+      ],
+      "dataProfile": [
+        "station"
+      ]
+    },
+    "requested_at": "2026-09-08T12:39:26.747929+00:00",
+    "received_at": "2026-09-08T12:39:59.600747+00:00",
+    "http_status": 500,
+    "transport_complete": true,
+    "valid_data_response": false,
+    "response_path": "private/sources/station_2000_2019_trinity.response",
+    "receipt_path": "private/sources/station_2000_2019_trinity.json",
+    "headers_path": "private/sources/station_2000_2019_trinity.headers"
+  },
+  {
+    "source_id": "station_2000_2019_trinity_zip",
+    "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&dataProfile=station",
+    "parameters": {
+      "organization": [
+        "USGS-TX"
+      ],
+      "huc": [
+        "12030101;12030102;12030103;12030104;12030105;12030106;12030107;12030108;12030109;12030201;12030202;12030203"
+      ],
+      "startDateLo": [
+        "01-01-2000"
+      ],
+      "startDateHi": [
+        "12-31-2019"
+      ],
+      "mimeType": [
+        "csv"
+      ],
+      "zip": [
+        "yes"
+      ],
+      "dataProfile": [
+        "station"
+      ]
+    },
+    "requested_at": "2026-09-08T12:40:54.514208+00:00",
+    "received_at": "2026-09-08T12:41:26.829886+00:00",
+    "http_status": 500,
+    "transport_complete": true,
+    "valid_data_response": false,
+    "response_path": "private/sources/station_2000_2019_trinity_zip.response",
+    "receipt_path": "private/sources/station_2000_2019_trinity_zip.json",
+    "headers_path": "private/sources/station_2000_2019_trinity_zip.headers"
+  },
+  {
+    "source_id": "userguide",
+    "url": "https://www.waterqualitydata.us/portal_userguide/",
+    "parameters": {},
+    "requested_at": "2026-09-08T11:44:27.487291+00:00",
+    "received_at": "2026-09-08T11:44:29.128531+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/userguide.response",
+    "receipt_path": "private/sources/userguide.json",
+    "headers_path": "private/sources/userguide.headers"
+  },
+  {
+    "source_id": "usgs_seasonal_coverage_rationale",
+    "url": "https://apps.usgs.gov/trends/sw-quality/",
+    "parameters": {},
+    "requested_at": "2026-09-08T12:44:21.851102+00:00",
+    "received_at": "2026-09-08T12:44:26.090834+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/usgs_seasonal_coverage_rationale.response",
+    "receipt_path": "private/sources/usgs_seasonal_coverage_rationale.json",
+    "headers_path": "private/sources/usgs_seasonal_coverage_rationale.headers"
+  },
+  {
+    "source_id": "wide_mainstem_2000_2019_panel_zip",
+    "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&dataProfile=resultPhysChem&characteristicName=Oxygen%3BSpecific+conductance%3BTemperature%2C+water%3BpH",
+    "parameters": {
+      "organization": [
+        "USGS-TX"
+      ],
+      "siteid": [
+        "USGS-08056400;USGS-08057000;USGS-08057030;USGS-08057055;USGS-08057070;USGS-08057410;USGS-08057448;USGS-08057449;USGS-08062500;USGS-08062700;USGS-08065000;USGS-08065350;USGS-08066000;USGS-08066250;USGS-08066500;USGS-08067000;USGS-08067252"
+      ],
+      "startDateLo": [
+        "01-01-2000"
+      ],
+      "startDateHi": [
+        "12-31-2019"
+      ],
+      "mimeType": [
+        "csv"
+      ],
+      "zip": [
+        "yes"
+      ],
+      "dataProfile": [
+        "resultPhysChem"
+      ],
+      "characteristicName": [
+        "Oxygen;Specific conductance;Temperature, water;pH"
+      ]
+    },
+    "requested_at": "2026-09-08T12:45:35.750360+00:00",
+    "received_at": "2026-09-08T12:46:08.758021+00:00",
+    "http_status": 200,
+    "transport_complete": true,
+    "valid_data_response": true,
+    "response_path": "private/sources/wide_mainstem_2000_2019_panel_zip.response",
+    "receipt_path": "private/sources/wide_mainstem_2000_2019_panel_zip.json",
+    "headers_path": "private/sources/wide_mainstem_2000_2019_panel_zip.headers",
+    "extracted_csv_path": "private/sources/wide_mainstem_2000_2019_panel_zip.extracted.csv",
+    "zip_member": "resultphyschem.csv"
+  }
+]

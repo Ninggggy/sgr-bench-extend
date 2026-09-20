@@ -1,0 +1,316 @@
+{
+  "snapshot_at": "2026-09-19T09:44:47.062840+00:00",
+  "started_at": "2026-09-19T08:32:36+00:00",
+  "sessions": [
+    {
+      "run_id": "new-two-B-v1-review-1",
+      "candidate_id": "B",
+      "revision": "v1",
+      "role": "audit",
+      "model": "gpt-6-astra",
+      "actual_model": "gpt-6-astra",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T08:54:22.607123+00:00",
+      "ended_at": "2026-09-19T08:56:49.519578+00:00",
+      "elapsed_seconds": 146.896,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 160084,
+        "cached_input_tokens": 100608,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3371,
+        "reasoning_output_tokens": 83
+      }
+    },
+    {
+      "run_id": "new-two-B-v1-review-2",
+      "candidate_id": "B",
+      "revision": "v1",
+      "role": "audit",
+      "model": "gpt-6-astra",
+      "actual_model": "gpt-6-astra",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T08:58:17.825477+00:00",
+      "ended_at": "2026-09-19T09:00:51.850041+00:00",
+      "elapsed_seconds": 154.022,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 133796,
+        "cached_input_tokens": 88576,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3950,
+        "reasoning_output_tokens": 132
+      }
+    },
+    {
+      "run_id": "new-two-A-v1-review-1",
+      "candidate_id": "A",
+      "revision": "v1",
+      "role": "audit",
+      "model": "gpt-6-astra",
+      "actual_model": "gpt-6-astra",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T09:08:34.178731+00:00",
+      "ended_at": "2026-09-19T09:10:45.392804+00:00",
+      "elapsed_seconds": 131.211,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 188780,
+        "cached_input_tokens": 133760,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3191,
+        "reasoning_output_tokens": 174
+      }
+    },
+    {
+      "run_id": "new-two-A-v1-CG",
+      "candidate_id": "A",
+      "revision": "v1",
+      "role": "blind",
+      "model": "gpt-5.6-sol",
+      "actual_model": "gpt-5.6-sol",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T09:13:19.060800+00:00",
+      "ended_at": "2026-09-19T09:15:02.019632+00:00",
+      "elapsed_seconds": 102.957,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 340022,
+        "cached_input_tokens": 266112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1694,
+        "reasoning_output_tokens": 673
+      }
+    },
+    {
+      "run_id": "new-two-A-v1-GO",
+      "candidate_id": "A",
+      "revision": "v1",
+      "role": "blind",
+      "model": "gpt-5.6-sol",
+      "actual_model": "gpt-5.6-sol",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T09:15:59.914551+00:00",
+      "ended_at": "2026-09-19T09:17:28.995313+00:00",
+      "elapsed_seconds": 89.079,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 387564,
+        "cached_input_tokens": 317312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1614,
+        "reasoning_output_tokens": 619
+      }
+    },
+    {
+      "run_id": "new-two-B-v2-review-1",
+      "candidate_id": "B",
+      "revision": "v2",
+      "role": "audit",
+      "model": "gpt-6-astra",
+      "actual_model": "gpt-6-astra",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T09:19:42.161971+00:00",
+      "ended_at": "2026-09-19T09:21:58.395766+00:00",
+      "elapsed_seconds": 136.232,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 270729,
+        "cached_input_tokens": 207872,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2834,
+        "reasoning_output_tokens": 114
+      }
+    },
+    {
+      "run_id": "new-two-B-v2-CG",
+      "candidate_id": "B",
+      "revision": "v2",
+      "role": "blind",
+      "model": "gpt-5.6-sol",
+      "actual_model": "gpt-5.6-sol",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T09:24:18.012261+00:00",
+      "ended_at": "2026-09-19T09:26:30.929940+00:00",
+      "elapsed_seconds": 132.915,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 352894,
+        "cached_input_tokens": 278272,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4148,
+        "reasoning_output_tokens": 2499
+      }
+    },
+    {
+      "run_id": "new-two-B-v2-GO",
+      "candidate_id": "B",
+      "revision": "v2",
+      "role": "blind",
+      "model": "gpt-5.6-sol",
+      "actual_model": "gpt-5.6-sol",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T09:27:54.441209+00:00",
+      "ended_at": "2026-09-19T09:29:50.764898+00:00",
+      "elapsed_seconds": 116.313,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 332672,
+        "cached_input_tokens": 264832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2952,
+        "reasoning_output_tokens": 1577
+      }
+    },
+    {
+      "run_id": "new-two-A-v2-review-1",
+      "candidate_id": "A",
+      "revision": "v2",
+      "role": "audit",
+      "model": "gpt-6-astra",
+      "actual_model": "gpt-6-astra",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T09:30:43.894833+00:00",
+      "ended_at": "2026-09-19T09:32:40.145269+00:00",
+      "elapsed_seconds": 116.249,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 184204,
+        "cached_input_tokens": 112256,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3052,
+        "reasoning_output_tokens": 232
+      }
+    },
+    {
+      "run_id": "new-two-B-v2-review-2",
+      "candidate_id": "B",
+      "revision": "v2",
+      "role": "audit",
+      "model": "gpt-6-astra",
+      "actual_model": "gpt-6-astra",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T09:34:02.950658+00:00",
+      "ended_at": "2026-09-19T09:37:04.690408+00:00",
+      "elapsed_seconds": 181.737,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 297943,
+        "cached_input_tokens": 235776,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3416,
+        "reasoning_output_tokens": 62
+      }
+    },
+    {
+      "run_id": "new-two-A-v2-CG",
+      "candidate_id": "A",
+      "revision": "v2",
+      "role": "blind",
+      "model": "gpt-5.6-sol",
+      "actual_model": "gpt-5.6-sol",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T09:38:25.354090+00:00",
+      "ended_at": "2026-09-19T09:39:30.827463+00:00",
+      "elapsed_seconds": 65.472,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 153537,
+        "cached_input_tokens": 111744,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1644,
+        "reasoning_output_tokens": 760
+      }
+    },
+    {
+      "run_id": "new-two-A-v2-GO",
+      "candidate_id": "A",
+      "revision": "v2",
+      "role": "blind",
+      "model": "gpt-5.6-sol",
+      "actual_model": "gpt-5.6-sol",
+      "effort": "medium",
+      "actual_effort": "medium",
+      "started_at": "2026-09-19T09:40:09.012189+00:00",
+      "ended_at": "2026-09-19T09:41:29.658868+00:00",
+      "elapsed_seconds": 80.645,
+      "status": "completed",
+      "usage": {
+        "input_tokens": 196056,
+        "cached_input_tokens": 139776,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2281,
+        "reasoning_output_tokens": 1072
+      }
+    }
+  ],
+  "worker_totals": {
+    "input_tokens": 2998281,
+    "cached_input_tokens": 2256896,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34147,
+    "reasoning_output_tokens": 7997
+  },
+  "controller_token_usage_snapshot": {
+    "input_tokens": 23580276,
+    "cached_input_tokens": 22765568,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 94302,
+    "reasoning_output_tokens": 34457,
+    "total_tokens": 23674578
+  },
+  "controller_usage_source": "current task local rollout token_count cumulative counter",
+  "cost_notes": [
+    "cached_input_tokens is a subset of input_tokens; reasoning_output_tokens is a subset of output_tokens; do not add them again.",
+    "Controller and worker counters are separately reported. Goal-tool token accounting is a separate counter, not assumed identical to API usage or monetary billing.",
+    "No currency cost is available; no price estimate is invented."
+  ],
+  "constructor_native_web_calls": 49,
+  "constructor_logical_web_operations": 143,
+  "constructor_browser_node_calls": 34,
+  "constructor_HTTP_subrequests_inside_browser": "not fully metered; navigation/capture traces and artifacts retained",
+  "blind_used": 6,
+  "review_used": 6,
+  "limits": {
+    "blind": 12,
+    "review": 6,
+    "versions_per_slot": 3,
+    "session_seconds": 6000,
+    "stall_seconds": 3000
+  },
+  "stopped_at": "2026-09-19T09:44:47.062840+00:00",
+  "session_wall_seconds": 4331.06284,
+  "worker_elapsed_seconds_sum": 1453.728,
+  "per_slot_usage": {
+    "B": {
+      "audit": 4,
+      "blind": 2
+    },
+    "A": {
+      "audit": 2,
+      "blind": 4
+    }
+  },
+  "goal_accounting_snapshot": {
+    "tokensUsed": 903840,
+    "timeUsedSeconds": 4166,
+    "createdAt": 1789806756,
+    "updatedAt": 1789810923,
+    "status": "active",
+    "note": "Goal accounting snapshot, distinct from raw API token counters. Objective not achieved; not marked complete."
+  },
+  "controller_token_usage_at": "2026-09-19T09:42:34.426Z",
+  "blind_logical_web_operations": 167,
+  "blind_native_web_calls": 39
+}

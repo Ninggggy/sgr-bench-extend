@@ -1,0 +1,78 @@
+{
+  "candidate_id": "kegg_module_products_001",
+  "revision": 1,
+  "runtime_date": "2026-09-09",
+  "source_observation_date": "2026-09-12",
+  "provenance_manifest_path": "../sources/controller_downloads.json",
+  "provenance_basis": "Full primary responses and controller download metadata supplied inline. No new retrieval or reference-code execution is claimed by this constructor.",
+  "sources": [
+    {
+      "id": "d0001",
+      "path": "../sources/enzyme.txt",
+      "url": "https://rest.kegg.jp/get/ec:4.1.1.39",
+      "http_status": 200,
+      "bytes": 63431,
+      "accessed_at": "2026-09-12T13:39:09.380002+00:00",
+      "required": true,
+      "role": "Complete root ALL_REAC scope, including other; enzyme naming-direction context",
+      "anchors": [{"field": "ALL_REAC", "value_lines": ["R00024;", "(other) R03140"]}]
+    },
+    {
+      "id": "d0010",
+      "path": "../sources/module_links.tsv",
+      "url": "https://rest.kegg.jp/link/module/ec:4.1.1.39",
+      "http_status": 200,
+      "bytes": 66,
+      "accessed_at": "2026-09-12T13:39:11.111080+00:00",
+      "required": true,
+      "role": "Complete official direct module scope",
+      "module_ids": ["M00165", "M00532", "M00968"]
+    },
+    {
+      "id": "d0004",
+      "path": "../sources/modules.txt",
+      "url": "https://rest.kegg.jp/get/M00165+M00532+M00968",
+      "http_status": 200,
+      "bytes": 53204,
+      "accessed_at": "2026-09-12T13:39:21.141925+00:00",
+      "required": true,
+      "role": "Complete module bodies; sole source of compared product sets",
+      "anchors": [
+        {"entry": "M00165", "field": "REACTION", "value": "R00024  C01182 + C00011 -> C00197", "decision": "Exclude: only one qualifying module for this reaction"},
+        {"entry": "M00532", "field": "REACTION", "value": "R03140  C01182 -> C00988 + C00197", "decision": "Include: same reaction has a different explicit product set in another linked module"},
+        {"entry": "M00968", "field": "REACTION", "value": "R03140  C01182 -> C00197", "decision": "Include: retain all qualifying module rows of the differing reaction"}
+      ]
+    },
+    {
+      "id": "d0002",
+      "path": "../sources/reactions.txt",
+      "url": "https://rest.kegg.jp/get/R00024+R03140",
+      "http_status": 200,
+      "bytes": 2565,
+      "accessed_at": "2026-09-12T13:39:12.972664+00:00",
+      "required": false,
+      "role": "Optional audit context; generic EQUATION and MODULE fields do not supply or supplement output products",
+      "anchors": [{"entry": "R03140", "field": "EQUATION", "value": "C01182 + C00007 <=> C00197 + C00988"}]
+    }
+  ],
+  "supplied_database_update_markers": {
+    "enzyme": {"evidence_id": "d0008", "url": "https://rest.kegg.jp/info/enzyme", "last_update": "2026/08/31"},
+    "reaction": {"evidence_id": "d0007", "url": "https://rest.kegg.jp/info/reaction", "last_update": "2026/09/10"},
+    "module": {"evidence_id": "d0009", "url": "https://rest.kegg.jp/info/module", "last_update": "2026/09/11"},
+    "meaning": "Supplied database-wide update markers, not individual record versions or evidence of the historical state on 9 September"
+  },
+  "supplied_catalog_checks": [
+    {"evidence_id": "d0005", "url": "https://rest.kegg.jp/get/br:br08201", "bytes": 1315432, "received_at": "2026-09-12T13:30:59.146544+00:00", "module_ids_found": 0, "reaction_ids_found": 12279, "compound_ids_found": 17},
+    {"evidence_id": "d0006", "url": "https://rest.kegg.jp/get/br:ko00002", "bytes": 61658, "received_at": "2026-09-12T13:32:05.884875+00:00", "module_ids_found": 574, "reaction_ids_found": 0, "compound_ids_found": 0}
+  ],
+  "catalog_conclusion": "The inspected full catalogs do not provide the complete reaction-module/product relation. No claim is made about an uninspected full-world dump.",
+  "later_source_field_stability": {
+    "status": "not_performed",
+    "timing": "Before and after later A trials",
+    "compare": ["Complete enzyme ALL_REAC, including other", "Complete direct enzyme-to-module membership", "Linked module ENTRY coverage and complete REACTION fields", "C01182 identity annotations used to interpret the target compound"],
+    "method": "Retrieve the same official scope again, retain provenance, and compare these fields with the supplied observation. Newly discovered linked modules must be retrieved too.",
+    "change_rule": "Record any field change and reassess the reference. Do not present changed-source answers or revised prompt wording as validated by earlier trial results."
+  },
+  "independent_final_audit": "not_performed",
+  "human_review": "not_performed"
+}

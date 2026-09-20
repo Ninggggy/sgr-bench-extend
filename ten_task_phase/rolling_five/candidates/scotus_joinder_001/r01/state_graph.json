@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {"id": "L", "kind": "discovery", "source": "term22.html", "operation": "Parse the complete dated term-table universe; select signed decisions dated 2023-06-27.", "produces": ["docket", "R", "author code", "citation", "opinion URL"]},
+    {"id": "D", "kind": "discovered_document_batch", "sources": ["moore.pdf", "counterman.pdf", "mallory.pdf"], "operation": "Retrieve the discovered documents together; establish identity, version, author, named joinder groups and scope."},
+    {"id": "R", "kind": "aggregation", "operation": "Count distinct named Justices including each author over complete lead-opinion scopes; emit all rows in release order."}
+  ],
+  "edges": [
+    {"from": "L", "to": "D", "type": "control", "fields": ["selected docket", "discovered opinion URL"], "witness": "The date-filtered table discovers docket 21-1271 and its specific official PDF link as a batch member."},
+    {"from": "L", "to": "D", "type": "data", "fields": ["docket", "citation", "author code"]},
+    {"from": "L", "to": "R", "type": "data", "fields": ["R", "docket", "complete selected membership"]},
+    {"from": "D", "to": "R", "type": "data", "fields": ["lead author", "named joinder groups", "opinion ownership", "part scope"]}
+  ],
+  "retrieval_layers": "One table-to-discovered-document dependency; all selected PDFs may be retrieved as one batch. Clarifications inside those complete documents do not add retrieval layers.",
+  "fixed_material_checks": [
+    {"source": "https://www.supremecourt.gov/orders/journal/Jnl22.pdf", "provenance": "supplied actual inspection", "finding": "Printed page 695 corroborates daily membership but does not supply complete formal joinder data."},
+    {"source": "https://www.supremecourt.gov/opinions/preliminaryprint/600US1PP_Ord.pdf", "provenance": "supplied actual inspection", "finding": "Inspected Orders PDF covers 30 June through 29 September 2023, pages 901–970."},
+    {"source": "https://www.govinfo.gov/app/collection/usreports", "provenance": "supplied attempted inspection", "finding": "Complete usable bulk coverage remains unknown."}
+  ],
+  "dependency_assessment": "Supported by the observed discovery route, subject to an actual fixed-material counterexample covering all required membership and joinder facts. No such new counterexample was encountered during construction; no claim that every possible shortcut was excluded.",
+  "difficulty": "Unestablished; syllabus attribution already concentrates the decisive named groups."
+}

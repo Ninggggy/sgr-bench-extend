@@ -1,0 +1,66 @@
+{
+  "name": "Two wholly new independent tasks, 2026-09-19",
+  "protocol_version": "six-repairs-public-web-20260919",
+  "protocol_compatibility_note": "Identifier selects the existing public_web runner and its existing pair checks; this is a separate campaign and ledger with zero inherited use.",
+  "started_at": "2026-09-19T08:32:36+00:00",
+  "deadline": null,
+  "current_date": "2026-09-19",
+  "max_sessions": 45,
+  "max_blind_sessions": 20,
+  "max_review_sessions": 25,
+  "inherited_blind_sessions": 0,
+  "inherited_review_sessions": 0,
+  "maximum_concurrent_model_sessions": 4,
+  "controller_concurrency_slots": 1,
+  "max_seconds_per_session": 6000,
+  "stall_seconds": 3000,
+  "blind_model": "gpt-5.6-sol",
+  "blind_effort": "medium",
+  "blind_tool_profile": "public_web",
+  "review_model": "gpt-6-astra",
+  "review_effort": "medium",
+  "reserve_first_review_and_pair": true,
+  "candidate_ids": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "max_versions_per_task": 5,
+  "session_ledger": "session_ledger.jsonl",
+  "protocol_assets": {
+    "blind_prompt_path": "blind.md",
+    "retrieval_policy_path": "retrieval_policy.md"
+  },
+  "budget_amendments": [
+    {
+      "at": "2026-09-19T09:49:48.081053+00:00",
+      "authorization": "\u7528\u6237\uff1a\u5ba1\u67e5\u989d\u5ea6\u6539\u4e3a15\u6b21",
+      "previous_review_limit": 6,
+      "review_limit": 15,
+      "counts_reset": false,
+      "other_limits_unchanged": true
+    },
+    {
+      "at": "2026-09-19T13:36:59.871392+00:00",
+      "authorization": "User explicitly set five versions, new question IDs on object/direction change, and total budget reset.",
+      "historical_blind": 8,
+      "historical_review": 10,
+      "new_blind": 12,
+      "new_review": 15,
+      "max_versions_per_task": 5
+    }
+  ],
+  "stopped_candidate_ids": [
+    "A",
+    "B"
+  ],
+  "budget_epoch": 2,
+  "budget_epoch_after_session_number": 18,
+  "budget_epoch_limits": {
+    "blind": 12,
+    "audit": 15
+  },
+  "budget_accounting_note": "Runner ceilings are cumulative: historical 8 blind + 12 new = 20; historical 10 reviews + 15 new = 25. Historical ledger retained. C,D reserve a first review and pair; historical A,B stopped."
+}

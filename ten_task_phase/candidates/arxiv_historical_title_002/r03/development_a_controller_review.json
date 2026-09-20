@@ -1,0 +1,122 @@
+{
+  "at": "2026-09-10T10:59:53.972390+00:00",
+  "rows": [
+    {
+      "variant": "cg",
+      "run_id": "r-arxiv-histtitle002-r03-cg-dev-a",
+      "exact_item_f1": "13/17",
+      "counts": {
+        "correct_fields": 78,
+        "gold_fields": 126,
+        "pred_fields": 78,
+        "item_denominator": 204,
+        "correct_rows": 13,
+        "gold_rows": 21,
+        "pred_rows": 13,
+        "row_denominator": 34,
+        "correct_pairs": 78,
+        "pair_denominator": 78,
+        "shared_ids": 13
+      },
+      "omitted_ids": [
+        [
+          "2001.01717",
+          "1907.03532"
+        ],
+        [
+          "2001.09328",
+          "2009.02623"
+        ],
+        [
+          "2003.03601",
+          "2005.08948"
+        ],
+        [
+          "2008.13265",
+          "2010.11327"
+        ],
+        [
+          "2009.01395",
+          "1912.05078"
+        ],
+        [
+          "2010.11327",
+          "2111.15041"
+        ],
+        [
+          "2012.01380",
+          "2201.07858"
+        ],
+        [
+          "2012.03115",
+          "2108.09423"
+        ]
+      ],
+      "verification": "passed",
+      "all_returned_rows_correct": true,
+      "raw_omitted_id_exposure": "No omitted source IDs found in actual returned text; see exposure file. Do not claim visibly read sources were ignored."
+    },
+    {
+      "variant": "go",
+      "run_id": "r-arxiv-histtitle002-r03-go-dev-a",
+      "exact_item_f1": "8/11",
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 126,
+        "pred_fields": 72,
+        "item_denominator": 198,
+        "correct_rows": 12,
+        "gold_rows": 21,
+        "pred_rows": 12,
+        "row_denominator": 33,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "omitted_ids": [
+        [
+          "2003.03657",
+          "2006.14426"
+        ],
+        [
+          "2005.12741",
+          "1807.11926"
+        ],
+        [
+          "2008.13265",
+          "2010.11327"
+        ],
+        [
+          "2009.01395",
+          "1912.05078"
+        ],
+        [
+          "2009.13051",
+          "2009.14471"
+        ],
+        [
+          "2010.11327",
+          "2111.15041"
+        ],
+        [
+          "2010.11869",
+          "2104.08453"
+        ],
+        [
+          "2011.08470",
+          "2102.10955"
+        ],
+        [
+          "2012.03115",
+          "2108.09423"
+        ]
+      ],
+      "verification": "passed",
+      "all_returned_rows_correct": true,
+      "raw_omitted_id_exposure": "No omitted source IDs found in actual returned text; see exposure file. Do not claim visibly read sources were ignored."
+    }
+  ],
+  "decision": "Continue B and one shortcutattack pervariant; no admissionyet. Both made substantivehistoricalreconstructionprogress and both have materialuncoveredrelations.",
+  "observed_method": "Both use nativeweb plus finite keyword-filtered currentsearches instead of verifiedcompleteannualinventory; literal arXiv and updated/withdrawn/merged proxies do not cover allnamedtitle-only and semanticallyvaried notices.",
+  "limitations": "NativewebAPI/access failures present. This provisional A review does not claim everyomission is independent of access/truncation, nor that omittedsourceIDs were returned. Final GPT6 substantiveerroraudit required afterB andattacks. AvailablebatchAPI remainspermitted; no toolchange or privatecacheinput."
+}

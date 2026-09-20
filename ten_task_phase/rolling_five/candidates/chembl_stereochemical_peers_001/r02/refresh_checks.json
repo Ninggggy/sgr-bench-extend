@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-09-13T03:22:39.156388+00:00",
+  "acquisition_path": "../resumption_pretest_refresh/acquisition.json",
+  "controller_checks_path": "../resumption_pretest_refresh/checks.json",
+  "observation_window_utc": [
+    "2026-09-13T03:15:28.584675+00:00",
+    "2026-09-13T03:15:37.493410+00:00"
+  ],
+  "all_four_http_200": true,
+  "raw_file_bytes_match_acquisition": true,
+  "complete_json_equality_to_original_sources": {
+    "status_before": true,
+    "exact_name": true,
+    "prefix": true,
+    "status_after": true
+  },
+  "status_pre_post_equal": true,
+  "prefix_complete": true,
+  "page_meta": {
+    "limit": 100,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 16
+  },
+  "added_ids": [],
+  "removed_ids": [],
+  "changed_records": [],
+  "scope_of_conclusion": "Current observed response equality; cache explicitly present. Not a permanent, future-evaluation-window or fresh-origin guarantee. No integration network request."
+}

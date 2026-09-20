@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "complete_pool": 44,
+  "environment_exclusions": [
+    "CVE-2021-32785",
+    "CVE-2021-32786",
+    "CVE-2021-32791",
+    "CVE-2021-32792"
+  ],
+  "independent_rows": {
+    "CVE-2020-1934": [
+      9.8,
+      5.3,
+      "2020-04-15"
+    ],
+    "CVE-2021-40438": [
+      9.8,
+      9.0,
+      "2021-10-04"
+    ],
+    "CVE-2021-41773": [
+      7.5,
+      9.8,
+      "2026-02-17"
+    ],
+    "CVE-2022-22721": [
+      9.8,
+      9.1,
+      "2022-08-30"
+    ],
+    "CVE-2022-36760": [
+      9.8,
+      9.0,
+      "2023-01-30"
+    ],
+    "CVE-2023-31122": [
+      9.1,
+      7.5,
+      "2023-10-30"
+    ]
+  },
+  "vector_scores_checked": 88,
+  "limits": "Verifies source computation and cohort; does not independently certify SGR or difficulty."
+}

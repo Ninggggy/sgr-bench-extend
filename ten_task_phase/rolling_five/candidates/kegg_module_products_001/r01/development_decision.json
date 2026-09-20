@@ -1,0 +1,56 @@
+{
+  "candidate_id": "kegg_module_products_001",
+  "revision": 1,
+  "at": "2026-09-12T14:07:40.598843+00:00",
+  "decision": "stop_development_a_full_scores",
+  "trials": [
+    {
+      "variant": "CG",
+      "run_path": "runs/kegg-module-products-r01-cg-dev-a",
+      "counts": {
+        "correct_fields": 6,
+        "gold_fields": 6,
+        "pred_fields": 6,
+        "item_denominator": 12,
+        "correct_rows": 2,
+        "gold_rows": 2,
+        "pred_rows": 2,
+        "row_denominator": 4,
+        "correct_pairs": 1,
+        "pair_denominator": 1,
+        "shared_ids": 2
+      },
+      "exact_item_f1": "12/12",
+      "verification_status": "passed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    {
+      "variant": "GO",
+      "run_path": "runs/kegg-module-products-r01-go-dev-a",
+      "counts": {
+        "correct_fields": 6,
+        "gold_fields": 6,
+        "pred_fields": 6,
+        "item_denominator": 12,
+        "correct_rows": 2,
+        "gold_rows": 2,
+        "pred_rows": 2,
+        "row_denominator": 4,
+        "correct_pairs": 1,
+        "pair_denominator": 1,
+        "shared_ids": 2
+      },
+      "exact_item_f1": "12/12",
+      "verification_status": "passed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    }
+  ],
+  "formal_means": null,
+  "admitted": false,
+  "human_review": "not_performed",
+  "independent_final_audit": "not_performed",
+  "post_A_stability": "passed",
+  "reason": "Both freshisolatedA fullycorrect onall6fields; noB,attack,finalaudit,formaltrials orscoreseekingrevision."
+}

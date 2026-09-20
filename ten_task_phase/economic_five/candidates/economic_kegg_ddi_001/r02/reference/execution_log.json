@@ -1,0 +1,1125 @@
+{
+  "python": {
+    "command": "python3 reference/solve_reference.py --root . --out reference/replay-01",
+    "status": "NOT_RUN",
+    "reason": "No shell or Python execution tool is available in this read-only worker."
+  },
+  "actual_download_calls": {
+    "tool": "mcp__wqp_data__download",
+    "argument_template": {
+      "url": "source_manifest.json sources[].url"
+    },
+    "result_mapping": "source_manifest.json sources[] gives actual file_id, status, dates, response byte count and exact URL."
+  },
+  "actual_tabulate_calls": [
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0044",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0045",
+      "rows": 1072
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0048",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0068",
+      "rows": 83
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0049",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0069",
+      "rows": 220
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0050",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0070",
+      "rows": 220
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0051",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0071",
+      "rows": 191
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0052",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0072",
+      "rows": 191
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0053",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0073",
+      "rows": 191
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0054",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0074",
+      "rows": 118
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0055",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0075",
+      "rows": 814
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0056",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0076",
+      "rows": 814
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0057",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0077",
+      "rows": 814
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0058",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0078",
+      "rows": 176
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0059",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0079",
+      "rows": 680
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0060",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0080",
+      "rows": 83
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0061",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0081",
+      "rows": 298
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0062",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0082",
+      "rows": 917
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0063",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0083",
+      "rows": 83
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0064",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0084",
+      "rows": 188
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0065",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0085",
+      "rows": 768
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0066",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0086",
+      "rows": 71
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0067",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0087",
+      "rows": 71
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0095",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0135",
+      "rows": 759
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0096",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0136",
+      "rows": 759
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0097",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0137",
+      "rows": 262
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0098",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0138",
+      "rows": 597
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0099",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0139",
+      "rows": 262
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0100",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0140",
+      "rows": 334
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0101",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0141",
+      "rows": 717
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0102",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0142",
+      "rows": 239
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0103",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0143",
+      "rows": 239
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0104",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0144",
+      "rows": 239
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0105",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0145",
+      "rows": 240
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0106",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0146",
+      "rows": 241
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0107",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0147",
+      "rows": 241
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0108",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0148",
+      "rows": 241
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0109",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0149",
+      "rows": 241
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0110",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0150",
+      "rows": 241
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0111",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0151",
+      "rows": 241
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0112",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0152",
+      "rows": 241
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0113",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0153",
+      "rows": 241
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0114",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0154",
+      "rows": 241
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0115",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0155",
+      "rows": 333
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0116",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0156",
+      "rows": 333
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0117",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0157",
+      "rows": 823
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0118",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0158",
+      "rows": 256
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0119",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0159",
+      "rows": 256
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0120",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0160",
+      "rows": 256
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0121",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0161",
+      "rows": 233
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0122",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0162",
+      "rows": 250
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0123",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0163",
+      "rows": 233
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0124",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0164",
+      "rows": 233
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0125",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0165",
+      "rows": 276
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0126",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0166",
+      "rows": 241
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0127",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0167",
+      "rows": 251
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0128",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0168",
+      "rows": 251
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0129",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0169",
+      "rows": 233
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0130",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0170",
+      "rows": 233
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0131",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0171",
+      "rows": 233
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0132",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0172",
+      "rows": 233
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0133",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0173",
+      "rows": 233
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0134",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0174",
+      "rows": 233
+    },
+    {
+      "tool": "mcp__wqp_data__tabulate",
+      "arguments": {
+        "file_id": "d0189",
+        "format": "tsv",
+        "columns": [
+          "drug1",
+          "drug2",
+          "class",
+          "mechanism"
+        ]
+      },
+      "result_file_id": "d0191",
+      "rows": 1072
+    }
+  ],
+  "actual_sql_calls": [
+    {
+      "tool": "mcp__wqp_data__query_csv",
+      "arguments": {
+        "tables": {
+          "d": "d0045",
+          "s0": "d0068",
+          "s1": "d0069",
+          "s2": "d0070",
+          "s3": "d0071",
+          "s4": "d0072",
+          "s5": "d0073",
+          "s6": "d0074",
+          "s7": "d0075",
+          "s8": "d0076",
+          "s9": "d0077",
+          "s10": "d0078",
+          "s11": "d0079",
+          "s12": "d0080",
+          "s13": "d0081",
+          "s14": "d0082",
+          "s15": "d0083",
+          "s16": "d0084",
+          "s17": "d0085",
+          "s18": "d0086",
+          "s19": "d0087"
+        },
+        "sql": "WITH m(g,id) AS (VALUES ('DG01659','D06367'),('DG01659','D00326'),('DG01659','D00823'),('DG01659','D07704'),('DG01659','D00822'),('DG01659','D07705'),('DG01659','D02362'),('DG01659','D02260'),('DG01659','D05374'),('DG01659','D05375'),('DG01659','D02360'),('DG01659','D00825'),('DG01659','D02787'),('DG01659','D07984'),('DG01659','D00824'),('DG01659','D04105'),('DG01659','D07913'),('DG01659','D02567'),('DG01659','D03649'),('DG01659','D05491'),('DG01568','D03731'),('DG01568','D00785'),('DG01568','D08469'),('DG01568','D02562'),('DG01568','D10829'),('DG01568','D10158'),('DG01568','D10191'),('DG01568','D04681'),('DG01568','D01097'),('DG01568','D03733'),('DG01568','D05033'),('DG01568','D02580'),('DG01568','D07337'),('DG01568','D08349'),('DG01568','D00505'),('DG01568','D08625'),('DG01568','D00826'),('DG01568','D02579'),('DG01568','D08085'),('DG01568','D07338'),('DG01568','D08453'),('DG01568','D02564'),('DG01568','D00346'),('DG01568','D01501'),('DG01568','D02002'),('DG01568','D09773'),('DG01568','D01888'),('DG01568','D03239'),('DG01568','D03409'),('DG01568','D04092'),('DG01568','D02561'),('DG01568','D02559'),('DG01568','D05039'),('DG01568','D05040'),('DG01568','D08392'),('DG01568','D08393'),('DG01568','D02560'),('DG01568','D02563'),('DG01568','D02581'),('DG01568','D03248')), singles AS (SELECT drug1,drug2,class FROM s0 UNION ALL SELECT drug1,drug2,class FROM s1 UNION ALL SELECT drug1,drug2,class FROM s2 UNION ALL SELECT drug1,drug2,class FROM s3 UNION ALL SELECT drug1,drug2,class FROM s4 UNION ALL SELECT drug1,drug2,class FROM s5 UNION ALL SELECT drug1,drug2,class FROM s6 UNION ALL SELECT drug1,drug2,class FROM s7 UNION ALL SELECT drug1,drug2,class FROM s8 UNION ALL SELECT drug1,drug2,class FROM s9 UNION ALL SELECT drug1,drug2,class FROM s10 UNION ALL SELECT drug1,drug2,class FROM s11 UNION ALL SELECT drug1,drug2,class FROM s12 UNION ALL SELECT drug1,drug2,class FROM s13 UNION ALL SELECT drug1,drug2,class FROM s14 UNION ALL SELECT drug1,drug2,class FROM s15 UNION ALL SELECT drug1,drug2,class FROM s16 UNION ALL SELECT drug1,drug2,class FROM s17 UNION ALL SELECT drug1,drug2,class FROM s18 UNION ALL SELECT drug1,drug2,class FROM s19), a AS (SELECT DISTINCT substr(drug1,4) ssri_id,substr(drug2,4) mao_id,class FROM d JOIN m x ON x.id=substr(drug1,4) AND x.g='DG01659' JOIN m y ON y.id=substr(drug2,4) AND y.g='DG01568'), b AS (SELECT DISTINCT substr(drug1,4) ssri_id,substr(drug2,4) mao_id,class FROM singles JOIN m x ON x.id=substr(drug1,4) AND x.g='DG01659' JOIN m y ON y.id=substr(drug2,4) AND y.g='DG01568') SELECT 'batch' path,count(*) n FROM a UNION ALL SELECT 'singles',count(*) FROM b UNION ALL SELECT 'batch_minus_single',count(*) FROM (SELECT * FROM a EXCEPT SELECT * FROM b) UNION ALL SELECT 'single_minus_batch',count(*) FROM (SELECT * FROM b EXCEPT SELECT * FROM a)",
+        "limit": 10
+      },
+      "result_file_id": "d0091",
+      "observed": {
+        "batch": 296,
+        "singles": 282,
+        "batch_minus_single": 14,
+        "single_minus_batch": 0
+      }
+    },
+    {
+      "tool": "mcp__wqp_data__query_csv",
+      "arguments": {
+        "tables": {
+          "d": "d0045",
+          "s0": "d0068",
+          "s1": "d0069",
+          "s2": "d0070",
+          "s3": "d0071",
+          "s4": "d0072",
+          "s5": "d0073",
+          "s6": "d0074",
+          "s7": "d0075",
+          "s8": "d0076",
+          "s9": "d0077",
+          "s10": "d0078",
+          "s11": "d0079",
+          "s12": "d0080",
+          "s13": "d0081",
+          "s14": "d0082",
+          "s15": "d0083",
+          "s16": "d0084",
+          "s17": "d0085",
+          "s18": "d0086",
+          "s19": "d0087",
+          "s20": "d0135",
+          "s21": "d0136",
+          "s22": "d0137",
+          "s23": "d0138",
+          "s24": "d0139",
+          "s25": "d0140",
+          "s26": "d0141",
+          "s27": "d0142",
+          "s28": "d0143",
+          "s29": "d0144",
+          "s30": "d0145",
+          "s31": "d0146",
+          "s32": "d0147",
+          "s33": "d0148",
+          "s34": "d0149",
+          "s35": "d0150",
+          "s36": "d0151",
+          "s37": "d0152",
+          "s38": "d0153",
+          "s39": "d0154",
+          "s40": "d0155",
+          "s41": "d0156",
+          "s42": "d0157",
+          "s43": "d0158",
+          "s44": "d0159",
+          "s45": "d0160",
+          "s46": "d0161",
+          "s47": "d0162",
+          "s48": "d0163",
+          "s49": "d0164",
+          "s50": "d0165",
+          "s51": "d0166",
+          "s52": "d0167",
+          "s53": "d0168",
+          "s54": "d0169",
+          "s55": "d0170",
+          "s56": "d0171",
+          "s57": "d0172",
+          "s58": "d0173",
+          "s59": "d0174"
+        },
+        "sql": "WITH m(g,id) AS (VALUES ('DG01659','D06367'),('DG01659','D00326'),('DG01659','D00823'),('DG01659','D07704'),('DG01659','D00822'),('DG01659','D07705'),('DG01659','D02362'),('DG01659','D02260'),('DG01659','D05374'),('DG01659','D05375'),('DG01659','D02360'),('DG01659','D00825'),('DG01659','D02787'),('DG01659','D07984'),('DG01659','D00824'),('DG01659','D04105'),('DG01659','D07913'),('DG01659','D02567'),('DG01659','D03649'),('DG01659','D05491'),('DG01568','D03731'),('DG01568','D00785'),('DG01568','D08469'),('DG01568','D02562'),('DG01568','D10829'),('DG01568','D10158'),('DG01568','D10191'),('DG01568','D04681'),('DG01568','D01097'),('DG01568','D03733'),('DG01568','D05033'),('DG01568','D02580'),('DG01568','D07337'),('DG01568','D08349'),('DG01568','D00505'),('DG01568','D08625'),('DG01568','D00826'),('DG01568','D02579'),('DG01568','D08085'),('DG01568','D07338'),('DG01568','D08453'),('DG01568','D02564'),('DG01568','D00346'),('DG01568','D01501'),('DG01568','D02002'),('DG01568','D09773'),('DG01568','D01888'),('DG01568','D03239'),('DG01568','D03409'),('DG01568','D04092'),('DG01568','D02561'),('DG01568','D02559'),('DG01568','D05039'),('DG01568','D05040'),('DG01568','D08392'),('DG01568','D08393'),('DG01568','D02560'),('DG01568','D02563'),('DG01568','D02581'),('DG01568','D03248')), singles AS (SELECT drug1,drug2,class FROM s0 UNION ALL SELECT drug1,drug2,class FROM s1 UNION ALL SELECT drug1,drug2,class FROM s2 UNION ALL SELECT drug1,drug2,class FROM s3 UNION ALL SELECT drug1,drug2,class FROM s4 UNION ALL SELECT drug1,drug2,class FROM s5 UNION ALL SELECT drug1,drug2,class FROM s6 UNION ALL SELECT drug1,drug2,class FROM s7 UNION ALL SELECT drug1,drug2,class FROM s8 UNION ALL SELECT drug1,drug2,class FROM s9 UNION ALL SELECT drug1,drug2,class FROM s10 UNION ALL SELECT drug1,drug2,class FROM s11 UNION ALL SELECT drug1,drug2,class FROM s12 UNION ALL SELECT drug1,drug2,class FROM s13 UNION ALL SELECT drug1,drug2,class FROM s14 UNION ALL SELECT drug1,drug2,class FROM s15 UNION ALL SELECT drug1,drug2,class FROM s16 UNION ALL SELECT drug1,drug2,class FROM s17 UNION ALL SELECT drug1,drug2,class FROM s18 UNION ALL SELECT drug1,drug2,class FROM s19 UNION ALL SELECT drug1,drug2,class FROM s20 UNION ALL SELECT drug1,drug2,class FROM s21 UNION ALL SELECT drug1,drug2,class FROM s22 UNION ALL SELECT drug1,drug2,class FROM s23 UNION ALL SELECT drug1,drug2,class FROM s24 UNION ALL SELECT drug1,drug2,class FROM s25 UNION ALL SELECT drug1,drug2,class FROM s26 UNION ALL SELECT drug1,drug2,class FROM s27 UNION ALL SELECT drug1,drug2,class FROM s28 UNION ALL SELECT drug1,drug2,class FROM s29 UNION ALL SELECT drug1,drug2,class FROM s30 UNION ALL SELECT drug1,drug2,class FROM s31 UNION ALL SELECT drug1,drug2,class FROM s32 UNION ALL SELECT drug1,drug2,class FROM s33 UNION ALL SELECT drug1,drug2,class FROM s34 UNION ALL SELECT drug1,drug2,class FROM s35 UNION ALL SELECT drug1,drug2,class FROM s36 UNION ALL SELECT drug1,drug2,class FROM s37 UNION ALL SELECT drug1,drug2,class FROM s38 UNION ALL SELECT drug1,drug2,class FROM s39 UNION ALL SELECT drug1,drug2,class FROM s40 UNION ALL SELECT drug1,drug2,class FROM s41 UNION ALL SELECT drug1,drug2,class FROM s42 UNION ALL SELECT drug1,drug2,class FROM s43 UNION ALL SELECT drug1,drug2,class FROM s44 UNION ALL SELECT drug1,drug2,class FROM s45 UNION ALL SELECT drug1,drug2,class FROM s46 UNION ALL SELECT drug1,drug2,class FROM s47 UNION ALL SELECT drug1,drug2,class FROM s48 UNION ALL SELECT drug1,drug2,class FROM s49 UNION ALL SELECT drug1,drug2,class FROM s50 UNION ALL SELECT drug1,drug2,class FROM s51 UNION ALL SELECT drug1,drug2,class FROM s52 UNION ALL SELECT drug1,drug2,class FROM s53 UNION ALL SELECT drug1,drug2,class FROM s54 UNION ALL SELECT drug1,drug2,class FROM s55 UNION ALL SELECT drug1,drug2,class FROM s56 UNION ALL SELECT drug1,drug2,class FROM s57 UNION ALL SELECT drug1,drug2,class FROM s58 UNION ALL SELECT drug1,drug2,class FROM s59), a AS (SELECT DISTINCT min(substr(drug1,4),substr(drug2,4)) lo,max(substr(drug1,4),substr(drug2,4)) hi,class FROM d JOIN m x ON x.id=substr(drug1,4) JOIN m y ON y.id=substr(drug2,4) WHERE x.g<>y.g), b AS (SELECT DISTINCT min(substr(drug1,4),substr(drug2,4)) lo,max(substr(drug1,4),substr(drug2,4)) hi,class FROM singles JOIN m x ON x.id=substr(drug1,4) JOIN m y ON y.id=substr(drug2,4) WHERE x.g<>y.g) SELECT 'batch' path,count(*) n FROM a UNION ALL SELECT 'both_endpoint_singles',count(*) FROM b UNION ALL SELECT 'batch_minus_singles',count(*) FROM (SELECT * FROM a EXCEPT SELECT * FROM b) UNION ALL SELECT 'singles_minus_batch',count(*) FROM (SELECT * FROM b EXCEPT SELECT * FROM a)"
+      },
+      "result_file_id": "d0175",
+      "observed": {
+        "batch": 296,
+        "both_endpoint_singles": 296,
+        "batch_minus_singles": 0,
+        "singles_minus_batch": 0
+      }
+    },
+    {
+      "tool": "mcp__wqp_data__query_csv",
+      "arguments": {
+        "tables": {
+          "d": "d0045"
+        },
+        "sql": "WITH m(g,id) AS (VALUES ('DG01659','D06367'),('DG01659','D00326'),('DG01659','D00823'),('DG01659','D07704'),('DG01659','D00822'),('DG01659','D07705'),('DG01659','D02362'),('DG01659','D02260'),('DG01659','D05374'),('DG01659','D05375'),('DG01659','D02360'),('DG01659','D00825'),('DG01659','D02787'),('DG01659','D07984'),('DG01659','D00824'),('DG01659','D04105'),('DG01659','D07913'),('DG01659','D02567'),('DG01659','D03649'),('DG01659','D05491'),('DG01568','D03731'),('DG01568','D00785'),('DG01568','D08469'),('DG01568','D02562'),('DG01568','D10829'),('DG01568','D10158'),('DG01568','D10191'),('DG01568','D04681'),('DG01568','D01097'),('DG01568','D03733'),('DG01568','D05033'),('DG01568','D02580'),('DG01568','D07337'),('DG01568','D08349'),('DG01568','D00505'),('DG01568','D08625'),('DG01568','D00826'),('DG01568','D02579'),('DG01568','D08085'),('DG01568','D07338'),('DG01568','D08453'),('DG01568','D02564'),('DG01568','D00346'),('DG01568','D01501'),('DG01568','D02002'),('DG01568','D09773'),('DG01568','D01888'),('DG01568','D03239'),('DG01568','D03409'),('DG01568','D04092'),('DG01568','D02561'),('DG01568','D02559'),('DG01568','D05039'),('DG01568','D05040'),('DG01568','D08392'),('DG01568','D08393'),('DG01568','D02560'),('DG01568','D02563'),('DG01568','D02581'),('DG01568','D03248')), a AS (SELECT substr(drug1,4) s,substr(drug2,4) t,class,rowid AS source_line FROM d) SELECT s.id AS ssri_id,t.id AS mao_id,CASE WHEN a.class IS NULL THEN 'false' ELSE 'true' END AS included,COALESCE(a.class,'') AS classes,a.source_line FROM m s CROSS JOIN m t LEFT JOIN a ON a.s=s.id AND a.t=t.id WHERE s.g='DG01659' AND t.g='DG01568' ORDER BY s.id,t.id",
+        "limit": 5
+      },
+      "result_file_id": "d0186",
+      "rows": 800
+    },
+    {
+      "tool": "mcp__wqp_data__query_csv",
+      "arguments": {
+        "tables": {
+          "a": "d0045",
+          "b": "d0191"
+        },
+        "sql": "SELECT 'initial_minus_repeat' metric,count(*) n FROM (SELECT * FROM a EXCEPT SELECT * FROM b) UNION ALL SELECT 'repeat_minus_initial',count(*) FROM (SELECT * FROM b EXCEPT SELECT * FROM a)"
+      },
+      "result_file_id": "d0192",
+      "observed": {
+        "initial_minus_repeat": 0,
+        "repeat_minus_initial": 0
+      }
+    }
+  ],
+  "actual_javascript_checks": {
+    "member_parser": "For each ENTRY block, parse only MEMBER through CLASS; regex /(?:^|\\n)\\s*(D\\d{5})\\s+(.+)/g. Do not match DG identifiers.",
+    "oracle": "Split complete saved d0044 body into TSV rows; join exact D identities to the two parsed sets; normalize orientation to SSRI,MAO; union CI/P tokens; sort keys.",
+    "oracle_sql_equality": true,
+    "unique_oracle_keys": 296,
+    "html_checks": [
+      {
+        "id": "DG01659",
+        "api_count": 20,
+        "html_count": 20,
+        "equal": true,
+        "member_start_char": 5537,
+        "member_end_char": 11851,
+        "hidden_css": true
+      },
+      {
+        "id": "DG01568",
+        "api_count": 40,
+        "html_count": 40,
+        "equal": true,
+        "member_start_char": 5466,
+        "member_end_char": 18711,
+        "hidden_css": true
+      }
+    ],
+    "group_repeat_equal": true,
+    "candidate_rows": 800,
+    "unknown": 0
+  },
+  "not_run": [
+    "Python reference program",
+    "Item-F1 scorer integration",
+    "blind solve",
+    "blind attack",
+    "other models",
+    "independent evaluation-window stability audit"
+  ]
+}

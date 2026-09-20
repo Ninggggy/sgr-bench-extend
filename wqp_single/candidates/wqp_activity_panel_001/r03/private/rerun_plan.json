@@ -1,0 +1,9 @@
+{
+  "revision": 3,
+  "remaining_revisions": 0,
+  "content": "content_run_plan.json:4fresh blind +2fresh shortcuts",
+  "audits": "2new isolated nonblind contexts, same model",
+  "difficulty": "4screening +12confirmation from original analysis plan, final fixed revision and same old004",
+  "no_reuse": "r01 andr02 development results not confirmation; no low-score retries",
+  "budget": "60 total new sessions /24h;6000s per attempt /3000s stall"
+}

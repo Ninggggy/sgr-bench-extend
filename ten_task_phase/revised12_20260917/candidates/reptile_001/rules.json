@@ -1,0 +1,16 @@
+{
+  "status": "deterministic_explicit",
+  "columns": [
+    "accepted name",
+    "old label",
+    "UNIQUE/AMBIG",
+    "BMNH status"
+  ],
+  "row_key": [
+    "accepted name",
+    "old label"
+  ],
+  "record_separator": ";",
+  "fields": {},
+  "source": "Unmodified original task rubric; no gold correction or missing-field completion."
+}

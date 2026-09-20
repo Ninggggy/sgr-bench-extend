@@ -1,0 +1,168 @@
+{
+  "campaign_id": "ten_task_phase_2026-09-09",
+  "started_at": "2026-09-09T09:30:08+00:00",
+  "deadline": "2026-09-11T09:30:08+00:00",
+  "max_sessions": 300,
+  "max_seconds_per_session": 6000,
+  "stall_seconds": 3000,
+  "maximum_concurrent_model_sessions": 4,
+  "max_substantive_revisions": 2,
+  "target_base_tasks": 10,
+  "current_date": "2026-09-09",
+  "construction_model": "gpt-6-astra",
+  "construction_effort": "high",
+  "solver_model": "gpt-5.6-sol",
+  "solver_effort": "medium",
+  "protocol_version": "ten-task-v1",
+  "repair_retries_allowed": 1,
+  "retry_policy": "Only one replacement attempt per prescheduled slot after verified infrastructure failure; never retry model mistakes, partial answers or parse failures; retain all attempts/cost. Explicit controller classification required before replacement.",
+  "admission": {
+    "metric": "Item-F1",
+    "trials_per_variant": 3,
+    "cg_mean_strictly_below": "7/10",
+    "go_mean_strictly_below": "7/10",
+    "arithmetic": "exact fractions from scoring counts",
+    "one_round_per_candidate_protocol_version": true,
+    "scores_are_selection_scores": true
+  },
+  "excluded": [
+    "original_50"
+  ],
+  "reserved_sessions": {
+    "accepted_target_retests": 60,
+    "old_comparisons_max": 30
+  },
+  "ended_at": "2026-09-10T12:07:42.755045+00:00",
+  "session_ledger": "session_ledger.jsonl",
+  "protocol_assets": {
+    "registered_at": "2026-09-09T10:18:50.460615+00:00",
+    "solver_config_path": "protocol/ten-task-v1/solver.config.toml",
+    "scorer_path": "protocol/ten-task-v1/score.py",
+    "data_tools_path": "protocol/ten-task-v1/data_tools.py",
+    "image_id": "sha256:7e6f86e9ecb36ec74f6dc42254c16bc9b0f31f22cea6f96be8f872599f0404b6"
+  },
+  "protocol_setup_amendments": [
+    {
+      "at": "2026-09-09T09:48:55.244602+00:00",
+      "previous_protocol_assets": {
+        "registered_at": "2026-09-09T09:48:55.244966+00:00",
+        "solver_config_path": "protocol/ten-task-v1/solver.config.toml",
+        "scorer_path": "protocol/ten-task-v1/score.py",
+        "data_tools_path": "protocol/ten-task-v1/data_tools.py",
+        "image_id": "sha256:c0e7e1a6a759c664ba790056cad508c05af87195fc5b2cefb92ceccd5982a21a"
+      },
+      "change": "Added documented EPA Figshare archival API and Reptile search subdomain before any blind/development/admission/comparison run. Existing construction snapshots preserved."
+    },
+    {
+      "at": "2026-09-09T09:53:35.527053+00:00",
+      "previous_protocol_assets": {
+        "registered_at": "2026-09-09T09:48:55.244966+00:00",
+        "solver_config_path": "protocol/ten-task-v1/solver.config.toml",
+        "scorer_path": "protocol/ten-task-v1/score.py",
+        "data_tools_path": "protocol/ten-task-v1/data_tools.py",
+        "image_id": "sha256:c0e7e1a6a759c664ba790056cad508c05af87195fc5b2cefb92ceccd5982a21a"
+      },
+      "change": "Added generic XLSX shared-string/sparse-cell conversion after real Reptile source workbook exposed missing ergonomic table access; still no blind runs."
+    },
+    {
+      "at": "2026-09-09T09:59:44.929466+00:00",
+      "previous_protocol_assets": {
+        "registered_at": "2026-09-09T09:53:35.527352+00:00",
+        "solver_config_path": "protocol/ten-task-v1/solver.config.toml",
+        "scorer_path": "protocol/ten-task-v1/score.py",
+        "data_tools_path": "protocol/ten-task-v1/data_tools.py",
+        "image_id": "sha256:496a1bfa594c5d1acfadc0c0d64cfd9ce1ead4d46577949541d9a27dd768b6d1"
+      },
+      "change": "Added official Reptile-linked Figshare archive page/downloader and DOI resolver; redirect targets remain allowlisted. No blind run started."
+    },
+    {
+      "at": "2026-09-09T10:02:52.966879+00:00",
+      "previous_protocol_assets": {
+        "registered_at": "2026-09-09T09:59:44.929582+00:00",
+        "solver_config_path": "protocol/ten-task-v1/solver.config.toml",
+        "scorer_path": "protocol/ten-task-v1/score.py",
+        "data_tools_path": "protocol/ten-task-v1/data_tools.py",
+        "image_id": "sha256:2ec3068b40d45b46a9ab4d4acb9a7c6a76eb1f5ac06ae99c76573be4519f50e3"
+      },
+      "change": "Added shared NVD API timing at6.2s per request across future workers; established officialAPI limit from public NVD app documentation. No blind sessions started."
+    },
+    {
+      "at": "2026-09-09T10:18:50.460615+00:00",
+      "previous_protocol_assets": {
+        "registered_at": "2026-09-09T10:02:52.967143+00:00",
+        "solver_config_path": "protocol/ten-task-v1/solver.config.toml",
+        "scorer_path": "protocol/ten-task-v1/score.py",
+        "data_tools_path": "protocol/ten-task-v1/data_tools.py",
+        "image_id": "sha256:99e190152f9e59f13e9783967829dfa018cb75ff50da7d8a0ad1796290159bff"
+      },
+      "change": "Before first blind run, expanded response bound512MB/ZIP2GB and work storage3GB/memory4GB after actual HYDAT266MB archive evidence; added read-only downloaded-SQLite SELECT and official ECCC API host.51 tests passed; writes/ATTACH/extensions/host paths remain blocked."
+    }
+  ],
+  "reserved_pending_sessions": 0,
+  "controller_timing_update": {
+    "at": "2026-09-10T02:32:05.621354+00:00",
+    "authority": "User resumption instructions 2026-09-10",
+    "controller_limit": "original 300 sessions / deadline; no 6000-second controller cutoff",
+    "worker_max_seconds": 6000,
+    "worker_stall_seconds": 3000,
+    "historical_deviations_preserved": true
+  },
+  "admission_amendments": [
+    {
+      "candidate_id": "wqp_activity_panel_001",
+      "revision": 3,
+      "authorized_at": "2026-09-10T11:00:23.735397+00:00",
+      "authorized_by": "user",
+      "instruction": "把 wqp_activity_panel_001 r03 也划归到合格题目吧",
+      "basis": "user_designated_exception",
+      "note": "计入10题阶段目标并导出CG/GO；保留历史严格SGR未通过、难度不可判定及全部原始评分，不宣称通过ten-task-v1六次收录复测。其他候选规则不变。",
+      "historical_evidence_paths": [
+        "../wqp_single/candidates/wqp_activity_panel_001/r03/private/closure_decision.json",
+        "../wqp_single/sol_medium_retest/report.md",
+        "../wqp_single/sol_medium_retest/summary.json"
+      ]
+    },
+    {
+      "candidate_id": "arxiv_historical_title_002",
+      "revision": 3,
+      "authorized_at": "2026-09-10T12:00:17.453Z",
+      "authorized_by": "user",
+      "instruction": "这题也收录进去吧，然后收尾停止就可以了",
+      "basis": "user_designated_exception",
+      "note": "用户在获知 CG 正式均值 151/198（76.2626%）未通过严格70%门槛后指定收录。保留质量审计通过及标准难度失败；六次正式复测仍完整保留，不冒称双70%通过。仅适用r03；其他候选规则不变。",
+      "historical_evidence_paths": [
+        "research/arxiv002_r03_user_admission_decision.json",
+        "candidates/arxiv_historical_title_002/r03/test_results.json",
+        "candidates/arxiv_historical_title_002/r03/final_audit_controller_review.json",
+        "runs/r-resume-arxiv002-r03-audit/stage_assets/audit.json"
+      ]
+    }
+  ],
+  "termination_request": {
+    "at": "2026-09-10T11:29:36.679501+00:00",
+    "authority": "Current user message",
+    "objective": "arxiv_historical_title_002/r03明确判定后停止整个任务",
+    "previous_ten_task_target_cancelled": true,
+    "allowed_remaining_work": [
+      "current r03 final Astra/high audit",
+      "one preregistered CG/GO3each Sol/medium admissionround only if audit permits",
+      "local final accounting/export/report and termination"
+    ],
+    "forbidden": [
+      "othercandidates",
+      "sourceexploration",
+      "r04",
+      "sameversionadditionaldraws",
+      "automation"
+    ],
+    "final_admission_amendment": "2026-09-10T12:00:17.453Z"
+  },
+  "previous_reserved_pending_sessions_at_termination": 48,
+  "admission_slots_in_flight": 0,
+  "ending_reason": "user_requested_stop_after_r03_decision_and_explicit_exception_admission",
+  "current_objective_status": "completed",
+  "historical_ten_task_objective_status": "cancelled_not_achieved",
+  "final_accepted_base_tasks": 3,
+  "final_standard_accepted": 1,
+  "final_user_designated_exceptions": 2
+}

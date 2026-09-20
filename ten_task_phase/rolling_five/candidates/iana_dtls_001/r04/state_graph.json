@@ -1,0 +1,72 @@
+{
+  "candidate_id": "iana_dtls_001",
+  "revision": 4,
+  "nodes": [
+    {
+      "id": "registry_scope",
+      "source": "S1",
+      "produces": [
+        "in-scope deprecated numeric identities",
+        "cited specifications"
+      ]
+    },
+    {
+      "id": "published_specification",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "produces": [
+        "explicit replacement",
+        "which reference is specification versus registry policy"
+      ]
+    },
+    {
+      "id": "discovered_document_history",
+      "source": "S4",
+      "site": "IETF Datatracker",
+      "state": "discovered draft family, History view",
+      "produces": [
+        "complete event inventory",
+        "reviewed revision",
+        "review date",
+        "proposed value"
+      ]
+    },
+    {
+      "id": "reconciled_rows",
+      "produces": [
+        "deprecated_value",
+        "published_replacement_value",
+        "review_date",
+        "reviewed_draft",
+        "proposed_permanent_value"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "registry_scope",
+      "to": "published_specification",
+      "discovered_key": "actual row RFC references"
+    },
+    {
+      "from": "published_specification",
+      "to": "discovered_document_history",
+      "discovered_key": "specification document family",
+      "state_operation": "Select this family document History view, not only its default published text"
+    },
+    {
+      "from": "discovered_document_history",
+      "to": "reconciled_rows",
+      "operation": "Last qualifying substantive proposal by time, without equality-to-old-value filter"
+    },
+    {
+      "from": "published_specification",
+      "to": "reconciled_rows",
+      "operation": "explicit replacement"
+    }
+  ],
+  "boundary": "One actual result-conditioned History view dependency suffices; no second revision/body lookup required. Full History capture after discovery is a valid batch. No exhaustive shortcut or difficulty claim.",
+  "independent_predevelopment_content_review": "content_review/iana_reconciliation_content_review.json"
+}

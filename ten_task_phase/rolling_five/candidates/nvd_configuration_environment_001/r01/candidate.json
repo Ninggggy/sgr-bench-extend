@@ -1,0 +1,70 @@
+{
+  "candidate_id": "nvd_configuration_environment_001",
+  "revision": 1,
+  "ecosystem": "NVD",
+  "domain": "Vulnerability registration and asset applicability",
+  "status": "rejected",
+  "old_task_refs": [
+    "nvd-rejection",
+    "nvd-deprecation-chain",
+    "diazepam_receptor_identity_001/r01"
+  ],
+  "research_goal": "Enumerate registered firmware version/update names with their required hardware for CVE-2023-28771 asset matching, without treating missing registration as safety.",
+  "structural_upgrade": "CVE-returned criterion UUIDs select registered-name queries; Boolean environment requirements and firmware alternatives determine admissible pairs. Evidence and observed shortcut checks: sources.json scope_and_decision_path.",
+  "public": {
+    "cg": {
+      "instruction": "For a registry-based asset-matching review of CVE-2023-28771, list the firmware releases actually enumerated by the vulnerability catalogue's CPE applicability records together with the hardware required for each firmware product. Cover the complete configuration set for this CVE and the registered CPE Names matched by its criteria. Preserve the recorded alternatives and joint requirements: a firmware entry alone must not stand in for a complete applicable asset combination. This is an inventory of recorded matches, not a list of every release in a numerical version interval or a determination that an unlisted asset is safe. Use CPE product tokens for the hardware and firmware. In each registered release retain both the CPE version and update tokens, including literal * and -; do not expand a wildcard into hypothetical updates. Group together alternative registered releases for the same hardware/firmware product pair. Public APIs and equivalent bulk sources are allowed.\n\nSearch guidance: Retrieve the CVE's complete configurations. Use the returned matchCriteriaId values to obtain each criterion's registered CPE Name matches. Evaluate AND/OR within and across the relevant nodes when pairing firmware and hardware. A vulnerable=false criterion can be a necessary environment condition; it is not a logical negation or an instruction to discard it.",
+      "output_format": "Return only a pipe-separated table with header hardware_product|firmware_product|registered_releases. Use one row per required hardware/firmware product pair, sorted lexicographically by hardware_product and then firmware_product. In registered_releases, use VERSION(UPDATE) tokens separated by semicolons, with duplicates removed and tokens sorted lexicographically. Report only explicitly matched CPE names; if a criterion has an explicitly empty match list, it contributes no enumerated release. Do not infer safety from an empty or absent registration."
+    },
+    "go": {
+      "instruction": "For a registry-based asset-matching review of CVE-2023-28771, list the firmware releases actually enumerated by the vulnerability catalogue's CPE applicability records together with the hardware required for each firmware product. Cover the complete configuration set for this CVE and the registered CPE Names matched by its criteria. Preserve the recorded alternatives and joint requirements: a firmware entry alone must not stand in for a complete applicable asset combination. This is an inventory of recorded matches, not a list of every release in a numerical version interval or a determination that an unlisted asset is safe. Use CPE product tokens for the hardware and firmware. In each registered release retain both the CPE version and update tokens, including literal * and -; do not expand a wildcard into hypothetical updates. Group together alternative registered releases for the same hardware/firmware product pair. Public APIs and equivalent bulk sources are allowed.",
+      "output_format": "Return only a pipe-separated table with header hardware_product|firmware_product|registered_releases. Use one row per required hardware/firmware product pair, sorted lexicographically by hardware_product and then firmware_product. In registered_releases, use VERSION(UPDATE) tokens separated by semicolons, with duplicates removed and tokens sorted lexicographically. Report only explicitly matched CPE names; if a criterion has an explicitly empty match list, it contributes no enumerated release. Do not infer safety from an empty or absent registration."
+    }
+  },
+  "private": {
+    "source_version": "CVE lastModified 2026-06-17T05:48:44.217; all source response timestamps are recorded in sources.json. Runtime date 2026-09-09 is not a historical source cutoff.",
+    "start_urls": [
+      "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2023-28771"
+    ],
+    "candidate_scope": "The complete saved CVE configuration set and all registered names returned for its 40 criterion UUIDs; 19 hardware/firmware product groups.",
+    "predicates": [
+      "Retain the recorded AND/OR relationships when combining firmware and hardware.",
+      "Use all explicitly matched CPE names for each criterion, preserving vulnerable=false as an environment role.",
+      "Group releases by hardware and firmware product tokens, preserving version and update tokens exactly.",
+      "Do not interpolate versions, expand wildcard updates, or infer safety from unlisted names."
+    ],
+    "output_columns": [
+      "hardware_product",
+      "firmware_product",
+      "registered_releases"
+    ],
+    "row_key": [
+      "hardware_product",
+      "firmware_product"
+    ],
+    "sorting_rules": [
+      "Rows lexicographically by hardware_product, then firmware_product.",
+      "Release tokens deduplicated and lexicographically sorted within each row."
+    ],
+    "missing_value_rules": [
+      "An explicitly empty matches array contributes no enumerated names; absent or unavailable matches cannot be treated as an empty verified result.",
+      "Unlisted names do not establish real-world safety."
+    ],
+    "source_manifest_path": "sources.json",
+    "state_graph_path": null,
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "passed",
+    "difficulty": "structural_only",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "mechanical_checks.json",
+      "predicate_alignment.json",
+      "independent_review/pre_a_review.json",
+      "independent_review/development_A_access_review.json",
+      "development_decision.json"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "at": "2026-09-19T14:41:55.115Z",
+    "actions": [
+      "goto",
+      "url",
+      "domSnapshot"
+    ],
+    "url": "https://www.rfc-editor.org/rfc/inline-errata/rfc4518.html",
+    "file": "browser_rfc4518.txt"
+  },
+  {
+    "at": "2026-09-19T14:42:08.680Z",
+    "actions": [
+      "goto",
+      "url",
+      "domSnapshot"
+    ],
+    "url": "https://www.rfc-editor.org/rfc/rfc4517.html",
+    "file": "browser_rfc4517.txt"
+  },
+  {
+    "at": "2026-09-19T14:42:24.653Z",
+    "actions": [
+      "goto",
+      "url",
+      "domSnapshot"
+    ],
+    "url": "https://www.rfc-editor.org/rfc/rfc3454.html",
+    "file": "browser_rfc3454.txt"
+  },
+  {
+    "at": "2026-09-19T14:42:26.485Z",
+    "actions": [
+      "goto",
+      "url",
+      "domSnapshot"
+    ],
+    "url": "https://www.unicode.org/versions/corrigendum4.html",
+    "file": "browser_correction.txt"
+  },
+  {
+    "at": "2026-09-19T14:51:54.786Z",
+    "actions": [
+      "goto",
+      "url",
+      "domSnapshot"
+    ],
+    "url": "https://errata.rfc-editor.org/search/?rfc_number=4518&presentation=records",
+    "file": "browser_errata4518.txt"
+  },
+  {
+    "at": "2026-09-19T14:52:06.546Z",
+    "actions": [
+      "goto",
+      "url",
+      "domSnapshot"
+    ],
+    "url": "https://errata.rfc-editor.org/search/?rfc_number=4517&presentation=records",
+    "file": "browser_errata4517.txt"
+  }
+]

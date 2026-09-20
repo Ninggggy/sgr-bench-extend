@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-10T10:41:38.439770+00:00",
+  "results": [
+    {
+      "program": "reference.py",
+      "exit_code": 0,
+      "exact_psv_matches_oracle": true,
+      "stderr": "{\"scope\": 25890, \"comments\": 15434, \"empty_comments\": 10456, \"duplicate_observations\": 2542, \"rows\": 21, \"manual_semantics_not_proved_by_counts\": true}\n",
+      "rows": 21
+    },
+    {
+      "program": "independent_check.py",
+      "exit_code": 0,
+      "exact_psv_matches_oracle": true,
+      "stderr": "{\"raw_observations\": 28432, \"scope\": 25890, \"comments\": 15434, \"review_index_coverage\": 15434, \"rows\": 21, \"key_deltas_seconds\": [1884853, 3399021, 17324], \"semantic_decisions_shared_manual_inputs\": true}\n",
+      "rows": 21
+    }
+  ]
+}

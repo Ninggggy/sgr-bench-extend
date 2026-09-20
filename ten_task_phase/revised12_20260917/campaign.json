@@ -1,0 +1,30 @@
+{
+  "id": "revised12_20260917",
+  "authorization": "User explicitly implemented the 12-task revision + one CG/GO test plan; unrepairable/unreachable tasks are not tested. Global methodology/skills deferred.",
+  "started_at": "2026-09-17T04:05:35.203146+00:00",
+  "deadline": "2026-09-19T04:05:35.203146+00:00",
+  "status": "completed",
+  "max_sessions": 5,
+  "max_blind_sessions": 4,
+  "authorized_blind_ceiling": 24,
+  "session_ledger": "session_ledger.jsonl",
+  "max_seconds_per_session": 6000,
+  "stall_seconds": 3000,
+  "maximum_concurrent_model_sessions": 4,
+  "repair_retries_allowed": 0,
+  "reserved_pending_sessions": 0,
+  "current_date": "2026-09-09",
+  "protocol_version": "ten-task-v2-bounded-retrieval",
+  "protocol_assets": {
+    "registered_at": "2026-09-13T11:37:58.460039+00:00",
+    "solver_config_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/protocol/ten-task-v1/solver.config.toml",
+    "scorer_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/protocol/ten-task-v1/score.py",
+    "data_tools_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/protocol/ten-task-v1/data_tools.py",
+    "image_id": "sha256:7e6f86e9ecb36ec74f6dc42254c16bc9b0f31f22cea6f96be8f872599f0404b6",
+    "retrieval_policy_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/protocol/ten-task-v2-bounded-retrieval/retrieval_policy.md"
+  },
+  "historical_campaign_preserved": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five_campaign.json",
+  "historical_ledger_preserved": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five_session_ledger.jsonl",
+  "ended_at": "2026-09-17T04:11:59.408434+00:00",
+  "stop_reason": "All four registered single trials completed; ten other tasks blocked before testing; no further sampling or construction."
+}

@@ -1,0 +1,132 @@
+{
+  "acquired": "2026-09-19",
+  "universe_source": "https://www.rfc-editor.org/errata/rfc9110",
+  "candidate_catalog": [
+    {
+      "id": 7138,
+      "status": "Verified",
+      "type": "Technical"
+    },
+    {
+      "id": 7306,
+      "status": "Verified",
+      "type": "Technical"
+    },
+    {
+      "id": 7419,
+      "status": "Verified",
+      "type": "Technical"
+    },
+    {
+      "id": 7105,
+      "status": "Verified",
+      "type": "Editorial"
+    },
+    {
+      "id": 7109,
+      "status": "Verified",
+      "type": "Editorial"
+    },
+    {
+      "id": 8268,
+      "status": "Verified",
+      "type": "Editorial"
+    },
+    {
+      "id": 9162,
+      "status": "Reported",
+      "type": "Technical"
+    },
+    {
+      "id": 9164,
+      "status": "Reported",
+      "type": "Technical"
+    },
+    {
+      "id": 7107,
+      "status": "Rejected",
+      "type": "Technical"
+    },
+    {
+      "id": 7599,
+      "status": "Rejected",
+      "type": "Technical"
+    },
+    {
+      "id": 7870,
+      "status": "Rejected",
+      "type": "Technical"
+    },
+    {
+      "id": 8138,
+      "status": "Rejected",
+      "type": "Technical"
+    },
+    {
+      "id": 8459,
+      "status": "Rejected",
+      "type": "Technical"
+    },
+    {
+      "id": 7530,
+      "status": "Rejected",
+      "type": "Editorial"
+    }
+  ],
+  "legacy_observations": [
+    {
+      "erratum_id": 7138,
+      "legacy_rfc": 7231,
+      "legacy_section": "5.3.2",
+      "kind": "accept_quality",
+      "header": "text/*;q=0.3, text/html;q=0.7, text/html;level=1, text/html;level=2;q=0.4, */*;q=0.5",
+      "media_type": "text/html;level=3",
+      "printed_quality": "0.7",
+      "source": "https://www.rfc-editor.org/rfc/rfc7231.html#section-5.3.2",
+      "new_example_header": "text/*;q=0.3, text/plain;q=0.7, text/plain;format=flowed, text/plain;format=fixed;q=0.4, */*;q=0.5",
+      "new_printed_quality": "0.7",
+      "erratum_corrected_quality": "0.3"
+    },
+    {
+      "erratum_id": 7306,
+      "legacy_rfc": 7233,
+      "legacy_section": "2.1",
+      "kind": "range_grammar",
+      "rules": {
+        "byte-ranges-specifier": "bytes-unit \"=\" byte-range-set",
+        "byte-range-set": "1#( byte-range-spec / suffix-byte-range-spec )",
+        "byte-range-spec": "first-byte-pos \"-\" [ last-byte-pos ]",
+        "suffix-byte-range-spec": "\"-\" suffix-length",
+        "first-byte-pos": "1*DIGIT",
+        "last-byte-pos": "1*DIGIT",
+        "suffix-length": "1*DIGIT",
+        "bytes-unit": "\"bytes\""
+      },
+      "recipient_list_expansion": "*( \",\" OWS ) element *( OWS \",\" [ OWS element ] )",
+      "witness": "bytes= 0-999, 4500-5499, -1000",
+      "erratum_insertion": "OWS",
+      "source": "https://www.rfc-editor.org/rfc/rfc7233.html#section-2.1",
+      "list_source": "https://www.rfc-editor.org/rfc/rfc7230.html#section-7",
+      "syntax_dependency": "RFC7233 \u00a71.2 imports RFC7230 \u00a77; RFC7233 Appendix D independently expands it."
+    },
+    {
+      "erratum_id": 7419,
+      "legacy_rfc": 7231,
+      "legacy_section": "3.1.1.2",
+      "kind": "charset_reference",
+      "legacy_charset_text": "HTTP uses charset names to indicate or negotiate the character encoding scheme of a textual representation [RFC6365]. A charset is identified by a case-insensitive token. charset = token",
+      "legacy_header_grammars": {
+        "Accept-Charset": "1#( ( charset / \"*\" ) [ weight ] )",
+        "Accept-Encoding": "#( codings [ weight ] )"
+      },
+      "incorrect_new_header": "Accept-Encoding",
+      "corrected_header": "Accept-Charset",
+      "source": "https://www.rfc-editor.org/rfc/rfc7231.html#section-3.1.1.2",
+      "supporting_locations": [
+        "RFC7231 \u00a75.3.3",
+        "RFC7231 \u00a75.3.4",
+        "RFC7231 \u00a73.1.2.1"
+      ]
+    }
+  ]
+}

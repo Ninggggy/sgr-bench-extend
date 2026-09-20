@@ -1,0 +1,598 @@
+drug1,drug2,class,mechanism
+dr:D02562,cpd:C00220,P,unclassified
+dr:D02562,dr:D00059,P,unclassified
+dr:D02562,dr:D00076,P,unclassified
+dr:D02562,dr:D00095,P,unclassified
+dr:D02562,dr:D00124,P,unclassified
+dr:D02562,dr:D00131,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D00186,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D00210,P,Enzyme: CYP1A2 / CYP inhibition: CYP1A2
+dr:D02562,dr:D00211,P,unclassified
+dr:D02562,dr:D00216,P,unclassified
+dr:D02562,dr:D00224,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D00225,P,unclassified
+dr:D02562,dr:D00228,CI,unclassified
+dr:D02562,dr:D00252,P,unclassified
+dr:D02562,dr:D00253,P,unclassified
+dr:D02562,dr:D00265,P,unclassified
+dr:D02562,dr:D00267,P,unclassified
+dr:D02562,dr:D00280,P,unclassified
+dr:D02562,dr:D00281,P,unclassified
+dr:D02562,dr:D00283,P,Enzyme: CYP1A2
+dr:D02562,dr:D00293,P,unclassified
+dr:D02562,dr:D00308,P,unclassified
+dr:D02562,dr:D00310,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D00311,P,unclassified
+dr:D02562,dr:D00318,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D00320,P,unclassified
+dr:D02562,dr:D00326,CI,unclassified
+dr:D02562,dr:D00336,P,unclassified
+dr:D02562,dr:D00346,CI,unclassified
+dr:D02562,dr:D00365,P,unclassified
+dr:D02562,dr:D00367,CI,unclassified
+dr:D02562,dr:D00387,P,unclassified
+dr:D02562,dr:D00388,P,unclassified
+dr:D02562,dr:D00394,CI,unclassified
+dr:D02562,dr:D00402,P,unclassified
+dr:D02562,dr:D00405,P,unclassified
+dr:D02562,dr:D00415,CI,Enzyme: CYP1A2
+dr:D02562,dr:D00427,P,CYP induction: CYP1A2
+dr:D02562,dr:D00451,CI,unclassified
+dr:D02562,dr:D00457,P,unclassified
+dr:D02562,dr:D00474,P,unclassified
+dr:D02562,dr:D00481,P,unclassified
+dr:D02562,dr:D00484,CI,unclassified
+dr:D02562,dr:D00485,P,unclassified
+dr:D02562,dr:D00505,CI,Target: MAOB
+dr:D02562,dr:D00506,P,unclassified
+dr:D02562,dr:D00511,P,unclassified
+dr:D02562,dr:D00512,P,unclassified
+dr:D02562,dr:D00514,P,unclassified
+dr:D02562,dr:D00520,CI,unclassified
+dr:D02562,dr:D00531,P,unclassified
+dr:D02562,dr:D00550,P,unclassified
+dr:D02562,dr:D00559,P,unclassified
+dr:D02562,dr:D00563,CI,Enzyme: CYP1A2
+dr:D02562,dr:D00593,P,unclassified
+dr:D02562,dr:D00594,P,unclassified
+dr:D02562,dr:D00604,P,unclassified
+dr:D02562,dr:D00606,P,unclassified
+dr:D02562,dr:D00607,P,unclassified
+dr:D02562,dr:D00625,P,unclassified
+dr:D02562,dr:D00632,P,unclassified
+dr:D02562,dr:D00633,P,Enzyme-Target: MAOB
+dr:D02562,dr:D00636,P,unclassified
+dr:D02562,dr:D00665,P,unclassified
+dr:D02562,dr:D00666,P,unclassified
+dr:D02562,dr:D00668,P,unclassified
+dr:D02562,dr:D00669,P,unclassified
+dr:D02562,dr:D00672,P,unclassified
+dr:D02562,dr:D00675,CI,unclassified
+dr:D02562,dr:D00676,CI,unclassified
+dr:D02562,dr:D00677,P,unclassified
+dr:D02562,dr:D00678,P,Enzyme: CYP1A2
+dr:D02562,dr:D00683,P,unclassified
+dr:D02562,dr:D00684,P,unclassified
+dr:D02562,dr:D00685,P,unclassified
+dr:D02562,dr:D00686,P,unclassified
+dr:D02562,dr:D00687,P,unclassified
+dr:D02562,dr:D00688,P,unclassified
+dr:D02562,dr:D00694,P,unclassified
+dr:D02562,dr:D00701,P,unclassified
+dr:D02562,dr:D00707,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D00713,P,unclassified
+dr:D02562,dr:D00714,P,unclassified
+dr:D02562,dr:D00720,P,unclassified
+dr:D02562,dr:D00722,P,unclassified
+dr:D02562,dr:D00743,P,unclassified
+dr:D02562,dr:D00744,P,unclassified
+dr:D02562,dr:D00756,P,unclassified
+dr:D02562,dr:D00765,P,unclassified
+dr:D02562,dr:D00770,P,unclassified
+dr:D02562,dr:D00776,P,Enzyme: CYP1A2
+dr:D02562,dr:D00777,P,unclassified
+dr:D02562,dr:D00780,P,unclassified
+dr:D02562,dr:D00781,P,unclassified
+dr:D02562,dr:D00784,P,Enzyme: CYP1A2
+dr:D02562,dr:D00785,CI,Target: MAOB
+dr:D02562,dr:D00787,P,unclassified
+dr:D02562,dr:D00809,CI,unclassified
+dr:D02562,dr:D00811,CI,unclassified
+dr:D02562,dr:D00812,CI,unclassified
+dr:D02562,dr:D00814,CI,unclassified
+dr:D02562,dr:D00815,CI,unclassified
+dr:D02562,dr:D00816,CI,unclassified
+dr:D02562,dr:D00818,CI,unclassified
+dr:D02562,dr:D00820,P,unclassified
+dr:D02562,dr:D00821,CI,unclassified
+dr:D02562,dr:D00822,CI,unclassified
+dr:D02562,dr:D00823,CI,unclassified
+dr:D02562,dr:D00824,"CI,P",CYP inhibition: CYP1A2
+dr:D02562,dr:D00825,CI,unclassified
+dr:D02562,dr:D00826,CI,Target: MAOB
+dr:D02562,dr:D00836,P,unclassified
+dr:D02562,dr:D00839,P,unclassified
+dr:D02562,dr:D00842,P,unclassified
+dr:D02562,dr:D00848,P,unclassified
+dr:D02562,dr:D00944,P,unclassified
+dr:D02562,dr:D00945,P,unclassified
+dr:D02562,dr:D00947,P,unclassified
+dr:D02562,dr:D00960,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D00996,P,unclassified
+dr:D02562,dr:D01007,P,unclassified
+dr:D02562,dr:D01008,"CI,P",unclassified
+dr:D02562,dr:D01017,P,unclassified
+dr:D02562,dr:D01019,P,unclassified
+dr:D02562,dr:D01020,P,unclassified
+dr:D02562,dr:D01021,"CI,P",unclassified
+dr:D02562,dr:D01022,P,unclassified
+dr:D02562,dr:D01023,P,unclassified
+dr:D02562,dr:D01028,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D01096,P,unclassified
+dr:D02562,dr:D01097,CI,Target: MAOB
+dr:D02562,dr:D01107,CI,unclassified
+dr:D02562,dr:D01110,CI,unclassified
+dr:D02562,dr:D01111,P,unclassified
+dr:D02562,dr:D01153,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D01165,P,unclassified
+dr:D02562,dr:D01179,CI,Enzyme: CYP1A2
+dr:D02562,dr:D01205,P,unclassified
+dr:D02562,dr:D01224,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D01226,P,unclassified
+dr:D02562,dr:D01230,P,unclassified
+dr:D02562,dr:D01245,P,unclassified
+dr:D02562,dr:D01253,P,unclassified
+dr:D02562,dr:D01263,P,unclassified
+dr:D02562,dr:D01268,P,unclassified
+dr:D02562,dr:D01269,P,unclassified
+dr:D02562,dr:D01277,P,unclassified
+dr:D02562,dr:D01278,P,unclassified
+dr:D02562,dr:D01280,P,unclassified
+dr:D02562,dr:D01285,CI,unclassified
+dr:D02562,dr:D01292,P,unclassified
+dr:D02562,dr:D01293,P,unclassified
+dr:D02562,dr:D01296,CI,unclassified
+dr:D02562,dr:D01302,P,unclassified
+dr:D02562,dr:D01307,P,unclassified
+dr:D02562,dr:D01314,CI,unclassified
+dr:D02562,dr:D01324,P,unclassified
+dr:D02562,dr:D01328,P,unclassified
+dr:D02562,dr:D01347,CI,unclassified
+dr:D02562,dr:D01349,P,unclassified
+dr:D02562,dr:D01355,CI,unclassified
+dr:D02562,dr:D01358,CI,Enzyme: CYP1A2
+dr:D02562,dr:D01360,P,unclassified
+dr:D02562,dr:D01362,P,unclassified
+dr:D02562,dr:D01373,P,unclassified
+dr:D02562,dr:D01383,CI,unclassified
+dr:D02562,dr:D01386,P,unclassified
+dr:D02562,dr:D01389,P,unclassified
+dr:D02562,dr:D01390,P,unclassified
+dr:D02562,dr:D01399,P,unclassified
+dr:D02562,dr:D01405,P,unclassified
+dr:D02562,dr:D01408,P,unclassified
+dr:D02562,dr:D01428,P,unclassified
+dr:D02562,dr:D01451,P,unclassified
+dr:D02562,dr:D01453,P,Enzyme: CYP1A2
+dr:D02562,dr:D01477,CI,unclassified
+dr:D02562,dr:D01481,P,unclassified
+dr:D02562,dr:D01501,CI,unclassified
+dr:D02562,dr:D01514,P,unclassified
+dr:D02562,dr:D01531,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D01546,CI,unclassified
+dr:D02562,dr:D01564,P,unclassified
+dr:D02562,dr:D01589,P,unclassified
+dr:D02562,dr:D01599,P,unclassified
+dr:D02562,dr:D01635,P,unclassified
+dr:D02562,dr:D01657,P,unclassified
+dr:D02562,dr:D01665,P,unclassified
+dr:D02562,dr:D01744,P,unclassified
+dr:D02562,dr:D01748,P,unclassified
+dr:D02562,dr:D01832,P,CYP induction: CYP1A2
+dr:D02562,dr:D01835,P,unclassified
+dr:D02562,dr:D01854,P,unclassified
+dr:D02562,dr:D01872,P,unclassified
+dr:D02562,dr:D01875,P,unclassified
+dr:D02562,dr:D01888,CI,Target: MAOB
+dr:D02562,dr:D01898,P,unclassified
+dr:D02562,dr:D01903,P,unclassified
+dr:D02562,dr:D01952,P,unclassified
+dr:D02562,dr:D01978,P,unclassified
+dr:D02562,dr:D02002,CI,unclassified
+dr:D02562,dr:D02016,P,Enzyme: CYP1A2
+dr:D02562,dr:D02034,CI,unclassified
+dr:D02562,dr:D02064,P,unclassified
+dr:D02562,dr:D02066,P,unclassified
+dr:D02562,dr:D02069,P,unclassified
+dr:D02562,dr:D02076,P,unclassified
+dr:D02562,dr:D02078,CI,unclassified
+dr:D02562,dr:D02080,CI,unclassified
+dr:D02562,dr:D02087,P,CYP induction: CYP1A2
+dr:D02562,dr:D02093,P,unclassified
+dr:D02562,dr:D02101,P,unclassified
+dr:D02562,dr:D02102,P,unclassified
+dr:D02562,dr:D02103,P,unclassified
+dr:D02562,dr:D02109,P,unclassified
+dr:D02562,dr:D02135,P,unclassified
+dr:D02562,dr:D02147,P,unclassified
+dr:D02562,dr:D02149,P,unclassified
+dr:D02562,dr:D02150,P,unclassified
+dr:D02562,dr:D02151,P,unclassified
+dr:D02562,dr:D02216,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D02234,P,unclassified
+dr:D02562,dr:D02237,CI,unclassified
+dr:D02562,dr:D02242,CI,unclassified
+dr:D02562,dr:D02246,P,unclassified
+dr:D02562,dr:D02247,P,unclassified
+dr:D02562,dr:D02260,CI,unclassified
+dr:D02562,dr:D02271,P,unclassified
+dr:D02562,dr:D02281,P,unclassified
+dr:D02562,dr:D02312,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D02349,P,unclassified
+dr:D02562,dr:D02359,P,unclassified
+dr:D02562,dr:D02360,CI,unclassified
+dr:D02562,dr:D02362,CI,unclassified
+dr:D02562,dr:D02388,P,unclassified
+dr:D02562,dr:D02396,P,unclassified
+dr:D02562,dr:D02404,P,unclassified
+dr:D02562,dr:D02408,CI,unclassified
+dr:D02562,dr:D02409,P,unclassified
+dr:D02562,dr:D02535,P,unclassified
+dr:D02562,dr:D02537,P,unclassified
+dr:D02562,dr:D02559,CI,unclassified
+dr:D02562,dr:D02560,CI,unclassified
+dr:D02562,dr:D02561,CI,unclassified
+dr:D02562,dr:D02562,CI,Enzyme: CYP1A2 / Target: MAOB
+dr:D02562,dr:D02563,CI,unclassified
+dr:D02562,dr:D02564,CI,Target: MAOB
+dr:D02562,dr:D02565,CI,unclassified
+dr:D02562,dr:D02566,CI,unclassified
+dr:D02562,dr:D02567,CI,unclassified
+dr:D02562,dr:D02570,CI,unclassified
+dr:D02562,dr:D02572,CI,unclassified
+dr:D02562,dr:D02573,CI,unclassified
+dr:D02562,dr:D02574,CI,unclassified
+dr:D02562,dr:D02579,CI,Target: MAOB
+dr:D02562,dr:D02580,CI,Target: MAOB
+dr:D02562,dr:D02581,CI,unclassified
+dr:D02562,dr:D02614,P,unclassified
+dr:D02562,dr:D02702,P,unclassified
+dr:D02562,dr:D02704,CI,unclassified
+dr:D02562,dr:D02748,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D02774,P,unclassified
+dr:D02562,dr:D02787,CI,unclassified
+dr:D02562,dr:D02901,P,unclassified
+dr:D02562,dr:D02910,P,unclassified
+dr:D02562,dr:D02972,CI,unclassified
+dr:D02562,dr:D02976,P,unclassified
+dr:D02562,dr:D02981,P,unclassified
+dr:D02562,dr:D03038,CI,unclassified
+dr:D02562,dr:D03071,CI,unclassified
+dr:D02562,dr:D03195,P,unclassified
+dr:D02562,dr:D03199,CI,unclassified
+dr:D02562,dr:D03230,P,CYP induction: CYP1A2
+dr:D02562,dr:D03239,CI,Target: MAOB
+dr:D02562,dr:D03248,CI,unclassified
+dr:D02562,dr:D03250,P,CYP induction: CYP1A2
+dr:D02562,dr:D03365,P,CYP induction: CYP1A2
+dr:D02562,dr:D03402,P,unclassified
+dr:D02562,dr:D03409,CI,Target: MAOB
+dr:D02562,dr:D03491,CI,unclassified
+dr:D02562,dr:D03502,P,unclassified
+dr:D02562,dr:D03587,P,unclassified
+dr:D02562,dr:D03649,CI,unclassified
+dr:D02562,dr:D03669,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D03702,P,unclassified
+dr:D02562,dr:D03731,CI,Target: MAOB
+dr:D02562,dr:D03733,CI,Target: MAOB
+dr:D02562,dr:D03740,CI,unclassified
+dr:D02562,dr:D03855,CI,unclassified
+dr:D02562,dr:D03879,P,unclassified
+dr:D02562,dr:D03880,P,unclassified
+dr:D02562,dr:D03881,P,unclassified
+dr:D02562,dr:D03891,P,unclassified
+dr:D02562,dr:D03892,P,unclassified
+dr:D02562,dr:D03914,P,unclassified
+dr:D02562,dr:D04018,P,unclassified
+dr:D02562,dr:D04044,P,unclassified
+dr:D02562,dr:D04052,P,Enzyme: CYP1A2
+dr:D02562,dr:D04055,CI,unclassified
+dr:D02562,dr:D04062,P,unclassified
+dr:D02562,dr:D04081,P,unclassified
+dr:D02562,dr:D04092,CI,Target: MAOB
+dr:D02562,dr:D04105,CI,unclassified
+dr:D02562,dr:D04148,CI,Enzyme: CYP1A2
+dr:D02562,dr:D04157,P,unclassified
+dr:D02562,dr:D04251,CI,unclassified
+dr:D02562,dr:D04259,P,unclassified
+dr:D02562,dr:D04261,P,unclassified
+dr:D02562,dr:D04313,P,unclassified
+dr:D02562,dr:D04340,P,unclassified
+dr:D02562,dr:D04342,P,unclassified
+dr:D02562,dr:D04364,P,unclassified
+dr:D02562,dr:D04382,CI,unclassified
+dr:D02562,dr:D04447,P,unclassified
+dr:D02562,dr:D04473,CI,unclassified
+dr:D02562,dr:D04475,P,CYP induction: CYP1A2
+dr:D02562,dr:D04477,P,CYP induction: CYP1A2
+dr:D02562,dr:D04539,P,CYP induction: CYP1A2
+dr:D02562,dr:D04540,P,CYP induction: CYP1A2
+dr:D02562,dr:D04547,P,CYP induction: CYP1A2
+dr:D02562,dr:D04549,P,CYP induction: CYP1A2
+dr:D02562,dr:D04550,P,CYP induction: CYP1A2
+dr:D02562,dr:D04551,P,CYP induction: CYP1A2
+dr:D02562,dr:D04556,CI,unclassified
+dr:D02562,dr:D04605,CI,unclassified
+dr:D02562,dr:D04616,P,unclassified
+dr:D02562,dr:D04625,P,unclassified
+dr:D02562,dr:D04626,P,unclassified
+dr:D02562,dr:D04652,CI,unclassified
+dr:D02562,dr:D04681,CI,Target: MAOB
+dr:D02562,dr:D04701,P,unclassified
+dr:D02562,dr:D04703,P,unclassified
+dr:D02562,dr:D04708,P,unclassified
+dr:D02562,dr:D04747,CI,unclassified
+dr:D02562,dr:D04765,P,unclassified
+dr:D02562,dr:D04781,CI,unclassified
+dr:D02562,dr:D04813,P,Enzyme: CYP1A2
+dr:D02562,dr:D04883,P,unclassified
+dr:D02562,dr:D04911,P,unclassified
+dr:D02562,dr:D04935,P,unclassified
+dr:D02562,dr:D04954,P,unclassified
+dr:D02562,dr:D05024,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D05033,CI,Target: MAOB
+dr:D02562,dr:D05037,P,unclassified
+dr:D02562,dr:D05039,CI,unclassified
+dr:D02562,dr:D05040,CI,unclassified
+dr:D02562,dr:D05077,P,CYP induction: CYP1A2
+dr:D02562,dr:D05120,CI,unclassified
+dr:D02562,dr:D05156,P,CYP induction: CYP1A2
+dr:D02562,dr:D05157,P,CYP induction: CYP1A2
+dr:D02562,dr:D05173,CI,unclassified
+dr:D02562,dr:D05200,CI,unclassified
+dr:D02562,dr:D05206,P,unclassified
+dr:D02562,dr:D05231,CI,unclassified
+dr:D02562,dr:D05277,P,unclassified
+dr:D02562,dr:D05284,CI,unclassified
+dr:D02562,dr:D05366,P,unclassified
+dr:D02562,dr:D05374,CI,unclassified
+dr:D02562,dr:D05375,CI,unclassified
+dr:D02562,dr:D05382,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D05461,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D05462,P,unclassified
+dr:D02562,dr:D05466,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D05476,P,unclassified
+dr:D02562,dr:D05491,CI,unclassified
+dr:D02562,dr:D05606,P,unclassified
+dr:D02562,dr:D05648,P,unclassified
+dr:D02562,dr:D05649,P,unclassified
+dr:D02562,dr:D05691,P,unclassified
+dr:D02562,dr:D05718,P,unclassified
+dr:D02562,dr:D05730,P,unclassified
+dr:D02562,dr:D05768,P,unclassified
+dr:D02562,dr:D05792,P,unclassified
+dr:D02562,dr:D05832,P,unclassified
+dr:D02562,dr:D05879,P,unclassified
+dr:D02562,dr:D05928,P,Enzyme: CYP1A2 / CYP inhibition: CYP1A2
+dr:D02562,dr:D05997,CI,unclassified
+dr:D02562,dr:D06004,CI,unclassified
+dr:D02562,dr:D06273,P,unclassified
+dr:D02562,dr:D06344,P,unclassified
+dr:D02562,dr:D06367,CI,unclassified
+dr:D02562,dr:D06374,P,unclassified
+dr:D02562,dr:D06394,P,unclassified
+dr:D02562,dr:D06553,P,unclassified
+dr:D02562,dr:D06645,P,unclassified
+dr:D02562,dr:D06698,P,unclassified
+dr:D02562,dr:D06921,P,unclassified
+dr:D02562,dr:D06927,P,unclassified
+dr:D02562,dr:D06928,P,unclassified
+dr:D02562,dr:D06951,P,unclassified
+dr:D02562,dr:D06953,P,unclassified
+dr:D02562,dr:D06955,P,unclassified
+dr:D02562,dr:D06956,P,unclassified
+dr:D02562,dr:D06987,P,unclassified
+dr:D02562,dr:D06994,P,unclassified
+dr:D02562,dr:D07041,P,unclassified
+dr:D02562,dr:D07042,P,unclassified
+dr:D02562,dr:D07043,P,unclassified
+dr:D02562,dr:D07044,P,unclassified
+dr:D02562,dr:D07045,P,unclassified
+dr:D02562,dr:D07048,P,unclassified
+dr:D02562,dr:D07080,P,unclassified
+dr:D02562,dr:D07132,P,unclassified
+dr:D02562,dr:D07148,P,unclassified
+dr:D02562,dr:D07334,CI,unclassified
+dr:D02562,dr:D07335,CI,unclassified
+dr:D02562,dr:D07336,CI,unclassified
+dr:D02562,dr:D07337,CI,Target: MAOB
+dr:D02562,dr:D07338,CI,Target: MAOB
+dr:D02562,dr:D07377,P,unclassified
+dr:D02562,dr:D07448,CI,unclassified
+dr:D02562,dr:D07461,P,unclassified
+dr:D02562,dr:D07463,P,unclassified
+dr:D02562,dr:D07473,CI,unclassified
+dr:D02562,dr:D07489,P,unclassified
+dr:D02562,dr:D07534,P,unclassified
+dr:D02562,dr:D07540,P,unclassified
+dr:D02562,dr:D07560,P,unclassified
+dr:D02562,dr:D07564,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D07583,P,unclassified
+dr:D02562,dr:D07601,CI,unclassified
+dr:D02562,dr:D07702,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D07704,CI,unclassified
+dr:D02562,dr:D07705,CI,unclassified
+dr:D02562,dr:D07713,P,unclassified
+dr:D02562,dr:D07727,CI,unclassified
+dr:D02562,dr:D07791,CI,unclassified
+dr:D02562,dr:D07793,CI,unclassified
+dr:D02562,dr:D07795,P,unclassified
+dr:D02562,dr:D07812,CI,unclassified
+dr:D02562,dr:D07872,CI,unclassified
+dr:D02562,dr:D07875,CI,unclassified
+dr:D02562,dr:D07880,CI,Enzyme: CYP1A2
+dr:D02562,dr:D07913,CI,unclassified
+dr:D02562,dr:D07984,"CI,P",CYP inhibition: CYP1A2
+dr:D02562,dr:D07990,P,unclassified
+dr:D02562,dr:D08030,CI,unclassified
+dr:D02562,dr:D08031,P,unclassified
+dr:D02562,dr:D08039,P,unclassified
+dr:D02562,dr:D08070,CI,unclassified
+dr:D02562,dr:D08071,CI,unclassified
+dr:D02562,dr:D08072,CI,unclassified
+dr:D02562,dr:D08080,P,CYP induction: CYP1A2
+dr:D02562,dr:D08085,CI,Target: MAOB
+dr:D02562,dr:D08090,P,unclassified
+dr:D02562,dr:D08092,P,unclassified
+dr:D02562,dr:D08093,P,unclassified
+dr:D02562,dr:D08124,P,unclassified
+dr:D02562,dr:D08140,CI,unclassified
+dr:D02562,dr:D08141,P,unclassified
+dr:D02562,dr:D08165,P,unclassified
+dr:D02562,dr:D08171,CI,unclassified
+dr:D02562,dr:D08192,P,unclassified
+dr:D02562,dr:D08201,P,unclassified
+dr:D02562,dr:D08205,P,unclassified
+dr:D02562,dr:D08206,P,unclassified
+dr:D02562,dr:D08216,CI,Enzyme: CYP1A2
+dr:D02562,dr:D08217,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D08220,P,unclassified
+dr:D02562,dr:D08222,CI,unclassified
+dr:D02562,dr:D08253,P,unclassified
+dr:D02562,dr:D08284,P,unclassified
+dr:D02562,dr:D08286,P,unclassified
+dr:D02562,dr:D08287,P,Enzyme: CYP1A2 / CYP inhibition: CYP1A2
+dr:D02562,dr:D08288,CI,unclassified
+dr:D02562,dr:D08297,CI,unclassified
+dr:D02562,dr:D08300,P,unclassified
+dr:D02562,dr:D08308,P,unclassified
+dr:D02562,dr:D08309,P,unclassified
+dr:D02562,dr:D08322,P,unclassified
+dr:D02562,dr:D08347,CI,unclassified
+dr:D02562,dr:D08348,CI,unclassified
+dr:D02562,dr:D08349,CI,Target: MAOB
+dr:D02562,dr:D08356,P,unclassified
+dr:D02562,dr:D08365,P,unclassified
+dr:D02562,dr:D08366,P,unclassified
+dr:D02562,dr:D08368,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D08379,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D08387,P,unclassified
+dr:D02562,dr:D08392,CI,unclassified
+dr:D02562,dr:D08393,CI,unclassified
+dr:D02562,dr:D08424,P,unclassified
+dr:D02562,dr:D08447,CI,unclassified
+dr:D02562,dr:D08449,P,unclassified
+dr:D02562,dr:D08453,CI,Target: MAOB
+dr:D02562,dr:D08469,CI,Enzyme: CYP1A2 / Target: MAOB
+dr:D02562,dr:D08472,CI,unclassified
+dr:D02562,dr:D08474,P,unclassified
+dr:D02562,dr:D08487,P,unclassified
+dr:D02562,dr:D08511,CI,unclassified
+dr:D02562,dr:D08570,P,unclassified
+dr:D02562,dr:D08575,CI,Enzyme: CYP1A2
+dr:D02562,dr:D08578,P,unclassified
+dr:D02562,dr:D08594,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D08611,P,Enzyme: CYP1A2
+dr:D02562,dr:D08625,CI,Target: MAOB
+dr:D02562,dr:D08629,P,unclassified
+dr:D02562,dr:D08670,CI,unclassified
+dr:D02562,dr:D08673,CI,unclassified
+dr:D02562,dr:D08683,P,unclassified
+dr:D02562,dr:D08695,P,unclassified
+dr:D02562,dr:D08769,P,unclassified
+dr:D02562,dr:D08850,P,unclassified
+dr:D02562,dr:D08851,P,unclassified
+dr:D02562,dr:D08897,P,unclassified
+dr:D02562,dr:D08923,P,unclassified
+dr:D02562,dr:D08945,P,unclassified
+dr:D02562,dr:D08966,P,unclassified
+dr:D02562,dr:D09186,P,unclassified
+dr:D02562,dr:D09318,P,unclassified
+dr:D02562,dr:D09319,P,unclassified
+dr:D02562,dr:D09340,CI,unclassified
+dr:D02562,dr:D09341,CI,unclassified
+dr:D02562,dr:D09344,P,unclassified
+dr:D02562,dr:D09535,P,unclassified
+dr:D02562,dr:D09566,P,unclassified
+dr:D02562,dr:D09592,P,unclassified
+dr:D02562,dr:D09696,P,unclassified
+dr:D02562,dr:D09697,P,unclassified
+dr:D02562,dr:D09727,P,unclassified
+dr:D02562,dr:D09732,P,unclassified
+dr:D02562,dr:D09744,P,unclassified
+dr:D02562,dr:D09753,P,unclassified
+dr:D02562,dr:D09756,P,unclassified
+dr:D02562,dr:D09763,P,unclassified
+dr:D02562,dr:D09773,CI,unclassified
+dr:D02562,dr:D09780,P,unclassified
+dr:D02562,dr:D09784,P,unclassified
+dr:D02562,dr:D09794,P,unclassified
+dr:D02562,dr:D09842,P,unclassified
+dr:D02562,dr:D09848,P,unclassified
+dr:D02562,dr:D09889,P,unclassified
+dr:D02562,dr:D09890,CI,unclassified
+dr:D02562,dr:D09891,CI,unclassified
+dr:D02562,dr:D09978,P,unclassified
+dr:D02562,dr:D09993,P,unclassified
+dr:D02562,dr:D09996,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D09999,CI,unclassified
+dr:D02562,dr:D10020,P,unclassified
+dr:D02562,dr:D10145,P,unclassified
+dr:D02562,dr:D10158,CI,Target: MAOB
+dr:D02562,dr:D10159,P,unclassified
+dr:D02562,dr:D10160,P,unclassified
+dr:D02562,dr:D10179,P,unclassified
+dr:D02562,dr:D10185,CI,unclassified
+dr:D02562,dr:D10191,CI,Target: MAOB
+dr:D02562,dr:D10195,P,unclassified
+dr:D02562,dr:D10199,CI,unclassified
+dr:D02562,dr:D10200,P,unclassified
+dr:D02562,dr:D10219,P,unclassified
+dr:D02562,dr:D10220,P,unclassified
+dr:D02562,dr:D10252,P,unclassified
+dr:D02562,dr:D10253,P,unclassified
+dr:D02562,dr:D10293,P,unclassified
+dr:D02562,dr:D10298,P,unclassified
+dr:D02562,dr:D10317,P,unclassified
+dr:D02562,dr:D10424,P,unclassified
+dr:D02562,dr:D10459,P,unclassified
+dr:D02562,dr:D10505,P,unclassified
+dr:D02562,dr:D10533,P,unclassified
+dr:D02562,dr:D10537,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D10570,P,unclassified
+dr:D02562,dr:D10588,P,unclassified
+dr:D02562,dr:D10743,P,unclassified
+dr:D02562,dr:D10744,P,unclassified
+dr:D02562,dr:D10822,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D10825,P,unclassified
+dr:D02562,dr:D10829,CI,Enzyme: CYP1A2 / Target: MAOB
+dr:D02562,dr:D10854,P,unclassified
+dr:D02562,dr:D10891,P,unclassified
+dr:D02562,dr:D10897,P,unclassified
+dr:D02562,dr:D10967,P,unclassified
+dr:D02562,dr:D10999,P,unclassified
+dr:D02562,dr:D11009,P,unclassified
+dr:D02562,dr:D11027,P,unclassified
+dr:D02562,dr:D11034,P,unclassified
+dr:D02562,dr:D11056,CI,Enzyme: CYP1A2
+dr:D02562,dr:D11062,P,unclassified
+dr:D02562,dr:D11064,P,unclassified
+dr:D02562,dr:D11088,P,unclassified
+dr:D02562,dr:D11109,P,unclassified
+dr:D02562,dr:D11290,P,unclassified
+dr:D02562,dr:D11567,P,unclassified
+dr:D02562,dr:D11619,CI,unclassified
+dr:D02562,dr:D11708,P,unclassified
+dr:D02562,dr:D11807,P,unclassified
+dr:D02562,dr:D11861,P,unclassified
+dr:D02562,dr:D11862,P,unclassified
+dr:D02562,dr:D11970,P,CYP inhibition: CYP1A2
+dr:D02562,dr:D12015,P,unclassified
+dr:D02562,dr:D12358,P,unclassified
+dr:D02562,dr:D12364,P,unclassified
+dr:D02562,dr:D12403,CI,unclassified
+dr:D02562,dr:D12437,P,unclassified
+dr:D02562,dr:D12494,P,unclassified
+dr:D02562,dr:D12934,P,unclassified
+dr:D02562,dr:D12935,P,unclassified
+dr:D02562,dr:D13245,P,unclassified

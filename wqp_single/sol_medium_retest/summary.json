@@ -1,0 +1,2095 @@
+{
+  "updated_at": "2026-09-09T06:17:06.602763+00:00",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "plan": "analysis_plan.json",
+  "scope": "Only Sol attempts; screening separate from confirmation. No population/significance inference.",
+  "runs": [
+    {
+      "label": "screening_new_CG_1",
+      "phase": "screening",
+      "comparison_task": "new",
+      "variant": "cg",
+      "replicate": 1,
+      "run": "runs/r-a55562d61d59",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 0.1,
+        "Row-F1": 0.1,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 569.122,
+      "started_at": "2026-09-09T05:15:53.707367+00:00",
+      "ended_at": "2026-09-09T05:25:22.824773+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 54,
+        "gold_fields": 216,
+        "pred_fields": 864,
+        "item_denominator": 1080,
+        "correct_rows": 3,
+        "gold_rows": 12,
+        "pred_rows": 48,
+        "row_denominator": 60,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "omitted_ids": [
+        [
+          "USGS-TX",
+          "nwistx.01.01401065",
+          "2013",
+          "2019"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01401515",
+          "2013",
+          "2019"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01500574",
+          "2013",
+          "2019"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01601150",
+          "2002",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01601150",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01900498",
+          "2002",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01900498",
+          "2013",
+          "2018"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01900498",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01900498",
+          "2014",
+          "2015"
+        ]
+      ],
+      "extra_ids": [
+        [
+          "USGS-TX",
+          "nwistx.01.00201120",
+          "2002",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00201120",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00300181",
+          "2002",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00300181",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00300481",
+          "2004",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00300481",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00302109",
+          "2004",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00302109",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00400069",
+          "2004",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00400069",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00400619",
+          "2005",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00400619",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00401593",
+          "2005",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00401593",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00500240",
+          "2005",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00500240",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00501250",
+          "2003",
+          "2004"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00501250",
+          "2006",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00501250",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00501998",
+          "2003",
+          "2004"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00501998",
+          "2006",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00501998",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00502302",
+          "2003",
+          "2004"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00502302",
+          "2006",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00502302",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00600037",
+          "2003",
+          "2004"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00600037",
+          "2006",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00600037",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00600381",
+          "2003",
+          "2005"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00600381",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00600944",
+          "2003",
+          "2005"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00600944",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00602047",
+          "2003",
+          "2005"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00602047",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00700098",
+          "2003",
+          "2005"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00700098",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00700436",
+          "2003",
+          "2006"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00700436",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00700981",
+          "2003",
+          "2006"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00700981",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00800124",
+          "2003",
+          "2006"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.00800124",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01401065",
+          "2003",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01401515",
+          "2003",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01500574",
+          "2003",
+          "2007"
+        ]
+      ],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 972,
+      "difference_reasons": {
+        "unmatched_id": 810,
+        "omitted_row": 162
+      },
+      "incorrect_fields": {
+        "withdrawn_OrganizationIdentifier": 54,
+        "withdrawn_ActivityIdentifier": 54,
+        "withdrawn_MonitoringLocationIdentifier": 54,
+        "withdrawn_ActivityStartDate": 54,
+        "start_year": 54,
+        "end_year": 54,
+        "cohort_station_count": 54,
+        "cohort_station_ids": 54,
+        "quarter": 54,
+        "eligible_activity_count": 54,
+        "selected_OrganizationIdentifier": 54,
+        "selected_MonitoringLocationIdentifier": 54,
+        "selected_ActivityIdentifier": 54,
+        "selected_ActivityStartDate": 54,
+        "dissolved_oxygen_mg_L": 54,
+        "temperature_deg_C": 54,
+        "specific_conductance_uS_cm": 54,
+        "pH": 54
+      },
+      "differences_path": "runs/r-a55562d61d59/scoring/field_differences.json",
+      "reported_limitations": [],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "Authoritative WQP web-services guide: Station, Activity and Result endpoints; organization, HUC, site, date and pCode query parameters."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&sorted=no",
+          "locator": "Legacy WQX 2.2 Station CSV retrieved 2026-09-09; HTTP 200; Total-Site-Count and NWIS-Site-Count both 460. Exact name/type filtering produced 17 retained stations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&sorted=no",
+          "locator": "Legacy Activity CSV retrieved 2026-09-09; HTTP 200; 17 sites and 1,026 activities. Used to verify organization/activity identity, site, date, time, media and activity type."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&pCode=00010%3B00095%3B00300%3B00400&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&sorted=no",
+          "locator": "Legacy Result CSV retrieved 2026-09-09; HTTP 200; 977 activities and 3,782 results. Applying the stated status, value-type, qualifier, detection, unit and distinct-value rules yielded 833 complete activities."
+        }
+      ]
+    },
+    {
+      "label": "screening_old_CG_1",
+      "phase": "screening",
+      "comparison_task": "old",
+      "variant": "cg",
+      "replicate": 1,
+      "run": "runs/r-6c876269dbe4",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 171.22,
+      "started_at": "2026-09-09T05:26:15.172483+00:00",
+      "ended_at": "2026-09-09T05:29:06.391561+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+      "counts": {
+        "correct_fields": 27,
+        "gold_fields": 27,
+        "pred_fields": 27,
+        "item_denominator": 54,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 0,
+      "difference_reasons": {},
+      "incorrect_fields": {},
+      "differences_path": "runs/r-6c876269dbe4/scoring/field_differences.json",
+      "reported_limitations": [
+        "Water Quality Portal states that its displayed characteristic-group date ranges may contain gap years. The screening therefore establishes coverage from reported start and end years, as requested, but not uninterrupted annual sampling."
+      ],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+          "locator": "Lines 25–30 and 47–55 identify the FM 85 TCEQ river/stream station, HUC 12030105, and its six category ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+          "locator": "Lines 25–30 and 47–54 identify the US 59 TCEQ river/stream station, HUC 12030202, and its six category ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+          "locator": "Lines 25–30 and 47–55 identify the IH 10 TCEQ river/stream station, HUC 12030203, and its six category ranges."
+        }
+      ]
+    },
+    {
+      "label": "screening_new_GO_1",
+      "phase": "screening",
+      "comparison_task": "new",
+      "variant": "go",
+      "replicate": 1,
+      "run": "runs/r-8224e9cc365a",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 0.6574074074074074,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 619.713,
+      "started_at": "2026-09-09T05:26:15.168892+00:00",
+      "ended_at": "2026-09-09T05:36:34.874270+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 142,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 0,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 74,
+      "difference_reasons": {
+        "missing_or_different": 74
+      },
+      "incorrect_fields": {
+        "selected_MonitoringLocationIdentifier": 5,
+        "selected_ActivityIdentifier": 12,
+        "selected_ActivityStartDate": 12,
+        "dissolved_oxygen_mg_L": 12,
+        "temperature_deg_C": 12,
+        "specific_conductance_uS_cm": 12,
+        "pH": 9
+      },
+      "differences_path": "runs/r-8224e9cc365a/scoring/field_differences.json",
+      "reported_limitations": [],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "Lines 21 and 70–113 describe the legacy WQX 2.2 services, Station/Activity/Result endpoints, query parameters, formats, providers, and date/HUC/pCode filters."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&providers=NWIS",
+          "locator": "Official bounded station export; response contained 460 station records. Name/type filtering retained 17 Trinity River mainstem locations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?siteid=USGS-08056400&siteid=USGS-08057000&siteid=USGS-08057030&siteid=USGS-08057055&siteid=USGS-08057070&siteid=USGS-08057410&siteid=USGS-08057448&siteid=USGS-08057449&siteid=USGS-08062500&siteid=USGS-08062700&siteid=USGS-08065000&siteid=USGS-08065350&siteid=USGS-08066000&siteid=USGS-08066250&siteid=USGS-08066500&siteid=USGS-08067000&siteid=USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&providers=NWIS&sorted=no",
+          "locator": "Official activity export for all 17 retained stations; response contained 1,026 activity records and supplied activity identity, station, date, time, media, type, and depth metadata."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?siteid=USGS-08056400&siteid=USGS-08057000&siteid=USGS-08057030&siteid=USGS-08057055&siteid=USGS-08057070&siteid=USGS-08057410&siteid=USGS-08057448&siteid=USGS-08057449&siteid=USGS-08062500&siteid=USGS-08062700&siteid=USGS-08065000&siteid=USGS-08065350&siteid=USGS-08066000&siteid=USGS-08066250&siteid=USGS-08066500&siteid=USGS-08067000&siteid=USGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&providers=NWIS&sorted=no&pCode=00010%3B00095%3B00300%3B00400",
+          "locator": "Official four-parameter result export; response contained 3,782 result records across 977 activities. Applying the specified status, value-type, qualifier, detection, unit, linkage, and conflict rules produced 833 complete activities."
+        }
+      ]
+    },
+    {
+      "label": "screening_old_GO_1",
+      "phase": "screening",
+      "comparison_task": "old",
+      "variant": "go",
+      "replicate": 1,
+      "run": "runs/r-24202450d4ad",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 110.773,
+      "started_at": "2026-09-09T05:26:15.168730+00:00",
+      "ended_at": "2026-09-09T05:28:05.941353+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+      "counts": {
+        "correct_fields": 27,
+        "gold_fields": 27,
+        "pred_fields": 27,
+        "item_denominator": 54,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 0,
+      "difference_reasons": {},
+      "incorrect_fields": {},
+      "differences_path": "runs/r-24202450d4ad/scoring/field_differences.json",
+      "reported_limitations": [
+        "Water Quality Portal states that its displayed date ranges may contain gap years; qualification therefore follows the task's specified start-year/end-year coverage test rather than asserting observations in every intervening year.",
+        "A public Hugging Face search result accidentally exposed a benchmark answer. It was not treated as evidence; every reported value was independently verified against the authoritative Water Quality Portal station records."
+      ],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+          "locator": "Lines 24–29 and 45–54 identify the FM 85 Trinity River station, HUC 12030105, River/Stream status, and six group date ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+          "locator": "Lines 25–30 and 47–54 identify the US 59 Trinity River station, HUC 12030202, River/Stream status, and six group date ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+          "locator": "Lines 25–30 and 47–55 identify the IH 10 Trinity River station, HUC 12030203, River/Stream status, and six group date ranges."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_CG_1",
+      "phase": "confirmation",
+      "comparison_task": "new",
+      "variant": "cg",
+      "replicate": 1,
+      "run": "runs/r-0ee77dc62ed5",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 795.622,
+      "started_at": "2026-09-09T05:37:18.005970+00:00",
+      "ended_at": "2026-09-09T05:50:33.649324+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 216,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 12,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 0,
+      "difference_reasons": {},
+      "incorrect_fields": {},
+      "differences_path": "runs/r-0ee77dc62ed5/scoring/field_differences.json",
+      "reported_limitations": [],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS&sorted=no",
+          "locator": "HTTP 200; 460 station records. Exact name-prefix and monitoring-location-type filtering produced the 17-station mainstem universe."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&sampleMedia=Water&pCode=00010%3B00095%3B00300%3B00400&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS&sorted=no",
+          "locator": "HTTP 200; 21,095 legacy WQX 2.2 activity records. Activity identity, type, medium, station, date, time, and depth metadata were inspected."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&sampleMedia=Water&pCode=00010%3B00095%3B00300%3B00400&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS&sorted=no",
+          "locator": "HTTP 200; 83,609 legacy WQX 2.2 result records. Exact activity/station/date joins and the specified status, value-type, qualifier, detection-condition, parameter, unit, and conflict rules produced 833 complete activities."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "WQP Web Services Guide, lines 64–114: authoritative endpoint definitions and semantics for organization, HUC, parameter-code, date, provider, format, and sorting query parameters."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_old_CG_1",
+      "phase": "confirmation",
+      "comparison_task": "old",
+      "variant": "cg",
+      "replicate": 1,
+      "run": "runs/r-b90e2f062f85",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 130.931,
+      "started_at": "2026-09-09T05:37:18.035339+00:00",
+      "ended_at": "2026-09-09T05:39:28.965628+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+      "counts": {
+        "correct_fields": 27,
+        "gold_fields": 27,
+        "pred_fields": 27,
+        "item_denominator": 54,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 0,
+      "difference_reasons": {},
+      "incorrect_fields": {},
+      "differences_path": "runs/r-b90e2f062f85/scoring/field_differences.json",
+      "reported_limitations": [
+        "Water Quality Portal states that its displayed category date ranges may contain gap years; selection follows the task's specified start-year/end-year coverage test rather than asserting observations in every intervening year.",
+        "A public search result exposed a matching benchmark-style answer during research. It was not treated as evidence; the values above were independently derived and verified from the original Water Quality Portal station records."
+      ],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+          "locator": "Lines 25–30 identify the FM 85 Trinity River river/stream station and HUC 12030105; lines 40–55 give all six category ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+          "locator": "Lines 25–30 identify the US 59 Trinity River river/stream station and HUC 12030202; lines 40–54 give all six category ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+          "locator": "Lines 25–30 identify the IH 10 Trinity River river/stream station and HUC 12030203; lines 40–55 give all six category ranges."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_GO_1",
+      "phase": "confirmation",
+      "comparison_task": "new",
+      "variant": "go",
+      "replicate": 1,
+      "run": "runs/r-69914a9877c8",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 0.6574074074074074,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 614.384,
+      "started_at": "2026-09-09T05:37:18.034882+00:00",
+      "ended_at": "2026-09-09T05:47:32.440020+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 142,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 0,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 74,
+      "difference_reasons": {
+        "missing_or_different": 74
+      },
+      "incorrect_fields": {
+        "selected_MonitoringLocationIdentifier": 5,
+        "selected_ActivityIdentifier": 12,
+        "selected_ActivityStartDate": 12,
+        "dissolved_oxygen_mg_L": 12,
+        "temperature_deg_C": 12,
+        "specific_conductance_uS_cm": 12,
+        "pH": 9
+      },
+      "differences_path": "runs/r-69914a9877c8/scoring/field_differences.json",
+      "reported_limitations": [],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "Official legacy WQP web-services guide, lines 64–114: Station, Activity, and Result endpoints and query parameters."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&sorted=no",
+          "locator": "Legacy Station profile: 460 source records; exact name/type filtering retained 17 Trinity River locations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500&startDateLo=01-01-2000&startDateHi=12-31-2019&sampleMedia=Water&mimeType=csv&zip=no&sorted=no",
+          "locator": "Legacy Activity profile, first retained-site partition: 605 activities."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&sampleMedia=Water&mimeType=csv&zip=no&sorted=no",
+          "locator": "Legacy Activity profile, second retained-site partition: 404 activities; activity keys had no station/date conflicts."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&sampleMedia=Water&mimeType=csv&zip=no&sorted=no&pCode=00010%3B00095%3B00300%3B00400",
+          "locator": "Legacy Result profile: 3,780 results for 975 activities; strict eligibility and four-parameter validation yielded 833 complete activities at 13 stations."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_old_GO_1",
+      "phase": "confirmation",
+      "comparison_task": "old",
+      "variant": "go",
+      "replicate": 1,
+      "run": "runs/r-d04075b89074",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 130.913,
+      "started_at": "2026-09-09T05:37:18.038941+00:00",
+      "ended_at": "2026-09-09T05:39:28.950974+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+      "counts": {
+        "correct_fields": 27,
+        "gold_fields": 27,
+        "pred_fields": 27,
+        "item_denominator": 54,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 0,
+      "difference_reasons": {},
+      "incorrect_fields": {},
+      "differences_path": "runs/r-d04075b89074/scoring/field_differences.json",
+      "reported_limitations": [
+        "The Water Quality Portal cautions that its displayed characteristic-group date ranges may contain gap years. Accordingly, “cover 1993–2001” was evaluated using the requested start-year/end-year bounds, not as proof of observations in every intervening year.",
+        "“Earliest year with all six groups” is calculated as the latest of the six reported start years for each station."
+      ],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+          "locator": "Lines 25–30 identify the FM 85 Trinity River River/Stream station and HUC; lines 47–55 give the six characteristic-group ranges; lines 64–69 confirm TCEQMAIN metadata."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+          "locator": "Lines 25–30 identify the US 59 Trinity River River/Stream station and HUC; lines 47–54 give the six characteristic-group ranges; lines 63–68 confirm TCEQMAIN metadata."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+          "locator": "Lines 25–30 identify the IH 10 Trinity River River/Stream station and HUC; lines 47–55 give the six characteristic-group ranges; lines 64–69 confirm TCEQMAIN metadata."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_CG_2",
+      "phase": "confirmation",
+      "comparison_task": "new",
+      "variant": "cg",
+      "replicate": 2,
+      "run": "runs/r-92c02e2f6067",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 0.49537037037037035,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 412.881,
+      "started_at": "2026-09-09T05:39:30.164054+00:00",
+      "ended_at": "2026-09-09T05:46:23.041353+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 107,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 0,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 36,
+        "pair_denominator": 36,
+        "shared_ids": 9
+      },
+      "omitted_ids": [
+        [
+          "USGS-TX",
+          "nwistx.01.01601150",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01900498",
+          "2002",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01900498",
+          "2013",
+          "2018"
+        ]
+      ],
+      "extra_ids": [
+        [
+          "USGS-TX",
+          "nwistx.01.01601150",
+          "2014",
+          "INVALID:4-122.0"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.019004",
+          "2002",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01_01900498",
+          "2013",
+          "2018"
+        ]
+      ],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 163,
+      "difference_reasons": {
+        "missing_or_different": 55,
+        "unmatched_id": 54,
+        "omitted_row": 54
+      },
+      "incorrect_fields": {
+        "selected_MonitoringLocationIdentifier": 9,
+        "selected_ActivityIdentifier": 15,
+        "selected_ActivityStartDate": 15,
+        "dissolved_oxygen_mg_L": 15,
+        "temperature_deg_C": 15,
+        "specific_conductance_uS_cm": 15,
+        "pH": 13,
+        "withdrawn_OrganizationIdentifier": 6,
+        "withdrawn_ActivityIdentifier": 6,
+        "withdrawn_MonitoringLocationIdentifier": 6,
+        "withdrawn_ActivityStartDate": 6,
+        "start_year": 6,
+        "end_year": 6,
+        "cohort_station_count": 6,
+        "cohort_station_ids": 6,
+        "quarter": 6,
+        "eligible_activity_count": 6,
+        "selected_OrganizationIdentifier": 6
+      },
+      "differences_path": "runs/r-92c02e2f6067/scoring/field_differences.json",
+      "reported_limitations": [],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "locator": "Legacy Station CSV: HTTP 200, 460 bounded records; name/type filtering retained 17 Trinity River mainstem stations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes",
+          "locator": "Legacy Activity CSV: HTTP 200; 17 sites and 1,026 activities. Activity keys, media/type, station, date, time, and depth fields were inspected."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&pCode=00010%3B00095%3B00300%3B00400",
+          "locator": "Legacy Result CSV: HTTP 200; 3,782 parameter results across 977 activities. Applying the stated status, value-type, qualifier, detection-condition, unit, uniqueness, and activity-link rules produced 833 complete activities; exhaustive recomputation found five changing withdrawals and 12 trial/interval rows."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "Web Services Guide lines 70–79 and 92–113 define the legacy Station/Activity/Result endpoints, semicolon-delimited HUC and parameter-code filters, activity identifiers, inclusive date-range parameters, and CSV/ZIP output."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_old_CG_2",
+      "phase": "confirmation",
+      "comparison_task": "old",
+      "variant": "cg",
+      "replicate": 2,
+      "run": "runs/r-4a02a31cb8e8",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 191.157,
+      "started_at": "2026-09-09T05:39:30.164040+00:00",
+      "ended_at": "2026-09-09T05:42:41.320048+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+      "counts": {
+        "correct_fields": 27,
+        "gold_fields": 27,
+        "pred_fields": 27,
+        "item_denominator": 54,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 0,
+      "difference_reasons": {},
+      "incorrect_fields": {},
+      "differences_path": "runs/r-4a02a31cb8e8/scoring/field_differences.json",
+      "reported_limitations": [
+        "Water Quality Portal cautions that its displayed date ranges may contain gap years. Following the task's stated rule, coverage was determined solely from each category's first and last year, not uninterrupted annual sampling."
+      ],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+          "locator": "Lines 25–30 identify the FM 85 River/Stream station and HUC 12030105; lines 47–55 give the six category ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+          "locator": "Lines 25–30 identify the US 59 River/Stream station and HUC 12030202; lines 47–54 give the six category ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+          "locator": "Lines 25–30 identify the IH 10 River/Stream station and HUC 12030203; lines 47–55 give the six category ranges."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_GO_2",
+      "phase": "confirmation",
+      "comparison_task": "new",
+      "variant": "go",
+      "replicate": 2,
+      "run": "runs/r-4df368e8ea7e",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 0.6574074074074074,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 518.326,
+      "started_at": "2026-09-09T05:42:42.463474+00:00",
+      "ended_at": "2026-09-09T05:51:20.814149+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 142,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 0,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 74,
+      "difference_reasons": {
+        "missing_or_different": 74
+      },
+      "incorrect_fields": {
+        "selected_MonitoringLocationIdentifier": 5,
+        "selected_ActivityIdentifier": 12,
+        "selected_ActivityStartDate": 12,
+        "dissolved_oxygen_mg_L": 12,
+        "temperature_deg_C": 12,
+        "specific_conductance_uS_cm": 12,
+        "pH": 9
+      },
+      "differences_path": "runs/r-4df368e8ea7e/scoring/field_differences.json",
+      "reported_limitations": [],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "Official legacy WQP service documentation defining Station, Activity, and Result endpoints and the activityId, pCode, HUC, organization, and date filters."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS",
+          "locator": "Official bounded legacy Station CSV; 460 records were inspected and 17 locations met the exact Trinity Rv name and stream-type criteria."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS",
+          "locator": "Official bounded legacy Activity CSV; 1,026 activity records supplied authoritative identifiers, stations, dates, times, media, types, and depth metadata."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no&providers=NWIS&pCode=00010%3B00095%3B00300%3B00400",
+          "locator": "Official bounded WQX 2.2 Result CSV; 3,782 records include USGSPCode, status, actual-value flag, detection condition, qualifier, units, measurements, and activity linkage fields. Filtering and conflict checks yielded 833 complete eligible activities."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_old_GO_2",
+      "phase": "confirmation",
+      "comparison_task": "old",
+      "variant": "go",
+      "replicate": 2,
+      "run": "runs/r-d936d9895abf",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 171.147,
+      "started_at": "2026-09-09T05:46:24.407574+00:00",
+      "ended_at": "2026-09-09T05:49:15.581653+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+      "counts": {
+        "correct_fields": 27,
+        "gold_fields": 27,
+        "pred_fields": 27,
+        "item_denominator": 54,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 0,
+      "difference_reasons": {},
+      "incorrect_fields": {},
+      "differences_path": "runs/r-d936d9895abf/scoring/field_differences.json",
+      "reported_limitations": [
+        "Water Quality Portal cautions that its displayed characteristic-group date ranges may contain gap years; “earliest year with all six groups” was therefore calculated as the latest of the six reported start years, consistent with the stated endpoint test.",
+        "The instruction does not define exact geographic breakpoints for “upper, middle, and lower.” The selected stations follow the three successive HUCs and use FM 85 and IH 10 as the stated reach boundaries."
+      ],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+          "locator": "Lines 25–30 and 64–69 identify Trinity River at FM 85 as TCEQMAIN-10924, River/Stream, HUC 12030105; lines 47–55 give the six group ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+          "locator": "Lines 25–30 and 63–68 identify Trinity River at US 59 as TCEQMAIN-10897, River/Stream, HUC 12030202; lines 47–54 give the six group ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+          "locator": "Lines 25–30 and 64–69 identify Trinity River at IH 10 as TCEQMAIN-10892, River/Stream, HUC 12030203; lines 47–55 give the six group ranges."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_CG_3",
+      "phase": "confirmation",
+      "comparison_task": "new",
+      "variant": "cg",
+      "replicate": 3,
+      "run": "runs/r-e5e848752431",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 1420.723,
+      "started_at": "2026-09-09T05:47:33.716594+00:00",
+      "ended_at": "2026-09-09T06:11:14.453672+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 216,
+        "gold_fields": 216,
+        "pred_fields": 216,
+        "item_denominator": 432,
+        "correct_rows": 12,
+        "gold_rows": 12,
+        "pred_rows": 12,
+        "row_denominator": 24,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 0,
+      "difference_reasons": {},
+      "incorrect_fields": {},
+      "differences_path": "runs/r-e5e848752431/scoring/field_differences.json",
+      "reported_limitations": [],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+          "locator": "Legacy Station CSV: 460 bounded monitoring locations; name/type filtering produced 17 retained mainstem locations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=no",
+          "locator": "Legacy Activity CSV: 1,026 activities; supplied activity identity, media/type, station, date, time, and depth metadata."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&pCode=00010&mimeType=csv&zip=no",
+          "locator": "Legacy Result CSV for USGS parameter 00010: 977 source results."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&pCode=00095&mimeType=csv&zip=no",
+          "locator": "Legacy Result CSV for USGS parameter 00095: 948 source results."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&pCode=00300&mimeType=csv&zip=no",
+          "locator": "Legacy Result CSV for dissolved-oxygen parameter 00300: 928 source results."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2009&pCode=00400&mimeType=csv&zip=no",
+          "locator": "Legacy Result CSV for pH parameter 00400, 2000–2009: 279 source results."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2010&startDateHi=12-31-2019&pCode=00400&mimeType=csv&zip=no",
+          "locator": "Legacy Result CSV for pH parameter 00400, 2010–2019: 650 source results."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_old_CG_3",
+      "phase": "confirmation",
+      "comparison_task": "old",
+      "variant": "cg",
+      "replicate": 3,
+      "run": "runs/r-551a85fda485",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 211.376,
+      "started_at": "2026-09-09T05:49:16.680267+00:00",
+      "ended_at": "2026-09-09T05:52:48.056507+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+      "counts": {
+        "correct_fields": 27,
+        "gold_fields": 27,
+        "pred_fields": 27,
+        "item_denominator": 54,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 0,
+      "difference_reasons": {},
+      "incorrect_fields": {},
+      "differences_path": "runs/r-551a85fda485/scoring/field_differences.json",
+      "reported_limitations": [
+        "The Portal cautions that its category date ranges may contain gap years; the requested endpoint test was therefore applied exactly as specified, without inferring uninterrupted annual sampling.",
+        "A public search result accidentally exposed a benchmark-style answer during research. It was not used as source evidence; the values above were checked against the original Water Quality Portal station records."
+      ],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/",
+          "locator": "TCEQMAIN provider inventory; identifies corridor candidates and their Stream classifications."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+          "locator": "Lines 25–29 and 47–55 identify the FM 85 River/Stream station, HUC 12030105, and six category ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+          "locator": "Lines 25–29 and 47–54 identify the US 59 River/Stream station, HUC 12030202, and six category ranges."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+          "locator": "Lines 25–29 and 47–55 identify the IH 10 River/Stream station, HUC 12030203, and six category ranges."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_new_GO_3",
+      "phase": "confirmation",
+      "comparison_task": "new",
+      "variant": "go",
+      "replicate": 3,
+      "run": "runs/r-426fcaec1732",
+      "status": "completed",
+      "metrics": null,
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 1032.502,
+      "started_at": "2026-09-09T05:50:35.618041+00:00",
+      "ended_at": "2026-09-09T06:07:48.134268+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "parse_failure_unscored",
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 216,
+        "pred_fields": 0,
+        "item_denominator": 216,
+        "correct_rows": 0,
+        "gold_rows": 12,
+        "pred_rows": 0,
+        "row_denominator": 12,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "omitted_ids": [
+        [
+          "USGS-TX",
+          "nwistx.01.01401065",
+          "2013",
+          "2019"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01401065",
+          "2014",
+          "2015"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01401515",
+          "2013",
+          "2019"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01401515",
+          "2014",
+          "2015"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01500574",
+          "2013",
+          "2019"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01500574",
+          "2014",
+          "2015"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01601150",
+          "2002",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01601150",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01900498",
+          "2002",
+          "2007"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01900498",
+          "2013",
+          "2018"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01900498",
+          "2014",
+          "2014"
+        ],
+        [
+          "USGS-TX",
+          "nwistx.01.01900498",
+          "2014",
+          "2015"
+        ]
+      ],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parse_failure",
+      "incorrect_field_count": 216,
+      "difference_reasons": {
+        "omitted_row": 216
+      },
+      "incorrect_fields": {
+        "withdrawn_OrganizationIdentifier": 12,
+        "withdrawn_ActivityIdentifier": 12,
+        "withdrawn_MonitoringLocationIdentifier": 12,
+        "withdrawn_ActivityStartDate": 12,
+        "start_year": 12,
+        "end_year": 12,
+        "cohort_station_count": 12,
+        "cohort_station_ids": 12,
+        "quarter": 12,
+        "eligible_activity_count": 12,
+        "selected_OrganizationIdentifier": 12,
+        "selected_MonitoringLocationIdentifier": 12,
+        "selected_ActivityIdentifier": 12,
+        "selected_ActivityStartDate": 12,
+        "dissolved_oxygen_mg_L": 12,
+        "temperature_deg_C": 12,
+        "specific_conductance_uS_cm": 12,
+        "pH": 12
+      },
+      "differences_path": "runs/r-426fcaec1732/scoring/field_differences.json",
+      "reported_limitations": [],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/data/Station/search?organization=USGS-TX&huc=12030101%3B12030102%3B12030103%3B12030104%3B12030105%3B12030106%3B12030107%3B12030108%3B12030109%3B12030201%3B12030202%3B12030203&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&providers=NWIS&sorted=no",
+          "locator": "Legacy WQX 2.2 station export: HTTP 200, 460 records; exact name/type filtering retained 17 stations."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Activity/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&mimeType=csv&zip=yes&providers=NWIS&sorted=no",
+          "locator": "Legacy activity export: HTTP 200, 1,026 activity records across the 17 retained stations; supplied authoritative activity type, medium, station, date, and depth metadata."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/data/Result/search?organization=USGS-TX&siteid=USGS-08056400%3BUSGS-08057000%3BUSGS-08057030%3BUSGS-08057055%3BUSGS-08057070%3BUSGS-08057410%3BUSGS-08057448%3BUSGS-08057449%3BUSGS-08062500%3BUSGS-08062700%3BUSGS-08065000%3BUSGS-08065350%3BUSGS-08066000%3BUSGS-08066250%3BUSGS-08066500%3BUSGS-08067000%3BUSGS-08067252&startDateLo=01-01-2000&startDateHi=12-31-2019&pCode=00010%3B00095%3B00300%3B00400&mimeType=csv&zip=yes&providers=NWIS&sorted=no",
+          "locator": "Legacy result export: HTTP 200, 3,782 results from 977 activities. Exact acceptance/value/qualifier/unit rules and verified activity links yielded 833 complete eligible activities and 45 supported station-years."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/webservices_documentation/",
+          "locator": "Official WQP documentation, lines 70–113: legacy Station, Result, and Activity endpoints; HUC, organization, site, parameter-code, activity-ID, date, provider, format, and sorting parameters."
+        }
+      ]
+    },
+    {
+      "label": "confirmation_old_GO_3",
+      "phase": "confirmation",
+      "comparison_task": "old",
+      "variant": "go",
+      "replicate": 3,
+      "run": "runs/r-683967eda07e",
+      "status": "completed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "completed_event": true,
+      "model_reported_status": "complete",
+      "elapsed_seconds": 262.269,
+      "started_at": "2026-09-09T05:51:22.100832+00:00",
+      "ended_at": "2026-09-09T05:55:44.369023+00:00",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "ending_reason": "exited",
+      "error": null,
+      "score_status": "deterministic_explicit_old_oracle_with_semantic_limitations",
+      "counts": {
+        "correct_fields": 27,
+        "gold_fields": 27,
+        "pred_fields": 27,
+        "item_denominator": 54,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "omitted_ids": [],
+      "extra_ids": [],
+      "duplicate_ids": [],
+      "parse_status": "parsed",
+      "incorrect_field_count": 0,
+      "difference_reasons": {},
+      "incorrect_fields": {},
+      "differences_path": "runs/r-683967eda07e/scoring/field_differences.json",
+      "reported_limitations": [
+        "Water Quality Portal states that its characteristic-group date ranges may contain gap years; selection therefore follows the task’s explicit start-year/end-year coverage test rather than asserting uninterrupted annual sampling.",
+        "A public search result accidentally exposed a benchmark-style answer while checking the station combination. It was not used as evidence; the values were independently derived and verified from the original Water Quality Portal station records."
+      ],
+      "reported_evidence": [
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10924/",
+          "locator": "Lines 25–30 identify the FM 85 Trinity River site and HUC; lines 40–55 give characteristic-group ranges; lines 64–69 confirm identifier, River/Stream type, and HUC."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10897/",
+          "locator": "Lines 25–30 identify the US 59 Trinity River site and HUC; lines 40–54 give all six characteristic-group ranges; lines 63–68 confirm identifier, River/Stream type, and HUC."
+        },
+        {
+          "url": "https://www.waterqualitydata.us/provider/STORET/TCEQMAIN/TCEQMAIN-10892/",
+          "locator": "Lines 25–30 identify the IH 10 Trinity River site and HUC; lines 40–55 give all six characteristic-group ranges; lines 64–69 confirm identifier, River/Stream type, and HUC."
+        },
+        {
+          "url": "https://cms.lcra.org/schedule.aspx?FY=2020&basin=8",
+          "locator": "Basin 8 coordinated-monitoring entries associate stations 10924, 10897, and 10892 with Trinity River segments 0805, 0802, and 0801, respectively, supporting upstream-to-downstream ordering."
+        }
+      ]
+    }
+  ],
+  "summaries": {
+    "screening": {
+      "cells": {
+        "new_cg": {
+          "scheduled": 1,
+          "started": 1,
+          "completed": 1,
+          "evaluable": 1,
+          "exact_count": 0,
+          "end_to_end_exact_rate": 0.0,
+          "means": {
+            "Item-F1": 0.1,
+            "Row-F1": 0.1,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 0
+          },
+          "ranges": {
+            "Item-F1": [
+              0.1,
+              0.1
+            ],
+            "Row-F1": [
+              0.1,
+              0.1
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              0,
+              0
+            ]
+          },
+          "values": {
+            "Item-F1": [
+              0.1
+            ],
+            "Row-F1": [
+              0.1
+            ],
+            "P.O.A.": [
+              1.0
+            ],
+            "whole_task_exact": [
+              0
+            ]
+          }
+        },
+        "new_go": {
+          "scheduled": 1,
+          "started": 1,
+          "completed": 1,
+          "evaluable": 1,
+          "exact_count": 0,
+          "end_to_end_exact_rate": 0.0,
+          "means": {
+            "Item-F1": 0.6574074074074074,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 0
+          },
+          "ranges": {
+            "Item-F1": [
+              0.6574074074074074,
+              0.6574074074074074
+            ],
+            "Row-F1": [
+              0.0,
+              0.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              0,
+              0
+            ]
+          },
+          "values": {
+            "Item-F1": [
+              0.6574074074074074
+            ],
+            "Row-F1": [
+              0.0
+            ],
+            "P.O.A.": [
+              1.0
+            ],
+            "whole_task_exact": [
+              0
+            ]
+          }
+        },
+        "old_cg": {
+          "scheduled": 1,
+          "started": 1,
+          "completed": 1,
+          "evaluable": 1,
+          "exact_count": 1,
+          "end_to_end_exact_rate": 1.0,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "ranges": {
+            "Item-F1": [
+              1.0,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              1
+            ]
+          },
+          "values": {
+            "Item-F1": [
+              1.0
+            ],
+            "Row-F1": [
+              1.0
+            ],
+            "P.O.A.": [
+              1.0
+            ],
+            "whole_task_exact": [
+              1
+            ]
+          }
+        },
+        "old_go": {
+          "scheduled": 1,
+          "started": 1,
+          "completed": 1,
+          "evaluable": 1,
+          "exact_count": 1,
+          "end_to_end_exact_rate": 1.0,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "ranges": {
+            "Item-F1": [
+              1.0,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              1
+            ]
+          },
+          "values": {
+            "Item-F1": [
+              1.0
+            ],
+            "Row-F1": [
+              1.0
+            ],
+            "P.O.A.": [
+              1.0
+            ],
+            "whole_task_exact": [
+              1
+            ]
+          }
+        }
+      },
+      "equal_weight_means": {
+        "new": {
+          "Item-F1": 0.3787037037037037,
+          "Row-F1": 0.05,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 0.0
+        },
+        "old": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1.0
+        }
+      },
+      "new_minus_old": {
+        "Item-F1": -0.6212962962962962,
+        "Row-F1": -0.95,
+        "P.O.A.": 0.0,
+        "whole_task_exact": -1.0
+      },
+      "mean_scope": "Evaluable-only within each form, then equal CG/GO; conditional descriptive estimates when a planned answer is unscorable. Never impute zero.",
+      "all_slots_evaluable": {
+        "new": true,
+        "old": true
+      },
+      "complete_plan_equal_weight_means": {
+        "new": {
+          "Item-F1": 0.3787037037037037,
+          "Row-F1": 0.05,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 0.0
+        },
+        "old": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1.0
+        }
+      },
+      "complete_plan_delta": {
+        "Item-F1": -0.6212962962962962,
+        "Row-F1": -0.95,
+        "P.O.A.": 0.0,
+        "whole_task_exact": -1.0
+      },
+      "end_to_end_equal_weight_exact_rate": {
+        "new": 0.0,
+        "old": 1.0
+      }
+    },
+    "confirmation": {
+      "cells": {
+        "new_cg": {
+          "scheduled": 3,
+          "started": 3,
+          "completed": 3,
+          "evaluable": 3,
+          "exact_count": 2,
+          "end_to_end_exact_rate": 0.6666666666666666,
+          "means": {
+            "Item-F1": 0.8317901234567902,
+            "Row-F1": 0.6666666666666666,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 0.6666666666666666
+          },
+          "ranges": {
+            "Item-F1": [
+              0.49537037037037035,
+              1.0
+            ],
+            "Row-F1": [
+              0.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              0,
+              1
+            ]
+          },
+          "values": {
+            "Item-F1": [
+              1.0,
+              0.49537037037037035,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              0.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              0,
+              1
+            ]
+          }
+        },
+        "new_go": {
+          "scheduled": 3,
+          "started": 3,
+          "completed": 3,
+          "evaluable": 2,
+          "exact_count": 0,
+          "end_to_end_exact_rate": 0.0,
+          "means": {
+            "Item-F1": 0.6574074074074074,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 0
+          },
+          "ranges": {
+            "Item-F1": [
+              0.6574074074074074,
+              0.6574074074074074
+            ],
+            "Row-F1": [
+              0.0,
+              0.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              0,
+              0
+            ]
+          },
+          "values": {
+            "Item-F1": [
+              0.6574074074074074,
+              0.6574074074074074
+            ],
+            "Row-F1": [
+              0.0,
+              0.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              0,
+              0
+            ]
+          }
+        },
+        "old_cg": {
+          "scheduled": 3,
+          "started": 3,
+          "completed": 3,
+          "evaluable": 3,
+          "exact_count": 3,
+          "end_to_end_exact_rate": 1.0,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "ranges": {
+            "Item-F1": [
+              1.0,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              1
+            ]
+          },
+          "values": {
+            "Item-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "old_go": {
+          "scheduled": 3,
+          "started": 3,
+          "completed": 3,
+          "evaluable": 3,
+          "exact_count": 3,
+          "end_to_end_exact_rate": 1.0,
+          "means": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0,
+            "whole_task_exact": 1
+          },
+          "ranges": {
+            "Item-F1": [
+              1.0,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              1
+            ]
+          },
+          "values": {
+            "Item-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Row-F1": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "P.O.A.": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "whole_task_exact": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      "equal_weight_means": {
+        "new": {
+          "Item-F1": 0.7445987654320988,
+          "Row-F1": 0.3333333333333333,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 0.3333333333333333
+        },
+        "old": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1.0
+        }
+      },
+      "new_minus_old": {
+        "Item-F1": -0.2554012345679012,
+        "Row-F1": -0.6666666666666667,
+        "P.O.A.": 0.0,
+        "whole_task_exact": -0.6666666666666667
+      },
+      "mean_scope": "Evaluable-only within each form, then equal CG/GO; conditional descriptive estimates when a planned answer is unscorable. Never impute zero.",
+      "all_slots_evaluable": {
+        "new": false,
+        "old": true
+      },
+      "complete_plan_equal_weight_means": {
+        "new": {
+          "Item-F1": null,
+          "Row-F1": null,
+          "P.O.A.": null,
+          "whole_task_exact": null
+        },
+        "old": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0,
+          "whole_task_exact": 1.0
+        }
+      },
+      "complete_plan_delta": {
+        "Item-F1": null,
+        "Row-F1": null,
+        "P.O.A.": null,
+        "whole_task_exact": null
+      },
+      "end_to_end_equal_weight_exact_rate": {
+        "new": 0.3333333333333333,
+        "old": 1.0
+      }
+    }
+  }
+}

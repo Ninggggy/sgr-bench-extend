@@ -1,0 +1,523 @@
+{
+  "runs": [
+    {
+      "label": "screening_new_CG_1",
+      "run": "runs/r-a55562d61d59",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 40,
+      "tool_calls": {
+        "exec": 19,
+        "wait": 1
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 0.1,
+        "Row-F1": 0.1,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "screening_old_CG_1",
+      "run": "runs/r-6c876269dbe4",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 18,
+      "tool_calls": {
+        "exec": 9
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "screening_new_GO_1",
+      "run": "runs/r-8224e9cc365a",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 40,
+      "tool_calls": {
+        "exec": 15,
+        "wait": 5
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 0.6574074074074074,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "screening_old_GO_1",
+      "run": "runs/r-24202450d4ad",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 12,
+      "tool_calls": {
+        "exec": 6
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_new_CG_1",
+      "run": "runs/r-0ee77dc62ed5",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 48,
+      "tool_calls": {
+        "exec": 16,
+        "wait": 8
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_old_CG_1",
+      "run": "runs/r-b90e2f062f85",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 12,
+      "tool_calls": {
+        "exec": 6
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_new_GO_1",
+      "run": "runs/r-69914a9877c8",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 44,
+      "tool_calls": {
+        "exec": 17,
+        "wait": 5
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 0.6574074074074074,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_old_GO_1",
+      "run": "runs/r-d04075b89074",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 12,
+      "tool_calls": {
+        "exec": 6
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_new_CG_2",
+      "run": "runs/r-92c02e2f6067",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 28,
+      "tool_calls": {
+        "exec": 13,
+        "wait": 1
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 0.49537037037037035,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_old_CG_2",
+      "run": "runs/r-4a02a31cb8e8",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 22,
+      "tool_calls": {
+        "exec": 11
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_new_GO_2",
+      "run": "runs/r-4df368e8ea7e",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 36,
+      "tool_calls": {
+        "exec": 18
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 0.6574074074074074,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_old_GO_2",
+      "run": "runs/r-d936d9895abf",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 14,
+      "tool_calls": {
+        "exec": 7
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_new_CG_3",
+      "run": "runs/r-e5e848752431",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 80,
+      "tool_calls": {
+        "exec": 23,
+        "wait": 17
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_old_CG_3",
+      "run": "runs/r-551a85fda485",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 16,
+      "tool_calls": {
+        "exec": 8
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_new_GO_3",
+      "run": "runs/r-426fcaec1732",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 54,
+      "tool_calls": {
+        "exec": 20,
+        "wait": 7
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parse_failure",
+      "metrics": null,
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    },
+    {
+      "label": "confirmation_old_GO_3",
+      "run": "runs/r-683967eda07e",
+      "public_keys": true,
+      "isolation": true,
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_evidence_sources": [
+        "run.json request",
+        "invocation.json argv",
+        "solver.config.toml",
+        "sessions turn_context"
+      ],
+      "verified_turn_contexts": 1,
+      "raw_tool_records": 16,
+      "tool_calls": {
+        "exec": 8
+      },
+      "completion_event": true,
+      "model_status": "complete",
+      "end_status": "completed",
+      "scored": true,
+      "exact_extraction": true,
+      "parse_status": "parsed",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+      "status": "passed"
+    }
+  ],
+  "all_recorded_checks_passed": true,
+  "expected_completed_slots": 16,
+  "verified": 16,
+  "note": "Four sources checked in each run: metadata, CLI argv, TOML and actual turn_context; no claim for not-yet-completed runs."
+}

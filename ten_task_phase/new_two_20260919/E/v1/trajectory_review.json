@@ -1,0 +1,50 @@
+{
+  "reviewed_at": "2026-09-19T15:08:55.070730+00:00",
+  "reviewer": "controller",
+  "faces": {
+    "CG": {
+      "item_fraction": "72/72",
+      "row_fraction": "12/12",
+      "whole_answer_correct": true,
+      "valid_for_acceptance": true,
+      "strictly_below_70": false,
+      "tool_calls": 9,
+      "content_errors": [],
+      "format_issues": [],
+      "acquisition_compliance": "Passed: only ordinaryweb search/open/find andfocusedtextwindows in singleRFCs. No browser/API/bulk/prejoinedanswers/privatefiles. Repeatedfinds for codepoint ranges are normalwithin-document lookup, notsplitbulk acquisition.",
+      "exposure": "Inputinventory onlypublicprompt/input/retrievalpolicy/resultschema; cleantmpfsDocker nohostbinds, allprivateprobesfalse, nohistory.",
+      "access": "CG two directerrata opensInternalError; officialinlinepreparation andoriginalRFC3454 recoveredneededsemanticcontent; noanswerfieldsunavailable. GO no substantive accessfailure.",
+      "elapsed_seconds": 197.094,
+      "usage": {
+        "input_tokens": 446709,
+        "cached_input_tokens": 385536,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4653,
+        "reasoning_output_tokens": 2803
+      }
+    },
+    "GO": {
+      "item_fraction": "72/72",
+      "row_fraction": "12/12",
+      "whole_answer_correct": true,
+      "valid_for_acceptance": true,
+      "strictly_below_70": false,
+      "tool_calls": 8,
+      "content_errors": [],
+      "format_issues": [],
+      "acquisition_compliance": "Passed: only ordinaryweb search/open/find andfocusedtextwindows in singleRFCs. No browser/API/bulk/prejoinedanswers/privatefiles. Repeatedfinds for codepoint ranges are normalwithin-document lookup, notsplitbulk acquisition.",
+      "exposure": "Inputinventory onlypublicprompt/input/retrievalpolicy/resultschema; cleantmpfsDocker nohostbinds, allprivateprobesfalse, nohistory.",
+      "access": "No substantive accessfailure found in rawoutputs.",
+      "elapsed_seconds": 130.763,
+      "usage": {
+        "input_tokens": 401032,
+        "cached_input_tokens": 325376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3913,
+        "reasoning_output_tokens": 2435
+      }
+    }
+  },
+  "outcome": "Both valid72/72, neither qualifies. No substantive revision justified solely by these scores.",
+  "successful_path": "Both retrieved RFC preparation and stringprep tables, recovered originalUnicode mapping through publicsearch, computed protectedspace/nonoverlap andhistoricalunassigned correctly. Public sources suffice; actualdifficulty threshold failed."
+}

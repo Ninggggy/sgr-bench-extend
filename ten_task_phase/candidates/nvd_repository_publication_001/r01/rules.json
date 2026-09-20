@@ -1,0 +1,11 @@
+{
+  "columns": ["cve", "repository_advisory", "repository_published", "catalogue_published", "delay_days"],
+  "row_key": ["cve"],
+  "fields": {
+    "cve": {"aliases": {}},
+    "repository_advisory": {"aliases": {}},
+    "repository_published": {"aliases": {}},
+    "catalogue_published": {"aliases": {}},
+    "delay_days": {"aliases": {}}
+  }
+}

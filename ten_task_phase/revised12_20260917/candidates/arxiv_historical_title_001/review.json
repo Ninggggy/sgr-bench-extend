@@ -1,0 +1,18 @@
+{
+  "candidate_id": "arxiv_historical_title_001",
+  "historical_revision": 2,
+  "revision": 3,
+  "batch_revision": "polish01",
+  "status": "blocked",
+  "reason": "有界完整路径未证实：旧证据由完整年度语料和705条评论前沿建立范围，再查历史版本。不能把旧全量构造路径直接当作v2盲测路径；未证明60请求/10页内完整替代路径。",
+  "changes": [
+    "按任务、范围、判定条件分段；解释必要术语；CG/GO使用相同实质条件，仅CG增加步骤。",
+    "引用和限制放独立字段；删除与v2冲突的批量许可；历史输入不覆盖。"
+  ],
+  "evidence_paths": [
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/arxiv_historical_title_001/r02/exploration.md"
+  ],
+  "historical_inputs": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/arxiv_historical_title_001-r02-cg-v2-once",
+  "independent_human_review": "not_performed",
+  "formal_admission": false
+}

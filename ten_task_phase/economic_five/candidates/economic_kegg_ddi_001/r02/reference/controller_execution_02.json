@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Users/ning/.local/bin/python3",
+    "reference/solve_reference.py",
+    "--root",
+    ".",
+    "--out",
+    "reference/replay-02"
+  ],
+  "cwd": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/economic_five/candidates/economic_kegg_ddi_001/r02",
+  "started_at": "2026-09-11T19:02:16.818591+00:00",
+  "ended_at": "2026-09-11T19:02:16.915693+00:00",
+  "exit_code": 0,
+  "stdout": "{\"batch_directed_rows\": 1072, \"both_endpoint_comparison\": \"equal\", \"campaign_stability\": \"not established by this offline program\", \"candidate_pairs\": 800, \"class_counts\": {\"CI\": 294, \"CI,P\": 2}, \"construction_repeat\": \"equal\", \"delivered_oracle\": \"equal\", \"fresh_boundary_slices\": \"equal\", \"html_membership\": {\"DG01568\": {\"count\": 40, \"hidden_css\": true, \"member_end_char\": 18711, \"member_start_char\": 5466}, \"DG01659\": {\"count\": 20, \"hidden_css\": true, \"member_end_char\": 11851, \"member_start_char\": 5537}}, \"member_counts\": {\"DG01568\": 40, \"DG01659\": 20}, \"not_reported_pairs\": 504, \"reported_pairs\": 296, \"singleton_chemical_endpoint_rows\": 28, \"singleton_directed_rows\": 19430, \"singleton_outside_member_rows\": 18500, \"singleton_sources\": 60, \"source_file_independence\": \"distinct batch and singleton file IDs and resolved paths\", \"sql_comparison\": \"equal\", \"unknown_pairs\": 0}\n",
+  "stderr": ""
+}

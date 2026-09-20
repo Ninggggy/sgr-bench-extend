@@ -1,0 +1,1036 @@
+{
+  "label": "confirmation_new_GO_3",
+  "run": "runs/r-426fcaec1732",
+  "raw_parse_status": "parse_failure",
+  "official_metrics": null,
+  "raw_content_rows": 12,
+  "raw_columns": 12,
+  "omitted_required_columns": [
+    "start_year",
+    "end_year",
+    "cohort_station_count",
+    "cohort_station_ids",
+    "quarter",
+    "eligible_activity_count"
+  ],
+  "visible_projection_matching_fields": 144,
+  "visible_projection": [
+    {
+      "row_index": 0,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08065350",
+      "reference_projection": "USGS-08065350",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01401065",
+      "reference_projection": "nwistx.01.01401065",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2014-03-11",
+      "reference_projection": "2014-03-11",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08057410",
+      "reference_projection": "USGS-08057410",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.01601917",
+      "reference_projection": "nwistx.01.01601917",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "selected_ActivityStartDate",
+      "actual": "2016-03-09",
+      "reference_projection": "2016-03-09",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "8.4",
+      "reference_projection": "8.40",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "temperature_deg_C",
+      "actual": "16.3",
+      "reference_projection": "16.30",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "specific_conductance_uS_cm",
+      "actual": "400.0",
+      "reference_projection": "400.00",
+      "equal": true
+    },
+    {
+      "row_index": 0,
+      "field": "pH",
+      "actual": "7.7",
+      "reference_projection": "7.70",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08065350",
+      "reference_projection": "USGS-08065350",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01401065",
+      "reference_projection": "nwistx.01.01401065",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2014-03-11",
+      "reference_projection": "2014-03-11",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08067252",
+      "reference_projection": "USGS-08067252",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.01501624",
+      "reference_projection": "nwistx.01.01501624",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "selected_ActivityStartDate",
+      "actual": "2015-03-20",
+      "reference_projection": "2015-03-20",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "8.9",
+      "reference_projection": "8.90",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "temperature_deg_C",
+      "actual": "15.8",
+      "reference_projection": "15.80",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "specific_conductance_uS_cm",
+      "actual": "359.0",
+      "reference_projection": "359.00",
+      "equal": true
+    },
+    {
+      "row_index": 1,
+      "field": "pH",
+      "actual": "7.4",
+      "reference_projection": "7.40",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08065350",
+      "reference_projection": "USGS-08065350",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01401515",
+      "reference_projection": "nwistx.01.01401515",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2014-05-20",
+      "reference_projection": "2014-05-20",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08057410",
+      "reference_projection": "USGS-08057410",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.01503036",
+      "reference_projection": "nwistx.01.01503036",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "selected_ActivityStartDate",
+      "actual": "2015-06-10",
+      "reference_projection": "2015-06-10",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "5.0",
+      "reference_projection": "5.00",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "temperature_deg_C",
+      "actual": "27.4",
+      "reference_projection": "27.40",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "specific_conductance_uS_cm",
+      "actual": "346.0",
+      "reference_projection": "346.00",
+      "equal": true
+    },
+    {
+      "row_index": 2,
+      "field": "pH",
+      "actual": "7.4",
+      "reference_projection": "7.40",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08065350",
+      "reference_projection": "USGS-08065350",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01401515",
+      "reference_projection": "nwistx.01.01401515",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2014-05-20",
+      "reference_projection": "2014-05-20",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08067252",
+      "reference_projection": "USGS-08067252",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.01502581",
+      "reference_projection": "nwistx.01.01502581",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "selected_ActivityStartDate",
+      "actual": "2015-05-30",
+      "reference_projection": "2015-05-30",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "4.3",
+      "reference_projection": "4.30",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "temperature_deg_C",
+      "actual": "25.3",
+      "reference_projection": "25.30",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "specific_conductance_uS_cm",
+      "actual": "276.0",
+      "reference_projection": "276.00",
+      "equal": true
+    },
+    {
+      "row_index": 3,
+      "field": "pH",
+      "actual": "7.1",
+      "reference_projection": "7.10",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08065350",
+      "reference_projection": "USGS-08065350",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01500574",
+      "reference_projection": "nwistx.01.01500574",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2014-10-30",
+      "reference_projection": "2014-10-30",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08057410",
+      "reference_projection": "USGS-08057410",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.01900010",
+      "reference_projection": "nwistx.01.01900010",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "selected_ActivityStartDate",
+      "actual": "2018-10-10",
+      "reference_projection": "2018-10-10",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "5.7",
+      "reference_projection": "5.70",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "temperature_deg_C",
+      "actual": "22.3",
+      "reference_projection": "22.30",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "specific_conductance_uS_cm",
+      "actual": "295.0",
+      "reference_projection": "295.00",
+      "equal": true
+    },
+    {
+      "row_index": 4,
+      "field": "pH",
+      "actual": "7.7",
+      "reference_projection": "7.70",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08065350",
+      "reference_projection": "USGS-08065350",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01500574",
+      "reference_projection": "nwistx.01.01500574",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2014-10-30",
+      "reference_projection": "2014-10-30",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08067252",
+      "reference_projection": "USGS-08067252",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.01500130",
+      "reference_projection": "nwistx.01.01500130",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "selected_ActivityStartDate",
+      "actual": "2014-10-15",
+      "reference_projection": "2014-10-15",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "5.5",
+      "reference_projection": "5.50",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "temperature_deg_C",
+      "actual": "26.2",
+      "reference_projection": "26.20",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "specific_conductance_uS_cm",
+      "actual": "387.0",
+      "reference_projection": "387.00",
+      "equal": true
+    },
+    {
+      "row_index": 5,
+      "field": "pH",
+      "actual": "7.6",
+      "reference_projection": "7.60",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08067000",
+      "reference_projection": "USGS-08067000",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01601150",
+      "reference_projection": "nwistx.01.01601150",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2015-12-02",
+      "reference_projection": "2015-12-02",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08057410",
+      "reference_projection": "USGS-08057410",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.00300032",
+      "reference_projection": "nwistx.01.00300032",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "selected_ActivityStartDate",
+      "actual": "2002-10-08",
+      "reference_projection": "2002-10-08",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "6.5",
+      "reference_projection": "6.50",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "temperature_deg_C",
+      "actual": "24.2",
+      "reference_projection": "24.20",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "specific_conductance_uS_cm",
+      "actual": "535.0",
+      "reference_projection": "535.00",
+      "equal": true
+    },
+    {
+      "row_index": 6,
+      "field": "pH",
+      "actual": "7.4",
+      "reference_projection": "7.40",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08067000",
+      "reference_projection": "USGS-08067000",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01601150",
+      "reference_projection": "nwistx.01.01601150",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2015-12-02",
+      "reference_projection": "2015-12-02",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08067252",
+      "reference_projection": "USGS-08067252",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.01500130",
+      "reference_projection": "nwistx.01.01500130",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "selected_ActivityStartDate",
+      "actual": "2014-10-15",
+      "reference_projection": "2014-10-15",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "5.5",
+      "reference_projection": "5.50",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "temperature_deg_C",
+      "actual": "26.2",
+      "reference_projection": "26.20",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "specific_conductance_uS_cm",
+      "actual": "387.0",
+      "reference_projection": "387.00",
+      "equal": true
+    },
+    {
+      "row_index": 7,
+      "field": "pH",
+      "actual": "7.6",
+      "reference_projection": "7.60",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08067000",
+      "reference_projection": "USGS-08067000",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01900498",
+      "reference_projection": "nwistx.01.01900498",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2019-02-13",
+      "reference_projection": "2019-02-13",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08065350",
+      "reference_projection": "USGS-08065350",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.00200965",
+      "reference_projection": "nwistx.01.00200965",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "selected_ActivityStartDate",
+      "actual": "2002-03-27",
+      "reference_projection": "2002-03-27",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "8.1",
+      "reference_projection": "8.10",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "temperature_deg_C",
+      "actual": "15.0",
+      "reference_projection": "15.00",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "specific_conductance_uS_cm",
+      "actual": "328.0",
+      "reference_projection": "328.00",
+      "equal": true
+    },
+    {
+      "row_index": 8,
+      "field": "pH",
+      "actual": "7.8",
+      "reference_projection": "7.80",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08067000",
+      "reference_projection": "USGS-08067000",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01900498",
+      "reference_projection": "nwistx.01.01900498",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2019-02-13",
+      "reference_projection": "2019-02-13",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08057410",
+      "reference_projection": "USGS-08057410",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.01601917",
+      "reference_projection": "nwistx.01.01601917",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "selected_ActivityStartDate",
+      "actual": "2016-03-09",
+      "reference_projection": "2016-03-09",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "8.4",
+      "reference_projection": "8.40",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "temperature_deg_C",
+      "actual": "16.3",
+      "reference_projection": "16.30",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "specific_conductance_uS_cm",
+      "actual": "400.0",
+      "reference_projection": "400.00",
+      "equal": true
+    },
+    {
+      "row_index": 9,
+      "field": "pH",
+      "actual": "7.7",
+      "reference_projection": "7.70",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08067000",
+      "reference_projection": "USGS-08067000",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01900498",
+      "reference_projection": "nwistx.01.01900498",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2019-02-13",
+      "reference_projection": "2019-02-13",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08057410",
+      "reference_projection": "USGS-08057410",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.01401056",
+      "reference_projection": "nwistx.01.01401056",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "selected_ActivityStartDate",
+      "actual": "2014-03-06",
+      "reference_projection": "2014-03-06",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "9.5",
+      "reference_projection": "9.50",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "temperature_deg_C",
+      "actual": "14.4",
+      "reference_projection": "14.40",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "specific_conductance_uS_cm",
+      "actual": "838.0",
+      "reference_projection": "838.00",
+      "equal": true
+    },
+    {
+      "row_index": 10,
+      "field": "pH",
+      "actual": "7.3",
+      "reference_projection": "7.30",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "withdrawn_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "withdrawn_MonitoringLocationIdentifier",
+      "actual": "USGS-08067000",
+      "reference_projection": "USGS-08067000",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "withdrawn_ActivityIdentifier",
+      "actual": "nwistx.01.01900498",
+      "reference_projection": "nwistx.01.01900498",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "withdrawn_ActivityStartDate",
+      "actual": "2019-02-13",
+      "reference_projection": "2019-02-13",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "selected_OrganizationIdentifier",
+      "actual": "USGS-TX",
+      "reference_projection": "USGS-TX",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "selected_MonitoringLocationIdentifier",
+      "actual": "USGS-08067252",
+      "reference_projection": "USGS-08067252",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "selected_ActivityIdentifier",
+      "actual": "nwistx.01.01501624",
+      "reference_projection": "nwistx.01.01501624",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "selected_ActivityStartDate",
+      "actual": "2015-03-20",
+      "reference_projection": "2015-03-20",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "dissolved_oxygen_mg_L",
+      "actual": "8.9",
+      "reference_projection": "8.90",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "temperature_deg_C",
+      "actual": "15.8",
+      "reference_projection": "15.80",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "specific_conductance_uS_cm",
+      "actual": "359.0",
+      "reference_projection": "359.00",
+      "equal": true
+    },
+    {
+      "row_index": 11,
+      "field": "pH",
+      "actual": "7.4",
+      "reference_projection": "7.40",
+      "equal": true
+    }
+  ],
+  "saved_computation_file_id": "d0017",
+  "computed_full_table_diagnostic_metrics": {
+    "Item-F1": 1.0,
+    "Row-F1": 1.0,
+    "P.O.A.": 1.0
+  },
+  "classification": "Final-output completeness/schema deviation. Saved model computation contains all correct216fields, but final answer drops72required fields. This is not evidence of state or minimum-selection reasoning failure.",
+  "score_policy": "Keep raw answer and original scorer metrics=null. No gold-dependent repair, no zero imputation, no replacement attempt. Diagnostic full-table score is not substituted into planned means.",
+  "limits": "Visible projection checked by emitted row order; missing interval/cohort identity cannot be inferred or awarded from that projection alone."
+}

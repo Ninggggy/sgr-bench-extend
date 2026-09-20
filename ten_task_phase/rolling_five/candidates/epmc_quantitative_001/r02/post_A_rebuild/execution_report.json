@@ -1,0 +1,36 @@
+{
+  "annual_records": 360,
+  "issue_records": 47,
+  "issue_pmcids": 24,
+  "candidate_notices": 2,
+  "output_rows": 1,
+  "conflicts": [],
+  "checks": [
+    "complete annual range",
+    "complete issue inventory",
+    "type/title notice set agreement",
+    "all candidate notices classified",
+    "author-only boundary excluded",
+    "DOI and PMCID identity agreement",
+    "notice/table/original numerical agreement",
+    "semantic source anchors validated",
+    "unique sorted output keys"
+  ],
+  "expected_oracle_equal": true,
+  "stability_check": "passed",
+  "status": "passed",
+  "execution_command": [
+    "/Users/ning/.local/bin/python3",
+    "construction_pipeline/ten_task_phase/rolling_five/candidates/epmc_quantitative_001/r02/reference.py",
+    "--source-dir",
+    "construction_pipeline/ten_task_phase/rolling_five/candidates/epmc_quantitative_001/r02/sources/post_A",
+    "--out-dir",
+    "construction_pipeline/ten_task_phase/rolling_five/candidates/epmc_quantitative_001/r02/post_A_rebuild",
+    "--expected-oracle",
+    "construction_pipeline/ten_task_phase/rolling_five/candidates/epmc_quantitative_001/r02/oracle.psv",
+    "--compare-source-dir",
+    "construction_pipeline/ten_task_phase/rolling_five/candidates/epmc_quantitative_001/r02/sources/pre_A"
+  ],
+  "human_validation": "not_performed",
+  "final_audit": "pending"
+}

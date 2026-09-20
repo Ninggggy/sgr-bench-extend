@@ -1,0 +1,26 @@
+{
+  "candidate_id": "kegg_module_products_001",
+  "revision": 1,
+  "stage": "development_a",
+  "registered_at": "2026-09-12T14:03:11.119644+00:00",
+  "trials": [
+    {
+      "candidate_id": "kegg_module_products_001",
+      "revision": 1,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "kegg-module-products-r01-cg-dev-a"
+    },
+    {
+      "candidate_id": "kegg_module_products_001",
+      "revision": 1,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "kegg-module-products-r01-go-dev-a"
+    }
+  ]
+}

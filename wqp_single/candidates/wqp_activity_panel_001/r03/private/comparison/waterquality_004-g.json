@@ -1,0 +1,67 @@
+{
+  "task_id": "waterquality_004-g",
+  "domain": "WATER_QUALITY_PORTAL",
+  "autonomy_type": "ordered table",
+  "oracle_output_cardinality": 3,
+  "instruction": "I am reviewing toxic-pollutant-related water quality monitoring data for the Trinity River mainstem from 1993 to 2001, with the reach near FM 85 as the upstream boundary and the reach near Interstate 10 as the downstream boundary. I need to select one TCEQ long-term reference station for each of the upper, middle, and lower segments along the river.\nCandidate monitoring locations must simultaneously meet the following conditions: the monitoring location type in the station record is labeled River/Stream; the station name corresponds to the Trinity River mainstem, not a tributary, other named waterbody, or distributary channel; records for all six characteristic groups—Inorganics, Major, Non-metals; Microbiological; Nutrient; Organics, Other; Organics, PCBs; and Physical—must cover the period 1993–2001, specifically with a start year no later than 1993 and an end year no earlier than 2001. Output three rows in order from upstream to downstream along the river, each row formatted as <HUC>|<MonitoringLocationIdentifier>|<earliest year with all six groups>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Organics, PCBs start year>|<Physical start year>.",
+  "start_url": "https://www.waterqualitydata.us/",
+  "output_format": "Output three rows in order from upstream to downstream along the river, each row formatted as <HUC>|<MonitoringLocationIdentifier>|<earliest year with all six groups>|<Inorganics, Major, Non-metals start year>|<Microbiological start year>|<Nutrient start year>|<Organics, Other start year>|<Organics, PCBs start year>|<Physical start year>.",
+  "oracle_answer": "12030105|TCEQMAIN-10924|1983|1982|1983|1982|1983|1983|1982\n12030202|TCEQMAIN-10897|1993|1969|1972|1972|1993|1974|1969\n12030203|TCEQMAIN-10892|1976|1969|1971|1972|1974|1976|1969",
+  "metadata": {
+    "State-Gated Retrieval": [
+      "Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.",
+      "The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window coverage and completeness of the legacy toxics groups.",
+      "For each target segment, retain only the station that meets all group requirements and has the best common start year."
+    ],
+    "dependency_type": "Data + Control",
+    "intra_chain": true,
+    "inter_chain": true,
+    "data_dependency": [
+      "Trinity River mainstem candidate stations are generated from the target HUC searches and the six characteristic-group searches",
+      "detail pages yield River/Stream validity, 1993–2001 full-window coverage, and the group-specific start years needed for ranking",
+      "final rows are produced only after all six groups have been matched by station ID and detail-page validation removes partial-group and non-mainstem false positives"
+    ],
+    "control_dependency": [
+      "each of the six characteristic groups must be evaluated separately and confirmed against the same station ID before a multi-select result can be retained",
+      "station names and River/Stream tags are insufficient until the detail page confirms Trinity mainstem semantics and 1993–2001 full-window coverage",
+      "candidate rejection and final ranking must be determined after applying the PCBs / Organics, Other gap checks"
+    ],
+    "freeze": {
+      "historical_window": "Trinity River mainstem stations validated within the fixed historical 1993–2001 window, using six characteristic groups and ranking by earliest joint availability plus group start years as largely stable reference information"
+    },
+    "answer_type": "multi-row ordered table"
+  },
+  "rubric": {
+    "inclusion_conditions": [
+      "Only retain candidate stations that satisfy the Trinity River mainstem semantics and require all six characteristic groups to cover 1993–2001.",
+      "The six groups must be searched separately and then matched back to the same station ID, after which the detail page must verify full time-window coverage and completeness of the legacy toxics groups.",
+      "For each target segment, retain only the station that meets all group requirements and has the best common start year."
+    ],
+    "exclusion_conditions": [
+      "Exclude results that mistakenly treat a single multi-select of characteristic groups as sufficient to satisfy the requirement.",
+      "Exclude results that only check station names and River/Stream tags without verifying 1993–2001 full-window coverage.",
+      "Exclude stations that ignore missing PCBs or Organics, Other groups."
+    ],
+    "normalization": {
+      "field_separator": "|",
+      "record_separator": "\n",
+      "header_row": "omit the header row; emit data rows only",
+      "schema": [
+        "HUC",
+        "MonitoringLocationIdentifier",
+        "common_start_year",
+        "Inorganics_start",
+        "Microbiological_start",
+        "Nutrient_start",
+        "Organics_Other_start",
+        "Organics_PCBs_start",
+        "Physical_start"
+      ],
+      "HUC": "preserve the HUC exactly as emitted in the source result",
+      "MonitoringLocationIdentifier": "preserve the monitoring-location identifier exactly, for example `TCEQMAIN-10924`",
+      "common_start_year": "emit the maximum of the six per-group start years",
+      "selection_rule": "only keep mainstem river/stream sites whose six required groups all cover the target window",
+      "sorting_or_selection": "upstream to downstream along the mainstem"
+    }
+  }
+}

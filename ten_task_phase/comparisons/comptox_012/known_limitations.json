@@ -1,0 +1,9 @@
+{
+  "notes": [
+    "Original public prompt names the source; retained unmodified.",
+    "Current counts/default order may drift; original has no reproducible release date. Prior public oracle exists; report actual exposure separately."
+  ],
+  "public_oracle_available": true,
+  "actual_exposure": "not_yet_run",
+  "human_expert_review": "not_performed"
+}

@@ -1,0 +1,66 @@
+{
+  "task_id": "wateroffice_002",
+  "domain": "WATER_OFFICE",
+  "autonomy_type": "ordered table",
+  "oracle_output_cardinality": 4,
+  "instruction": "I am compiling historical daily flow records for the Bulkley River reach from Houston to Hazelton and want to verify, station by station, whether candidate mainstem stations on the Bulkley River truly have complete daily flow records for April–July 1948 and April–July 1950. First, from the Historical Results list, select candidate stations that lie on the Bulkley River mainstem, fall within the Houston-to-Hazelton reach, appear to cover both 1948 and 1950, and carry a Flow label. Then open each station's availability page and check whether the target years fall within the Flow section and whether April-July is marked C throughout. If the target windows satisfy the complete daily flow condition, set target_window_status to PASS and final_verdict to KEEP. If the target years have only water level records and no daily flow records, set target_window_status to LEVEL_ONLY and final_verdict to REJECT. If daily flow records exist but any month from April to July is not complete, set target_window_status to FLOW_GAP and final_verdict to REJECT. Finally, output a table in downstream-to-upstream order with columns rank|station_number|target_window_status|final_verdict.",
+  "start_url": "https://wateroffice.ec.gc.ca/search/historical_e.html",
+  "output_format": "Output a table in downstream-to-upstream order with columns rank|station_number|target_window_status|final_verdict.",
+  "oracle_answer": "1|08EE004|PASS|KEEP\n2|08EE001|LEVEL_ONLY|REJECT\n3|08EE005|FLOW_GAP|REJECT\n4|08EE003|FLOW_GAP|REJECT",
+  "metadata": {
+    "State-Gated Retrieval": [
+      "First identify mainstem candidate stations on the Historical Results list that appear to cover 1948/1950 and carry a Flow label.",
+      "A station qualifies only if its availability page shows the target years in the Flow section and all of April-July marked C.",
+      "The final output must report target_window_status and final_verdict for each station in the same station set, ordered from downstream to upstream."
+    ],
+    "dependency_type": "Data + Control",
+    "intra_chain": true,
+    "inter_chain": true,
+    "data_dependency": [
+      "the Historical Results list yields four downstream-to-upstream mainstem candidates whose result rows span the target years and include Flow labels",
+      "each candidate's availability page yields whether the target years are in the Flow table and whether April-July is complete",
+      "the final ordered rows are produced only after all four stations are classified under the full Flow-table-and-Apr-Jul-C rule"
+    ],
+    "control_dependency": [
+      "list-level year spans and coarse Flow tags must be confirmed by explicit target-month checks on the availability page",
+      "Hazelton, Smithers, and Houston candidate statuses must be fixed before the downstream-most KEEP row can be confirmed",
+      "row order and KEEP/REJECT labels must be emitted only after the full availability-page rule is applied to all four stations"
+    ],
+    "freeze": {
+      "historical_window": "the target mainstem stations tested against 1948 and 1950 daily Flow availability, with April-July requiring complete C coverage"
+    },
+    "answer_type": "multi-row ordered table"
+  },
+  "rubric": {
+    "inclusion_conditions": [
+      "First, from the Historical Results list, identify mainstem candidate stations that superficially appear to cover 1948/1950 and have a Flow label.",
+      "A truly qualified station must satisfy, on its availability page, that the target years are in the Flow section and that April–July are all marked C.",
+      "Finally, report target_window_status and final_verdict for each station in the same station set, ordered from downstream to upstream."
+    ],
+    "exclusion_conditions": [
+      "Exclude stations deemed usable based solely on list-level year span and coarse Flow label.",
+      "Exclude retaining LEVEL_ONLY or FLOW_GAP stations in the final answer.",
+      "Exclude results that do not apply the full availability-page rule to all initially screened stations."
+    ],
+    "normalization": {
+      "field_separator": "|",
+      "record_separator": "\n",
+      "header_row": "omit the header row; emit data rows only",
+      "schema": [
+        "rank",
+        "station_number",
+        "target_window_status",
+        "final_verdict"
+      ],
+      "rank": "emit 1 through 4 in downstream-to-upstream order within the validated station set",
+      "station_number": "preserve the station number exactly",
+      "target_window_status": "emit `PASS`, `LEVEL_ONLY`, or `FLOW_GAP` exactly",
+      "final_verdict": "emit `KEEP` or `REJECT` exactly",
+      "sorting_or_selection": "downstream to upstream within the validated Bulkley River mainstem station set",
+      "stop_condition": [
+        "all four initially screened stations are classified under the full availability-page rule",
+        "the ordered table is emitted only after the downstream-to-upstream sequence is fixed"
+      ]
+    }
+  }
+}

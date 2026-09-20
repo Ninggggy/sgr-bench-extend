@@ -1,0 +1,15 @@
+{
+  "status": "reference_ready",
+  "started_at": "2026-09-13T05:22:55+00:00",
+  "work_order_seconds": 1800,
+  "prior_opportunity_elapsed_seconds": 725.716131,
+  "thread_cumulative_limit_seconds": 6000,
+  "model_tests": 0,
+  "human_validation": "not_performed",
+  "initial_format_adjustment": "Two columns replace five; no model results existed. Fixed column padding rejected. Existing scorer still counts row keys; controller notified.",
+  "finished_at": "2026-09-13T05:42:23.750687+00:00",
+  "elapsed_seconds": 1168.750687,
+  "public_request_items_new": 5,
+  "independent_pre_A_not_claimed": true,
+  "full_schema_and_prepare_passed": true
+}

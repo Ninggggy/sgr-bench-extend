@@ -1,0 +1,344 @@
+{
+  "generated_at": "2026-09-17T12:48:11.383113+00:00",
+  "phase": "diagnostic_single_trial",
+  "selected_bases": 12,
+  "tested_bases": 2,
+  "blocked": [
+    "arxiv_historical_title_001",
+    "arxiv_historical_title_002",
+    "economic_kegg_ddi_001",
+    "economic_nvd_daily_001",
+    "genome_002",
+    "kegg_initial_cdx_001",
+    "nvd_initial_assessment_001",
+    "reptile_001",
+    "wateroffice_002",
+    "waterquality_003"
+  ],
+  "results": [
+    {
+      "candidate_id": "europemc_reuse_deposit_001",
+      "revision": 2,
+      "variant": "CG",
+      "trial": 1,
+      "stage": "single_trial_comparison",
+      "run_id": "europemc_reuse_deposit_001-polish01-cg-once",
+      "status": "completed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_verification": "passed",
+      "item_f1_exact": "0",
+      "item_f1_percent": 0.0,
+      "row_f1": 0.0,
+      "whole_task_correct": false,
+      "retrieval_compliance": "failed",
+      "external_requests": 31,
+      "access_confounded": true,
+      "capability_score_eligible": false,
+      "answer_status": "partial",
+      "limitations": [
+        "The exact Europe PMC catalogue query was inaccessible: both its REST endpoint and search page returned non-retryable safety errors. Candidate completeness therefore could not be independently confirmed against the catalogue snapshot; the reported row is the qualifying article found through bounded web discovery and article-level verification.",
+        "External retrieval count: 37 request items. Eighteen web-search result pages used the tool's ordinary default page size because page size was not selectable; no pagination was used. Maximum concurrency was two.",
+        "The GEO page for GSE138525 presented a CAPTCHA when opened directly; the publisher's data-availability statement explicitly identifies it as the study's generated and analyzed dataset."
+      ],
+      "review_notes": "原始Item-F1=0：返回PMC7934477/GSE138525而非参考行；该论文不属于已核实的10篇ACCESSION_ID索引候选。候选接口受阻且拒绝后改HTML表示重试（L3–8），不能解释为干净能力零分。",
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 2,
+        "pred_fields": 2,
+        "item_denominator": 4,
+        "correct_rows": 0,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "elapsed_seconds": 167.123,
+      "usage": {
+        "input_tokens": 1109187,
+        "cached_input_tokens": 968448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4153,
+        "reasoning_output_tokens": 2397
+      },
+      "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/runs/europemc_reuse_deposit_001-polish01-cg-once"
+    },
+    {
+      "candidate_id": "europemc_reuse_deposit_001",
+      "revision": 2,
+      "variant": "GO",
+      "trial": 1,
+      "stage": "single_trial_comparison",
+      "run_id": "europemc_reuse_deposit_001-polish01-go-once",
+      "status": "completed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_verification": "passed",
+      "item_f1_exact": "0",
+      "item_f1_percent": 0.0,
+      "row_f1": 0.0,
+      "whole_task_correct": false,
+      "retrieval_compliance": "passed",
+      "external_requests": 33,
+      "access_confounded": true,
+      "capability_score_eligible": false,
+      "answer_status": "complete",
+      "limitations": [
+        "External retrieval request count: 31. Maximum concurrent request items: 2.",
+        "The bounded Europe PMC catalogue API request was rejected as non-retryable, so it was not retried through another representation. Candidate coverage was instead checked through bounded searches and individual full-text records.",
+        "Default-page case: the ordinary GEO series page for GSE138525 exposed its full 426-sample listing; no export or subsequent sample-level retrieval was performed."
+      ],
+      "review_notes": "原始Item-F1=0，返回同一范围外论文。获取行为合规，但完整索引查询受阻，不能将结果解释为无访问混淆的能力零分；自报31请求不准确，实际33。声称complete却未验证索引范围。",
+      "score_status": "deterministic_explicit",
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 2,
+        "pred_fields": 2,
+        "item_denominator": 4,
+        "correct_rows": 0,
+        "gold_rows": 1,
+        "pred_rows": 1,
+        "row_denominator": 2,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "elapsed_seconds": 207.497,
+      "usage": {
+        "input_tokens": 968409,
+        "cached_input_tokens": 859264,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5160,
+        "reasoning_output_tokens": 3118
+      },
+      "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/runs/europemc_reuse_deposit_001-polish01-go-once"
+    },
+    {
+      "candidate_id": "stap_replication_protocol_001",
+      "revision": 2,
+      "variant": "CG",
+      "trial": 1,
+      "stage": "single_trial_comparison",
+      "run_id": "stap_replication_protocol_001-polish01-cg-once",
+      "status": "completed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_verification": "passed",
+      "item_f1_exact": null,
+      "item_f1_percent": null,
+      "row_f1": null,
+      "whole_task_correct": null,
+      "retrieval_compliance": "inconclusive",
+      "external_requests": 47,
+      "access_confounded": true,
+      "capability_score_eligible": false,
+      "answer_status": "partial",
+      "limitations": [
+        "The complete Europe PMC open-access citing cohort could not be resolved because the citations endpoint was denied as non-retryable. The task explicitly requires UNRESOLVED when cohort completeness cannot be established.",
+        "47 external request items were used; no more than two were in flight at once. Thirty-six web-search requests used the search tool’s ordinary default result page; no enlarged or all-results view was requested.",
+        "The four experimentally eligible reports discovered and individually examined were Tang (PMID 25075303), De Los Angeles (PMID 26399835), Niwa (PMID 27292224), and Aizawa (PMID 27610221), but cohort completeness remains unverified."
+      ],
+      "review_notes": "最终UNRESOLVED，评分器metrics=null，因此NA而非0。完整引用集合访问受阻；曾讨论4篇实验报告，但未交付答案表，不能据此计内容错误。L47–50的被拒论文定向搜索存在合规疑点，标为inconclusive。",
+      "score_status": "parse_failure_unscored",
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 12,
+        "pred_fields": 0,
+        "item_denominator": 12,
+        "correct_rows": 0,
+        "gold_rows": 3,
+        "pred_rows": 0,
+        "row_denominator": 3,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "elapsed_seconds": 263.408,
+      "usage": {
+        "input_tokens": 2437929,
+        "cached_input_tokens": 2261632,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5543,
+        "reasoning_output_tokens": 3341
+      },
+      "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/runs/stap_replication_protocol_001-polish01-cg-once"
+    },
+    {
+      "candidate_id": "stap_replication_protocol_001",
+      "revision": 2,
+      "variant": "GO",
+      "trial": 1,
+      "stage": "single_trial_comparison",
+      "run_id": "stap_replication_protocol_001-polish01-go-once",
+      "status": "completed",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "model_verification": "passed",
+      "item_f1_exact": null,
+      "item_f1_percent": null,
+      "row_f1": null,
+      "whole_task_correct": null,
+      "retrieval_compliance": "passed",
+      "external_requests": 3,
+      "access_confounded": true,
+      "capability_score_eligible": false,
+      "answer_status": "abstain",
+      "limitations": [
+        "The required Europe PMC citing-publication cohort for PMID 24476887 could not be resolved because its citations endpoint returned an explicit non-retryable access error. Per policy, it was not retried or obtained through another representation, so eligible studies cannot safely be enumerated.",
+        "External retrieval request count: 3 (two search queries and one failed endpoint open). Maximum concurrent request items: 2.",
+        "Default-page cases: 2 search queries used the search provider’s ordinary default result page because page size was not selectable.",
+        "Actual access date: 17 September 2026 UTC. No qualifying-publication row is asserted because cohort evidence is incomplete."
+      ],
+      "review_notes": "3次请求后因不可重试的引用接口拒绝而停止，返回UNRESOLVED。遵守访问限制；metrics=null，NA，不补零。没有可评价的答案表。",
+      "score_status": "parse_failure_unscored",
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 12,
+        "pred_fields": 0,
+        "item_denominator": 12,
+        "correct_rows": 0,
+        "gold_rows": 3,
+        "pred_rows": 0,
+        "row_denominator": 3,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "elapsed_seconds": 55.353,
+      "usage": {
+        "input_tokens": 49736,
+        "cached_input_tokens": 31232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1398,
+        "reasoning_output_tokens": 931
+      },
+      "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/runs/stap_replication_protocol_001-polish01-go-once"
+    }
+  ],
+  "summary": {
+    "CG": {
+      "raw": {
+        "trials": 2,
+        "scored": 1,
+        "NA": 1,
+        "macro_item_f1_exact": "0",
+        "macro_item_f1_percent": 0.0,
+        "whole_task_correct": 0,
+        "whole_task_accuracy_percent": 0.0
+      },
+      "compliant": {
+        "trials": 0,
+        "scored": 0,
+        "NA": 0,
+        "macro_item_f1_exact": null,
+        "macro_item_f1_percent": null,
+        "whole_task_correct": 0,
+        "whole_task_accuracy_percent": null
+      },
+      "compliant_without_known_confounds": {
+        "trials": 0,
+        "scored": 0,
+        "NA": 0,
+        "macro_item_f1_exact": null,
+        "macro_item_f1_percent": null,
+        "whole_task_correct": 0,
+        "whole_task_accuracy_percent": null
+      }
+    },
+    "GO": {
+      "raw": {
+        "trials": 2,
+        "scored": 1,
+        "NA": 1,
+        "macro_item_f1_exact": "0",
+        "macro_item_f1_percent": 0.0,
+        "whole_task_correct": 0,
+        "whole_task_accuracy_percent": 0.0
+      },
+      "compliant": {
+        "trials": 2,
+        "scored": 1,
+        "NA": 1,
+        "macro_item_f1_exact": "0",
+        "macro_item_f1_percent": 0.0,
+        "whole_task_correct": 0,
+        "whole_task_accuracy_percent": 0.0
+      },
+      "compliant_without_known_confounds": {
+        "trials": 0,
+        "scored": 0,
+        "NA": 0,
+        "macro_item_f1_exact": null,
+        "macro_item_f1_percent": null,
+        "whole_task_correct": 0,
+        "whole_task_accuracy_percent": null
+      }
+    }
+  },
+  "cost": {
+    "input_tokens": 4565261,
+    "input_tokens_known_sessions": 4,
+    "cached_input_tokens": 4120576,
+    "cached_input_tokens_known_sessions": 4,
+    "output_tokens": 16254,
+    "output_tokens_known_sessions": 4,
+    "reasoning_output_tokens": 9787,
+    "reasoning_output_tokens_known_sessions": 4,
+    "cache_write_input_tokens": 0,
+    "cache_write_input_tokens_known_sessions": 4,
+    "planned_blind_trials": 4,
+    "started_blind_trials": 4,
+    "completed_blind_trials": 4,
+    "sum_worker_seconds": 693.381,
+    "blind_wall_seconds": 263.407987,
+    "controller_tokens": null,
+    "controller_cost": "unknown; same host conversation, no fabricated model/session accounting",
+    "currency_cost": null,
+    "note": "Cached input is included in input; worker durations are not wall time. Shared account quota change is not attributed to this batch."
+  },
+  "raw_both_below_70": [
+    "europemc_reuse_deposit_001"
+  ],
+  "unconfounded_compliant_both_below_70": [],
+  "formal_admissions": 0,
+  "formal_admission_note": "One fresh ordinary trial per face only; not the required three-trial-per-face admission round. No historical admission records changed.",
+  "repair_followup": {
+    "arxiv_historical_title_002": {
+      "status": "legal_complete_path_unverified",
+      "finding": "完整旧目录核查显示通用词表命中168条，却遗漏r03的两个重要补项；词表搜索不能直接作为完整性证明。",
+      "evidence_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blocked_followup/arxiv_search_review.json",
+      "new_blind_trials": 0
+    },
+    "nvd_initial_assessment_001": {
+      "status": "blocked",
+      "evidence_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blocked_followup/nvd_history_early_stop.json",
+      "history_pages_before": 63,
+      "history_pages_after": 45,
+      "full_reference_answer_equal": true,
+      "reason": "已验证历史子问题可早停；但分开获取44个当前记录及45页历史至少89次，尚未包含发现。合并单条详情页的合法替代路径未验证，不能用构造端完整导出免掉当前记录获取成本。",
+      "new_blind_trials": 0
+    },
+    "reptile_001": {
+      "status": "blocked",
+      "evidence_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blocked_followup/reptile_reference_check.json",
+      "finding": "旧答案中的 oatesii 两个异属名同为2014；纳入范围尚未验证，不能据年份单独确定旧名。parallelus 必要页面本次明确拒绝访问。",
+      "new_blind_trials": 0
+    },
+    "wateroffice_002": {
+      "status": "reference_rebuilt_live_access_blocked",
+      "finding": "四站参考已从历史官方返回独立重建，等于修订答案；范围证据出处已纠正。实时页面拒绝仍未解除。",
+      "evidence_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blocked_followup/wateroffice_reference/checks.json",
+      "new_blind_trials": 0
+    },
+    "waterquality_003": {
+      "status": "fields_checked_uniqueness_geography_and_access_pending",
+      "finding": "303站元数据中49个主河道名称候选已逐站核查；14个满足年限（地理筛选前）。12038不能直接当作严格下游反例；择优规则待确认，NLDI导航入口拒绝后已停止。",
+      "evidence_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blocked_followup/wqp_sources/station_checks.json",
+      "new_blind_trials": 0
+    }
+  },
+  "delivery_status": "partial_pending_repairs"
+}

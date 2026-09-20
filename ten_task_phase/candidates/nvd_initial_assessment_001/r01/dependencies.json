@@ -1,0 +1,48 @@
+{
+  "state_sequence": [
+    {
+      "state": "Current product applicability plus publication cohort",
+      "actual_source": "sources/apache_current.response",
+      "result": "351 product matches in full response; 48 published2020-2023, of which44 contain vulnerable Apache match and4 environment-only excluded."
+    },
+    {
+      "state": "History restricted to the resulting44CVE identities",
+      "actual_source": "sources/apache_2020_2023_history.response",
+      "result": "851events, allreturned; source identity and event type define assessment timeline."
+    }
+  ],
+  "necessary_dependency": "The source-derived CVE identity set is passed to cveIds in the later answer-bearing history request. Current records lack initial assessment history; local current-data computation cannot restore it.",
+  "actual_counterexamples": [
+    {
+      "id": "CVE-2020-1934",
+      "initial_nist": "9.8",
+      "current_nist": "5.3",
+      "history_event": "2020-04-15T14:35:37.383",
+      "meaning": "Using current NIST metric as historical initial yields a different value."
+    },
+    {
+      "current_search": "48date-matchedrecords",
+      "vulnerable_only": "44records",
+      "excluded": [
+        "CVE-2021-32785",
+        "CVE-2021-32786",
+        "CVE-2021-32791",
+        "CVE-2021-32792"
+      ],
+      "meaning": "A product string match alone is not equivalent to a vulnerable-product scope."
+    }
+  ],
+  "legal_bulk_challenge": {
+    "current_product_bulk": "Actual single complete351record API export retained; it has current configurations and metrics, not historical NIST vector state. Current JSON yearfeeds remain legal alternatives to this current-record query.",
+    "history_bulk": "Actual legal batch query for44source-derivedIDs returnedall851events. Batch retrieval is allowed and embodies the dependent identity query.",
+    "unfiltered_history": "ActualunfilteredAPIresponse reports2288191events; official API paginationmax5000requiresatleast458pages for that fullhistory route, before currentcohort selection. This is not evidence every possible shortcut is impossible.",
+    "documentation": "sources/official_shipped_documentation_extract.json and original official application main.js; sources/unfiltered_history_probe.response"
+  },
+  "not_counted_as_retrieval_dependencies": [
+    "CVSSbase-scorearithmetic",
+    "sorting",
+    "localvectorcomparison",
+    "localfilteringafterallcurrentandhistorydataobtained"
+  ],
+  "audit_status": "pending_independent_Astra_audit"
+}

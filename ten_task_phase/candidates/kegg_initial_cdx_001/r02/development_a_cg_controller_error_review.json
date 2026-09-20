@@ -1,0 +1,105 @@
+{
+  "run_id": "r-kegg-cdx001-r02-cg-dev-a",
+  "recorded_score": {
+    "status": "deterministic_explicit",
+    "metrics": {
+      "Item-F1": 0.7916666666666666,
+      "Row-F1": 0.6666666666666666,
+      "P.O.A.": 1.0
+    },
+    "counts": {
+      "correct_fields": 19,
+      "gold_fields": 20,
+      "pred_fields": 28,
+      "item_denominator": 48,
+      "correct_rows": 3,
+      "gold_rows": 4,
+      "pred_rows": 5,
+      "row_denominator": 9,
+      "correct_pairs": 6,
+      "pair_denominator": 6,
+      "shared_ids": 4
+    },
+    "omitted_ids": [],
+    "extra_ids": [
+      [
+        "EVIDENCE: THE WHO ATC/DDD INDEX CLASSIFIES CAPIVASERTIB AS L01EX27 AND QUIZARTINIB AS L01EX11. FDA\u2019S HISTORICAL FOUNDATIONONE CDX SUPPLEMENT P170019/S048",
+        "TABLE 9"
+      ]
+    ],
+    "duplicate_ids": [],
+    "order_pairs": [
+      {
+        "first": [
+          "CAPIVASERTIB",
+          "AKT1"
+        ],
+        "second": [
+          "CAPIVASERTIB",
+          "PIK3CA"
+        ],
+        "correct": true
+      },
+      {
+        "first": [
+          "CAPIVASERTIB",
+          "AKT1"
+        ],
+        "second": [
+          "CAPIVASERTIB",
+          "PTEN"
+        ],
+        "correct": true
+      },
+      {
+        "first": [
+          "CAPIVASERTIB",
+          "AKT1"
+        ],
+        "second": [
+          "QUIZARTINIB DIHYDROCHLORIDE",
+          "FLT3"
+        ],
+        "correct": true
+      },
+      {
+        "first": [
+          "CAPIVASERTIB",
+          "PIK3CA"
+        ],
+        "second": [
+          "CAPIVASERTIB",
+          "PTEN"
+        ],
+        "correct": true
+      },
+      {
+        "first": [
+          "CAPIVASERTIB",
+          "PIK3CA"
+        ],
+        "second": [
+          "QUIZARTINIB DIHYDROCHLORIDE",
+          "FLT3"
+        ],
+        "correct": true
+      },
+      {
+        "first": [
+          "CAPIVASERTIB",
+          "PTEN"
+        ],
+        "second": [
+          "QUIZARTINIB DIHYDROCHLORIDE",
+          "FLT3"
+        ],
+        "correct": true
+      }
+    ],
+    "poa_note": "first occurrence positions; no reordering"
+  },
+  "quality_assessment": "No substantive domain/identity/scope/retrieval error demonstrated in CG A. All four qualifying drug-gene rows, transcripts and complete substitution memberships correct. PTEN rearrangement_that_disrupts_protein_function is semantically faithful to source qualification, despite explicit class-name serialization; this must not be counted as SGR error. Public prompt requests citations after table, but unchanged parser treats comma-containing Evidence paragraph as an extra 8-column row. Preserve original79.1667% score; cannot use it to justify difficulty/admission.",
+  "action": "Complete already registered GO A, then close if no paired substantive-error basis. Do not revise to fish for low scores, do not modify protocol/scorer, and do not launch B or admission on this CG evidence.",
+  "human_review": "not_performed",
+  "auto_validated": false
+}

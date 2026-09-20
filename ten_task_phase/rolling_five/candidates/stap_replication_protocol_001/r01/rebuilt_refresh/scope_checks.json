@@ -1,0 +1,144 @@
+{
+  "observation": "refresh",
+  "candidate_records": 49,
+  "included": 3,
+  "excluded": 46,
+  "abstractless_records": 7,
+  "fulltexts": 16,
+  "output_fields": 12,
+  "main_article_versions": {
+    "PMC4904271": {
+      "pmcid": "PMC4904271",
+      "pmcid-ver": "PMC4904271.1",
+      "pmcaid": "4904271",
+      "pmcaiid": "4904271",
+      "pmid": "27292224",
+      "doi": "10.1038/srep28003",
+      "pii": "srep28003"
+    },
+    "PMC4908587": {
+      "pmcid": "PMC4908587",
+      "pmcid-ver": "PMC4908587.1",
+      "pmcaid": "4908587",
+      "pmcaiid": "4908587",
+      "pmid": "27302093",
+      "doi": "10.1038/srep27803",
+      "pii": "srep27803"
+    },
+    "PMC4995676": {
+      "pmcid": "PMC4995676",
+      "pmcid-ver": "PMC4995676.2",
+      "pmcaid": "4995676",
+      "pmcaiid": "5070596",
+      "pmid": "27610221",
+      "doi": "10.12688/f1000research.8731.2"
+    },
+    "PMC4207037": {
+      "pmcid": "PMC4207037",
+      "pmcaid": "4207037",
+      "pmcaiid": "4207037",
+      "pmid": "25364739",
+      "doi": "10.3389/fcell.2014.00032"
+    },
+    "PMC6354101": {
+      "pmcid": "PMC6354101",
+      "pmcaid": "6354101",
+      "pmcaiid": "6354101",
+      "pmid": "30705711",
+      "doi": "10.4252/wjsc.v11.i1.1"
+    },
+    "PMC4630493": {
+      "pmcid": "PMC4630493",
+      "pmcaid": "4630493",
+      "pmcaiid": "4630493",
+      "pmid": "26539021",
+      "doi": "10.3346/jkms.2015.30.11.1713"
+    },
+    "PMC4207917": {
+      "pmcid": "PMC4207917",
+      "pmcid-ver": "PMC4207917.1",
+      "pmcaid": "4207917",
+      "pmcaiid": "4207917",
+      "pmid": "25031174",
+      "doi": "10.1016/j.bjhh.2014.05.009",
+      "publisher-id": "S1516-8484(14)00046-2"
+    },
+    "PMC4146237": {
+      "pmcid": "PMC4146237",
+      "pmcid-ver": "PMC4146237.1",
+      "pmcaid": "4146237",
+      "pmcaiid": "4146237",
+      "pmid": "25206856",
+      "doi": "10.4103/1673-5374.130087",
+      "publisher-id": "NRR-9-575"
+    },
+    "PMC4065176": {
+      "pmcid": "PMC4065176",
+      "pmcid-ver": "PMC4065176.1",
+      "pmcaid": "4065176",
+      "pmcaiid": "4065176",
+      "pmid": "24686321",
+      "doi": "10.4161/epi.28600",
+      "publisher-id": "2013EPI0214R",
+      "pii": "28600"
+    },
+    "PMC5220388": {
+      "pmcid": "PMC5220388",
+      "pmcid-ver": "PMC5220388.1",
+      "pmcaid": "5220388",
+      "pmcaiid": "5220388",
+      "pmid": "28123930",
+      "doi": "10.1016/j.molmet.2016.11.006",
+      "publisher-id": "S2212-8778(16)30220-4"
+    },
+    "PMC4080539": {
+      "pmcid": "PMC4080539",
+      "pmcaid": "4080539",
+      "pmcaiid": "4080539",
+      "pmid": "24984077",
+      "doi": "10.1289/ehp.122-A188"
+    },
+    "PMC4003273": {
+      "pmcid": "PMC4003273",
+      "pmcid-ver": "PMC4003273.1",
+      "pmcaid": "4003273",
+      "pmcaiid": "4003273",
+      "pmid": "24736840",
+      "doi": "10.1101/gad.241182.114"
+    },
+    "PMC4053948": {
+      "pmcid": "PMC4053948",
+      "pmcid-ver": "PMC4053948.1",
+      "pmcaid": "4053948",
+      "pmcaiid": "4053948",
+      "pmid": "25002192",
+      "doi": "10.1186/gb4167",
+      "publisher-id": "gb4167"
+    },
+    "PMC4255744": {
+      "pmcid": "PMC4255744",
+      "pmcid-ver": "PMC4255744.1",
+      "pmcaid": "4255744",
+      "pmcaiid": "4255744",
+      "pmid": "25472549",
+      "doi": "10.1186/1471-2105-15-S14-S5",
+      "publisher-id": "1471-2105-15-S14-S5"
+    },
+    "PMC4032108": {
+      "pmcid": "PMC4032108",
+      "pmcid-ver": "PMC4032108.1",
+      "pmcaid": "4032108",
+      "pmcaiid": "4032108",
+      "pmid": "25075303",
+      "doi": "10.12688/f1000research.4092.1"
+    },
+    "PMC4641509": {
+      "pmcid": "PMC4641509",
+      "pmcaid": "4641509",
+      "pmcaiid": "4641509",
+      "pmid": "26559758",
+      "doi": "10.7554/eLife.12708"
+    }
+  },
+  "semantic_limit": "Revalidates citations and computes annotations; does not independently adjudicate scientific meaning."
+}

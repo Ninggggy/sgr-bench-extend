@@ -1,0 +1,14 @@
+{
+  "preservation":"Observed link labels, section headings and destinations from actual native-web responses; excerpted, not complete indexes.",
+  "read_interval_utc":["2026-09-10T03:55:16Z","2026-09-10T04:00:20Z"],
+  "records":[
+    {"url":"https://www.chime.com/policies/","links":[
+      {"section":"Bancorp","label":"Deposit Account Agreement","url":"https://www.chime.com/policies/bancorp/deposit-account-agreement/"},
+      {"section":"Stride","label":"Chime Deposit Account Agreement","url":"https://www.chime.com/policies/stride/deposit-account-agreement/"}
+    ],"observation":"Other listed product categories include savings, joint accounts, secured deposits and separate Chime Card holder agreements. They are outside the explicitly stated standard-agreement scope. The index has bank sections for Bancorp and Stride."},
+    {"url":"https://solofunds.com/solo-legal/","links":[
+      {"section":"Bangor","label":"Bangor Savings Bank Deposit Account Agreement","url":"https://solofunds.com/bsb-deposit-account-agreement-and-account-disclosures/"},
+      {"section":"SoLo","label":"Archived Terms of Service","url":"https://solofunds.com/terms-archived/"}
+    ],"observation":"The index separates the archived terms from the Bangor bank documents and from Astra service-provider documents."}
+  ]
+}

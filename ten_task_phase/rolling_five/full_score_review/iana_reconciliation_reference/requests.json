@@ -1,0 +1,15 @@
+[
+  {
+    "request": 1,
+    "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+    "requested_at": "2026-09-13T01:52:34.843703+00:00",
+    "method": "GET",
+    "purpose": "Complete HTML needed for deterministic event inventory; previously browser excerpts not full capture",
+    "tool": "exec_command Python urllib.request; no solver tool configuration changed",
+    "status": 200,
+    "final_url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+    "bytes": 151447,
+    "content_type": "text/html; charset=utf-8",
+    "ended_at": "2026-09-13T01:52:36.826111+00:00"
+  }
+]

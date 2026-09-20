@@ -1,0 +1,386 @@
+[
+  {
+    "pred_index": 0,
+    "id": [
+      "CHEMBL170"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL170",
+    "pred_normalized": "CHEMBL170",
+    "gold": "CHEMBL170",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 0,
+    "id": [
+      "CHEMBL170"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "FULL",
+    "pred_normalized": "FULL",
+    "gold": "FULL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 1,
+    "id": [
+      "CHEMBL1294"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL1294",
+    "pred_normalized": "CHEMBL1294",
+    "gold": "CHEMBL1294",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 1,
+    "id": [
+      "CHEMBL1294"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "FULL",
+    "pred_normalized": "FULL",
+    "gold": "FULL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 2,
+    "id": [
+      "CHEMBL15088"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL15088",
+    "pred_normalized": "CHEMBL15088",
+    "gold": "CHEMBL15088",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 2,
+    "id": [
+      "CHEMBL15088"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "UNSPECIFIED",
+    "pred_normalized": "UNSPECIFIED",
+    "gold": "UNSPECIFIED",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 3,
+    "id": [
+      "CHEMBL387326"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL387326",
+    "pred_normalized": "CHEMBL387326",
+    "gold": "CHEMBL387326",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 3,
+    "id": [
+      "CHEMBL387326"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "PARTIAL",
+    "pred_normalized": "PARTIAL",
+    "gold": "PARTIAL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 4,
+    "id": [
+      "CHEMBL407725"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL407725",
+    "pred_normalized": "CHEMBL407725",
+    "gold": "CHEMBL407725",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 4,
+    "id": [
+      "CHEMBL407725"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "PARTIAL",
+    "pred_normalized": "PARTIAL",
+    "gold": "PARTIAL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 5,
+    "id": [
+      "CHEMBL460606"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL460606",
+    "pred_normalized": "CHEMBL460606",
+    "gold": "CHEMBL460606",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 5,
+    "id": [
+      "CHEMBL460606"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "FULL",
+    "pred_normalized": "FULL",
+    "gold": "FULL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 6,
+    "id": [
+      "CHEMBL512340"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL512340",
+    "pred_normalized": "CHEMBL512340",
+    "gold": "CHEMBL512340",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 6,
+    "id": [
+      "CHEMBL512340"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "FULL",
+    "pred_normalized": "FULL",
+    "gold": "FULL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 7,
+    "id": [
+      "CHEMBL576997"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL576997",
+    "pred_normalized": "CHEMBL576997",
+    "gold": "CHEMBL576997",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 7,
+    "id": [
+      "CHEMBL576997"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "FULL",
+    "pred_normalized": "FULL",
+    "gold": "FULL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 8,
+    "id": [
+      "CHEMBL601807"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL601807",
+    "pred_normalized": "CHEMBL601807",
+    "gold": "CHEMBL601807",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 8,
+    "id": [
+      "CHEMBL601807"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "PARTIAL",
+    "pred_normalized": "PARTIAL",
+    "gold": "PARTIAL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 9,
+    "id": [
+      "CHEMBL1358565"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL1358565",
+    "pred_normalized": "CHEMBL1358565",
+    "gold": "CHEMBL1358565",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 9,
+    "id": [
+      "CHEMBL1358565"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "FULL",
+    "pred_normalized": "FULL",
+    "gold": "FULL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 10,
+    "id": [
+      "CHEMBL1364159"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL1364159",
+    "pred_normalized": "CHEMBL1364159",
+    "gold": "CHEMBL1364159",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 10,
+    "id": [
+      "CHEMBL1364159"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "PARTIAL",
+    "pred_normalized": "PARTIAL",
+    "gold": "PARTIAL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 11,
+    "id": [
+      "CHEMBL1616938"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL1616938",
+    "pred_normalized": "CHEMBL1616938",
+    "gold": "CHEMBL1616938",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 11,
+    "id": [
+      "CHEMBL1616938"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "FULL",
+    "pred_normalized": "FULL",
+    "gold": "FULL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 12,
+    "id": [
+      "CHEMBL1741006"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL1741006",
+    "pred_normalized": "CHEMBL1741006",
+    "gold": "CHEMBL1741006",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 12,
+    "id": [
+      "CHEMBL1741006"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "FULL",
+    "pred_normalized": "FULL",
+    "gold": "FULL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 13,
+    "id": [
+      "CHEMBL1878119"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL1878119",
+    "pred_normalized": "CHEMBL1878119",
+    "gold": "CHEMBL1878119",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 13,
+    "id": [
+      "CHEMBL1878119"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "PARTIAL",
+    "pred_normalized": "PARTIAL",
+    "gold": "PARTIAL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 14,
+    "id": [
+      "CHEMBL2355467"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL2355467",
+    "pred_normalized": "CHEMBL2355467",
+    "gold": "CHEMBL2355467",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 14,
+    "id": [
+      "CHEMBL2355467"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "PARTIAL",
+    "pred_normalized": "PARTIAL",
+    "gold": "PARTIAL",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 15,
+    "id": [
+      "CHEMBL4751379"
+    ],
+    "field": "REGISTERED_ID",
+    "pred_raw": "CHEMBL4751379",
+    "pred_normalized": "CHEMBL4751379",
+    "gold": "CHEMBL4751379",
+    "correct": true,
+    "reason": "match"
+  },
+  {
+    "pred_index": 15,
+    "id": [
+      "CHEMBL4751379"
+    ],
+    "field": "STEREO_STATUS",
+    "pred_raw": "PARTIAL",
+    "pred_normalized": "PARTIAL",
+    "gold": "PARTIAL",
+    "correct": true,
+    "reason": "match"
+  }
+]

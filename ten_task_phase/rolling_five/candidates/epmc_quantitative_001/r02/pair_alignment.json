@@ -1,0 +1,75 @@
+{
+  "candidate": "epmc_quantitative_001",
+  "revision": "r02",
+  "stage": "preblind_content_repair",
+  "same_research_goal": true,
+  "same_truth": true,
+  "same_output_format": true,
+  "quotation_convention": "Each shared quotation is literal text present in both cg.json and go.json at the stated field. Differently worded predicates quote each public object separately.",
+  "shared_instruction_predicates": [
+    {"id": "goal", "quote": "Identify studies with participant-count or analysis-population corrections in European Archives of Psychiatry and Clinical Neuroscience, volume 276, issue 2. Report their corrected prior help-seeking and non-depressed counts, together with the population those counts describe."},
+    {"id": "journal_year_volume_issue_observation", "quote": "Use indexed issue membership observed on 12 September 2026: journal ISSN 0940-1334, indexed publication year 2026, volume 276, issue 2. This is an indexed-issue scope, not an online-publication-date cutoff."},
+    {"id": "notice_type_or_title_case", "quote": "A candidate notice has a correction or erratum publication type, or a title beginning Correction, Corrigendum, or Erratum, ignoring case."},
+    {"id": "qualification_and_exclusion", "quote": "Include a study if a candidate notice in this issue corrects a participant count or the definition of its analyzed population. Exclude notices confined to authorship or other changes that do not meet this condition."},
+    {"id": "source_authority", "quote": "Use the correction notice for revised values and the original study for population meaning."},
+    {"id": "diagnostic_group_meaning", "quote": "Resolve the meaning of a group using its diagnostic definition, not merely a generic label such as outpatient."},
+    {"id": "merge_original_doi", "quote": "Combine notices about the same original DOI into one study row."},
+    {"id": "unresolved_conflict", "quote": "If their relevant claims conflict and the sources do not resolve the conflict, report UNKNOWN for the affected field."}
+  ],
+  "differently_worded_instruction_predicates": [
+    {"id": "complete_metadata_screen", "cg_quote": "Enumerate the whole issue and inspect every record's title and publication types.", "go_quote": "Coverage must include every record's title and publication types and the full text of every candidate notice."},
+    {"id": "complete_notice_reading", "cg_quote": "Read every candidate notice.", "go_quote": "Coverage must include every record's title and publication types and the full text of every candidate notice."},
+    {"id": "original_identity_and_population", "cg_quote": "Match each included notice to its original study. Establish the corrected counts and the original study's initial population, analyzed subset, and explicit analysis inclusion requirements.", "go_quote": "For each included study, establish the corrected counts and the original study's initial population, analyzed subset, and explicit analysis inclusion requirements."}
+  ],
+  "shared_output_format_predicates": [
+    {"id": "container_and_column_order", "quote": "Return only PSV with columns in this order:\noriginal_pmcid|original_doi|initial_n|analyzed_n|help_n|nondepressed_n|analysis_population"},
+    {"id": "output_scale", "quote": "Return one row per included original study."},
+    {"id": "sorting_and_tie_break", "quote": "Sort by original_doi, then original_pmcid, ascending as strings."},
+    {"id": "empty_set", "quote": "If no studies qualify, return NONE."},
+    {"id": "original_identifiers", "quote": "Use the original study's prefixed PMCID and DOI."},
+    {"id": "exact_people_counts", "quote": "Counts are exact numbers of people, without percentages or rounding."},
+    {"id": "initial_population", "quote": "initial_n is the reported initial cohort total; retain dropouts if the source includes them in that total."},
+    {"id": "analyzed_population", "quote": "analyzed_n is the subset used for the relevant analysis, not an inferred valid-response denominator for an individual question."},
+    {"id": "help_event", "quote": "help_n is the corrected count reporting prior professional psychiatric or psychological help, not admissions to psychiatric units or day clinics."},
+    {"id": "nondepressed_group", "quote": "nondepressed_n is the corrected count without depression under the original study's diagnostic definition."},
+    {"id": "NA_applicability", "quote": "For help_n and nondepressed_n, use NA if no qualifying notice corrects that count."},
+    {"id": "uncorrected_context_totals", "quote": "Report initial_n and analyzed_n even if those totals were not corrected."},
+    {"id": "UNKNOWN_and_retention", "quote": "Use UNKNOWN for an applicable fact that cannot be resolved; do not omit the study."},
+    {"id": "population_component_order", "quote": "Write analysis_population as three semicolon-separated components: window;assessment;questionnaires."},
+    {"id": "analysis_window", "quote": "For window use baseline for cross-sectional data at study inclusion, followup for follow-up data, or combined if both enter the analysis."},
+    {"id": "required_assessment", "quote": "For assessment give the diagnostic assessment's name whose completion was required."},
+    {"id": "questionnaire_requirement", "quote": "For questionnaires use returned if returning the assessment questionnaires was an inclusion requirement."},
+    {"id": "absent_or_unresolved_component", "quote": "Use none only for an explicitly absent requirement, and UNKNOWN for an unresolved component."},
+    {"id": "population_field_scope", "quote": "This compact field describes inclusion in the analysis; it does not request other study methods."}
+  ],
+  "shared_contract": {
+    "authority": "The identical output_format strings in cg.json and go.json; this file adds no solver requirements.",
+    "columns": ["original_pmcid", "original_doi", "initial_n", "analyzed_n", "help_n", "nondepressed_n", "analysis_population"],
+    "row_key": ["original_pmcid", "original_doi"],
+    "sort": ["original_doi", "original_pmcid"],
+    "numeric_threshold": "None; eligibility depends on correction content, not count magnitude.",
+    "row_limit": "None; include every qualifying original study.",
+    "ties": "The second sort key resolves equal DOI strings; notices sharing an original DOI are consolidated.",
+    "missing": {"NA": "Uncorrected requested help or non-depressed count", "UNKNOWN": "Applicable unresolved fact or population component", "NONE": "Empty qualifying study set"}
+  },
+  "ambiguity_checks": [
+    {"issue": "Issue year versus online year", "interpretation_a": "Use indexed 2026 issue assignment.", "interpretation_b": "Require first online publication in 2026.", "difference": "Different notice sets: the publisher dates both correction notices online in 2025 while assigning them to the March 2026 issue.", "resolution": "Both public instructions retain the indexed-year scope and explicitly reject an online-publication-date cutoff.", "evidence": ["preblind_review.json:scope_review"]},
+    {"issue": "Unnamed site versus a replacement universe", "interpretation_a": "Retain the observed indexed issue defined by the stated journal and metadata fields.", "interpretation_b": "Replace it with any publisher or search-result collection containing similar journal/year wording.", "difference": "No different task-relevant notice set was observed on the publisher page; equality of every indexed and publisher identity was not independently established. Equal totals alone would be insufficient.", "resolution": "Removed only the site attribution. Retained indexed issue membership, observation date, ISSN, indexed year, volume and issue; did not redefine scope as a publisher collection or an unrestricted search.", "evidence": ["preblind_review.json:scope_review"]},
+    {"issue": "Correction title alone versus quantitative eligibility", "interpretation_a": "Return every candidate correction.", "interpretation_b": "Return only studies with a participant-count or analyzed-population correction.", "difference": "Two candidate notices versus one qualifying study under the supplied execution; the separate author-name correction is excluded.", "resolution": "Both instructions separately state candidate discovery and content qualification.", "evidence": ["ACTUAL EXECUTION", "preblind_review.json:source_checks"]},
+    {"issue": "Notice type AND title versus OR", "interpretation_a": "Either publication type or title prefix qualifies a notice for inspection.", "interpretation_b": "Both must match.", "difference": "No set difference in the supplied observation: type and title candidate sets agree. The definitions differ generally.", "resolution": "Both public instructions explicitly use or; no private requirement for both was added.", "evidence": ["ACTUAL EXECUTION:checks"]},
+    {"issue": "Blanket NA rule", "interpretation_a": "Use NA for every numeric field that a notice did not revise.", "interpretation_b": "Use NA for an uncorrected requested outcome count, but report the original population totals.", "difference": "Different output tuples: interpretation A makes the uncorrected initial cohort total NA, contradicting the supplied field definition and verified value 730.", "resolution": "True content ambiguity repaired in the shared public output_format: NA is explicitly scoped to help_n and nondepressed_n, and context totals remain reportable when uncorrected.", "evidence": ["FIELD EVIDENCE:initial_n", "FIELD EVIDENCE:analyzed_n", "ACTUAL EXECUTION"]},
+    {"issue": "Initial versus analyzed people", "interpretation_a": "Use the reported initial cohort including its included dropouts, and the explicitly analyzed subset.", "interpretation_b": "Subtract dropouts from the initial cohort or substitute the initial cohort for the analyzed subset.", "difference": "730 versus 712 for the initial total; 581 versus 730 for the analyzed total.", "resolution": "The shared definitions explicitly retain included dropouts and distinguish the analyzed subset from other denominators.", "evidence": ["FIELD EVIDENCE:initial_n", "FIELD EVIDENCE:analyzed_n"]},
+    {"issue": "Help event and diagnostic group", "interpretation_a": "Use revised prior professional help and the diagnostically non-depressed group.", "interpretation_b": "Use the admissions event or treat outpatient as the diagnostic definition.", "difference": "The supplied evidence distinguishes 271 from the replaced admissions count 109. The original diagnostic groups also prevent equating recruitment setting with depression status.", "resolution": "Both public objects specify the help event, correction precedence, and diagnostic group meaning.", "evidence": ["FIELD EVIDENCE:help_n", "FIELD EVIDENCE:nondepressed_n"]},
+    {"issue": "Study design versus current analysis", "interpretation_a": "Encode the current baseline cross-section and its completed-assessment and questionnaire-return requirements.", "interpretation_b": "Encode followup from the broader prospective design or infer none from omitted notice details.", "difference": "Different population codes; supplied original Par9 and Par12 support baseline;SCID-5;returned.", "resolution": "The public field describes inclusion in the relevant analysis, defines the window codes, and distinguishes explicit absence from unresolved evidence.", "evidence": ["FIELD EVIDENCE:analysis_population"]},
+    {"issue": "Original entity versus notice entity", "interpretation_a": "Output the corrected original study's identifiers.", "interpretation_b": "Output the notice's identifiers or a numeric PMCAID.", "difference": "Different entity keys.", "resolution": "Both public formats require the original study's prefixed PMCID and DOI; consolidation also names the original DOI.", "evidence": ["FIELD EVIDENCE:original_pmcid", "FIELD EVIDENCE:original_doi"]}
+  ],
+  "construction_checks": {
+    "method": "Actually executed JavaScript checks on the constructed public strings; no solver or reference execution.",
+    "literal_quote_pairs_checked": 30,
+    "all_quotes_present": true,
+    "output_format_content_equal": true,
+    "public_objects_have_only_instruction_and_output_format": true,
+    "site_names_urls_start_url_and_answer_identifiers_absent_from_instructions": true
+  },
+  "language_review": "Both openings state the research target and requested result. CG supplies three short research steps. GO states coverage and evidence obligations without ordering retrieval. Domain distinctions, missing rules, identifiers, and sorting remain explicit. No winner, answer count, retrieval endpoint, or complete hit list appears in either instruction. English semantics were reviewed directly; no translation substitutes for this review."
+}

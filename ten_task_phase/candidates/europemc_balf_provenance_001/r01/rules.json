@@ -1,0 +1,18 @@
+{
+  "columns": [
+    "pmcid",
+    "deposit_accession"
+  ],
+  "row_key": [
+    "pmcid",
+    "deposit_accession"
+  ],
+  "fields": {
+    "pmcid": {
+      "type": "string"
+    },
+    "deposit_accession": {
+      "type": "string"
+    }
+  }
+}

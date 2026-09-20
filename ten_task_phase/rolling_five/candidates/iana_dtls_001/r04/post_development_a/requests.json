@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xml",
+    "started_at": "2026-09-13T02:16:37.658370+00:00",
+    "method": "urllib.request same official source URL, no retry",
+    "status": 200,
+    "final_url": "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xml",
+    "bytes": 49922,
+    "raw_equal_before": true,
+    "ended_at": "2026-09-13T02:16:38.251605+00:00"
+  },
+  {
+    "url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+    "started_at": "2026-09-13T02:16:38.251635+00:00",
+    "method": "urllib.request same official source URL, no retry",
+    "status": 200,
+    "final_url": "https://datatracker.ietf.org/doc/draft-ietf-tls-dtls-connection-id/history/",
+    "bytes": 151447,
+    "raw_equal_before": false,
+    "ended_at": "2026-09-13T02:16:39.243532+00:00"
+  }
+]

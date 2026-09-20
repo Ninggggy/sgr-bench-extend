@@ -1,0 +1,24 @@
+{
+  "columns": [
+    "zone",
+    "start_local",
+    "end_local",
+    "offsets_2024a",
+    "offsets_2024b"
+  ],
+  "row_key": [
+    "zone",
+    "start_local"
+  ],
+  "fields": {},
+  "status": "deterministic_explicit",
+  "normalization": "score_answer.py performs generic syntax normalization and the explicitly listed identity aliases before the existing runtime scorer. All rows, duplicates and extra columns are retained. Each of five fields has equal weight; offset sets are single fields, not weighted by cardinality. Row match uses zone plus normalized local start. Missing or extra rows count in F1. Order does not affect Item-F1. Maximal interval requirement is substantive.",
+  "zone_aliases": {
+    "Azores": "Atlantic/Azores",
+    "Madeira": "Atlantic/Madeira",
+    "Lisbon": "Europe/Lisbon"
+  },
+  "key_policy": "Matching requires both zone and start_local. A wrong key receives no field credit for that row. The key fields receive equal weight with each other field once matched.",
+  "qualification": "Only parsed substantive tables are score-eligible; blank, whitespace, NONE and parse failures never qualify. A numerical <70 score still requires independent trajectory/access/exposure review.",
+  "whole_answer": "All fields and rows correct, no extra/missing/duplicate/malformed rows, sorted order, no ignored prose. Semantic table correctness is reported separately."
+}

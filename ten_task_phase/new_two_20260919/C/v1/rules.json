@@ -1,0 +1,21 @@
+{
+  "columns": [
+    "configuration",
+    "VS",
+    "frame_bytes",
+    "ra_offset",
+    "f0_offset",
+    "fcsr_range",
+    "v0_offset",
+    "overwritten_integer_bytes"
+  ],
+  "row_key": [
+    "configuration",
+    "VS"
+  ],
+  "fields": {},
+  "status": "deterministic_explicit",
+  "normalization": "Case-insensitive configuration, state and architectural register aliases (ra=X1); decimal or either-case hexadecimal integers; whitespace-insensitive complete half-open interval grammar with increasing endpoints. v0 nullable synonyms: NONE, N/A, not saved, absent, \u2205. Overwrite nullable synonyms: NONE, N/A, no overwrite, no overwrites, \u2205. Blanks are missing. All eight fields equal weight. Preserve duplicates and extras. Both key fields required.",
+  "qualification": "A substantive parsed table, valid protocol and successful trajectory/access/exposure review are required in addition to 10n<7d. Empty/failed output cannot qualify.",
+  "whole_answer": "Exact semantic rows, no extras/missing/duplicate rows, plus required order and no extra prose; format errors reported separately."
+}

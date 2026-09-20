@@ -1,0 +1,8 @@
+{
+  "checks": {
+    "answer.psv": true,
+    "inventory.json": true
+  },
+  "sources": "../sources_post_A/controller_downloads.json",
+  "conclusion": "Full candidate inventory and answer unchanged over development A."
+}

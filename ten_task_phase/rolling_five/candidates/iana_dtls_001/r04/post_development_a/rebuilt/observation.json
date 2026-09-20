@@ -1,0 +1,36 @@
+{
+  "registry_record_count": 103,
+  "in_scope": [
+    {
+      "record_index": 54,
+      "value": "53",
+      "name": "connection_id (deprecated)",
+      "dtls-only": "Y",
+      "references": [
+        {
+          "type": "rfc",
+          "data": "rfc9146"
+        },
+        {
+          "type": "rfc",
+          "data": "rfc9847"
+        }
+      ],
+      "included": true,
+      "reason": "individual numeric, DTLS-only Y, deprecated name"
+    }
+  ],
+  "history_event_count": 170,
+  "date_min": "2017-12-27",
+  "date_max": "2024-01-26",
+  "categories": {
+    "other_event": 153,
+    "iana_administrative_state": 11,
+    "other_comment_with_iana_or_53": 5,
+    "substantive_iana_review_candidate": 1
+  },
+  "has_pagination_marker": false,
+  "history_first_event": "history-967196",
+  "history_last_event": "history-579122",
+  "coverage_limit": "Complete returned official draft-family History HTML, including expanded full comment bodies; no assertion of all unrecorded/off-page correspondence."
+}

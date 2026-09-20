@@ -1,0 +1,849 @@
+{
+  "at": "2026-09-10T12:06:24.213330+00:00",
+  "candidate_id": "arxiv_historical_title_002",
+  "revision": 3,
+  "protocol_version": "ten-task-v1",
+  "tests": [
+    {
+      "stage": "开发 A",
+      "purpose": "development",
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "r-arxiv-histtitle002-r03-cg-dev-a",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 1,
+        "raw_tool_records": 58,
+        "tool_calls": {
+          "exec": 29
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.7647058823529411,
+          "Row-F1": 0.7647058823529411,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "13/17",
+      "Item-F1_percent": 76.47058823529412,
+      "counts": {
+        "correct_fields": 78,
+        "gold_fields": 126,
+        "pred_fields": 78,
+        "item_denominator": 204,
+        "correct_rows": 13,
+        "gold_rows": 21,
+        "pred_rows": 13,
+        "row_denominator": 34,
+        "correct_pairs": 78,
+        "pair_denominator": 78,
+        "shared_ids": 13
+      },
+      "elapsed_seconds": 463.216,
+      "ended_at": "2026-09-10T10:50:57.099806+00:00",
+      "included_in_admission_mean": false
+    },
+    {
+      "stage": "开发 B",
+      "purpose": "development",
+      "variant": "CG",
+      "trial": 2,
+      "run_id": "r-arxiv-histtitle002-r03-cg-dev-b",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 1,
+        "raw_tool_records": 44,
+        "tool_calls": {
+          "exec": 21,
+          "wait": 1
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.5517241379310345,
+          "Row-F1": 0.5517241379310345,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "16/29",
+      "Item-F1_percent": 55.172413793103445,
+      "counts": {
+        "correct_fields": 48,
+        "gold_fields": 126,
+        "pred_fields": 48,
+        "item_denominator": 174,
+        "correct_rows": 8,
+        "gold_rows": 21,
+        "pred_rows": 8,
+        "row_denominator": 29,
+        "correct_pairs": 28,
+        "pair_denominator": 28,
+        "shared_ids": 8
+      },
+      "elapsed_seconds": 372.77,
+      "ended_at": "2026-09-10T11:06:07.657471+00:00",
+      "included_in_admission_mean": false
+    },
+    {
+      "stage": "捷径攻击",
+      "purpose": "attack",
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "r-arxiv-histtitle002-r03-cg-attack",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 1,
+        "raw_tool_records": 38,
+        "tool_calls": {
+          "exec": 19
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.6,
+          "Row-F1": 0.6,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "3/5",
+      "Item-F1_percent": 60.0,
+      "counts": {
+        "correct_fields": 54,
+        "gold_fields": 126,
+        "pred_fields": 54,
+        "item_denominator": 180,
+        "correct_rows": 9,
+        "gold_rows": 21,
+        "pred_rows": 9,
+        "row_denominator": 30,
+        "correct_pairs": 36,
+        "pair_denominator": 36,
+        "shared_ids": 9
+      },
+      "elapsed_seconds": 363.076,
+      "ended_at": "2026-09-10T11:12:11.935297+00:00",
+      "included_in_admission_mean": false
+    },
+    {
+      "stage": "开发 A",
+      "purpose": "development",
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "r-arxiv-histtitle002-r03-go-dev-a",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 2,
+        "raw_tool_records": 90,
+        "tool_calls": {
+          "exec": 45
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.7272727272727273,
+          "Row-F1": 0.7272727272727273,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "8/11",
+      "Item-F1_percent": 72.72727272727273,
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 126,
+        "pred_fields": 72,
+        "item_denominator": 198,
+        "correct_rows": 12,
+        "gold_rows": 21,
+        "pred_rows": 12,
+        "row_denominator": 33,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "elapsed_seconds": 724.994,
+      "ended_at": "2026-09-10T10:55:18.876411+00:00",
+      "included_in_admission_mean": false
+    },
+    {
+      "stage": "开发 B",
+      "purpose": "development",
+      "variant": "GO",
+      "trial": 2,
+      "run_id": "r-arxiv-histtitle002-r03-go-dev-b",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 2,
+        "raw_tool_records": 96,
+        "tool_calls": {
+          "exec": 47,
+          "wait": 1
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.8,
+          "Row-F1": 0.8,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "4/5",
+      "Item-F1_percent": 80.0,
+      "counts": {
+        "correct_fields": 84,
+        "gold_fields": 126,
+        "pred_fields": 84,
+        "item_denominator": 210,
+        "correct_rows": 14,
+        "gold_rows": 21,
+        "pred_rows": 14,
+        "row_denominator": 35,
+        "correct_pairs": 91,
+        "pair_denominator": 91,
+        "shared_ids": 14
+      },
+      "elapsed_seconds": 806.113,
+      "ended_at": "2026-09-10T11:13:22.031505+00:00",
+      "included_in_admission_mean": false
+    },
+    {
+      "stage": "捷径攻击",
+      "purpose": "attack",
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "r-arxiv-histtitle002-r03-go-attack",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 1,
+        "raw_tool_records": 64,
+        "tool_calls": {
+          "exec": 32
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.7647058823529411,
+          "Row-F1": 0.7647058823529411,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "13/17",
+      "Item-F1_percent": 76.47058823529412,
+      "counts": {
+        "correct_fields": 78,
+        "gold_fields": 126,
+        "pred_fields": 78,
+        "item_denominator": 204,
+        "correct_rows": 13,
+        "gold_rows": 21,
+        "pred_rows": 13,
+        "row_denominator": 34,
+        "correct_pairs": 78,
+        "pair_denominator": 78,
+        "shared_ids": 13
+      },
+      "elapsed_seconds": 533.911,
+      "ended_at": "2026-09-10T11:22:17.238497+00:00",
+      "included_in_admission_mean": false
+    },
+    {
+      "stage": "正式收录复测",
+      "purpose": "admission",
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "r-arxiv-histtitle002-r03-cg-admission-1",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 1,
+        "raw_tool_records": 52,
+        "tool_calls": {
+          "exec": 26
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.8333333333333334,
+          "Row-F1": 0.8333333333333334,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "5/6",
+      "Item-F1_percent": 83.33333333333334,
+      "counts": {
+        "correct_fields": 90,
+        "gold_fields": 126,
+        "pred_fields": 90,
+        "item_denominator": 216,
+        "correct_rows": 15,
+        "gold_rows": 21,
+        "pred_rows": 15,
+        "row_denominator": 36,
+        "correct_pairs": 105,
+        "pair_denominator": 105,
+        "shared_ids": 15
+      },
+      "elapsed_seconds": 478.574,
+      "started_at": "2026-09-10T11:45:18.880492+00:00",
+      "ended_at": "2026-09-10T11:53:17.522350+00:00",
+      "included_in_admission_mean": true
+    },
+    {
+      "stage": "正式收录复测",
+      "purpose": "admission",
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "r-arxiv-histtitle002-r03-go-admission-1",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 1,
+        "raw_tool_records": 46,
+        "tool_calls": {
+          "exec": 21,
+          "wait": 2
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.4444444444444444,
+          "Row-F1": 0.4444444444444444,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "4/9",
+      "Item-F1_percent": 44.44444444444444,
+      "counts": {
+        "correct_fields": 36,
+        "gold_fields": 126,
+        "pred_fields": 36,
+        "item_denominator": 162,
+        "correct_rows": 6,
+        "gold_rows": 21,
+        "pred_rows": 6,
+        "row_denominator": 27,
+        "correct_pairs": 15,
+        "pair_denominator": 15,
+        "shared_ids": 6
+      },
+      "elapsed_seconds": 452.782,
+      "started_at": "2026-09-10T11:53:18.842760+00:00",
+      "ended_at": "2026-09-10T12:00:51.627508+00:00",
+      "included_in_admission_mean": true
+    },
+    {
+      "stage": "正式收录复测",
+      "purpose": "admission",
+      "variant": "CG",
+      "trial": 2,
+      "run_id": "r-arxiv-histtitle002-r03-cg-admission-2",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 1,
+        "raw_tool_records": 42,
+        "tool_calls": {
+          "exec": 21
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.7272727272727273,
+          "Row-F1": 0.7272727272727273,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "8/11",
+      "Item-F1_percent": 72.72727272727273,
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 126,
+        "pred_fields": 72,
+        "item_denominator": 198,
+        "correct_rows": 12,
+        "gold_rows": 21,
+        "pred_rows": 12,
+        "row_denominator": 33,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "elapsed_seconds": 352.688,
+      "started_at": "2026-09-10T11:45:18.880614+00:00",
+      "ended_at": "2026-09-10T11:51:11.635255+00:00",
+      "included_in_admission_mean": true
+    },
+    {
+      "stage": "正式收录复测",
+      "purpose": "admission",
+      "variant": "GO",
+      "trial": 2,
+      "run_id": "r-arxiv-histtitle002-r03-go-admission-2",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 1,
+        "raw_tool_records": 82,
+        "tool_calls": {
+          "exec": 41
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.7272727272727273,
+          "Row-F1": 0.7272727272727273,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "8/11",
+      "Item-F1_percent": 72.72727272727273,
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 126,
+        "pred_fields": 72,
+        "item_denominator": 198,
+        "correct_rows": 12,
+        "gold_rows": 21,
+        "pred_rows": 12,
+        "row_denominator": 33,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "elapsed_seconds": 624.253,
+      "started_at": "2026-09-10T11:51:13.070015+00:00",
+      "ended_at": "2026-09-10T12:01:37.327900+00:00",
+      "included_in_admission_mean": true
+    },
+    {
+      "stage": "正式收录复测",
+      "purpose": "admission",
+      "variant": "CG",
+      "trial": 3,
+      "run_id": "r-arxiv-histtitle002-r03-cg-admission-3",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 1,
+        "raw_tool_records": 60,
+        "tool_calls": {
+          "exec": 30
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.7272727272727273,
+          "Row-F1": 0.7272727272727273,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "8/11",
+      "Item-F1_percent": 72.72727272727273,
+      "counts": {
+        "correct_fields": 72,
+        "gold_fields": 126,
+        "pred_fields": 72,
+        "item_denominator": 198,
+        "correct_rows": 12,
+        "gold_rows": 21,
+        "pred_rows": 12,
+        "row_denominator": 33,
+        "correct_pairs": 66,
+        "pair_denominator": 66,
+        "shared_ids": 12
+      },
+      "elapsed_seconds": 614.533,
+      "started_at": "2026-09-10T11:45:18.880614+00:00",
+      "ended_at": "2026-09-10T11:55:33.481671+00:00",
+      "included_in_admission_mean": true
+    },
+    {
+      "stage": "正式收录复测",
+      "purpose": "admission",
+      "variant": "GO",
+      "trial": 3,
+      "run_id": "r-arxiv-histtitle002-r03-go-admission-3",
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium",
+      "verification": {
+        "public_keys": true,
+        "isolation": true,
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "model_evidence_sources": [
+          "run.json request",
+          "invocation.json argv",
+          "solver.config.toml",
+          "sessions turn_context"
+        ],
+        "verified_turn_contexts": 1,
+        "raw_tool_records": 46,
+        "tool_calls": {
+          "exec": 20,
+          "wait": 3
+        },
+        "completion_event": true,
+        "model_status": "complete",
+        "end_status": "completed",
+        "scored": true,
+        "stage_schema": true,
+        "exact_extraction": true,
+        "parse_status": "parsed",
+        "metrics": {
+          "Item-F1": 0.5517241379310345,
+          "Row-F1": 0.5517241379310345,
+          "P.O.A.": 1.0
+        },
+        "historical_scorer": "Recomputed with this run implementation/score.py; later global scorer edits do not replace recorded scoring semantics.",
+        "status": "passed"
+      },
+      "Item-F1_exact": "16/29",
+      "Item-F1_percent": 55.172413793103445,
+      "counts": {
+        "correct_fields": 48,
+        "gold_fields": 126,
+        "pred_fields": 48,
+        "item_denominator": 174,
+        "correct_rows": 8,
+        "gold_rows": 21,
+        "pred_rows": 8,
+        "row_denominator": 29,
+        "correct_pairs": 28,
+        "pair_denominator": 28,
+        "shared_ids": 8
+      },
+      "elapsed_seconds": 462.981,
+      "started_at": "2026-09-10T11:55:35.074191+00:00",
+      "ended_at": "2026-09-10T12:03:18.058010+00:00",
+      "included_in_admission_mean": true
+    }
+  ],
+  "admission": {
+    "registered": true,
+    "registered_at": "2026-09-10T11:45:08.141161+00:00",
+    "complete": true,
+    "slots": [
+      {
+        "variant": "CG",
+        "trial": 1,
+        "run_id": "r-arxiv-histtitle002-r03-cg-admission-1",
+        "run_dir": "../runs/r-arxiv-histtitle002-r03-cg-admission-1",
+        "label": "admission_arxiv_historical_title_002_r03_CG_1",
+        "status": "completed"
+      },
+      {
+        "variant": "GO",
+        "trial": 1,
+        "run_id": "r-arxiv-histtitle002-r03-go-admission-1",
+        "run_dir": "../runs/r-arxiv-histtitle002-r03-go-admission-1",
+        "label": "admission_arxiv_historical_title_002_r03_GO_1",
+        "status": "completed"
+      },
+      {
+        "variant": "CG",
+        "trial": 2,
+        "run_id": "r-arxiv-histtitle002-r03-cg-admission-2",
+        "run_dir": "../runs/r-arxiv-histtitle002-r03-cg-admission-2",
+        "label": "admission_arxiv_historical_title_002_r03_CG_2",
+        "status": "completed"
+      },
+      {
+        "variant": "GO",
+        "trial": 2,
+        "run_id": "r-arxiv-histtitle002-r03-go-admission-2",
+        "run_dir": "../runs/r-arxiv-histtitle002-r03-go-admission-2",
+        "label": "admission_arxiv_historical_title_002_r03_GO_2",
+        "status": "completed"
+      },
+      {
+        "variant": "CG",
+        "trial": 3,
+        "run_id": "r-arxiv-histtitle002-r03-cg-admission-3",
+        "run_dir": "../runs/r-arxiv-histtitle002-r03-cg-admission-3",
+        "label": "admission_arxiv_historical_title_002_r03_CG_3",
+        "status": "completed"
+      },
+      {
+        "variant": "GO",
+        "trial": 3,
+        "run_id": "r-arxiv-histtitle002-r03-go-admission-3",
+        "run_dir": "../runs/r-arxiv-histtitle002-r03-go-admission-3",
+        "label": "admission_arxiv_historical_title_002_r03_GO_3",
+        "status": "completed"
+      }
+    ],
+    "CG_mean": 0.7626262626262627,
+    "CG_mean_exact": "151/198",
+    "GO_mean": 0.5744804365494021,
+    "GO_mean_exact": "4948/8613",
+    "CG_threshold_passed": false,
+    "GO_threshold_passed": true,
+    "threshold": "strictly below 7/10 independently",
+    "additional_trials": 0,
+    "replacements": 0,
+    "zero_imputation": false,
+    "development_or_attack_scores_included": false
+  },
+  "admission_registered": true,
+  "admission_registered_at": "2026-09-10T11:45:08.141161+00:00",
+  "audit": {
+    "run_id": "r-resume-arxiv002-r03-audit",
+    "actual_model": "gpt-6-astra",
+    "actual_effort": "high",
+    "checks": {
+      "content": {
+        "verdict": "pass",
+        "explanation": "Complete annual Atom inventory, CSV, final ledger and comment partitions agree. Semantic boundary review supports the 21 relations and documented exclusions. All 21 historical selections and titles agree with preserved source histories and version-specific evidence. Pass is bounded by the supplied source domain and disclosed Sep10 observation versus Sep9 anchor limitation.",
+        "evidence_paths": [
+          "stage_assets/content_review.md"
+        ]
+      },
+      "sgr": {
+        "verdict": "pass",
+        "explanation": "Source notices determine subsequent target identity queries; source cutoffs and target histories determine subsequent version-specific title requests. Current titles cannot replace historical evidence. All six runs made meaningful incomplete progress; B-run retrieval decisions support substantive findings independently of scores alone. Legal API and source-selected batches remain allowed.",
+        "evidence_paths": [
+          "stage_assets/sgr_review.md",
+          "stage_assets/cg_error_review.md",
+          "stage_assets/go_error_review.md"
+        ]
+      },
+      "semantic_alignment": {
+        "verdict": "pass",
+        "explanation": "GO is the shared substantive instruction; CG adds retrieval guidance only. Both support the same catalogue-version domain, named-notice interpretation, cutoff, exclusions and output. Rules introduce equivalent timestamp/version aliases without identity or title substitutions.",
+        "evidence_paths": [
+          "stage_assets/alignment.md"
+        ]
+      },
+      "substantive_errors_cg": {
+        "verdict": "pass",
+        "error_category": "retrieval_decision",
+        "substantive_progress": true,
+        "explanation": "CG B closed retrieval after processing only selected lexical result bodies, leaving successful complete January and withdrawal-root batches unread. Those saved batches contain omitted qualifying candidates. This establishes an uncompleted retrieval branch, not an allegation that already-read notices were ignored. A and attack omissions alone remain causally inconclusive.",
+        "evidence_paths": [
+          "stage_assets/cg_error_review.md"
+        ]
+      },
+      "substantive_errors_go": {
+        "verdict": "pass",
+        "error_category": "retrieval_decision",
+        "substantive_progress": true,
+        "explanation": "GO B left complete successful correction and version result sets unread while declaring completion. They contain omitted direct-successor candidates, including 2001.09328. The finding concerns abandonment of available source-selected evidence, separable from initial API failures and output truncation. It does not infer a wrong identity or timestamp judgment.",
+        "evidence_paths": [
+          "stage_assets/go_error_review.md"
+        ]
+      }
+    },
+    "Item-F1": null,
+    "reason": "Quality audit is not a scored blind trial."
+  },
+  "status": "user_designated_exception",
+  "admitted": true,
+  "standard_protocol_passed": false,
+  "standard_status": "rejected_threshold",
+  "user_admission_decision": {
+    "recorded_at": "2026-09-10T12:03:58.426984+00:00",
+    "authorized_at": "2026-09-10T12:00:17.453Z",
+    "thread_id": "01a08925-3520-7553-927d-5eeacf9e18eb",
+    "turn_id": "01a08925-acb9-7b70-aff1-d7a807778810",
+    "message_id": "msg_01a08b30-aa2d-7cc1-bab2-4d1e68b411df",
+    "instruction": "这题也收录进去吧，然后收尾停止就可以了",
+    "candidate_id": "arxiv_historical_title_002",
+    "revision": 3,
+    "source": "actual response_item user message in existing controller rollout",
+    "interpretation": "User-designated admission exception. Preserve standard CG failure and finish the already preregistered running GO trials; then stop. No new version, resampling or other model work.",
+    "new_control_session": false
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "completed": 60,
+  "total_planned": 60,
+  "review_disposition_all_completed": {
+    "passed": 34,
+    "failed": 26,
+    "pending": 0
+  },
+  "cost": {
+    "first_start": "2026-09-13T11:57:58.665174+00:00",
+    "last_completed_end": "2026-09-13T13:53:53.342453+00:00",
+    "observed_start_to_last_end_seconds": 6954.677279,
+    "summed_session_seconds": 13674.524,
+    "usage_record_count": 60,
+    "tokens": {
+      "input_tokens": 82474886,
+      "cached_input_tokens": 75813632,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 328004,
+      "reasoning_output_tokens": 177947
+    },
+    "money_cost": null,
+    "controller_token_cost": null,
+    "weekly_quota_attributable_to_batch": null,
+    "note": "Cache input is a subset of input, reasoning output a subset of output; do not add them again. Wall interval differs from summed concurrent sessions. Missing usage is unknown."
+  },
+  "updated_at": "2026-09-13T13:56:42.240666+00:00",
+  "protocol": "ten-task-v2-bounded-retrieval",
+  "excluded": [
+    "europemc_balf_provenance_001"
+  ],
+  "summary": {
+    "CG": {
+      "planned": 30,
+      "raw": {
+        "n": 29,
+        "macro_Item_F1_exact": "16725060945/20265850528",
+        "macro_Item_F1_percent": 82.52829518253911,
+        "full_answers": 18,
+        "full_answer_rate_percent": 62.06896551724138
+      },
+      "reviewed_compliant": {
+        "n": 17,
+        "macro_Item_F1_exact": "5119349/5825424",
+        "macro_Item_F1_percent": 87.87942302568878,
+        "full_answers": 13,
+        "full_answer_rate_percent": 76.47058823529412
+      },
+      "compliant_with_access_confounds": 4,
+      "compliant_without_reported_access_confounds": {
+        "n": 13,
+        "macro_Item_F1_exact": "907/944",
+        "macro_Item_F1_percent": 96.08050847457628,
+        "full_answers": 11,
+        "full_answer_rate_percent": 84.61538461538461
+      },
+      "completed_unscored": 1,
+      "unreviewed": 0,
+      "noncompliant": 12
+    },
+    "GO": {
+      "planned": 30,
+      "raw": {
+        "n": 28,
+        "macro_Item_F1_exact": "274318/378525",
+        "macro_Item_F1_percent": 72.47024635096757,
+        "full_answers": 14,
+        "full_answer_rate_percent": 50.0
+      },
+      "reviewed_compliant": {
+        "n": 17,
+        "macro_Item_F1_exact": "159253/196350",
+        "macro_Item_F1_percent": 81.10669722434429,
+        "full_answers": 11,
+        "full_answer_rate_percent": 64.70588235294117
+      },
+      "compliant_with_access_confounds": 5,
+      "compliant_without_reported_access_confounds": {
+        "n": 12,
+        "macro_Item_F1_exact": "208/225",
+        "macro_Item_F1_percent": 92.44444444444444,
+        "full_answers": 10,
+        "full_answer_rate_percent": 83.33333333333333
+      },
+      "completed_unscored": 2,
+      "unreviewed": 0,
+      "noncompliant": 11
+    }
+  },
+  "limitations": [
+    "Single trial per variant, not formal admission or statistical certification.",
+    "Scores compare archived references; source drift not independently revalidated.",
+    "Pending or failed retrieval reviews are not compliant scores.",
+    "No zero imputation for missing results; raw computed empty-answer scores are distinguished by status and limitations.",
+    "Token totals are not account quota consumption."
+  ]
+}

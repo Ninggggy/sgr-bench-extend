@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-09-10T11:45:08.141161+00:00",
+  "verified_audit": {
+    "checks": {
+      "content": {
+        "verdict": "pass",
+        "explanation": "Complete annual Atom inventory, CSV, final ledger and comment partitions agree. Semantic boundary review supports the 21 relations and documented exclusions. All 21 historical selections and titles agree with preserved source histories and version-specific evidence. Pass is bounded by the supplied source domain and disclosed Sep10 observation versus Sep9 anchor limitation.",
+        "evidence_paths": [
+          "stage_assets/content_review.md"
+        ]
+      },
+      "sgr": {
+        "verdict": "pass",
+        "explanation": "Source notices determine subsequent target identity queries; source cutoffs and target histories determine subsequent version-specific title requests. Current titles cannot replace historical evidence. All six runs made meaningful incomplete progress; B-run retrieval decisions support substantive findings independently of scores alone. Legal API and source-selected batches remain allowed.",
+        "evidence_paths": [
+          "stage_assets/sgr_review.md",
+          "stage_assets/cg_error_review.md",
+          "stage_assets/go_error_review.md"
+        ]
+      },
+      "semantic_alignment": {
+        "verdict": "pass",
+        "explanation": "GO is the shared substantive instruction; CG adds retrieval guidance only. Both support the same catalogue-version domain, named-notice interpretation, cutoff, exclusions and output. Rules introduce equivalent timestamp/version aliases without identity or title substitutions.",
+        "evidence_paths": [
+          "stage_assets/alignment.md"
+        ]
+      },
+      "substantive_errors_cg": {
+        "verdict": "pass",
+        "error_category": "retrieval_decision",
+        "substantive_progress": true,
+        "explanation": "CG B closed retrieval after processing only selected lexical result bodies, leaving successful complete January and withdrawal-root batches unread. Those saved batches contain omitted qualifying candidates. This establishes an uncompleted retrieval branch, not an allegation that already-read notices were ignored. A and attack omissions alone remain causally inconclusive.",
+        "evidence_paths": [
+          "stage_assets/cg_error_review.md"
+        ]
+      },
+      "substantive_errors_go": {
+        "verdict": "pass",
+        "error_category": "retrieval_decision",
+        "substantive_progress": true,
+        "explanation": "GO B left complete successful correction and version result sets unread while declaring completion. They contain omitted direct-successor candidates, including 2001.09328. The finding concerns abandonment of available source-selected evidence, separable from initial API failures and output truncation. It does not infer a wrong identity or timestamp judgment.",
+        "evidence_paths": [
+          "stage_assets/go_error_review.md"
+        ]
+      }
+    },
+    "runs": [
+      {
+        "run_dir": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/runs/r-resume-arxiv002-r03-audit",
+        "model_evidence": {
+          "model": "gpt-6-astra",
+          "effort": "high",
+          "model_evidence_sources": [
+            "run.json request",
+            "invocation.json argv",
+            "solver.config.toml",
+            "sessions turn_context"
+          ],
+          "verified_turn_contexts": 1,
+          "session_ids": [
+            "01a08b11-5c69-7681-9042-76ae3c449b0d"
+          ]
+        },
+        "ended_at": "2026-09-10T11:41:08.340418+00:00"
+      }
+    ]
+  },
+  "decision": "eligible_for_one_preregistered_admission_round",
+  "all_six_development_runs_preserved": true,
+  "storage_recovery": {
+    "recorded_at": "2026-09-10T11:44:21.151177+00:00",
+    "reason": "Audit /root tmpfs filled; sole malformed final JSONL record. Audit was completed and final six-file output independently saved in stdout events.",
+    "original_unmodified_path": "transcript_recovery/rollout-2026-09-10T11-26-05-01a08b11-5c69-7681-9042-76ae3c449b0d.jsonl.original",
+    "original_bytes": 113860608,
+    "derived_session_path": "sessions/rollout-2026-09-10T11-26-05-01a08b11-5c69-7681-9042-76ae3c449b0d.jsonl",
+    "preserved_complete_records": 3535,
+    "partial_record_bytes": 13466,
+    "recovery": "Only complete original JSONL records retained in derived parsing copy. Original full bytes including partial last record archived unchanged. No reconstructed or invented records; no model rerun. Full original stdout events.jsonl remains unchanged.",
+    "limitation": "Session transcript is incomplete from trailing write failure; not claimed as a complete session trace. All actual stdout tool events and completion are independently preserved."
+  },
+  "substantive_error_basis": "Both B runs closed retrieval while complete successful candidate-bearing query bodies remained unread. A/attack omissions alone not used as decisive proof.",
+  "initial_admission_verification": {
+    "status": "failed_before_registration",
+    "error": "JSONDecodeError: Unterminated string starting at line 1 column 468 (char 467)",
+    "cause": "One partial trailing JSONL record caused by audit container transcript storage exhaustion",
+    "model_invocations_added": 0,
+    "original_retained": true,
+    "subsequent_existing_verifier": "passed on complete-record parsing copy; no validator edits",
+    "registration_was_not_written_on_failed_check": true
+  }
+}

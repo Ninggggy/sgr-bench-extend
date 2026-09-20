@@ -1,0 +1,357 @@
+{
+  "raw_evidence_directory": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence",
+  "registry_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/registry.json",
+  "request_log": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/request_log.jsonl",
+  "raw_files": {
+    "d0001": {
+      "path": "d0001.response",
+      "url": "https://www.waterqualitydata.us/data/Result/search?siteid=21COL001_WQX-7182&characteristicName=Cadmium&mimeType=csv&zip=no",
+      "requested_at": "2026-09-13T10:24:35.821076+00:00",
+      "method": "GET",
+      "query": {
+        "siteid": [
+          "21COL001_WQX-7182"
+        ],
+        "characteristicName": [
+          "Cadmium"
+        ],
+        "mimeType": [
+          "csv"
+        ],
+        "zip": [
+          "no"
+        ]
+      },
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 13 Sep 2026 10:24:37 GMT",
+        "Content-Type": "text/csv;charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Origin",
+        "Content-disposition": "attachment; filename=result.csv",
+        "Total-Site-Count": "1",
+        "STORET-Site-Count": "1",
+        "Total-Activity-Count": "101",
+        "STORET-Activity-Count": "101",
+        "Total-Result-Count": "137",
+        "STORET-Result-Count": "137"
+      },
+      "final_url": "https://www.waterqualitydata.us/data/Result/search?siteid=21COL001_WQX-7182&characteristicName=Cadmium&mimeType=csv&zip=no",
+      "bytes": 75480,
+      "received_at": "2026-09-13T10:24:38.547668+00:00"
+    },
+    "d0002": {
+      "path": "d0002.response",
+      "url": "https://www.waterqualitydata.us/data/Result/search?siteid=21COL001_WQX-7182&characteristicName=Cadmium&dataProfile=narrowResult&mimeType=csv&zip=no",
+      "requested_at": "2026-09-13T10:25:23.682108+00:00",
+      "method": "GET",
+      "query": {
+        "siteid": [
+          "21COL001_WQX-7182"
+        ],
+        "characteristicName": [
+          "Cadmium"
+        ],
+        "dataProfile": [
+          "narrowResult"
+        ],
+        "mimeType": [
+          "csv"
+        ],
+        "zip": [
+          "no"
+        ]
+      },
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 13 Sep 2026 10:25:25 GMT",
+        "Content-Type": "text/csv;charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Origin",
+        "Content-disposition": "attachment; filename=narrowresult.csv",
+        "Total-Site-Count": "1",
+        "STORET-Site-Count": "1",
+        "Total-Activity-Count": "101",
+        "STORET-Activity-Count": "101",
+        "Total-Result-Count": "137",
+        "STORET-Result-Count": "137"
+      },
+      "final_url": "https://www.waterqualitydata.us/data/Result/search?siteid=21COL001_WQX-7182&characteristicName=Cadmium&dataProfile=narrowResult&mimeType=csv&zip=no",
+      "bytes": 79780,
+      "received_at": "2026-09-13T10:25:25.951851+00:00"
+    },
+    "d0003": {
+      "path": "d0003.response",
+      "url": "https://www.waterqualitydata.us/data/ResultDetectionQuantitationLimit/search?siteid=21COL001_WQX-7182&characteristicName=Cadmium&mimeType=csv&zip=no",
+      "requested_at": "2026-09-13T10:26:09.555502+00:00",
+      "method": "GET",
+      "query": {
+        "siteid": [
+          "21COL001_WQX-7182"
+        ],
+        "characteristicName": [
+          "Cadmium"
+        ],
+        "mimeType": [
+          "csv"
+        ],
+        "zip": [
+          "no"
+        ]
+      },
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 13 Sep 2026 10:26:12 GMT",
+        "Content-Type": "text/csv;charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Origin",
+        "Content-disposition": "attachment; filename=resdetectqntlmt.csv",
+        "Total-Site-Count": "1",
+        "STORET-Site-Count": "1",
+        "Total-Activity-Count": "100",
+        "STORET-Activity-Count": "100",
+        "Total-Result-Count": "134",
+        "STORET-Result-Count": "134",
+        "Total-ResultDetectionQuantitationLimit-Count": "246",
+        "STORET-ResultDetectionQuantitationLimit-Count": "246"
+      },
+      "final_url": "https://www.waterqualitydata.us/data/ResultDetectionQuantitationLimit/search?siteid=21COL001_WQX-7182&characteristicName=Cadmium&mimeType=csv&zip=no",
+      "bytes": 49467,
+      "received_at": "2026-09-13T10:26:12.748982+00:00"
+    },
+    "d0004": {
+      "path": "d0004.response",
+      "url": "https://www.waterqualitydata.us/data/Result/search?siteid=21COL001_WQX-7182&characteristicName=Hardness%2C+Ca%2C+Mg&mimeType=csv&zip=no",
+      "requested_at": "2026-09-13T10:26:12.751304+00:00",
+      "method": "GET",
+      "query": {
+        "siteid": [
+          "21COL001_WQX-7182"
+        ],
+        "characteristicName": [
+          "Hardness, Ca, Mg"
+        ],
+        "mimeType": [
+          "csv"
+        ],
+        "zip": [
+          "no"
+        ]
+      },
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 13 Sep 2026 10:26:14 GMT",
+        "Content-Type": "text/csv;charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Origin",
+        "Content-disposition": "attachment; filename=result.csv",
+        "Total-Site-Count": "1",
+        "STORET-Site-Count": "1",
+        "Total-Activity-Count": "102",
+        "STORET-Activity-Count": "102",
+        "Total-Result-Count": "102",
+        "STORET-Result-Count": "102"
+      },
+      "final_url": "https://www.waterqualitydata.us/data/Result/search?siteid=21COL001_WQX-7182&characteristicName=Hardness%2C+Ca%2C+Mg&mimeType=csv&zip=no",
+      "bytes": 57774,
+      "received_at": "2026-09-13T10:26:14.964724+00:00"
+    },
+    "d0005": {
+      "path": "d0005.response",
+      "url": "https://cdx.epa.gov/wqx/download/DomainValues/ResultMeasureQualifier_CSV.zip",
+      "requested_at": "2026-09-13T10:29:54.586846+00:00",
+      "method": "GET",
+      "query": {},
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 13 Sep 2026 10:29:55 GMT",
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "8259",
+        "Connection": "close",
+        "Set-Cookie": "CDXWebApplicationGatewayAffinityCORS=4a3af14ccf71420842888f988feb1d25; Path=/; SameSite=None; Secure",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "1",
+        "Last-Modified": "Mon, 20 Jul 2026 14:55:09 GMT",
+        "Accept-Ranges": "bytes",
+        "ETag": "\"fa3c0c25718dd1:0\"",
+        "X-UA-Compatible": "IE=edge",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Strict-Transport-Security": "max-age=31536000"
+      },
+      "final_url": "https://cdx.epa.gov/wqx/download/DomainValues/ResultMeasureQualifier_CSV.zip",
+      "bytes": 8259,
+      "received_at": "2026-09-13T10:29:55.861822+00:00"
+    },
+    "d0006": {
+      "path": "d0006.csv",
+      "parent_file": "d0005",
+      "zip_member": "Result Measure Qualifier.csv",
+      "url": "https://cdx.epa.gov/wqx/download/DomainValues/ResultMeasureQualifier_CSV.zip",
+      "requested_at": "2026-09-13T10:29:54.586846+00:00",
+      "method": "GET",
+      "query": {},
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 13 Sep 2026 10:29:55 GMT",
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "8259",
+        "Connection": "close",
+        "Set-Cookie": "CDXWebApplicationGatewayAffinityCORS=4a3af14ccf71420842888f988feb1d25; Path=/; SameSite=None; Secure",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "1",
+        "Last-Modified": "Mon, 20 Jul 2026 14:55:09 GMT",
+        "Accept-Ranges": "bytes",
+        "ETag": "\"fa3c0c25718dd1:0\"",
+        "X-UA-Compatible": "IE=edge",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Strict-Transport-Security": "max-age=31536000"
+      },
+      "final_url": "https://cdx.epa.gov/wqx/download/DomainValues/ResultMeasureQualifier_CSV.zip",
+      "bytes": 8259,
+      "received_at": "2026-09-13T10:29:55.861822+00:00"
+    },
+    "d0007": {
+      "path": "d0007.response",
+      "url": "https://cdx.epa.gov/wqx/download/DomainValues/ResultMeasureQualifierDEPRECATED_CSV.zip",
+      "requested_at": "2026-09-13T10:29:55.864187+00:00",
+      "method": "GET",
+      "query": {},
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 13 Sep 2026 10:29:56 GMT",
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "7386",
+        "Connection": "close",
+        "Set-Cookie": "CDXWebApplicationGatewayAffinityCORS=4a3af14ccf71420842888f988feb1d25; Path=/; SameSite=None; Secure",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "1",
+        "Last-Modified": "Fri, 27 Mar 2026 20:31:49 GMT",
+        "Accept-Ranges": "bytes",
+        "ETag": "\"a9cdbbc28bedc1:0\"",
+        "X-UA-Compatible": "IE=edge",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Strict-Transport-Security": "max-age=31536000"
+      },
+      "final_url": "https://cdx.epa.gov/wqx/download/DomainValues/ResultMeasureQualifierDEPRECATED_CSV.zip",
+      "bytes": 7386,
+      "received_at": "2026-09-13T10:29:56.723615+00:00"
+    },
+    "d0008": {
+      "path": "d0008.csv",
+      "parent_file": "d0007",
+      "zip_member": "Result Measure Qualifier Deprecated.csv",
+      "url": "https://cdx.epa.gov/wqx/download/DomainValues/ResultMeasureQualifierDEPRECATED_CSV.zip",
+      "requested_at": "2026-09-13T10:29:55.864187+00:00",
+      "method": "GET",
+      "query": {},
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 13 Sep 2026 10:29:56 GMT",
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "7386",
+        "Connection": "close",
+        "Set-Cookie": "CDXWebApplicationGatewayAffinityCORS=4a3af14ccf71420842888f988feb1d25; Path=/; SameSite=None; Secure",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "1",
+        "Last-Modified": "Fri, 27 Mar 2026 20:31:49 GMT",
+        "Accept-Ranges": "bytes",
+        "ETag": "\"a9cdbbc28bedc1:0\"",
+        "X-UA-Compatible": "IE=edge",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Strict-Transport-Security": "max-age=31536000"
+      },
+      "final_url": "https://cdx.epa.gov/wqx/download/DomainValues/ResultMeasureQualifierDEPRECATED_CSV.zip",
+      "bytes": 7386,
+      "received_at": "2026-09-13T10:29:56.723615+00:00"
+    },
+    "d0009": {
+      "path": "d0009.response",
+      "url": "https://www.epa.gov/system/files/documents/2025-09/wqxdetectionlimitsbestpracticesguide_final.pdf",
+      "requested_at": "2026-09-13T10:29:56.726564+00:00",
+      "method": "GET",
+      "query": {},
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/pdf",
+        "Content-Length": "493256",
+        "Connection": "close",
+        "Date": "Sun, 13 Sep 2026 10:29:58 GMT",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Server": "nginx",
+        "Cache-Control": "private",
+        "Last-Modified": "Tue, 09 Sep 2025 20:20:52 GMT",
+        "X-Drupal-Dynamic-Cache": "UNCACHEABLE (no cacheability)",
+        "Content-Language": "en",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Expires": "Sun, 19 Nov 1978 05:00:00 GMT",
+        "X-Generator": "Drupal 10 (https://www.drupal.org)",
+        "X-Drupal-Cache": "UNCACHEABLE (no cacheability)",
+        "Accept-Ranges": "bytes",
+        "X-XSS-Protection": "1",
+        "Feature-Policy": "geolocation 'none';midi 'none';microphone 'none';camera 'none';magnetometer 'none';gyroscope 'none';fullscreen 'self';payment 'none'",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "Content-Security-Policy": "block-all-mixed-content; default-src * data: 'unsafe-inline' 'unsafe-eval'; worker-src * blob: data: 'unsafe-inline' 'unsafe-eval'; child-src * blob: data: 'unsafe-inline' 'unsafe-eval'; img-src * blob: data: 'unsafe-inline' 'unsafe-eval';",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 f630d2af08d129d789d2ddb3036aa816.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "YVR52-P3",
+        "X-Amz-Cf-Id": "lRy46FSoomL_1e0TNMwY0pZ4MS36E6ZvUBtkSLuHZ2xicXt7_4dudg=="
+      },
+      "final_url": "https://www.epa.gov/system/files/documents/2025-09/wqxdetectionlimitsbestpracticesguide_final.pdf",
+      "bytes": 493256,
+      "received_at": "2026-09-13T10:29:59.103450+00:00"
+    }
+  },
+  "web_evidence": {
+    "web_2.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_2.json",
+    "web_3.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_3.json",
+    "web_4.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_4.json",
+    "web_11.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_11.json",
+    "web_8.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_8.json",
+    "web_9.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_9.json",
+    "web_10.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_10.json",
+    "web_5.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_5.json",
+    "web_13.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_13.json",
+    "web_7.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_7.json",
+    "web_12.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_12.json",
+    "web_15.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_15.json",
+    "web_1.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_1.json",
+    "web_14.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/web_14.json",
+    "controller_srs_indexed.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/controller_srs_indexed.json",
+    "controller_srs_open.json": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/wqp_censored_screening/evidence/controller_srs_open.json"
+  },
+  "scope_and_decision_path": {
+    "natural_scope": "The publicly identified river station immediately below Leadville; all returned cadmium dates, not a handpicked time interval. All rows identify SWMN.",
+    "first_result": "137 rows; default chooses only Lower Reporting Limit, omits result IDs. 28 dissolved non-detects and 30 J-R records required qualifier-aware interpretation.",
+    "next_state": "narrowResult supplies 137 unique ResultIdentifiers; complete result-limit profile returns 246 records of two types, joined by exact identity.",
+    "hardness": "102 station hardness records; unique exact organization/activity match for every dissolved result. Seven withdrawn. All remaining records report the WQX-approved Hardness, Ca, Mg characteristic in mg/L, whose CaCO3 basis is defined by EPA SRS E1640416. Method 200.7(W) is not grounds for rejecting that basis.",
+    "shortest_observed_path": "A complete narrow-result + full-limit + same-station-hardness package with qualifier dictionaries and criterion/method documentation is legal. No saved single result profile itself contains the sample classifications. Bulk retrieval is not counted as difficulty.",
+    "new_judgment": "Default LRL is not the DL qualifier censoring threshold; J-R is a complete code, not J plus R; its declared interval can cross a threshold despite a point estimate. The remaining U/CRQL mismatch is retained as unresolved rather than invented.",
+    "no_prediction": "No low-score prediction or ability score; no blind test.",
+    "minimal_public_output": "Nonempty evidence/hardness/screen category counts; all 101 per-result decisions retained privately. No change in scope or public format from r01."
+  },
+  "source_interpretation": {
+    "qualifiers": "d0006.csv exact current DL/J-R/U/QC/SCP entries, with d0008.csv legacy comparison. J-R describes a reporting-limit/MDL interval; U expressly refers to adjusted CRQL, absent among returned limit types.",
+    "cadmium_criterion": "web_15.json EPA current table explicitly refers to 2001 chronic criterion after vacatur. web_5.json and web_9.json official 2001 report; exp(0.7409 lnH -4.719)*(1.101672-0.041838 lnH). Screen is equation arithmetic, not duration/frequency compliance.",
+    "hardness_basis": "EPA SRS E1640416 indexed official record: exact WQX-approved Hardness, Ca, Mg synonym maps to total hardness, defined in CaCO3-equivalent mg/L. controller_srs_indexed.json preserves the acquired indexed text; controller_srs_open.json is only a JavaScript shell. No direct rendered-page or NEMI4690 success is claimed. Unknown in the synonym table is its quality rating, not a statement that the concentration basis is unknown.",
+    "profile_warning": "d0009.response EPA WQX detection guidance, especially table3 hierarchy and table5 DL definition. Raw PDF downloaded successfully.",
+    "limits_of_inference": "All intervals describe reported analytical evidence, not guaranteed true concentration ranges or confidence intervals; no legal/temporal compliance or ecosystem protection statement."
+  },
+  "independent_review_status": "r01 audit blocked only B1; r02 repair pending independent targeted review"
+}

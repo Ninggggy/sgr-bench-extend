@@ -1,0 +1,22 @@
+{
+  "construction_pipeline/ten_task_phase/new_two_20260919/exploration/epoch2_ldap/opportunity.md": {
+    "birthtime": 1789828899.200823,
+    "mtime": 1789828899.2030232
+  },
+  "construction_pipeline/ten_task_phase/new_two_20260919/E/v1/inputs.json": {
+    "birthtime": 1789829078.8023572,
+    "mtime": 1789829078.8024015
+  },
+  "construction_pipeline/ten_task_phase/new_two_20260919/E/v1/recompute.py": {
+    "birthtime": 1789829078.8053732,
+    "mtime": 1789829146.7986624
+  },
+  "construction_pipeline/ten_task_phase/new_two_20260919/E/v1/CG.json": {
+    "birthtime": 1789829276.5161996,
+    "mtime": 1789829276.5162737
+  },
+  "construction_pipeline/ten_task_phase/new_two_20260919/E/v1/GO.json": {
+    "birthtime": 1789829276.5163202,
+    "mtime": 1789829276.5163543
+  }
+}

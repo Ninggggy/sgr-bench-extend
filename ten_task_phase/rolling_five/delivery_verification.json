@@ -1,0 +1,17 @@
+{
+  "at": "2026-09-12T08:19:53.472488+00:00",
+  "all47_workers_exited": true,
+  "run_statuses": {
+    "completed": 45,
+    "runtime_error": 2
+  },
+  "eight_development_scores_verified": true,
+  "standard_admitted": 0,
+  "target_complete": false,
+  "empty_cg_go_exports": true,
+  "formal_trials": 0,
+  "human_review": "not_performed",
+  "root_usage_partial": true,
+  "live_recorded_controller_pids": [],
+  "process_check_at": "2026-09-12T08:20:02.415873+00:00"
+}

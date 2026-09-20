@@ -1,0 +1,5 @@
+rank|station_number|target_window_status|final_verdict
+1|08EE001|LEVEL_ONLY|REJECT
+2|08EE005|FLOW_GAP|REJECT
+3|08EE004|PASS|KEEP
+4|08EE003|FLOW_GAP|REJECT

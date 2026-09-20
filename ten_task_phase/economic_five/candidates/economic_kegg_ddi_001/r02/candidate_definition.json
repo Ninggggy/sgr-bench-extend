@@ -1,0 +1,84 @@
+{
+  "candidate_id": "economic_kegg_ddi_001",
+  "revision": "r02",
+  "construction": "first_construction",
+  "private_source": {
+    "website": "KEGG",
+    "start_url": "https://www.kegg.jp/kegg/medicus.html",
+    "group_ids": {
+      "ssri": "DG01659",
+      "mao": "DG01568"
+    }
+  },
+  "time": {
+    "campaign_start": "2026-09-11T16:26:15.871Z",
+    "campaign_end_exclusive": "2026-09-13T16:26:15.871Z",
+    "campaign_duration_hours": 48,
+    "input_configuration_date": "2026-09-09",
+    "observation_date": "2026-09-11",
+    "ddi_revision": null,
+    "ddi_revision_status": "unavailable",
+    "stability_scope": "Construction observations described in the supplied materials only; this repair adds no source observations. The controller must independently check answer-bearing sources during actual testing within the authorized campaign. The input runtime current_date remains 2026-09-09 and is not a historical source observation."
+  },
+  "identity": "Exact leaf D identifiers; salts and hydrates remain separate; all nested branches and country tags retained.",
+  "inclusion": "At least one CI or P token reported for a cross-group unordered D-ID pair in successful complete coverage. Either orientation supplies evidence. No clinical inference from absence.",
+  "classes": {
+    "allowed": [
+      "CI",
+      "P",
+      "CI,P"
+    ],
+    "normalization": "For reference construction, union distinct source tokens for each exact pair and serialize CI before P. Preserve both when both are reported. This source aggregation does not authorize prediction-row deduplication."
+  },
+  "output": {
+    "columns": [
+      "ssri_id",
+      "mao_id",
+      "classes"
+    ],
+    "delimiter": "|",
+    "row_key": [
+      "ssri_id",
+      "mao_id"
+    ],
+    "sort": [
+      "ssri_id ASC",
+      "mao_id ASC"
+    ],
+    "none": "Header followed by NONE only if successful complete coverage contains zero qualifying pairs.",
+    "names_required": false,
+    "answer_content": "Table only.",
+    "evidence_content": "Use the solver schema's separate evidence field for public evidence URLs, actual UTC access dates, source-supplied revision dates or unavailable, and limitations. Do not append evidence prose to the answer table."
+  },
+  "scorer": {
+    "implementation": "Existing registered score.py, unchanged",
+    "rules_file": "rules.json",
+    "target": "Item-F1",
+    "item_columns": [
+      "ssri_id",
+      "mao_id",
+      "classes"
+    ],
+    "row_key": [
+      "ssri_id",
+      "mao_id"
+    ],
+    "normalization": "Use score.py clean() unchanged, followed by the supported aliases and uppercase fields in rules.json. Bare D IDs are uppercased. Source dr: wrappers are removed by the reference source parser; prediction wrapper stripping is not configured, and public answers require bare D IDs. Class aliases enumerate both orders, all letter cases, and spaces around the comma for exactly one CI and one P token. Single CI and P values are uppercased. Extra, repeated, missing, or unknown class labels are not deleted or repaired. No id_list normalization is used.",
+    "prediction_rows": "Pass the answer field directly to the existing parser. Keep every parsed prediction row in its original order, including malformed-width rows and duplicates. Do not deduplicate, reorder, infer orientation from gold or membership, merge classes across predictions, or select a best duplicate.",
+    "matching": "The ordered normalized (ssri_id, mao_id) key is matched exactly. Only its first predicted occurrence is eligible for field credit. Every later duplicate gets zero field credit and remains in the prediction denominator. Reversed and unmatched keys receive ordinary unmatched penalties; omitted gold keys and missing fields retain existing penalties.",
+    "metric": "Item-F1 = 2 * correct_fields / (gold_fields + pred_fields), using score.py counts unchanged. pred_fields sums max(number of schema columns, parsed row width) over every prediction row. Existing Row-F1, P.O.A., parse-failure handling, and all diagnostics remain unchanged.",
+    "empty_result_protocol": "The public header-plus-NONE rule is retained. The existing parser returns parse_failure for a header-plus-NONE zero-row table, and the scorer requires parsed gold. This existing limitation is recorded rather than patched or hidden.",
+    "existing_scorer_execution": "not_run"
+  },
+  "repair": {
+    "kind": "bounded_pretest_integration_repair",
+    "substantive_repairs_in_this_delivery": 1,
+    "cumulative_substantive_repair_count": null,
+    "cumulative_count_note": "Charge this delivery as one substantive repair toward the at-most-two limit; prior repair accounting was not supplied, so no remaining allowance is asserted.",
+    "raw_builder_output": "immutable",
+    "source_data": "unchanged",
+    "delivered_oracle": "unchanged; equality check required on controller rerun",
+    "public_variants": "Both returned texts are UNTESTED repair versions; preserve the previous texts and do not transfer any execution results."
+  },
+  "status": "UNTESTED_reference_rerun_scorer_integration_and_campaign_stability_pending"
+}

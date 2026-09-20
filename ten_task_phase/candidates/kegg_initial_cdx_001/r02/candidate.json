@@ -1,0 +1,13 @@
+{
+  "candidate_id": "kegg_initial_cdx_001",
+  "revision": 2,
+  "status": "rejected_development_no_substantive_paired_errors",
+  "substantive_revisions_used": 1,
+  "remaining_substantive_revisions": 1,
+  "auto_validated": false,
+  "human_review": "not_performed",
+  "source_run": "r-resume-cdx-scoring-revision",
+  "protocol_version": "ten-task-v1",
+  "registered_at": "2026-09-10T08:38:17.531582+00:00",
+  "closure_record": "development_a_summary.json"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "at": "2026-09-09T11:27:29.627431+00:00",
+    "revision": 1,
+    "kind": "initial_packaging_parser_repair",
+    "public_or_oracle_changed": false,
+    "substantive_revision_count": 0,
+    "reason": "Independent check originally assumed JATS sec; actual positivearticle uses notes for Dataavailability. Original unmodified program and failed assertion preserved under constructingrun/research. Generalized titledcontainer traversal, no factual answer change."
+  }
+]

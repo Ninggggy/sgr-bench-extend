@@ -1,0 +1,5 @@
+Both English instructions state a complete records-review goal, the September 11–13 UTC window, every nested D leaf, separate salts/hydrates, no country or customary-use filter, cross-group-only inclusion, either-orientation evidence, all reported classes, and the absence/failure rules. The output text is byte-identical. CG adds three short steps; GO adds no required sequence.
+
+The source's literal CI,P requires an explicit both-classes rule. Alternative interpretations were checked against real records: two changed class values, 36 false salt-inheritance additions, 240 within-group additions, and 14 SSRI-only omissions. The public text resolves each ambiguity; the internal rubric is not used to supply an omitted condition.
+
+D numbers identify exact ingredient forms; requiring names would add normalization burden without improving identity. Neither public text includes a website name or URL. No known answer count or membership list is exposed. The language examples linked in the task were unavailable through this worker's tools; this review follows the supplied writing rules and actual predicate checks. No blind or other-model test was run.

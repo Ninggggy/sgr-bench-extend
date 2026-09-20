@@ -1,0 +1,38 @@
+{
+  "status": "deterministic_explicit",
+  "columns": [
+    "HUC",
+    "MonitoringLocationIdentifier",
+    "common_start_year",
+    "Inorganics_start",
+    "Microbiological_start",
+    "Nutrient_start",
+    "Organics_Other_start",
+    "Physical_start"
+  ],
+  "row_key": [
+    "MonitoringLocationIdentifier"
+  ],
+  "record_separator": "\n",
+  "fields": {
+    "common_start_year": {
+      "type": "integer"
+    },
+    "Inorganics_start": {
+      "type": "integer"
+    },
+    "Microbiological_start": {
+      "type": "integer"
+    },
+    "Nutrient_start": {
+      "type": "integer"
+    },
+    "Organics_Other_start": {
+      "type": "integer"
+    },
+    "Physical_start": {
+      "type": "integer"
+    }
+  },
+  "source": "Unmodified original task rubric; no gold correction or missing-field completion."
+}

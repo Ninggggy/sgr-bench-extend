@@ -1,0 +1,27 @@
+{
+  "candidate_id": "nvd_initial_assessment_001",
+  "historical_revision": 1,
+  "revision": 2,
+  "batch_revision": "polish01",
+  "status": "blocked",
+  "reason": "旧完整44个CVE历史包含按每页20条计算至少63页，尚未包含发现与当前状态查询。旧联合历史批量响应禁止；未证明其他60请求内完整合法路径。",
+  "changes": [
+    "按任务、范围、判定条件分段；解释必要术语；CG/GO使用相同实质条件，仅CG增加步骤。",
+    "引用和限制放独立字段；删除与v2冲突的批量许可；历史输入不覆盖。"
+  ],
+  "evidence_paths": [
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/candidates/nvd_initial_assessment_001/r01/sources/apache_2020_2023_history.response"
+  ],
+  "historical_inputs": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/nvd_initial_assessment_001-r01-cg-v2-once",
+  "independent_human_review": "not_performed",
+  "formal_admission": false,
+  "followup_20260917": {
+    "status": "blocked",
+    "evidence_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blocked_followup/nvd_history_early_stop.json",
+    "history_pages_before": 63,
+    "history_pages_after": 45,
+    "full_reference_answer_equal": true,
+    "reason": "已验证历史子问题可早停；但分开获取44个当前记录及45页历史至少89次，尚未包含发现。合并单条详情页的合法替代路径未验证，不能用构造端完整导出免掉当前记录获取成本。",
+    "new_blind_trials": 0
+  }
+}

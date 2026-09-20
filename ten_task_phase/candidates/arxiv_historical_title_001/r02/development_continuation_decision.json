@@ -1,0 +1,159 @@
+{
+  "at": "2026-09-09T16:25:09.375707+00:00",
+  "decision": "continue_to_second_ordinary_and_one_attack_each",
+  "scores": {
+    "CG": {
+      "run_id": "r-arxiv-title-r02-cg-dev-a-repair",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.5454545454545454,
+          "Row-F1": 0.5454545454545454,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 9,
+          "gold_fields": 24,
+          "pred_fields": 9,
+          "item_denominator": 33,
+          "correct_rows": 3,
+          "gold_rows": 8,
+          "pred_rows": 3,
+          "row_denominator": 11,
+          "correct_pairs": 3,
+          "pair_denominator": 3,
+          "shared_ids": 3
+        },
+        "omitted_ids": [
+          [
+            "2102.13653",
+            "1809.04564"
+          ],
+          [
+            "2103.00222",
+            "2011.10443"
+          ],
+          [
+            "2103.06490",
+            "1911.00234"
+          ],
+          [
+            "2104.13818",
+            "1908.06077"
+          ],
+          [
+            "2111.03536",
+            "2103.07364"
+          ]
+        ],
+        "extra_ids": [],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "2106.14997",
+              "2101.12365"
+            ],
+            "second": [
+              "2107.01273",
+              "2011.09052"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "2106.14997",
+              "2101.12365"
+            ],
+            "second": [
+              "2108.08647",
+              "2005.01026"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "2107.01273",
+              "2011.09052"
+            ],
+            "second": [
+              "2108.08647",
+              "2005.01026"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      }
+    },
+    "GO": {
+      "run_id": "r-arxiv-title-r02-go-dev-a",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.4,
+          "Row-F1": 0.4,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 6,
+          "gold_fields": 24,
+          "pred_fields": 6,
+          "item_denominator": 30,
+          "correct_rows": 2,
+          "gold_rows": 8,
+          "pred_rows": 2,
+          "row_denominator": 10,
+          "correct_pairs": 1,
+          "pair_denominator": 1,
+          "shared_ids": 2
+        },
+        "omitted_ids": [
+          [
+            "2102.13653",
+            "1809.04564"
+          ],
+          [
+            "2103.00222",
+            "2011.10443"
+          ],
+          [
+            "2104.13818",
+            "1908.06077"
+          ],
+          [
+            "2106.14997",
+            "2101.12365"
+          ],
+          [
+            "2107.01273",
+            "2011.09052"
+          ],
+          [
+            "2111.03536",
+            "2103.07364"
+          ]
+        ],
+        "extra_ids": [],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "2103.06490",
+              "1911.00234"
+            ],
+            "second": [
+              "2108.08647",
+              "2005.01026"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      }
+    }
+  },
+  "reason": "Both variants retrieve and correctly resolve genuine relationships, but claim complete results while omitting most of the complete reference set. Successful API responses show meaningful progress; query-scope and metadata-versus-history status mistakes need actual trace audit. Preserve all API failures as possible confounds.",
+  "admission_status": "not registered; scores are development only",
+  "infrastructure_retry": "CG A original DNS-failed, one preregistered valid fresh repair; no answer existed in original."
+}

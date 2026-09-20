@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-10T08:47:17.470211+00:00",
+  "status": "rejected_development_no_substantive_paired_errors",
+  "CG": {
+    "run_id": "r-kegg-cdx001-r02-cg-dev-a",
+    "item_f1_exact": "19/24",
+    "score": 0.7916666666666666,
+    "semantic_review": "All4drug-gene rows and33namedsubstitutions correct; one semantically correct qualified PTENclass differsserialization; public-requiredcitationparagraph incorrectly counted extra8fieldrow by existingparser. Originalscore preserved; no substantiveSGRerror."
+  },
+  "GO": {
+    "run_id": "r-kegg-cdx001-r02-go-dev-a",
+    "item_f1_exact": "1",
+    "score": 1,
+    "semantic_review": "Complete exact20/20 fields; no extra citationrow."
+  },
+  "decision": "No B, attack, finalcontentaudit or admission. Do not repair/retest merely to seek lowscores. Programs/sourceprofile remain reusable.",
+  "auto_validated": false,
+  "human_review": "not_performed",
+  "protocol_changed": false
+}

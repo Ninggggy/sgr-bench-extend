@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "W",
+      "state": "Resolve source from public resource type and release37/May2026 descriptor",
+      "evidence": "Reused approved open source-discovery originals; no new search"
+    },
+    {
+      "id": "C",
+      "state": "Resolve diazepam registered compound",
+      "evidence": "Complete official preferred-name diazepam query has one record; its parent, active and own IDs agree. The public scope is that individual record, not related compounds."
+    },
+    {
+      "id": "A",
+      "state": "Filter registered activities by resolved compound, B, Ki, nM, =; retain Scientific Literature source",
+      "evidence": "Complete131 initial rows;130source1; actual assay/target/document IDs"
+    },
+    {
+      "id": "S",
+      "state": "Select assays using actual cohort assay IDs",
+      "evidence": "126 complete records expose D/H/U and confidence descriptions absent from activity"
+    },
+    {
+      "id": "T",
+      "state": "Select targets using actual cohort target IDs",
+      "evidence": "32 complete records expose target_type and PROTEIN SUBUNIT/GROUP MEMBER/SINGLE PROTEIN"
+    },
+    {
+      "id": "D",
+      "state": "Resolve ambiguous CBR in actual linked publication",
+      "evidence": "Observed CHEMBL6078658 abstract defines central benzodiazepine receptor"
+    },
+    {
+      "id": "R",
+      "state": "Classify registration scope and independent explicit flags",
+      "evidence": "Complete inventory;seven-category partition;cross-category engineered flag;subunitset conflicts"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W",
+      "to": "C",
+      "type": "control",
+      "field": "source identity"
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "type": "control",
+      "field": "registered compound ID"
+    },
+    {
+      "from": "A",
+      "to": "S",
+      "type": "control",
+      "field": "discovered assay IDs"
+    },
+    {
+      "from": "A",
+      "to": "T",
+      "type": "control",
+      "field": "discovered target IDs"
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "type": "control",
+      "field": "CBR description plus linked publication ID"
+    },
+    {
+      "from": "S",
+      "to": "R",
+      "type": "data",
+      "field": "D/H/U and confidence interpretation"
+    },
+    {
+      "from": "T",
+      "to": "R",
+      "type": "data",
+      "field": "registered target type/components/species"
+    },
+    {
+      "from": "D",
+      "to": "R",
+      "type": "data",
+      "field": "scientific abbreviation expansion"
+    }
+  ],
+  "necessity_claim": "Within the observed complete default activity/API path, activity-derived assay retrieval exposes indispensable missing D/H attribution evidence: an explicit human receptor description does not reveal that relation. Target names already expose many compositions and all three explicit name conflicts. This does not exclude an untested whole-database export or establish a unique legal request sequence; no extra dependency layer is required."
+}

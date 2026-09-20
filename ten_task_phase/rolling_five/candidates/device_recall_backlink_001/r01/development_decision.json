@@ -1,0 +1,107 @@
+{
+  "candidate_id": "device_recall_backlink_001",
+  "revision": 1,
+  "at": "2026-09-13T03:07:15.196734+00:00",
+  "decision": "stop_raw_full_scores_go_access_protocol_issue",
+  "results": {
+    "CG": {
+      "run_id": "device-backlink-r01-cg-dev-a",
+      "exact_item_f1": "8/8",
+      "counts": {
+        "correct_fields": 4,
+        "gold_fields": 4,
+        "pred_fields": 4,
+        "item_denominator": 8,
+        "correct_rows": 2,
+        "gold_rows": 2,
+        "pred_rows": 2,
+        "row_denominator": 4,
+        "correct_pairs": 1,
+        "pair_denominator": 1,
+        "shared_ids": 2
+      },
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "isolation": "passed",
+      "usage": {
+        "input_tokens": 269641,
+        "cached_input_tokens": 213888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1458,
+        "reasoning_output_tokens": 443
+      },
+      "elapsed_seconds": 65.885,
+      "actual_reading": "Seven calls all live web, no local/private reads",
+      "tool_event_lines": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13
+      ],
+      "trajectory": "Find source recall and discovered applications, open registry-provided views, read full seven-row negative view, find positive page2 and click exact source record. Negative seven targets not individually clicked by solver; do not claim exhaustive identity proof in solve.",
+      "during_evaluation_source_evidence": {
+        "full_negative_view_tool_event_line": 10,
+        "positive_page_tool_event_line": 12,
+        "exact_source_click_line": 14
+      },
+      "actual_access_protocol": "reviewed_transitions_pass"
+    },
+    "GO": {
+      "run_id": "device-backlink-r01-go-dev-a",
+      "exact_item_f1": "8/8",
+      "counts": {
+        "correct_fields": 4,
+        "gold_fields": 4,
+        "pred_fields": 4,
+        "item_denominator": 8,
+        "correct_rows": 2,
+        "gold_rows": 2,
+        "pred_rows": 2,
+        "row_denominator": 4,
+        "correct_pairs": 1,
+        "pair_denominator": 1,
+        "shared_ids": 2
+      },
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "isolation": "passed",
+      "usage": {
+        "input_tokens": 301588,
+        "cached_input_tokens": 238848,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1762,
+        "reasoning_output_tokens": 615
+      },
+      "elapsed_seconds": 65.918,
+      "actual_reading": "Seven calls all live web, no local/private reads",
+      "tool_event_lines": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13
+      ],
+      "trajectory": "Find source recall and discovered applications, open registry-provided views, read full seven-row negative view, find positive page2 and click exact source record. Negative seven targets not individually clicked by solver; do not claim exhaustive identity proof in solve.",
+      "during_evaluation_source_evidence": {
+        "full_negative_view_tool_event_line": 10,
+        "positive_page_tool_event_line": 12,
+        "exact_source_click_line": 14
+      },
+      "actual_access_protocol": "issue"
+    }
+  },
+  "reason": "Both raw outputs4/4 fields correct; independent scoped access review finds CG transition acceptable but GO retries same two refused application resources via links. Raw scores retained; no unqualified dual-compliant-fullscore claim and no resampling.",
+  "formal_runs": 0,
+  "formal_means": null,
+  "admitted": false,
+  "human_validation": "not_performed",
+  "source_stability": "Pre-A root/application set, full negative7 and all exact8 targets reobserved; both evaluation traces show same7negative view and positive page/source. No permanent stability claim.",
+  "blind_source_initial_failures": "CG initially failed API/search attempts, later reached required official pages; neither output is an access-failure zero.",
+  "access_review": "development_access_review.json",
+  "updated_at": "2026-09-13T03:45:50.668637+00:00"
+}

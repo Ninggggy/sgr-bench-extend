@@ -1,0 +1,26 @@
+{
+  "candidate_id": "nvd_configuration_environment_001",
+  "revision": "r01",
+  "status": "stopped_raw_A_full_access_noncompliant",
+  "source_opportunity": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/nvd_configuration_environment",
+  "CG": "CG.json",
+  "GO": "GO.json",
+  "oracle": "oracle.psv",
+  "rules": "rules.json",
+  "reference_script": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/nvd_configuration_environment/solve_reference.py",
+  "mechanical_checker": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/nvd_configuration_environment/check_reference.py",
+  "source_index": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/opportunities/nvd_configuration_environment/match_file_index.json",
+  "complete_reference": true,
+  "source_retrieved_at_utc": [
+    "2026-09-13T09:22:16.778127+00:00",
+    "2026-09-13T09:28:31.269469+00:00"
+  ],
+  "source_cve_lastModified": "2026-06-17T05:48:44.217",
+  "uniform_runtime_date": "2026-09-09",
+  "uniform_runtime_date_is_source_cutoff": false,
+  "independent_pre_A_review": "passed: independent_review/pre_a_review.json",
+  "human_review": "not_completed",
+  "blind_runs": 2,
+  "admitted": false,
+  "development_decision": "development_decision.json"
+}

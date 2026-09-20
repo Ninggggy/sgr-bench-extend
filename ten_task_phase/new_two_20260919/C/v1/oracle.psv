@@ -1,0 +1,9 @@
+configuration | VS | frame_bytes | ra_offset | f0_offset | fcsr_range | v0_offset | overwritten_integer_bytes
+RV32F32 | Clean | 256 | 140 | 8 | [136,140) | NONE | NONE
+RV32F32 | Dirty | 784 | 668 | 536 | [664,668) | 24 | NONE
+RV32F64 | Clean | 388 | 272 | 8 | [264,268) | NONE | NONE
+RV32F64 | Dirty | 916 | 800 | 536 | [792,796) | 24 | NONE
+RV64F32 | Clean | 380 | 148 | 16 | [144,152) | NONE | x1:[148,152)
+RV64F32 | Dirty | 924 | 692 | 560 | [688,696) | 48 | x1:[692,696)
+RV64F64 | Clean | 512 | 280 | 16 | [272,280) | NONE | NONE
+RV64F64 | Dirty | 1056 | 824 | 560 | [816,824) | 48 | NONE

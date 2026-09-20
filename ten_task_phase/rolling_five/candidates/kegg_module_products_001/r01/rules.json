@@ -1,0 +1,23 @@
+{
+  "status": "deterministic_explicit",
+  "columns": ["REACTION_ID", "MODULE_ID", "PRODUCT_IDS"],
+  "row_key": ["REACTION_ID", "MODULE_ID"],
+  "fields": {
+    "REACTION_ID": {"type": "string"},
+    "MODULE_ID": {"type": "string"},
+    "PRODUCT_IDS": {"type": "id_list"}
+  },
+  "record_separator": "\n",
+  "output_format": "Return a pipe-separated table with the header REACTION_ID|MODULE_ID|PRODUCT_IDS. Include every qualifying pair, with one row per distinct (REACTION_ID, MODULE_ID). Sort rows by REACTION_ID ascending, then MODULE_ID ascending. Within PRODUCT_IDS, list the unique compound IDs in ascending order, separated by commas without spaces. Do not include commentary or additional columns in a completed answer. If the complete, resolved comparison yields no qualifying pairs, return only NONE, without a header. Incomplete or unresolved research must not be represented by NONE or a partial table.",
+  "output_definition": {
+    "size": "All qualifying distinct reaction-module pairs; no fixed row count or top-k limit",
+    "header": "REACTION_ID|MODULE_ID|PRODUCT_IDS",
+    "row_sort": ["REACTION_ID ascending", "MODULE_ID ascending"],
+    "product_separator": ",",
+    "product_sort": "ascending unique compound IDs",
+    "duplicate_pairs": "Collapse agreeing qualifying product sets; conflicting qualifying sets are unresolved",
+    "ties": "Include every qualifying pair; module ID resolves shared reaction IDs",
+    "empty_result": "NONE alone, only after complete and resolved comparison",
+    "missing_record_or_unresolved_annotation": "Report the unresolved issue; no answer table or NONE"
+  }
+}

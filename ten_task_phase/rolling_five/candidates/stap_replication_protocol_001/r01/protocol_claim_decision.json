@@ -1,0 +1,17 @@
+{
+  "decision": "Proceed with author-reported procedure and experimental-evidence audit; do not certify exact original-protocol fidelity.",
+  "natural_goal_preserved": "Which indexed open-access citing papers themselves attempted transient low-pH STAP induction, what procedures did they report using or changing, and what supports their pluripotency conclusion?",
+  "scope_of_claim": "The word replication attempt does not imply successful reproduction or strict identity to every original step. Include attempts and modified transient low-pH arms; exclude merely chronic acidic-environment studies.",
+  "actual_original_access": {
+    "url": "https://www.nature.com/articles/nature12968",
+    "http_status": 200,
+    "visible": "Original abstract, figure headings and extended-data captions, references, explicit subscription preview notice",
+    "full_methods_available": false,
+    "locator": "evidence/original_protocol_visible.txt",
+    "subscription_notice": "This is a preview of subscription content,",
+    "no_access_bypass_or_retry": true
+  },
+  "sufficiency": "Original abstract confirms the claimed phenomenon is transient low-pH somatic-cell reprogramming with functional pluripotency. Later papers own Methods and explicit protocol-comparison statements suffice for author-reported procedures. They do not establish independently checked step-by-step fidelity.",
+  "stronger_claim_unresolved": "A strict faithful-original-protocol conformity audit would still require the original full Methods/protocol. No retraction PDF substitution.",
+  "public_requirement": "Ask explicitly for each paper own reported treatment and declared modifications, and state this is not certification of exact original-method fidelity."
+}

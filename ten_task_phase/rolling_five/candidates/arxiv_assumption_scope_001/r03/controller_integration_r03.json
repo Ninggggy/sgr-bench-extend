@@ -1,0 +1,8 @@
+{
+  "reference_execution": "passed",
+  "oracle_unchanged": true,
+  "schema_validation": "passed",
+  "candidate_metadata_normalization": "Mapped to existing schema; canonical ecosystem spelling; first3 actual old comparison refs retained (full4 comparison preserved in source r02 metadata); public prompts/oracle/rules unchanged.",
+  "patch_substitutions": 3,
+  "substantive_revisions_used": 2
+}

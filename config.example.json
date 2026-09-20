@@ -1,0 +1,38 @@
+{
+  "campaign_name": "sgr_gpt6_pilot",
+  "mode": "design_example_not_executed",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "initial_ecosystems": [
+    "WATER_QUALITY_PORTAL",
+    "WATER_OFFICE",
+    "CFPB",
+    "COMPTOX_CHEMEXPO"
+  ],
+  "candidates_per_ecosystem": 2,
+  "max_revisions_per_candidate": 2,
+  "max_model_calls": 120,
+  "max_campaign_wall_seconds": 86400,
+  "max_run_wall_seconds": 6000,
+  "no_progress_seconds": 3000,
+  "max_concurrent_workers": 1,
+  "screening_repeats_per_variant": 1,
+  "confirmation_repeats_per_variant": 3,
+  "variants": [
+    "cg",
+    "go"
+  ],
+  "task_language": "en",
+  "worklog_language": "zh",
+  "evaluation_date": "2026-09-08",
+  "difficulty_tools": [
+    "search",
+    "fetch",
+    "pdf"
+  ],
+  "browser_diagnostic_is_separate": true,
+  "blind_read_isolation": "container_or_vm_or_os_permissions_required",
+  "automatic_model_fallback": false,
+  "formal_cg_path": "../runs/open-source/sgr-bench/constraint.jsonl",
+  "formal_go_path": "../runs/open-source/sgr-bench/goal.jsonl"
+}

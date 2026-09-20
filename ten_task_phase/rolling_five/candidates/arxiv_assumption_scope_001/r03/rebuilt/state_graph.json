@@ -1,0 +1,104 @@
+{
+  "edge_columns": [
+    "from",
+    "to",
+    "dependency"
+  ],
+  "edges": [
+    [
+      "history",
+      "v1/text",
+      "select official historical document"
+    ],
+    [
+      "v1/text",
+      "v1/row",
+      "definition and main statement; same-version correction takes precedence"
+    ],
+    [
+      "v1/row",
+      "oracle",
+      "ascending official version number"
+    ],
+    [
+      "history",
+      "v2/text",
+      "select official historical document"
+    ],
+    [
+      "v2/text",
+      "v2/row",
+      "definition and main statement; same-version correction takes precedence"
+    ],
+    [
+      "v2/row",
+      "oracle",
+      "ascending official version number"
+    ],
+    [
+      "history",
+      "v3/text",
+      "select official historical document"
+    ],
+    [
+      "v3/text",
+      "v3/row",
+      "definition and main statement; same-version correction takes precedence"
+    ],
+    [
+      "v3/row",
+      "oracle",
+      "ascending official version number"
+    ],
+    [
+      "v3/text",
+      "v3/erratum",
+      "appended correction"
+    ],
+    [
+      "v3/erratum",
+      "v3/row",
+      "strongest named requirement; definition includes basic condition"
+    ]
+  ],
+  "nodes": [
+    {
+      "id": "history",
+      "source": "history.html"
+    },
+    {
+      "id": "oracle",
+      "kind": "ordered output"
+    },
+    {
+      "id": "v1/text",
+      "source": "v1.txt"
+    },
+    {
+      "id": "v1/row",
+      "kind": "validated fields"
+    },
+    {
+      "id": "v2/text",
+      "source": "v2.txt"
+    },
+    {
+      "id": "v2/row",
+      "kind": "validated fields"
+    },
+    {
+      "id": "v3/text",
+      "source": "v3.txt"
+    },
+    {
+      "id": "v3/row",
+      "kind": "validated fields"
+    },
+    {
+      "anchor": "p12 Definition 11; p13 Theorem 8 corrected",
+      "id": "v3/erratum",
+      "source": "v3.txt"
+    }
+  ],
+  "scope": "Source dependencies, not a solver trace"
+}

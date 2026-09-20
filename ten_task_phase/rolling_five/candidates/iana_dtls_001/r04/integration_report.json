@@ -1,0 +1,53 @@
+{
+  "candidate_id": "iana_dtls_001",
+  "revision": 4,
+  "status": "reference_ready",
+  "started_at_utc": "2026-09-13T02:06:26+00:00",
+  "ended_at_utc": "2026-09-13T02:12:13.145103+00:00",
+  "elapsed_seconds": 347.145,
+  "wall_budget_seconds": 900,
+  "model": "Astra/high inherited user-authorized",
+  "task": "Integrate independently reviewed IANA registration reconciliation reference as second substantive revision",
+  "source_requests": 1,
+  "source_request_log": "registry_refresh.json",
+  "history_new_requests_this_unit": 0,
+  "history_reused_capture_date": "2026-09-13 UTC",
+  "source_refresh_result": "103 records and entire XML byte-identical; no new scientific scope judgement required",
+  "checks": "execution_checks.json",
+  "content_review": "content_review/iana_reconciliation_content_review.json",
+  "content_review_scope": "Independent pre-development reference and latest paired conditions; not post-development final audit",
+  "public_edits": "Necessary term explanations, actual observation date, field split and consistent empty serialization only; no research predicate changes",
+  "substantive_revisions_used": 2,
+  "substantive_revisions_remaining": 0,
+  "r01_r03_and_full_scores_preserved": true,
+  "global_ledger_or_manifest_writes": false,
+  "allowed_writes": [
+    "r04/**",
+    "../revision_record.json"
+  ],
+  "costs": {
+    "actual_model_sessions": 1,
+    "new_solver_sessions": 0,
+    "local_scorer_entrypoint_checks": 5,
+    "full_reference_recomputations": 1,
+    "full_candidate_schema_checks": 1,
+    "prepare_check_files": 1,
+    "known_local_exec_calls_including_this_final_write": 12,
+    "known_clock_calls": 1,
+    "tokens": "unknown",
+    "money": "unknown"
+  },
+  "remaining_validation": {
+    "development_A": 2,
+    "development_B": 2,
+    "attacks": 2,
+    "independent_final_audit": 1,
+    "formal": 6,
+    "total_model_sessions": 13,
+    "old_A_credit": 0,
+    "performed": false
+  },
+  "difficulty": "untested",
+  "human_validation": "not_performed",
+  "admitted": false
+}

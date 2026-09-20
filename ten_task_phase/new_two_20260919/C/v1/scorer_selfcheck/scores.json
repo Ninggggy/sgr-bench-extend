@@ -1,0 +1,1174 @@
+{
+  "status": "deterministic_explicit",
+  "metrics": {
+    "Item-F1": 1.0,
+    "Row-F1": 1.0,
+    "P.O.A.": 1.0
+  },
+  "counts": {
+    "correct_fields": 64,
+    "gold_fields": 64,
+    "pred_fields": 64,
+    "item_denominator": 128,
+    "correct_rows": 8,
+    "gold_rows": 8,
+    "pred_rows": 8,
+    "row_denominator": 16,
+    "correct_pairs": 28,
+    "pair_denominator": 28,
+    "shared_ids": 8
+  },
+  "omitted_ids": [],
+  "extra_ids": [],
+  "duplicate_ids": [],
+  "order_pairs": [
+    {
+      "first": [
+        "RV32F32",
+        "Clean"
+      ],
+      "second": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Clean"
+      ],
+      "second": [
+        "RV32F64",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Clean"
+      ],
+      "second": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Clean"
+      ],
+      "second": [
+        "RV64F32",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Clean"
+      ],
+      "second": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Clean"
+      ],
+      "second": [
+        "RV64F64",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Clean"
+      ],
+      "second": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "second": [
+        "RV32F64",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "second": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "second": [
+        "RV64F32",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "second": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "second": [
+        "RV64F64",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "second": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F64",
+        "Clean"
+      ],
+      "second": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F64",
+        "Clean"
+      ],
+      "second": [
+        "RV64F32",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F64",
+        "Clean"
+      ],
+      "second": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F64",
+        "Clean"
+      ],
+      "second": [
+        "RV64F64",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F64",
+        "Clean"
+      ],
+      "second": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "second": [
+        "RV64F32",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "second": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "second": [
+        "RV64F64",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "second": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV64F32",
+        "Clean"
+      ],
+      "second": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV64F32",
+        "Clean"
+      ],
+      "second": [
+        "RV64F64",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV64F32",
+        "Clean"
+      ],
+      "second": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "second": [
+        "RV64F64",
+        "Clean"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "second": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "correct": true
+    },
+    {
+      "first": [
+        "RV64F64",
+        "Clean"
+      ],
+      "second": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "correct": true
+    }
+  ],
+  "poa_note": "first occurrence positions; no reordering",
+  "field_differences": [
+    {
+      "pred_index": 0,
+      "id": [
+        "RV32F32",
+        "Clean"
+      ],
+      "field": "configuration",
+      "pred_raw": "RV32F32",
+      "pred_normalized": "RV32F32",
+      "gold": "RV32F32",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "RV32F32",
+        "Clean"
+      ],
+      "field": "VS",
+      "pred_raw": "Clean",
+      "pred_normalized": "Clean",
+      "gold": "Clean",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "RV32F32",
+        "Clean"
+      ],
+      "field": "frame_bytes",
+      "pred_raw": "256",
+      "pred_normalized": "256",
+      "gold": "256",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "RV32F32",
+        "Clean"
+      ],
+      "field": "ra_offset",
+      "pred_raw": "140",
+      "pred_normalized": "140",
+      "gold": "140",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "RV32F32",
+        "Clean"
+      ],
+      "field": "f0_offset",
+      "pred_raw": "8",
+      "pred_normalized": "8",
+      "gold": "8",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "RV32F32",
+        "Clean"
+      ],
+      "field": "fcsr_range",
+      "pred_raw": "[136,140)",
+      "pred_normalized": "[136,140)",
+      "gold": "[136,140)",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "RV32F32",
+        "Clean"
+      ],
+      "field": "v0_offset",
+      "pred_raw": "NONE",
+      "pred_normalized": "NONE",
+      "gold": "NONE",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 0,
+      "id": [
+        "RV32F32",
+        "Clean"
+      ],
+      "field": "overwritten_integer_bytes",
+      "pred_raw": "NONE",
+      "pred_normalized": "NONE",
+      "gold": "NONE",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "field": "configuration",
+      "pred_raw": "RV32F32",
+      "pred_normalized": "RV32F32",
+      "gold": "RV32F32",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "field": "VS",
+      "pred_raw": "Dirty",
+      "pred_normalized": "Dirty",
+      "gold": "Dirty",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "field": "frame_bytes",
+      "pred_raw": "784",
+      "pred_normalized": "784",
+      "gold": "784",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "field": "ra_offset",
+      "pred_raw": "668",
+      "pred_normalized": "668",
+      "gold": "668",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "field": "f0_offset",
+      "pred_raw": "536",
+      "pred_normalized": "536",
+      "gold": "536",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "field": "fcsr_range",
+      "pred_raw": "[664,668)",
+      "pred_normalized": "[664,668)",
+      "gold": "[664,668)",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "field": "v0_offset",
+      "pred_raw": "24",
+      "pred_normalized": "24",
+      "gold": "24",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 1,
+      "id": [
+        "RV32F32",
+        "Dirty"
+      ],
+      "field": "overwritten_integer_bytes",
+      "pred_raw": "NONE",
+      "pred_normalized": "NONE",
+      "gold": "NONE",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "RV32F64",
+        "Clean"
+      ],
+      "field": "configuration",
+      "pred_raw": "RV32F64",
+      "pred_normalized": "RV32F64",
+      "gold": "RV32F64",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "RV32F64",
+        "Clean"
+      ],
+      "field": "VS",
+      "pred_raw": "Clean",
+      "pred_normalized": "Clean",
+      "gold": "Clean",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "RV32F64",
+        "Clean"
+      ],
+      "field": "frame_bytes",
+      "pred_raw": "388",
+      "pred_normalized": "388",
+      "gold": "388",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "RV32F64",
+        "Clean"
+      ],
+      "field": "ra_offset",
+      "pred_raw": "272",
+      "pred_normalized": "272",
+      "gold": "272",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "RV32F64",
+        "Clean"
+      ],
+      "field": "f0_offset",
+      "pred_raw": "8",
+      "pred_normalized": "8",
+      "gold": "8",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "RV32F64",
+        "Clean"
+      ],
+      "field": "fcsr_range",
+      "pred_raw": "[264,268)",
+      "pred_normalized": "[264,268)",
+      "gold": "[264,268)",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "RV32F64",
+        "Clean"
+      ],
+      "field": "v0_offset",
+      "pred_raw": "NONE",
+      "pred_normalized": "NONE",
+      "gold": "NONE",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 2,
+      "id": [
+        "RV32F64",
+        "Clean"
+      ],
+      "field": "overwritten_integer_bytes",
+      "pred_raw": "NONE",
+      "pred_normalized": "NONE",
+      "gold": "NONE",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "field": "configuration",
+      "pred_raw": "RV32F64",
+      "pred_normalized": "RV32F64",
+      "gold": "RV32F64",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "field": "VS",
+      "pred_raw": "Dirty",
+      "pred_normalized": "Dirty",
+      "gold": "Dirty",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "field": "frame_bytes",
+      "pred_raw": "916",
+      "pred_normalized": "916",
+      "gold": "916",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "field": "ra_offset",
+      "pred_raw": "800",
+      "pred_normalized": "800",
+      "gold": "800",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "field": "f0_offset",
+      "pred_raw": "536",
+      "pred_normalized": "536",
+      "gold": "536",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "field": "fcsr_range",
+      "pred_raw": "[792,796)",
+      "pred_normalized": "[792,796)",
+      "gold": "[792,796)",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "field": "v0_offset",
+      "pred_raw": "24",
+      "pred_normalized": "24",
+      "gold": "24",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 3,
+      "id": [
+        "RV32F64",
+        "Dirty"
+      ],
+      "field": "overwritten_integer_bytes",
+      "pred_raw": "NONE",
+      "pred_normalized": "NONE",
+      "gold": "NONE",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "RV64F32",
+        "Clean"
+      ],
+      "field": "configuration",
+      "pred_raw": "RV64F32",
+      "pred_normalized": "RV64F32",
+      "gold": "RV64F32",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "RV64F32",
+        "Clean"
+      ],
+      "field": "VS",
+      "pred_raw": "Clean",
+      "pred_normalized": "Clean",
+      "gold": "Clean",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "RV64F32",
+        "Clean"
+      ],
+      "field": "frame_bytes",
+      "pred_raw": "380",
+      "pred_normalized": "380",
+      "gold": "380",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "RV64F32",
+        "Clean"
+      ],
+      "field": "ra_offset",
+      "pred_raw": "148",
+      "pred_normalized": "148",
+      "gold": "148",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "RV64F32",
+        "Clean"
+      ],
+      "field": "f0_offset",
+      "pred_raw": "16",
+      "pred_normalized": "16",
+      "gold": "16",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "RV64F32",
+        "Clean"
+      ],
+      "field": "fcsr_range",
+      "pred_raw": "[144,152)",
+      "pred_normalized": "[144,152)",
+      "gold": "[144,152)",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "RV64F32",
+        "Clean"
+      ],
+      "field": "v0_offset",
+      "pred_raw": "NONE",
+      "pred_normalized": "NONE",
+      "gold": "NONE",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 4,
+      "id": [
+        "RV64F32",
+        "Clean"
+      ],
+      "field": "overwritten_integer_bytes",
+      "pred_raw": "x1:[148,152)",
+      "pred_normalized": "x1:[148,152)",
+      "gold": "x1:[148,152)",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "field": "configuration",
+      "pred_raw": "RV64F32",
+      "pred_normalized": "RV64F32",
+      "gold": "RV64F32",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "field": "VS",
+      "pred_raw": "Dirty",
+      "pred_normalized": "Dirty",
+      "gold": "Dirty",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "field": "frame_bytes",
+      "pred_raw": "924",
+      "pred_normalized": "924",
+      "gold": "924",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "field": "ra_offset",
+      "pred_raw": "692",
+      "pred_normalized": "692",
+      "gold": "692",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "field": "f0_offset",
+      "pred_raw": "560",
+      "pred_normalized": "560",
+      "gold": "560",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "field": "fcsr_range",
+      "pred_raw": "[688,696)",
+      "pred_normalized": "[688,696)",
+      "gold": "[688,696)",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "field": "v0_offset",
+      "pred_raw": "48",
+      "pred_normalized": "48",
+      "gold": "48",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 5,
+      "id": [
+        "RV64F32",
+        "Dirty"
+      ],
+      "field": "overwritten_integer_bytes",
+      "pred_raw": "x1:[692,696)",
+      "pred_normalized": "x1:[692,696)",
+      "gold": "x1:[692,696)",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "RV64F64",
+        "Clean"
+      ],
+      "field": "configuration",
+      "pred_raw": "RV64F64",
+      "pred_normalized": "RV64F64",
+      "gold": "RV64F64",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "RV64F64",
+        "Clean"
+      ],
+      "field": "VS",
+      "pred_raw": "Clean",
+      "pred_normalized": "Clean",
+      "gold": "Clean",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "RV64F64",
+        "Clean"
+      ],
+      "field": "frame_bytes",
+      "pred_raw": "512",
+      "pred_normalized": "512",
+      "gold": "512",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "RV64F64",
+        "Clean"
+      ],
+      "field": "ra_offset",
+      "pred_raw": "280",
+      "pred_normalized": "280",
+      "gold": "280",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "RV64F64",
+        "Clean"
+      ],
+      "field": "f0_offset",
+      "pred_raw": "16",
+      "pred_normalized": "16",
+      "gold": "16",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "RV64F64",
+        "Clean"
+      ],
+      "field": "fcsr_range",
+      "pred_raw": "[272,280)",
+      "pred_normalized": "[272,280)",
+      "gold": "[272,280)",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "RV64F64",
+        "Clean"
+      ],
+      "field": "v0_offset",
+      "pred_raw": "NONE",
+      "pred_normalized": "NONE",
+      "gold": "NONE",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 6,
+      "id": [
+        "RV64F64",
+        "Clean"
+      ],
+      "field": "overwritten_integer_bytes",
+      "pred_raw": "NONE",
+      "pred_normalized": "NONE",
+      "gold": "NONE",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "field": "configuration",
+      "pred_raw": "RV64F64",
+      "pred_normalized": "RV64F64",
+      "gold": "RV64F64",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "field": "VS",
+      "pred_raw": "Dirty",
+      "pred_normalized": "Dirty",
+      "gold": "Dirty",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "field": "frame_bytes",
+      "pred_raw": "1056",
+      "pred_normalized": "1056",
+      "gold": "1056",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "field": "ra_offset",
+      "pred_raw": "824",
+      "pred_normalized": "824",
+      "gold": "824",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "field": "f0_offset",
+      "pred_raw": "560",
+      "pred_normalized": "560",
+      "gold": "560",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "field": "fcsr_range",
+      "pred_raw": "[816,824)",
+      "pred_normalized": "[816,824)",
+      "gold": "[816,824)",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "field": "v0_offset",
+      "pred_raw": "48",
+      "pred_normalized": "48",
+      "gold": "48",
+      "correct": true,
+      "reason": "match"
+    },
+    {
+      "pred_index": 7,
+      "id": [
+        "RV64F64",
+        "Dirty"
+      ],
+      "field": "overwritten_integer_bytes",
+      "pred_raw": "NONE",
+      "pred_normalized": "NONE",
+      "gold": "NONE",
+      "correct": true,
+      "reason": "match"
+    }
+  ],
+  "item_fraction": "128/128",
+  "substantive_submission": true,
+  "strictly_below_70": false,
+  "semantic_table_correct": true,
+  "whole_answer_correct": true
+}

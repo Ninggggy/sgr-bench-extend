@@ -1,0 +1,20 @@
+{
+  "candidate_id": "stap_replication_protocol_001",
+  "revision": 1,
+  "decided_at": "2026-09-13T07:51:46.815831+00:00",
+  "status": "stopped_development_A_CG_valid_full_GO_access_noncompliant",
+  "raw_scores": {
+    "CG": "24/24",
+    "GO": "22/24"
+  },
+  "formal_means": {
+    "CG": null,
+    "GO": null
+  },
+  "admitted": false,
+  "reason": "Independent access/error review confirms legitimate CG full score; GO omission under incomplete access does not justify later sampling.",
+  "access_and_error_review": "development_access_review.json",
+  "source_stability_check": "post_development_a/checks.json",
+  "human_review": "not_performed",
+  "additional_sampling": false
+}

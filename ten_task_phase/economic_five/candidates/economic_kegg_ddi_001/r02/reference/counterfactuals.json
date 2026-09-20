@@ -1,0 +1,3690 @@
+{
+  "computed_by": "Actual query_csv SQL and JavaScript set computations in this turn; Python replay not yet run.",
+  "baseline_rows": 296,
+  "within_group_exclusion": {
+    "wrong_rule": "Keep all unordered reported pairs in the union of both member sets.",
+    "wrong_rows": 536,
+    "added_rows": [
+      {
+        "row_key": [
+          "D00326",
+          "D00824"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            2,
+            112
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00326",
+          "D02260"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            3,
+            268
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00326",
+          "D02567"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            5,
+            455
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00326",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            7,
+            720
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00326",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            8,
+            779
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00346",
+          "D00785"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            10,
+            36
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00346",
+          "D01501"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            13,
+            236
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00346",
+          "D02002"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            14,
+            257
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00346",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            16,
+            376
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00346",
+          "D02564"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            17,
+            444
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00346",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            19,
+            593
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00346",
+          "D08453"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            22,
+            952
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00346",
+          "D09773"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            23,
+            983
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00346",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            24,
+            1005
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00505",
+          "D00785"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            25,
+            37
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00505",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            29,
+            377
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00505",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            31,
+            594
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00505",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            34,
+            1006
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D00826"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            42,
+            216
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D01097"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            43,
+            226
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D01501"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            44,
+            237
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D01888"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            45,
+            247
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D02002"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            46,
+            258
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D02559"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            50,
+            345
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D02560"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            51,
+            355
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D02561"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            52,
+            365
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            53,
+            378
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D02563"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            54,
+            434
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D02564"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            55,
+            445
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D02579"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            57,
+            514
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D02580"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            58,
+            524
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D02581"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            59,
+            534
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D03239"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            61,
+            553
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D03248"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            62,
+            563
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D03409"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            63,
+            573
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            65,
+            595
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D03733"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            66,
+            651
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D04092"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            67,
+            661
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D04681"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            69,
+            680
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D05033"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            70,
+            690
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D05039"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            71,
+            700
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D05040"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            72,
+            710
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D07337"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            77,
+            856
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D07338"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            78,
+            866
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D08085"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            83,
+            912
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D08349"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            84,
+            922
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D08392"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            85,
+            932
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D08393"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            86,
+            942
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D08453"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            87,
+            953
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D08469"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            88,
+            963
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D08625"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            89,
+            973
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D09773"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            90,
+            984
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D10158"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            91,
+            994
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            92,
+            1007
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00785",
+          "D10829"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            93,
+            1063
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00822",
+          "D00824"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            95,
+            116
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00822",
+          "D02260"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            96,
+            272
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00822",
+          "D02567"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            98,
+            459
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00822",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            100,
+            724
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00822",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            101,
+            783
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00823",
+          "D00824"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            104,
+            117
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00823",
+          "D02260"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            105,
+            273
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00823",
+          "D02567"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            107,
+            460
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00823",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            109,
+            725
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00823",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            110,
+            784
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D00825"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            118,
+            174
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D02260"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            124,
+            274
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D02360"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            125,
+            328
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D02362"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            126,
+            337
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D02567"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            133,
+            461
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D02787"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            137,
+            545
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D03649"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            141,
+            584
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D04105"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            145,
+            672
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            150,
+            726
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            151,
+            785
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D05491"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            152,
+            839
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D06367"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            153,
+            848
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D07704"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            156,
+            877
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D07705"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            157,
+            886
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D07913"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            158,
+            895
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00824",
+          "D07984"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            159,
+            904
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00825",
+          "D02260"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            180,
+            275
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00825",
+          "D02567"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            187,
+            462
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00825",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            201,
+            727
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00825",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            202,
+            786
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00826",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            220,
+            383
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00826",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            222,
+            600
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D00826",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            225,
+            1012
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D01097",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            230,
+            384
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D01097",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            232,
+            601
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D01097",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            235,
+            1013
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D01501",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            241,
+            385
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D01501",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            243,
+            602
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D01501",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            246,
+            1014
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D01888",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            251,
+            386
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D01888",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            253,
+            603
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D01888",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            256,
+            1015
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02002",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            262,
+            387
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02002",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            264,
+            604
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02002",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            267,
+            1016
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D02360"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            281,
+            329
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D02362"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            282,
+            338
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D02567"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            289,
+            468
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D02787"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            293,
+            546
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D03649"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            297,
+            585
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D04105"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            301,
+            673
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            306,
+            733
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            307,
+            792
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D05491"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            308,
+            840
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D06367"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            309,
+            849
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D07704"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            312,
+            878
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D07705"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            313,
+            887
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D07913"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            314,
+            896
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02260",
+          "D07984"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            315,
+            905
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02360",
+          "D02567"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            331,
+            469
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02360",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            333,
+            734
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02360",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            334,
+            793
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02362",
+          "D02567"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            340,
+            470
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02362",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            342,
+            735
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02362",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            343,
+            794
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02559",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            349,
+            391
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02559",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            351,
+            608
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02559",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            354,
+            1020
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02560",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            359,
+            392
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02560",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            361,
+            609
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02560",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            364,
+            1021
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02561",
+          "D02562"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            369,
+            393
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02561",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            371,
+            610
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02561",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            374,
+            1022
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D02563"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            394,
+            438
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D02564"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            395,
+            449
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D02579"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            397,
+            518
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D02580"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            398,
+            528
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D02581"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            399,
+            538
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D03239"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            401,
+            557
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D03248"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            402,
+            567
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D03409"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            403,
+            577
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            405,
+            611
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D03733"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            406,
+            655
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D04092"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            407,
+            665
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D04681"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            409,
+            684
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D05033"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            410,
+            694
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D05039"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            411,
+            704
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D05040"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            412,
+            714
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D07337"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            417,
+            860
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D07338"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            418,
+            870
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D08085"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            423,
+            916
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D08349"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            424,
+            926
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D08392"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            425,
+            936
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D08393"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            426,
+            946
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D08453"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            427,
+            957
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D08469"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            428,
+            967
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D08625"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            429,
+            977
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D09773"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            430,
+            988
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D10158"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            431,
+            998
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            432,
+            1023
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02562",
+          "D10829"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            433,
+            1067
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02563",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            440,
+            612
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02563",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            443,
+            1024
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02564",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            451,
+            613
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02564",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            454,
+            1025
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D02787"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            480,
+            548
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D03649"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            484,
+            587
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D04105"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            488,
+            675
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            493,
+            742
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            494,
+            801
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D05491"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            495,
+            842
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D06367"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            496,
+            851
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D07704"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            499,
+            880
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D07705"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            500,
+            889
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D07913"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            501,
+            898
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02567",
+          "D07984"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            502,
+            907
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02579",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            520,
+            615
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02579",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            523,
+            1027
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02580",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            530,
+            616
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02580",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            533,
+            1028
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02581",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            540,
+            617
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02581",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            543,
+            1029
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02787",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            550,
+            746
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D02787",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            551,
+            805
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03239",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            559,
+            619
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03239",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            562,
+            1031
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03248",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            569,
+            620
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03248",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            572,
+            1032
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03409",
+          "D03731"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            579,
+            621
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03409",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            582,
+            1033
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03649",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            589,
+            750
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03649",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            590,
+            809
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D03733"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            623,
+            657
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D04092"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            624,
+            667
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D04681"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            626,
+            686
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D05033"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            627,
+            696
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D05039"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            628,
+            706
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D05040"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            629,
+            716
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D07337"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            634,
+            862
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D07338"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            635,
+            872
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D08085"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            640,
+            918
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D08349"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            641,
+            928
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D08392"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            642,
+            938
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D08393"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            643,
+            948
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D08453"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            644,
+            959
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D08469"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            645,
+            969
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D08625"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            646,
+            979
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D09773"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            647,
+            990
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D10158"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            648,
+            1000
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            649,
+            1035
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03731",
+          "D10829"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            650,
+            1069
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D03733",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            660,
+            1036
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D04092",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            670,
+            1037
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D04105",
+          "D05374"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            677,
+            754
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D04105",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            678,
+            813
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D04681",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            689,
+            1039
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05033",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            699,
+            1040
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05039",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            709,
+            1041
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05040",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            719,
+            1042
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05374",
+          "D05375"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            759,
+            818
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05374",
+          "D05491"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            760,
+            844
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05374",
+          "D06367"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            761,
+            853
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05374",
+          "D07704"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            764,
+            882
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05374",
+          "D07705"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            765,
+            891
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05374",
+          "D07913"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            766,
+            900
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05374",
+          "D07984"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            767,
+            909
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05375",
+          "D05491"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            819,
+            845
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05375",
+          "D06367"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            820,
+            854
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05375",
+          "D07704"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            823,
+            883
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05375",
+          "D07705"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            824,
+            892
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05375",
+          "D07913"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            825,
+            901
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D05375",
+          "D07984"
+        ],
+        "classes": "P",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            826,
+            910
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D07337",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            865,
+            1047
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D07338",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            875,
+            1048
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D08085",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            921,
+            1053
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D08349",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            931,
+            1054
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D08392",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            941,
+            1055
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D08393",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            951,
+            1056
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D08453",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            962,
+            1057
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D08469",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            972,
+            1058
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D08625",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            982,
+            1059
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D09773",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            993,
+            1060
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D10158",
+          "D10191"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            1003,
+            1061
+          ]
+        }
+      },
+      {
+        "row_key": [
+          "D10191",
+          "D10829"
+        ],
+        "classes": "CI",
+        "source": {
+          "file_id": "d0044",
+          "lines": [
+            1062,
+            1072
+          ]
+        }
+      }
+    ],
+    "removed_rows": [],
+    "evidence": [
+      "d0183",
+      "d0187",
+      "d0179"
+    ]
+  },
+  "salt_identity": {
+    "wrong_rule": "Treat Paroxetine hydrochloride hemihydrate D02260 and Paroxetine D02362 as interchangeable, and inherit every D02260 class for D02362 against the same MAO member.",
+    "wrong_rows": 332,
+    "added_rows": [
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D00346",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D00505",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D00826",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D01097",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D01501",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D01888",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D02002",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D02559",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D02560",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D02561",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D02563",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D02564",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D02579",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D02580",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D02581",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D03239",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D03248",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D03409",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D03733",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D04092",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D04681",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D05033",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D05039",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D05040",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D07337",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D07338",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D08085",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D08349",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D08392",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D08393",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D08453",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D08469",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D08625",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D09773",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D10158",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D10829",
+        "classes": "CI"
+      }
+    ],
+    "removed_rows": [],
+    "boundary": {
+      "present": "D02260|D00346|CI",
+      "absent": "D02362|D00346",
+      "source": "d0179 lines 1-4; successful batch d0044 and both endpoint singletons; d0181 404 is not used as zero"
+    },
+    "evidence": [
+      "d0188",
+      "d0179",
+      "d0186"
+    ]
+  },
+  "ssri_endpoint_only": {
+    "wrong_rule": "Query each SSRI alone, never consult the opposite endpoint, and interpret missing rows as absence.",
+    "wrong_rows": 282,
+    "removed_rows": [
+      {
+        "ssri_id": "D00326",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D00822",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D00823",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02360",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02362",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D02787",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D03649",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D04105",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D05491",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D06367",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D07704",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D07705",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D07913",
+        "mao_id": "D03731",
+        "classes": "CI"
+      },
+      {
+        "ssri_id": "D07984",
+        "mao_id": "D03731",
+        "classes": "CI"
+      }
+    ],
+    "added_rows": [],
+    "evidence": [
+      "d0091",
+      "d0092",
+      "d0175",
+      "d0176"
+    ]
+  },
+  "worst_class_only": {
+    "wrong_rule": "Replace CI,P with CI.",
+    "row_count_unchanged": true,
+    "changed_values": [
+      {
+        "row_key": [
+          "D00824",
+          "D02562"
+        ],
+        "correct": "CI,P",
+        "wrong": "CI",
+        "source_lines": [
+          130,
+          381
+        ]
+      },
+      {
+        "row_key": [
+          "D07984",
+          "D02562"
+        ],
+        "correct": "CI,P",
+        "wrong": "CI",
+        "source_lines": [
+          422,
+          906
+        ]
+      }
+    ],
+    "evidence": [
+      "d0047",
+      "d0177"
+    ]
+  }
+}

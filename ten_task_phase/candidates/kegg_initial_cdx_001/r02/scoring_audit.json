@@ -1,0 +1,32 @@
+{
+  "scorer":"Unchanged d0020",
+  "execution_status":"Source-code inspection only in this session; normalization examples below are expected results for controller execution, not claimed executed scorer results.",
+  "findings": [
+    "r01 default string fields required exact clinical/specimen/class prose and preserved substitution order, creating paraphrase sensitivity.",
+    "r02 has no scored freeform clinical or functional-definition cell.",
+    "named_substitutions and additional_classes use existing id_list normalization: split on comma, semicolon, or whitespace; deduplicate and sort.",
+    "All fields use the existing uppercase option. String aliases are applied before uppercasing and list splitting.",
+    "Only grounded whole-cell ITD aliases are supplied. No token-level alias capability is assumed.",
+    "Multiword class names are serialized as single underscore-separated tokens by an explicit generic public instruction; otherwise this scorer would split their component words.",
+    "Salt identity and transcript digits remain substantive. No free-base alias, arbitrary transcript-version alias, or substitution equivalence is introduced.",
+    "List membership remains exact: an omitted or extra substitution makes that list cell different. There is no per-substitution row expansion or new weighting.",
+    "Row order remains drug then gene. Existing duplicate-row handling, row-key matching, Item-F1, Row-F1, and P.O.A. are unchanged.",
+    "The scorer cannot validate narrative citations or biological interpretation. r02 does not claim that it does."
+  ],
+  "normalization_cases": [
+    {"field":"drug","a":"Capivasertib","b":"capivasertib","equal":true},
+    {"field":"reference_transcript","a":"NM_006218","b":"nm_006218","equal":true},
+    {"field":"named_substitutions","a":"C124R;C124S;R130Q","b":"r130q, c124s c124r","equal":true},
+    {"field":"named_substitutions","a":"C124R;C124S","b":"C124R;C124S;C124R","equal":true},
+    {"field":"additional_classes","a":"frameshift;homozygous_deletion;nonsense;rearrangement;splice_site","b":"SPLICE_SITE, NONSENSE REARRANGEMENT;HOMOZYGOUS_DELETION;FRAMESHIFT","equal":true},
+    {"field":"additional_classes","a":"ITD","b":"internal_tandem_duplication","equal":true,"grounding":"d0029 quiz_label and quiz_pma explicitly expand ITD"},
+    {"field":"named_substitutions","a":"E545A;E545D;E545G","b":"E545A;E545D","equal":false},
+    {"field":"named_substitutions","a":"E17K","b":"E17R","equal":false},
+    {"field":"additional_classes","a":"internal_tandem_duplication","b":"internal_tandem_duplication;TKD","equal":false},
+    {"field":"reference_transcript","a":"NM_000314","b":"NM_006218","equal":false},
+    {"field":"drug","a":"Quizartinib dihydrochloride","b":"Quizartinib","equal":false}
+  ],
+  "remaining_format_limit":"The unchanged scorer does not perform unrestricted synonym matching. Both prompts therefore ask for source class names under explicit generic serialization, not arbitrary paraphrases. Whole-cell aliases cannot generally normalize alternative words embedded in a multi-item list.",
+  "no_expected_blind_score":true,
+  "no_protocol_changes":true
+}

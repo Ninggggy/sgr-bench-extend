@@ -1,0 +1,17 @@
+{
+  "scope_records_unchanged": 64,
+  "broader_response_total": 64,
+  "broader_day_count": 64,
+  "match_uuids_covered": 381,
+  "revision_index_total": 22,
+  "relevant_revision_rows": 0,
+  "revision_index_start": "2026-09-11T18:34:32.000",
+  "revision_index_end": "2026-09-11T19:05:53.000",
+  "newest_primary_match_revision": "2026-01-15T19:22:14.243",
+  "source_entries": [
+    "sources/d0334.json",
+    "sources/d0333.json",
+    "sources/d0336.json"
+  ],
+  "interpretation": "Construction-window stability is supported by full current CVE equality and the complete official Match revision index, whose documented fields cover status and relevant dictionary-name changes. This is not a historical replay, a proof excluding all transient changes, or certification of later blind evaluations."
+}

@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-09-08T15:27:22.794042+00:00",
+  "phase": "screening_only",
+  "runs": [
+    {
+      "label": "screening_new_CG_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-420f595cac9b",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "limitations": []
+    },
+    {
+      "label": "screening_old_CG_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-d1d328608132",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "limitations": [
+        "Earliest year means the maximum of the six category start years. Portal ranges may contain gap years; they do not establish annual sampling in every category.",
+        "Upper, middle, and lower segment boundaries were not precisely defined. The selection uses FM 85, US 59, and IH 10 across the three reported HUCs; the criteria do not uniquely determine three stations.",
+        "Candidate screening was not exhaustive: the provider directory exceeded the tool's content limit, and station pages 10895, 10896, 10898, 10916, 10918, 10919, 10922, and 10923 timed out. All three selected records were successfully inspected.",
+        "Search results incidentally exposed a benchmark-dataset snippet containing similar task wording and a row count, but no answer values. That dataset was not opened or used as evidence."
+      ]
+    },
+    {
+      "label": "screening_new_GO_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-615ba2d60939",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "limitations": []
+    },
+    {
+      "label": "screening_old_GO_1",
+      "run": "candidates/wqp_activity_panel_001/r03/runs/r-a210a4717398",
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "limitations": [
+        "Earliest common year is the maximum of the six group start years. The portal warns that date ranges may contain gap years; continuous annual sampling was not established.",
+        "Internal segment boundaries were unspecified; FM 85, US 59 and IH 10 were selected as upper, middle and lower reference locations.",
+        "Alternative-station pages 10920 and 10923 timed out; their records were recovered through indexed source text. Further inspection of alternative station 10898 failed. All three selected records were successfully inspected.",
+        "Search results accidentally surfaced a public benchmark listing containing the task and format metadata. No reference answer was viewed or used."
+      ]
+    }
+  ],
+  "new_task_fatal_source_oracle_semantic_findings": [],
+  "old_limitations": "Nonunique public station selection remains. Some alternative-station access failed or was partial, selected3source rows were inspected. Incidental public benchmark task/format snippets were reported; GO actual snippets and calls contain no gold rows. Preserve as exposure/scope limitation, not a fabricated leak or complete candidate-universe proof.",
+  "new_task_changed": false,
+  "old_task_oracle_or_scoring_changed": false,
+  "confirmation_decision": "Execute exactly12prespecified new sessions; no score-driven addition or repair; same finalr03andoriginalold004.",
+  "overall_goal": "Not achieved; all4screening outputs matchoriginaloracles, and pilot cannot certify harder.",
+  "record_creation_note": "Controller read all4actualscores, verification and limitations before announcing/starting confirmation. First attempt to save this report failed on an absolute/relative path mismatch; this corrected artifact is persisted after confirmation starts. No model interrupted, duplicated or retried, and no decision/input changed."
+}

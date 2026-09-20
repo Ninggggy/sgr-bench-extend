@@ -1,0 +1,17 @@
+{
+  "observation_date": "2026-09-12",
+  "evaluation_configuration_date": "2026-09-09",
+  "source_directory": "Controller materializes the supplied primary_excerpts entries under their exact filenames and history_metadata as history_metadata.txt. Add the two r02context excerpt files delivered here. Preserve original excerpts and their explicit UNFETCHED gaps.",
+  "sources": [
+    {"file": "2006.06224v2.excerpt.txt", "url": "https://arxiv.org/pdf/2006.06224v2", "role": "Complete citation bullet, bibliography and relevant comparison table", "anchors": ["437-443", "761-778", "1303-1319"]},
+    {"file": "1809.06474v1.excerpt.txt", "url": "https://arxiv.org/pdf/1809.06474v1", "role": "Referenced-title identity only", "anchors": ["0-10"]},
+    {"file": "1809.06474v2.excerpt.txt", "url": "https://arxiv.org/pdf/1809.06474v2", "role": "Selected original statement, oracle, algorithm and gap definition", "anchors": ["0-5", "167-223", "316-362", "388-438"]},
+    {"file": "1811.10828v2.excerpt.txt", "url": "https://arxiv.org/pdf/1811.10828v2", "role": "Selected original black-box statement and function-query model", "anchors": ["0-2", "162-170", "245-296", "336-415"]},
+    {"file": "1810.03233v3.excerpt.txt", "url": "https://arxiv.org/pdf/1810.03233v3", "role": "Selected original nonconvex statement; sampled query model; retained discrepancies", "anchors": ["181-196", "265-295", "824-828", "978-1055"]},
+    {"file": "1810.03233v3.additional.excerpt.txt", "url": "https://arxiv.org/pdf/1810.03233v3", "role": "Previously fetched conflict anchors", "anchors": ["3689", "3777"]},
+    {"file": "1809.06474v2.r02context.excerpt.txt", "url": "https://arxiv.org/pdf/1809.06474v2", "role": "Newly fetched later-algorithm context", "anchors": ["1134"]},
+    {"file": "1810.03233v3.r02context.excerpt.txt", "url": "https://arxiv.org/pdf/1810.03233v3", "role": "Newly fetched equation referenced by the main theorem and preceding convex-result context", "anchors": ["448", "753", "762"]},
+    {"file": "history_metadata.txt", "urls": ["https://arxiv.org/abs/2006.06224", "https://arxiv.org/abs/1809.06474", "https://arxiv.org/abs/1811.10828", "https://arxiv.org/abs/1810.03233"], "role": "Official posting times, complete version enumeration and selected-version provenance"}
+  ],
+  "coverage": "Selected excerpts, not complete PDF transcriptions. Additional context was read through the existing web PDF tool. No direct download, proxy, conference/preprint textual equivalence, or historical web snapshot is claimed."
+}

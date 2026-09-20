@@ -1,0 +1,179 @@
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner "Global navigation menu":
+  - button "Open menu":
+  - link "Homepage (g then d)":
+    - /url: /
+  - navigation "Breadcrumbs":
+    - list:
+      - link "FreeRTOS":
+        - /url: /FreeRTOS
+        - generic: FreeRTOS
+      - link "FreeRTOS-Kernel":
+        - /url: /FreeRTOS/FreeRTOS-Kernel
+      - button "Switch repository (alt shift r)":
+  - button "Open quick search dialog, type / to search":
+    - text: Type
+    - generic: /
+    - text: to search
+  - link "Chat with Copilot":
+    - /url: /copilot
+  - button "Open Copilot…":
+  - button "Create new...":
+  - link "All issues":
+    - /url: /issues
+  - link "All pull requests":
+    - /url: /pulls
+  - link "All repositories":
+    - /url: /repos
+  - link "You have no unread notifications (g then n)":
+    - /url: /notifications
+  - button "Open user navigation menu":
+    - img "User avatar"
+  - heading "Repository navigation" [level=2]
+  - navigation "Repository":
+    - list:
+      - link "Code":
+        - /url: /FreeRTOS/FreeRTOS-Kernel
+        - generic: Code
+      - link "Issues (43)":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/issues
+        - generic: Issues
+        - generic: "43"
+        - generic: (43)
+      - link "Pull requests (52)":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/pulls
+        - generic: Pull requests
+        - generic: "52"
+        - generic: (52)
+      - link "Agents":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/agents?author=Ninggggy
+        - generic: Agents
+      - link "Actions":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/actions
+        - generic: Actions
+      - link "Projects":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/projects
+        - generic: Projects
+      - link "Security and quality (5)":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/security
+        - generic: Security and quality
+        - generic: "5"
+        - generic: (5)
+      - link "Insights":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/pulse
+        - generic: Insights
+- main:
+  - heading "Expand file tree" [level=2]:
+    - button "Expand file tree":
+  - button "V11.3.0 branch":
+    - generic: V11.3.0
+  - navigation "Breadcrumbs":
+    - heading "Breadcrumbs" [level=2]
+    - list:
+      - link "FreeRTOS-Kernel":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0
+      - text: /
+      - link "portable":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable
+      - text: /
+      - link "GCC":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC
+      - text: /
+      - link "RISC-V":
+        - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC/RISC-V
+  - text: /
+  - heading "chip_specific_extensions" [level=1]
+  - text: /
+  - button "Copy path":
+  - heading "Directory actions" [level=2]
+  - combobox "Go to file"
+  - generic: t
+  - generic: T
+  - heading "More options" [level=2]
+  - button "More options":
+  - heading "Latest commit" [level=2]
+  - heading "History" [level=2]
+  - link "History":
+    - /url: /FreeRTOS/FreeRTOS-Kernel/commits/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions
+    - generic: History
+  - heading "Folders and files" [level=2]
+  - table "Folders and files":
+    - rowgroup:
+      - row "Name Last commit message Last commit date":
+        - columnheader "Name"
+        - columnheader "Last commit message":
+          - generic "Last commit message"
+        - columnheader "Last commit date":
+          - generic "Last commit date"
+    - rowgroup:
+      - row "parent directory Parent directory":
+        - cell "parent directory Parent directory":
+          - heading "parent directory" [level=3]
+          - link "Parent directory":
+            - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC/RISC-V
+            - text: ..
+      - row "Pulpino_Vega_RV32M1RM, (Directory)":
+        - cell "Pulpino_Vega_RV32M1RM, (Directory)":
+          - link "Pulpino_Vega_RV32M1RM, (Directory)":
+            - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions/Pulpino_Vega_RV32M1RM
+            - text: Pulpino_Vega_RV32M1RM
+        - cell
+        - cell
+      - row "RISCV_MTIME_CLINT_no_extensions, (Directory)":
+        - cell "RISCV_MTIME_CLINT_no_extensions, (Directory)":
+          - link "RISCV_MTIME_CLINT_no_extensions, (Directory)":
+            - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions/RISCV_MTIME_CLINT_no_extensions
+            - text: RISCV_MTIME_CLINT_no_extensions
+        - cell
+        - cell
+      - row "RISCV_no_extensions, (Directory)":
+        - cell "RISCV_no_extensions, (Directory)":
+          - link "RISCV_no_extensions, (Directory)":
+            - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions/RISCV_no_extensions
+            - text: RISCV_no_extensions
+        - cell
+        - cell
+      - row "RV32I_CLINT_no_extensions, (Directory)":
+        - cell "RV32I_CLINT_no_extensions, (Directory)":
+          - link "RV32I_CLINT_no_extensions, (Directory)":
+            - /url: /FreeRTOS/FreeRTOS-Kernel/tree/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions/RV32I_CLINT_no_extensions
+            - text: RV32I_CLINT_no_extensions
+        - cell
+        - cell
+      - row "readme.txt, (File)":
+        - cell "readme.txt, (File)":
+          - link "readme.txt, (File)":
+            - /url: /FreeRTOS/FreeRTOS-Kernel/blob/V11.3.0/portable/GCC/RISC-V/chip_specific_extensions/readme.txt
+            - text: readme.txt
+        - cell
+        - cell
+  - heading "readme.txt" [level=2]:
+    - link "readme.txt":
+      - /url: "#readme"
+  - button "Ask Copilot about this repository":
+  - generic: "/* * The FreeRTOS kernel's RISC-V port is split between the the code that is * common across all currently supported RISC-V chips (implementations of the * RISC-V ISA), and code that tailors the port to a specific RISC-V chip: * * + FreeRTOS\\Source\\portable\\GCC\\RISC-V\\portASM.S contains the code that * is common to all currently supported RISC-V chips. There is only one * portASM.S file because the same file is built for all RISC-V target chips. * * + Header files called freertos_risc_v_chip_specific_extensions.h contain the * code that tailors the FreeRTOS kernel's RISC-V port to a specific RISC-V * chip. There are multiple freertos_risc_v_chip_specific_extensions.h files * as there are multiple RISC-V chip implementations. * * !!!NOTE!!! * TAKE CARE TO INCLUDE THE CORRECT freertos_risc_v_chip_specific_extensions.h * HEADER FILE FOR THE CHIP IN USE. This is done using the assembler's (not the * compiler's!) include path. For example, if the chip in use includes a core * local interrupter (CLINT) and does not include any chip specific register * extensions then add the path below to the assembler's include path: * FreeRTOS\\Source\\portable\\GCC\\RISC-V\\chip_specific_extensions\\RV32I_CLINT_no_extensions * */"
+- contentinfo:
+  - heading "Footer" [level=2]
+  - link "GitHub Homepage":
+    - /url: https://github.com
+  - generic: © 2026 GitHub, Inc.
+  - navigation "Footer":
+    - heading "Footer navigation" [level=3]
+    - list "Footer navigation":
+      - link "Terms":
+        - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - link "Privacy":
+        - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - link "Security":
+        - /url: https://github.com/security
+      - link "Status":
+        - /url: https://www.githubstatus.com/
+      - link "Community":
+        - /url: https://github.community/
+      - link "Docs":
+        - /url: https://docs.github.com/
+      - link "Contact":
+        - /url: https://support.github.com?tags=dotcom-footer
+      - button "Manage cookies"
+      - button "Do not share my personal information"

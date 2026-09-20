@@ -1,0 +1,16 @@
+{
+  "configuration_sql_asset": "d0101",
+  "match_union_asset": "d0167",
+  "join_asset": "d0250",
+  "exact_source_wrapper": "d0314",
+  "oracle_comparison": {
+    "sql_asset": "d0315",
+    "rows": 228,
+    "exactly_equal": true
+  },
+  "source_uuid_token_count": 622,
+  "max_source_array_length": 86,
+  "sql_sequence_upper_index": 1023,
+  "json_tree_unavailable": "OperationalError: vtable constructor failed: json_tree",
+  "null_handling_correction": "CSV reload turns SQL NULL into empty TEXT; use NULLIF(column,'') before IS NOT NULL. d0106/d0107 were invalid intermediate range checks and were superseded by d0171/d0173."
+}

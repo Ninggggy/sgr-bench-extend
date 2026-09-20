@@ -1,0 +1,18 @@
+model = "gpt-6-astra"
+model_provider = "openai"
+model_reasoning_effort = "medium"
+web_search = "live"
+approval_policy = "never"
+sandbox_mode = "read-only"
+[features]
+shell_tool = false
+unified_exec = false
+shell_snapshot = false
+apps = false
+multi_agent = false
+multi_agent_v2 = false
+[mcp_servers.wqp_data]
+command = "python3"
+args = ["/opt/wqp/data_tools.py"]
+startup_timeout_sec = 20
+tool_timeout_sec = 180

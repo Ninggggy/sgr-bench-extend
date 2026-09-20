@@ -1,0 +1,498 @@
+2024a_europe:564: Rule	EU	1977	1980	-	Apr	Sun>=1	 1:00u	1:00	S
+2024a_europe:565: Rule	EU	1977	only	-	Sep	lastSun	 1:00u	0	-
+2024a_europe:566: Rule	EU	1978	only	-	Oct	 1	 1:00u	0	-
+2024a_europe:567: Rule	EU	1979	1995	-	Sep	lastSun	 1:00u	0	-
+2024a_europe:568: Rule	EU	1981	max	-	Mar	lastSun	 1:00u	1:00	S
+2024a_europe:569: Rule	EU	1996	max	-	Oct	lastSun	 1:00u	0	-
+2024a_europe:576: Rule	W-Eur	1977	1980	-	Apr	Sun>=1	 1:00s	1:00	S
+2024a_europe:577: Rule	W-Eur	1977	only	-	Sep	lastSun	 1:00s	0	-
+2024a_europe:578: Rule	W-Eur	1978	only	-	Oct	 1	 1:00s	0	-
+2024a_europe:579: Rule	W-Eur	1979	1995	-	Sep	lastSun	 1:00s	0	-
+2024a_europe:580: Rule	W-Eur	1981	max	-	Mar	lastSun	 1:00s	1:00	S
+2024a_europe:581: Rule	W-Eur	1996	max	-	Oct	lastSun	 1:00s	0	-
+2024a_europe:2064: # Portugal
+2024a_europe:2065: 
+2024a_europe:2066: # From Paul Eggert (2014-08-11), after a heads-up from Stephen Colebourne:
+2024a_europe:2067: # According to a Portuguese decree (1911-05-26)
+2024a_europe:2068: # https://dre.pt/application/dir/pdf1sdip/1911/05/12500/23132313.pdf
+2024a_europe:2069: # Lisbon was at -0:36:44.68, but switched to GMT on 1912-01-01 at 00:00.
+2024a_europe:2070: #
+2024a_europe:2071: # From Michael Deckers (2018-02-15):
+2024a_europe:2072: # article 5 [of the 1911 decree; Deckers's translation] ...:
+2024a_europe:2073: # These dispositions shall enter into force at the instant at which,
+2024a_europe:2074: # according to the 2nd article, the civil day January 1, 1912 begins,
+2024a_europe:2075: # all clocks therefore having to be advanced or set back correspondingly ...
+2024a_europe:2076: 
+2024a_europe:2077: # From Rui Pedro Salgueiro (1992-11-12):
+2024a_europe:2078: # Portugal has recently (September, 27) changed timezone
+2024a_europe:2079: # (from WET to MET or CET) to harmonize with EEC.
+2024a_europe:2080: #
+2024a_europe:2081: # Martin Bruckmann (1996-02-29) reports via Peter Ilieve
+2024a_europe:2082: # that Portugal is reverting to 0:00 by not moving its clocks this spring.
+2024a_europe:2083: # The new Prime Minister was fed up with getting up in the dark in the winter.
+2024a_europe:2084: #
+2024a_europe:2085: # From Paul Eggert (1996-11-12):
+2024a_europe:2086: # IATA SSIM (1991-09) reports several 1991-09 and 1992-09 transitions
+2024a_europe:2087: # at 02:00u, not 01:00u.  Assume that these are typos.
+2024a_europe:2088: # IATA SSIM (1991/1992) reports that the Azores were at -1:00.
+2024a_europe:2089: # IATA SSIM (1993-02) says +0:00; later issues (through 1996-09) say -1:00.
+2024a_europe:2090: # Guess that the Azores changed to EU rules in 1992 (since that's when Portugal
+2024a_europe:2091: # harmonized with EU rules), and that they stayed +0:00 that winter.
+2024a_europe:2092: #
+2024a_europe:2093: # Rule	NAME	FROM	TO	-	IN	ON	AT	SAVE	LETTER/S
+2024a_europe:2094: # DSH writes that despite Decree 1,469 (1915), the change to the clocks was not
+2024a_europe:2095: # done every year, depending on what Spain did, because of railroad schedules.
+2024a_europe:2096: # Go with Shanks & Pottenger.
+2024a_europe:2097: Rule	Port	1916	only	-	Jun	17	23:00	1:00	S
+2024a_europe:2098: # Whitman gives 1916 Oct 31; go with Shanks & Pottenger.
+2024a_europe:2099: Rule	Port	1916	only	-	Nov	 1	 1:00	0	-
+2024a_europe:2100: Rule	Port	1917	only	-	Feb	28	23:00s	1:00	S
+2024a_europe:2101: Rule	Port	1917	1921	-	Oct	14	23:00s	0	-
+2024a_europe:2102: Rule	Port	1918	only	-	Mar	 1	23:00s	1:00	S
+2024a_europe:2103: Rule	Port	1919	only	-	Feb	28	23:00s	1:00	S
+2024a_europe:2104: Rule	Port	1920	only	-	Feb	29	23:00s	1:00	S
+2024a_europe:2105: Rule	Port	1921	only	-	Feb	28	23:00s	1:00	S
+2024a_europe:2106: Rule	Port	1924	only	-	Apr	16	23:00s	1:00	S
+2024a_europe:2107: Rule	Port	1924	only	-	Oct	14	23:00s	0	-
+2024a_europe:2108: Rule	Port	1926	only	-	Apr	17	23:00s	1:00	S
+2024a_europe:2109: Rule	Port	1926	1929	-	Oct	Sat>=1	23:00s	0	-
+2024a_europe:2110: Rule	Port	1927	only	-	Apr	 9	23:00s	1:00	S
+2024a_europe:2111: Rule	Port	1928	only	-	Apr	14	23:00s	1:00	S
+2024a_europe:2112: Rule	Port	1929	only	-	Apr	20	23:00s	1:00	S
+2024a_europe:2113: Rule	Port	1931	only	-	Apr	18	23:00s	1:00	S
+2024a_europe:2114: # Whitman gives 1931 Oct 8; go with Shanks & Pottenger.
+2024a_europe:2115: Rule	Port	1931	1932	-	Oct	Sat>=1	23:00s	0	-
+2024a_europe:2116: Rule	Port	1932	only	-	Apr	 2	23:00s	1:00	S
+2024a_europe:2117: Rule	Port	1934	only	-	Apr	 7	23:00s	1:00	S
+2024a_europe:2118: # Whitman gives 1934 Oct 5; go with Shanks & Pottenger.
+2024a_europe:2119: Rule	Port	1934	1938	-	Oct	Sat>=1	23:00s	0	-
+2024a_europe:2120: # Shanks & Pottenger give 1935 Apr 30; go with Whitman.
+2024a_europe:2121: Rule	Port	1935	only	-	Mar	30	23:00s	1:00	S
+2024a_europe:2122: Rule	Port	1936	only	-	Apr	18	23:00s	1:00	S
+2024a_europe:2123: # Whitman gives 1937 Apr 2; go with Shanks & Pottenger.
+2024a_europe:2124: Rule	Port	1937	only	-	Apr	 3	23:00s	1:00	S
+2024a_europe:2125: Rule	Port	1938	only	-	Mar	26	23:00s	1:00	S
+2024a_europe:2126: Rule	Port	1939	only	-	Apr	15	23:00s	1:00	S
+2024a_europe:2127: # Whitman gives 1939 Oct 7; go with Shanks & Pottenger.
+2024a_europe:2128: Rule	Port	1939	only	-	Nov	18	23:00s	0	-
+2024a_europe:2129: Rule	Port	1940	only	-	Feb	24	23:00s	1:00	S
+2024a_europe:2130: # Shanks & Pottenger give 1940 Oct 7; go with Whitman.
+2024a_europe:2131: Rule	Port	1940	1941	-	Oct	 5	23:00s	0	-
+2024a_europe:2132: Rule	Port	1941	only	-	Apr	 5	23:00s	1:00	S
+2024a_europe:2133: Rule	Port	1942	1945	-	Mar	Sat>=8	23:00s	1:00	S
+2024a_europe:2134: Rule	Port	1942	only	-	Apr	25	22:00s	2:00	M # Midsummer
+2024a_europe:2135: Rule	Port	1942	only	-	Aug	15	22:00s	1:00	S
+2024a_europe:2136: Rule	Port	1942	1945	-	Oct	Sat>=24	23:00s	0	-
+2024a_europe:2137: Rule	Port	1943	only	-	Apr	17	22:00s	2:00	M
+2024a_europe:2138: Rule	Port	1943	1945	-	Aug	Sat>=25	22:00s	1:00	S
+2024a_europe:2139: Rule	Port	1944	1945	-	Apr	Sat>=21	22:00s	2:00	M
+2024a_europe:2140: Rule	Port	1946	only	-	Apr	Sat>=1	23:00s	1:00	S
+2024a_europe:2141: Rule	Port	1946	only	-	Oct	Sat>=1	23:00s	0	-
+2024a_europe:2142: # Whitman says DST was not observed in 1950; go with Shanks & Pottenger.
+2024a_europe:2143: # Whitman gives Oct lastSun for 1952 on; go with Shanks & Pottenger.
+2024a_europe:2144: Rule	Port	1947	1965	-	Apr	Sun>=1	 2:00s	1:00	S
+2024a_europe:2145: Rule	Port	1947	1965	-	Oct	Sun>=1	 2:00s	0	-
+2024a_europe:2146: Rule	Port	1977	only	-	Mar	27	 0:00s	1:00	S
+2024a_europe:2147: Rule	Port	1977	only	-	Sep	25	 0:00s	0	-
+2024a_europe:2148: Rule	Port	1978	1979	-	Apr	Sun>=1	 0:00s	1:00	S
+2024a_europe:2149: Rule	Port	1978	only	-	Oct	 1	 0:00s	0	-
+2024a_europe:2150: Rule	Port	1979	1982	-	Sep	lastSun	 1:00s	0	-
+2024a_europe:2151: Rule	Port	1980	only	-	Mar	lastSun	 0:00s	1:00	S
+2024a_europe:2152: Rule	Port	1981	1982	-	Mar	lastSun	 1:00s	1:00	S
+2024a_europe:2153: Rule	Port	1983	only	-	Mar	lastSun	 2:00s	1:00	S
+2024a_europe:2154: #
+2024a_europe:2155: # Zone	NAME		STDOFF	RULES	FORMAT	[UNTIL]
+2024a_europe:2156: 		#STDOFF	-0:36:44.68
+2024a_europe:2157: Zone	Europe/Lisbon	-0:36:45 -	LMT	1884
+2024a_europe:2158: 			-0:36:45 -	LMT	1912 Jan  1  0:00u # Lisbon MT
+2024a_europe:2159: 			 0:00	Port	WE%sT	1966 Apr  3  2:00
+2024a_europe:2160: 			 1:00	-	CET	1976 Sep 26  1:00
+2024a_europe:2161: 			 0:00	Port	WE%sT	1983 Sep 25  1:00s
+2024a_europe:2162: 			 0:00	W-Eur	WE%sT	1992 Sep 27  1:00s
+2024a_europe:2163: 			 1:00	EU	CE%sT	1996 Mar 31  1:00u
+2024a_europe:2164: 			 0:00	EU	WE%sT
+2024a_europe:2165: Zone Atlantic/Azores	-1:42:40 -	LMT	1884        # Ponta Delgada
+2024a_europe:2166: 			-1:54:32 -	HMT	1912 Jan  1  2:00u # Horta MT
+2024a_europe:2167: # Vanguard section, for zic and other parsers that support %z.
+2024a_europe:2168: #			-2:00	Port	%z	1966 Apr  3  2:00
+2024a_europe:2169: #			-1:00	Port	%z	1983 Sep 25  1:00s
+2024a_europe:2170: #			-1:00	W-Eur	%z	1992 Sep 27  1:00s
+2024a_europe:2171: # Rearguard section, for parsers lacking %z; see ziguard.awk.
+2024a_europe:2172: 			-2:00	Port	-02/-01	1942 Apr 25 22:00s
+2024a_europe:2173: 			-2:00	Port	+00	1942 Aug 15 22:00s
+2024a_europe:2174: 			-2:00	Port	-02/-01	1943 Apr 17 22:00s
+2024a_europe:2175: 			-2:00	Port	+00	1943 Aug 28 22:00s
+2024a_europe:2176: 			-2:00	Port	-02/-01	1944 Apr 22 22:00s
+2024a_europe:2177: 			-2:00	Port	+00	1944 Aug 26 22:00s
+2024a_europe:2178: 			-2:00	Port	-02/-01	1945 Apr 21 22:00s
+2024a_europe:2179: 			-2:00	Port	+00	1945 Aug 25 22:00s
+2024a_europe:2180: 			-2:00	Port	-02/-01	1966 Apr  3  2:00
+2024a_europe:2181: 			-1:00	Port	-01/+00	1983 Sep 25  1:00s
+2024a_europe:2182: 			-1:00	W-Eur	-01/+00	1992 Sep 27  1:00s
+2024a_europe:2183: # End of rearguard section.
+2024a_europe:2184: 			 0:00	EU	WE%sT	1993 Mar 28  1:00u
+2024a_europe:2185: 			-1:00	EU	-01/+00
+2024a_europe:2186: Zone Atlantic/Madeira	-1:07:36 -	LMT	1884        # Funchal
+2024a_europe:2187: 			-1:07:36 -	FMT	1912 Jan  1  1:00u # Funchal MT
+2024a_europe:2188: # Vanguard section, for zic and other parsers that support %z.
+2024a_europe:2189: #			-1:00	Port	%z	1966 Apr  3  2:00
+2024a_europe:2190: # Rearguard section, for parsers lacking %z; see ziguard.awk.
+2024a_europe:2191: 			-1:00	Port	-01/+00	1942 Apr 25 22:00s
+2024a_europe:2192: 			-1:00	Port	+01	1942 Aug 15 22:00s
+2024a_europe:2193: 			-1:00	Port	-01/+00	1943 Apr 17 22:00s
+2024a_europe:2194: 			-1:00	Port	+01	1943 Aug 28 22:00s
+2024a_europe:2195: 			-1:00	Port	-01/+00	1944 Apr 22 22:00s
+2024a_europe:2196: 			-1:00	Port	+01	1944 Aug 26 22:00s
+2024a_europe:2197: 			-1:00	Port	-01/+00	1945 Apr 21 22:00s
+2024a_europe:2198: 			-1:00	Port	+01	1945 Aug 25 22:00s
+2024a_europe:2199: 			-1:00	Port	-01/+00	1966 Apr  3  2:00
+2024a_europe:2200: # End of rearguard section.
+2024a_europe:2201: 			 0:00	Port	WE%sT	1983 Sep 25  1:00s
+2024a_europe:2202: 			 0:00	EU	WE%sT
+2024a_europe:2203: 
+2024b_europe:564: Rule	EU	1977	1980	-	Apr	Sun>=1	 1:00u	1:00	S
+2024b_europe:565: Rule	EU	1977	only	-	Sep	lastSun	 1:00u	0	-
+2024b_europe:566: Rule	EU	1978	only	-	Oct	 1	 1:00u	0	-
+2024b_europe:567: Rule	EU	1979	1995	-	Sep	lastSun	 1:00u	0	-
+2024b_europe:568: Rule	EU	1981	max	-	Mar	lastSun	 1:00u	1:00	S
+2024b_europe:569: Rule	EU	1996	max	-	Oct	lastSun	 1:00u	0	-
+2024b_europe:576: Rule	W-Eur	1977	1980	-	Apr	Sun>=1	 1:00s	1:00	S
+2024b_europe:577: Rule	W-Eur	1977	only	-	Sep	lastSun	 1:00s	0	-
+2024b_europe:578: Rule	W-Eur	1978	only	-	Oct	 1	 1:00s	0	-
+2024b_europe:579: Rule	W-Eur	1979	1995	-	Sep	lastSun	 1:00s	0	-
+2024b_europe:580: Rule	W-Eur	1981	max	-	Mar	lastSun	 1:00s	1:00	S
+2024b_europe:581: Rule	W-Eur	1996	max	-	Oct	lastSun	 1:00s	0	-
+2024b_europe:2056: # Portugal
+2024b_europe:2057: 
+2024b_europe:2058: # From Tim Parenti (2024-07-01), per Alois Treindl (2021-02-07) and Michael
+2024b_europe:2059: # Deckers (2021-02-10):
+2024b_europe:2060: # http://oal.ul.pt/documentos/2018/01/hl1911a2018.pdf/
+2024b_europe:2061: # The Astronomical Observatory of Lisbon has published a list detailing the
+2024b_europe:2062: # historical transitions in legal time within continental Portugal.  It
+2024b_europe:2063: # directly references many decrees and ordinances which are, in turn,
+2024b_europe:2064: # referenced below.  They can be viewed in the public archives of the Diário da
+2024b_europe:2065: # República (until 1976-04-09 known as the Diário do Govêrno) at
+2024b_europe:2066: # https://dre.pt/ (in Portuguese).
+2024b_europe:2067: #
+2024b_europe:2068: # Most of the Rules below have been updated simply to match the Observatory's
+2024b_europe:2069: # listing for continental (mainland) Portugal.  Although there are over 50
+2024b_europe:2070: # referenced decrees and ordinances, only the handful with comments below have
+2024b_europe:2071: # been verified against the text, typically to provide additional confidence
+2024b_europe:2072: # wherever dates provided by Whitman and Shanks & Pottenger had disagreed.
+2024b_europe:2073: # See further below for the Azores and Madeira.
+2024b_europe:2074: 
+2024b_europe:2075: # From Tim Parenti (2024-07-01), per Paul Eggert (2014-08-11), after a
+2024b_europe:2076: # heads-up from Stephen Colebourne:
+2024b_europe:2077: # According to a 1911-05-24 Portuguese decree, Lisbon was at -0:36:44.68, but
+2024b_europe:2078: # switched to GMT on 1912-01-01 at 00:00.
+2024b_europe:2079: # https://dre.pt/dr/detalhe/decreto/593090
+2024b_europe:2080: # https://dre.pt/application/conteudo/593090
+2024b_europe:2081: # The decree made legal time throughout Portugal and her possessions
+2024b_europe:2082: # "subordinate to the Greenwich meridian, according to the principle adopted at
+2024b_europe:2083: # the Washington Convention in 1884" and eliminated the "difference of five
+2024b_europe:2084: # minutes between the internal and external clocks of railway stations".
+2024b_europe:2085: #
+2024b_europe:2086: # The decree was gazetted in the 1911-05-30 issue of Diário do Govêrno, and is
+2024b_europe:2087: # considered to be dated 1911-05-24 by that issue's summary; however, the text
+2024b_europe:2088: # of the decree itself is dated 1911-05-26.  The Diário da República website
+2024b_europe:2089: # notes the discrepancy, but later laws and the Observatory all seem to refer
+2024b_europe:2090: # to this decree by the 1911-05-24 date.
+2024b_europe:2091: #
+2024b_europe:2092: # From Michael Deckers (2018-02-15):
+2024b_europe:2093: # article 5 [of the 1911 decree; Deckers's translation] ...:
+2024b_europe:2094: # These dispositions shall enter into force at the instant at which,
+2024b_europe:2095: # according to the 2nd article, the civil day January 1, 1912 begins,
+2024b_europe:2096: # all clocks therefore having to be advanced or set back correspondingly ...
+2024b_europe:2097: 
+2024b_europe:2098: # Rule	NAME	FROM	TO	-	IN	ON	AT	SAVE	LETTER/S
+2024b_europe:2099: # From Tim Parenti (2024-07-01), per Paul Eggert (1999-01-30):
+2024b_europe:2100: # DSH writes in their history that Decreto 1469 of 1915-03-30 established
+2024b_europe:2101: # summer time and that, "despite" this, the change to the clocks was not done
+2024b_europe:2102: # every year, depending on what Spain did, because of railroad schedules.
+2024b_europe:2103: # In fact, that decree had nothing to do with DST; rather, it regulated the
+2024b_europe:2104: # sending of time signals.  But we do see linkage to Spain in the 1920s below.
+2024b_europe:2105: # https://dre.pt/dr/detalhe/decreto/1469-1915-285721
+2024b_europe:2106: # https://dre.pt/application/conteudo/285721
+2024b_europe:2107: #
+2024b_europe:2108: # According to the Observatory, standard time was first advanced by Decreto
+2024b_europe:2109: # 2433 of 1916-06-09 and restored by Decreto 2712 of 1916-10-28.  While Whitman
+2024b_europe:2110: # gives 1916-10-31 for the latter transition, Shanks & Pottenger agrees more
+2024b_europe:2111: # closely with the decree, which stated that its provision "will start sixty
+2024b_europe:2112: # minutes after the end of 31 October, according to the current time," i.e.,
+2024b_europe:2113: # 01:00 on 1 November.
+2024b_europe:2114: # https://dre.pt/dr/detalhe/decreto/2433-1916-267192
+2024b_europe:2115: # https://dre.pt/application/conteudo/267192
+2024b_europe:2116: # https://dre.pt/dr/detalhe/decreto/2712-1916-590937
+2024b_europe:2117: # https://dre.pt/application/conteudo/590937
+2024b_europe:2118: Rule	Port	1916	only	-	Jun	17	23:00	1:00	S
+2024b_europe:2119: Rule	Port	1916	only	-	Nov	 1	 1:00	0	-
+2024b_europe:2120: # From Tim Parenti (2024-07-01):
+2024b_europe:2121: # Article 7 of Decreto 2922 of 1916-12-30 stated that "the legal time will be
+2024b_europe:2122: # advanced by sixty minutes from 1 March to 31 October."  Per Article 15, this
+2024b_europe:2123: # came into force from 1917-01-01.  Just before the first fall back, Decreto
+2024b_europe:2124: # 3446 of 1917-10-11 changed the annual end date to 14 October.
+2024b_europe:2125: # https://dre.pt/dr/detalhe/decreto/2922-1916-261894
+2024b_europe:2126: # https://dre.pt/application/conteudo/261894
+2024b_europe:2127: # https://dre.pt/dr/detalhe/decreto/3446-1917-495161
+2024b_europe:2128: # https://dre.pt/application/conteudo/495161
+2024b_europe:2129: # This annual change was revoked by Decreto 8038 of 1922-02-18.
+2024b_europe:2130: # https://dre.pt/dr/detalhe/decreto/8038-1922-569751
+2024b_europe:2131: # https://dre.pt/application/conteudo/569751
+2024b_europe:2132: Rule	Port	1917	1921	-	Mar	 1	 0:00	1:00	S
+2024b_europe:2133: Rule	Port	1917	1921	-	Oct	14	24:00	0	-
+2024b_europe:2134: # From Tim Parenti (2024-07-01):
+2024b_europe:2135: # Decreto 9592 of 1924-04-14 noted that "France maintains the advance of legal
+2024b_europe:2136: # time in the summer and Spain has now adopted it for the first time" and
+2024b_europe:2137: # considered "that the absence of similar measures would cause serious
+2024b_europe:2138: # difficulties for international rail connections with consequent repercussions
+2024b_europe:2139: # on domestic service hours..." along with "inconvenient analogues...for postal
+2024b_europe:2140: # and telegraph services."  Summer time would be in effect from 17 April to 4
+2024b_europe:2141: # October, with the spring change explicitly specified by bringing clocks
+2024b_europe:2142: # forward from 16 April 23:00.
+2024b_europe:2143: # https://dre.pt/dr/detalhe/decreto/9592-1924-652133
+2024b_europe:2144: # https://dre.pt/application/conteudo/652133
+2024b_europe:2145: #
+2024b_europe:2146: # Decreto 10700, issued 1925-04-16, noted that Spain had not continued summer
+2024b_europe:2147: # time, declared that "the current legal hour prior to 17 April remains
+2024b_europe:2148: # unchanged from that day forward", and revoked legislation to the contrary,
+2024b_europe:2149: # just a day before summer time would have otherwise resumed.
+2024b_europe:2150: # https://dre.pt/dr/detalhe/decreto/10700-1925-437826
+2024b_europe:2151: # https://dre.pt/application/conteudo/437826
+2024b_europe:2152: Rule	Port	1924	only	-	Apr	16	23:00s	1:00	S
+2024b_europe:2153: Rule	Port	1924	only	-	Oct	 4	23:00s	0	-
+2024b_europe:2154: Rule	Port	1926	only	-	Apr	17	23:00s	1:00	S
+2024b_europe:2155: Rule	Port	1926	1929	-	Oct	Sat>=1	23:00s	0	-
+2024b_europe:2156: Rule	Port	1927	only	-	Apr	 9	23:00s	1:00	S
+2024b_europe:2157: Rule	Port	1928	only	-	Apr	14	23:00s	1:00	S
+2024b_europe:2158: Rule	Port	1929	only	-	Apr	20	23:00s	1:00	S
+2024b_europe:2159: Rule	Port	1931	only	-	Apr	18	23:00s	1:00	S
+2024b_europe:2160: # Whitman gives 1931 Oct 8; go with Shanks & Pottenger.
+2024b_europe:2161: Rule	Port	1931	1932	-	Oct	Sat>=1	23:00s	0	-
+2024b_europe:2162: Rule	Port	1932	only	-	Apr	 2	23:00s	1:00	S
+2024b_europe:2163: Rule	Port	1934	only	-	Apr	 7	23:00s	1:00	S
+2024b_europe:2164: # Whitman gives 1934 Oct 5; go with Shanks & Pottenger.
+2024b_europe:2165: # Note: The 1935 law specified 10-06 00:00, not 10-05 24:00, but the following
+2024b_europe:2166: # is equivalent and more succinct.
+2024b_europe:2167: Rule	Port	1934	1938	-	Oct	Sat>=1	23:00s	0	-
+2024b_europe:2168: # Shanks & Pottenger give 1935 Apr 30; go with Whitman.
+2024b_europe:2169: Rule	Port	1935	only	-	Mar	30	23:00s	1:00	S
+2024b_europe:2170: Rule	Port	1936	only	-	Apr	18	23:00s	1:00	S
+2024b_europe:2171: # Whitman gives 1937 Apr 2; go with Shanks & Pottenger.
+2024b_europe:2172: Rule	Port	1937	only	-	Apr	 3	23:00s	1:00	S
+2024b_europe:2173: Rule	Port	1938	only	-	Mar	26	23:00s	1:00	S
+2024b_europe:2174: Rule	Port	1939	only	-	Apr	15	23:00s	1:00	S
+2024b_europe:2175: # Whitman gives 1939 Oct 7; go with Shanks & Pottenger.
+2024b_europe:2176: Rule	Port	1939	only	-	Nov	18	23:00s	0	-
+2024b_europe:2177: # From Tim Parenti (2024-07-01):
+2024b_europe:2178: # Portaria 9465 of 1940-02-17 advanced clocks from Saturday 1940-02-24 23:00.
+2024b_europe:2179: # The clocks were restored by Portaria 9658, issued Monday 1940-10-07,
+2024b_europe:2180: # effective from 24:00 that very night, which agrees with Shanks & Pottenger;
+2024b_europe:2181: # Whitman gives Saturday 1940-10-05 instead.
+2024b_europe:2182: # https://dre.pt/dr/detalhe/portaria/9465-1940-189096
+2024b_europe:2183: # https://dre.pt/application/conteudo/189096
+2024b_europe:2184: # https://dre.pt/dr/detalhe/portaria/9658-1940-196729
+2024b_europe:2185: # https://dre.pt/application/conteudo/196729
+2024b_europe:2186: Rule	Port	1940	only	-	Feb	24	23:00s	1:00	S
+2024b_europe:2187: Rule	Port	1940	only	-	Oct	 7	23:00s	0	-
+2024b_europe:2188: Rule	Port	1941	only	-	Apr	 5	23:00s	1:00	S
+2024b_europe:2189: Rule	Port	1941	only	-	Oct	 5	23:00s	0	-
+2024b_europe:2190: Rule	Port	1942	1945	-	Mar	Sat>=8	23:00s	1:00	S
+2024b_europe:2191: Rule	Port	1942	only	-	Apr	25	22:00s	2:00	M # Midsummer
+2024b_europe:2192: Rule	Port	1942	only	-	Aug	15	22:00s	1:00	S
+2024b_europe:2193: Rule	Port	1942	1945	-	Oct	Sat>=24	23:00s	0	-
+2024b_europe:2194: Rule	Port	1943	only	-	Apr	17	22:00s	2:00	M
+2024b_europe:2195: Rule	Port	1943	1945	-	Aug	Sat>=25	22:00s	1:00	S
+2024b_europe:2196: Rule	Port	1944	1945	-	Apr	Sat>=21	22:00s	2:00	M
+2024b_europe:2197: Rule	Port	1946	only	-	Apr	Sat>=1	23:00s	1:00	S
+2024b_europe:2198: Rule	Port	1946	only	-	Oct	Sat>=1	23:00s	0	-
+2024b_europe:2199: # From Tim Parenti (2024-07-01), per Alois Treindl (2021-02-07):
+2024b_europe:2200: # The Astronomical Observatory of Lisbon cites Portaria 11767 of 1947-03-28 for
+2024b_europe:2201: # 1947 and Portaria 12286 of 1948-02-19 for 1948.
+2024b_europe:2202: # https://dre.pt/dr/detalhe/portaria/11767-1947-414787
+2024b_europe:2203: # https://dre.pt/application/conteudo/414787
+2024b_europe:2204: # https://dre.pt/dr/detalhe/portaria/12286-1948-152953
+2024b_europe:2205: # https://dre.pt/application/conteudo/152953
+2024b_europe:2206: #
+2024b_europe:2207: # Although the latter ordinance explicitly had the 1948-10-03 transition
+2024b_europe:2208: # scheduled for 02:00 rather than 03:00 as had been used in 1947, Decreto-Lei
+2024b_europe:2209: # 37048 of 1948-09-07 recognized "that it is advisable to definitely set...the
+2024b_europe:2210: # 'summer time' regime", and fixed the fall transition at 03:00 moving forward.
+2024b_europe:2211: # https://dre.pt/dr/detalhe/decreto-lei/37048-1948-373810
+2024b_europe:2212: # https://dre.pt/application/conteudo/373810
+2024b_europe:2213: # While the Observatory only cites this act for 1949-1965 and not for 1948, it
+2024b_europe:2214: # does not appear to have had any provision delaying its effect, so assume that
+2024b_europe:2215: # it overrode the prior ordinance for 1948-10-03.
+2024b_europe:2216: #
+2024b_europe:2217: # Whitman says DST was not observed in 1950 and gives Oct lastSun for 1952 on.
+2024b_europe:2218: # The Observatory, however, agrees with Shanks & Pottenger that 1950 was not an
+2024b_europe:2219: # exception and that Oct Sun>=1 was maintained through 1965.
+2024b_europe:2220: Rule	Port	1947	1966	-	Apr	Sun>=1	 2:00s	1:00	S
+2024b_europe:2221: Rule	Port	1947	1965	-	Oct	Sun>=1	 2:00s	0	-
+2024b_europe:2222: # From Tim Parenti (2024-07-01):
+2024b_europe:2223: # Decreto-Lei 47233 of 1966-10-01 considered that the "duality" in time was
+2024b_europe:2224: # "the cause of serious disturbances" and noted that "the countries with which
+2024b_europe:2225: # we have the most frequent contacts...have already adopted" a solution
+2024b_europe:2226: # coinciding with the extant "summer time".  It established that the former
+2024b_europe:2227: # "summer time" would apply year-round on the mainland and adjacent islands
+2024b_europe:2228: # with immediate effect, as the fall back would have otherwise occurred later
+2024b_europe:2229: # that evening.
+2024b_europe:2230: # https://dre.pt/dr/detalhe/decreto-lei/47233-1966-293729
+2024b_europe:2231: # Model this by changing zones without changing clocks at the
+2024b_europe:2232: # previously-appointed fall back time.
+2024b_europe:2233: #
+2024b_europe:2234: # Decreto-Lei 309/76 of 1976-04-27 acknowledged that those international
+2024b_europe:2235: # contacts had returned to adopting seasonal times, and considered that the
+2024b_europe:2236: # year-round advancement "entails considerable sacrifices for the vast majority
+2024b_europe:2237: # of the working population during the winter months", including morning
+2024b_europe:2238: # visibility concerns for schoolchildren.  It specified, beginning 1976-09-26
+2024b_europe:2239: # 01:00, an annual return to UT+00 on the mainland from 00:00 UT on Sep lastSun
+2024b_europe:2240: # to 00:00 UT on Mar lastSun (unless the latter date fell on Easter, in which
+2024b_europe:2241: # case it was to be brought forward to the preceding Sunday).  It also assigned
+2024b_europe:2242: # the Permanent Time Commission to study and propose revisions for the Azores
+2024b_europe:2243: # and Madeira, neither of which resumed DST until 1982 (as described further
+2024b_europe:2244: # below).
+2024b_europe:2245: # https://dre.pt/dr/detalhe/decreto-lei/309-1976-502063
+2024b_europe:2246: Rule	Port	1976	only	-	Sep	lastSun	 1:00	0	-
+2024b_europe:2247: Rule	Port	1977	only	-	Mar	lastSun	 0:00s	1:00	S
+2024b_europe:2248: Rule	Port	1977	only	-	Sep	lastSun	 0:00s	0	-
+2024b_europe:2249: # From Tim Parenti (2024-07-01):
+2024b_europe:2250: # Beginning in 1978, rather than triggering the Easter rule of the 1976 decree
+2024b_europe:2251: # (Easter fell on 1978-03-26), Article 5 was used instead, which allowed DST
+2024b_europe:2252: # dates to be changed by order of the Minister of Education and Scientific
+2024b_europe:2253: # Research, upon consultation with the Permanent Time Commission, "whenever
+2024b_europe:2254: # considered convenient."  As such, a series of one-off ordinances were
+2024b_europe:2255: # promulgated for the mainland in 1978 through 1980, after which the 1976
+2024b_europe:2256: # decree naturally came back into force from 1981.
+2024b_europe:2257: Rule	Port	1978	1980	-	Apr	Sun>=1	 1:00s	1:00	S
+2024b_europe:2258: Rule	Port	1978	only	-	Oct	 1	 1:00s	0	-
+2024b_europe:2259: Rule	Port	1979	1980	-	Sep	lastSun	 1:00s	0	-
+2024b_europe:2260: Rule	Port	1981	1986	-	Mar	lastSun	 0:00s	1:00	S
+2024b_europe:2261: Rule	Port	1981	1985	-	Sep	lastSun	 0:00s	0	-
+2024b_europe:2262: # From Tim Parenti (2024-07-01):
+2024b_europe:2263: # Decreto-Lei 44-B/86 of 1986-03-07 switched mainland Portugal's transition
+2024b_europe:2264: # times from 0:00s to 1:00u to harmonize with the EEC from 1986-03-30.
+2024b_europe:2265: # https://dre.pt/dr/detalhe/decreto-lei/44-b-1986-628280
+2024b_europe:2266: # (Transitions of 1:00s as previously reported and used by the W-Eur rules,
+2024b_europe:2267: # though equivalent, appear to have been fiction here.)  Madeira continued to
+2024b_europe:2268: # use 0:00s for spring 1986 before joining with the mainland using 1:00u in the
+2024b_europe:2269: # fall; meanwhile, in the Azores the two were equivalent, so the law specifying
+2024b_europe:2270: # 0:00s wasn't touched until 1992.  (See below for more on the islands.)
+2024b_europe:2271: #
+2024b_europe:2272: # From Rui Pedro Salgueiro (1992-11-12):
+2024b_europe:2273: # Portugal has recently (September, 27) changed timezone
+2024b_europe:2274: # (from WET to MET or CET) to harmonize with EEC.
+2024b_europe:2275: #
+2024b_europe:2276: # Martin Bruckmann (1996-02-29) reports via Peter Ilieve
+2024b_europe:2277: # that Portugal is reverting to 0:00 by not moving its clocks this spring.
+2024b_europe:2278: # The new Prime Minister was fed up with getting up in the dark in the winter.
+2024b_europe:2279: #
+2024b_europe:2280: # From Paul Eggert (1996-11-12):
+2024b_europe:2281: # IATA SSIM (1991-09) reports several 1991-09 and 1992-09 transitions
+2024b_europe:2282: # at 02:00u, not 01:00u.  Assume that these are typos.
+2024b_europe:2283: #
+2024b_europe:2284: # Zone	NAME		STDOFF	RULES	FORMAT	[UNTIL]
+2024b_europe:2285: 		#STDOFF	-0:36:44.68
+2024b_europe:2286: Zone	Europe/Lisbon	-0:36:45 -	LMT	1884
+2024b_europe:2287: 			-0:36:45 -	LMT	1912 Jan  1  0:00u # Lisbon MT
+2024b_europe:2288: 			 0:00	Port	WE%sT	1966 Oct  2  2:00s
+2024b_europe:2289: 			 1:00	-	CET	1976 Sep 26  1:00
+2024b_europe:2290: 			 0:00	Port	WE%sT	1986
+2024b_europe:2291: 			 0:00	EU	WE%sT	1992 Sep 27  1:00u
+2024b_europe:2292: 			 1:00	EU	CE%sT	1996 Mar 31  1:00u
+2024b_europe:2293: 			 0:00	EU	WE%sT
+2024b_europe:2294: 
+2024b_europe:2295: # From Tim Parenti (2024-07-01):
+2024b_europe:2296: # For the Azores and Madeira, legislation was followed from the laws currently
+2024b_europe:2297: # in force as listed at:
+2024b_europe:2298: # https://oal.ul.pt/hora-legal/legislacao/
+2024b_europe:2299: # working backward through references of revocation and abrogation to
+2024b_europe:2300: # Decreto-Lei 47233 of 1966-10-01, the last time DST was abolished across the
+2024b_europe:2301: # mainland and its adjacent islands.  Because of that reference, it is
+2024b_europe:2302: # therefore assumed that DST rules in the islands prior to 1966 were like that
+2024b_europe:2303: # of the mainland, though most legislation of the time didn't explicitly
+2024b_europe:2304: # specify DST practices for the islands.
+2024b_europe:2305: Zone Atlantic/Azores	-1:42:40 -	LMT	1884        # Ponta Delgada
+2024b_europe:2306: 			-1:54:32 -	HMT	1912 Jan  1  2:00u # Horta MT
+2024b_europe:2307: # Vanguard section, for zic and other parsers that support %z.
+2024b_europe:2308: 			-2:00	Port	%z	1966 Oct  2  2:00s
+2024b_europe:2309: # From Tim Parenti (2024-07-01):
+2024b_europe:2310: # While Decreto-Lei 309/76 of 1976-04-27 reintroduced DST on the mainland by
+2024b_europe:2311: # falling back on 1976-09-26, it assigned the Permanent Time Commission to
+2024b_europe:2312: # study and propose revisions for the Azores and Madeira.  Decreto Regional
+2024b_europe:2313: # 9/77/A of 1977-05-17 affirmed that "the legal time remained unchanged in the
+2024b_europe:2314: # Azores" at UT-1, and would remain there year-round.
+2024b_europe:2315: # https://dre.pt/dr/detalhe/decreto-regional/9-1977-252066
+2024b_europe:2316: #
+2024b_europe:2317: # Decreto Regional 2/82/A, published 1982-03-02, adopted DST in the same
+2024b_europe:2318: # fashion as the mainland used at the time.
+2024b_europe:2319: # https://dre.pt/dr/detalhe/decreto-regional/2-1982-599965
+2024b_europe:2320: # Though transitions in the Azores officially remained at 0:00s through 1992,
+2024b_europe:2321: # this was equivalent to the EU-style 1:00u adopted by the mainland in 1986, so
+2024b_europe:2322: # model it as such.
+2024b_europe:2323: 			-1:00	-	%z	1982 Mar 28  0:00s
+2024b_europe:2324: 			-1:00	Port	%z	1986
+2024b_europe:2325: # Rearguard section, for parsers lacking %z; see ziguard.awk.
+2024b_europe:2326: #			-2:00	Port	-02/-01	1942 Apr 25 22:00s
+2024b_europe:2327: #			-2:00	Port	+00	1942 Aug 15 22:00s
+2024b_europe:2328: #			-2:00	Port	-02/-01	1943 Apr 17 22:00s
+2024b_europe:2329: #			-2:00	Port	+00	1943 Aug 28 22:00s
+2024b_europe:2330: #			-2:00	Port	-02/-01	1944 Apr 22 22:00s
+2024b_europe:2331: #			-2:00	Port	+00	1944 Aug 26 22:00s
+2024b_europe:2332: #			-2:00	Port	-02/-01	1945 Apr 21 22:00s
+2024b_europe:2333: #			-2:00	Port	+00	1945 Aug 25 22:00s
+2024b_europe:2334: #			-2:00	Port	-02/-01	1966 Oct  2  2:00s
+2024b_europe:2335: #			-1:00	-	-01	1982 Mar 28  0:00s
+2024b_europe:2336: #			-1:00	Port	-01/+00	1986
+2024b_europe:2337: # End of rearguard section.
+2024b_europe:2338: #
+2024b_europe:2339: # From Paul Eggert (1996-11-12):
+2024b_europe:2340: # IATA SSIM (1991/1992) reports that the Azores were at -1:00.
+2024b_europe:2341: # IATA SSIM (1993-02) says +0:00; later issues (through 1996-09) say -1:00.
+2024b_europe:2342: #
+2024b_europe:2343: # From Tim Parenti (2024-07-01):
+2024b_europe:2344: # After mainland Portugal had shifted forward an hour from 1992-09-27, Decreto
+2024b_europe:2345: # Legislativo Regional 29/92/A of 1992-12-23 sought to "reduce the time
+2024b_europe:2346: # difference" by shifting the Azores forward as well from 1992-12-27.  Just six
+2024b_europe:2347: # months later, this was revoked by Decreto Legislativo Regional 9/93/A, citing
+2024b_europe:2348: # "major changes in work habits and way of life."  Though the revocation didn't
+2024b_europe:2349: # give a transition time, it was signed Wednesday 1993-06-16; assume it took
+2024b_europe:2350: # effect later that evening, and that an EU-style spring forward (to +01) was
+2024b_europe:2351: # still observed in the interim on 1993-03-28.
+2024b_europe:2352: # https://dre.pt/dr/detalhe/decreto-legislativo-regional/29-1992-621553
+2024b_europe:2353: # https://dre.pt/dr/detalhe/decreto-legislativo-regional/9-1993-389633
+2024b_europe:2354: 			-1:00	EU	%z	1992 Dec 27  1:00s
+2024b_europe:2355: 			 0:00	EU	WE%sT	1993 Jun 17  1:00u
+2024b_europe:2356: 			-1:00	EU	%z
+2024b_europe:2357: 
+2024b_europe:2358: Zone Atlantic/Madeira	-1:07:36 -	LMT	1884        # Funchal
+2024b_europe:2359: 			-1:07:36 -	FMT	1912 Jan  1  1:00u # Funchal MT
+2024b_europe:2360: # Vanguard section, for zic and other parsers that support %z.
+2024b_europe:2361: 			-1:00	Port	%z	1966 Oct  2  2:00s
+2024b_europe:2362: # Rearguard section, for parsers lacking %z; see ziguard.awk.
+2024b_europe:2363: #			-1:00	Port	-01/+00	1942 Apr 25 22:00s
+2024b_europe:2364: #			-1:00	Port	+01	1942 Aug 15 22:00s
+2024b_europe:2365: #			-1:00	Port	-01/+00	1943 Apr 17 22:00s
+2024b_europe:2366: #			-1:00	Port	+01	1943 Aug 28 22:00s
+2024b_europe:2367: #			-1:00	Port	-01/+00	1944 Apr 22 22:00s
+2024b_europe:2368: #			-1:00	Port	+01	1944 Aug 26 22:00s
+2024b_europe:2369: #			-1:00	Port	-01/+00	1945 Apr 21 22:00s
+2024b_europe:2370: #			-1:00	Port	+01	1945 Aug 25 22:00s
+2024b_europe:2371: #			-1:00	Port	-01/+00	1966 Oct  2  2:00s
+2024b_europe:2372: # End of rearguard section.
+2024b_europe:2373: #
+2024b_europe:2374: # From Tim Parenti (2024-07-01):
+2024b_europe:2375: # Decreto Regional 5/82/M, published 1982-04-03, established DST transitions at
+2024b_europe:2376: # 0:00u, which for Madeira is equivalent to the mainland's rules (0:00s) at the
+2024b_europe:2377: # time.  It came into effect the day following its publication, Sunday
+2024b_europe:2378: # 1982-04-04, thus resuming Madeira's DST practice about a week later than the
+2024b_europe:2379: # mainland and the Azores.
+2024b_europe:2380: # https://dre.pt/dr/detalhe/decreto-regional/5-1982-608273
+2024b_europe:2381: #
+2024b_europe:2382: # Decreto Legislativo Regional 18/86/M, published 1986-10-01, adopted EU-style
+2024b_europe:2383: # rules (1:00u) and entered into immediate force after being signed on
+2024b_europe:2384: # 1986-07-31.
+2024b_europe:2385: # https://dre.pt/dr/detalhe/decreto-legislativo-regional/18-1986-221705
+2024b_europe:2386: 			 0:00	-	WET	1982 Apr  4
+2024b_europe:2387: 			 0:00	Port	WE%sT	1986 Jul 31
+2024b_europe:2388: 			 0:00	EU	WE%sT
+2024b_europe:2389: 

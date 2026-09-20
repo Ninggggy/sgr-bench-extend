@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-13T02:14:47.154439+00:00",
+  "method": "Read actual turn_context from each running isolated container session trace; final run verifier still required",
+  "CG": {
+    "run_id": "iana-r04-cg-dev-a",
+    "turn_id": "01a0988b-3f32-7862-8274-72efaf3110c3",
+    "model": "gpt-5.6-sol",
+    "effort": "medium"
+  },
+  "GO": {
+    "run_id": "iana-r04-go-dev-a",
+    "turn_id": "01a0988b-3f31-7891-8e85-1f28671fca10",
+    "model": "gpt-5.6-sol",
+    "effort": "medium"
+  }
+}

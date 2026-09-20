@@ -1,0 +1,27 @@
+{
+  "scope": "Observed content correspondence in formal CG/GO JSONL; original files unchanged",
+  "review_date": "2026-09-07",
+  "pairs": [
+    {
+      "cg_task_id": "genome_003",
+      "content_corresponding_go_task_id": "genome_004-g",
+      "domain": "KEGG_BRITE",
+      "topic": "Japanese systemic plaque-psoriasis drugs",
+      "same_oracle_text": true,
+      "same_declared_rows": true,
+      "same_output_schema": true,
+      "semantic_review": "CG/GO instructions both specify approval cutoff, signaling axis, exclusions and ordering."
+    },
+    {
+      "cg_task_id": "genome_004",
+      "content_corresponding_go_task_id": "genome_003-g",
+      "domain": "KEGG_GENOME",
+      "topic": "Primate vitamin C module exception and sister clade",
+      "same_oracle_text": true,
+      "same_declared_rows": true,
+      "same_output_schema": true,
+      "semantic_review": "Content corresponds, but GO omits CG's explicit 2022 cutoff and module conditions; shared oracle does not establish equally specified tasks."
+    }
+  ],
+  "use": "Inventory intentionally reports suffix-based mismatches. A future comparison runner must explicitly apply and record reviewed content mapping, and separately assess GO under-specification; do not silently rename source tasks."
+}

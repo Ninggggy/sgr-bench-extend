@@ -1,0 +1,16 @@
+{
+  "html_byte_count": 151447,
+  "closed_html": true,
+  "independent_html_event_count": 170,
+  "all_four_cells": true,
+  "all_action_bodies_equal_to_events": true,
+  "annotations_bijection": true,
+  "full_comment_divs": 13,
+  "snippet_divs": 13,
+  "all_shared_conditions_present": true,
+  "substantive_events_independently_confirmed": [
+    "history-800636"
+  ],
+  "history_limits": "Complete displayed draft-family History; excludes off-page correspondence and RFC-tab events.",
+  "network_requests_this_review": 0
+}

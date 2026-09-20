@@ -1,0 +1,295 @@
+{
+  "reviewer": "registry_law",
+  "scope": "read-only review plus these new report artifacts; no new experiments or source requests",
+  "started_utc": "2026-09-12T17:36:53Z",
+  "ended_utc": "2026-09-12T17:43:45.199075+00:00",
+  "maximum_wall_seconds": 1200,
+  "accounting": {
+    "actual_input_tokens": "unknown",
+    "actual_cached_input_tokens": "unknown",
+    "actual_output_tokens": "unknown",
+    "new_web_requests": 0,
+    "new_solver_runs": 0,
+    "new_subagents": 0,
+    "pre_report_exec_command_calls_hand_count": 17,
+    "clock_calls_before_report": 2,
+    "exec_command_calls_through_validation": 20,
+    "functions_exec_calls_through_validation": 15,
+    "clock_calls_through_validation": 2
+  },
+  "common_basis": {
+    "formal_method": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/chinese_1st_ver/latex/sections/3_Method.tex:8-12,42-47,62-63",
+    "main_include": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/chinese_1st_ver/latex/main.tex:142",
+    "inventory": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/full_score_review/inventory.json",
+    "efficiency_reviews": [
+      "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/research/economic_five_efficiency_review_2026-09-12.md:34-52",
+      "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/research/construction_efficiency_review_2026-09-10.md:52-74",
+      "/Users/ning/.codex/skills/0-autoresearch-skill/references/benchmark-construction-efficiency.md"
+    ]
+  },
+  "selected_for_continuation": 0,
+  "candidates": [
+    {
+      "candidate_id": "iana_dtls_001",
+      "revision": 3,
+      "revisions_used_remaining": {
+        "maximum": 2,
+        "used": 1,
+        "remaining": 1,
+        "editorial_revisions": 1,
+        "interpretation": "r02 editorial; r03 real empty serialization repair. Retain charged substantive count; no reset by new ID."
+      },
+      "full_score_reason": {
+        "class": [
+          "direct registry fields",
+          "discovered identifier-driven batch",
+          "direct document metadata"
+        ],
+        "CG": {
+          "correct_fields": 24,
+          "gold_fields": 24,
+          "seconds": 75.438
+        },
+        "GO": {
+          "correct_fields": 24,
+          "gold_fields": 24,
+          "seconds": 60.396
+        },
+        "summary": "All four identities and references appear together; RFC categories and current draft family revision/lifecycle are near-direct. No evidence of an actual complete fixed-material bypass or local large join."
+      },
+      "mechanism_assessment": {
+        "logical_dependency": "supported",
+        "strict_sgr": "one discovered family/revision record-state interpretation supported; independent target-W/state certification not completed; ordinary RFC traversal alone is insufficient",
+        "difficulty": "easy in both observed A runs",
+        "fixed_material_counterexample": "not established; IANA exports lack document lifecycle; full Datatracker bulk/API coverage unknown",
+        "extra_required_depth": false
+      },
+      "completeness_assessment": {
+        "status": "existing full universe and answer supported; final independent/human audit not performed",
+        "records": 103,
+        "numeric_namespace": [
+          0,
+          65535
+        ],
+        "eligible": 4,
+        "post_A_inventory_and_fields_equal": true,
+        "minor_residual": "candidate.json private empty clause at line59 stale; no impact on current nonempty reference/public output"
+      },
+      "difficulty_hypothesis": "No supported new difficulty claim. Existing incompatibility notice directly answers incompatible, and does not identify historical revision.",
+      "opportunity": {
+        "status": "parked_hypothesis_only",
+        "natural_goal": "Identify the specification actually associated with deprecated early allocation53 so implementers do not apply final allocation54 semantics to it.",
+        "prior_discovery": "RFC9146 sec10.2 says53 belongs to previous version and is incompatible with final RFC.",
+        "subsequent_site_state": "IETF document family historical revision/allocation-event record selected from discovered identity; not yet retrieved.",
+        "necessary_information": "Official versioned primary draft explicitly assigning/using53 and locating relevant compatibility definition.",
+        "one_gap": "Exact historical draft revision/original linking allocation53 to its actual definition.",
+        "minimal_original": "One official historical Internet-Draft original, or official allocation event explicitly identifying that original; URL/revision unknown.",
+        "stop_condition": "No unique revision/allocation correspondence, no necessary result-conditioned site state, or current fixed document already directly supplies complete requested contrast.",
+        "new_evidence_obtained": false,
+        "web_requests": 0
+      },
+      "reusable": [
+        "IANA table/namespace profile",
+        "XML/TXT retrieval experience",
+        "singleton/range and numeric identity parser",
+        "xref types and RFC header parser",
+        "103-record observation and source index",
+        "existing identity/maturity boundaries",
+        "empty serialization repair"
+      ],
+      "recheck": [
+        "53-to-historical-revision original",
+        "compatibility definition and unique scope",
+        "new predicates/reference/pair",
+        "full new observation if time changes",
+        "public/private empty clause alignment"
+      ],
+      "costs": {
+        "new_evidence": {
+          "program_requests_estimate": [
+            1,
+            3
+          ],
+          "model_minutes_cap": [
+            5,
+            15
+          ],
+          "basis": "single missing primary original; success unknown; not launched"
+        },
+        "reference_changes": {
+          "engineering_minutes_estimate": [
+            20,
+            45
+          ],
+          "basis": "reuse current roughly300-line reference registry parser; historical relation evidence new; unmeasured"
+        },
+        "semantic_review": {
+          "model_or_domain_minutes_estimate": [
+            20,
+            45
+          ],
+          "basis": "identity/revision/compatibility must be read; old builder25.27min as scale only"
+        },
+        "full_followup": {
+          "model_sessions_if_all_stages": 13,
+          "stages": {
+            "A": 2,
+            "B": 2,
+            "attack": 2,
+            "independent_audit": 1,
+            "formal": 6
+          },
+          "wall_time": "unknown",
+          "tokens": "unknown",
+          "money": "unknown",
+          "human_audit_time": "unknown",
+          "note": "A pass required for later stages; historical A cannot be reused",
+          "additional_construction": "At least1 Astra/high evidence/reference/pair construction session, separate from13; estimate only."
+        }
+      },
+      "decision": {
+        "action": "暂存",
+        "select_for_continuation": false,
+        "reason": "No new original supports a worth-revising conclusion; only one precise historical-original gap retained."
+      },
+      "evidence_locations": [
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/sources/rfc9146.txt:573-580",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/annotations.json:7,12",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/state_graph.json:18-30",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/reference.py:94-157",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/controller_pre_A_check.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/development_decision.json:7-102",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-r03-go-dev-a/tool_events.jsonl:5-9; ordinals28,31,35,42,45",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-r03-cg-dev-a/tool_events.jsonl:7-14; ordinals36,39,43,50,57,60",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-dtls-builder-01/run.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/iana-r03-go-dev-a/campaign_context.json:9",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/serialization_patch.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/iana_dtls_001/r03/editorial_patch.json"
+      ]
+    },
+    {
+      "candidate_id": "scotus_joinder_001",
+      "revision": 1,
+      "revisions_used_remaining": {
+        "maximum": 2,
+        "used": 0,
+        "remaining": 2
+      },
+      "full_score_reason": {
+        "class": [
+          "discovered case-PDF batch",
+          "concentrated direct attribution evidence",
+          "small local named-set counting",
+          "correct domain ownership judgment"
+        ],
+        "CG": {
+          "correct_fields": 9,
+          "gold_fields": 9,
+          "seconds": 130.921
+        },
+        "GO": {
+          "correct_fields": 9,
+          "gold_fields": 9,
+          "seconds": 80.618
+        },
+        "summary": "Term/date discovers3 cases. Syllabus attribution supplies unrestricted and divided named groups; author-inclusive min/max yields all values. CG extra search is source version/path recovery."
+      },
+      "mechanism_assessment": {
+        "logical_dependency": "supported: selected case identities condition document batch",
+        "strict_sgr": "term/release scope to document-record selection evidenced; correspondence to Method site-conditioned exposure remains insufficiently independently validated, not disproven",
+        "difficulty": "easy in both observed A runs",
+        "fixed_material_counterexample": "not established; inspected journal lacks complete joinder, inspected Orders PDF is wrong page scope, GovInfo coverage unknown",
+        "static_pdf_is_not_disproof": true,
+        "extra_required_depth": false
+      },
+      "completeness_assessment": {
+        "status": "existing scope/count evidence supported; final independent/human audit not performed",
+        "dated_term_records": 58,
+        "selected_cases": 3,
+        "named_groups": 4,
+        "post_A_inventory_and_fields_equal": true,
+        "unresolved_in_reference": []
+      },
+      "difficulty_hypothesis": "Existing Counterman ownership and Mallory part boundaries are already included and solved. No new evidence-backed natural retrieval judgment found.",
+      "opportunity": null,
+      "reusable": [
+        "term-table/date/category/R parser",
+        "58-record observed universe",
+        "docket/print identity checks",
+        "PDF-text provenance and anchor index",
+        "named Justice roster/part parser for its two observed formats",
+        "three-case scope/ownership annotations"
+      ],
+      "recheck": [
+        "any enlarged category/date universe",
+        "new attribution syntax and ownership",
+        "version-dependent claims",
+        "new answer predicates/reference/pair",
+        "all revised task testing"
+      ],
+      "costs": {
+        "new_evidence": {
+          "recommended_now": 0,
+          "conditional_after_specific_original": {
+            "requests": [
+              1,
+              3
+            ],
+            "model_minutes_cap": [
+              5,
+              15
+            ]
+          },
+          "target": "unknown; no request should launch now"
+        },
+        "reference_changes": {
+          "recommended_now": 0,
+          "conditional_total": "unknown",
+          "basis": "no new concrete predicates; current parser is not a universal opinion parser"
+        },
+        "semantic_review": {
+          "recommended_now": 0,
+          "conditional_total": "unknown"
+        },
+        "historical_basis": {
+          "feasibility_seconds": 282.356,
+          "builder_seconds": 740.483
+        },
+        "full_followup": {
+          "model_sessions_if_all_stages": 13,
+          "stages": {
+            "A": 2,
+            "B": 2,
+            "attack": 2,
+            "independent_audit": 1,
+            "formal": 6
+          },
+          "wall_time": "unknown",
+          "tokens": "unknown",
+          "money": "unknown",
+          "human_audit_time": "unknown",
+          "additional_construction": "At least1 Astra/high evidence/reference/pair construction session, separate from13; estimate only."
+        }
+      },
+      "decision": {
+        "action": "淘汰本次改造方向",
+        "select_for_continuation": false,
+        "reason": "No new original or natural indispensable retrieval condition beyond already solved3 PDFs. Does not reject all court tasks or assert fixed-material disproof of old mechanism.",
+        "reopen_evidence": "A specific official subsequent record showing an actual formal-attribution identity/version scope requires result-conditioned selection of another official record and is not direct synthesis of current3 PDFs."
+      },
+      "evidence_locations": [
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/development_decision.json:7-90",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/annotations.json:14-21,33-41,56-64",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/state_graph.json:3-20",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/reference.py:93-115,135-148,197-257,279-297",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/pre_A_rebuild/execution_checks.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/controller_pre_A_stability.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/candidates/scotus_joinder_001/r01/controller_post_A_stability.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-r01-go-dev-a/tool_events.jsonl:1-10; ordinals14,17,23,26,33,39,46,49",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-r01-cg-dev-a/tool_events.jsonl:3-30; ordinals23,26,77,80,89,92,101,104,110,113",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-joinder-builder-01/run.json",
+        "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/runs/scotus-opinion-coalitions-feasibility-01/run.json"
+      ]
+    }
+  ]
+}

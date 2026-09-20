@@ -1,0 +1,65 @@
+{
+  "candidate_id": "device_recall_backlink_001",
+  "revision": 1,
+  "ecosystem": "FDA CDRH device registration and recall views",
+  "domain": "DEVICE_RECALL_BACKLINK",
+  "status": "reference_ready",
+  "old_task_refs": [
+    "europemc_002"
+  ],
+  "research_goal": "For a regulatory record-linkage audit of U.S. medical-device recall Z-0436-2014, report whether each 510(k) application explicitly cited by its official recall record links back to that same recall through the recall view provided by the application’s official 510(k) record.",
+  "structural_upgrade": "A discovered finite application set conditions registration-provided recall states; exact linked record identities establish reverse membership. Forward citations do not entail backlink membership. Comparison with europemc_002 concerns stable identifier matching only, not measured difficulty superiority. Prior stopped device predicate historical-cause enumeration never had an r01; it is a different research need and remains stopped.",
+  "public": {
+    "cg": {
+      "instruction": "For a regulatory record-linkage audit of U.S. medical-device recall Z-0436-2014, report whether each 510(k) application explicitly cited by its official recall record links back to that same recall through the recall view provided by the application’s official 510(k) record.\n\nUse the official records as observed on 13 September 2026 (UTC).\n\nTo carry out the audit:\n1. Locate the official source recall record and read its cited 510(k) application identifiers.\n2. Open each discovered application’s official 510(k) record and follow its CDRH Recalls link.\n3. Inspect the complete resulting view and resolve its record links as needed to determine exact source-record membership.\n\nInclude every 510(k) application explicitly listed in the source recall record, one row per application. The scope is this finite cited application set.\n\nPRESENT means the recall view provided by the application’s official 510(k) record contains a link to the source recall record. ABSENT means the complete view contains no link to that record. Include all result pages and retain the view’s application scope without adding date, status, product or classification filters.\n\nMatch the exact recall record identity, using its Recall Number or official record identifier. Product names, model numbers, dates and shared recall-event identifiers alone do not establish that identity.\n\nThis is an audit of the observed backlink views, not a count of all historical recalls or a conclusion about why a link is missing.\n\nIf a required source or complete view cannot be read, the affected status remains unresolved; access failure does not justify ABSENT. Use UNRESOLVED for that application rather than guessing.",
+      "output_format": "Return only a pipe-separated table with the header APPLICATION_510K|BACKLINK_STATUS, in that column order. Include every cited application exactly once, sorted by application number ascending. Use PRESENT, ABSENT or UNRESOLVED exactly. Do not add event identifiers, dates, product names or explanations."
+    },
+    "go": {
+      "instruction": "For a regulatory record-linkage audit of U.S. medical-device recall Z-0436-2014, report whether each 510(k) application explicitly cited by its official recall record links back to that same recall through the recall view provided by the application’s official 510(k) record.\n\nUse the official records as observed on 13 September 2026 (UTC).\n\nInclude every 510(k) application explicitly listed in the source recall record, one row per application. The scope is this finite cited application set.\n\nPRESENT means the recall view provided by the application’s official 510(k) record contains a link to the source recall record. ABSENT means the complete view contains no link to that record. Include all result pages and retain the view’s application scope without adding date, status, product or classification filters.\n\nMatch the exact recall record identity, using its Recall Number or official record identifier. Product names, model numbers, dates and shared recall-event identifiers alone do not establish that identity.\n\nThis is an audit of the observed backlink views, not a count of all historical recalls or a conclusion about why a link is missing.\n\nIf a required source or complete view cannot be read, the affected status remains unresolved; access failure does not justify ABSENT. Use UNRESOLVED for that application rather than guessing.",
+      "output_format": "Return only a pipe-separated table with the header APPLICATION_510K|BACKLINK_STATUS, in that column order. Include every cited application exactly once, sorted by application number ascending. Use PRESENT, ABSENT or UNRESOLVED exactly. Do not add event identifiers, dates, product names or explanations."
+    }
+  },
+  "private": {
+    "source_version": "Official live-web responses observed 2026-09-13T02:36:29–02:50:23Z, with explicit partial-refresh limits in source_manifest.json. Runtime current date remains 2026-09-09 and is not a source cutoff.",
+    "start_urls": [
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=123823"
+    ],
+    "candidate_scope": "Include every 510(k) application explicitly listed in the source recall record, one row per application. The scope is this finite cited application set.",
+    "predicates": [
+      "Use the official records as observed on 13 September 2026 (UTC).",
+      "Include every 510(k) application explicitly listed in the source recall record, one row per application. The scope is this finite cited application set.",
+      "PRESENT means the recall view provided by the application’s official 510(k) record contains a link to the source recall record. ABSENT means the complete view contains no link to that record. Include all result pages and retain the view’s application scope without adding date, status, product or classification filters.",
+      "Match the exact recall record identity, using its Recall Number or official record identifier. Product names, model numbers, dates and shared recall-event identifiers alone do not establish that identity.",
+      "This is an audit of the observed backlink views, not a count of all historical recalls or a conclusion about why a link is missing.",
+      "If a required source or complete view cannot be read, the affected status remains unresolved; access failure does not justify ABSENT. Use UNRESOLVED for that application rather than guessing."
+    ],
+    "output_columns": [
+      "APPLICATION_510K",
+      "BACKLINK_STATUS"
+    ],
+    "row_key": [
+      "APPLICATION_510K"
+    ],
+    "sorting_rules": [
+      "Application number ascending; one row per source-cited application."
+    ],
+    "missing_value_rules": [
+      "Unreadable/incomplete source leaves status UNRESOLVED, never ABSENT. An infrastructure failure is not a valid ability-zero trial."
+    ],
+    "source_manifest_path": "source_manifest.json",
+    "state_graph_path": "state_graph.json",
+    "oracle_path": "oracle.psv",
+    "reference_script_path": "reference.py"
+  },
+  "validation": {
+    "content": "not_run",
+    "difficulty": "not_run",
+    "human_validation": "not_performed",
+    "report_paths": [
+      "reference_report.md",
+      "construction_report.md",
+      "pair_alignment.json",
+      "execution_checks.json"
+    ]
+  }
+}

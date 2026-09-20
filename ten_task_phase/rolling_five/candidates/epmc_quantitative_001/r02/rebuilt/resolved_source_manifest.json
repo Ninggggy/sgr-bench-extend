@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ISSN%3A0940-1334%20AND%20PUB_YEAR%3A2026&format=json&resultType=lite&pageSize=1000",
+    "path": "d0001.response",
+    "bytes": 299671
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953309/fullTextXML",
+    "path": "d0003.response",
+    "bytes": 10079
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953317/fullTextXML",
+    "path": "d0004.response",
+    "bytes": 67427
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953261/fullTextXML",
+    "path": "d0002.response",
+    "bytes": 157708
+  }
+]

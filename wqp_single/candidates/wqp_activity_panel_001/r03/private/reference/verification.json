@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "original_state_verification": "initial_state/verification.json",
+  "eligible_activity_trials": 833,
+  "changing_activity_trials": 5,
+  "independently_checked_trial_decisions": 833,
+  "all_trial_classifications_equal": true,
+  "changing_withdrawal_keys": [
+    [
+      "USGS-TX",
+      "nwistx.01.01401065"
+    ],
+    [
+      "USGS-TX",
+      "nwistx.01.01401515"
+    ],
+    [
+      "USGS-TX",
+      "nwistx.01.01500574"
+    ],
+    [
+      "USGS-TX",
+      "nwistx.01.01601150"
+    ],
+    [
+      "USGS-TX",
+      "nwistx.01.01900498"
+    ]
+  ],
+  "distinct_changed_frontier_states": 3,
+  "trial_interval_output_rows": 12,
+  "field_evidence_count": 216,
+  "independent_SQL_all_output_cells_equal": true,
+  "original_sources_unchanged": true,
+  "unknowns_affecting_answer": 0,
+  "sentinel_rows_observed": 0,
+  "reference_algorithm": "Exact support-count pruning for unchanged trials; all changed support sets and210intervals recomputed independently from original state. Separate SQL evaluates all original eligible scenarios from wide raw data."
+}

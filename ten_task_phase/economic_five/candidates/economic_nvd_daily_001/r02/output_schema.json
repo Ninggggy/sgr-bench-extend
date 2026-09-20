@@ -1,0 +1,23 @@
+{
+  "columns": [
+    "cve_id",
+    "matchCriteriaId",
+    "criteria"
+  ],
+  "format": "PSV",
+  "header": true,
+  "empty_result": "NONE\n",
+  "key": [
+    "cve_id",
+    "matchCriteriaId",
+    "criteria"
+  ],
+  "sort": "case-sensitive lexicographic ascending by all columns in column order",
+  "normalization": {
+    "cve_id": "full uppercase ID",
+    "matchCriteriaId": "uppercase hyphenated UUID",
+    "criteria": "exact source string"
+  },
+  "output_limit": null,
+  "scorer_integration": "Existing scorer asset was not available through tools; compatibility has not been executed."
+}

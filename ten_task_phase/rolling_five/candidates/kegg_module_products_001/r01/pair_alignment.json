@@ -1,0 +1,220 @@
+{
+  "review_type": "Constructor's direct English predicate comparison; no independent audit or human review",
+  "canonical_output_definition": "rules.json:output_format and output_definition",
+  "public_paths": {"cg": "cg.json", "go": "go.json"},
+  "predicates": [
+    {
+      "id": "research_goal",
+      "cg_quote": "Compare the products written for the same Rubisco-associated reaction across module annotations. Return all qualifying reaction–module pairs for reactions whose product sets differ across modules.",
+      "go_quote": "Compare the products written for the same Rubisco-associated reaction across module annotations. Return all qualifying reaction–module pairs for reactions whose product sets differ across modules."
+    },
+    {
+      "id": "reference_time_and_year_scope",
+      "cg_quote": "Use the annotations observed on 12 September 2026, with no publication-year filter.",
+      "go_quote": "Use the annotations observed on 12 September 2026, with no publication-year filter."
+    },
+    {
+      "id": "identifier_semantics",
+      "cg_quote": "R, M, and C identifiers identify reactions, modules (functional units), and compounds, respectively.",
+      "go_quote": "R, M, and C identifiers identify reactions, modules (functional units), and compounds, respectively."
+    },
+    {
+      "id": "complete_reaction_scope",
+      "cg_quote": "Read all reaction IDs in the full ALL_REAC field of enzyme EC 4.1.1.39, including entries marked other.",
+      "go_quote": "Eligible reactions are all reaction IDs in the full ALL_REAC field of enzyme EC 4.1.1.39, including entries marked other."
+    },
+    {
+      "id": "complete_direct_module_scope",
+      "cg_quote": "Use all modules in its official direct enzyme-to-module links, without filtering by module name or organism.",
+      "go_quote": "The module scope is all modules in its official direct enzyme-to-module links, without filtering by module name or organism."
+    },
+    {
+      "id": "full_module_coverage",
+      "cg_quote": "Read each linked module in full.",
+      "go_quote": "Coverage must include each linked module in full."
+    },
+    {
+      "id": "field_and_exact_identity",
+      "cg_quote": "In its REACTION field, match reaction IDs exactly against that ALL_REAC set.",
+      "go_quote": "A module line is in scope only when its REACTION field contains an exact match to an eligible reaction ID."
+    },
+    {
+      "id": "multi_id_line_membership",
+      "cg_quote": "A comma-separated reaction ID list applies the line to each listed reaction.",
+      "go_quote": "A comma-separated reaction ID list applies the line to each listed reaction."
+    },
+    {
+      "id": "target_consumption",
+      "cg_quote": "Keep only lines that explicitly consume D-ribulose 1,5-bisphosphate (C01182).",
+      "go_quote": "A qualifying line explicitly consumes D-ribulose 1,5-bisphosphate (C01182)."
+    },
+    {
+      "id": "written_one_way_direction",
+      "cg_quote": "Read -> or => from left to right, and <- or <= from right to left.",
+      "go_quote": "Read -> or => from left to right, and <- or <= from right to left."
+    },
+    {
+      "id": "no_one_way_reversal",
+      "cg_quote": "Do not reverse a one-way arrow to make a line qualify.",
+      "go_quote": "Do not reverse a one-way arrow to make a line qualify."
+    },
+    {
+      "id": "reversible_direction_and_both_sides",
+      "cg_quote": "For <-> or <=>, use the direction consuming C01182 if it appears on exactly one side. C01182 on both sides leaves consumption unresolved.",
+      "go_quote": "For <-> or <=>, use the direction consuming C01182 if it appears on exactly one side. C01182 on both sides leaves consumption unresolved."
+    },
+    {
+      "id": "line_local_explicit_products",
+      "cg_quote": "Form each product set from only the compound IDs explicitly written on that line's product side.",
+      "go_quote": "Each product set contains only the compound IDs explicitly written on that line's product side."
+    },
+    {
+      "id": "set_semantics",
+      "cg_quote": "Ignore coefficients and compound order; deduplicate IDs.",
+      "go_quote": "Ignore coefficients and compound order; deduplicate IDs."
+    },
+    {
+      "id": "group_identity_and_difference_threshold",
+      "cg_quote": "Group qualifying lines by reaction ID. Retain reactions with at least two distinct product sets across different linked modules.",
+      "go_quote": "The requested reactions have at least two distinct product sets across different linked modules, compared within the same reaction ID."
+    },
+    {
+      "id": "all_rows_and_shared_sets",
+      "cg_quote": "Return all qualifying module rows for each retained reaction, including rows that share a product set.",
+      "go_quote": "Return all qualifying module rows for each retained reaction, including rows that share a product set."
+    },
+    {
+      "id": "singleton_and_uniform_exclusion",
+      "cg_quote": "Exclude reactions represented in only one qualifying module or with identical product sets throughout.",
+      "go_quote": "Exclude reactions represented in only one qualifying module or with identical product sets throughout."
+    },
+    {
+      "id": "no_product_supplementation",
+      "cg_quote": "No products may be added from a generic reaction entry's EQUATION or from other module lines.",
+      "go_quote": "No products may be added from a generic reaction entry's EQUATION or from other module lines."
+    },
+    {
+      "id": "annotation_interpretation",
+      "cg_quote": "This comparison concerns written annotations, not complete chemical stoichiometry, biological absence, or organism phenotype.",
+      "go_quote": "This comparison concerns written annotations, not complete chemical stoichiometry, biological absence, or organism phenotype."
+    },
+    {
+      "id": "duplicate_pair_and_conflict",
+      "cg_quote": "Repeated qualifying lines for the same reaction–module pair collapse to one row when their product sets agree; conflicting sets are unresolved.",
+      "go_quote": "Repeated qualifying lines for the same reaction–module pair collapse to one row when their product sets agree; conflicting sets are unresolved."
+    },
+    {
+      "id": "absent_matching_annotation",
+      "cg_quote": "A complete module with no matching REACTION line contributes no row.",
+      "go_quote": "A complete module with no matching REACTION line contributes no row."
+    },
+    {
+      "id": "unresolved_required_evidence",
+      "cg_quote": "If a required record is incomplete, or a matching line's direction or product set is unresolved, report the unresolved issue instead of a table or NONE.",
+      "go_quote": "If a required record is incomplete, or a matching line's direction or product set is unresolved, report the unresolved issue instead of a table or NONE."
+    },
+    {
+      "id": "format_and_column_order",
+      "location": "output_format",
+      "cg_quote": "Return a pipe-separated table with the header REACTION_ID|MODULE_ID|PRODUCT_IDS.",
+      "go_quote": "Return a pipe-separated table with the header REACTION_ID|MODULE_ID|PRODUCT_IDS."
+    },
+    {
+      "id": "output_size_and_composite_key",
+      "location": "output_format",
+      "cg_quote": "Include every qualifying pair, with one row per distinct (REACTION_ID, MODULE_ID).",
+      "go_quote": "Include every qualifying pair, with one row per distinct (REACTION_ID, MODULE_ID)."
+    },
+    {
+      "id": "row_order_and_tie_resolution",
+      "location": "output_format",
+      "cg_quote": "Sort rows by REACTION_ID ascending, then MODULE_ID ascending.",
+      "go_quote": "Sort rows by REACTION_ID ascending, then MODULE_ID ascending."
+    },
+    {
+      "id": "product_serialization",
+      "location": "output_format",
+      "cg_quote": "Within PRODUCT_IDS, list the unique compound IDs in ascending order, separated by commas without spaces.",
+      "go_quote": "Within PRODUCT_IDS, list the unique compound IDs in ascending order, separated by commas without spaces."
+    },
+    {
+      "id": "completed_answer_only",
+      "location": "output_format",
+      "cg_quote": "Do not include commentary or additional columns in a completed answer.",
+      "go_quote": "Do not include commentary or additional columns in a completed answer."
+    },
+    {
+      "id": "verified_none",
+      "location": "output_format",
+      "cg_quote": "If the complete, resolved comparison yields no qualifying pairs, return only NONE, without a header.",
+      "go_quote": "If the complete, resolved comparison yields no qualifying pairs, return only NONE, without a header."
+    },
+    {
+      "id": "no_partial_table_or_false_none",
+      "location": "output_format",
+      "cg_quote": "Incomplete or unresolved research must not be represented by NONE or a partial table.",
+      "go_quote": "Incomplete or unresolved research must not be represented by NONE or a partial table."
+    }
+  ],
+  "ambiguity_checks": [
+    {
+      "topic": "Primary versus full enzyme reaction scope",
+      "reading_a": "Only the first ALL_REAC reaction is eligible.",
+      "reading_b": "ALL_REAC includes the other continuation.",
+      "effect_on_supplied_records": "A excludes the differing reaction and yields no retained pairs; B retains the two supplied R03140 pairs.",
+      "resolution": "complete_reaction_scope explicitly includes other in both variants."
+    },
+    {
+      "topic": "Module products versus generic reaction products",
+      "reading_a": "Use the generic EQUATION products for each occurrence of the reaction.",
+      "reading_b": "Use each module REACTION line's explicit product IDs.",
+      "effect_on_supplied_records": "A makes the two R03140 module product sets agree and removes them; B retains both.",
+      "resolution": "line_local_explicit_products and no_product_supplementation explicitly select B."
+    },
+    {
+      "topic": "Reaction grouping identity",
+      "reading_a": "Compare all module rows under the same enzyme together.",
+      "reading_b": "Compare only rows sharing the same reaction ID.",
+      "effect_on_supplied_records": "A can include the ordinary R00024 pair alongside the differing enzyme-associated sets; B excludes its singleton group.",
+      "resolution": "group_identity_and_difference_threshold and singleton_and_uniform_exclusion explicitly select B."
+    },
+    {
+      "topic": "Absent annotation versus empty product set",
+      "reading_a": "Assign an empty product set where a linked module does not list the reaction.",
+      "reading_b": "Generate no pair for an absent matching annotation.",
+      "effect_on_supplied_records": "A creates additional pairs and a spurious difference for R00024; B excludes its singleton group.",
+      "resolution": "absent_matching_annotation explicitly selects B."
+    },
+    {
+      "topic": "Enzyme naming direction versus written module direction",
+      "reading_a": "Apply the enzyme's named reaction direction, in which C01182 is formed.",
+      "reading_b": "Use the direction written on each module line.",
+      "effect_on_supplied_records": "A can discard the module lines as nonconsuming; all three matching module lines consume C01182 under B.",
+      "resolution": "written_one_way_direction, target_consumption, and no_one_way_reversal fix the interpretation."
+    },
+    {
+      "topic": "Representatives versus all qualifying module pairs",
+      "reading_a": "Report only one unusual module or one representative per product set.",
+      "reading_b": "Report every qualifying pair in each differing reaction group.",
+      "effect_on_supplied_records": "Selecting only the module with an additional explicit product would omit one required pair. With additional agreeing modules, representative-per-set reporting would also omit pairs.",
+      "resolution": "all_rows_and_shared_sets and output_size_and_composite_key explicitly select B."
+    },
+    {
+      "topic": "Order, multiplicity, reversibility, and conflicting duplicates",
+      "reading_a": "Product order or coefficients can distinguish sets; reversible lines are always read left-to-right; conflicting duplicate pairs can be unioned.",
+      "reading_b": "Compare ID membership only, orient reversible lines by unique-side C01182 consumption, and leave conflicting duplicate pairs unresolved.",
+      "effect_on_supplied_records": "No extra differences arise from these cases in the supplied matching lines. As a semantic thought experiment, reordered equal products, C01182 on the right of a reversible arrow, or two conflicting lines for one pair would produce different outcomes under A and B. These are not claimed source records or executed tests.",
+      "resolution": "set_semantics, reversible_direction_and_both_sides, and duplicate_pair_and_conflict explicitly select B."
+    },
+    {
+      "topic": "Runtime date versus observation date",
+      "reading_a": "Reconstruct annotations as they existed on 9 September 2026.",
+      "reading_b": "Use the supplied observation from 12 September 2026.",
+      "effect_on_supplied_records": "The historical 9 September set is not established by the supplied evidence; its equality cannot be assumed.",
+      "resolution": "reference_time_and_year_scope explicitly selects B; runtime metadata is separate."
+    }
+  ],
+  "execution_status": "Literal quotes and semantic readings authored from the delivered English text; controller string/schema checks NOT RUN by constructor",
+  "independent_final_audit": "not_performed",
+  "human_review": "not_performed"
+}

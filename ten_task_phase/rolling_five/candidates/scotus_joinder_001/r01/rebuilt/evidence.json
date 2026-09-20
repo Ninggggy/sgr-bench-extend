@@ -1,0 +1,326 @@
+[
+  {
+    "docket": "21-1271",
+    "author": "Roberts",
+    "groups": [
+      {
+        "parts": [
+          "ALL"
+        ],
+        "joiners": [
+          "Sotomayor",
+          "Kagan",
+          "Kavanaugh",
+          "Barrett",
+          "Jackson"
+        ]
+      }
+    ],
+    "scope_rosters": {
+      "ALL": [
+        "Barrett",
+        "Jackson",
+        "Kagan",
+        "Kavanaugh",
+        "Roberts",
+        "Sotomayor"
+      ]
+    },
+    "anchors": [
+      {
+        "anchor": "formal",
+        "source": "moore.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r50_h3ci.pdf",
+        "printed_page": 6,
+        "normalized_offset": 14714,
+        "quote": "Roberts, C. J., delivered the opinion of the Court, in which Sotomayor, Kagan, Kavanaugh, Barrett, and Jackson, JJ., joined."
+      },
+      {
+        "anchor": "lead",
+        "source": "moore.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r50_h3ci.pdf",
+        "printed_page": 7,
+        "normalized_offset": 17043,
+        "quote": "Chief Justice Roberts delivered the opinion of the Court."
+      },
+      {
+        "anchor": "separate",
+        "source": "moore.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r50_h3ci.pdf",
+        "printed_page": 38,
+        "normalized_offset": 85856,
+        "quote": "Justice Kavanaugh, concurring."
+      },
+      {
+        "anchor": "confirmation",
+        "source": "moore.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r50_h3ci.pdf",
+        "printed_page": 38,
+        "normalized_offset": 85890,
+        "quote": "I join the Court's opinion in full."
+      },
+      {
+        "anchor": "next",
+        "source": "moore.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r50_h3ci.pdf",
+        "printed_page": 40,
+        "normalized_offset": 91397,
+        "quote": "Justice Thomas, with whom Justice Gorsuch joins, and with whom Justice Alito joins as to Part I, dissenting."
+      }
+    ],
+    "relations_checked": [
+      {
+        "owner": "Kavanaugh",
+        "open": "separate",
+        "statement": "confirmation",
+        "close": "next",
+        "effect": "confirm",
+        "parts": [
+          "ALL"
+        ]
+      }
+    ],
+    "capture_pair": {
+      "pdf": "moore.pdf",
+      "text": "moore.txt",
+      "pdf_bytes": 499681,
+      "text_bytes": 154869
+    },
+    "page_locators": "verified against extracted pages"
+  },
+  {
+    "docket": "22-138",
+    "author": "Kagan",
+    "groups": [
+      {
+        "parts": [
+          "ALL"
+        ],
+        "joiners": [
+          "Roberts",
+          "Alito",
+          "Kavanaugh",
+          "Jackson"
+        ]
+      }
+    ],
+    "scope_rosters": {
+      "ALL": [
+        "Alito",
+        "Jackson",
+        "Kagan",
+        "Kavanaugh",
+        "Roberts"
+      ]
+    },
+    "anchors": [
+      {
+        "anchor": "formal",
+        "source": "counterman.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r51_g3bi.pdf",
+        "printed_page": 68,
+        "normalized_offset": 6677,
+        "quote": "Kagan, J., delivered the opinion of the Court, in which Roberts, C. J., and Alito, Kavanaugh, and Jackson, JJ., joined."
+      },
+      {
+        "anchor": "lead",
+        "source": "counterman.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r51_g3bi.pdf",
+        "printed_page": 69,
+        "normalized_offset": 9079,
+        "quote": "Justice Kagan delivered the opinion of the Court."
+      },
+      {
+        "anchor": "separate",
+        "source": "counterman.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r51_g3bi.pdf",
+        "printed_page": 83,
+        "normalized_offset": 40930,
+        "quote": "Justice Sotomayor, with whom Justice Gorsuch joins as to Parts I, II, III-A, and III-B, concurring in part and concurring in the judgment."
+      },
+      {
+        "anchor": "conclusion",
+        "source": "counterman.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r51_g3bi.pdf",
+        "printed_page": 84,
+        "normalized_offset": 43236,
+        "quote": "I join the Court's conclusion that some subjective mens rea is required in true-threats cases."
+      },
+      {
+        "anchor": "next",
+        "source": "counterman.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r51_g3bi.pdf",
+        "printed_page": 105,
+        "normalized_offset": 89996,
+        "quote": "Justice Thomas, dissenting."
+      }
+    ],
+    "relations_checked": [
+      {
+        "owner": "Sotomayor",
+        "open": "separate",
+        "statement": "separate",
+        "close": "next",
+        "effect": "separate_only",
+        "excluded_from_lead": [
+          "Sotomayor",
+          "Gorsuch"
+        ],
+        "reading": "Gorsuch joins specified parts of Sotomayor's separate opinion; these part labels do not refer to Kagan's writing."
+      },
+      {
+        "owner": "Sotomayor",
+        "open": "separate",
+        "statement": "conclusion",
+        "close": "next",
+        "effect": "conclusion_only",
+        "excluded_from_lead": [
+          "Sotomayor"
+        ],
+        "reading": "Joining the Court's conclusion is not an express joinder in a part of the lead opinion."
+      }
+    ],
+    "capture_pair": {
+      "pdf": "counterman.pdf",
+      "text": "counterman.txt",
+      "pdf_bytes": 420250,
+      "text_bytes": 128181
+    },
+    "page_locators": "verified against extracted pages"
+  },
+  {
+    "docket": "21-1168",
+    "author": "Gorsuch",
+    "groups": [
+      {
+        "parts": [
+          "I",
+          "III-B"
+        ],
+        "joiners": [
+          "Thomas",
+          "Alito",
+          "Sotomayor",
+          "Jackson"
+        ]
+      },
+      {
+        "parts": [
+          "II",
+          "III-A",
+          "IV"
+        ],
+        "joiners": [
+          "Thomas",
+          "Sotomayor",
+          "Jackson"
+        ]
+      }
+    ],
+    "scope_rosters": {
+      "I": [
+        "Alito",
+        "Gorsuch",
+        "Jackson",
+        "Sotomayor",
+        "Thomas"
+      ],
+      "II": [
+        "Gorsuch",
+        "Jackson",
+        "Sotomayor",
+        "Thomas"
+      ],
+      "III-A": [
+        "Gorsuch",
+        "Jackson",
+        "Sotomayor",
+        "Thomas"
+      ],
+      "III-B": [
+        "Alito",
+        "Gorsuch",
+        "Jackson",
+        "Sotomayor",
+        "Thomas"
+      ],
+      "IV": [
+        "Gorsuch",
+        "Jackson",
+        "Sotomayor",
+        "Thomas"
+      ]
+    },
+    "anchors": [
+      {
+        "anchor": "formal",
+        "source": "mallory.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf",
+        "printed_page": 123,
+        "normalized_offset": 5906,
+        "quote": "Gorsuch, J., announced the judgment of the Court, delivered the opinion of the Court with respect to Parts I and III-B, in which Thomas, Alito, Sotomayor, and Jackson, JJ., joined, and an opinion with respect to Parts II, III-A, and IV, in which Thomas, Sotomayor, and Jackson, JJ., joined."
+      },
+      {
+        "anchor": "lead",
+        "source": "mallory.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf",
+        "printed_page": 125,
+        "normalized_offset": 9250,
+        "quote": "Justice Gorsuch announced the judgment of the Court and delivered the opinion of the Court with respect to Parts I and III-B, and an opinion with respect to Parts II, III-A, and IV, in which Justice Thomas, Justice Sotomayor, and Justice Jackson join."
+      },
+      {
+        "anchor": "separate",
+        "source": "mallory.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf",
+        "printed_page": 147,
+        "normalized_offset": 56449,
+        "quote": "Justice Jackson, concurring."
+      },
+      {
+        "anchor": "alito",
+        "source": "mallory.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf",
+        "printed_page": 150,
+        "normalized_offset": 62964,
+        "quote": "Justice Alito, concurring in part and concurring in the judgment."
+      },
+      {
+        "anchor": "confirmation",
+        "source": "mallory.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf",
+        "printed_page": 163,
+        "normalized_offset": 93072,
+        "quote": "I join the Court's opinion as stated in Parts I and III-B"
+      },
+      {
+        "anchor": "next",
+        "source": "mallory.txt",
+        "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf",
+        "printed_page": 163,
+        "normalized_offset": 93255,
+        "quote": "Justice Barrett, with whom The Chief Justice, Justice Kagan, and Justice Kavanaugh join, dissenting."
+      }
+    ],
+    "relations_checked": [
+      {
+        "owner": "Alito",
+        "open": "alito",
+        "statement": "confirmation",
+        "close": "next",
+        "effect": "confirm",
+        "parts": [
+          "I",
+          "III-B"
+        ],
+        "reading": "The declaration belongs to Alito despite the next opinion's running header on the same page. It confirms joinder only in I and III-B."
+      }
+    ],
+    "capture_pair": {
+      "pdf": "mallory.pdf",
+      "text": "mallory.txt",
+      "pdf_bytes": 559002,
+      "text_bytes": 135796
+    },
+    "page_locators": "verified against extracted pages"
+  }
+]

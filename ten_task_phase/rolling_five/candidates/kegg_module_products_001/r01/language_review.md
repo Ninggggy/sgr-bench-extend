@@ -1,0 +1,11 @@
+The English public requests identify the research object immediately: compare products explicitly written for the same reaction across module annotations, and return every qualifying reaction–module pair in a differing group. A reader can recover the observation date, complete enzyme and module scopes, consuming direction, exact field, difference threshold, exclusions, and delivery format from either prompt alone.
+
+CG contains four numbered research operations. GO describes eligibility and the requested relation in paragraphs; it does not require those operations to be performed in a specified order. Shared direction and interpretation language supplies necessary semantics, not an extra retrieval layer.
+
+The predicate table quotes both English texts directly. It covers full ALL_REAC including other, official direct module membership, complete records, exact reaction matching, comma-list membership, C01182 consumption, each arrow family, line-local products, set semantics, grouping, all-row inclusion, singleton/uniform exclusion, duplicate conflicts, missing annotations, unresolved evidence, output size, column order, sorting, and NONE. The same output_format is supplied in cg.json, go.json, and rules.json.
+
+The semantic ambiguity review uses the actual scope, ordinary boundary, and differing module lines. Reading only primary ALL_REAC, copying generic EQUATION products, grouping by enzyme, or treating absent lines as empty sets changes the answer. Both prompts explicitly resolve those readings. Order, reversible-arrow, and duplicate-conflict thought experiments check wording coverage; they are not fabricated source observations or executed solver tests.
+
+Neither prompt reveals a discovered reaction/module ID, expected row count, winning module, explicit answer products, source website name, or start URL. The EC number, C01182, and field names remain because they define the business scope and comparison. The date states the actual supplied observation rather than implying a historical reconstruction.
+
+This is the constructor's direct English language and semantic review. No translation substitutes for it. Automated quote/equality checks by the controller are pending. Independent final audit: not_performed. Human review: not_performed. No tested prompt was replaced while retaining an earlier score.

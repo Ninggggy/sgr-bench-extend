@@ -1,0 +1,25 @@
+{
+  "status": "deterministic_explicit",
+  "columns": [
+    "group",
+    "symbiont",
+    "pathway",
+    "module",
+    "replicon",
+    "created_year"
+  ],
+  "row_key": [
+    "group",
+    "symbiont",
+    "pathway",
+    "module",
+    "replicon"
+  ],
+  "record_separator": ",",
+  "fields": {
+    "created_year": {
+      "type": "integer"
+    }
+  },
+  "source": "Unmodified original task rubric; no gold correction or missing-field completion."
+}

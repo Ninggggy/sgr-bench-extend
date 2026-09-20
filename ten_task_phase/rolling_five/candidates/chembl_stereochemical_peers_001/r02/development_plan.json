@@ -1,0 +1,27 @@
+{
+  "candidate_id": "chembl_stereochemical_peers_001",
+  "revision": 2,
+  "stage": "development_a",
+  "registered_at": "2026-09-13T03:26:48.063047+00:00",
+  "trials": [
+    {
+      "candidate_id": "chembl_stereochemical_peers_001",
+      "revision": 2,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "chembl-stereo-r02-cg-dev-a"
+    },
+    {
+      "candidate_id": "chembl_stereochemical_peers_001",
+      "revision": 2,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "chembl-stereo-r02-go-dev-a"
+    }
+  ],
+  "scope": "First development A for this candidate; original r01 never tested. Real source wording repair revision1/2, old history retained."
+}

@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-09-11T17:24:44.277573+00:00",
+  "source_path": "construction_pipeline/ten_task_phase/economic_five/runs/chemexpo-qualifier-feasibility-01/downloaded_data/d0001.response",
+  "method": "Deterministic link extraction from already acquired HTML; no new source request",
+  "links": [
+    {
+      "tag": "a",
+      "url": "https://www.google.com/search?q=EL749%20ELECTRICAL%20DEGREASER%20Sprayon"
+    },
+    {
+      "tag": "a",
+      "url": "https://www.sprayon.com/product/el749-electrical-degreaser/"
+    },
+    {
+      "tag": "a",
+      "url": "/chemexpo/datadocument/1557674/download_chemicals/"
+    },
+    {
+      "tag": "a",
+      "url": "https://www.sprayon.com/"
+    }
+  ],
+  "scope": "Only this archived document page; no claim about all original PDF availability."
+}

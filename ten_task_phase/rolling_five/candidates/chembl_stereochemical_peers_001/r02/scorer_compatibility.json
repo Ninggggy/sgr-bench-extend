@@ -1,0 +1,162 @@
+{
+  "status": "passed",
+  "scoring_entry_point": "construction_pipeline/ten_task_phase/protocol/ten-task-v1/score.py",
+  "legacy_r01_entry_point": "construction_pipeline/ten_task_phase/rolling_five/runs/chembl-structure-feasibility-01/implementation/score.py",
+  "protocol_scorer_bytes_equal_to_r01_scoring_entry": true,
+  "fixtures": {
+    "identical": {
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 32,
+        "gold_fields": 32,
+        "pred_fields": 32,
+        "item_denominator": 64,
+        "correct_rows": 16,
+        "gold_rows": 16,
+        "pred_rows": 16,
+        "row_denominator": 32,
+        "correct_pairs": 120,
+        "pair_denominator": 120,
+        "shared_ids": 16
+      },
+      "matches_existing_r01_boundary_expectations": true,
+      "purpose": "Deterministic local text fixture; not a solver attempt or empirical task difficulty result."
+    },
+    "one_partial_relabelled_full": {
+      "metrics": {
+        "Item-F1": 0.96875,
+        "Row-F1": 0.9375,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 31,
+        "gold_fields": 32,
+        "pred_fields": 32,
+        "item_denominator": 64,
+        "correct_rows": 15,
+        "gold_rows": 16,
+        "pred_rows": 16,
+        "row_denominator": 32,
+        "correct_pairs": 120,
+        "pair_denominator": 120,
+        "shared_ids": 16
+      },
+      "matches_existing_r01_boundary_expectations": true,
+      "purpose": "Deterministic local text fixture; not a solver attempt or empirical task difficulty result."
+    },
+    "drop_null_hierarchy_records": {
+      "metrics": {
+        "Item-F1": 0.9333333333333333,
+        "Row-F1": 0.9333333333333333,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 28,
+        "gold_fields": 32,
+        "pred_fields": 28,
+        "item_denominator": 60,
+        "correct_rows": 14,
+        "gold_rows": 16,
+        "pred_rows": 14,
+        "row_denominator": 30,
+        "correct_pairs": 91,
+        "pair_denominator": 91,
+        "shared_ids": 14
+      },
+      "matches_existing_r01_boundary_expectations": true,
+      "purpose": "Deterministic local text fixture; not a solver attempt or empirical task difficulty result."
+    },
+    "reverse_order": {
+      "metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 0.0
+      },
+      "counts": {
+        "correct_fields": 32,
+        "gold_fields": 32,
+        "pred_fields": 32,
+        "item_denominator": 64,
+        "correct_rows": 16,
+        "gold_rows": 16,
+        "pred_rows": 16,
+        "row_denominator": 32,
+        "correct_pairs": 0,
+        "pair_denominator": 120,
+        "shared_ids": 16
+      },
+      "matches_existing_r01_boundary_expectations": true,
+      "purpose": "Deterministic local text fixture; not a solver attempt or empirical task difficulty result."
+    },
+    "add_multicomponent_salt": {
+      "metrics": {
+        "Item-F1": 0.9696969696969697,
+        "Row-F1": 0.9696969696969697,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 32,
+        "gold_fields": 32,
+        "pred_fields": 34,
+        "item_denominator": 66,
+        "correct_rows": 16,
+        "gold_rows": 16,
+        "pred_rows": 17,
+        "row_denominator": 33,
+        "correct_pairs": 120,
+        "pair_denominator": 120,
+        "shared_ids": 16
+      },
+      "matches_existing_r01_boundary_expectations": true,
+      "purpose": "Deterministic local text fixture; not a solver attempt or empirical task difficulty result."
+    },
+    "duplicate_registered_id": {
+      "metrics": {
+        "Item-F1": 0.9696969696969697,
+        "Row-F1": 0.9696969696969697,
+        "P.O.A.": 1.0
+      },
+      "counts": {
+        "correct_fields": 32,
+        "gold_fields": 32,
+        "pred_fields": 34,
+        "item_denominator": 66,
+        "correct_rows": 16,
+        "gold_rows": 16,
+        "pred_rows": 17,
+        "row_denominator": 33,
+        "correct_pairs": 120,
+        "pair_denominator": 120,
+        "shared_ids": 16
+      },
+      "matches_existing_r01_boundary_expectations": false,
+      "purpose": "Deterministic local text fixture; not a solver attempt or empirical task difficulty result."
+    },
+    "verified_empty_fixture": {
+      "metrics": {
+        "Item-F1": 0.0,
+        "Row-F1": 0.0,
+        "P.O.A.": 0
+      },
+      "counts": {
+        "correct_fields": 0,
+        "gold_fields": 32,
+        "pred_fields": 0,
+        "item_denominator": 32,
+        "correct_rows": 0,
+        "gold_rows": 16,
+        "pred_rows": 0,
+        "row_denominator": 16,
+        "correct_pairs": 0,
+        "pair_denominator": 0,
+        "shared_ids": 0
+      },
+      "matches_existing_r01_boundary_expectations": false,
+      "purpose": "Deterministic local text fixture; not a solver attempt or empirical task difficulty result."
+    }
+  }
+}

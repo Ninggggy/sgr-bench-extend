@@ -1,0 +1,204 @@
+{
+  "candidate_id": "economic_kegg_ddi_001",
+  "revision": "r02",
+  "status": "UNTESTED",
+  "review_basis": "Static comparison of the exact returned English texts; no solver runs or source-level set recomputation.",
+  "shared_output_definition": {
+    "columns": [
+      "ssri_id",
+      "mao_id",
+      "classes"
+    ],
+    "row_key": [
+      "ssri_id",
+      "mao_id"
+    ],
+    "delimiter": "|",
+    "sort": [
+      "ssri_id ASC",
+      "mao_id ASC"
+    ],
+    "row_limit": null,
+    "allowed_classes": [
+      "CI",
+      "P",
+      "CI,P"
+    ],
+    "none": "Header followed by a single line NONE only after successful complete coverage finds no qualifying pairs.",
+    "answer_field": "Table only",
+    "evidence_field": "Separate solver evidence field",
+    "output_format_verbatim": "Put only a pipe-separated table in the answer field, with the header ssri_id|mao_id|classes. Use exact D numbers without the dr: prefix; names are not required. Put the SSRI member first and the MAO inhibitor member second. Write one row per distinct ingredient pair. The classes value must be CI, P, or CI,P. Sort rows by ssri_id, then mao_id, both ascending. Include every qualifying pair; there is no row limit. If successful complete coverage finds no qualifying pairs, write the header followed by a single line NONE. In the separate evidence field, provide public evidence URLs, actual UTC access dates, and any relevant revision dates supplied by the source; say unavailable when a revision is not supplied. Put any access limitations or unresolved source conflicts in that field as well."
+  },
+  "predicates": [
+    {
+      "id": "research_goal_and_group_names",
+      "field": "instruction",
+      "cg_quote": "Compile the reported interaction classes for exact ingredient pairs between the drug groups \"Selective serotonin reuptake inhibitor (SSRI)\" and \"MAO inhibitor\" (also named \"Monoamine oxidase inhibitors\"). Return a complete table for a medication-transition records review.",
+      "go_quote": "Compile the reported interaction classes for exact ingredient pairs between the drug groups \"Selective serotonin reuptake inhibitor (SSRI)\" and \"MAO inhibitor\" (also named \"Monoamine oxidase inhibitors\"). Return a complete table for a medication-transition records review."
+    },
+    {
+      "id": "exact_access_window",
+      "field": "instruction",
+      "cg_quote": "Use current public records accessed from 2026-09-11T16:26:15.871Z (inclusive) to 2026-09-13T16:26:15.871Z (exclusive).",
+      "go_quote": "Use current public records accessed from 2026-09-11T16:26:15.871Z (inclusive) to 2026-09-13T16:26:15.871Z (exclusive)."
+    },
+    {
+      "id": "complete_leaf_membership_and_nested_branches",
+      "field": "instruction",
+      "cg_quote": "Include every leaf drug entry identified by a D number from each of the two complete official group records, including all nested branches.",
+      "go_quote": "Include every leaf drug entry identified by a D number from each of the two complete official group records, including all nested branches."
+    },
+    {
+      "id": "exact_identity_salts_hydrates",
+      "field": "instruction",
+      "cg_quote": "Keep different D numbers separate, including salts and hydrates.",
+      "go_quote": "Keep different D numbers separate, including salts and hydrates."
+    },
+    {
+      "id": "no_country_or_common_use_filter",
+      "field": "instruction",
+      "cg_quote": "Do not filter members by country tags or by whether they are commonly used as antidepressants.",
+      "go_quote": "Do not filter members by country tags or by whether they are commonly used as antidepressants."
+    },
+    {
+      "id": "cross_group_reported_pair_eligibility",
+      "field": "instruction",
+      "cg_quote": "Include a pair when one member belongs to the SSRI group, the other belongs to the MAO inhibitor group, and at least one of CI or P is reported for that exact pair.",
+      "go_quote": "Include a pair when one member belongs to the SSRI group, the other belongs to the MAO inhibitor group, and at least one of CI or P is reported for that exact pair."
+    },
+    {
+      "id": "within_group_exclusion",
+      "field": "instruction",
+      "cg_quote": "Exclude pairs within either group.",
+      "go_quote": "Exclude pairs within either group."
+    },
+    {
+      "id": "either_orientation_one_pair",
+      "field": "instruction",
+      "cg_quote": "A report in either orientation counts; combine the two orientations into one pair.",
+      "go_quote": "A report in either orientation counts; combine the two orientations into one pair."
+    },
+    {
+      "id": "class_meanings_and_union",
+      "field": "instruction",
+      "cg_quote": "CI means the source reports a contraindication. P means it reports a precaution. Preserve every reported class: use CI,P when both are reported.",
+      "go_quote": "CI means the source reports a contraindication. P means it reports a precaution. Preserve every reported class: use CI,P when both are reported."
+    },
+    {
+      "id": "absence_requires_complete_successful_coverage",
+      "field": "instruction",
+      "cg_quote": "Omit a pair only when complete, successful coverage contains no reported interaction for it. Absence does not establish clinical safety.",
+      "go_quote": "Omit a pair only when complete, successful coverage contains no reported interaction for it. Absence does not establish clinical safety."
+    },
+    {
+      "id": "access_failure_and_unresolved_conflicts",
+      "field": "instruction",
+      "cg_quote": "If access failures or unresolved source conflicts prevent a complete determination, describe the limitation in the separate evidence field and do not present an incomplete table as complete.",
+      "go_quote": "If access failures or unresolved source conflicts prevent a complete determination, describe the limitation in the separate evidence field and do not present an incomplete table as complete."
+    },
+    {
+      "id": "answer_is_only_three_column_psv",
+      "field": "output_format",
+      "cg_quote": "Put only a pipe-separated table in the answer field, with the header ssri_id|mao_id|classes.",
+      "go_quote": "Put only a pipe-separated table in the answer field, with the header ssri_id|mao_id|classes."
+    },
+    {
+      "id": "bare_ids_names_optional_and_output_orientation",
+      "field": "output_format",
+      "cg_quote": "Use exact D numbers without the dr: prefix; names are not required. Put the SSRI member first and the MAO inhibitor member second.",
+      "go_quote": "Use exact D numbers without the dr: prefix; names are not required. Put the SSRI member first and the MAO inhibitor member second."
+    },
+    {
+      "id": "one_row_per_pair_and_class_serialization",
+      "field": "output_format",
+      "cg_quote": "Write one row per distinct ingredient pair. The classes value must be CI, P, or CI,P.",
+      "go_quote": "Write one row per distinct ingredient pair. The classes value must be CI, P, or CI,P."
+    },
+    {
+      "id": "deterministic_sort_and_no_result_limit",
+      "field": "output_format",
+      "cg_quote": "Sort rows by ssri_id, then mao_id, both ascending. Include every qualifying pair; there is no row limit.",
+      "go_quote": "Sort rows by ssri_id, then mao_id, both ascending. Include every qualifying pair; there is no row limit."
+    },
+    {
+      "id": "none_only_for_verified_empty_set",
+      "field": "output_format",
+      "cg_quote": "If successful complete coverage finds no qualifying pairs, write the header followed by a single line NONE.",
+      "go_quote": "If successful complete coverage finds no qualifying pairs, write the header followed by a single line NONE."
+    },
+    {
+      "id": "separate_evidence_provenance_dates_and_missing_revision",
+      "field": "output_format",
+      "cg_quote": "In the separate evidence field, provide public evidence URLs, actual UTC access dates, and any relevant revision dates supplied by the source; say unavailable when a revision is not supplied. Put any access limitations or unresolved source conflicts in that field as well.",
+      "go_quote": "In the separate evidence field, provide public evidence URLs, actual UTC access dates, and any relevant revision dates supplied by the source; say unavailable when a revision is not supplied. Put any access limitations or unresolved source conflicts in that field as well."
+    }
+  ],
+  "cg_only_procedure": {
+    "field": "instruction",
+    "quote": "To carry out the review:\n1. Identify all leaf D numbers in both group records.\n2. Obtain interaction records covering every cross-group pair. Check both orientations where necessary to resolve gaps.\n3. Combine the reported classes for each exact cross-group pair and sort the complete result.",
+    "effect": "Expresses an executable order for the shared predicates. It does not require a fixed interface or request path; public API and bulk coverage remain possible. GO omits this procedure."
+  },
+  "ambiguity_review": [
+    {
+      "topic": "membership",
+      "readings": [
+        "All leaf D entries from each group",
+        "Only D entries shared by both groups"
+      ],
+      "logical_difference": "Union-based enumeration and intersection-only enumeration can produce different candidate sets.",
+      "resolution": "The returned text says from each of the two complete official group records and then requires one member from each group.",
+      "check_basis": "Static semantic comparison; no observed source-set difference is claimed."
+    },
+    {
+      "topic": "time",
+      "readings": [
+        "Whole UTC calendar days September 11 through 13",
+        "The authorized 48-hour interval with precise endpoints"
+      ],
+      "logical_difference": "These intervals admit different access times. Whether source values differ at those times is unverified.",
+      "resolution": "Both variants use the exact inclusive start and exclusive end. Neither requests a September 9 snapshot.",
+      "check_basis": "Supplied campaign timestamps; no new historical retrieval."
+    },
+    {
+      "topic": "direction_and_classes",
+      "readings": [
+        "Use only SSRI-first source reports",
+        "Use either orientation and preserve all CI/P labels"
+      ],
+      "logical_difference": "For a pair reported only in reverse, the readings differ in inclusion; complementary labels across orientations can also change its classes.",
+      "resolution": "Both variants explicitly count either orientation and preserve every reported class.",
+      "check_basis": "Logical conditional examples only. The saved-data singleton counterfactual remains unexecuted in this repair."
+    },
+    {
+      "topic": "identity",
+      "readings": [
+        "Merge ingredients by a common name",
+        "Keep each leaf D identifier separate"
+      ],
+      "logical_difference": "Identity merging can transfer a report between distinct salts, hydrates, or free compounds and change rows.",
+      "resolution": "Both variants explicitly keep different D numbers separate, including salts and hydrates.",
+      "check_basis": "Static semantic comparison; the existing source-based salt counterfactual is retained for controller execution."
+    },
+    {
+      "topic": "absence",
+      "readings": [
+        "Treat an unsuccessful lookup as no report",
+        "Omit only after complete successful coverage establishes no report"
+      ],
+      "logical_difference": "A failed lookup does not determine whether the pair belongs in the result, whereas established absence permits omission.",
+      "resolution": "Both variants retain the successful-coverage condition and separate limitation reporting; NONE requires a verified empty result.",
+      "check_basis": "Static semantic comparison; no failed lookup is recast as negative source evidence."
+    },
+    {
+      "topic": "evidence_placement",
+      "readings": [
+        "Append a source note to the answer table",
+        "Place provenance in the solver evidence field"
+      ],
+      "logical_difference": "The first reading can add malformed prediction rows under the supplied parser; the second leaves the answer table unchanged.",
+      "resolution": "The identical output formats require only the table in answer and provenance separately in evidence.",
+      "check_basis": "Inspection of the supplied score.py parser; no scorer execution."
+    }
+  ],
+  "language_review": "The opening states the requested records and deliverable. Necessary scope, identity, class, absence, conflict, time, sorting, and evidence conditions remain explicit in both variants. The extra treatment-advice disclaimer and internal evaluation-window phrasing were removed. Website omission follows the supplied variants; no public start URL, group ID, winning row, or hit list was added. These returned texts have no transferred test results."
+}

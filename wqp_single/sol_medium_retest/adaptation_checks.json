@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "Ended original campaign rejected before preparing a run",
+    "Explicit independent ledger enforces17 cap before preparing run; no model call",
+    "Original campaign, ledger, analysis plan, README and report byte-identical"
+  ],
+  "model_config_tests": "11 passed; explicit model evidence and config preservation",
+  "first_actual_run": "Counts as screening_new_CG_1, not a separate capability session"
+}

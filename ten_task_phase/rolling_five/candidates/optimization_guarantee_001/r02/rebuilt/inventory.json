@@ -1,0 +1,62 @@
+[
+  {
+    "arxiv_id": "1809.06474",
+    "citations": [
+      41,
+      44
+    ],
+    "identity_title_versions": [
+      "1809.06474v1",
+      "1809.06474v2"
+    ],
+    "selected_version": "v2",
+    "history": {
+      "v1": "2018-09-17T23:30:05+00:00",
+      "v2": "2019-01-14T02:53:46+00:00"
+    },
+    "selection_rule": "latest posting no later than survey v2 posting",
+    "field_derivation": [
+      "The preliminary theorems concern smoothing/Stein identities. The first own conditional-gradient gap theorem explicitly has a nonconvex part. A later inexact-updates method does not supersede that first statement.",
+      "The lhs is the expectation of the random-index gap. The definition places gap k at iterate k-1; the printed uniform index law supplies both range endpoints."
+    ]
+  },
+  {
+    "arxiv_id": "1811.10828",
+    "citations": [
+      46
+    ],
+    "identity_title_versions": [
+      "1811.10828v2"
+    ],
+    "selected_version": "v2",
+    "history": {
+      "v1": "2018-11-27T06:11:31+00:00",
+      "v2": "2019-09-15T06:42:48+00:00"
+    },
+    "selection_rule": "latest posting no later than survey v2 posting",
+    "field_derivation": [
+      "The earlier gap theorem names the white-box algorithm, whose update queries gradients. The selected statement names the black-box algorithm; its symmetric differences evaluate the fixed attack loss.",
+      "Expectation applies to the abbreviation for the trajectory minimum, over the exact printed range. The statement explicitly attributes randomness to gradient estimation."
+    ]
+  },
+  {
+    "arxiv_id": "1810.03233",
+    "citations": [
+      47
+    ],
+    "identity_title_versions": [
+      "1810.03233v3"
+    ],
+    "selected_version": "v3",
+    "history": {
+      "v1": "2018-10-08T00:29:43+00:00",
+      "v2": "2018-10-09T00:42:02+00:00",
+      "v3": "2019-02-18T22:20:20+00:00"
+    },
+    "selection_rule": "latest posting no later than survey v2 posting",
+    "field_derivation": [
+      "The preceding main results are under convex assumptions. The selected nonconvex statement references update (13); its surrounding Algorithm 3 evaluates shared-sample finite differences.",
+      "The lhs directly places expectation outside the minimum. Its printed range excludes x_T, although Algorithm 3 lists x_T as output. G is retained as the paper-defined symbol."
+    ]
+  }
+]

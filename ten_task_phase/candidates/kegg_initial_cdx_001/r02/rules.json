@@ -1,0 +1,22 @@
+{
+  "columns": ["drug", "biomarker", "reference_transcript", "named_substitutions", "additional_classes"],
+  "row_key": ["drug", "biomarker"],
+  "fields": {
+    "drug": {"uppercase": true},
+    "biomarker": {"uppercase": true},
+    "reference_transcript": {"uppercase": true},
+    "named_substitutions": {"type": "id_list", "uppercase": true},
+    "additional_classes": {
+      "type": "id_list",
+      "uppercase": true,
+      "aliases": {
+        "ITD": "internal_tandem_duplication",
+        "itd": "internal_tandem_duplication",
+        "Internal tandem duplication": "internal_tandem_duplication",
+        "internal tandem duplication": "internal_tandem_duplication",
+        "Internal tandem duplication (ITD)": "internal_tandem_duplication",
+        "internal tandem duplication (ITD)": "internal_tandem_duplication"
+      }
+    }
+  }
+}

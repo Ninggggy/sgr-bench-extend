@@ -1,0 +1,25 @@
+{
+  "candidate_id": "waterquality_003",
+  "historical_revision": 0,
+  "revision": 1,
+  "batch_revision": "polish01",
+  "status": "blocked",
+  "reason": "已证实同HUC多个合格站点；没有公开唯一择优规则。不能为保住原三行答案事后挑选规则；当前修订明确欠定，旧oracle只保留为历史附件，不作为本轮金标准。",
+  "changes": [
+    "按任务、范围、判定条件分段；解释必要术语；CG/GO使用相同实质条件，仅CG增加步骤。",
+    "引用和限制放独立字段；删除与v2冲突的批量许可；历史输入不覆盖。",
+    "明确原任务欠定；不凭空添加择优规则，不把历史oracle当唯一答案。"
+  ],
+  "evidence_paths": [
+    "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/comparisons/waterquality_003/error_review.md"
+  ],
+  "historical_inputs": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/rolling_five/retest_31_v2/inputs/waterquality_003-r00-cg-v2-once",
+  "independent_human_review": "not_performed",
+  "formal_admission": false,
+  "followup_20260917": {
+    "status": "fields_checked_uniqueness_geography_and_access_pending",
+    "finding": "303站元数据中49个主河道名称候选已逐站核查；14个满足年限（地理筛选前）。12038不能直接当作严格下游反例；择优规则待确认，NLDI导航入口拒绝后已停止。",
+    "evidence_path": "/Users/ning/Documents/code/pcs_ra/sgr-bench/interact_sbench_formal/construction_pipeline/ten_task_phase/revised12_20260917/blocked_followup/wqp_sources/station_checks.json",
+    "new_blind_trials": 0
+  }
+}

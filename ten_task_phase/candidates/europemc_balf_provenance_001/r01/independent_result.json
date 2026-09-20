@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "complete_indexed_pool": 14,
+  "deposited_pairs_before_provenance": 4,
+  "excluded_prior_experimental_studies": [
+    [
+      "PMC7577733",
+      "GSE141634",
+      [
+        "32661339"
+      ]
+    ]
+  ],
+  "answer_pairs": [
+    [
+      "PMC7367032",
+      "PXD019157"
+    ],
+    [
+      "PMC7405878",
+      "E-MTAB-9221"
+    ],
+    [
+      "PMC7577733",
+      "GSE152586"
+    ]
+  ],
+  "limits": "Independent source parsing and provenance cross-check, not human expert validation or completed external quality audit."
+}

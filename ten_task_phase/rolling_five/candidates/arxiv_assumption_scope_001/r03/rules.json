@@ -1,0 +1,49 @@
+{
+  "columns": ["version", "column_selection", "free_cofree_rank", "operative_assumption"],
+  "row_key": ["version"],
+  "fields": {
+    "version": {"type": "string"},
+    "column_selection": {
+      "type": "string",
+      "aliases": {
+        "any_t": "ANY_T",
+        "any t columns from M and N": "ANY_T",
+        "any t columns of the block matrix M|N": "ANY_T",
+        "matched_t": "MATCHED_T",
+        "t columns of M and corresponding columns of N": "MATCHED_T",
+        "t columns of M and same-index columns of N": "MATCHED_T"
+      }
+    },
+    "free_cofree_rank": {
+      "type": "string",
+      "aliases": {"rank t": "t", "2 t": "2t", "2*t": "2t", "2×t": "2t", "rank 2t": "2t"}
+    },
+    "operative_assumption": {
+      "type": "string",
+      "aliases": {
+        "2 general position": "2-general position",
+        "2-general": "2-general position",
+        "2 very general position": "2-very general position",
+        "2-very-general position": "2-very general position",
+        "2-very general": "2-very general position",
+        "2-general position and 2-very general position": "2-very general position",
+        "2-very general position and 2-general position": "2-very general position",
+        "2-general and 2-very general position": "2-very general position",
+        "2-general position + 2-very general position": "2-very general position"
+      }
+    }
+  },
+  "alias_convention": "Each aliases object maps an accepted complete cell to its canonical cell. No substring or semantic-prose matching.",
+  "output_contract": {
+    "row_count": "One per officially listed version through the observation date",
+    "expected_rows": 3,
+    "sort": "Ascending integer suffix of version",
+    "retain_unchanged": true,
+    "tie_selection": "none",
+    "summary_rows": false,
+    "NONE": "Only operative_assumption, for established absence of a named requirement; not absence of an erratum",
+    "UNKNOWN": "Missing or ambiguous non-key evidence; retain version row; blocks a complete reference oracle",
+    "public_definition": "cg.json#/output_format; go.json#/output_format must be identical"
+  },
+  "scoring": "Use the supplied generic parser, Item-F1, Row-F1 and P.O.A. unchanged. Apart from its Unicode NFKC, whitespace and Markdown normalization, apply only the explicit complete-cell aliases above. All fields are strings; the symbolic rank is not a rounded numerical measurement. No automatic case folding, archive-URL normalization, inferred aliases, or sorting of predictions."
+}

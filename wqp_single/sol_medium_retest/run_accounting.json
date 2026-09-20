@@ -1,0 +1,345 @@
+{
+  "campaign": "campaign.json",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "actual_sessions": 16,
+  "maximum_sessions": 17,
+  "scheduled_regular_slots": 16,
+  "repair_retries_used": 0,
+  "status_counts": {
+    "completed": 16
+  },
+  "wall_seconds": 3781.228591,
+  "sum_model_run_seconds": 7363.059,
+  "remaining_wall_seconds": 82618.771409,
+  "reported_cli_usage_sum": {
+    "input_tokens": 10822213,
+    "cached_input_tokens": 9577984,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 112374,
+    "reasoning_output_tokens": 33509
+  },
+  "sessions": [
+    {
+      "session_number": 1,
+      "run_dir": "runs/r-a55562d61d59",
+      "label": "screening_new_CG_1",
+      "started_at": "2026-09-09T05:15:53.707367+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:25:22.824773+00:00",
+      "elapsed_seconds": 569.122,
+      "usage": {
+        "input_tokens": 945012,
+        "cached_input_tokens": 861184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12067,
+        "reasoning_output_tokens": 1568
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 2,
+      "run_dir": "runs/r-24202450d4ad",
+      "label": "screening_old_GO_1",
+      "started_at": "2026-09-09T05:26:15.168730+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:28:05.941353+00:00",
+      "elapsed_seconds": 110.773,
+      "usage": {
+        "input_tokens": 261829,
+        "cached_input_tokens": 200192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2160,
+        "reasoning_output_tokens": 839
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 3,
+      "run_dir": "runs/r-8224e9cc365a",
+      "label": "screening_new_GO_1",
+      "started_at": "2026-09-09T05:26:15.168892+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:36:34.874270+00:00",
+      "elapsed_seconds": 619.713,
+      "usage": {
+        "input_tokens": 803675,
+        "cached_input_tokens": 743808,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10426,
+        "reasoning_output_tokens": 3025
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 4,
+      "run_dir": "runs/r-6c876269dbe4",
+      "label": "screening_old_CG_1",
+      "started_at": "2026-09-09T05:26:15.172483+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:29:06.391561+00:00",
+      "elapsed_seconds": 171.22,
+      "usage": {
+        "input_tokens": 393423,
+        "cached_input_tokens": 323840,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3227,
+        "reasoning_output_tokens": 1563
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 5,
+      "run_dir": "runs/r-0ee77dc62ed5",
+      "label": "confirmation_new_CG_1",
+      "started_at": "2026-09-09T05:37:18.005970+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:50:33.649324+00:00",
+      "elapsed_seconds": 795.622,
+      "usage": {
+        "input_tokens": 1010133,
+        "cached_input_tokens": 949376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11730,
+        "reasoning_output_tokens": 2740
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 6,
+      "run_dir": "runs/r-69914a9877c8",
+      "label": "confirmation_new_GO_1",
+      "started_at": "2026-09-09T05:37:18.034882+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:47:32.440020+00:00",
+      "elapsed_seconds": 614.384,
+      "usage": {
+        "input_tokens": 986787,
+        "cached_input_tokens": 924032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11079,
+        "reasoning_output_tokens": 2911
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 7,
+      "run_dir": "runs/r-b90e2f062f85",
+      "label": "confirmation_old_CG_1",
+      "started_at": "2026-09-09T05:37:18.035339+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:39:28.965628+00:00",
+      "elapsed_seconds": 130.931,
+      "usage": {
+        "input_tokens": 264807,
+        "cached_input_tokens": 199296,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2660,
+        "reasoning_output_tokens": 1588
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 8,
+      "run_dir": "runs/r-d04075b89074",
+      "label": "confirmation_old_GO_1",
+      "started_at": "2026-09-09T05:37:18.038941+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:39:28.950974+00:00",
+      "elapsed_seconds": 130.913,
+      "usage": {
+        "input_tokens": 256560,
+        "cached_input_tokens": 195456,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2853,
+        "reasoning_output_tokens": 1477
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 9,
+      "run_dir": "runs/r-4a02a31cb8e8",
+      "label": "confirmation_old_CG_2",
+      "started_at": "2026-09-09T05:39:30.164040+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:42:41.320048+00:00",
+      "elapsed_seconds": 191.157,
+      "usage": {
+        "input_tokens": 561735,
+        "cached_input_tokens": 482432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3344,
+        "reasoning_output_tokens": 1650
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 10,
+      "run_dir": "runs/r-92c02e2f6067",
+      "label": "confirmation_new_CG_2",
+      "started_at": "2026-09-09T05:39:30.164054+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:46:23.041353+00:00",
+      "elapsed_seconds": 412.881,
+      "usage": {
+        "input_tokens": 562766,
+        "cached_input_tokens": 478208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8031,
+        "reasoning_output_tokens": 1902
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 11,
+      "run_dir": "runs/r-4df368e8ea7e",
+      "label": "confirmation_new_GO_2",
+      "started_at": "2026-09-09T05:42:42.463474+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:51:20.814149+00:00",
+      "elapsed_seconds": 518.326,
+      "usage": {
+        "input_tokens": 618044,
+        "cached_input_tokens": 527104,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11688,
+        "reasoning_output_tokens": 2119
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 12,
+      "run_dir": "runs/r-d936d9895abf",
+      "label": "confirmation_old_GO_2",
+      "started_at": "2026-09-09T05:46:24.407574+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:49:15.581653+00:00",
+      "elapsed_seconds": 171.147,
+      "usage": {
+        "input_tokens": 272964,
+        "cached_input_tokens": 219136,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3297,
+        "reasoning_output_tokens": 1952
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 13,
+      "run_dir": "runs/r-e5e848752431",
+      "label": "confirmation_new_CG_3",
+      "started_at": "2026-09-09T05:47:33.716594+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T06:11:14.453672+00:00",
+      "elapsed_seconds": 1420.723,
+      "usage": {
+        "input_tokens": 1939763,
+        "cached_input_tokens": 1812096,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12490,
+        "reasoning_output_tokens": 2229
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 14,
+      "run_dir": "runs/r-551a85fda485",
+      "label": "confirmation_old_CG_3",
+      "started_at": "2026-09-09T05:49:16.680267+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:52:48.056507+00:00",
+      "elapsed_seconds": 211.376,
+      "usage": {
+        "input_tokens": 419655,
+        "cached_input_tokens": 340992,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3953,
+        "reasoning_output_tokens": 2499
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 15,
+      "run_dir": "runs/r-426fcaec1732",
+      "label": "confirmation_new_GO_3",
+      "started_at": "2026-09-09T05:50:35.618041+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T06:07:48.134268+00:00",
+      "elapsed_seconds": 1032.502,
+      "usage": {
+        "input_tokens": 1100356,
+        "cached_input_tokens": 977792,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8835,
+        "reasoning_output_tokens": 2462
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    },
+    {
+      "session_number": 16,
+      "run_dir": "runs/r-683967eda07e",
+      "label": "confirmation_old_GO_3",
+      "started_at": "2026-09-09T05:51:22.100832+00:00",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "status": "completed",
+      "ended_at": "2026-09-09T05:55:44.369023+00:00",
+      "elapsed_seconds": 262.269,
+      "usage": {
+        "input_tokens": 424704,
+        "cached_input_tokens": 343040,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4534,
+        "reasoning_output_tokens": 2985
+      },
+      "actual_model": "gpt-5.6-sol",
+      "actual_effort": "medium"
+    }
+  ],
+  "note": "CLI reported token totals include repeatedly supplied and cached context; not a count of distinct source text. Concurrent run seconds are not campaign wall time. All recorded model attempts count, including faults. No GPT-6 sessions included."
+}

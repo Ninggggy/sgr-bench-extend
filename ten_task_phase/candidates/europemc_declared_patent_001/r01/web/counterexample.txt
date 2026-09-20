@@ -1,0 +1,16 @@
+Sources:
+https://patents.google.com/patent/WO2017060316A1/en
+https://patents.google.com/patent/US20230151358A1/en
+Visited: 2026-09-10
+Attribution: Selected bibliographic facts transcribed from actual web responses; full native responses separately preserved.
+
+The first source's Cited By section links US20230151358A1.
+The second source displays:
+Publication: US20230151358A1
+Application: US17/920,694
+Family ID: 75690287
+International application: PCT/EP2021/060704
+International publication: WO2021214307A1
+Its Patent Citations section includes WO2017060316A1, publication date 2017-04-13.
+
+The resolved invention's family ID is 54266422. These observed family IDs and international application identities differ. This verifies a citation-to-another-family example, not a claim that the second source cites the BART article.

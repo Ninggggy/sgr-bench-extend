@@ -1,0 +1,49 @@
+{
+  "compound": "CHEMBL12",
+  "raw_activity_count": 131,
+  "scope_count": 130,
+  "distinct_assays": 126,
+  "distinct_targets": 32,
+  "category_counts": {
+    "COMPLEX_GROUP": 28,
+    "DIRECT_COMPLEX": 42,
+    "UNCURATED_GABA_BZD": 26,
+    "HOMOLOGOUS_COMPLEX": 13,
+    "TSPO": 2,
+    "OTHER": 10,
+    "GABA_SUBUNIT": 9
+  },
+  "unchecked_registration_count": 30,
+  "engineered_ids": [
+    320291,
+    320292,
+    320293,
+    320294,
+    320295,
+    320296
+  ],
+  "conflicts": [
+    [
+      "604850",
+      "Homo sapiens alpha4/beta3/gamma2 -> Homo sapiens alpha1/beta3/gamma2"
+    ],
+    [
+      "1701379",
+      "Homo sapiens alpha1/beta2/gamma2 -> Homo sapiens alpha1/beta1/gamma2"
+    ],
+    [
+      "1876214",
+      "Rattus norvegicus alpha5/beta2/gamma2 -> Rattus norvegicus alpha1/beta2/gamma2"
+    ]
+  ],
+  "excluded_source_ids": [
+    7704649
+  ],
+  "activity_has_relationship_field": false,
+  "full_source_json_equal_to_refresh": {
+    "01_activities.json": true,
+    "02_targets.json": true,
+    "03_assays.json": true
+  },
+  "constructor_oracle_matches": true
+}

@@ -1,0 +1,223 @@
+{
+  "source_id": "2007.13140",
+  "source_history": "d0200.response",
+  "source_last_submission_utc": "2022-10-27T07:20:17Z",
+  "source_title": "Fully Bayesian Analysis of the Relevance Vector Machine Classification for Imbalanced Data",
+  "source_authors": [
+    "Wenyang Wang",
+    "Dongchu Sun",
+    "Zhuoqiong He"
+  ],
+  "notice_meaning": "Explicit outgoing relation to the extended final Wiley edition. This is not ordinary publication metadata and is not classified as no relation.",
+  "publisher": {
+    "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cit2.12111",
+    "doi": "10.1049/cit2.12111",
+    "title": "Fully Bayesian analysis of the relevance vector machine classification for imbalanced data problem",
+    "authors": [
+      "Wenyang Wang",
+      "Yanna Sun",
+      "Keran Li",
+      "Jinglin Wang",
+      "Chong He",
+      "Dongchu Sun"
+    ],
+    "first_published": "2022-06-17",
+    "volume": 8,
+    "issue": 1,
+    "issue_date": "2023-03",
+    "pages": "192–205",
+    "provenance": "Actual successful public web open in this session; full tool response preserved by controller, not a registered dNNNN download."
+  },
+  "query_results": {
+    "d0255.response": 15,
+    "d0256.response": 11,
+    "d0259.response": 0,
+    "d0267.response": 8
+  },
+  "unique_records": 32,
+  "candidate_columns": [
+    "id",
+    "title",
+    "disposition"
+  ],
+  "candidates": [
+    [
+      "1301.2015",
+      "Heteroscedastic Relevance Vector Machine",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1301.3838",
+      "Variational Relevance Vector Machines",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2202.05422",
+      "Posterior Consistency for Bayesian Relevance Vector Machines",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1904.03688",
+      "Proposing a Localized Relevance Vector Machine for Pattern Classification",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1806.02502",
+      "GP-RVM: Genetic Programing-based Symbolic Regression Using Relevance Vector Machine",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2107.02085",
+      "Analyzing Relevance Vector Machines using a single penalty approach",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "q-bio/0312006",
+      "Relevance Vector Machines for classifying points and regions in biological sequences",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1101.2987",
+      "Support vector machines/relevance vector machine for remote sensing classification: A review",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2007.13140",
+      "Fully Bayesian Analysis of the Relevance Vector Machine Classification for Imbalanced Data",
+      "same_source_not_distinct_successor"
+    ],
+    [
+      "2005.03419",
+      "Relevance Vector Machine with Weakly Informative Hyperprior and Extended Predictive Information Criterion",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1501.02579",
+      "Combined modeling of sparse and dense noise for improvement of Relevance Vector Machine",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1912.11029",
+      "Sparse Polynomial Chaos expansions using Variational Relevance Vector Machines",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1911.04289",
+      "Relevance Vector Machines for harmonization of MRI brain volumes using image descriptors",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2009.09217",
+      "A Joint introduction to Gaussian Processes and Relevance Vector Machines with Connections to Kalman filtering and other Kernel Smoothers",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2411.03965",
+      "Bayesian algorithmic perfumery: A Hierarchical Relevance Vector Machine for the Estimation of Personalized Fragrance Preferences based on Three Sensory Layers and Jungian Personality Archetypes",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "0804.0987",
+      "Objective priors for the bivariate normal model",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "0805.3064",
+      "Objective Bayesian analysis under sequential experimentation",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1906.05575",
+      "Direct Sampling of Bayesian Thin-Plate Splines for Spatial Smoothing",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1504.02689",
+      "Overall Objective Priors",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2410.23580",
+      "Bayesian Hierarchical Model for Synthesizing Registry and Survey Data on Female Breast Cancer Prevalence",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "0904.0156",
+      "The formal definition of reference priors",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1504.07081",
+      "Rejoinder to Article by Berger, Bernardo, and Sun",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2511.05873",
+      "EndoIR: Degradation-Agnostic All-in-One Endoscopic Image Restoration via Noise-Aware Routing Diffusion",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2604.21473",
+      "Drug Synergy Prediction via Residual Graph Isomorphism Networks and Attention Mechanisms",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2604.19341",
+      "Structured Scaling of AI Discovery Across Diverse Scientific Domains",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2602.08128",
+      "Online Bayesian Imbalanced Learning with Bregman-Calibrated Deep Networks",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1905.12917",
+      "Learning to Balance: Bayesian Meta-Learning for Imbalanced and Out-of-distribution Tasks",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2108.00250",
+      "Bayesian analysis of the prevalence bias: learning and predicting from imbalanced data",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1910.08489",
+      "Privacy-preserving Federated Bayesian Learning of a Generative Model for Imbalanced Classification of Clinical Data",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "1910.05570",
+      "Variational Auto-encoder Based Bayesian Poisson Tensor Factorization for Sparse and Imbalanced Count Data",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2503.11774",
+      "UBMF: Uncertainty-Aware Bayesian Meta-Learning Framework for Fault Diagnosis with Imbalanced Industrial Data",
+      "different_named_work_by_title_authors_and_topic"
+    ],
+    [
+      "2210.10824",
+      "Supervised Contrastive Learning with Tree-Structured Parzen Estimator Bayesian Optimization for Imbalanced Tabular Data",
+      "different_named_work_by_title_authors_and_topic"
+    ]
+  ],
+  "interpretation": "The notice names an extended final publisher edition. Complete relevant title/author/DOI searches identify only the source as this work, and no distinct catalogue successor. There is no supported successor integer version or catalogue submission history to select. The published edition is not relabeled as source v1 or v2. This disposition applies the existing catalogue-version output and no-eligible-version requirement; it does not deny the publisher relation.",
+  "uncertainty": "These complete relevant query sets establish the documented identity search, not an unrestricted proof that no conceivable differently indexed manuscript exists. No catalogue successor ID or integer version is invented for the publisher edition.",
+  "failures": [
+    {
+      "action": "registered Wiley URL download",
+      "result": "ValueError: Only configured official-source HTTPS URLs are supported",
+      "http_status": null,
+      "raw_file": null
+    },
+    {
+      "action": "web open Wiley /doi/abs/10.1049/cit2.12111",
+      "http_status": 403
+    },
+    {
+      "action": "web open canonical /doi/10.1049/cit2.12111",
+      "result": "success"
+    }
+  ]
+}

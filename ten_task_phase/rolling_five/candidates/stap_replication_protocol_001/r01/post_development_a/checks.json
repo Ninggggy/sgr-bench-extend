@@ -1,0 +1,63 @@
+{
+  "started_at": "2026-09-13T06:58:17.318108+00:00",
+  "complete": true,
+  "cohort": {
+    "rows": 49,
+    "hit_count": 49,
+    "complete_unique": true,
+    "same_ids": true,
+    "all_fields_equal": true
+  },
+  "fulltexts": {
+    "PMC4904271": {
+      "bytes_equal": true
+    },
+    "PMC4908587": {
+      "bytes_equal": true
+    },
+    "PMC4995676": {
+      "bytes_equal": true
+    },
+    "PMC4207037": {
+      "bytes_equal": true
+    },
+    "PMC6354101": {
+      "bytes_equal": true
+    },
+    "PMC4630493": {
+      "bytes_equal": true
+    },
+    "PMC4207917": {
+      "bytes_equal": true
+    },
+    "PMC4146237": {
+      "bytes_equal": true
+    },
+    "PMC4065176": {
+      "bytes_equal": true
+    },
+    "PMC5220388": {
+      "bytes_equal": true
+    },
+    "PMC4080539": {
+      "bytes_equal": true
+    },
+    "PMC4003273": {
+      "bytes_equal": true
+    },
+    "PMC4053948": {
+      "bytes_equal": true
+    },
+    "PMC4255744": {
+      "bytes_equal": true
+    },
+    "PMC4032108": {
+      "bytes_equal": true
+    },
+    "PMC4641509": {
+      "bytes_equal": true
+    }
+  },
+  "observed_at": "2026-09-13T06:58:44.839582+00:00",
+  "limitations": "Endpoint evidence only; no perpetual or unobserved-intermediate stability guarantee."
+}

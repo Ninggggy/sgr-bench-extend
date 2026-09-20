@@ -1,0 +1,36 @@
+{
+  "candidate_id": "diazepam_receptor_identity_001",
+  "revision": 1,
+  "stage": "development_a",
+  "registered_at": "2026-09-13T05:46:54.175750+00:00",
+  "trials": [
+    {
+      "candidate_id": "diazepam_receptor_identity_001",
+      "revision": 1,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "diazepam-r01-cg-dev-a"
+    },
+    {
+      "candidate_id": "diazepam_receptor_identity_001",
+      "revision": 1,
+      "protocol_version": "ten-task-v1",
+      "stage": "development_a",
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "diazepam-r01-go-dev-a"
+    }
+  ],
+  "scope": "First development A for this new candidate. No prior model trials; no historical scores credited. Pre-A independent review and complete pretest source comparison passed.",
+  "requested_model": "gpt-5.6-sol",
+  "requested_effort": "medium",
+  "protocol_version": "ten-task-v1",
+  "prerequisite_evidence": [
+    "pre_a_review.json",
+    "pre_development_a/checks.json",
+    "execution_checks.json",
+    "controller_preflight.json"
+  ]
+}

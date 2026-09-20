@@ -1,0 +1,23 @@
+[
+  {
+    "zone": "Europe/Lisbon",
+    "included": false,
+    "interval_count": 0,
+    "checked_local_cells": 8,
+    "reason": "all local cells have equal inverse offset sets"
+  },
+  {
+    "zone": "Atlantic/Madeira",
+    "included": false,
+    "interval_count": 0,
+    "checked_local_cells": 9,
+    "reason": "all local cells have equal inverse offset sets"
+  },
+  {
+    "zone": "Atlantic/Azores",
+    "included": true,
+    "interval_count": 8,
+    "checked_local_cells": 15,
+    "reason": "inverse offset sets differ"
+  }
+]

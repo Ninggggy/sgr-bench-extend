@@ -1,0 +1,12 @@
+{
+  "id": "wateroffice_daily_system_tls_retry",
+  "url": "https://wateroffice.ec.gc.ca/services/daily_data/csv/inline?stations%5B%5D=07HA001&parameters%5B%5D=flow&start_date=1966-05-01&end_date=1966-05-03",
+  "requested_at_utc": "2026-09-07T09:19:51.411262+00:00",
+  "transport": "system curl with normal certificate verification",
+  "exit_code": 0,
+  "status": "200",
+  "error": "",
+  "saved_file": "wateroffice_daily_retry.response",
+  "bytes": 189,
+  "preview": "﻿ ID,Date,Parameter/Paramètre,Value/Valeur,Symbol/Symbole\n07HA001,1966-05-01,discharge/débit,1720,\n07HA001,1966-05-02,discharge/débit,1610,\n07HA001,1966-05-03,discharge/débit,1540,"
+}

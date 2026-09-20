@@ -1,0 +1,19 @@
+{
+  "columns": [
+    "APPLICATION_510K",
+    "BACKLINK_STATUS"
+  ],
+  "row_key": [
+    "APPLICATION_510K"
+  ],
+  "fields": {
+    "APPLICATION_510K": {
+      "type": "string",
+      "uppercase": true
+    },
+    "BACKLINK_STATUS": {
+      "type": "string",
+      "uppercase": true
+    }
+  }
+}

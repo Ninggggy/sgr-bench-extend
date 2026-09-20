@@ -1,0 +1,65 @@
+{
+  "task_id": "genome_002",
+  "domain": "KEGG_GENOME",
+  "autonomy_type": "ordered table",
+  "oracle_output_cardinality": 2,
+  "instruction": "I am preparing a lecture page on classic animal endosymbiosis cases and want to find, among KEGG's host-symbiont examples, the case that meets the following conditions: it was already recorded by the end of 2005, its bacterial symbiont genome contains named extra replicons, and the names of those replicons directly correspond to amino acid synthesis modules on the host-symbiont joint pathway map. Process in the following order: first, among KEGG's host-symbiont examples, select those combinations whose bacterial symbiont KEGG GENOME entry has a Created year on or before 2005; then retain cases where the bacterial symbiont genome carries named extra replicons; next, verify that the replicon names directly correspond to amino acid synthesis modules on the host-symbiont joint pathway map; finally, within the joint pathway map for that host-symbiont combination, list all qualifying pathway-module pairs for that case and output a single-line string: <group>|<symbiont>|<pathway>|<module>|<replicon>|<created_year> (sorted by pathway ID in ascending order, separated by commas; output NONE if no qualifying items exist).",
+  "start_url": "https://www.genome.jp/kegg/genome/",
+  "output_format": "Output a single-line string: <group>|<symbiont>|<pathway>|<module>|<replicon>|<created_year> (sorted by pathway ID in ascending order, separated by commas; output NONE if no qualifying items exist).",
+  "oracle_answer": "api+buc|buc|00290|M00432|pLeu|2000,api+buc|buc|00400|M00023|pTrp|2000",
+  "metadata": {
+    "State-Gated Retrieval": [
+      "Retain only those host-symbiont examples where the bacterial symbiont KEGG GENOME Created year is on or before 2005 and the genome carries named extra replicons.",
+      "The replicon names must directly correspond to amino acid synthesis modules on the host-symbiont joint pathway page.",
+      "Finally, output all qualifying pathway-module-replicon records from the surviving case, sorted by pathway ID in ascending order."
+    ],
+    "dependency_type": "Data + Control",
+    "intra_chain": true,
+    "inter_chain": true,
+    "data_dependency": [
+      "KEGG host-symbiont examples and symbiont genome pages yield the pre-2006 candidate pairs and named extra replicons",
+      "Joint pathway maps, module pages, and genome annotations yield the pathway-module-replicon links attributable to the symbiont side",
+      "Final rows are produced only after the surviving host-symbiont pair is validated against both replicon existence and module support on the joint pathway page"
+    ],
+    "control_dependency": [
+      "Only branches satisfying the named-plasmid requirement may be retained, so the bmy+wbm branch must be excluded when the wbm genome page fails that requirement",
+      "Module retrieval must use the api+buc pathway state and the 00400 view, because that view is the one that actually exposes M00023",
+      "Module support is valid only after symbiont-side evidence for both M00023 and M00432 is validated in the selected pathway state"
+    ],
+    "freeze": {
+      "historical_window": "KEGG host-symbiont examples whose symbiont GENOME Created year is on or before 2005; current joint pathway, module, and genome replicon annotations"
+    },
+    "answer_type": "multi-row ordered table"
+  },
+  "rubric": {
+    "inclusion_conditions": [
+      "Retain only those host-symbiont examples where the bacterial symbiont KEGG GENOME Created year is on or before 2005 and the genome carries named extra replicons.",
+      "The replicon names must directly correspond to amino acid synthesis modules on the host-symbiont joint pathway page.",
+      "Finally, output all qualifying pathway-module-replicon records from the surviving case, sorted by pathway ID in ascending order."
+    ],
+    "exclusion_conditions": [
+      "Exclude cases like bmy+wbm where the symbiont genome page does not satisfy the named-plasmid requirement.",
+      "Exclude results that only follow pathway names along pages such as 00380 without returning to the joint pathway page to verify module evidence.",
+      "Exclude records where the relationship between replicon name and module cannot be directly established on the joint pathway map."
+    ],
+    "normalization": {
+      "field_separator": "|",
+      "record_separator": ",",
+      "schema": [
+        "group",
+        "symbiont",
+        "pathway",
+        "module",
+        "replicon",
+        "created_year"
+      ],
+      "group": "Use the canonical host-symbiont group label from the source workflow, such as `api+buc`",
+      "symbiont": "Use the bare lowercase KEGG organism code",
+      "pathway": "Emit the numeric KEGG pathway ID without a `map` prefix",
+      "module": "Normalize the KEGG module identifier to the `Mxxxxx` form",
+      "replicon": "Preserve the named extra replicon exactly as displayed in the source, such as `pLeu` or `pTrp`",
+      "created_year": "Emit the four-digit created year",
+      "sorting_or_selection": "Pathway numeric ascending"
+    }
+  }
+}

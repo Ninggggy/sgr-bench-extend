@@ -1,0 +1,67 @@
+{
+  "task_id": "comptox_012",
+  "domain": "COMPTOX_CHEMEXPO",
+  "autonomy_type": "ordered table",
+  "oracle_output_cardinality": 2,
+  "instruction": "In ChemExpo, first select Formulation categories with a total product count of 15,000 or more. Then, within each category, following the website's default display order, identify the first product family that meets these criteria: the family itself has no assumed attributes and its total product count is at least 3,000; additionally, the family must have at least two distinct specific product types, one with allowed attributes including aerosol and the other including child, and both types must have empty assumed attributes. Next, within each of these two specific product types, compute the product share (type product count divided by family cumulative product count). If shares are equal, compare their Curated Chemicals counts and select the higher one; if still equal, select the type with the smaller PUC ID. After completing the selection on both sides, retain only the better of the two candidate types: first prioritize the type with the higher product share; if shares are equal, compare Product Count (higher wins); if still equal, compare Curated Chemicals (higher wins); if still equal, select the type with the smaller PUC ID.",
+  "start_url": "https://comptox.epa.gov/chemexpo/visualizations/",
+  "output_format": "Output results sorted by final share in descending order, formatted as: <generalPUCID>|<familyPUCID>|<typePUCID>|<side>|<share>|<CuratedChemicals>. Join records with commas and no spaces. If no qualifying items exist, output NONE.",
+  "oracle_answer": "48|42|62|child|2160/3531|583,137|197|210|child|6934/16904|1135",
+  "metadata": {
+    "State-Gated Retrieval": [
+      "First, retain only Formulation categories with a total product count of 15,000 or more.",
+      "Within each candidate family, both an aerosol-side type and a child-side type must be found: the family itself must have no assumed attributes and a total product count of at least 3,000; both types must also have empty assumed attributes.",
+      "All final selections within a family and between the two sides must follow the specified tie-break rules: share, Product Count, Curated Chemicals, and PUC ID."
+    ],
+    "dependency_type": "Data + Control",
+    "intra_chain": true,
+    "inter_chain": true,
+    "data_dependency": [
+      "The Formulation summary yields the high-product candidate families whose total product count is at least 15,000",
+      "Within each family, lower-level type pages yield the aerosol and child candidates, their assumed/allowed attributes, product counts, shares, and curated-chemical counts",
+      "Final rows are produced only after a family survives both aerosol and child branches and the winning type is selected by the layered share/product/chemical/PUC tie-break rules"
+    ],
+    "control_dependency": [
+      "Both the aerosol and child branches within the same family must be fully checked before that family can be retained",
+      "If one side is missing, the workflow must reject the family and continue to the next sibling family rather than stop at the first partial hit",
+      "The final winner can be selected only after both sides have been independently optimized within the family and then compared against each other"
+    ],
+    "freeze": {
+      "historical_window": "Current ChemExpo Formulation families with total product count >= 15,000, evaluated on family/type attributes and current product/chemical counts"
+    },
+    "answer_type": "multi-row ordered table"
+  },
+  "rubric": {
+    "inclusion_conditions": [
+      "First, retain only Formulation categories with a total product count of 15,000 or more.",
+      "Within each candidate family, both an aerosol-side type and a child-side type must be found: the family itself must have no assumed attributes and a total product count of at least 3,000; both types must also have empty assumed attributes.",
+      "All final selections within a family and between the two sides must follow the specified tie-break rules: share, Product Count, Curated Chemicals, and PUC ID."
+    ],
+    "exclusion_conditions": [
+      "Exclude results that stop as soon as a usable type is found on either side without requiring the same family to cover both aerosol and child sides.",
+      "Exclude results that stop as soon as one side is missing instead of continuing to check sibling families at the same level.",
+      "Exclude results that do not follow the specified layered tie-break rules to select the winning type within a family and overall."
+    ],
+    "normalization": {
+      "field_separator": "|",
+      "record_separator": ",",
+      "schema": [
+        "generalPUCID",
+        "familyPUCID",
+        "typePUCID",
+        "side",
+        "share",
+        "CuratedChemicals"
+      ],
+      "dedup_key": "(generalPUCID, familyPUCID, typePUCID, side)",
+      "side": "Emit the lower-case branch label exactly as determined in the source workflow",
+      "share": "Canonical output uses the raw fraction `type Products / family Cumulative Products` rather than a decimal",
+      "CuratedChemicals": "Emit the integer count from the selected type-level node",
+      "sorting_or_selection": {
+        "primary": "Share descending by numeric fraction value",
+        "secondary": "Type-level Products descending",
+        "tertiary": "CuratedChemicals descending, then PUC IDs ascending as tie-breaks"
+      }
+    }
+  }
+}

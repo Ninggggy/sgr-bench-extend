@@ -1,0 +1,150 @@
+[
+  {
+    "id": "D00752",
+    "decision": "include",
+    "reason": "explicit_own_active_form",
+    "active_ids": [
+      "D05096"
+    ],
+    "comment": [
+      "Active form of prodrug: Mycophenolic acid [DR:D05096]"
+    ],
+    "member_evidence": {
+      "path": "../sources/DG00739.txt",
+      "record": "DG00739",
+      "record_lines": [
+        1,
+        9
+      ],
+      "field": "MEMBER",
+      "field_lines": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "member_line": 5
+    },
+    "comment_evidence": {
+      "path": "../sources/D_members.txt",
+      "record": "D00752",
+      "record_lines": [
+        1,
+        171
+      ],
+      "field": "COMMENT",
+      "field_lines": [
+        60
+      ]
+    }
+  },
+  {
+    "id": "D05094",
+    "decision": "include",
+    "reason": "explicit_own_active_form",
+    "active_ids": [
+      "D05096"
+    ],
+    "comment": [
+      "Active form of prodrug: Mycophenolic acid [DR:D05096]"
+    ],
+    "member_evidence": {
+      "path": "../sources/DG00739.txt",
+      "record": "DG00739",
+      "record_lines": [
+        1,
+        9
+      ],
+      "field": "MEMBER",
+      "field_lines": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "member_line": 6
+    },
+    "comment_evidence": {
+      "path": "../sources/D_members.txt",
+      "record": "D05094",
+      "record_lines": [
+        173,
+        281
+      ],
+      "field": "COMMENT",
+      "field_lines": [
+        185
+      ]
+    }
+  },
+  {
+    "id": "D05095",
+    "decision": "exclude",
+    "reason": "no_qualifying_comment",
+    "active_ids": [],
+    "comment": [
+      "Prophylaxis of organ rejection in kidney transplant"
+    ],
+    "member_evidence": {
+      "path": "../sources/DG00739.txt",
+      "record": "DG00739",
+      "record_lines": [
+        1,
+        9
+      ],
+      "field": "MEMBER",
+      "field_lines": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "member_line": 7
+    },
+    "comment_evidence": {
+      "path": "../sources/D_members.txt",
+      "record": "D05095",
+      "record_lines": [
+        283,
+        399
+      ],
+      "field": "COMMENT",
+      "field_lines": [
+        315
+      ]
+    }
+  },
+  {
+    "id": "D05096",
+    "decision": "exclude",
+    "reason": "comment_absent_in_complete_record",
+    "active_ids": [],
+    "comment": [],
+    "member_evidence": {
+      "path": "../sources/DG00739.txt",
+      "record": "DG00739",
+      "record_lines": [
+        1,
+        9
+      ],
+      "field": "MEMBER",
+      "field_lines": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "member_line": 4
+    },
+    "comment_evidence": {
+      "path": "../sources/D_members.txt",
+      "record": "D05096",
+      "record_lines": [
+        401,
+        491
+      ],
+      "field": "COMMENT",
+      "field_lines": []
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "revision": "r02",
+  "parent_revision": "r01",
+  "substantive_content_repairs": 0,
+  "changes": [
+    "Nonsemantic integration: original 238 source bodies compared byte-for-byte with registered downloads; newly proposed hash gate not adopted. Original generated code and digest metadata retained in r01 and raw run. No pre-existing project protection removed.",
+    "Actual access date separated from fixed runtime configuration date. Authorization window corrected to the unchanged 48-hour campaign metadata.",
+    "Reference reconstruction algorithm and source values unchanged."
+  ],
+  "reference_execution": "reference/controller_invocation_01.json",
+  "human_review": "not_completed"
+}

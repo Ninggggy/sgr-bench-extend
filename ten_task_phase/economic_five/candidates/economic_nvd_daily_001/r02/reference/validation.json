@@ -1,0 +1,58 @@
+{
+  "unique_output_rows": 228,
+  "all_identifiers_valid": true,
+  "output_columns": [
+    "cve_id",
+    "matchCriteriaId",
+    "criteria"
+  ],
+  "null_fields": 0,
+  "source_byte_mismatches": [],
+  "sql_rows_equal": true,
+  "fresh_sql": {
+    "file_id": "d0341",
+    "columns": [
+      "original_rows",
+      "fresh_rows",
+      "missing_from_fresh",
+      "added_in_fresh"
+    ],
+    "total_rows": 1,
+    "rows": [
+      [
+        622,
+        622,
+        0,
+        0
+      ]
+    ],
+    "truncated": false,
+    "offset": 0,
+    "input_rows": {
+      "original": 622,
+      "fresh": 622
+    },
+    "reload_types": "All CSV columns including derived columns reload as TEXT; explicitly CAST numeric values in each query."
+  },
+  "delta_sql": {
+    "file_id": "d0343",
+    "columns": [
+      "modified_records",
+      "relevant_modified_records"
+    ],
+    "total_rows": 1,
+    "rows": [
+      [
+        22,
+        0
+      ]
+    ],
+    "truncated": false,
+    "offset": 0,
+    "input_rows": {
+      "d": 22,
+      "m": 622
+    },
+    "reload_types": "All CSV columns including derived columns reload as TEXT; explicitly CAST numeric values in each query."
+  }
+}

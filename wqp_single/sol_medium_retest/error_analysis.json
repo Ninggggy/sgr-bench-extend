@@ -1,0 +1,422 @@
+{
+  "classification_role": "Controller offline diagnosis, not an extra blind solve, model audit or scorer change",
+  "runs": [
+    {
+      "label": "screening_new_CG_1",
+      "run": "runs/r-a55562d61d59",
+      "phase": "screening",
+      "task": "new",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No observed change in checked decisive source projections; full eligible panel checks separately reported",
+      "question_ambiguity": "No new answer-determining ambiguity identified in fixedr03",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [
+        "cohort_completeness_reasoning"
+      ],
+      "explanation": "区间层统一覆盖判断错误，误排除真实共同区间，48行中仅3行正确。",
+      "diagnostic_evidence": "diagnostics/first_cg_error.json",
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 0.1,
+        "Row-F1": 0.1,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "field_differences": "runs/r-a55562d61d59/scoring/field_differences.json"
+    },
+    {
+      "label": "screening_old_CG_1",
+      "run": "runs/r-6c876269dbe4",
+      "phase": "screening",
+      "task": "old",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No contrary selected-station field evidence observed; original official verification and this run native web evidence retained",
+      "question_ambiguity": "Known nonunique public station selection in original004 remains",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [],
+      "explanation": "原始最终答案完整匹配原oracle。",
+      "diagnostic_evidence": null,
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "field_differences": "runs/r-6c876269dbe4/scoring/field_differences.json"
+    },
+    {
+      "label": "screening_new_GO_1",
+      "run": "runs/r-8224e9cc365a",
+      "phase": "screening",
+      "task": "new",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No observed change in checked decisive source projections; full eligible panel checks separately reported",
+      "question_ambiguity": "No new answer-determining ambiguity identified in fixedr03",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [
+        "numeric_text_sort"
+      ],
+      "explanation": "状态、身份和计数正确；溶解氧按TEXT排序，12行选错活动。",
+      "diagnostic_evidence": "diagnostics/screening_go_error.json",
+      "data_tool_failure_count": 1,
+      "client_tool_failure_count": 1,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 0.6574074074074074,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "field_differences": "runs/r-8224e9cc365a/scoring/field_differences.json"
+    },
+    {
+      "label": "screening_old_GO_1",
+      "run": "runs/r-24202450d4ad",
+      "phase": "screening",
+      "task": "old",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No contrary selected-station field evidence observed; original official verification and this run native web evidence retained",
+      "question_ambiguity": "Known nonunique public station selection in original004 remains",
+      "public_answer_exposure": "observed_exact_old004_answer_exposure",
+      "error_categories": [],
+      "explanation": "原始最终答案完整匹配原oracle。",
+      "diagnostic_evidence": null,
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "field_differences": "runs/r-24202450d4ad/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_new_CG_1",
+      "run": "runs/r-0ee77dc62ed5",
+      "phase": "confirmation",
+      "task": "new",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No observed change in checked decisive source projections; full eligible panel checks separately reported",
+      "question_ambiguity": "No new answer-determining ambiguity identified in fixedr03",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [],
+      "explanation": "原始最终答案完整匹配原oracle。",
+      "diagnostic_evidence": null,
+      "data_tool_failure_count": 2,
+      "client_tool_failure_count": 1,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "field_differences": "runs/r-0ee77dc62ed5/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_old_CG_1",
+      "run": "runs/r-b90e2f062f85",
+      "phase": "confirmation",
+      "task": "old",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No contrary selected-station field evidence observed; original official verification and this run native web evidence retained",
+      "question_ambiguity": "Known nonunique public station selection in original004 remains",
+      "public_answer_exposure": "observed_exact_old004_answer_exposure",
+      "error_categories": [],
+      "explanation": "原始最终答案完整匹配原oracle。",
+      "diagnostic_evidence": null,
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "field_differences": "runs/r-b90e2f062f85/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_new_GO_1",
+      "run": "runs/r-69914a9877c8",
+      "phase": "confirmation",
+      "task": "new",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No observed change in checked decisive source projections; full eligible panel checks separately reported",
+      "question_ambiguity": "No new answer-determining ambiguity identified in fixedr03",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [
+        "numeric_text_sort"
+      ],
+      "explanation": "输出与筛选GO逐字一致；SQL使用ORDER BY c.do，导入列为TEXT。",
+      "diagnostic_evidence": "diagnostics/ranking_evidence.json",
+      "data_tool_failure_count": 2,
+      "client_tool_failure_count": 2,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 0.6574074074074074,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "field_differences": "runs/r-69914a9877c8/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_old_GO_1",
+      "run": "runs/r-d04075b89074",
+      "phase": "confirmation",
+      "task": "old",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No contrary selected-station field evidence observed; original official verification and this run native web evidence retained",
+      "question_ambiguity": "Known nonunique public station selection in original004 remains",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [],
+      "explanation": "原始最终答案完整匹配原oracle。",
+      "diagnostic_evidence": null,
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "field_differences": "runs/r-d04075b89074/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_new_CG_2",
+      "run": "runs/r-92c02e2f6067",
+      "phase": "confirmation",
+      "task": "new",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [
+        {
+          "line": 8,
+          "kind": "wrong_width",
+          "actual": 17,
+          "expected": 18
+        }
+      ],
+      "source_change": "No observed change in checked decisive source projections; full eligible panel checks separately reported",
+      "question_ambiguity": "No new answer-determining ambiguity identified in fixedr03",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [
+        "numeric_text_sort",
+        "output_transcription"
+      ],
+      "explanation": "保存的状态计算正确；数值排序错误，且最终抄录损坏3个行身份键。消除抄录错误仍不能整行答对。",
+      "diagnostic_evidence": "diagnostics/confirmation_cg2_error.json",
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 0.49537037037037035,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "field_differences": "runs/r-92c02e2f6067/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_old_CG_2",
+      "run": "runs/r-4a02a31cb8e8",
+      "phase": "confirmation",
+      "task": "old",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No contrary selected-station field evidence observed; original official verification and this run native web evidence retained",
+      "question_ambiguity": "Known nonunique public station selection in original004 remains",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [],
+      "explanation": "原始最终答案完整匹配原oracle。",
+      "diagnostic_evidence": null,
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "field_differences": "runs/r-4a02a31cb8e8/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_new_GO_2",
+      "run": "runs/r-4df368e8ea7e",
+      "phase": "confirmation",
+      "task": "new",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No observed change in checked decisive source projections; full eligible panel checks separately reported",
+      "question_ambiguity": "No new answer-determining ambiguity identified in fixedr03",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [
+        "numeric_text_sort"
+      ],
+      "explanation": "输出与筛选GO逐字一致；SQL直接排序导入的溶解氧TEXT列。",
+      "diagnostic_evidence": "diagnostics/ranking_evidence.json",
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 0.6574074074074074,
+        "Row-F1": 0.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 0
+      },
+      "field_differences": "runs/r-4df368e8ea7e/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_old_GO_2",
+      "run": "runs/r-d936d9895abf",
+      "phase": "confirmation",
+      "task": "old",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No contrary selected-station field evidence observed; original official verification and this run native web evidence retained",
+      "question_ambiguity": "Known nonunique public station selection in original004 remains",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [],
+      "explanation": "原始最终答案完整匹配原oracle。",
+      "diagnostic_evidence": null,
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "field_differences": "runs/r-d936d9895abf/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_new_CG_3",
+      "run": "runs/r-e5e848752431",
+      "phase": "confirmation",
+      "task": "new",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No observed change in checked decisive source projections; full eligible panel checks separately reported",
+      "question_ambiguity": "No new answer-determining ambiguity identified in fixedr03",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [],
+      "explanation": "原始最终答案完整匹配原oracle。",
+      "diagnostic_evidence": null,
+      "data_tool_failure_count": 4,
+      "client_tool_failure_count": 4,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "field_differences": "runs/r-e5e848752431/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_old_CG_3",
+      "run": "runs/r-551a85fda485",
+      "phase": "confirmation",
+      "task": "old",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No contrary selected-station field evidence observed; original official verification and this run native web evidence retained",
+      "question_ambiguity": "Known nonunique public station selection in original004 remains",
+      "public_answer_exposure": "observed_exact_old004_answer_exposure",
+      "error_categories": [],
+      "explanation": "原始最终答案完整匹配原oracle。",
+      "diagnostic_evidence": null,
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "field_differences": "runs/r-551a85fda485/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_new_GO_3",
+      "run": "runs/r-426fcaec1732",
+      "phase": "confirmation",
+      "task": "new",
+      "runtime_failure": false,
+      "parse_failure": true,
+      "parse_issues": [],
+      "source_change": "No observed change in checked decisive source projections; full eligible panel checks separately reported",
+      "question_ambiguity": "No new answer-determining ambiguity identified in fixedr03",
+      "public_answer_exposure": "no_matching_benchmark_response_detected",
+      "error_categories": [
+        "output_completeness",
+        "parse_failure"
+      ],
+      "explanation": "计算表216字段全部正确，最终CSV仅12列，丢弃6个必需字段。原评分为NA，不能作为状态推理失败或补零。",
+      "diagnostic_evidence": "diagnostics/confirmation_go3_error.json",
+      "data_tool_failure_count": 1,
+      "client_tool_failure_count": 1,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": null,
+      "field_differences": "runs/r-426fcaec1732/scoring/field_differences.json"
+    },
+    {
+      "label": "confirmation_old_GO_3",
+      "run": "runs/r-683967eda07e",
+      "phase": "confirmation",
+      "task": "old",
+      "runtime_failure": false,
+      "parse_failure": false,
+      "parse_issues": [],
+      "source_change": "No contrary selected-station field evidence observed; original official verification and this run native web evidence retained",
+      "question_ambiguity": "Known nonunique public station selection in original004 remains",
+      "public_answer_exposure": "observed_exact_old004_answer_exposure",
+      "error_categories": [],
+      "explanation": "原始最终答案完整匹配原oracle。",
+      "diagnostic_evidence": null,
+      "data_tool_failure_count": 0,
+      "client_tool_failure_count": 0,
+      "transient_access_handling": "Within-session retries/alternative official requests; no replacement model attempt. Data read/completeness verified separately.",
+      "raw_metrics": {
+        "Item-F1": 1.0,
+        "Row-F1": 1.0,
+        "P.O.A.": 1.0,
+        "whole_task_exact": 1
+      },
+      "field_differences": "runs/r-683967eda07e/scoring/field_differences.json"
+    }
+  ],
+  "policy": "Raw scores retained; all fixed attempts reported. A parsing/output failure or exposed answer is not automatically cognitive/state difficulty. Diagnostic reconstructed tables never replace submitted answers."
+}

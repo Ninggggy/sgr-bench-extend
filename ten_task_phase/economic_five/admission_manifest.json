@@ -1,0 +1,6 @@
+{
+  "campaign_path": "../economic_five_campaign.json",
+  "plan_path": "analysis_plan.json",
+  "ledger_path": "../economic_five_session_ledger.jsonl",
+  "candidates": []
+}

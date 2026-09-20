@@ -1,0 +1,1692 @@
+{
+  "started_at": "2026-09-13T09:39:01.799140+00:00",
+  "status": "passed",
+  "expected_sources": 41,
+  "observations": [
+    {
+      "original_file": "d0001",
+      "url": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2023-28771",
+      "started_at": "2026-09-13T09:39:01.799446+00:00",
+      "fetch_result": {
+        "file_id": "d0001",
+        "url": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2023-28771",
+        "requested_at": "2026-09-13T09:39:01.812859+00:00",
+        "method": "GET",
+        "query": {
+          "cveId": [
+            "CVE-2023-28771"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:39:02 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "12885",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=tFwBixbDZHg_eHTQbDpFZjblQ88P4daoSgFbrejNCBs-1789292342.5511231-1.0.1.1-e46q7WQ1V6SX3sfniYfZQPWqSLXgemdv__2nOwfATpQw.ErHFWl60CDWJ0Y7Ply3oxJIGdCQjfCFD6ERdmeLoPg33bIAYNiFDtMbE7y_qOFyoOVurfoshN7hNugAljvn; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:09:02 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a62eb4eddc7534-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2023-28771",
+        "bytes": 12885,
+        "received_at": "2026-09-13T09:39:02.628830+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CVE\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:39:02.614\",\"vulnerabilities\":[{\"cve\":{\"id\":\"CVE-2023-28771\",\"sourceIdentifier\":\"security@zyxel.com.tw\",\"published\":\"2023-04-25T02:15:08.743\",\"lastModified\":\"2026-06-17T05:48:44.217\",\"vulnStatus\":\"Analyzed\",\"cveTags\":[],\"descriptions\":[{\"lang\":\"en\",\"value\":\"Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.\"}],\"affected\":[{\"source\":\"security@zyxel.com.tw\",\"affectedData\":[{\"vendor\":\"Zyxel\",\"product\":\"ZyWALL/USG series firmware\",\"versions\":[{\"version\":\"4.60 through 4.73\",\"status\":\"affected\"}]},{\"vendor\":\"Zyxel\",\"product\":\"VPN series firmware\",\"versions\":[{\"version\":\"4.60 through 5.35\",\"status\":\"affected\"}]},{\"vendor\":\"Zyxel\",\"product\":\"USG FLEX series firmware\",\"versions\":[{\"version\":\"4.60 through 5.35\",\"status\":\"affected\"}]},{\"vendor\":\"Zyxel\",\"product\":\"ATP series firmware\",\"versions\":[{\"version\":\"4.60 through 5.35\",\"status\":\"affected\"}]}]}],\"metrics\":{\"cvssMetricV31\":[{\"source\":\"security@zyxel.com.tw\",\"type\":\"Secondary\",\"cvssData\":{\"version\":\"3.1\",\"vectorString\":\"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\",\"baseScore\":9.8,\"baseSeverity\":\"CRITICAL\",\"attackVector\":\"NETWORK\",\"attackComplexity\":\"LOW\",\"privilegesRequired\":\"NONE\",\"userInteraction\":\"NONE\",\"scope\":\"UNCHANGED\",\"confidentialityImpact\":\"HIGH\",\"integrityImpact\":\"HIGH\",\"availabilityImpact\":\"HIGH\"},\"exploitabilityScore\":3.9,\"impactScore\":5.9},{\"source\":\"nvd@nist.gov\",\"type\":\"Secondary\",\"cvssData\":{\"version\":\"3.1\",\"vectorString\":\"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\",\"baseScore\":9.8,\"baseSeverity\":\"CRITICAL\",\"attackVector\":\"NETWORK\",\"attackComplexity\":\"LOW\",\"privilegesRequired\":\"NONE\",\"userInteraction\":\"NONE\",\"scope\":\"UNCHANGED\",\"confidentialityImpact\":\"HIGH\",\"integrityImpact\":\"HIGH\",\"availabilityImpact\":\"HIGH\"},\"exploitabilityScore\":3.9,\"impactScore\":5.9}],\"ssvcV203\":[{\"source\":\"134c704f-9b21-4f2e-91b3-4a467353bcc0\",\"ssvcData\":{\"timestamp\":\"2023-11-18T05:00:32.985076Z\",\"id\":\"CVE-2023-28771\",\"options\":[{\"exploitation\":\"active\"},{\"automatable\":\"yes\"},{\"technicalImpact\":\"total\"}],\"role\":\"CISA Coordinator\",\"version\":\"2.0.3\"}}]},\"cisaExploitAdd\":\"2023-05-31\",\"cisaActionDue\":\"2023-06-21\",\"cisaRequiredAction\":\"Apply updates per vendor instructions.\",\"cisaVulnerabilityName\":\"Zyxel Multiple Firewalls OS Command Injection Vulnerability\",\"weaknesses\":[{\"source\":\"security@zyxel.com.tw\",\"type\":\"Secondary\",\"description\":[{\"lang\":\"en\",\"value\":\"CWE-78\"}]},{\"source\":\"nvd@nist.gov\",\"type\":\"Primary\",\"description\":[{\"lang\":\"en\",\"value\":\"CWE-78\"}]}],\"configurations\":[{\"operator\":\"AND\",\"nodes\":[{\"operator\":\"OR\",\"negate\":false,\"cpeMatch\":[{\"vulnerable\":true,\"criteria\":\"cpe:2.3:o:zyxel:atp100_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"matchCriteriaId\":\"558978AD-8153-4C1F-A6DE-CCFBF69F754D\"}]},{\"operator\":\"OR\",\"negate\":false,\"cpeMatch\":[{\"vulnerable\":false,\"criteria\":\"cpe:2.3:h:zyxel:atp100:-:*:*:*:*:*:*:*\",\"matchCriteriaId\":\"7F7654A1-3806-41C7-82D4-46B0CD7EE53B\"}]}]},{\"operator\":\"AND\",\"nodes\":[{\"operator\":\"OR\",\"negate\":false,\"cpeMatch\":[{\"vulnerable\":true,\"criteria\":\"cpe:2.3:o:zyxel:atp100w_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.35\",\"matchCriteriaId\":\"B150462B-6A4A-4B8C-800D-A83E24C79819\"}]},{\"operator\":\"OR\",\"negate\":false,\"cpeMatch\":[{\"vulnerable\":false,\"criteria\":\"cpe:2.3:h:zyxel:atp100w:-:*:*:*:*:*:*:*\",\"matchCriteriaId\":\"47398FD0-6C5E-4625-9EFD-DE08C9AB7DB2\"}]}]},{\"operator\":\"AND\",\"nodes\":[{\"operator\":\"OR\",\"negate\":false,\"cpeMatch\":[{\"vulnerable\":true,\"criteria\":\"cpe:2.3:o:zyxel:atp200_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\"",
+        "preview_truncated": true
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:39:02.631254+00:00"
+    },
+    {
+      "original_file": "d0002",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=558978AD-8153-4C1F-A6DE-CCFBF69F754D",
+      "started_at": "2026-09-13T09:39:02.632184+00:00",
+      "fetch_result": {
+        "file_id": "d0002",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=558978AD-8153-4C1F-A6DE-CCFBF69F754D",
+        "requested_at": "2026-09-13T09:39:08.018269+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "558978AD-8153-4C1F-A6DE-CCFBF69F754D"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:39:08 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1196",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=moxXZ6w6LshjWNPxjOpEFf2KAr1xzjtLn4KF4BDIu1Y-1789292348.7384562-1.0.1.1-i2BoLluTDtY_kcMpY5RJtSIsjuMZ.IKNcHQxhHJEzi14lUCjqFT8uWw6tS1dXRSBDrpsDVBkoLD8FphjICS5h0NkHdEcEzBW1g8U5P_TqB3uObRqeyEC5aMsjA66xB65; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:09:08 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a62edb9c0cfc2f-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=558978AD-8153-4C1F-A6DE-CCFBF69F754D",
+        "bytes": 1196,
+        "received_at": "2026-09-13T09:39:08.797478+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:39:08.790\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"558978AD-8153-4C1F-A6DE-CCFBF69F754D\",\"criteria\":\"cpe:2.3:o:zyxel:atp100_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-07-21T22:40:05.697\",\"cpeLastModified\":\"2023-07-21T22:40:05.697\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:atp100_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"63979311-3612-4433-90AB-18C717C22ED4\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp100_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"F09F9578-C2F8-4B91-8779-ABFD5782526D\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp100_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"24B12CAA-3972-4390-916D-D145CEA962CD\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp100_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"4C555CBF-B68F-4FFE-BF62-9C635C755EAB\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp100_firmware:5.31:*:*:*:*:*:*:*\",\"cpeNameId\":\"F9985E8E-1529-4927-A7D9-149F6680F8C6\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp100_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"82962244-8AF0-4422-8FFB-D8D71D20CA3E\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:39:08.799096+00:00"
+    },
+    {
+      "original_file": "d0003",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=7F7654A1-3806-41C7-82D4-46B0CD7EE53B",
+      "started_at": "2026-09-13T09:39:08.800378+00:00",
+      "fetch_result": {
+        "file_id": "d0003",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=7F7654A1-3806-41C7-82D4-46B0CD7EE53B",
+        "requested_at": "2026-09-13T09:39:14.220628+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "7F7654A1-3806-41C7-82D4-46B0CD7EE53B"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:39:14 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "535",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=RzmZ80bosWyGxSXRweLXHuVaHq2FER_zB34KdAueldo-1789292354.8669302-1.0.1.1-tElqewtQC8bl9d6fSvReQkylXqXwWD0aYZPS93Rs4ZhXDd9p2LywqXb4gakJZODn6kptfOIPpQkpP9liF28JrDp0YZJn97ptHWVCFPMjMtvurWUhkRD7cXYa588rThgS; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:09:14 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a62f01eae27666-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=7F7654A1-3806-41C7-82D4-46B0CD7EE53B",
+        "bytes": 535,
+        "received_at": "2026-09-13T09:39:14.934504+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:39:14.913\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"7F7654A1-3806-41C7-82D4-46B0CD7EE53B\",\"criteria\":\"cpe:2.3:h:zyxel:atp100:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2021-03-22T20:02:38.157\",\"created\":\"2020-03-05T19:38:23.053\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:atp100:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"FB7A7EE9-CAE2-4318-9BE6-769E63A3BE54\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:39:14.936505+00:00"
+    },
+    {
+      "original_file": "d0004",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=B150462B-6A4A-4B8C-800D-A83E24C79819",
+      "started_at": "2026-09-13T09:39:14.937436+00:00",
+      "fetch_result": {
+        "file_id": "d0004",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=B150462B-6A4A-4B8C-800D-A83E24C79819",
+        "requested_at": "2026-09-13T09:39:20.425690+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "B150462B-6A4A-4B8C-800D-A83E24C79819"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:39:21 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "969",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=sALJDa2NWVJZMFVWRNZuBSjsT__C6raoTEdz.FkFmRE-1789292361.0887175-1.0.1.1-Ex7hCvUr2x2NNvfMX5HwDQU6J0xvqGFCJP4PUfgt8DCsdLq0bjzSbIdL.fs5ubS8awwNWExu7sZHntQNQT_XvlHGOM5eouEuswYNS1PMsk7Qy2aOZIL9tp3MIhbDGu2d; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:09:21 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a62f28c8e723ab-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=B150462B-6A4A-4B8C-800D-A83E24C79819",
+        "bytes": 969,
+        "received_at": "2026-09-13T09:39:21.169317+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:39:21.163\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"B150462B-6A4A-4B8C-800D-A83E24C79819\",\"criteria\":\"cpe:2.3:o:zyxel:atp100w_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.35\",\"lastModified\":\"2023-07-21T22:40:05.697\",\"cpeLastModified\":\"2023-07-21T22:40:05.697\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:atp100w_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"D0241E4C-4166-4EE5-9485-68E73C8BCA79\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp100w_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"5D151BC4-C433-4267-B603-FD47FA8FD5BF\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp100w_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"3540DF2B-A91D-41B2-AADB-47CA7E026AB3\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp100w_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"5DED3E74-D472-4447-ADD8-8F1996F785B8\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:39:21.171528+00:00"
+    },
+    {
+      "original_file": "d0005",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=47398FD0-6C5E-4625-9EFD-DE08C9AB7DB2",
+      "started_at": "2026-09-13T09:39:21.172467+00:00",
+      "fetch_result": {
+        "file_id": "d0005",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=47398FD0-6C5E-4625-9EFD-DE08C9AB7DB2",
+        "requested_at": "2026-09-13T09:39:26.630814+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "47398FD0-6C5E-4625-9EFD-DE08C9AB7DB2"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:39:27 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "537",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=KFtSSjHfRjka57RdJiw70_5ZQzS8JrYj5vYaDQnozq8-1789292367.3636897-1.0.1.1-QRjLKTG6JkRHThoETl1Xs6G7lkGXpsxNNiSV0NXUFwixZDAXVX.gdp4MZvvFiTg94y1EMO28v06vTG5ow9LRkO9JSKHXUlu_PJryeCZO3J5ZIMMDRRH1l_HJo0NtyDs1; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:09:27 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a62f5009bba32a-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=47398FD0-6C5E-4625-9EFD-DE08C9AB7DB2",
+        "bytes": 537,
+        "received_at": "2026-09-13T09:39:27.758664+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:39:27.647\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"47398FD0-6C5E-4625-9EFD-DE08C9AB7DB2\",\"criteria\":\"cpe:2.3:h:zyxel:atp100w:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2022-04-04T17:28:01.380\",\"created\":\"2022-04-04T14:15:05.067\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:atp100w:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"D05700DB-4057-493D-B955-BD7080722FB1\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:39:27.760899+00:00"
+    },
+    {
+      "original_file": "d0006",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=A32A52F5-5406-4A44-A5C1-42FCDC8C6B22",
+      "started_at": "2026-09-13T09:39:27.761850+00:00",
+      "fetch_result": {
+        "file_id": "d0006",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=A32A52F5-5406-4A44-A5C1-42FCDC8C6B22",
+        "requested_at": "2026-09-13T09:39:32.834681+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "A32A52F5-5406-4A44-A5C1-42FCDC8C6B22"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:39:33 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1080",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=XcHcVCxt8oYxl16Drgs6umF7dcBICa03hXY8fyAhxsc-1789292373.5463564-1.0.1.1-bHLWPw6nS8QwLDN6pWXje0s.TQO0mx9tDlr5ps3ZWYd50nFAerSgEy7F9dw2GRkhMlSw0_bKmHBq9UEQkf5ZqlZVigZ4AIhHhr5RTxRL6KQQojdLJx9UntkH2I2aUwgb; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:09:33 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a62f76a887d44a-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=A32A52F5-5406-4A44-A5C1-42FCDC8C6B22",
+        "bytes": 1080,
+        "received_at": "2026-09-13T09:39:33.634088+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:39:33.613\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"A32A52F5-5406-4A44-A5C1-42FCDC8C6B22\",\"criteria\":\"cpe:2.3:o:zyxel:atp200_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-07-21T22:40:05.697\",\"cpeLastModified\":\"2023-07-21T22:40:05.697\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:atp200_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"7AB66382-DEF9-4739-AF6B-757C0278A4A4\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp200_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"964A3DD4-68E4-4533-B919-A2146228D8F8\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp200_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"009A6304-4186-40DE-9F2B-81A0C243AEE8\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp200_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"93E670F2-7409-4CD3-9DA7-8B6520B65801\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp200_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"D25EFB03-18D7-4033-9C01-A8EBB9F865C6\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:39:33.636580+00:00"
+    },
+    {
+      "original_file": "d0007",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D68A36FF-8CAF-401C-9F18-94F3A2405CF4",
+      "started_at": "2026-09-13T09:39:33.637533+00:00",
+      "fetch_result": {
+        "file_id": "d0007",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D68A36FF-8CAF-401C-9F18-94F3A2405CF4",
+        "requested_at": "2026-09-13T09:39:39.037684+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "D68A36FF-8CAF-401C-9F18-94F3A2405CF4"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:39:40 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "535",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=TxWKRXvqLTQGhEOU5F.8zSB5dZtx4MQ6lnfXxjwGqxI-1789292379.9616146-1.0.1.1-tPNfpsqZiS.mwrVGZ6WDIm584VQd5FPCt9HSedgvwWpaS1sxr5HKG_NptgODGwznOe1jlCmM76510b2wKHGvU0zDyVEOh2Mlme8nMB_DlG12WYfkvCpbReJdtiY116lC; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:09:40 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a62f9eccf9c3ca-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D68A36FF-8CAF-401C-9F18-94F3A2405CF4",
+        "bytes": 535,
+        "received_at": "2026-09-13T09:39:40.046085+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:39:40.010\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"D68A36FF-8CAF-401C-9F18-94F3A2405CF4\",\"criteria\":\"cpe:2.3:h:zyxel:atp200:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2019-10-24T17:01:14.653\",\"created\":\"2019-06-17T09:16:33.960\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:atp200:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"C3FB6D08-5B96-445B-BC8C-149BF31C3A34\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:39:40.048561+00:00"
+    },
+    {
+      "original_file": "d0008",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=320FC232-D76C-4D8A-8003-7C9A7A287A4C",
+      "started_at": "2026-09-13T09:39:40.049677+00:00",
+      "fetch_result": {
+        "file_id": "d0008",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=320FC232-D76C-4D8A-8003-7C9A7A287A4C",
+        "requested_at": "2026-09-13T09:39:45.237776+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "320FC232-D76C-4D8A-8003-7C9A7A287A4C"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:39:45 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1080",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=x4T6uPF1Ku1m4pdXhikbdYb6ZSJn4Rden7FNI4tPbp4-1789292385.882325-1.0.1.1-Je1YkVR5UFAhiNu9AK0E6S0KTUShWsBGS88zNl7m3d5ot7J6sbfllxmXRGUCwGfNXFY.1bf1yUEGIARw18JR4nWP3KV0fzladaP2f5RqmcThVMpd6U9JlmtzeRaA8dLZ; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:09:45 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a62fc3c843b99f-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=320FC232-D76C-4D8A-8003-7C9A7A287A4C",
+        "bytes": 1080,
+        "received_at": "2026-09-13T09:39:46.016607+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:39:45.927\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"320FC232-D76C-4D8A-8003-7C9A7A287A4C\",\"criteria\":\"cpe:2.3:o:zyxel:atp500_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-07-21T22:40:05.697\",\"cpeLastModified\":\"2023-07-21T22:40:05.697\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:atp500_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"92540434-60EC-4E26-869F-1CB1DF8566C1\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp500_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"C9E8459B-0147-4C15-A65A-131D1B43CAB5\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp500_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"8C7AB134-0DF2-49E6-8514-D58874374C75\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp500_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"26CBF72B-AB9F-4892-9BDD-35C2874DAE18\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp500_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"18B0FEC2-9C68-4D3C-954A-F2D63E5A5066\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:39:46.018955+00:00"
+    },
+    {
+      "original_file": "d0009",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2818E8AC-FFEE-4DF9-BF3F-C75166C0E851",
+      "started_at": "2026-09-13T09:39:46.020002+00:00",
+      "fetch_result": {
+        "file_id": "d0009",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2818E8AC-FFEE-4DF9-BF3F-C75166C0E851",
+        "requested_at": "2026-09-13T09:39:51.442788+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "2818E8AC-FFEE-4DF9-BF3F-C75166C0E851"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:39:52 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "535",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=.TzoxjvBf8fbjs78.ghaPAmZGK5h0Za9X9CFqHmduJo-1789292392.0923202-1.0.1.1-YcNx_eelTiR5EvPfMSBNV1ukQgcqKOCWqditjU_0XAuDf21eQFvADMRvUzoGJwiOUaV8dEQXs3DuOgZca.X1YYszjBgetBn0EIiKkl57eruD53Qfqxvc3tOwqqI4Q1.c; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:09:52 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a62fea994376e0-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2818E8AC-FFEE-4DF9-BF3F-C75166C0E851",
+        "bytes": 535,
+        "received_at": "2026-09-13T09:39:52.161436+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:39:52.147\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"2818E8AC-FFEE-4DF9-BF3F-C75166C0E851\",\"criteria\":\"cpe:2.3:h:zyxel:atp500:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2019-10-24T17:01:14.873\",\"created\":\"2019-06-17T09:16:33.960\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:atp500:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"3E8B9892-836C-435B-8C96-23D6EC337D8C\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:39:52.162851+00:00"
+    },
+    {
+      "original_file": "d0010",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2360F0CC-6958-47B6-87A9-B03D52DEBAF8",
+      "started_at": "2026-09-13T09:39:52.163573+00:00",
+      "fetch_result": {
+        "file_id": "d0010",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2360F0CC-6958-47B6-87A9-B03D52DEBAF8",
+        "requested_at": "2026-09-13T09:39:57.647810+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "2360F0CC-6958-47B6-87A9-B03D52DEBAF8"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:39:58 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1080",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=D6sCcKEMSJ55dj75RmCywtiNP5nK6_HANjVzI21oCG8-1789292398.308846-1.0.1.1-kH0CVmIpuxdujv3oOUvmst2ZGDW1EQHX1AxCCQCXI6PUOET_n809gzHI6Zl_gPuMKX9AmjEDmIj6H7_TuZrfVlJiHhA2utjPlSUMq.rb0Z4sg9PwpblheMbHYg0W1zwN; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:09:58 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a630116d82a3a1-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2360F0CC-6958-47B6-87A9-B03D52DEBAF8",
+        "bytes": 1080,
+        "received_at": "2026-09-13T09:39:58.684167+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:39:58.570\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"2360F0CC-6958-47B6-87A9-B03D52DEBAF8\",\"criteria\":\"cpe:2.3:o:zyxel:atp700_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-07-21T22:40:05.697\",\"cpeLastModified\":\"2023-07-21T22:40:05.697\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:atp700_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"507ECE92-8075-4CE6-B85D-E6B3FD559088\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp700_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"D3DD698F-CF20-42EE-9ED5-B4D2A197E5FF\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp700_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"439B6CA9-0B6C-437F-BD91-51F56D717CDD\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp700_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"BCA3F11D-52E5-4280-94F4-0C6953FDB0D3\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp700_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"82769298-4F77-4D07-9F00-5F463BBE4878\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:39:58.686564+00:00"
+    },
+    {
+      "original_file": "d0011",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=0B41F437-855B-4490-8011-DF59887BE6D5",
+      "started_at": "2026-09-13T09:39:58.687856+00:00",
+      "fetch_result": {
+        "file_id": "d0011",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=0B41F437-855B-4490-8011-DF59887BE6D5",
+        "requested_at": "2026-09-13T09:40:03.852662+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "0B41F437-855B-4490-8011-DF59887BE6D5"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:40:04 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "535",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=_OQiR_NxvY.Hx.uReLL2K.tnjm.yjByw5GyqNwyrzTo-1789292404.6573234-1.0.1.1-ojv9LsFyY4IFt71dzjnQiI3KW55VB7tlAiNb.GPmksQAgWXh8aS9Kd_kSMl6xH32gVI5aNS8ij1DOyWr6PYZ91zwzpkJUcad8r..y4SYTOAu7sluTkg_DtF7eEXn.UyK; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:10:04 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a630391f15a3b0-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=0B41F437-855B-4490-8011-DF59887BE6D5",
+        "bytes": 535,
+        "received_at": "2026-09-13T09:40:04.930509+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:40:04.713\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"0B41F437-855B-4490-8011-DF59887BE6D5\",\"criteria\":\"cpe:2.3:h:zyxel:atp700:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2022-04-04T17:28:01.380\",\"created\":\"2022-04-04T14:15:07.977\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:atp700:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"18F89D58-5D14-4151-B22A-4AF526C26DC2\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:40:04.932778+00:00"
+    },
+    {
+      "original_file": "d0012",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=6C4EE067-E0F0-49B7-8698-8B1AD8E346F0",
+      "started_at": "2026-09-13T09:40:04.933922+00:00",
+      "fetch_result": {
+        "file_id": "d0012",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=6C4EE067-E0F0-49B7-8698-8B1AD8E346F0",
+        "requested_at": "2026-09-13T09:40:10.057465+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "6C4EE067-E0F0-49B7-8698-8B1AD8E346F0"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:40:10 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1080",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=7O0HIA7.LN2SLUBUpG36eewNd72MhH_HvN.n9wi.TYc-1789292410.8753054-1.0.1.1-kP1ycaYOsxWkivUyQ4U2.M4b19pbHRYF0l.DtDINeD1P6p0Klk1zxSazr3K5po0Nj.88muqApN.eexfySE3Fpg7clAuK3USnXrywg.y44l5JCv7h.wpWmGrBmg5gepI4; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:10:10 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a6305ffbf4c3da-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=6C4EE067-E0F0-49B7-8698-8B1AD8E346F0",
+        "bytes": 1080,
+        "received_at": "2026-09-13T09:40:10.971951+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:40:10.930\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"6C4EE067-E0F0-49B7-8698-8B1AD8E346F0\",\"criteria\":\"cpe:2.3:o:zyxel:atp800_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-07-21T22:40:05.697\",\"cpeLastModified\":\"2023-07-21T22:40:05.697\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:atp800_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"64031DCE-98C8-420D-857F-4C08CEBBCE03\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp800_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"FF5FF7E5-19B6-406B-8A41-F7F7851E9E55\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp800_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"7B1F3F49-A9AB-4748-B841-64772FCE60E4\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp800_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"DE468A7D-E019-47FC-BFF4-6512213DA641\"},{\"cpeName\":\"cpe:2.3:o:zyxel:atp800_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"8E151E3F-C875-489B-B64A-EB53928829DF\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:40:10.974335+00:00"
+    },
+    {
+      "original_file": "d0013",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=66B99746-0589-46E6-9CBD-F38619AD97DC",
+      "started_at": "2026-09-13T09:40:10.975517+00:00",
+      "fetch_result": {
+        "file_id": "d0013",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=66B99746-0589-46E6-9CBD-F38619AD97DC",
+        "requested_at": "2026-09-13T09:40:16.262179+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "66B99746-0589-46E6-9CBD-F38619AD97DC"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:40:17 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "535",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=byI2aAeaGaZ.QF0ZK8zLaQpFrmPmxW2Zl2zB4dP0bV0-1789292417.0007915-1.0.1.1-zxhH3HBywdS59WjaG4udQ5Zy97EKgM1lzWHdqB3ZQlOe4I6PU4fefk8wa7MlFwoZfvkkK408AYcMJlBwlKM96aubEuMtgAc4aDGkYzJfcg1DTBRibBbr5zZomo0bKDmB; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:10:17 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a630863db1758a-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=66B99746-0589-46E6-9CBD-F38619AD97DC",
+        "bytes": 535,
+        "received_at": "2026-09-13T09:40:17.069045+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:40:17.043\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"66B99746-0589-46E6-9CBD-F38619AD97DC\",\"criteria\":\"cpe:2.3:h:zyxel:atp800:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2019-10-24T17:01:15.107\",\"created\":\"2019-06-17T09:16:33.960\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:atp800:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"2C94089C-D483-4484-825A-F744A114C500\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:40:17.071669+00:00"
+    },
+    {
+      "original_file": "d0014",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D96CB09A-9AB3-4360-ACFC-A917E7EEC460",
+      "started_at": "2026-09-13T09:40:17.072908+00:00",
+      "fetch_result": {
+        "file_id": "d0014",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D96CB09A-9AB3-4360-ACFC-A917E7EEC460",
+        "requested_at": "2026-09-13T09:40:22.467534+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "D96CB09A-9AB3-4360-ACFC-A917E7EEC460"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:40:23 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1238",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=TnWAEhFkP5CRKtdqJSAYnthyRKQDUzE3d1tG_V44QIM-1789292423.1904194-1.0.1.1-4t9hhcOcP36iFo2Udh3D1C2GFrtEScZOA0r3gbrtBGmuxBgSH8rdnbUntW7fdz2.7TiHUDXJ4oFKyfNAO8CCDKSf6HjXBd160WA3uyKUY_Kdwc31aShISNlawrTAmKOi; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:10:23 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a630acebcf30ac-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D96CB09A-9AB3-4360-ACFC-A917E7EEC460",
+        "bytes": 1238,
+        "received_at": "2026-09-13T09:40:23.253600+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:40:23.230\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"D96CB09A-9AB3-4360-ACFC-A917E7EEC460\",\"criteria\":\"cpe:2.3:o:zyxel:usg_flex_100_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-08-12T00:08:06.533\",\"cpeLastModified\":\"2025-01-24T12:06:29.920\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"1E7F4562-23A8-41CA-8AC5-676F9FD95773\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100_firmware:5.00:*:*:*:*:*:*:*\",\"cpeNameId\":\"2C23A130-8D83-48F8-80A7-9FDFFF229E30\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100_firmware:5.01:*:*:*:*:*:*:*\",\"cpeNameId\":\"760BAB11-C086-49E4-9CF5-01543B9855FC\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"4388C1D7-EA58-474E-8275-303781E1A441\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"F3ADF4DB-8B40-4338-AC89-6E55F609CC11\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"4A21EB96-8473-4D4F-9B1C-9CBDADAE0F28\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:40:23.256111+00:00"
+    },
+    {
+      "original_file": "d0015",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2B30A4C0-9928-46AD-9210-C25656FB43FB",
+      "started_at": "2026-09-13T09:40:23.257387+00:00",
+      "fetch_result": {
+        "file_id": "d0015",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2B30A4C0-9928-46AD-9210-C25656FB43FB",
+        "requested_at": "2026-09-13T09:40:28.671066+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "2B30A4C0-9928-46AD-9210-C25656FB43FB"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:40:29 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "547",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=ERFCTqpc.m_1S2DvWdSNUtana8ePr.wl6gxzVooQECk-1789292429.3098533-1.0.1.1-cOmxotKtp99eMAtkmHLaEBTLNWd6L_v6ZNfcSygjg_5FW0hjlvX4NDpQ9dbWhI6mATvugjJp7BeHQ7E9p2soTLuwnRjNtWTpWnkmxmnpOX.2KXkzjEDE0fQfnHqUyqQ6; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:10:29 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a630d32ad09b5f-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=2B30A4C0-9928-46AD-9210-C25656FB43FB",
+        "bytes": 547,
+        "received_at": "2026-09-13T09:40:29.607244+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:40:29.577\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"2B30A4C0-9928-46AD-9210-C25656FB43FB\",\"criteria\":\"cpe:2.3:h:zyxel:usg_flex_100:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-06-06T13:42:36.860\",\"cpeLastModified\":\"2021-01-12T18:00:45.820\",\"created\":\"2020-12-02T15:10:45.117\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:usg_flex_100:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"D8235FD3-4E73-47D9-842F-D32A5D1B05D0\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:40:29.609462+00:00"
+    },
+    {
+      "original_file": "d0016",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=F0226DAD-492B-493D-B15E-90AA593BAAAB",
+      "started_at": "2026-09-13T09:40:29.610630+00:00",
+      "fetch_result": {
+        "file_id": "d0016",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=F0226DAD-492B-493D-B15E-90AA593BAAAB",
+        "requested_at": "2026-09-13T09:40:34.872435+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "F0226DAD-492B-493D-B15E-90AA593BAAAB"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:40:35 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1245",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=js4yQtQVJVfNBaIoX0I0fxEqGSFuhY75yhx35sSXZsU-1789292435.5367906-1.0.1.1-BCtl9WMTxO.mVWPt4tMt7NiSiZUT5gVUogoNwoUScfUt6y_QkCmw1qbZGMmWx4FBzTBOlGKqoWvHF7yAiTYQdetsMcUyORFTuWD4CVUtdLjK07_HuUjM4z2ndtpKEOh5; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:10:35 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a630fa1fee2672-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=F0226DAD-492B-493D-B15E-90AA593BAAAB",
+        "bytes": 1245,
+        "received_at": "2026-09-13T09:40:35.649503+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:40:35.597\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"F0226DAD-492B-493D-B15E-90AA593BAAAB\",\"criteria\":\"cpe:2.3:o:zyxel:usg_flex_100w_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-08-12T00:08:06.533\",\"cpeLastModified\":\"2025-01-24T12:06:29.920\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100w_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"8677E5A6-D4C5-445C-A348-19F18337BF6F\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100w_firmware:5.00:*:*:*:*:*:*:*\",\"cpeNameId\":\"A09A35C4-9E7D-48ED-9056-CA2EF808DE5A\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100w_firmware:5.01:*:*:*:*:*:*:*\",\"cpeNameId\":\"472E480F-C27C-474F-8FC4-35318E0BE75D\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100w_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"6B6C3F29-C4CA-4A1E-AF0E-39CB93FCEE78\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100w_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"83C2D4C3-2059-4BF1-B016-0D31F2D8DD1C\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_100w_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"14C8CBE6-B776-43EB-B1E7-AF27A3F1F4E4\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:40:35.651847+00:00"
+    },
+    {
+      "original_file": "d0017",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D74ABA7E-AA78-4A13-A64E-C44021591B42",
+      "started_at": "2026-09-13T09:40:35.653050+00:00",
+      "fetch_result": {
+        "file_id": "d0017",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D74ABA7E-AA78-4A13-A64E-C44021591B42",
+        "requested_at": "2026-09-13T09:40:41.077364+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "D74ABA7E-AA78-4A13-A64E-C44021591B42"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:40:41 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "549",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=3GtXjLgKtcGqsmLziUk85mpK104fzYIf0nLuyjkr72A-1789292441.7188494-1.0.1.1-i_RAAQ2I6XY3THsBgMynDlTZSZ6PQGRDqOURo_MOEelbarns5fKFgp66KvrfDF1DORk6GyHnWjyTRjgSD1L8ASsCqIBKmNBeZEm3dXA5L6vyGSmYfzu.khLHn4wBcSKG; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:10:41 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a63120bc13ad8d-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D74ABA7E-AA78-4A13-A64E-C44021591B42",
+        "bytes": 549,
+        "received_at": "2026-09-13T09:40:41.792897+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:40:41.780\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"D74ABA7E-AA78-4A13-A64E-C44021591B42\",\"criteria\":\"cpe:2.3:h:zyxel:usg_flex_100w:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2021-01-12T18:00:46.180\",\"created\":\"2020-12-02T15:10:45.290\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:usg_flex_100w:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"84333172-94BD-4A1B-A808-7726D58A5545\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:40:41.795367+00:00"
+    },
+    {
+      "original_file": "d0018",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=030F29C9-5435-4EA5-B009-895BB2259C19",
+      "started_at": "2026-09-13T09:40:41.796788+00:00",
+      "fetch_result": {
+        "file_id": "d0018",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=030F29C9-5435-4EA5-B009-895BB2259C19",
+        "requested_at": "2026-09-13T09:40:47.276309+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "030F29C9-5435-4EA5-B009-895BB2259C19"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:40:48 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1238",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=mf8a.DaFFxk40K5yw9.GuD79fgBZJ1oZHKOCn1CihtQ-1789292447.9818254-1.0.1.1-sXJRogvEnpTjTz2GuR3I6ZdMnGi294TqGLX3ZvHDXN_nWDcDtsyR4c7gkdswd1aXCq0M.QmV_Q1f6EG.uq4dy7Odr8eiSXSxEqQRxu9Yjw5FBOghFYQTcUj.bZDLKiDC; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:10:48 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a63147ec1adeda-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=030F29C9-5435-4EA5-B009-895BB2259C19",
+        "bytes": 1238,
+        "received_at": "2026-09-13T09:40:48.071485+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:40:48.057\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"030F29C9-5435-4EA5-B009-895BB2259C19\",\"criteria\":\"cpe:2.3:o:zyxel:usg_flex_200_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-08-12T00:08:06.533\",\"cpeLastModified\":\"2023-08-12T00:08:06.533\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_200_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"D017036B-E88E-4096-B13C-4C803CABDCE0\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_200_firmware:5.00:*:*:*:*:*:*:*\",\"cpeNameId\":\"72D7310D-C645-459B-B788-BC87B3261691\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_200_firmware:5.01:*:*:*:*:*:*:*\",\"cpeNameId\":\"385ACA95-DA92-4071-81EB-78CB8BA8DE35\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_200_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"DBE072F0-3609-4E42-B744-79984AB64845\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_200_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"94751795-6240-4785-A1DF-F8094BFED4BD\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_200_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"F24C7031-E869-4182-ABAB-26C89489B198\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:40:48.074445+00:00"
+    },
+    {
+      "original_file": "d0019",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=F93B6A06-2951-46D2-A7E1-103D7318D612",
+      "started_at": "2026-09-13T09:40:48.075896+00:00",
+      "fetch_result": {
+        "file_id": "d0019",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=F93B6A06-2951-46D2-A7E1-103D7318D612",
+        "requested_at": "2026-09-13T09:40:53.471452+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "F93B6A06-2951-46D2-A7E1-103D7318D612"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:40:54 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "547",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=.BZAUJACdcxgKipnsfpULUTyJkiwm_HCjwesAZ8wyYY-1789292454.3010802-1.0.1.1-lNw7Rt5915WjRQ8Z1Qvv4guJa5YnEYwmkoO6LW.TMa3iN3k9nqpM5RCUhvYkIJpRHF6hTiNURZTxQzbfHp_Ga0he7tiv3aN_d5wx0OhVHh76ppn1xTiD0vpaL53ydLF1; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:10:54 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a6316f6b93df5b-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=F93B6A06-2951-46D2-A7E1-103D7318D612",
+        "bytes": 547,
+        "received_at": "2026-09-13T09:40:54.362084+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:40:54.357\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"F93B6A06-2951-46D2-A7E1-103D7318D612\",\"criteria\":\"cpe:2.3:h:zyxel:usg_flex_200:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2021-01-12T18:00:46.540\",\"created\":\"2020-12-02T15:10:45.210\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:usg_flex_200:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"F11DF239-8003-46D4-BBD8-B010A38FB73E\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:40:54.364649+00:00"
+    },
+    {
+      "original_file": "d0020",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=3CF08551-BA8E-47BC-985D-D5ED76A46793",
+      "started_at": "2026-09-13T09:40:54.365859+00:00",
+      "fetch_result": {
+        "file_id": "d0020",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=3CF08551-BA8E-47BC-985D-D5ED76A46793",
+        "requested_at": "2026-09-13T09:40:59.669030+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "3CF08551-BA8E-47BC-985D-D5ED76A46793"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:41:00 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "989",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=l1KM_xoZJRedNHscGhX.6uzw29W.qvMNTT3h2E4291g-1789292460.3224201-1.0.1.1-tuODagd3MIZ5bEb87BtqiHOx0dRuXMRuVaD2p48CG7yM5At.TTKhUZ1rQaUyFlI.yHCGKV2QGCRsyXW5Aixnmk2TWZt2BApkEcnHlv8IXob.5DCnQQKa2Z9OmOubjd5k; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:11:00 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a631950834681b-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=3CF08551-BA8E-47BC-985D-D5ED76A46793",
+        "bytes": 989,
+        "received_at": "2026-09-13T09:41:00.455565+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:41:00.400\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"3CF08551-BA8E-47BC-985D-D5ED76A46793\",\"criteria\":\"cpe:2.3:o:zyxel:usg_flex_50_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-08-12T00:08:06.533\",\"cpeLastModified\":\"2025-01-24T12:06:29.920\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_50_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"F1E0D5D9-36F9-4B11-A7CF-4EE96A5D16E4\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_50_firmware:5.00:*:*:*:*:*:*:*\",\"cpeNameId\":\"C4668DF8-4B8F-4F65-9D18-B05243617DF7\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_50_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"C7FB9897-E439-4B92-B0A4-26883662A8A0\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_50_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"FB85C94A-3740-4DDB-B955-82809508103B\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:41:00.458134+00:00"
+    },
+    {
+      "original_file": "d0021",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=646C1F07-B553-47B0-953B-DC7DE7FD0F8B",
+      "started_at": "2026-09-13T09:41:00.459920+00:00",
+      "fetch_result": {
+        "file_id": "d0021",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=646C1F07-B553-47B0-953B-DC7DE7FD0F8B",
+        "requested_at": "2026-09-13T09:41:05.869012+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "646C1F07-B553-47B0-953B-DC7DE7FD0F8B"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:41:06 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "545",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=AtRdEDiqjP2zChdBOk_rb39U2KKpNRtzneKRTRFeRq8-1789292466.5305731-1.0.1.1-vcZjilVNHLwHwAAEY99dll5UKx9sMWYeHytnEm_LsNrZQ87lICFKvpPimctScZjL3y3E4AAa7d5dWkRkosBl__KD.UA6bsBRtpU3lEFu2F7I.nZBXwpizcaZMBhdIsjm; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:11:06 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a631bbcb5327a4-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=646C1F07-B553-47B0-953B-DC7DE7FD0F8B",
+        "bytes": 545,
+        "received_at": "2026-09-13T09:41:06.578929+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:41:06.583\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"646C1F07-B553-47B0-953B-DC7DE7FD0F8B\",\"criteria\":\"cpe:2.3:h:zyxel:usg_flex_50:-:*:*:*:*:*:*:*\",\"lastModified\":\"2023-05-01T12:21:32.263\",\"cpeLastModified\":\"2023-02-16T20:44:07.873\",\"created\":\"2023-02-13T18:20:28.150\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:usg_flex_50:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"6F5F29FD-BAAB-4DA7-B03B-9AF26D368A30\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:41:06.581060+00:00"
+    },
+    {
+      "original_file": "d0022",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=62ACD903-AC40-451C-B2AB-6F843B3C8897",
+      "started_at": "2026-09-13T09:41:06.582300+00:00",
+      "fetch_result": {
+        "file_id": "d0022",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=62ACD903-AC40-451C-B2AB-6F843B3C8897",
+        "requested_at": "2026-09-13T09:41:12.067978+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "62ACD903-AC40-451C-B2AB-6F843B3C8897"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:41:12 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1360",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=MqAW5oXlxQmEimW6YJDDtXaiF5OfbB72tyr844jUuR4-1789292472.76518-1.0.1.1-zW3TPf1HBgNYjz57vhJCkIf99hSPzkbYu0LxXyBHQE7uMyuI11iIab1yse.2G7ClEf4Wf0vZWPeY2YXw9t0rG8xRFrHcQEQ6LxKpdw8srlPCSmbjt.tdIk5sfZtjtCvT; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:11:12 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a631e2caa4b3e2-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=62ACD903-AC40-451C-B2AB-6F843B3C8897",
+        "bytes": 1360,
+        "received_at": "2026-09-13T09:41:12.818236+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:41:12.813\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"62ACD903-AC40-451C-B2AB-6F843B3C8897\",\"criteria\":\"cpe:2.3:o:zyxel:usg_flex_500_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-08-12T00:08:06.533\",\"cpeLastModified\":\"2025-01-24T12:06:29.920\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_500_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"B57B095E-5F40-47C3-81B2-8CFD90805555\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_500_firmware:5.00:*:*:*:*:*:*:*\",\"cpeNameId\":\"ABA2089B-4E89-4BAB-BF72-368D63CA399A\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_500_firmware:5.01:*:*:*:*:*:*:*\",\"cpeNameId\":\"21BC7737-A158-48FB-955E-A2792857355C\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_500_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"88223A2A-9DE9-4329-A6F7-7D2376A2AECF\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_500_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"94DA6DCD-B4C0-42DC-9072-97BC07B7DF68\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_500_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"172199D6-49D5-4314-A2FB-49DD03B2304F\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_500_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"98CFBDAB-A290-4422-B379-36FFEDE64364\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:41:12.820957+00:00"
+    },
+    {
+      "original_file": "d0023",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=92C697A5-D1D3-4FF0-9C43-D27B18181958",
+      "started_at": "2026-09-13T09:41:12.822673+00:00",
+      "fetch_result": {
+        "file_id": "d0023",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=92C697A5-D1D3-4FF0-9C43-D27B18181958",
+        "requested_at": "2026-09-13T09:41:18.269141+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "92C697A5-D1D3-4FF0-9C43-D27B18181958"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:41:19 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "547",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=1obRLSAuK0mk4LQsAB5FbIIR2reL93EZB6_N16F.YU0-1789292478.9336312-1.0.1.1-Mj4dSrw3j2WG15BGScmAAU6krjlSZ5JErDdKeUdJuvy..i74P_HsYweH8hTtBdfVGAjlpvFebvE4sUtOxgHgOWNfa8D5GRMXEXqpr7qCcOAycPPxIJcK39lf8EcksFAS; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:11:19 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a632095d225ea8-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=92C697A5-D1D3-4FF0-9C43-D27B18181958",
+        "bytes": 547,
+        "received_at": "2026-09-13T09:41:19.158487+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:41:18.990\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"92C697A5-D1D3-4FF0-9C43-D27B18181958\",\"criteria\":\"cpe:2.3:h:zyxel:usg_flex_500:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2021-01-12T18:00:46.880\",\"created\":\"2020-12-02T15:10:45.243\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:usg_flex_500:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"CD3B1947-FD9E-433F-BD1E-B8823763D673\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:41:19.161188+00:00"
+    },
+    {
+      "original_file": "d0024",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=BE7B066A-5AF0-42AF-A341-A91802F588F1",
+      "started_at": "2026-09-13T09:41:19.162250+00:00",
+      "fetch_result": {
+        "file_id": "d0024",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=BE7B066A-5AF0-42AF-A341-A91802F588F1",
+        "requested_at": "2026-09-13T09:41:24.472258+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "BE7B066A-5AF0-42AF-A341-A91802F588F1"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:41:25 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1116",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=AdFvkdn2yyRYZSH7A4VphfH2AnKklHlHnBEAZcQtstk-1789292485.3290508-1.0.1.1-4cVF4g5EBGhJxfg1Jy0mP7UGdvPErMyv4EgIVZY79C5o3u0xWWSNEVMXD.3LcUeeQ46H.M8uZgRKRs_GV4sJPw5VIS1fRezZEs9omV3ZwnLuEl.vr8uN.2bWovyGx.Gp; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:11:25 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a632314b0376ec-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=BE7B066A-5AF0-42AF-A341-A91802F588F1",
+        "bytes": 1116,
+        "received_at": "2026-09-13T09:41:25.402725+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:41:25.397\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"BE7B066A-5AF0-42AF-A341-A91802F588F1\",\"criteria\":\"cpe:2.3:o:zyxel:usg_flex_50w_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2024-03-29T19:46:27.127\",\"cpeLastModified\":\"2023-08-12T00:08:06.533\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_50w_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"28CCB0C0-A1DE-4153-8BB8-8A529E57E097\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_50w_firmware:5.00:*:*:*:*:*:*:*\",\"cpeNameId\":\"C0159CDE-FFFA-4EBC-9015-3D750ED6091D\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_50w_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"D00E1C24-830F-4D92-A0AC-99133FF0C3CC\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_50w_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"DF516372-3796-4BA3-8F7F-A4B78852974D\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_50w_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"8423DF81-9B3B-43F7-915A-3823953A00DA\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:41:25.405630+00:00"
+    },
+    {
+      "original_file": "d0025",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=110A1CA4-0170-4834-8281-0A3E14FC5584",
+      "started_at": "2026-09-13T09:41:25.406973+00:00",
+      "fetch_result": {
+        "file_id": "d0025",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=110A1CA4-0170-4834-8281-0A3E14FC5584",
+        "requested_at": "2026-09-13T09:41:30.672353+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "110A1CA4-0170-4834-8281-0A3E14FC5584"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:41:31 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "547",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=ms_JWUmtUHJJSCR7jGCt_BNfq6wAp5q99oftMqniQiM-1789292491.3326914-1.0.1.1-wPE75TmQpeaexQEQdC.nRdP2noUKB7v.FJUhr7S1._5pLTuEIfblCBg9niOLacFZNJsAnn_TCeN8HNI5UvJ8T6m7N6.z_BsM8rRm87ENvRR5ppRjnrdNtmneX6nAaFd1; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:11:31 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a63256dc44b9c4-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=110A1CA4-0170-4834-8281-0A3E14FC5584",
+        "bytes": 547,
+        "received_at": "2026-09-13T09:41:31.395508+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:41:31.393\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"110A1CA4-0170-4834-8281-0A3E14FC5584\",\"criteria\":\"cpe:2.3:h:zyxel:usg_flex_50w:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2022-06-06T17:04:22.433\",\"created\":\"2022-05-18T16:08:44.207\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:usg_flex_50w:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"7E83FC84-714E-4EE4-905F-4C1FB3DC28C5\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:41:31.398529+00:00"
+    },
+    {
+      "original_file": "d0026",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=04A828C5-B71C-43EE-8132-C14C58A52360",
+      "started_at": "2026-09-13T09:41:31.400023+00:00",
+      "fetch_result": {
+        "file_id": "d0026",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=04A828C5-B71C-43EE-8132-C14C58A52360",
+        "requested_at": "2026-09-13T09:41:36.876836+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "04A828C5-B71C-43EE-8132-C14C58A52360"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:41:37 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "1238",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=Ji_fQQPZctLgBmMS8mvUJ9Iy8pJNxC6dH27vuzTVvXw-1789292497.5442665-1.0.1.1-fpJAPk6A5dL8MFHCcrJOdjX1coD22fAUpktN2L_pTojtM1Nlb4.ZtSr9HhW3L7iUsLV.pyfiS9_BdSVX1IJrxd7CIz8lvqhrR5EwaYk6sxiKj1pk6Iwok_pR5BXGhTnO; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:11:37 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a6327daf6975bf-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=04A828C5-B71C-43EE-8132-C14C58A52360",
+        "bytes": 1238,
+        "received_at": "2026-09-13T09:41:37.691704+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:41:37.623\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"04A828C5-B71C-43EE-8132-C14C58A52360\",\"criteria\":\"cpe:2.3:o:zyxel:usg_flex_700_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-08-12T00:08:06.533\",\"cpeLastModified\":\"2025-01-24T12:06:29.920\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_700_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"5633B7DE-5E90-43AF-8C98-79DA7FA25BE5\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_700_firmware:5.00:*:*:*:*:*:*:*\",\"cpeNameId\":\"09D081AD-CE0C-40D8-A076-B849E7D1136A\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_700_firmware:5.10:*:*:*:*:*:*:*\",\"cpeNameId\":\"59DC88CC-44B5-42C2-B323-ED4E3635A567\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_700_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"F21C662C-1DDC-4CA0-9A26-D4E9FE40C0AA\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_700_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"0500CD51-21ED-4EAD-932E-4E81BAA578BC\"},{\"cpeName\":\"cpe:2.3:o:zyxel:usg_flex_700_firmware:5.35:*:*:*:*:*:*:*\",\"cpeNameId\":\"396B55FD-FF5D-46C7-9FE4-88519A7B5421\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:41:37.694031+00:00"
+    },
+    {
+      "original_file": "d0027",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9D1396E3-731B-4D05-A3F8-F3ABB80D5C29",
+      "started_at": "2026-09-13T09:41:37.695412+00:00",
+      "fetch_result": {
+        "file_id": "d0027",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9D1396E3-731B-4D05-A3F8-F3ABB80D5C29",
+        "requested_at": "2026-09-13T09:41:43.078599+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "9D1396E3-731B-4D05-A3F8-F3ABB80D5C29"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:41:43 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "547",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=p.XNh.la2Jf.wW56Wa6jaQHRYfEMFyo5FY0n1sJQCkE-1789292503.8109627-1.0.1.1-C3aFvrpq8KpREQKKaL6RBNvfhQiwlPU66GZHHtry0Nu.ZfZiiQYWXdsx155CXjG1JHjXJ6jblyuzixxuixMSCTOMUzU793vJK.2mdp1cMpD.EPSQVQV36FBadU5mo1Jm; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:11:43 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a632a4c94a720b-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9D1396E3-731B-4D05-A3F8-F3ABB80D5C29",
+        "bytes": 547,
+        "received_at": "2026-09-13T09:41:43.861783+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:41:43.857\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"9D1396E3-731B-4D05-A3F8-F3ABB80D5C29\",\"criteria\":\"cpe:2.3:h:zyxel:usg_flex_700:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2021-01-12T18:00:47.257\",\"created\":\"2020-12-02T15:10:45.320\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:usg_flex_700:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"A90F1C59-E716-4C1C-9066-95EAB8A392D5\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:41:43.864564+00:00"
+    },
+    {
+      "original_file": "d0028",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=42F4D9F3-BCBF-4990-B270-3592D69FCC22",
+      "started_at": "2026-09-13T09:41:43.866150+00:00",
+      "fetch_result": {
+        "file_id": "d0028",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=42F4D9F3-BCBF-4990-B270-3592D69FCC22",
+        "requested_at": "2026-09-13T09:41:49.287233+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "42F4D9F3-BCBF-4990-B270-3592D69FCC22"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:41:50 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "964",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=GSBhH_9H1ZPKa2z.l3o51qNi02SnZHg88qES.ea6ktU-1789292509.9795575-1.0.1.1-A1IvkPJvHXYT2.IEH_y2Zfp8GI6x8NzpuJ52O0dMN_i_HxhXyO36BXkrH4SZGYXXdNZmIcOzO1ny8IzaeBtRfoz90wqUG36Il05LBtqfYX0lF8wuEeagOSkQEQoTLZwv; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:11:50 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a632cb5e02281c-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=42F4D9F3-BCBF-4990-B270-3592D69FCC22",
+        "bytes": 964,
+        "received_at": "2026-09-13T09:41:50.023840+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:41:50.020\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"42F4D9F3-BCBF-4990-B270-3592D69FCC22\",\"criteria\":\"cpe:2.3:o:zyxel:vpn100_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-05-01T17:21:11.913\",\"cpeLastModified\":\"2023-05-01T17:21:11.913\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:vpn100_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"9D9012E1-F63E-4134-8AF7-E71EF711057B\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn100_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"3BACCFD2-1109-4AEA-A8D1-06651E51C728\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn100_firmware:5.21:*:*:*:*:*:*:*\",\"cpeNameId\":\"6FFD4095-57CA-4EB5-A8E6-A593F8C03297\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn100_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"2E48106A-147D-4B15-998E-A1E68AB4B8BD\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:41:50.027256+00:00"
+    },
+    {
+      "original_file": "d0029",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=81D90A7B-174F-40A1-8AF4-08B15B7BAC40",
+      "started_at": "2026-09-13T09:41:50.028989+00:00",
+      "fetch_result": {
+        "file_id": "d0029",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=81D90A7B-174F-40A1-8AF4-08B15B7BAC40",
+        "requested_at": "2026-09-13T09:41:55.481233+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "81D90A7B-174F-40A1-8AF4-08B15B7BAC40"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:41:56 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "535",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=kt2R1bsta5bQSXPxno8OAAp.hb9xG3KQm4Qjwcu2gZ4-1789292516.169503-1.0.1.1-brf9_pUoHUK.xEkCcFqT2QloHkVsiSgUu15MG0gAGhBzZrDGVOCGNgdiP4WWPVxrTxaxSAhw4g8IQUgEMy7h7FW0q4mWSZEg7HBz5eUVhDBEPrbGNpMaqaQikRZYABwZ; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:11:56 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a632f2086230bc-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=81D90A7B-174F-40A1-8AF4-08B15B7BAC40",
+        "bytes": 535,
+        "received_at": "2026-09-13T09:41:56.221144+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:41:56.227\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"81D90A7B-174F-40A1-8AF4-08B15B7BAC40\",\"criteria\":\"cpe:2.3:h:zyxel:vpn100:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2019-10-24T17:01:18.077\",\"created\":\"2019-06-17T09:16:33.960\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:vpn100:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"E7612283-0B02-4F0B-86AF-6CCCEED95430\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:41:56.223698+00:00"
+    },
+    {
+      "original_file": "d0030",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=E136FA9E-48A2-428C-9F0A-CD9DB7F91581",
+      "started_at": "2026-09-13T09:41:56.225014+00:00",
+      "fetch_result": {
+        "file_id": "d0030",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=E136FA9E-48A2-428C-9F0A-CD9DB7F91581",
+        "requested_at": "2026-09-13T09:42:01.686082+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "E136FA9E-48A2-428C-9F0A-CD9DB7F91581"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:42:02 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "969",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=OGv7BN73nTIOCRe8boZ27QtfwjN1NtE42RRJDARCQtA-1789292522.428665-1.0.1.1-Zeqpe4YO6x5PEFhsk3lUEleeUAA2rt811nb78IOL_FCWGZTM26aUbukcXAzLquVkEzThNq6Ifkzg3Xx4N3_RZEaBPU.YweO4ENs29B4twm9rPLqSr76Vn2du3gQz.eQB; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:12:02 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a63319284b1565-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=E136FA9E-48A2-428C-9F0A-CD9DB7F91581",
+        "bytes": 969,
+        "received_at": "2026-09-13T09:42:02.492538+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:42:02.490\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"E136FA9E-48A2-428C-9F0A-CD9DB7F91581\",\"criteria\":\"cpe:2.3:o:zyxel:vpn1000_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-05-01T17:21:11.913\",\"cpeLastModified\":\"2023-05-01T17:21:11.913\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:vpn1000_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"C052F02C-922B-4A0D-B55B-EF4DB292C9DC\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn1000_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"A1D4115C-1E9F-4BF7-A401-EBB5AED1A680\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn1000_firmware:5.21:*:*:*:*:*:*:*\",\"cpeNameId\":\"D558F335-64A8-434F-9C8D-D2A0E2743376\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn1000_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"530AE373-DFD0-4D6E-8137-AC191E8A3482\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:42:02.494766+00:00"
+    },
+    {
+      "original_file": "d0031",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=EECD311A-4E96-4576-AADF-47291EDE3559",
+      "started_at": "2026-09-13T09:42:02.496393+00:00",
+      "fetch_result": {
+        "file_id": "d0031",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=EECD311A-4E96-4576-AADF-47291EDE3559",
+        "requested_at": "2026-09-13T09:42:07.889847+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "EECD311A-4E96-4576-AADF-47291EDE3559"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:42:08 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "537",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=sFMoU_uyWI9UurlOG0DTM7B.itFm2fimBrTlDPJJMKY-1789292528.557016-1.0.1.1-lAppRm8zqwLDqdkQ3QMW_SwbizGEBWvbVK7R.bf8WsMr_E17W9wcvJqiXH5.zkQSbl3e7oYZCrXKKWYKLuZg.Llxiupc7nSpTHlm_v4Qx9Xuw5n7MwXm2vBY37LLLeYu; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:12:08 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a6333f7ab97590-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=EECD311A-4E96-4576-AADF-47291EDE3559",
+        "bytes": 537,
+        "received_at": "2026-09-13T09:42:08.620812+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:42:08.620\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"EECD311A-4E96-4576-AADF-47291EDE3559\",\"criteria\":\"cpe:2.3:h:zyxel:vpn1000:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2021-03-22T20:02:38.157\",\"created\":\"2020-03-05T19:38:24.023\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:vpn1000:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"597BC105-2F56-4232-B052-66084B99AF4E\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:42:08.623697+00:00"
+    },
+    {
+      "original_file": "d0032",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=5DCFD02F-5884-4A96-957D-4CEEDB3826BE",
+      "started_at": "2026-09-13T09:42:08.625227+00:00",
+      "fetch_result": {
+        "file_id": "d0032",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=5DCFD02F-5884-4A96-957D-4CEEDB3826BE",
+        "requested_at": "2026-09-13T09:42:14.094190+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "5DCFD02F-5884-4A96-957D-4CEEDB3826BE"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:42:14 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "964",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=l3Dx7zKfRYwDxRHA1XFIc1yNUCdkeGFxBadiHgf0s_M-1789292534.7466147-1.0.1.1-010jot_1QTY1_ezwl_JyXD.LS70xnrKFvffAjgMzsinTpm8jHtqs2wriePNNuInpVH6MNjfbASJhrOlLN.U4nPb0YiYX4ePrakPiisVxLdeVq1h0UPEXs4.oHzDkxBy_; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:12:14 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a633662b079989-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=5DCFD02F-5884-4A96-957D-4CEEDB3826BE",
+        "bytes": 964,
+        "received_at": "2026-09-13T09:42:14.897823+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:42:14.803\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"5DCFD02F-5884-4A96-957D-4CEEDB3826BE\",\"criteria\":\"cpe:2.3:o:zyxel:vpn300_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-05-01T17:21:11.913\",\"cpeLastModified\":\"2023-05-01T17:21:11.913\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:vpn300_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"63013E45-F1D9-44EC-9D50-CC4611F35511\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn300_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"0DB3033E-1F7E-4205-A7AE-3B7CA499FB2E\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn300_firmware:5.21:*:*:*:*:*:*:*\",\"cpeNameId\":\"FA90B2A2-7AD7-468C-B7D0-6F4EA9A14EB1\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn300_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"8137723F-530C-47F6-B864-C9B0260721E4\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:42:14.900474+00:00"
+    },
+    {
+      "original_file": "d0033",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=3C45C303-1A95-4245-B242-3AB9B9106CD4",
+      "started_at": "2026-09-13T09:42:14.902711+00:00",
+      "fetch_result": {
+        "file_id": "d0033",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=3C45C303-1A95-4245-B242-3AB9B9106CD4",
+        "requested_at": "2026-09-13T09:42:20.299118+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "3C45C303-1A95-4245-B242-3AB9B9106CD4"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:42:21 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "535",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=4g_eLyO.9QMivpNEO3AZWJGNBHroA8c0lcsYlHJXDGM-1789292540.951524-1.0.1.1-rzkT5t4dbIdtxHr0e5fRBR5xqSu.el9aMPiYVpXMcYwVcqTff9AmdoIohuv9disVZflKEUBhTtHNMbl3DqAhtkAcX2oPGiqF5.WdW4yuHpPtXwdyeDSCi06Q_0iC0Iwa; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:12:21 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a6338cfa20ed00-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=3C45C303-1A95-4245-B242-3AB9B9106CD4",
+        "bytes": 535,
+        "received_at": "2026-09-13T09:42:20.994949+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:42:21.003\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"3C45C303-1A95-4245-B242-3AB9B9106CD4\",\"criteria\":\"cpe:2.3:h:zyxel:vpn300:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2019-10-24T17:01:18.293\",\"created\":\"2019-06-17T09:16:33.960\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:vpn300:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"26813BCE-4A73-41EF-8CB8-F190F0F23871\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:42:21.066210+00:00"
+    },
+    {
+      "original_file": "d0034",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9C6AFD50-926C-4579-A951-4EFDCBA512F0",
+      "started_at": "2026-09-13T09:42:21.068123+00:00",
+      "fetch_result": {
+        "file_id": "d0034",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9C6AFD50-926C-4579-A951-4EFDCBA512F0",
+        "requested_at": "2026-09-13T09:42:26.499088+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "9C6AFD50-926C-4579-A951-4EFDCBA512F0"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:42:27 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "959",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=jmDva5nZTfT.9tVAwRvJJYp5AbPzTmuG4dDNffeeBc8-1789292547.2039952-1.0.1.1-3hkA54.ZMsnZWMIf962PRBPi5oIy963KqF2hhewV7sF_01t5_gd2ds6BKwu37fer7tl5ov1CFqFCSkmafcG0vrmd_ITOY.cqAkCE8.0QtiAbvkTsijd0vRBpL5U6by3B; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:12:27 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a633b40a7b76e2-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9C6AFD50-926C-4579-A951-4EFDCBA512F0",
+        "bytes": 959,
+        "received_at": "2026-09-13T09:42:27.251285+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:42:27.257\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"9C6AFD50-926C-4579-A951-4EFDCBA512F0\",\"criteria\":\"cpe:2.3:o:zyxel:vpn50_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"5.36\",\"lastModified\":\"2023-05-01T17:21:11.913\",\"cpeLastModified\":\"2023-05-01T17:21:11.913\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:vpn50_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"9634F27E-BEE0-418A-B642-8555FC82E8B7\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn50_firmware:5.20:*:*:*:*:*:*:*\",\"cpeNameId\":\"A804290C-A0CA-426F-85AF-3DFD360170D5\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn50_firmware:5.21:*:*:*:*:*:*:*\",\"cpeNameId\":\"29AC89F9-263F-488D-8967-5D510377355C\"},{\"cpeName\":\"cpe:2.3:o:zyxel:vpn50_firmware:5.30:*:*:*:*:*:*:*\",\"cpeNameId\":\"B8923ECF-19A0-4265-805D-13C9A93DDEA9\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:42:27.252389+00:00"
+    },
+    {
+      "original_file": "d0035",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9E3AC823-0ECA-42D8-8312-2FBE5914E4C0",
+      "started_at": "2026-09-13T09:42:27.253244+00:00",
+      "fetch_result": {
+        "file_id": "d0035",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9E3AC823-0ECA-42D8-8312-2FBE5914E4C0",
+        "requested_at": "2026-09-13T09:42:32.704614+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "9E3AC823-0ECA-42D8-8312-2FBE5914E4C0"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:42:33 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "533",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=JgTA8xpmmHjLa96gZlh6YZNowdlUA4Ve4uaZtAdhbqE-1789292553.3718615-1.0.1.1-MrgRaivJ6rxmdJj1Ve.sjgmmGqLptM2Xzr33JTXapXLJXn4nDJOPrkwj_SXaqaT5Sa41Nr8Zvj8S7nBL850nWfBN56AHi8PyGv8BR3EcZm0H4VwUUMsc.HfI_V_7j8gR; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:12:33 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a633da8b6aba28-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=9E3AC823-0ECA-42D8-8312-2FBE5914E4C0",
+        "bytes": 533,
+        "received_at": "2026-09-13T09:42:33.425434+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:42:33.417\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"9E3AC823-0ECA-42D8-8312-2FBE5914E4C0\",\"criteria\":\"cpe:2.3:h:zyxel:vpn50:-:*:*:*:*:*:*:*\",\"lastModified\":\"2022-07-29T14:11:50.133\",\"cpeLastModified\":\"2019-10-24T17:01:18.497\",\"created\":\"2019-06-17T09:16:33.960\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:vpn50:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"AD3EA730-D79E-4209-BE8F-50EA444F969B\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:42:33.427878+00:00"
+    },
+    {
+      "original_file": "d0036",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D84D915E-8075-4DFC-8C83-D7E6A65D7AFC",
+      "started_at": "2026-09-13T09:42:33.429512+00:00",
+      "fetch_result": {
+        "file_id": "d0036",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D84D915E-8075-4DFC-8C83-D7E6A65D7AFC",
+        "requested_at": "2026-09-13T09:42:38.909423+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "D84D915E-8075-4DFC-8C83-D7E6A65D7AFC"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:42:39 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "632",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=srGodj9.Jh5xS9CYI8L8yxp7cVACYYbvUAq7YcjlXfc-1789292559.6599278-1.0.1.1-j7cWdTm5VH4KZ.VVEgDSrRsVYc0S_7tkqR70VDugJPCtfliLEKMQs9ztZ1DSJLyPXfquKhZBBNrQwywdrjd.jefZqirlOdcyMW3xGMQ.4o_Yg2m3KEZr2iPOW4YP7Vnj; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:12:39 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a63401db667520-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=D84D915E-8075-4DFC-8C83-D7E6A65D7AFC",
+        "bytes": 632,
+        "received_at": "2026-09-13T09:42:39.716539+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:42:39.720\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"D84D915E-8075-4DFC-8C83-D7E6A65D7AFC\",\"criteria\":\"cpe:2.3:o:zyxel:zywall_usg_310_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"4.73\",\"lastModified\":\"2023-05-01T17:21:11.913\",\"cpeLastModified\":\"2023-08-12T00:08:06.533\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:zywall_usg_310_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"AE23837F-22D9-4A40-A1C4-F6D9D549BECF\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:42:39.718408+00:00"
+    },
+    {
+      "original_file": "d0037",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=34699536-4CA4-4F87-8E69-A16F2C88A1E8",
+      "started_at": "2026-09-13T09:42:39.720225+00:00",
+      "fetch_result": {
+        "file_id": "d0037",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=34699536-4CA4-4F87-8E69-A16F2C88A1E8",
+        "requested_at": "2026-09-13T09:42:45.116634+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "34699536-4CA4-4F87-8E69-A16F2C88A1E8"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:42:45 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "575",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=n9maF3CyUlKVIpxDlmNngtB137NtkdyemxnaF7dnzpM-1789292565.8956099-1.0.1.1-A2PIQFItuEM0p0GyaSFAwcLwKOiOmRmcErqDWz6ihvmQ6gWcllOmnuW1r9V9AIGXE7RaT3eD4DvJbjSX3ZQkvgH8BicIpOQmBRVDRjdmIgTcujoRqZHyas2.my92kXQX; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:12:45 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a63428dff5a377-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=34699536-4CA4-4F87-8E69-A16F2C88A1E8",
+        "bytes": 575,
+        "received_at": "2026-09-13T09:42:45.943470+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:42:45.947\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"34699536-4CA4-4F87-8E69-A16F2C88A1E8\",\"criteria\":\"cpe:2.3:o:zyxel:zywall_usg_310_firmware:4.73:-:*:*:*:*:*:*\",\"lastModified\":\"2023-08-12T00:08:06.533\",\"cpeLastModified\":\"2023-08-12T00:08:06.533\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:zywall_usg_310_firmware:4.73:-:*:*:*:*:*:*\",\"cpeNameId\":\"016BFB1E-E834-4F62-8698-ABFB9C46D344\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:42:45.946341+00:00"
+    },
+    {
+      "original_file": "d0038",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=A983A8D5-1B1E-4DE5-93FE-DED5B2DDCB83",
+      "started_at": "2026-09-13T09:42:45.948009+00:00",
+      "fetch_result": {
+        "file_id": "d0038",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=A983A8D5-1B1E-4DE5-93FE-DED5B2DDCB83",
+        "requested_at": "2026-09-13T09:42:51.315063+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "A983A8D5-1B1E-4DE5-93FE-DED5B2DDCB83"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:42:52 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "551",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=DZ1EHBsMbC7b.aS70kEpxJSldzj6E1UXAnRkb862Tq4-1789292571.973316-1.0.1.1-3JRFaM3QDi1uDxAw22TTT75XGWD2gJEpWUh7P.S0VNxs_4r17QNmD282ZVnj46ZvicGDp2K1gYcfoGe.CoUdynryDrC91KiufUbK3emcVmvo1j_cv58m8j1rQHs2_Bg5; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:12:52 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a6344ed85cad8d-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=A983A8D5-1B1E-4DE5-93FE-DED5B2DDCB83",
+        "bytes": 551,
+        "received_at": "2026-09-13T09:42:52.028956+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:42:52.030\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"A983A8D5-1B1E-4DE5-93FE-DED5B2DDCB83\",\"criteria\":\"cpe:2.3:h:zyxel:zywall_usg_310:-:*:*:*:*:*:*:*\",\"lastModified\":\"2023-09-22T21:13:32.977\",\"cpeLastModified\":\"2023-09-22T21:13:32.977\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:zywall_usg_310:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"0CDB40C3-4D3F-4788-9AAA-E91ECF75BA84\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:42:52.031588+00:00"
+    },
+    {
+      "original_file": "d0039",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=81F20DFB-ED71-4D6F-9B15-4F86341550A9",
+      "started_at": "2026-09-13T09:42:52.033695+00:00",
+      "fetch_result": {
+        "file_id": "d0039",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=81F20DFB-ED71-4D6F-9B15-4F86341550A9",
+        "requested_at": "2026-09-13T09:42:57.520492+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "81F20DFB-ED71-4D6F-9B15-4F86341550A9"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:42:58 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "632",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=B9AWD_f_f0uaNSpvFUAAIG3PPC2Vlo.GMNQGifBuNaI-1789292578.1829686-1.0.1.1-t7PVPtJ86mZacoOph7h1Ud59_UBYs1pReP8mseL4o.7Z01lhqm1T4XE321CX5pagB5pPonr7WN93BshN5IYCmrxty9z.Sw2OEY4w5ScV9RAdHB71FQBknhljpuzCRE0A; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:12:58 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a63475aa1dec90-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=81F20DFB-ED71-4D6F-9B15-4F86341550A9",
+        "bytes": 632,
+        "received_at": "2026-09-13T09:42:58.247012+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:42:58.247\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"81F20DFB-ED71-4D6F-9B15-4F86341550A9\",\"criteria\":\"cpe:2.3:o:zyxel:zywall_usg_100_firmware:*:*:*:*:*:*:*:*\",\"versionStartIncluding\":\"4.60\",\"versionEndExcluding\":\"4.73\",\"lastModified\":\"2023-05-01T17:21:11.913\",\"cpeLastModified\":\"2023-08-12T00:08:06.533\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:zywall_usg_100_firmware:4.60:*:*:*:*:*:*:*\",\"cpeNameId\":\"5B8BE87E-B1BF-49F3-8C1E-553AB4160C5A\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:42:58.249370+00:00"
+    },
+    {
+      "original_file": "d0040",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=5D5DCBFB-AB12-4525-ADD4-F85059E59177",
+      "started_at": "2026-09-13T09:42:58.251032+00:00",
+      "fetch_result": {
+        "file_id": "d0040",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=5D5DCBFB-AB12-4525-ADD4-F85059E59177",
+        "requested_at": "2026-09-13T09:43:03.720548+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "5D5DCBFB-AB12-4525-ADD4-F85059E59177"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:43:04 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "575",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=M54Wp7XmYnzbXWjtY_urhRKg0OxjB2o4CRa3ghYTjCs-1789292584.433429-1.0.1.1-obM._d6K8V_peBrgvbB073kClkgAcmlKX2MNji2aXtbpTPApBJj0N0I.Kiyq3_yoWq_usHZ12ixSG_kF3K4DzxtCHccWon7eEq6xxhjjUklrZWcsHKg7JGwntf0IYjAr; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:13:04 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a6349cba8ba360-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=5D5DCBFB-AB12-4525-ADD4-F85059E59177",
+        "bytes": 575,
+        "received_at": "2026-09-13T09:43:04.514152+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:43:04.513\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"5D5DCBFB-AB12-4525-ADD4-F85059E59177\",\"criteria\":\"cpe:2.3:o:zyxel:zywall_usg_100_firmware:4.73:-:*:*:*:*:*:*\",\"lastModified\":\"2023-08-12T00:08:06.533\",\"cpeLastModified\":\"2023-08-12T00:08:06.533\",\"created\":\"2023-05-01T17:21:11.913\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:o:zyxel:zywall_usg_100_firmware:4.73:-:*:*:*:*:*:*\",\"cpeNameId\":\"678DB30F-676B-44B0-952C-B2CFD5A7A4F4\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:43:04.516678+00:00"
+    },
+    {
+      "original_file": "d0041",
+      "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=BB902356-D134-434B-8BAF-2CB366F32050",
+      "started_at": "2026-09-13T09:43:04.518471+00:00",
+      "fetch_result": {
+        "file_id": "d0041",
+        "url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=BB902356-D134-434B-8BAF-2CB366F32050",
+        "requested_at": "2026-09-13T09:43:09.924901+00:00",
+        "method": "GET",
+        "query": {
+          "matchCriteriaId": [
+            "BB902356-D134-434B-8BAF-2CB366F32050"
+          ]
+        },
+        "status": 200,
+        "headers": {
+          "Date": "Sun, 13 Sep 2026 09:43:10 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "551",
+          "Connection": "close",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "accept, apiKey, content-type, origin, x-requested-with",
+          "access-control-allow-methods": "GET, HEAD, OPTIONS",
+          "access-control-allow-credentials": "false",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=FJvY3.OLJGbFyFCmf_hMI46bu_9f0JiEMXOGgxTdUXc-1789292590.594296-1.0.1.1-L9ZQ4HJwvWX80293cbW57jxQCzUFTJ3U2b.mxYDrafG0klOp6ztgPXk.gWdWqsSD.GDcjDI8JNUGQFokjvlwVodPHQFidC7DaDWbMVeA0Lk6Uo7EG5VPtSLd3yFd6qm7; HttpOnly; SameSite=None; Secure; Path=/; Domain=nist.gov; Expires=Sun, 13 Sep 2026 10:13:10 GMT",
+          "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+          "Server": "cloudflare",
+          "CF-RAY": "a3a634c33ce6ded4-SEA"
+        },
+        "final_url": "https://services.nvd.nist.gov/rest/json/cpematch/2.0?matchCriteriaId=BB902356-D134-434B-8BAF-2CB366F32050",
+        "bytes": 551,
+        "received_at": "2026-09-13T09:43:10.642564+00:00",
+        "preview": "{\"resultsPerPage\":1,\"startIndex\":0,\"totalResults\":1,\"format\":\"NVD_CPEMatchString\",\"version\":\"2.0\",\"timestamp\":\"2026-09-13T09:43:10.643\",\"matchStrings\":[{\"matchString\":{\"matchCriteriaId\":\"BB902356-D134-434B-8BAF-2CB366F32050\",\"criteria\":\"cpe:2.3:h:zyxel:zywall_usg_100:-:*:*:*:*:*:*:*\",\"lastModified\":\"2019-06-17T09:16:33.960\",\"cpeLastModified\":\"2021-03-03T23:02:44.753\",\"created\":\"2019-06-17T09:16:33.960\",\"status\":\"Active\",\"matches\":[{\"cpeName\":\"cpe:2.3:h:zyxel:zywall_usg_100:-:*:*:*:*:*:*:*\",\"cpeNameId\":\"4F4E7EDF-5030-4E74-9426-92D29A5AEF7A\"}]}}]}",
+        "preview_truncated": false
+      },
+      "complete_answer_fields_unchanged": true,
+      "ended_at": "2026-09-13T09:43:10.645333+00:00"
+    }
+  ],
+  "comparison": "Full CVE configuration/status and every complete criterion/name set; timestamps are recorded but are not answer values.",
+  "retries": 0,
+  "ended_at": "2026-09-13T09:43:10.646862+00:00",
+  "public_request_items": 41
+}

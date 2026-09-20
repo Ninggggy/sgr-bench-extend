@@ -1,0 +1,43 @@
+{
+  "status": "source_claims_recomputed",
+  "cutoff": "2020-06-21T06:40:13+00:00",
+  "citation_count": 4,
+  "distinct_work_count": 3,
+  "every_citation_accounted_for": true,
+  "unknown_gold_cells": 0,
+  "discrepancies_retained": [
+    {
+      "source": "1810.03233v3",
+      "kind": "schedule_text",
+      "algorithm_power": "2/3",
+      "appendix_power": "1/2",
+      "lines": [
+        992,
+        3777
+      ]
+    },
+    {
+      "source": "1810.03233v3",
+      "kind": "assumption_text",
+      "lines": [
+        265,
+        1021,
+        3689
+      ],
+      "observation": "Main statement names A4-A6; appendix lemma names A3-A6; A3 includes convexity."
+    },
+    {
+      "source": "1810.03233v3",
+      "kind": "gap_notation",
+      "lines": [
+        188,
+        192,
+        827,
+        1028
+      ],
+      "observation": "The printed G definition differentiates F(x), while the stochastic setup distinguishes F(x;y) and f(x). No replacement of F by f is made."
+    }
+  ],
+  "proof_verification": "not_performed",
+  "solver_tests": "not_run"
+}

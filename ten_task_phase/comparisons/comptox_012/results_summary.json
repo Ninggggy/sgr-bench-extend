@@ -1,0 +1,300 @@
+{
+  "status": "six_preregistered_trials_complete",
+  "groups": {
+    "CG": [
+      {
+        "run_id": "r-2dc5eb711174",
+        "exact_item_f1": "5/6",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.8333333333333334,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 10,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 1,
+            "pair_denominator": 1,
+            "shared_ids": 2
+          },
+          "omitted_ids": [],
+          "extra_ids": [],
+          "duplicate_ids": [],
+          "order_pairs": [
+            {
+              "first": [
+                "48",
+                "42",
+                "62",
+                "child"
+              ],
+              "second": [
+                "137",
+                "197",
+                "210",
+                "child"
+              ],
+              "correct": true
+            }
+          ],
+          "poa_note": "first occurrence positions; no reordering"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 161.002
+      },
+      {
+        "run_id": "r-fbf7a0ad3ee8",
+        "exact_item_f1": "5/6",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.8333333333333334,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 10,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 1,
+            "pair_denominator": 1,
+            "shared_ids": 2
+          },
+          "omitted_ids": [],
+          "extra_ids": [],
+          "duplicate_ids": [],
+          "order_pairs": [
+            {
+              "first": [
+                "48",
+                "42",
+                "62",
+                "child"
+              ],
+              "second": [
+                "137",
+                "197",
+                "210",
+                "child"
+              ],
+              "correct": true
+            }
+          ],
+          "poa_note": "first occurrence positions; no reordering"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 191.39
+      },
+      {
+        "run_id": "r-2647d23c1013",
+        "exact_item_f1": "1",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 1.0,
+            "Row-F1": 1.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 12,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 2,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 1,
+            "pair_denominator": 1,
+            "shared_ids": 2
+          },
+          "omitted_ids": [],
+          "extra_ids": [],
+          "duplicate_ids": [],
+          "order_pairs": [
+            {
+              "first": [
+                "48",
+                "42",
+                "62",
+                "child"
+              ],
+              "second": [
+                "137",
+                "197",
+                "210",
+                "child"
+              ],
+              "correct": true
+            }
+          ],
+          "poa_note": "first occurrence positions; no reordering"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 125.872
+      }
+    ],
+    "GO": [
+      {
+        "run_id": "r-dd837f3557ad",
+        "exact_item_f1": "5/6",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.8333333333333334,
+            "Row-F1": 0.0,
+            "P.O.A.": 1.0
+          },
+          "counts": {
+            "correct_fields": 10,
+            "gold_fields": 12,
+            "pred_fields": 12,
+            "item_denominator": 24,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 2,
+            "row_denominator": 4,
+            "correct_pairs": 1,
+            "pair_denominator": 1,
+            "shared_ids": 2
+          },
+          "omitted_ids": [],
+          "extra_ids": [],
+          "duplicate_ids": [],
+          "order_pairs": [
+            {
+              "first": [
+                "48",
+                "42",
+                "62",
+                "child"
+              ],
+              "second": [
+                "137",
+                "197",
+                "210",
+                "child"
+              ],
+              "correct": true
+            }
+          ],
+          "poa_note": "first occurrence positions; no reordering"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 171.146
+      },
+      {
+        "run_id": "r-ac50d2a343b2",
+        "exact_item_f1": "5/9",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.5555555555555556,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 5,
+            "gold_fields": 12,
+            "pred_fields": 6,
+            "item_denominator": 18,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 1,
+            "row_denominator": 3,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 1
+          },
+          "omitted_ids": [
+            [
+              "137",
+              "197",
+              "210",
+              "child"
+            ]
+          ],
+          "extra_ids": [],
+          "duplicate_ids": [],
+          "order_pairs": [],
+          "poa_note": "fewer than two shared IDs => 0"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 206.312
+      },
+      {
+        "run_id": "r-d2446ad66d57",
+        "exact_item_f1": "5/9",
+        "scores": {
+          "status": "deterministic_explicit",
+          "metrics": {
+            "Item-F1": 0.5555555555555556,
+            "Row-F1": 0.0,
+            "P.O.A.": 0
+          },
+          "counts": {
+            "correct_fields": 5,
+            "gold_fields": 12,
+            "pred_fields": 6,
+            "item_denominator": 18,
+            "correct_rows": 0,
+            "gold_rows": 2,
+            "pred_rows": 1,
+            "row_denominator": 3,
+            "correct_pairs": 0,
+            "pair_denominator": 0,
+            "shared_ids": 1
+          },
+          "omitted_ids": [
+            [
+              "137",
+              "197",
+              "210",
+              "child"
+            ]
+          ],
+          "extra_ids": [],
+          "duplicate_ids": [],
+          "order_pairs": [],
+          "poa_note": "fewer than two shared IDs => 0"
+        },
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "elapsed_seconds": 211.42
+      }
+    ]
+  },
+  "exact_means": {
+    "CG": "8/9",
+    "GO": "35/54"
+  },
+  "public_answer_exposure": {
+    "status": "no_exposure_observed_in_inspected_results_or_targeted_trajectory_search",
+    "scope": "All six final evidence lists and traces searched for benchmark/GitHub/HuggingFace/oracle indicators; not a proof of no prior model exposure."
+  },
+  "semantic_ambiguity": {
+    "GO": "Explicitly asks one winner per general category, then says retain one final result. GO trials2/3 return the global winner, which is a defensible reading; omission against two-row oracle is not established domain error.",
+    "numeric_representation": "Public output does not require rational fraction syntax. Five runs output decimal shares agreeing with ratios at displayed precision; unchanged original rules compare share as text, penalizing those fields. These are representation mismatches, not substantive domain errors.",
+    "source_drift": "Observed current product/chemical counts agree with original oracle in these runs; future live counts may change.",
+    "policy": "Original prompts, oracle, rules and all six scores retained without resampling, normalization change or deletion."
+  },
+  "interpretation": "Selected old comparator only; no effect on absolute new-candidate thresholds."
+}

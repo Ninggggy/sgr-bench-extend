@@ -1,0 +1,91 @@
+{
+  "candidate_id": "scotus_joinder_001",
+  "revision": 1,
+  "decision": "stop_full_scores",
+  "stage": "development_a",
+  "at": "2026-09-12T08:05:02.543374+00:00",
+  "trials": [
+    {
+      "variant": "CG",
+      "run_path": "runs/scotus-r01-cg-dev-a",
+      "counts": {
+        "correct_fields": 9,
+        "gold_fields": 9,
+        "pred_fields": 9,
+        "item_denominator": 18,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "exact_item_f1": "1",
+      "verification_status": "passed",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.gov/opinions/slipopinion/22",
+          "locator": "Lines 34–36: R-52, R-51, and R-50 are the signed decisions dated 6/27/23."
+        },
+        {
+          "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r50_h3ci.pdf",
+          "locator": "Cover lines 0–10 confirms Volume 600 Part 1 preliminary print and Page Proof Pending Publication; page 6, lines 177–180 identifies Roberts and five joining Justices."
+        },
+        {
+          "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r51_g3bi.pdf",
+          "locator": "Cover lines 0–10 confirms the specified preliminary print; page 3, lines 89–94 identifies Kagan and four joining Justices."
+        },
+        {
+          "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf",
+          "locator": "Cover lines 0–10 confirms the specified preliminary print; page 2, lines 78–84 assigns five Justices to Parts I and III-B and four to Parts II, III-A, and IV; Alito confirms his limited joinder at page 42, lines 1241–1244."
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "variant": "GO",
+      "run_path": "runs/scotus-r01-go-dev-a",
+      "counts": {
+        "correct_fields": 9,
+        "gold_fields": 9,
+        "pred_fields": 9,
+        "item_denominator": 18,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "exact_item_f1": "1",
+      "verification_status": "passed",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.gov/opinions/slipopinion/22",
+          "locator": "Official October Term 2022 table, rows R-50–R-52 (lines 34–36), identifying the three 6/27/23 cases, dockets, and release order."
+        },
+        {
+          "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r50_h3ci.pdf",
+          "locator": "Cover lines 0–10 identifies Volume 600, Part 1 preliminary print and “Page Proof Pending Publication”; attribution lines 177–180 records Roberts and five joining Justices."
+        },
+        {
+          "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r51_g3bi.pdf",
+          "locator": "Cover lines 0–10 identifies the specified preliminary print; attribution lines 89–94 records Kagan and four joining Justices, with no scope restriction."
+        },
+        {
+          "url": "https://www.supremecourt.gov/opinions/22pdf/600us1r52_7l48.pdf",
+          "locator": "Cover lines 0–10 identifies the specified preliminary print; attribution lines 78–84 distinguishes Parts I and III-B (Gorsuch plus four joiners) from Parts II, III-A, and IV (Gorsuch plus three joiners)."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "reason": "Both verified isolated A runs correctly resolve all9fields. No B, attack, finalaudit or formal sampling; release12 reserved future slots (11mandatory and1unused repair).",
+  "formal_means": null,
+  "admitted": false,
+  "human_review": "not_performed",
+  "independent_final_audit": "not_performed",
+  "post_A_stability": "controller_post_A_stability.json"
+}

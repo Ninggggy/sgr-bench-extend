@@ -1,0 +1,314 @@
+[
+  {
+    "pred_index": null,
+    "id": [
+      "2102.13653",
+      "1809.04564"
+    ],
+    "field": "predecessor_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2102.13653",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2102.13653",
+      "1809.04564"
+    ],
+    "field": "replacement_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "1809.04564",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2102.13653",
+      "1809.04564"
+    ],
+    "field": "selected_version",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "v1",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2103.00222",
+      "2011.10443"
+    ],
+    "field": "predecessor_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2103.00222",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2103.00222",
+      "2011.10443"
+    ],
+    "field": "replacement_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2011.10443",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2103.00222",
+      "2011.10443"
+    ],
+    "field": "selected_version",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "v1",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2103.06490",
+      "1911.00234"
+    ],
+    "field": "predecessor_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2103.06490",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2103.06490",
+      "1911.00234"
+    ],
+    "field": "replacement_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "1911.00234",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2103.06490",
+      "1911.00234"
+    ],
+    "field": "selected_version",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "v3",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2104.13818",
+      "1908.06077"
+    ],
+    "field": "predecessor_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2104.13818",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2104.13818",
+      "1908.06077"
+    ],
+    "field": "replacement_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "1908.06077",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2104.13818",
+      "1908.06077"
+    ],
+    "field": "selected_version",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "v1",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2106.14997",
+      "2101.12365"
+    ],
+    "field": "predecessor_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2106.14997",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2106.14997",
+      "2101.12365"
+    ],
+    "field": "replacement_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2101.12365",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2106.14997",
+      "2101.12365"
+    ],
+    "field": "selected_version",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "v6",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2107.01273",
+      "2011.09052"
+    ],
+    "field": "predecessor_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2107.01273",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2107.01273",
+      "2011.09052"
+    ],
+    "field": "replacement_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2011.09052",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2107.01273",
+      "2011.09052"
+    ],
+    "field": "selected_version",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "v1",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2108.08647",
+      "2005.01026"
+    ],
+    "field": "predecessor_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2108.08647",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2108.08647",
+      "2005.01026"
+    ],
+    "field": "replacement_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2005.01026",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2108.08647",
+      "2005.01026"
+    ],
+    "field": "selected_version",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "v2",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2111.03536",
+      "2103.07364"
+    ],
+    "field": "predecessor_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2111.03536",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2111.03536",
+      "2103.07364"
+    ],
+    "field": "replacement_id",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "2103.07364",
+    "correct": false,
+    "reason": "omitted_row"
+  },
+  {
+    "pred_index": null,
+    "id": [
+      "2111.03536",
+      "2103.07364"
+    ],
+    "field": "selected_version",
+    "pred_raw": null,
+    "pred_normalized": null,
+    "gold": "v1",
+    "correct": false,
+    "reason": "omitted_row"
+  }
+]

@@ -1,0 +1,566 @@
+{
+  "task_id": "wateroffice_002",
+  "protocol_version": "ten-task-v1",
+  "recorded_at": "2026-09-09T17:19:58.971985+00:00",
+  "kind": "preselected_old_comparison_not_new_admission",
+  "trials": [
+    {
+      "variant": "CG",
+      "trial": 1,
+      "run_id": "r-2ce6c7d8cdc9",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.8125,
+          "Row-F1": 0.25,
+          "P.O.A.": 0.6666666666666666
+        },
+        "counts": {
+          "correct_fields": 13,
+          "gold_fields": 16,
+          "pred_fields": 16,
+          "item_denominator": 32,
+          "correct_rows": 1,
+          "gold_rows": 4,
+          "pred_rows": 4,
+          "row_denominator": 8,
+          "correct_pairs": 4,
+          "pair_denominator": 6,
+          "shared_ids": 4
+        },
+        "omitted_ids": [],
+        "extra_ids": [],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE001"
+            ],
+            "correct": false
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": false
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE005"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "item_f1_exact": "13/16",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "exposure_keyword_hits": 0
+    },
+    {
+      "variant": "GO",
+      "trial": 1,
+      "run_id": "r-8a12e57411f7",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.2222222222222222,
+          "Row-F1": 0.0,
+          "P.O.A.": 0.6666666666666666
+        },
+        "counts": {
+          "correct_fields": 4,
+          "gold_fields": 16,
+          "pred_fields": 20,
+          "item_denominator": 36,
+          "correct_rows": 0,
+          "gold_rows": 4,
+          "pred_rows": 5,
+          "row_denominator": 9,
+          "correct_pairs": 4,
+          "pair_denominator": 6,
+          "shared_ids": 4
+        },
+        "omitted_ids": [],
+        "extra_ids": [
+          [
+            "08EE002"
+          ]
+        ],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE001"
+            ],
+            "correct": false
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": false
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE005"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "item_f1_exact": "2/9",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "exposure_keyword_hits": 0
+    },
+    {
+      "variant": "CG",
+      "trial": 2,
+      "run_id": "r-7c1136ab22b6",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.8125,
+          "Row-F1": 0.25,
+          "P.O.A.": 0.6666666666666666
+        },
+        "counts": {
+          "correct_fields": 13,
+          "gold_fields": 16,
+          "pred_fields": 16,
+          "item_denominator": 32,
+          "correct_rows": 1,
+          "gold_rows": 4,
+          "pred_rows": 4,
+          "row_denominator": 8,
+          "correct_pairs": 4,
+          "pair_denominator": 6,
+          "shared_ids": 4
+        },
+        "omitted_ids": [],
+        "extra_ids": [],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE001"
+            ],
+            "correct": false
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": false
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE005"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "item_f1_exact": "13/16",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "exposure_keyword_hits": 0
+    },
+    {
+      "variant": "GO",
+      "trial": 2,
+      "run_id": "r-2eca622e3268",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 1.0,
+          "Row-F1": 1.0,
+          "P.O.A.": 1.0
+        },
+        "counts": {
+          "correct_fields": 16,
+          "gold_fields": 16,
+          "pred_fields": 16,
+          "item_denominator": 32,
+          "correct_rows": 4,
+          "gold_rows": 4,
+          "pred_rows": 4,
+          "row_denominator": 8,
+          "correct_pairs": 6,
+          "pair_denominator": 6,
+          "shared_ids": 4
+        },
+        "omitted_ids": [],
+        "extra_ids": [],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE001"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE005"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "item_f1_exact": "1",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "exposure_keyword_hits": 0
+    },
+    {
+      "variant": "CG",
+      "trial": 3,
+      "run_id": "r-f9400c7cb7cb",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.8125,
+          "Row-F1": 0.25,
+          "P.O.A.": 0.6666666666666666
+        },
+        "counts": {
+          "correct_fields": 13,
+          "gold_fields": 16,
+          "pred_fields": 16,
+          "item_denominator": 32,
+          "correct_rows": 1,
+          "gold_rows": 4,
+          "pred_rows": 4,
+          "row_denominator": 8,
+          "correct_pairs": 4,
+          "pair_denominator": 6,
+          "shared_ids": 4
+        },
+        "omitted_ids": [],
+        "extra_ids": [],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE001"
+            ],
+            "correct": false
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": false
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE005"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "item_f1_exact": "13/16",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "exposure_keyword_hits": 0
+    },
+    {
+      "variant": "GO",
+      "trial": 3,
+      "run_id": "r-9f6aeb170c80",
+      "scores": {
+        "status": "deterministic_explicit",
+        "metrics": {
+          "Item-F1": 0.2,
+          "Row-F1": 0.0,
+          "P.O.A.": 0.6666666666666666
+        },
+        "counts": {
+          "correct_fields": 4,
+          "gold_fields": 16,
+          "pred_fields": 24,
+          "item_denominator": 40,
+          "correct_rows": 0,
+          "gold_rows": 4,
+          "pred_rows": 6,
+          "row_denominator": 10,
+          "correct_pairs": 4,
+          "pair_denominator": 6,
+          "shared_ids": 4
+        },
+        "omitted_ids": [],
+        "extra_ids": [
+          [
+            "08EE002"
+          ],
+          [
+            "every target month is consequently incomplete."
+          ]
+        ],
+        "duplicate_ids": [],
+        "order_pairs": [
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE001"
+            ],
+            "correct": false
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": false
+          },
+          {
+            "first": [
+              "08EE004"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE005"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE001"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          },
+          {
+            "first": [
+              "08EE005"
+            ],
+            "second": [
+              "08EE003"
+            ],
+            "correct": true
+          }
+        ],
+        "poa_note": "first occurrence positions; no reordering"
+      },
+      "item_f1_exact": "1/5",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "exposure_keyword_hits": 0
+    }
+  ],
+  "item_f1_means_exact": {
+    "CG": "13/16",
+    "GO": "64/135"
+  },
+  "semantic_review": "completed_original_oracle_geographic_order_conflict_and_GO_condition_omissions",
+  "exposure_review": "targeted_events_inspection.json",
+  "review_path": "error_review.md"
+}

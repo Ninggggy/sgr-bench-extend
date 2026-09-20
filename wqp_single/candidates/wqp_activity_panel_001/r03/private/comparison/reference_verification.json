@@ -1,0 +1,292 @@
+{
+  "reference_values": "all 27 original cells verified from real current official response bodies",
+  "verified_stations": [
+    "TCEQMAIN-10924",
+    "TCEQMAIN-10897",
+    "TCEQMAIN-10892"
+  ],
+  "field_evidence": [
+    {
+      "station": "TCEQMAIN-10924",
+      "field": "HUC",
+      "gold": "12030105",
+      "actual": "12030105",
+      "match": true,
+      "source": "sources/old004_10924.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10924",
+      "field": "MonitoringLocationIdentifier",
+      "gold": "TCEQMAIN-10924",
+      "actual": "TCEQMAIN-10924",
+      "match": true,
+      "source": "sources/old004_10924.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10924",
+      "field": "common_start_year",
+      "gold": "1983",
+      "actual": "1983",
+      "match": true,
+      "source": "sources/old004_10924.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10924",
+      "field": "Inorganics_start",
+      "gold": "1982",
+      "actual": "1982",
+      "match": true,
+      "source": "sources/old004_10924.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10924",
+      "field": "Microbiological_start",
+      "gold": "1983",
+      "actual": "1983",
+      "match": true,
+      "source": "sources/old004_10924.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10924",
+      "field": "Nutrient_start",
+      "gold": "1982",
+      "actual": "1982",
+      "match": true,
+      "source": "sources/old004_10924.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10924",
+      "field": "Organics_Other_start",
+      "gold": "1983",
+      "actual": "1983",
+      "match": true,
+      "source": "sources/old004_10924.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10924",
+      "field": "Organics_PCBs_start",
+      "gold": "1983",
+      "actual": "1983",
+      "match": true,
+      "source": "sources/old004_10924.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10924",
+      "field": "Physical_start",
+      "gold": "1982",
+      "actual": "1982",
+      "match": true,
+      "source": "sources/old004_10924.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10897",
+      "field": "HUC",
+      "gold": "12030202",
+      "actual": "12030202",
+      "match": true,
+      "source": "sources/old004_10897.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10897",
+      "field": "MonitoringLocationIdentifier",
+      "gold": "TCEQMAIN-10897",
+      "actual": "TCEQMAIN-10897",
+      "match": true,
+      "source": "sources/old004_10897.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10897",
+      "field": "common_start_year",
+      "gold": "1993",
+      "actual": "1993",
+      "match": true,
+      "source": "sources/old004_10897.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10897",
+      "field": "Inorganics_start",
+      "gold": "1969",
+      "actual": "1969",
+      "match": true,
+      "source": "sources/old004_10897.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10897",
+      "field": "Microbiological_start",
+      "gold": "1972",
+      "actual": "1972",
+      "match": true,
+      "source": "sources/old004_10897.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10897",
+      "field": "Nutrient_start",
+      "gold": "1972",
+      "actual": "1972",
+      "match": true,
+      "source": "sources/old004_10897.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10897",
+      "field": "Organics_Other_start",
+      "gold": "1993",
+      "actual": "1993",
+      "match": true,
+      "source": "sources/old004_10897.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10897",
+      "field": "Organics_PCBs_start",
+      "gold": "1974",
+      "actual": "1974",
+      "match": true,
+      "source": "sources/old004_10897.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10897",
+      "field": "Physical_start",
+      "gold": "1969",
+      "actual": "1969",
+      "match": true,
+      "source": "sources/old004_10897.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10892",
+      "field": "HUC",
+      "gold": "12030203",
+      "actual": "12030203",
+      "match": true,
+      "source": "sources/old004_10892.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10892",
+      "field": "MonitoringLocationIdentifier",
+      "gold": "TCEQMAIN-10892",
+      "actual": "TCEQMAIN-10892",
+      "match": true,
+      "source": "sources/old004_10892.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10892",
+      "field": "common_start_year",
+      "gold": "1976",
+      "actual": "1976",
+      "match": true,
+      "source": "sources/old004_10892.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10892",
+      "field": "Inorganics_start",
+      "gold": "1969",
+      "actual": "1969",
+      "match": true,
+      "source": "sources/old004_10892.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10892",
+      "field": "Microbiological_start",
+      "gold": "1971",
+      "actual": "1971",
+      "match": true,
+      "source": "sources/old004_10892.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10892",
+      "field": "Nutrient_start",
+      "gold": "1972",
+      "actual": "1972",
+      "match": true,
+      "source": "sources/old004_10892.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10892",
+      "field": "Organics_Other_start",
+      "gold": "1974",
+      "actual": "1974",
+      "match": true,
+      "source": "sources/old004_10892.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10892",
+      "field": "Organics_PCBs_start",
+      "gold": "1976",
+      "actual": "1976",
+      "match": true,
+      "source": "sources/old004_10892.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    },
+    {
+      "station": "TCEQMAIN-10892",
+      "field": "Physical_start",
+      "gold": "1969",
+      "actual": "1969",
+      "match": true,
+      "source": "sources/old004_10892.response",
+      "locator": "Detailed Metadata table / characteristic-group period table; common start=max six starts"
+    }
+  ],
+  "additional_checked_stations": [
+    {
+      "station": "TCEQMAIN-10894",
+      "name": "TRINITY RIVER AT US 90",
+      "HUC": "12030203",
+      "groups": {
+        "Inorganics, Major, Non-metals": [
+          1968,
+          2026
+        ],
+        "Microbiological": [
+          1972,
+          2025
+        ],
+        "Nutrient": [
+          1972,
+          2025
+        ],
+        "Organics, Other": [
+          1974,
+          2026
+        ],
+        "Organics, PCBs": [
+          1976,
+          2017
+        ],
+        "Physical": [
+          1968,
+          2026
+        ]
+      },
+      "passes_six_group_envelopes_and_stream_type": true,
+      "source": "sources/old004_alternative_10894.response"
+    }
+  ],
+  "semantic_status": "limited: public tasks do not define exact upper/middle/lower boundaries or best-common-start ranking required by private metadata; correct old field values do not establish a unique public answer",
+  "CG_GO": "004 both explicitly name six groups and date-envelope eligibility;005 GO omits required groups/order and other conditions",
+  "old_oracle_changed": false,
+  "source_date_note": "Direct HTTP receipts retained; parsed current response bodies, not only older web-tool crawls."
+}

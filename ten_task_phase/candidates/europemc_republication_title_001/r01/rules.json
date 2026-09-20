@@ -1,0 +1,27 @@
+{
+  "columns": [
+    "article_doi",
+    "republication_date",
+    "original_title",
+    "corrected_title"
+  ],
+  "row_key": [
+    "article_doi"
+  ],
+  "fields": {
+    "article_doi": {
+      "type": "string"
+    },
+    "republication_date": {
+      "type": "string"
+    },
+    "original_title": {
+      "type": "string",
+      "uppercase": true
+    },
+    "corrected_title": {
+      "type": "string",
+      "uppercase": true
+    }
+  }
+}

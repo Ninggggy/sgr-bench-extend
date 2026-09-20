@@ -1,0 +1,56 @@
+{
+  "candidate_id": "optimization_guarantee_001",
+  "revision": 2,
+  "at": "2026-09-12T15:42:18.042035+00:00",
+  "decision": "stop_development_a_full_scores",
+  "reason": "Both fresh isolated Sol/medium A trials fullycorrect onall18fields. NoB,attack,finalaudit,formaltrials orscoreseekingrevision.",
+  "trials": [
+    {
+      "variant": "CG",
+      "run_path": "runs/optimization-claim-r02-cg-dev-a",
+      "counts": {
+        "correct_fields": 18,
+        "gold_fields": 18,
+        "pred_fields": 18,
+        "item_denominator": 36,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "exact_item_f1": "36/36",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verification_status": "passed"
+    },
+    {
+      "variant": "GO",
+      "run_path": "runs/optimization-claim-r02-go-dev-a",
+      "counts": {
+        "correct_fields": 18,
+        "gold_fields": 18,
+        "pred_fields": 18,
+        "item_denominator": 36,
+        "correct_rows": 3,
+        "gold_rows": 3,
+        "pred_rows": 3,
+        "row_denominator": 6,
+        "correct_pairs": 3,
+        "pair_denominator": 3,
+        "shared_ids": 3
+      },
+      "exact_item_f1": "36/36",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "verification_status": "passed"
+    }
+  ],
+  "admitted": false,
+  "formal_means": null,
+  "human_review": "not_performed",
+  "independent_final_audit": "not_performed",
+  "source_scope": "Fixed historical paper versions, originalmain-statement claims only; proofdiscrepanciesretained; no live-source stability or proofverification claim."
+}
